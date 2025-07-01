@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-nw8m0gxy.js";
+} from "./chunk-pw3ygjd9.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -41,7 +41,38 @@ var warnings_processed_default = {
             techniques: {
               children: {
                 "3d_on_the_web": {
-                  children: {},
+                  children: {
+                    "building_up_a_basic_demo_with_babylon.js": {
+                      children: {},
+                      slug: "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_Babylon.js",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsfiddle.net/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    building_up_a_basic_demo_with_playcanvas: {
+                      children: {
+                        engine: {
+                          children: {},
+                          slug: "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_PlayCanvas/engine",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
                   slug: "/en-US/docs/Games/Techniques/3D_on_the_web",
                   messages: [
                     {
@@ -1181,19 +1212,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            tls: {
-              children: {},
-              slug: "/en-US/docs/Glossary/TLS",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://support.mozilla.org/en-US/kb/secure-connection-failed-firefox-did-not-connect",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             tofu: {
               children: {},
               slug: "/en-US/docs/Glossary/TOFU",
@@ -1282,8 +1300,61 @@ var warnings_processed_default = {
               children: {
                 accessibility: {
                   children: {
-                    test_your_skills: {
+                    accessibility_troubleshooting: {
                       children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Accessibility_troubleshooting",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsfiddle.net/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    test_your_skills: {
+                      children: {
+                        css_and_javascript: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/CSS_and_JavaScript",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        html: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/HTML",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        "wai-aria": {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/WAI-ARIA",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      },
                       slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills",
                       messages: [
                         {
@@ -1315,6 +1386,19 @@ var warnings_processed_default = {
                 },
                 css_layout: {
                   children: {
+                    fundamental_layout_comprehension: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Fundamental_Layout_Comprehension",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsfiddle.net/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     legacy_layout_methods: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
@@ -1328,6 +1412,31 @@ var warnings_processed_default = {
                           data: [
                             "http://getskeleton.com/",
                             ""
+                          ]
+                        }
+                      ]
+                    },
+                    media_queries: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "media-feature-range-notation",
+                            'Expected "context" media feature range notation (media-feature-range-notation)',
+                            "@media screen and (width: 600px) {",
+                            "1:19 - 1:33",
+                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries
+[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
+~~~
+@media screen and (width: 600px) {
+  body {
+    color: red;
+  }
+}
+~~~
+`
                           ]
                         }
                       ]
@@ -1363,7 +1472,73 @@ var warnings_processed_default = {
                       ]
                     },
                     test_your_skills: {
-                      children: {},
+                      children: {
+                        flexbox: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Flexbox",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        floats: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Floats",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        grid: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Grid",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        position: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Position",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        responsive_design: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Responsive_design",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      },
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills",
                       messages: [
                         {
@@ -1527,13 +1702,6 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phabricator.wikimedia.org/T241180",
-                            "429 Retry-After: 1000"
                           ]
                         }
                       ]
@@ -1746,7 +1914,7 @@ var warnings_processed_default = {
                             `/en-US/docs/Learn_web_development/Core/Scripting/A_first_splash
 [no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
 ~~~
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
   <head>
     <meta charset="utf-8" />
@@ -2186,6 +2354,19 @@ function update(bgColor, textColor) {
                         }
                       ]
                     },
+                    image_gallery: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Image_gallery",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsfiddle.net/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     loops: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Loops",
@@ -2349,6 +2530,153 @@ refused.textContent = 'Refuse: ';
                           ]
                         }
                       ]
+                    },
+                    silly_story_generator: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Silly_story_generator",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsfiddle.net/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    test_your_skills: {
+                      children: {
+                        arrays: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Arrays",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        conditionals: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Conditionals",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        events: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Events",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        functions: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Functions",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        json: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/JSON",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        loops: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Loops",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        math: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Math",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        object_basics: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Object_basics",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        strings: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Strings",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        variables: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Variables",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     }
                   }
                 },
@@ -2536,6 +2864,58 @@ refused.textContent = 'Refuse: ';
                         }
                       ]
                     },
+                    marking_up_a_letter: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Marking_up_a_letter",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsfiddle.net/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    mozilla_splash_page: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Mozilla_splash_page",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsfiddle.net/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    planet_data_table: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Planet_data_table",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsfiddle.net/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    structuring_a_page_of_content: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_a_page_of_content",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsfiddle.net/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     structuring_documents: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents",
@@ -2553,6 +2933,75 @@ refused.textContent = 'Refuse: ';
                           ]
                         }
                       ]
+                    },
+                    test_your_skills: {
+                      children: {
+                        advanced_html_text: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Advanced_HTML_text",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        audio_and_video: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Audio_and_video",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        html_text_basics: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        images: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Images",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        links: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Links",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     }
                   }
                 },
@@ -2578,6 +3027,45 @@ refused.textContent = 'Refuse: ';
                         }
                       ]
                     },
+                    "cool-looking_box": {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Cool-looking_box",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsfiddle.net/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    fancy_letterheaded_paper: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Fancy_letterheaded_paper",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsfiddle.net/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    fundamental_css_comprehension: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Fundamental_CSS_comprehension",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsfiddle.net/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     handling_different_text_directions: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_different_text_directions",
@@ -2598,8 +3086,140 @@ refused.textContent = 'Refuse: ';
                         }
                       ]
                     },
-                    test_your_skills: {
+                    styling_a_bio_page: {
                       children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Styling_a_bio_page",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsfiddle.net/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    test_your_skills: {
+                      children: {
+                        backgrounds_and_borders: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Backgrounds_and_borders",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        box_model: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Box_model",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        cascade: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Cascade",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        images: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Images",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        overflow: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Overflow",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        selectors: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Selectors",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        sizing: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Sizing",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        values: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Values",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://convertingcolors.com/hex-color-86DEFA.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://convertingcolors.com/hex-color-86DEFA.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      },
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills",
                       messages: [
                         {
@@ -2618,6 +3238,36 @@ refused.textContent = 'Refuse: ';
                       ]
                     }
                   ]
+                },
+                text_styling: {
+                  children: {
+                    typesetting_a_homepage: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Typesetting_a_homepage",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsfiddle.net/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    web_fonts: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.exljbris.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 }
               },
               slug: "/en-US/docs/Learn_web_development/Core",
@@ -2634,8 +3284,35 @@ refused.textContent = 'Refuse: ';
               children: {
                 advanced_javascript_objects: {
                   children: {
-                    test_your_skills: {
+                    adding_bouncing_balls_features: {
                       children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Adding_bouncing_balls_features",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsfiddle.net/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    test_your_skills: {
+                      children: {
+                        "object-oriented_javascript": {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Test_your_skills/Object-oriented_JavaScript",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      },
                       slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Test_your_skills",
                       messages: [
                         {
@@ -2665,30 +3342,6 @@ refused.textContent = 'Refuse: ';
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mikethomas/pen/kQjKLW"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "client-side_tools": {
-                  children: {
-                    introducing_complete_toolchain: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/features.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/features.html",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -2728,7 +3381,99 @@ refused.textContent = 'Refuse: ';
                       ]
                     },
                     test_your_skills: {
-                      children: {},
+                      children: {
+                        advanced_styling: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills/Advanced_styling",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        basic_controls: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills/Basic_controls",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        form_structure: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills/Form_structure",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        form_validation: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills/Form_validation",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        input_types: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills/Input_types",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        other_controls: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills/Other_controls",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        styling_basics: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills/Styling_basics",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://jsfiddle.net/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      },
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills",
                       messages: [
                         {
@@ -2828,6 +3573,23 @@ refused.textContent = 'Refuse: ';
                       ]
                     }
                   }
+                },
+                testing: {
+                  children: {
+                    testing_strategies: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://help.ubuntu.com/community/WindowsDualBoot",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 }
               }
             },
@@ -2844,6 +3606,36 @@ refused.textContent = 'Refuse: ';
                           data: [
                             "https://discord.me/frontenddevelopers",
                             403
+                          ]
+                        }
+                      ]
+                    },
+                    finding_a_job: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.upwork.com/",
+                            403
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                your_first_website: {
+                  children: {
+                    publishing_your_website: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Publishing_your_website",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsfiddle.net/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -3064,6 +3856,19 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/downloads.html",
+                            503
+                          ]
                         }
                       ]
                     },
@@ -4966,26 +5771,6 @@ else if (e.target.id === "tabs-alert-info") {
   }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    your_second_webextension: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.iconbeast.com/free/",
-                            "https://www.iconbeast.com/cgi-sys/suspendedpage.cgi"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.iconbeast.com/faq/",
-                            "https://www.iconbeast.com/cgi-sys/suspendedpage.cgi"
                           ]
                         }
                       ]
@@ -7656,19 +8441,6 @@ else if (e.target.id === "tabs-alert-info") {
                         }
                       ]
                     },
-                    "74": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/74",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://support.mozilla.org/en-US/kb/secure-connection-failed-firefox-did-not-connect",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "90": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/90",
@@ -7838,6 +8610,154 @@ else if (e.target.id === "tabs-alert-info") {
                             {
                               message: "Unreachable via sidebar",
                               data: []
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "html-has-lang",
+                                "HTML element should have a lang attribute.",
+                                `<html>
+  <head>
+    <title>Order query Firefox 1.5 Example</title>
+    <style type="text/css">
+      body,
+      p {
+        font-family: Verdana, sans-serif;
+        font-size: 12px;
+      }
+    </style>
+    <script>
+      function onLoad() {
+        loadOnlyFirst();
+        onPageShow();
+      }
+
+      function onPageShow() {
+        // Calculate current time
+        var currentTime = new Date();
+        var year = currentTime.getFullYear();
+        var month = currentTime.getMonth() + 1;
+        var day = currentTime.getDate();
+        var hour = currentTime.getHours();
+        var min = currentTime.getMinutes();
+        var sec = currentTime.getSeconds();
+        var mil = currentTime.getMilliseconds();
+        var displayTime =
+          month +
+          "/" +
+          day +
+          "/" +
+          year +
+          " " +
+          hour +
+          ":" +
+          min +
+          ":" +
+          sec +
+          ":" +
+          mil;
+        document.getElementById("time-field").value = displayTime;
+      }
+
+      function loadOnlyFirst() {
+        document.zipForm.name.focus();
+      }
+    </script>
+  </head>
+  <body onload="onLoad();" onpageshow="if (event.persisted) onPageShow();">
+    <h2>Order query</h2>
+
+    <form
+      name="zipForm"
+      action="http://www.example.com/formresult.html"
+      method="get">
+      <label for="time-field">Date and time:</label>
+      <input type="text" id="time-field" /><br />
+      <label for="name">Name:</label>
+      <input type="text" id="name" /><br />
+      <label for="address">Email address:</label>
+      <input type="text" id="address" /><br />
+      <label for="order">Order number:</label>
+      <input type="text" id="order" /><br />
+      <input type="submit" name="submit" value="Submit Query" />
+    </form>
+  </body>
+</html>`,
+                                "1:0 - 67:7",
+                                `/en-US/docs/Mozilla/Firefox/Releases/1.5/Using_Firefox_1.5_caching
+[html-has-lang] HTML element should have a lang attribute.
+~~~
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>Order query Firefox 1.5 Example</title>
+    <style type="text/css">
+      body,
+      p {
+        font-family: Verdana, sans-serif;
+        font-size: 12px;
+      }
+    </style>
+    <script>
+      function onLoad() {
+        loadOnlyFirst();
+        onPageShow();
+      }
+
+      function onPageShow() {
+        // Calculate current time
+        var currentTime = new Date();
+        var year = currentTime.getFullYear();
+        var month = currentTime.getMonth() + 1;
+        var day = currentTime.getDate();
+        var hour = currentTime.getHours();
+        var min = currentTime.getMinutes();
+        var sec = currentTime.getSeconds();
+        var mil = currentTime.getMilliseconds();
+        var displayTime =
+          month +
+          "/" +
+          day +
+          "/" +
+          year +
+          " " +
+          hour +
+          ":" +
+          min +
+          ":" +
+          sec +
+          ":" +
+          mil;
+        document.getElementById("time-field").value = displayTime;
+      }
+
+      function loadOnlyFirst() {
+        document.zipForm.name.focus();
+      }
+    </script>
+  </head>
+  <body onload="onLoad();" onpageshow="if (event.persisted) onPageShow();">
+    <h2>Order query</h2>
+
+    <form
+      name="zipForm"
+      action="http://www.example.com/formresult.html"
+      method="get">
+      <label for="time-field">Date and time:</label>
+      <input type="text" id="time-field" /><br />
+      <label for="name">Name:</label>
+      <input type="text" id="name" /><br />
+      <label for="address">Email address:</label>
+      <input type="text" id="address" /><br />
+      <label for="order">Order number:</label>
+      <input type="text" id="order" /><br />
+      <input type="submit" name="submit" value="Submit Query" />
+    </form>
+  </body>
+</html>
+~~~
+`
+                              ]
                             }
                           ]
                         },
@@ -9365,16 +10285,6 @@ api.DeviceOrientationEvent`,
                 },
                 document: {
                   children: {
-                    cookie: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/cookie",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        }
-                      ]
-                    },
                     evaluate: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Document/evaluate",
@@ -10197,45 +11107,6 @@ function checkDeadlines() {
                 },
                 node: {
                   children: {
-                    lookupnamespaceuri: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Node/lookupNamespaceURI",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<div style="display: none">',
-                            "0:5 - 0:26",
-                            `/en-US/docs/Web/API/Node/lookupNamespaceURI
-[no-style-attr] Do not use the style attribute.
-~~~
-<div style="display: none">
-  <div>Test HTML element</div>
-  <svg>
-    <text>Test SVG element</text>
-  </svg>
-  <math>Test MathML element</math>
-</div>
-
-<table>
-  <thead>
-    <tr>
-      <th><code>prefix</code></th>
-      <th><code>&lt;div&gt;</code></th>
-      <th><code>&lt;svg&gt;</code></th>
-      <th><code>&lt;math&gt;</code></th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     textcontent: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Node/textContent",
@@ -10264,19 +11135,6 @@ function checkDeadlines() {
                       ]
                     }
                   }
-                },
-                ovr_multiview2: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/OVR_multiview2",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://community.arm.com/arm-community-blogs/b/mobile-graphics-and-gaming-blog/posts/optimizing-virtual-reality-understanding-multiview",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 payment_request_api: {
                   children: {
@@ -10877,2660 +11735,6 @@ function checkDeadlines() {
                       ]
                     }
                   ]
-                },
-                svgfeblendelement: {
-                  children: {
-                    in1: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEBlendElement/in1",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:red;"',
-                            "10:4 - 10:21",
-                            `/en-US/docs/Web/API/SVGFEBlendElement/in1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="blend-filter">
-    <feBlend in="SourceGraphic" operator="over" />
-    <feBlend in="BackgroundImage" operator="in" />
-  </filter>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#blend-filter)" />
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="fill:blue;"
-    filter="url(#blend-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:blue;"',
-                            "16:4 - 16:22",
-                            `/en-US/docs/Web/API/SVGFEBlendElement/in1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="blend-filter">
-    <feBlend in="SourceGraphic" operator="over" />
-    <feBlend in="BackgroundImage" operator="in" />
-  </filter>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#blend-filter)" />
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="fill:blue;"
-    filter="url(#blend-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    in2: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEBlendElement/in2",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:red;"',
-                            "10:4 - 10:21",
-                            `/en-US/docs/Web/API/SVGFEBlendElement/in2
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="blend-filter">
-    <feBlend in="SourceGraphic" in2="SourceAlpha" operator="over" />
-    <feBlend in="SourceGraphic" in2="BackgroundImage" operator="in" />
-  </filter>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#blend-filter)" />
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="fill:blue;"
-    filter="url(#blend-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:blue;"',
-                            "16:4 - 16:22",
-                            `/en-US/docs/Web/API/SVGFEBlendElement/in2
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="blend-filter">
-    <feBlend in="SourceGraphic" in2="SourceAlpha" operator="over" />
-    <feBlend in="SourceGraphic" in2="BackgroundImage" operator="in" />
-  </filter>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#blend-filter)" />
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="fill:blue;"
-    filter="url(#blend-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    mode: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEBlendElement/mode",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:red;"',
-                            "10:4 - 10:21",
-                            `/en-US/docs/Web/API/SVGFEBlendElement/mode
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="blend-filter">
-    <feBlend in="SourceGraphic" in2="SourceAlpha" mode="multiply" />
-    <feBlend in="SourceGraphic" in2="BackgroundImage" mode="screen" />
-  </filter>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#blend-filter)" />
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="fill:blue;"
-    filter="url(#blend-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:blue;"',
-                            "16:4 - 16:22",
-                            `/en-US/docs/Web/API/SVGFEBlendElement/mode
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="blend-filter">
-    <feBlend in="SourceGraphic" in2="SourceAlpha" mode="multiply" />
-    <feBlend in="SourceGraphic" in2="BackgroundImage" mode="screen" />
-  </filter>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#blend-filter)" />
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="fill:blue;"
-    filter="url(#blend-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svgfecolormatrixelement: {
-                  children: {
-                    in1: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEColorMatrixElement/in1",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:red;"',
-                            "16:4 - 16:21",
-                            `/en-US/docs/Web/API/SVGFEColorMatrixElement/in1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="color-matrix-filter">
-    <feColorMatrix
-      in="SourceGraphic"
-      type="matrix"
-      values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
-    <feColorMatrix
-      in="BackgroundImage"
-      type="matrix"
-      values="0.5 0 0 0 0 0 0.5 0 0 0 0 0 0.5 0 0 0 0 0 1 0" />
-  </filter>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#color-matrix-filter)" />
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="fill:blue;"
-    filter="url(#color-matrix-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:blue;"',
-                            "22:4 - 22:22",
-                            `/en-US/docs/Web/API/SVGFEColorMatrixElement/in1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="color-matrix-filter">
-    <feColorMatrix
-      in="SourceGraphic"
-      type="matrix"
-      values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
-    <feColorMatrix
-      in="BackgroundImage"
-      type="matrix"
-      values="0.5 0 0 0 0 0 0.5 0 0 0 0 0 0.5 0 0 0 0 0 1 0" />
-  </filter>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#color-matrix-filter)" />
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="fill:blue;"
-    filter="url(#color-matrix-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    type: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEColorMatrixElement/type",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:red;"',
-                            "12:4 - 12:21",
-                            `/en-US/docs/Web/API/SVGFEColorMatrixElement/type
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="color-matrix-filter">
-    <feColorMatrix
-      type="matrix"
-      values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
-    <feColorMatrix type="saturate" values="0.5" />
-  </filter>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#color-matrix-filter)" />
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="fill:blue;"
-    filter="url(#color-matrix-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:blue;"',
-                            "18:4 - 18:22",
-                            `/en-US/docs/Web/API/SVGFEColorMatrixElement/type
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="color-matrix-filter">
-    <feColorMatrix
-      type="matrix"
-      values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
-    <feColorMatrix type="saturate" values="0.5" />
-  </filter>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#color-matrix-filter)" />
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="fill:blue;"
-    filter="url(#color-matrix-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    values: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEColorMatrixElement/values",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:red;"',
-                            "11:4 - 11:21",
-                            `/en-US/docs/Web/API/SVGFEColorMatrixElement/values
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="color-matrix-filter">
-    <feColorMatrix
-      type="matrix"
-      values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
-  </filter>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#color-matrix-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svgfecomponenttransferelement: {
-                  children: {
-                    in1: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEComponentTransferElement/in1",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:red;"',
-                            "14:4 - 14:21",
-                            `/en-US/docs/Web/API/SVGFEComponentTransferElement/in1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="filter1">
-    <feComponentTransfer in="SourceGraphic">
-      <feFuncR type="table" tableValues="0 1" />
-    </feComponentTransfer>
-    <feComponentTransfer in="BackgroundImage">
-      <feFuncR type="table" tableValues="0.5 1" />
-    </feComponentTransfer>
-  </filter>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#filter1)" />
-  <circle cx="100" cy="100" r="50" style="fill:blue;" filter="url(#filter1)" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '  <circle cx="100" cy="100" r="50" style="fill:blue;" filter="url(#filter1)" />',
-                            "16:35 - 16:53",
-                            `/en-US/docs/Web/API/SVGFEComponentTransferElement/in1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="filter1">
-    <feComponentTransfer in="SourceGraphic">
-      <feFuncR type="table" tableValues="0 1" />
-    </feComponentTransfer>
-    <feComponentTransfer in="BackgroundImage">
-      <feFuncR type="table" tableValues="0.5 1" />
-    </feComponentTransfer>
-  </filter>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#filter1)" />
-  <circle cx="100" cy="100" r="50" style="fill:blue;" filter="url(#filter1)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svgfeconvolvematrixelement: {
-                  children: {
-                    bias: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEConvolveMatrixElement/bias",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "15:4 - 15:27",
-                            `/en-US/docs/Web/API/SVGFEConvolveMatrixElement/bias
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="convolveFilterWithBias">
-      <feConvolveMatrix
-        in="SourceGraphic"
-        order="3"
-        kernelMatrix="0 -1 0 -1 5 -1 0 -1 0"
-        bias="0.25" />
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:lightblue;"
-    filter="url(#convolveFilterWithBias)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    divisor: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEConvolveMatrixElement/divisor",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightgreen;"',
-                            "15:4 - 15:28",
-                            `/en-US/docs/Web/API/SVGFEConvolveMatrixElement/divisor
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="convolveFilterWithDivisor">
-      <feConvolveMatrix
-        in="SourceGraphic"
-        order="3"
-        kernelMatrix="0 -1 0 -1 4 -1 0 -1 0"
-        divisor="1" />
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:lightgreen;"
-    filter="url(#convolveFilterWithDivisor)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    in1: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEConvolveMatrixElement/in1",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "14:4 - 14:27",
-                            `/en-US/docs/Web/API/SVGFEConvolveMatrixElement/in1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="convolveFilter">
-      <feConvolveMatrix
-        in="SourceGraphic"
-        order="3"
-        kernelMatrix="0 -1 0 -1 4 -1 0 -1 0" />
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:lightblue;"
-    filter="url(#convolveFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svgfediffuselightingelement: {
-                  children: {
-                    diffuseconstant: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEDiffuseLightingElement/diffuseConstant",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "16:4 - 16:27",
-                            `/en-US/docs/Web/API/SVGFEDiffuseLightingElement/diffuseConstant
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="diffuseLightingFilter">
-      <feDiffuseLighting
-        in="SourceGraphic"
-        diffuseConstant="1.5"
-        lighting-color="white">
-        <feDistantLight azimuth="45" elevation="55" />
-      </feDiffuseLighting>
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:lightblue;"
-    filter="url(#diffuseLightingFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    in1: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEDiffuseLightingElement/in1",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "17:4 - 17:27",
-                            `/en-US/docs/Web/API/SVGFEDiffuseLightingElement/in1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="diffuseLightingFilter">
-      <feDiffuseLighting
-        in="SourceGraphic"
-        result="diffuseLightingResult"
-        lighting-color="white"
-        surfaceScale="1">
-        <feDistantLight azimuth="45" elevation="55" />
-      </feDiffuseLighting>
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:lightblue;"
-    filter="url(#diffuseLightingFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    surfacescale: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEDiffuseLightingElement/surfaceScale",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "16:4 - 16:27",
-                            `/en-US/docs/Web/API/SVGFEDiffuseLightingElement/surfaceScale
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="diffuseLightingFilter">
-      <feDiffuseLighting
-        in="SourceGraphic"
-        surfaceScale="2"
-        lighting-color="white">
-        <feDistantLight azimuth="45" elevation="55" />
-      </feDiffuseLighting>
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:lightblue;"
-    filter="url(#diffuseLightingFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svgfedisplacementmapelement: {
-                  children: {
-                    in1: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEDisplacementMapElement/in1",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:red;"',
-                            "19:4 - 19:21",
-                            `/en-US/docs/Web/API/SVGFEDisplacementMapElement/in1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="filter1">
-      <!-- First Displacement Map -->
-      <feDisplacementMap in="SourceGraphic" scale="20">
-        <feFuncR type="table" tableValues="0 1" />
-      </feDisplacementMap>
-
-      <!-- Second Displacement Map -->
-      <feDisplacementMap in="BackgroundImage" scale="30">
-        <feFuncR type="table" tableValues="0.5 1" />
-      </feDisplacementMap>
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#filter1)" />
-  <circle cx="100" cy="100" r="50" style="fill:blue;" filter="url(#filter1)" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '  <circle cx="100" cy="100" r="50" style="fill:blue;" filter="url(#filter1)" />',
-                            "21:35 - 21:53",
-                            `/en-US/docs/Web/API/SVGFEDisplacementMapElement/in1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="filter1">
-      <!-- First Displacement Map -->
-      <feDisplacementMap in="SourceGraphic" scale="20">
-        <feFuncR type="table" tableValues="0 1" />
-      </feDisplacementMap>
-
-      <!-- Second Displacement Map -->
-      <feDisplacementMap in="BackgroundImage" scale="30">
-        <feFuncR type="table" tableValues="0.5 1" />
-      </feDisplacementMap>
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#filter1)" />
-  <circle cx="100" cy="100" r="50" style="fill:blue;" filter="url(#filter1)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    in2: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEDisplacementMapElement/in2",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:red;"',
-                            "19:4 - 19:21",
-                            `/en-US/docs/Web/API/SVGFEDisplacementMapElement/in2
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="filter1">
-      <!-- First Displacement Map -->
-      <feDisplacementMap in="SourceGraphic" in2="BackgroundImage" scale="20">
-        <feFuncR type="table" tableValues="0 1" />
-      </feDisplacementMap>
-
-      <!-- Second Displacement Map -->
-      <feDisplacementMap in="SourceGraphic" in2="BackgroundImage" scale="30">
-        <feFuncR type="table" tableValues="0.5 1" />
-      </feDisplacementMap>
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#filter1)" />
-  <circle cx="100" cy="100" r="50" style="fill:blue;" filter="url(#filter1)" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '  <circle cx="100" cy="100" r="50" style="fill:blue;" filter="url(#filter1)" />',
-                            "21:35 - 21:53",
-                            `/en-US/docs/Web/API/SVGFEDisplacementMapElement/in2
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="filter1">
-      <!-- First Displacement Map -->
-      <feDisplacementMap in="SourceGraphic" in2="BackgroundImage" scale="20">
-        <feFuncR type="table" tableValues="0 1" />
-      </feDisplacementMap>
-
-      <!-- Second Displacement Map -->
-      <feDisplacementMap in="SourceGraphic" in2="BackgroundImage" scale="30">
-        <feFuncR type="table" tableValues="0.5 1" />
-      </feDisplacementMap>
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#filter1)" />
-  <circle cx="100" cy="100" r="50" style="fill:blue;" filter="url(#filter1)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    scale: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEDisplacementMapElement/scale",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:red;"',
-                            "14:4 - 14:21",
-                            `/en-US/docs/Web/API/SVGFEDisplacementMapElement/scale
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="filter1">
-      <!-- Displacement Map -->
-      <feDisplacementMap in="SourceGraphic" scale="20">
-        <feFuncR type="table" tableValues="0 1" />
-      </feDisplacementMap>
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#filter1)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    xchannelselector: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEDisplacementMapElement/xChannelSelector",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:red;"',
-                            "14:4 - 14:21",
-                            `/en-US/docs/Web/API/SVGFEDisplacementMapElement/xChannelSelector
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="displacementFilter">
-      <!-- Displacement Map with xChannelSelector set to Red Channel -->
-      <feDisplacementMap in="SourceGraphic" scale="20" xChannelSelector="R">
-        <feFuncR type="table" tableValues="0 1" />
-      </feDisplacementMap>
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#displacementFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    ychannelselector: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEDisplacementMapElement/yChannelSelector",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:green;"',
-                            "14:4 - 14:23",
-                            `/en-US/docs/Web/API/SVGFEDisplacementMapElement/yChannelSelector
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="displacementFilter">
-      <!-- Displacement Map with yChannelSelector set to Red Channel -->
-      <feDisplacementMap in="SourceGraphic" scale="20" yChannelSelector="G">
-        <feFuncR type="table" tableValues="0 1" />
-      </feDisplacementMap>
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:green;"
-    filter="url(#displacementFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svgfedistantlightelement: {
-                  children: {
-                    azimuth: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEDistantLightElement/azimuth",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:yellow;"',
-                            "14:4 - 14:24",
-                            `/en-US/docs/Web/API/SVGFEDistantLightElement/azimuth
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="lightingFilter">
-      <feDistantLight azimuth="45" elevation="30" />
-      <feDiffuseLighting result="light" lighting-color="white" surfaceScale="2">
-        <feDistantLight azimuth="45" elevation="30" />
-      </feDiffuseLighting>
-    </filter>
-  </defs>
-  <rect
-    x="50"
-    y="50"
-    width="100"
-    height="100"
-    style="fill:yellow;"
-    filter="url(#lightingFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    elevation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEDistantLightElement/elevation",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:yellow;"',
-                            "14:4 - 14:24",
-                            `/en-US/docs/Web/API/SVGFEDistantLightElement/elevation
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="lightingFilter">
-      <feDistantLight azimuth="45" elevation="30" />
-      <feDiffuseLighting result="light" lighting-color="white" surfaceScale="2">
-        <feDistantLight azimuth="45" elevation="30" />
-      </feDiffuseLighting>
-    </filter>
-  </defs>
-  <rect
-    x="50"
-    y="50"
-    width="100"
-    height="100"
-    style="fill:yellow;"
-    filter="url(#lightingFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svgfedropshadowelement: {
-                  children: {
-                    dx: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEDropShadowElement/dx",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:red;"',
-                            "19:4 - 19:21",
-                            `/en-US/docs/Web/API/SVGFEDropShadowElement/dx
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="drop-shadow-filter">
-      <!-- Drop Shadow with dx property set to 10 -->
-      <feDropShadow
-        in="SourceGraphic"
-        dx="10"
-        dy="10"
-        stdDeviation="5"
-        flood-color="red" />
-    </filter>
-  </defs>
-
-  <!-- Rectangle with a red shadow -->
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#drop-shadow-filter)" />
-
-  <!-- Circle with a red shadow -->
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="fill:blue;"
-    filter="url(#drop-shadow-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:blue;"',
-                            "27:4 - 27:22",
-                            `/en-US/docs/Web/API/SVGFEDropShadowElement/dx
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="drop-shadow-filter">
-      <!-- Drop Shadow with dx property set to 10 -->
-      <feDropShadow
-        in="SourceGraphic"
-        dx="10"
-        dy="10"
-        stdDeviation="5"
-        flood-color="red" />
-    </filter>
-  </defs>
-
-  <!-- Rectangle with a red shadow -->
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#drop-shadow-filter)" />
-
-  <!-- Circle with a red shadow -->
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="fill:blue;"
-    filter="url(#drop-shadow-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    dy: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEDropShadowElement/dy",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:red;"',
-                            "19:4 - 19:21",
-                            `/en-US/docs/Web/API/SVGFEDropShadowElement/dy
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="drop-shadow-filter">
-      <!-- Drop Shadow with dy property set to 10 -->
-      <feDropShadow
-        in="SourceGraphic"
-        dx="10"
-        dy="10"
-        stdDeviation="5"
-        flood-color="red" />
-    </filter>
-  </defs>
-
-  <!-- Rectangle with a red shadow -->
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#drop-shadow-filter)" />
-
-  <!-- Circle with a red shadow -->
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="fill:blue;"
-    filter="url(#drop-shadow-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:blue;"',
-                            "27:4 - 27:22",
-                            `/en-US/docs/Web/API/SVGFEDropShadowElement/dy
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="drop-shadow-filter">
-      <!-- Drop Shadow with dy property set to 10 -->
-      <feDropShadow
-        in="SourceGraphic"
-        dx="10"
-        dy="10"
-        stdDeviation="5"
-        flood-color="red" />
-    </filter>
-  </defs>
-
-  <!-- Rectangle with a red shadow -->
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#drop-shadow-filter)" />
-
-  <!-- Circle with a red shadow -->
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="fill:blue;"
-    filter="url(#drop-shadow-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    in1: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEDropShadowElement/in1",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:red;"',
-                            "25:4 - 25:21",
-                            `/en-US/docs/Web/API/SVGFEDropShadowElement/in1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="drop-shadow-filter">
-      <!-- First Drop Shadow applied to the SourceGraphic -->
-      <feDropShadow
-        in="SourceGraphic"
-        dx="10"
-        dy="10"
-        stdDeviation="5"
-        flood-color="red" />
-      <!-- Second Drop Shadow applied to the BackgroundImage -->
-      <feDropShadow
-        in="BackgroundImage"
-        dx="-10"
-        dy="-10"
-        stdDeviation="5"
-        flood-color="blue" />
-    </filter>
-  </defs>
-  <!-- Rectangle with red shadow -->
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#drop-shadow-filter)" />
-  <!-- Circle with blue shadow -->
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="fill:blue;"
-    filter="url(#drop-shadow-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:blue;"',
-                            "32:4 - 32:22",
-                            `/en-US/docs/Web/API/SVGFEDropShadowElement/in1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="drop-shadow-filter">
-      <!-- First Drop Shadow applied to the SourceGraphic -->
-      <feDropShadow
-        in="SourceGraphic"
-        dx="10"
-        dy="10"
-        stdDeviation="5"
-        flood-color="red" />
-      <!-- Second Drop Shadow applied to the BackgroundImage -->
-      <feDropShadow
-        in="BackgroundImage"
-        dx="-10"
-        dy="-10"
-        stdDeviation="5"
-        flood-color="blue" />
-    </filter>
-  </defs>
-  <!-- Rectangle with red shadow -->
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#drop-shadow-filter)" />
-  <!-- Circle with blue shadow -->
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="fill:blue;"
-    filter="url(#drop-shadow-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    setstddeviation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEDropShadowElement/setStdDeviation",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:red;"',
-                            "18:4 - 18:21",
-                            `/en-US/docs/Web/API/SVGFEDropShadowElement/setStdDeviation
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg height="200" width="200" viewBox="0 0 200 200">
-  <defs>
-    <filter id="drop-shadow-filter">
-      <feDropShadow
-        in="SourceGraphic"
-        dx="10"
-        dy="10"
-        stdDeviation="5 5"
-        flood-color="gray" />
-    </filter>
-  </defs>
-
-  <!-- Rectangle with an initial gray shadow -->
-  <rect
-    x="50"
-    y="50"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#drop-shadow-filter)" />
-</svg>
-
-<!-- Button to update the shadow -->
-<button id="updateShadow" type="button">Update Shadow</button>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    stddeviationx: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEDropShadowElement/stdDeviationX",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:red;"',
-                            "19:4 - 19:21",
-                            `/en-US/docs/Web/API/SVGFEDropShadowElement/stdDeviationX
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="drop-shadow-filter">
-      <!-- Drop Shadow with stdDeviationY property set to 10 for vertical blur -->
-      <feDropShadow
-        in="SourceGraphic"
-        dx="10"
-        dy="10"
-        stdDeviation="5 10"
-        flood-color="gray" />
-    </filter>
-  </defs>
-
-  <!-- Rectangle with a gray shadow -->
-  <rect
-    x="50"
-    y="50"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#drop-shadow-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    stddeviationy: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEDropShadowElement/stdDeviationY",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:red;"',
-                            "19:4 - 19:21",
-                            `/en-US/docs/Web/API/SVGFEDropShadowElement/stdDeviationY
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="drop-shadow-filter">
-      <!-- Drop Shadow with stdDeviationY property set to 10 for vertical blur -->
-      <feDropShadow
-        in="SourceGraphic"
-        dx="10"
-        dy="10"
-        stdDeviation="5 10"
-        flood-color="gray" />
-    </filter>
-  </defs>
-
-  <!-- Rectangle with a gray shadow -->
-  <rect
-    x="50"
-    y="50"
-    width="100"
-    height="100"
-    style="fill:red;"
-    filter="url(#drop-shadow-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svgfegaussianblurelement: {
-                  children: {
-                    in1: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEGaussianBlurElement/in1",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:rebeccapurple;"',
-                            "22:4 - 22:31",
-                            `/en-US/docs/Web/API/SVGFEGaussianBlurElement/in1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="gaussian-blur-filter">
-      <!-- Gaussian blur applied to the SourceGraphic -->
-      <feGaussianBlur
-        in="SourceGraphic"
-        stdDeviation="5"
-        result="blurred-source" />
-      <!-- Gaussian blur applied to the BackgroundImage -->
-      <feGaussianBlur
-        in="BackgroundImage"
-        stdDeviation="10"
-        result="blurred-background" />
-    </filter>
-  </defs>
-
-  <!-- Rectangle with SourceGraphic blur effect -->
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:rebeccapurple;"
-    filter="url(#gaussian-blur-filter)" />
-
-  <!-- Circle with BackgroundImage blur effect -->
-  <circle
-    cx="150"
-    cy="100"
-    r="50"
-    style="fill:hotpink;"
-    filter="url(#gaussian-blur-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:hotpink;"',
-                            "30:4 - 30:25",
-                            `/en-US/docs/Web/API/SVGFEGaussianBlurElement/in1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="gaussian-blur-filter">
-      <!-- Gaussian blur applied to the SourceGraphic -->
-      <feGaussianBlur
-        in="SourceGraphic"
-        stdDeviation="5"
-        result="blurred-source" />
-      <!-- Gaussian blur applied to the BackgroundImage -->
-      <feGaussianBlur
-        in="BackgroundImage"
-        stdDeviation="10"
-        result="blurred-background" />
-    </filter>
-  </defs>
-
-  <!-- Rectangle with SourceGraphic blur effect -->
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:rebeccapurple;"
-    filter="url(#gaussian-blur-filter)" />
-
-  <!-- Circle with BackgroundImage blur effect -->
-  <circle
-    cx="150"
-    cy="100"
-    r="50"
-    style="fill:hotpink;"
-    filter="url(#gaussian-blur-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    setstddeviation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEGaussianBlurElement/setStdDeviation",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:hotpink;"',
-                            "16:4 - 16:25",
-                            `/en-US/docs/Web/API/SVGFEGaussianBlurElement/setStdDeviation
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="gaussian-blur-filter">
-      <feGaussianBlur
-        in="SourceGraphic"
-        stdDeviation="5 5"
-        result="blurred-graphic" />
-    </filter>
-  </defs>
-
-  <!-- Rectangle with an initial blur effect -->
-  <rect
-    x="50"
-    y="50"
-    width="100"
-    height="100"
-    style="fill:hotpink;"
-    filter="url(#gaussian-blur-filter)" />
-</svg>
-
-<!-- Button to update the blur -->
-<button id="updateBlur">Update Blur</button>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    stddeviationx: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEGaussianBlurElement/stdDeviationX",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:hotpink;"',
-                            "17:4 - 17:25",
-                            `/en-US/docs/Web/API/SVGFEGaussianBlurElement/stdDeviationX
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="gaussian-blur-filter">
-      <!-- Apply Gaussian Blur with stdDeviationX set to 5 and stdDeviationY set to 10 -->
-      <feGaussianBlur
-        in="SourceGraphic"
-        stdDeviation="5 10"
-        result="blurred-graphic" />
-    </filter>
-  </defs>
-
-  <!-- Rectangle with a Gaussian blur effect -->
-  <rect
-    x="50"
-    y="50"
-    width="100"
-    height="100"
-    style="fill:hotpink;"
-    filter="url(#gaussian-blur-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    stddeviationy: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEGaussianBlurElement/stdDeviationY",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:hotpink;"',
-                            "17:4 - 17:25",
-                            `/en-US/docs/Web/API/SVGFEGaussianBlurElement/stdDeviationY
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="gaussian-blur-filter">
-      <!-- Apply Gaussian Blur with stdDeviationY set to 5 and stdDeviationY set to 10 -->
-      <feGaussianBlur
-        in="SourceGraphic"
-        stdDeviation="5 10"
-        result="blurred-graphic" />
-    </filter>
-  </defs>
-
-  <!-- Rectangle with a Gaussian blur effect -->
-  <rect
-    x="50"
-    y="50"
-    width="100"
-    height="100"
-    style="fill:hotpink;"
-    filter="url(#gaussian-blur-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svgfeimageelement: {
-                  children: {
-                    href: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEImageElement/href",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:blue;"',
-                            "19:4 - 19:22",
-                            `/en-US/docs/Web/API/SVGFEImageElement/href
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200">
-  <defs>
-    <filter id="image-filter">
-      <!-- feImage element referencing an external image -->
-      <feImage
-        href="https://via.placeholder.com/150"
-        x="0"
-        y="0"
-        width="150"
-        height="150" />
-    </filter>
-  </defs>
-
-  <!-- Rectangle with the filter applied -->
-  <rect
-    x="50"
-    y="50"
-    width="200"
-    height="100"
-    style="fill:blue;"
-    filter="url(#image-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    preserveaspectratio: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEImageElement/preserveAspectRatio",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:blue;"',
-                            "20:4 - 20:22",
-                            `/en-US/docs/Web/API/SVGFEImageElement/preserveAspectRatio
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200">
-  <defs>
-    <filter id="image-filter">
-      <!-- feImage element with preserveAspectRatio attribute -->
-      <feImage
-        href="https://via.placeholder.com/150"
-        x="0"
-        y="0"
-        width="150"
-        height="150"
-        preserveAspectRatio="xMidYMid meet" />
-    </filter>
-  </defs>
-
-  <!-- Rectangle with the filter applied -->
-  <rect
-    x="50"
-    y="50"
-    width="200"
-    height="100"
-    style="fill:blue;"
-    filter="url(#image-filter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svgfemergenodeelement: {
-                  children: {
-                    in1: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEMergeNodeElement/in1",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "15:4 - 15:27",
-                            `/en-US/docs/Web/API/SVGFEMergeNodeElement/in1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="mergeFilter">
-      <!-- Merges two inputs -->
-      <feMerge>
-        <feMergeNode in="SourceGraphic" />
-        <feMergeNode in="BackgroundImage" />
-      </feMerge>
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:lightblue;"
-    filter="url(#mergeFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svgfemorphologyelement: {
-                  children: {
-                    in1: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEMorphologyElement/in1",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "12:4 - 12:27",
-                            `/en-US/docs/Web/API/SVGFEMorphologyElement/in1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="morphologyFilter">
-      <!-- Applies a morphology filter to the SourceGraphic -->
-      <feMorphology in="SourceGraphic" operator="dilate" radius="2" />
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:lightblue;"
-    filter="url(#morphologyFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    operator: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEMorphologyElement/operator",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "12:4 - 12:27",
-                            `/en-US/docs/Web/API/SVGFEMorphologyElement/operator
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="morphologyFilter">
-      <!-- Applies a morphology filter with the "dilate" operator -->
-      <feMorphology in="SourceGraphic" operator="dilate" radius="3" />
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:lightblue;"
-    filter="url(#morphologyFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    radiusx: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEMorphologyElement/radiusX",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "12:4 - 12:27",
-                            `/en-US/docs/Web/API/SVGFEMorphologyElement/radiusX
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="morphologyFilter">
-      <!-- Applies a morphology filter with a specific radius -->
-      <feMorphology in="SourceGraphic" operator="dilate" radius="5 3" />
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:lightblue;"
-    filter="url(#morphologyFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    radiusy: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEMorphologyElement/radiusY",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "12:4 - 12:27",
-                            `/en-US/docs/Web/API/SVGFEMorphologyElement/radiusY
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="morphologyFilter">
-      <!-- Applies a morphology filter with a specific radius -->
-      <feMorphology in="SourceGraphic" operator="dilate" radius="5 3" />
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:lightblue;"
-    filter="url(#morphologyFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svgfeoffsetelement: {
-                  children: {
-                    dx: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEOffsetElement/dx",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "12:4 - 12:27",
-                            `/en-US/docs/Web/API/SVGFEOffsetElement/dx
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="offsetFilter">
-      <!-- Applies an offset to the SourceGraphic -->
-      <feOffset in="SourceGraphic" dx="15" dy="10" />
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:lightblue;"
-    filter="url(#offsetFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    dy: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEOffsetElement/dy",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "12:4 - 12:27",
-                            `/en-US/docs/Web/API/SVGFEOffsetElement/dy
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="offsetFilter">
-      <!-- Applies an offset to the SourceGraphic -->
-      <feOffset in="SourceGraphic" dx="15" dy="10" />
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:lightblue;"
-    filter="url(#offsetFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    in1: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFEOffsetElement/in1",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "12:4 - 12:27",
-                            `/en-US/docs/Web/API/SVGFEOffsetElement/in1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="offsetFilter">
-      <!-- Applies an offset to the SourceGraphic -->
-      <feOffset in="SourceGraphic" dx="10" dy="10" />
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:lightblue;"
-    filter="url(#offsetFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svgfespecularlightingelement: {
-                  children: {
-                    in1: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFESpecularLightingElement/in1",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "18:4 - 18:27",
-                            `/en-US/docs/Web/API/SVGFESpecularLightingElement/in1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="specularLightingFilter">
-      <!-- Adds specular lighting effect to the SourceGraphic -->
-      <feSpecularLighting
-        in="SourceGraphic"
-        specularExponent="20"
-        lighting-color="hotpink"
-        surfaceScale="2">
-        <fePointLight x="50" y="50" z="30" />
-      </feSpecularLighting>
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:lightblue;"
-    filter="url(#specularLightingFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    specularconstant: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFESpecularLightingElement/specularConstant",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "17:4 - 17:27",
-                            `/en-US/docs/Web/API/SVGFESpecularLightingElement/specularConstant
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="specularLightingFilter">
-      <!-- Applies specular lighting with a constant specular reflectance -->
-      <feSpecularLighting
-        in="SourceGraphic"
-        specularConstant="0.5"
-        lighting-color="hotpink">
-        <fePointLight x="50" y="50" z="30" />
-      </feSpecularLighting>
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:lightblue;"
-    filter="url(#specularLightingFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    specularexponent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFESpecularLightingElement/specularExponent",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "17:4 - 17:27",
-                            `/en-US/docs/Web/API/SVGFESpecularLightingElement/specularExponent
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="specularLightingFilter">
-      <!-- Adds specular lighting with a specified exponent -->
-      <feSpecularLighting
-        in="SourceGraphic"
-        specularExponent="40"
-        lighting-color="hotpink">
-        <fePointLight x="50" y="50" z="30" />
-      </feSpecularLighting>
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:lightblue;"
-    filter="url(#specularLightingFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    surfacescale: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFESpecularLightingElement/surfaceScale",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "18:4 - 18:27",
-                            `/en-US/docs/Web/API/SVGFESpecularLightingElement/surfaceScale
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="specularLightingFilter">
-      <!-- Adds specular lighting with a surface scale -->
-      <feSpecularLighting
-        in="SourceGraphic"
-        specularExponent="20"
-        lighting-color="hotpink"
-        surfaceScale="3">
-        <fePointLight x="50" y="50" z="30" />
-      </feSpecularLighting>
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:lightblue;"
-    filter="url(#specularLightingFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svgfespotlightelement: {
-                  children: {
-                    limitingconeangle: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFESpotLightElement/limitingConeAngle",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "26:4 - 26:27",
-                            `/en-US/docs/Web/API/SVGFESpotLightElement/limitingConeAngle
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="specularLightingFilter">
-      <!-- Apply a specular light effect to the SourceGraphic -->
-      <feSpecularLighting
-        in="SourceGraphic"
-        specularExponent="40"
-        lighting-color="lime"
-        surfaceScale="5">
-        <feSpotLight
-          x="100"
-          y="100"
-          z="50"
-          pointsAtX="100"
-          pointsAtY="100"
-          limitingConeAngle="30"
-          specularExponent="40" />
-      </feSpecularLighting>
-    </filter>
-  </defs>
-
-  <!-- A circle to display the effect of the lighting -->
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="fill:lightblue;"
-    filter="url(#specularLightingFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    specularexponent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFESpotLightElement/specularExponent",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "23:4 - 23:27",
-                            `/en-US/docs/Web/API/SVGFESpotLightElement/specularExponent
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="specularLightingFilter">
-      <!-- Apply a specular light effect to the SourceGraphic -->
-      <feSpecularLighting
-        in="SourceGraphic"
-        specularExponent="40"
-        lighting-color="hotpink"
-        surfaceScale="5">
-        <feSpotLight
-          x="100"
-          y="100"
-          z="50"
-          pointsAtX="100"
-          pointsAtY="100"
-          specularExponent="40" />
-      </feSpecularLighting>
-    </filter>
-  </defs>
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="fill:lightblue;"
-    filter="url(#specularLightingFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svgfetileelement: {
-                  children: {
-                    in1: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFETileElement/in1",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:hotpink;"',
-                            "12:4 - 12:25",
-                            `/en-US/docs/Web/API/SVGFETileElement/in1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="tileFilter">
-      <!-- Tiles the SourceGraphic -->
-      <feTile in="SourceGraphic" />
-    </filter>
-  </defs>
-  <rect
-    x="20"
-    y="20"
-    width="100"
-    height="100"
-    style="fill:hotpink;"
-    filter="url(#tileFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                svgfeturbulenceelement: {
-                  children: {
-                    basefrequencyx: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFETurbulenceElement/baseFrequencyX",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "15:4 - 15:27",
-                            `/en-US/docs/Web/API/SVGFETurbulenceElement/baseFrequencyX
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="turbulenceFilter">
-      <feTurbulence
-        type="fractalNoise"
-        baseFrequency="0.5 0.25"
-        numOctaves="4" />
-    </filter>
-  </defs>
-
-  <rect
-    x="20"
-    y="20"
-    width="160"
-    height="160"
-    style="fill:lightblue;"
-    filter="url(#turbulenceFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    basefrequencyy: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFETurbulenceElement/baseFrequencyY",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "15:4 - 15:27",
-                            `/en-US/docs/Web/API/SVGFETurbulenceElement/baseFrequencyY
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="turbulenceFilter">
-      <feTurbulence
-        type="fractalNoise"
-        baseFrequency="0.5 0.25"
-        numOctaves="4" />
-    </filter>
-  </defs>
-
-  <rect
-    x="20"
-    y="20"
-    width="160"
-    height="160"
-    style="fill:lightblue;"
-    filter="url(#turbulenceFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    numoctaves: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFETurbulenceElement/numOctaves",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "12:4 - 12:27",
-                            `/en-US/docs/Web/API/SVGFETurbulenceElement/numOctaves
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="turbulenceFilter">
-      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="4" />
-    </filter>
-  </defs>
-
-  <rect
-    x="20"
-    y="20"
-    width="160"
-    height="160"
-    style="fill:lightblue;"
-    filter="url(#turbulenceFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    seed: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFETurbulenceElement/seed",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "16:4 - 16:27",
-                            `/en-US/docs/Web/API/SVGFETurbulenceElement/seed
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="turbulenceFilter">
-      <feTurbulence
-        type="fractalNoise"
-        baseFrequency="0.05"
-        numOctaves="3"
-        seed="1234" />
-    </filter>
-  </defs>
-
-  <rect
-    x="20"
-    y="20"
-    width="160"
-    height="160"
-    style="fill:lightblue;"
-    filter="url(#turbulenceFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    stitchtiles: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFETurbulenceElement/stitchTiles",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "16:4 - 16:27",
-                            `/en-US/docs/Web/API/SVGFETurbulenceElement/stitchTiles
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="turbulenceFilter">
-      <feTurbulence
-        type="fractalNoise"
-        baseFrequency="0.05"
-        numOctaves="3"
-        stitchTiles="stitch" />
-    </filter>
-  </defs>
-
-  <rect
-    x="20"
-    y="20"
-    width="160"
-    height="160"
-    style="fill:lightblue;"
-    filter="url(#turbulenceFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    type: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGFETurbulenceElement/type",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="fill:lightblue;"',
-                            "16:4 - 16:27",
-                            `/en-US/docs/Web/API/SVGFETurbulenceElement/type
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="turbulenceFilter">
-      <feTurbulence
-        type="fractalNoise"
-        baseFrequency="0.05"
-        numOctaves="3"
-        result="turbulence" />
-    </filter>
-  </defs>
-
-  <rect
-    x="20"
-    y="20"
-    width="160"
-    height="160"
-    style="fill:lightblue;"
-    filter="url(#turbulenceFilter)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 svgrenderingintent: {
                   children: {},
@@ -14356,13 +12560,6 @@ document.getElementById("terminate").addEventListener("click", () => {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/features.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -14873,23 +13070,6 @@ function displayPoseStats(pose) {
                           message: "Not in BCD",
                           data: [
                             "api.WorkerNavigator.setAppBadge"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                worker: {
-                  children: {
-                    worker: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Worker/Worker",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/features.html",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -15518,24 +13698,7 @@ css.selectors.-webkit-resizer`,
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/@counter-style",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                "@document": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/@document",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
+                  }
                 },
                 "@font-face": {
                   children: {
@@ -16159,57 +14322,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "media-feature-name-no-unknown",
-                            'Unexpected unknown media feature name "none" (media-feature-name-no-unknown)',
-                            "@media (update: < none | slow | fast >) {",
-                            "1:19 - 1:23",
-                            `/en-US/docs/Web/CSS/@media/update
-[media-feature-name-no-unknown] Unexpected unknown media feature name "none" (media-feature-name-no-unknown)
-~~~
-@media (update: < none | slow | fast >) {
-  /* styles to apply if the update frequency of the output device is a match */
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "media-feature-name-no-unknown",
-                            'Unexpected unknown media feature name "fast" (media-feature-name-no-unknown)',
-                            "@media (update: < none | slow | fast >) {",
-                            "1:33 - 1:37",
-                            `/en-US/docs/Web/CSS/@media/update
-[media-feature-name-no-unknown] Unexpected unknown media feature name "fast" (media-feature-name-no-unknown)
-~~~
-@media (update: < none | slow | fast >) {
-  /* styles to apply if the update frequency of the output device is a match */
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "media-query-no-invalid",
-                            'Unexpected invalid media query "(update: < none | slow | fast >)" (media-query-no-invalid)',
-                            "@media (update: < none | slow | fast >) {",
-                            "1:8 - 1:40",
-                            `/en-US/docs/Web/CSS/@media/update
-[media-query-no-invalid] Unexpected invalid media query "(update: < none | slow | fast >)" (media-query-no-invalid)
-~~~
-@media (update: < none | slow | fast >) {
-  /* styles to apply if the update frequency of the output device is a match */
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -16236,10 +14348,6 @@ css.selectors.-webkit-resizer`,
                   },
                   slug: "/en-US/docs/Web/CSS/@media",
                   messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    },
                     {
                       message: "No link to child page",
                       data: [
@@ -16319,16 +14427,6 @@ css.selectors.-webkit-resizer`,
                 "@starting-style": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/@starting-style",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                "@supports": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/@supports",
                   messages: [
                     {
                       message: "Missing syntax code block",
@@ -16529,16 +14627,6 @@ attr(data-rotation deg)
                     }
                   ]
                 },
-                attribute_selectors: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/Attribute_selectors",
-                  messages: [
-                    {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
                 "box-flex": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/box-flex",
@@ -16611,6 +14699,114 @@ attr(data-rotation deg)
                     }
                   ]
                 },
+                calc: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/calc",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "lch(from rebeccapurple l c calc(h + 80))" for property "color" (declaration-property-value-no-unknown)',
+                        "  color: lch(from rebeccapurple l c calc(h + 80));",
+                        "11:10 - 11:50",
+                        `/en-US/docs/Web/CSS/calc
+[declaration-property-value-no-unknown] Unexpected unknown value "lch(from rebeccapurple l c calc(h + 80))" for property "color" (declaration-property-value-no-unknown)
+~~~
+p {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.original {
+  color: rebeccapurple;
+}
+
+.increase-hue {
+  color: lch(from rebeccapurple l c calc(h + 80));
+}
+
+.increase-lightness {
+  color: lch(from rebeccapurple calc(l + 20) c h);
+}
+
+.decrease-lightness {
+  color: lch(from rebeccapurple calc(l - 10) c h);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "lch(from rebeccapurple calc(l + 20) c h)" for property "color" (declaration-property-value-no-unknown)',
+                        "  color: lch(from rebeccapurple calc(l + 20) c h);",
+                        "15:10 - 15:50",
+                        `/en-US/docs/Web/CSS/calc
+[declaration-property-value-no-unknown] Unexpected unknown value "lch(from rebeccapurple calc(l + 20) c h)" for property "color" (declaration-property-value-no-unknown)
+~~~
+p {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.original {
+  color: rebeccapurple;
+}
+
+.increase-hue {
+  color: lch(from rebeccapurple l c calc(h + 80));
+}
+
+.increase-lightness {
+  color: lch(from rebeccapurple calc(l + 20) c h);
+}
+
+.decrease-lightness {
+  color: lch(from rebeccapurple calc(l - 10) c h);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "lch(from rebeccapurple calc(l - 10) c h)" for property "color" (declaration-property-value-no-unknown)',
+                        "  color: lch(from rebeccapurple calc(l - 10) c h);",
+                        "19:10 - 19:50",
+                        `/en-US/docs/Web/CSS/calc
+[declaration-property-value-no-unknown] Unexpected unknown value "lch(from rebeccapurple calc(l - 10) c h)" for property "color" (declaration-property-value-no-unknown)
+~~~
+p {
+  font-family: monospace;
+  font-size: 16px;
+}
+
+.original {
+  color: rebeccapurple;
+}
+
+.increase-hue {
+  color: lch(from rebeccapurple l c calc(h + 80));
+}
+
+.increase-lightness {
+  color: lch(from rebeccapurple calc(l + 20) c h);
+}
+
+.decrease-lightness {
+  color: lch(from rebeccapurple calc(l - 10) c h);
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 "calc-keyword": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/calc-keyword",
@@ -16625,6 +14821,245 @@ attr(data-rotation deg)
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/calc-value"
+                      ]
+                    }
+                  ]
+                },
+                "calc-size": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/calc-size",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "calc-size(calc-size(max-content, size), size + 2rem)" for property "height" (declaration-property-value-no-unknown)',
+                        "  height: calc-size(calc-size(max-content, size), size + 2rem);",
+                        "2:11 - 2:63",
+                        `/en-US/docs/Web/CSS/calc-size
+[declaration-property-value-no-unknown] Unexpected unknown value "calc-size(calc-size(max-content, size), size + 2rem)" for property "height" (declaration-property-value-no-unknown)
+~~~
+section {
+  height: calc-size(calc-size(max-content, size), size + 2rem);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "calc-size(300px + 2rem, size / 2)" for property "height" (declaration-property-value-no-unknown)',
+                        "  height: calc-size(300px + 2rem, size / 2);",
+                        "2:11 - 2:44",
+                        `/en-US/docs/Web/CSS/calc-size
+[declaration-property-value-no-unknown] Unexpected unknown value "calc-size(300px + 2rem, size / 2)" for property "height" (declaration-property-value-no-unknown)
+~~~
+section {
+  height: calc-size(300px + 2rem, size / 2);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "calc-size(auto, size)" for property "width" (declaration-property-value-no-unknown)',
+                        "  width: calc-size(auto, size);",
+                        "8:10 - 8:31",
+                        `/en-US/docs/Web/CSS/calc-size
+[declaration-property-value-no-unknown] Unexpected unknown value "calc-size(auto, size)" for property "width" (declaration-property-value-no-unknown)
+~~~
+section {
+  width: 0;
+  transition: width ease 1s;
+}
+
+section:hover,
+section:focus {
+  width: calc-size(auto, size);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "calc-size(auto, size + 2rem)" for property "width" (declaration-property-value-no-unknown)',
+                        "  width: calc-size(auto, size + 2rem);",
+                        "8:10 - 8:38",
+                        `/en-US/docs/Web/CSS/calc-size
+[declaration-property-value-no-unknown] Unexpected unknown value "calc-size(auto, size + 2rem)" for property "width" (declaration-property-value-no-unknown)
+~~~
+section {
+  width: 0;
+  transition: width ease 1s;
+}
+
+section:hover,
+section:focus {
+  width: calc-size(auto, size + 2rem);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "calc-size(fit-content, size + 6rem)" for property "width" (declaration-property-value-no-unknown)',
+                        "  width: calc-size(fit-content, size + 6rem);",
+                        "28:10 - 28:45",
+                        `/en-US/docs/Web/CSS/calc-size
+[declaration-property-value-no-unknown] Unexpected unknown value "calc-size(fit-content, size + 6rem)" for property "width" (declaration-property-value-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+section {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc-size(fit-content, size + 6rem);
+  height: calc-size(auto, size * 2);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "calc-size(auto, size * 2)" for property "height" (declaration-property-value-no-unknown)',
+                        "  height: calc-size(auto, size * 2);",
+                        "29:11 - 29:36",
+                        `/en-US/docs/Web/CSS/calc-size
+[declaration-property-value-no-unknown] Unexpected unknown value "calc-size(auto, size * 2)" for property "height" (declaration-property-value-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+section {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid black;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc-size(fit-content, size + 6rem);
+  height: calc-size(auto, size * 2);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "calc-size(max-content, size + 2rem)" for property "height" (declaration-property-value-no-unknown)',
+                        "  height: calc-size(max-content, size + 2rem);",
+                        "50:11 - 50:46",
+                        `/en-US/docs/Web/CSS/calc-size
+[declaration-property-value-no-unknown] Unexpected unknown value "calc-size(max-content, size + 2rem)" for property "height" (declaration-property-value-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+section {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 175px;
+  border-radius: 5px;
+  background: #eee;
+  box-shadow:
+    inset 1px 1px 4px rgb(255 255 255 / 0.5),
+    inset -1px -1px 4px rgb(0 0 0 / 0.5);
+}
+
+header {
+  padding: 10px;
+  border-bottom: 2px solid #ccc;
+}
+
+main {
+  padding: 0.7rem;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+p,
+li {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+p {
+  margin-top: 0;
+}
+
+section {
+  height: 2.5rem;
+  overflow: hidden;
+  transition: height ease 1s;
+}
+
+section:hover,
+section:focus {
+  height: calc-size(max-content, size + 2rem);
+}
+~~~
+`
                       ]
                     }
                   ]
@@ -17011,13 +15446,6 @@ lab(from hsl(0 100% 50%) calc(l + 20) calc(a - 20) calc(b - 40) / calc(alpha - 0
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://lea.verou.me/blog/2020/04/lch-colors-in-css-what-why-and-how/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -17102,13 +15530,6 @@ lch(from hsl(0 100% 50% / 0.8) l c h / 0.5)
 lch(from hsl(0 100% 50%) calc(l + 20) calc(c - 20) calc(h - 40) / calc(alpha - 0.1))
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://lea.verou.me/blog/2020/04/lch-colors-in-css-what-why-and-how/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -17822,300 +16243,6 @@ form {
                 },
                 css_backgrounds_and_borders: {
                   children: {
-                    scaling_of_svg_backgrounds: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Scaling_of_SVG_backgrounds",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '      <stop style="stop-color:pink" offset="0" />',
-                            "4:12 - 4:35",
-                            `/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Scaling_of_SVG_backgrounds
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg>
-  <title>Corner-to-corner gradient</title>
-  <defs>
-    <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="100%">
-      <stop style="stop-color:pink" offset="0" />
-      <stop style="stop-color:goldenrod" offset="1" />
-    </linearGradient>
-  </defs>
-  <rect style="fill: url(#g)" width="100%" height="100%" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '      <stop style="stop-color:goldenrod" offset="1" />',
-                            "5:12 - 5:40",
-                            `/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Scaling_of_SVG_backgrounds
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg>
-  <title>Corner-to-corner gradient</title>
-  <defs>
-    <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="100%">
-      <stop style="stop-color:pink" offset="0" />
-      <stop style="stop-color:goldenrod" offset="1" />
-    </linearGradient>
-  </defs>
-  <rect style="fill: url(#g)" width="100%" height="100%" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '  <rect style="fill: url(#g)" width="100%" height="100%" />',
-                            "8:8 - 8:29",
-                            `/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Scaling_of_SVG_backgrounds
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg>
-  <title>Corner-to-corner gradient</title>
-  <defs>
-    <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="100%">
-      <stop style="stop-color:pink" offset="0" />
-      <stop style="stop-color:goldenrod" offset="1" />
-    </linearGradient>
-  </defs>
-  <rect style="fill: url(#g)" width="100%" height="100%" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '      <stop style="stop-color: purple;" offset="0" />',
-                            "4:12 - 4:39",
-                            `/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Scaling_of_SVG_backgrounds
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg width="100">
-  <title>Vertical gradient, with a fixed width</title>
-  <defs>
-    <linearGradient id="g" x1="0%" x2="0%" y1="0%" y2="100%">
-      <stop style="stop-color: purple;" offset="0" />
-      <stop style="stop-color: lime;" offset="1" />
-    </linearGradient>
-  </defs>
-  <rect style="fill: url(#g);" width="100%" height="100%" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '      <stop style="stop-color: lime;" offset="1" />',
-                            "5:12 - 5:37",
-                            `/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Scaling_of_SVG_backgrounds
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg width="100">
-  <title>Vertical gradient, with a fixed width</title>
-  <defs>
-    <linearGradient id="g" x1="0%" x2="0%" y1="0%" y2="100%">
-      <stop style="stop-color: purple;" offset="0" />
-      <stop style="stop-color: lime;" offset="1" />
-    </linearGradient>
-  </defs>
-  <rect style="fill: url(#g);" width="100%" height="100%" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '  <rect style="fill: url(#g);" width="100%" height="100%" />',
-                            "8:8 - 8:30",
-                            `/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Scaling_of_SVG_backgrounds
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg width="100">
-  <title>Vertical gradient, with a fixed width</title>
-  <defs>
-    <linearGradient id="g" x1="0%" x2="0%" y1="0%" y2="100%">
-      <stop style="stop-color: purple;" offset="0" />
-      <stop style="stop-color: lime;" offset="1" />
-    </linearGradient>
-  </defs>
-  <rect style="fill: url(#g);" width="100%" height="100%" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '      <stop style="stop-color: teal;" offset="0" />',
-                            "4:12 - 4:37",
-                            `/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Scaling_of_SVG_backgrounds
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg height="100" viewBox="0 0 3 4" preserveAspectRatio="none">
-  <title>Vertical gradient, with a fixed height and intrinsic ratio</title>
-  <defs>
-    <linearGradient id="g" x1="0%" x2="0%" y1="0%" y2="100%">
-      <stop style="stop-color: teal;" offset="0" />
-      <stop style="stop-color: orange;" offset="1" />
-    </linearGradient>
-  </defs>
-  <rect style="fill: url(#g);" width="100%" height="100%" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '      <stop style="stop-color: orange;" offset="1" />',
-                            "5:12 - 5:39",
-                            `/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Scaling_of_SVG_backgrounds
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg height="100" viewBox="0 0 3 4" preserveAspectRatio="none">
-  <title>Vertical gradient, with a fixed height and intrinsic ratio</title>
-  <defs>
-    <linearGradient id="g" x1="0%" x2="0%" y1="0%" y2="100%">
-      <stop style="stop-color: teal;" offset="0" />
-      <stop style="stop-color: orange;" offset="1" />
-    </linearGradient>
-  </defs>
-  <rect style="fill: url(#g);" width="100%" height="100%" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '  <rect style="fill: url(#g);" width="100%" height="100%" />',
-                            "8:8 - 8:30",
-                            `/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Scaling_of_SVG_backgrounds
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg height="100" viewBox="0 0 3 4" preserveAspectRatio="none">
-  <title>Vertical gradient, with a fixed height and intrinsic ratio</title>
-  <defs>
-    <linearGradient id="g" x1="0%" x2="0%" y1="0%" y2="100%">
-      <stop style="stop-color: teal;" offset="0" />
-      <stop style="stop-color: orange;" offset="1" />
-    </linearGradient>
-  </defs>
-  <rect style="fill: url(#g);" width="100%" height="100%" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '      <stop style="stop-color: navy;" offset="0" />',
-                            "4:12 - 4:37",
-                            `/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Scaling_of_SVG_backgrounds
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 1 1" preserveAspectRatio="none">
-  <title>Intrinsic ratio</title>
-  <defs>
-    <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="0%">
-      <stop style="stop-color: navy;" offset="0" />
-      <stop style="stop-color: maroon;" offset="1" />
-    </linearGradient>
-  </defs>
-  <rect style="fill: url(#g);" width="100%" height="100%" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '      <stop style="stop-color: maroon;" offset="1" />',
-                            "5:12 - 5:39",
-                            `/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Scaling_of_SVG_backgrounds
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 1 1" preserveAspectRatio="none">
-  <title>Intrinsic ratio</title>
-  <defs>
-    <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="0%">
-      <stop style="stop-color: navy;" offset="0" />
-      <stop style="stop-color: maroon;" offset="1" />
-    </linearGradient>
-  </defs>
-  <rect style="fill: url(#g);" width="100%" height="100%" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '  <rect style="fill: url(#g);" width="100%" height="100%" />',
-                            "8:8 - 8:30",
-                            `/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Scaling_of_SVG_backgrounds
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 1 1" preserveAspectRatio="none">
-  <title>Intrinsic ratio</title>
-  <defs>
-    <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="0%">
-      <stop style="stop-color: navy;" offset="0" />
-      <stop style="stop-color: maroon;" offset="1" />
-    </linearGradient>
-  </defs>
-  <rect style="fill: url(#g);" width="100%" height="100%" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     using_multiple_backgrounds: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Using_multiple_backgrounds",
@@ -18204,62 +16331,6 @@ form {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                css_cascade: {
-                  children: {
-                    specificity: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_cascade/Specificity",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `<style>
-  @import "TW.css" layer();
-  p,
-  p * {
-    font-size: 1rem;
-  }
-</style>`,
-                            "0:0 - 6:8",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Specificity
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<style>
-  @import "TW.css" layer();
-  p,
-  p * {
-    font-size: 1rem;
-  }
-</style>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `<style>
-  @import "importantOverrides.css" layer();
-</style>`,
-                            "0:0 - 2:8",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Specificity
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<style>
-  @import "importantOverrides.css" layer();
-</style>
-~~~
-`
-                          ]
                         }
                       ]
                     }
@@ -19018,73 +17089,34 @@ rgb(from red r g b / alpha)
                           ]
                         },
                         {
-                          message: "HTML code issue",
+                          message: "CSS code issue",
                           data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '  <div id="container" class="comp" style="--base-color: #ff0000;">',
-                            "50:35 - 50:65",
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "rgb(from red 150 g b / alpha)" for property "background-color" (declaration-property-value-no-unknown)',
+                            "  background-color: rgb(from red 150 g b / alpha);",
+                            "18:21 - 18:50",
                             `/en-US/docs/Web/CSS/CSS_colors/Relative_colors
-[no-style-attr] Do not use the style attribute.
+[declaration-property-value-no-unknown] Unexpected unknown value "rgb(from red 150 g b / alpha)" for property "background-color" (declaration-property-value-no-unknown)
 ~~~
-<div>
-  <h1>Color palette generator</h1>
-  <form>
-    <div id="color-picker">
-      <label for="color">Select a base color:</label>
-      <input type="color" id="color" name="color" value="#ff0000" />
-    </div>
-    <div>
-      <fieldset>
-        <legend>Select a color palette type:</legend>
+#container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
 
-        <div>
-          <input
-            type="radio"
-            id="comp"
-            name="palette-type"
-            value="comp"
-            checked />
-          <label for="comp">Complementary</label>
-        </div>
+.item {
+  flex: 1;
+  margin: 20px;
+}
 
-        <div>
-          <input
-            type="radio"
-            id="triadic"
-            name="palette-type"
-            value="triadic" />
-          <label for="triadic">Triadic</label>
-        </div>
+#one {
+  background-color: red;
+}
 
-        <div>
-          <input
-            type="radio"
-            id="tetradic"
-            name="palette-type"
-            value="tetradic" />
-          <label for="tetradic">Tetradic</label>
-        </div>
-
-        <div>
-          <input
-            type="radio"
-            id="monochrome"
-            name="palette-type"
-            value="monochrome" />
-          <label for="monochrome">Monochrome</label>
-        </div>
-      </fieldset>
-    </div>
-  </form>
-  <div id="container" class="comp" style="--base-color: #ff0000;">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-  </div>
-</div>
+#two {
+  background-color: rgb(from red 150 g b / alpha);
+}
 ~~~
 `
                           ]
@@ -19216,47 +17248,6 @@ rgb(from red r g b / alpha)
                           ]
                         }
                       ]
-                    },
-                    "multi-keyword_syntax_of_display": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_display/multi-keyword_syntax_of_display",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onchange".',
-                            '  <select id="displayType" onchange="changeDisplayType()">',
-                            "2:27 - 2:57",
-                            `/en-US/docs/Web/CSS/CSS_display/multi-keyword_syntax_of_display
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<div id="controls">
-  <label for="displayType">display:</label>
-  <select id="displayType" onchange="changeDisplayType()">
-    <option value="block">block</option>
-    <option value="flow-root">flow-root</option>
-    <option value="block flow-root">block flow-root</option>
-    <option value="inline">inline</option>
-    <option value="inline flow-root">inline flow-root</option>
-  </select>
-</div>
-
-<div id="parent">
-  <p id="child">The #child paragraph (nested in #parent).</p>
-</div>
-<p id="sibling">The #sibling paragraph (sibling of #parent).</p>
-
-<p>
-  This paragraph has a span <span class="inline-block">with padding</span> it is
-  an inline-block so the padding is contained and pushes the other line boxes
-  away.
-</p>
-~~~
-`
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -19291,6 +17282,19 @@ css.at-rules.font-face.WOFF_2`,
                 },
                 css_grid_layout: {
                   children: {
+                    grid_layout_and_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_and_accessibility",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     grids_logical_values_and_writing_modes: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grids_logical_values_and_writing_modes",
@@ -20171,19 +18175,6 @@ css.properties.grid-template-rows.masonry`,
                           ]
                         }
                       ]
-                    },
-                    using_media_queries_for_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries_for_accessibility",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2020/09/design-reduced-motion-sensitivities/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/CSS/CSS_media_queries",
@@ -20527,165 +18518,6 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
 ~~~
 `
                       ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-script",
-                        "Do not write JS within the <script> element; use separate JS blocks instead.",
-                        `<script>
-  const pre = document.querySelector("pre");
-  const val = document.getElementById("overflowValue");
-  const check = document.getElementById("wide");
-  const ocm = document.getElementById("ocm");
-  const scrollL = document.getElementById("scrollL");
-  const scrollT = document.getElementById("scrollT");
-
-  val.addEventListener("change", () => {
-    if (pre.classList.contains("wide")) {
-      pre.className = \`wide \${val.value}\`;
-    } else {
-      pre.className = \`\${val.value}\`;
-    }
-    scrollExample();
-    clipMargin();
-  });
-
-  wide.addEventListener("change", () => {
-    pre.classList.toggle("wide");
-    scrollExample();
-  });
-
-  ocm.addEventListener("change", () => {
-    clipMargin();
-  });
-
-  scrollL.addEventListener("change", () => {
-    scrollExample();
-  });
-  scrollT.addEventListener("change", () => {
-    scrollExample();
-  });
-
-  function scrollExample() {
-    pre.scrollTo({
-      top: scrollT.value,
-      left: scrollL.value * 2,
-      behavior: "smooth",
-    });
-  }
-
-  function clipMargin() {
-    pre.style.overflowClipMargin = \`\${ocm.value}em\`;
-  }
-</script>`,
-                        "54:0 - 99:9",
-                        `/en-US/docs/Web/CSS/CSS_overflow
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<article>
-  <fieldset>
-    <legend>Select options:</legend>
-    <label
-      ><code>overflow</code>:
-      <select id="overflowValue">
-        <option>hidden</option>
-        <option>clip</option>
-        <option>scroll</option>
-        <option>auto</option>
-        <option selected>visible</option>
-        <option>overlay</option>
-      </select>
-    </label>
-    <label>
-      <code>overflow-clip-margin</code>:
-      <input type="number" id="ocm" value="1" min="0" max="10" size="2" />
-      <code>em</code>
-    </label>
-    <label
-      ><input type="checkbox" id="wide" /> <code>width</code>:
-      <code>20em</code> or <code>40em</code></label
-    >
-    <fieldset>
-      <legend>Scroll programmatically:</legend>
-      <label
-        >ScrollLeft:
-        <input type="range" min="0" max="100" value="0" id="scrollL"
-      /></label>
-      <label
-        >ScrollTop:
-        <input type="range" min="0" max="100" value="0" id="scrollT"
-      /></label>
-    </fieldset>
-  </fieldset>
-  <pre class="visible">&nbsp;
-    Oh, Rubber Duckie, you're the one
-    You make bath time lots of fun
-    Rubber Duckie, I'm awfully fond of you
-
-    Rubber Duckie, joy of joys
-    When I squeeze you, you make noise
-    Rubber Duckie, you're my very best friend, it's true
-
-    Oh, every day when I make my way to the tubby
-    I find a little fella who's cute and yellow and chubby
-    Rub-a-dub-dubby
-
-    <a href="#">Rubber Duckie</a>, you're so fine
-    And I'm lucky that you're mine
-    Rubber Duckie, I'm awfully fond of you
-      </pre>
-</article>
-
-<script>
-  const pre = document.querySelector("pre");
-  const val = document.getElementById("overflowValue");
-  const check = document.getElementById("wide");
-  const ocm = document.getElementById("ocm");
-  const scrollL = document.getElementById("scrollL");
-  const scrollT = document.getElementById("scrollT");
-
-  val.addEventListener("change", () => {
-    if (pre.classList.contains("wide")) {
-      pre.className = \`wide \${val.value}\`;
-    } else {
-      pre.className = \`\${val.value}\`;
-    }
-    scrollExample();
-    clipMargin();
-  });
-
-  wide.addEventListener("change", () => {
-    pre.classList.toggle("wide");
-    scrollExample();
-  });
-
-  ocm.addEventListener("change", () => {
-    clipMargin();
-  });
-
-  scrollL.addEventListener("change", () => {
-    scrollExample();
-  });
-  scrollT.addEventListener("change", () => {
-    scrollExample();
-  });
-
-  function scrollExample() {
-    pre.scrollTo({
-      top: scrollT.value,
-      left: scrollL.value * 2,
-      behavior: "smooth",
-    });
-  }
-
-  function clipMargin() {
-    pre.style.overflowClipMargin = \`\${ocm.value}em\`;
-  }
-</script>
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -20773,106 +18605,6 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                     }
                   ]
                 },
-                css_transforms: {
-                  children: {
-                    using_css_transforms: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_transforms/Using_CSS_transforms",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            `  style="rotate: 90deg;
-      transform-origin: bottom left;"`,
-                            "1:2 - 2:37",
-                            `/en-US/docs/Web/CSS/CSS_transforms/Using_CSS_transforms
-[no-style-attr] Do not use the style attribute.
-~~~
-<img
-  style="rotate: 90deg;
-      transform-origin: bottom left;"
-  src="logo.png"
-  alt="MDN Logo" />
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            `  style="transform: skewX(10deg) translateX(150px);
-            transform-origin: bottom left;"`,
-                            "1:2 - 2:43",
-                            `/en-US/docs/Web/CSS/CSS_transforms/Using_CSS_transforms
-[no-style-attr] Do not use the style attribute.
-~~~
-<img
-  style="transform: skewX(10deg) translateX(150px);
-            transform-origin: bottom left;"
-  src="logo.png"
-  alt="MDN logo" />
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                css_transitions: {
-                  children: {
-                    using_css_transitions: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-script",
-                            "Do not write JS within the <script> element; use separate JS blocks instead.",
-                            `<script>
-  // Make the ball move to a certain position:
-  const f = document.getElementById("foo");
-  document.addEventListener(
-    "click",
-    (ev) => {
-      f.style.transform = \`translateY(\${ev.clientY - 25}px)\`;
-      f.style.transform += \`translateX(\${ev.clientX - 25}px)\`;
-    },
-    false,
-  );
-</script>`,
-                            "3:0 - 14:9",
-                            `/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<p>Click anywhere to move the ball</p>
-<div id="foo" class="ball"></div>
-
-<script>
-  // Make the ball move to a certain position:
-  const f = document.getElementById("foo");
-  document.addEventListener(
-    "click",
-    (ev) => {
-      f.style.transform = \`translateY(\${ev.clientY - 25}px)\`;
-      f.style.transform += \`translateX(\${ev.clientX - 25}px)\`;
-    },
-    false,
-  );
-</script>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_values_and_units: {
                   children: {
                     css_data_types: {
@@ -20920,6 +18652,39 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       ]
                     }
                   }
+                },
+                display: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/display",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "display-box": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/display-box",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 "easing-function": {
                   children: {
@@ -21136,188 +18901,6 @@ steps(10, jump-both)
                     }
                   ]
                 },
-                element: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/element",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '  style="width:400px; height:400px; background:-moz-element(#myBackground1) no-repeat;">',
-                        "1:2 - 1:87",
-                        `/en-US/docs/Web/CSS/element
-[no-style-attr] Do not use the style attribute.
-~~~
-<div
-  style="width:400px; height:400px; background:-moz-element(#myBackground1) no-repeat;">
-  <p>This box uses the element with the #myBackground1 ID as its background!</p>
-</div>
-
-<div style="overflow:hidden; height:0;">
-  <div
-    id="myBackground1"
-    style="width:1024px; height:1024px; background-image: linear-gradient(to right, red, orange, yellow, white);">
-    <p style="transform-origin:0 0; rotate: 45deg; color:white;">
-      This text is part of the background. Cool, huh?
-    </p>
-  </div>
-</div>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '<div style="overflow:hidden; height:0;">',
-                        "5:5 - 5:39",
-                        `/en-US/docs/Web/CSS/element
-[no-style-attr] Do not use the style attribute.
-~~~
-<div
-  style="width:400px; height:400px; background:-moz-element(#myBackground1) no-repeat;">
-  <p>This box uses the element with the #myBackground1 ID as its background!</p>
-</div>
-
-<div style="overflow:hidden; height:0;">
-  <div
-    id="myBackground1"
-    style="width:1024px; height:1024px; background-image: linear-gradient(to right, red, orange, yellow, white);">
-    <p style="transform-origin:0 0; rotate: 45deg; color:white;">
-      This text is part of the background. Cool, huh?
-    </p>
-  </div>
-</div>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '    style="width:1024px; height:1024px; background-image: linear-gradient(to right, red, orange, yellow, white);">',
-                        "8:4 - 8:113",
-                        `/en-US/docs/Web/CSS/element
-[no-style-attr] Do not use the style attribute.
-~~~
-<div
-  style="width:400px; height:400px; background:-moz-element(#myBackground1) no-repeat;">
-  <p>This box uses the element with the #myBackground1 ID as its background!</p>
-</div>
-
-<div style="overflow:hidden; height:0;">
-  <div
-    id="myBackground1"
-    style="width:1024px; height:1024px; background-image: linear-gradient(to right, red, orange, yellow, white);">
-    <p style="transform-origin:0 0; rotate: 45deg; color:white;">
-      This text is part of the background. Cool, huh?
-    </p>
-  </div>
-</div>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '    <p style="transform-origin:0 0; rotate: 45deg; color:white;">',
-                        "9:7 - 9:64",
-                        `/en-US/docs/Web/CSS/element
-[no-style-attr] Do not use the style attribute.
-~~~
-<div
-  style="width:400px; height:400px; background:-moz-element(#myBackground1) no-repeat;">
-  <p>This box uses the element with the #myBackground1 ID as its background!</p>
-</div>
-
-<div style="overflow:hidden; height:0;">
-  <div
-    id="myBackground1"
-    style="width:1024px; height:1024px; background-image: linear-gradient(to right, red, orange, yellow, white);">
-    <p style="transform-origin:0 0; rotate: 45deg; color:white;">
-      This text is part of the background. Cool, huh?
-    </p>
-  </div>
-</div>
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                filter: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/filter",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '    style="fill: var(--text-primary);"></path>',
-                        "9:4 - 9:38",
-                        `/en-US/docs/Web/CSS/filter
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  id="MDN-logo"
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 361 104.2"
-  xml:space="preserve"
-  role="img">
-  <title>MDN Web Docs</title>
-  <path
-    d="M197.6 73.2h-17.1v-5.5h3.8V51.9c0-3.7-.7-6.3-2.1-7.9-1.4-1.6-3.3-2.3-5.7-2.3-3.2 0-5.6 1.1-7.2 3.4s-2.4 4.6-2.5 6.9v15.6h6v5.5h-17.1v-5.5h3.8V51.9c0-3.8-.7-6.4-2.1-7.9-1.4-1.5-3.3-2.3-5.6-2.3-3.2 0-5.5 1.1-7.2 3.3-1.6 2.2-2.4 4.5-2.5 6.9v15.8h6.9v5.5h-20.2v-5.5h6V42.4h-6.1v-5.6h13.4v6.4c1.2-2.1 2.7-3.8 4.7-5.2 2-1.3 4.4-2 7.3-2s5.3.7 7.5 2.1c2.2 1.4 3.7 3.5 4.5 6.4 1.1-2.5 2.7-4.5 4.9-6.1s4.8-2.4 7.9-2.4c3.5 0 6.5 1.1 8.9 3.3s3.7 5.6 3.7 10.2v18.2h6.1v5.5zm42.5 0h-13.2V66c-1.2 2.2-2.8 4.1-4.9 5.6-2.1 1.6-4.8 2.4-8.3 2.4-4.8 0-8.7-1.6-11.6-4.9-2.9-3.2-4.3-7.7-4.3-13.3 0-5 1.3-9.6 4-13.7 2.6-4.1 6.9-6.2 12.8-6.2s9.8 2.2 12.3 6.5V22.7h-8.6v-5.6h15.8v50.6h6v5.5zm-13.3-16.8V52c-.1-3-1.2-5.5-3.2-7.3s-4.4-2.8-7.2-2.8c-3.6 0-6.3 1.3-8.2 3.9-1.9 2.6-2.8 5.8-2.8 9.6 0 4.1 1 7.3 3 9.5s4.5 3.3 7.4 3.3c3.2 0 5.8-1.3 7.8-3.8 2.1-2.6 3.1-5.3 3.2-8zm61.5 16.8H269v-5.5h6V51.9c0-3.7-.7-6.3-2.2-7.9-1.4-1.6-3.4-2.3-5.7-2.3-3.1 0-5.6 1-7.4 3s-2.8 4.4-2.9 7v15.9h6v5.5h-19.3v-5.5h6V42.4h-6.2v-5.6h13.6V43c2.6-4.6 6.8-6.9 12.7-6.9 3.6 0 6.7 1.1 9.2 3.3s3.7 5.6 3.7 10.2v18.2h6v5.4h-.2z"
-    style="fill: var(--text-primary);"></path>
-  <g style="fill:blue;">
-    <path
-      d="M42 .2 13.4 92.3H1.7L30.2.2H42zM52.4.2v92.1H42V.2h10.4zm40.3 0L64.2 92.3H52.5L81 .2h11.7zM103.1.2v92.1H92.7V.2h10.4zM294 95h67v8.8h-67V95z"></path>
-  </g>
-</svg>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '  <g style="fill:blue;">',
-                        "10:5 - 10:23",
-                        `/en-US/docs/Web/CSS/filter
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  id="MDN-logo"
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 361 104.2"
-  xml:space="preserve"
-  role="img">
-  <title>MDN Web Docs</title>
-  <path
-    d="M197.6 73.2h-17.1v-5.5h3.8V51.9c0-3.7-.7-6.3-2.1-7.9-1.4-1.6-3.3-2.3-5.7-2.3-3.2 0-5.6 1.1-7.2 3.4s-2.4 4.6-2.5 6.9v15.6h6v5.5h-17.1v-5.5h3.8V51.9c0-3.8-.7-6.4-2.1-7.9-1.4-1.5-3.3-2.3-5.6-2.3-3.2 0-5.5 1.1-7.2 3.3-1.6 2.2-2.4 4.5-2.5 6.9v15.8h6.9v5.5h-20.2v-5.5h6V42.4h-6.1v-5.6h13.4v6.4c1.2-2.1 2.7-3.8 4.7-5.2 2-1.3 4.4-2 7.3-2s5.3.7 7.5 2.1c2.2 1.4 3.7 3.5 4.5 6.4 1.1-2.5 2.7-4.5 4.9-6.1s4.8-2.4 7.9-2.4c3.5 0 6.5 1.1 8.9 3.3s3.7 5.6 3.7 10.2v18.2h6.1v5.5zm42.5 0h-13.2V66c-1.2 2.2-2.8 4.1-4.9 5.6-2.1 1.6-4.8 2.4-8.3 2.4-4.8 0-8.7-1.6-11.6-4.9-2.9-3.2-4.3-7.7-4.3-13.3 0-5 1.3-9.6 4-13.7 2.6-4.1 6.9-6.2 12.8-6.2s9.8 2.2 12.3 6.5V22.7h-8.6v-5.6h15.8v50.6h6v5.5zm-13.3-16.8V52c-.1-3-1.2-5.5-3.2-7.3s-4.4-2.8-7.2-2.8c-3.6 0-6.3 1.3-8.2 3.9-1.9 2.6-2.8 5.8-2.8 9.6 0 4.1 1 7.3 3 9.5s4.5 3.3 7.4 3.3c3.2 0 5.8-1.3 7.8-3.8 2.1-2.6 3.1-5.3 3.2-8zm61.5 16.8H269v-5.5h6V51.9c0-3.7-.7-6.3-2.2-7.9-1.4-1.6-3.4-2.3-5.7-2.3-3.1 0-5.6 1-7.4 3s-2.8 4.4-2.9 7v15.9h6v5.5h-19.3v-5.5h6V42.4h-6.2v-5.6h13.6V43c2.6-4.6 6.8-6.9 12.7-6.9 3.6 0 6.7 1.1 9.2 3.3s3.7 5.6 3.7 10.2v18.2h6v5.4h-.2z"
-    style="fill: var(--text-primary);"></path>
-  <g style="fill:blue;">
-    <path
-      d="M42 .2 13.4 92.3H1.7L30.2.2H42zM52.4.2v92.1H42V.2h10.4zm40.3 0L64.2 92.3H52.5L81 .2h11.7zM103.1.2v92.1H92.7V.2h10.4zM294 95h67v8.8h-67V95z"></path>
-  </g>
-</svg>
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "filter-function": {
                   children: {
                     blur: {
@@ -21339,65 +18922,6 @@ blur(0)        /* No effect */
 
 blur(8px)      /* Blur with 8px radius */
 blur(1.17rem)  /* Blur with 1.17rem radius */
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '        <svg id="svg" height="220" width="220" style="overflow: visible">',
-                            "27:47 - 27:72",
-                            `/en-US/docs/Web/CSS/filter-function/blur
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg role="img" aria-label="Flag">
-  <filter id="blur">
-    <feGaussianBlur stdDeviation="3.5" edgeMode="duplicate" />
-  </filter>
-  <image
-    href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-    xlink:href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-    filter="url(#blur)" />
-</svg>
-
-<table cellpadding="5">
-  <thead>
-    <tr>
-      <th>Live example</th>
-      <th>SVG Equivalent</th>
-      <th>Original image</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <img
-          class="filter"
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag" />
-      </td>
-      <td>
-        <svg id="svg" height="220" width="220" style="overflow: visible">
-          <filter id="svgBlur">
-            <feGaussianBlur stdDeviation="3.5" />
-          </filter>
-          <image
-            href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-            xlink:href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-            filter="url(#svgBlur)" />
-        </svg>
-      </td>
-      <td>
-        <img
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag" />
-      </td>
-    </tr>
-  </tbody>
-</table>
 ~~~
 `
                           ]
@@ -21525,67 +19049,6 @@ contrast(200%)
                           data: [
                             "no-style-attr",
                             "Do not use the style attribute.",
-                            '  style="overflow: visible"',
-                            "6:2 - 6:27",
-                            `/en-US/docs/Web/CSS/filter-function/contrast
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  id="svg"
-  viewBox="0 0 240 151"
-  height="0"
-  width="0"
-  style="overflow: visible"
-  color-interpolation-filters="sRGB">
-  <filter id="contrast">
-    <feComponentTransfer>
-      <feFuncR type="linear" slope="2" intercept="-0.5" />
-      <feFuncG type="linear" slope="2" intercept="-0.5" />
-      <feFuncB type="linear" slope="2" intercept="-0.5" />
-    </feComponentTransfer>
-  </filter>
-</svg>
-
-<table cellpadding="5">
-  <thead>
-    <tr>
-      <th><code>contrast()</code></th>
-      <th><code>url()</code></th>
-      <th>Original image</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <img
-          style="filter: contrast(200%)"
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag" />
-      </td>
-      <td>
-        <img
-          style="filter: url(#contrast)"
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag" />
-      </td>
-      <td>
-        <img
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag" />
-      </td>
-    </tr>
-  </tbody>
-</table>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
                             '          style="filter: contrast(200%)"',
                             "29:10 - 29:40",
                             `/en-US/docs/Web/CSS/filter-function/contrast
@@ -21597,7 +19060,7 @@ contrast(200%)
   viewBox="0 0 240 151"
   height="0"
   width="0"
-  style="overflow: visible"
+  overflow="visible"
   color-interpolation-filters="sRGB">
   <filter id="contrast">
     <feComponentTransfer>
@@ -21658,7 +19121,7 @@ contrast(200%)
   viewBox="0 0 240 151"
   height="0"
   width="0"
-  style="overflow: visible"
+  overflow="visible"
   color-interpolation-filters="sRGB">
   <filter id="contrast">
     <feComponentTransfer>
@@ -22304,6174 +19767,6 @@ css.properties.width.fit-content_function`
                       data: [
                         "/en-US/docs/Web/CSS/font-stretch",
                         "#interpolation"
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "13:8 - 13:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "20:8 - 20:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "27:8 - 27:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "34:8 - 34:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "46:8 - 46:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "53:8 - 53:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "60:8 - 60:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "71:8 - 71:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "79:8 - 79:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "86:8 - 86:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "97:8 - 97:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "105:8 - 105:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "112:8 - 112:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "124:8 - 124:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "131:8 - 131:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "138:8 - 138:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        `        onchange="setCss(5,'courier')" />`,
-                        "151:8 - 151:38",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "158:8 - 158:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "165:8 - 165:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "172:8 - 172:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "179:8 - 179:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "186:8 - 186:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "193:8 - 193:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onchange".',
-                        '        onchange="setCss()" />',
-                        "200:8 - 200:27",
-                        `/en-US/docs/Web/CSS/font
-[no-inline-event-handlers] Do not use inline event handler "onchange".
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic"
-        onchange="setCss()" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique"
-        onchange="setCss()" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" "
-        onchange="setCss()" />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal"
-        onchange="setCss()" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps"
-        onchange="setCss()" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input
-        type="radio"
-        id="font-weight-none"
-        name="font_weight"
-        value=""
-        onchange="setCss()" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400"
-        onchange="setCss()" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700"
-        onchange="setCss()" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input
-        type="radio"
-        id="font-size-12px"
-        name="font_size"
-        value="12px"
-        onchange="setCss()" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked=""
-        onchange="setCss()" />
-      <label for="font-size-16px">16px</label><br />
-      <input
-        type="radio"
-        id="font-size-24px"
-        name="font_size"
-        value="24px"
-        onchange="setCss()" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value=""
-        onchange="setCss()" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2"
-        onchange="setCss()" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input
-        type="radio"
-        id="line-height-3"
-        name="line_height"
-        value="/3"
-        onchange="setCss()" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier"
-        onchange="setCss(5,'courier')" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif"
-        onchange="setCss()" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif"
-        onchange="setCss()" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial"
-        onchange="setCss()" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace"
-        onchange="setCss()" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive"
-        onchange="setCss()" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy"
-        onchange="setCss()" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui"
-        onchange="setCss()" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
                       ]
                     }
                   ]
@@ -30615,6 +21910,70 @@ css.properties.grid-template-rows.repeat`
                     }
                   ]
                 },
+                resolution: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/resolution",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "media-feature-range-notation",
+                        'Expected "context" media feature range notation (media-feature-range-notation)',
+                        "@media (resolution: 120dpcm) {",
+                        "5:8 - 5:29",
+                        `/en-US/docs/Web/CSS/resolution
+[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
+~~~
+@media print and (resolution >= 300dpi) {
+  /* … */
+}
+
+@media (resolution: 120dpcm) {
+  /* … */
+}
+
+@media (resolution >= 2dppx) {
+  /* … */
+}
+
+@media (resolution: 1x) {
+  /* … */
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "media-feature-range-notation",
+                        'Expected "context" media feature range notation (media-feature-range-notation)',
+                        "@media (resolution: 1x) {",
+                        "13:8 - 13:24",
+                        `/en-US/docs/Web/CSS/resolution
+[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
+~~~
+@media print and (resolution >= 300dpi) {
+  /* … */
+}
+
+@media (resolution: 120dpcm) {
+  /* … */
+}
+
+@media (resolution >= 2dppx) {
+  /* … */
+}
+
+@media (resolution: 1x) {
+  /* … */
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 revert: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/revert",
@@ -31360,6 +22719,97 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
+                        a: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        button: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        del: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/del",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        heading_elements: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2016/08/there-is-no-document-outline-algorithm.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        input: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/input",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        ins: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/ins",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        mark: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/mark",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         meta: {
                           children: {
                             name: {
@@ -31400,6 +22850,19 @@ html.elements.select.size`
                               message: "Missing image",
                               data: [
                                 "path/image.jpg"
+                              ]
+                            }
+                          ]
+                        },
+                        s: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/s",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -31577,53 +23040,9 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        "available-dictionary": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Available-Dictionary",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        },
-                        "cache-control": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        },
                         "content-disposition": {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Disposition",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        },
-                        "content-security-policy": {
-                          children: {
-                            "fenced-frame-src": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/fenced-frame-src",
-                              messages: [
-                                {
-                                  message: "Missing syntax code block",
-                                  data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        forwarded: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Forwarded",
                           messages: [
                             {
                               message: "Missing syntax code block",
@@ -31683,16 +23102,6 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         },
-                        "proxy-authenticate": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Proxy-Authenticate",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        },
                         refresh: {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Refresh",
@@ -31703,46 +23112,6 @@ http.headers.Use-As-Dictionary`,
                                 "/en-US/docs/Web/HTML/Reference/Elements/meta",
                                 "#refresh"
                               ]
-                            }
-                          ]
-                        },
-                        "sec-ch-ua": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-UA",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        },
-                        "sec-ch-ua-full-version-list": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-CH-UA-Full-Version-List",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        },
-                        "sec-websocket-extensions": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-WebSocket-Extensions",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        },
-                        "sec-websocket-protocol": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-WebSocket-Protocol",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
                             }
                           ]
                         },
@@ -31766,16 +23135,6 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         },
-                        upgrade: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Upgrade",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        },
                         "user-agent": {
                           children: {
                             firefox: {
@@ -31789,56 +23148,6 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           }
-                        },
-                        vary: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Vary",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        },
-                        "want-content-digest": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Want-Content-Digest",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        },
-                        "want-repr-digest": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Want-Repr-Digest",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        },
-                        "x-frame-options": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Frame-Options",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        },
-                        "x-robots-tag": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Robots-Tag",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
                         }
                       }
                     }
@@ -31984,32 +23293,23 @@ http.headers.Use-As-Dictionary`,
                         }
                       }
                     },
+                    javascript_technologies_overview: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://jsfiddle.net/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     lexical_grammar: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
                       messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-unused-labels",
-                            "'lbl:' is defined but never used.",
-                            "lbl: console.log(1); // Label",
-                            "8:1 - 8:4",
-                            `/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
-[no-unused-labels] 'lbl:' is defined but never used.
-~~~
-const decl = 1; // Variable declaration (may also be \`let\` or \`var\`)
-function fn() {} // Function declaration
-const obj = { key: "value" }; // Object keys
-// Class declaration
-class C {
-  #priv = "value"; // Private field
-}
-lbl: console.log(1); // Label
-~~~
-`
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -32431,19 +23731,6 @@ html.elements.script.integrity`,
                       ]
                     }
                   ]
-                },
-                transport_layer_security: {
-                  children: {},
-                  slug: "/en-US/docs/Web/Security/Transport_Layer_Security",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://support.mozilla.org/en-US/kb/secure-connection-failed-firefox-did-not-connect",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/Web/Security",
@@ -32476,892 +23763,6 @@ html.elements.script.integrity`,
             },
             svg: {
               children: {
-                guides: {
-                  children: {
-                    applying_svg_effects_to_html_content: {
-                      children: {},
-                      slug: "/en-US/docs/Web/SVG/Guides/Applying_SVG_effects_to_HTML_content",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `<style>
-  p {
-    mask: url(#my-mask);
-  }
-</style>`,
-                            "0:0 - 4:8",
-                            `/en-US/docs/Web/SVG/Guides/Applying_SVG_effects_to_HTML_content
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<style>
-  p {
-    mask: url(#my-mask);
-  }
-</style>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<p class="target" style="background:lime;">',
-                            "11:18 - 11:42",
-                            `/en-US/docs/Web/SVG/Guides/Applying_SVG_effects_to_HTML_content
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg height="0">
-  <mask id="mask-1">
-    <linearGradient id="gradient-1" y2="1">
-      <stop stop-color="white" offset="0" />
-      <stop stop-opacity="0" offset="1" />
-    </linearGradient>
-    <circle cx="0.25" cy="0.25" r="0.25" id="circle" fill="white" />
-    <rect x="0.5" y="0.2" width="300" height="100" fill="url(#gradient-1)" />
-  </mask>
-</svg>
-
-<p class="target" style="background:lime;">
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-</p>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing
-  <em class="target"
-    >elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua.</em
-  >
-  Ut enim ad minim veniam.
-</p>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<p class="target" style="background:lime;">',
-                            "0:18 - 0:42",
-                            `/en-US/docs/Web/SVG/Guides/Applying_SVG_effects_to_HTML_content
-[no-style-attr] Do not use the style attribute.
-~~~
-<p class="target" style="background:lime;">
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-</p>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing
-  <em class="target"
-    >elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua.</em
-  >
-  Ut enim ad minim veniam.
-</p>
-
-<button onclick="toggleRadius()">Toggle radius</button>
-
-<svg height="0">
-  <clipPath id="clipping-path-1" clipPathUnits="objectBoundingBox">
-    <circle cx="0.25" cy="0.25" r="0.25" id="circle" />
-    <rect x="0.5" y="0.2" width="0.5" height="0.8" />
-  </clipPath>
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-inline-event-handlers",
-                            'Do not use inline event handler "onclick".',
-                            '<button onclick="toggleRadius()">Toggle radius</button>',
-                            "13:8 - 13:32",
-                            `/en-US/docs/Web/SVG/Guides/Applying_SVG_effects_to_HTML_content
-[no-inline-event-handlers] Do not use inline event handler "onclick".
-~~~
-<p class="target" style="background:lime;">
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-</p>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing
-  <em class="target"
-    >elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua.</em
-  >
-  Ut enim ad minim veniam.
-</p>
-
-<button onclick="toggleRadius()">Toggle radius</button>
-
-<svg height="0">
-  <clipPath id="clipping-path-1" clipPathUnits="objectBoundingBox">
-    <circle cx="0.25" cy="0.25" r="0.25" id="circle" />
-    <rect x="0.5" y="0.2" width="0.5" height="0.8" />
-  </clipPath>
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<p class="target" style="background: lime;">',
-                            "0:18 - 0:43",
-                            `/en-US/docs/Web/SVG/Guides/Applying_SVG_effects_to_HTML_content
-[no-style-attr] Do not use the style attribute.
-~~~
-<p class="target" style="background: lime;">
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-</p>
-<pre class="target">lorem</pre>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing
-  <em class="target"
-    >elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua.</em
-  >
-  Ut enim ad minim veniam.
-</p>
-
-<svg height="0">
-  <filter id="f1">
-    <feGaussianBlur stdDeviation="3" />
-  </filter>
-</svg>
-
-<svg height="0">
-  <filter id="f2">
-    <feColorMatrix
-      values="0.3333 0.3333 0.3333 0 0
-              0.3333 0.3333 0.3333 0 0
-              0.3333 0.3333 0.3333 0 0
-              0      0      0      1 0" />
-  </filter>
-</svg>
-
-<svg height="0">
-  <filter id="f3">
-    <feConvolveMatrix
-      filterRes="100 100"
-      style="color-interpolation-filters:sRGB"
-      order="3"
-      kernelMatrix="0 -1 0   -1 4 -1   0 -1 0"
-      preserveAlpha="true" />
-  </filter>
-  <filter id="f4">
-    <feSpecularLighting
-      surfaceScale="5"
-      specularConstant="1"
-      specularExponent="10"
-      lighting-color="white">
-      <fePointLight x="-5000" y="-10000" z="20000" />
-    </feSpecularLighting>
-  </filter>
-  <filter id="f5">
-    <feColorMatrix
-      values="1 0 0 0 0
-                           0 1 0 0 0
-                           0 0 1 0 0
-                           0 1 0 0 0"
-      style="color-interpolation-filters:sRGB" />
-  </filter>
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '      style="color-interpolation-filters:sRGB"',
-                            "34:6 - 34:46",
-                            `/en-US/docs/Web/SVG/Guides/Applying_SVG_effects_to_HTML_content
-[no-style-attr] Do not use the style attribute.
-~~~
-<p class="target" style="background: lime;">
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-</p>
-<pre class="target">lorem</pre>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing
-  <em class="target"
-    >elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua.</em
-  >
-  Ut enim ad minim veniam.
-</p>
-
-<svg height="0">
-  <filter id="f1">
-    <feGaussianBlur stdDeviation="3" />
-  </filter>
-</svg>
-
-<svg height="0">
-  <filter id="f2">
-    <feColorMatrix
-      values="0.3333 0.3333 0.3333 0 0
-              0.3333 0.3333 0.3333 0 0
-              0.3333 0.3333 0.3333 0 0
-              0      0      0      1 0" />
-  </filter>
-</svg>
-
-<svg height="0">
-  <filter id="f3">
-    <feConvolveMatrix
-      filterRes="100 100"
-      style="color-interpolation-filters:sRGB"
-      order="3"
-      kernelMatrix="0 -1 0   -1 4 -1   0 -1 0"
-      preserveAlpha="true" />
-  </filter>
-  <filter id="f4">
-    <feSpecularLighting
-      surfaceScale="5"
-      specularConstant="1"
-      specularExponent="10"
-      lighting-color="white">
-      <fePointLight x="-5000" y="-10000" z="20000" />
-    </feSpecularLighting>
-  </filter>
-  <filter id="f5">
-    <feColorMatrix
-      values="1 0 0 0 0
-                           0 1 0 0 0
-                           0 0 1 0 0
-                           0 1 0 0 0"
-      style="color-interpolation-filters:sRGB" />
-  </filter>
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '      style="color-interpolation-filters:sRGB" />',
-                            "54:6 - 54:46",
-                            `/en-US/docs/Web/SVG/Guides/Applying_SVG_effects_to_HTML_content
-[no-style-attr] Do not use the style attribute.
-~~~
-<p class="target" style="background: lime;">
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-</p>
-<pre class="target">lorem</pre>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing
-  <em class="target"
-    >elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua.</em
-  >
-  Ut enim ad minim veniam.
-</p>
-
-<svg height="0">
-  <filter id="f1">
-    <feGaussianBlur stdDeviation="3" />
-  </filter>
-</svg>
-
-<svg height="0">
-  <filter id="f2">
-    <feColorMatrix
-      values="0.3333 0.3333 0.3333 0 0
-              0.3333 0.3333 0.3333 0 0
-              0.3333 0.3333 0.3333 0 0
-              0      0      0      1 0" />
-  </filter>
-</svg>
-
-<svg height="0">
-  <filter id="f3">
-    <feConvolveMatrix
-      filterRes="100 100"
-      style="color-interpolation-filters:sRGB"
-      order="3"
-      kernelMatrix="0 -1 0   -1 4 -1   0 -1 0"
-      preserveAlpha="true" />
-  </filter>
-  <filter id="f4">
-    <feSpecularLighting
-      surfaceScale="5"
-      specularConstant="1"
-      specularExponent="10"
-      lighting-color="white">
-      <fePointLight x="-5000" y="-10000" z="20000" />
-    </feSpecularLighting>
-  </filter>
-  <filter id="f5">
-    <feColorMatrix
-      values="1 0 0 0 0
-                           0 1 0 0 0
-                           0 0 1 0 0
-                           0 1 0 0 0"
-      style="color-interpolation-filters:sRGB" />
-  </filter>
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    svg_filters: {
-                      children: {},
-                      slug: "/en-US/docs/Web/SVG/Guides/SVG_filters",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '<g id="ghost" style="filter: url(#drop-shadow);">',
-                            "6:14 - 6:48",
-                            `/en-US/docs/Web/SVG/Guides/SVG_filters
-[no-style-attr] Do not use the style attribute.
-~~~
-<defs>
-  <filter id="drop-shadow">
-    <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
-  </filter>
-</defs>
-
-<g id="ghost" style="filter: url(#drop-shadow);">
-  <!--Ghost drawing in here-->
-</g>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    svg_in_html: {
-                      children: {},
-                      slug: "/en-US/docs/Web/SVG/Guides/SVG_in_HTML",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '      <rect x="0" y="0" width="100" height="100" style="fill:url(#gradient)" />',
-                            "14:49 - 14:76",
-                            `/en-US/docs/Web/SVG/Guides/SVG_in_HTML
-[no-style-attr] Do not use the style attribute.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title>SVG Demo</title>
-    <meta name="viewport" content="width=device-width" />
-  </head>
-  <body>
-    <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img">
-      <title>A gradient</title>
-      <linearGradient id="gradient">
-        <stop class="begin" offset="0%" stop-color="red" />
-        <stop class="end" offset="100%" stop-color="black" />
-      </linearGradient>
-      <rect x="0" y="0" width="100" height="100" style="fill:url(#gradient)" />
-      <circle cx="50" cy="50" r="30" style="fill:url(#gradient)" />
-    </svg>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '      <circle cx="50" cy="50" r="30" style="fill:url(#gradient)" />',
-                            "15:37 - 15:64",
-                            `/en-US/docs/Web/SVG/Guides/SVG_in_HTML
-[no-style-attr] Do not use the style attribute.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title>SVG Demo</title>
-    <meta name="viewport" content="width=device-width" />
-  </head>
-  <body>
-    <svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" role="img">
-      <title>A gradient</title>
-      <linearGradient id="gradient">
-        <stop class="begin" offset="0%" stop-color="red" />
-        <stop class="end" offset="100%" stop-color="black" />
-      </linearGradient>
-      <rect x="0" y="0" width="100" height="100" style="fill:url(#gradient)" />
-      <circle cx="50" cy="50" r="30" style="fill:url(#gradient)" />
-    </svg>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="transform: skewy(24deg)" />',
-                            "21:4 - 21:35",
-                            `/en-US/docs/Web/SVG/Guides/SVG_in_HTML
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 100 125" role="img" aria-labelledby="svgTitle svgDescription">
-  <title id="svgTitle">Manual</title>
-  <desc id="svgDescription">
-    A nondescript twelve page booklet opened to the middle page
-  </desc>
-  <defs>
-    <style>
-      rect {
-        fill: #cccccc;
-        stroke: #666;
-        transform-origin: top;
-      }
-    </style>
-  </defs>
-
-  <rect
-    width="36"
-    height="60"
-    x="13"
-    y="18"
-    ry="2"
-    style="transform: skewy(24deg)" />
-  <rect
-    width="39"
-    height="60"
-    x="11"
-    y="20"
-    ry="2"
-    style="transform: skewy(18deg)" />
-  <rect
-    width="42"
-    height="90"
-    x="8"
-    y="22"
-    ry="2"
-    style="transform: skewy(12deg)" />
-  <rect
-    width="36"
-    height="60"
-    x="50"
-    y="18"
-    ry="2"
-    style="transform: skewy(-24deg)" />
-  <rect
-    width="39"
-    height="60"
-    x="50"
-    y="20"
-    ry="2"
-    style="transform: skewy(-18deg)" />
-  <rect
-    width="42"
-    height="90"
-    x="50"
-    y="22"
-    ry="2"
-    style="transform: skewy(-12deg)" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="transform: skewy(18deg)" />',
-                            "28:4 - 28:35",
-                            `/en-US/docs/Web/SVG/Guides/SVG_in_HTML
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 100 125" role="img" aria-labelledby="svgTitle svgDescription">
-  <title id="svgTitle">Manual</title>
-  <desc id="svgDescription">
-    A nondescript twelve page booklet opened to the middle page
-  </desc>
-  <defs>
-    <style>
-      rect {
-        fill: #cccccc;
-        stroke: #666;
-        transform-origin: top;
-      }
-    </style>
-  </defs>
-
-  <rect
-    width="36"
-    height="60"
-    x="13"
-    y="18"
-    ry="2"
-    style="transform: skewy(24deg)" />
-  <rect
-    width="39"
-    height="60"
-    x="11"
-    y="20"
-    ry="2"
-    style="transform: skewy(18deg)" />
-  <rect
-    width="42"
-    height="90"
-    x="8"
-    y="22"
-    ry="2"
-    style="transform: skewy(12deg)" />
-  <rect
-    width="36"
-    height="60"
-    x="50"
-    y="18"
-    ry="2"
-    style="transform: skewy(-24deg)" />
-  <rect
-    width="39"
-    height="60"
-    x="50"
-    y="20"
-    ry="2"
-    style="transform: skewy(-18deg)" />
-  <rect
-    width="42"
-    height="90"
-    x="50"
-    y="22"
-    ry="2"
-    style="transform: skewy(-12deg)" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="transform: skewy(12deg)" />',
-                            "35:4 - 35:35",
-                            `/en-US/docs/Web/SVG/Guides/SVG_in_HTML
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 100 125" role="img" aria-labelledby="svgTitle svgDescription">
-  <title id="svgTitle">Manual</title>
-  <desc id="svgDescription">
-    A nondescript twelve page booklet opened to the middle page
-  </desc>
-  <defs>
-    <style>
-      rect {
-        fill: #cccccc;
-        stroke: #666;
-        transform-origin: top;
-      }
-    </style>
-  </defs>
-
-  <rect
-    width="36"
-    height="60"
-    x="13"
-    y="18"
-    ry="2"
-    style="transform: skewy(24deg)" />
-  <rect
-    width="39"
-    height="60"
-    x="11"
-    y="20"
-    ry="2"
-    style="transform: skewy(18deg)" />
-  <rect
-    width="42"
-    height="90"
-    x="8"
-    y="22"
-    ry="2"
-    style="transform: skewy(12deg)" />
-  <rect
-    width="36"
-    height="60"
-    x="50"
-    y="18"
-    ry="2"
-    style="transform: skewy(-24deg)" />
-  <rect
-    width="39"
-    height="60"
-    x="50"
-    y="20"
-    ry="2"
-    style="transform: skewy(-18deg)" />
-  <rect
-    width="42"
-    height="90"
-    x="50"
-    y="22"
-    ry="2"
-    style="transform: skewy(-12deg)" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="transform: skewy(-24deg)" />',
-                            "42:4 - 42:36",
-                            `/en-US/docs/Web/SVG/Guides/SVG_in_HTML
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 100 125" role="img" aria-labelledby="svgTitle svgDescription">
-  <title id="svgTitle">Manual</title>
-  <desc id="svgDescription">
-    A nondescript twelve page booklet opened to the middle page
-  </desc>
-  <defs>
-    <style>
-      rect {
-        fill: #cccccc;
-        stroke: #666;
-        transform-origin: top;
-      }
-    </style>
-  </defs>
-
-  <rect
-    width="36"
-    height="60"
-    x="13"
-    y="18"
-    ry="2"
-    style="transform: skewy(24deg)" />
-  <rect
-    width="39"
-    height="60"
-    x="11"
-    y="20"
-    ry="2"
-    style="transform: skewy(18deg)" />
-  <rect
-    width="42"
-    height="90"
-    x="8"
-    y="22"
-    ry="2"
-    style="transform: skewy(12deg)" />
-  <rect
-    width="36"
-    height="60"
-    x="50"
-    y="18"
-    ry="2"
-    style="transform: skewy(-24deg)" />
-  <rect
-    width="39"
-    height="60"
-    x="50"
-    y="20"
-    ry="2"
-    style="transform: skewy(-18deg)" />
-  <rect
-    width="42"
-    height="90"
-    x="50"
-    y="22"
-    ry="2"
-    style="transform: skewy(-12deg)" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="transform: skewy(-18deg)" />',
-                            "49:4 - 49:36",
-                            `/en-US/docs/Web/SVG/Guides/SVG_in_HTML
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 100 125" role="img" aria-labelledby="svgTitle svgDescription">
-  <title id="svgTitle">Manual</title>
-  <desc id="svgDescription">
-    A nondescript twelve page booklet opened to the middle page
-  </desc>
-  <defs>
-    <style>
-      rect {
-        fill: #cccccc;
-        stroke: #666;
-        transform-origin: top;
-      }
-    </style>
-  </defs>
-
-  <rect
-    width="36"
-    height="60"
-    x="13"
-    y="18"
-    ry="2"
-    style="transform: skewy(24deg)" />
-  <rect
-    width="39"
-    height="60"
-    x="11"
-    y="20"
-    ry="2"
-    style="transform: skewy(18deg)" />
-  <rect
-    width="42"
-    height="90"
-    x="8"
-    y="22"
-    ry="2"
-    style="transform: skewy(12deg)" />
-  <rect
-    width="36"
-    height="60"
-    x="50"
-    y="18"
-    ry="2"
-    style="transform: skewy(-24deg)" />
-  <rect
-    width="39"
-    height="60"
-    x="50"
-    y="20"
-    ry="2"
-    style="transform: skewy(-18deg)" />
-  <rect
-    width="42"
-    height="90"
-    x="50"
-    y="22"
-    ry="2"
-    style="transform: skewy(-12deg)" />
-</svg>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    style="transform: skewy(-12deg)" />',
-                            "56:4 - 56:36",
-                            `/en-US/docs/Web/SVG/Guides/SVG_in_HTML
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 100 125" role="img" aria-labelledby="svgTitle svgDescription">
-  <title id="svgTitle">Manual</title>
-  <desc id="svgDescription">
-    A nondescript twelve page booklet opened to the middle page
-  </desc>
-  <defs>
-    <style>
-      rect {
-        fill: #cccccc;
-        stroke: #666;
-        transform-origin: top;
-      }
-    </style>
-  </defs>
-
-  <rect
-    width="36"
-    height="60"
-    x="13"
-    y="18"
-    ry="2"
-    style="transform: skewy(24deg)" />
-  <rect
-    width="39"
-    height="60"
-    x="11"
-    y="20"
-    ry="2"
-    style="transform: skewy(18deg)" />
-  <rect
-    width="42"
-    height="90"
-    x="8"
-    y="22"
-    ry="2"
-    style="transform: skewy(12deg)" />
-  <rect
-    width="36"
-    height="60"
-    x="50"
-    y="18"
-    ry="2"
-    style="transform: skewy(-24deg)" />
-  <rect
-    width="39"
-    height="60"
-    x="50"
-    y="20"
-    ry="2"
-    style="transform: skewy(-18deg)" />
-  <rect
-    width="42"
-    height="90"
-    x="50"
-    y="22"
-    ry="2"
-    style="transform: skewy(-12deg)" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 reference: {
                   children: {
                     attribute: {
@@ -33400,179 +23801,6 @@ html.elements.script.integrity`,
                             }
                           ]
                         },
-                        azimuth: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/azimuth",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <circle cx="100" cy="100" r="80" style="filter: url(#distantLight1);" />',
-                                "12:35 - 12:71",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/azimuth
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 440 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="distantLight1">
-    <feDiffuseLighting>
-      <feDistantLight azimuth="0" />
-    </feDiffuseLighting>
-  </filter>
-  <filter id="distantLight2">
-    <feDiffuseLighting>
-      <feDistantLight azimuth="240" />
-    </feDiffuseLighting>
-  </filter>
-
-  <circle cx="100" cy="100" r="80" style="filter: url(#distantLight1);" />
-  <circle
-    cx="100"
-    cy="100"
-    r="80"
-    style="filter: url(#distantLight2); transform: translateX(240px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#distantLight2); transform: translateX(240px);" />',
-                                "17:4 - 17:70",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/azimuth
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 440 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="distantLight1">
-    <feDiffuseLighting>
-      <feDistantLight azimuth="0" />
-    </feDiffuseLighting>
-  </filter>
-  <filter id="distantLight2">
-    <feDiffuseLighting>
-      <feDistantLight azimuth="240" />
-    </feDiffuseLighting>
-  </filter>
-
-  <circle cx="100" cy="100" r="80" style="filter: url(#distantLight1);" />
-  <circle
-    cx="100"
-    cy="100"
-    r="80"
-    style="filter: url(#distantLight2); transform: translateX(240px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        basefrequency: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/baseFrequency",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <rect x="0" y="0" width="200" height="200" style="filter: url(#noise1);" />',
-                                "8:45 - 8:74",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/baseFrequency
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="noise1" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" />
-  </filter>
-  <filter id="noise2" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.05" />
-  </filter>
-
-  <rect x="0" y="0" width="200" height="200" style="filter: url(#noise1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#noise2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#noise2); transform: translateX(220px);" />',
-                                "14:4 - 14:63",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/baseFrequency
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="noise1" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" />
-  </filter>
-  <filter id="noise2" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.05" />
-  </filter>
-
-  <rect x="0" y="0" width="200" height="200" style="filter: url(#noise1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#noise2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <circle cx="100" cy="100" r="100" style="filter: url(#displacementFilter)" />',
-                                "19:36 - 19:76",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/baseFrequency
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  width="200"
-  height="200"
-  viewBox="0 0 220 220"
-  xmlns="http://www.w3.org/2000/svg">
-  <filter id="displacementFilter">
-    <feTurbulence
-      type="turbulence"
-      baseFrequency="0.05"
-      numOctaves="2"
-      result="turbulence" />
-    <feDisplacementMap
-      in2="turbulence"
-      in="SourceGraphic"
-      scale="50"
-      xChannelSelector="R"
-      yChannelSelector="G" />
-  </filter>
-
-  <circle cx="100" cy="100" r="100" style="filter: url(#displacementFilter)" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         baseprofile: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/baseProfile",
@@ -33588,195 +23816,6 @@ html.elements.script.integrity`,
                                 "[None]",
                                 "Expected:",
                                 "svg.elements.svg.baseProfile"
-                              ]
-                            }
-                          ]
-                        },
-                        begin: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/begin",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="cursor:pointer;"',
-                                "22:4 - 22:27",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/begin
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  width="120"
-  height="120"
-  viewBox="0 0 120 120"
-  xmlns="http://www.w3.org/2000/svg"
-  version="1.1"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <!-- animated rectangle -->
-  <rect x="10" y="35" height="15" width="0">
-    <animate
-      attributeType="XML"
-      attributeName="width"
-      from="0"
-      to="100"
-      begin="startButton.click"
-      dur="8s"
-      fill="freeze" />
-  </rect>
-
-  <!-- trigger -->
-  <rect
-    id="startButton"
-    style="cursor:pointer;"
-    x="19.5"
-    y="62.5"
-    rx="5"
-    height="25"
-    width="80"
-    fill="#EFEFEF"
-    stroke="black"
-    stroke-width="1" />
-
-  <text x="60" y="80" text-anchor="middle" style="pointer-events:none;">
-    Click me.
-  </text>
-
-  <!-- grid -->
-  <text x="10" y="20" text-anchor="middle">0s</text>
-  <line x1="10" y1="25" x2="10" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="35" y="20" text-anchor="middle">2s</text>
-  <line x1="35" y1="25" x2="35" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="60" y="20" text-anchor="middle">4s</text>
-  <line x1="60" y1="25" x2="60" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="85" y="20" text-anchor="middle">6s</text>
-  <line x1="85" y1="25" x2="85" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="110" y="20" text-anchor="middle">8s</text>
-  <line x1="110" y1="25" x2="110" y2="55" stroke="grey" stroke-width=".5" />
-
-  <line x1="10" y1="30" x2="110" y2="30" stroke="grey" stroke-width=".5" />
-  <line x1="10" y1="55" x2="110" y2="55" stroke="grey" stroke-width=".5" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <text x="60" y="80" text-anchor="middle" style="pointer-events:none;">',
-                                "32:43 - 32:71",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/begin
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  width="120"
-  height="120"
-  viewBox="0 0 120 120"
-  xmlns="http://www.w3.org/2000/svg"
-  version="1.1"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <!-- animated rectangle -->
-  <rect x="10" y="35" height="15" width="0">
-    <animate
-      attributeType="XML"
-      attributeName="width"
-      from="0"
-      to="100"
-      begin="startButton.click"
-      dur="8s"
-      fill="freeze" />
-  </rect>
-
-  <!-- trigger -->
-  <rect
-    id="startButton"
-    style="cursor:pointer;"
-    x="19.5"
-    y="62.5"
-    rx="5"
-    height="25"
-    width="80"
-    fill="#EFEFEF"
-    stroke="black"
-    stroke-width="1" />
-
-  <text x="60" y="80" text-anchor="middle" style="pointer-events:none;">
-    Click me.
-  </text>
-
-  <!-- grid -->
-  <text x="10" y="20" text-anchor="middle">0s</text>
-  <line x1="10" y1="25" x2="10" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="35" y="20" text-anchor="middle">2s</text>
-  <line x1="35" y1="25" x2="35" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="60" y="20" text-anchor="middle">4s</text>
-  <line x1="60" y1="25" x2="60" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="85" y="20" text-anchor="middle">6s</text>
-  <line x1="85" y1="25" x2="85" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="110" y="20" text-anchor="middle">8s</text>
-  <line x1="110" y1="25" x2="110" y2="55" stroke="grey" stroke-width=".5" />
-
-  <line x1="10" y1="30" x2="110" y2="30" stroke="grey" stroke-width=".5" />
-  <line x1="10" y1="55" x2="110" y2="55" stroke="grey" stroke-width=".5" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <text x="60" y="80" text-anchor="middle" style="pointer-events:none;">',
-                                "20:43 - 20:71",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/begin
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  width="120"
-  height="120"
-  viewBox="0 0 120 120"
-  xmlns="http://www.w3.org/2000/svg"
-  version="1.1"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <!-- animated rectangles -->
-  <rect x="10" y="35" height="15" width="0">
-    <animate
-      attributeType="XML"
-      attributeName="width"
-      from="0"
-      to="100"
-      begin="accessKey(s)"
-      dur="8s"
-      fill="freeze" />
-  </rect>
-
-  <!-- trigger -->
-  <text x="60" y="80" text-anchor="middle" style="pointer-events:none;">
-    Hit the "s" key
-  </text>
-
-  <!-- grid -->
-  <text x="10" y="20" text-anchor="middle">0s</text>
-  <line x1="10" y1="25" x2="10" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="35" y="20" text-anchor="middle">2s</text>
-  <line x1="35" y1="25" x2="35" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="60" y="20" text-anchor="middle">4s</text>
-  <line x1="60" y1="25" x2="60" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="85" y="20" text-anchor="middle">6s</text>
-  <line x1="85" y1="25" x2="85" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="110" y="20" text-anchor="middle">8s</text>
-  <line x1="110" y1="25" x2="110" y2="55" stroke="grey" stroke-width=".5" />
-
-  <line x1="10" y1="30" x2="110" y2="30" stroke="grey" stroke-width=".5" />
-  <line x1="10" y1="55" x2="110" y2="55" stroke="grey" stroke-width=".5" />
-</svg>
-~~~
-`
                               ]
                             }
                           ]
@@ -33819,162 +23858,6 @@ html.elements.script.integrity`,
                               message: "Not in BCD",
                               data: [
                                 "svg.global_attributes.data"
-                              ]
-                            }
-                          ]
-                        },
-                        diffuseconstant: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/diffuseConstant",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#diffuseLighting1);" />',
-                                "17:4 - 17:43",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/diffuseConstant
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="diffuseLighting1" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic" diffuseConstant="1">
-      <fePointLight x="60" y="60" z="20" />
-    </feDiffuseLighting>
-  </filter>
-  <filter id="diffuseLighting2" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic" diffuseConstant="2">
-      <fePointLight x="60" y="60" z="20" />
-    </feDiffuseLighting>
-  </filter>
-
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#diffuseLighting1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#diffuseLighting2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#diffuseLighting2); transform: translateX(220px);" />',
-                                "23:4 - 23:73",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/diffuseConstant
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="diffuseLighting1" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic" diffuseConstant="1">
-      <fePointLight x="60" y="60" z="20" />
-    </feDiffuseLighting>
-  </filter>
-  <filter id="diffuseLighting2" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic" diffuseConstant="2">
-      <fePointLight x="60" y="60" z="20" />
-    </feDiffuseLighting>
-  </filter>
-
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#diffuseLighting1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#diffuseLighting2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        divisor: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/divisor",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter:url(#convolveMatrix1);" />',
-                                "12:4 - 12:41",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/divisor
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="convolveMatrix1" x="0" y="0" width="100%" height="100%">
-    <feConvolveMatrix kernelMatrix="1 2 0 0 0 0 0 0 -1" divisor="1" />
-  </filter>
-  <filter id="convolveMatrix2" x="0" y="0" width="100%" height="100%">
-    <feConvolveMatrix kernelMatrix="1 2 0 0 0 0 0 0 -1" divisor="8" />
-  </filter>
-
-  <image
-    href="mdn_logo_only_color.png"
-    width="200"
-    height="200"
-    style="filter:url(#convolveMatrix1);" />
-  <image
-    href="mdn_logo_only_color.png"
-    width="200"
-    height="200"
-    style="filter:url(#convolveMatrix2); transform:translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter:url(#convolveMatrix2); transform:translateX(220px);" />',
-                                "17:4 - 17:70",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/divisor
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="convolveMatrix1" x="0" y="0" width="100%" height="100%">
-    <feConvolveMatrix kernelMatrix="1 2 0 0 0 0 0 0 -1" divisor="1" />
-  </filter>
-  <filter id="convolveMatrix2" x="0" y="0" width="100%" height="100%">
-    <feConvolveMatrix kernelMatrix="1 2 0 0 0 0 0 0 -1" divisor="8" />
-  </filter>
-
-  <image
-    href="mdn_logo_only_color.png"
-    width="200"
-    height="200"
-    style="filter:url(#convolveMatrix1);" />
-  <image
-    href="mdn_logo_only_color.png"
-    width="200"
-    height="200"
-    style="filter:url(#convolveMatrix2); transform:translateX(220px);" />
-</svg>
-~~~
-`
                               ]
                             }
                           ]
@@ -34031,423 +23914,10 @@ svg.elements.feGaussianBlur.edgeMode`
                             }
                           ]
                         },
-                        elevation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/elevation",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <circle cx="100" cy="100" r="80" style="filter: url(#distantLight1);" />',
-                                "12:35 - 12:71",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/elevation
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 440 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="distantLight1">
-    <feDiffuseLighting>
-      <feDistantLight elevation="0" />
-    </feDiffuseLighting>
-  </filter>
-  <filter id="distantLight2">
-    <feDiffuseLighting>
-      <feDistantLight elevation="45" />
-    </feDiffuseLighting>
-  </filter>
-
-  <circle cx="100" cy="100" r="80" style="filter: url(#distantLight1);" />
-  <circle
-    cx="100"
-    cy="100"
-    r="80"
-    style="filter: url(#distantLight2); transform: translateX(240px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#distantLight2); transform: translateX(240px);" />',
-                                "17:4 - 17:70",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/elevation
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 440 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="distantLight1">
-    <feDiffuseLighting>
-      <feDistantLight elevation="0" />
-    </feDiffuseLighting>
-  </filter>
-  <filter id="distantLight2">
-    <feDiffuseLighting>
-      <feDistantLight elevation="45" />
-    </feDiffuseLighting>
-  </filter>
-
-  <circle cx="100" cy="100" r="80" style="filter: url(#distantLight1);" />
-  <circle
-    cx="100"
-    cy="100"
-    r="80"
-    style="filter: url(#distantLight2); transform: translateX(240px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        end: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/end",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="cursor:pointer;"',
-                                "24:4 - 24:27",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/end
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  width="120"
-  height="120"
-  viewBox="0 0 120 120"
-  xmlns="http://www.w3.org/2000/svg"
-  version="1.1"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <!-- animated rectangle -->
-  <rect x="10" y="35" height="15" width="0">
-    <animate
-      attributeType="XML"
-      attributeName="width"
-      from="0"
-      to="100"
-      begin="0s"
-      end="endButton.click"
-      dur="8s"
-      repeatCount="indefinite"
-      fill="freeze" />
-  </rect>
-
-  <!-- trigger -->
-  <rect
-    id="endButton"
-    style="cursor:pointer;"
-    x="19.5"
-    y="62.5"
-    rx="5"
-    height="25"
-    width="80"
-    fill="#EFEFEF"
-    stroke="black"
-    stroke-width="1" />
-
-  <text x="60" y="80" text-anchor="middle" style="pointer-events:none;">
-    Click me.
-  </text>
-
-  <!-- grid -->
-  <text x="10" y="20" text-anchor="middle">0s</text>
-  <line x1="10" y1="25" x2="10" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="35" y="20" text-anchor="middle">2s</text>
-  <line x1="35" y1="25" x2="35" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="60" y="20" text-anchor="middle">4s</text>
-  <line x1="60" y1="25" x2="60" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="85" y="20" text-anchor="middle">6s</text>
-  <line x1="85" y1="25" x2="85" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="110" y="20" text-anchor="middle">8s</text>
-  <line x1="110" y1="25" x2="110" y2="55" stroke="grey" stroke-width=".5" />
-
-  <line x1="10" y1="30" x2="110" y2="30" stroke="grey" stroke-width=".5" />
-  <line x1="10" y1="55" x2="110" y2="55" stroke="grey" stroke-width=".5" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <text x="60" y="80" text-anchor="middle" style="pointer-events:none;">',
-                                "34:43 - 34:71",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/end
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  width="120"
-  height="120"
-  viewBox="0 0 120 120"
-  xmlns="http://www.w3.org/2000/svg"
-  version="1.1"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <!-- animated rectangle -->
-  <rect x="10" y="35" height="15" width="0">
-    <animate
-      attributeType="XML"
-      attributeName="width"
-      from="0"
-      to="100"
-      begin="0s"
-      end="endButton.click"
-      dur="8s"
-      repeatCount="indefinite"
-      fill="freeze" />
-  </rect>
-
-  <!-- trigger -->
-  <rect
-    id="endButton"
-    style="cursor:pointer;"
-    x="19.5"
-    y="62.5"
-    rx="5"
-    height="25"
-    width="80"
-    fill="#EFEFEF"
-    stroke="black"
-    stroke-width="1" />
-
-  <text x="60" y="80" text-anchor="middle" style="pointer-events:none;">
-    Click me.
-  </text>
-
-  <!-- grid -->
-  <text x="10" y="20" text-anchor="middle">0s</text>
-  <line x1="10" y1="25" x2="10" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="35" y="20" text-anchor="middle">2s</text>
-  <line x1="35" y1="25" x2="35" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="60" y="20" text-anchor="middle">4s</text>
-  <line x1="60" y1="25" x2="60" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="85" y="20" text-anchor="middle">6s</text>
-  <line x1="85" y1="25" x2="85" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="110" y="20" text-anchor="middle">8s</text>
-  <line x1="110" y1="25" x2="110" y2="55" stroke="grey" stroke-width=".5" />
-
-  <line x1="10" y1="30" x2="110" y2="30" stroke="grey" stroke-width=".5" />
-  <line x1="10" y1="55" x2="110" y2="55" stroke="grey" stroke-width=".5" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <text x="60" y="80" text-anchor="middle" style="pointer-events:none;">',
-                                "22:43 - 22:71",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/end
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  width="120"
-  height="120"
-  viewBox="0 0 120 120"
-  xmlns="http://www.w3.org/2000/svg"
-  version="1.1"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <!-- animated rectangles -->
-  <rect x="10" y="35" height="15" width="0">
-    <animate
-      attributeType="XML"
-      attributeName="width"
-      from="0"
-      to="100"
-      begin="0s"
-      end="accessKey(e)"
-      dur="8s"
-      repeatCount="indefinite"
-      fill="freeze" />
-  </rect>
-
-  <!-- trigger -->
-  <text x="60" y="80" text-anchor="middle" style="pointer-events:none;">
-    Hit the "s" key
-  </text>
-
-  <!-- grid -->
-  <text x="10" y="20" text-anchor="middle">0s</text>
-  <line x1="10" y1="25" x2="10" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="35" y="20" text-anchor="middle">2s</text>
-  <line x1="35" y1="25" x2="35" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="60" y="20" text-anchor="middle">4s</text>
-  <line x1="60" y1="25" x2="60" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="85" y="20" text-anchor="middle">6s</text>
-  <line x1="85" y1="25" x2="85" y2="55" stroke="grey" stroke-width=".5" />
-  <text x="110" y="20" text-anchor="middle">8s</text>
-  <line x1="110" y1="25" x2="110" y2="55" stroke="grey" stroke-width=".5" />
-
-  <line x1="10" y1="30" x2="110" y2="30" stroke="grey" stroke-width=".5" />
-  <line x1="10" y1="55" x2="110" y2="55" stroke="grey" stroke-width=".5" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        exponent: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/exponent",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#componentTransfer1);" />',
-                                "36:4 - 36:45",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/exponent
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient
-      id="gradient"
-      gradientUnits="userSpaceOnUse"
-      x1="0"
-      y1="0"
-      x2="200"
-      y2="0">
-      <stop offset="0" stop-color="#ff0000" />
-      <stop offset="0.5" stop-color="#00ff00" />
-      <stop offset="1" stop-color="#0000ff" />
-    </linearGradient>
-  </defs>
-
-  <filter id="componentTransfer1" x="0" y="0" width="100%" height="100%">
-    <feComponentTransfer>
-      <feFuncR type="gamma" exponent="1" />
-      <feFuncG type="gamma" exponent="1" />
-      <feFuncB type="gamma" exponent="1" />
-    </feComponentTransfer>
-  </filter>
-  <filter id="componentTransfer2" x="0" y="0" width="100%" height="100%">
-    <feComponentTransfer>
-      <feFuncR type="gamma" exponent="5" />
-      <feFuncG type="gamma" exponent="5" />
-      <feFuncB type="gamma" exponent="5" />
-    </feComponentTransfer>
-  </filter>
-
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    fill="url(#gradient)"
-    style="filter: url(#componentTransfer1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    fill="url(#gradient)"
-    style="filter: url(#componentTransfer2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#componentTransfer2); transform: translateX(220px);" />',
-                                "43:4 - 43:75",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/exponent
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient
-      id="gradient"
-      gradientUnits="userSpaceOnUse"
-      x1="0"
-      y1="0"
-      x2="200"
-      y2="0">
-      <stop offset="0" stop-color="#ff0000" />
-      <stop offset="0.5" stop-color="#00ff00" />
-      <stop offset="1" stop-color="#0000ff" />
-    </linearGradient>
-  </defs>
-
-  <filter id="componentTransfer1" x="0" y="0" width="100%" height="100%">
-    <feComponentTransfer>
-      <feFuncR type="gamma" exponent="1" />
-      <feFuncG type="gamma" exponent="1" />
-      <feFuncB type="gamma" exponent="1" />
-    </feComponentTransfer>
-  </filter>
-  <filter id="componentTransfer2" x="0" y="0" width="100%" height="100%">
-    <feComponentTransfer>
-      <feFuncR type="gamma" exponent="5" />
-      <feFuncG type="gamma" exponent="5" />
-      <feFuncB type="gamma" exponent="5" />
-    </feComponentTransfer>
-  </filter>
-
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    fill="url(#gradient)"
-    style="filter: url(#componentTransfer1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    fill="url(#gradient)"
-    style="filter: url(#componentTransfer2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         fetchpriority: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/fetchpriority",
                           messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "syntax",
-                                'Unexpected character "EOF"',
-                                "</svg>",
-                                "8:0 - 8:0",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/fetchpriority
-[syntax] Unexpected character "EOF"
-~~~
-<svg
-  viewBox="0 0 10 10"
-  height="120px"
-  width="120px"
-  xmlns="http://www.w3.org/2000/svg">
-  <circle id="normal" cx="5" cy="5" r="4" />
-  <script href="./color-change.js" fetchpriority="high" />
-</svg>
-~~~
-`
-                              ]
-                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -34459,220 +23929,6 @@ svg.elements.script.fetchpriority`,
                                 `svg.elements.feImage.fetchpriority
 svg.elements.image.fetchpriority
 svg.elements.script.fetchpriority`
-                              ]
-                            }
-                          ]
-                        },
-                        "flood-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/flood-color",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <rect x="0" y="0" width="200" height="200" style="filter: url(#flood1);" />',
-                                "8:45 - 8:74",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/flood-color
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="flood1">
-    <feFlood flood-color="skyblue" x="0" y="0" width="200" height="200" />
-  </filter>
-  <filter id="flood2">
-    <feFlood flood-color="seagreen" x="0" y="0" width="200" height="200" />
-  </filter>
-
-  <rect x="0" y="0" width="200" height="200" style="filter: url(#flood1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#flood2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#flood2); transform: translateX(220px);" />',
-                                "14:4 - 14:63",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/flood-color
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="flood1">
-    <feFlood flood-color="skyblue" x="0" y="0" width="200" height="200" />
-  </filter>
-  <filter id="flood2">
-    <feFlood flood-color="seagreen" x="0" y="0" width="200" height="200" />
-  </filter>
-
-  <rect x="0" y="0" width="200" height="200" style="filter: url(#flood1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#flood2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        "flood-opacity": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/flood-opacity",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <rect x="0" y="0" width="200" height="200" style="filter: url(#flood1);" />',
-                                "20:45 - 20:74",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/flood-opacity
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="flood1">
-    <feFlood
-      flood-color="seagreen"
-      flood-opacity="1"
-      x="0"
-      y="0"
-      width="200"
-      height="200" />
-  </filter>
-  <filter id="flood2">
-    <feFlood
-      flood-color="seagreen"
-      flood-opacity="0.3"
-      x="0"
-      y="0"
-      width="200"
-      height="200" />
-  </filter>
-
-  <rect x="0" y="0" width="200" height="200" style="filter: url(#flood1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#flood2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#flood2); transform: translateX(220px);" />',
-                                "26:4 - 26:63",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/flood-opacity
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="flood1">
-    <feFlood
-      flood-color="seagreen"
-      flood-opacity="1"
-      x="0"
-      y="0"
-      width="200"
-      height="200" />
-  </filter>
-  <filter id="flood2">
-    <feFlood
-      flood-color="seagreen"
-      flood-opacity="0.3"
-      x="0"
-      y="0"
-      width="200"
-      height="200" />
-  </filter>
-
-  <rect x="0" y="0" width="200" height="200" style="filter: url(#flood1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#flood2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        fr: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/fr",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="transform: translateX(240px);" />',
-                                "36:4 - 36:41",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/fr
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  viewBox="0 0 480 200"
-  width="420"
-  height="160"
-  xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <radialGradient
-      id="gradient1"
-      cx="0.5"
-      cy="0.5"
-      r="0.5"
-      fx="0.35"
-      fy="0.35"
-      fr="5%">
-      <stop offset="0%" stop-color="white" />
-      <stop offset="100%" stop-color="darkseagreen" />
-    </radialGradient>
-    <radialGradient
-      id="gradient2"
-      cx="0.5"
-      cy="0.5"
-      r="0.5"
-      fx="0.35"
-      fy="0.35"
-      fr="25%">
-      <stop offset="0%" stop-color="white" />
-      <stop offset="100%" stop-color="darkseagreen" />
-    </radialGradient>
-  </defs>
-
-  <circle cx="100" cy="100" r="100" fill="url(#gradient1)" />
-  <circle
-    cx="100"
-    cy="100"
-    r="100"
-    fill="url(#gradient2)"
-    style="transform: translateX(240px);" />
-</svg>
-~~~
-`
                               ]
                             }
                           ]
@@ -34692,114 +23948,6 @@ svg.elements.script.fetchpriority`
                             }
                           ]
                         },
-                        fx: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/fx",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="transform: translateX(240px);" />',
-                                "32:4 - 32:41",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/fx
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 480 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <radialGradient
-      id="gradient1"
-      cx="0.5"
-      cy="0.5"
-      r="0.5"
-      fx="0.35"
-      fy="0.35"
-      fr="5%">
-      <stop offset="0%" stop-color="white" />
-      <stop offset="100%" stop-color="darkseagreen" />
-    </radialGradient>
-    <radialGradient
-      id="gradient2"
-      cx="0.5"
-      cy="0.5"
-      r="0.5"
-      fx="0.75"
-      fy="0.35"
-      fr="5%">
-      <stop offset="0%" stop-color="white" />
-      <stop offset="100%" stop-color="darkseagreen" />
-    </radialGradient>
-  </defs>
-
-  <circle cx="100" cy="100" r="100" fill="url(#gradient1)" />
-  <circle
-    cx="100"
-    cy="100"
-    r="100"
-    fill="url(#gradient2)"
-    style="transform: translateX(240px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        fy: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/fy",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="transform: translateX(240px);" />',
-                                "32:4 - 32:41",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/fy
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 480 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <radialGradient
-      id="gradient1"
-      cx="0.5"
-      cy="0.5"
-      r="0.5"
-      fx="0.35"
-      fy="0.35"
-      fr="5%">
-      <stop offset="0%" stop-color="white" />
-      <stop offset="100%" stop-color="darkseagreen" />
-    </radialGradient>
-    <radialGradient
-      id="gradient2"
-      cx="0.5"
-      cy="0.5"
-      r="0.5"
-      fx="0.35"
-      fy="0.75"
-      fr="5%">
-      <stop offset="0%" stop-color="white" />
-      <stop offset="100%" stop-color="darkseagreen" />
-    </radialGradient>
-  </defs>
-
-  <circle cx="100" cy="100" r="100" fill="url(#gradient1)" />
-  <circle
-    cx="100"
-    cy="100"
-    r="100"
-    fill="url(#gradient2)"
-    style="transform: translateX(240px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         "glyph-orientation-horizontal": {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/glyph-orientation-horizontal",
@@ -34808,62 +23956,6 @@ svg.elements.script.fetchpriority`
                               message: "Broken link",
                               data: [
                                 "/en-US/docs/Web/CSS/glyph-orientation-horizontal"
-                              ]
-                            }
-                          ]
-                        },
-                        gradienttransform: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/gradientTransform",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="transform: translateX(220px);" />',
-                                "34:4 - 34:41",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/gradientTransform
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <radialGradient
-    id="gradient1"
-    gradientUnits="userSpaceOnUse"
-    cx="100"
-    cy="100"
-    r="100"
-    fx="100"
-    fy="100">
-    <stop offset="0%" stop-color="darkblue" />
-    <stop offset="50%" stop-color="skyblue" />
-    <stop offset="100%" stop-color="darkblue" />
-  </radialGradient>
-  <radialGradient
-    id="gradient2"
-    gradientUnits="userSpaceOnUse"
-    cx="100"
-    cy="100"
-    r="100"
-    fx="100"
-    fy="100"
-    gradientTransform="skewX(20) translate(-35, 0)">
-    <stop offset="0%" stop-color="darkblue" />
-    <stop offset="50%" stop-color="skyblue" />
-    <stop offset="100%" stop-color="darkblue" />
-  </radialGradient>
-
-  <rect x="0" y="0" width="200" height="200" fill="url(#gradient1)" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    fill="url(#gradient2)"
-    style="transform: translateX(220px);" />
-</svg>
-~~~
-`
                               ]
                             }
                           ]
@@ -34894,321 +23986,6 @@ svg.elements.use.height`
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/in",
                           messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '<div style="width: 420px; height: 220px;">',
-                                "0:5 - 0:41",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/in
-[no-style-attr] Do not use the style attribute.
-~~~
-<div style="width: 420px; height: 220px;">
-  <svg
-    style="width:200px; height:200px; display: inline;"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-      <filter id="backgroundMultiply">
-        <!-- This will not work. -->
-        <feBlend in="BackgroundImage" in2="SourceGraphic" mode="multiply" />
-      </filter>
-    </defs>
-    <image
-      href="mdn_logo_only_color.png"
-      x="10%"
-      y="10%"
-      width="80%"
-      height="80%" />
-    <circle
-      cx="50%"
-      cy="40%"
-      r="40%"
-      fill="#c00"
-      style="filter:url(#backgroundMultiply);" />
-  </svg>
-
-  <svg
-    style="width:200px; height:200px; display: inline;"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-      <filter id="imageMultiply">
-        <!-- This is a workaround. -->
-        <feImage
-          href="mdn_logo_only_color.png"
-          x="10%"
-          y="10%"
-          width="80%"
-          height="80%" />
-        <feBlend in2="SourceGraphic" mode="multiply" />
-      </filter>
-    </defs>
-    <circle
-      cx="50%"
-      cy="40%"
-      r="40%"
-      fill="#c00"
-      style="filter:url(#imageMultiply);" />
-  </svg>
-</div>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="width:200px; height:200px; display: inline;"',
-                                "2:4 - 2:55",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/in
-[no-style-attr] Do not use the style attribute.
-~~~
-<div style="width: 420px; height: 220px;">
-  <svg
-    style="width:200px; height:200px; display: inline;"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-      <filter id="backgroundMultiply">
-        <!-- This will not work. -->
-        <feBlend in="BackgroundImage" in2="SourceGraphic" mode="multiply" />
-      </filter>
-    </defs>
-    <image
-      href="mdn_logo_only_color.png"
-      x="10%"
-      y="10%"
-      width="80%"
-      height="80%" />
-    <circle
-      cx="50%"
-      cy="40%"
-      r="40%"
-      fill="#c00"
-      style="filter:url(#backgroundMultiply);" />
-  </svg>
-
-  <svg
-    style="width:200px; height:200px; display: inline;"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-      <filter id="imageMultiply">
-        <!-- This is a workaround. -->
-        <feImage
-          href="mdn_logo_only_color.png"
-          x="10%"
-          y="10%"
-          width="80%"
-          height="80%" />
-        <feBlend in2="SourceGraphic" mode="multiply" />
-      </filter>
-    </defs>
-    <circle
-      cx="50%"
-      cy="40%"
-      r="40%"
-      fill="#c00"
-      style="filter:url(#imageMultiply);" />
-  </svg>
-</div>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '      style="filter:url(#backgroundMultiply);" />',
-                                "22:6 - 22:46",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/in
-[no-style-attr] Do not use the style attribute.
-~~~
-<div style="width: 420px; height: 220px;">
-  <svg
-    style="width:200px; height:200px; display: inline;"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-      <filter id="backgroundMultiply">
-        <!-- This will not work. -->
-        <feBlend in="BackgroundImage" in2="SourceGraphic" mode="multiply" />
-      </filter>
-    </defs>
-    <image
-      href="mdn_logo_only_color.png"
-      x="10%"
-      y="10%"
-      width="80%"
-      height="80%" />
-    <circle
-      cx="50%"
-      cy="40%"
-      r="40%"
-      fill="#c00"
-      style="filter:url(#backgroundMultiply);" />
-  </svg>
-
-  <svg
-    style="width:200px; height:200px; display: inline;"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-      <filter id="imageMultiply">
-        <!-- This is a workaround. -->
-        <feImage
-          href="mdn_logo_only_color.png"
-          x="10%"
-          y="10%"
-          width="80%"
-          height="80%" />
-        <feBlend in2="SourceGraphic" mode="multiply" />
-      </filter>
-    </defs>
-    <circle
-      cx="50%"
-      cy="40%"
-      r="40%"
-      fill="#c00"
-      style="filter:url(#imageMultiply);" />
-  </svg>
-</div>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="width:200px; height:200px; display: inline;"',
-                                "26:4 - 26:55",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/in
-[no-style-attr] Do not use the style attribute.
-~~~
-<div style="width: 420px; height: 220px;">
-  <svg
-    style="width:200px; height:200px; display: inline;"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-      <filter id="backgroundMultiply">
-        <!-- This will not work. -->
-        <feBlend in="BackgroundImage" in2="SourceGraphic" mode="multiply" />
-      </filter>
-    </defs>
-    <image
-      href="mdn_logo_only_color.png"
-      x="10%"
-      y="10%"
-      width="80%"
-      height="80%" />
-    <circle
-      cx="50%"
-      cy="40%"
-      r="40%"
-      fill="#c00"
-      style="filter:url(#backgroundMultiply);" />
-  </svg>
-
-  <svg
-    style="width:200px; height:200px; display: inline;"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-      <filter id="imageMultiply">
-        <!-- This is a workaround. -->
-        <feImage
-          href="mdn_logo_only_color.png"
-          x="10%"
-          y="10%"
-          width="80%"
-          height="80%" />
-        <feBlend in2="SourceGraphic" mode="multiply" />
-      </filter>
-    </defs>
-    <circle
-      cx="50%"
-      cy="40%"
-      r="40%"
-      fill="#c00"
-      style="filter:url(#imageMultiply);" />
-  </svg>
-</div>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '      style="filter:url(#imageMultiply);" />',
-                                "46:6 - 46:41",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/in
-[no-style-attr] Do not use the style attribute.
-~~~
-<div style="width: 420px; height: 220px;">
-  <svg
-    style="width:200px; height:200px; display: inline;"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-      <filter id="backgroundMultiply">
-        <!-- This will not work. -->
-        <feBlend in="BackgroundImage" in2="SourceGraphic" mode="multiply" />
-      </filter>
-    </defs>
-    <image
-      href="mdn_logo_only_color.png"
-      x="10%"
-      y="10%"
-      width="80%"
-      height="80%" />
-    <circle
-      cx="50%"
-      cy="40%"
-      r="40%"
-      fill="#c00"
-      style="filter:url(#backgroundMultiply);" />
-  </svg>
-
-  <svg
-    style="width:200px; height:200px; display: inline;"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-      <filter id="imageMultiply">
-        <!-- This is a workaround. -->
-        <feImage
-          href="mdn_logo_only_color.png"
-          x="10%"
-          y="10%"
-          width="80%"
-          height="80%" />
-        <feBlend in2="SourceGraphic" mode="multiply" />
-      </filter>
-    </defs>
-    <circle
-      cx="50%"
-      cy="40%"
-      r="40%"
-      fill="#c00"
-      style="filter:url(#imageMultiply);" />
-  </svg>
-</div>
-~~~
-`
-                              ]
-                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -35255,618 +24032,12 @@ svg.elements.feDisplacementMap.in2`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/intercept",
                           messages: [
                             {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#componentTransfer1);" />',
-                                "36:4 - 36:45",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/intercept
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient
-      id="gradient"
-      gradientUnits="userSpaceOnUse"
-      x1="0"
-      y1="0"
-      x2="200"
-      y2="0">
-      <stop offset="0" stop-color="#ff0000" />
-      <stop offset="0.5" stop-color="#00ff00" />
-      <stop offset="1" stop-color="#0000ff" />
-    </linearGradient>
-  </defs>
-
-  <filter id="componentTransfer1" x="0" y="0" width="100%" height="100%">
-    <feComponentTransfer>
-      <feFuncR type="linear" intercept="0" />
-      <feFuncG type="linear" intercept="0" />
-      <feFuncB type="linear" intercept="0" />
-    </feComponentTransfer>
-  </filter>
-  <filter id="componentTransfer2" x="0" y="0" width="100%" height="100%">
-    <feComponentTransfer>
-      <feFuncR type="linear" intercept="0.3" />
-      <feFuncG type="linear" intercept="0.1" />
-      <feFuncB type="linear" intercept="0.8" />
-    </feComponentTransfer>
-  </filter>
-
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    fill="url(#gradient)"
-    style="filter: url(#componentTransfer1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    fill="url(#gradient)"
-    style="filter: url(#componentTransfer2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#componentTransfer2); transform: translateX(220px);" />',
-                                "43:4 - 43:75",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/intercept
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient
-      id="gradient"
-      gradientUnits="userSpaceOnUse"
-      x1="0"
-      y1="0"
-      x2="200"
-      y2="0">
-      <stop offset="0" stop-color="#ff0000" />
-      <stop offset="0.5" stop-color="#00ff00" />
-      <stop offset="1" stop-color="#0000ff" />
-    </linearGradient>
-  </defs>
-
-  <filter id="componentTransfer1" x="0" y="0" width="100%" height="100%">
-    <feComponentTransfer>
-      <feFuncR type="linear" intercept="0" />
-      <feFuncG type="linear" intercept="0" />
-      <feFuncB type="linear" intercept="0" />
-    </feComponentTransfer>
-  </filter>
-  <filter id="componentTransfer2" x="0" y="0" width="100%" height="100%">
-    <feComponentTransfer>
-      <feFuncR type="linear" intercept="0.3" />
-      <feFuncG type="linear" intercept="0.1" />
-      <feFuncB type="linear" intercept="0.8" />
-    </feComponentTransfer>
-  </filter>
-
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    fill="url(#gradient)"
-    style="filter: url(#componentTransfer1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    fill="url(#gradient)"
-    style="filter: url(#componentTransfer2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Unexpected BCD keys",
                               data: [
                                 "Actual:",
                                 "svg.elements.feFuncR",
                                 "Expected:",
                                 "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        k1: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/k1",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#composite1);" />',
-                                "26:4 - 26:37",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/k1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="composite1" x="0" y="0" width="100%" height="100%">
-    <feComposite
-      in2="SourceGraphic"
-      operator="arithmetic"
-      k1="1"
-      k2="0"
-      k3="0"
-      k4="0" />
-  </filter>
-  <filter id="composite2" x="0" y="0" width="100%" height="100%">
-    <feComposite
-      in2="SourceGraphic"
-      operator="arithmetic"
-      k1="10"
-      k2="0"
-      k3="0"
-      k4="0" />
-  </filter>
-
-  <image
-    href="mdn.svg"
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#composite1);" />
-  <image
-    href="mdn.svg"
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#composite2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#composite2); transform: translateX(220px);" />',
-                                "33:4 - 33:67",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/k1
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="composite1" x="0" y="0" width="100%" height="100%">
-    <feComposite
-      in2="SourceGraphic"
-      operator="arithmetic"
-      k1="1"
-      k2="0"
-      k3="0"
-      k4="0" />
-  </filter>
-  <filter id="composite2" x="0" y="0" width="100%" height="100%">
-    <feComposite
-      in2="SourceGraphic"
-      operator="arithmetic"
-      k1="10"
-      k2="0"
-      k3="0"
-      k4="0" />
-  </filter>
-
-  <image
-    href="mdn.svg"
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#composite1);" />
-  <image
-    href="mdn.svg"
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#composite2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        k2: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/k2",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#composite1);" />',
-                                "26:4 - 26:37",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/k2
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="composite1" x="0" y="0" width="100%" height="100%">
-    <feComposite
-      in2="SourceGraphic"
-      operator="arithmetic"
-      k1="1"
-      k2="1"
-      k3="0"
-      k4="0" />
-  </filter>
-  <filter id="composite2" x="0" y="0" width="100%" height="100%">
-    <feComposite
-      in2="SourceGraphic"
-      operator="arithmetic"
-      k1="1"
-      k2="10"
-      k3="0"
-      k4="0" />
-  </filter>
-
-  <image
-    href="mdn.svg"
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#composite1);" />
-  <image
-    href="mdn.svg"
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#composite2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#composite2); transform: translateX(220px);" />',
-                                "33:4 - 33:67",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/k2
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="composite1" x="0" y="0" width="100%" height="100%">
-    <feComposite
-      in2="SourceGraphic"
-      operator="arithmetic"
-      k1="1"
-      k2="1"
-      k3="0"
-      k4="0" />
-  </filter>
-  <filter id="composite2" x="0" y="0" width="100%" height="100%">
-    <feComposite
-      in2="SourceGraphic"
-      operator="arithmetic"
-      k1="1"
-      k2="10"
-      k3="0"
-      k4="0" />
-  </filter>
-
-  <image
-    href="mdn.svg"
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#composite1);" />
-  <image
-    href="mdn.svg"
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#composite2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        k3: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/k3",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#composite1);" />',
-                                "26:4 - 26:37",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/k3
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="composite1" x="0" y="0" width="100%" height="100%">
-    <feComposite
-      in2="SourceGraphic"
-      operator="arithmetic"
-      k1="1"
-      k2="0"
-      k3="1"
-      k4="0" />
-  </filter>
-  <filter id="composite2" x="0" y="0" width="100%" height="100%">
-    <feComposite
-      in2="SourceGraphic"
-      operator="arithmetic"
-      k1="1"
-      k2="0"
-      k3="10"
-      k4="0" />
-  </filter>
-
-  <image
-    href="mdn.svg"
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#composite1);" />
-  <image
-    href="mdn.svg"
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#composite2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#composite2); transform: translateX(220px);" />',
-                                "33:4 - 33:67",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/k3
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="composite1" x="0" y="0" width="100%" height="100%">
-    <feComposite
-      in2="SourceGraphic"
-      operator="arithmetic"
-      k1="1"
-      k2="0"
-      k3="1"
-      k4="0" />
-  </filter>
-  <filter id="composite2" x="0" y="0" width="100%" height="100%">
-    <feComposite
-      in2="SourceGraphic"
-      operator="arithmetic"
-      k1="1"
-      k2="0"
-      k3="10"
-      k4="0" />
-  </filter>
-
-  <image
-    href="mdn.svg"
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#composite1);" />
-  <image
-    href="mdn.svg"
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#composite2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        k4: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/k4",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#composite1);" />',
-                                "26:4 - 26:37",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/k4
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="composite1" x="0" y="0" width="100%" height="100%">
-    <feComposite
-      in2="SourceGraphic"
-      operator="arithmetic"
-      k1="1"
-      k2="0"
-      k3="0"
-      k4="0" />
-  </filter>
-  <filter id="composite2" x="0" y="0" width="100%" height="100%">
-    <feComposite
-      in2="SourceGraphic"
-      operator="arithmetic"
-      k1="10"
-      k2="0"
-      k3="0"
-      k4="0.3" />
-  </filter>
-
-  <image
-    href="mdn.svg"
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#composite1);" />
-  <image
-    href="mdn.svg"
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#composite2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#composite2); transform: translateX(220px);" />',
-                                "33:4 - 33:67",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/k4
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="composite1" x="0" y="0" width="100%" height="100%">
-    <feComposite
-      in2="SourceGraphic"
-      operator="arithmetic"
-      k1="1"
-      k2="0"
-      k3="0"
-      k4="0" />
-  </filter>
-  <filter id="composite2" x="0" y="0" width="100%" height="100%">
-    <feComposite
-      in2="SourceGraphic"
-      operator="arithmetic"
-      k1="10"
-      k2="0"
-      k3="0"
-      k4="0.3" />
-  </filter>
-
-  <image
-    href="mdn.svg"
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#composite1);" />
-  <image
-    href="mdn.svg"
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#composite2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        kernelmatrix: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/kernelMatrix",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter:url(#convolveMatrix1);" />',
-                                "12:4 - 12:41",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/kernelMatrix
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="convolveMatrix1" x="0" y="0" width="100%" height="100%">
-    <feConvolveMatrix kernelMatrix="1 1 0 0 0 0 0 0 -1" />
-  </filter>
-  <filter id="convolveMatrix2" x="0" y="0" width="100%" height="100%">
-    <feConvolveMatrix kernelMatrix="-1 0 0 0 0 0 0 0 1" />
-  </filter>
-
-  <image
-    href="mdn_logo_only_color.png"
-    width="200"
-    height="200"
-    style="filter:url(#convolveMatrix1);" />
-  <image
-    href="mdn_logo_only_color.png"
-    width="200"
-    height="200"
-    style="filter:url(#convolveMatrix2); transform:translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter:url(#convolveMatrix2); transform:translateX(220px);" />',
-                                "17:4 - 17:70",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/kernelMatrix
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="convolveMatrix1" x="0" y="0" width="100%" height="100%">
-    <feConvolveMatrix kernelMatrix="1 1 0 0 0 0 0 0 -1" />
-  </filter>
-  <filter id="convolveMatrix2" x="0" y="0" width="100%" height="100%">
-    <feConvolveMatrix kernelMatrix="-1 0 0 0 0 0 0 0 1" />
-  </filter>
-
-  <image
-    href="mdn_logo_only_color.png"
-    width="200"
-    height="200"
-    style="filter:url(#convolveMatrix1);" />
-  <image
-    href="mdn_logo_only_color.png"
-    width="200"
-    height="200"
-    style="filter:url(#convolveMatrix2); transform:translateX(220px);" />
-</svg>
-~~~
-`
                               ]
                             }
                           ]
@@ -35888,198 +24059,6 @@ svg.elements.feDisplacementMap.in2`
                                 `svg.elements.feConvolveMatrix.kernelUnitLength
 svg.elements.feDiffuseLighting.kernelUnitLength
 svg.elements.feSpecularLighting.kernelUnitLength`
-                              ]
-                            }
-                          ]
-                        },
-                        "lighting-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/lighting-color",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#diffuseLighting1);" />',
-                                "17:4 - 17:43",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/lighting-color
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="diffuseLighting1" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic" lighting-color="white">
-      <fePointLight x="60" y="60" z="20" />
-    </feDiffuseLighting>
-  </filter>
-  <filter id="diffuseLighting2" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic" lighting-color="blue">
-      <fePointLight x="60" y="60" z="20" />
-    </feDiffuseLighting>
-  </filter>
-
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#diffuseLighting1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#diffuseLighting2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#diffuseLighting2); transform: translateX(220px);" />',
-                                "23:4 - 23:73",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/lighting-color
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="diffuseLighting1" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic" lighting-color="white">
-      <fePointLight x="60" y="60" z="20" />
-    </feDiffuseLighting>
-  </filter>
-  <filter id="diffuseLighting2" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic" lighting-color="blue">
-      <fePointLight x="60" y="60" z="20" />
-    </feDiffuseLighting>
-  </filter>
-
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#diffuseLighting1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#diffuseLighting2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        limitingconeangle: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/limitingConeAngle",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#spotLight1);" />',
-                                "29:4 - 29:37",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/limitingConeAngle
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 480 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="spotLight1" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting diffuseConstant="2">
-      <feSpotLight
-        x="10"
-        y="10"
-        z="50"
-        pointsAtX="100"
-        pointsAtY="100"
-        limitingConeAngle="10" />
-    </feDiffuseLighting>
-  </filter>
-  <filter id="spotLight2" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting diffuseConstant="2">
-      <feSpotLight
-        x="10"
-        y="10"
-        z="50"
-        pointsAtX="100"
-        pointsAtY="100"
-        limitingConeAngle="40" />
-    </feDiffuseLighting>
-  </filter>
-
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#spotLight1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#spotLight2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#spotLight2); transform: translateX(220px);" />',
-                                "35:4 - 35:67",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/limitingConeAngle
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 480 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="spotLight1" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting diffuseConstant="2">
-      <feSpotLight
-        x="10"
-        y="10"
-        z="50"
-        pointsAtX="100"
-        pointsAtY="100"
-        limitingConeAngle="10" />
-    </feDiffuseLighting>
-  </filter>
-  <filter id="spotLight2" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting diffuseConstant="2">
-      <feSpotLight
-        x="10"
-        y="10"
-        z="50"
-        pointsAtX="100"
-        pointsAtY="100"
-        limitingConeAngle="40" />
-    </feDiffuseLighting>
-  </filter>
-
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#spotLight1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#spotLight2); transform: translateX(220px);" />
-</svg>
-~~~
-`
                               ]
                             }
                           ]
@@ -36109,263 +24088,6 @@ svg.elements.feSpecularLighting.kernelUnitLength`
                             }
                           ]
                         },
-                        mode: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/mode",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter:url(#blending1);" />',
-                                "28:4 - 28:35",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/mode
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 480 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="blending1" x="0" y="0" width="100%" height="100%">
-    <feFlood
-      result="floodFill"
-      x="0"
-      y="0"
-      width="100%"
-      height="100%"
-      flood-color="seagreen"
-      flood-opacity="1" />
-    <feBlend in="SourceGraphic" in2="floodFill" mode="multiply" />
-  </filter>
-  <filter id="blending2" x="0" y="0" width="100%" height="100%">
-    <feFlood
-      result="floodFill"
-      x="0"
-      y="0"
-      width="100%"
-      height="100%"
-      flood-color="seagreen"
-      flood-opacity="1" />
-    <feBlend in="SourceGraphic" in2="floodFill" mode="color-dodge" />
-  </filter>
-
-  <image
-    href="mdn_logo_only_color.png"
-    width="200"
-    height="200"
-    style="filter:url(#blending1);" />
-  <image
-    href="mdn_logo_only_color.png"
-    width="200"
-    height="200"
-    style="filter:url(#blending2); transform:translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter:url(#blending2); transform:translateX(220px);" />',
-                                "33:4 - 33:64",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/mode
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 480 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="blending1" x="0" y="0" width="100%" height="100%">
-    <feFlood
-      result="floodFill"
-      x="0"
-      y="0"
-      width="100%"
-      height="100%"
-      flood-color="seagreen"
-      flood-opacity="1" />
-    <feBlend in="SourceGraphic" in2="floodFill" mode="multiply" />
-  </filter>
-  <filter id="blending2" x="0" y="0" width="100%" height="100%">
-    <feFlood
-      result="floodFill"
-      x="0"
-      y="0"
-      width="100%"
-      height="100%"
-      flood-color="seagreen"
-      flood-opacity="1" />
-    <feBlend in="SourceGraphic" in2="floodFill" mode="color-dodge" />
-  </filter>
-
-  <image
-    href="mdn_logo_only_color.png"
-    width="200"
-    height="200"
-    style="filter:url(#blending1);" />
-  <image
-    href="mdn_logo_only_color.png"
-    width="200"
-    height="200"
-    style="filter:url(#blending2); transform:translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        numoctaves: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/numOctaves",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <rect x="0" y="0" width="200" height="200" style="filter: url(#noise1);" />',
-                                "8:45 - 8:74",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/numOctaves
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="noise1" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" numOctaves="1" />
-  </filter>
-  <filter id="noise2" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" numOctaves="3" />
-  </filter>
-
-  <rect x="0" y="0" width="200" height="200" style="filter: url(#noise1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#noise2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#noise2); transform: translateX(220px);" />',
-                                "14:4 - 14:63",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/numOctaves
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="noise1" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" numOctaves="1" />
-  </filter>
-  <filter id="noise2" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" numOctaves="3" />
-  </filter>
-
-  <rect x="0" y="0" width="200" height="200" style="filter: url(#noise1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#noise2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <circle cx="100" cy="100" r="100" style="filter: url(#displacementFilter)" />',
-                                "15:36 - 15:76",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/numOctaves
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  width="200"
-  height="200"
-  viewBox="0 0 220 220"
-  xmlns="http://www.w3.org/2000/svg">
-  <filter id="displacementFilter">
-    <feTurbulence baseFrequency="0.05" numOctaves="3" result="turbulence" />
-    <feDisplacementMap
-      in2="turbulence"
-      in="SourceGraphic"
-      scale="50"
-      xChannelSelector="R"
-      yChannelSelector="G" />
-  </filter>
-
-  <circle cx="100" cy="100" r="100" style="filter: url(#displacementFilter)" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        opacity: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/opacity",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '      <stop offset="0%" style="stop-color:skyblue;" />',
-                                "3:24 - 3:51",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/opacity
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="gradient" x1="0%" y1="0%" x2="0" y2="100%">
-      <stop offset="0%" style="stop-color:skyblue;" />
-      <stop offset="100%" style="stop-color:seagreen;" />
-    </linearGradient>
-  </defs>
-  <rect x="0" y="0" width="100%" height="100%" fill="url(#gradient)" />
-  <circle cx="50" cy="50" r="40" fill="black" />
-  <circle cx="150" cy="50" r="40" fill="black" opacity="0.3" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '      <stop offset="100%" style="stop-color:seagreen;" />',
-                                "4:26 - 4:54",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/opacity
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="gradient" x1="0%" y1="0%" x2="0" y2="100%">
-      <stop offset="0%" style="stop-color:skyblue;" />
-      <stop offset="100%" style="stop-color:seagreen;" />
-    </linearGradient>
-  </defs>
-  <rect x="0" y="0" width="100%" height="100%" fill="url(#gradient)" />
-  <circle cx="50" cy="50" r="40" fill="black" />
-  <circle cx="150" cy="50" r="40" fill="black" opacity="0.3" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         operator: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/operator",
@@ -36378,76 +24100,6 @@ svg.elements.feSpecularLighting.kernelUnitLength`
                                 "Expected:",
                                 `svg.elements.feComposite.operator
 svg.elements.feMorphology.operator`
-                              ]
-                            }
-                          ]
-                        },
-                        order: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/order",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <rect x="0" y="0" width="200" height="200" style="filter:url(#emboss1);" />',
-                                "10:45 - 10:74",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/order
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="emboss1" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" seed="0" />
-    <feConvolveMatrix kernelMatrix="3 0 0 -4" order="2" />
-  </filter>
-  <filter id="emboss2" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" seed="0" />
-    <feConvolveMatrix kernelMatrix="3 0 0 0 0 0 0 0 -4" order="3" />
-  </filter>
-
-  <rect x="0" y="0" width="200" height="200" style="filter:url(#emboss1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter:url(#emboss2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter:url(#emboss2); transform: translateX(220px);" />',
-                                "16:4 - 16:63",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/order
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="emboss1" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" seed="0" />
-    <feConvolveMatrix kernelMatrix="3 0 0 -4" order="2" />
-  </filter>
-  <filter id="emboss2" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" seed="0" />
-    <feConvolveMatrix kernelMatrix="3 0 0 0 0 0 0 0 -4" order="3" />
-  </filter>
-
-  <rect x="0" y="0" width="200" height="200" style="filter:url(#emboss1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter:url(#emboss2); transform: translateX(220px);" />
-</svg>
-~~~
-`
                               ]
                             }
                           ]
@@ -36495,304 +24147,6 @@ svg.elements.textPath.path`
                                 "Expected:",
                                 `svg.elements.polygon.points
 svg.elements.polyline.points`
-                              ]
-                            }
-                          ]
-                        },
-                        pointsatx: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/pointsAtX",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <rect x="0" y="0" width="200" height="200" style="filter: url(#lighting1);" />',
-                                "12:45 - 12:77",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/pointsAtX
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="lighting1" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic">
-      <feSpotLight x="60" y="60" z="50" pointsAtX="0" />
-    </feDiffuseLighting>
-  </filter>
-  <filter id="lighting2" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic">
-      <feSpotLight x="60" y="60" z="50" pointsAtX="400" />
-    </feDiffuseLighting>
-  </filter>
-
-  <rect x="0" y="0" width="200" height="200" style="filter: url(#lighting1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#lighting2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#lighting2); transform: translateX(220px);" />',
-                                "18:4 - 18:66",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/pointsAtX
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="lighting1" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic">
-      <feSpotLight x="60" y="60" z="50" pointsAtX="0" />
-    </feDiffuseLighting>
-  </filter>
-  <filter id="lighting2" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic">
-      <feSpotLight x="60" y="60" z="50" pointsAtX="400" />
-    </feDiffuseLighting>
-  </filter>
-
-  <rect x="0" y="0" width="200" height="200" style="filter: url(#lighting1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#lighting2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        pointsaty: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/pointsAtY",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <rect x="0" y="0" width="200" height="200" style="filter: url(#lighting1);" />',
-                                "12:45 - 12:77",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/pointsAtY
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="lighting1" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic">
-      <feSpotLight x="60" y="60" z="50" pointsAtY="0" />
-    </feDiffuseLighting>
-  </filter>
-  <filter id="lighting2" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic">
-      <feSpotLight x="60" y="60" z="50" pointsAtY="400" />
-    </feDiffuseLighting>
-  </filter>
-
-  <rect x="0" y="0" width="200" height="200" style="filter: url(#lighting1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#lighting2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#lighting2); transform: translateX(220px);" />',
-                                "18:4 - 18:66",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/pointsAtY
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="lighting1" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic">
-      <feSpotLight x="60" y="60" z="50" pointsAtY="0" />
-    </feDiffuseLighting>
-  </filter>
-  <filter id="lighting2" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic">
-      <feSpotLight x="60" y="60" z="50" pointsAtY="400" />
-    </feDiffuseLighting>
-  </filter>
-
-  <rect x="0" y="0" width="200" height="200" style="filter: url(#lighting1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#lighting2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        pointsatz: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/pointsAtZ",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <rect x="0" y="0" width="200" height="200" style="filter: url(#lighting1);" />',
-                                "12:45 - 12:77",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/pointsAtZ
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="lighting1" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic">
-      <feSpotLight x="100" y="100" z="50" pointsAtZ="0" />
-    </feDiffuseLighting>
-  </filter>
-  <filter id="lighting2" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic">
-      <feSpotLight x="100" y="100" z="50" pointsAtZ="80" />
-    </feDiffuseLighting>
-  </filter>
-
-  <rect x="0" y="0" width="200" height="200" style="filter: url(#lighting1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#lighting2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#lighting2); transform: translateX(220px);" />',
-                                "18:4 - 18:66",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/pointsAtZ
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="lighting1" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic">
-      <feSpotLight x="100" y="100" z="50" pointsAtZ="0" />
-    </feDiffuseLighting>
-  </filter>
-  <filter id="lighting2" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic">
-      <feSpotLight x="100" y="100" z="50" pointsAtZ="80" />
-    </feDiffuseLighting>
-  </filter>
-
-  <rect x="0" y="0" width="200" height="200" style="filter: url(#lighting1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#lighting2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        preservealpha: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/preserveAlpha",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter:url(#convolveMatrix1);" />',
-                                "14:4 - 14:41",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/preserveAlpha
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="convolveMatrix1" x="0" y="0" width="100%" height="100%">
-    <feConvolveMatrix kernelMatrix="1 -1 2 0 0 0 0 0 -2" preserveAlpha="true" />
-  </filter>
-  <filter id="convolveMatrix2" x="0" y="0" width="100%" height="100%">
-    <feConvolveMatrix
-      kernelMatrix="1 -1 2 0 0 0 0 0 -2"
-      preserveAlpha="false" />
-  </filter>
-
-  <image
-    href="mdn_logo_only_color.png"
-    width="200"
-    height="200"
-    style="filter:url(#convolveMatrix1);" />
-  <image
-    href="mdn_logo_only_color.png"
-    width="200"
-    height="200"
-    style="filter:url(#convolveMatrix2); transform:translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter:url(#convolveMatrix2); transform:translateX(220px);" />',
-                                "19:4 - 19:70",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/preserveAlpha
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="convolveMatrix1" x="0" y="0" width="100%" height="100%">
-    <feConvolveMatrix kernelMatrix="1 -1 2 0 0 0 0 0 -2" preserveAlpha="true" />
-  </filter>
-  <filter id="convolveMatrix2" x="0" y="0" width="100%" height="100%">
-    <feConvolveMatrix
-      kernelMatrix="1 -1 2 0 0 0 0 0 -2"
-      preserveAlpha="false" />
-  </filter>
-
-  <image
-    href="mdn_logo_only_color.png"
-    width="200"
-    height="200"
-    style="filter:url(#convolveMatrix1);" />
-  <image
-    href="mdn_logo_only_color.png"
-    width="200"
-    height="200"
-    style="filter:url(#convolveMatrix2); transform:translateX(220px);" />
-</svg>
-~~~
-`
                               ]
                             }
                           ]
@@ -36861,43 +24215,6 @@ svg.elements.view.preserveAspectRatio`
                             }
                           ]
                         },
-                        result: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/result",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <circle cx="100" cy="100" r="100" style="filter: url(#displacementFilter)" />',
-                                "15:36 - 15:76",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/result
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
-  <filter id="displacementFilter">
-    <feTurbulence
-      type="turbulence"
-      baseFrequency="0.05"
-      numOctaves="2"
-      result="turbulence" />
-    <feDisplacementMap
-      in2="turbulence"
-      in="SourceGraphic"
-      scale="50"
-      xChannelSelector="R"
-      yChannelSelector="G" />
-  </filter>
-
-  <circle cx="100" cy="100" r="100" style="filter: url(#displacementFilter)" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         rotate: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/rotate",
@@ -36947,190 +24264,6 @@ svg.elements.rect.ry`
                             }
                           ]
                         },
-                        scale: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/scale",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <circle cx="100" cy="100" r="80" style="filter: url(#displacementFilter);" />',
-                                "18:35 - 18:76",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/scale
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg">
-  <filter id="displacementFilter" x="-20%" y="-20%" width="140%" height="140%">
-    <feTurbulence
-      type="turbulence"
-      baseFrequency="0.05"
-      numOctaves="2"
-      result="turbulence" />
-    <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="5" />
-  </filter>
-  <filter id="displacementFilter2" x="-20%" y="-20%" width="140%" height="140%">
-    <feTurbulence
-      type="turbulence"
-      baseFrequency="0.05"
-      numOctaves="2"
-      result="turbulence" />
-    <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="50" />
-  </filter>
-
-  <circle cx="100" cy="100" r="80" style="filter: url(#displacementFilter);" />
-  <circle
-    cx="100"
-    cy="100"
-    r="80"
-    style="filter: url(#displacementFilter2);
-  transform: translateX(240px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                `    style="filter: url(#displacementFilter2);
-  transform: translateX(240px);" />`,
-                                "23:4 - 24:32",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/scale
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg">
-  <filter id="displacementFilter" x="-20%" y="-20%" width="140%" height="140%">
-    <feTurbulence
-      type="turbulence"
-      baseFrequency="0.05"
-      numOctaves="2"
-      result="turbulence" />
-    <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="5" />
-  </filter>
-  <filter id="displacementFilter2" x="-20%" y="-20%" width="140%" height="140%">
-    <feTurbulence
-      type="turbulence"
-      baseFrequency="0.05"
-      numOctaves="2"
-      result="turbulence" />
-    <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="50" />
-  </filter>
-
-  <circle cx="100" cy="100" r="80" style="filter: url(#displacementFilter);" />
-  <circle
-    cx="100"
-    cy="100"
-    r="80"
-    style="filter: url(#displacementFilter2);
-  transform: translateX(240px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        seed: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/seed",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <rect x="0" y="0" width="200" height="200" style="filter:url(#noise1);" />',
-                                "8:45 - 8:73",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/seed
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="noise1" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" seed="0" />
-  </filter>
-  <filter id="noise2" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" seed="100" />
-  </filter>
-
-  <rect x="0" y="0" width="200" height="200" style="filter:url(#noise1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter:url(#noise2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter:url(#noise2); transform: translateX(220px);" />',
-                                "14:4 - 14:62",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/seed
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="noise1" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" seed="0" />
-  </filter>
-  <filter id="noise2" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" seed="100" />
-  </filter>
-
-  <rect x="0" y="0" width="200" height="200" style="filter:url(#noise1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter:url(#noise2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <circle cx="100" cy="100" r="100" style="filter: url(#displacementFilter)" />',
-                                "15:36 - 15:76",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/seed
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  width="200"
-  height="200"
-  viewBox="0 0 220 220"
-  xmlns="http://www.w3.org/2000/svg">
-  <filter id="displacementFilter">
-    <feTurbulence baseFrequency="0.05" seed="1000" result="turbulence" />
-    <feDisplacementMap
-      in2="turbulence"
-      in="SourceGraphic"
-      scale="50"
-      xChannelSelector="R"
-      yChannelSelector="G" />
-  </filter>
-
-  <circle cx="100" cy="100" r="100" style="filter: url(#displacementFilter)" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         slope: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/slope",
@@ -37146,172 +24279,10 @@ svg.elements.rect.ry`
                             }
                           ]
                         },
-                        specularconstant: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/specularConstant",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#specularLighting1);" />',
-                                "17:4 - 17:44",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/specularConstant
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="specularLighting1" x="0" y="0" width="100%" height="100%">
-    <feSpecularLighting in="SourceGraphic" specularConstant="1.2">
-      <fePointLight x="60" y="60" z="20" />
-    </feSpecularLighting>
-  </filter>
-  <filter id="specularLighting2" x="0" y="0" width="100%" height="100%">
-    <feSpecularLighting in="SourceGraphic" specularConstant="0.8">
-      <fePointLight x="60" y="60" z="20" />
-    </feSpecularLighting>
-  </filter>
-
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#specularLighting1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#specularLighting2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#specularLighting2); transform: translateX(220px);" />',
-                                "23:4 - 23:74",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/specularConstant
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="specularLighting1" x="0" y="0" width="100%" height="100%">
-    <feSpecularLighting in="SourceGraphic" specularConstant="1.2">
-      <fePointLight x="60" y="60" z="20" />
-    </feSpecularLighting>
-  </filter>
-  <filter id="specularLighting2" x="0" y="0" width="100%" height="100%">
-    <feSpecularLighting in="SourceGraphic" specularConstant="0.8">
-      <fePointLight x="60" y="60" z="20" />
-    </feSpecularLighting>
-  </filter>
-
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#specularLighting1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#specularLighting2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         specularexponent: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/specularExponent",
                           messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#diffuseLighting1);" />',
-                                "17:4 - 17:43",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/specularExponent
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="diffuseLighting1" x="0" y="0" width="100%" height="100%">
-    <feSpecularLighting in="SourceGraphic" specularExponent="1">
-      <fePointLight x="60" y="60" z="20" />
-    </feSpecularLighting>
-  </filter>
-  <filter id="diffuseLighting2" x="0" y="0" width="100%" height="100%">
-    <feSpecularLighting in="SourceGraphic" specularExponent="5">
-      <fePointLight x="60" y="60" z="20" />
-    </feSpecularLighting>
-  </filter>
-
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#diffuseLighting1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#diffuseLighting2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#diffuseLighting2); transform: translateX(220px);" />',
-                                "23:4 - 23:73",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/specularExponent
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="diffuseLighting1" x="0" y="0" width="100%" height="100%">
-    <feSpecularLighting in="SourceGraphic" specularExponent="1">
-      <fePointLight x="60" y="60" z="20" />
-    </feSpecularLighting>
-  </filter>
-  <filter id="diffuseLighting2" x="0" y="0" width="100%" height="100%">
-    <feSpecularLighting in="SourceGraphic" specularExponent="5">
-      <fePointLight x="60" y="60" z="20" />
-    </feSpecularLighting>
-  </filter>
-
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#diffuseLighting1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#diffuseLighting2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -37324,747 +24295,10 @@ svg.elements.feSpotLight.specularExponent`
                             }
                           ]
                         },
-                        stddeviation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stdDeviation",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <circle cx="100" cy="100" r="50" style="filter: url(#gaussianBlur1);" />',
-                                "11:35 - 11:71",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/stdDeviation
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 480 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="gaussianBlur1">
-    <feGaussianBlur stdDeviation="1" />
-  </filter>
-  <filter id="gaussianBlur2">
-    <feGaussianBlur stdDeviation="5" />
-  </filter>
-  <filter id="gaussianBlur3" x="-30%" y="-30%" width="160%" height="160%">
-    <feGaussianBlur stdDeviation="10" />
-  </filter>
-
-  <circle cx="100" cy="100" r="50" style="filter: url(#gaussianBlur1);" />
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="filter: url(#gaussianBlur2); transform: translateX(140px);" />
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="filter: url(#gaussianBlur3); transform: translateX(280px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#gaussianBlur2); transform: translateX(140px);" />',
-                                "16:4 - 16:70",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/stdDeviation
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 480 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="gaussianBlur1">
-    <feGaussianBlur stdDeviation="1" />
-  </filter>
-  <filter id="gaussianBlur2">
-    <feGaussianBlur stdDeviation="5" />
-  </filter>
-  <filter id="gaussianBlur3" x="-30%" y="-30%" width="160%" height="160%">
-    <feGaussianBlur stdDeviation="10" />
-  </filter>
-
-  <circle cx="100" cy="100" r="50" style="filter: url(#gaussianBlur1);" />
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="filter: url(#gaussianBlur2); transform: translateX(140px);" />
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="filter: url(#gaussianBlur3); transform: translateX(280px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#gaussianBlur3); transform: translateX(280px);" />',
-                                "21:4 - 21:70",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/stdDeviation
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 480 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="gaussianBlur1">
-    <feGaussianBlur stdDeviation="1" />
-  </filter>
-  <filter id="gaussianBlur2">
-    <feGaussianBlur stdDeviation="5" />
-  </filter>
-  <filter id="gaussianBlur3" x="-30%" y="-30%" width="160%" height="160%">
-    <feGaussianBlur stdDeviation="10" />
-  </filter>
-
-  <circle cx="100" cy="100" r="50" style="filter: url(#gaussianBlur1);" />
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="filter: url(#gaussianBlur2); transform: translateX(140px);" />
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    style="filter: url(#gaussianBlur3); transform: translateX(280px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        stitchtiles: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/stitchTiles",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <rect x="0" y="0" width="100" height="100" style="filter: url(#noise1);" />',
-                                "8:45 - 8:74",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/stitchTiles
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="noise1" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" stitchTiles="noStitch" />
-  </filter>
-  <filter id="noise2" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" stitchTiles="stitch" />
-  </filter>
-
-  <rect x="0" y="0" width="100" height="100" style="filter: url(#noise1);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(100px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(0, 100px);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(100px, 100px);" />
-
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(220px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(320px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(220px, 100px);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(320px, 100px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#noise1); transform: translate(100px, 0);" />',
-                                "14:4 - 14:65",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/stitchTiles
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="noise1" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" stitchTiles="noStitch" />
-  </filter>
-  <filter id="noise2" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" stitchTiles="stitch" />
-  </filter>
-
-  <rect x="0" y="0" width="100" height="100" style="filter: url(#noise1);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(100px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(0, 100px);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(100px, 100px);" />
-
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(220px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(320px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(220px, 100px);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(320px, 100px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#noise1); transform: translate(0, 100px);" />',
-                                "20:4 - 20:65",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/stitchTiles
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="noise1" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" stitchTiles="noStitch" />
-  </filter>
-  <filter id="noise2" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" stitchTiles="stitch" />
-  </filter>
-
-  <rect x="0" y="0" width="100" height="100" style="filter: url(#noise1);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(100px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(0, 100px);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(100px, 100px);" />
-
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(220px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(320px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(220px, 100px);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(320px, 100px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#noise1); transform: translate(100px, 100px);" />',
-                                "26:4 - 26:69",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/stitchTiles
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="noise1" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" stitchTiles="noStitch" />
-  </filter>
-  <filter id="noise2" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" stitchTiles="stitch" />
-  </filter>
-
-  <rect x="0" y="0" width="100" height="100" style="filter: url(#noise1);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(100px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(0, 100px);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(100px, 100px);" />
-
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(220px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(320px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(220px, 100px);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(320px, 100px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#noise2); transform: translate(220px, 0);" />',
-                                "33:4 - 33:65",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/stitchTiles
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="noise1" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" stitchTiles="noStitch" />
-  </filter>
-  <filter id="noise2" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" stitchTiles="stitch" />
-  </filter>
-
-  <rect x="0" y="0" width="100" height="100" style="filter: url(#noise1);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(100px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(0, 100px);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(100px, 100px);" />
-
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(220px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(320px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(220px, 100px);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(320px, 100px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#noise2); transform: translate(320px, 0);" />',
-                                "39:4 - 39:65",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/stitchTiles
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="noise1" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" stitchTiles="noStitch" />
-  </filter>
-  <filter id="noise2" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" stitchTiles="stitch" />
-  </filter>
-
-  <rect x="0" y="0" width="100" height="100" style="filter: url(#noise1);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(100px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(0, 100px);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(100px, 100px);" />
-
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(220px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(320px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(220px, 100px);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(320px, 100px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#noise2); transform: translate(220px, 100px);" />',
-                                "45:4 - 45:69",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/stitchTiles
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="noise1" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" stitchTiles="noStitch" />
-  </filter>
-  <filter id="noise2" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" stitchTiles="stitch" />
-  </filter>
-
-  <rect x="0" y="0" width="100" height="100" style="filter: url(#noise1);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(100px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(0, 100px);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(100px, 100px);" />
-
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(220px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(320px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(220px, 100px);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(320px, 100px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#noise2); transform: translate(320px, 100px);" />',
-                                "51:4 - 51:69",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/stitchTiles
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="noise1" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" stitchTiles="noStitch" />
-  </filter>
-  <filter id="noise2" x="0" y="0" width="100%" height="100%">
-    <feTurbulence baseFrequency="0.025" stitchTiles="stitch" />
-  </filter>
-
-  <rect x="0" y="0" width="100" height="100" style="filter: url(#noise1);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(100px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(0, 100px);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise1); transform: translate(100px, 100px);" />
-
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(220px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(320px, 0);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(220px, 100px);" />
-  <rect
-    x="0"
-    y="0"
-    width="100"
-    height="100"
-    style="filter: url(#noise2); transform: translate(320px, 100px);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         surfacescale: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/surfaceScale",
                           messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#diffuseLighting1);" />',
-                                "17:4 - 17:43",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/surfaceScale
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="diffuseLighting1" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic" surfaceScale="1">
-      <fePointLight x="60" y="60" z="20" />
-    </feDiffuseLighting>
-  </filter>
-  <filter id="diffuseLighting2" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic" surfaceScale="15">
-      <fePointLight x="60" y="60" z="20" />
-    </feDiffuseLighting>
-  </filter>
-
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#diffuseLighting1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#diffuseLighting2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#diffuseLighting2); transform: translateX(220px);" />',
-                                "23:4 - 23:73",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/surfaceScale
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="diffuseLighting1" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic" surfaceScale="1">
-      <fePointLight x="60" y="60" z="20" />
-    </feDiffuseLighting>
-  </filter>
-  <filter id="diffuseLighting2" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic" surfaceScale="15">
-      <fePointLight x="60" y="60" z="20" />
-    </feDiffuseLighting>
-  </filter>
-
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#diffuseLighting1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#diffuseLighting2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -38112,130 +24346,6 @@ svg.elements.text.systemLanguage
 svg.elements.textPath.systemLanguage
 svg.elements.tspan.systemLanguage
 svg.elements.use.systemLanguage`
-                              ]
-                            }
-                          ]
-                        },
-                        tablevalues: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/tableValues",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#componentTransfer1);" />',
-                                "36:4 - 36:45",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/tableValues
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient
-      id="gradient"
-      gradientUnits="userSpaceOnUse"
-      x1="0"
-      y1="0"
-      x2="200"
-      y2="0">
-      <stop offset="0" stop-color="#ff0000" />
-      <stop offset="0.5" stop-color="#00ff00" />
-      <stop offset="1" stop-color="#0000ff" />
-    </linearGradient>
-  </defs>
-
-  <filter id="componentTransfer1" x="0" y="0" width="100%" height="100%">
-    <feComponentTransfer>
-      <feFuncR type="table" tableValues="0 1" />
-      <feFuncG type="table" tableValues="0 1" />
-      <feFuncB type="table" tableValues="0 1" />
-    </feComponentTransfer>
-  </filter>
-  <filter id="componentTransfer2" x="0" y="0" width="100%" height="100%">
-    <feComponentTransfer>
-      <feFuncR type="table" tableValues="1 0" />
-      <feFuncG type="table" tableValues="1 0" />
-      <feFuncB type="table" tableValues="1 0" />
-    </feComponentTransfer>
-  </filter>
-
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    fill="url(#gradient)"
-    style="filter: url(#componentTransfer1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    fill="url(#gradient)"
-    style="filter: url(#componentTransfer2); transform: translateX(220px);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#componentTransfer2); transform: translateX(220px);" />',
-                                "43:4 - 43:75",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/tableValues
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient
-      id="gradient"
-      gradientUnits="userSpaceOnUse"
-      x1="0"
-      y1="0"
-      x2="200"
-      y2="0">
-      <stop offset="0" stop-color="#ff0000" />
-      <stop offset="0.5" stop-color="#00ff00" />
-      <stop offset="1" stop-color="#0000ff" />
-    </linearGradient>
-  </defs>
-
-  <filter id="componentTransfer1" x="0" y="0" width="100%" height="100%">
-    <feComponentTransfer>
-      <feFuncR type="table" tableValues="0 1" />
-      <feFuncG type="table" tableValues="0 1" />
-      <feFuncB type="table" tableValues="0 1" />
-    </feComponentTransfer>
-  </filter>
-  <filter id="componentTransfer2" x="0" y="0" width="100%" height="100%">
-    <feComponentTransfer>
-      <feFuncR type="table" tableValues="1 0" />
-      <feFuncG type="table" tableValues="1 0" />
-      <feFuncB type="table" tableValues="1 0" />
-    </feComponentTransfer>
-  </filter>
-
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    fill="url(#gradient)"
-    style="filter: url(#componentTransfer1);" />
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    fill="url(#gradient)"
-    style="filter: url(#componentTransfer2); transform: translateX(220px);" />
-</svg>
-~~~
-`
                               ]
                             }
                           ]
@@ -38452,43 +24562,6 @@ svg.elements.feSpotLight.z`
                               ]
                             }
                           ]
-                        },
-                        zoomandpan: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/zoomAndPan",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter: url(#diffuseLighting);" />',
-                                "15:4 - 15:42",
-                                `/en-US/docs/Web/SVG/Reference/Attribute/zoomAndPan
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  viewBox="0 0 200 200"
-  xmlns="http://www.w3.org/2000/svg"
-  zoomAndPan="disable">
-  <filter id="diffuseLighting" x="0" y="0" width="100%" height="100%">
-    <feDiffuseLighting in="SourceGraphic" zoomAndPan="1">
-      <fePointLight x="60" y="60" z="20" />
-    </feDiffuseLighting>
-  </filter>
-
-  <rect
-    x="0"
-    y="0"
-    width="200"
-    height="200"
-    style="filter: url(#diffuseLighting);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
                         }
                       },
                       slug: "/en-US/docs/Web/SVG/Reference/Attribute",
@@ -38530,2362 +24603,6 @@ svg.elements.feSpotLight.z`
                           ]
                         }
                       ]
-                    },
-                    element: {
-                      children: {
-                        feblend: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feBlend",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter:url(#spotlight);" />',
-                                "25:4 - 25:35",
-                                `/en-US/docs/Web/SVG/Reference/Element/feBlend
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  width="200"
-  height="200"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <filter id="spotlight">
-      <feFlood
-        result="floodFill"
-        x="0"
-        y="0"
-        width="100%"
-        height="100%"
-        flood-color="green"
-        flood-opacity="1" />
-      <feBlend in="SourceGraphic" in2="floodFill" mode="multiply" />
-    </filter>
-  </defs>
-
-  <image
-    href="mdn_logo_only_color.png"
-    x="10%"
-    y="10%"
-    width="80%"
-    height="80%"
-    style="filter:url(#spotlight);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        fecomponenttransfer: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feComponentTransfer",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '      style="filter:url(#identity)"></rect>',
-                                "62:6 - 62:35",
-                                `/en-US/docs/Web/SVG/Reference/Element/feComponentTransfer
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
-  <defs>
-    <linearGradient
-      id="rainbow"
-      gradientUnits="userSpaceOnUse"
-      x1="0"
-      y1="0"
-      x2="100%"
-      y2="0">
-      <stop offset="0" stop-color="#ff0000"></stop>
-      <stop offset="0.2" stop-color="#ffff00"></stop>
-      <stop offset="0.4" stop-color="#00ff00"></stop>
-      <stop offset="0.6" stop-color="#00ffff"></stop>
-      <stop offset="0.8" stop-color="#0000ff"></stop>
-      <stop offset="1" stop-color="#800080"></stop>
-    </linearGradient>
-    <filter id="identity" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="identity"></feFuncR>
-        <feFuncG type="identity"></feFuncG>
-        <feFuncB type="identity"></feFuncB>
-        <feFuncA type="identity"></feFuncA>
-      </feComponentTransfer>
-    </filter>
-    <filter id="table" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="table" tableValues="0 0 1 1"></feFuncR>
-        <feFuncG type="table" tableValues="1 1 0 0"></feFuncG>
-        <feFuncB type="table" tableValues="0 1 1 0"></feFuncB>
-      </feComponentTransfer>
-    </filter>
-    <filter id="discrete" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="discrete" tableValues="0 0 1 1"></feFuncR>
-        <feFuncG type="discrete" tableValues="1 1 0 0"></feFuncG>
-        <feFuncB type="discrete" tableValues="0 1 1 0"></feFuncB>
-      </feComponentTransfer>
-    </filter>
-    <filter id="linear" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="linear" slope="0.5" intercept="0"></feFuncR>
-        <feFuncG type="linear" slope="0.5" intercept="0.25"></feFuncG>
-        <feFuncB type="linear" slope="0.5" intercept="0.5"></feFuncB>
-      </feComponentTransfer>
-    </filter>
-    <filter id="gamma" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="gamma" amplitude="4" exponent="7" offset="0"></feFuncR>
-        <feFuncG type="gamma" amplitude="4" exponent="4" offset="0"></feFuncG>
-        <feFuncB type="gamma" amplitude="4" exponent="1" offset="0"></feFuncB>
-      </feComponentTransfer>
-    </filter>
-  </defs>
-  <g font-weight="bold">
-    <text x="0" y="20">Default</text>
-    <rect x="0" y="30" width="100%" height="20"></rect>
-    <text x="0" y="70">Identity</text>
-    <rect
-      x="0"
-      y="80"
-      width="100%"
-      height="20"
-      style="filter:url(#identity)"></rect>
-    <text x="0" y="120">Table lookup</text>
-    <rect
-      x="0"
-      y="130"
-      width="100%"
-      height="20"
-      style="filter:url(#table)"></rect>
-    <text x="0" y="170">Discrete table lookup</text>
-    <rect
-      x="0"
-      y="180"
-      width="100%"
-      height="20"
-      style="filter:url(#discrete)"></rect>
-    <text x="0" y="220">Linear function</text>
-    <rect
-      x="0"
-      y="230"
-      width="100%"
-      height="20"
-      style="filter:url(#linear)"></rect>
-    <text x="0" y="270">Gamma function</text>
-    <rect
-      x="0"
-      y="280"
-      width="100%"
-      height="20"
-      style="filter:url(#gamma)"></rect>
-  </g>
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '      style="filter:url(#table)"></rect>',
-                                "69:6 - 69:32",
-                                `/en-US/docs/Web/SVG/Reference/Element/feComponentTransfer
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
-  <defs>
-    <linearGradient
-      id="rainbow"
-      gradientUnits="userSpaceOnUse"
-      x1="0"
-      y1="0"
-      x2="100%"
-      y2="0">
-      <stop offset="0" stop-color="#ff0000"></stop>
-      <stop offset="0.2" stop-color="#ffff00"></stop>
-      <stop offset="0.4" stop-color="#00ff00"></stop>
-      <stop offset="0.6" stop-color="#00ffff"></stop>
-      <stop offset="0.8" stop-color="#0000ff"></stop>
-      <stop offset="1" stop-color="#800080"></stop>
-    </linearGradient>
-    <filter id="identity" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="identity"></feFuncR>
-        <feFuncG type="identity"></feFuncG>
-        <feFuncB type="identity"></feFuncB>
-        <feFuncA type="identity"></feFuncA>
-      </feComponentTransfer>
-    </filter>
-    <filter id="table" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="table" tableValues="0 0 1 1"></feFuncR>
-        <feFuncG type="table" tableValues="1 1 0 0"></feFuncG>
-        <feFuncB type="table" tableValues="0 1 1 0"></feFuncB>
-      </feComponentTransfer>
-    </filter>
-    <filter id="discrete" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="discrete" tableValues="0 0 1 1"></feFuncR>
-        <feFuncG type="discrete" tableValues="1 1 0 0"></feFuncG>
-        <feFuncB type="discrete" tableValues="0 1 1 0"></feFuncB>
-      </feComponentTransfer>
-    </filter>
-    <filter id="linear" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="linear" slope="0.5" intercept="0"></feFuncR>
-        <feFuncG type="linear" slope="0.5" intercept="0.25"></feFuncG>
-        <feFuncB type="linear" slope="0.5" intercept="0.5"></feFuncB>
-      </feComponentTransfer>
-    </filter>
-    <filter id="gamma" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="gamma" amplitude="4" exponent="7" offset="0"></feFuncR>
-        <feFuncG type="gamma" amplitude="4" exponent="4" offset="0"></feFuncG>
-        <feFuncB type="gamma" amplitude="4" exponent="1" offset="0"></feFuncB>
-      </feComponentTransfer>
-    </filter>
-  </defs>
-  <g font-weight="bold">
-    <text x="0" y="20">Default</text>
-    <rect x="0" y="30" width="100%" height="20"></rect>
-    <text x="0" y="70">Identity</text>
-    <rect
-      x="0"
-      y="80"
-      width="100%"
-      height="20"
-      style="filter:url(#identity)"></rect>
-    <text x="0" y="120">Table lookup</text>
-    <rect
-      x="0"
-      y="130"
-      width="100%"
-      height="20"
-      style="filter:url(#table)"></rect>
-    <text x="0" y="170">Discrete table lookup</text>
-    <rect
-      x="0"
-      y="180"
-      width="100%"
-      height="20"
-      style="filter:url(#discrete)"></rect>
-    <text x="0" y="220">Linear function</text>
-    <rect
-      x="0"
-      y="230"
-      width="100%"
-      height="20"
-      style="filter:url(#linear)"></rect>
-    <text x="0" y="270">Gamma function</text>
-    <rect
-      x="0"
-      y="280"
-      width="100%"
-      height="20"
-      style="filter:url(#gamma)"></rect>
-  </g>
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '      style="filter:url(#discrete)"></rect>',
-                                "76:6 - 76:35",
-                                `/en-US/docs/Web/SVG/Reference/Element/feComponentTransfer
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
-  <defs>
-    <linearGradient
-      id="rainbow"
-      gradientUnits="userSpaceOnUse"
-      x1="0"
-      y1="0"
-      x2="100%"
-      y2="0">
-      <stop offset="0" stop-color="#ff0000"></stop>
-      <stop offset="0.2" stop-color="#ffff00"></stop>
-      <stop offset="0.4" stop-color="#00ff00"></stop>
-      <stop offset="0.6" stop-color="#00ffff"></stop>
-      <stop offset="0.8" stop-color="#0000ff"></stop>
-      <stop offset="1" stop-color="#800080"></stop>
-    </linearGradient>
-    <filter id="identity" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="identity"></feFuncR>
-        <feFuncG type="identity"></feFuncG>
-        <feFuncB type="identity"></feFuncB>
-        <feFuncA type="identity"></feFuncA>
-      </feComponentTransfer>
-    </filter>
-    <filter id="table" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="table" tableValues="0 0 1 1"></feFuncR>
-        <feFuncG type="table" tableValues="1 1 0 0"></feFuncG>
-        <feFuncB type="table" tableValues="0 1 1 0"></feFuncB>
-      </feComponentTransfer>
-    </filter>
-    <filter id="discrete" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="discrete" tableValues="0 0 1 1"></feFuncR>
-        <feFuncG type="discrete" tableValues="1 1 0 0"></feFuncG>
-        <feFuncB type="discrete" tableValues="0 1 1 0"></feFuncB>
-      </feComponentTransfer>
-    </filter>
-    <filter id="linear" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="linear" slope="0.5" intercept="0"></feFuncR>
-        <feFuncG type="linear" slope="0.5" intercept="0.25"></feFuncG>
-        <feFuncB type="linear" slope="0.5" intercept="0.5"></feFuncB>
-      </feComponentTransfer>
-    </filter>
-    <filter id="gamma" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="gamma" amplitude="4" exponent="7" offset="0"></feFuncR>
-        <feFuncG type="gamma" amplitude="4" exponent="4" offset="0"></feFuncG>
-        <feFuncB type="gamma" amplitude="4" exponent="1" offset="0"></feFuncB>
-      </feComponentTransfer>
-    </filter>
-  </defs>
-  <g font-weight="bold">
-    <text x="0" y="20">Default</text>
-    <rect x="0" y="30" width="100%" height="20"></rect>
-    <text x="0" y="70">Identity</text>
-    <rect
-      x="0"
-      y="80"
-      width="100%"
-      height="20"
-      style="filter:url(#identity)"></rect>
-    <text x="0" y="120">Table lookup</text>
-    <rect
-      x="0"
-      y="130"
-      width="100%"
-      height="20"
-      style="filter:url(#table)"></rect>
-    <text x="0" y="170">Discrete table lookup</text>
-    <rect
-      x="0"
-      y="180"
-      width="100%"
-      height="20"
-      style="filter:url(#discrete)"></rect>
-    <text x="0" y="220">Linear function</text>
-    <rect
-      x="0"
-      y="230"
-      width="100%"
-      height="20"
-      style="filter:url(#linear)"></rect>
-    <text x="0" y="270">Gamma function</text>
-    <rect
-      x="0"
-      y="280"
-      width="100%"
-      height="20"
-      style="filter:url(#gamma)"></rect>
-  </g>
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '      style="filter:url(#linear)"></rect>',
-                                "83:6 - 83:33",
-                                `/en-US/docs/Web/SVG/Reference/Element/feComponentTransfer
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
-  <defs>
-    <linearGradient
-      id="rainbow"
-      gradientUnits="userSpaceOnUse"
-      x1="0"
-      y1="0"
-      x2="100%"
-      y2="0">
-      <stop offset="0" stop-color="#ff0000"></stop>
-      <stop offset="0.2" stop-color="#ffff00"></stop>
-      <stop offset="0.4" stop-color="#00ff00"></stop>
-      <stop offset="0.6" stop-color="#00ffff"></stop>
-      <stop offset="0.8" stop-color="#0000ff"></stop>
-      <stop offset="1" stop-color="#800080"></stop>
-    </linearGradient>
-    <filter id="identity" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="identity"></feFuncR>
-        <feFuncG type="identity"></feFuncG>
-        <feFuncB type="identity"></feFuncB>
-        <feFuncA type="identity"></feFuncA>
-      </feComponentTransfer>
-    </filter>
-    <filter id="table" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="table" tableValues="0 0 1 1"></feFuncR>
-        <feFuncG type="table" tableValues="1 1 0 0"></feFuncG>
-        <feFuncB type="table" tableValues="0 1 1 0"></feFuncB>
-      </feComponentTransfer>
-    </filter>
-    <filter id="discrete" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="discrete" tableValues="0 0 1 1"></feFuncR>
-        <feFuncG type="discrete" tableValues="1 1 0 0"></feFuncG>
-        <feFuncB type="discrete" tableValues="0 1 1 0"></feFuncB>
-      </feComponentTransfer>
-    </filter>
-    <filter id="linear" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="linear" slope="0.5" intercept="0"></feFuncR>
-        <feFuncG type="linear" slope="0.5" intercept="0.25"></feFuncG>
-        <feFuncB type="linear" slope="0.5" intercept="0.5"></feFuncB>
-      </feComponentTransfer>
-    </filter>
-    <filter id="gamma" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="gamma" amplitude="4" exponent="7" offset="0"></feFuncR>
-        <feFuncG type="gamma" amplitude="4" exponent="4" offset="0"></feFuncG>
-        <feFuncB type="gamma" amplitude="4" exponent="1" offset="0"></feFuncB>
-      </feComponentTransfer>
-    </filter>
-  </defs>
-  <g font-weight="bold">
-    <text x="0" y="20">Default</text>
-    <rect x="0" y="30" width="100%" height="20"></rect>
-    <text x="0" y="70">Identity</text>
-    <rect
-      x="0"
-      y="80"
-      width="100%"
-      height="20"
-      style="filter:url(#identity)"></rect>
-    <text x="0" y="120">Table lookup</text>
-    <rect
-      x="0"
-      y="130"
-      width="100%"
-      height="20"
-      style="filter:url(#table)"></rect>
-    <text x="0" y="170">Discrete table lookup</text>
-    <rect
-      x="0"
-      y="180"
-      width="100%"
-      height="20"
-      style="filter:url(#discrete)"></rect>
-    <text x="0" y="220">Linear function</text>
-    <rect
-      x="0"
-      y="230"
-      width="100%"
-      height="20"
-      style="filter:url(#linear)"></rect>
-    <text x="0" y="270">Gamma function</text>
-    <rect
-      x="0"
-      y="280"
-      width="100%"
-      height="20"
-      style="filter:url(#gamma)"></rect>
-  </g>
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '      style="filter:url(#gamma)"></rect>',
-                                "90:6 - 90:32",
-                                `/en-US/docs/Web/SVG/Reference/Element/feComponentTransfer
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
-  <defs>
-    <linearGradient
-      id="rainbow"
-      gradientUnits="userSpaceOnUse"
-      x1="0"
-      y1="0"
-      x2="100%"
-      y2="0">
-      <stop offset="0" stop-color="#ff0000"></stop>
-      <stop offset="0.2" stop-color="#ffff00"></stop>
-      <stop offset="0.4" stop-color="#00ff00"></stop>
-      <stop offset="0.6" stop-color="#00ffff"></stop>
-      <stop offset="0.8" stop-color="#0000ff"></stop>
-      <stop offset="1" stop-color="#800080"></stop>
-    </linearGradient>
-    <filter id="identity" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="identity"></feFuncR>
-        <feFuncG type="identity"></feFuncG>
-        <feFuncB type="identity"></feFuncB>
-        <feFuncA type="identity"></feFuncA>
-      </feComponentTransfer>
-    </filter>
-    <filter id="table" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="table" tableValues="0 0 1 1"></feFuncR>
-        <feFuncG type="table" tableValues="1 1 0 0"></feFuncG>
-        <feFuncB type="table" tableValues="0 1 1 0"></feFuncB>
-      </feComponentTransfer>
-    </filter>
-    <filter id="discrete" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="discrete" tableValues="0 0 1 1"></feFuncR>
-        <feFuncG type="discrete" tableValues="1 1 0 0"></feFuncG>
-        <feFuncB type="discrete" tableValues="0 1 1 0"></feFuncB>
-      </feComponentTransfer>
-    </filter>
-    <filter id="linear" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="linear" slope="0.5" intercept="0"></feFuncR>
-        <feFuncG type="linear" slope="0.5" intercept="0.25"></feFuncG>
-        <feFuncB type="linear" slope="0.5" intercept="0.5"></feFuncB>
-      </feComponentTransfer>
-    </filter>
-    <filter id="gamma" x="0" y="0" width="100%" height="100%">
-      <feComponentTransfer>
-        <feFuncR type="gamma" amplitude="4" exponent="7" offset="0"></feFuncR>
-        <feFuncG type="gamma" amplitude="4" exponent="4" offset="0"></feFuncG>
-        <feFuncB type="gamma" amplitude="4" exponent="1" offset="0"></feFuncB>
-      </feComponentTransfer>
-    </filter>
-  </defs>
-  <g font-weight="bold">
-    <text x="0" y="20">Default</text>
-    <rect x="0" y="30" width="100%" height="20"></rect>
-    <text x="0" y="70">Identity</text>
-    <rect
-      x="0"
-      y="80"
-      width="100%"
-      height="20"
-      style="filter:url(#identity)"></rect>
-    <text x="0" y="120">Table lookup</text>
-    <rect
-      x="0"
-      y="130"
-      width="100%"
-      height="20"
-      style="filter:url(#table)"></rect>
-    <text x="0" y="170">Discrete table lookup</text>
-    <rect
-      x="0"
-      y="180"
-      width="100%"
-      height="20"
-      style="filter:url(#discrete)"></rect>
-    <text x="0" y="220">Linear function</text>
-    <rect
-      x="0"
-      y="230"
-      width="100%"
-      height="20"
-      style="filter:url(#linear)"></rect>
-    <text x="0" y="270">Gamma function</text>
-    <rect
-      x="0"
-      y="280"
-      width="100%"
-      height="20"
-      style="filter:url(#gamma)"></rect>
-  </g>
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        fecomposite: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feComposite",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  style="width:800px; height:400px; display: inline;"',
-                                "1:2 - 1:53",
-                                `/en-US/docs/Web/SVG/Reference/Element/feComposite
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  style="width:800px; height:400px; display: inline;"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <filter id="imageOver">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="over" />
-    </filter>
-    <filter id="imageIn">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="in" />
-    </filter>
-    <filter id="imageOut">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="out" />
-    </filter>
-    <filter id="imageAtop">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="atop" />
-    </filter>
-    <filter id="imageXor">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="xor" />
-    </filter>
-    <filter id="imageArithmetic">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite
-        in2="SourceGraphic"
-        operator="arithmetic"
-        k1="0.1"
-        k2="0.2"
-        k3="0.3"
-        k4="0.4" />
-    </filter>
-    <filter id="imageLighter">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="lighter" />
-    </filter>
-  </defs>
-  <g transform="translate(0,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageOver)" />
-    <text x="80" y="-5">over</text>
-  </g>
-  <g transform="translate(200,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageIn)" />
-    <text x="80" y="-5">in</text>
-  </g>
-  <g transform="translate(400,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageOut)" />
-    <text x="80" y="-5">out</text>
-  </g>
-  <g transform="translate(600,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageAtop)" />
-    <text x="80" y="-5">atop</text>
-  </g>
-  <g transform="translate(0,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageXor)" />
-    <text x="80" y="-5">xor</text>
-  </g>
-  <g transform="translate(200,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageArithmetic)" />
-    <text x="70" y="-5">arithmetic</text>
-  </g>
-  <g transform="translate(400,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageLighter)" />
-    <text x="80" y="-5">lighter</text>
-  </g>
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '      style="filter:url(#imageOver)" />',
-                                "46:6 - 46:36",
-                                `/en-US/docs/Web/SVG/Reference/Element/feComposite
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  style="width:800px; height:400px; display: inline;"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <filter id="imageOver">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="over" />
-    </filter>
-    <filter id="imageIn">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="in" />
-    </filter>
-    <filter id="imageOut">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="out" />
-    </filter>
-    <filter id="imageAtop">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="atop" />
-    </filter>
-    <filter id="imageXor">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="xor" />
-    </filter>
-    <filter id="imageArithmetic">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite
-        in2="SourceGraphic"
-        operator="arithmetic"
-        k1="0.1"
-        k2="0.2"
-        k3="0.3"
-        k4="0.4" />
-    </filter>
-    <filter id="imageLighter">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="lighter" />
-    </filter>
-  </defs>
-  <g transform="translate(0,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageOver)" />
-    <text x="80" y="-5">over</text>
-  </g>
-  <g transform="translate(200,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageIn)" />
-    <text x="80" y="-5">in</text>
-  </g>
-  <g transform="translate(400,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageOut)" />
-    <text x="80" y="-5">out</text>
-  </g>
-  <g transform="translate(600,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageAtop)" />
-    <text x="80" y="-5">atop</text>
-  </g>
-  <g transform="translate(0,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageXor)" />
-    <text x="80" y="-5">xor</text>
-  </g>
-  <g transform="translate(200,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageArithmetic)" />
-    <text x="70" y="-5">arithmetic</text>
-  </g>
-  <g transform="translate(400,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageLighter)" />
-    <text x="80" y="-5">lighter</text>
-  </g>
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '      style="filter:url(#imageIn)" />',
-                                "55:6 - 55:34",
-                                `/en-US/docs/Web/SVG/Reference/Element/feComposite
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  style="width:800px; height:400px; display: inline;"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <filter id="imageOver">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="over" />
-    </filter>
-    <filter id="imageIn">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="in" />
-    </filter>
-    <filter id="imageOut">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="out" />
-    </filter>
-    <filter id="imageAtop">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="atop" />
-    </filter>
-    <filter id="imageXor">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="xor" />
-    </filter>
-    <filter id="imageArithmetic">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite
-        in2="SourceGraphic"
-        operator="arithmetic"
-        k1="0.1"
-        k2="0.2"
-        k3="0.3"
-        k4="0.4" />
-    </filter>
-    <filter id="imageLighter">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="lighter" />
-    </filter>
-  </defs>
-  <g transform="translate(0,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageOver)" />
-    <text x="80" y="-5">over</text>
-  </g>
-  <g transform="translate(200,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageIn)" />
-    <text x="80" y="-5">in</text>
-  </g>
-  <g transform="translate(400,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageOut)" />
-    <text x="80" y="-5">out</text>
-  </g>
-  <g transform="translate(600,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageAtop)" />
-    <text x="80" y="-5">atop</text>
-  </g>
-  <g transform="translate(0,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageXor)" />
-    <text x="80" y="-5">xor</text>
-  </g>
-  <g transform="translate(200,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageArithmetic)" />
-    <text x="70" y="-5">arithmetic</text>
-  </g>
-  <g transform="translate(400,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageLighter)" />
-    <text x="80" y="-5">lighter</text>
-  </g>
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '      style="filter:url(#imageOut)" />',
-                                "64:6 - 64:35",
-                                `/en-US/docs/Web/SVG/Reference/Element/feComposite
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  style="width:800px; height:400px; display: inline;"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <filter id="imageOver">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="over" />
-    </filter>
-    <filter id="imageIn">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="in" />
-    </filter>
-    <filter id="imageOut">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="out" />
-    </filter>
-    <filter id="imageAtop">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="atop" />
-    </filter>
-    <filter id="imageXor">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="xor" />
-    </filter>
-    <filter id="imageArithmetic">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite
-        in2="SourceGraphic"
-        operator="arithmetic"
-        k1="0.1"
-        k2="0.2"
-        k3="0.3"
-        k4="0.4" />
-    </filter>
-    <filter id="imageLighter">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="lighter" />
-    </filter>
-  </defs>
-  <g transform="translate(0,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageOver)" />
-    <text x="80" y="-5">over</text>
-  </g>
-  <g transform="translate(200,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageIn)" />
-    <text x="80" y="-5">in</text>
-  </g>
-  <g transform="translate(400,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageOut)" />
-    <text x="80" y="-5">out</text>
-  </g>
-  <g transform="translate(600,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageAtop)" />
-    <text x="80" y="-5">atop</text>
-  </g>
-  <g transform="translate(0,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageXor)" />
-    <text x="80" y="-5">xor</text>
-  </g>
-  <g transform="translate(200,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageArithmetic)" />
-    <text x="70" y="-5">arithmetic</text>
-  </g>
-  <g transform="translate(400,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageLighter)" />
-    <text x="80" y="-5">lighter</text>
-  </g>
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '      style="filter:url(#imageAtop)" />',
-                                "73:6 - 73:36",
-                                `/en-US/docs/Web/SVG/Reference/Element/feComposite
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  style="width:800px; height:400px; display: inline;"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <filter id="imageOver">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="over" />
-    </filter>
-    <filter id="imageIn">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="in" />
-    </filter>
-    <filter id="imageOut">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="out" />
-    </filter>
-    <filter id="imageAtop">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="atop" />
-    </filter>
-    <filter id="imageXor">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="xor" />
-    </filter>
-    <filter id="imageArithmetic">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite
-        in2="SourceGraphic"
-        operator="arithmetic"
-        k1="0.1"
-        k2="0.2"
-        k3="0.3"
-        k4="0.4" />
-    </filter>
-    <filter id="imageLighter">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="lighter" />
-    </filter>
-  </defs>
-  <g transform="translate(0,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageOver)" />
-    <text x="80" y="-5">over</text>
-  </g>
-  <g transform="translate(200,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageIn)" />
-    <text x="80" y="-5">in</text>
-  </g>
-  <g transform="translate(400,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageOut)" />
-    <text x="80" y="-5">out</text>
-  </g>
-  <g transform="translate(600,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageAtop)" />
-    <text x="80" y="-5">atop</text>
-  </g>
-  <g transform="translate(0,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageXor)" />
-    <text x="80" y="-5">xor</text>
-  </g>
-  <g transform="translate(200,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageArithmetic)" />
-    <text x="70" y="-5">arithmetic</text>
-  </g>
-  <g transform="translate(400,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageLighter)" />
-    <text x="80" y="-5">lighter</text>
-  </g>
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '      style="filter:url(#imageXor)" />',
-                                "82:6 - 82:35",
-                                `/en-US/docs/Web/SVG/Reference/Element/feComposite
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  style="width:800px; height:400px; display: inline;"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <filter id="imageOver">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="over" />
-    </filter>
-    <filter id="imageIn">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="in" />
-    </filter>
-    <filter id="imageOut">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="out" />
-    </filter>
-    <filter id="imageAtop">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="atop" />
-    </filter>
-    <filter id="imageXor">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="xor" />
-    </filter>
-    <filter id="imageArithmetic">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite
-        in2="SourceGraphic"
-        operator="arithmetic"
-        k1="0.1"
-        k2="0.2"
-        k3="0.3"
-        k4="0.4" />
-    </filter>
-    <filter id="imageLighter">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="lighter" />
-    </filter>
-  </defs>
-  <g transform="translate(0,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageOver)" />
-    <text x="80" y="-5">over</text>
-  </g>
-  <g transform="translate(200,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageIn)" />
-    <text x="80" y="-5">in</text>
-  </g>
-  <g transform="translate(400,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageOut)" />
-    <text x="80" y="-5">out</text>
-  </g>
-  <g transform="translate(600,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageAtop)" />
-    <text x="80" y="-5">atop</text>
-  </g>
-  <g transform="translate(0,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageXor)" />
-    <text x="80" y="-5">xor</text>
-  </g>
-  <g transform="translate(200,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageArithmetic)" />
-    <text x="70" y="-5">arithmetic</text>
-  </g>
-  <g transform="translate(400,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageLighter)" />
-    <text x="80" y="-5">lighter</text>
-  </g>
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '      style="filter:url(#imageArithmetic)" />',
-                                "91:6 - 91:42",
-                                `/en-US/docs/Web/SVG/Reference/Element/feComposite
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  style="width:800px; height:400px; display: inline;"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <filter id="imageOver">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="over" />
-    </filter>
-    <filter id="imageIn">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="in" />
-    </filter>
-    <filter id="imageOut">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="out" />
-    </filter>
-    <filter id="imageAtop">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="atop" />
-    </filter>
-    <filter id="imageXor">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="xor" />
-    </filter>
-    <filter id="imageArithmetic">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite
-        in2="SourceGraphic"
-        operator="arithmetic"
-        k1="0.1"
-        k2="0.2"
-        k3="0.3"
-        k4="0.4" />
-    </filter>
-    <filter id="imageLighter">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="lighter" />
-    </filter>
-  </defs>
-  <g transform="translate(0,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageOver)" />
-    <text x="80" y="-5">over</text>
-  </g>
-  <g transform="translate(200,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageIn)" />
-    <text x="80" y="-5">in</text>
-  </g>
-  <g transform="translate(400,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageOut)" />
-    <text x="80" y="-5">out</text>
-  </g>
-  <g transform="translate(600,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageAtop)" />
-    <text x="80" y="-5">atop</text>
-  </g>
-  <g transform="translate(0,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageXor)" />
-    <text x="80" y="-5">xor</text>
-  </g>
-  <g transform="translate(200,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageArithmetic)" />
-    <text x="70" y="-5">arithmetic</text>
-  </g>
-  <g transform="translate(400,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageLighter)" />
-    <text x="80" y="-5">lighter</text>
-  </g>
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '      style="filter:url(#imageLighter)" />',
-                                "100:6 - 100:39",
-                                `/en-US/docs/Web/SVG/Reference/Element/feComposite
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  style="width:800px; height:400px; display: inline;"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <filter id="imageOver">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="over" />
-    </filter>
-    <filter id="imageIn">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="in" />
-    </filter>
-    <filter id="imageOut">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="out" />
-    </filter>
-    <filter id="imageAtop">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="atop" />
-    </filter>
-    <filter id="imageXor">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="xor" />
-    </filter>
-    <filter id="imageArithmetic">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite
-        in2="SourceGraphic"
-        operator="arithmetic"
-        k1="0.1"
-        k2="0.2"
-        k3="0.3"
-        k4="0.4" />
-    </filter>
-    <filter id="imageLighter">
-      <feImage href="mdn_logo_only_color.png" x="10px" y="10px" width="160px" />
-      <feComposite in2="SourceGraphic" operator="lighter" />
-    </filter>
-  </defs>
-  <g transform="translate(0,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageOver)" />
-    <text x="80" y="-5">over</text>
-  </g>
-  <g transform="translate(200,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageIn)" />
-    <text x="80" y="-5">in</text>
-  </g>
-  <g transform="translate(400,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageOut)" />
-    <text x="80" y="-5">out</text>
-  </g>
-  <g transform="translate(600,25)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageAtop)" />
-    <text x="80" y="-5">atop</text>
-  </g>
-  <g transform="translate(0,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageXor)" />
-    <text x="80" y="-5">xor</text>
-  </g>
-  <g transform="translate(200,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageArithmetic)" />
-    <text x="70" y="-5">arithmetic</text>
-  </g>
-  <g transform="translate(400,240)">
-    <circle
-      cx="90px"
-      cy="80px"
-      r="70px"
-      fill="#c00"
-      style="filter:url(#imageLighter)" />
-    <text x="80" y="-5">lighter</text>
-  </g>
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        feconvolvematrix: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feConvolveMatrix",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter:url(#emboss);" />',
-                                "21:4 - 21:32",
-                                `/en-US/docs/Web/SVG/Reference/Element/feConvolveMatrix
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  width="200"
-  height="200"
-  viewBox="0 0 200 200"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <filter id="emboss">
-      <feConvolveMatrix
-        kernelMatrix="3 0 0
-                      0 0 0
-                      0 0 -3" />
-    </filter>
-  </defs>
-
-  <image
-    href="mdn.svg"
-    x="0"
-    y="0"
-    height="200"
-    width="200"
-    style="filter:url(#emboss);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        fedisplacementmap: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feDisplacementMap",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <circle cx="100" cy="100" r="100" style="filter: url(#displacementFilter)" />',
-                                "19:36 - 19:76",
-                                `/en-US/docs/Web/SVG/Reference/Element/feDisplacementMap
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  width="200"
-  height="200"
-  viewBox="0 0 220 220"
-  xmlns="http://www.w3.org/2000/svg">
-  <filter id="displacementFilter">
-    <feTurbulence
-      type="turbulence"
-      baseFrequency="0.05"
-      numOctaves="2"
-      result="turbulence" />
-    <feDisplacementMap
-      in2="turbulence"
-      in="SourceGraphic"
-      scale="50"
-      xChannelSelector="R"
-      yChannelSelector="G" />
-  </filter>
-
-  <circle cx="100" cy="100" r="100" style="filter: url(#displacementFilter)" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        fedropshadow: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feDropShadow",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <circle cx="5" cy="50%" r="4" style="fill:pink; filter:url(#shadow);" />',
-                                "18:32 - 18:71",
-                                `/en-US/docs/Web/SVG/Reference/Element/feDropShadow
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 30 10" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="shadow">
-      <feDropShadow dx="0.2" dy="0.4" stdDeviation="0.2" />
-    </filter>
-    <filter id="shadow2">
-      <feDropShadow dx="0" dy="0" stdDeviation="0.5" flood-color="cyan" />
-    </filter>
-    <filter id="shadow3">
-      <feDropShadow
-        dx="-0.8"
-        dy="-0.8"
-        stdDeviation="0"
-        flood-color="pink"
-        flood-opacity="0.5" />
-    </filter>
-  </defs>
-
-  <circle cx="5" cy="50%" r="4" style="fill:pink; filter:url(#shadow);" />
-
-  <circle cx="15" cy="50%" r="4" style="fill:pink; filter:url(#shadow2);" />
-
-  <circle cx="25" cy="50%" r="4" style="fill:pink; filter:url(#shadow3);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <circle cx="15" cy="50%" r="4" style="fill:pink; filter:url(#shadow2);" />',
-                                "20:33 - 20:73",
-                                `/en-US/docs/Web/SVG/Reference/Element/feDropShadow
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 30 10" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="shadow">
-      <feDropShadow dx="0.2" dy="0.4" stdDeviation="0.2" />
-    </filter>
-    <filter id="shadow2">
-      <feDropShadow dx="0" dy="0" stdDeviation="0.5" flood-color="cyan" />
-    </filter>
-    <filter id="shadow3">
-      <feDropShadow
-        dx="-0.8"
-        dy="-0.8"
-        stdDeviation="0"
-        flood-color="pink"
-        flood-opacity="0.5" />
-    </filter>
-  </defs>
-
-  <circle cx="5" cy="50%" r="4" style="fill:pink; filter:url(#shadow);" />
-
-  <circle cx="15" cy="50%" r="4" style="fill:pink; filter:url(#shadow2);" />
-
-  <circle cx="25" cy="50%" r="4" style="fill:pink; filter:url(#shadow3);" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <circle cx="25" cy="50%" r="4" style="fill:pink; filter:url(#shadow3);" />',
-                                "22:33 - 22:73",
-                                `/en-US/docs/Web/SVG/Reference/Element/feDropShadow
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 30 10" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <filter id="shadow">
-      <feDropShadow dx="0.2" dy="0.4" stdDeviation="0.2" />
-    </filter>
-    <filter id="shadow2">
-      <feDropShadow dx="0" dy="0" stdDeviation="0.5" flood-color="cyan" />
-    </filter>
-    <filter id="shadow3">
-      <feDropShadow
-        dx="-0.8"
-        dy="-0.8"
-        stdDeviation="0"
-        flood-color="pink"
-        flood-opacity="0.5" />
-    </filter>
-  </defs>
-
-  <circle cx="5" cy="50%" r="4" style="fill:pink; filter:url(#shadow);" />
-
-  <circle cx="15" cy="50%" r="4" style="fill:pink; filter:url(#shadow2);" />
-
-  <circle cx="25" cy="50%" r="4" style="fill:pink; filter:url(#shadow3);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        feflood: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feFlood",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <use style="filter: url(#floodFilter);" />',
-                                "13:7 - 13:41",
-                                `/en-US/docs/Web/SVG/Reference/Element/feFlood
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200">
-  <defs>
-    <filter id="floodFilter" filterUnits="userSpaceOnUse">
-      <feFlood
-        x="50"
-        y="50"
-        width="100"
-        height="100"
-        flood-color="green"
-        flood-opacity="0.5" />
-    </filter>
-  </defs>
-
-  <use style="filter: url(#floodFilter);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        feimage: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feImage",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <rect x="10%" y="10%" width="80%" height="80%" style="filter:url(#image);" />',
-                                "12:49 - 12:76",
-                                `/en-US/docs/Web/SVG/Reference/Element/feImage
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  viewBox="0 0 200 200"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="200"
-  height="200">
-  <defs>
-    <filter id="image">
-      <feImage href="mdn_logo_only_color.png" />
-    </filter>
-  </defs>
-
-  <rect x="10%" y="10%" width="80%" height="80%" style="filter:url(#image);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        femerge: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feMerge",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="stroke: #000000; fill: green; filter: url(#feOffset);" />',
-                                "15:4 - 15:65",
-                                `/en-US/docs/Web/SVG/Reference/Element/feMerge
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-  <filter id="feOffset" x="-40" y="-20" width="100" height="200">
-    <feOffset in="SourceGraphic" dx="60" dy="60" />
-    <feGaussianBlur stdDeviation="5" result="blur2" />
-    <feMerge>
-      <feMergeNode in="blur2" />
-      <feMergeNode in="SourceGraphic" />
-    </feMerge>
-  </filter>
-
-  <rect
-    x="40"
-    y="40"
-    width="100"
-    height="100"
-    style="stroke: #000000; fill: green; filter: url(#feOffset);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        femergenode: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feMergeNode",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="stroke: #000000; fill: green; filter: url(#feOffset);" />',
-                                "19:4 - 19:65",
-                                `/en-US/docs/Web/SVG/Reference/Element/feMergeNode
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  width="200"
-  height="200"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <filter id="feOffset" x="-40" y="-20" width="100" height="200">
-    <feOffset in="SourceGraphic" dx="60" dy="60" />
-    <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur2" />
-    <feMerge>
-      <feMergeNode in="blur2" />
-      <feMergeNode in="SourceGraphic" />
-    </feMerge>
-  </filter>
-
-  <rect
-    x="40"
-    y="40"
-    width="100"
-    height="100"
-    style="stroke: #000000; fill: green; filter: url(#feOffset);" />
-  <rect
-    x="40"
-    y="40"
-    width="100"
-    height="100"
-    style="stroke: #000000; fill: green;" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="stroke: #000000; fill: green;" />',
-                                "25:4 - 25:41",
-                                `/en-US/docs/Web/SVG/Reference/Element/feMergeNode
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  width="200"
-  height="200"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <filter id="feOffset" x="-40" y="-20" width="100" height="200">
-    <feOffset in="SourceGraphic" dx="60" dy="60" />
-    <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur2" />
-    <feMerge>
-      <feMergeNode in="blur2" />
-      <feMergeNode in="SourceGraphic" />
-    </feMerge>
-  </filter>
-
-  <rect
-    x="40"
-    y="40"
-    width="100"
-    height="100"
-    style="stroke: #000000; fill: green; filter: url(#feOffset);" />
-  <rect
-    x="40"
-    y="40"
-    width="100"
-    height="100"
-    style="stroke: #000000; fill: green;" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        fepointlight: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/fePointLight",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter:url(#spotlight);" />',
-                                "31:4 - 31:35",
-                                `/en-US/docs/Web/SVG/Reference/Element/fePointLight
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  width="200"
-  height="200"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <filter id="spotlight">
-      <feSpecularLighting
-        result="spotlight"
-        specularConstant="1.5"
-        specularExponent="80"
-        lighting-color="#FFF">
-        <fePointLight x="50" y="50" z="220" />
-      </feSpecularLighting>
-      <feComposite
-        in="SourceGraphic"
-        in2="spotlight"
-        operator="arithmetic"
-        k1="0"
-        k2="1"
-        k3="1"
-        k4="0" />
-    </filter>
-  </defs>
-
-  <image
-    href="mdn_logo_only_color.png"
-    x="10%"
-    y="10%"
-    width="80%"
-    height="80%"
-    style="filter:url(#spotlight);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        fespecularlighting: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feSpecularLighting",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <circle cx="110" cy="110" r="100" style="filter:url(#filter)" />',
-                                "21:36 - 21:63",
-                                `/en-US/docs/Web/SVG/Reference/Element/feSpecularLighting
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  height="200"
-  width="200"
-  viewBox="0 0 220 220"
-  xmlns="http://www.w3.org/2000/svg">
-  <filter id="filter">
-    <feSpecularLighting
-      result="specOut"
-      specularExponent="20"
-      lighting-color="#bbbbbb">
-      <fePointLight x="50" y="75" z="200" />
-    </feSpecularLighting>
-    <feComposite
-      in="SourceGraphic"
-      in2="specOut"
-      operator="arithmetic"
-      k1="0"
-      k2="1"
-      k3="1"
-      k4="0" />
-  </filter>
-  <circle cx="110" cy="110" r="100" style="filter:url(#filter)" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        fespotlight: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feSpotLight",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter:url(#spotlight);" />',
-                                "31:4 - 31:35",
-                                `/en-US/docs/Web/SVG/Reference/Element/feSpotLight
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  width="200"
-  height="200"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <filter id="spotlight">
-      <feSpecularLighting
-        result="spotlight"
-        specularConstant="1.5"
-        specularExponent="4"
-        lighting-color="#FFF">
-        <feSpotLight x="600" y="600" z="400" limitingConeAngle="5.5" />
-      </feSpecularLighting>
-      <feComposite
-        in="SourceGraphic"
-        in2="spotlight"
-        operator="out"
-        k1="0"
-        k2="1"
-        k3="1"
-        k4="0" />
-    </filter>
-  </defs>
-
-  <image
-    href="mdn_logo_only_color.png"
-    x="10%"
-    y="10%"
-    width="80%"
-    height="80%"
-    style="filter:url(#spotlight);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        fetile: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feTile",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    style="filter:url(#tile);" />',
-                                "33:4 - 33:30",
-                                `/en-US/docs/Web/SVG/Reference/Element/feTile
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  width="200"
-  height="200"
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <title>
-    Tiling an MDN logo with the Mozilla mascot's head that is on the logo
-  </title>
-  <defs>
-    <!-- Define the region of the filter to be the bounding box of the
-         MDN logo being filtered. These parameters will create an output
-         that covers the same region as the image. -->
-    <filter id="tile" x="0" y="0" width="100%" height="100%">
-      <!-- Create a tile from the central portion of the image from
-           (50,50) to (150,150). This area is essentially the Mozilla
-           mascot's head. -->
-      <feTile in="SourceGraphic" x="50" y="50" width="100" height="100" />
-
-      <!-- Without specifying a region, feTile defaults to the region
-           of the filter. Without specifying an "in" parameter, the default
-           is the result of the previous primitive. So this second feTile
-           will tile the entire filter region with the mascot's head. -->
-      <feTile />
-    </filter>
-  </defs>
-
-  <!-- Use the MDN logo as input to the filter -->
-  <image
-    href="mdn_logo_only_color.png"
-    x="10%"
-    y="10%"
-    width="80%"
-    height="80%"
-    style="filter:url(#tile);" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        feturbulence: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feTurbulence",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <circle cx="100" cy="100" r="100" style="filter: url(#displacementFilter)" />',
-                                "19:36 - 19:76",
-                                `/en-US/docs/Web/SVG/Reference/Element/feTurbulence
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  width="200"
-  height="200"
-  viewBox="0 0 220 220"
-  xmlns="http://www.w3.org/2000/svg">
-  <filter id="displacementFilter">
-    <feTurbulence
-      type="turbulence"
-      baseFrequency="0.05"
-      numOctaves="2"
-      result="turbulence" />
-    <feDisplacementMap
-      in2="turbulence"
-      in="SourceGraphic"
-      scale="50"
-      xChannelSelector="R"
-      yChannelSelector="G" />
-  </filter>
-
-  <circle cx="100" cy="100" r="100" style="filter: url(#displacementFilter)" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        symbol: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/symbol",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <use href="#myDot" x="5" y="5" style="opacity:1.0" />',
-                                "13:33 - 13:52",
-                                `/en-US/docs/Web/SVG/Reference/Element/symbol
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 80 20" xmlns="http://www.w3.org/2000/svg">
-  <!-- Our symbol in its own coordinate system -->
-  <symbol id="myDot" width="10" height="10" viewBox="0 0 2 2">
-    <circle cx="1" cy="1" r="1" />
-  </symbol>
-
-  <!-- A grid to materialize our symbol positioning -->
-  <path
-    d="M0,10 h80 M10,0 v20 M25,0 v20 M40,0 v20 M55,0 v20 M70,0 v20"
-    fill="none"
-    stroke="pink" />
-
-  <!-- All instances of our symbol -->
-  <use href="#myDot" x="5" y="5" style="opacity:1.0" />
-  <use href="#myDot" x="20" y="5" style="opacity:0.8" />
-  <use href="#myDot" x="35" y="5" style="opacity:0.6" />
-  <use href="#myDot" x="50" y="5" style="opacity:0.4" />
-  <use href="#myDot" x="65" y="5" style="opacity:0.2" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <use href="#myDot" x="20" y="5" style="opacity:0.8" />',
-                                "14:34 - 14:53",
-                                `/en-US/docs/Web/SVG/Reference/Element/symbol
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 80 20" xmlns="http://www.w3.org/2000/svg">
-  <!-- Our symbol in its own coordinate system -->
-  <symbol id="myDot" width="10" height="10" viewBox="0 0 2 2">
-    <circle cx="1" cy="1" r="1" />
-  </symbol>
-
-  <!-- A grid to materialize our symbol positioning -->
-  <path
-    d="M0,10 h80 M10,0 v20 M25,0 v20 M40,0 v20 M55,0 v20 M70,0 v20"
-    fill="none"
-    stroke="pink" />
-
-  <!-- All instances of our symbol -->
-  <use href="#myDot" x="5" y="5" style="opacity:1.0" />
-  <use href="#myDot" x="20" y="5" style="opacity:0.8" />
-  <use href="#myDot" x="35" y="5" style="opacity:0.6" />
-  <use href="#myDot" x="50" y="5" style="opacity:0.4" />
-  <use href="#myDot" x="65" y="5" style="opacity:0.2" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <use href="#myDot" x="35" y="5" style="opacity:0.6" />',
-                                "15:34 - 15:53",
-                                `/en-US/docs/Web/SVG/Reference/Element/symbol
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 80 20" xmlns="http://www.w3.org/2000/svg">
-  <!-- Our symbol in its own coordinate system -->
-  <symbol id="myDot" width="10" height="10" viewBox="0 0 2 2">
-    <circle cx="1" cy="1" r="1" />
-  </symbol>
-
-  <!-- A grid to materialize our symbol positioning -->
-  <path
-    d="M0,10 h80 M10,0 v20 M25,0 v20 M40,0 v20 M55,0 v20 M70,0 v20"
-    fill="none"
-    stroke="pink" />
-
-  <!-- All instances of our symbol -->
-  <use href="#myDot" x="5" y="5" style="opacity:1.0" />
-  <use href="#myDot" x="20" y="5" style="opacity:0.8" />
-  <use href="#myDot" x="35" y="5" style="opacity:0.6" />
-  <use href="#myDot" x="50" y="5" style="opacity:0.4" />
-  <use href="#myDot" x="65" y="5" style="opacity:0.2" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <use href="#myDot" x="50" y="5" style="opacity:0.4" />',
-                                "16:34 - 16:53",
-                                `/en-US/docs/Web/SVG/Reference/Element/symbol
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 80 20" xmlns="http://www.w3.org/2000/svg">
-  <!-- Our symbol in its own coordinate system -->
-  <symbol id="myDot" width="10" height="10" viewBox="0 0 2 2">
-    <circle cx="1" cy="1" r="1" />
-  </symbol>
-
-  <!-- A grid to materialize our symbol positioning -->
-  <path
-    d="M0,10 h80 M10,0 v20 M25,0 v20 M40,0 v20 M55,0 v20 M70,0 v20"
-    fill="none"
-    stroke="pink" />
-
-  <!-- All instances of our symbol -->
-  <use href="#myDot" x="5" y="5" style="opacity:1.0" />
-  <use href="#myDot" x="20" y="5" style="opacity:0.8" />
-  <use href="#myDot" x="35" y="5" style="opacity:0.6" />
-  <use href="#myDot" x="50" y="5" style="opacity:0.4" />
-  <use href="#myDot" x="65" y="5" style="opacity:0.2" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <use href="#myDot" x="65" y="5" style="opacity:0.2" />',
-                                "17:34 - 17:53",
-                                `/en-US/docs/Web/SVG/Reference/Element/symbol
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg viewBox="0 0 80 20" xmlns="http://www.w3.org/2000/svg">
-  <!-- Our symbol in its own coordinate system -->
-  <symbol id="myDot" width="10" height="10" viewBox="0 0 2 2">
-    <circle cx="1" cy="1" r="1" />
-  </symbol>
-
-  <!-- A grid to materialize our symbol positioning -->
-  <path
-    d="M0,10 h80 M10,0 v20 M25,0 v20 M40,0 v20 M55,0 v20 M70,0 v20"
-    fill="none"
-    stroke="pink" />
-
-  <!-- All instances of our symbol -->
-  <use href="#myDot" x="5" y="5" style="opacity:1.0" />
-  <use href="#myDot" x="20" y="5" style="opacity:0.8" />
-  <use href="#myDot" x="35" y="5" style="opacity:0.6" />
-  <use href="#myDot" x="50" y="5" style="opacity:0.4" />
-  <use href="#myDot" x="65" y="5" style="opacity:0.2" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     }
                   }
                 },
@@ -40893,51 +24610,6 @@ svg.elements.feSpotLight.z`
                   children: {
                     svg_from_scratch: {
                       children: {
-                        basic_transformations: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Basic_transformations",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '<svg width="40" height="50" style="background-color:#bff;">',
-                                "0:28 - 0:58",
-                                `/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Basic_transformations
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg width="40" height="50" style="background-color:#bff;">
-  <rect
-    x="0"
-    y="0"
-    width="10"
-    height="10"
-    transform="translate(30,40) rotate(45)" />
-</svg>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '<svg width="40" height="50" style="background-color:#bff;">',
-                                "0:28 - 0:58",
-                                `/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Basic_transformations
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg width="40" height="50" style="background-color:#bff;">
-  <rect x="0" y="0" width="10" height="10" transform="translate(30,40)" />
-</svg>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         tools_for_svg: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Tools_for_SVG",
@@ -40961,83 +24633,17 @@ svg.elements.feSpotLight.z`
               children: {
                 reference: {
                   children: {
-                    fragment: {
-                      children: {
-                        text_fragments: {
-                          children: {},
-                          slug: "/en-US/docs/Web/URI/Reference/Fragment/Text_fragments",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
-                    },
                     path: {
                       children: {},
                       slug: "/en-US/docs/Web/URI/Reference/Path",
                       messages: [
                         {
-                          message: "Missing syntax code block",
-                          data: []
+                          message: "Self link",
+                          data: [
+                            "/en-US/docs/Web/URI/Reference/Path"
+                          ]
                         }
                       ]
-                    },
-                    query: {
-                      children: {},
-                      slug: "/en-US/docs/Web/URI/Reference/Query",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        }
-                      ]
-                    },
-                    schemes: {
-                      children: {
-                        data: {
-                          children: {},
-                          slug: "/en-US/docs/Web/URI/Reference/Schemes/data",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        },
-                        javascript: {
-                          children: {},
-                          slug: "/en-US/docs/Web/URI/Reference/Schemes/javascript",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        },
-                        resource: {
-                          children: {},
-                          slug: "/en-US/docs/Web/URI/Reference/Schemes/resource",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        },
-                        urn: {
-                          children: {},
-                          slug: "/en-US/docs/Web/URI/Reference/Schemes/urn",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        }
-                      }
                     }
                   }
                 }
