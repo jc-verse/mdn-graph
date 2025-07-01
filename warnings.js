@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-7576peae.js";
+} from "./chunk-nw8m0gxy.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1178,6 +1178,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            tls: {
+              children: {},
+              slug: "/en-US/docs/Glossary/TLS",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://support.mozilla.org/en-US/kb/secure-connection-failed-firefox-did-not-connect",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -2605,23 +2618,6 @@ refused.textContent = 'Refuse: ';
                       ]
                     }
                   ]
-                },
-                text_styling: {
-                  children: {
-                    web_fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.exljbris.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 }
               },
               slug: "/en-US/docs/Learn_web_development/Core",
@@ -2669,6 +2665,30 @@ refused.textContent = 'Refuse: ';
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mikethomas/pen/kQjKLW"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "client-side_tools": {
+                  children: {
+                    introducing_complete_toolchain: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -7636,6 +7656,19 @@ else if (e.target.id === "tabs-alert-info") {
                         }
                       ]
                     },
+                    "74": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/74",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/secure-connection-failed-firefox-did-not-connect",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     "90": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/90",
@@ -10240,7 +10273,7 @@ function checkDeadlines() {
                       message: "Broken external link",
                       data: [
                         "https://community.arm.com/arm-community-blogs/b/mobile-graphics-and-gaming-blog/posts/optimizing-virtual-reality-understanding-multiview",
-                        503
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -10322,99 +10355,6 @@ function checkDeadlines() {
                       ]
                     }
                   }
-                },
-                periodicsyncevent: {
-                  children: {
-                    periodicsyncevent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PeriodicSyncEvent/PeriodicSyncEvent",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    tag: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PeriodicSyncEvent/tag",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/PeriodicSyncEvent",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
-                },
-                periodicsyncmanager: {
-                  children: {
-                    gettags: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PeriodicSyncManager/getTags",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    register: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PeriodicSyncManager/register",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    unregister: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PeriodicSyncManager/unregister",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/PeriodicSyncManager",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
                 },
                 pointer_events: {
                   children: {
@@ -10834,53 +10774,6 @@ function checkDeadlines() {
                           data: [
                             "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/service-workers/",
                             "https://learn.microsoft.com/en-us/microsoft-edge/devtools/service-workers/"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                serviceworkerglobalscope: {
-                  children: {
-                    periodicsync_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ServiceWorkerGlobalScope/periodicsync_event",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    sync_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ServiceWorkerGlobalScope/sync_event",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                serviceworkerregistration: {
-                  children: {
-                    periodicsync: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ServiceWorkerRegistration/periodicSync",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -14181,19 +14074,6 @@ connectedMoveCallback() {
                     }
                   ]
                 },
-                web_periodic_background_synchronization_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Web_Periodic_Background_Synchronization_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
-                },
                 web_storage_api: {
                   children: {
                     using_the_web_storage_api: {
@@ -14475,6 +14355,13 @@ document.getElementById("terminate").addEventListener("click", () => {
 });
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -14986,6 +14873,23 @@ function displayPoseStats(pose) {
                           message: "Not in BCD",
                           data: [
                             "api.WorkerNavigator.setAppBadge"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                worker: {
+                  children: {
+                    worker: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Worker/Worker",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -17107,6 +17011,13 @@ lab(from hsl(0 100% 50%) calc(l + 20) calc(a - 20) calc(b - 40) / calc(alpha - 0
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://lea.verou.me/blog/2020/04/lch-colors-in-css-what-why-and-how/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -17191,6 +17102,13 @@ lch(from hsl(0 100% 50% / 0.8) l c h / 0.5)
 lch(from hsl(0 100% 50%) calc(l + 20) calc(c - 20) calc(h - 40) / calc(alpha - 0.1))
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://lea.verou.me/blog/2020/04/lch-colors-in-css-what-why-and-how/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -20250,6 +20168,19 @@ css.properties.grid-template-rows.masonry`,
                             "api.MediaQueryList",
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    },
+                    using_media_queries_for_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries_for_accessibility",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2020/09/design-reduced-motion-sensitivities/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -32500,6 +32431,19 @@ html.elements.script.integrity`,
                       ]
                     }
                   ]
+                },
+                transport_layer_security: {
+                  children: {},
+                  slug: "/en-US/docs/Web/Security/Transport_Layer_Security",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://support.mozilla.org/en-US/kb/secure-connection-failed-firefox-did-not-connect",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 }
               },
               slug: "/en-US/docs/Web/Security",
@@ -40998,13 +40942,6 @@ svg.elements.feSpotLight.z`
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Tools_for_SVG",
                           messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://imagemagick.org/",
-                                "Unable to connect. Is the computer able to access the url?"
-                              ]
-                            },
                             {
                               message: "HTTP link",
                               data: [
