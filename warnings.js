@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-hyxyvqsz.js";
+} from "./chunk-5mzqg7hp.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -2191,19 +2191,6 @@ function update(bgColor, textColor) {
                         }
                       ]
                     },
-                    event_bubbling: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Event_bubbling",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://domevents.dev/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     loops: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Loops",
@@ -2781,13 +2768,6 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cwiki.apache.org/confluence/display/httpd/RewriteHTTPToHTTPS",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -2834,23 +2814,6 @@ refused.textContent = 'Refuse: ';
             },
             getting_started: {
               children: {
-                environment_setup: {
-                  children: {
-                    browsing_the_web: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gemini.google.com/app",
-                            502
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 soft_skills: {
                   children: {
                     collaboration_and_teamwork: {
@@ -2862,23 +2825,6 @@ refused.textContent = 'Refuse: ';
                           data: [
                             "https://discord.me/frontenddevelopers",
                             403
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                web_standards: {
-                  children: {
-                    how_the_web_works: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://support.mozilla.org/",
-                            500
                           ]
                         }
                       ]
@@ -3125,21 +3071,7 @@ refused.textContent = 'Refuse: ';
                   ]
                 },
                 web_mechanics: {
-                  children: {
-                    what_is_a_domain_name: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://support.mozilla.org/",
-                            500
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics",
                   messages: [
                     {
@@ -3324,19 +3256,6 @@ refused.textContent = 'Refuse: ';
                       }
                     }
                   }
-                },
-                what_we_write: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/What_we_write",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://support.mozilla.org/",
-                        500
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Writing_guidelines",
@@ -10081,6 +10000,23 @@ function checkDeadlines() {
                     }
                   ]
                 },
+                inputevent: {
+                  children: {
+                    inputtype: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/InputEvent/inputType",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://d-toybox.com/studio/lib/input_event_viewer.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 insertable_streams_for_mediastreamtrack_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Insertable_Streams_for_MediaStreamTrack_API",
@@ -11232,19 +11168,6 @@ async function handleTranslation(e) {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/URL_API/Resolving_relative_references"
-                      ]
-                    }
-                  ]
-                },
-                view_transition_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/View_Transition_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://http203-playlist.netlify.app/",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                       ]
                     }
                   ]
@@ -15442,74 +15365,6 @@ cross-fade(url(white.png), url(black.png), 100%); /* fully white */
                 },
                 css_anchor_positioning: {
                   children: {
-                    try_options_hiding: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_anchor_positioning/Try_options_hiding",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-descriptor-value-no-unknown",
-                            'Unexpected unknown value "unset" for descriptor "bottom" (at-rule-descriptor-value-no-unknown)',
-                            "  bottom: unset;",
-                            "37:11 - 37:16",
-                            `/en-US/docs/Web/CSS/CSS_anchor_positioning/Try_options_hiding
-[at-rule-descriptor-value-no-unknown] Unexpected unknown value "unset" for descriptor "bottom" (at-rule-descriptor-value-no-unknown)
-~~~
-.anchor {
-  font-size: 1.8rem;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  background-color: hsl(240 100% 75%);
-  width: fit-content;
-  border-radius: 10px;
-  border: 1px solid black;
-  padding: 3px;
-}
-
-.anchor {
-  anchor-name: --myAnchor;
-  position: absolute;
-  top: 100px;
-  left: 45%;
-}
-
-.infobox {
-  color: darkblue;
-  background-color: azure;
-  border: 1px solid #ddd;
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 1rem;
-  text-align: center;
-}
-
-form {
-  position: fixed;
-  bottom: 2px;
-  right: 2px;
-}
-
-@position-try --custom-bottom {
-  top: anchor(bottom);
-  bottom: unset;
-  margin-top: 10px;
-}
-
-.infobox {
-  position: fixed;
-  position-anchor: --myAnchor;
-  bottom: anchor(top);
-  margin-bottom: 10px;
-  justify-self: anchor-center;
-  position-try-fallbacks: --custom-bottom;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     using: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_anchor_positioning/Using",
@@ -20431,144 +20286,6 @@ keyword value keyword value /* Each value is an offset from the keyword that pre
                     }
                   ]
                 },
-                "position-try": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/position-try",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "at-rule-descriptor-value-no-unknown",
-                        'Unexpected unknown value "unset" for descriptor "bottom" (at-rule-descriptor-value-no-unknown)',
-                        "  bottom: unset;",
-                        "37:11 - 37:16",
-                        `/en-US/docs/Web/CSS/position-try
-[at-rule-descriptor-value-no-unknown] Unexpected unknown value "unset" for descriptor "bottom" (at-rule-descriptor-value-no-unknown)
-~~~
-.anchor {
-  font-size: 1.8rem;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  background-color: hsl(240 100% 75%);
-  width: fit-content;
-  border-radius: 10px;
-  border: 1px solid black;
-  padding: 3px;
-}
-
-.anchor {
-  anchor-name: --myAnchor;
-  position: absolute;
-  top: 100px;
-  left: 45%;
-}
-
-.infobox {
-  color: darkblue;
-  background-color: azure;
-  border: 1px solid #ddd;
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 1rem;
-  text-align: center;
-}
-
-form {
-  position: fixed;
-  bottom: 2px;
-  right: 2px;
-}
-
-@position-try --custom-bottom {
-  top: anchor(bottom);
-  bottom: unset;
-  margin-top: 10px;
-}
-
-.infobox {
-  position: fixed;
-  position-anchor: --myAnchor;
-
-  bottom: anchor(top);
-  margin-bottom: 10px;
-  justify-self: anchor-center;
-
-  position-try: most-height --custom-bottom;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "position-try-order": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/position-try-order",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "at-rule-descriptor-value-no-unknown",
-                        'Unexpected unknown value "unset" for descriptor "bottom" (at-rule-descriptor-value-no-unknown)',
-                        "  bottom: unset;",
-                        "35:11 - 35:16",
-                        `/en-US/docs/Web/CSS/position-try-order
-[at-rule-descriptor-value-no-unknown] Unexpected unknown value "unset" for descriptor "bottom" (at-rule-descriptor-value-no-unknown)
-~~~
-.anchor {
-  font-size: 1.8rem;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  background-color: hsl(240 100% 75%);
-  width: fit-content;
-  border-radius: 10px;
-  border: 1px solid black;
-  padding: 3px;
-}
-
-.anchor {
-  anchor-name: --myAnchor;
-  margin: 90px auto;
-}
-
-.infobox {
-  color: darkblue;
-  background-color: azure;
-  border: 1px solid #ddd;
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 1rem;
-  text-align: center;
-}
-
-form {
-  position: fixed;
-  bottom: 2px;
-  right: 2px;
-}
-
-@position-try --custom-bottom {
-  top: anchor(bottom);
-  bottom: unset;
-  margin-top: 10px;
-}
-
-.infobox {
-  position: fixed;
-  position-anchor: --myAnchor;
-
-  bottom: anchor(top);
-  margin-bottom: 10px;
-  justify-self: anchor-center;
-
-  position-try: normal --custom-bottom;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 properties: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/Properties",
@@ -22077,19 +21794,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
-                    content_negotiation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTTP/Guides/Content_negotiation",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     cookies: {
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/Cookies",
@@ -22196,19 +21900,6 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         },
-                        dnt: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -22291,13 +21982,6 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Broken browser compat anchor",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -22734,13 +22418,6 @@ http.headers.Use-As-Dictionary`,
                                 {
                                   message: "Unreachable via page",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://support.mozilla.org/",
-                                    500
-                                  ]
                                 }
                               ]
                             },
@@ -22751,13 +22428,6 @@ http.headers.Use-As-Dictionary`,
                                 {
                                   message: "Unreachable via page",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://support.mozilla.org/",
-                                    500
-                                  ]
                                 }
                               ]
                             },
@@ -22768,13 +22438,6 @@ http.headers.Use-As-Dictionary`,
                                 {
                                   message: "Unreachable via page",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://support.mozilla.org/",
-                                    500
-                                  ]
                                 }
                               ]
                             },
@@ -22785,13 +22448,6 @@ http.headers.Use-As-Dictionary`,
                                 {
                                   message: "Unreachable via page",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://support.mozilla.org/",
-                                    500
-                                  ]
                                 }
                               ]
                             },
