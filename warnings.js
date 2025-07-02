@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-5mzqg7hp.js";
+} from "./chunk-rwr7w1fd.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -760,6 +760,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            layout_viewport: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Layout_viewport",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.quirksmode.org/mobile/viewports.html",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             literal: {
               children: {},
               slug: "/en-US/docs/Glossary/Literal",
@@ -1201,6 +1214,32 @@ var warnings_processed_default = {
                 }
               ]
             },
+            viewport: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Viewport",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.quirksmode.org/mobile/viewports.html",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
+            visual_viewport: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Visual_Viewport",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.quirksmode.org/mobile/viewports.html",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             web_server: {
               children: {},
               slug: "/en-US/docs/Glossary/Web_server",
@@ -1375,7 +1414,20 @@ var warnings_processed_default = {
                       ]
                     },
                     test_your_skills: {
-                      children: {},
+                      children: {
+                        flexbox: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Flexbox",
+                          messages: [
+                            {
+                              message: "Unused image",
+                              data: [
+                                "flex-task3.png"
+                              ]
+                            }
+                          ]
+                        }
+                      },
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills",
                       messages: [
                         {
@@ -1539,6 +1591,26 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://phabricator.wikimedia.org/T241180",
+                            "429 Retry-After: 1000"
+                          ]
+                        }
+                      ]
+                    },
+                    react_resources: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2020/05/styling-components-react/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -2191,6 +2263,19 @@ function update(bgColor, textColor) {
                         }
                       ]
                     },
+                    event_bubbling: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Event_bubbling",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.quirksmode.org/js/events_order.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     loops: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Loops",
@@ -2440,6 +2525,13 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/",
+                            "unknown certificate verification error"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://www.shutterstock.com/",
                             403
                           ]
@@ -2600,6 +2692,13 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/documentation/at-rules/use/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2747,6 +2846,19 @@ refused.textContent = 'Refuse: ';
                 },
                 performance: {
                   children: {
+                    video: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/video",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2018/10/video-playback-on-the-web-part-2/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    },
                     web_performance_basics: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Web_Performance_Basics",
@@ -2768,6 +2880,13 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cwiki.apache.org/confluence/display/httpd/RewriteHTTPToHTTPS",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     },
@@ -2783,6 +2902,19 @@ refused.textContent = 'Refuse: ';
                     },
                     express_nodejs: {
                       children: {
+                        development_environment: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/development_environment",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://github.com/coreybutler/nvm-windows/releases",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
+                        },
                         introduction: {
                           children: {},
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
@@ -2824,6 +2956,19 @@ refused.textContent = 'Refuse: ';
                           message: "Broken external link",
                           data: [
                             "https://discord.me/frontenddevelopers",
+                            403
+                          ]
+                        }
+                      ]
+                    },
+                    finding_a_job: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.upwork.com/",
                             403
                           ]
                         }
@@ -3026,7 +3171,7 @@ refused.textContent = 'Refuse: ';
                           message: "Broken external link",
                           data: [
                             "https://www.codelobster.com/forum/index.php",
-                            "Unable to connect. Is the computer able to access the url?"
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -4663,170 +4808,6 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
-                    work_with_contextual_identities: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "5:9",
-                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities
-[syntax] Parsing error: '}' expected.
-~~~
-if (browser.contextualIdentities === undefined) {
-  div.innerText =
-    "browser.contextualIdentities not available. Check that the privacy.userContext.enabled pref is set to true, and reload the add-on.";
-} else {
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "6:9",
-                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities
-[syntax] Parsing error: '}' expected.
-~~~
-  browser.contextualIdentities.query({}).then((identities) => {
-    if (!identities.length) {
-      div.innerText = "No identities returned from the API.";
-      return;
-    }
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Declaration or statement expected.",
-                            "  });",
-                            "12:9",
-                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities
-[syntax] Parsing error: Declaration or statement expected.
-~~~
-    for (const identity of identities) {
-      const row = document.createElement("div");
-      const span = document.createElement("span");
-      span.className = "identity";
-      span.innerText = identity.name;
-      span.style = \`color: \${identity.color}\`;
-      console.log(identity);
-      row.appendChild(span);
-      createOptions(row, identity);
-      div.appendChild(row);
-    }
-  });
-}
-
-function createOptions(node, identity) {
-  for (const option of ["Create", "Close All"]) {
-    const a = document.createElement("a");
-    a.href = "#";
-    a.innerText = option;
-    a.dataset.action = option.toLowerCase().replace(" ", "-");
-    a.dataset.identity = identity.cookieStoreId;
-    a.addEventListener("click", eventHandler);
-    node.appendChild(a);
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "2:9",
-                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities
-[syntax] Parsing error: '}' expected.
-~~~
-function eventHandler(event) {
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Declaration or statement expected.",
-                            "}",
-                            "11:9",
-                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_contextual_identities
-[syntax] Parsing error: Declaration or statement expected.
-~~~
-  if (event.target.dataset.action === "close-all") {
-    browser.tabs
-      .query({
-        cookieStoreId: event.target.dataset.identity,
-      })
-      .then((tabs) => {
-        browser.tabs.remove(tabs.map((i) => i.id));
-      });
-  }
-  event.preventDefault();
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    work_with_the_bookmarks_api: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Bookmarks_API",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "5:9",
-                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Bookmarks_API
-[syntax] Parsing error: '}' expected.
-~~~
-  function updateTab(tabs) {
-    if (tabs[0]) {
-      currentTab = tabs[0];
-      if (isSupportedProtocol(currentTab.url)) {
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "5:9",
-                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Bookmarks_API
-[syntax] Parsing error: '}' expected.
-~~~
-      let searching = browser.bookmarks.search({ url: currentTab.url });
-      searching.then((bookmarks) => {
-        currentBookmark = bookmarks[0];
-        updateIcon();
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     work_with_the_cookies_api: {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Cookies_API",
@@ -4834,117 +4815,32 @@ function eventHandler(event) {
                         {
                           message: "JS code issue",
                           data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "7:9",
+                            "@typescript-eslint/prefer-for-of",
+                            "Expected a `for-of` loop instead of a `for` loop with this simple iteration.",
+                            `for (let i = 0; i < bgBtns.length; i++) {
+  let imgName = bgBtns[i].getAttribute("class");
+  let bgImg = \`url('images/\${imgName}.png')\`;
+  bgBtns[i].style.backgroundImage = bgImg;
+
+  bgBtns[i].onclick = (e) => {
+    // ...
+  };
+}`,
+                            "3:1 - 11:2",
                             `/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Cookies_API
-[syntax] Parsing error: '}' expected.
+[@typescript-eslint/prefer-for-of] Expected a \`for-of\` loop instead of a \`for\` loop with this simple iteration.
 ~~~
+let bgBtns = document.querySelectorAll(".bg-container button");
+
 for (let i = 0; i < bgBtns.length; i++) {
   let imgName = bgBtns[i].getAttribute("class");
   let bgImg = \`url('images/\${imgName}.png')\`;
   bgBtns[i].style.backgroundImage = bgImg;
 
   bgBtns[i].onclick = (e) => {
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    working_with_the_tabs_api: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "9:9",
-                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API
-[syntax] Parsing error: '}' expected.
-~~~
-function listTabs() {
-  getCurrentWindowTabs().then((tabs) => {
-    const tabsList = document.getElementById("tabs-list");
-    const currentTabs = document.createDocumentFragment();
-    const limit = 5;
-    let counter = 0;
-
-    tabsList.textContent = "";
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Declaration or statement expected.",
-                            "  });",
-                            "2:9",
-                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API
-[syntax] Parsing error: Declaration or statement expected.
-~~~
-    tabsList.appendChild(currentTabs);
-  });
+    // ...
+  };
 }
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Declaration or statement expected.",
-                            'else if (e.target.id === "tabs-alert-info") {',
-                            "1:9",
-                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API
-[syntax] Parsing error: Declaration or statement expected.
-~~~
-else if (e.target.id === "tabs-alert-info") {
-  callOnActiveTab((tab) => {
-    let props = "";
-    for (const item in tab) {
-      props += \`\${item} = \${tab[item]} \\n\`;
-    }
-    alert(props);
-  });
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Declaration or statement expected.",
-                            '  else if (e.target.id === "tabs-add-zoom") {',
-                            "1:9",
-                            `/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API
-[syntax] Parsing error: Declaration or statement expected.
-~~~
-  else if (e.target.id === "tabs-add-zoom") {
-    callOnActiveTab((tab) => {
-      browser.tabs.getZoom(tab.id).then((zoomFactor) => {
-        // The maximum zoomFactor is 5, it can't go higher
-        if (zoomFactor >= MAX_ZOOM) {
-          alert("Tab zoom factor is already at max!");
-        } else {
-          let newZoomFactor = zoomFactor + ZOOM_INCREMENT;
-          // If the newZoomFactor is set to higher than the max accepted
-          // it won't change, and will never alert that it's at maximum
-          newZoomFactor = newZoomFactor > MAX_ZOOM ? MAX_ZOOM : newZoomFactor;
-          browser.tabs.setZoom(tab.id, newZoomFactor);
-        }
-      });
-    });
-  }
 ~~~
 `
                           ]
@@ -8533,6 +8429,19 @@ else if (e.target.id === "tabs-alert-info") {
                     },
                     understanding_wcag: {
                       children: {
+                        keyboard: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Keyboard",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         perceivable: {
                           children: {
                             color_contrast: {
@@ -8815,10 +8724,10 @@ api.MessagePort`,
                       slug: "/en-US/docs/Web/API/console/assert_static",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
+                            404
                           ]
                         }
                       ]
@@ -8828,10 +8737,10 @@ api.MessagePort`,
                       slug: "/en-US/docs/Web/API/console/clear_static",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
+                            404
                           ]
                         }
                       ]
@@ -8841,10 +8750,10 @@ api.MessagePort`,
                       slug: "/en-US/docs/Web/API/console/count_static",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
+                            404
                           ]
                         }
                       ]
@@ -8854,10 +8763,10 @@ api.MessagePort`,
                       slug: "/en-US/docs/Web/API/console/countReset_static",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
+                            404
                           ]
                         }
                       ]
@@ -8867,10 +8776,10 @@ api.MessagePort`,
                       slug: "/en-US/docs/Web/API/console/debug_static",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
+                            404
                           ]
                         }
                       ]
@@ -8880,10 +8789,10 @@ api.MessagePort`,
                       slug: "/en-US/docs/Web/API/console/dir_static",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
+                            404
                           ]
                         }
                       ]
@@ -8893,10 +8802,10 @@ api.MessagePort`,
                       slug: "/en-US/docs/Web/API/console/dirxml_static",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
+                            404
                           ]
                         }
                       ]
@@ -8906,10 +8815,10 @@ api.MessagePort`,
                       slug: "/en-US/docs/Web/API/console/error_static",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
+                            404
                           ]
                         }
                       ]
@@ -8919,10 +8828,10 @@ api.MessagePort`,
                       slug: "/en-US/docs/Web/API/console/group_static",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
+                            404
                           ]
                         }
                       ]
@@ -8932,10 +8841,10 @@ api.MessagePort`,
                       slug: "/en-US/docs/Web/API/console/groupCollapsed_static",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
+                            404
                           ]
                         }
                       ]
@@ -8945,10 +8854,10 @@ api.MessagePort`,
                       slug: "/en-US/docs/Web/API/console/groupEnd_static",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
+                            404
                           ]
                         }
                       ]
@@ -8958,10 +8867,10 @@ api.MessagePort`,
                       slug: "/en-US/docs/Web/API/console/info_static",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
+                            404
                           ]
                         }
                       ]
@@ -8971,10 +8880,10 @@ api.MessagePort`,
                       slug: "/en-US/docs/Web/API/console/log_static",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
+                            404
                           ]
                         }
                       ]
@@ -8984,10 +8893,10 @@ api.MessagePort`,
                       slug: "/en-US/docs/Web/API/console/table_static",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
+                            404
                           ]
                         }
                       ]
@@ -8997,10 +8906,10 @@ api.MessagePort`,
                       slug: "/en-US/docs/Web/API/console/time_static",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
+                            404
                           ]
                         }
                       ]
@@ -9010,10 +8919,10 @@ api.MessagePort`,
                       slug: "/en-US/docs/Web/API/console/timeEnd_static",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
+                            404
                           ]
                         }
                       ]
@@ -9023,10 +8932,10 @@ api.MessagePort`,
                       slug: "/en-US/docs/Web/API/console/trace_static",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
+                            404
                           ]
                         }
                       ]
@@ -9036,10 +8945,10 @@ api.MessagePort`,
                       slug: "/en-US/docs/Web/API/console/warn_static",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/api",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
+                            404
                           ]
                         }
                       ]
@@ -9095,22 +9004,6 @@ api.MessagePort`,
                             "api.CSS.registerProperty_static",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                css_typed_om_api: {
-                  children: {
-                    guide: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSS_Typed_OM_API/Guide",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "magic-wand.png"
                           ]
                         }
                       ]
@@ -9387,20 +9280,7 @@ api.DeviceOrientationEvent`,
                   ]
                 },
                 document_object_model: {
-                  children: {
-                    examples: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document_Object_Model/Examples",
-                      messages: [
-                        {
-                          message: "Missing image",
-                          data: [
-                            "image1.gif"
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/Document_Object_Model",
                   messages: [
                     {
@@ -9518,10 +9398,27 @@ api.DeviceOrientationEvent`,
                       slug: "/en-US/docs/Web/API/Element/setAttribute",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/css/inspect",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/css/inspect"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/css/inspect",
+                            404
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                eventtarget: {
+                  children: {
+                    addeventlistener: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/EventTarget/addEventListener",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.quirksmode.org/js/events_order.html",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -9736,230 +9633,6 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
-                indexeddb_api: {
-                  children: {
-                    checking_when_a_deadline_is_due: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/IndexedDB_API/Checking_when_a_deadline_is_due",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "16:9",
-                            `/en-US/docs/Web/API/IndexedDB_API/Checking_when_a_deadline_is_due
-[syntax] Parsing error: '}' expected.
-~~~
-function addData(e) {
-  e.preventDefault();
-
-  if (
-    !title.value ||
-    !hours.value ||
-    !minutes.value ||
-    !day.value ||
-    !month.value ||
-    !year.value
-  ) {
-    note.appendChild(document.createElement("li")).textContent =
-      "Data not submitted — form incomplete.";
-    return;
-  }
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Declaration or statement expected.",
-                            "  else {",
-                            "1:9",
-                            `/en-US/docs/Web/API/IndexedDB_API/Checking_when_a_deadline_is_due
-[syntax] Parsing error: Declaration or statement expected.
-~~~
-  else {
-    const newItem = [
-      {
-        taskTitle: title.value,
-        hours: hours.value,
-        minutes: minutes.value,
-        day: day.value,
-        month: month.value,
-        year: year.value,
-        notified: "no",
-      },
-    ];
-
-    // open a read/write db transaction, ready for adding the data
-    const transaction = db.transaction(["toDoList"], "readwrite");
-
-    // report on the success of opening the transaction
-    transaction.oncomplete = (event) => {
-      note.appendChild(document.createElement("li")).textContent =
-        "Transaction opened for task addition.";
-    };
-
-    transaction.onerror = (event) => {
-      note.appendChild(document.createElement("li")).textContent =
-        "Transaction not opened due to error. Duplicate items not allowed.";
-    };
-
-    // create an object store on the transaction
-    const objectStore = transaction.objectStore("toDoList");
-
-    // add our newItem object to the object store
-    const request = objectStore.add(newItem[0]);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Declaration or statement expected.",
-                            "  }",
-                            "12:9",
-                            `/en-US/docs/Web/API/IndexedDB_API/Checking_when_a_deadline_is_due
-[syntax] Parsing error: Declaration or statement expected.
-~~~
-    request.onsuccess = (event) => {
-      note.appendChild(document.createElement("li")).textContent =
-        "New item added to database.";
-
-      title.value = "";
-      hours.value = null;
-      minutes.value = null;
-      day.value = "01";
-      month.value = "January";
-      year.value = 2020;
-    };
-  }
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Declaration or statement expected.",
-                            "}",
-                            "3:9",
-                            `/en-US/docs/Web/API/IndexedDB_API/Checking_when_a_deadline_is_due
-[syntax] Parsing error: Declaration or statement expected.
-~~~
-  // update the display of data to show the newly added item, by running displayData() again.
-  displayData();
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "3:9",
-                            `/en-US/docs/Web/API/IndexedDB_API/Checking_when_a_deadline_is_due
-[syntax] Parsing error: '}' expected.
-~~~
-function checkDeadlines() {
-  const now = new Date();
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "10:9",
-                            `/en-US/docs/Web/API/IndexedDB_API/Checking_when_a_deadline_is_due
-[syntax] Parsing error: '}' expected.
-~~~
-  const objectStore = db
-    .transaction(["toDoList"], "readwrite")
-    .objectStore("toDoList");
-
-  objectStore.openCursor().onsuccess = (event) => {
-    const cursor = event.target.result;
-    let monthNumber;
-
-    if (cursor) {
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "26:9",
-                            `/en-US/docs/Web/API/IndexedDB_API/Checking_when_a_deadline_is_due
-[syntax] Parsing error: '}' expected.
-~~~
-    // now we need to update the value of notified to "yes" in this particular data object, so the
-    // notification won't be set off on it again
-
-    // first open up a transaction as usual
-    const objectStore = db
-      .transaction(["toDoList"], "readwrite")
-      .objectStore("toDoList");
-
-    // get the to-do list object that has this title as its title
-    const request = objectStore.get(title);
-
-    request.onsuccess = () => {
-      // grab the data object returned as the result
-      const data = request.result;
-
-      // update the notified value in the object to "yes"
-      data.notified = "yes";
-
-      // create another request that inserts the item back into the database
-      const requestUpdate = objectStore.put(data);
-
-      // when this new request succeeds, run the displayData() function again to update the display
-      requestUpdate.onsuccess = () => {
-        displayData();
-      };
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Declaration or statement expected.",
-                            "    }",
-                            "2:9",
-                            `/en-US/docs/Web/API/IndexedDB_API/Checking_when_a_deadline_is_due
-[syntax] Parsing error: Declaration or statement expected.
-~~~
-      cursor.continue();
-    }
-  }
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 ink: {
                   children: {
                     requestpresenter: {
@@ -9999,23 +9672,6 @@ function checkDeadlines() {
                       ]
                     }
                   ]
-                },
-                inputevent: {
-                  children: {
-                    inputtype: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/InputEvent/inputType",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://d-toybox.com/studio/lib/input_event_viewer.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 insertable_streams_for_mediastreamtrack_api: {
                   children: {},
@@ -10096,71 +9752,6 @@ function checkDeadlines() {
                             "api.MediaDevices.getSupportedConstraints",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    },
-                    taking_still_photos: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Media_Capture_and_Streams_API/Taking_still_photos",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "11:9",
-                            `/en-US/docs/Web/API/Media_Capture_and_Streams_API/Taking_still_photos
-[syntax] Parsing error: '}' expected.
-~~~
-(() => {
-  const width = 320;    // We will scale the photo width to this
-  const height = 0;     // This will be computed based on the input stream
-
-  const streaming = false;
-
-  let video = null;
-  let canvas = null;
-  let photo = null;
-  let startButton = null;
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "6:9",
-                            `/en-US/docs/Web/API/Media_Capture_and_Streams_API/Taking_still_photos
-[syntax] Parsing error: '}' expected.
-~~~
-  function startup() {
-    video = document.getElementById("video");
-    canvas = document.getElementById("canvas");
-    photo = document.getElementById("photo");
-    startButton = document.getElementById("start-button");
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Declaration or statement expected.",
-                            "  }",
-                            "2:9",
-                            `/en-US/docs/Web/API/Media_Capture_and_Streams_API/Taking_still_photos
-[syntax] Parsing error: Declaration or statement expected.
-~~~
-    clearPhoto();
-  }
-~~~
-`
                           ]
                         }
                       ]
@@ -10279,19 +9870,6 @@ function checkDeadlines() {
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/battery"
-                          ]
-                        }
-                      ]
-                    },
-                    getinstalledrelatedapps: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/getInstalledRelatedApps",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://f-droid.org/",
-                            "certificate has expired"
                           ]
                         }
                       ]
@@ -10836,8 +10414,8 @@ function checkDeadlines() {
                         {
                           message: "Redirected external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/service-workers/",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/service-workers/"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/service-workers/",
+                            "https://learn.microsoft.com/en-us/archive/microsoft-edge/legacy/developer/"
                           ]
                         }
                       ]
@@ -11047,101 +10625,6 @@ function checkDeadlines() {
                     }
                   ]
                 },
-                translator_and_language_detector_apis: {
-                  children: {
-                    using: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Translator_and_Language_Detector_APIs/Using",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "12:9",
-                            `/en-US/docs/Web/API/Translator_and_Language_Detector_APIs/Using
-[syntax] Parsing error: '}' expected.
-~~~
-async function handleTranslation(e) {
-  e.preventDefault();
-
-  const formData = new FormData(form);
-
-  if (formData.get("translateLanguage") === detectedLanguage) {
-    translateOutput.innerHTML = \`<span class="error">Input language and translation language are the same.</span>\`;
-    return;
-  } else {
-    translateOutput.innerHTML = "";
-  }
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "29:9",
-                            `/en-US/docs/Web/API/Translator_and_Language_Detector_APIs/Using
-[syntax] Parsing error: '}' expected.
-~~~
-  try {
-    const availability = await Translator.availability({
-      sourceLanguage: detectedLanguage,
-      targetLanguage: formData.get("translateLanguage"),
-    });
-    let translator;
-
-    if (availability === "unavailable") {
-      translateOutput.innerHTML = \`<span class="error">Translation not available; try a different language combination.</span>\`;
-      return;
-    } else if (availability === "available") {
-      translator = await Translator.create({
-        sourceLanguage: detectedLanguage,
-        targetLanguage: formData.get("translateLanguage"),
-      });
-    } else {
-      translator = await Translator.create({
-        sourceLanguage: detectedLanguage,
-        targetLanguage: formData.get("translateLanguage"),
-        monitor(monitor) {
-          monitor.addEventListener("downloadprogress", (e) => {
-            translateOutput.textContent = \`Downloaded \${Math.floor(
-              e.loaded * 100
-            )}%\`;
-          });
-        },
-      });
-    }
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Declaration or statement expected.",
-                            "  } catch (e) {",
-                            "1:9",
-                            `/en-US/docs/Web/API/Translator_and_Language_Detector_APIs/Using
-[syntax] Parsing error: Declaration or statement expected.
-~~~
-  } catch (e) {
-    translateOutput.innerHTML = \`<span class="error">\${e}</span>\`;
-  }
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 ui_events: {
                   children: {},
                   slug: "/en-US/docs/Web/API/UI_Events",
@@ -11329,65 +10812,6 @@ async function handleTranslation(e) {
                           data: [
                             "https://www.mathworks.com/help/dsphdl/ref/biquadfilter.html",
                             403
-                          ]
-                        }
-                      ]
-                    },
-                    visualizations_with_web_audio_api: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "2:9",
-                            `/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API
-[syntax] Parsing error: '}' expected.
-~~~
-function draw() {
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Declaration or statement expected.",
-                            "}",
-                            "3:9",
-                            `/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API
-[syntax] Parsing error: Declaration or statement expected.
-~~~
-  canvasCtx.lineTo(WIDTH, HEIGHT / 2);
-  canvasCtx.stroke();
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "8:9",
-                            `/en-US/docs/Web/API/Web_Audio_API/Visualizations_with_Web_Audio_API
-[syntax] Parsing error: '}' expected.
-~~~
-function draw() {
-  drawVisual = requestAnimationFrame(draw);
-
-  analyser.getByteFrequencyData(dataArray);
-
-  canvasCtx.fillStyle = "rgb(0 0 0)";
-  canvasCtx.fillRect(0, 0, WIDTH, HEIGHT);
-~~~
-`
                           ]
                         }
                       ]
@@ -11914,208 +11338,6 @@ document.getElementById("terminate").addEventListener("click", () => {
                         {
                           message: "Broken browser compat anchor",
                           data: []
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "7:9",
-                            `/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API
-[syntax] Parsing error: '}' expected.
-~~~
-function start() {
-  canvas = document.getElementById("gl-canvas");
-
-  initWebGL(canvas); // Initialize the GL context
-
-  // WebGL setup code here
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "4:9",
-                            `/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API
-[syntax] Parsing error: '}' expected.
-~~~
-  // WebVR: Check to see if WebVR is supported
-  if (navigator.getVRDisplays) {
-    console.log("WebVR 1.1 supported");
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "3:9",
-                            `/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API
-[syntax] Parsing error: '}' expected.
-~~~
-    // Then get the displays attached to the computer
-    navigator.getVRDisplays().then((displays) => {
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "5:9",
-                            `/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API
-[syntax] Parsing error: '}' expected.
-~~~
-      // If a display is available, use it to present the scene
-      if (displays.length > 0) {
-        vrDisplay = displays[0];
-        console.log("Display found");
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "6:9",
-                            `/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API
-[syntax] Parsing error: '}' expected.
-~~~
-        // Starting the presentation when the button is clicked: It can only be called in response to a user gesture
-        btn.addEventListener("click", () => {
-          if (btn.textContent === "Start VR display") {
-            vrDisplay.requestPresent([{ source: canvas }]).then(() => {
-              console.log("Presenting to WebVR display");
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Declaration or statement expected.",
-                            "            });",
-                            "2:9",
-                            `/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API
-[syntax] Parsing error: Declaration or statement expected.
-~~~
-              btn.textContent = "Exit VR display";
-            });
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Declaration or statement expected.",
-                            "          } else {",
-                            "1:9",
-                            `/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API
-[syntax] Parsing error: Declaration or statement expected.
-~~~
-          } else {
-            vrDisplay.exitPresent();
-            console.log("Stopped presenting to WebVR display");
-
-            btn.textContent = "Start VR display";
-
-            // Stop the VR presentation, and start the normal presentation
-            vrDisplay.cancelAnimationFrame(vrSceneFrame);
-            drawScene();
-          }
-        });
-      }
-    });
-  } else {
-    console.log("WebVR API not supported by this browser.");
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "4:9",
-                            `/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API
-[syntax] Parsing error: '}' expected.
-~~~
-function drawVRScene() {
-  // WebVR: Request the next frame of the animation
-  vrSceneFrame = vrDisplay.requestAnimationFrame(drawVRScene);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Declaration or statement expected.",
-                            "}",
-                            "3:9",
-                            `/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API
-[syntax] Parsing error: Declaration or statement expected.
-~~~
-  // WebVR: Indicate that we are ready to present the rendered frame to the VR display
-  vrDisplay.submitFrame();
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: '}' expected.",
-                            "",
-                            "8:9",
-                            `/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API
-[syntax] Parsing error: '}' expected.
-~~~
-function displayPoseStats(pose) {
-  const pos = pose.position;
-  const orient = pose.orientation;
-  const linVel = pose.linearVelocity;
-  const linAcc = pose.linearAcceleration;
-  const angVel = pose.angularVelocity;
-  const angAcc = pose.angularAcceleration;
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Declaration or statement expected.",
-                            "}",
-                            "35:9",
-                            "/en-US/docs/Web/API/WebVR_API/Using_the_WebVR_API\n[syntax] Parsing error: Declaration or statement expected.\n~~~\n  posStats.textContent = `Position: ` +\n    `x ${pos[0].toFixed(3)}, ` +\n    `y ${pos[1].toFixed(3)}, ` +\n    `z ${pos[2].toFixed(3)}`;\n  orientStats.textContent = `Orientation: ` +\n    `x ${orient[0].toFixed(3)}, ` +\n    `y ${orient[1].toFixed(3)}, ` +\n    `z ${orient[2].toFixed(3)}`;\n  linVelStats.textContent = `Linear velocity: ` +\n    `x ${linVel[0].toFixed(3)}, ` +\n    `y ${linVel[1].toFixed(3)}, ` +\n    `z ${linVel[2].toFixed(3)}`;\n  angVelStats.textContent = `Angular velocity: ` +\n    `x ${angVel[0].toFixed(3)}, ` +\n    `y ${angVel[1].toFixed(3)}, ` +\n    `z ${angVel[2].toFixed(3)}`;\n\n  if (linAcc) {\n    linAccStats.textContent = `Linear acceleration: ` +\n      `x ${linAcc[0].toFixed(3)}, ` +\n      `y ${linAcc[1].toFixed(3)}, ` +\n      `z ${linAcc[2].toFixed(3)}`;\n  } else {\n    linAccStats.textContent = 'Linear acceleration not reported';\n  }\n\n  if (angAcc) {\n    angAccStats.textContent = `Angular acceleration: ` +\n    `x ${angAcc[0].toFixed(3)}, ` +\n    `y ${angAcc[1].toFixed(3)}, ` +\n    `z ${angAcc[2].toFixed(3)}`;\n  } else {\n    angAccStats.textContent = 'Angular acceleration not reported';\n  }\n}\n~~~\n"
-                          ]
                         }
                       ]
                     },
@@ -12718,6 +11940,19 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
+                _doublecolon_placeholder: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/::placeholder",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.smashingmagazine.com/2022/06/guide-windows-high-contrast-mode/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 "-moz-image-region": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/-moz-image-region",
@@ -13132,6 +12367,13 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.quirksmode.org/css/tests/mediaqueries/animation.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -13152,6 +12394,13 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.quirksmode.org/css/tests/mediaqueries/animation.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -13162,6 +12411,13 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.quirksmode.org/css/tests/mediaqueries/animation.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -13172,6 +12428,13 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.quirksmode.org/css/tests/mediaqueries/animation.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -13640,6 +12903,19 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
+                "aspect-ratio": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/aspect-ratio",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/",
+                        "unknown certificate verification error"
+                      ]
+                    }
+                  ]
+                },
                 attr: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/attr",
@@ -13742,6 +13018,90 @@ attr(data-rotation deg)
 
 .background[data-background] {
   background-color: attr(data-background type(<color>), red);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-function-alias-notation",
+                        'Expected "rgba" to be "rgb" (color-function-alias-notation)',
+                        "    background: rgba(255 255 205 / 0.8);",
+                        "53:17 - 53:21",
+                        `/en-US/docs/Web/CSS/attr
+[color-function-alias-notation] Expected "rgba" to be "rgb" (color-function-alias-notation)
+~~~
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  padding: 1em;
+}
+
+:root {
+  view-transition-name: none;
+}
+::view-transition {
+  pointer-events: none;
+}
+
+@supports (x: attr(x type(*))) {
+  .warning {
+    display: none;
+  }
+}
+
+@layer layout {
+  .card {
+    border-radius: 0.25em;
+    width: 20vw;
+    max-width: 5em;
+    aspect-ratio: 1 / 1.6;
+    background: lightgrey;
+
+    display: grid;
+    place-content: center;
+    font-size: 2em;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    min-height: 100svh;
+    display: grid;
+    place-content: center;
+  }
+
+  button {
+    justify-self: center;
+  }
+}
+
+@layer warning {
+  .warning {
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: rgba(255 255 205 / 0.8);
+    text-align: center;
+    order: -1;
+    margin: 1em;
+  }
+
+  .warning > :first-child {
+    margin-top: 0;
+  }
+  .warning > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.card {
+  view-transition-name: attr(id type(<custom-ident>), none);
+  view-transition-class: card;
 }
 ~~~
 `
@@ -14284,6 +13644,27 @@ section:focus {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/calc-value"
+                      ]
+                    }
+                  ]
+                },
+                color: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/color",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-function-alias-notation",
+                        'Expected "hsla" to be "hsl" (color-function-alias-notation)',
+                        "color: hsla(237deg 74% 33% / 61%);",
+                        "1:8 - 1:12",
+                        `/en-US/docs/Web/CSS/color
+[color-function-alias-notation] Expected "hsla" to be "hsl" (color-function-alias-notation)
+~~~
+color: hsla(237deg 74% 33% / 61%);
+~~~
+`
                       ]
                     }
                   ]
@@ -16389,6 +15770,23 @@ rgb(from red r g b / alpha)
                     }
                   }
                 },
+                css_flexible_box_layout: {
+                  children: {
+                    ordering_flex_items: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_flexible_box_layout/Ordering_flex_items",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://adrianroselli.com/2015/10/html-source-order-vs-css-display-order.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 css_fonts: {
                   children: {
                     woff: {
@@ -16420,6 +15818,19 @@ css.at-rules.font-face.WOFF_2`,
                 },
                 css_grid_layout: {
                   children: {
+                    grid_layout_and_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_and_accessibility",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     grids_logical_values_and_writing_modes: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grids_logical_values_and_writing_modes",
@@ -17251,6 +16662,78 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-function-alias-notation",
+                            'Expected "rgba" to be "rgb" (color-function-alias-notation)',
+                            "  mask-image: conic-gradient(rgb(0 0 0 / 1) 90deg, rgba(0 0 0 / 0) 270deg);",
+                            "18:52 - 18:56",
+                            `/en-US/docs/Web/CSS/CSS_masking/Masking
+[color-function-alias-notation] Expected "rgba" to be "rgb" (color-function-alias-notation)
+~~~
+body {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+  background-image:
+    linear-gradient(to right, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%),
+    linear-gradient(to bottom, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%);
+  background-size: 20px 20px;
+}
+div,
+svg,
+img {
+  width: 220px;
+  aspect-ratio: 1;
+}
+
+.applied-mask {
+  mask-image: conic-gradient(rgb(0 0 0 / 1) 90deg, rgba(0 0 0 / 0) 270deg);
+}
+.mask-source {
+  background: conic-gradient(rgb(0 0 0 / 1) 90deg, rgba(0 0 0 / 0) 270deg);
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-function-alias-notation",
+                            'Expected "rgba" to be "rgb" (color-function-alias-notation)',
+                            "  background: conic-gradient(rgb(0 0 0 / 1) 90deg, rgba(0 0 0 / 0) 270deg);",
+                            "21:52 - 21:56",
+                            `/en-US/docs/Web/CSS/CSS_masking/Masking
+[color-function-alias-notation] Expected "rgba" to be "rgb" (color-function-alias-notation)
+~~~
+body {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+  background-image:
+    linear-gradient(to right, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%),
+    linear-gradient(to bottom, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%);
+  background-size: 20px 20px;
+}
+div,
+svg,
+img {
+  width: 220px;
+  aspect-ratio: 1;
+}
+
+.applied-mask {
+  mask-image: conic-gradient(rgb(0 0 0 / 1) 90deg, rgba(0 0 0 / 0) 270deg);
+}
+.mask-source {
+  background: conic-gradient(rgb(0 0 0 / 1) 90deg, rgba(0 0 0 / 0) 270deg);
+}
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -17701,6 +17184,13 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       data: [
                         "https://codepen.io/collection/KpqBGW"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2022/06/keyboard-only-scrolling-areas.html",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -17777,6 +17267,39 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       ]
                     }
                   }
+                },
+                display: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/display",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "display-box": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/display-box",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 "easing-function": {
                   children: {
@@ -18560,6 +18083,19 @@ css.properties.min-height.fit-content_function
 css.properties.min-inline-size.fit-content_function
 css.properties.min-width.fit-content_function
 css.properties.width.fit-content_function`
+                      ]
+                    }
+                  ]
+                },
+                "flex-direction": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/flex-direction",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2015/09/source-order-matters.html",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -20055,29 +19591,6 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
                     }
                   ]
                 },
-                "mask-border-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-width",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "30px" for property "mask-border-slice" (declaration-property-value-no-unknown)',
-                        "mask-border-slice: 30px;",
-                        "2:20 - 2:24",
-                        `/en-US/docs/Web/CSS/mask-border-width
-[declaration-property-value-no-unknown] Unexpected unknown value "30px" for property "mask-border-slice" (declaration-property-value-no-unknown)
-~~~
-/* Final mask scaled down to 20px wide */
-mask-border-slice: 30px;
-mask-border-width: 20px;
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "mask-composite": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/mask-composite",
@@ -20220,6 +19733,32 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
+                order: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/order",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2015/09/source-order-matters.html",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                overflow: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/overflow",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2022/06/keyboard-only-scrolling-areas.html",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 position_value: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/position_value",
@@ -20305,6 +19844,13 @@ keyword value keyword value /* Each value is an offset from the keyword that pre
                       data: [
                         "CSS info"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -20316,6 +19862,13 @@ keyword value keyword value /* Each value is an offset from the keyword that pre
                       message: "Missing data",
                       data: [
                         "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -21705,18 +21258,6 @@ html.elements.select.size`
                             }
                           }
                         },
-                        object: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/object",
-                          messages: [
-                            {
-                              message: "Missing image",
-                              data: [
-                                "path/image.jpg"
-                              ]
-                            }
-                          ]
-                        },
                         td: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/td",
@@ -21749,6 +21290,23 @@ html.elements.select.size`
                               message: "Unknown asset type",
                               data: [
                                 "column-row-span.html"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    global_attributes: {
+                      children: {
+                        tabindex: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/tabindex",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -22000,6 +21558,23 @@ http.headers.Use-As-Dictionary`,
                           }
                         }
                       }
+                    },
+                    status: {
+                      children: {
+                        "422": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Status/422",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://ruby-doc.org/3.3.2/stdlibs/base64/Base64.html",
+                                403
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     }
                   }
                 }
@@ -22016,8 +21591,8 @@ http.headers.Use-As-Dictionary`,
                         {
                           message: "Redirected external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/console/",
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/"
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/",
+                            "https://learn.microsoft.com/en-us/archive/microsoft-edge/legacy/developer/"
                           ]
                         }
                       ]
@@ -22751,28 +22326,9 @@ svg.elements.feGaussianBlur.edgeMode`
                             }
                           ]
                         },
-                        fetchpriority: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/fetchpriority",
-                          messages: [
-                            {
-                              message: "Unexpected BCD keys",
-                              data: [
-                                "Actual:",
-                                `svg.elements.feimage.fetchpriority
-svg.elements.image.fetchpriority
-svg.elements.script.fetchpriority`,
-                                "Expected:",
-                                `svg.elements.feImage.fetchpriority
-svg.elements.image.fetchpriority
-svg.elements.script.fetchpriority`
-                              ]
-                            }
-                          ]
-                        },
                         from: {
                           children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/From",
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/from",
                           messages: [
                             {
                               message: "Unexpected BCD keys",
@@ -22780,7 +22336,8 @@ svg.elements.script.fetchpriority`
                                 "Actual:",
                                 "svg.elements.animate.from",
                                 "Expected:",
-                                "[None]"
+                                `svg.elements.animate.from
+svg.elements.animateTransform.from`
                               ]
                             }
                           ]
@@ -23187,6 +22744,23 @@ svg.elements.use.systemLanguage`
                             }
                           ]
                         },
+                        to: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/to",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                `svg.elements.animate.to
+svg.elements.animateTransform.to
+svg.elements.set.to`
+                              ]
+                            }
+                          ]
+                        },
                         type: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/type",
@@ -23466,26 +23040,6 @@ svg.elements.feSpotLight.z`
                 }
               }
             },
-            uri: {
-              children: {
-                reference: {
-                  children: {
-                    path: {
-                      children: {},
-                      slug: "/en-US/docs/Web/URI/Reference/Path",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/URI/Reference/Path"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
-            },
             webdriver: {
               children: {
                 reference: {
@@ -23666,10 +23220,10 @@ svg.elements.feSpotLight.z`
               data: []
             },
             {
-              message: "Redirected external link",
+              message: "Broken external link",
               data: [
-                "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/landing/",
-                "https://learn.microsoft.com/en-us/microsoft-edge/devtools/landing/"
+                "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/landing/",
+                404
               ]
             }
           ]
