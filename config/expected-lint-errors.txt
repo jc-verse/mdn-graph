@@ -1132,6 +1132,7 @@ div#header {
 
 /en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
 [color-function-notation] Expected modern color-function notation (color-function-notation)
+[color-function-alias-notation] Expected "rgba" to be "rgb" (color-function-alias-notation)
 ~~~
 /* named color */
 color: magenta;
@@ -2493,6 +2494,7 @@ div.comma-separated {
 
 /en-US/docs/Web/CSS/color_value/hsl
 [color-function-notation] Expected modern color-function notation (color-function-notation)
+[color-function-alias-notation] Expected "hsla" to be "hsl" (color-function-alias-notation)
 ~~~
 div {
   width: 100px;

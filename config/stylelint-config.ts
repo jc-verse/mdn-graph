@@ -309,7 +309,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       ],
       "unit-no-unknown": true,
       "alpha-value-notation": null, // TODO
-      "color-function-alias-notation": null, // TODO
+      "color-function-alias-notation": "without-alpha",
       "color-function-notation": "modern",
       "color-hex-length": null, // TODO
       "font-weight-notation": null, // TODO
