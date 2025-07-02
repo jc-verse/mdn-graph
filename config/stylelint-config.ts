@@ -60,12 +60,12 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
             descriptors: {
               "position-anchor": "auto | <anchor-name>",
               "position-area": "none | <position-area>",
-              top: "auto | <length-percentage> | <anchor()> | <anchor-size()>",
-              left: "auto | <length-percentage> | <anchor()> | <anchor-size()>",
+              top: "auto | <length-percentage> | <anchor()> | <anchor-size()> | inherit | initial | revert | revert-layer | unset",
+              left: "auto | <length-percentage> | <anchor()> | <anchor-size()> | inherit | initial | revert | revert-layer | unset",
               right:
-                "auto | <length-percentage> | <anchor()> | <anchor-size()>",
+                "auto | <length-percentage> | <anchor()> | <anchor-size()> | inherit | initial | revert | revert-layer | unset",
               bottom:
-                "auto | <length-percentage> | <anchor()> | <anchor-size()>",
+                "auto | <length-percentage> | <anchor()> | <anchor-size()> | inherit | initial | revert | revert-layer | unset",
             },
           },
         },
