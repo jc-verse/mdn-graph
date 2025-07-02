@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-pw3ygjd9.js";
+} from "./chunk-hyxyvqsz.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -41,38 +41,7 @@ var warnings_processed_default = {
             techniques: {
               children: {
                 "3d_on_the_web": {
-                  children: {
-                    "building_up_a_basic_demo_with_babylon.js": {
-                      children: {},
-                      slug: "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_Babylon.js",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jsfiddle.net/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    building_up_a_basic_demo_with_playcanvas: {
-                      children: {
-                        engine: {
-                          children: {},
-                          slug: "/en-US/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_PlayCanvas/engine",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Games/Techniques/3D_on_the_web",
                   messages: [
                     {
@@ -1300,61 +1269,8 @@ var warnings_processed_default = {
               children: {
                 accessibility: {
                   children: {
-                    accessibility_troubleshooting: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Accessibility_troubleshooting",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jsfiddle.net/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
-                      children: {
-                        css_and_javascript: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/CSS_and_JavaScript",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        html: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/HTML",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        "wai-aria": {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/WAI-ARIA",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills",
                       messages: [
                         {
@@ -1386,19 +1302,6 @@ var warnings_processed_default = {
                 },
                 css_layout: {
                   children: {
-                    fundamental_layout_comprehension: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Fundamental_Layout_Comprehension",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jsfiddle.net/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     legacy_layout_methods: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
@@ -1472,73 +1375,7 @@ var warnings_processed_default = {
                       ]
                     },
                     test_your_skills: {
-                      children: {
-                        flexbox: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Flexbox",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        floats: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Floats",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        grid: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Grid",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        position: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Position",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        responsive_design: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Responsive_design",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills",
                       messages: [
                         {
@@ -2354,14 +2191,14 @@ function update(bgColor, textColor) {
                         }
                       ]
                     },
-                    image_gallery: {
+                    event_bubbling: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Image_gallery",
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Event_bubbling",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://jsfiddle.net/",
+                            "https://domevents.dev/",
                             "The operation timed out."
                           ]
                         }
@@ -2530,153 +2367,6 @@ refused.textContent = 'Refuse: ';
                           ]
                         }
                       ]
-                    },
-                    silly_story_generator: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Silly_story_generator",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jsfiddle.net/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    test_your_skills: {
-                      children: {
-                        arrays: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Arrays",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        conditionals: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Conditionals",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        events: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Events",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        functions: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Functions",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        json: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/JSON",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        loops: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Loops",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        math: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Math",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        object_basics: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Object_basics",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        strings: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Strings",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        variables: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Variables",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     }
                   }
                 },
@@ -2864,58 +2554,6 @@ refused.textContent = 'Refuse: ';
                         }
                       ]
                     },
-                    marking_up_a_letter: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Marking_up_a_letter",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jsfiddle.net/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    mozilla_splash_page: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Mozilla_splash_page",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jsfiddle.net/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    planet_data_table: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Planet_data_table",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jsfiddle.net/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    structuring_a_page_of_content: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_a_page_of_content",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jsfiddle.net/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     structuring_documents: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents",
@@ -2933,75 +2571,6 @@ refused.textContent = 'Refuse: ';
                           ]
                         }
                       ]
-                    },
-                    test_your_skills: {
-                      children: {
-                        advanced_html_text: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Advanced_HTML_text",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        audio_and_video: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Audio_and_video",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        html_text_basics: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        images: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Images",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        links: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Links",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     }
                   }
                 },
@@ -3027,45 +2596,6 @@ refused.textContent = 'Refuse: ';
                         }
                       ]
                     },
-                    "cool-looking_box": {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Cool-looking_box",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jsfiddle.net/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    fancy_letterheaded_paper: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Fancy_letterheaded_paper",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jsfiddle.net/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    fundamental_css_comprehension: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Fundamental_CSS_comprehension",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jsfiddle.net/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     handling_different_text_directions: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_different_text_directions",
@@ -3086,140 +2616,8 @@ refused.textContent = 'Refuse: ';
                         }
                       ]
                     },
-                    styling_a_bio_page: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Styling_a_bio_page",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jsfiddle.net/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
-                      children: {
-                        backgrounds_and_borders: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Backgrounds_and_borders",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        box_model: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Box_model",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        cascade: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Cascade",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        images: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Images",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        overflow: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Overflow",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        selectors: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Selectors",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        sizing: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Sizing",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        values: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Values",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://convertingcolors.com/hex-color-86DEFA.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://convertingcolors.com/hex-color-86DEFA.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills",
                       messages: [
                         {
@@ -3238,36 +2636,6 @@ refused.textContent = 'Refuse: ';
                       ]
                     }
                   ]
-                },
-                text_styling: {
-                  children: {
-                    typesetting_a_homepage: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Typesetting_a_homepage",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jsfiddle.net/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    web_fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.exljbris.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 }
               },
               slug: "/en-US/docs/Learn_web_development/Core",
@@ -3284,35 +2652,8 @@ refused.textContent = 'Refuse: ';
               children: {
                 advanced_javascript_objects: {
                   children: {
-                    adding_bouncing_balls_features: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Adding_bouncing_balls_features",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jsfiddle.net/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
-                      children: {
-                        "object-oriented_javascript": {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Test_your_skills/Object-oriented_JavaScript",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Test_your_skills",
                       messages: [
                         {
@@ -3381,99 +2722,7 @@ refused.textContent = 'Refuse: ';
                       ]
                     },
                     test_your_skills: {
-                      children: {
-                        advanced_styling: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills/Advanced_styling",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        basic_controls: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills/Basic_controls",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        form_structure: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills/Form_structure",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        form_validation: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills/Form_validation",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        input_types: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills/Input_types",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        other_controls: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills/Other_controls",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        styling_basics: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills/Styling_basics",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://jsfiddle.net/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Test_your_skills",
                       messages: [
                         {
@@ -3532,6 +2781,13 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cwiki.apache.org/confluence/display/httpd/RewriteHTTPToHTTPS",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     },
@@ -3573,28 +2829,28 @@ refused.textContent = 'Refuse: ';
                       ]
                     }
                   }
-                },
-                testing: {
-                  children: {
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://help.ubuntu.com/community/WindowsDualBoot",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 }
               }
             },
             getting_started: {
               children: {
+                environment_setup: {
+                  children: {
+                    browsing_the_web: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gemini.google.com/app",
+                            502
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 soft_skills: {
                   children: {
                     collaboration_and_teamwork: {
@@ -3609,33 +2865,20 @@ refused.textContent = 'Refuse: ';
                           ]
                         }
                       ]
-                    },
-                    finding_a_job: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.upwork.com/",
-                            403
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
-                your_first_website: {
+                web_standards: {
                   children: {
-                    publishing_your_website: {
+                    how_the_web_works: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Publishing_your_website",
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://jsfiddle.net/",
-                            "The operation timed out."
+                            "https://support.mozilla.org/",
+                            500
                           ]
                         }
                       ]
@@ -3837,7 +3080,7 @@ refused.textContent = 'Refuse: ';
                           message: "Broken external link",
                           data: [
                             "https://www.codelobster.com/forum/index.php",
-                            "The operation timed out."
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         },
                         {
@@ -3856,19 +3099,6 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/downloads.html",
-                            503
-                          ]
                         }
                       ]
                     },
@@ -3895,7 +3125,21 @@ refused.textContent = 'Refuse: ';
                   ]
                 },
                 web_mechanics: {
-                  children: {},
+                  children: {
+                    what_is_a_domain_name: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/",
+                            500
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics",
                   messages: [
                     {
@@ -4080,6 +3324,19 @@ refused.textContent = 'Refuse: ';
                       }
                     }
                   }
+                },
+                what_we_write: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Writing_guidelines/What_we_write",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://support.mozilla.org/",
+                        500
+                      ]
+                    }
+                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Writing_guidelines",
@@ -11090,6 +10347,19 @@ function checkDeadlines() {
                         }
                       ]
                     },
+                    getinstalledrelatedapps: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigator/getInstalledRelatedApps",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://f-droid.org/",
+                            "certificate has expired"
+                          ]
+                        }
+                      ]
+                    },
                     ink: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Navigator/ink",
@@ -11962,6 +11232,19 @@ async function handleTranslation(e) {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/URL_API/Resolving_relative_references"
+                      ]
+                    }
+                  ]
+                },
+                view_transition_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/View_Transition_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://http203-playlist.netlify.app/",
+                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                       ]
                     }
                   ]
@@ -17282,19 +16565,6 @@ css.at-rules.font-face.WOFF_2`,
                 },
                 css_grid_layout: {
                   children: {
-                    grid_layout_and_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_and_accessibility",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     grids_logical_values_and_writing_modes: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grids_logical_values_and_writing_modes",
@@ -18652,39 +17922,6 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       ]
                     }
                   }
-                },
-                display: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/display",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "display-box": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/display-box",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 "easing-function": {
                   children: {
@@ -22719,97 +21956,6 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
-                        a: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        button: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        del: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/del",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        heading_elements: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2016/08/there-is-no-document-outline-algorithm.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        input: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/input",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        ins: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/ins",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        mark: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/mark",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         meta: {
                           children: {
                             name: {
@@ -22850,19 +21996,6 @@ html.elements.select.size`
                               message: "Missing image",
                               data: [
                                 "path/image.jpg"
-                              ]
-                            }
-                          ]
-                        },
-                        s: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/s",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -22940,6 +22073,19 @@ http.headers.Dictionary-ID
 http.headers.Use-As-Dictionary`,
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    },
+                    content_negotiation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/Content_negotiation",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -23050,6 +22196,19 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         },
+                        dnt: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -23132,6 +22291,13 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Broken browser compat anchor",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -23292,19 +22458,6 @@ http.headers.Use-As-Dictionary`,
                           ]
                         }
                       }
-                    },
-                    javascript_technologies_overview: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://jsfiddle.net/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     },
                     lexical_grammar: {
                       children: {},
@@ -23505,10 +22658,10 @@ http.headers.Use-As-Dictionary`,
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
                           messages: [
                             {
-                              message: "HTTP link",
+                              message: "Broken external link",
                               data: [
                                 "http://hevc.info/",
-                                ""
+                                "The operation timed out."
                               ]
                             },
                             {
@@ -23581,6 +22734,13 @@ http.headers.Use-As-Dictionary`,
                                 {
                                   message: "Unreachable via page",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -23591,6 +22751,13 @@ http.headers.Use-As-Dictionary`,
                                 {
                                   message: "Unreachable via page",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -23601,6 +22768,13 @@ http.headers.Use-As-Dictionary`,
                                 {
                                   message: "Unreachable via page",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/",
+                                    500
+                                  ]
                                 }
                               ]
                             },
@@ -23611,6 +22785,13 @@ http.headers.Use-As-Dictionary`,
                                 {
                                   message: "Unreachable via page",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://support.mozilla.org/",
+                                    500
+                                  ]
                                 }
                               ]
                             },
