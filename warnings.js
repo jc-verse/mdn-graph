@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-jx02eet4.js";
+} from "./chunk-mae2ra3y.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -32,19 +32,6 @@ var warnings_processed_default = {
                       data: [
                         "https://www.intel.com/content/www/us/en/developer/tools/overview.html",
                         403
-                      ]
-                    }
-                  ]
-                },
-                game_promotion: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Publishing_games/Game_promotion",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://dopresskit.com/",
-                        "Unable to connect. Is the computer able to access the url?"
                       ]
                     }
                   ]
@@ -1388,20 +1375,7 @@ var warnings_processed_default = {
                       ]
                     },
                     test_your_skills: {
-                      children: {
-                        flexbox: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Flexbox",
-                          messages: [
-                            {
-                              message: "Unused image",
-                              data: [
-                                "flex-task3.png"
-                              ]
-                            }
-                          ]
-                        }
-                      },
+                      children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills",
                       messages: [
                         {
@@ -1506,13 +1480,6 @@ var warnings_processed_default = {
                           data: [
                             "http://corber.io/",
                             ""
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/ember-cli/ember-cli/blob/master/blueprints/app/files/ember-cli-build.js",
-                            404
                           ]
                         }
                       ]
@@ -2217,6 +2184,37 @@ function update(bgColor, textColor) {
                         }
                       ]
                     },
+                    debugging_javascript: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-else-return",
+                            "Unnecessary 'else' after 'return'.",
+                            `  } else {
+    console.log("A number was not provided. Please correct the input.");
+  }`,
+                            "6:10 - 8:4",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript
+[no-else-return] Unnecessary 'else' after 'return'.
+~~~
+function inchesToMeters(num) {
+  if (typeof num === "number" && !isNaN(num)) {
+    const mVal = (num * 2.54) / 100;
+    const m2dp = mVal.toFixed(2);
+    return m2dp;
+  } else {
+    console.log("A number was not provided. Please correct the input.");
+  }
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     loops: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Loops",
@@ -2466,13 +2464,6 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://www.shutterstock.com/",
                             403
                           ]
@@ -2706,6 +2697,46 @@ refused.textContent = 'Refuse: ';
                           ]
                         }
                       ]
+                    },
+                    video_and_audio_apis: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            "  font-family: HeydingsControlsRegular;",
+                            "14:16 - 14:39",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("fonts/heydings_controls-webfont.eot");
+  src:
+    url("fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/heydings_controls-webfont.woff") format("woff"),
+    url("fonts/heydings_controls-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+button::before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+~~~
+`
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -2780,6 +2811,38 @@ refused.textContent = 'Refuse: ';
                 },
                 performance: {
                   children: {
+                    css: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/CSS",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            '  font-family: "Open Sans";',
+                            "11:16 - 11:27",
+                            `/en-US/docs/Learn_web_development/Extensions/Performance/CSS
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+/* Font not loaded here */
+@font-face {
+  font-family: "Open Sans";
+  src: url("OpenSans-Regular-webfont.woff2") format("woff2");
+}
+
+h1,
+h2,
+h3 {
+  /* It is actually loaded here */
+  font-family: "Open Sans";
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     web_performance_basics: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Web_Performance_Basics",
@@ -2831,23 +2894,6 @@ refused.textContent = 'Refuse: ';
                         }
                       }
                     },
-                    first_steps: {
-                      children: {
-                        "client-server_overview": {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://websniffer.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     node_server_without_framework: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Node_server_without_framework",
@@ -2859,28 +2905,28 @@ refused.textContent = 'Refuse: ';
                       ]
                     }
                   }
-                }
-              }
-            },
-            getting_started: {
-              children: {
-                environment_setup: {
+                },
+                testing: {
                   children: {
-                    browsing_the_web: {
+                    testing_strategies: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web",
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gemini.google.com/app",
-                            502
+                            "https://help.ubuntu.com/community/WindowsDualBoot",
+                            "The operation timed out."
                           ]
                         }
                       ]
                     }
                   }
-                },
+                }
+              }
+            },
+            getting_started: {
+              children: {
                 soft_skills: {
                   children: {
                     collaboration_and_teamwork: {
@@ -2895,16 +2941,33 @@ refused.textContent = 'Refuse: ';
                           ]
                         }
                       ]
-                    },
-                    finding_a_job: {
+                    }
+                  }
+                },
+                your_first_website: {
+                  children: {
+                    styling_the_content: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Finding_a_job",
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "CSS code issue",
                           data: [
-                            "https://www.upwork.com/",
-                            403
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            "  font-family: PLACEHOLDER;",
+                            "5:16 - 5:27",
+                            `/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 10px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: PLACEHOLDER;
+}
+~~~
+`
                           ]
                         }
                       ]
@@ -2985,6 +3048,30 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    css_faq: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-shorthand-property-overrides",
+                            'Unexpected shorthand "font" after "font-weight" (declaration-block-no-shorthand-property-overrides)',
+                            "  font: 12px Verdana; /* font-weight is now set to normal */",
+                            "3:3 - 3:7",
+                            `/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "font" after "font-weight" (declaration-block-no-shorthand-property-overrides)
+~~~
+#stockTicker {
+  font-weight: bold;
+  font: 12px Verdana; /* font-weight is now set to normal */
+}
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -3106,7 +3193,7 @@ refused.textContent = 'Refuse: ';
                           message: "Broken external link",
                           data: [
                             "https://www.codelobster.com/forum/index.php",
-                            "The operation timed out."
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         },
                         {
@@ -3114,13 +3201,6 @@ refused.textContent = 'Refuse: ';
                           data: [
                             "https://www.codelobsteride.com/help/",
                             "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mail.gnu.org/mailman/listinfo/help-gnu-emacs",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -4733,6 +4813,414 @@ webextensions.api.clipboard`,
                           children: {},
                           slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Browser_styles",
                           messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-no-missing-generic-family-keyword",
+                                "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                                '  font-family: "Lucida Grande", caption;',
+                                "102:33 - 102:40",
+                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Browser_styles
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+/* Global */
+html,
+body {
+  background: white;
+  box-sizing: border-box;
+  color: #222426;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  font: caption;
+  margin: 0;
+  padding: 0;
+  -moz-user-select: none;
+}
+
+body * {
+  box-sizing: border-box;
+  text-align: start;
+}
+
+button.panel-section-footer-button,
+button.panel-section-tabs-button {
+  color: inherit;
+  background-color: unset;
+  font: inherit;
+  text-shadow: inherit;
+  appearance: none;
+  border: none;
+}
+
+/* Panel Section */
+.panel-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.panel-section-separator {
+  background-color: rgb(0 0 0 / 0.15);
+  min-height: 1px;
+}
+
+/* Panel Section - Header */
+.panel-section-header {
+  border-bottom: 1px solid rgb(0 0 0 / 0.15);
+  padding: 16px;
+}
+
+.panel-section-header > .icon-section-header {
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 32px;
+  margin-right: 16px;
+  position: relative;
+  width: 32px;
+}
+
+.panel-section-header > .text-section-header {
+  align-self: center;
+  font-size: 1.385em;
+  font-weight: lighter;
+}
+
+/* Panel Section - List */
+.panel-section-list {
+  flex-direction: column;
+  padding: 4px 0;
+}
+
+.panel-list-item {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 24px;
+  padding: 0 16px;
+}
+
+.panel-list-item:not(.disabled):hover {
+  background-color: rgb(0 0 0 / 0.06);
+  border-bottom: 1px solid rgb(0 0 0 / 0.1);
+  border-top: 1px solid rgb(0 0 0 / 0.1);
+}
+
+.panel-list-item:not(.disabled):hover:active {
+  background-color: rgb(0 0 0 / 0.1);
+}
+
+.panel-list-item.disabled {
+  color: #999;
+}
+
+.panel-list-item > .icon {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.panel-list-item > .text {
+  flex-grow: 10;
+}
+
+.panel-list-item > .text-shortcut {
+  color: #808080;
+  font-family: "Lucida Grande", caption;
+  font-size: 0.847em;
+  justify-content: flex-end;
+}
+
+.panel-section-list .panel-section-separator {
+  margin: 4px 0;
+}
+
+/* Panel Section - Footer */
+.panel-section-footer {
+  background-color: rgb(0 0 0 / 0.06);
+  border-top: 1px solid rgb(0 0 0 / 0.15);
+  color: #1a1a1a;
+  display: flex;
+  flex-direction: row;
+  height: 41px;
+  margin-top: -1px;
+  padding: 0;
+}
+
+.panel-section-footer-button {
+  flex: 1 1 auto;
+  height: 100%;
+  margin: 0 -1px;
+  padding: 12px;
+  text-align: center;
+}
+
+.panel-section-footer-button > .text-shortcut {
+  color: #808080;
+  font-family: "Lucida Grande", caption;
+  font-size: 0.847em;
+}
+
+.panel-section-footer-button:hover {
+  background-color: rgb(0 0 0 / 0.06);
+}
+
+.panel-section-footer-button:hover:active {
+  background-color: rgb(0 0 0 / 0.1);
+}
+
+.panel-section-footer-button.default {
+  background-color: #0996f8;
+  box-shadow: 0 1px 0 #0670cc inset;
+  color: #fff;
+}
+
+.panel-section-footer-button.default:hover {
+  background-color: #0670cc;
+  box-shadow: 0 1px 0 #005bab inset;
+}
+
+.panel-section-footer-button.default:hover:active {
+  background-color: #005bab;
+  box-shadow: 0 1px 0 #004480 inset;
+}
+
+.panel-section-footer-separator {
+  background-color: rgb(0 0 0 / 0.1);
+  width: 1px;
+  z-index: 99;
+}
+
+/* Example specific – not part of chrome://browser/content/extension.css */
+body {
+  background: #fcfcfc;
+  background-clip: padding-box;
+  border: 1px solid rgb(24 26 27 / 0.2);
+  box-shadow:
+    0 3px 5px rgb(24 26 27 / 0.1),
+    0 0 7px rgb(24 26 27 / 0.1);
+  box-sizing: content-box;
+  margin: 2em auto 0.5em;
+  width: 384px;
+}
+
+html {
+  min-height: 100vh;
+}
+
+html > body {
+  margin: auto;
+}
+
+.icon-section-header {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48Y2lyY2xlIGZpbGw9IiMzNjM5NTkiIGN4PSIxNSIgY3k9IjE1IiByPSIxNSIvPjwvc3ZnPg==");
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-no-missing-generic-family-keyword",
+                                "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                                '  font-family: "Lucida Grande", caption;',
+                                "133:33 - 133:40",
+                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Browser_styles
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+/* Global */
+html,
+body {
+  background: white;
+  box-sizing: border-box;
+  color: #222426;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  font: caption;
+  margin: 0;
+  padding: 0;
+  -moz-user-select: none;
+}
+
+body * {
+  box-sizing: border-box;
+  text-align: start;
+}
+
+button.panel-section-footer-button,
+button.panel-section-tabs-button {
+  color: inherit;
+  background-color: unset;
+  font: inherit;
+  text-shadow: inherit;
+  appearance: none;
+  border: none;
+}
+
+/* Panel Section */
+.panel-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.panel-section-separator {
+  background-color: rgb(0 0 0 / 0.15);
+  min-height: 1px;
+}
+
+/* Panel Section - Header */
+.panel-section-header {
+  border-bottom: 1px solid rgb(0 0 0 / 0.15);
+  padding: 16px;
+}
+
+.panel-section-header > .icon-section-header {
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 32px;
+  margin-right: 16px;
+  position: relative;
+  width: 32px;
+}
+
+.panel-section-header > .text-section-header {
+  align-self: center;
+  font-size: 1.385em;
+  font-weight: lighter;
+}
+
+/* Panel Section - List */
+.panel-section-list {
+  flex-direction: column;
+  padding: 4px 0;
+}
+
+.panel-list-item {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 24px;
+  padding: 0 16px;
+}
+
+.panel-list-item:not(.disabled):hover {
+  background-color: rgb(0 0 0 / 0.06);
+  border-bottom: 1px solid rgb(0 0 0 / 0.1);
+  border-top: 1px solid rgb(0 0 0 / 0.1);
+}
+
+.panel-list-item:not(.disabled):hover:active {
+  background-color: rgb(0 0 0 / 0.1);
+}
+
+.panel-list-item.disabled {
+  color: #999;
+}
+
+.panel-list-item > .icon {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.panel-list-item > .text {
+  flex-grow: 10;
+}
+
+.panel-list-item > .text-shortcut {
+  color: #808080;
+  font-family: "Lucida Grande", caption;
+  font-size: 0.847em;
+  justify-content: flex-end;
+}
+
+.panel-section-list .panel-section-separator {
+  margin: 4px 0;
+}
+
+/* Panel Section - Footer */
+.panel-section-footer {
+  background-color: rgb(0 0 0 / 0.06);
+  border-top: 1px solid rgb(0 0 0 / 0.15);
+  color: #1a1a1a;
+  display: flex;
+  flex-direction: row;
+  height: 41px;
+  margin-top: -1px;
+  padding: 0;
+}
+
+.panel-section-footer-button {
+  flex: 1 1 auto;
+  height: 100%;
+  margin: 0 -1px;
+  padding: 12px;
+  text-align: center;
+}
+
+.panel-section-footer-button > .text-shortcut {
+  color: #808080;
+  font-family: "Lucida Grande", caption;
+  font-size: 0.847em;
+}
+
+.panel-section-footer-button:hover {
+  background-color: rgb(0 0 0 / 0.06);
+}
+
+.panel-section-footer-button:hover:active {
+  background-color: rgb(0 0 0 / 0.1);
+}
+
+.panel-section-footer-button.default {
+  background-color: #0996f8;
+  box-shadow: 0 1px 0 #0670cc inset;
+  color: #fff;
+}
+
+.panel-section-footer-button.default:hover {
+  background-color: #0670cc;
+  box-shadow: 0 1px 0 #005bab inset;
+}
+
+.panel-section-footer-button.default:hover:active {
+  background-color: #005bab;
+  box-shadow: 0 1px 0 #004480 inset;
+}
+
+.panel-section-footer-separator {
+  background-color: rgb(0 0 0 / 0.1);
+  width: 1px;
+  z-index: 99;
+}
+
+/* Example specific – not part of chrome://browser/content/extension.css */
+body {
+  background: #fcfcfc;
+  background-clip: padding-box;
+  border: 1px solid rgb(24 26 27 / 0.2);
+  box-shadow:
+    0 3px 5px rgb(24 26 27 / 0.1),
+    0 0 7px rgb(24 26 27 / 0.1);
+  box-sizing: content-box;
+  margin: 2em auto 0.5em;
+  width: 384px;
+}
+
+html {
+  min-height: 100vh;
+}
+
+html > body {
+  margin: auto;
+}
+
+.icon-section-header {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48Y2lyY2xlIGZpbGw9IiMzNjM5NTkiIGN4PSIxNSIgY3k9IjE1IiByPSIxNSIvPjwvc3ZnPg==");
+}
+~~~
+`
+                              ]
+                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -8646,244 +9134,6 @@ api.MessagePort`,
                     }
                   }
                 },
-                console: {
-                  children: {
-                    assert_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/assert_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    clear_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/clear_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    count_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/count_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    countreset_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/countReset_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    debug_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/debug_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    dir_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/dir_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    dirxml_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/dirxml_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    error_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/error_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    group_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/group_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    groupcollapsed_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/groupCollapsed_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    groupend_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/groupEnd_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    info_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/info_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    log_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/log_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    table_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/table_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    time_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/time_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    timeend_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/timeEnd_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    trace_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/trace_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    warn_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/warn_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/api",
-                            404
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 convolvernode: {
                   children: {},
                   slug: "/en-US/docs/Web/API/ConvolverNode",
@@ -8933,6 +9183,103 @@ api.MessagePort`,
                             "api.CSS.registerProperty_static",
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                cssfontpalettevaluesrule: {
+                  children: {
+                    basepalette: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSFontPaletteValuesRule/basePalette",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            '  font-family: "Nabla";',
+                            "4:16 - 4:23",
+                            `/en-US/docs/Web/API/CSSFontPaletteValuesRule/basePalette
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
+
+h2 {
+  font-family: "Nabla";
+}
+
+@font-palette-values --two {
+  font-family: "Nabla";
+  base-palette: 2;
+}
+
+@font-palette-values --five {
+  font-family: "Nabla";
+  base-palette: 5;
+}
+
+.two {
+  font-palette: --two;
+}
+
+.five {
+  font-palette: --five;
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    overridecolors: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSFontPaletteValuesRule/overrideColors",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            '  font-family: "Noto Color Emoji";',
+                            "10:16 - 10:34",
+                            `/en-US/docs/Web/API/CSSFontPaletteValuesRule/overrideColors
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-face {
+  font-family: "Noto Color Emoji";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/l/font?kit=Yq6P-KqIXTD0t4D9z1ESnKM3-HpFabts6diywYkdG3gjD0U&skey=a373f7129eaba270&v=v24)
+    format("woff2");
+}
+
+.emoji {
+  font-family: "Noto Color Emoji";
+  font-size: 3rem;
+}
+
+@font-palette-values --blue {
+  font-family: "Noto Color Emoji";
+  override-colors:
+    3 rgb(1 28 193),
+    4 rgb(60 124 230);
+}
+
+@font-palette-values --green {
+  font-family: "Noto Color Emoji";
+  override-colors:
+    3 rgb(28 193 1),
+    4 rgb(34 230 1);
+}
+
+.colored-hat {
+  font-palette: --blue;
+}
+~~~
+`
                           ]
                         }
                       ]
@@ -9099,59 +9446,6 @@ api.MessagePort`,
                       ]
                     }
                   }
-                },
-                delegatedinktrailpresenter: {
-                  children: {
-                    expectedimprovement: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DelegatedInkTrailPresenter/expectedImprovement",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blogs.windows.com/msedgedev/2021/08/18/enhancing-inking-on-the-web/",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    presentationarea: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DelegatedInkTrailPresenter/presentationArea",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blogs.windows.com/msedgedev/2021/08/18/enhancing-inking-on-the-web/",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    updateinktrailstartpoint: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DelegatedInkTrailPresenter/updateInkTrailStartPoint",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blogs.windows.com/msedgedev/2021/08/18/enhancing-inking-on-the-web/",
-                            404
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/DelegatedInkTrailPresenter",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://blogs.windows.com/msedgedev/2021/08/18/enhancing-inking-on-the-web/",
-                        404
-                      ]
-                    }
-                  ]
                 },
                 device_orientation_events: {
                   children: {
@@ -9322,15 +9616,74 @@ api.DeviceOrientationEvent`,
                         }
                       ]
                     },
-                    setattribute: {
+                    requestfullscreen: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Element/setAttribute",
+                      slug: "/en-US/docs/Web/API/Element/requestFullscreen",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "CSS code issue",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/css/inspect",
-                            404
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "box-shadow" (declaration-block-no-duplicate-properties)',
+                            "  box-shadow: #cdcdcd;",
+                            "15:3 - 15:13",
+                            `/en-US/docs/Web/API/Element/requestFullscreen
+[declaration-block-no-duplicate-properties] Unexpected duplicate "box-shadow" (declaration-block-no-duplicate-properties)
+~~~
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+video::backdrop {
+  background-color: #448;
+}
+button {
+  display: block;
+}
+kbd {
+  border: 2px solid #cdcdcd;
+  border-radius: 3px;
+  box-shadow: #cdcdcd;
+  box-shadow: inset 0 -1px 0 0 #cdcdcd;
+  font-size: 0.825rem;
+  padding: 0.25rem;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "" for property "box-shadow" (declaration-property-value-no-unknown)',
+                            "  box-shadow: #cdcdcd;",
+                            "15:22 - 15:23",
+                            `/en-US/docs/Web/API/Element/requestFullscreen
+[declaration-property-value-no-unknown] Unexpected unknown value "" for property "box-shadow" (declaration-property-value-no-unknown)
+~~~
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+video::backdrop {
+  background-color: #448;
+}
+button {
+  display: block;
+}
+kbd {
+  border: 2px solid #cdcdcd;
+  border-radius: 3px;
+  box-shadow: #cdcdcd;
+  box-shadow: inset 0 -1px 0 0 #cdcdcd;
+  font-size: 0.825rem;
+  padding: 0.25rem;
+}
+~~~
+`
                           ]
                         }
                       ]
@@ -9545,46 +9898,6 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
-                ink: {
-                  children: {
-                    requestpresenter: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Ink/requestPresenter",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blogs.windows.com/msedgedev/2021/08/18/enhancing-inking-on-the-web/",
-                            404
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/Ink",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://blogs.windows.com/msedgedev/2021/08/18/enhancing-inking-on-the-web/",
-                        404
-                      ]
-                    }
-                  ]
-                },
-                ink_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Ink_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://blogs.windows.com/msedgedev/2021/08/18/enhancing-inking-on-the-web/",
-                        404
-                      ]
-                    }
-                  ]
-                },
                 insertable_streams_for_mediastreamtrack_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Insertable_Streams_for_MediaStreamTrack_API",
@@ -9615,6 +9928,118 @@ api.Document.fullscreen`,
                       ]
                     }
                   ]
+                },
+                intersection_observer_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Intersection_Observer_API",
+                  messages: [
+                    {
+                      message: "Missing image",
+                      data: [
+                        "ballon-portrait.jpg"
+                      ]
+                    },
+                    {
+                      message: "Missing image",
+                      data: [
+                        "balloon-small.jpg"
+                      ]
+                    },
+                    {
+                      message: "Missing image",
+                      data: [
+                        "surfer.jpg"
+                      ]
+                    },
+                    {
+                      message: "Missing image",
+                      data: [
+                        "border-diamonds.png"
+                      ]
+                    },
+                    {
+                      message: "Missing image",
+                      data: [
+                        "fire.png"
+                      ]
+                    },
+                    {
+                      message: "Missing image",
+                      data: [
+                        "puppy-header.jpg"
+                      ]
+                    },
+                    {
+                      message: "Missing image",
+                      data: [
+                        "moon.jpg"
+                      ]
+                    },
+                    {
+                      message: "Missing image",
+                      data: [
+                        "rhino.jpg"
+                      ]
+                    }
+                  ]
+                },
+                intersectionobserver: {
+                  children: {
+                    scrollmargin: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/IntersectionObserver/scrollMargin",
+                      messages: [
+                        {
+                          message: "Missing image",
+                          data: [
+                            "ballon-portrait.jpg"
+                          ]
+                        },
+                        {
+                          message: "Missing image",
+                          data: [
+                            "balloon-small.jpg"
+                          ]
+                        },
+                        {
+                          message: "Missing image",
+                          data: [
+                            "surfer.jpg"
+                          ]
+                        },
+                        {
+                          message: "Missing image",
+                          data: [
+                            "border-diamonds.png"
+                          ]
+                        },
+                        {
+                          message: "Missing image",
+                          data: [
+                            "fire.png"
+                          ]
+                        },
+                        {
+                          message: "Missing image",
+                          data: [
+                            "puppy-header.jpg"
+                          ]
+                        },
+                        {
+                          message: "Missing image",
+                          data: [
+                            "moon.jpg"
+                          ]
+                        },
+                        {
+                          message: "Missing image",
+                          data: [
+                            "rhino.jpg"
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 keyboardevent: {
                   children: {
@@ -9677,6 +10102,29 @@ api.Document.fullscreen`,
                       slug: "/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API",
                       messages: [
                         {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            '  font-family: "NotoColorEmoji";',
+                            "2:16 - 2:32",
+                            `/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+label {
+  font-family: "NotoColorEmoji";
+  font-size: 3rem;
+  position: absolute;
+  top: 2px;
+  right: 3px;
+  z-index: 5;
+  cursor: pointer;
+}
+~~~
+`
+                          ]
+                        },
+                        {
                           message: "Unexpected BCD keys",
                           data: [
                             "Actual:",
@@ -9708,6 +10156,18 @@ api.Document.fullscreen`,
                           message: "Not in BCD",
                           data: [
                             "api.MediaStreamTrack.applyConstraints.cursor_constraint"
+                          ]
+                        }
+                      ]
+                    },
+                    screenpixelratio: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaTrackSettings/screenPixelRatio",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.MediaStreamTrack.applyConstraints.screenPixelRatio_constraint"
                           ]
                         }
                       ]
@@ -9782,19 +10242,6 @@ api.Document.fullscreen`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/battery"
-                          ]
-                        }
-                      ]
-                    },
-                    ink: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/ink",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blogs.windows.com/msedgedev/2021/08/18/enhancing-inking-on-the-web/",
-                            404
                           ]
                         }
                       ]
@@ -10322,23 +10769,6 @@ api.Document.fullscreen`,
                     }
                   }
                 },
-                service_worker_api: {
-                  children: {
-                    using_service_workers: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/service-workers/",
-                            "https://learn.microsoft.com/en-us/archive/microsoft-edge/legacy/developer/"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 sharedstorageoperation: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SharedStorageOperation",
@@ -10571,24 +11001,6 @@ api.Document.fullscreen`,
                       ]
                     }
                   ]
-                },
-                urlpattern: {
-                  children: {
-                    hasregexpgroups: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/URLPattern/hasRegExpGroups",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "true",
-                            "Text after code:",
-                            "in this case."
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 vrlayerinit: {
                   children: {
@@ -11319,19 +11731,6 @@ document.getElementById("terminate").addEventListener("click", () => {
                         }
                       ]
                     },
-                    movement_and_motion: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebXR_Device_API/Movement_and_motion",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learnwebgl.brown37.net/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     startup_and_shutdown: {
                       children: {},
                       slug: "/en-US/docs/Web/API/WebXR_Device_API/Startup_and_shutdown",
@@ -11679,6 +12078,41 @@ document.getElementById("terminate").addEventListener("click", () => {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/:-moz-drag-over",
                   messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        "  font-family: arial;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/:-moz-drag-over
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+body {
+  font-family: arial;
+}
+div {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border: 2px dotted black;
+  background-color: aquamarine;
+  margin: 1rem;
+}
+p {
+  padding: 1rem;
+}
+
+#drop-target {
+  background-color: cornflowerblue;
+}
+#drop-target:-moz-drag-over {
+  background-color: red;
+}
+~~~
+`
+                      ]
+                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -12137,6 +12571,72 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            "  font-family: MonteCarlo;",
+                            "15:16 - 15:26",
+                            `/en-US/docs/Web/CSS/@font-face/font-feature-settings
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-face {
+  font-family: MonteCarlo;
+  src: url("montecarlo-regular.woff2");
+}
+@font-face {
+  font-family: MonteCarlo2;
+  src: url("montecarlo-regular.woff2");
+  font-feature-settings: "swsh" 1;
+}
+p {
+  font-size: 3rem;
+  margin: 0.7rem 3rem;
+}
+.swash-off {
+  font-family: MonteCarlo;
+}
+.swash-on {
+  font-family: MonteCarlo2;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            "  font-family: MonteCarlo2;",
+                            "18:16 - 18:27",
+                            `/en-US/docs/Web/CSS/@font-face/font-feature-settings
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-face {
+  font-family: MonteCarlo;
+  src: url("montecarlo-regular.woff2");
+}
+@font-face {
+  font-family: MonteCarlo2;
+  src: url("montecarlo-regular.woff2");
+  font-feature-settings: "swsh" 1;
+}
+p {
+  font-size: 3rem;
+  margin: 0.7rem 3rem;
+}
+.swash-off {
+  font-family: MonteCarlo;
+}
+.swash-on {
+  font-family: MonteCarlo2;
+}
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -12207,6 +12707,99 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            "  font-family: MainText;",
+                            "24:16 - 24:24",
+                            `/en-US/docs/Web/CSS/@font-face/src
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+/* Defining a regular font face */
+@font-face {
+  font-family: MainText;
+  src:
+    local(Futura-Medium),
+    url("FuturaMedium.woff") format("woff"),
+    url("FuturaMedium.otf") format("opentype");
+}
+
+/* Defining a different bold font face for the same family */
+@font-face {
+  font-family: MainText;
+  src:
+    local(Gill Sans Bold) /* full font name */,
+    local(GillSans-Bold) /* postscript name */,
+    url("GillSansBold.woff") format("woff"),
+    url("GillSansBold.otf") format("opentype"),
+    url("GillSansBold.svg#MyFontBold"); /* Referencing an SVG font fragment by id */
+  font-weight: bold;
+}
+
+/* Using the regular font face */
+p {
+  font-family: MainText;
+}
+
+/* Font-family is inherited, but bold fonts are used */
+p.bold {
+  font-weight: bold;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            '  font-family: "Trickster";',
+                            "10:16 - 10:27",
+                            `/en-US/docs/Web/CSS/@font-face/src
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-face {
+  font-family: "Trickster";
+  src:
+    url("trickster-COLRv1.otf") format(opentype) tech(color-COLRv1),
+    url("trickster-outline.otf") format(opentype);
+}
+
+/* Using the font face */
+p {
+  font-family: "Trickster";
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            '    font-family: "Trickster";',
+                            "8:18 - 8:29",
+                            `/en-US/docs/Web/CSS/@font-face/src
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@supports font-tech(color-COLRv1) {
+  @font-face {
+    font-family: "Trickster";
+    src: url("trickster-COLRv1.otf") format(opentype) tech(color-COLRv1);
+  }
+
+  .colored_text {
+    font-family: "Trickster";
+  }
+}
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -12258,6 +12851,46 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            '  font-family: "Rocher";',
+                            "7:16 - 7:24",
+                            `/en-US/docs/Web/CSS/@font-palette-values/base-palette
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-face {
+  font-family: "Rocher";
+  src: url("[path-to-font]/RocherColorGX.woff2") format("woff2");
+}
+
+h2 {
+  font-family: "Rocher";
+}
+
+@font-palette-values --two {
+  font-family: "Rocher";
+  base-palette: 2;
+}
+
+@font-palette-values --five {
+  font-family: "Rocher";
+  base-palette: 5;
+}
+
+.two {
+  font-palette: --two;
+}
+
+.five {
+  font-palette: --five;
+}
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -12268,6 +12901,107 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            '  font-family: "Bungee Spice";',
+                            "17:16 - 17:30",
+                            `/en-US/docs/Web/CSS/@font-palette-values/font-family
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-palette-values --Dark-Mode {
+  font-family: "Bungee Spice";
+  /* palette settings for Bungee Spice */
+}
+
+@font-palette-values --Dark-Mode {
+  font-family: Bixa;
+  /* palette settings for Bixa */
+}
+
+h1,
+h2 {
+  font-palette: --Dark-Mode;
+}
+
+h1 {
+  font-family: "Bungee Spice";
+}
+
+h2 {
+  font-family: Bixa;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            "  font-family: Bixa;",
+                            "21:16 - 21:20",
+                            `/en-US/docs/Web/CSS/@font-palette-values/font-family
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-palette-values --Dark-Mode {
+  font-family: "Bungee Spice";
+  /* palette settings for Bungee Spice */
+}
+
+@font-palette-values --Dark-Mode {
+  font-family: Bixa;
+  /* palette settings for Bixa */
+}
+
+h1,
+h2 {
+  font-palette: --Dark-Mode;
+}
+
+h1 {
+  font-family: "Bungee Spice";
+}
+
+h2 {
+  font-family: Bixa;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            '  font-family: "Bungee Spice";',
+                            "10:16 - 10:30",
+                            `/en-US/docs/Web/CSS/@font-palette-values/font-family
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@import url(https://fonts.googleapis.com/css2?family=Bungee+Spice);
+@font-palette-values --bungee-extra-spicy {
+  font-family: "Bungee Spice";
+  override-colors:
+    0 DarkRed,
+    1 Red;
+}
+
+h2 {
+  font-family: "Bungee Spice";
+}
+
+h2.extra-spicy {
+  font-palette: --bungee-extra-spicy;
+}
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -12278,10 +13012,121 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            '  font-family: "Rocher";',
+                            "6:16 - 6:24",
+                            `/en-US/docs/Web/CSS/@font-palette-values/override-colors
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-face {
+  font-family: "Rocher";
+  src: url("[path-to-font]/RocherColorGX.woff2") format("woff2");
+}
+h2 {
+  font-family: "Rocher";
+}
+@font-palette-values --override-palette {
+  font-family: "Rocher";
+  base-palette: 3;
+}
+@font-palette-values --override-palette {
+  font-family: "Rocher";
+  base-palette: 3;
+  override-colors: 0 rebeccapurple;
+}
+.normal-palette {
+  font-palette: --normal-palette;
+}
+.override-palette {
+  font-palette: --override-palette;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            '  font-family: "Noto Color Emoji";',
+                            "16:16 - 16:34",
+                            `/en-US/docs/Web/CSS/@font-palette-values/override-colors
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+.hats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@font-face {
+  font-family: "Noto Color Emoji";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/l/font?kit=Yq6P-KqIXTD0t4D9z1ESnKM3-HpFabts6diywYkdG3gjD0U&skey=a373f7129eaba270&v=v24)
+    format("woff2");
+}
+
+.emoji {
+  font-family: "Noto Color Emoji";
+  font-size: 3rem;
+}
+@font-palette-values --red {
+  font-family: "Noto Color Emoji";
+  override-colors:
+    0 rgb(74 11 0),
+    1 rgb(149 22 1),
+    2 rgb(183 27 1),
+    3 rgb(193 28 1),
+    4 rgb(230 34 1);
+}
+.red-hat {
+  font-palette: --red;
+}
+~~~
+`
+                          ]
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/CSS/@font-palette-values",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        '  font-family: "Bungee Spice";',
+                        "3:16 - 3:30",
+                        `/en-US/docs/Web/CSS/@font-palette-values
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@import url(https://fonts.googleapis.com/css2?family=Bungee+Spice);
+p {
+  font-family: "Bungee Spice";
+  font-size: 2rem;
+}
+@font-palette-values --Alternate {
+  font-family: "Bungee Spice";
+  override-colors:
+    0 #00ffbb,
+    1 #007744;
+}
+.alternate {
+  font-palette: --Alternate;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
                 },
                 "@media": {
                   children: {
@@ -12790,23 +13635,46 @@ css.selectors.-webkit-resizer`,
                     }
                   }
                 },
-                "@scope": {
+                "@supports": {
                   children: {},
-                  slug: "/en-US/docs/Web/CSS/@scope",
+                  slug: "/en-US/docs/Web/CSS/@supports",
                   messages: [
                     {
-                      message: "Missing syntax code block",
-                      data: []
-                    }
-                  ]
-                },
-                "@starting-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/@starting-style",
-                  messages: [
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        '  font-family: "Bungee Spice";',
+                        "4:16 - 4:30",
+                        `/en-US/docs/Web/CSS/@supports
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice");
+
+@supports font-tech(color-COLRv1) {
+  font-family: "Bungee Spice";
+}
+~~~
+`
+                      ]
+                    },
                     {
-                      message: "Missing syntax code block",
-                      data: []
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        '  font-family: "Open Sans";',
+                        "2:16 - 2:27",
+                        `/en-US/docs/Web/CSS/@supports
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@supports font-format(woff2) {
+  font-family: "Open Sans";
+  src: url("open-sans.woff2") format("woff2");
+}
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -14438,10 +15306,6 @@ oklch(63.612% 0.1522 78.748)
                   slug: "/en-US/docs/Web/CSS/cross-fade",
                   messages: [
                     {
-                      message: "Missing syntax code block",
-                      data: []
-                    },
-                    {
                       message: "CSS code issue",
                       data: [
                         "CssSyntaxError",
@@ -14550,34 +15414,7 @@ cross-fade(url(white.png), url(black.png), 100%); /* fully white */
                   }
                 },
                 css_backgrounds_and_borders: {
-                  children: {
-                    using_multiple_backgrounds: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Using_multiple_backgrounds",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "background1" for property "background" (declaration-property-value-no-unknown)',
-                            "    background1,",
-                            "3:5 - 3:16",
-                            `/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Using_multiple_backgrounds
-[declaration-property-value-no-unknown] Unexpected unknown value "background1" for property "background" (declaration-property-value-no-unknown)
-~~~
-.myclass {
-  background:
-    background1,
-    background2,
-    /* …, */ backgroundN;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/CSS/CSS_backgrounds_and_borders",
                   messages: [
                     {
@@ -15430,19 +16267,6 @@ rgb(from red r g b / alpha)
                           ]
                         }
                       ]
-                    },
-                    using_color_wisely: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_colors/Using_color_wisely",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.paletton.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/CSS/CSS_colors",
@@ -15574,6 +16398,102 @@ rgb(from red r g b / alpha)
                 },
                 css_fonts: {
                   children: {
+                    variable_fonts_guide: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            "  font-family: some-non-variable-font-family;",
+                            "2:16 - 2:45",
+                            `/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+h1 {
+  font-family: some-non-variable-font-family;
+}
+
+@supports (font-variation-settings: "wdth" 115) {
+  h1 {
+    font-family: some-variable-font-family;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            "    font-family: some-variable-font-family;",
+                            "7:18 - 7:43",
+                            `/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+h1 {
+  font-family: some-non-variable-font-family;
+}
+
+@supports (font-variation-settings: "wdth" 115) {
+  h1 {
+    font-family: some-variable-font-family;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            '  font-family: "SlantFont";',
+                            "9:16 - 9:27",
+                            `/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-face {
+  font-family: "SlantFont";
+  font-style: oblique -15deg 15deg;
+  src: url("https://mdn.github.io/shared-assets/fonts/font_with_slant_axis.woff2")
+    format("woff2");
+}
+
+p {
+  font-family: "SlantFont";
+  display: inline-block;
+  margin: 1rem;
+  font-size: 4rem;
+}
+
+.adjustable-box {
+  border: 1px dashed;
+  --text-axis: -5;
+}
+
+.font-style {
+  font-style: oblique 5deg;
+}
+
+.font-variation {
+  font-variation-settings: "slnt" -5;
+}
+
+.adjustable {
+  font-variation-settings: "slnt" var(--slant-angle);
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     woff: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_fonts/WOFF",
@@ -16421,14 +17341,37 @@ css.properties.grid-template-rows.masonry`,
                         }
                       ]
                     },
+                    mask_properties: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_masking/Mask_properties",
+                      messages: [
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "/en-US/docs/Web/CSS/CSS_masking/Masking",
+                            "#with_impoorted_images"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#the-mask-composite-property"
+                          ]
+                        },
+                        {
+                          message: "Unreachable via sidebar",
+                          data: []
+                        }
+                      ]
+                    },
                     masking: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_masking/Masking",
                       messages: [
                         {
-                          message: "Broken link",
+                          message: "Self link",
                           data: [
-                            "/en-US/docs/Web/CSS/CSS_masking/CSS_mask_properties"
+                            "/en-US/docs/Web/CSS/CSS_masking/Masking"
                           ]
                         },
                         {
@@ -16441,24 +17384,6 @@ css.properties.grid-template-rows.masonry`,
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_masking/Multiple_masks",
                       messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/CSS_masking/Mask_properties"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/CSS_masking/Mask_properties"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/CSS_masking/Mask_properties"
-                          ]
-                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -18043,6 +18968,732 @@ css.properties.width.fit-content_function`
                         "/en-US/docs/Web/CSS/font-stretch",
                         "#interpolation"
                       ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        "  font: 14px arial;",
+                        "3:14 - 3:19",
+                        `/en-US/docs/Web/CSS/font
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+body,
+input {
+  font: 14px arial;
+  overflow: hidden;
+}
+
+.propInputCont {
+  float: left;
+  text-align: center;
+  margin-right: 5px;
+  width: 80px;
+}
+
+.setPropCont {
+  float: left;
+  margin-right: 5px;
+  width: 120px;
+}
+
+.propInputs,
+.setPropCont {
+  margin-bottom: 1em;
+}
+
+.curCss {
+  border: none;
+  border-bottom: 1px solid black;
+  text-align: center;
+  width: 80px;
+}
+
+.mandatory {
+  border-bottom-color: red;
+}
+
+.cf::before,
+.cf::after {
+  content: " ";
+  display: table;
+}
+
+.cf::after {
+  clear: both;
+}
+
+.tar {
+  width: 40px;
+  text-align: right;
+}
+.fontfamily {
+  display: inline-block;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "font-family": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/font-family",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        "font-family: Goudy Bookletter 1911, sans-serif;",
+                        "1:14 - 1:19",
+                        `/en-US/docs/Web/CSS/font-family
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "font-feature-settings": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/font-feature-settings",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        "  font-family: Gabriola;",
+                        "43:16 - 43:24",
+                        `/en-US/docs/Web/CSS/font-feature-settings
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+/* use small-cap alternate glyphs */
+.small-caps {
+  font-feature-settings: "smcp" on;
+}
+
+/* convert both upper and lowercase to small caps (affects punctuation also) */
+.all-small-caps {
+  font-feature-settings: "c2sc", "smcp";
+}
+
+/* use zeros with a slash through them to differentiate from "O" */
+.nice-zero {
+  font-feature-settings: "zero";
+}
+
+/* enable historical forms */
+.historical {
+  font-feature-settings: "hist";
+}
+
+/* disable common ligatures, usually on by default */
+.no-ligatures {
+  font-feature-settings: "liga" 0;
+}
+
+/* enable tabular (monospaced) figures */
+td.tabular {
+  font-feature-settings: "tnum";
+}
+
+/* enable automatic fractions */
+.fractions {
+  font-feature-settings: "frac";
+}
+
+/* use the second available swash character */
+.swash {
+  font-feature-settings: "swsh" 2;
+}
+
+/* enable stylistic set 7 */
+.fancy-style {
+  font-family: Gabriola;
+  font-feature-settings: "ss07";
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "font-optical-sizing": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/font-optical-sizing",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        "  font-family: Amstelvar;",
+                        "8:16 - 8:25",
+                        `/en-US/docs/Web/CSS/font-optical-sizing
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-face {
+  src: url("/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
+  font-family: Amstelvar;
+  font-style: normal;
+}
+
+#example-element {
+  font-family: Amstelvar;
+  text-align: left;
+}
+
+#example-element h2 {
+  font-size: 36px;
+}
+
+#example-element p {
+  font-size: 12px;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        "  font-family: Amstelvar;",
+                        "9:16 - 9:25",
+                        `/en-US/docs/Web/CSS/font-optical-sizing
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-face {
+  src: url("AmstelvarAlpha-VF.ttf");
+  font-family: "Amstelvar";
+  font-style: normal;
+}
+
+p {
+  font-size: 36px;
+  font-family: Amstelvar;
+}
+
+.no-optical-sizing {
+  font-optical-sizing: none;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "font-palette": {
+                  children: {
+                    "palette-mix": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/font-palette/palette-mix",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            '  font-family: "Nabla";',
+                            "14:16 - 14:23",
+                            `/en-US/docs/Web/CSS/font-palette/palette-mix
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
+
+@font-palette-values --blueNabla {
+  font-family: Nabla;
+  base-palette: 2; /* this is Nabla's blue palette */
+}
+
+@font-palette-values --yellowNabla {
+  font-family: Nabla;
+  base-palette: 7; /* this is Nabla's yellow palette */
+}
+
+p {
+  font-family: "Nabla";
+  font-size: 4rem;
+  text-align: center;
+  margin: 0;
+}
+
+.yellowPalette {
+  font-palette: --yellowNabla;
+}
+
+.bluePalette {
+  font-palette: --blueNabla;
+}
+
+.mixedPalette {
+  font-palette: palette-mix(in lch, --blueNabla 55%, --yellowNabla 45%);
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/CSS/font-palette",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        '  font-family: "Nabla";',
+                        "24:16 - 24:23",
+                        `/en-US/docs/Web/CSS/font-palette
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
+
+@font-palette-values --blueNabla {
+  font-family: Nabla;
+  base-palette: 2; /* this is Nabla's blue palette */
+}
+
+@font-palette-values --greyNabla {
+  font-family: Nabla;
+  base-palette: 3; /* this is Nabla's grey palette */
+}
+
+@keyframes animate-palette {
+  from {
+    font-palette: --greyNabla;
+  }
+
+  to {
+    font-palette: --blueNabla;
+  }
+}
+
+p {
+  font-family: "Nabla";
+  font-size: 5rem;
+  margin: 0;
+  text-align: center;
+  animation: animate-palette 4s infinite alternate linear;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "font-size-adjust": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/font-size-adjust",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        "  font-family: Futura;",
+                        "22:16 - 22:22",
+                        `/en-US/docs/Web/CSS/font-size-adjust
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+body {
+  display: flex;
+}
+
+div {
+  text-align: center;
+}
+
+p {
+  margin: 0 30px 10px 30px;
+}
+
+body {
+  display: flex;
+}
+
+div {
+  text-align: center;
+}
+
+p {
+  font-family: Futura;
+  font-size: 50px;
+}
+
+span {
+  border: solid 1px red;
+}
+
+.adjust1 {
+  font-size-adjust: 0.6;
+}
+
+.adjust2 {
+  font-size-adjust: 0.5;
+}
+
+.adjust3 {
+  font-size-adjust: 0.482;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "font-stretch": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/font-stretch",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        '  font: 90px "Anek Malayalam";',
+                        "26:14 - 26:30",
+                        `/en-US/docs/Web/CSS/font-stretch
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-face {
+  font-family: "Inconsolata";
+  src: url("https://fonts.gstatic.com/s/inconsolata/v31/QlddNThLqRwH-OJ1UHjlKENVzlm-WkL3GZQmAwPyya15.woff2")
+    format("woff2");
+  font-stretch: 50% 200%;
+}
+
+@font-face {
+  font-family: "Anek Malayalam";
+  src: url("https://fonts.gstatic.com/s/anekmalayalam/v4/6qLUKZActRTs_mZAJUZWWkhke0nYa-f6__Azq3-gP1W7db9_.woff2")
+    format("woff2");
+  font-stretch: 75% 125%;
+}
+
+td {
+  border: solid;
+  border-width: 1px;
+}
+
+#inconsolata td {
+  font:
+    90px Inconsolata,
+    sans-serif;
+}
+#anek-malayalam td {
+  font: 90px "Anek Malayalam";
+}
+#inconsolata td:nth-child(2),
+#anek-malayalam td:nth-child(2) {
+  font-stretch: 50%;
+}
+#inconsolata td:nth-child(3),
+#anek-malayalam td:nth-child(3) {
+  font-stretch: 62.5%;
+}
+#inconsolata td:nth-child(4),
+#anek-malayalam td:nth-child(4) {
+  font-stretch: 75%;
+}
+#inconsolata td:nth-child(5),
+#anek-malayalam td:nth-child(5) {
+  font-stretch: 87.5%;
+}
+#inconsolata td:nth-child(6),
+#anek-malayalam td:nth-child(6) {
+  font-stretch: 100%;
+}
+#inconsolata td:nth-child(7),
+#anek-malayalam td:nth-child(7) {
+  font-stretch: 112.5%;
+}
+#inconsolata td:nth-child(8),
+#anek-malayalam td:nth-child(8) {
+  font-stretch: 125%;
+}
+#inconsolata td:nth-child(9),
+#anek-malayalam td:nth-child(9) {
+  font-stretch: 150%;
+}
+#inconsolata td:nth-child(10),
+#anek-malayalam td:nth-child(10) {
+  font-stretch: 200%;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "font-style": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/font-style",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        "  font-family: Amstelvar;",
+                        "9:16 - 9:25",
+                        `/en-US/docs/Web/CSS/font-style
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-face {
+  src: url("/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
+  font-family: Amstelvar;
+  font-style: normal;
+}
+
+section {
+  font-size: 1.2em;
+  font-family: Amstelvar;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "font-synthesis": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/font-synthesis",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        "  font-family: Oxygen;",
+                        "57:16 - 57:22",
+                        `/en-US/docs/Web/CSS/font-synthesis
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-face {
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/s/oxygen/v14/2sDfZG1Wl4LcnbuKjk0m.woff2")
+    format("woff2");
+}
+
+/* [108] */
+@font-face {
+  font-family: "Ma Shan Zheng";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.108.woff2")
+    format("woff2");
+}
+/* [110] */
+@font-face {
+  font-family: "Ma Shan Zheng";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.110.woff2")
+    format("woff2");
+}
+/* [117] */
+@font-face {
+  font-family: "Ma Shan Zheng";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.117.woff2")
+    format("woff2");
+}
+/* [118] */
+@font-face {
+  font-family: "Ma Shan Zheng";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.118.woff2")
+    format("woff2");
+}
+/* [119] */
+@font-face {
+  font-family: "Ma Shan Zheng";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.119.woff2")
+    format("woff2");
+}
+
+.english {
+  font-size: 1.2em;
+  font-family: Oxygen;
+}
+
+.chinese {
+  font-size: 1.2em;
+  font-family: "Ma Shan Zheng";
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+.sub {
+  font-variant: sub;
+}
+
+.sup {
+  font-variant: super;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        '  font-family: "Ma Shan Zheng";',
+                        "62:16 - 62:31",
+                        `/en-US/docs/Web/CSS/font-synthesis
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-face {
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/s/oxygen/v14/2sDfZG1Wl4LcnbuKjk0m.woff2")
+    format("woff2");
+}
+
+/* [108] */
+@font-face {
+  font-family: "Ma Shan Zheng";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.108.woff2")
+    format("woff2");
+}
+/* [110] */
+@font-face {
+  font-family: "Ma Shan Zheng";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.110.woff2")
+    format("woff2");
+}
+/* [117] */
+@font-face {
+  font-family: "Ma Shan Zheng";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.117.woff2")
+    format("woff2");
+}
+/* [118] */
+@font-face {
+  font-family: "Ma Shan Zheng";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.118.woff2")
+    format("woff2");
+}
+/* [119] */
+@font-face {
+  font-family: "Ma Shan Zheng";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.119.woff2")
+    format("woff2");
+}
+
+.english {
+  font-size: 1.2em;
+  font-family: Oxygen;
+}
+
+.chinese {
+  font-size: 1.2em;
+  font-family: "Ma Shan Zheng";
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+.sub {
+  font-variant: sub;
+}
+
+.sup {
+  font-variant: super;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        '  font-family: "Ma Shan Zheng";',
+                        "8:16 - 8:31",
+                        `/en-US/docs/Web/CSS/font-synthesis
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap");
+
+.english {
+  font-family: "Montserrat", sans-serif;
+}
+.chinese {
+  font-family: "Ma Shan Zheng";
+}
+.no-syn {
+  font-synthesis: none;
+}
+.syn {
+  font-synthesis: style weight;
+}
+~~~
+`
+                      ]
                     }
                   ]
                 },
@@ -18060,6 +19711,147 @@ css.properties.width.fit-content_function`
                       message: "Unknown asset type",
                       data: [
                         "ofl.txt"
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        '  font-family: "MonteCarlo";',
+                        "13:16 - 13:28",
+                        `/en-US/docs/Web/CSS/font-variant-alternates
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-face {
+  font-family: MonteCarlo;
+  src: url("montecarlo-regular.woff2");
+}
+
+@font-feature-values "MonteCarlo" {
+  @swash {
+    fancy: 1;
+  }
+}
+
+p {
+  font-family: "MonteCarlo";
+  font-size: 3rem;
+  margin: 0.7rem 3rem;
+}
+
+.variant {
+  font-variant-alternates: swash(fancy);
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "font-variant-east-asian": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/font-variant-east-asian",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        '  font-family: "Yu Gothic";',
+                        "6:16 - 6:27",
+                        `/en-US/docs/Web/CSS/font-variant-east-asian
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+tbody {
+  border: 0;
+}
+
+td {
+  font-family: "Yu Gothic";
+  font-size: 20px;
+}
+th {
+  color: grey;
+  padding-right: 10px;
+}
+
+.ruby {
+  font-variant-east-asian: ruby;
+}
+
+.jis78 {
+  font-variant-east-asian: jis78;
+}
+
+.traditional {
+  font-variant-east-asian: traditional;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "font-variant-numeric": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/font-variant-numeric",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        '  font-family: "Source Sans Pro";',
+                        "10:16 - 10:33",
+                        `/en-US/docs/Web/CSS/font-variant-numeric
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("https://mdn.github.io/shared-assets/fonts/SourceSansPro-Regular.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ordinal {
+  font-family: "Source Sans Pro";
+  font-size: 2rem;
+  font-variant-numeric: ordinal;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "font-variation-settings": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/font-variation-settings",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        "  font-family: Amstelvar;",
+                        "9:16 - 9:25",
+                        `/en-US/docs/Web/CSS/font-variation-settings
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-face {
+  src: url("/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
+  font-family: Amstelvar;
+  font-style: normal;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: Amstelvar;
+}
+~~~
+`
                       ]
                     }
                   ]
@@ -18308,12 +20100,6 @@ repeating-conic-gradient(from -45deg, red 45deg, orange, yellow, green, blue 225
                   slug: "/en-US/docs/Web/CSS/if",
                   messages: [
                     {
-                      message: "Code with space",
-                      data: [
-                        "if ... else"
-                      ]
-                    },
-                    {
                       message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
@@ -18349,69 +20135,6 @@ div {
                     {
                       message: "CSS code issue",
                       data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "  background-image: if(",
-                        "2:21 - 2:23",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-div {
-  background-image: if(
-    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
-    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);
-    else: none;
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        "    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);",
-                        "3:5 - 3:10",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
-~~~
-div {
-  background-image: if(
-    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
-    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);
-    else: none;
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        "    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);",
-                        "4:5 - 4:10",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
-~~~
-div {
-  background-image: if(
-    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
-    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);
-    else: none;
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
     else: none;
@@ -18430,69 +20153,6 @@ div {
     style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
     style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971)
   )" for property "background-image" (declaration-property-value-no-unknown)
-~~~
-div {
-  background-image: if(
-    else: none;
-    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
-    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971)
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "  background-image: if(",
-                        "2:21 - 2:23",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-div {
-  background-image: if(
-    else: none;
-    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
-    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971)
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        "    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);",
-                        "4:5 - 4:10",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
-~~~
-div {
-  background-image: if(
-    else: none;
-    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
-    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971)
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        "    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971)",
-                        "5:5 - 5:10",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
 ~~~
 div {
   background-image: if(
@@ -18545,72 +20205,6 @@ div {
                     {
                       message: "CSS code issue",
                       data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "  background-image: if(",
-                        "2:21 - 2:23",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-div {
-  background-image: if(
-    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
-    else: url("debug.png");
-    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);
-    else: none;
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        "    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);",
-                        "3:5 - 3:10",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
-~~~
-div {
-  background-image: if(
-    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
-    else: url("debug.png");
-    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);
-    else: none;
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        "    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);",
-                        "5:5 - 5:10",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
-~~~
-div {
-  background-image: if(
-    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
-    else: url("debug.png");
-    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);
-    else: none;
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
                         "declaration-property-value-no-unknown",
                         'Cannot parse property value "if(else: yellow)" for property "background-color" (declaration-property-value-no-unknown)',
                         "background-color: if(else: yellow);",
@@ -18643,38 +20237,6 @@ background-image: if();
                     {
                       message: "CSS code issue",
                       data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "background-color: if(else: yellow);",
-                        "1:19 - 1:21",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-background-color: if(else: yellow);
-background-image: if();
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "background-image: if();",
-                        "2:19 - 2:21",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-background-color: if(else: yellow);
-background-image: if();
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
   style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
@@ -18690,42 +20252,6 @@ background-image: if();
   style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
   else: none;
 )" for property "background-image" (declaration-property-value-no-unknown)
-~~~
-background-image: if(
-  style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
-  else: none;
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "background-image: if(",
-                        "1:19 - 1:21",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-background-image: if(
-  style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
-  else: none;
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        "  style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);",
-                        "2:3 - 2:8",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
 ~~~
 background-image: if(
   style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
@@ -18831,156 +20357,6 @@ background-color: if(
                     {
                       message: "CSS code issue",
                       data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "background-color: if(",
-                        "1:19 - 1:21",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-background-color: if(
-  style((--scheme: dark) or (--scheme: very-dark)): black;
-);
-
-background-color: if(
-  style((--scheme: dark) and (--contrast: hi)): black;
-);
-
-background-color: if(
-  not style(--scheme: light): black;
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        "  style((--scheme: dark) or (--scheme: very-dark)): black;",
-                        "2:3 - 2:8",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
-~~~
-background-color: if(
-  style((--scheme: dark) or (--scheme: very-dark)): black;
-);
-
-background-color: if(
-  style((--scheme: dark) and (--contrast: hi)): black;
-);
-
-background-color: if(
-  not style(--scheme: light): black;
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "background-color: if(",
-                        "5:19 - 5:21",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-background-color: if(
-  style((--scheme: dark) or (--scheme: very-dark)): black;
-);
-
-background-color: if(
-  style((--scheme: dark) and (--contrast: hi)): black;
-);
-
-background-color: if(
-  not style(--scheme: light): black;
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        "  style((--scheme: dark) and (--contrast: hi)): black;",
-                        "6:3 - 6:8",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
-~~~
-background-color: if(
-  style((--scheme: dark) or (--scheme: very-dark)): black;
-);
-
-background-color: if(
-  style((--scheme: dark) and (--contrast: hi)): black;
-);
-
-background-color: if(
-  not style(--scheme: light): black;
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "background-color: if(",
-                        "9:19 - 9:21",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-background-color: if(
-  style((--scheme: dark) or (--scheme: very-dark)): black;
-);
-
-background-color: if(
-  style((--scheme: dark) and (--contrast: hi)): black;
-);
-
-background-color: if(
-  not style(--scheme: light): black;
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        "  not style(--scheme: light): black;",
-                        "10:7 - 10:12",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
-~~~
-background-color: if(
-  style((--scheme: dark) or (--scheme: very-dark)): black;
-);
-
-background-color: if(
-  style((--scheme: dark) and (--contrast: hi)): black;
-);
-
-background-color: if(
-  not style(--scheme: light): black;
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
                         "CssSyntaxError",
                         "Unknown word if (CssSyntaxError)",
                         "if(",
@@ -19025,42 +20401,6 @@ background-color: if(
                     {
                       message: "CSS code issue",
                       data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "background-color: if(",
-                        "1:19 - 1:21",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-background-color: if(
-  media(print): white;
-  else: #eee;
-)
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "media" (function-no-unknown)',
-                        "  media(print): white;",
-                        "2:3 - 2:8",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "media" (function-no-unknown)
-~~~
-background-color: if(
-  media(print): white;
-  else: #eee;
-)
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
   media(width < 700px): 0 auto;
@@ -19076,42 +20416,6 @@ background-color: if(
   media(width < 700px): 0 auto;
   else: 20px auto;
 )" for property "margin" (declaration-property-value-no-unknown)
-~~~
-margin: if(
-  media(width < 700px): 0 auto;
-  else: 20px auto;
-)
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "margin: if(",
-                        "1:9 - 1:11",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-margin: if(
-  media(width < 700px): 0 auto;
-  else: 20px auto;
-)
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "media" (function-no-unknown)',
-                        "  media(width < 700px): 0 auto;",
-                        "2:3 - 2:8",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "media" (function-no-unknown)
 ~~~
 margin: if(
   media(width < 700px): 0 auto;
@@ -19223,162 +20527,6 @@ background-color: if(
                     {
                       message: "CSS code issue",
                       data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "border-color: if(",
-                        "1:15 - 1:17",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-border-color: if(
-  media((width > 700px) and (width < 1000px)): blue;
-);
-
-border-color: if(
-  media((width < 500px) or (orientation: landscape)): blue;
-);
-
-background-color: if(
-  not media(width < 500px): blue;
-  else: red
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "media" (function-no-unknown)',
-                        "  media((width > 700px) and (width < 1000px)): blue;",
-                        "2:3 - 2:8",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "media" (function-no-unknown)
-~~~
-border-color: if(
-  media((width > 700px) and (width < 1000px)): blue;
-);
-
-border-color: if(
-  media((width < 500px) or (orientation: landscape)): blue;
-);
-
-background-color: if(
-  not media(width < 500px): blue;
-  else: red
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "border-color: if(",
-                        "5:15 - 5:17",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-border-color: if(
-  media((width > 700px) and (width < 1000px)): blue;
-);
-
-border-color: if(
-  media((width < 500px) or (orientation: landscape)): blue;
-);
-
-background-color: if(
-  not media(width < 500px): blue;
-  else: red
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "media" (function-no-unknown)',
-                        "  media((width < 500px) or (orientation: landscape)): blue;",
-                        "6:3 - 6:8",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "media" (function-no-unknown)
-~~~
-border-color: if(
-  media((width > 700px) and (width < 1000px)): blue;
-);
-
-border-color: if(
-  media((width < 500px) or (orientation: landscape)): blue;
-);
-
-background-color: if(
-  not media(width < 500px): blue;
-  else: red
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "background-color: if(",
-                        "9:19 - 9:21",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-border-color: if(
-  media((width > 700px) and (width < 1000px)): blue;
-);
-
-border-color: if(
-  media((width < 500px) or (orientation: landscape)): blue;
-);
-
-background-color: if(
-  not media(width < 500px): blue;
-  else: red
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "media" (function-no-unknown)',
-                        "  not media(width < 500px): blue;",
-                        "10:7 - 10:12",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "media" (function-no-unknown)
-~~~
-border-color: if(
-  media((width > 700px) and (width < 1000px)): blue;
-);
-
-border-color: if(
-  media((width < 500px) or (orientation: landscape)): blue;
-);
-
-background-color: if(
-  not media(width < 500px): blue;
-  else: red
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
                         "color-function-notation",
                         "Expected modern color-function notation (color-function-notation)",
                         "  else: rgb(192, 192, 192);",
@@ -19424,42 +20572,6 @@ color: if(
                     {
                       message: "CSS code issue",
                       data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "color: if(",
-                        "1:8 - 1:10",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-color: if(
-  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);
-  else: rgb(192, 192, 192);
-)
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "supports" (function-no-unknown)',
-                        "  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);",
-                        "2:3 - 2:11",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "supports" (function-no-unknown)
-~~~
-color: if(
-  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);
-  else: rgb(192, 192, 192);
-)
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
   supports(selector(:buffering)): 1em;
@@ -19475,42 +20587,6 @@ color: if(
   supports(selector(:buffering)): 1em;
   else: initial;
 )" for property "margin-top" (declaration-property-value-no-unknown)
-~~~
-margin-top: if(
-  supports(selector(:buffering)): 1em;
-  else: initial;
-)
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "margin-top: if(",
-                        "1:13 - 1:15",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-margin-top: if(
-  supports(selector(:buffering)): 1em;
-  else: initial;
-)
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "supports" (function-no-unknown)',
-                        "  supports(selector(:buffering)): 1em;",
-                        "2:3 - 2:11",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "supports" (function-no-unknown)
 ~~~
 margin-top: if(
   supports(selector(:buffering)): 1em;
@@ -19616,194 +20692,12 @@ margin-top: if(
                     {
                       message: "CSS code issue",
                       data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "margin-top: if(",
-                        "1:13 - 1:15",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-margin-top: if(
-  supports((selector(:buffering)) and (color: blue)): 1em;
-);
-
-margin-top: if(
-  supports((selector(:buffering)) or (color: not-a-color)): 1em;
-);
-
-margin-top: if(
-  supports(not selector(:buffering)): 1em;
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "supports" (function-no-unknown)',
-                        "  supports((selector(:buffering)) and (color: blue)): 1em;",
-                        "2:3 - 2:11",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "supports" (function-no-unknown)
-~~~
-margin-top: if(
-  supports((selector(:buffering)) and (color: blue)): 1em;
-);
-
-margin-top: if(
-  supports((selector(:buffering)) or (color: not-a-color)): 1em;
-);
-
-margin-top: if(
-  supports(not selector(:buffering)): 1em;
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "margin-top: if(",
-                        "5:13 - 5:15",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-margin-top: if(
-  supports((selector(:buffering)) and (color: blue)): 1em;
-);
-
-margin-top: if(
-  supports((selector(:buffering)) or (color: not-a-color)): 1em;
-);
-
-margin-top: if(
-  supports(not selector(:buffering)): 1em;
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "supports" (function-no-unknown)',
-                        "  supports((selector(:buffering)) or (color: not-a-color)): 1em;",
-                        "6:3 - 6:11",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "supports" (function-no-unknown)
-~~~
-margin-top: if(
-  supports((selector(:buffering)) and (color: blue)): 1em;
-);
-
-margin-top: if(
-  supports((selector(:buffering)) or (color: not-a-color)): 1em;
-);
-
-margin-top: if(
-  supports(not selector(:buffering)): 1em;
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "margin-top: if(",
-                        "9:13 - 9:15",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-margin-top: if(
-  supports((selector(:buffering)) and (color: blue)): 1em;
-);
-
-margin-top: if(
-  supports((selector(:buffering)) or (color: not-a-color)): 1em;
-);
-
-margin-top: if(
-  supports(not selector(:buffering)): 1em;
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "supports" (function-no-unknown)',
-                        "  supports(not selector(:buffering)): 1em;",
-                        "10:3 - 10:11",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "supports" (function-no-unknown)
-~~~
-margin-top: if(
-  supports((selector(:buffering)) and (color: blue)): 1em;
-);
-
-margin-top: if(
-  supports((selector(:buffering)) or (color: not-a-color)): 1em;
-);
-
-margin-top: if(
-  supports(not selector(:buffering)): 1em;
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
                         "declaration-property-value-no-unknown",
                         'Cannot parse property value "if(style(--size: 2xl): 1em; else: 0.25em)" for property "padding" (declaration-property-value-no-unknown)',
                         "padding: if(style(--size: 2xl): 1em; else: 0.25em);",
                         "2:10 - 2:51",
                         `/en-US/docs/Web/CSS/if
 [declaration-property-value-no-unknown] Cannot parse property value "if(style(--size: 2xl): 1em; else: 0.25em)" for property "padding" (declaration-property-value-no-unknown)
-~~~
-padding: 1em;
-padding: if(style(--size: 2xl): 1em; else: 0.25em);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "padding: if(style(--size: 2xl): 1em; else: 0.25em);",
-                        "2:10 - 2:12",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-padding: 1em;
-padding: if(style(--size: 2xl): 1em; else: 0.25em);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        "padding: if(style(--size: 2xl): 1em; else: 0.25em);",
-                        "2:13 - 2:18",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
 ~~~
 padding: 1em;
 padding: if(style(--size: 2xl): 1em; else: 0.25em);
@@ -19857,42 +20751,6 @@ border: if(
                     {
                       message: "CSS code issue",
                       data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "border: if(",
-                        "1:9 - 1:11",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-border: if(
-  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);
-  else: 3px solid #c0c0c0;
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "supports" (function-no-unknown)',
-                        "  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);",
-                        "2:3 - 2:11",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "supports" (function-no-unknown)
-~~~
-border: if(
-  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);
-  else: 3px solid #c0c0c0;
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "3px solid
   if(
@@ -19908,42 +20766,6 @@ border: if(
   if(
     supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;
   )" for property "border" (declaration-property-value-no-unknown)
-~~~
-border: 3px solid
-  if(
-    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;
-  );
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "  if(",
-                        "2:3 - 2:5",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-border: 3px solid
-  if(
-    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;
-  );
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "supports" (function-no-unknown)',
-                        "    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;",
-                        "3:5 - 3:13",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "supports" (function-no-unknown)
 ~~~
 border: 3px solid
   if(
@@ -20019,195 +20841,6 @@ color: if(
                     {
                       message: "CSS code issue",
                       data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "color: if(",
-                        "1:8 - 1:10",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-color: if(
-  style(--scheme: ice):
-    if(
-      media(prefers-color-scheme: dark): #caf0f8;
-      else: #03045e;
-    );
-  style(--scheme: fire):
-    if(
-      media(prefers-color-scheme: dark): #ffc971;
-      else: #621708;
-    );
-  else: black
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        "  style(--scheme: ice):",
-                        "2:3 - 2:8",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
-~~~
-color: if(
-  style(--scheme: ice):
-    if(
-      media(prefers-color-scheme: dark): #caf0f8;
-      else: #03045e;
-    );
-  style(--scheme: fire):
-    if(
-      media(prefers-color-scheme: dark): #ffc971;
-      else: #621708;
-    );
-  else: black
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "    if(",
-                        "3:5 - 3:7",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-color: if(
-  style(--scheme: ice):
-    if(
-      media(prefers-color-scheme: dark): #caf0f8;
-      else: #03045e;
-    );
-  style(--scheme: fire):
-    if(
-      media(prefers-color-scheme: dark): #ffc971;
-      else: #621708;
-    );
-  else: black
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "media" (function-no-unknown)',
-                        "      media(prefers-color-scheme: dark): #caf0f8;",
-                        "4:7 - 4:12",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "media" (function-no-unknown)
-~~~
-color: if(
-  style(--scheme: ice):
-    if(
-      media(prefers-color-scheme: dark): #caf0f8;
-      else: #03045e;
-    );
-  style(--scheme: fire):
-    if(
-      media(prefers-color-scheme: dark): #ffc971;
-      else: #621708;
-    );
-  else: black
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        "  style(--scheme: fire):",
-                        "7:3 - 7:8",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
-~~~
-color: if(
-  style(--scheme: ice):
-    if(
-      media(prefers-color-scheme: dark): #caf0f8;
-      else: #03045e;
-    );
-  style(--scheme: fire):
-    if(
-      media(prefers-color-scheme: dark): #ffc971;
-      else: #621708;
-    );
-  else: black
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "    if(",
-                        "8:5 - 8:7",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-color: if(
-  style(--scheme: ice):
-    if(
-      media(prefers-color-scheme: dark): #caf0f8;
-      else: #03045e;
-    );
-  style(--scheme: fire):
-    if(
-      media(prefers-color-scheme: dark): #ffc971;
-      else: #621708;
-    );
-  else: black
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "media" (function-no-unknown)',
-                        "      media(prefers-color-scheme: dark): #ffc971;",
-                        "9:7 - 9:12",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "media" (function-no-unknown)
-~~~
-color: if(
-  style(--scheme: ice):
-    if(
-      media(prefers-color-scheme: dark): #caf0f8;
-      else: #03045e;
-    );
-  style(--scheme: fire):
-    if(
-      media(prefers-color-scheme: dark): #ffc971;
-      else: #621708;
-    );
-  else: black
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "calc(if(
     style(--scheme: wide): 70%;
@@ -20223,42 +20856,6 @@ color: if(
     style(--scheme: wide): 70%;
     else: 50%;
   ) - 50px)" for property "width" (declaration-property-value-no-unknown)
-~~~
-width: calc(if(
-    style(--scheme: wide): 70%;
-    else: 50%;
-  ) - 50px);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "width: calc(if(",
-                        "1:13 - 1:15",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-width: calc(if(
-    style(--scheme: wide): 70%;
-    else: 50%;
-  ) - 50px);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        "    style(--scheme: wide): 70%;",
-                        "2:5 - 2:10",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
 ~~~
 width: calc(if(
     style(--scheme: wide): 70%;
@@ -20411,336 +21008,6 @@ h2 {
     supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);
     else: #792359;
   )" for property "color" (declaration-property-value-no-unknown)
-~~~
-html {
-  height: 100%;
-  font-family: sans-serif;
-}
-
-body,
-section {
-  height: inherit;
-}
-
-h2 {
-  text-align: center;
-}
-
-article {
-  background-color: cyan;
-  border: 3px solid gray;
-  flex: 1;
-}
-
-section {
-  display: flex;
-  gap: 16px;
-  flex-direction: if(
-    media(orientation:landscape): row;
-    else: column;
-  )
-}
-
-h2::before {
-  content: if(
-    style(--show-apple:true): "🍎 ";
-  );
-}
-
-h2 {
-    color: if(
-    supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);
-    else: #792359;
-  )
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "  flex-direction: if(",
-                        "24:19 - 24:21",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-html {
-  height: 100%;
-  font-family: sans-serif;
-}
-
-body,
-section {
-  height: inherit;
-}
-
-h2 {
-  text-align: center;
-}
-
-article {
-  background-color: cyan;
-  border: 3px solid gray;
-  flex: 1;
-}
-
-section {
-  display: flex;
-  gap: 16px;
-  flex-direction: if(
-    media(orientation:landscape): row;
-    else: column;
-  )
-}
-
-h2::before {
-  content: if(
-    style(--show-apple:true): "🍎 ";
-  );
-}
-
-h2 {
-    color: if(
-    supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);
-    else: #792359;
-  )
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "media" (function-no-unknown)',
-                        "    media(orientation:landscape): row;",
-                        "25:5 - 25:10",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "media" (function-no-unknown)
-~~~
-html {
-  height: 100%;
-  font-family: sans-serif;
-}
-
-body,
-section {
-  height: inherit;
-}
-
-h2 {
-  text-align: center;
-}
-
-article {
-  background-color: cyan;
-  border: 3px solid gray;
-  flex: 1;
-}
-
-section {
-  display: flex;
-  gap: 16px;
-  flex-direction: if(
-    media(orientation:landscape): row;
-    else: column;
-  )
-}
-
-h2::before {
-  content: if(
-    style(--show-apple:true): "🍎 ";
-  );
-}
-
-h2 {
-    color: if(
-    supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);
-    else: #792359;
-  )
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "  content: if(",
-                        "31:12 - 31:14",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-html {
-  height: 100%;
-  font-family: sans-serif;
-}
-
-body,
-section {
-  height: inherit;
-}
-
-h2 {
-  text-align: center;
-}
-
-article {
-  background-color: cyan;
-  border: 3px solid gray;
-  flex: 1;
-}
-
-section {
-  display: flex;
-  gap: 16px;
-  flex-direction: if(
-    media(orientation:landscape): row;
-    else: column;
-  )
-}
-
-h2::before {
-  content: if(
-    style(--show-apple:true): "🍎 ";
-  );
-}
-
-h2 {
-    color: if(
-    supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);
-    else: #792359;
-  )
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        '    style(--show-apple:true): "🍎 ";',
-                        "32:5 - 32:10",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
-~~~
-html {
-  height: 100%;
-  font-family: sans-serif;
-}
-
-body,
-section {
-  height: inherit;
-}
-
-h2 {
-  text-align: center;
-}
-
-article {
-  background-color: cyan;
-  border: 3px solid gray;
-  flex: 1;
-}
-
-section {
-  display: flex;
-  gap: 16px;
-  flex-direction: if(
-    media(orientation:landscape): row;
-    else: column;
-  )
-}
-
-h2::before {
-  content: if(
-    style(--show-apple:true): "🍎 ";
-  );
-}
-
-h2 {
-    color: if(
-    supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);
-    else: #792359;
-  )
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "    color: if(",
-                        "37:12 - 37:14",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-html {
-  height: 100%;
-  font-family: sans-serif;
-}
-
-body,
-section {
-  height: inherit;
-}
-
-h2 {
-  text-align: center;
-}
-
-article {
-  background-color: cyan;
-  border: 3px solid gray;
-  flex: 1;
-}
-
-section {
-  display: flex;
-  gap: 16px;
-  flex-direction: if(
-    media(orientation:landscape): row;
-    else: column;
-  )
-}
-
-h2::before {
-  content: if(
-    style(--show-apple:true): "🍎 ";
-  );
-}
-
-h2 {
-    color: if(
-    supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);
-    else: #792359;
-  )
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "supports" (function-no-unknown)',
-                        "    supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);",
-                        "38:5 - 38:13",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "supports" (function-no-unknown)
 ~~~
 html {
   height: 100%;
@@ -21698,1254 +21965,6 @@ h1::before {
 ~~~
 `
                       ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "  margin: if(",
-                        "25:11 - 25:13",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "media" (function-no-unknown)',
-                        "    media(width < 700px): 0;",
-                        "26:5 - 26:10",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "media" (function-no-unknown)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "  --color1: if(",
-                        "41:13 - 41:15",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        "    style(--scheme: ice): #03045e;",
-                        "42:5 - 42:10",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        "    style(--scheme: fire): #621708;",
-                        "43:5 - 43:10",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "  --color2: if(",
-                        "46:13 - 46:15",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        "    style(--scheme: ice): #caf0f8;",
-                        "47:5 - 47:10",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        "    style(--scheme: fire): #ffc971;",
-                        "48:5 - 48:10",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "  font-size: if(",
-                        "70:14 - 70:16",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "media" (function-no-unknown)',
-                        "    media(width > 700px): calc(3rem + 2vw);",
-                        "71:5 - 71:10",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "media" (function-no-unknown)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "if" (function-no-unknown)',
-                        "  content: if(",
-                        "77:12 - 77:14",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        '    style(--scheme: ice): "❄️ ";',
-                        "78:5 - 78:10",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "style" (function-no-unknown)',
-                        '    style(--scheme: fire): "🔥 ";',
-                        "79:5 - 79:10",
-                        `/en-US/docs/Web/CSS/if
-[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -23097,6 +22116,36 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
                       ]
                     }
                   }
+                },
+                "letter-spacing": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/letter-spacing",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        "  font-family: Amstelvar;",
+                        "9:16 - 9:25",
+                        `/en-US/docs/Web/CSS/letter-spacing
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-face {
+  src: url("/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
+  font-family: Amstelvar;
+  font-style: normal;
+}
+
+section {
+  font-size: 1.2em;
+  font-family: Amstelvar;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
                 },
                 "line-height-step": {
                   children: {},
@@ -24026,6 +23075,161 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
+                page: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/page",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        "    font-family: Roboto;",
+                        "53:18 - 53:24",
+                        `/en-US/docs/Web/CSS/page
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@page toc {
+  size: a4 portrait;
+  @top-center {
+    content: "Table of contents";
+  }
+}
+
+@page foreword {
+  size: a4 portrait;
+  @top-center {
+    content: "Foreword";
+  }
+}
+
+@page introduction {
+  size: a4 portrait;
+  @top-center {
+    content: "Introduction";
+  }
+}
+
+@page conclusion {
+  size: a4 portrait;
+  @top-center {
+    content: "Conclusion";
+  }
+}
+
+@page chapter {
+  size: a4 landscape;
+  @top-center {
+    content: "Chapter";
+  }
+}
+
+fieldset {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
+  width: fit-content;
+}
+body {
+  font: 1.1em sans-serif;
+}
+
+@media print {
+  fieldset {
+    display: none;
+  }
+  section {
+    font-size: 2rem;
+    font-family: Roboto;
+  }
+  .chapter {
+    border: tomato 2px solid;
+  }
+  [data-print="grouped"] > #toc,
+  [data-print="paged"] > #toc {
+    page: toc;
+    font-family: Courier;
+  }
+  [data-print="grouped"] > #foreword,
+  [data-print="paged"] > #foreword {
+    page: foreword;
+    font-family: Courier;
+  }
+  [data-print="grouped"] > #introduction,
+  [data-print="paged"] > #introduction {
+    page: introduction;
+    font-family: Courier;
+  }
+  [data-print="grouped"] > #conclusion,
+  [data-print="paged"] > #conclusion {
+    page: conclusion;
+    font-family: Courier;
+  }
+  [data-print="grouped"] > .chapter,
+  [data-print="paged"] > .chapter {
+    page: chapter;
+  }
+  [data-print="paged"] > .chapter {
+    border: none;
+    break-after: page;
+  }
+  .chapter > ul {
+    columns: 2;
+  }
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                position: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/position",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        "  font-family: verdana;",
+                        "7:16 - 7:23",
+                        `/en-US/docs/Web/CSS/position
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+div {
+  width: 400px;
+  height: 200px;
+  overflow: scroll;
+  scrollbar-width: thin;
+  font-size: 16px;
+  font-family: verdana;
+  border: 1px solid;
+}
+
+p {
+  width: 600px;
+  user-select: none;
+  margin: 0;
+  border: 110px solid transparent;
+}
+
+.bulb {
+  position: sticky;
+  inset: 50px 100px 50px 100px;
+}
+
+div {
+  /* mark area defined by the inset boundaries using gray color */
+  background: linear-gradient(#9999, #9999) 100px 50px / 192px 100px no-repeat;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 position_value: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/position_value",
@@ -24069,21 +23273,24 @@ keyword value keyword value /* Each value is an offset from the keyword that pre
                       ]
                     },
                     {
-                      message: "CSS code issue",
+                      message: "HTML code issue",
                       data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "CHANGEME" for property "position-area" (declaration-property-value-no-unknown)',
-                        "    position-area: CHANGEME;",
-                        "2:20 - 2:28",
+                        "no-style-elem",
+                        "Do not use the <style> element; use separate CSS blocks instead.",
+                        `<style contenteditable="true">.positionedElement {
+    position-area: top center;
+  }
+</style>`,
+                        "4:0 - 7:8",
                         `/en-US/docs/Web/CSS/position-area
-[declaration-property-value-no-unknown] Unexpected unknown value "CHANGEME" for property "position-area" (declaration-property-value-no-unknown)
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
 ~~~
 <div class="anchor" contenteditable="true">⚓︎</div>
 
 <p class="positionedElement" contenteditable="true">This can be edited.</p>
 
 <style contenteditable="true">.positionedElement {
-    position-area: CHANGEME;
+    position-area: top center;
   }
 </style>
 ~~~
@@ -24778,6 +23985,29 @@ css.properties.grid-template-rows.repeat`
                     }
                   ]
                 },
+                selector_list: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/Selector_list",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        "  font-family: helvetica;",
+                        "2:16 - 2:25",
+                        `/en-US/docs/Web/CSS/Selector_list
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+h1, h2, h3, h4, h5, h6 {
+  font-family: helvetica;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 shape: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/shape",
@@ -24973,6 +24203,36 @@ content: url(star.svg) url(star.svg) url(star.svg) url(star.svg) url(star.svg);
                     {
                       message: "Unreachable via sidebar",
                       data: []
+                    }
+                  ]
+                },
+                "word-spacing": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/word-spacing",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        "  font-family: Amstelvar;",
+                        "9:16 - 9:25",
+                        `/en-US/docs/Web/CSS/word-spacing
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+@font-face {
+  src: url("/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
+  font-family: Amstelvar;
+  font-style: normal;
+}
+
+section {
+  font-size: 1.2em;
+  font-family: Amstelvar;
+}
+~~~
+`
+                      ]
                     }
                   ]
                 }
@@ -25479,6 +24739,140 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
+                        caption: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/caption",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-no-missing-generic-family-keyword",
+                                "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                                "  font: 1.4rem molot;",
+                                "38:16 - 38:21",
+                                `/en-US/docs/Web/HTML/Reference/Elements/caption
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+th {
+  background-color: rgb(230 230 230);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250 250 250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(240 240 240);
+}
+
+.heman {
+  font: 1.4rem molot;
+  text-shadow:
+    1px 1px 1px #fff,
+    2px 2px 1px #000;
+}
+
+.skeletor {
+  font: 1.7rem rapscallion;
+  letter-spacing: 3px;
+  text-shadow:
+    1px 1px 0 #fff,
+    0 0 9px #000;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-no-missing-generic-family-keyword",
+                                "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                                "  font: 1.7rem rapscallion;",
+                                "45:16 - 45:27",
+                                `/en-US/docs/Web/HTML/Reference/Elements/caption
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+th {
+  background-color: rgb(230 230 230);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250 250 250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(240 240 240);
+}
+
+.heman {
+  font: 1.4rem molot;
+  text-shadow:
+    1px 1px 1px #fff,
+    2px 2px 1px #000;
+}
+
+.skeletor {
+  font: 1.7rem rapscallion;
+  letter-spacing: 3px;
+  text-shadow:
+    1px 1px 0 #fff,
+    0 0 9px #000;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         meta: {
                           children: {
                             name: {
@@ -25543,23 +24937,6 @@ html.elements.select.size`
                               message: "Unknown asset type",
                               data: [
                                 "column-row-span.html"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    global_attributes: {
-                      children: {
-                        title: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/title",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/",
-                                "Unable to connect. Is the computer able to access the url?"
                               ]
                             }
                           ]
@@ -25701,16 +25078,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        "content-disposition": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Disposition",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -25763,29 +25130,6 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         },
-                        refresh: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Refresh",
-                          messages: [
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "/en-US/docs/Web/HTML/Reference/Elements/meta",
-                                "#refresh"
-                              ]
-                            }
-                          ]
-                        },
-                        "sec-websocket-version": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-WebSocket-Version",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            }
-                          ]
-                        },
                         tk: {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/Tk",
@@ -25820,15 +25164,15 @@ http.headers.Use-As-Dictionary`,
               children: {
                 guide: {
                   children: {
-                    introduction: {
+                    modules: {
                       children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Introduction",
+                      slug: "/en-US/docs/Web/JavaScript/Guide/Modules",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/console/",
-                            "https://learn.microsoft.com/en-us/archive/microsoft-edge/legacy/developer/"
+                            "https://babeljs.io/docs/options",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -25961,6 +25305,13 @@ http.headers.Use-As-Dictionary`,
                         {
                           message: "Broken external link",
                           data: [
+                            "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BGeneral_Category%3DSpace_Separator%7D",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BID_Start%7D",
                             "The operation timed out."
                           ]
@@ -26025,7 +25376,95 @@ http.headers.Use-As-Dictionary`,
               }
             },
             mathml: {
-              children: {},
+              children: {
+                tutorials: {
+                  children: {
+                    for_beginners: {
+                      children: {
+                        fractions_and_roots: {
+                          children: {},
+                          slug: "/en-US/docs/Web/MathML/Tutorials/For_beginners/Fractions_and_roots",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-no-missing-generic-family-keyword",
+                                "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                                "    STIX Two Math;",
+                                "4:5 - 4:9",
+                                `/en-US/docs/Web/MathML/Tutorials/For_beginners/Fractions_and_roots
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+math {
+  font-family:
+    Latin Modern Math,
+    STIX Two Math;
+  font-size: 200%;
+}
+math .highlight {
+  background: pink;
+}
+math [id] .highlight {
+  background: lightblue;
+}
+p {
+  padding: 0.5em;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        text_containers: {
+                          children: {},
+                          slug: "/en-US/docs/Web/MathML/Tutorials/For_beginners/Text_containers",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-no-missing-generic-family-keyword",
+                                "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                                "  font-family: Latin Modern Math;",
+                                "2:16 - 2:21",
+                                `/en-US/docs/Web/MathML/Tutorials/For_beginners/Text_containers
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+p {
+  font-family: Latin Modern Math;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-no-missing-generic-family-keyword",
+                                "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                                "  font-family: Latin Modern Math;",
+                                "6:16 - 6:21",
+                                `/en-US/docs/Web/MathML/Tutorials/For_beginners/Text_containers
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+div {
+  padding: 0.5em;
+}
+
+.text {
+  font-family: Latin Modern Math;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              },
               slug: "/en-US/docs/Web/MathML",
               messages: [
                 {
@@ -27257,23 +26696,17 @@ svg.elements.feSpotLight.z`
                   children: {
                     svg_from_scratch: {
                       children: {
-                        getting_started: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Getting_started",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://websniffer.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         tools_for_svg: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Tools_for_SVG",
                           messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://imagemagick.org/",
+                                "The operation timed out."
+                              ]
+                            },
                             {
                               message: "HTTP link",
                               data: [
@@ -27467,87 +26900,8 @@ svg.elements.feSpotLight.z`
             {
               message: "Unreachable via sidebar",
               data: []
-            },
-            {
-              message: "Broken external link",
-              data: [
-                "https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide/landing/",
-                404
-              ]
             }
           ]
-        },
-        webassembly: {
-          children: {
-            reference: {
-              children: {
-                memory: {
-                  children: {
-                    copy: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Memory/Copy",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        }
-                      ]
-                    },
-                    fill: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Memory/Fill",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        }
-                      ]
-                    },
-                    grow: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Memory/Grow",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        }
-                      ]
-                    },
-                    load: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Memory/Load",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        }
-                      ]
-                    },
-                    size: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Memory/Size",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        }
-                      ]
-                    },
-                    store: {
-                      children: {},
-                      slug: "/en-US/docs/WebAssembly/Reference/Memory/Store",
-                      messages: [
-                        {
-                          message: "Missing syntax code block",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
-            }
-          }
         }
       }
     }
