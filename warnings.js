@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-rwr7w1fd.js";
+} from "./chunk-jx02eet4.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -32,6 +32,19 @@ var warnings_processed_default = {
                       data: [
                         "https://www.intel.com/content/www/us/en/developer/tools/overview.html",
                         403
+                      ]
+                    }
+                  ]
+                },
+                game_promotion: {
+                  children: {},
+                  slug: "/en-US/docs/Games/Publishing_games/Game_promotion",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://dopresskit.com/",
+                        "Unable to connect. Is the computer able to access the url?"
                       ]
                     }
                   ]
@@ -760,19 +773,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            layout_viewport: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Layout_viewport",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.quirksmode.org/mobile/viewports.html",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             literal: {
               children: {},
               slug: "/en-US/docs/Glossary/Literal",
@@ -1214,32 +1214,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            viewport: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Viewport",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.quirksmode.org/mobile/viewports.html",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
-            visual_viewport: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Visual_Viewport",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.quirksmode.org/mobile/viewports.html",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             web_server: {
               children: {},
               slug: "/en-US/docs/Glossary/Web_server",
@@ -1591,26 +1565,6 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phabricator.wikimedia.org/T241180",
-                            "429 Retry-After: 1000"
-                          ]
-                        }
-                      ]
-                    },
-                    react_resources: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2020/05/styling-components-react/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -2263,19 +2217,6 @@ function update(bgColor, textColor) {
                         }
                       ]
                     },
-                    event_bubbling: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Event_bubbling",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.quirksmode.org/js/events_order.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     loops: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Loops",
@@ -2525,8 +2466,8 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/",
-                            "unknown certificate verification error"
+                            "https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/",
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         },
                         {
@@ -2692,13 +2633,6 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/documentation/at-rules/use/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2846,19 +2780,6 @@ refused.textContent = 'Refuse: ';
                 },
                 performance: {
                   children: {
-                    video: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/video",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2018/10/video-playback-on-the-web-part-2/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     web_performance_basics: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Web_Performance_Basics",
@@ -2880,13 +2801,6 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cwiki.apache.org/confluence/display/httpd/RewriteHTTPToHTTPS",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -2902,19 +2816,6 @@ refused.textContent = 'Refuse: ';
                     },
                     express_nodejs: {
                       children: {
-                        development_environment: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/development_environment",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/coreybutler/nvm-windows/releases",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
                         introduction: {
                           children: {},
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/Introduction",
@@ -2924,6 +2825,23 @@ refused.textContent = 'Refuse: ';
                               data: [
                                 "http://callbackhell.com/",
                                 ""
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    first_steps: {
+                      children: {
+                        "client-server_overview": {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://websniffer.com/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -2946,6 +2864,23 @@ refused.textContent = 'Refuse: ';
             },
             getting_started: {
               children: {
+                environment_setup: {
+                  children: {
+                    browsing_the_web: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gemini.google.com/app",
+                            502
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 soft_skills: {
                   children: {
                     collaboration_and_teamwork: {
@@ -3179,6 +3114,13 @@ refused.textContent = 'Refuse: ';
                           data: [
                             "https://www.codelobsteride.com/help/",
                             "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mail.gnu.org/mailman/listinfo/help-gnu-emacs",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -8429,19 +8371,6 @@ for (let i = 0; i < bgBtns.length; i++) {
                     },
                     understanding_wcag: {
                       children: {
-                        keyboard: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Keyboard",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         perceivable: {
                           children: {
                             color_contrast: {
@@ -9408,23 +9337,6 @@ api.DeviceOrientationEvent`,
                     }
                   }
                 },
-                eventtarget: {
-                  children: {
-                    addeventlistener: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/EventTarget/addEventListener",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.quirksmode.org/js/events_order.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 fetchevent: {
                   children: {
                     replacesclientid: {
@@ -10099,8 +10011,13 @@ api.Document.fullscreen`,
                   slug: "/en-US/docs/Web/API/PublicKeyCredentialRequestOptions",
                   messages: [
                     {
-                      message: "Broken browser compat anchor",
-                      data: []
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "api.CredentialsContainer.get.publicKey_option",
+                        "Expected:",
+                        "[None]"
+                      ]
                     }
                   ]
                 },
@@ -10654,6 +10571,24 @@ api.Document.fullscreen`,
                       ]
                     }
                   ]
+                },
+                urlpattern: {
+                  children: {
+                    hasregexpgroups: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/URLPattern/hasRegExpGroups",
+                      messages: [
+                        {
+                          message: "Text stuck to code/link",
+                          data: [
+                            "true",
+                            "Text after code:",
+                            "in this case."
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 vrlayerinit: {
                   children: {
@@ -11384,6 +11319,19 @@ document.getElementById("terminate").addEventListener("click", () => {
                         }
                       ]
                     },
+                    movement_and_motion: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebXR_Device_API/Movement_and_motion",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learnwebgl.brown37.net/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     startup_and_shutdown: {
                       children: {},
                       slug: "/en-US/docs/Web/API/WebXR_Device_API/Startup_and_shutdown",
@@ -11940,19 +11888,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                _doublecolon_placeholder: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::placeholder",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.smashingmagazine.com/2022/06/guide-windows-high-contrast-mode/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "-moz-image-region": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/-moz-image-region",
@@ -12367,13 +12302,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.quirksmode.org/css/tests/mediaqueries/animation.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -12394,13 +12322,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.quirksmode.org/css/tests/mediaqueries/animation.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -12411,13 +12332,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.quirksmode.org/css/tests/mediaqueries/animation.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -12428,13 +12342,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.quirksmode.org/css/tests/mediaqueries/animation.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -12903,19 +12810,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                "aspect-ratio": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/aspect-ratio",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/",
-                        "unknown certificate verification error"
-                      ]
-                    }
-                  ]
-                },
                 attr: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/attr",
@@ -13026,90 +12920,6 @@ attr(data-rotation deg)
                     {
                       message: "CSS code issue",
                       data: [
-                        "color-function-alias-notation",
-                        'Expected "rgba" to be "rgb" (color-function-alias-notation)',
-                        "    background: rgba(255 255 205 / 0.8);",
-                        "53:17 - 53:21",
-                        `/en-US/docs/Web/CSS/attr
-[color-function-alias-notation] Expected "rgba" to be "rgb" (color-function-alias-notation)
-~~~
-.cards {
-  display: flex;
-  flex-direction: row;
-  gap: 1em;
-  padding: 1em;
-}
-
-:root {
-  view-transition-name: none;
-}
-::view-transition {
-  pointer-events: none;
-}
-
-@supports (x: attr(x type(*))) {
-  .warning {
-    display: none;
-  }
-}
-
-@layer layout {
-  .card {
-    border-radius: 0.25em;
-    width: 20vw;
-    max-width: 5em;
-    aspect-ratio: 1 / 1.6;
-    background: lightgrey;
-
-    display: grid;
-    place-content: center;
-    font-size: 2em;
-  }
-
-  * {
-    box-sizing: border-box;
-  }
-
-  body {
-    min-height: 100svh;
-    display: grid;
-    place-content: center;
-  }
-
-  button {
-    justify-self: center;
-  }
-}
-
-@layer warning {
-  .warning {
-    padding: 1em;
-    border: 1px solid #ccc;
-    background: rgba(255 255 205 / 0.8);
-    text-align: center;
-    order: -1;
-    margin: 1em;
-  }
-
-  .warning > :first-child {
-    margin-top: 0;
-  }
-  .warning > :last-child {
-    margin-bottom: 0;
-  }
-}
-
-.card {
-  view-transition-name: attr(id type(<custom-ident>), none);
-  view-transition-class: card;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
                         "declaration-property-value-no-unknown",
                         'Cannot parse property value "attr(id type(<custom-ident>), none)" for property "view-transition-name" (declaration-property-value-no-unknown)',
                         "  view-transition-name: attr(id type(<custom-ident>), none);",
@@ -13169,7 +12979,7 @@ attr(data-rotation deg)
   .warning {
     padding: 1em;
     border: 1px solid #ccc;
-    background: rgba(255 255 205 / 0.8);
+    background: rgb(255 255 205 / 0.8);
     text-align: center;
     order: -1;
     margin: 1em;
@@ -13644,27 +13454,6 @@ section:focus {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/calc-value"
-                      ]
-                    }
-                  ]
-                },
-                color: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/color",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-function-alias-notation",
-                        'Expected "hsla" to be "hsl" (color-function-alias-notation)',
-                        "color: hsla(237deg 74% 33% / 61%);",
-                        "1:8 - 1:12",
-                        `/en-US/docs/Web/CSS/color
-[color-function-alias-notation] Expected "hsla" to be "hsl" (color-function-alias-notation)
-~~~
-color: hsla(237deg 74% 33% / 61%);
-~~~
-`
                       ]
                     }
                   ]
@@ -15641,6 +15430,19 @@ rgb(from red r g b / alpha)
                           ]
                         }
                       ]
+                    },
+                    using_color_wisely: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_colors/Using_color_wisely",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.paletton.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/CSS/CSS_colors",
@@ -15770,23 +15572,6 @@ rgb(from red r g b / alpha)
                     }
                   }
                 },
-                css_flexible_box_layout: {
-                  children: {
-                    ordering_flex_items: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_flexible_box_layout/Ordering_flex_items",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://adrianroselli.com/2015/10/html-source-order-vs-css-display-order.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_fonts: {
                   children: {
                     woff: {
@@ -15818,19 +15603,6 @@ css.at-rules.font-face.WOFF_2`,
                 },
                 css_grid_layout: {
                   children: {
-                    grid_layout_and_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_and_accessibility",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     grids_logical_values_and_writing_modes: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grids_logical_values_and_writing_modes",
@@ -16662,78 +16434,6 @@ css.properties.grid-template-rows.masonry`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-function-alias-notation",
-                            'Expected "rgba" to be "rgb" (color-function-alias-notation)',
-                            "  mask-image: conic-gradient(rgb(0 0 0 / 1) 90deg, rgba(0 0 0 / 0) 270deg);",
-                            "18:52 - 18:56",
-                            `/en-US/docs/Web/CSS/CSS_masking/Masking
-[color-function-alias-notation] Expected "rgba" to be "rgb" (color-function-alias-notation)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  padding: 15px;
-  background-image:
-    linear-gradient(to right, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%),
-    linear-gradient(to bottom, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%);
-  background-size: 20px 20px;
-}
-div,
-svg,
-img {
-  width: 220px;
-  aspect-ratio: 1;
-}
-
-.applied-mask {
-  mask-image: conic-gradient(rgb(0 0 0 / 1) 90deg, rgba(0 0 0 / 0) 270deg);
-}
-.mask-source {
-  background: conic-gradient(rgb(0 0 0 / 1) 90deg, rgba(0 0 0 / 0) 270deg);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-function-alias-notation",
-                            'Expected "rgba" to be "rgb" (color-function-alias-notation)',
-                            "  background: conic-gradient(rgb(0 0 0 / 1) 90deg, rgba(0 0 0 / 0) 270deg);",
-                            "21:52 - 21:56",
-                            `/en-US/docs/Web/CSS/CSS_masking/Masking
-[color-function-alias-notation] Expected "rgba" to be "rgb" (color-function-alias-notation)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  padding: 15px;
-  background-image:
-    linear-gradient(to right, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%),
-    linear-gradient(to bottom, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%);
-  background-size: 20px 20px;
-}
-div,
-svg,
-img {
-  width: 220px;
-  aspect-ratio: 1;
-}
-
-.applied-mask {
-  mask-image: conic-gradient(rgb(0 0 0 / 1) 90deg, rgba(0 0 0 / 0) 270deg);
-}
-.mask-source {
-  background: conic-gradient(rgb(0 0 0 / 1) 90deg, rgba(0 0 0 / 0) 270deg);
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -17184,13 +16884,6 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       data: [
                         "https://codepen.io/collection/KpqBGW"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2022/06/keyboard-only-scrolling-areas.html",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -17267,39 +16960,6 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       ]
                     }
                   }
-                },
-                display: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/display",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "display-box": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/display-box",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 "easing-function": {
                   children: {
@@ -18087,19 +17747,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                "flex-direction": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex-direction",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2015/09/source-order-matters.html",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "flex-grow": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/flex-grow",
@@ -18652,6 +18299,4652 @@ repeating-conic-gradient(from -45deg, red 45deg, orange, yellow, green, blue 225
                         "css.types.gradient.conic-gradient.hue_interpolation_method",
                         "Expected:",
                         "[None]"
+                      ]
+                    }
+                  ]
+                },
+                if: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/if",
+                  messages: [
+                    {
+                      message: "Code with space",
+                      data: [
+                        "if ... else"
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);
+    else: none;
+  )" for property "background-image" (declaration-property-value-no-unknown)`,
+                        `  background-image: if(
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);
+    else: none;
+  );`,
+                        "2:21 - 6:4",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);
+    else: none;
+  )" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+div {
+  background-image: if(
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);
+    else: none;
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "  background-image: if(",
+                        "2:21 - 2:23",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+div {
+  background-image: if(
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);
+    else: none;
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        "    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);",
+                        "3:5 - 3:10",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+div {
+  background-image: if(
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);
+    else: none;
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        "    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);",
+                        "4:5 - 4:10",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+div {
+  background-image: if(
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);
+    else: none;
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+    else: none;
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971)
+  )" for property "background-image" (declaration-property-value-no-unknown)`,
+                        `  background-image: if(
+    else: none;
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971)
+  );`,
+                        "2:21 - 6:4",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+    else: none;
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971)
+  )" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+div {
+  background-image: if(
+    else: none;
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971)
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "  background-image: if(",
+                        "2:21 - 2:23",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+div {
+  background-image: if(
+    else: none;
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971)
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        "    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);",
+                        "4:5 - 4:10",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+div {
+  background-image: if(
+    else: none;
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971)
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        "    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971)",
+                        "5:5 - 5:10",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+div {
+  background-image: if(
+    else: none;
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971)
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    else: url("debug.png");
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);
+    else: none;
+  )" for property "background-image" (declaration-property-value-no-unknown)`,
+                        `  background-image: if(
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    else: url("debug.png");
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);
+    else: none;
+  );`,
+                        "2:21 - 7:4",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    else: url("debug.png");
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);
+    else: none;
+  )" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+div {
+  background-image: if(
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    else: url("debug.png");
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);
+    else: none;
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "  background-image: if(",
+                        "2:21 - 2:23",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+div {
+  background-image: if(
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    else: url("debug.png");
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);
+    else: none;
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        "    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);",
+                        "3:5 - 3:10",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+div {
+  background-image: if(
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    else: url("debug.png");
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);
+    else: none;
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        "    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);",
+                        "5:5 - 5:10",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+div {
+  background-image: if(
+    style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+    else: url("debug.png");
+    style(--scheme: fire): linear-gradient(#ffc971, white, #ffc971);
+    else: none;
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Cannot parse property value "if(else: yellow)" for property "background-color" (declaration-property-value-no-unknown)',
+                        "background-color: if(else: yellow);",
+                        "1:19 - 1:35",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(else: yellow)" for property "background-color" (declaration-property-value-no-unknown)
+~~~
+background-color: if(else: yellow);
+background-image: if();
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "if()" for property "background-image" (declaration-property-value-no-unknown)',
+                        "background-image: if();",
+                        "2:19 - 2:23",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Unexpected unknown value "if()" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+background-color: if(else: yellow);
+background-image: if();
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "background-color: if(else: yellow);",
+                        "1:19 - 1:21",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+background-color: if(else: yellow);
+background-image: if();
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "background-image: if();",
+                        "2:19 - 2:21",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+background-color: if(else: yellow);
+background-image: if();
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+  style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+  else: none;
+)" for property "background-image" (declaration-property-value-no-unknown)`,
+                        `background-image: if(
+  style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+  else: none;
+);`,
+                        "1:19 - 4:2",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+  style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+  else: none;
+)" for property "background-image" (declaration-property-value-no-unknown)
+~~~
+background-image: if(
+  style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+  else: none;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "background-image: if(",
+                        "1:19 - 1:21",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+background-image: if(
+  style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+  else: none;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        "  style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);",
+                        "2:3 - 2:8",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+background-image: if(
+  style(--scheme: ice): linear-gradient(#caf0f8, white, #caf0f8);
+  else: none;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+  style((--scheme: dark) or (--scheme: very-dark)): black;
+)" for property "background-color" (declaration-property-value-no-unknown)`,
+                        `background-color: if(
+  style((--scheme: dark) or (--scheme: very-dark)): black;
+);`,
+                        "1:19 - 3:2",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+  style((--scheme: dark) or (--scheme: very-dark)): black;
+)" for property "background-color" (declaration-property-value-no-unknown)
+~~~
+background-color: if(
+  style((--scheme: dark) or (--scheme: very-dark)): black;
+);
+
+background-color: if(
+  style((--scheme: dark) and (--contrast: hi)): black;
+);
+
+background-color: if(
+  not style(--scheme: light): black;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+  style((--scheme: dark) and (--contrast: hi)): black;
+)" for property "background-color" (declaration-property-value-no-unknown)`,
+                        `background-color: if(
+  style((--scheme: dark) and (--contrast: hi)): black;
+);`,
+                        "5:19 - 7:2",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+  style((--scheme: dark) and (--contrast: hi)): black;
+)" for property "background-color" (declaration-property-value-no-unknown)
+~~~
+background-color: if(
+  style((--scheme: dark) or (--scheme: very-dark)): black;
+);
+
+background-color: if(
+  style((--scheme: dark) and (--contrast: hi)): black;
+);
+
+background-color: if(
+  not style(--scheme: light): black;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+  not style(--scheme: light): black;
+)" for property "background-color" (declaration-property-value-no-unknown)`,
+                        `background-color: if(
+  not style(--scheme: light): black;
+);`,
+                        "9:19 - 11:2",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+  not style(--scheme: light): black;
+)" for property "background-color" (declaration-property-value-no-unknown)
+~~~
+background-color: if(
+  style((--scheme: dark) or (--scheme: very-dark)): black;
+);
+
+background-color: if(
+  style((--scheme: dark) and (--contrast: hi)): black;
+);
+
+background-color: if(
+  not style(--scheme: light): black;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "background-color: if(",
+                        "1:19 - 1:21",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+background-color: if(
+  style((--scheme: dark) or (--scheme: very-dark)): black;
+);
+
+background-color: if(
+  style((--scheme: dark) and (--contrast: hi)): black;
+);
+
+background-color: if(
+  not style(--scheme: light): black;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        "  style((--scheme: dark) or (--scheme: very-dark)): black;",
+                        "2:3 - 2:8",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+background-color: if(
+  style((--scheme: dark) or (--scheme: very-dark)): black;
+);
+
+background-color: if(
+  style((--scheme: dark) and (--contrast: hi)): black;
+);
+
+background-color: if(
+  not style(--scheme: light): black;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "background-color: if(",
+                        "5:19 - 5:21",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+background-color: if(
+  style((--scheme: dark) or (--scheme: very-dark)): black;
+);
+
+background-color: if(
+  style((--scheme: dark) and (--contrast: hi)): black;
+);
+
+background-color: if(
+  not style(--scheme: light): black;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        "  style((--scheme: dark) and (--contrast: hi)): black;",
+                        "6:3 - 6:8",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+background-color: if(
+  style((--scheme: dark) or (--scheme: very-dark)): black;
+);
+
+background-color: if(
+  style((--scheme: dark) and (--contrast: hi)): black;
+);
+
+background-color: if(
+  not style(--scheme: light): black;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "background-color: if(",
+                        "9:19 - 9:21",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+background-color: if(
+  style((--scheme: dark) or (--scheme: very-dark)): black;
+);
+
+background-color: if(
+  style((--scheme: dark) and (--contrast: hi)): black;
+);
+
+background-color: if(
+  not style(--scheme: light): black;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        "  not style(--scheme: light): black;",
+                        "10:7 - 10:12",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+background-color: if(
+  style((--scheme: dark) or (--scheme: very-dark)): black;
+);
+
+background-color: if(
+  style((--scheme: dark) and (--contrast: hi)): black;
+);
+
+background-color: if(
+  not style(--scheme: light): black;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word if (CssSyntaxError)",
+                        "if(",
+                        "1:1 - 1:3",
+                        `/en-US/docs/Web/CSS/if
+[CssSyntaxError] Unknown word if (CssSyntaxError)
+~~~
+if(
+  background-color: if(style(color: white): black;);
+)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+  media(print): white;
+  else: #eee;
+)" for property "background-color" (declaration-property-value-no-unknown)`,
+                        `background-color: if(
+  media(print): white;
+  else: #eee;
+)`,
+                        "1:19 - 4:2",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+  media(print): white;
+  else: #eee;
+)" for property "background-color" (declaration-property-value-no-unknown)
+~~~
+background-color: if(
+  media(print): white;
+  else: #eee;
+)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "background-color: if(",
+                        "1:19 - 1:21",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+background-color: if(
+  media(print): white;
+  else: #eee;
+)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "media" (function-no-unknown)',
+                        "  media(print): white;",
+                        "2:3 - 2:8",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "media" (function-no-unknown)
+~~~
+background-color: if(
+  media(print): white;
+  else: #eee;
+)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+  media(width < 700px): 0 auto;
+  else: 20px auto;
+)" for property "margin" (declaration-property-value-no-unknown)`,
+                        `margin: if(
+  media(width < 700px): 0 auto;
+  else: 20px auto;
+)`,
+                        "1:9 - 4:2",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+  media(width < 700px): 0 auto;
+  else: 20px auto;
+)" for property "margin" (declaration-property-value-no-unknown)
+~~~
+margin: if(
+  media(width < 700px): 0 auto;
+  else: 20px auto;
+)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "margin: if(",
+                        "1:9 - 1:11",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+margin: if(
+  media(width < 700px): 0 auto;
+  else: 20px auto;
+)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "media" (function-no-unknown)',
+                        "  media(width < 700px): 0 auto;",
+                        "2:3 - 2:8",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "media" (function-no-unknown)
+~~~
+margin: if(
+  media(width < 700px): 0 auto;
+  else: 20px auto;
+)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+  media((width > 700px) and (width < 1000px)): blue;
+)" for property "border-color" (declaration-property-value-no-unknown)`,
+                        `border-color: if(
+  media((width > 700px) and (width < 1000px)): blue;
+);`,
+                        "1:15 - 3:2",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+  media((width > 700px) and (width < 1000px)): blue;
+)" for property "border-color" (declaration-property-value-no-unknown)
+~~~
+border-color: if(
+  media((width > 700px) and (width < 1000px)): blue;
+);
+
+border-color: if(
+  media((width < 500px) or (orientation: landscape)): blue;
+);
+
+background-color: if(
+  not media(width < 500px): blue;
+  else: red
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+  media((width < 500px) or (orientation: landscape)): blue;
+)" for property "border-color" (declaration-property-value-no-unknown)`,
+                        `border-color: if(
+  media((width < 500px) or (orientation: landscape)): blue;
+);`,
+                        "5:15 - 7:2",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+  media((width < 500px) or (orientation: landscape)): blue;
+)" for property "border-color" (declaration-property-value-no-unknown)
+~~~
+border-color: if(
+  media((width > 700px) and (width < 1000px)): blue;
+);
+
+border-color: if(
+  media((width < 500px) or (orientation: landscape)): blue;
+);
+
+background-color: if(
+  not media(width < 500px): blue;
+  else: red
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+  not media(width < 500px): blue;
+  else: red
+)" for property "background-color" (declaration-property-value-no-unknown)`,
+                        `background-color: if(
+  not media(width < 500px): blue;
+  else: red
+);`,
+                        "9:19 - 12:2",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+  not media(width < 500px): blue;
+  else: red
+)" for property "background-color" (declaration-property-value-no-unknown)
+~~~
+border-color: if(
+  media((width > 700px) and (width < 1000px)): blue;
+);
+
+border-color: if(
+  media((width < 500px) or (orientation: landscape)): blue;
+);
+
+background-color: if(
+  not media(width < 500px): blue;
+  else: red
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "border-color: if(",
+                        "1:15 - 1:17",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+border-color: if(
+  media((width > 700px) and (width < 1000px)): blue;
+);
+
+border-color: if(
+  media((width < 500px) or (orientation: landscape)): blue;
+);
+
+background-color: if(
+  not media(width < 500px): blue;
+  else: red
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "media" (function-no-unknown)',
+                        "  media((width > 700px) and (width < 1000px)): blue;",
+                        "2:3 - 2:8",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "media" (function-no-unknown)
+~~~
+border-color: if(
+  media((width > 700px) and (width < 1000px)): blue;
+);
+
+border-color: if(
+  media((width < 500px) or (orientation: landscape)): blue;
+);
+
+background-color: if(
+  not media(width < 500px): blue;
+  else: red
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "border-color: if(",
+                        "5:15 - 5:17",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+border-color: if(
+  media((width > 700px) and (width < 1000px)): blue;
+);
+
+border-color: if(
+  media((width < 500px) or (orientation: landscape)): blue;
+);
+
+background-color: if(
+  not media(width < 500px): blue;
+  else: red
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "media" (function-no-unknown)',
+                        "  media((width < 500px) or (orientation: landscape)): blue;",
+                        "6:3 - 6:8",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "media" (function-no-unknown)
+~~~
+border-color: if(
+  media((width > 700px) and (width < 1000px)): blue;
+);
+
+border-color: if(
+  media((width < 500px) or (orientation: landscape)): blue;
+);
+
+background-color: if(
+  not media(width < 500px): blue;
+  else: red
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "background-color: if(",
+                        "9:19 - 9:21",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+border-color: if(
+  media((width > 700px) and (width < 1000px)): blue;
+);
+
+border-color: if(
+  media((width < 500px) or (orientation: landscape)): blue;
+);
+
+background-color: if(
+  not media(width < 500px): blue;
+  else: red
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "media" (function-no-unknown)',
+                        "  not media(width < 500px): blue;",
+                        "10:7 - 10:12",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "media" (function-no-unknown)
+~~~
+border-color: if(
+  media((width > 700px) and (width < 1000px)): blue;
+);
+
+border-color: if(
+  media((width < 500px) or (orientation: landscape)): blue;
+);
+
+background-color: if(
+  not media(width < 500px): blue;
+  else: red
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-function-notation",
+                        "Expected modern color-function notation (color-function-notation)",
+                        "  else: rgb(192, 192, 192);",
+                        "3:9 - 3:27",
+                        `/en-US/docs/Web/CSS/if
+[color-function-notation] Expected modern color-function notation (color-function-notation)
+~~~
+color: if(
+  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);
+  else: rgb(192, 192, 192);
+)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);
+  else: rgb(192, 192, 192);
+)" for property "color" (declaration-property-value-no-unknown)`,
+                        `color: if(
+  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);
+  else: rgb(192, 192, 192);
+)`,
+                        "1:8 - 4:2",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);
+  else: rgb(192, 192, 192);
+)" for property "color" (declaration-property-value-no-unknown)
+~~~
+color: if(
+  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);
+  else: rgb(192, 192, 192);
+)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "color: if(",
+                        "1:8 - 1:10",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+color: if(
+  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);
+  else: rgb(192, 192, 192);
+)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "supports" (function-no-unknown)',
+                        "  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);",
+                        "2:3 - 2:11",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "supports" (function-no-unknown)
+~~~
+color: if(
+  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);
+  else: rgb(192, 192, 192);
+)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+  supports(selector(:buffering)): 1em;
+  else: initial;
+)" for property "margin-top" (declaration-property-value-no-unknown)`,
+                        `margin-top: if(
+  supports(selector(:buffering)): 1em;
+  else: initial;
+)`,
+                        "1:13 - 4:2",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+  supports(selector(:buffering)): 1em;
+  else: initial;
+)" for property "margin-top" (declaration-property-value-no-unknown)
+~~~
+margin-top: if(
+  supports(selector(:buffering)): 1em;
+  else: initial;
+)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "margin-top: if(",
+                        "1:13 - 1:15",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+margin-top: if(
+  supports(selector(:buffering)): 1em;
+  else: initial;
+)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "supports" (function-no-unknown)',
+                        "  supports(selector(:buffering)): 1em;",
+                        "2:3 - 2:11",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "supports" (function-no-unknown)
+~~~
+margin-top: if(
+  supports(selector(:buffering)): 1em;
+  else: initial;
+)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+  supports((selector(:buffering)) and (color: blue)): 1em;
+)" for property "margin-top" (declaration-property-value-no-unknown)`,
+                        `margin-top: if(
+  supports((selector(:buffering)) and (color: blue)): 1em;
+);`,
+                        "1:13 - 3:2",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+  supports((selector(:buffering)) and (color: blue)): 1em;
+)" for property "margin-top" (declaration-property-value-no-unknown)
+~~~
+margin-top: if(
+  supports((selector(:buffering)) and (color: blue)): 1em;
+);
+
+margin-top: if(
+  supports((selector(:buffering)) or (color: not-a-color)): 1em;
+);
+
+margin-top: if(
+  supports(not selector(:buffering)): 1em;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+  supports((selector(:buffering)) or (color: not-a-color)): 1em;
+)" for property "margin-top" (declaration-property-value-no-unknown)`,
+                        `margin-top: if(
+  supports((selector(:buffering)) or (color: not-a-color)): 1em;
+);`,
+                        "5:13 - 7:2",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+  supports((selector(:buffering)) or (color: not-a-color)): 1em;
+)" for property "margin-top" (declaration-property-value-no-unknown)
+~~~
+margin-top: if(
+  supports((selector(:buffering)) and (color: blue)): 1em;
+);
+
+margin-top: if(
+  supports((selector(:buffering)) or (color: not-a-color)): 1em;
+);
+
+margin-top: if(
+  supports(not selector(:buffering)): 1em;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+  supports(not selector(:buffering)): 1em;
+)" for property "margin-top" (declaration-property-value-no-unknown)`,
+                        `margin-top: if(
+  supports(not selector(:buffering)): 1em;
+);`,
+                        "9:13 - 11:2",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+  supports(not selector(:buffering)): 1em;
+)" for property "margin-top" (declaration-property-value-no-unknown)
+~~~
+margin-top: if(
+  supports((selector(:buffering)) and (color: blue)): 1em;
+);
+
+margin-top: if(
+  supports((selector(:buffering)) or (color: not-a-color)): 1em;
+);
+
+margin-top: if(
+  supports(not selector(:buffering)): 1em;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "margin-top: if(",
+                        "1:13 - 1:15",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+margin-top: if(
+  supports((selector(:buffering)) and (color: blue)): 1em;
+);
+
+margin-top: if(
+  supports((selector(:buffering)) or (color: not-a-color)): 1em;
+);
+
+margin-top: if(
+  supports(not selector(:buffering)): 1em;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "supports" (function-no-unknown)',
+                        "  supports((selector(:buffering)) and (color: blue)): 1em;",
+                        "2:3 - 2:11",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "supports" (function-no-unknown)
+~~~
+margin-top: if(
+  supports((selector(:buffering)) and (color: blue)): 1em;
+);
+
+margin-top: if(
+  supports((selector(:buffering)) or (color: not-a-color)): 1em;
+);
+
+margin-top: if(
+  supports(not selector(:buffering)): 1em;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "margin-top: if(",
+                        "5:13 - 5:15",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+margin-top: if(
+  supports((selector(:buffering)) and (color: blue)): 1em;
+);
+
+margin-top: if(
+  supports((selector(:buffering)) or (color: not-a-color)): 1em;
+);
+
+margin-top: if(
+  supports(not selector(:buffering)): 1em;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "supports" (function-no-unknown)',
+                        "  supports((selector(:buffering)) or (color: not-a-color)): 1em;",
+                        "6:3 - 6:11",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "supports" (function-no-unknown)
+~~~
+margin-top: if(
+  supports((selector(:buffering)) and (color: blue)): 1em;
+);
+
+margin-top: if(
+  supports((selector(:buffering)) or (color: not-a-color)): 1em;
+);
+
+margin-top: if(
+  supports(not selector(:buffering)): 1em;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "margin-top: if(",
+                        "9:13 - 9:15",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+margin-top: if(
+  supports((selector(:buffering)) and (color: blue)): 1em;
+);
+
+margin-top: if(
+  supports((selector(:buffering)) or (color: not-a-color)): 1em;
+);
+
+margin-top: if(
+  supports(not selector(:buffering)): 1em;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "supports" (function-no-unknown)',
+                        "  supports(not selector(:buffering)): 1em;",
+                        "10:3 - 10:11",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "supports" (function-no-unknown)
+~~~
+margin-top: if(
+  supports((selector(:buffering)) and (color: blue)): 1em;
+);
+
+margin-top: if(
+  supports((selector(:buffering)) or (color: not-a-color)): 1em;
+);
+
+margin-top: if(
+  supports(not selector(:buffering)): 1em;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Cannot parse property value "if(style(--size: 2xl): 1em; else: 0.25em)" for property "padding" (declaration-property-value-no-unknown)',
+                        "padding: if(style(--size: 2xl): 1em; else: 0.25em);",
+                        "2:10 - 2:51",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(style(--size: 2xl): 1em; else: 0.25em)" for property "padding" (declaration-property-value-no-unknown)
+~~~
+padding: 1em;
+padding: if(style(--size: 2xl): 1em; else: 0.25em);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "padding: if(style(--size: 2xl): 1em; else: 0.25em);",
+                        "2:10 - 2:12",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+padding: 1em;
+padding: if(style(--size: 2xl): 1em; else: 0.25em);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        "padding: if(style(--size: 2xl): 1em; else: 0.25em);",
+                        "2:13 - 2:18",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+padding: 1em;
+padding: if(style(--size: 2xl): 1em; else: 0.25em);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "unit-no-unknown",
+                        'Unexpected unknown unit "xl" (unit-no-unknown)',
+                        "padding: if(style(--size: 2xl): 1em; else: 0.25em);",
+                        "2:28 - 2:30",
+                        `/en-US/docs/Web/CSS/if
+[unit-no-unknown] Unexpected unknown unit "xl" (unit-no-unknown)
+~~~
+padding: 1em;
+padding: if(style(--size: 2xl): 1em; else: 0.25em);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);
+  else: 3px solid #c0c0c0;
+)" for property "border" (declaration-property-value-no-unknown)`,
+                        `border: if(
+  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);
+  else: 3px solid #c0c0c0;
+);`,
+                        "1:9 - 4:2",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);
+  else: 3px solid #c0c0c0;
+)" for property "border" (declaration-property-value-no-unknown)
+~~~
+border: if(
+  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);
+  else: 3px solid #c0c0c0;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "border: if(",
+                        "1:9 - 1:11",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+border: if(
+  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);
+  else: 3px solid #c0c0c0;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "supports" (function-no-unknown)',
+                        "  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);",
+                        "2:3 - 2:11",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "supports" (function-no-unknown)
+~~~
+border: if(
+  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);
+  else: 3px solid #c0c0c0;
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "3px solid
+  if(
+    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;
+  )" for property "border" (declaration-property-value-no-unknown)`,
+                        `border: 3px solid
+  if(
+    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;
+  );`,
+                        "1:9 - 4:4",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "3px solid
+  if(
+    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;
+  )" for property "border" (declaration-property-value-no-unknown)
+~~~
+border: 3px solid
+  if(
+    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;
+  );
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "  if(",
+                        "2:3 - 2:5",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+border: 3px solid
+  if(
+    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;
+  );
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "supports" (function-no-unknown)',
+                        "    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;",
+                        "3:5 - 3:13",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "supports" (function-no-unknown)
+~~~
+border: 3px solid
+  if(
+    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;
+  );
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+  style(--scheme: ice):
+    if(
+      media(prefers-color-scheme: dark): #caf0f8;
+      else: #03045e;
+    );
+  style(--scheme: fire):
+    if(
+      media(prefers-color-scheme: dark): #ffc971;
+      else: #621708;
+    );
+  else: black
+)" for property "color" (declaration-property-value-no-unknown)`,
+                        `color: if(
+  style(--scheme: ice):
+    if(
+      media(prefers-color-scheme: dark): #caf0f8;
+      else: #03045e;
+    );
+  style(--scheme: fire):
+    if(
+      media(prefers-color-scheme: dark): #ffc971;
+      else: #621708;
+    );
+  else: black
+);`,
+                        "1:8 - 13:2",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+  style(--scheme: ice):
+    if(
+      media(prefers-color-scheme: dark): #caf0f8;
+      else: #03045e;
+    );
+  style(--scheme: fire):
+    if(
+      media(prefers-color-scheme: dark): #ffc971;
+      else: #621708;
+    );
+  else: black
+)" for property "color" (declaration-property-value-no-unknown)
+~~~
+color: if(
+  style(--scheme: ice):
+    if(
+      media(prefers-color-scheme: dark): #caf0f8;
+      else: #03045e;
+    );
+  style(--scheme: fire):
+    if(
+      media(prefers-color-scheme: dark): #ffc971;
+      else: #621708;
+    );
+  else: black
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "color: if(",
+                        "1:8 - 1:10",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+color: if(
+  style(--scheme: ice):
+    if(
+      media(prefers-color-scheme: dark): #caf0f8;
+      else: #03045e;
+    );
+  style(--scheme: fire):
+    if(
+      media(prefers-color-scheme: dark): #ffc971;
+      else: #621708;
+    );
+  else: black
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        "  style(--scheme: ice):",
+                        "2:3 - 2:8",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+color: if(
+  style(--scheme: ice):
+    if(
+      media(prefers-color-scheme: dark): #caf0f8;
+      else: #03045e;
+    );
+  style(--scheme: fire):
+    if(
+      media(prefers-color-scheme: dark): #ffc971;
+      else: #621708;
+    );
+  else: black
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "    if(",
+                        "3:5 - 3:7",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+color: if(
+  style(--scheme: ice):
+    if(
+      media(prefers-color-scheme: dark): #caf0f8;
+      else: #03045e;
+    );
+  style(--scheme: fire):
+    if(
+      media(prefers-color-scheme: dark): #ffc971;
+      else: #621708;
+    );
+  else: black
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "media" (function-no-unknown)',
+                        "      media(prefers-color-scheme: dark): #caf0f8;",
+                        "4:7 - 4:12",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "media" (function-no-unknown)
+~~~
+color: if(
+  style(--scheme: ice):
+    if(
+      media(prefers-color-scheme: dark): #caf0f8;
+      else: #03045e;
+    );
+  style(--scheme: fire):
+    if(
+      media(prefers-color-scheme: dark): #ffc971;
+      else: #621708;
+    );
+  else: black
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        "  style(--scheme: fire):",
+                        "7:3 - 7:8",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+color: if(
+  style(--scheme: ice):
+    if(
+      media(prefers-color-scheme: dark): #caf0f8;
+      else: #03045e;
+    );
+  style(--scheme: fire):
+    if(
+      media(prefers-color-scheme: dark): #ffc971;
+      else: #621708;
+    );
+  else: black
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "    if(",
+                        "8:5 - 8:7",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+color: if(
+  style(--scheme: ice):
+    if(
+      media(prefers-color-scheme: dark): #caf0f8;
+      else: #03045e;
+    );
+  style(--scheme: fire):
+    if(
+      media(prefers-color-scheme: dark): #ffc971;
+      else: #621708;
+    );
+  else: black
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "media" (function-no-unknown)',
+                        "      media(prefers-color-scheme: dark): #ffc971;",
+                        "9:7 - 9:12",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "media" (function-no-unknown)
+~~~
+color: if(
+  style(--scheme: ice):
+    if(
+      media(prefers-color-scheme: dark): #caf0f8;
+      else: #03045e;
+    );
+  style(--scheme: fire):
+    if(
+      media(prefers-color-scheme: dark): #ffc971;
+      else: #621708;
+    );
+  else: black
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "calc(if(
+    style(--scheme: wide): 70%;
+    else: 50%;
+  ) - 50px)" for property "width" (declaration-property-value-no-unknown)`,
+                        `width: calc(if(
+    style(--scheme: wide): 70%;
+    else: 50%;
+  ) - 50px);`,
+                        "1:8 - 4:12",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "calc(if(
+    style(--scheme: wide): 70%;
+    else: 50%;
+  ) - 50px)" for property "width" (declaration-property-value-no-unknown)
+~~~
+width: calc(if(
+    style(--scheme: wide): 70%;
+    else: 50%;
+  ) - 50px);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "width: calc(if(",
+                        "1:13 - 1:15",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+width: calc(if(
+    style(--scheme: wide): 70%;
+    else: 50%;
+  ) - 50px);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        "    style(--scheme: wide): 70%;",
+                        "2:5 - 2:10",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+width: calc(if(
+    style(--scheme: wide): 70%;
+    else: 50%;
+  ) - 50px);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+    media(orientation:landscape): row;
+    else: column;
+  )" for property "flex-direction" (declaration-property-value-no-unknown)`,
+                        `  flex-direction: if(
+    media(orientation:landscape): row;
+    else: column;
+  )`,
+                        "24:19 - 27:4",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+    media(orientation:landscape): row;
+    else: column;
+  )" for property "flex-direction" (declaration-property-value-no-unknown)
+~~~
+html {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body,
+section {
+  height: inherit;
+}
+
+h2 {
+  text-align: center;
+}
+
+article {
+  background-color: cyan;
+  border: 3px solid gray;
+  flex: 1;
+}
+
+section {
+  display: flex;
+  gap: 16px;
+  flex-direction: if(
+    media(orientation:landscape): row;
+    else: column;
+  )
+}
+
+h2::before {
+  content: if(
+    style(--show-apple:true): "🍎 ";
+  );
+}
+
+h2 {
+    color: if(
+    supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);
+    else: #792359;
+  )
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+    style(--show-apple:true): "🍎 ";
+  )" for property "content" (declaration-property-value-no-unknown)`,
+                        `  content: if(
+    style(--show-apple:true): "🍎 ";
+  );`,
+                        "31:12 - 33:4",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+    style(--show-apple:true): "🍎 ";
+  )" for property "content" (declaration-property-value-no-unknown)
+~~~
+html {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body,
+section {
+  height: inherit;
+}
+
+h2 {
+  text-align: center;
+}
+
+article {
+  background-color: cyan;
+  border: 3px solid gray;
+  flex: 1;
+}
+
+section {
+  display: flex;
+  gap: 16px;
+  flex-direction: if(
+    media(orientation:landscape): row;
+    else: column;
+  )
+}
+
+h2::before {
+  content: if(
+    style(--show-apple:true): "🍎 ";
+  );
+}
+
+h2 {
+    color: if(
+    supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);
+    else: #792359;
+  )
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+    supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);
+    else: #792359;
+  )" for property "color" (declaration-property-value-no-unknown)`,
+                        `    color: if(
+    supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);
+    else: #792359;
+  )`,
+                        "37:12 - 40:4",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+    supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);
+    else: #792359;
+  )" for property "color" (declaration-property-value-no-unknown)
+~~~
+html {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body,
+section {
+  height: inherit;
+}
+
+h2 {
+  text-align: center;
+}
+
+article {
+  background-color: cyan;
+  border: 3px solid gray;
+  flex: 1;
+}
+
+section {
+  display: flex;
+  gap: 16px;
+  flex-direction: if(
+    media(orientation:landscape): row;
+    else: column;
+  )
+}
+
+h2::before {
+  content: if(
+    style(--show-apple:true): "🍎 ";
+  );
+}
+
+h2 {
+    color: if(
+    supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);
+    else: #792359;
+  )
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "  flex-direction: if(",
+                        "24:19 - 24:21",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+html {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body,
+section {
+  height: inherit;
+}
+
+h2 {
+  text-align: center;
+}
+
+article {
+  background-color: cyan;
+  border: 3px solid gray;
+  flex: 1;
+}
+
+section {
+  display: flex;
+  gap: 16px;
+  flex-direction: if(
+    media(orientation:landscape): row;
+    else: column;
+  )
+}
+
+h2::before {
+  content: if(
+    style(--show-apple:true): "🍎 ";
+  );
+}
+
+h2 {
+    color: if(
+    supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);
+    else: #792359;
+  )
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "media" (function-no-unknown)',
+                        "    media(orientation:landscape): row;",
+                        "25:5 - 25:10",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "media" (function-no-unknown)
+~~~
+html {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body,
+section {
+  height: inherit;
+}
+
+h2 {
+  text-align: center;
+}
+
+article {
+  background-color: cyan;
+  border: 3px solid gray;
+  flex: 1;
+}
+
+section {
+  display: flex;
+  gap: 16px;
+  flex-direction: if(
+    media(orientation:landscape): row;
+    else: column;
+  )
+}
+
+h2::before {
+  content: if(
+    style(--show-apple:true): "🍎 ";
+  );
+}
+
+h2 {
+    color: if(
+    supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);
+    else: #792359;
+  )
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "  content: if(",
+                        "31:12 - 31:14",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+html {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body,
+section {
+  height: inherit;
+}
+
+h2 {
+  text-align: center;
+}
+
+article {
+  background-color: cyan;
+  border: 3px solid gray;
+  flex: 1;
+}
+
+section {
+  display: flex;
+  gap: 16px;
+  flex-direction: if(
+    media(orientation:landscape): row;
+    else: column;
+  )
+}
+
+h2::before {
+  content: if(
+    style(--show-apple:true): "🍎 ";
+  );
+}
+
+h2 {
+    color: if(
+    supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);
+    else: #792359;
+  )
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        '    style(--show-apple:true): "🍎 ";',
+                        "32:5 - 32:10",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+html {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body,
+section {
+  height: inherit;
+}
+
+h2 {
+  text-align: center;
+}
+
+article {
+  background-color: cyan;
+  border: 3px solid gray;
+  flex: 1;
+}
+
+section {
+  display: flex;
+  gap: 16px;
+  flex-direction: if(
+    media(orientation:landscape): row;
+    else: column;
+  )
+}
+
+h2::before {
+  content: if(
+    style(--show-apple:true): "🍎 ";
+  );
+}
+
+h2 {
+    color: if(
+    supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);
+    else: #792359;
+  )
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "    color: if(",
+                        "37:12 - 37:14",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+html {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body,
+section {
+  height: inherit;
+}
+
+h2 {
+  text-align: center;
+}
+
+article {
+  background-color: cyan;
+  border: 3px solid gray;
+  flex: 1;
+}
+
+section {
+  display: flex;
+  gap: 16px;
+  flex-direction: if(
+    media(orientation:landscape): row;
+    else: column;
+  )
+}
+
+h2::before {
+  content: if(
+    style(--show-apple:true): "🍎 ";
+  );
+}
+
+h2 {
+    color: if(
+    supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);
+    else: #792359;
+  )
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "supports" (function-no-unknown)',
+                        "    supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);",
+                        "38:5 - 38:13",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "supports" (function-no-unknown)
+~~~
+html {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body,
+section {
+  height: inherit;
+}
+
+h2 {
+  text-align: center;
+}
+
+article {
+  background-color: cyan;
+  border: 3px solid gray;
+  flex: 1;
+}
+
+section {
+  display: flex;
+  gap: 16px;
+  flex-direction: if(
+    media(orientation:landscape): row;
+    else: column;
+  )
+}
+
+h2::before {
+  content: if(
+    style(--show-apple:true): "🍎 ";
+  );
+}
+
+h2 {
+    color: if(
+    supports(color: lch(29.57% 43.25 344.44)): lch(29.57% 43.25 344.44);
+    else: #792359;
+  )
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '<section style="--show-apple:true">',
+                        "0:9 - 0:34",
+                        `/en-US/docs/Web/CSS/if
+[no-style-attr] Do not use the style attribute.
+~~~
+<section style="--show-apple:true">
+  <article><h2>First article</h2></article>
+  <article><h2>Second article</h2></article>
+</section>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "custom-property-no-missing-var-function",
+                        'Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)',
+                        "    style(--scheme: ice): #03045e;",
+                        "42:11 - 42:19",
+                        `/en-US/docs/Web/CSS/if
+[custom-property-no-missing-var-function] Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "custom-property-no-missing-var-function",
+                        'Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)',
+                        "    style(--scheme: fire): #621708;",
+                        "43:11 - 43:19",
+                        `/en-US/docs/Web/CSS/if
+[custom-property-no-missing-var-function] Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "custom-property-no-missing-var-function",
+                        'Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)',
+                        "    style(--scheme: ice): #caf0f8;",
+                        "47:11 - 47:19",
+                        `/en-US/docs/Web/CSS/if
+[custom-property-no-missing-var-function] Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "custom-property-no-missing-var-function",
+                        'Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)',
+                        "    style(--scheme: fire): #ffc971;",
+                        "48:11 - 48:19",
+                        `/en-US/docs/Web/CSS/if
+[custom-property-no-missing-var-function] Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "custom-property-no-missing-var-function",
+                        'Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)',
+                        '    style(--scheme: ice): "❄️ ";',
+                        "78:11 - 78:19",
+                        `/en-US/docs/Web/CSS/if
+[custom-property-no-missing-var-function] Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "custom-property-no-missing-var-function",
+                        'Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)',
+                        '    style(--scheme: fire): "🔥 ";',
+                        "79:11 - 79:19",
+                        `/en-US/docs/Web/CSS/if
+[custom-property-no-missing-var-function] Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0" for property "margin" (declaration-property-value-no-unknown)`,
+                        `  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;`,
+                        "25:11 - 28:11",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0" for property "margin" (declaration-property-value-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  )" for property "font-size" (declaration-property-value-no-unknown)`,
+                        `  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );`,
+                        "70:14 - 73:4",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  )" for property "font-size" (declaration-property-value-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        `Cannot parse property value "if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  )" for property "content" (declaration-property-value-no-unknown)`,
+                        `  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );`,
+                        "77:12 - 81:4",
+                        `/en-US/docs/Web/CSS/if
+[declaration-property-value-no-unknown] Cannot parse property value "if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  )" for property "content" (declaration-property-value-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "  margin: if(",
+                        "25:11 - 25:13",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "media" (function-no-unknown)',
+                        "    media(width < 700px): 0;",
+                        "26:5 - 26:10",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "media" (function-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "  --color1: if(",
+                        "41:13 - 41:15",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        "    style(--scheme: ice): #03045e;",
+                        "42:5 - 42:10",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        "    style(--scheme: fire): #621708;",
+                        "43:5 - 43:10",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "  --color2: if(",
+                        "46:13 - 46:15",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        "    style(--scheme: ice): #caf0f8;",
+                        "47:5 - 47:10",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        "    style(--scheme: fire): #ffc971;",
+                        "48:5 - 48:10",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "  font-size: if(",
+                        "70:14 - 70:16",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "media" (function-no-unknown)',
+                        "    media(width > 700px): calc(3rem + 2vw);",
+                        "71:5 - 71:10",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "media" (function-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "if" (function-no-unknown)',
+                        "  content: if(",
+                        "77:12 - 77:14",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "if" (function-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        '    style(--scheme: ice): "❄️ ";',
+                        "78:5 - 78:10",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "style" (function-no-unknown)',
+                        '    style(--scheme: fire): "🔥 ";',
+                        "79:5 - 79:10",
+                        `/en-US/docs/Web/CSS/if
+[function-no-unknown] Unexpected unknown function "style" (function-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+article h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+body {
+  max-width: 700px;
+  margin: if(
+    media(width < 700px): 0;
+    else: 20px;
+  ) auto 0;
+}
+
+.ice {
+  --scheme: ice;
+}
+
+.fire {
+  --scheme: fire;
+}
+
+article {
+  padding: 20px;
+  --color1: if(
+    style(--scheme: ice): #03045e;
+    style(--scheme: fire): #621708;
+    else: black;
+  );
+  --color2: if(
+    style(--scheme: ice): #caf0f8;
+    style(--scheme: fire): #ffc971;
+    else: white;
+  );
+
+  color: var(--color1);
+  border: 3px solid var(--color1);
+  background-image: linear-gradient(
+    to left,
+    var(--color2),
+    white,
+    var(--color2)
+  );
+}
+
+aside {
+  color: var(--color2);
+  background-color: var(--color1);
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: if(
+    media(width > 700px): calc(3rem + 2vw);
+    else: 3rem;
+  );
+}
+
+h1::before {
+  content: if(
+    style(--scheme: ice): "❄️ ";
+    style(--scheme: fire): "🔥 ";
+    else: "";
+  );
+}
+~~~
+`
                       ]
                     }
                   ]
@@ -19733,32 +24026,6 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                order: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/order",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2015/09/source-order-matters.html",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                overflow: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2022/06/keyboard-only-scrolling-areas.html",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 position_value: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/position_value",
@@ -19844,13 +24111,6 @@ keyword value keyword value /* Each value is an offset from the keyword that pre
                       data: [
                         "CSS info"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -19862,13 +24122,6 @@ keyword value keyword value /* Each value is an offset from the keyword that pre
                       message: "Missing data",
                       data: [
                         "CSS info"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -21298,15 +25551,15 @@ html.elements.select.size`
                     },
                     global_attributes: {
                       children: {
-                        tabindex: {
+                        title: {
                           children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/tabindex",
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/title",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
-                                "The operation timed out."
+                                "https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/",
+                                "Unable to connect. Is the computer able to access the url?"
                               ]
                             }
                           ]
@@ -21556,23 +25809,6 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           }
-                        }
-                      }
-                    },
-                    status: {
-                      children: {
-                        "422": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Status/422",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://ruby-doc.org/3.3.2/stdlibs/base64/Base64.html",
-                                403
-                              ]
-                            }
-                          ]
                         }
                       }
                     }
@@ -21917,10 +26153,10 @@ http.headers.Use-As-Dictionary`,
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
                           messages: [
                             {
-                              message: "Broken external link",
+                              message: "HTTP link",
                               data: [
                                 "http://hevc.info/",
-                                "The operation timed out."
+                                ""
                               ]
                             },
                             {
@@ -23021,6 +27257,19 @@ svg.elements.feSpotLight.z`
                   children: {
                     svg_from_scratch: {
                       children: {
+                        getting_started: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Getting_started",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://websniffer.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         tools_for_svg: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Tools_for_SVG",
