@@ -218,7 +218,19 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       "syntax-string-no-invalid": true,
       "no-irregular-whitespace": true,
       "custom-property-no-missing-var-function": true,
-      "font-family-no-missing-generic-family-keyword": null, // TODO
+      "font-family-no-missing-generic-family-keyword": [
+        true,
+        {
+          // Web-safe fonts
+          ignoreFontFamilies: [
+            "Arial",
+            "Courier",
+            "Georgia",
+            "Times New Roman",
+            "Verdana",
+          ],
+        },
+      ],
       "function-linear-gradient-no-nonstandard-direction": true,
       "declaration-block-no-shorthand-property-overrides": true,
       "selector-anb-no-unmatchable": true,
@@ -241,6 +253,10 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
           ignoreFunctions: [
             // NEW
             "contrast-color",
+            "if",
+            "media",
+            "style",
+            "supports",
           ],
         },
       ],
@@ -249,9 +265,11 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         { ignoreMediaFeatureNames: ["media-feature-rule"] },
       ],
       "media-feature-name-value-no-unknown": true,
-      "no-unknown-animations": null, // TODO
+      // Not possible to check for undeclared vars because vars can be
+      // declared in other blocks, just like in JS
+      "no-unknown-animations": null,
       "no-unknown-custom-media": true,
-      "no-unknown-custom-properties": null, // TODO
+      "no-unknown-custom-properties": null,
       "property-no-unknown": [
         true,
         {

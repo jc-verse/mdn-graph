@@ -29,6 +29,10 @@ const allowedNoSidebar = new Map(
   (await readConfig("allowed-no-sidebar.txt")).map((x) => [x, false]),
 );
 
+const allowedNoSyntaxCode = new Map(
+  (await readConfig("allowed-no-syntax-code.txt")).map((x) => [x, false]),
+);
+
 const brokenImages = new Map(
   (await readConfig("broken-images.txt")).map((x) => [x, false]),
 );
@@ -349,7 +353,7 @@ export default async function createContentGraph() {
         const syntaxSelector = `body > div.code-example:${node.data.metadata.pageType === "web-api-event" ? "nth-child(2)" : "first-child"} pre, body > pre:first-child`;
         const syntaxCode = $(syntaxSelector);
         selector = `pre:not(${syntaxSelector})`;
-        if (!syntaxCode.length) {
+        if (!syntaxCode.length && !configHas(allowedNoSyntaxCode, node.id)) {
           report(node, "Missing syntax code block");
         }
       }
@@ -393,6 +397,9 @@ export default async function createContentGraph() {
     delete node.data.content;
   });
 
+  for (const [path, used] of allowedNoSyntaxCode) {
+    if (!used) console.warn(path, "now has proper syntax code block");
+  }
   postCheckContent();
 
   graph.forEachNode((node) => {

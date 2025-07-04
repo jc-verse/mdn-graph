@@ -196,21 +196,6 @@ if (x === 5 || 7 || 10 || 20) {
 condition ? run this code : run this code instead
 ~~~
 
-/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript
-[consistent-return] Expected to return a value at the end of function 'inchesToMeters'.
-[no-else-return] Unnecessary 'else' after 'return'.
-~~~
-function inchesToMeters(num) {
-  if (typeof num === "number" && !isNaN(num)) {
-    const mVal = (num * 2.54) / 100;
-    const m2dp = mVal.toFixed(2);
-    return m2dp;
-  } else {
-    console.log("A number was not provided. Please correct the input.");
-  }
-}
-~~~
-
 /en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting
 [no-style-attr] Do not use the style attribute.
 ~~~
@@ -625,7 +610,7 @@ console.log(helloChris;
 ~~~
 #stockTicker {
   font-weight: bold;
-  font: 12px Verdana; /* font-weight is now set to normal */
+  font: 12px Verdana, sans-serif; /* font-weight is now set to normal */
 }
 ~~~
 
@@ -3311,6 +3296,20 @@ console.log(splitUpString("jQWhy")); // ["jQ", "W", "hy"]
 </html>
 ~~~
 
+/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/font-src
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+<style>
+  @font-face {
+    font-family: "MyFont";
+    src: url("https://not-example.com/font");
+  }
+  body {
+    font-family: "MyFont";
+  }
+</style>
+~~~
+
 /en-US/docs/Web/HTTP/Reference/Headers/X-XSS-Protection
 [no-var] Unexpected var, use let or const instead.
 ~~~
@@ -5559,25 +5558,6 @@ globalThis.isDirectEval = false;
   console.log(eval("isDirectEval")); // true
   console.log((eval)("isDirectEval")); // true (the grouping operator still returns a reference to `eval`)
   console.log((0, eval)("isDirectEval")); // false (the comma operator returns a new value)
-}
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Operators/Comma_operator
-[no-return-assign] Arrow function should not return assignment.
-~~~
-let sum = 0;
-const squares = [1, 2, 3, 4, 5].map((x) => ((sum += x), x * x));
-console.log(squares); // [1, 4, 9, 16, 25]
-console.log(sum); // 15
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Operators/Comma_operator
-[no-return-assign] Return statement should not contain assignment.
-~~~
-function myFunc() {
-  let x = 0;
-
-  return (x += 1, x); // the same as return ++x;
 }
 ~~~
 
