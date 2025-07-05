@@ -221,13 +221,18 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       "font-family-no-missing-generic-family-keyword": [
         true,
         {
-          // Web-safe fonts
           ignoreFontFamilies: [
+            // Web-safe fonts
             "Arial",
             "Courier",
             "Georgia",
             "Times New Roman",
             "Verdana",
+            // Throwaway examples
+            "PLACEHOLDER",
+            "some-non-variable-font-family",
+            "some-variable-font-family",
+            "HeydingsControlsRegular", // An icon font; there's no fallback
           ],
         },
       ],
@@ -340,6 +345,20 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       "selector-pseudo-element-colon-notation": "double",
     },
     overrides: [
+      {
+        files: [
+          "Mozilla/Add-ons/WebExtensions/user_interface/Browser_styles/*",
+        ],
+        rules: {
+          "font-family-no-missing-generic-family-keyword": [
+            true,
+            {
+              // Seems to be non-standard
+              ignoreFontFamilies: ["caption"],
+            },
+          ],
+        },
+      },
       {
         files: ["Web/API/CustomStateSet/*", "Web/CSS/:state/*"],
         rules: {

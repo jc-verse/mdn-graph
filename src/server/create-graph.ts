@@ -544,7 +544,7 @@ export default async function createContentGraph() {
         /(?:runXHR|loadImage)\(["']([^"']+)["']\)/g,
       );
       const jsHrefReferences = js.matchAll(/\.href = ["']([^"']+)["']/g);
-      const htmlSrcReferences = html.matchAll(/src=["']([^"']+)["']/g);
+      const htmlSrcReferences = html.matchAll(/ src=["']([^"']+)["']/g);
       const htmlSrcsetReferences = [
         // Exclude imagesrcset
         ...html.matchAll(/ srcset=["']([^"']+)["']/g),

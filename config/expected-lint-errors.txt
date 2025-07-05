@@ -610,7 +610,7 @@ console.log(helloChris;
 ~~~
 #stockTicker {
   font-weight: bold;
-  font: 12px Verdana, sans-serif; /* font-weight is now set to normal */
+  font: 12px Verdana; /* font-weight is now set to normal */
 }
 ~~~
 
@@ -2901,6 +2901,7 @@ p {
 
 /en-US/docs/Web/CSS/font-family
 [color-no-invalid-hex] Unexpected invalid hex color "#POUND" (color-no-invalid-hex)
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
 ~~~
 font-family: Goudy Bookletter 1911, sans-serif;
 font-family: Red/Black, sans-serif;
@@ -3018,7 +3019,7 @@ selector {
 <p class="positionedElement" contenteditable="true">This can be edited.</p>
 
 <style contenteditable="true">.positionedElement {
-    position-area: CHANGEME;
+    position-area: top center;
   }
 </style>
 ~~~
