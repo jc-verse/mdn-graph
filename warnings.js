@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-mae2ra3y.js";
+} from "./chunk-tcxf7a3f.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1211,6 +1211,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            web_standards: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Web_standards",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://webkit.org/standards-positions/",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             webm: {
               children: {},
               slug: "/en-US/docs/Glossary/WebM",
@@ -1532,6 +1545,13 @@ var warnings_processed_default = {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://phabricator.wikimedia.org/T241180",
+                            "429 Retry-After: 1000"
                           ]
                         }
                       ]
@@ -3193,7 +3213,7 @@ html {
                           message: "Broken external link",
                           data: [
                             "https://www.codelobster.com/forum/index.php",
-                            "Unable to connect. Is the computer able to access the url?"
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -3212,6 +3232,19 @@ html {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/downloads.html",
+                            503
+                          ]
                         }
                       ]
                     },
@@ -9752,6 +9785,115 @@ http.headers.Permissions-Policy.deferred-fetch-minimal`,
                     }
                   }
                 },
+                filesystemfilehandle: {
+                  children: {
+                    createsyncaccesshandle: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/FileSystemFileHandle/createSyncAccessHandle",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mdn.github.io/dom-examples/file-system-api/createsyncaccesshandle-mode/",
+                            404
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/file-system-api/createsyncaccesshandle-mode",
+                            404
+                          ]
+                        }
+                      ]
+                    },
+                    createwritable: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/FileSystemFileHandle/createWritable",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mdn.github.io/dom-examples/file-system-api/createwritable-mode/",
+                            404
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/file-system-api/createwritable-mode",
+                            404
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                filesystemhandle: {
+                  children: {
+                    remove: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/FileSystemHandle/remove",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mdn.github.io/dom-examples/file-system-api/filesystemhandle-remove/",
+                            404
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/file-system-api/filesystemhandle-remove",
+                            404
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                filesystemobserver: {
+                  children: {
+                    filesystemobserver: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/FileSystemObserver/FileSystemObserver",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mdn.github.io/dom-examples/file-system-api/filesystemobserver/",
+                            404
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/file-system-api/filesystemobserver",
+                            404
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/FileSystemObserver",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://mdn.github.io/dom-examples/file-system-api/filesystemobserver/",
+                        404
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/mdn/dom-examples/tree/main/file-system-api/filesystemobserver",
+                        404
+                      ]
+                    }
+                  ]
+                },
                 fullscreen_api: {
                   children: {
                     guide: {
@@ -10867,6 +11009,23 @@ label {
                     }
                   ]
                 },
+                storage_access_api: {
+                  children: {
+                    related_website_sets: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Storage_Access_API/Related_website_sets",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/standards-positions/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 svgrenderingintent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGRenderingIntent",
@@ -10929,6 +11088,19 @@ label {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/SVG/Reference/Attribute/currentView"
+                      ]
+                    }
+                  ]
+                },
+                topics_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Topics_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/standards-positions/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -25164,19 +25336,6 @@ http.headers.Use-As-Dictionary`,
               children: {
                 guide: {
                   children: {
-                    modules: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Modules",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/docs/options",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     using_promises: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Guide/Using_promises",
@@ -25302,13 +25461,6 @@ http.headers.Use-As-Dictionary`,
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BGeneral_Category%3DSpace_Separator%7D",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -26700,13 +26852,6 @@ svg.elements.feSpotLight.z`
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Tools_for_SVG",
                           messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://imagemagick.org/",
-                                "The operation timed out."
-                              ]
-                            },
                             {
                               message: "HTTP link",
                               data: [
