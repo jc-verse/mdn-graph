@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-tcxf7a3f.js";
+} from "./chunk-26e38cyf.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -750,6 +750,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            javascript: {
+              children: {},
+              slug: "/en-US/docs/Glossary/JavaScript",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://nodejs.org/en",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             khronos: {
               children: {},
               slug: "/en-US/docs/Glossary/Khronos",
@@ -1211,19 +1224,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            web_standards: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Web_standards",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://webkit.org/standards-positions/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             webm: {
               children: {},
               slug: "/en-US/docs/Glossary/WebM",
@@ -1546,13 +1546,6 @@ var warnings_processed_default = {
                           data: [
                             "https://codepen.io/mxmason/pen/XWbPNmw"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://phabricator.wikimedia.org/T241180",
-                            "429 Retry-After: 1000"
-                          ]
                         }
                       ]
                     },
@@ -1713,6 +1706,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://v3-migration.vuejs.org/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2717,46 +2717,6 @@ refused.textContent = 'Refuse: ';
                           ]
                         }
                       ]
-                    },
-                    video_and_audio_apis: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            "  font-family: HeydingsControlsRegular;",
-                            "14:16 - 14:39",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("fonts/heydings_controls-webfont.eot");
-  src:
-    url("fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("fonts/heydings_controls-webfont.woff") format("woff"),
-    url("fonts/heydings_controls-webfont.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-button::before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaa;
-  text-shadow: 1px 1px 0px black;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -2925,23 +2885,6 @@ h3 {
                       ]
                     }
                   }
-                },
-                testing: {
-                  children: {
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://help.ubuntu.com/community/WindowsDualBoot",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 }
               }
             },
@@ -2958,36 +2901,6 @@ h3 {
                           data: [
                             "https://discord.me/frontenddevelopers",
                             403
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                your_first_website: {
-                  children: {
-                    styling_the_content: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            "  font-family: PLACEHOLDER;",
-                            "5:16 - 5:27",
-                            `/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-html {
-  /* px means "pixels". The base font size is now 10 pixels high */
-  font-size: 10px;
-  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
-  font-family: PLACEHOLDER;
-}
-~~~
-`
                           ]
                         }
                       ]
@@ -3068,30 +2981,6 @@ html {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    css_faq: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-block-no-shorthand-property-overrides",
-                            'Unexpected shorthand "font" after "font-weight" (declaration-block-no-shorthand-property-overrides)',
-                            "  font: 12px Verdana; /* font-weight is now set to normal */",
-                            "3:3 - 3:7",
-                            `/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "font" after "font-weight" (declaration-block-no-shorthand-property-overrides)
-~~~
-#stockTicker {
-  font-weight: bold;
-  font: 12px Verdana; /* font-weight is now set to normal */
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -3213,7 +3102,7 @@ html {
                           message: "Broken external link",
                           data: [
                             "https://www.codelobster.com/forum/index.php",
-                            "The operation timed out."
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         },
                         {
@@ -3232,19 +3121,6 @@ html {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/downloads.html",
-                            503
-                          ]
                         }
                       ]
                     },
@@ -4846,414 +4722,6 @@ webextensions.api.clipboard`,
                           children: {},
                           slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Browser_styles",
                           messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-no-missing-generic-family-keyword",
-                                "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                                '  font-family: "Lucida Grande", caption;',
-                                "102:33 - 102:40",
-                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Browser_styles
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-/* Global */
-html,
-body {
-  background: white;
-  box-sizing: border-box;
-  color: #222426;
-  cursor: default;
-  display: flex;
-  flex-direction: column;
-  font: caption;
-  margin: 0;
-  padding: 0;
-  -moz-user-select: none;
-}
-
-body * {
-  box-sizing: border-box;
-  text-align: start;
-}
-
-button.panel-section-footer-button,
-button.panel-section-tabs-button {
-  color: inherit;
-  background-color: unset;
-  font: inherit;
-  text-shadow: inherit;
-  appearance: none;
-  border: none;
-}
-
-/* Panel Section */
-.panel-section {
-  display: flex;
-  flex-direction: row;
-}
-
-.panel-section-separator {
-  background-color: rgb(0 0 0 / 0.15);
-  min-height: 1px;
-}
-
-/* Panel Section - Header */
-.panel-section-header {
-  border-bottom: 1px solid rgb(0 0 0 / 0.15);
-  padding: 16px;
-}
-
-.panel-section-header > .icon-section-header {
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 32px;
-  margin-right: 16px;
-  position: relative;
-  width: 32px;
-}
-
-.panel-section-header > .text-section-header {
-  align-self: center;
-  font-size: 1.385em;
-  font-weight: lighter;
-}
-
-/* Panel Section - List */
-.panel-section-list {
-  flex-direction: column;
-  padding: 4px 0;
-}
-
-.panel-list-item {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  height: 24px;
-  padding: 0 16px;
-}
-
-.panel-list-item:not(.disabled):hover {
-  background-color: rgb(0 0 0 / 0.06);
-  border-bottom: 1px solid rgb(0 0 0 / 0.1);
-  border-top: 1px solid rgb(0 0 0 / 0.1);
-}
-
-.panel-list-item:not(.disabled):hover:active {
-  background-color: rgb(0 0 0 / 0.1);
-}
-
-.panel-list-item.disabled {
-  color: #999;
-}
-
-.panel-list-item > .icon {
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-
-.panel-list-item > .text {
-  flex-grow: 10;
-}
-
-.panel-list-item > .text-shortcut {
-  color: #808080;
-  font-family: "Lucida Grande", caption;
-  font-size: 0.847em;
-  justify-content: flex-end;
-}
-
-.panel-section-list .panel-section-separator {
-  margin: 4px 0;
-}
-
-/* Panel Section - Footer */
-.panel-section-footer {
-  background-color: rgb(0 0 0 / 0.06);
-  border-top: 1px solid rgb(0 0 0 / 0.15);
-  color: #1a1a1a;
-  display: flex;
-  flex-direction: row;
-  height: 41px;
-  margin-top: -1px;
-  padding: 0;
-}
-
-.panel-section-footer-button {
-  flex: 1 1 auto;
-  height: 100%;
-  margin: 0 -1px;
-  padding: 12px;
-  text-align: center;
-}
-
-.panel-section-footer-button > .text-shortcut {
-  color: #808080;
-  font-family: "Lucida Grande", caption;
-  font-size: 0.847em;
-}
-
-.panel-section-footer-button:hover {
-  background-color: rgb(0 0 0 / 0.06);
-}
-
-.panel-section-footer-button:hover:active {
-  background-color: rgb(0 0 0 / 0.1);
-}
-
-.panel-section-footer-button.default {
-  background-color: #0996f8;
-  box-shadow: 0 1px 0 #0670cc inset;
-  color: #fff;
-}
-
-.panel-section-footer-button.default:hover {
-  background-color: #0670cc;
-  box-shadow: 0 1px 0 #005bab inset;
-}
-
-.panel-section-footer-button.default:hover:active {
-  background-color: #005bab;
-  box-shadow: 0 1px 0 #004480 inset;
-}
-
-.panel-section-footer-separator {
-  background-color: rgb(0 0 0 / 0.1);
-  width: 1px;
-  z-index: 99;
-}
-
-/* Example specific – not part of chrome://browser/content/extension.css */
-body {
-  background: #fcfcfc;
-  background-clip: padding-box;
-  border: 1px solid rgb(24 26 27 / 0.2);
-  box-shadow:
-    0 3px 5px rgb(24 26 27 / 0.1),
-    0 0 7px rgb(24 26 27 / 0.1);
-  box-sizing: content-box;
-  margin: 2em auto 0.5em;
-  width: 384px;
-}
-
-html {
-  min-height: 100vh;
-}
-
-html > body {
-  margin: auto;
-}
-
-.icon-section-header {
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48Y2lyY2xlIGZpbGw9IiMzNjM5NTkiIGN4PSIxNSIgY3k9IjE1IiByPSIxNSIvPjwvc3ZnPg==");
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-no-missing-generic-family-keyword",
-                                "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                                '  font-family: "Lucida Grande", caption;',
-                                "133:33 - 133:40",
-                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Browser_styles
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-/* Global */
-html,
-body {
-  background: white;
-  box-sizing: border-box;
-  color: #222426;
-  cursor: default;
-  display: flex;
-  flex-direction: column;
-  font: caption;
-  margin: 0;
-  padding: 0;
-  -moz-user-select: none;
-}
-
-body * {
-  box-sizing: border-box;
-  text-align: start;
-}
-
-button.panel-section-footer-button,
-button.panel-section-tabs-button {
-  color: inherit;
-  background-color: unset;
-  font: inherit;
-  text-shadow: inherit;
-  appearance: none;
-  border: none;
-}
-
-/* Panel Section */
-.panel-section {
-  display: flex;
-  flex-direction: row;
-}
-
-.panel-section-separator {
-  background-color: rgb(0 0 0 / 0.15);
-  min-height: 1px;
-}
-
-/* Panel Section - Header */
-.panel-section-header {
-  border-bottom: 1px solid rgb(0 0 0 / 0.15);
-  padding: 16px;
-}
-
-.panel-section-header > .icon-section-header {
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 32px;
-  margin-right: 16px;
-  position: relative;
-  width: 32px;
-}
-
-.panel-section-header > .text-section-header {
-  align-self: center;
-  font-size: 1.385em;
-  font-weight: lighter;
-}
-
-/* Panel Section - List */
-.panel-section-list {
-  flex-direction: column;
-  padding: 4px 0;
-}
-
-.panel-list-item {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  height: 24px;
-  padding: 0 16px;
-}
-
-.panel-list-item:not(.disabled):hover {
-  background-color: rgb(0 0 0 / 0.06);
-  border-bottom: 1px solid rgb(0 0 0 / 0.1);
-  border-top: 1px solid rgb(0 0 0 / 0.1);
-}
-
-.panel-list-item:not(.disabled):hover:active {
-  background-color: rgb(0 0 0 / 0.1);
-}
-
-.panel-list-item.disabled {
-  color: #999;
-}
-
-.panel-list-item > .icon {
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-
-.panel-list-item > .text {
-  flex-grow: 10;
-}
-
-.panel-list-item > .text-shortcut {
-  color: #808080;
-  font-family: "Lucida Grande", caption;
-  font-size: 0.847em;
-  justify-content: flex-end;
-}
-
-.panel-section-list .panel-section-separator {
-  margin: 4px 0;
-}
-
-/* Panel Section - Footer */
-.panel-section-footer {
-  background-color: rgb(0 0 0 / 0.06);
-  border-top: 1px solid rgb(0 0 0 / 0.15);
-  color: #1a1a1a;
-  display: flex;
-  flex-direction: row;
-  height: 41px;
-  margin-top: -1px;
-  padding: 0;
-}
-
-.panel-section-footer-button {
-  flex: 1 1 auto;
-  height: 100%;
-  margin: 0 -1px;
-  padding: 12px;
-  text-align: center;
-}
-
-.panel-section-footer-button > .text-shortcut {
-  color: #808080;
-  font-family: "Lucida Grande", caption;
-  font-size: 0.847em;
-}
-
-.panel-section-footer-button:hover {
-  background-color: rgb(0 0 0 / 0.06);
-}
-
-.panel-section-footer-button:hover:active {
-  background-color: rgb(0 0 0 / 0.1);
-}
-
-.panel-section-footer-button.default {
-  background-color: #0996f8;
-  box-shadow: 0 1px 0 #0670cc inset;
-  color: #fff;
-}
-
-.panel-section-footer-button.default:hover {
-  background-color: #0670cc;
-  box-shadow: 0 1px 0 #005bab inset;
-}
-
-.panel-section-footer-button.default:hover:active {
-  background-color: #005bab;
-  box-shadow: 0 1px 0 #004480 inset;
-}
-
-.panel-section-footer-separator {
-  background-color: rgb(0 0 0 / 0.1);
-  width: 1px;
-  z-index: 99;
-}
-
-/* Example specific – not part of chrome://browser/content/extension.css */
-body {
-  background: #fcfcfc;
-  background-clip: padding-box;
-  border: 1px solid rgb(24 26 27 / 0.2);
-  box-shadow:
-    0 3px 5px rgb(24 26 27 / 0.1),
-    0 0 7px rgb(24 26 27 / 0.1);
-  box-sizing: content-box;
-  margin: 2em auto 0.5em;
-  width: 384px;
-}
-
-html {
-  min-height: 100vh;
-}
-
-html > body {
-  margin: auto;
-}
-
-.icon-section-header {
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48Y2lyY2xlIGZpbGw9IiMzNjM5NTkiIGN4PSIxNSIgY3k9IjE1IiByPSIxNSIvPjwvc3ZnPg==");
-}
-~~~
-`
-                              ]
-                            },
                             {
                               message: "Unexpected BCD keys",
                               data: [
@@ -7145,6 +6613,13 @@ for (let i = 0; i < bgBtns.length; i++) {
                           data: [
                             "/en-US/docs/Web/CSS/length",
                             "#viewport-percentage_lengths"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/23.0a2/auroranotes/",
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -10071,118 +9546,6 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
-                intersection_observer_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Intersection_Observer_API",
-                  messages: [
-                    {
-                      message: "Missing image",
-                      data: [
-                        "ballon-portrait.jpg"
-                      ]
-                    },
-                    {
-                      message: "Missing image",
-                      data: [
-                        "balloon-small.jpg"
-                      ]
-                    },
-                    {
-                      message: "Missing image",
-                      data: [
-                        "surfer.jpg"
-                      ]
-                    },
-                    {
-                      message: "Missing image",
-                      data: [
-                        "border-diamonds.png"
-                      ]
-                    },
-                    {
-                      message: "Missing image",
-                      data: [
-                        "fire.png"
-                      ]
-                    },
-                    {
-                      message: "Missing image",
-                      data: [
-                        "puppy-header.jpg"
-                      ]
-                    },
-                    {
-                      message: "Missing image",
-                      data: [
-                        "moon.jpg"
-                      ]
-                    },
-                    {
-                      message: "Missing image",
-                      data: [
-                        "rhino.jpg"
-                      ]
-                    }
-                  ]
-                },
-                intersectionobserver: {
-                  children: {
-                    scrollmargin: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/IntersectionObserver/scrollMargin",
-                      messages: [
-                        {
-                          message: "Missing image",
-                          data: [
-                            "ballon-portrait.jpg"
-                          ]
-                        },
-                        {
-                          message: "Missing image",
-                          data: [
-                            "balloon-small.jpg"
-                          ]
-                        },
-                        {
-                          message: "Missing image",
-                          data: [
-                            "surfer.jpg"
-                          ]
-                        },
-                        {
-                          message: "Missing image",
-                          data: [
-                            "border-diamonds.png"
-                          ]
-                        },
-                        {
-                          message: "Missing image",
-                          data: [
-                            "fire.png"
-                          ]
-                        },
-                        {
-                          message: "Missing image",
-                          data: [
-                            "puppy-header.jpg"
-                          ]
-                        },
-                        {
-                          message: "Missing image",
-                          data: [
-                            "moon.jpg"
-                          ]
-                        },
-                        {
-                          message: "Missing image",
-                          data: [
-                            "rhino.jpg"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 keyboardevent: {
                   children: {
                     charcode: {
@@ -11009,23 +10372,6 @@ label {
                     }
                   ]
                 },
-                storage_access_api: {
-                  children: {
-                    related_website_sets: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Storage_Access_API/Related_website_sets",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webkit.org/standards-positions/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 svgrenderingintent: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SVGRenderingIntent",
@@ -11088,19 +10434,6 @@ label {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/SVG/Reference/Attribute/currentView"
-                      ]
-                    }
-                  ]
-                },
-                topics_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Topics_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webkit.org/standards-positions/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -11792,7 +11125,17 @@ document.getElementById("terminate").addEventListener("click", () => {
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://nodejs.org/en",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     },
                     using_encoded_transforms: {
                       children: {},
@@ -11810,6 +11153,26 @@ document.getElementById("terminate").addEventListener("click", () => {
                       ]
                     }
                   }
+                },
+                websockets_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WebSockets_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://nodejs.org/en",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://nodejs.org/en",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 webtransport_api: {
                   children: {},
@@ -16579,52 +15942,6 @@ rgb(from red r g b / alpha)
                           data: [
                             "font-family-no-missing-generic-family-keyword",
                             "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            "  font-family: some-non-variable-font-family;",
-                            "2:16 - 2:45",
-                            `/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-h1 {
-  font-family: some-non-variable-font-family;
-}
-
-@supports (font-variation-settings: "wdth" 115) {
-  h1 {
-    font-family: some-variable-font-family;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            "    font-family: some-variable-font-family;",
-                            "7:18 - 7:43",
-                            `/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-h1 {
-  font-family: some-non-variable-font-family;
-}
-
-@supports (font-variation-settings: "wdth" 115) {
-  h1 {
-    font-family: some-variable-font-family;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
                             '  font-family: "SlantFont";',
                             "9:16 - 9:27",
                             `/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide
@@ -18007,6 +17324,13 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       data: [
                         "https://codepen.io/KristopherVanSant/post/css-shapes-resources"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.sarasoueidan.com/blog/css-shapes/",
+                        "unknown certificate verification error"
+                      ]
                     }
                   ]
                 },
@@ -19203,33 +18527,6 @@ input {
 .fontfamily {
   display: inline-block;
 }
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "font-family": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-family",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        "font-family: Goudy Bookletter 1911, sans-serif;",
-                        "1:14 - 1:19",
-                        `/en-US/docs/Web/CSS/font-family
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
 ~~~
 `
                       ]
@@ -23443,31 +22740,6 @@ keyword value keyword value /* Each value is an offset from the keyword that pre
                       data: [
                         "position-area.drawio"
                       ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-elem",
-                        "Do not use the <style> element; use separate CSS blocks instead.",
-                        `<style contenteditable="true">.positionedElement {
-    position-area: top center;
-  }
-</style>`,
-                        "4:0 - 7:8",
-                        `/en-US/docs/Web/CSS/position-area
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<div class="anchor" contenteditable="true">⚓︎</div>
-
-<p class="positionedElement" contenteditable="true">This can be edited.</p>
-
-<style contenteditable="true">.positionedElement {
-    position-area: top center;
-  }
-</style>
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -25882,6 +25154,19 @@ div {
                           ]
                         }
                       ]
+                    },
+                    "third-party_cookies": {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/tracking-prevention/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/Privacy/Guides",
@@ -26862,6 +26147,27 @@ svg.elements.feSpotLight.z`
                           ]
                         }
                       }
+                    }
+                  }
+                }
+              }
+            },
+            uri: {
+              children: {
+                guides: {
+                  children: {
+                    "choosing_between_www_and_non-www_urls": {
+                      children: {},
+                      slug: "/en-US/docs/Web/URI/Guides/Choosing_between_www_and_non-www_URLs",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.netlify.com/blog/2020/03/26/how-to-set-up-netlify-dns-custom-domains-cname-and-a-records/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   }
                 }
