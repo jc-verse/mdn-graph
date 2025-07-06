@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-26e38cyf.js";
+} from "./chunk-57wzha1d.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -40,6 +40,19 @@ var warnings_processed_default = {
             },
             techniques: {
               children: {
+                "2d_collision_detection": {
+                  children: {},
+                  slug: "/en-US/docs/Games/Techniques/2D_collision_detection",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.sevenson.com.au/programming/sat/",
+                        "Cannot reach server and Bun hangs"
+                      ]
+                    }
+                  ]
+                },
                 "3d_on_the_web": {
                   children: {},
                   slug: "/en-US/docs/Games/Techniques/3D_on_the_web",
@@ -580,6 +593,19 @@ var warnings_processed_default = {
                       data: []
                     }
                   ]
+                },
+                domain_specific_language: {
+                  children: {},
+                  slug: "/en-US/docs/Glossary/DSL/Domain_specific_language",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://martinfowler.com/dsl.html",
+                        "Cannot reach server and Bun hangs"
+                      ]
+                    }
+                  ]
                 }
               },
               slug: "/en-US/docs/Glossary/DSL",
@@ -747,19 +773,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            javascript: {
-              children: {},
-              slug: "/en-US/docs/Glossary/JavaScript",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://nodejs.org/en",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -1706,13 +1719,6 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://v3-migration.vuejs.org/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2791,38 +2797,6 @@ refused.textContent = 'Refuse: ';
                 },
                 performance: {
                   children: {
-                    css: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/CSS",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            '  font-family: "Open Sans";',
-                            "11:16 - 11:27",
-                            `/en-US/docs/Learn_web_development/Extensions/Performance/CSS
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-/* Font not loaded here */
-@font-face {
-  font-family: "Open Sans";
-  src: url("OpenSans-Regular-webfont.woff2") format("woff2");
-}
-
-h1,
-h2,
-h3 {
-  /* It is actually loaded here */
-  font-family: "Open Sans";
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     web_performance_basics: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Web_Performance_Basics",
@@ -2874,6 +2848,36 @@ h3 {
                         }
                       }
                     },
+                    first_steps: {
+                      children: {
+                        "client-server_overview": {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://websniffer.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        web_frameworks: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://dotnet.microsoft.com/en-us/apps/aspnet",
+                                403
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     node_server_without_framework: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Node_server_without_framework",
@@ -2881,6 +2885,23 @@ h3 {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    }
+                  }
+                },
+                testing: {
+                  children: {
+                    testing_strategies: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://help.ubuntu.com/community/WindowsDualBoot",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -3102,7 +3123,7 @@ h3 {
                           message: "Broken external link",
                           data: [
                             "https://www.codelobster.com/forum/index.php",
-                            "Unable to connect. Is the computer able to access the url?"
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -6614,13 +6635,6 @@ for (let i = 0; i < bgBtns.length; i++) {
                             "/en-US/docs/Web/CSS/length",
                             "#viewport-percentage_lengths"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/23.0a2/auroranotes/",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     },
@@ -8697,103 +8711,6 @@ api.MessagePort`,
                     }
                   }
                 },
-                cssfontpalettevaluesrule: {
-                  children: {
-                    basepalette: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSFontPaletteValuesRule/basePalette",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            '  font-family: "Nabla";',
-                            "4:16 - 4:23",
-                            `/en-US/docs/Web/API/CSSFontPaletteValuesRule/basePalette
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
-
-h2 {
-  font-family: "Nabla";
-}
-
-@font-palette-values --two {
-  font-family: "Nabla";
-  base-palette: 2;
-}
-
-@font-palette-values --five {
-  font-family: "Nabla";
-  base-palette: 5;
-}
-
-.two {
-  font-palette: --two;
-}
-
-.five {
-  font-palette: --five;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    overridecolors: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSFontPaletteValuesRule/overrideColors",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            '  font-family: "Noto Color Emoji";',
-                            "10:16 - 10:34",
-                            `/en-US/docs/Web/API/CSSFontPaletteValuesRule/overrideColors
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-face {
-  font-family: "Noto Color Emoji";
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/l/font?kit=Yq6P-KqIXTD0t4D9z1ESnKM3-HpFabts6diywYkdG3gjD0U&skey=a373f7129eaba270&v=v24)
-    format("woff2");
-}
-
-.emoji {
-  font-family: "Noto Color Emoji";
-  font-size: 3rem;
-}
-
-@font-palette-values --blue {
-  font-family: "Noto Color Emoji";
-  override-colors:
-    3 rgb(1 28 193),
-    4 rgb(60 124 230);
-}
-
-@font-palette-values --green {
-  font-family: "Noto Color Emoji";
-  override-colors:
-    3 rgb(28 193 1),
-    4 rgb(34 230 1);
-}
-
-.colored-hat {
-  font-palette: --blue;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 datatransfer: {
                   children: {
                     addelement: {
@@ -9120,78 +9037,6 @@ api.DeviceOrientationEvent`,
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/rachelnabors/pen/rxpmJL/?editors=0010"
-                          ]
-                        }
-                      ]
-                    },
-                    requestfullscreen: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/requestFullscreen",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-block-no-duplicate-properties",
-                            'Unexpected duplicate "box-shadow" (declaration-block-no-duplicate-properties)',
-                            "  box-shadow: #cdcdcd;",
-                            "15:3 - 15:13",
-                            `/en-US/docs/Web/API/Element/requestFullscreen
-[declaration-block-no-duplicate-properties] Unexpected duplicate "box-shadow" (declaration-block-no-duplicate-properties)
-~~~
-body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 2em;
-}
-
-video::backdrop {
-  background-color: #448;
-}
-button {
-  display: block;
-}
-kbd {
-  border: 2px solid #cdcdcd;
-  border-radius: 3px;
-  box-shadow: #cdcdcd;
-  box-shadow: inset 0 -1px 0 0 #cdcdcd;
-  font-size: 0.825rem;
-  padding: 0.25rem;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "" for property "box-shadow" (declaration-property-value-no-unknown)',
-                            "  box-shadow: #cdcdcd;",
-                            "15:22 - 15:23",
-                            `/en-US/docs/Web/API/Element/requestFullscreen
-[declaration-property-value-no-unknown] Unexpected unknown value "" for property "box-shadow" (declaration-property-value-no-unknown)
-~~~
-body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 2em;
-}
-
-video::backdrop {
-  background-color: #448;
-}
-button {
-  display: block;
-}
-kbd {
-  border: 2px solid #cdcdcd;
-  border-radius: 3px;
-  box-shadow: #cdcdcd;
-  box-shadow: inset 0 -1px 0 0 #cdcdcd;
-  font-size: 0.825rem;
-  padding: 0.25rem;
-}
-~~~
-`
                           ]
                         }
                       ]
@@ -9606,29 +9451,6 @@ api.Document.fullscreen`,
                       children: {},
                       slug: "/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API",
                       messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            '  font-family: "NotoColorEmoji";',
-                            "2:16 - 2:32",
-                            `/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-label {
-  font-family: "NotoColorEmoji";
-  font-size: 3rem;
-  position: absolute;
-  top: 2px;
-  right: 3px;
-  z-index: 5;
-  cursor: pointer;
-}
-~~~
-`
-                          ]
-                        },
                         {
                           message: "Unexpected BCD keys",
                           data: [
@@ -11125,17 +10947,7 @@ document.getElementById("terminate").addEventListener("click", () => {
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://nodejs.org/en",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
+                      }
                     },
                     using_encoded_transforms: {
                       children: {},
@@ -11161,15 +10973,8 @@ document.getElementById("terminate").addEventListener("click", () => {
                     {
                       message: "Broken external link",
                       data: [
-                        "https://nodejs.org/en",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://nodejs.org/en",
-                        "The operation timed out."
+                        "https://dotnet.microsoft.com/en-us/apps/aspnet/signalr",
+                        403
                       ]
                     }
                   ]
@@ -11613,41 +11418,6 @@ document.getElementById("terminate").addEventListener("click", () => {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/:-moz-drag-over",
                   messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        "  font-family: arial;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/:-moz-drag-over
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-body {
-  font-family: arial;
-}
-div {
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  border: 2px dotted black;
-  background-color: aquamarine;
-  margin: 1rem;
-}
-p {
-  padding: 1rem;
-}
-
-#drop-target {
-  background-color: cornflowerblue;
-}
-#drop-target:-moz-drag-over {
-  background-color: red;
-}
-~~~
-`
-                      ]
-                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -12106,72 +11876,6 @@ css.selectors.-webkit-resizer`,
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            "  font-family: MonteCarlo;",
-                            "15:16 - 15:26",
-                            `/en-US/docs/Web/CSS/@font-face/font-feature-settings
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-face {
-  font-family: MonteCarlo;
-  src: url("montecarlo-regular.woff2");
-}
-@font-face {
-  font-family: MonteCarlo2;
-  src: url("montecarlo-regular.woff2");
-  font-feature-settings: "swsh" 1;
-}
-p {
-  font-size: 3rem;
-  margin: 0.7rem 3rem;
-}
-.swash-off {
-  font-family: MonteCarlo;
-}
-.swash-on {
-  font-family: MonteCarlo2;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            "  font-family: MonteCarlo2;",
-                            "18:16 - 18:27",
-                            `/en-US/docs/Web/CSS/@font-face/font-feature-settings
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-face {
-  font-family: MonteCarlo;
-  src: url("montecarlo-regular.woff2");
-}
-@font-face {
-  font-family: MonteCarlo2;
-  src: url("montecarlo-regular.woff2");
-  font-feature-settings: "swsh" 1;
-}
-p {
-  font-size: 3rem;
-  margin: 0.7rem 3rem;
-}
-.swash-off {
-  font-family: MonteCarlo;
-}
-.swash-on {
-  font-family: MonteCarlo2;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -12242,99 +11946,6 @@ p {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            "  font-family: MainText;",
-                            "24:16 - 24:24",
-                            `/en-US/docs/Web/CSS/@font-face/src
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-/* Defining a regular font face */
-@font-face {
-  font-family: MainText;
-  src:
-    local(Futura-Medium),
-    url("FuturaMedium.woff") format("woff"),
-    url("FuturaMedium.otf") format("opentype");
-}
-
-/* Defining a different bold font face for the same family */
-@font-face {
-  font-family: MainText;
-  src:
-    local(Gill Sans Bold) /* full font name */,
-    local(GillSans-Bold) /* postscript name */,
-    url("GillSansBold.woff") format("woff"),
-    url("GillSansBold.otf") format("opentype"),
-    url("GillSansBold.svg#MyFontBold"); /* Referencing an SVG font fragment by id */
-  font-weight: bold;
-}
-
-/* Using the regular font face */
-p {
-  font-family: MainText;
-}
-
-/* Font-family is inherited, but bold fonts are used */
-p.bold {
-  font-weight: bold;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            '  font-family: "Trickster";',
-                            "10:16 - 10:27",
-                            `/en-US/docs/Web/CSS/@font-face/src
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-face {
-  font-family: "Trickster";
-  src:
-    url("trickster-COLRv1.otf") format(opentype) tech(color-COLRv1),
-    url("trickster-outline.otf") format(opentype);
-}
-
-/* Using the font face */
-p {
-  font-family: "Trickster";
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            '    font-family: "Trickster";',
-                            "8:18 - 8:29",
-                            `/en-US/docs/Web/CSS/@font-face/src
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@supports font-tech(color-COLRv1) {
-  @font-face {
-    font-family: "Trickster";
-    src: url("trickster-COLRv1.otf") format(opentype) tech(color-COLRv1);
-  }
-
-  .colored_text {
-    font-family: "Trickster";
-  }
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -12386,46 +11997,6 @@ p {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            '  font-family: "Rocher";',
-                            "7:16 - 7:24",
-                            `/en-US/docs/Web/CSS/@font-palette-values/base-palette
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-face {
-  font-family: "Rocher";
-  src: url("[path-to-font]/RocherColorGX.woff2") format("woff2");
-}
-
-h2 {
-  font-family: "Rocher";
-}
-
-@font-palette-values --two {
-  font-family: "Rocher";
-  base-palette: 2;
-}
-
-@font-palette-values --five {
-  font-family: "Rocher";
-  base-palette: 5;
-}
-
-.two {
-  font-palette: --two;
-}
-
-.five {
-  font-palette: --five;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -12436,107 +12007,6 @@ h2 {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            '  font-family: "Bungee Spice";',
-                            "17:16 - 17:30",
-                            `/en-US/docs/Web/CSS/@font-palette-values/font-family
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-palette-values --Dark-Mode {
-  font-family: "Bungee Spice";
-  /* palette settings for Bungee Spice */
-}
-
-@font-palette-values --Dark-Mode {
-  font-family: Bixa;
-  /* palette settings for Bixa */
-}
-
-h1,
-h2 {
-  font-palette: --Dark-Mode;
-}
-
-h1 {
-  font-family: "Bungee Spice";
-}
-
-h2 {
-  font-family: Bixa;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            "  font-family: Bixa;",
-                            "21:16 - 21:20",
-                            `/en-US/docs/Web/CSS/@font-palette-values/font-family
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-palette-values --Dark-Mode {
-  font-family: "Bungee Spice";
-  /* palette settings for Bungee Spice */
-}
-
-@font-palette-values --Dark-Mode {
-  font-family: Bixa;
-  /* palette settings for Bixa */
-}
-
-h1,
-h2 {
-  font-palette: --Dark-Mode;
-}
-
-h1 {
-  font-family: "Bungee Spice";
-}
-
-h2 {
-  font-family: Bixa;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            '  font-family: "Bungee Spice";',
-                            "10:16 - 10:30",
-                            `/en-US/docs/Web/CSS/@font-palette-values/font-family
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@import url(https://fonts.googleapis.com/css2?family=Bungee+Spice);
-@font-palette-values --bungee-extra-spicy {
-  font-family: "Bungee Spice";
-  override-colors:
-    0 DarkRed,
-    1 Red;
-}
-
-h2 {
-  font-family: "Bungee Spice";
-}
-
-h2.extra-spicy {
-  font-palette: --bungee-extra-spicy;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -12547,121 +12017,10 @@ h2.extra-spicy {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            '  font-family: "Rocher";',
-                            "6:16 - 6:24",
-                            `/en-US/docs/Web/CSS/@font-palette-values/override-colors
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-face {
-  font-family: "Rocher";
-  src: url("[path-to-font]/RocherColorGX.woff2") format("woff2");
-}
-h2 {
-  font-family: "Rocher";
-}
-@font-palette-values --override-palette {
-  font-family: "Rocher";
-  base-palette: 3;
-}
-@font-palette-values --override-palette {
-  font-family: "Rocher";
-  base-palette: 3;
-  override-colors: 0 rebeccapurple;
-}
-.normal-palette {
-  font-palette: --normal-palette;
-}
-.override-palette {
-  font-palette: --override-palette;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            '  font-family: "Noto Color Emoji";',
-                            "16:16 - 16:34",
-                            `/en-US/docs/Web/CSS/@font-palette-values/override-colors
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-.hats {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-@font-face {
-  font-family: "Noto Color Emoji";
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/l/font?kit=Yq6P-KqIXTD0t4D9z1ESnKM3-HpFabts6diywYkdG3gjD0U&skey=a373f7129eaba270&v=v24)
-    format("woff2");
-}
-
-.emoji {
-  font-family: "Noto Color Emoji";
-  font-size: 3rem;
-}
-@font-palette-values --red {
-  font-family: "Noto Color Emoji";
-  override-colors:
-    0 rgb(74 11 0),
-    1 rgb(149 22 1),
-    2 rgb(183 27 1),
-    3 rgb(193 28 1),
-    4 rgb(230 34 1);
-}
-.red-hat {
-  font-palette: --red;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/@font-palette-values",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        '  font-family: "Bungee Spice";',
-                        "3:16 - 3:30",
-                        `/en-US/docs/Web/CSS/@font-palette-values
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@import url(https://fonts.googleapis.com/css2?family=Bungee+Spice);
-p {
-  font-family: "Bungee Spice";
-  font-size: 2rem;
-}
-@font-palette-values --Alternate {
-  font-family: "Bungee Spice";
-  override-colors:
-    0 #00ffbb,
-    1 #007744;
-}
-.alternate {
-  font-palette: --Alternate;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
+                  }
                 },
                 "@media": {
                   children: {
@@ -13169,49 +12528,6 @@ p {
                       ]
                     }
                   }
-                },
-                "@supports": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/@supports",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        '  font-family: "Bungee Spice";',
-                        "4:16 - 4:30",
-                        `/en-US/docs/Web/CSS/@supports
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice");
-
-@supports font-tech(color-COLRv1) {
-  font-family: "Bungee Spice";
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        '  font-family: "Open Sans";',
-                        "2:16 - 2:27",
-                        `/en-US/docs/Web/CSS/@supports
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@supports font-format(woff2) {
-  font-family: "Open Sans";
-  src: url("open-sans.woff2") format("woff2");
-}
-~~~
-`
-                      ]
-                    }
-                  ]
                 },
                 attr: {
                   children: {},
@@ -15933,56 +15249,6 @@ rgb(from red r g b / alpha)
                 },
                 css_fonts: {
                   children: {
-                    variable_fonts_guide: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            '  font-family: "SlantFont";',
-                            "9:16 - 9:27",
-                            `/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-face {
-  font-family: "SlantFont";
-  font-style: oblique -15deg 15deg;
-  src: url("https://mdn.github.io/shared-assets/fonts/font_with_slant_axis.woff2")
-    format("woff2");
-}
-
-p {
-  font-family: "SlantFont";
-  display: inline-block;
-  margin: 1rem;
-  font-size: 4rem;
-}
-
-.adjustable-box {
-  border: 1px dashed;
-  --text-axis: -5;
-}
-
-.font-style {
-  font-style: oblique 5deg;
-}
-
-.font-variation {
-  font-variation-settings: "slnt" -5;
-}
-
-.adjustable {
-  font-variation-settings: "slnt" var(--slant-angle);
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     woff: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_fonts/WOFF",
@@ -17324,13 +16590,6 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       data: [
                         "https://codepen.io/KristopherVanSant/post/css-shapes-resources"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.sarasoueidan.com/blog/css-shapes/",
-                        "unknown certificate verification error"
-                      ]
                     }
                   ]
                 },
@@ -18464,705 +17723,6 @@ css.properties.width.fit-content_function`
                         "/en-US/docs/Web/CSS/font-stretch",
                         "#interpolation"
                       ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        "  font: 14px arial;",
-                        "3:14 - 3:19",
-                        `/en-US/docs/Web/CSS/font
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-body,
-input {
-  font: 14px arial;
-  overflow: hidden;
-}
-
-.propInputCont {
-  float: left;
-  text-align: center;
-  margin-right: 5px;
-  width: 80px;
-}
-
-.setPropCont {
-  float: left;
-  margin-right: 5px;
-  width: 120px;
-}
-
-.propInputs,
-.setPropCont {
-  margin-bottom: 1em;
-}
-
-.curCss {
-  border: none;
-  border-bottom: 1px solid black;
-  text-align: center;
-  width: 80px;
-}
-
-.mandatory {
-  border-bottom-color: red;
-}
-
-.cf::before,
-.cf::after {
-  content: " ";
-  display: table;
-}
-
-.cf::after {
-  clear: both;
-}
-
-.tar {
-  width: 40px;
-  text-align: right;
-}
-.fontfamily {
-  display: inline-block;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "font-feature-settings": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-feature-settings",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        "  font-family: Gabriola;",
-                        "43:16 - 43:24",
-                        `/en-US/docs/Web/CSS/font-feature-settings
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-/* use small-cap alternate glyphs */
-.small-caps {
-  font-feature-settings: "smcp" on;
-}
-
-/* convert both upper and lowercase to small caps (affects punctuation also) */
-.all-small-caps {
-  font-feature-settings: "c2sc", "smcp";
-}
-
-/* use zeros with a slash through them to differentiate from "O" */
-.nice-zero {
-  font-feature-settings: "zero";
-}
-
-/* enable historical forms */
-.historical {
-  font-feature-settings: "hist";
-}
-
-/* disable common ligatures, usually on by default */
-.no-ligatures {
-  font-feature-settings: "liga" 0;
-}
-
-/* enable tabular (monospaced) figures */
-td.tabular {
-  font-feature-settings: "tnum";
-}
-
-/* enable automatic fractions */
-.fractions {
-  font-feature-settings: "frac";
-}
-
-/* use the second available swash character */
-.swash {
-  font-feature-settings: "swsh" 2;
-}
-
-/* enable stylistic set 7 */
-.fancy-style {
-  font-family: Gabriola;
-  font-feature-settings: "ss07";
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "font-optical-sizing": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-optical-sizing",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        "  font-family: Amstelvar;",
-                        "8:16 - 8:25",
-                        `/en-US/docs/Web/CSS/font-optical-sizing
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-face {
-  src: url("/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
-  font-family: Amstelvar;
-  font-style: normal;
-}
-
-#example-element {
-  font-family: Amstelvar;
-  text-align: left;
-}
-
-#example-element h2 {
-  font-size: 36px;
-}
-
-#example-element p {
-  font-size: 12px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        "  font-family: Amstelvar;",
-                        "9:16 - 9:25",
-                        `/en-US/docs/Web/CSS/font-optical-sizing
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-face {
-  src: url("AmstelvarAlpha-VF.ttf");
-  font-family: "Amstelvar";
-  font-style: normal;
-}
-
-p {
-  font-size: 36px;
-  font-family: Amstelvar;
-}
-
-.no-optical-sizing {
-  font-optical-sizing: none;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "font-palette": {
-                  children: {
-                    "palette-mix": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/font-palette/palette-mix",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            '  font-family: "Nabla";',
-                            "14:16 - 14:23",
-                            `/en-US/docs/Web/CSS/font-palette/palette-mix
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
-
-@font-palette-values --blueNabla {
-  font-family: Nabla;
-  base-palette: 2; /* this is Nabla's blue palette */
-}
-
-@font-palette-values --yellowNabla {
-  font-family: Nabla;
-  base-palette: 7; /* this is Nabla's yellow palette */
-}
-
-p {
-  font-family: "Nabla";
-  font-size: 4rem;
-  text-align: center;
-  margin: 0;
-}
-
-.yellowPalette {
-  font-palette: --yellowNabla;
-}
-
-.bluePalette {
-  font-palette: --blueNabla;
-}
-
-.mixedPalette {
-  font-palette: palette-mix(in lch, --blueNabla 55%, --yellowNabla 45%);
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/CSS/font-palette",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        '  font-family: "Nabla";',
-                        "24:16 - 24:23",
-                        `/en-US/docs/Web/CSS/font-palette
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
-
-@font-palette-values --blueNabla {
-  font-family: Nabla;
-  base-palette: 2; /* this is Nabla's blue palette */
-}
-
-@font-palette-values --greyNabla {
-  font-family: Nabla;
-  base-palette: 3; /* this is Nabla's grey palette */
-}
-
-@keyframes animate-palette {
-  from {
-    font-palette: --greyNabla;
-  }
-
-  to {
-    font-palette: --blueNabla;
-  }
-}
-
-p {
-  font-family: "Nabla";
-  font-size: 5rem;
-  margin: 0;
-  text-align: center;
-  animation: animate-palette 4s infinite alternate linear;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "font-size-adjust": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-size-adjust",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        "  font-family: Futura;",
-                        "22:16 - 22:22",
-                        `/en-US/docs/Web/CSS/font-size-adjust
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-body {
-  display: flex;
-}
-
-div {
-  text-align: center;
-}
-
-p {
-  margin: 0 30px 10px 30px;
-}
-
-body {
-  display: flex;
-}
-
-div {
-  text-align: center;
-}
-
-p {
-  font-family: Futura;
-  font-size: 50px;
-}
-
-span {
-  border: solid 1px red;
-}
-
-.adjust1 {
-  font-size-adjust: 0.6;
-}
-
-.adjust2 {
-  font-size-adjust: 0.5;
-}
-
-.adjust3 {
-  font-size-adjust: 0.482;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "font-stretch": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-stretch",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        '  font: 90px "Anek Malayalam";',
-                        "26:14 - 26:30",
-                        `/en-US/docs/Web/CSS/font-stretch
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-face {
-  font-family: "Inconsolata";
-  src: url("https://fonts.gstatic.com/s/inconsolata/v31/QlddNThLqRwH-OJ1UHjlKENVzlm-WkL3GZQmAwPyya15.woff2")
-    format("woff2");
-  font-stretch: 50% 200%;
-}
-
-@font-face {
-  font-family: "Anek Malayalam";
-  src: url("https://fonts.gstatic.com/s/anekmalayalam/v4/6qLUKZActRTs_mZAJUZWWkhke0nYa-f6__Azq3-gP1W7db9_.woff2")
-    format("woff2");
-  font-stretch: 75% 125%;
-}
-
-td {
-  border: solid;
-  border-width: 1px;
-}
-
-#inconsolata td {
-  font:
-    90px Inconsolata,
-    sans-serif;
-}
-#anek-malayalam td {
-  font: 90px "Anek Malayalam";
-}
-#inconsolata td:nth-child(2),
-#anek-malayalam td:nth-child(2) {
-  font-stretch: 50%;
-}
-#inconsolata td:nth-child(3),
-#anek-malayalam td:nth-child(3) {
-  font-stretch: 62.5%;
-}
-#inconsolata td:nth-child(4),
-#anek-malayalam td:nth-child(4) {
-  font-stretch: 75%;
-}
-#inconsolata td:nth-child(5),
-#anek-malayalam td:nth-child(5) {
-  font-stretch: 87.5%;
-}
-#inconsolata td:nth-child(6),
-#anek-malayalam td:nth-child(6) {
-  font-stretch: 100%;
-}
-#inconsolata td:nth-child(7),
-#anek-malayalam td:nth-child(7) {
-  font-stretch: 112.5%;
-}
-#inconsolata td:nth-child(8),
-#anek-malayalam td:nth-child(8) {
-  font-stretch: 125%;
-}
-#inconsolata td:nth-child(9),
-#anek-malayalam td:nth-child(9) {
-  font-stretch: 150%;
-}
-#inconsolata td:nth-child(10),
-#anek-malayalam td:nth-child(10) {
-  font-stretch: 200%;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "font-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-style",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        "  font-family: Amstelvar;",
-                        "9:16 - 9:25",
-                        `/en-US/docs/Web/CSS/font-style
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-face {
-  src: url("/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
-  font-family: Amstelvar;
-  font-style: normal;
-}
-
-section {
-  font-size: 1.2em;
-  font-family: Amstelvar;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "font-synthesis": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-synthesis",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        "  font-family: Oxygen;",
-                        "57:16 - 57:22",
-                        `/en-US/docs/Web/CSS/font-synthesis
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-face {
-  font-family: Oxygen;
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.gstatic.com/s/oxygen/v14/2sDfZG1Wl4LcnbuKjk0m.woff2")
-    format("woff2");
-}
-
-/* [108] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.108.woff2")
-    format("woff2");
-}
-/* [110] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.110.woff2")
-    format("woff2");
-}
-/* [117] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.117.woff2")
-    format("woff2");
-}
-/* [118] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.118.woff2")
-    format("woff2");
-}
-/* [119] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.119.woff2")
-    format("woff2");
-}
-
-.english {
-  font-size: 1.2em;
-  font-family: Oxygen;
-}
-
-.chinese {
-  font-size: 1.2em;
-  font-family: "Ma Shan Zheng";
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.small-caps {
-  font-variant: small-caps;
-}
-
-.sub {
-  font-variant: sub;
-}
-
-.sup {
-  font-variant: super;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        '  font-family: "Ma Shan Zheng";',
-                        "62:16 - 62:31",
-                        `/en-US/docs/Web/CSS/font-synthesis
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-face {
-  font-family: Oxygen;
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.gstatic.com/s/oxygen/v14/2sDfZG1Wl4LcnbuKjk0m.woff2")
-    format("woff2");
-}
-
-/* [108] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.108.woff2")
-    format("woff2");
-}
-/* [110] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.110.woff2")
-    format("woff2");
-}
-/* [117] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.117.woff2")
-    format("woff2");
-}
-/* [118] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.118.woff2")
-    format("woff2");
-}
-/* [119] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.119.woff2")
-    format("woff2");
-}
-
-.english {
-  font-size: 1.2em;
-  font-family: Oxygen;
-}
-
-.chinese {
-  font-size: 1.2em;
-  font-family: "Ma Shan Zheng";
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.small-caps {
-  font-variant: small-caps;
-}
-
-.sub {
-  font-variant: sub;
-}
-
-.sup {
-  font-variant: super;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        '  font-family: "Ma Shan Zheng";',
-                        "8:16 - 8:31",
-                        `/en-US/docs/Web/CSS/font-synthesis
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap");
-
-.english {
-  font-family: "Montserrat", sans-serif;
-}
-.chinese {
-  font-family: "Ma Shan Zheng";
-}
-.no-syn {
-  font-synthesis: none;
-}
-.syn {
-  font-synthesis: style weight;
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -19180,147 +17740,6 @@ section {
                       message: "Unknown asset type",
                       data: [
                         "ofl.txt"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        '  font-family: "MonteCarlo";',
-                        "13:16 - 13:28",
-                        `/en-US/docs/Web/CSS/font-variant-alternates
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-face {
-  font-family: MonteCarlo;
-  src: url("montecarlo-regular.woff2");
-}
-
-@font-feature-values "MonteCarlo" {
-  @swash {
-    fancy: 1;
-  }
-}
-
-p {
-  font-family: "MonteCarlo";
-  font-size: 3rem;
-  margin: 0.7rem 3rem;
-}
-
-.variant {
-  font-variant-alternates: swash(fancy);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "font-variant-east-asian": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant-east-asian",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        '  font-family: "Yu Gothic";',
-                        "6:16 - 6:27",
-                        `/en-US/docs/Web/CSS/font-variant-east-asian
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-tbody {
-  border: 0;
-}
-
-td {
-  font-family: "Yu Gothic";
-  font-size: 20px;
-}
-th {
-  color: grey;
-  padding-right: 10px;
-}
-
-.ruby {
-  font-variant-east-asian: ruby;
-}
-
-.jis78 {
-  font-variant-east-asian: jis78;
-}
-
-.traditional {
-  font-variant-east-asian: traditional;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "font-variant-numeric": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant-numeric",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        '  font-family: "Source Sans Pro";',
-                        "10:16 - 10:33",
-                        `/en-US/docs/Web/CSS/font-variant-numeric
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-face {
-  font-family: "Source Sans Pro";
-  src: url("https://mdn.github.io/shared-assets/fonts/SourceSansPro-Regular.otf")
-    format("opentype");
-  font-weight: 400;
-  font-style: normal;
-}
-
-.ordinal {
-  font-family: "Source Sans Pro";
-  font-size: 2rem;
-  font-variant-numeric: ordinal;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "font-variation-settings": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variation-settings",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        "  font-family: Amstelvar;",
-                        "9:16 - 9:25",
-                        `/en-US/docs/Web/CSS/font-variation-settings
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-face {
-  src: url("/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
-  font-family: Amstelvar;
-  font-style: normal;
-}
-
-p {
-  font-size: 1.5rem;
-  font-family: Amstelvar;
-}
-~~~
-`
                       ]
                     }
                   ]
@@ -21586,36 +20005,6 @@ image-set('cat.jpg' 1x, 'dog.jpg' 1x) /* every image in an image set must have a
                     }
                   }
                 },
-                "letter-spacing": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/letter-spacing",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        "  font-family: Amstelvar;",
-                        "9:16 - 9:25",
-                        `/en-US/docs/Web/CSS/letter-spacing
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-face {
-  src: url("/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
-  font-family: Amstelvar;
-  font-style: normal;
-}
-
-section {
-  font-size: 1.2em;
-  font-family: Amstelvar;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "line-height-step": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/line-height-step",
@@ -22544,161 +20933,6 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                page: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/page",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        "    font-family: Roboto;",
-                        "53:18 - 53:24",
-                        `/en-US/docs/Web/CSS/page
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@page toc {
-  size: a4 portrait;
-  @top-center {
-    content: "Table of contents";
-  }
-}
-
-@page foreword {
-  size: a4 portrait;
-  @top-center {
-    content: "Foreword";
-  }
-}
-
-@page introduction {
-  size: a4 portrait;
-  @top-center {
-    content: "Introduction";
-  }
-}
-
-@page conclusion {
-  size: a4 portrait;
-  @top-center {
-    content: "Conclusion";
-  }
-}
-
-@page chapter {
-  size: a4 landscape;
-  @top-center {
-    content: "Chapter";
-  }
-}
-
-fieldset {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 1rem;
-  width: fit-content;
-}
-body {
-  font: 1.1em sans-serif;
-}
-
-@media print {
-  fieldset {
-    display: none;
-  }
-  section {
-    font-size: 2rem;
-    font-family: Roboto;
-  }
-  .chapter {
-    border: tomato 2px solid;
-  }
-  [data-print="grouped"] > #toc,
-  [data-print="paged"] > #toc {
-    page: toc;
-    font-family: Courier;
-  }
-  [data-print="grouped"] > #foreword,
-  [data-print="paged"] > #foreword {
-    page: foreword;
-    font-family: Courier;
-  }
-  [data-print="grouped"] > #introduction,
-  [data-print="paged"] > #introduction {
-    page: introduction;
-    font-family: Courier;
-  }
-  [data-print="grouped"] > #conclusion,
-  [data-print="paged"] > #conclusion {
-    page: conclusion;
-    font-family: Courier;
-  }
-  [data-print="grouped"] > .chapter,
-  [data-print="paged"] > .chapter {
-    page: chapter;
-  }
-  [data-print="paged"] > .chapter {
-    border: none;
-    break-after: page;
-  }
-  .chapter > ul {
-    columns: 2;
-  }
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                position: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/position",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        "  font-family: verdana;",
-                        "7:16 - 7:23",
-                        `/en-US/docs/Web/CSS/position
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-div {
-  width: 400px;
-  height: 200px;
-  overflow: scroll;
-  scrollbar-width: thin;
-  font-size: 16px;
-  font-family: verdana;
-  border: 1px solid;
-}
-
-p {
-  width: 600px;
-  user-select: none;
-  margin: 0;
-  border: 110px solid transparent;
-}
-
-.bulb {
-  position: sticky;
-  inset: 50px 100px 50px 100px;
-}
-
-div {
-  /* mark area defined by the inset boundaries using gray color */
-  background: linear-gradient(#9999, #9999) 100px 50px / 192px 100px no-repeat;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 position_value: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/position_value",
@@ -23429,29 +21663,6 @@ css.properties.grid-template-rows.repeat`
                     }
                   ]
                 },
-                selector_list: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/Selector_list",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        "  font-family: helvetica;",
-                        "2:16 - 2:25",
-                        `/en-US/docs/Web/CSS/Selector_list
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-h1, h2, h3, h4, h5, h6 {
-  font-family: helvetica;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 shape: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/shape",
@@ -23647,36 +21858,6 @@ content: url(star.svg) url(star.svg) url(star.svg) url(star.svg) url(star.svg);
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    }
-                  ]
-                },
-                "word-spacing": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/word-spacing",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        "  font-family: Amstelvar;",
-                        "9:16 - 9:25",
-                        `/en-US/docs/Web/CSS/word-spacing
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@font-face {
-  src: url("/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
-  font-family: Amstelvar;
-  font-style: normal;
-}
-
-section {
-  font-size: 1.2em;
-  font-family: Amstelvar;
-}
-~~~
-`
-                      ]
                     }
                   ]
                 }
@@ -24183,140 +22364,6 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
-                        caption: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/caption",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-no-missing-generic-family-keyword",
-                                "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                                "  font: 1.4rem molot;",
-                                "38:16 - 38:21",
-                                `/en-US/docs/Web/HTML/Reference/Elements/caption
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-caption {
-  caption-side: bottom;
-  padding: 10px;
-  font-weight: bold;
-}
-
-table {
-  border-collapse: collapse;
-  border: 2px solid rgb(140 140 140);
-  font-family: sans-serif;
-  font-size: 0.8rem;
-  letter-spacing: 1px;
-}
-
-th,
-td {
-  border: 1px solid rgb(160 160 160);
-  padding: 8px 10px;
-}
-
-th {
-  background-color: rgb(230 230 230);
-}
-
-td {
-  text-align: center;
-}
-
-tr:nth-child(even) td {
-  background-color: rgb(250 250 250);
-}
-
-tr:nth-child(odd) td {
-  background-color: rgb(240 240 240);
-}
-
-.heman {
-  font: 1.4rem molot;
-  text-shadow:
-    1px 1px 1px #fff,
-    2px 2px 1px #000;
-}
-
-.skeletor {
-  font: 1.7rem rapscallion;
-  letter-spacing: 3px;
-  text-shadow:
-    1px 1px 0 #fff,
-    0 0 9px #000;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-no-missing-generic-family-keyword",
-                                "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                                "  font: 1.7rem rapscallion;",
-                                "45:16 - 45:27",
-                                `/en-US/docs/Web/HTML/Reference/Elements/caption
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-caption {
-  caption-side: bottom;
-  padding: 10px;
-  font-weight: bold;
-}
-
-table {
-  border-collapse: collapse;
-  border: 2px solid rgb(140 140 140);
-  font-family: sans-serif;
-  font-size: 0.8rem;
-  letter-spacing: 1px;
-}
-
-th,
-td {
-  border: 1px solid rgb(160 160 160);
-  padding: 8px 10px;
-}
-
-th {
-  background-color: rgb(230 230 230);
-}
-
-td {
-  text-align: center;
-}
-
-tr:nth-child(even) td {
-  background-color: rgb(250 250 250);
-}
-
-tr:nth-child(odd) td {
-  background-color: rgb(240 240 240);
-}
-
-.heman {
-  font: 1.4rem molot;
-  text-shadow:
-    1px 1px 1px #fff,
-    2px 2px 1px #000;
-}
-
-.skeletor {
-  font: 1.7rem rapscallion;
-  letter-spacing: 3px;
-  text-shadow:
-    1px 1px 0 #fff,
-    0 0 9px #000;
-}
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         meta: {
                           children: {
                             name: {
@@ -24800,95 +22847,7 @@ http.headers.Use-As-Dictionary`,
               }
             },
             mathml: {
-              children: {
-                tutorials: {
-                  children: {
-                    for_beginners: {
-                      children: {
-                        fractions_and_roots: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Tutorials/For_beginners/Fractions_and_roots",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-no-missing-generic-family-keyword",
-                                "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                                "    STIX Two Math;",
-                                "4:5 - 4:9",
-                                `/en-US/docs/Web/MathML/Tutorials/For_beginners/Fractions_and_roots
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-math {
-  font-family:
-    Latin Modern Math,
-    STIX Two Math;
-  font-size: 200%;
-}
-math .highlight {
-  background: pink;
-}
-math [id] .highlight {
-  background: lightblue;
-}
-p {
-  padding: 0.5em;
-}
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        text_containers: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Tutorials/For_beginners/Text_containers",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-no-missing-generic-family-keyword",
-                                "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                                "  font-family: Latin Modern Math;",
-                                "2:16 - 2:21",
-                                `/en-US/docs/Web/MathML/Tutorials/For_beginners/Text_containers
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-p {
-  font-family: Latin Modern Math;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-no-missing-generic-family-keyword",
-                                "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                                "  font-family: Latin Modern Math;",
-                                "6:16 - 6:21",
-                                `/en-US/docs/Web/MathML/Tutorials/For_beginners/Text_containers
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-div {
-  padding: 0.5em;
-}
-
-.text {
-  font-family: Latin Modern Math;
-}
-~~~
-`
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                }
-              },
+              children: {},
               slug: "/en-US/docs/Web/MathML",
               messages: [
                 {
@@ -25011,6 +22970,19 @@ div {
                     },
                     formats: {
                       children: {
+                        configuring_servers_for_ogg_media: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Configuring_servers_for_Ogg_media",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://gitlab.xiph.org/xiph/ffmpeg2theora",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -25151,19 +23123,6 @@ div {
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Web/Privacy/Guides/Storage_Access_Policy/Errors"
-                          ]
-                        }
-                      ]
-                    },
-                    "third-party_cookies": {
-                      children: {},
-                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webkit.org/tracking-prevention/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -26133,6 +24092,19 @@ svg.elements.feSpotLight.z`
                   children: {
                     svg_from_scratch: {
                       children: {
+                        getting_started: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Getting_started",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://websniffer.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         tools_for_svg: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Tools_for_SVG",
@@ -26147,27 +24119,6 @@ svg.elements.feSpotLight.z`
                           ]
                         }
                       }
-                    }
-                  }
-                }
-              }
-            },
-            uri: {
-              children: {
-                guides: {
-                  children: {
-                    "choosing_between_www_and_non-www_urls": {
-                      children: {},
-                      slug: "/en-US/docs/Web/URI/Guides/Choosing_between_www_and_non-www_URLs",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.netlify.com/blog/2020/03/26/how-to-set-up-netlify-dns-custom-domains-cname-and-a-records/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
