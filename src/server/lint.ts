@@ -328,7 +328,23 @@ function reportIfUnexpected(
   }
   report(
     path,
-    ["alpha-value-notation", "color-hex-length", "font-weight-notation", "hue-degree-notation", "import-notation", "keyframe-selector-notation", "lightness-notation", "font-family-name-quotes", "function-url-quotes", "declaration-block-no-redundant-longhand-properties", "shorthand-property-no-redundant-values", "comment-whitespace-inside"].includes(ruleId) ? "Stylelint backlog" : `${language.toUpperCase()} code issue`,
+    [
+      "value-keyword-case",
+      "alpha-value-notation",
+      "color-hex-length",
+      "font-weight-notation",
+      "hue-degree-notation",
+      "import-notation",
+      "keyframe-selector-notation",
+      "lightness-notation",
+      "font-family-name-quotes",
+      "function-url-quotes",
+      "declaration-block-no-redundant-longhand-properties",
+      "shorthand-property-no-redundant-values",
+      "comment-whitespace-inside",
+    ].includes(ruleId)
+      ? "Stylelint backlog"
+      : `${language.toUpperCase()} code issue`,
     ruleId,
     message,
     region,
@@ -356,49 +372,53 @@ async function checkJS(
       return acc;
     }, []);
   for (const { fileName, content } of scripts) {
-    const results = await eslint.lintText(
-      content
-        // Avoid spaced-comment report
-        .replaceAll("/*,", "/* ,")
-        .replaceAll("//@", "// @")
-        .replaceAll("//#", "// #"),
-      {
-        filePath: `${path.replace("/en-US/docs/", "")}/${fileName}`,
-      },
-    );
-    for (const result of results) {
-      result.messages.forEach((msg) => {
-        // No better way to disable this error :(
-        if (
-          msg.ruleId === "no-unused-labels" &&
-          msg.message === "'$:' is defined but never used." &&
-          path.startsWith(
-            "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_",
+    try {
+      const results = await eslint.lintText(
+        content
+          // Avoid spaced-comment report
+          .replaceAll("/*,", "/* ,")
+          .replaceAll("//@", "// @")
+          .replaceAll("//#", "// #"),
+        {
+          filePath: `${path.replace("/en-US/docs/", "")}/${fileName}`,
+        },
+      );
+      for (const result of results) {
+        result.messages.forEach((msg) => {
+          // No better way to disable this error :(
+          if (
+            msg.ruleId === "no-unused-labels" &&
+            msg.message === "'$:' is defined but never used." &&
+            path.startsWith(
+              "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_",
+            )
           )
-        )
-          return;
-        const reportingLine = content
-          .split("\n")
-          .slice(msg.line - 1, msg.endLine ? msg.endLine : msg.line)
-          .join("\n");
-        if (
-          msg.ruleId === "no-useless-concat" &&
-          reportingLine.match(/<[`"'] \+ [`"']\/script/)
-        )
-          return;
-        reportIfUnexpected(
-          path,
-          "js",
-          msg.ruleId ?? "syntax",
-          msg.message,
-          fullContent,
-          msg.endLine
-            ? `${msg.line}:${msg.column} - ${msg.endLine}:${msg.endColumn}`
-            : `${msg.line}:${msg.column}`,
-          reportingLine,
-          report,
-        );
-      });
+            return;
+          const reportingLine = content
+            .split("\n")
+            .slice(msg.line - 1, msg.endLine ? msg.endLine : msg.line)
+            .join("\n");
+          if (
+            msg.ruleId === "no-useless-concat" &&
+            reportingLine.match(/<[`"'] \+ [`"']\/script/)
+          )
+            return;
+          reportIfUnexpected(
+            path,
+            "js",
+            msg.ruleId ?? "syntax",
+            msg.message,
+            fullContent,
+            msg.endLine
+              ? `${msg.line}:${msg.column} - ${msg.endLine}:${msg.endColumn}`
+              : `${msg.line}:${msg.column}`,
+            reportingLine,
+            report,
+          );
+        });
+      }
+    } catch (e) {
+      console.error(content, e);
     }
   }
 }
@@ -423,85 +443,89 @@ async function checkCSS(
       origConsoleWarn(msg);
     }
   };
-  const results = await stylelint.lint({
-    code: content,
-    codeFilename: `${path.replace("/en-US/docs/", "")}/test.${language}`,
-    config: stylelintConfig(isPropertyOnly),
-    cache: false,
-    fix: false,
-    validate: false,
-  });
-  console.warn = origConsoleWarn;
-  for (const result of results.results) {
-    result.warnings.forEach((msg) => {
-      const reportRegion = content
-        .split("\n")
-        .slice(msg.line - 1, msg.endLine ? msg.endLine : msg.line)
-        .join("\n");
-      // TODO: csstree does not recognize trig functions
-      if (
-        msg.rule === "declaration-property-value-no-unknown" &&
-        msg.text.match(
-          /Unexpected unknown value "rotate\((?:asin|acos|atan|atan2)\([^)]+\)\)" for property "transform" \(declaration-property-value-no-unknown\)/,
-        ) &&
-        reportRegion.match(
-          /^\s*transform: rotate\((?:asin|acos|atan|atan2)\([^)]+\)\);$/,
-        )
-      ) {
-        return;
-      }
-      if (
-        msg.rule === "declaration-property-value-no-unknown" &&
-        msg.text.match(
-          /Unexpected unknown value "round\([^)]+\)" for property "height" \(declaration-property-value-no-unknown\)/,
-        ) &&
-        reportRegion.match(/^\s*height: round\([^)]+\);$/)
-      ) {
-        return;
-      }
-      if (
-        msg.rule === "declaration-property-value-no-unknown" &&
-        msg.text.match(
-          /Unexpected unknown value "sign\([^)]+\)" for property "background-position" \(declaration-property-value-no-unknown\)/,
-        ) &&
-        reportRegion.match(/^\s*background-position: sign\([^)]+\);$/)
-      ) {
-        return;
-      }
-      // TODO: csstree does not recognize size in calc-size or relative color functions
-      if (
-        msg.rule === "declaration-property-value-no-unknown" &&
-        msg.text.match(
-          /Unexpected unknown value "calc-size\(.*\)" for property "(?:width|height)" \(declaration-property-value-no-unknown\)/,
-        ) &&
-        reportRegion.match(/^\s*(?:width|height): calc-size\(.*\);$/)
-      ) {
-        return;
-      }
-      if (
-        msg.rule === "declaration-property-value-no-unknown" &&
-        msg.text.match(
-          /Unexpected unknown value "(?:rgb|lch)\(from .*\)" for property "(?:background-color|color)" \(declaration-property-value-no-unknown\)/,
-        ) &&
-        reportRegion.match(
-          /^\s*(?:background-color|color): (?:rgb|lch)\(from .*\);$/,
-        )
-      ) {
-        return;
-      }
-      reportIfUnexpected(
-        path,
-        "css",
-        msg.rule,
-        msg.text,
-        fullContent,
-        msg.endLine
-          ? `${msg.line}:${msg.column} - ${msg.endLine}:${msg.endColumn}`
-          : `${msg.line}:${msg.column}`,
-        reportRegion,
-        report,
-      );
+  try {
+    const results = await stylelint.lint({
+      code: content,
+      codeFilename: `${path.replace("/en-US/docs/", "")}/test.${language}`,
+      config: stylelintConfig(isPropertyOnly),
+      cache: false,
+      fix: false,
+      validate: false,
     });
+    console.warn = origConsoleWarn;
+    for (const result of results.results) {
+      result.warnings.forEach((msg) => {
+        const reportRegion = content
+          .split("\n")
+          .slice(msg.line - 1, msg.endLine ? msg.endLine : msg.line)
+          .join("\n");
+        // TODO: csstree does not recognize trig functions
+        if (
+          msg.rule === "declaration-property-value-no-unknown" &&
+          msg.text.match(
+            /Unexpected unknown value "rotate\((?:asin|acos|atan|atan2)\([^)]+\)\)" for property "transform" \(declaration-property-value-no-unknown\)/,
+          ) &&
+          reportRegion.match(
+            /^\s*transform: rotate\((?:asin|acos|atan|atan2)\([^)]+\)\);$/,
+          )
+        ) {
+          return;
+        }
+        if (
+          msg.rule === "declaration-property-value-no-unknown" &&
+          msg.text.match(
+            /Unexpected unknown value "round\([^)]+\)" for property "height" \(declaration-property-value-no-unknown\)/,
+          ) &&
+          reportRegion.match(/^\s*height: round\([^)]+\);$/)
+        ) {
+          return;
+        }
+        if (
+          msg.rule === "declaration-property-value-no-unknown" &&
+          msg.text.match(
+            /Unexpected unknown value "sign\([^)]+\)" for property "background-position" \(declaration-property-value-no-unknown\)/,
+          ) &&
+          reportRegion.match(/^\s*background-position: sign\([^)]+\);$/)
+        ) {
+          return;
+        }
+        // TODO: csstree does not recognize size in calc-size or relative color functions
+        if (
+          msg.rule === "declaration-property-value-no-unknown" &&
+          msg.text.match(
+            /Unexpected unknown value "calc-size\(.*\)" for property "(?:width|height)" \(declaration-property-value-no-unknown\)/,
+          ) &&
+          reportRegion.match(/^\s*(?:width|height): calc-size\(.*\);$/)
+        ) {
+          return;
+        }
+        if (
+          msg.rule === "declaration-property-value-no-unknown" &&
+          msg.text.match(
+            /Unexpected unknown value "(?:rgb|lch)\(from .*\)" for property "(?:background-color|color)" \(declaration-property-value-no-unknown\)/,
+          ) &&
+          reportRegion.match(
+            /^\s*(?:background-color|color): (?:rgb|lch)\(from .*\);$/,
+          )
+        ) {
+          return;
+        }
+        reportIfUnexpected(
+          path,
+          "css",
+          msg.rule,
+          msg.text,
+          fullContent,
+          msg.endLine
+            ? `${msg.line}:${msg.column} - ${msg.endLine}:${msg.endColumn}`
+            : `${msg.line}:${msg.column}`,
+          reportRegion,
+          report,
+        );
+      });
+    }
+  } catch (e) {
+    console.error(content, e);
   }
 }
 

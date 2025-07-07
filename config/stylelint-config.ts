@@ -341,7 +341,8 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       "font-weight-notation": "named-where-possible",
       "hue-degree-notation": "number",
       "import-notation": "string",
-      "keyframe-selector-notation": "percentage-unless-within-keyword-only-block",
+      "keyframe-selector-notation":
+        "percentage-unless-within-keyword-only-block",
       "lightness-notation": "number",
       "media-feature-range-notation": "context",
       "selector-not-notation": "complex",
