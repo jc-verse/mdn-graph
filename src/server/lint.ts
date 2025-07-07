@@ -328,7 +328,7 @@ function reportIfUnexpected(
   }
   report(
     path,
-    `${language.toUpperCase()} code issue`,
+    ["alpha-value-notation", "color-hex-length", "font-weight-notation", "hue-degree-notation", "import-notation", "keyframe-selector-notation", "lightness-notation", "font-family-name-quotes", "function-url-quotes", "declaration-block-no-redundant-longhand-properties", "shorthand-property-no-redundant-values", "comment-whitespace-inside"].includes(ruleId) ? "Stylelint backlog" : `${language.toUpperCase()} code issue`,
     ruleId,
     message,
     region,
@@ -472,7 +472,7 @@ async function checkCSS(
       if (
         msg.rule === "declaration-property-value-no-unknown" &&
         msg.text.match(
-          /Unexpected unknown value "size" for property "(?:width|height)" \(declaration-property-value-no-unknown\)/,
+          /Unexpected unknown value "calc-size\(.*\)" for property "(?:width|height)" \(declaration-property-value-no-unknown\)/,
         ) &&
         reportRegion.match(/^\s*(?:width|height): calc-size\(.*\);$/)
       ) {
@@ -481,7 +481,7 @@ async function checkCSS(
       if (
         msg.rule === "declaration-property-value-no-unknown" &&
         msg.text.match(
-          /Unexpected unknown value "(?:l|c|h|r|g|b)" for property "(?:background-color|color)" \(declaration-property-value-no-unknown\)/,
+          /Unexpected unknown value "(?:rgb|lch)\(from .*\)" for property "(?:background-color|color)" \(declaration-property-value-no-unknown\)/,
         ) &&
         reportRegion.match(
           /^\s*(?:background-color|color): (?:rgb|lch)\(from .*\);$/,

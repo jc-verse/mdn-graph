@@ -331,18 +331,27 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       ],
       "unit-no-unknown": true,
-      "alpha-value-notation": null, // TODO
+      "function-name-case": "lower",
+      "selector-type-case": "lower",
+      "value-keyword-case": "lower",
+      "alpha-value-notation": "number",
       "color-function-alias-notation": "without-alpha",
       "color-function-notation": "modern",
-      "color-hex-length": null, // TODO
-      "font-weight-notation": null, // TODO
-      "hue-degree-notation": null, // TODO
-      "import-notation": null, // TODO
-      "keyframe-selector-notation": null, // TODO
-      "lightness-notation": null, // TODO
+      "color-hex-length": "long",
+      "font-weight-notation": "named-where-possible",
+      "hue-degree-notation": "number",
+      "import-notation": "string",
+      "keyframe-selector-notation": "percentage-unless-within-keyword-only-block",
+      "lightness-notation": "number",
       "media-feature-range-notation": "context",
       "selector-not-notation": "complex",
       "selector-pseudo-element-colon-notation": "double",
+      "font-family-name-quotes": "always-unless-keyword",
+      "function-url-quotes": "always",
+      "selector-attribute-quotes": "always",
+      "declaration-block-no-redundant-longhand-properties": true,
+      "shorthand-property-no-redundant-values": true,
+      "comment-whitespace-inside": "always",
     },
     overrides: [
       {
