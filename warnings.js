@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-57wzha1d.js";
+} from "./chunk-c2dw4naa.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -40,19 +40,6 @@ var warnings_processed_default = {
             },
             techniques: {
               children: {
-                "2d_collision_detection": {
-                  children: {},
-                  slug: "/en-US/docs/Games/Techniques/2D_collision_detection",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.sevenson.com.au/programming/sat/",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
-                },
                 "3d_on_the_web": {
                   children: {},
                   slug: "/en-US/docs/Games/Techniques/3D_on_the_web",
@@ -591,19 +578,6 @@ var warnings_processed_default = {
                     {
                       message: "Unreachable via page",
                       data: []
-                    }
-                  ]
-                },
-                domain_specific_language: {
-                  children: {},
-                  slug: "/en-US/docs/Glossary/DSL/Domain_specific_language",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://martinfowler.com/dsl.html",
-                        "Cannot reach server and Bun hangs"
-                      ]
                     }
                   ]
                 }
@@ -1719,6 +1693,13 @@ var warnings_processed_default = {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://v3-migration.vuejs.org/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2848,36 +2829,6 @@ refused.textContent = 'Refuse: ';
                         }
                       }
                     },
-                    first_steps: {
-                      children: {
-                        "client-server_overview": {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://websniffer.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        web_frameworks: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://dotnet.microsoft.com/en-us/apps/aspnet",
-                                403
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     node_server_without_framework: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Node_server_without_framework",
@@ -2885,23 +2836,6 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                testing: {
-                  children: {
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://help.ubuntu.com/community/WindowsDualBoot",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -3142,6 +3076,19 @@ refused.textContent = 'Refuse: ';
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
                         }
                       ]
                     },
@@ -3457,20 +3404,6 @@ refused.textContent = 'Refuse: ';
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "HTTP link",
-                                      data: [
-                                        "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      message: "HTTP link",
-                                      data: [
-                                        "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
-                                      ]
                                     }
                                   ]
                                 },
@@ -3491,34 +3424,10 @@ refused.textContent = 'Refuse: ';
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "HTTP link",
-                                      data: [
-                                        "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      message: "HTTP link",
-                                      data: [
-                                        "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
-                                      ]
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
-                              messages: [
-                                {
-                                  message: "HTTP link",
-                                  data: [
-                                    "http://www.softwareishard.com/blog/har-12-spec/",
-                                    ""
-                                  ]
-                                }
-                              ]
+                              }
                             },
                             panels: {
                               children: {
@@ -10965,19 +10874,6 @@ document.getElementById("terminate").addEventListener("click", () => {
                       ]
                     }
                   }
-                },
-                websockets_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/WebSockets_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://dotnet.microsoft.com/en-us/apps/aspnet/signalr",
-                        403
-                      ]
-                    }
-                  ]
                 },
                 webtransport_api: {
                   children: {},
@@ -22364,6 +22260,45 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
+                        a: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.a11yproject.com/posts/large-touch-targets/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        button: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.a11yproject.com/posts/large-touch-targets/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        input: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/input",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.a11yproject.com/posts/large-touch-targets/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         meta: {
                           children: {
                             name: {
@@ -22970,19 +22905,6 @@ http.headers.Use-As-Dictionary`,
                     },
                     formats: {
                       children: {
-                        configuring_servers_for_ogg_media: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Configuring_servers_for_Ogg_media",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://gitlab.xiph.org/xiph/ffmpeg2theora",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -24092,19 +24014,6 @@ svg.elements.feSpotLight.z`
                   children: {
                     svg_from_scratch: {
                       children: {
-                        getting_started: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Getting_started",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://websniffer.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         tools_for_svg: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Tools_for_SVG",
@@ -24114,6 +24023,31 @@ svg.elements.feSpotLight.z`
                               data: [
                                 "http://snapsvg.io/",
                                 ""
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            uri: {
+              children: {
+                reference: {
+                  children: {
+                    schemes: {
+                      children: {
+                        urn: {
+                          children: {},
+                          slug: "/en-US/docs/Web/URI/Reference/Schemes/urn",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://isbnsearch.org/isbn/9780141036144",
+                                "The operation timed out."
                               ]
                             }
                           ]
