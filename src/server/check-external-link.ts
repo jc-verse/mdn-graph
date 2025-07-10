@@ -206,7 +206,7 @@ export function createLinkRequests(
   >();
   for (const node of nodes) {
     visitLinks: for (const link of node.data.links) {
-      if (/^https:\/\/(jsfiddle\.net|codepen\.io|jsbin\.com)\/./.test(link)) {
+      if (/^https:\/\/(jsfiddle\.net|codepen\.io(?=.*\/pen\/)|jsbin\.com)\/./.test(link)) {
         report(node, "External sandbox link", link);
         continue;
       }

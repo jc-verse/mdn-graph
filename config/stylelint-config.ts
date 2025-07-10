@@ -262,6 +262,8 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
             "media",
             "style",
             "supports",
+            "sibling-count",
+            "sibling-index",
           ],
         },
       ],

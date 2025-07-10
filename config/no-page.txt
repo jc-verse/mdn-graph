@@ -125,12 +125,23 @@
 /en-US/docs/Web/API/TouchEvent/scale
 /en-US/docs/Web/API/WebXR_Device_API/Gamepads
 /en-US/docs/Web/API/Window/abort_event
+/en-US/docs/Web/API/window/scroll_event
 /en-US/docs/Web/API/XRPermissionStatus
+
+/en-US/docs/Web/CSS/::-webkit-color-swatch
+/en-US/docs/Web/CSS/::-webkit-textfield-decoration-container
+/en-US/docs/Web/CSS/calc-product
+/en-US/docs/Web/CSS/calc-value
+/en-US/docs/Web/CSS/glyph-orientation-horizontal
+/en-US/docs/Web/CSS/ruby-merge
 
 /en-US/docs/Web/HTTP/Reference/Headers/Accept-Signature
 /en-US/docs/Web/HTTP/Reference/Headers/Signature
 /en-US/docs/Web/HTTP/Reference/Headers/Signed-Headers
+/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy/battery
 /en-US/docs/Web/HTTP/Reference/Methods/TRACK
+
+/en-US/docs/Web/JavaScript/Reference/AsyncIterator%2FAsyncIterator
 
 /en-US/docs/Web/MathML/Reference/Global_attributes/autofocus
 /en-US/docs/Web/MathML/Reference/Global_attributes/class
@@ -148,13 +159,6 @@
 /en-US/docs/Web/SVG/Reference/Attribute/rel
 /en-US/docs/Web/SVG/Reference/Attribute/requiredExtensions
 /en-US/docs/Web/SVG/Reference/Attribute/title
-
-  https://svgwg.org/svg2-draft/text.html
-/en-US/docs/Web/SVG/Reference/Attribute/line-height
-/en-US/docs/Web/SVG/Reference/Attribute/inline-size
-
-  https://svgwg.org/svg2-draft/painting.html
-/en-US/docs/Web/SVG/Reference/Attribute/marker
 
 /en-US/docs/Web/SVG/Reference/Attribute/xlink:actuate
 /en-US/docs/Web/SVG/Reference/Attribute/xlink:role

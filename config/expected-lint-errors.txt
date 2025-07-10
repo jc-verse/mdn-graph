@@ -169,6 +169,73 @@ const checkAllTodos = (completed) => {
 export let autofocus: boolean = false;
 ~~~
 
+/en-US/docs/Learn_web_development/Core/Scripting/A_first_splash
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Number guessing game</title>
+
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+
+      body {
+        width: 50%;
+        max-width: 800px;
+        min-width: 480px;
+        margin: 0 auto;
+      }
+
+      .form input[type="number"] {
+        width: 200px;
+      }
+
+      .lastResult {
+        color: white;
+        padding: 3px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Number guessing game</h1>
+
+    <p>
+      We have selected a random number between 1 and 100. See if you can guess
+      it in 10 turns or fewer. We'll tell you if your guess was too high or too
+      low.
+    </p>
+
+    <div class="form">
+      <label for="guessField">Enter a guess: </label>
+      <input
+        type="number"
+        min="1"
+        max="100"
+        required
+        id="guessField"
+        class="guessField" />
+      <input type="submit" value="Submit guess" class="guessSubmit" />
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+
+    <script>
+      // Your JavaScript goes here
+    </script>
+  </body>
+</html>
+~~~
+
 /en-US/docs/Learn_web_development/Core/Scripting/Build_your_own_function
 [syntax] Parsing error: '}' expected.
 ~~~
@@ -236,9 +303,6 @@ condition ? run this code : run this code instead
 /en-US/docs/Learn_web_development/Core/Scripting/Functions
 [no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
 ~~~
-<!-- Excerpt from my HTML -->
-<script src="first.js"></script>
-<script src="second.js"></script>
 <script>
   greeting();
 </script>

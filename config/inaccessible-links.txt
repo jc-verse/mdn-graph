@@ -7,6 +7,9 @@
 https://www.canva.com/{.*}
 https://www.openwebanalytics.com{/?}
 https://www.reddit.com/r/{.*}
+https://www.intel.com/content/www/us/en/{.*}
+https://www.shutterstock.com/
+https://www.upwork.com/
 https://wiki.mozilla.org/{.*}
 https://inkscape.org/{(learn)?/?}
 https://x.com/{.*}
@@ -15,9 +18,11 @@ https://chatgpt.com/
 https://openai.com/{.*}
 https://gamesaturn.com/
 https://new.drupal.org/
+https://unity.com/
+https://discord.me/{.*}
 
   404 on purpose:
 https://konmari.com/404
 
-  glitch.me apps go to sleep and takes a while to wake up:
-https://{.*}.glitch.me{.*}
+  these apps go to sleep and takes a while to wake up:
+https://{.*}.onrender.com{.*}

@@ -346,8 +346,6 @@ function displayWarnings() {
         "Code with underscore",
         "Duplicate specifications",
         "Missing BCD table",
-        "Missing data",
-        "Missing sidebar",
         "Missing specifications macro",
         "Missing syntax code block",
         "Possibly unrendered Markdown",
@@ -367,9 +365,13 @@ function displayWarnings() {
     ) {
       graphStructure.append(option);
     } else if (
-      ["Not in BCD", "Unexpected BCD keys", "Unexpected page type"].includes(
-        message[0],
-      )
+      [
+        "Missing data",
+        "Missing sidebar",
+        "Not in BCD",
+        "Unexpected BCD keys",
+        "Unexpected page type",
+      ].includes(message[0])
     ) {
       metadataIssues.append(option);
     } else if (
