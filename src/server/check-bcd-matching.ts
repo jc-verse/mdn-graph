@@ -5,6 +5,9 @@ import { getBCD } from "./utils.js";
 const dictionaries = new Map(
   (await readConfig("dictionaries.txt")).map((x) => [x, false]),
 );
+const allowedStatusNotBackedByBCD = new Map(
+  (await readConfig("allowed-status-not-backed-by-bcd.txt")).map((x) => [x, false]),
+);
 
 const noBCD = new Map((await readConfig("no-bcd.txt")).map((x) => [x, false]));
 const specialBCD = new Map(
@@ -585,7 +588,9 @@ export function checkBCDMatching(
     const bcdStatus = (node.data.metadata.browserCompat ?? [])
       .map((x) => {
         const data = getBCD(bcdData, x);
-        if (!data?.__compat.status) return null;
+        if (!data?.__compat) return null;
+        // Status-less entries are still acknowledged
+        if (!data.__compat.status) return [];
         const status = [];
         if (data.__compat.status.deprecated) status.push("deprecated");
         if (data.__compat.status.experimental) status.push("experimental");
@@ -595,7 +600,7 @@ export function checkBCDMatching(
       .filter(Boolean);
     if (!bcdStatus.length) {
       // Avoid double reporting
-      if (!notInBCDReported.has(node.id)) {
+      if (!notInBCDReported.has(node.id) && !configHas(allowedStatusNotBackedByBCD, `${node.id}\t${status.join(",")}`)) {
         report(node, "Page status not backed by BCD");
       }
       continue;
@@ -624,6 +629,12 @@ export function postCheckBCDMatching() {
     if (!used) console.warn(name, "is no longer documented");
   }
   for (const [name, used] of noBCD) {
-    if (!used) console.warn(name, "is no longer documented");
+    if (!used) console.warn(name, "is no longer documented or now has BCD");
+  }
+  for (const [name, used] of specialBCD) {
+    if (!used) console.warn(name, "no longer has this special BCD");
+  }
+  for (const [name, used] of allowedStatusNotBackedByBCD) {
+    if (!used) console.warn(name, "is no longer documented or now has BCD");
   }
 }

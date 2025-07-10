@@ -1,0 +1,21 @@
+  These pages' "browser compatibility" don't make sense but they are obviously
+  experimental, deprecated, or non-standard.
+
+/en-US/docs/Games/Tools/asm.js	deprecated
+/en-US/docs/Glossary/First_input_delay	deprecated
+/en-US/docs/Glossary/XForms	deprecated
+/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-dropeffect	deprecated
+/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-grabbed	deprecated
+/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/directory_role	deprecated
+
+/en-US/docs/Web/CSS/Column_combinator	experimental
+/en-US/docs/Web/CSS/Mozilla_Extensions	non-standard
+/en-US/docs/Web/CSS/WebKit_Extensions	non-standard
+
+/en-US/docs/Web/HTTP/Reference/Headers/Tk	deprecated,non-standard
+/en-US/docs/Web/HTTP/Reference/Headers/X-Forwarded-For	non-standard
+/en-US/docs/Web/HTTP/Reference/Headers/X-Forwarded-Host	non-standard
+/en-US/docs/Web/HTTP/Reference/Headers/X-Forwarded-Proto	non-standard
+/en-US/docs/Web/HTTP/Reference/Headers/X-Permitted-Cross-Domain-Policies	non-standard
+/en-US/docs/Web/HTTP/Reference/Headers/X-Powered-By	non-standard
+/en-US/docs/Web/HTTP/Reference/Headers/X-Robots-Tag	non-standard

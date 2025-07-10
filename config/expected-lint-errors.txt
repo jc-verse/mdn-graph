@@ -303,6 +303,9 @@ condition ? run this code : run this code instead
 /en-US/docs/Learn_web_development/Core/Scripting/Functions
 [no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
 ~~~
+<!-- Excerpt from the HTML -->
+<script src="first.js"></script>
+<script src="second.js"></script>
 <script>
   greeting();
 </script>
