@@ -10,7 +10,7 @@
     "prettier": "^3.3.3"
   },
   "dependencies": {
-    "@mdn/browser-compat-data": "6",
+    "@mdn/browser-compat-data": "^6.0.30",
     "@types/three": "^0.167.1",
     "@webref/css": "^6.21.2",
     "angular-html-parser": "^8.1.0",

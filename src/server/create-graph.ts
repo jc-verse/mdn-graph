@@ -180,6 +180,13 @@ export default async function createContentGraph() {
             report(node, "Missing page type");
           }
           node.data.metadata.frontMatter = data;
+          node.data.metadata.status = data.status ? data.status : [];
+          if (
+            JSON.stringify(node.data.metadata.status) !==
+            JSON.stringify(node.data.metadata.status.sort())
+          ) {
+            report(node, "Status is not sorted", node.data.metadata.status);
+          }
           if (data["browser-compat"]) {
             data["browser-compat"] = Array.isArray(data["browser-compat"])
               ? data["browser-compat"]
@@ -799,6 +806,7 @@ export default async function createContentGraph() {
         "modified",
         "source",
         "short_title",
+        "status",
       ].map((key) => [key, node.data.metadata[key]]),
     );
     node.data.metadata.source = {

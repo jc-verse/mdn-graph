@@ -368,7 +368,11 @@ function displayWarnings() {
       [
         "Missing data",
         "Missing sidebar",
+        "Mixed BCD status",
         "Not in BCD",
+        "Page status inconsistent with BCD",
+        "Page status not backed by BCD",
+        "Status is not sorted",
         "Unexpected BCD keys",
         "Unexpected page type",
       ].includes(message[0])

@@ -539,6 +539,7 @@ export function checkBCDMatching(
   nodes: any[],
   report: (node: any, message: string, ...data: string[]) => void,
 ) {
+  const notInBCDReported = new Set();
   for (const node of nodes) {
     const expectedRaw = expectedBCD(node);
     if (expectedRaw === "Unexpected page type") {
@@ -561,6 +562,7 @@ export function checkBCDMatching(
     // - "Unexpected BCD keys": (actual \ expected) ∪ ((BCD \ actual) ∩ expected)
     const notInBCD = Array.from(expected).filter((x) => !getBCD(bcdData, x));
     if (notInBCD.length) {
+      notInBCDReported.add(node.id);
       report(node, "Not in BCD", notInBCD.join("\n"));
     }
     const unexpected = actual
@@ -574,6 +576,44 @@ export function checkBCDMatching(
         Array.from(actual).join("\n") || "[None]",
         "Expected:",
         Array.from(expected).join("\n") || "[None]",
+      );
+    }
+  }
+  for (const node of nodes) {
+    const { status } = node.data.metadata;
+    if (!status.length) continue;
+    const bcdStatus = (node.data.metadata.browserCompat ?? [])
+      .map((x) => {
+        const data = getBCD(bcdData, x);
+        if (!data?.__compat.status) return null;
+        const status = [];
+        if (data.__compat.status.deprecated) status.push("deprecated");
+        if (data.__compat.status.experimental) status.push("experimental");
+        if (!data.__compat.status.standard_track) status.push("non-standard");
+        return status;
+      })
+      .filter(Boolean);
+    if (!bcdStatus.length) {
+      // Avoid double reporting
+      if (!notInBCDReported.has(node.id)) {
+        report(node, "Page status not backed by BCD");
+      }
+      continue;
+    }
+    if (new Set(bcdStatus.map(String)).size !== 1) {
+      report(node, "Mixed BCD status", ...bcdStatus);
+      continue;
+    }
+    const bcdStatusSingle = bcdStatus[0];
+    if (
+      bcdStatusSingle.length !== status.length ||
+      bcdStatusSingle.some((x, i) => x !== status[i])
+    ) {
+      report(
+        node,
+        "Page status inconsistent with BCD",
+        bcdStatusSingle,
+        status,
       );
     }
   }
