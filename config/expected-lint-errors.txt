@@ -355,6 +355,42 @@ const badQuotes = "She said "I think so!"";
 const badQuotes = 'This is not allowed!";
 ~~~
 
+/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Strings
+[syntax] Parsing error: ',' expected.
+~~~
+const quoteStart = 'Don't judge each day by the harvest you reap ';
+
+// Add your code here
+
+// Don't edit the code below here!
+
+const section = document.querySelector("section");
+const para1 = document.createElement("p");
+para1.textContent = finalQuote;
+section.appendChild(para1);
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Variables
+[no-const-assign] 'myName' is constant.
+~~~
+// Fix the following code
+
+const myName = "Default";
+myName = "Chris";
+
+let myAge = "42";
+
+// Don't edit the code below here!
+
+const section = document.querySelector("section");
+const para1 = document.createElement("p");
+const para2 = document.createElement("p");
+para1.textContent = myName;
+para2.textContent = `In 20 years, I will be ${myAge + 20}`;
+section.appendChild(para1);
+section.appendChild(para2);
+~~~
+
 /en-US/docs/Learn_web_development/Core/Scripting/Variables
 [no-const-assign] 'count' is constant.
 ~~~

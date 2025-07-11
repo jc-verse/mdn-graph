@@ -6,7 +6,10 @@ const dictionaries = new Map(
   (await readConfig("dictionaries.txt")).map((x) => [x, false]),
 );
 const allowedStatusNotBackedByBCD = new Map(
-  (await readConfig("allowed-status-not-backed-by-bcd.txt")).map((x) => [x, false]),
+  (await readConfig("allowed-status-not-backed-by-bcd.txt")).map((x) => [
+    x,
+    false,
+  ]),
 );
 
 const noBCD = new Map((await readConfig("no-bcd.txt")).map((x) => [x, false]));
@@ -600,7 +603,13 @@ export function checkBCDMatching(
       .filter(Boolean);
     if (!bcdStatus.length) {
       // Avoid double reporting
-      if (!notInBCDReported.has(node.id) && !configHas(allowedStatusNotBackedByBCD, `${node.id}\t${status.join(",")}`)) {
+      if (
+        !notInBCDReported.has(node.id) &&
+        !configHas(
+          allowedStatusNotBackedByBCD,
+          `${node.id}\t${status.join(",")}`,
+        )
+      ) {
         report(node, "Page status not backed by BCD");
       }
       continue;
