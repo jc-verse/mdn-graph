@@ -355,6 +355,42 @@ const badQuotes = "She said "I think so!"";
 const badQuotes = 'This is not allowed!";
 ~~~
 
+/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Strings
+[syntax] Parsing error: ',' expected.
+~~~
+const quoteStart = 'Don't judge each day by the harvest you reap ';
+
+// Add your code here
+
+// Don't edit the code below here!
+
+const section = document.querySelector("section");
+const para1 = document.createElement("p");
+para1.textContent = finalQuote;
+section.appendChild(para1);
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/Test_your_skills/Variables
+[no-const-assign] 'myName' is constant.
+~~~
+// Fix the following code
+
+const myName = "Default";
+myName = "Chris";
+
+let myAge = "42";
+
+// Don't edit the code below here!
+
+const section = document.querySelector("section");
+const para1 = document.createElement("p");
+const para2 = document.createElement("p");
+para1.textContent = myName;
+para2.textContent = `In 20 years, I will be ${myAge + 20}`;
+section.appendChild(para1);
+section.appendChild(para2);
+~~~
+
 /en-US/docs/Learn_web_development/Core/Scripting/Variables
 [no-const-assign] 'count' is constant.
 ~~~
@@ -2778,40 +2814,6 @@ div {
 @import "/css/styles.css" supports(color: AccentColor);
 ~~~
 
-/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout
-[no-style-attr] Do not use the style attribute.
-~~~
-<div class="grid">
-  <div class="item" style="inline-size: 2em;"></div>
-  <div class="item" style="inline-size: 3em;"></div>
-  <div class="item" style="inline-size: 1.6em;"></div>
-  <div class="item" style="inline-size: 4em;"></div>
-  <div class="item" style="inline-size: 2.2em;"></div>
-  <div class="item" style="inline-size: 3em;"></div>
-  <div class="item" style="inline-size: 4.5em;"></div>
-  <div class="item" style="inline-size: 1em;"></div>
-  <div class="item" style="inline-size: 3.5em;"></div>
-  <div class="item" style="inline-size: 2.8em;"></div>
-</div>
-~~~
-
-/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout
-[no-style-attr] Do not use the style attribute.
-~~~
-<div class="grid">
-  <div class="item" style="block-size: 2em;"></div>
-  <div class="item" style="block-size: 3em; grid-column-end: span 2;"></div>
-  <div class="item" style="block-size: 1.6em;"></div>
-  <div class="item" style="block-size: 4em;"></div>
-  <div class="item" style="block-size: 2.2em; grid-column-end: span 2"></div>
-  <div class="item" style="block-size: 3em;"></div>
-  <div class="item" style="block-size: 4.5em;"></div>
-  <div class="item" style="block-size: 1em;"></div>
-  <div class="item" style="block-size: 3.5em;"></div>
-  <div class="item" style="block-size: 2.8em;"></div>
-</div>
-~~~
-
 /en-US/docs/Web/CSS/CSS_masking/Multiple_masks
 [declaration-property-value-no-unknown] Unexpected unknown value "contain" for property "mask" (declaration-property-value-no-unknown)
 [declaration-property-value-no-unknown] Unexpected unknown value "cover" for property "mask" (declaration-property-value-no-unknown)
@@ -2995,6 +2997,15 @@ font-family: Ahem!, sans-serif;
 font-family: test@foo, sans-serif;
 font-family: #POUND, sans-serif;
 font-family: Hawaii 5-0, sans-serif;
+~~~
+
+/en-US/docs/Web/CSS/if
+[no-style-attr] Do not use the style attribute.
+~~~
+<section style="--show-apple:true">
+  <article><h2>First article</h2></article>
+  <article><h2>Second article</h2></article>
+</section>
 ~~~
 
 /en-US/docs/Web/CSS/important

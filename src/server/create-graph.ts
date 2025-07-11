@@ -455,7 +455,14 @@ export default async function createContentGraph() {
       } else if (linkTarget.startsWith("#")) {
         if (!node.data.ids.includes(decodeURIComponent(linkTarget.slice(1)))) {
           if (linkTarget === "#browser_compatibility") {
-            report(node, "Broken browser compat anchor");
+            if (
+              ![
+                "/en-US/docs/MDN/Writing_guidelines/Page_structures/Feature_status",
+                "/en-US/docs/MDN/Writing_guidelines/Page_structures/Macros/Commonly_used_macros",
+              ].includes(node.id)
+            ) {
+              report(node, "Broken browser compat anchor");
+            }
           } else if (!linkTarget.startsWith("#:~:")) {
             report(node, "Broken anchor", linkTarget);
           }

@@ -15,8 +15,15 @@
 /en-US/docs/Web/API/EcdsaParams	api.SubtleCrypto.sign,api.SubtleCrypto.verify
 /en-US/docs/Web/API/HTMLDetailsElement	api.HTMLDetailsElement,api.HTMLElement.toggle_event.details_elements
 /en-US/docs/Web/API/HTMLDialogElement	api.HTMLDialogElement,api.HTMLElement.beforetoggle_event.dialog_elements,api.HTMLElement.toggle_event.dialog_elements
+/en-US/docs/Web/API/IdentityCredentialRequestOptions	api.CredentialsContainer.get.identity_option
+/en-US/docs/Web/API/IntegrityViolationReportBody	http.headers.Integrity-Policy
 /en-US/docs/Web/API/PublicKeyCredentialCreationOptions	api.CredentialsContainer.create.publicKey_option
+/en-US/docs/Web/API/PublicKeyCredentialRequestOptions	api.CredentialsContainer.get.publicKey_option
 /en-US/docs/Web/API/SanitizerConfig	api.Sanitizer.get,api.Sanitizer.Sanitizer
+/en-US/docs/Web/API/VRLayerInit	api.VRDisplay.getLayers
+/en-US/docs/Web/API/VRLayerInit/leftBounds	api.VRDisplay.getLayers
+/en-US/docs/Web/API/VRLayerInit/rightBounds	api.VRDisplay.getLayers
+/en-US/docs/Web/API/VRLayerInit/source	api.VRDisplay.getLayers
   These pages coalesce multiple methods into one, and only display one BCD
 /en-US/docs/Web/API/WebGL2RenderingContext/clearBuffer	api.WebGL2RenderingContext.clearBufferiv
 /en-US/docs/Web/API/WebGL2RenderingContext/samplerParameter	api.WebGL2RenderingContext.samplerParameteri
@@ -27,6 +34,12 @@
 /en-US/docs/Web/API/WebGLRenderingContext/uniform	api.WebGLRenderingContext.uniform1f
 /en-US/docs/Web/API/WebGLRenderingContext/uniformMatrix	api.WebGLRenderingContext.uniformMatrix2fv
 /en-US/docs/Web/API/WebGLRenderingContext/vertexAttrib	api.WebGLRenderingContext.vertexAttrib1f
+
+  Guide pages that need BCD
+/en-US/docs/Web/API/File_System_API/Origin_private_file_system	api.StorageManager.getDirectory
+/en-US/docs/Web/API/Storage_Access_API/Related_website_sets	api.Document.requestStorageAccessFor
+/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions	api.CredentialsContainer.create.publicKey_option.extensions,api.CredentialsContainer.get.publicKey_option.extensions
+/en-US/docs/Web/Security/Mixed_content	http.mixed-content
 
 /en-US/docs/Web/CSS/--*	css.properties.custom-property
 /en-US/docs/Web/CSS/color-interpolation-method	css.types.color.color-mix

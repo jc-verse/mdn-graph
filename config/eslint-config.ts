@@ -155,6 +155,7 @@ export default [
   {
     files: [
       "Learn_web_development/Core/Scripting/Object_basics/*",
+      "Learn_web_development/Core/Scripting/Test_your_skills/Object_basics/*",
       "Web/JavaScript/Guide/Working_with_objects/*",
       "Web/JavaScript/Reference/Functions/Method_definitions/*",
       "Web/JavaScript/Reference/Global_Objects/Function/name/*",

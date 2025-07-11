@@ -1,6 +1,10 @@
 export default {
   ignore: [
     {
+      files: ["Mozilla/Firefox/Releases/1.5/Using_Firefox_1.5_caching"],
+      rules: { "html-has-lang": "off" },
+    },
+    {
       files: [
         "Mozilla/Add-ons/WebExtensions/Content_Security_Policy",
         "Mozilla/Firefox/Releases/1.5/Using_Firefox_1.5_caching",

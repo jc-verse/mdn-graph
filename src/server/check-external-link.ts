@@ -207,7 +207,7 @@ export function createLinkRequests(
   for (const node of nodes) {
     visitLinks: for (const link of node.data.links) {
       if (
-        /^https:\/\/(jsfiddle\.net|codepen\.io(?=.*\/pen\/)|jsbin\.com)\/./.test(
+        /^https:\/\/(jsfiddle\.net|codepen\.io(?=.*\/(pen|full)\/)|jsbin\.com)\/./.test(
           link,
         )
       ) {
