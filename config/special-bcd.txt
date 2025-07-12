@@ -15,8 +15,14 @@
 /en-US/docs/Web/API/EcdsaParams	api.SubtleCrypto.sign,api.SubtleCrypto.verify
 /en-US/docs/Web/API/HTMLDetailsElement	api.HTMLDetailsElement,api.HTMLElement.toggle_event.details_elements
 /en-US/docs/Web/API/HTMLDialogElement	api.HTMLDialogElement,api.HTMLElement.beforetoggle_event.dialog_elements,api.HTMLElement.toggle_event.dialog_elements
+/en-US/docs/Web/API/IntegrityViolationReportBody	http.headers.Integrity-Policy
 /en-US/docs/Web/API/PublicKeyCredentialCreationOptions	api.CredentialsContainer.create.publicKey_option
+/en-US/docs/Web/API/PublicKeyCredentialRequestOptions	api.CredentialsContainer.get.publicKey_option
 /en-US/docs/Web/API/SanitizerConfig	api.Sanitizer.get,api.Sanitizer.Sanitizer
+/en-US/docs/Web/API/VRLayerInit	api.VRDisplay.getLayers
+/en-US/docs/Web/API/VRLayerInit/leftBounds	api.VRDisplay.getLayers
+/en-US/docs/Web/API/VRLayerInit/rightBounds	api.VRDisplay.getLayers
+/en-US/docs/Web/API/VRLayerInit/source	api.VRDisplay.getLayers
   These pages coalesce multiple methods into one, and only display one BCD
 /en-US/docs/Web/API/WebGL2RenderingContext/clearBuffer	api.WebGL2RenderingContext.clearBufferiv
 /en-US/docs/Web/API/WebGL2RenderingContext/samplerParameter	api.WebGL2RenderingContext.samplerParameteri

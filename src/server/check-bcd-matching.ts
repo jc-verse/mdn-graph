@@ -620,14 +620,20 @@ export function checkBCDMatching(
     }
     const bcdStatusSingle = bcdStatus[0];
     if (
-      bcdStatusSingle.length !== status.length ||
-      bcdStatusSingle.some((x, i) => x !== status[i])
+      (bcdStatusSingle.length !== status.length ||
+        bcdStatusSingle.some((x, i) => x !== status[i])) &&
+      !node.data.metadata.browserCompat.every(
+        (x) =>
+          // WebExt BCD doesn't document status so it's not actionable
+          x.startsWith("webextensions.") &&
+          !getBCD(bcdData, x)?.__compat?.status,
+      )
     ) {
       report(
         node,
         "Page status inconsistent with BCD",
-        bcdStatusSingle,
         status,
+        bcdStatusSingle,
       );
     }
   }

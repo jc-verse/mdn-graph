@@ -19,6 +19,7 @@ HkdfParams
 HmacImportParams
 HmacKeyGenParams
 IdentityCredentialRequestOptions
+IntegrityViolationReportBody
 MediaTrackConstraints
 MediaTrackSettings
 MediaTrackSupportedConstraints
