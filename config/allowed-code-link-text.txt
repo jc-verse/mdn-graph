@@ -131,7 +131,6 @@ javascript.options.atomics_wait_async
 network.cors_preflight.authorization_covered_by_wildcard
 security.insecure_connection_text.enabled
 security.insecure_connection_text.pbmode.enabled
-security.mixed_content.block_object_subrequest
 
 first baseline	/en-US/docs/Web/CSS/baseline-position
 last baseline	/en-US/docs/Web/CSS/baseline-position

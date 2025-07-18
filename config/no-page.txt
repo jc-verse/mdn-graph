@@ -30,9 +30,6 @@
 
 /en-US/docs/Web/API/InterestGroupReportingScriptRunnerGlobalScope/registerAdBeacon
 /en-US/docs/Web/API/LayoutWorklet
-/en-US/docs/Web/API/MediaSource/sourceclose_event
-/en-US/docs/Web/API/MediaSource/sourceended_event
-/en-US/docs/Web/API/MediaSource/sourceopen_event
 /en-US/docs/Web/API/MediaStream/active_event
 /en-US/docs/Web/API/MediaStream/inactive_event
 /en-US/docs/Web/API/MediaTrackConstraints/resizeMode

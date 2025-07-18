@@ -49,7 +49,10 @@ const allowedW3Links = await (async () => {
 
 // TODO: there's something wrong with Bun's timeout when it
 // cannot reach the server
-function fetchWithTimeout(url: string, options?: RequestInit) {
+function fetchWithTimeout(url: string, fast: boolean, options?: RequestInit) {
+  if (fast) {
+    return new Response(null, { status: 200, statusText: "OK" });
+  }
   return Promise.race([
     fetch(url, { ...options, signal: AbortSignal.timeout(10000) }),
     new Promise<never>((_, reject) =>
@@ -61,10 +64,10 @@ function fetchWithTimeout(url: string, options?: RequestInit) {
   ]);
 }
 
-async function checkLink(href: string) {
-  if (href.startsWith("http:")) {
+async function checkLink(href: string, fast: boolean) {
+  if (href.startsWith("http:") && !fast) {
     try {
-      const res = await fetchWithTimeout(href.replace("http:", "https:"));
+      const res = await fetchWithTimeout(href.replace("http:", "https:"), fast);
       if (res.ok) {
         return {
           type: "HTTP link",
@@ -74,7 +77,7 @@ async function checkLink(href: string) {
     } catch {}
   }
   try {
-    const res = await fetchWithTimeout(href, {
+    const res = await fetchWithTimeout(href, fast, {
       headers: {
         "Accept-Language": "en-US",
       },
@@ -86,7 +89,7 @@ async function checkLink(href: string) {
           // Tolerate up to 5min of waiting
           if (retryAfter < 300) {
             await Bun.sleep((retryAfter + 5) * 1000);
-            return checkLink(href);
+            return checkLink(href, fast);
           } else {
             return {
               type: "error status",
@@ -114,7 +117,7 @@ async function checkLink(href: string) {
         data: res.status,
       };
     }
-    if (res.url !== href) {
+    if (res.url !== href && !fast) {
       const hrefURL = new URL(href);
       if (
         // Allow root URLs even if the root URL goes elsewhere
@@ -197,6 +200,7 @@ const bugLinkShorteners: [RegExp, string][] = [
 
 export function createLinkRequests(
   nodes: any[],
+  fast: boolean,
   report: (node: any, message: string, ...data: string[]) => void,
 ) {
   const linkRequests: [string, () => Promise<void>][] = [];
@@ -302,7 +306,7 @@ export function createLinkRequests(
           linkRequests.push([
             href,
             () =>
-              checkLink(href).then((res) => {
+              checkLink(href, fast).then((res) => {
                 checkedLinks.set(href, res);
               }),
           ]);

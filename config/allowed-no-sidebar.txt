@@ -3,5 +3,4 @@
   on the page.
   Use two-space indent for comments.
 
-/en-US/docs/Related
 /en-US/docs/Web/API

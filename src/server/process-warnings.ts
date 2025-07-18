@@ -83,13 +83,11 @@ export default async function processWarnings(fast: boolean = false) {
     (await readConfig("no-page.txt")).map((x) => [x, false]),
   );
 
-  const { checkedLinks, linkRequests } = createLinkRequests(nodes, report);
+  const { checkedLinks, linkRequests } = createLinkRequests(nodes, fast, report);
+  await depleteQueue(linkRequests);
+  reportBrokenLinks(nodes, report, checkedLinks);
   if (!fast) {
-    await depleteQueue(linkRequests);
-    reportBrokenLinks(nodes, report, checkedLinks);
     postExternalLinkCheck();
-  } else {
-    console.warn("Skipping external link check");
   }
   console.log("External link check completed");
 

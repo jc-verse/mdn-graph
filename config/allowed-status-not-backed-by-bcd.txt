@@ -8,6 +8,8 @@
 /en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-grabbed	deprecated
 /en-US/docs/Web/Accessibility/ARIA/Reference/Roles/directory_role	deprecated
 
+/en-US/docs/Web/API/Storage_Access_API/Related_website_sets	non-standard
+
 /en-US/docs/Web/CSS/Column_combinator	experimental
 /en-US/docs/Web/CSS/Mozilla_Extensions	non-standard
 /en-US/docs/Web/CSS/WebKit_Extensions	non-standard

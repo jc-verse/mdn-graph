@@ -650,7 +650,7 @@ layers: L.mapquest.tileLayer("map"),
 [no-useless-return] Unnecessary return statement.
 ~~~
 // Process request after validation and sanitization.
-asyncHandler(async (req, res, next) => {
+async (req, res, next) => {
   // Extract the validation errors from a request.
   const errors = validationResult(req);
 
@@ -668,7 +668,17 @@ asyncHandler(async (req, res, next) => {
   }
   // Data from form is valid.
   // …
-});
+};
+~~~
+
+/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/forms/Delete_author_form
+[no-useless-return] Unnecessary return statement.
+~~~
+if (author === null) {
+  // No results.
+  res.redirect("/catalog/authors");
+  return;
+}
 ~~~
 
 /en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
@@ -1063,39 +1073,6 @@ browser.runtime.onMessage.addListener((message, sender, sendResponse) => {
     });
   }
 });
-~~~
-
-/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/cloneInto
-[object-shorthand] Expected method shorthand.
-~~~
-// content script
-var addonScriptObject = {
-  greetMe: function () {
-    alert("hello from your extension");
-  },
-};
-window.addonScriptObject = cloneInto(addonScriptObject, window, {
-  cloneFunctions: true,
-});
-~~~
-
-/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts/exportFunction
-[object-shorthand] Expected method shorthand.
-~~~
-// less-privileged scope: for example, a page script
-var user = {
-  getUser: function () {
-    return "Bill";
-  },
-};
-var test = document.getElementById("test");
-test.addEventListener(
-  "click",
-  function () {
-    window.logUser(user);
-  },
-  false,
-);
 ~~~
 
 /en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization
