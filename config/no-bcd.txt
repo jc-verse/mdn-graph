@@ -5,7 +5,7 @@
   something has a chance to be added to BCD, it should be.
   Use two-space indent for comments.
 
-api.AudioWorkletProcessor.parameterDescriptors
+api.AudioWorkletProcessor.parameterDescriptors_static
 api.AudioWorkletProcessor.process
   TODO: it should not have content
 api.RTCStatsReport.Symbol.iterator
@@ -146,3 +146,22 @@ webextensions.api.declarativeNetRequest.ModifyHeaderInfo
 webextensions.api.extensionTypes.InjectDetails
 webextensions.api.scripting.ContentScriptFilter
 webextensions.api.userScripts_legacy.UserScriptOptions
+
+  Temporary
+  https://github.com/mdn/browser-compat-data/issues/26521
+webextensions.api.types.BrowserSetting.clear
+webextensions.api.types.BrowserSetting.get
+webextensions.api.types.BrowserSetting.set
+  https://github.com/mdn/browser-compat-data/issues/27335
+api.MouseEvent.mozInputSource
+  https://github.com/mdn/browser-compat-data/issues/27334
+api.MouseEvent.WEBKIT_FORCE_AT_FORCE_MOUSE_DOWN_static
+api.MouseEvent.WEBKIT_FORCE_AT_MOUSE_DOWN_static
+api.MouseEvent.webkitForce
+	https://github.com/mdn/browser-compat-data/issues/26524
+api.Profiler.samplebufferfull_event
+  https://github.com/mdn/browser-compat-data/issues/25374
+css.selectors.-moz-meter-bar
+css.at-rules.media.scan
+  https://github.com/mdn/browser-compat-data/issues/26525
+svg.global_attributes.data

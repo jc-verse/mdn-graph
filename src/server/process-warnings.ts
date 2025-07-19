@@ -83,7 +83,11 @@ export default async function processWarnings(fast: boolean = false) {
     (await readConfig("no-page.txt")).map((x) => [x, false]),
   );
 
-  const { checkedLinks, linkRequests } = createLinkRequests(nodes, fast, report);
+  const { checkedLinks, linkRequests } = createLinkRequests(
+    nodes,
+    fast,
+    report,
+  );
   await depleteQueue(linkRequests);
   reportBrokenLinks(nodes, report, checkedLinks);
   if (!fast) {
