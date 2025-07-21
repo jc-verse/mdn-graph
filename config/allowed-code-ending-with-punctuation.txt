@@ -32,7 +32,7 @@ $.	/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Literal_character
 Module.	/en-US/docs/Web/JavaScript/Guide/Modules
 None.	/en-US/docs/MDN/Writing_guidelines/Page_structures/Page_types/API_method_subpage_template
 myObject.	/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object_prototypes
-obj1.	/en-US/docs/Web/JavaScript/Reference/Operators/this
+obj.	/en-US/docs/Web/JavaScript/Reference/Operators/this
 window.	/en-US/docs/Web/API/Window/window
 global.	/en-US/docs/Web/JavaScript/Reference/Operators/Assignment
 globalThis.	/en-US/docs/Web/JavaScript/Reference/Operators/Assignment

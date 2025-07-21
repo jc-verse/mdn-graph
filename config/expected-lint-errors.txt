@@ -417,15 +417,15 @@ function checkGuess( {
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong
-[syntax] Parsing error: '}' expected.
+[syntax] Parsing error: Declaration or statement expected.
 ~~~
-if (userGuess === randomNumber) {
+} else if (guessCount === 10) {
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong
-[syntax] Parsing error: '}' expected.
+[syntax] Parsing error: Declaration or statement expected.
 ~~~
-if (userGuess = randomNumber) {
+} else if (guessCount = 10) {
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
@@ -897,8 +897,8 @@ function createObject(name, age) {
 /en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript
 [prefer-arrow-callback] Unexpected function expression.
 ~~~
-const array1 = [1, 2, 3, 4];
-const sum = array1.reduce(function (a, b) {
+const array = [1, 2, 3, 4];
+const sum = array.reduce(function (a, b) {
   return a + b;
 });
 ~~~
@@ -4290,7 +4290,7 @@ function list() {
   return slice(arguments);
 }
 
-const list1 = list(1, 2, 3); // [1, 2, 3]
+const listResult = list(1, 2, 3); // [1, 2, 3]
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
@@ -4591,9 +4591,9 @@ function* gen() {
   }
 }
 
-const g1 = gen();
-g1.next(); // { value: 1, done: false }
-g1.return("early return"); // { value: 'cleanup', done: true }
+const generator = gen();
+generator.next(); // { value: 1, done: false }
+generator.return("early return"); // { value: 'cleanup', done: true }
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/globalThis
@@ -5053,11 +5053,12 @@ number; // "24"
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source
+[regexp/letter-case] 'B' is not in lowercase
 [prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
 ~~~
-const regex1 = /fooBar/gi;
+const regex = /fooBar/gi;
 
-console.log(regex1.source);
+console.log(regex.source);
 // Expected output: "fooBar"
 
 console.log(new RegExp().source);
@@ -5074,22 +5075,6 @@ console.log(new RegExp("\n").source === "\\n");
 new RegExp().source; // "(?:)"
 
 new RegExp("\n").source === "\\n"; // true, starting with ES5
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source
-[regexp/letter-case] 'B' is not in lowercase
-~~~
-const regex1 = /fooBar/gi;
-
-console.log(regex1.source);
-// Expected output: "fooBar"
-
-console.log(new RegExp().source);
-// Expected output: "(?:)"
-
-console.log(new RegExp("\n").source === "\\n");
-// Expected output: true (starting with ES5)
-// Due to escaping
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source
@@ -5910,14 +5895,14 @@ bar.call(undefined); // [object Window]
 /en-US/docs/Web/JavaScript/Reference/Operators/this
 [no-with] Unexpected use of 'with' statement.
 ~~~
-const obj1 = {
+const obj = {
   foo() {
     return this;
   },
 };
 
-with (obj1) {
-  console.log(foo() === obj1); // true
+with (obj) {
+  console.log(foo() === obj); // true
 }
 ~~~
 
