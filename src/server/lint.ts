@@ -329,6 +329,7 @@ function reportIfUnexpected(
   report(
     path,
     [
+      "color-named",
       "value-keyword-case",
       "alpha-value-notation",
       "color-hex-length",

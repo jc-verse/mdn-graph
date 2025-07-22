@@ -14,11 +14,18 @@ function toPropertiesSyntax(spec) {
   return res;
 }
 
-function toTypesSyntax(spec) {
-  const res = {};
+function toTypesSyntax(spec, res = {}) {
   for (const prop of spec.values) {
     if (prop.value) {
       res[prop.name.replace(/^<|>$/g, "")] = prop.value;
+    } else if (prop.values) {
+      res[prop.name.replace(/^<|>$/g, "")] = prop.values
+        .map((x) => {
+          if (!x.value) throw new Error(`No value for ${prop.name} ${x.name}`);
+          if (x.values) toTypesSyntax(x, res);
+          return x.value;
+        })
+        .join(" | ");
     }
   }
   return res;
@@ -33,7 +40,9 @@ function mergeSyntaxes(...entries) {
           res[key] += value;
         } else if (res[key].startsWith("| ")) {
           res[key] = value + res[key];
-        } else {
+        } else if (res[key] !== value) {
+          console.warn(`Duplicate syntax for ${key}:\n- ${res[key]}\n- ${value}`);
+          // Later one is newer
           res[key] = value;
         }
       } else {
@@ -44,153 +53,141 @@ function mergeSyntaxes(...entries) {
   return res;
 }
 
+const languageOptions = {
+  syntax: {
+    atRules: {
+      // csstree has nearly everything except position-anchor & position-area
+      "position-try": {
+        prelude: "<dashed-ident>",
+        descriptors: {
+          "position-anchor": "auto | <anchor-name>",
+          "position-area": "none | <position-area>",
+          top: "auto | <length-percentage> | <anchor()> | <anchor-size()> | inherit | initial | revert | revert-layer | unset",
+          left: "auto | <length-percentage> | <anchor()> | <anchor-size()> | inherit | initial | revert | revert-layer | unset",
+          right:
+            "auto | <length-percentage> | <anchor()> | <anchor-size()> | inherit | initial | revert | revert-layer | unset",
+          bottom:
+            "auto | <length-percentage> | <anchor()> | <anchor-size()> | inherit | initial | revert | revert-layer | unset",
+        },
+      },
+    },
+    properties: mergeSyntaxes(
+      toPropertiesSyntax(parsedFiles["css-anchor-position"]),
+      toPropertiesSyntax(parsedFiles["css-backgrounds-4"]),
+      toPropertiesSyntax(parsedFiles["css-borders"]),
+      toPropertiesSyntax(parsedFiles["css-box"]),
+      toPropertiesSyntax(parsedFiles["css-conditional-5"]),
+      toPropertiesSyntax(parsedFiles["css-fonts"]),
+      toPropertiesSyntax(parsedFiles["css-fonts-5"]),
+      toPropertiesSyntax(parsedFiles["css-grid-3"]),
+      toPropertiesSyntax(parsedFiles["css-images"]),
+      toPropertiesSyntax(parsedFiles["css-inline"]),
+      toPropertiesSyntax(parsedFiles["css-text-4"]),
+      toPropertiesSyntax(parsedFiles["compositing"]),
+      {
+        // LEGACY
+        "alignment-baseline": "| hanging",
+        appearance: "| slider-vertical | base-select", // NEW: base-select
+        display: "| box | -moz-box",
+        "box-align": "start | center | end | baseline | stretch",
+        "box-direction": "normal | reverse",
+        "box-lines": "single | multiple",
+        "box-ordinal-group": "<integer>",
+        "box-orient": "horizontal | vertical | inline-axis | block-axis",
+        "box-pack": "start | center | end | stretch",
+        "text-justify": "| distribute", // TODO: remove
+        "fill-opacity": "<'opacity'>", // csstree incorrect
+        // horizontal & vertical are FF-only
+        "scroll-timeline-axis":
+          "[ block | inline | x | y | horizontal | vertical ]#",
+        // NEW: calc-size
+        // https://github.com/stylelint/stylelint/issues/8320
+        // I can't extend the length type, only each property
+        height: "| <calc-size()>",
+        width: "| <calc-size()>",
+        // TODO: No way to say that every property accepts <attr()>
+        "background-color": "| <attr()>",
+        rotate: "| <attr()>",
+        "view-transition-name": "| <attr()>",
+        // csstree bugs?
+        "-webkit-mask-repeat-x": "[ repeat | no-repeat | space | round ]#",
+        "-webkit-mask-repeat-y": "[ repeat | no-repeat | space | round ]#",
+        "-webkit-text-stroke-width": "| thin | medium | thick",
+      },
+    ),
+    types: mergeSyntaxes(
+      toTypesSyntax(parsedFiles["css-anchor-position"]),
+      toTypesSyntax(parsedFiles["css-backgrounds-4"]),
+      toTypesSyntax(parsedFiles["css-borders"]),
+      toTypesSyntax(parsedFiles["css-color"]),
+      toTypesSyntax(parsedFiles["css-color-5"]),
+      toTypesSyntax(parsedFiles["css-counter-styles"]),
+      {
+        // <counter-style-name> is defined as a <custom-ident>
+        // but there are some pre-defined values. webref is confusing in this case
+        "counter-style-name": "<custom-ident>",
+      },
+      toTypesSyntax(parsedFiles["css-easing"]),
+      toTypesSyntax(parsedFiles["css-fonts"]),
+      toTypesSyntax(parsedFiles["css-images"]),
+      toTypesSyntax(parsedFiles["css-images-4"]),
+      {
+        // LEGACY
+        "cross-fade()": "| cross-fade( <image> , <image> , <percentage> )",
+        "-webkit-cross-fade()":
+          "-webkit-cross-fade( <image> , <image> , <percentage> )",
+        // TODO: paint() should be added to <image> in webref
+        image: "| <paint()> | <-webkit-cross-fade()>",
+        // TODO: currently there's a webref warning: "Missing definition"
+        // Remove when fixed
+        "radial-size": "<radial-extent>{1,2} | <length-percentage [0,∞]>{1,2}",
+      },
+      toTypesSyntax(parsedFiles["css-shapes"]),
+      toTypesSyntax(parsedFiles["css-shapes-2"]),
+      toTypesSyntax(parsedFiles["css-text-4"]),
+      toTypesSyntax(parsedFiles["css-values-5"]),
+      {
+        // should suffice to accept all valid values
+        "size-keyword":
+          "auto | fit-content | min-content | max-content | fill-available | stretch",
+        // TODO: verify
+        "attr-unit":
+          "string | color | url | integer | number | length | angle | time | frequency | cap | ch | em | ex | ic | lh | rlh | rem | vb | vi | vw | vh | vmin | vmax | mm | Q | cm | in | pt | pc | px | deg | grad | rad | turn | ms | s | Hz | kHz | %",
+      },
+      toTypesSyntax(parsedFiles["compositing"]),
+      {
+        // I think this is a bug with the compositing spec:
+        // <background-blend-mode> refers to <mix-blend-mode>
+        // without declaring the latter as a type
+        "mix-blend-mode": "<blend-mode> | plus-darker | plus-lighter",
+      },
+      // TODO There's some incompatibility between fill-stroke and SVG.
+      // Namely SVG defines fill = <paint> but fill-stroke considers it a shorthand
+      // For now we manually patch the part we need
+      // toTypesSyntax(parsedFiles["fill-stroke"]),
+      {
+        paint: "| <image>",
+      },
+      {
+        // LEGACY
+        image: "| <-moz-element()> | <-moz-image-rect()>",
+        "-moz-element()": "-moz-element( <id-selector> )",
+        "-moz-image-rect()":
+          "-moz-image-rect( <url> , [ <integer> | <percentage> ]#{4} )",
+      },
+    ),
+  },
+};
+
 // console.log(Object.keys(parsedFiles).sort().join("\n"));
-// console.log(mergeSyntaxes(toTypesSyntax(parsedFiles["fill-stroke"])));
+// console.log(toTypesSyntax(parsedFiles["css-images-4"]));
+// console.log(languageOptions);
 
 export default function stylelintConfig(isPropertyOnly: boolean) {
   return {
     fix: false,
     validate: false,
-    languageOptions: {
-      syntax: {
-        atRules: {
-          // csstree has nearly everything except position-anchor & position-area
-          "position-try": {
-            prelude: "<dashed-ident>",
-            descriptors: {
-              "position-anchor": "auto | <anchor-name>",
-              "position-area": "none | <position-area>",
-              top: "auto | <length-percentage> | <anchor()> | <anchor-size()> | inherit | initial | revert | revert-layer | unset",
-              left: "auto | <length-percentage> | <anchor()> | <anchor-size()> | inherit | initial | revert | revert-layer | unset",
-              right:
-                "auto | <length-percentage> | <anchor()> | <anchor-size()> | inherit | initial | revert | revert-layer | unset",
-              bottom:
-                "auto | <length-percentage> | <anchor()> | <anchor-size()> | inherit | initial | revert | revert-layer | unset",
-            },
-          },
-        },
-        properties: mergeSyntaxes(
-          toPropertiesSyntax(parsedFiles["css-anchor-position"]),
-          toPropertiesSyntax(parsedFiles["css-backgrounds-4"]),
-          toPropertiesSyntax(parsedFiles["css-borders"]),
-          toPropertiesSyntax(parsedFiles["css-box"]),
-          toPropertiesSyntax(parsedFiles["css-conditional-5"]),
-          toPropertiesSyntax(parsedFiles["css-fonts"]),
-          toPropertiesSyntax(parsedFiles["css-fonts-5"]),
-          toPropertiesSyntax(parsedFiles["css-grid-3"]),
-          toPropertiesSyntax(parsedFiles["css-images"]),
-          toPropertiesSyntax(parsedFiles["css-inline"]),
-          toPropertiesSyntax(parsedFiles["css-text-4"]),
-          toPropertiesSyntax(parsedFiles["compositing"]),
-          {
-            // LEGACY
-            "alignment-baseline": "| hanging",
-            appearance: "| slider-vertical | base-select", // NEW: base-select
-            display: "| box | -moz-box",
-            "box-align": "start | center | end | baseline | stretch",
-            "box-direction": "normal | reverse",
-            "box-lines": "single | multiple",
-            "box-ordinal-group": "<integer>",
-            "box-orient": "horizontal | vertical | inline-axis | block-axis",
-            "box-pack": "start | center | end | stretch",
-            "text-justify": "| distribute", // TODO: remove
-            "fill-opacity": "<'opacity'>", // csstree incorrect
-            // horizontal & vertical are FF-only
-            "scroll-timeline-axis":
-              "[ block | inline | x | y | horizontal | vertical ]#",
-            // NEW: calc-size
-            // https://github.com/stylelint/stylelint/issues/8320
-            // I can't extend the length type, only each property
-            height: "| <calc-size()>",
-            width: "| <calc-size()>",
-            // TODO: No way to say that every property accepts <attr()>
-            "background-color": "| <attr()>",
-            rotate: "| <attr()>",
-            "view-transition-name": "| <attr()>",
-            // csstree bugs?
-            "-webkit-mask-repeat-x": "[ repeat | no-repeat | space | round ]#",
-            "-webkit-mask-repeat-y": "[ repeat | no-repeat | space | round ]#",
-            "-webkit-text-stroke-width": "| thin | medium | thick",
-          },
-        ),
-        types: mergeSyntaxes(
-          toTypesSyntax(parsedFiles["css-anchor-position"]),
-          toTypesSyntax(parsedFiles["css-backgrounds-4"]),
-          toTypesSyntax(parsedFiles["css-borders"]),
-          toTypesSyntax(parsedFiles["css-color"]),
-          toTypesSyntax(parsedFiles["css-color-5"]),
-          toTypesSyntax(parsedFiles["css-counter-styles"]),
-          toTypesSyntax(parsedFiles["css-easing"]),
-          toTypesSyntax(parsedFiles["css-fonts"]),
-          toTypesSyntax(parsedFiles["css-images"]),
-          toTypesSyntax(parsedFiles["css-images-4"]),
-          {
-            // LEGACY
-            "cross-fade()": "| cross-fade( <image> , <image> , <percentage> )",
-            "-webkit-cross-fade()":
-              "-webkit-cross-fade( <image> , <image> , <percentage> )",
-            // TODO: paint() should be added to <image> in webref
-            image: "| <paint()> | <-webkit-cross-fade()>",
-          },
-          toTypesSyntax(parsedFiles["css-shapes"]),
-          toTypesSyntax(parsedFiles["css-shapes-2"]),
-          {
-            // TODO: why is this not in webref?
-            "basic-shape": "| <shape()>",
-            "move-command": "move <command-end-point>",
-            "line-command": "line <command-end-point>",
-            "horizontal-line-command":
-              "hline [ to [ <length-percentage> | left | center | right | x-start | x-end ] | by <length-percentage> ]",
-            "vertical-line-command":
-              "vline [ to [ <length-percentage> | top | center | bottom | y-start | y-end ] | by <length-percentage> ]",
-            "curve-command":
-              "curve [ [ to <position> with <control-point> [ / <control-point> ]? ] | [ by <coordinate-pair> with <relative-control-point> [ / <relative-control-point> ]? ] ]",
-            "smooth-command":
-              "smooth [ [ to <position> [ with <control-point> ]? ] | [ by <coordinate-pair> [ with <relative-control-point> ]? ] ]",
-            "arc-command":
-              "arc <command-end-point> [ [ of <length-percentage>{1,2} ] && <arc-sweep>? && <arc-size>? && [rotate <angle>]? ]",
-            "command-end-point": "[ to <position> | by <coordinate-pair> ]",
-            "control-point": "[ <position> | <relative-control-point> ]",
-            "relative-control-point":
-              "<coordinate-pair> [ from [ start | end | origin ] ]?",
-            "coordinate-pair": "<length-percentage>{2}",
-            "arc-sweep": "cw | ccw",
-            "arc-size": "large | small",
-          },
-          toTypesSyntax(parsedFiles["css-text-4"]),
-          toTypesSyntax(parsedFiles["css-values-5"]),
-          {
-            // should suffice to accept all valid values
-            "size-keyword":
-              "auto | fit-content | min-content | max-content | fill-available | stretch",
-            // TODO: verify
-            "attr-unit":
-              "string | color | url | integer | number | length | angle | time | frequency | cap | ch | em | ex | ic | lh | rlh | rem | vb | vi | vw | vh | vmin | vmax | mm | Q | cm | in | pt | pc | px | deg | grad | rad | turn | ms | s | Hz | kHz | %",
-          },
-          toTypesSyntax(parsedFiles["compositing"]),
-          {
-            // I think this is a bug with the compositing spec:
-            // <background-blend-mode> refers to <mix-blend-mode>
-            // without declaring the latter as a type
-            "mix-blend-mode": "<blend-mode> | plus-darker | plus-lighter",
-          },
-          // TODO There's some incompatibility between fill-stroke and SVG.
-          // Namely SVG defines fill = <paint> but fill-stroke considers it a shorthand
-          // For now we manually patch the part we need
-          // toTypesSyntax(parsedFiles["fill-stroke"]),
-          {
-            paint: "| <image>",
-          },
-          {
-            // LEGACY
-            image: "| <-moz-element()> | <-moz-image-rect()>",
-            "-moz-element()": "-moz-element( <id-selector> )",
-            "-moz-image-rect()":
-              "-moz-image-rect( <url> , [ <integer> | <percentage> ]#{4} )",
-          },
-        ),
-      },
-    },
+    languageOptions,
     rules: {
       "at-rule-no-deprecated": true,
       "declaration-property-value-keyword-no-deprecated": true,
@@ -333,6 +330,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       ],
       "unit-no-unknown": true,
+      "color-named": "always-where-possible",
       "function-name-case": "lower",
       "selector-type-case": "lower",
       "value-keyword-case": "lower",

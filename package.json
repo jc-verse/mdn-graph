@@ -10,21 +10,21 @@
     "prettier": "^3.3.3"
   },
   "dependencies": {
-    "@mdn/browser-compat-data": "^6.0.31",
+    "@mdn/browser-compat-data": "^6.0.34",
     "@types/three": "^0.167.1",
-    "@webref/css": "^6.21.2",
-    "angular-html-parser": "^8.1.0",
-    "cheerio": "^1.0.0",
-    "eslint": "^9.23.0",
+    "@webref/css": "^6.23.5",
+    "angular-html-parser": "^9.2.0",
+    "cheerio": "^1.1.2",
+    "eslint": "^9.31.0",
     "eslint-config-jc": "^6.0.1",
     "gray-matter": "^4.0.3",
     "leven": "^4.0.0",
     "ngraph.events": "0.0.3",
     "ngraph.forcelayout": "^3.3.1",
     "ngraph.graph": "^20.0.1",
-    "stylelint": "^16.21.1",
+    "stylelint": "^16.22.0",
     "three": "^0.73.0",
     "three.fly": "0.1.6",
-    "typescript-eslint": "^8.29.0"
+    "typescript-eslint": "^8.38.0"
   }
 }

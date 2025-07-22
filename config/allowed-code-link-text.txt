@@ -125,7 +125,6 @@ dom.enable_web_task_scheduling
 dom.events.script_execute.enable
 dom.performance.event_timing.enable_interactionid
 dom.security.trusted_types.enabled
-dom.shadowdom.selection_across_boundary.enabled
 image.avif.compliance_strictness
 javascript.options.atomics_wait_async
 network.cors_preflight.authorization_covered_by_wildcard

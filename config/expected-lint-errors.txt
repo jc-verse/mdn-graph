@@ -3968,6 +3968,13 @@ const = "foo";
 </html>
 ~~~
 
+/en-US/docs/Web/JavaScript/Reference/Errors/Read-only
+[no-implicit-globals] Unexpected assignment to read-only global variable.
+~~~
+"use strict";
+undefined = function () {}; // TypeError: "undefined" is read-only
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Errors/Regex_backslash_at_end_of_pattern
 [prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
 ~~~
@@ -5053,6 +5060,22 @@ number; // "24"
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source
+[prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
+~~~
+new RegExp().source; // "(?:)"
+
+new RegExp("\n").source === "\\n"; // true, starting with ES5
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source
+[regexp/letter-case] 'B' is not in lowercase
+~~~
+const regex = /fooBar/gi;
+
+console.log(regex.source); // "fooBar", doesn't contain /.../ and "gi".
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source
 [regexp/letter-case] 'B' is not in lowercase
 [prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
 ~~~
@@ -5067,22 +5090,6 @@ console.log(new RegExp().source);
 console.log(new RegExp("\n").source === "\\n");
 // Expected output: true (starting with ES5)
 // Due to escaping
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source
-[prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
-~~~
-new RegExp().source; // "(?:)"
-
-new RegExp("\n").source === "\\n"; // true, starting with ES5
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source
-[regexp/letter-case] 'B' is not in lowercase
-~~~
-const regex = /fooBar/gi;
-
-console.log(regex.source); // "fooBar", doesn't contain /.../ and "gi".
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode
@@ -6289,6 +6296,34 @@ var x = 17;
 var evalX = eval("'use strict'; var x = 42; x;");
 console.assert(x === 17);
 console.assert(evalX === 42);
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Strict_mode
+[no-implicit-globals] Unexpected assignment to read-only global variable.
+~~~
+"use strict";
+
+// Assignment to a non-writable global
+undefined = 5; // TypeError
+Infinity = 5; // TypeError
+
+// Assignment to a non-writable property
+const obj1 = {};
+Object.defineProperty(obj1, "x", { value: 42, writable: false });
+obj1.x = 9; // TypeError
+
+// Assignment to a getter-only property
+const obj2 = {
+  get x() {
+    return 17;
+  },
+};
+obj2.x = 5; // TypeError
+
+// Assignment to a new property on a non-extensible object
+const fixed = {};
+Object.preventExtensions(fixed);
+fixed.newProp = "ohai"; // TypeError
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Strict_mode
