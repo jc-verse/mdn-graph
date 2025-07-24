@@ -26,20 +26,6 @@ bun build.ts graph warnings external-links
 
 Now you can open `docs/index.html` in your browser.
 
-## Aggregating reports
-
-We want to filter out some known broken links. Go to https://openwebdocs.github.io/web-docs-backlog/all/ and run:
-
-```js
-console.log(
-  [...document.querySelectorAll(".features a")]
-    .map((x) => x.innerText)
-    .join("\n"),
-);
-```
-
-Copy the output into `config/missing-features.txt`.
-
 ## Attribution
 
 - [anvaka/ngragph](https://github.com/anvaka/ngraph) and its lots of subpackages for actually rendering the graph

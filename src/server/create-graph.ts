@@ -533,7 +533,7 @@ export default async function createContentGraph() {
       if (img.startsWith("https:") || img.startsWith("http:")) {
         if (!img.startsWith("https://mdn.github.io/shared-assets/"))
           report(node, "External image", img);
-      } else {
+      } else if (!img.startsWith("/shared-assets/")) {
         if (!allImgs.has(img)) {
           if (brokenImages.has(`${node.id}\t${img}`)) {
             brokenImages.set(`${node.id}\t${img}`, true);

@@ -48,6 +48,7 @@ html.global_attributes.itemprop
 html.global_attributes.itemref
 html.global_attributes.itemscope
 html.global_attributes.itemtype
+html.elements.meta.name.robots
 
 http.headers.Accept-Patch
 http.headers.Accept-Post

@@ -37,7 +37,6 @@
 
   Guide pages that need BCD
 /en-US/docs/Web/API/File_System_API/Origin_private_file_system	api.StorageManager.getDirectory
-/en-US/docs/Web/API/Storage_Access_API/Related_website_sets	api.Document.requestStorageAccessFor
 /en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions	api.CredentialsContainer.create.publicKey_option.extensions,api.CredentialsContainer.get.publicKey_option.extensions
 /en-US/docs/Web/Security/Mixed_content	http.mixed-content
 

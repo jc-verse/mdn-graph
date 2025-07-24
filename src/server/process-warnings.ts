@@ -8,6 +8,49 @@ import {
 } from "./check-external-link.js";
 import { readConfig, configHas } from "./config.js";
 
+const webDocsBacklog = new Set(
+  (await readConfig("web-docs-backlog.txt")).map((x) => {
+    // JS has no undocumented things
+    if (x.startsWith("javascript.")) return;
+    const [scope, interfac, member, ...rest] = x.split(".");
+    if (rest.length) {
+      console.error("Unexpected data:", x);
+      return;
+    }
+    if (!member && scope !== "api" && scope !== "webassembly") {
+      console.error("Unexpected data:", x);
+      return;
+    }
+    switch (scope) {
+      case "api":
+        if (!member) return `/en-US/docs/Web/API/${interfac}`;
+        return `/en-US/docs/Web/API/${interfac}/${member}`;
+      case "css":
+        if (interfac === "selectors") return `/en-US/docs/Web/CSS/:${member}`;
+        return `/en-US/docs/Web/CSS/${member}`;
+      case "html":
+        if (interfac === "elements") {
+          return `/en-US/docs/Web/HTML/Reference/Elements/${member}`;
+        }
+        break;
+      case "http":
+        if (interfac === "headers") {
+          return `/en-US/docs/Web/HTTP/Headers/${member}`;
+        }
+        break;
+      case "webdriver":
+        if (interfac === "bidi" || interfac === "classic") {
+          return `/en-US/docs/Web/WebDriver/Reference/Commands/${member}`;
+        }
+        break;
+      case "webassembly":
+        // Not structured enough
+        return;
+    }
+    console.error("Unexpected data:", x);
+  }),
+);
+
 export default async function processWarnings(fast: boolean = false) {
   function report(node: Node, message: string, ...data: string[]) {
     const nodeWarnings = (warnings[node.data.metadata.source.folder] ??= []);
@@ -35,49 +78,6 @@ export default async function processWarnings(fast: boolean = false) {
   for (const [path, arr] of Object.entries(lintWarnings)) {
     (warnings[slugToNode.get(path)] ??= []).push(...arr);
   }
-
-  const missingFeatures = new Set(
-    (await readConfig("missing-features.txt")).map((x) => {
-      // JS has no undocumented things
-      if (x.startsWith("javascript.")) return;
-      const [scope, interfac, member, ...rest] = x.split(".");
-      if (rest.length) {
-        console.error("Unexpected data:", x);
-        return;
-      }
-      if (!member && scope !== "api" && scope !== "webassembly") {
-        console.error("Unexpected data:", x);
-        return;
-      }
-      switch (scope) {
-        case "api":
-          if (!member) return `/en-US/docs/Web/API/${interfac}`;
-          return `/en-US/docs/Web/API/${interfac}/${member}`;
-        case "css":
-          if (interfac === "selectors") return `/en-US/docs/Web/CSS/:${member}`;
-          return `/en-US/docs/Web/CSS/${member}`;
-        case "html":
-          if (interfac === "elements") {
-            return `/en-US/docs/Web/HTML/Reference/Elements/${member}`;
-          }
-          break;
-        case "http":
-          if (interfac === "headers") {
-            return `/en-US/docs/Web/HTTP/Headers/${member}`;
-          }
-          break;
-        case "webdriver":
-          if (interfac === "bidi" || interfac === "classic") {
-            return `/en-US/docs/Web/WebDriver/Reference/Commands/${member}`;
-          }
-          break;
-        case "webassembly":
-          // Not structured enough
-          return;
-      }
-      console.error("Unexpected data:", x);
-    }),
-  );
 
   const noPage = new Map(
     (await readConfig("no-page.txt")).map((x) => [x, false]),
@@ -129,7 +129,7 @@ export default async function processWarnings(fast: boolean = false) {
         } else if (id === "macros") {
           if (d.explanation.endsWith("does not exist")) {
             const url = d.explanation.replace(" does not exist", "");
-            if (missingFeatures.has(url) || configHas(noPage, url)) return;
+            if (webDocsBacklog.has(url) || configHas(noPage, url)) return;
           }
         } else if (id === "images") {
           if (
@@ -173,10 +173,10 @@ export default async function processWarnings(fast: boolean = false) {
           (
             x.message === "Missing href" ||
             (x.message === "Broken link" &&
-              (missingFeatures.has(x.data[0]) ||
+              (webDocsBacklog.has(x.data[0]) ||
                 configHas(noPage, x.data[0]))) ||
             (x.message === "Broken sidebar link" &&
-              (missingFeatures.has(x.data[1]) || configHas(noPage, x.data[1])))
+              (webDocsBacklog.has(x.data[1]) || configHas(noPage, x.data[1])))
           )
         ),
     );
