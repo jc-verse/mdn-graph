@@ -6059,6 +6059,12 @@ async function* foo() {
 })();
 ~~~
 
+/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of
+[syntax] Parsing error: An element access expression should take an argument.
+~~~
+for await (using of of []); // SyntaxError
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Statements/for...of
 [no-extend-native] Object prototype is read only, properties should not be added.
 [no-extend-native] Array prototype is read only, properties should not be added.
@@ -6100,6 +6106,12 @@ foo(1, 2, 3);
 // 1
 // 2
 // 3
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/for...of
+[syntax] Parsing error: An element access expression should take an argument.
+~~~
+for (using of of []); // SyntaxError
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Statements/function

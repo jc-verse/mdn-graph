@@ -19,7 +19,6 @@ const layoutSettings = {
 const pathToLabel = [
   ["files/en-us/web/accessibility/", "Content:Accessibility"],
   ["files/en-us/web/css/", "Content:CSS"],
-  ["files/en-us/web/events/", "Content:Events"],
   ["files/en-us/mozilla/add-ons/webextensions/", "Content:WebExt"],
   ["files/en-us/mozilla/firefox/", "Content:Firefox"],
   ["files/en-us/games/", "Content:Games"],

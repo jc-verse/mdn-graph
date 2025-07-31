@@ -41,7 +41,9 @@ function mergeSyntaxes(...entries) {
         } else if (res[key].startsWith("| ")) {
           res[key] = value + res[key];
         } else if (res[key] !== value) {
-          console.warn(`Duplicate syntax for ${key}:\n- ${res[key]}\n- ${value}`);
+          console.warn(
+            `Duplicate syntax for ${key}:\n- ${res[key]}\n- ${value}`,
+          );
           // Later one is newer
           res[key] = value;
         }
