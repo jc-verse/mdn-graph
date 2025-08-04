@@ -1,3 +1,24 @@
+/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Initialize_the_framework
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Gamedev Phaser Workshop - lesson 01: Initialize the framework</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+    <script src="js/phaser.min.js"></script>
+    <script src="js/script.js" defer></script>
+  </head>
+  <body></body>
+</html>
+~~~
+
 /en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Create_the_Canvas_and_draw_on_it
 [no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
 ~~~
@@ -96,6 +117,36 @@ this content!
 <br /><br />
 This is the second subsection of my content. I think is more interesting than
 the last one.
+~~~
+
+/en-US/docs/Learn_web_development/Core/Challenges
+[color-named] Expected "#f00" to be "red" (color-named)
+[color-named] Expected "#00f" to be "blue" (color-named)
+~~~
+strong {
+  color: #f00; /* red */
+  background-color: #ddf; /* pale blue */
+  font: 200% serif;
+}
+
+.carrot {
+  color: #fa0; /* orange */
+}
+
+.spinach {
+  color: #080; /* dark green */
+}
+
+p {
+  color: #00f; /* blue */
+}
+~~~
+
+/en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)
+~~~
+flex-direction: row;
+flex-wrap: wrap;
 ~~~
 
 /en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries
@@ -550,6 +601,49 @@ function checkGuess( {
 </table>
 ~~~
 
+/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "margin" (declaration-block-no-redundant-longhand-properties)
+~~~
+.container {
+  border: 5px solid blue;
+  margin: 40px;
+}
+
+.box {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding: 10px;
+  height: 100px;
+  /* try changing the margin properties: */
+  margin-top: -40px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  margin-left: 4em;
+}
+~~~
+
+/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "padding" (declaration-block-no-redundant-longhand-properties)
+~~~
+body {
+  font-family: sans-serif;
+}
+.box {
+  border: 5px solid rebeccapurple;
+  background-color: lightgray;
+  padding-top: 0;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  padding-left: 4em;
+}
+
+.container {
+  border: 5px solid blue;
+  margin: 40px;
+  padding: 20px;
+}
+~~~
+
 /en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
 [no-style-attr] Do not use the style attribute.
 ~~~
@@ -568,6 +662,15 @@ padding- left: 10px;
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "padding" (declaration-block-no-redundant-longhand-properties)
+~~~
+padding-top: 10px;
+padding-right: 15px;
+padding-bottom: 15px;
+padding-left: 5px;
+~~~
+
+/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
 [no-style-attr] Do not use the style attribute.
 ~~~
 <span style="color: purple; font-weight: bold">span element</span>
@@ -581,6 +684,16 @@ padding- left: 10px;
     color: purple;
   }
 </style>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Text_styling/Styling_lists
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "list-style" (declaration-block-no-redundant-longhand-properties)
+~~~
+ul {
+  list-style-type: square;
+  list-style-image: url("example.png");
+  list-style-position: inside;
+}
 ~~~
 
 /en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Third_party_APIs
@@ -687,8 +800,8 @@ if (author === null) {
 button {
   /* … */
 
-  background-color: #ff0000;
-  background-color: rgb(255 0 0 / 100%);
+  background-color: red;
+  background-color: rgb(255 0 0 / 90%);
   box-shadow:
     inset 1px 1px 3px rgb(255 255 255 / 40%),
     inset -1px -1px 3px rgb(0 0 0 / 40%);
@@ -753,6 +866,85 @@ console.log(helloChris;
 [syntax] Parsing error: Unterminated string literal.
 ~~~
 alert("hello!);
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/CSS
+[CssSyntaxError] Unknown word rgb (CssSyntaxError)
+~~~
+rgb(31 41 59);
+rgb(31 41 59 / 26%);
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/CSS
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "margin" (declaration-block-no-redundant-longhand-properties)
+~~~
+margin-top: 1em;
+margin-right: 2em;
+margin-bottom: 1em;
+margin-left: 2em;
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/CSS
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "margin" after "margin-top" (declaration-block-no-shorthand-property-overrides)
+~~~
+margin-top: 1em;
+margin: 2em; /* Oops, margin-top is ignored */
+
+border-width: 1px;
+border-bottom-width: 5px; /* Overrides one border's width *only* */
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/CSS
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+[function-url-quotes] Expected quotes around "url" function argument (function-url-quotes)
+[selector-attribute-quotes] Expected quotes around "liquid" (selector-attribute-quotes)
+~~~
+[data-vegetable=liquid] {
+  background-image: url(../../media/examples/lizard.png);
+  font-family: Helvetica, Arial;
+}
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/CSS
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+body {
+  font-family: "Helvetica";
+}
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/CSS
+[import-notation] Expected "url("style.css")" to be ""style.css"" (import-notation)
+~~~
+@import url("style.css");
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/CSS
+[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
+~~~
+@media (min-width: 480px) {
+  /* ... */
+}
+@media (min-height: 600px) and (max-height: 900px) {
+  /* ... */
+}
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/CSS
+[selector-not-notation] Expected complex :not() pseudo-class notation (selector-not-notation)
+~~~
+input:not(:checked):not(:disabled) {
+  /* ... */
+}
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/CSS
+[shorthand-property-no-redundant-values] Expected "1em 1em" to be "1em" (shorthand-property-no-redundant-values)
+[shorthand-property-no-redundant-values] Expected "1em 1em 1em 1em" to be "1em" (shorthand-property-no-redundant-values)
+~~~
+margin: 1em 1em;
+margin: 1em 1em 1em 1em;
 ~~~
 
 /en-US/docs/MDN/Writing_guidelines/Code_style_guide/HTML
@@ -932,7 +1124,7 @@ var(--custom-prop,)
 /* With a fallback value */
 /* var( <custom-property-name> , <declaration-value> ) */
 var(--custom-prop, initial)
-var(--custom-prop, #FF0000)
+var(--custom-prop, red)
 var(--my-background, linear-gradient(transparent, aqua), pink)
 var(--custom-prop, var(--default-value))
 var(--custom-prop, var(--default-value, red))
@@ -1168,7 +1360,7 @@ div#header {
   aria-valuemax="100"
   aria-labelledby="cpu_usage_label">
   <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="width: 90%">
-    <rect x="0" y="0" width="100%" height="100%" fill="currentcolor"></rect>
+    <rect x="0" y="0" width="100%" height="100%" fill="currentColor"></rect>
   </svg>
 </div>
 ~~~
@@ -1198,6 +1390,20 @@ div#header {
 /en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
 [color-function-notation] Expected modern color-function notation (color-function-notation)
 [color-function-alias-notation] Expected "rgba" to be "rgb" (color-function-alias-notation)
+[color-named] Expected "rgb(100% 0% 100%)" to be "fuchsia" (color-named)
+[color-named] Expected "rgb(100% 0% 100%/100%)" to be "fuchsia" (color-named)
+[color-named] Expected "rgb(255 0 255)" to be "fuchsia" (color-named)
+[color-named] Expected "rgb(255 0 255/1)" to be "fuchsia" (color-named)
+[color-named] Expected "rgb(100%,0%,100%)" to be "fuchsia" (color-named)
+[color-named] Expected "rgba(255,0,255,1)" to be "fuchsia" (color-named)
+[color-named] Expected "#f0f" to be "fuchsia" (color-named)
+[color-named] Expected "#ff00ff" to be "fuchsia" (color-named)
+[color-named] Expected "#f0ff" to be "fuchsia" (color-named)
+[color-named] Expected "#ff00ffff" to be "fuchsia" (color-named)
+[color-named] Expected "hsl(300 100% 50%)" to be "fuchsia" (color-named)
+[color-named] Expected "hsl(300deg 100% 50%/100%)" to be "fuchsia" (color-named)
+[color-named] Expected "hwb(300deg 0% 0%)" to be "fuchsia" (color-named)
+[color-named] Expected "hwb(300 0% 0%/1)" to be "fuchsia" (color-named)
 ~~~
 /* named color */
 color: magenta;
@@ -1228,7 +1434,7 @@ color: hsl(300deg 100% 50% / 100%);
 color: hwb(300deg 0% 0%);
 color: hwb(300 0% 0% / 1);
 
-/* by LAB representation of the sRGB value*/
+/* by LAB representation of the sRGB value */
 color: lab(60 93.56 -60.5);
 color: lab(60 93.56 -60.5 / 1);
 
@@ -1267,7 +1473,7 @@ function play() {
         color: #cccccc;
       }
       #c2 {
-        background-image: url(media/foo.png);
+        background-image: url("media/foo.png");
         background-repeat: no-repeat;
       }
       div {
@@ -1954,7 +2160,7 @@ for (let i = 0; i < myNodeList.length; i++) {
 [declaration-block-no-duplicate-properties] Unexpected duplicate "background-image" (declaration-block-no-duplicate-properties)
 ~~~
 textarea {
-  background-image: url(checkerboard);
+  background-image: url("checkerboard.png"); /* Fallback */
   background-image: paint(checkerboard);
 }
 ~~~
@@ -2366,6 +2572,13 @@ h2 :not(span.foo) {
 ~~~
 
 /en-US/docs/Web/CSS/@import
+[import-notation] Expected "url("chrome://communicator/skin/")" to be ""chrome://communicator/skin/"" (import-notation)
+~~~
+@import "custom.css";
+@import url("chrome://communicator/skin/");
+~~~
+
+/en-US/docs/Web/CSS/@import
 [no-invalid-position-at-import-rule] Unexpected invalid position @import rule (no-invalid-position-at-import-rule)
 ~~~
 * {
@@ -2373,7 +2586,7 @@ h2 :not(span.foo) {
   padding: 0;
 }
 /* more styles */
-@import url("my-imported-styles.css");
+@import "my-imported-styles.css";
 ~~~
 
 /en-US/docs/Web/CSS/@keyframes
@@ -2466,6 +2679,7 @@ h2 :not(span.foo) {
 
 /en-US/docs/Web/CSS/attr
 [declaration-property-value-no-unknown] Cannot parse property value "url(attr(data-icon))" for property "background-image" (declaration-property-value-no-unknown)
+[function-url-quotes] Expected quotes around "url" function argument (function-url-quotes)
 ~~~
 span[data-icon] {
   background-image: url(attr(data-icon));
@@ -2511,6 +2725,30 @@ border-left-style: dotted;
 border-left: none thick green;
 ~~~
 
+/en-US/docs/Web/CSS/border-radius
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "border-radius" (declaration-block-no-redundant-longhand-properties)
+~~~
+border-radius: 1em/5em;
+
+/* It is equivalent to: */
+border-top-left-radius: 1em 5em;
+border-top-right-radius: 1em 5em;
+border-bottom-right-radius: 1em 5em;
+border-bottom-left-radius: 1em 5em;
+~~~
+
+/en-US/docs/Web/CSS/border-radius
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "border-radius" (declaration-block-no-redundant-longhand-properties)
+~~~
+border-radius: 4px 3px 6px / 2px 4px;
+
+/* It is equivalent to: */
+border-top-left-radius: 4px 2px;
+border-top-right-radius: 3px 4px;
+border-bottom-right-radius: 6px 2px;
+border-bottom-left-radius: 3px 4px;
+~~~
+
 /en-US/docs/Web/CSS/border-right
 [declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-right" after "border-right-style" (declaration-block-no-shorthand-property-overrides)
 ~~~
@@ -2537,6 +2775,44 @@ border-top: thick green;
 ~~~
 border-top-style: dotted;
 border-top: none thick green;
+~~~
+
+/en-US/docs/Web/CSS/color
+[color-named] Expected "#f00" to be "red" (color-named)
+[color-named] Expected "#ff0000" to be "red" (color-named)
+[color-named] Expected "rgb(255 0 0)" to be "red" (color-named)
+[color-named] Expected "rgb(100% 0% 0%)" to be "red" (color-named)
+[color-named] Expected "hsl(0 100% 50%)" to be "red" (color-named)
+~~~
+p {
+  color: red;
+}
+p {
+  color: #f00;
+}
+p {
+  color: #ff0000;
+}
+p {
+  color: rgb(255 0 0);
+}
+p {
+  color: rgb(100% 0% 0%);
+}
+p {
+  color: hsl(0 100% 50%);
+}
+
+/* 50% translucent */
+p {
+  color: #ff000080;
+}
+p {
+  color: rgb(255 0 0 / 50%);
+}
+p {
+  color: hsl(0 100% 50% / 50%);
+}
 ~~~
 
 /en-US/docs/Web/CSS/color_value/hsl
@@ -2613,6 +2889,13 @@ div.comma-separated {
 }
 ~~~
 
+/en-US/docs/Web/CSS/column-count
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "columns" (declaration-block-no-redundant-longhand-properties)
+~~~
+column-count: auto;
+column-width: 8rem;
+~~~
+
 /en-US/docs/Web/CSS/CSS_cascade/Cascade
 [no-style-attr] Do not use the style attribute.
 ~~~
@@ -2636,12 +2919,42 @@ div.comma-separated {
 ~~~
 
 /en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "inset" (declaration-block-no-redundant-longhand-properties)
+~~~
+top: 0;
+right: 20px;
+bottom: 0;
+left: 20px;
+~~~
+
+/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "margin" (declaration-block-no-redundant-longhand-properties)
+~~~
+margin-top: 10px;
+margin-right: 5px;
+margin-bottom: 10px;
+margin-left: 5px;
+~~~
+
+/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
 [declaration-block-no-shorthand-property-overrides] Unexpected shorthand "background" after "background-color" (declaration-block-no-shorthand-property-overrides)
 ~~~
 p {
   background-color: red;
-  background: url(images/bg.gif) no-repeat left top;
+  background: url("images/bg.gif") no-repeat left top;
 }
+~~~
+
+/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
+[shorthand-property-no-redundant-values] Expected "0 20px 0 20px" to be "0 20px" (shorthand-property-no-redundant-values)
+~~~
+inset: 0 20px 0 20px;
+~~~
+
+/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
+[shorthand-property-no-redundant-values] Expected "10px 5px 10px 5px" to be "10px 5px" (shorthand-property-no-redundant-values)
+~~~
+margin: 10px 5px 10px 5px;
 ~~~
 
 /en-US/docs/Web/CSS/CSS_cascade/Specificity
@@ -2758,12 +3071,67 @@ div {
 .boxRight {
   background-color: hwb(270deg 63% 13%);
   outline: 4px dashed #6e1478;
-  color: hsl(0deg 100% 100%);
+  color: hsl(0deg 95% 95%);
   text-decoration-line: underline;
   text-decoration-style: wavy;
   text-decoration-color: #8f8;
   text-decoration: underline wavy #8f8;
   text-shadow: 2px 2px 3px black;
+}
+~~~
+
+/en-US/docs/Web/CSS/CSS_colors/Color_values
+[color-named] Expected "#ff0000" to be "red" (color-named)
+[color-named] Expected "#f00" to be "red" (color-named)
+~~~
+color: #ff0000;
+color: #f00;
+~~~
+
+/en-US/docs/Web/CSS/CSS_colors/Color_values
+[color-named] Expected "hsl(0deg 100% 50%)" to be "red" (color-named)
+[color-named] Expected "hsl(180deg 100% 50%)" to be "cyan" (color-named)
+[color-named] Expected "hsl(360deg 100% 50%)" to be "red" (color-named)
+~~~
+div:has(~ p input:checked) {
+  filter: grayscale(100%);
+}
+p {
+  margin: 0;
+}
+div {
+  height: 50px;
+  margin-bottom: 10px;
+}
+#srgb {
+  background: linear-gradient(
+    to right,
+    hsl(0deg 100% 50%),
+    hsl(90deg 100% 50%),
+    hsl(180deg 100% 50%),
+    hsl(270deg 100% 50%),
+    hsl(360deg 100% 50%)
+  );
+}
+#lch {
+  background: linear-gradient(
+    to right,
+    lch(50% 100% 0deg),
+    lch(50% 100% 90deg),
+    lch(50% 100% 180deg),
+    lch(50% 100% 270deg),
+    lch(50% 100% 360deg)
+  );
+}
+#oklch {
+  background: linear-gradient(
+    to right,
+    oklch(50% 100% 0deg),
+    oklch(50% 100% 90deg),
+    oklch(50% 100% 180deg),
+    oklch(50% 100% 270deg),
+    oklch(50% 100% 360deg)
+  );
 }
 ~~~
 
@@ -2791,14 +3159,24 @@ div {
 @import "/css/styles.css" supports(color: AccentColor);
 ~~~
 
+/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries
+[color-named] Expected "#00f" to be "blue" (color-named)
+~~~
+@property --accent-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #00f;
+}
+~~~
+
 /en-US/docs/Web/CSS/CSS_masking/Multiple_masks
 [declaration-property-value-no-unknown] Unexpected unknown value "contain" for property "mask" (declaration-property-value-no-unknown)
 [declaration-property-value-no-unknown] Unexpected unknown value "cover" for property "mask" (declaration-property-value-no-unknown)
 [declaration-property-value-no-unknown] Unexpected unknown value "100px" for property "mask" (declaration-property-value-no-unknown)
 ~~~
-mask: url(star.svg) contain;
-mask: url(star.svg) 10px 10px cover;
-mask: url(star.svg) top right 100px 100px;
+mask: url("star.svg") contain;
+mask: url("star.svg") 10px 10px cover;
+mask: url("star.svg") top right 100px 100px;
 ~~~
 
 /en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
@@ -2897,6 +3275,36 @@ p {
 }
 ~~~
 
+/en-US/docs/Web/CSS/CSS_text_decoration/Text_shadows
+[color-named] Expected "#0000cd" to be "mediumblue" (color-named)
+[color-named] Expected "#ff00ff" to be "fuchsia" (color-named)
+[color-named] Expected "#663399" to be "rebeccapurple" (color-named)
+[color-named] Expected "rgb(0 0 205)" to be "mediumblue" (color-named)
+[color-named] Expected "rgb(255 0 255)" to be "fuchsia" (color-named)
+[color-named] Expected "rgb(102 51 153)" to be "rebeccapurple" (color-named)
+~~~
+.shadow-color {
+  text-shadow:
+    5px 5px mediumblue,
+    10px 10px magenta,
+    15px 15px rebeccapurple;
+}
+
+.shadow-color-hex {
+  text-shadow:
+    5px 5px #0000cd,
+    10px 10px #ff00ff,
+    15px 15px #663399;
+}
+
+.shadow-color-rgb {
+  text-shadow:
+    5px 5px rgb(0 0 205),
+    10px 10px rgb(255 0 255),
+    15px 15px rgb(102 51 153);
+}
+~~~
+
 /en-US/docs/Web/CSS/display
 [declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
 ~~~
@@ -2945,6 +3353,33 @@ p {
 }
 ~~~
 
+/en-US/docs/Web/CSS/env
+[value-keyword-case] Expected "Safe-area-inset-bottom" to be "safe-area-inset-bottom" (value-keyword-case)
+~~~
+/* zero for all rectangular user agents */
+padding: env(safe-area-inset-bottom, 50px);
+
+/* 50px because UA properties are case sensitive */
+padding: env(Safe-area-inset-bottom, 50px);
+
+/* as if padding: '50px 20px' were set because x is not a valid environment variable */
+padding: env(x, 50px 20px);
+
+/* ignored because '50px, 20px' is not a valid padding value and x is not a valid environment variable */
+padding: env(x, 50px, 20px);
+~~~
+
+/en-US/docs/Web/CSS/env
+[value-keyword-case] Expected "SAFE-AREA-INSET-LEFT" to be "safe-area-inset-left" (value-keyword-case)
+~~~
+p {
+  width: 300px;
+  border: 2px solid red;
+  padding: env(safe-area-inset-top, 50px) env(safe-area-inset-right, 50px)
+    env(safe-area-inset-bottom, 50px) env(SAFE-AREA-INSET-LEFT, 50px);
+}
+~~~
+
 /en-US/docs/Web/CSS/font-family
 [color-no-invalid-hex] Unexpected invalid hex color "#POUND" (color-no-invalid-hex)
 [font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
@@ -2986,18 +3421,18 @@ font-family: Hawaii 5-0, sans-serif;
 ~~~
 
 /en-US/docs/Web/CSS/important
-[declaration-block-no-duplicate-custom-properties] Unexpected duplicate "--myColor" (declaration-block-no-duplicate-custom-properties)
+[declaration-block-no-duplicate-custom-properties] Unexpected duplicate "--my-color" (declaration-block-no-duplicate-custom-properties)
 [declaration-block-no-duplicate-properties] Unexpected duplicate "color" (declaration-block-no-duplicate-properties)
 ~~~
 :root {
-  --myColor: red !important;
-  --myColor: blue;
+  --my-color: red !important;
+  --my-color: blue;
 }
 p {
-  color: var(--myColor);
+  color: var(--my-color);
 }
 blockquote {
-  color: var(--myColor);
+  color: var(--my-color);
   color: purple;
 }
 ~~~
@@ -3183,9 +3618,9 @@ text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/
     const header = document.querySelector("header");
 
     if (mediaQueryList.matches) {
-      header.style.backgroundImage = "url(bg-image-narrow.png)";
+      header.style.backgroundImage = 'url("bg-image-narrow.png")';
     } else {
-      header.style.backgroundImage = "url(bg-image-wide.png)";
+      header.style.backgroundImage = 'url("bg-image-wide.png")';
     }
   </script>
 </body>
@@ -6467,7 +6902,7 @@ const bad = `bad escape sequence: \unicode`;
 [no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
 ~~~
 <style>
-  @import url(style8.css);
+  @import "style8.css";
 </style>
 ~~~
 

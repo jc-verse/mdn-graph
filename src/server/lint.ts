@@ -329,20 +329,21 @@ function reportIfUnexpected(
   report(
     path,
     [
-      "color-named",
-      "value-keyword-case",
       "alpha-value-notation",
       "color-hex-length",
       "font-weight-notation",
       "hue-degree-notation",
-      "import-notation",
-      "keyframe-selector-notation",
       "lightness-notation",
       "font-family-name-quotes",
-      "function-url-quotes",
       "declaration-block-no-redundant-longhand-properties",
       "shorthand-property-no-redundant-values",
-      "comment-whitespace-inside",
+
+      // Remaining ones are't valid issues; ignore for now
+      "CssSyntaxError",
+      "media-feature-range-notation",
+      "declaration-property-value-no-unknown",
+      "declaration-property-value-keyword-no-deprecated",
+      "custom-property-no-missing-var-function",
     ].includes(ruleId)
       ? "Stylelint backlog"
       : `${language.toUpperCase()} code issue`,

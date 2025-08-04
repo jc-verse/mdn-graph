@@ -335,7 +335,26 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       "color-named": "always-where-possible",
       "function-name-case": "lower",
       "selector-type-case": "lower",
-      "value-keyword-case": "lower",
+      "value-keyword-case": [
+        "lower",
+        {
+          camelCaseSvgKeywords: true,
+          ignoreKeywords: [
+            // I want to require color-mix(in srgb, var(--base) 100%, transparent)
+            // but also color-interpolation-filter: sRGB
+            "srgb",
+          ],
+          ignoreFunctions: ["tech"],
+          ignoreProperties: [
+            "size", // "A4" etc.
+            "symbols",
+            "additive-symbols",
+            // TODO: the spec consistently uses uppercase `--Alternate`, but not sure if we should follow
+            "font-palette",
+            "voice-family",
+          ],
+        },
+      ],
       "alpha-value-notation": "number",
       "color-function-alias-notation": "without-alpha",
       "color-function-notation": "modern",
@@ -498,6 +517,10 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
             { ignoreProperties: "display" },
           ],
         },
+      },
+      {
+        files: ["Web/CSS/color_value/**", "Web/CSS/hue/*", "Web/CSS/hue-interpolation-method/*"],
+        rules: { "color-named": null },
       },
       {
         files: [
