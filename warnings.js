@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-rcq1ctds.js";
+} from "./chunk-nvesgtd7.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -831,7 +831,7 @@ const game = new Phaser.Game(config);
                       slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Bounce_off_the_walls",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -857,7 +857,7 @@ button {
                       slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Build_the_brick_field",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -883,7 +883,7 @@ button {
                       slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Collision_detection",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -909,7 +909,7 @@ button {
                       slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Create_the_Canvas_and_draw_on_it",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -948,7 +948,56 @@ button {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-elem",
+                            "Do not use the <style> element; use separate CSS blocks instead.",
+                            `    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      canvas {
+        background: #eee;
+        display: block;
+        margin: 0 auto;
+      }
+    </style>`,
+                            "5:4 - 15:12",
+                            `/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Create_the_Canvas_and_draw_on_it
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Gamedev Canvas Workshop</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      canvas {
+        background: #eee;
+        display: block;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="480" height="320"></canvas>
+
+    <script>
+      // JavaScript code goes here
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -971,7 +1020,7 @@ canvas {
                       slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Finishing_up",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -997,7 +1046,7 @@ button {
                       slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Game_over",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -1023,7 +1072,7 @@ button {
                       slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Mouse_controls",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -1049,7 +1098,7 @@ button {
                       slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Move_the_ball",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -1075,7 +1124,7 @@ button {
                       slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Paddle_and_keyboard_controls",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -1101,7 +1150,7 @@ button {
                       slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Track_the_score_and_win",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -1129,7 +1178,7 @@ button {
                   slug: "/en-US/docs/Games/Tutorials/HTML5_Gamedev_Phaser_Device_Orientation",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#333" to be "#333333" (color-hex-length)',
@@ -2106,7 +2155,7 @@ div.warning {
               slug: "/en-US/docs/Glossary/Inline-level_content",
               messages: [
                 {
-                  message: "Stylelint backlog",
+                  message: "CSS code issue",
                   data: [
                     "color-hex-length",
                     'Expected "#333" to be "#333333" (color-hex-length)',
@@ -2129,7 +2178,7 @@ body {
                   ]
                 },
                 {
-                  message: "Stylelint backlog",
+                  message: "CSS code issue",
                   data: [
                     "color-hex-length",
                     'Expected "#ee3" to be "#eeee33" (color-hex-length)',
@@ -2689,7 +2738,7 @@ body {
                           slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/CSS_and_JavaScript",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -2728,7 +2777,7 @@ a {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#666" to be "#666666" (color-hex-length)',
@@ -2884,7 +2933,7 @@ a {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -2938,7 +2987,7 @@ p {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#999" to be "#999999" (color-hex-length)',
@@ -3154,7 +3203,7 @@ p {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -3312,7 +3361,7 @@ li {
                           slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/HTML",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -3464,7 +3513,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -3624,7 +3673,7 @@ li {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -3740,7 +3789,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -3938,7 +3987,7 @@ header {
                           slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/WAI-ARIA",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -4118,7 +4167,7 @@ div > div::before {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -4234,7 +4283,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -4417,7 +4466,7 @@ li {
                       slug: "/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -4584,7 +4633,7 @@ footer {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -4751,7 +4800,7 @@ footer {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#666" to be "#666666" (color-hex-length)',
@@ -4793,7 +4842,7 @@ section {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#666" to be "#666666" (color-hex-length)',
@@ -4856,7 +4905,7 @@ section {
                       data: []
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#f00" to be "#ff0000" (color-hex-length)',
@@ -4887,7 +4936,7 @@ p {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddf" to be "#ddddff" (color-hex-length)',
@@ -4918,7 +4967,7 @@ p {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#fa0" to be "#ffaa00" (color-hex-length)',
@@ -4949,7 +4998,7 @@ p {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#080" to be "#008800" (color-hex-length)',
@@ -4980,7 +5029,7 @@ p {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#00f" to be "#0000ff" (color-hex-length)',
@@ -5011,7 +5060,69 @@ p {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
+                      data: [
+                        "color-named",
+                        'Expected "#f00" to be "red" (color-named)',
+                        "  color: #f00; /* red */",
+                        "2:10 - 2:14",
+                        `/en-US/docs/Learn_web_development/Core/Challenges
+[color-named] Expected "#f00" to be "red" (color-named)
+~~~
+strong {
+  color: #f00; /* red */
+  background-color: #ddf; /* pale blue */
+  font: 200% serif;
+}
+
+.carrot {
+  color: #fa0; /* orange */
+}
+
+.spinach {
+  color: #080; /* dark green */
+}
+
+p {
+  color: #00f; /* blue */
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-named",
+                        'Expected "#00f" to be "blue" (color-named)',
+                        "  color: #00f; /* blue */",
+                        "16:10 - 16:14",
+                        `/en-US/docs/Learn_web_development/Core/Challenges
+[color-named] Expected "#00f" to be "blue" (color-named)
+~~~
+strong {
+  color: #f00; /* red */
+  background-color: #ddf; /* pale blue */
+  font: 200% serif;
+}
+
+.carrot {
+  color: #fa0; /* orange */
+}
+
+.spinach {
+  color: #080; /* dark green */
+}
+
+p {
+  color: #00f; /* blue */
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#7a7" to be "#77aa77" (color-hex-length)',
@@ -5491,7 +5602,7 @@ span {
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -5808,7 +5919,7 @@ article {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -5875,7 +5986,7 @@ article {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -6076,7 +6187,7 @@ article {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#666" to be "#666666" (color-hex-length)',
@@ -6422,41 +6533,6 @@ body {
                         {
                           message: "Stylelint backlog",
                           data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "0 0 1em 0" to be "0 0 1em" (shorthand-property-no-redundant-values)',
-                            "  margin: 0 0 1em 0;",
-                            "20:11 - 20:20",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Multiple-column_Layout
-[shorthand-property-no-redundant-values] Expected "0 0 1em 0" to be "0 0 1em" (shorthand-property-no-redundant-values)
-~~~
-body {
-  width: 90%;
-  max-width: 900px;
-  margin: 2em auto;
-  font:
-    0.9em/1.2 Arial,
-    Helvetica,
-    sans-serif;
-}
-
-.container {
-  column-width: 250px;
-  column-gap: 20px;
-}
-
-.card {
-  background-color: rgb(207 232 220);
-  border: 2px solid rgb(79 185 227);
-  padding: 10px;
-  margin: 0 0 1em 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
                             "    0.9em/1.2 Arial,",
@@ -6499,42 +6575,6 @@ body {
                             "15:5 - 15:14",
                             `/en-US/docs/Learn_web_development/Core/CSS_layout/Multiple-column_Layout
 [font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-.card {
-  break-inside: avoid;
-  background-color: rgb(207 232 220);
-  border: 2px solid rgb(79 185 227);
-  padding: 10px;
-  margin: 0 0 1em 0;
-}
-
-body {
-  width: 90%;
-  max-width: 900px;
-  margin: 2em auto;
-  font:
-    0.9em/1.2 Arial,
-    Helvetica,
-    sans-serif;
-}
-
-.container {
-  column-width: 250px;
-  column-gap: 20px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "0 0 1em 0" to be "0 0 1em" (shorthand-property-no-redundant-values)',
-                            "  margin: 0 0 1em 0;",
-                            "6:11 - 6:20",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Multiple-column_Layout
-[shorthand-property-no-redundant-values] Expected "0 0 1em 0" to be "0 0 1em" (shorthand-property-no-redundant-values)
 ~~~
 .card {
   break-inside: avoid;
@@ -6611,7 +6651,7 @@ body {
                           data: []
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "shorthand-property-no-redundant-values",
                             'Expected "0 1rem 0 1rem" to be "0 1rem" (shorthand-property-no-redundant-values)',
@@ -6640,7 +6680,7 @@ body {
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -6684,7 +6724,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -6721,7 +6761,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -6880,7 +6920,7 @@ h1 {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -7129,7 +7169,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#999" to be "#999999" (color-hex-length)',
@@ -7186,7 +7226,7 @@ body {
                           slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Position",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -7229,7 +7269,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -7340,7 +7380,7 @@ body {
                           data: []
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#555" to be "#555555" (color-hex-length)',
@@ -7471,7 +7511,7 @@ Adapted from https://css-tricks.com/the-checkbox-hack/#custom-designed-radio-but
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -7731,137 +7771,6 @@ Adapted from https://css-tricks.com/the-checkbox-hack/#custom-designed-radio-but
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "0.5rem 0 0.75rem 0" to be "0.5rem 0 0.75rem" (shorthand-property-no-redundant-values)',
-                            "  padding: 0.5rem 0 0.75rem 0;",
-                            "2:12 - 2:30",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Angular_item_component
-[shorthand-property-no-redundant-values] Expected "0.5rem 0 0.75rem 0" to be "0.5rem 0 0.75rem" (shorthand-property-no-redundant-values)
-~~~
-.item {
-  padding: 0.5rem 0 0.75rem 0;
-  text-align: left;
-  font-size: 1.2rem;
-}
-
-.btn-wrapper {
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-.btn {
-  /* menu buttons flexbox styles */
-  flex-basis: 49%;
-}
-
-.btn-save {
-  background-color: black;
-  color: white;
-  border-color: black;
-}
-
-.btn-save:hover {
-  background-color: #444242;
-}
-
-.btn-save:focus {
-  background-color: white;
-  color: black;
-}
-
-.checkbox-wrapper {
-  margin: 0.5rem 0;
-}
-
-.btn-warn {
-  background-color: #b90000;
-  color: white;
-  border-color: #9a0000;
-}
-
-.btn-warn:hover {
-  background-color: #9a0000;
-}
-
-.btn-warn:active {
-  background-color: #e30000;
-  border-color: black;
-}
-
-.sm-text-input {
-  width: 100%;
-  padding: 0.5rem;
-  border: 2px solid #555;
-  display: block;
-  box-sizing: border-box;
-  font-size: 1rem;
-  margin: 1rem 0;
-}
-
-/* Custom checkboxes
-Adapted from https://css-tricks.com/the-checkbox-hack/#custom-designed-radio-buttons-and-checkboxes */
-
-/* Base for label styling */
-[type="checkbox"]:not(:checked),
-[type="checkbox"]:checked {
-  position: absolute;
-  left: -9999px;
-}
-[type="checkbox"]:not(:checked) + label,
-[type="checkbox"]:checked + label {
-  position: relative;
-  padding-left: 1.95em;
-  cursor: pointer;
-}
-
-/* checkbox aspect */
-[type="checkbox"]:not(:checked) + label::before,
-[type="checkbox"]:checked + label::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 1.25em;
-  height: 1.25em;
-  border: 2px solid #ccc;
-  background: white;
-}
-
-/* checked mark aspect */
-[type="checkbox"]:not(:checked) + label::after,
-[type="checkbox"]:checked + label::after {
-  content: "\\2713\\0020";
-  position: absolute;
-  top: 0.15em;
-  left: 0.22em;
-  font-size: 1.3em;
-  line-height: 0.8;
-  color: #0d8dee;
-  transition: all 0.2s;
-  font-family: "Lucida Sans Unicode", "Arial Unicode MS", Arial;
-}
-/* checked mark aspect changes */
-[type="checkbox"]:not(:checked) + label::after {
-  opacity: 0;
-  transform: scale(0);
-}
-[type="checkbox"]:checked + label::after {
-  opacity: 1;
-  transform: scale(1);
-}
-
-/* accessibility */
-[type="checkbox"]:checked:focus + label::before,
-[type="checkbox"]:not(:checked):focus + label::before {
-  border: 2px dotted blue;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -7952,76 +7861,6 @@ body {
                             "2:27 - 2:32",
                             `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Angular_styling
 [font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-.btn-wrapper {
-  /* flexbox */
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
-
-.btn {
-  color: black;
-  background-color: white;
-  border: 2px solid #cecece;
-  padding: 0.35rem 1rem 0.25rem 1rem;
-  font-size: 1rem;
-}
-
-.btn:hover {
-  background-color: #ecf2fd;
-}
-
-.btn:active {
-  background-color: #d1e0fe;
-}
-
-.btn:focus {
-  outline: none;
-  border: black solid 2px;
-}
-
-.btn-primary {
-  color: white;
-  background-color: black;
-  width: 100%;
-  padding: 0.75rem;
-  font-size: 1.3rem;
-  border: black solid 2px;
-  margin: 1rem 0;
-}
-
-.btn-primary:hover {
-  background-color: #444242;
-}
-
-.btn-primary:focus {
-  color: black;
-  outline: none;
-  border: black solid 2px;
-  background-color: #d7ecff;
-}
-
-.btn-primary:active {
-  background-color: #212020;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "0.35rem 1rem 0.25rem 1rem" to be "0.35rem 1rem 0.25rem" (shorthand-property-no-redundant-values)',
-                            "  padding: 0.35rem 1rem 0.25rem 1rem;",
-                            "16:12 - 16:37",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Angular_styling
-[shorthand-property-no-redundant-values] Expected "0.35rem 1rem 0.25rem 1rem" to be "0.35rem 1rem 0.25rem" (shorthand-property-no-redundant-values)
 ~~~
 body {
   font-family: Helvetica, Arial, sans-serif;
@@ -10342,315 +10181,6 @@ body {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "2rem 0 4rem 0" to be "2rem 0 4rem" (shorthand-property-no-redundant-values)',
-                            "  margin: 2rem 0 4rem 0;",
-                            "155:11 - 155:24",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_todo_list_beginning
-[shorthand-property-no-redundant-values] Expected "2rem 0 4rem 0" to be "2rem 0 4rem" (shorthand-property-no-redundant-values)
-~~~
-/* Resets */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-*:focus-visible {
-  outline: 3px dashed #228bec;
-  outline-offset: 0;
-}
-html {
-  font: 62.5% / 1.15 sans-serif;
-}
-h1,
-h2 {
-  margin-bottom: 0;
-}
-ul {
-  list-style: none;
-  padding: 0;
-}
-button {
-  -moz-osx-font-smoothing: inherit;
-  -webkit-font-smoothing: inherit;
-  appearance: none;
-  background: transparent;
-  border: none;
-  color: inherit;
-  font: inherit;
-  line-height: normal;
-  margin: 0;
-  overflow: visible;
-  padding: 0;
-  width: auto;
-}
-button::-moz-focus-inner {
-  border: 0;
-}
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-}
-button,
-input {
-  overflow: visible;
-}
-input[type="text"] {
-  border-radius: 0;
-}
-body {
-  background-color: whitesmoke;
-  color: #4d4d4d;
-  font:
-    1.6rem/1.25 Arial,
-    sans-serif;
-  margin: 0 auto;
-  max-width: 68rem;
-  width: 100%;
-}
-@media screen and (width >= 620px) {
-  body {
-    font-size: 1.9rem;
-    line-height: 1.31579;
-  }
-}
-/* End resets */
-/* Global styles */
-.form-group > input[type="text"] {
-  display: inline-block;
-  margin-top: 0.4rem;
-}
-.btn {
-  border: 0.2rem solid #4d4d4d;
-  cursor: pointer;
-  padding: 0.8rem 1rem 0.7rem;
-  text-transform: capitalize;
-}
-.btn.toggle-btn {
-  border-color: lightgray;
-  border-width: 1px;
-}
-.btn.toggle-btn[aria-pressed="true"] {
-  border-color: #4d4d4d;
-  text-decoration: underline;
-}
-.btn__danger {
-  background-color: #ca3c3c;
-  border-color: #bd2130;
-  color: white;
-}
-.btn__filter {
-  border-color: lightgrey;
-}
-.btn__primary {
-  background-color: black;
-  color: white;
-}
-.btn-group {
-  display: flex;
-  justify-content: space-between;
-}
-.btn-group > * {
-  flex: 1 1 49%;
-}
-.btn-group > * + * {
-  margin-left: 0.8rem;
-}
-.label-wrapper {
-  flex: 0 0 100%;
-  margin: 0;
-  text-align: center;
-}
-.visually-hidden {
-  clip: rect(1px, 1px, 1px, 1px);
-  height: 1px;
-  overflow: hidden;
-  position: absolute !important;
-  white-space: nowrap;
-  width: 1px;
-}
-[class*="stack"] > * {
-  margin-bottom: 0;
-  margin-top: 0;
-}
-.stack-small > * + * {
-  margin-top: 1.25rem;
-}
-.stack-large > * + * {
-  margin-top: 2.5rem;
-}
-@media screen and (width >= 550px) {
-  .stack-small > * + * {
-    margin-top: 1.4rem;
-  }
-  .stack-large > * + * {
-    margin-top: 2.8rem;
-  }
-}
-.stack-exception {
-  margin-top: 1.2rem;
-}
-/* End global styles */
-/* General app styles */
-.todoapp {
-  background: white;
-  box-shadow:
-    0 2px 4px 0 rgb(0 0 0 / 20%),
-    0 2.5rem 5rem 0 rgb(0 0 0 / 10%);
-  margin: 2rem 0 4rem 0;
-  padding: 1rem;
-  position: relative;
-}
-@media screen and (width >= 550px) {
-  .todoapp {
-    padding: 4rem;
-  }
-}
-.todoapp > * {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 50rem;
-}
-.todoapp > form {
-  max-width: 100%;
-}
-.todoapp > h1 {
-  display: block;
-  margin: 0;
-  margin-bottom: 1rem;
-  max-width: 100%;
-  text-align: center;
-}
-.label__lg {
-  line-height: 1.01567;
-  font-weight: 300;
-  margin-bottom: 1rem;
-  padding: 0.8rem;
-  text-align: center;
-}
-.input__lg {
-  border: 2px solid black;
-  padding: 2rem;
-}
-.input__lg:focus-visible {
-  border-color: #4d4d4d;
-  box-shadow: inset 0 0 0 2px;
-}
-[class*="__lg"] {
-  display: inline-block;
-  font-size: 1.9rem;
-  width: 100%;
-}
-[class*="__lg"]:not(:last-child) {
-  margin-bottom: 1rem;
-}
-@media screen and (width >= 620px) {
-  [class*="__lg"] {
-    font-size: 2.4rem;
-  }
-}
-/* End general app styles */
-/* Todo item styles */
-.todo {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.todo > * {
-  flex: 0 0 100%;
-}
-.todo-text {
-  border: 2px solid #565656;
-  min-height: 4.4rem;
-  padding: 0.4rem 0.8rem;
-  width: 100%;
-}
-.todo-text:focus-visible {
-  box-shadow: inset 0 0 0 2px;
-}
-/* End todo item styles */
-/* Checkbox styles */
-.c-cb {
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-  clear: left;
-  display: block;
-  font-family: Arial, sans-serif;
-  font-size: 1.6rem;
-  font-weight: 400;
-  line-height: 1.25;
-  min-height: 44px;
-  padding-left: 40px;
-  position: relative;
-}
-.c-cb > label::before,
-.c-cb > input[type="checkbox"] {
-  box-sizing: border-box;
-  height: 44px;
-  left: -2px;
-  top: -2px;
-  width: 44px;
-}
-.c-cb > input[type="checkbox"] {
-  -webkit-font-smoothing: antialiased;
-  cursor: pointer;
-  margin: 0;
-  opacity: 0;
-  position: absolute;
-  z-index: 1;
-}
-.c-cb > label {
-  cursor: pointer;
-  display: inline-block;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  margin-bottom: 0;
-  padding: 8px 15px 5px;
-  touch-action: manipulation;
-}
-.c-cb > label::before {
-  background: transparent;
-  border: 2px solid currentColor;
-  content: "";
-  position: absolute;
-}
-.c-cb > input[type="checkbox"]:focus-visible + label::before {
-  border-width: 4px;
-  outline: 3px dashed #228bec;
-}
-.c-cb > label::after {
-  background: transparent;
-  border: solid;
-  border-width: 0 0 5px 5px;
-  border-top-color: transparent;
-  box-sizing: content-box;
-  content: "";
-  height: 7px;
-  left: 9px;
-  opacity: 0;
-  position: absolute;
-  top: 11px;
-  transform: rotate(-45deg);
-  width: 18px;
-}
-.c-cb > input[type="checkbox"]:checked + label::after {
-  opacity: 1;
-}
-/* End checkbox styles */
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -12601,321 +12131,6 @@ body {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "2rem 0 4rem 0" to be "2rem 0 4rem" (shorthand-property-no-redundant-values)',
-                            "  margin: 2rem 0 4rem 0;",
-                            "157:11 - 157:24",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_Todo_list_beginning
-[shorthand-property-no-redundant-values] Expected "2rem 0 4rem 0" to be "2rem 0 4rem" (shorthand-property-no-redundant-values)
-~~~
-/* RESETS */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-*:focus {
-  outline: 3px dashed #228bec;
-  outline-offset: 0;
-}
-html {
-  font: 62.5% / 1.15 sans-serif;
-}
-h1,
-h2 {
-  margin-bottom: 0;
-}
-ul {
-  list-style: none;
-  padding: 0;
-}
-button {
-  border: none;
-  margin: 0;
-  padding: 0;
-  width: auto;
-  overflow: visible;
-  background: transparent;
-  color: inherit;
-  font: inherit;
-  line-height: normal;
-  -webkit-font-smoothing: inherit;
-  -moz-osx-font-smoothing: inherit;
-  appearance: none;
-}
-button::-moz-focus-inner {
-  border: 0;
-}
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-}
-button,
-input {
-  overflow: visible;
-}
-input[type="text"] {
-  border-radius: 0;
-}
-body {
-  width: 100%;
-  max-width: 68rem;
-  margin: 0 auto;
-  font:
-    1.6rem/1.25 Arial,
-    sans-serif;
-  background-color: whitesmoke;
-  color: #4d4d4d;
-}
-@media screen and (width >= 620px) {
-  body {
-    font-size: 1.9rem;
-    line-height: 1.31579;
-  }
-}
-/* END RESETS */
-
-/* GLOBAL STYLES */
-.form-group > input[type="text"] {
-  display: inline-block;
-  margin-top: 0.4rem;
-}
-.btn {
-  padding: 0.8rem 1rem 0.7rem;
-  border: 0.2rem solid #4d4d4d;
-  cursor: pointer;
-  text-transform: capitalize;
-}
-.btn.toggle-btn {
-  border-width: 1px;
-  border-color: lightgray;
-}
-.btn.toggle-btn[aria-pressed="true"] {
-  text-decoration: underline;
-  border-color: #4d4d4d;
-}
-.btn__danger {
-  color: white;
-  background-color: #ca3c3c;
-  border-color: #bd2130;
-}
-.btn__filter {
-  border-color: lightgrey;
-}
-.btn__primary {
-  color: white;
-  background-color: black;
-}
-.btn__primary:disabled {
-  color: darkgrey;
-  background-color: #565656;
-}
-.btn-group {
-  display: flex;
-  justify-content: space-between;
-}
-.btn-group > * {
-  flex: 1 1 49%;
-}
-.btn-group > * + * {
-  margin-left: 0.8rem;
-}
-.label-wrapper {
-  margin: 0;
-  flex: 0 0 100%;
-  text-align: center;
-}
-.visually-hidden {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-  white-space: nowrap;
-}
-[class*="stack"] > * {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.stack-small > * + * {
-  margin-top: 1.25rem;
-}
-.stack-large > * + * {
-  margin-top: 2.5rem;
-}
-@media screen and (width >= 550px) {
-  .stack-small > * + * {
-    margin-top: 1.4rem;
-  }
-  .stack-large > * + * {
-    margin-top: 2.8rem;
-  }
-}
-.stack-exception {
-  margin-top: 1.2rem;
-}
-/* END GLOBAL STYLES */
-
-.todoapp {
-  background: white;
-  margin: 2rem 0 4rem 0;
-  padding: 1rem;
-  position: relative;
-  box-shadow:
-    0 2px 4px 0 rgb(0 0 0 / 20%),
-    0 2.5rem 5rem 0 rgb(0 0 0 / 10%);
-}
-@media screen and (width >= 550px) {
-  .todoapp {
-    padding: 4rem;
-  }
-}
-.todoapp > * {
-  max-width: 50rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-.todoapp > form {
-  max-width: 100%;
-}
-.todoapp > h1 {
-  display: block;
-  max-width: 100%;
-  text-align: center;
-  margin: 0;
-  margin-bottom: 1rem;
-}
-.label__lg {
-  line-height: 1.01567;
-  font-weight: 300;
-  padding: 0.8rem;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-.input__lg {
-  padding: 2rem;
-  border: 2px solid black;
-}
-.input__lg:focus {
-  border-color: #4d4d4d;
-  box-shadow: inset 0 0 0 2px;
-}
-[class*="__lg"] {
-  display: inline-block;
-  width: 100%;
-  font-size: 1.9rem;
-}
-[class*="__lg"]:not(:last-child) {
-  margin-bottom: 1rem;
-}
-@media screen and (width >= 620px) {
-  [class*="__lg"] {
-    font-size: 2.4rem;
-  }
-}
-.filters {
-  width: 100%;
-  margin: unset;
-}
-/* Todo item styles */
-.todo {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.todo > * {
-  flex: 0 0 100%;
-}
-.todo-text {
-  width: 100%;
-  min-height: 4.4rem;
-  padding: 0.4rem 0.8rem;
-  border: 2px solid #565656;
-}
-.todo-text:focus {
-  box-shadow: inset 0 0 0 2px;
-}
-/* CHECKBOX STYLES */
-.c-cb {
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 1.25;
-  display: block;
-  position: relative;
-  min-height: 44px;
-  padding-left: 40px;
-  clear: left;
-}
-.c-cb > label::before,
-.c-cb > input[type="checkbox"] {
-  box-sizing: border-box;
-  top: -2px;
-  left: -2px;
-  width: 44px;
-  height: 44px;
-}
-.c-cb > input[type="checkbox"] {
-  -webkit-font-smoothing: antialiased;
-  cursor: pointer;
-  position: absolute;
-  z-index: 1;
-  margin: 0;
-  opacity: 0;
-}
-.c-cb > label {
-  font-size: inherit;
-  font-family: inherit;
-  line-height: inherit;
-  display: inline-block;
-  margin-bottom: 0;
-  padding: 8px 15px 5px;
-  cursor: pointer;
-  touch-action: manipulation;
-}
-.c-cb > label::before {
-  content: "";
-  position: absolute;
-  border: 2px solid currentColor;
-  background: transparent;
-}
-.c-cb > input[type="checkbox"]:focus + label::before {
-  border-width: 4px;
-  outline: 3px dashed #228bec;
-}
-.c-cb > label::after {
-  box-sizing: content-box;
-  content: "";
-  position: absolute;
-  top: 11px;
-  left: 9px;
-  width: 18px;
-  height: 7px;
-  transform: rotate(-45deg);
-  border: solid;
-  border-width: 0 0 5px 5px;
-  border-top-color: transparent;
-  opacity: 0;
-  background: transparent;
-}
-.c-cb > input[type="checkbox"]:checked + label::after {
-  opacity: 1;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -13210,7 +12425,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#fd0" to be "#ffdd00" (color-hex-length)',
@@ -14074,7 +13289,7 @@ body {
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Event_bubbling",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -14104,7 +13319,7 @@ div video {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -14140,7 +13355,7 @@ div video {
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Loops",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -14483,7 +13698,7 @@ button {
                           slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Advanced_HTML_text",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -14649,7 +13864,7 @@ time {
                           slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Audio_and_video",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -14785,7 +14000,7 @@ video {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -14927,7 +14142,7 @@ video {
                           slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Forms_and_buttons",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -15043,7 +14258,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -15159,7 +14374,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -15275,7 +14490,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -15391,7 +14606,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -15507,7 +14722,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -15629,7 +14844,7 @@ body {
                           slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -15825,7 +15040,7 @@ p {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -16053,7 +15268,7 @@ ul {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -16265,7 +15480,7 @@ dt {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -16483,7 +15698,7 @@ em {
                           slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Images",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -16615,7 +15830,7 @@ img {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -16747,7 +15962,7 @@ img {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -16901,7 +16116,7 @@ figcaption {
                           slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Links",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -17061,7 +16276,7 @@ p {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -17221,7 +16436,7 @@ div {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -17615,7 +16830,7 @@ button:active {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#777" to be "#777777" (color-hex-length)',
@@ -17653,7 +16868,7 @@ button:active {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -17691,7 +16906,7 @@ button:active {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#888" to be "#888888" (color-hex-length)',
@@ -17729,7 +16944,7 @@ button:active {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -17918,7 +17133,7 @@ span {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -17951,7 +17166,7 @@ span {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -17977,7 +17192,7 @@ span {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -18004,7 +17219,7 @@ span {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -18199,7 +17414,7 @@ span {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -18241,7 +17456,7 @@ span {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -18336,7 +17551,7 @@ span {
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#666" to be "#666666" (color-hex-length)',
@@ -18379,7 +17594,7 @@ body {
                           data: []
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -18436,7 +17651,7 @@ body {
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -18460,7 +17675,7 @@ h1 + p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -18702,7 +17917,7 @@ h1{font-size:1.5em;}
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -18790,7 +18005,7 @@ h2 {
                           data: []
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -18825,7 +18040,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -18861,7 +18076,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -18893,7 +18108,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -18941,7 +18156,7 @@ h2 {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -18978,7 +18193,7 @@ img {
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Images_media_forms",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -19028,7 +18243,7 @@ input[type="submit"]:focus {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#999" to be "#999999" (color-hex-length)',
@@ -19078,7 +18293,7 @@ input[type="submit"]:focus {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -19086,56 +18301,6 @@ input[type="submit"]:focus {
                             "35:21 - 35:25",
                             `/en-US/docs/Learn_web_development/Core/Styling_basics/Images_media_forms
 [color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  font-family: sans-serif;
-}
-form > div {
-  display: flex;
-}
-
-label {
-  width: 10em;
-}
-
-.buttons {
-  justify-content: center;
-}
-
-input[type="text"],
-input[type="email"] {
-  border: 2px solid black;
-  margin: 0 0 1em 0;
-  padding: 10px;
-  width: 80%;
-}
-
-input[type="submit"] {
-  border: 3px solid #333;
-  background-color: #999;
-  border-radius: 5px;
-  padding: 10px 2em;
-  font-weight: bold;
-  color: white;
-}
-
-input[type="submit"]:hover,
-input[type="submit"]:focus {
-  background-color: #333;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "0 0 1em 0" to be "0 0 1em" (shorthand-property-no-redundant-values)',
-                            "  margin: 0 0 1em 0;",
-                            "19:11 - 19:20",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Images_media_forms
-[shorthand-property-no-redundant-values] Expected "0 0 1em 0" to be "0 0 1em" (shorthand-property-no-redundant-values)
 ~~~
 body {
   font-family: sans-serif;
@@ -19188,7 +18353,7 @@ input[type="submit"]:focus {
                           data: []
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -19205,7 +18370,7 @@ article.main p.box {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -19436,7 +18601,7 @@ html {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#999" to be "#999999" (color-hex-length)',
@@ -19453,7 +18618,7 @@ tfoot {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#999" to be "#999999" (color-hex-length)',
@@ -19476,7 +18641,7 @@ table {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#999" to be "#999999" (color-hex-length)',
@@ -19499,7 +18664,7 @@ table {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -19516,7 +18681,7 @@ tbody tr:nth-child(odd) {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#666" to be "#666666" (color-hex-length)',
@@ -19906,7 +19071,7 @@ h2 {
                           slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Images",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -19978,7 +19143,7 @@ button:focus {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -20050,7 +19215,7 @@ button:focus {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -20122,7 +19287,7 @@ button:focus {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -20264,7 +19429,7 @@ body {
                           slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Selectors",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -20302,7 +19467,7 @@ tr:nth-child(even) {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -20319,44 +19484,6 @@ h2 + p {
   list-style: none;
   border-bottom: 1px solid #ccc;
 }
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "shorthand-property-no-redundant-values",
-                                'Expected "0 0 0.5em 0" to be "0 0 0.5em" (shorthand-property-no-redundant-values)',
-                                "  margin: 0 0 0.5em 0;",
-                                "12:11 - 12:22",
-                                `/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Selectors
-[shorthand-property-no-redundant-values] Expected "0 0 0.5em 0" to be "0 0 0.5em" (shorthand-property-no-redundant-values)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  margin: 0 0 0.5em 0;
-}
-
-a {
-  display: block;
-  padding: 0.5em;
-}
-
-a {
-  border: 5px solid grey;
-}
-
-/* Add styles here */
 ~~~
 `
                               ]
@@ -21788,7 +20915,7 @@ p {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Adding_bouncing_balls_features",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
@@ -21850,7 +20977,7 @@ p {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
@@ -21967,7 +21094,7 @@ button::before {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -22011,7 +21138,7 @@ input[type="checkbox"]:disabled {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -22085,7 +21212,7 @@ button {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -22106,7 +21233,7 @@ select {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -22136,7 +21263,7 @@ label[for="file"]:active {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -22166,7 +21293,7 @@ label[for="file"]:active {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -22196,7 +21323,7 @@ label[for="file"]:active {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -22226,7 +21353,7 @@ label[for="file"]:active {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -22262,7 +21389,7 @@ label[for="file"]:active {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -22409,7 +21536,7 @@ option::checkmark {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -22556,7 +21683,7 @@ option::checkmark {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -22703,7 +21830,7 @@ option::checkmark {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#999" to be "#999999" (color-hex-length)',
@@ -22850,7 +21977,7 @@ option::checkmark {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -22997,7 +22124,7 @@ option::checkmark {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -23540,7 +22667,7 @@ select {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -23612,7 +22739,7 @@ select:open::picker-icon {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -23684,7 +22811,7 @@ select:open::picker-icon {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -23756,7 +22883,7 @@ select:open::picker-icon {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#999" to be "#999999" (color-hex-length)',
@@ -23972,7 +23099,7 @@ select:open::picker-icon {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -24085,7 +23212,7 @@ option .icon {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -24198,7 +23325,7 @@ option .icon {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -24311,7 +23438,7 @@ option .icon {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#999" to be "#999999" (color-hex-length)',
@@ -24424,7 +23551,7 @@ option .icon {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -24537,7 +23664,7 @@ option .icon {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -24876,7 +24003,7 @@ option .icon {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -25003,7 +24130,7 @@ option::checkmark {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -25130,7 +24257,7 @@ option::checkmark {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -25257,7 +24384,7 @@ option::checkmark {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#999" to be "#999999" (color-hex-length)',
@@ -25384,7 +24511,7 @@ option::checkmark {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -25511,7 +24638,7 @@ option::checkmark {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -25892,7 +25019,7 @@ option::checkmark {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -26039,7 +25166,7 @@ option::checkmark {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -26186,7 +25313,7 @@ option::checkmark {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -26333,7 +25460,7 @@ option::checkmark {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#999" to be "#999999" (color-hex-length)',
@@ -26480,7 +25607,7 @@ option::checkmark {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -26627,7 +25754,7 @@ option::checkmark {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -27074,7 +26201,7 @@ option::checkmark {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -27138,7 +26265,7 @@ input:focus:invalid {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#900" to be "#990000" (color-hex-length)',
@@ -27202,7 +26329,7 @@ input:focus:invalid {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#fdd" to be "#ffdddd" (color-hex-length)',
@@ -27266,7 +26393,7 @@ input:focus:invalid {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#900" to be "#990000" (color-hex-length)',
@@ -27330,7 +26457,7 @@ input:focus:invalid {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -27370,7 +26497,7 @@ input:focus:invalid {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -27436,7 +26563,7 @@ input:focus.invalid {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#900" to be "#990000" (color-hex-length)',
@@ -27502,7 +26629,7 @@ input:focus.invalid {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#fdd" to be "#ffdddd" (color-hex-length)',
@@ -27568,7 +26695,7 @@ input:focus.invalid {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#900" to be "#990000" (color-hex-length)',
@@ -36662,7 +35789,7 @@ input:focus.invalid {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -36731,7 +35858,7 @@ input:focus.invalid {
                           slug: "/en-US/docs/Learn_web_development/Extensions/Forms/How_to_structure_a_web_form/Example",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -36797,7 +35924,7 @@ p label {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#999" to be "#999999" (color-hex-length)',
@@ -36861,72 +35988,6 @@ p label {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "shorthand-property-no-redundant-values",
-                                'Expected "20px 0 0 0" to be "20px 0 0" (shorthand-property-no-redundant-values)',
-                                "  margin: 20px 0 0 0;",
-                                "43:11 - 43:21",
-                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_structure_a_web_form/Example
-[shorthand-property-no-redundant-values] Expected "20px 0 0 0" to be "20px 0 0" (shorthand-property-no-redundant-values)
-~~~
-h1 {
-  margin-top: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-form {
-  margin: 0 auto;
-  width: 400px;
-  padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 1em;
-}
-
-label span {
-  display: inline-block;
-  text-align: right;
-}
-
-input,
-fieldset {
-  font: 1em sans-serif;
-  width: 250px;
-  box-sizing: border-box;
-  border: 1px solid #999;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-  width: auto;
-  border: none;
-}
-
-input:focus {
-  background-color: yellow;
-}
-
-button {
-  margin: 20px 0 0 0;
-}
-
-label {
-  display: inline-block;
-}
-
-p label {
-  width: 100%;
-}
-~~~
-`
-                              ]
                             }
                           ]
                         }
@@ -36934,7 +35995,7 @@ p label {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/How_to_structure_a_web_form",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -37017,7 +36078,7 @@ p label {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#999" to be "#999999" (color-hex-length)',
@@ -37100,7 +36161,7 @@ p label {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#999" to be "#999999" (color-hex-length)',
@@ -37108,89 +36169,6 @@ p label {
                             "56:21 - 56:25",
                             `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_structure_a_web_form
 [color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-h1 {
-  margin-top: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-form {
-  margin: 0 auto;
-  width: 400px;
-  padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 1em;
-}
-
-div + div {
-  margin-top: 1em;
-}
-
-label span {
-  display: inline-block;
-  text-align: right;
-}
-
-input,
-textarea {
-  font: 1em sans-serif;
-  width: 250px;
-  box-sizing: border-box;
-  border: 1px solid #999;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-  width: auto;
-  border: none;
-}
-
-input:focus,
-textarea:focus {
-  border-color: black;
-}
-
-textarea {
-  vertical-align: top;
-  height: 5em;
-  resize: vertical;
-}
-
-fieldset {
-  width: 250px;
-  box-sizing: border-box;
-  border: 1px solid #999;
-}
-
-button {
-  margin: 20px 0 0 0;
-}
-
-label {
-  display: inline-block;
-}
-
-p label {
-  width: 100%;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "20px 0 0 0" to be "20px 0 0" (shorthand-property-no-redundant-values)',
-                            "  margin: 20px 0 0 0;",
-                            "60:11 - 60:21",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_structure_a_web_form
-[shorthand-property-no-redundant-values] Expected "20px 0 0 0" to be "20px 0 0" (shorthand-property-no-redundant-values)
 ~~~
 h1 {
   margin-top: 0;
@@ -37276,7 +36254,7 @@ p label {
                           data: []
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -37315,7 +36293,7 @@ input[type="button"] {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Styling_web_forms",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#222" to be "#222222" (color-hex-length)',
@@ -37388,7 +36366,7 @@ textarea:focus {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -37427,7 +36405,7 @@ button:focus {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -37449,7 +36427,7 @@ label:has(+ :disabled) {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -37471,7 +36449,7 @@ label:has(+ :disabled) {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
@@ -37493,7 +36471,7 @@ label:has(+ :disabled) {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -37518,7 +36496,7 @@ textarea:read-write {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -37586,7 +36564,7 @@ input:optional {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -37670,7 +36648,7 @@ input:optional {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -37745,7 +36723,7 @@ button {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#999" to be "#999999" (color-hex-length)',
@@ -37820,7 +36798,7 @@ button {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -37900,7 +36878,7 @@ button {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#999" to be "#999999" (color-hex-length)',
@@ -38325,27 +37303,6 @@ html {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "0 20px 20px 20px" to be "0 20px 20px" (shorthand-property-no-redundant-values)',
-                            "  padding: 0 20px 20px 20px;",
-                            "5:12 - 5:28",
-                            `/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content
-[shorthand-property-no-redundant-values] Expected "0 20px 20px 20px" to be "0 20px 20px" (shorthand-property-no-redundant-values)
-~~~
-body {
-  width: 600px;
-  margin: 0 auto;
-  background-color: #ff9500;
-  padding: 0 20px 20px 20px;
-  border: 5px solid black;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     }
@@ -38432,92 +37389,6 @@ body {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/Create_fancy_boxes",
                       messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "80px 1em 0 1em" to be "80px 1em 0" (shorthand-property-no-redundant-values)',
-                            "  padding: 80px 1em 0 1em;",
-                            "8:12 - 8:26",
-                            `/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/Create_fancy_boxes
-[shorthand-property-no-redundant-values] Expected "80px 1em 0 1em" to be "80px 1em 0" (shorthand-property-no-redundant-values)
-~~~
-.fancy {
-  text-align: center;
-
-  /* Same trick as previously used to make circles */
-  box-sizing: border-box;
-  width: 150px;
-  height: 150px;
-  padding: 80px 1em 0 1em;
-
-  /* We make room for the "ears" of our cloud */
-  margin: 0 100px;
-
-  position: relative;
-
-  background-color: #a4c9cf;
-
-  /* Well, actually we are not making a full circle
-     as we want the bottom of our cloud to be flat.
-     Feel free to tweak this example to make a cloud
-     that isn't flat at the bottom ;) */
-  border-radius: 100% 100% 0 0;
-}
-
-/* Those are common style that apply to both our ::before
-   and ::after pseudo elements. */
-.fancy::before,
-.fancy::after {
-  /* This is required to be allowed to display the
-     pseudo-elements, event if the value is an empty
-     string */
-  content: "";
-
-  /* We position our pseudo-elements on the left and
-     right sides of the box, but always at the bottom */
-  position: absolute;
-  bottom: 0;
-
-  /* This makes sure our pseudo-elements will be below
-     the box content whatever happens. */
-  z-index: -1;
-
-  background-color: #a4c9cf;
-  border-radius: 100%;
-}
-
-.fancy::before {
-  /* This is the size of the clouds left ear */
-  width: 125px;
-  height: 125px;
-
-  /* We slightly move it to the left */
-  left: -80px;
-
-  /* To make sure that the bottom of the cloud
-     remains flat, we must make the bottom right
-     corner of the left ear square. */
-  border-bottom-right-radius: 0;
-}
-
-.fancy::after {
-  /* This is the size of the clouds left ear */
-  width: 100px;
-  height: 100px;
-
-  /* We slightly move it to the right */
-  right: -60px;
-
-  /* To make sure that the bottom of the cloud
-     remains flat, we must make the bottom left
-     corner of the right ear square. */
-  border-bottom-left-radius: 0;
-}
-~~~
-`
-                          ]
-                        },
                         {
                           message: "Stylelint backlog",
                           data: [
@@ -38645,7 +37516,7 @@ blockquote i {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ffc" to be "#ffffcc" (color-hex-length)',
@@ -38888,6 +37759,19 @@ body * {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
                         }
                       ]
                     }
@@ -39208,17 +38092,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     }
                                   ]
@@ -39242,17 +38126,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     }
                                   ]
@@ -39261,10 +38145,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "HTTP link",
+                                  message: "Broken external link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    ""
+                                    "Cannot reach server and Bun hangs"
                                   ]
                                 }
                               ]
@@ -39920,7 +38804,7 @@ webextensions.api.clipboard`,
                           slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Browser_styles",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#999" to be "#999999" (color-hex-length)',
@@ -41357,7 +40241,7 @@ webextensions.manifest.options_ui`,
                               slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/menuitemradio_role",
                               messages: [
                                 {
-                                  message: "Stylelint backlog",
+                                  message: "CSS code issue",
                                   data: [
                                     "color-hex-length",
                                     'Expected "#333" to be "#333333" (color-hex-length)',
@@ -41392,7 +40276,7 @@ webextensions.manifest.options_ui`,
                               slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/switch_role",
                               messages: [
                                 {
-                                  message: "Stylelint backlog",
+                                  message: "CSS code issue",
                                   data: [
                                     "color-hex-length",
                                     'Expected "#262" to be "#226622" (color-hex-length)',
@@ -41447,7 +40331,7 @@ label.switch {
                                   ]
                                 },
                                 {
-                                  message: "Stylelint backlog",
+                                  message: "CSS code issue",
                                   data: [
                                     "color-hex-length",
                                     'Expected "#eef" to be "#eeeeff" (color-hex-length)',
@@ -41502,7 +40386,7 @@ label.switch {
                                   ]
                                 },
                                 {
-                                  message: "Stylelint backlog",
+                                  message: "CSS code issue",
                                   data: [
                                     "color-hex-length",
                                     'Expected "#bbd" to be "#bbbbdd" (color-hex-length)',
@@ -41679,7 +40563,7 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#f0f" to be "#ff00ff" (color-hex-length)',
@@ -41733,7 +40617,7 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#f0ff" to be "#ff00ffff" (color-hex-length)',
@@ -42327,7 +41211,7 @@ api.MessagePort`,
                   slug: "/en-US/docs/Web/API/CSS_Custom_Highlight_API",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#f06" to be "#ff0066" (color-hex-length)',
@@ -42754,52 +41638,25 @@ li:nth-of-type(3n + 1) {
                     }
                   }
                 },
-                csspositiontryrule: {
+                cssstyledeclaration: {
                   children: {
-                    name: {
+                    length: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/CSSPositionTryRule/name",
+                      slug: "/en-US/docs/Web/API/CSSStyleDeclaration/length",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "HTML code issue",
                           data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "10px 0 0 0" to be "10px 0 0" (shorthand-property-no-redundant-values)',
-                            "  margin: 10px 0 0 0;",
-                            "4:11 - 4:21",
-                            `/en-US/docs/Web/API/CSSPositionTryRule/name
-[shorthand-property-no-redundant-values] Expected "10px 0 0 0" to be "10px 0 0" (shorthand-property-no-redundant-values)
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '  style="margin: 0 10px; background-color: #CA1; font-family: monospace"></div>',
+                            "2:2 - 2:72",
+                            `/en-US/docs/Web/API/CSSStyleDeclaration/length
+[no-style-attr] Do not use the style attribute.
 ~~~
-@position-try --custom-bottom {
-  top: anchor(bottom);
-  min-width: 100px;
-  margin: 10px 0 0 0;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    style: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSPositionTryRule/style",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "10px 0 0 0" to be "10px 0 0" (shorthand-property-no-redundant-values)',
-                            "  margin: 10px 0 0 0;",
-                            "4:11 - 4:21",
-                            `/en-US/docs/Web/API/CSSPositionTryRule/style
-[shorthand-property-no-redundant-values] Expected "10px 0 0 0" to be "10px 0 0" (shorthand-property-no-redundant-values)
-~~~
-@position-try --custom-bottom {
-  top: anchor(bottom);
-  min-width: 100px;
-  margin: 10px 0 0 0;
-}
+<div
+  id="div1"
+  style="margin: 0 10px; background-color: #CA1; font-family: monospace"></div>
 ~~~
 `
                           ]
@@ -42815,7 +41672,7 @@ li:nth-of-type(3n + 1) {
                       slug: "/en-US/docs/Web/API/Device_orientation_events/Detecting_device_orientation",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -43038,7 +41895,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "shorthand-property-no-redundant-values",
                             'Expected "2px 10px 2px 10px" to be "2px 10px" (shorthand-property-no-redundant-values)',
@@ -43074,7 +41931,7 @@ td {
                       slug: "/en-US/docs/Web/API/Document_Object_Model/Whitespace",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#f06" to be "#ff0066" (color-hex-length)',
@@ -43150,7 +42007,7 @@ td {
                       slug: "/en-US/docs/Web/API/Document_Picture-in-Picture_API/Using",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -43189,7 +42046,7 @@ td {
                       slug: "/en-US/docs/Web/API/EditContext_API/Guide",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "shorthand-property-no-redundant-values",
                             'Expected "1px 0 1px 0" to be "1px 0" (shorthand-property-no-redundant-values)',
@@ -43274,7 +42131,7 @@ td {
                       slug: "/en-US/docs/Web/API/Element/ariaControlsElements",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -43307,7 +42164,7 @@ td {
                       slug: "/en-US/docs/Web/API/Element/dblclick_event",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#fe9" to be "#ffee99" (color-hex-length)',
@@ -43433,7 +42290,7 @@ reset.addEventListener("click", () => {
                       slug: "/en-US/docs/Web/API/Element/mouseenter_event",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -43458,7 +42315,7 @@ reset.addEventListener("click", () => {
                       slug: "/en-US/docs/Web/API/Element/mouseleave_event",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -43483,7 +42340,7 @@ reset.addEventListener("click", () => {
                       slug: "/en-US/docs/Web/API/Element/releasePointerCapture",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#fbe" to be "#ffbbee" (color-hex-length)',
@@ -43511,7 +42368,7 @@ div {
                       slug: "/en-US/docs/Web/API/Element/requestFullscreen",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#448" to be "#444488" (color-hex-length)',
@@ -43613,7 +42470,7 @@ kbd {
                       slug: "/en-US/docs/Web/API/Element/scrollLeft",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -43638,7 +42495,7 @@ kbd {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -43664,54 +42521,12 @@ kbd {
                         }
                       ]
                     },
-                    scrollwidth: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/scrollWidth",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "0.15em 0 0.5em 0" to be "0.15em 0 0.5em" (shorthand-property-no-redundant-values)',
-                            "  margin: 0.15em 0 0.5em 0;",
-                            "9:11 - 9:27",
-                            `/en-US/docs/Web/API/Element/scrollWidth
-[shorthand-property-no-redundant-values] Expected "0.15em 0 0.5em 0" to be "0.15em 0 0.5em" (shorthand-property-no-redundant-values)
-~~~
-div {
-  padding: 0.15em;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-button {
-  margin: 0.15em 0 0.5em 0;
-}
-
-pre {
-  margin: 0.5em 0;
-}
-
-#div1 {
-  width: 100px;
-}
-
-#log1 {
-  margin-bottom: 2em;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     setpointercapture: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Element/setPointerCapture",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#fbe" to be "#ffbbee" (color-hex-length)',
@@ -43740,7 +42555,7 @@ div {
                       slug: "/en-US/docs/Web/API/Element/wheel_event",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#cdf" to be "#ccddff" (color-hex-length)',
@@ -43778,7 +42593,7 @@ div {
                       slug: "/en-US/docs/Web/API/Event/stopImmediatePropagation",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#008" to be "#000088" (color-hex-length)',
@@ -43819,7 +42634,7 @@ button {
                       slug: "/en-US/docs/Web/API/EventTarget/addEventListener",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -43973,7 +42788,7 @@ api.Document.fullscreen`,
                       slug: "/en-US/docs/Web/API/HighlightRegistry/highlightsFromPoint",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -44033,7 +42848,7 @@ article {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -44093,7 +42908,7 @@ article {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -44402,7 +43217,7 @@ article {
                       slug: "/en-US/docs/Web/API/HTMLButtonElement/reportValidity",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#33a" to be "#3333aa" (color-hex-length)',
@@ -44430,7 +43245,7 @@ button:valid {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#a33" to be "#aa3333" (color-hex-length)',
@@ -44458,7 +43273,7 @@ button:valid {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#3a3" to be "#33aa33" (color-hex-length)',
@@ -44496,7 +43311,7 @@ button:valid {
                       slug: "/en-US/docs/Web/API/HTMLElement/hidden",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#22d" to be "#2222dd" (color-hex-length)',
@@ -45154,7 +43969,7 @@ output {
                       slug: "/en-US/docs/Web/API/HTMLImageElement/sizes",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#888" to be "#888888" (color-hex-length)',
@@ -45190,7 +44005,7 @@ article img {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#888" to be "#888888" (color-hex-length)',
@@ -45445,7 +44260,7 @@ article h2 {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#555" to be "#555555" (color-hex-length)',
@@ -45551,7 +44366,7 @@ article h2 {
                   slug: "/en-US/docs/Web/API/Intersection_Observer_API",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -45837,7 +44652,7 @@ p {
                       slug: "/en-US/docs/Web/API/IntersectionObserver/scrollMargin",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -46595,7 +45410,7 @@ body {
                       slug: "/en-US/docs/Web/API/MediaQueryList/media",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#88f" to be "#8888ff" (color-hex-length)',
@@ -46618,7 +45433,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#dde" to be "#ddddee" (color-hex-length)',
@@ -46744,7 +45559,7 @@ aside {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#999" to be "#999999" (color-hex-length)',
@@ -46874,7 +45689,7 @@ aside {
                       slug: "/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -47513,7 +46328,7 @@ html {
                       slug: "/en-US/docs/Web/API/Range/commonAncestorContainer",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#f000" to be "#ff000000" (color-hex-length)',
@@ -47793,7 +46608,7 @@ body {
                       slug: "/en-US/docs/Web/API/Screen_Capture_API/Element_Region_Capture",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -47835,7 +46650,7 @@ video,
                       slug: "/en-US/docs/Web/API/Screen_Capture_API/Using_Screen_Capture",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#999" to be "#999999" (color-hex-length)',
@@ -48072,7 +46887,7 @@ video,
                       slug: "/en-US/docs/Web/API/SubtleCrypto/deriveKey",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "shorthand-property-no-redundant-values",
                             'Expected "5px 0px 5px 0px" to be "5px 0px" (shorthand-property-no-redundant-values)',
@@ -48224,7 +47039,7 @@ textarea,
                       slug: "/en-US/docs/Web/API/SVGAnimationElement/beginEvent_event",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -48250,7 +47065,7 @@ ul {
                       slug: "/en-US/docs/Web/API/SVGAnimationElement/endEvent_event",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -48276,7 +47091,7 @@ ul {
                       slug: "/en-US/docs/Web/API/SVGAnimationElement/repeatEvent_event",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -48306,7 +47121,7 @@ ul {
                       slug: "/en-US/docs/Web/API/TextFormat/rangeEnd",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -48330,7 +47145,7 @@ ul {
                       slug: "/en-US/docs/Web/API/TextFormat/rangeStart",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -48354,7 +47169,7 @@ ul {
                       slug: "/en-US/docs/Web/API/TextFormat/underlineStyle",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -48378,7 +47193,7 @@ ul {
                       slug: "/en-US/docs/Web/API/TextFormat/underlineThickness",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -48401,7 +47216,7 @@ ul {
                   slug: "/en-US/docs/Web/API/TextFormat",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -48427,7 +47242,7 @@ ul {
                       slug: "/en-US/docs/Web/API/TextUpdateEvent/selectionEnd",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -48461,7 +47276,7 @@ ul {
                       slug: "/en-US/docs/Web/API/TextUpdateEvent/selectionStart",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -48530,7 +47345,7 @@ ul {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -48895,7 +47710,7 @@ p {
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Simple_synth",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eef" to be "#eeeeff" (color-hex-length)',
@@ -49146,6 +47961,13 @@ p {
                             "https://www.mathworks.com/help/dsphdl/ref/biquadfilter.html",
                             403
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.dspguide.com/CH20.PDF",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -49193,7 +48015,7 @@ p {
                       slug: "/en-US/docs/Web/API/Web_components/Using_templates_and_slots",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#666" to be "#666666" (color-hex-length)',
@@ -49217,7 +48039,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#666" to be "#666666" (color-hex-length)',
@@ -49476,93 +48298,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "10px 0 -8px 0" to be "10px 0 -8px" (shorthand-property-no-redundant-values)',
-                            "      margin: 10px 0 -8px 0;",
-                            "11:15 - 11:28",
-                            `/en-US/docs/Web/API/Web_components/Using_templates_and_slots
-[shorthand-property-no-redundant-values] Expected "10px 0 -8px 0" to be "10px 0 -8px" (shorthand-property-no-redundant-values)
-~~~
-<template id="element-details-template">
-  <style>
-    details {
-      font-family: "Open Sans Light", Helvetica, Arial;
-    }
-    .name {
-      font-weight: bold;
-      color: #217ac0;
-      font-size: 120%;
-    }
-    h4 {
-      margin: 10px 0 -8px 0;
-    }
-    h4 span {
-      background: #217ac0;
-      padding: 2px 6px 2px 6px;
-    }
-    h4 span {
-      border: 1px solid #cee9f9;
-      border-radius: 4px;
-    }
-    h4 span {
-      color: white;
-    }
-    .attributes {
-      margin-left: 22px;
-      font-size: 90%;
-    }
-    .attributes p {
-      margin-left: 16px;
-      font-style: italic;
-    }
-  </style>
-  <details>
-    <summary>
-      <span>
-        <code class="name"
-          >&lt;<slot name="element-name">NEED NAME</slot>&gt;</code
-        >
-        <span class="desc"
-          ><slot name="description">NEED DESCRIPTION</slot></span
-        >
-      </span>
-    </summary>
-    <div class="attributes">
-      <h4><span>Attributes</span></h4>
-      <slot name="attributes"><p>None</p></slot>
-    </div>
-  </details>
-  <hr />
-</template>
-
-<element-details>
-  <span slot="element-name">slot</span>
-  <span slot="description"
-    >A placeholder inside a web component that users can fill with their own
-    markup, with the effect of composing different DOM trees together.</span
-  >
-  <dl slot="attributes">
-    <dt>name</dt>
-    <dd>The name of the slot.</dd>
-  </dl>
-</element-details>
-
-<element-details>
-  <span slot="element-name">template</span>
-  <span slot="description"
-    >A mechanism for holding client- side content that is not to be rendered
-    when a page is loaded but may subsequently be instantiated during runtime
-    using JavaScript.</span
-  >
-</element-details>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "shorthand-property-no-redundant-values",
                             'Expected "2px 6px 2px 6px" to be "2px 6px" (shorthand-property-no-redundant-values)',
@@ -49708,7 +48444,7 @@ api.Window.sessionStorage`,
                       slug: "/en-US/docs/Web/API/WebGL_API/Matrix_math_for_the_web",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#4cc" to be "#44cccc" (color-hex-length)',
@@ -49743,7 +48479,7 @@ api.Window.sessionStorage`,
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -49778,7 +48514,7 @@ api.Window.sessionStorage`,
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#4cc" to be "#44cccc" (color-hex-length)',
@@ -49813,7 +48549,7 @@ api.Window.sessionStorage`,
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -49848,7 +48584,7 @@ api.Window.sessionStorage`,
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#4cc" to be "#44cccc" (color-hex-length)',
@@ -49883,7 +48619,7 @@ api.Window.sessionStorage`,
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -49918,7 +48654,7 @@ api.Window.sessionStorage`,
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#4cc" to be "#44cccc" (color-hex-length)',
@@ -49953,7 +48689,7 @@ api.Window.sessionStorage`,
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -50088,7 +48824,7 @@ api.Window.sessionStorage`,
                       slug: "/en-US/docs/Web/API/Window/blur_event",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -50106,7 +48842,7 @@ api.Window.sessionStorage`,
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#555" to be "#555555" (color-hex-length)',
@@ -50130,7 +48866,7 @@ api.Window.sessionStorage`,
                       slug: "/en-US/docs/Web/API/Window/devicePixelRatio",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#22d" to be "#2222dd" (color-hex-length)',
@@ -50156,7 +48892,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#a9f" to be "#aa99ff" (color-hex-length)',
@@ -50214,7 +48950,7 @@ body {
                       slug: "/en-US/docs/Web/API/Window/focus_event",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -50232,7 +48968,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#555" to be "#555555" (color-hex-length)',
@@ -50256,7 +48992,7 @@ body {
                       slug: "/en-US/docs/Web/API/Window/matchMedia",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#88f" to be "#8888ff" (color-hex-length)',
@@ -50279,7 +49015,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#dde" to be "#ddddee" (color-hex-length)',
@@ -50331,7 +49067,7 @@ body {
                       slug: "/en-US/docs/Web/API/Window/setTimeout",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "shorthand-property-no-redundant-values",
                             'Expected "0 10px 0 10px" to be "0 10px" (shorthand-property-no-redundant-values)',
@@ -50589,7 +49325,7 @@ table {
                   slug: "/en-US/docs/Web/API/XMLHttpRequestUpload",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "shorthand-property-no-redundant-values",
                         'Expected "10px 10px" to be "10px" (shorthand-property-no-redundant-values)',
@@ -50841,7 +49577,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/:active",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -50894,7 +49630,7 @@ p:active {
                   slug: "/en-US/docs/Web/CSS/:checked",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -50938,7 +49674,7 @@ p:active {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ff7" to be "#ffff77" (color-hex-length)',
@@ -50982,7 +49718,7 @@ p:active {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -51044,7 +49780,7 @@ p:active {
                   slug: "/en-US/docs/Web/CSS/:defined",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -51105,7 +49841,7 @@ custom-element:defined::before {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "shorthand-property-no-redundant-values",
                         'Expected "0 0 0 0" to be "0" (shorthand-property-no-redundant-values)',
@@ -51172,7 +49908,7 @@ custom-element:defined::before {
                   slug: "/en-US/docs/Web/CSS/:disabled",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -51195,7 +49931,7 @@ input[type="text"]:disabled {
                   slug: "/en-US/docs/Web/CSS/:enabled",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#2b2" to be "#22bb22" (color-hex-length)',
@@ -51216,7 +49952,7 @@ input:disabled {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
@@ -51243,7 +49979,7 @@ input:disabled {
                   slug: "/en-US/docs/Web/CSS/:focus-within",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ff8" to be "#ffff88" (color-hex-length)',
@@ -51265,254 +50001,6 @@ form:focus-within {
 
 input {
   margin: 4px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                _colon_has: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:has",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "0 0 1rem 0" to be "0 0 1rem" (shorthand-property-no-redundant-values)',
-                        "  margin: 0 0 1rem 0;",
-                        "24:11 - 24:21",
-                        `/en-US/docs/Web/CSS/:has
-[shorthand-property-no-redundant-values] Expected "0 0 1rem 0" to be "0 0 1rem" (shorthand-property-no-redundant-values)
-~~~
-section {
-  display: flex;
-  align-items: start;
-  justify-content: space-around;
-}
-
-article {
-  display: inline-block;
-  width: 40%;
-}
-
-h1,
-h2 {
-  font-size: 1.2em;
-}
-
-h2 {
-  font-size: 1em;
-  color: rgb(150 149 149);
-}
-
-h1,
-h2 {
-  margin: 0 0 1rem 0;
-}
-
-h1:has(+ h2) {
-  margin: 0 0 0.25rem 0;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "0 0 0.25rem 0" to be "0 0 0.25rem" (shorthand-property-no-redundant-values)',
-                        "  margin: 0 0 0.25rem 0;",
-                        "28:11 - 28:24",
-                        `/en-US/docs/Web/CSS/:has
-[shorthand-property-no-redundant-values] Expected "0 0 0.25rem 0" to be "0 0 0.25rem" (shorthand-property-no-redundant-values)
-~~~
-section {
-  display: flex;
-  align-items: start;
-  justify-content: space-around;
-}
-
-article {
-  display: inline-block;
-  width: 40%;
-}
-
-h1,
-h2 {
-  font-size: 1.2em;
-}
-
-h2 {
-  font-size: 1em;
-  color: rgb(150 149 149);
-}
-
-h1,
-h2 {
-  margin: 0 0 1rem 0;
-}
-
-h1:has(+ h2) {
-  margin: 0 0 0.25rem 0;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "0 0 1rem 0" to be "0 0 1rem" (shorthand-property-no-redundant-values)',
-                        "  margin: 0 0 1rem 0;",
-                        "29:11 - 29:21",
-                        `/en-US/docs/Web/CSS/:has
-[shorthand-property-no-redundant-values] Expected "0 0 1rem 0" to be "0 0 1rem" (shorthand-property-no-redundant-values)
-~~~
-section {
-  display: flex;
-  align-items: start;
-  justify-content: space-around;
-}
-
-article {
-  display: inline-block;
-  width: 40%;
-}
-
-h1 {
-  font-size: 1.2em;
-}
-
-h2 {
-  font-size: 1em;
-  color: rgb(150 149 149);
-}
-
-h3 {
-  font-size: 0.9em;
-  color: darkgrey;
-}
-
-h1,
-h2,
-h3 {
-  margin: 0 0 1rem 0;
-}
-
-:is(h1, h2, h3):has(+ :is(h2, h3, h4)) {
-  margin: 0 0 0.25rem 0;
-}
-
-:is(h1, h2, h3):has(+ h2, + h3, + h4) {
-  margin: 0 0 0.25rem 0;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "0 0 0.25rem 0" to be "0 0 0.25rem" (shorthand-property-no-redundant-values)',
-                        "  margin: 0 0 0.25rem 0;",
-                        "33:11 - 33:24",
-                        `/en-US/docs/Web/CSS/:has
-[shorthand-property-no-redundant-values] Expected "0 0 0.25rem 0" to be "0 0 0.25rem" (shorthand-property-no-redundant-values)
-~~~
-section {
-  display: flex;
-  align-items: start;
-  justify-content: space-around;
-}
-
-article {
-  display: inline-block;
-  width: 40%;
-}
-
-h1 {
-  font-size: 1.2em;
-}
-
-h2 {
-  font-size: 1em;
-  color: rgb(150 149 149);
-}
-
-h3 {
-  font-size: 0.9em;
-  color: darkgrey;
-}
-
-h1,
-h2,
-h3 {
-  margin: 0 0 1rem 0;
-}
-
-:is(h1, h2, h3):has(+ :is(h2, h3, h4)) {
-  margin: 0 0 0.25rem 0;
-}
-
-:is(h1, h2, h3):has(+ h2, + h3, + h4) {
-  margin: 0 0 0.25rem 0;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "0 0 0.25rem 0" to be "0 0 0.25rem" (shorthand-property-no-redundant-values)',
-                        "  margin: 0 0 0.25rem 0;",
-                        "37:11 - 37:24",
-                        `/en-US/docs/Web/CSS/:has
-[shorthand-property-no-redundant-values] Expected "0 0 0.25rem 0" to be "0 0 0.25rem" (shorthand-property-no-redundant-values)
-~~~
-section {
-  display: flex;
-  align-items: start;
-  justify-content: space-around;
-}
-
-article {
-  display: inline-block;
-  width: 40%;
-}
-
-h1 {
-  font-size: 1.2em;
-}
-
-h2 {
-  font-size: 1em;
-  color: rgb(150 149 149);
-}
-
-h3 {
-  font-size: 0.9em;
-  color: darkgrey;
-}
-
-h1,
-h2,
-h3 {
-  margin: 0 0 1rem 0;
-}
-
-:is(h1, h2, h3):has(+ :is(h2, h3, h4)) {
-  margin: 0 0 0.25rem 0;
-}
-
-:is(h1, h2, h3):has(+ h2, + h3, + h4) {
-  margin: 0 0 0.25rem 0;
 }
 ~~~
 `
@@ -51730,7 +50218,7 @@ input:out-of-range + label::after {
                   slug: "/en-US/docs/Web/CSS/:read-only",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -51818,7 +50306,7 @@ textarea:read-write {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -51912,7 +50400,7 @@ textarea:read-write {
                   slug: "/en-US/docs/Web/CSS/:read-write",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -52075,7 +50563,7 @@ input[type="submit"]::-moz-focus-inner {
                   slug: "/en-US/docs/Web/CSS/::-webkit-meter-even-less-good-value",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#f77" to be "#ff7777" (color-hex-length)',
@@ -52104,7 +50592,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#900" to be "#990000" (color-hex-length)',
@@ -52133,7 +50621,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#900" to be "#990000" (color-hex-length)',
@@ -52162,7 +50650,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#f77" to be "#ff7777" (color-hex-length)',
@@ -52197,7 +50685,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/::-webkit-meter-inner-element",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
@@ -52232,7 +50720,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/::-webkit-meter-optimum-value",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#7f7" to be "#77ff77" (color-hex-length)',
@@ -52261,7 +50749,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#090" to be "#009900" (color-hex-length)',
@@ -52290,7 +50778,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#090" to be "#009900" (color-hex-length)',
@@ -52319,7 +50807,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#7f7" to be "#77ff77" (color-hex-length)',
@@ -52354,7 +50842,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/::-webkit-meter-suboptimum-value",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ff7" to be "#ffff77" (color-hex-length)',
@@ -52383,7 +50871,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#990" to be "#999900" (color-hex-length)',
@@ -52412,7 +50900,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#990" to be "#999900" (color-hex-length)',
@@ -52441,7 +50929,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ff7" to be "#ffff77" (color-hex-length)',
@@ -52476,7 +50964,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/::-webkit-scrollbar",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
@@ -52637,7 +51125,7 @@ dialog::backdrop {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -52759,7 +51247,7 @@ ul::after::marker {
                   slug: "/en-US/docs/Web/CSS/::checkmark",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -52815,7 +51303,7 @@ option:not(option:last-of-type) {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -52871,7 +51359,7 @@ option:not(option:last-of-type) {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -52927,7 +51415,7 @@ option:not(option:last-of-type) {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -52989,7 +51477,7 @@ option:not(option:last-of-type) {
                   slug: "/en-US/docs/Web/CSS/::column",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -53045,7 +51533,7 @@ ul::column {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -53213,7 +51701,7 @@ ul::column {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -53292,7 +51780,7 @@ ul::column::scroll-marker:target-current {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -53559,7 +52047,7 @@ ul::column::scroll-marker:target-current {
                   slug: "/en-US/docs/Web/CSS/::picker-icon",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#999" to be "#999999" (color-hex-length)',
@@ -53583,7 +52071,7 @@ select::picker-icon {
                   slug: "/en-US/docs/Web/CSS/::scroll-button",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -53646,7 +52134,7 @@ ul::scroll-button(right) {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -53736,7 +52224,7 @@ ul::scroll-button(right) {
                   slug: "/en-US/docs/Web/CSS/::scroll-marker",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -53786,7 +52274,7 @@ li::scroll-marker {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -53859,7 +52347,7 @@ li:last-child::scroll-marker {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -53932,7 +52420,7 @@ li:last-child::scroll-marker {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#dcc" to be "#ddcccc" (color-hex-length)',
@@ -54011,7 +52499,7 @@ li:last-child::scroll-marker {
                   slug: "/en-US/docs/Web/CSS/::scroll-marker-group",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -54203,7 +52691,7 @@ li::scroll-marker:target-current {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -54469,7 +52957,7 @@ ul::scroll-marker-group {
                   slug: "/en-US/docs/Web/CSS/--*",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#16f" to be "#1166ff" (color-hex-length)',
@@ -54506,7 +52994,7 @@ ul::scroll-marker-group {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ff7" to be "#ffff77" (color-hex-length)',
@@ -54543,7 +53031,7 @@ ul::scroll-marker-group {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#290" to be "#229900" (color-hex-length)',
@@ -54586,7 +53074,7 @@ ul::scroll-marker-group {
                   slug: "/en-US/docs/Web/CSS/-moz-float-edge",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "shorthand-property-no-redundant-values",
                         'Expected "0.5em auto 0.5em auto" to be "0.5em auto" (shorthand-property-no-redundant-values)',
@@ -56147,7 +54635,7 @@ h2 {
                           data: []
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#99f" to be "#9999ff" (color-hex-length)',
@@ -56183,7 +54671,7 @@ h2 {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#9f9" to be "#99ff99" (color-hex-length)',
@@ -56219,7 +54707,7 @@ h2 {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#f99" to be "#ff9999" (color-hex-length)',
@@ -56335,7 +54823,7 @@ h2 {
                           data: []
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -56424,7 +54912,7 @@ h2 {
                           data: []
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -56466,7 +54954,7 @@ p {
                           data: []
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -56549,7 +55037,7 @@ p {
                           data: []
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#dca" to be "#ddccaa" (color-hex-length)',
@@ -56596,7 +55084,7 @@ div.box {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#731" to be "#773311" (color-hex-length)',
@@ -56643,7 +55131,7 @@ div.box {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#753" to be "#775533" (color-hex-length)',
@@ -56690,7 +55178,7 @@ div.box {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#dcb" to be "#ddccbb" (color-hex-length)',
@@ -56737,7 +55225,7 @@ div.box {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#447" to be "#444477" (color-hex-length)',
@@ -56784,7 +55272,7 @@ div.box {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#bbd" to be "#bbbbdd" (color-hex-length)',
@@ -56831,7 +55319,7 @@ div.box {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#bcd" to be "#bbccdd" (color-hex-length)',
@@ -56878,7 +55366,7 @@ div.box {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#334" to be "#333344" (color-hex-length)',
@@ -57424,7 +55912,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/@position-try",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -57432,168 +55920,6 @@ p {
                         "27:21 - 27:25",
                         `/en-US/docs/Web/CSS/@position-try
 [color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-body {
-  width: 1500px;
-  height: 500px;
-}
-
-.anchor {
-  font-size: 1.8rem;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  background-color: hsl(240 100% 75%);
-  width: fit-content;
-  border-radius: 10px;
-  border: 1px solid black;
-  padding: 3px;
-}
-
-.anchor {
-  anchor-name: --my-anchor;
-  position: absolute;
-  top: 100px;
-  left: 350px;
-}
-
-.infobox {
-  color: darkblue;
-  background-color: azure;
-  border: 1px solid #ddd;
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 1rem;
-}
-
-@position-try --custom-left {
-  position-area: left;
-  width: 100px;
-  margin: 0 10px 0 0;
-}
-
-@position-try --custom-bottom {
-  top: anchor(bottom);
-  justify-self: anchor-center;
-  margin: 10px 0 0 0;
-  position-area: none;
-}
-
-@position-try --custom-right {
-  left: calc(anchor(right) + 10px);
-  align-self: anchor-center;
-  width: 100px;
-  position-area: none;
-}
-
-@position-try --custom-bottom-right {
-  position-area: bottom right;
-  margin: 10px 0 0 10px;
-}
-
-.infobox {
-  position: fixed;
-  position-anchor: --my-anchor;
-  position-area: top;
-  width: 200px;
-  margin: 0 0 10px 0;
-  position-try-fallbacks:
-    --custom-left, --custom-bottom,
-    --custom-right, --custom-bottom-right;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "10px 0 0 0" to be "10px 0 0" (shorthand-property-no-redundant-values)',
-                        "  margin: 10px 0 0 0;",
-                        "42:11 - 42:21",
-                        `/en-US/docs/Web/CSS/@position-try
-[shorthand-property-no-redundant-values] Expected "10px 0 0 0" to be "10px 0 0" (shorthand-property-no-redundant-values)
-~~~
-body {
-  width: 1500px;
-  height: 500px;
-}
-
-.anchor {
-  font-size: 1.8rem;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  background-color: hsl(240 100% 75%);
-  width: fit-content;
-  border-radius: 10px;
-  border: 1px solid black;
-  padding: 3px;
-}
-
-.anchor {
-  anchor-name: --my-anchor;
-  position: absolute;
-  top: 100px;
-  left: 350px;
-}
-
-.infobox {
-  color: darkblue;
-  background-color: azure;
-  border: 1px solid #ddd;
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 1rem;
-}
-
-@position-try --custom-left {
-  position-area: left;
-  width: 100px;
-  margin: 0 10px 0 0;
-}
-
-@position-try --custom-bottom {
-  top: anchor(bottom);
-  justify-self: anchor-center;
-  margin: 10px 0 0 0;
-  position-area: none;
-}
-
-@position-try --custom-right {
-  left: calc(anchor(right) + 10px);
-  align-self: anchor-center;
-  width: 100px;
-  position-area: none;
-}
-
-@position-try --custom-bottom-right {
-  position-area: bottom right;
-  margin: 10px 0 0 10px;
-}
-
-.infobox {
-  position: fixed;
-  position-anchor: --my-anchor;
-  position-area: top;
-  width: 200px;
-  margin: 0 0 10px 0;
-  position-try-fallbacks:
-    --custom-left, --custom-bottom,
-    --custom-right, --custom-bottom-right;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "0 0 10px 0" to be "0 0 10px" (shorthand-property-no-redundant-values)',
-                        "  margin: 0 0 10px 0;",
-                        "63:11 - 63:21",
-                        `/en-US/docs/Web/CSS/@position-try
-[shorthand-property-no-redundant-values] Expected "0 0 10px 0" to be "0 0 10px" (shorthand-property-no-redundant-values)
 ~~~
 body {
   width: 1500px;
@@ -57748,7 +56074,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/@scope",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -57777,7 +56103,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#333" to be "#333333" (color-hex-length)',
@@ -57806,7 +56132,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -57837,7 +56163,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#333" to be "#333333" (color-hex-length)',
@@ -58082,85 +56408,6 @@ so specify a standalone starting-style block. */
 ~~~
 `
                       ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "10px 10px 0 10px" to be "10px 10px 0" (shorthand-property-no-redundant-values)',
-                        "  margin: 10px 10px 0 10px;",
-                        "15:11 - 15:27",
-                        `/en-US/docs/Web/CSS/@starting-style
-[shorthand-property-no-redundant-values] Expected "10px 10px 0 10px" to be "10px 10px 0" (shorthand-property-no-redundant-values)
-~~~
-html * {
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  gap: 10px;
-}
-
-body > button {
-  margin: 10px 10px 0 10px;
-}
-
-section {
-  display: flex;
-  flex: 1;
-  gap: 10px;
-  margin: 10px;
-}
-
-div {
-  flex: 1;
-  border: 1px solid gray;
-  position: relative;
-  opacity: 1;
-  scale: 1 1;
-
-  transition:
-    opacity 0.7s,
-    scale 0.7s,
-    display 0.7s allow-discrete,
-    all 0.7s allow-discrete;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-}
-
-/* Include after the \`div\` rule */
-@starting-style {
-  div {
-    opacity: 0;
-    scale: 1 0;
-  }
-}
-
-.fade-out {
-  opacity: 0;
-  display: none;
-  scale: 1 0;
-}
-
-div > button {
-  font-size: 1.6rem;
-  background: none;
-  border: 0;
-  text-shadow: 2px 1px 1px white;
-  border-radius: 15px;
-  position: absolute;
-  top: 1px;
-  right: 1px;
-  cursor: pointer;
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -58208,7 +56455,7 @@ shape-image-threshold: 0.7;
                   slug: "/en-US/docs/Web/CSS/anchor",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -58278,7 +56525,7 @@ form div:last-child {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -58416,7 +56663,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/anchor-name",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -58466,7 +56713,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -58525,7 +56772,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -58591,7 +56838,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/anchor-size",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -58658,7 +56905,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/animation",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#333" to be "#333333" (color-hex-length)',
@@ -58695,7 +56942,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/animation-delay",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#333" to be "#333333" (color-hex-length)',
@@ -58754,7 +57001,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/animation-direction",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#333" to be "#333333" (color-hex-length)',
@@ -58810,7 +57057,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/animation-duration",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#333" to be "#333333" (color-hex-length)',
@@ -58866,7 +57113,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/animation-fill-mode",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#333" to be "#333333" (color-hex-length)',
@@ -58916,7 +57163,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -58960,7 +57207,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/animation-iteration-count",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#333" to be "#333333" (color-hex-length)',
@@ -59017,7 +57264,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/animation-name",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#333" to be "#333333" (color-hex-length)',
@@ -59077,7 +57324,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/animation-play-state",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#333" to be "#333333" (color-hex-length)',
@@ -59766,7 +58013,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/animation-timing-function",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#333" to be "#333333" (color-hex-length)',
@@ -59950,7 +58197,7 @@ attr(data-rotation deg)
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -60656,7 +58903,7 @@ td {
                   slug: "/en-US/docs/Web/CSS/background",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -60674,7 +58921,7 @@ background:
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#99f" to be "#9999ff" (color-hex-length)',
@@ -60701,7 +58948,7 @@ background:
                   slug: "/en-US/docs/Web/CSS/background-clip",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#333" to be "#333333" (color-hex-length)',
@@ -60773,7 +59020,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/background-origin",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#333" to be "#333333" (color-hex-length)',
@@ -60895,7 +59142,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/background-repeat",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -60922,7 +59169,7 @@ p {
                       slug: "/en-US/docs/Web/CSS/basic-shape/circle",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#fe9" to be "#ffee99" (color-hex-length)',
@@ -60945,7 +59192,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#f52" to be "#ff5522" (color-hex-length)',
@@ -60968,7 +59215,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#05f" to be "#0055ff" (color-hex-length)',
@@ -60997,7 +59244,7 @@ p {
                       slug: "/en-US/docs/Web/CSS/basic-shape/ellipse",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#fe9" to be "#ffee99" (color-hex-length)',
@@ -61020,7 +59267,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#f52" to be "#ff5522" (color-hex-length)',
@@ -61043,7 +59290,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#05f" to be "#0055ff" (color-hex-length)',
@@ -61072,7 +59319,7 @@ p {
                       slug: "/en-US/docs/Web/CSS/basic-shape/inset",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#fe9" to be "#ffee99" (color-hex-length)',
@@ -61095,7 +59342,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#f52" to be "#ff5522" (color-hex-length)',
@@ -61118,7 +59365,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#05f" to be "#0055ff" (color-hex-length)',
@@ -61147,7 +59394,7 @@ p {
                       slug: "/en-US/docs/Web/CSS/basic-shape/path",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#fe9" to be "#ffee99" (color-hex-length)',
@@ -61170,7 +59417,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#f52" to be "#ff5522" (color-hex-length)',
@@ -61193,7 +59440,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#05f" to be "#0055ff" (color-hex-length)',
@@ -61222,7 +59469,7 @@ p {
                       slug: "/en-US/docs/Web/CSS/basic-shape/polygon",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#fe9" to be "#ffee99" (color-hex-length)',
@@ -61245,7 +59492,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#f52" to be "#ff5522" (color-hex-length)',
@@ -61268,7 +59515,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#05f" to be "#0055ff" (color-hex-length)',
@@ -61296,7 +59543,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/basic-shape",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#fe9" to be "#ffee99" (color-hex-length)',
@@ -61319,7 +59566,7 @@ p {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#f52" to be "#ff5522" (color-hex-length)',
@@ -61342,7 +59589,7 @@ p {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#05f" to be "#0055ff" (color-hex-length)',
@@ -61371,7 +59618,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/border",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -61398,7 +59645,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/border-block",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -61426,7 +59673,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/border-block-color",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -61455,7 +59702,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/border-block-end",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -61483,7 +59730,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/border-block-end-color",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -61512,7 +59759,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/border-block-end-style",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -61541,7 +59788,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/border-block-start",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -61569,7 +59816,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/border-block-start-color",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -61598,7 +59845,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/border-block-start-style",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -61627,7 +59874,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/border-block-style",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -61656,7 +59903,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/border-bottom",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -61683,7 +59930,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/border-bottom-color",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -61711,7 +59958,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/border-bottom-style",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -61743,7 +59990,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-color",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -61771,7 +60018,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-image",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ffa" to be "#ffffaa" (color-hex-length)',
@@ -61795,7 +60042,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#f33" to be "#ff3333" (color-hex-length)',
@@ -61815,7 +60062,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#3bf" to be "#33bbff" (color-hex-length)',
@@ -61835,7 +60082,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#f33" to be "#ff3333" (color-hex-length)',
@@ -61861,7 +60108,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-image-outset",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#cef" to be "#cceeff" (color-hex-length)',
@@ -61883,7 +60130,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ff2" to be "#ffff22" (color-hex-length)',
@@ -61905,7 +60152,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#55f" to be "#5555ff" (color-hex-length)',
@@ -61933,7 +60180,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-inline",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -61961,7 +60208,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-inline-color",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -61990,7 +60237,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-inline-end",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -62018,7 +60265,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-inline-end-color",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -62047,7 +60294,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-inline-end-style",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -62076,7 +60323,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-inline-start",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -62104,7 +60351,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-inline-start-color",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -62133,7 +60380,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-inline-start-style",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -62162,7 +60409,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-inline-style",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -62191,7 +60438,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-left",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -62218,7 +60465,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-left-color",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -62246,7 +60493,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-left-style",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -62278,7 +60525,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-radius",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "shorthand-property-no-redundant-values",
                         'Expected "1em/5em" to be "1em / 5em" (shorthand-property-no-redundant-values)',
@@ -62299,7 +60546,7 @@ border-bottom-left-radius: 1em 5em;
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "shorthand-property-no-redundant-values",
                         'Expected "13em/3em" to be "13em / 3em" (shorthand-property-no-redundant-values)',
@@ -62365,7 +60612,7 @@ pre#example-7 {
                   slug: "/en-US/docs/Web/CSS/border-right",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -62392,7 +60639,7 @@ pre#example-7 {
                   slug: "/en-US/docs/Web/CSS/border-right-color",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -62420,7 +60667,7 @@ pre#example-7 {
                   slug: "/en-US/docs/Web/CSS/border-right-style",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -62452,7 +60699,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-style",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -62484,7 +60731,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-top",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -62511,7 +60758,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-top-color",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -62539,7 +60786,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-top-style",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -62571,7 +60818,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/border-width",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -62685,7 +60932,7 @@ div {
                   slug: "/en-US/docs/Web/CSS/box-shadow",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#333" to be "#333333" (color-hex-length)',
@@ -63176,7 +61423,7 @@ section {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -63241,7 +61488,7 @@ section:focus {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -63501,7 +61748,7 @@ section:focus {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -63576,7 +61823,7 @@ section {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -63801,7 +62048,7 @@ section {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -63849,7 +62096,7 @@ input {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -63999,7 +62246,7 @@ input {
                   slug: "/en-US/docs/Web/CSS/caption-side",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#fc3" to be "#ffcc33" (color-hex-length)',
@@ -64036,7 +62283,7 @@ tr:nth-child(even) {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -64073,7 +62320,7 @@ tr:nth-child(even) {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -64116,7 +62363,7 @@ tr:nth-child(even) {
                   slug: "/en-US/docs/Web/CSS/Class_selectors",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#f33" to be "#ff3333" (color-hex-length)',
@@ -64160,7 +62407,7 @@ tr:nth-child(even) {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ffa" to be "#ffffaa" (color-hex-length)',
@@ -64204,7 +62451,7 @@ tr:nth-child(even) {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#77f" to be "#7777ff" (color-hex-length)',
@@ -64380,49 +62627,6 @@ p {
                         "28:27 - 28:30",
                         `/en-US/docs/Web/CSS/color
 [alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-p {
-  color: red;
-}
-p {
-  color: #f00;
-}
-p {
-  color: #ff0000;
-}
-p {
-  color: rgb(255 0 0);
-}
-p {
-  color: rgb(100% 0% 0%);
-}
-p {
-  color: hsl(0 100% 50%);
-}
-
-/* 50% translucent */
-p {
-  color: #ff000080;
-}
-p {
-  color: rgb(255 0 0 / 50%);
-}
-p {
-  color: hsl(0 100% 50% / 50%);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#f00" to be "#ff0000" (color-hex-length)',
-                        "  color: #f00;",
-                        "5:10 - 5:14",
-                        `/en-US/docs/Web/CSS/color
-[color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
 ~~~
 p {
   color: red;
@@ -65163,13 +63367,6 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webkit.org/blog/11577/release-notes-for-safari-technology-preview-122/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -76032,7 +74229,7 @@ rgb(from hsl(0 100% 50%) calc(r/2) calc(g + 25) calc(b + 175) / calc(alpha - 0.1
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -76345,7 +74542,7 @@ oklch(63.612% 0.1522 78.748)
                   slug: "/en-US/docs/Web/CSS/column-fill",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ff9" to be "#ffff99" (color-hex-length)',
@@ -76379,7 +74576,7 @@ p.fill-balance {
                   slug: "/en-US/docs/Web/CSS/column-rule",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ff7" to be "#ffff77" (color-hex-length)',
@@ -76399,7 +74596,7 @@ p.fill-balance {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#33f" to be "#3333ff" (color-hex-length)',
@@ -76425,7 +74622,7 @@ p.fill-balance {
                   slug: "/en-US/docs/Web/CSS/column-rule-style",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#88f" to be "#8888ff" (color-hex-length)',
@@ -76447,7 +74644,7 @@ column-rule-color: #88f;
                   slug: "/en-US/docs/Web/CSS/content",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -76479,7 +74676,7 @@ q::after {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -76510,7 +74707,7 @@ div {
                   slug: "/en-US/docs/Web/CSS/cos",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#666" to be "#666666" (color-hex-length)',
@@ -76550,7 +74747,7 @@ div {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#666" to be "#666666" (color-hex-length)',
@@ -76590,7 +74787,7 @@ div {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#f66" to be "#ff6666" (color-hex-length)',
@@ -76777,7 +74974,7 @@ cross-fade(url("white.png"), url("black.png"), 100%); /* fully white */
                       slug: "/en-US/docs/Web/CSS/CSS_anchor_positioning/Try_options_hiding",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -76829,7 +75026,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -76884,7 +75081,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -76939,7 +75136,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -77017,163 +75214,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "10px 0 0 0" to be "10px 0 0" (shorthand-property-no-redundant-values)',
-                            "  margin: 10px 0 0 0;",
-                            "41:11 - 41:21",
-                            `/en-US/docs/Web/CSS/CSS_anchor_positioning/Try_options_hiding
-[shorthand-property-no-redundant-values] Expected "10px 0 0 0" to be "10px 0 0" (shorthand-property-no-redundant-values)
-~~~
-body {
-  width: 1500px;
-  height: 500px;
-}
-
-.anchor {
-  font-size: 1.8rem;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  background-color: hsl(240 100% 75%);
-  width: fit-content;
-  border-radius: 10px;
-  border: 1px solid black;
-  padding: 3px;
-}
-
-.anchor {
-  anchor-name: --my-anchor;
-  position: absolute;
-  top: 100px;
-  left: 45%;
-}
-
-.infobox {
-  color: darkblue;
-  background-color: azure;
-  border: 1px solid #ddd;
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 1rem;
-}
-
-@position-try --custom-left {
-  position-area: left;
-  width: 100px;
-  margin: 0 10px 0 0;
-}
-
-@position-try --custom-bottom {
-  position-area: bottom;
-  margin: 10px 0 0 0;
-}
-
-@position-try --custom-right {
-  position-area: right;
-  width: 100px;
-  margin: 0 0 0 10px;
-}
-
-@position-try --custom-bottom-right {
-  position-area: bottom right;
-  margin: 10px 0 0 10px;
-}
-
-.infobox {
-  position: fixed;
-  position-anchor: --my-anchor;
-  position-area: top;
-  width: 200px;
-  margin: 0 0 10px 0;
-  position-try-fallbacks:
-    --custom-left, --custom-bottom,
-    --custom-right, --custom-bottom-right;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "0 0 10px 0" to be "0 0 10px" (shorthand-property-no-redundant-values)',
-                            "  margin: 0 0 10px 0;",
-                            "60:11 - 60:21",
-                            `/en-US/docs/Web/CSS/CSS_anchor_positioning/Try_options_hiding
-[shorthand-property-no-redundant-values] Expected "0 0 10px 0" to be "0 0 10px" (shorthand-property-no-redundant-values)
-~~~
-body {
-  width: 1500px;
-  height: 500px;
-}
-
-.anchor {
-  font-size: 1.8rem;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  background-color: hsl(240 100% 75%);
-  width: fit-content;
-  border-radius: 10px;
-  border: 1px solid black;
-  padding: 3px;
-}
-
-.anchor {
-  anchor-name: --my-anchor;
-  position: absolute;
-  top: 100px;
-  left: 45%;
-}
-
-.infobox {
-  color: darkblue;
-  background-color: azure;
-  border: 1px solid #ddd;
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 1rem;
-}
-
-@position-try --custom-left {
-  position-area: left;
-  width: 100px;
-  margin: 0 10px 0 0;
-}
-
-@position-try --custom-bottom {
-  position-area: bottom;
-  margin: 10px 0 0 0;
-}
-
-@position-try --custom-right {
-  position-area: right;
-  width: 100px;
-  margin: 0 0 0 10px;
-}
-
-@position-try --custom-bottom-right {
-  position-area: bottom right;
-  margin: 10px 0 0 10px;
-}
-
-.infobox {
-  position: fixed;
-  position-anchor: --my-anchor;
-  position-area: top;
-  width: 200px;
-  margin: 0 0 10px 0;
-  position-try-fallbacks:
-    --custom-left, --custom-bottom,
-    --custom-right, --custom-bottom-right;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -77235,7 +75276,7 @@ form {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -77291,7 +75332,7 @@ body {
                       slug: "/en-US/docs/Web/CSS/CSS_anchor_positioning/Using",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -77333,7 +75374,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -77383,7 +75424,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -77448,7 +75489,7 @@ form {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -77494,7 +75535,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -77563,7 +75604,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -77634,7 +75675,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/CSS_animations",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#bbb" to be "#bbbbbb" (color-hex-length)',
@@ -77886,7 +75927,7 @@ input:checked + label::before {
                   slug: "/en-US/docs/Web/CSS/CSS_basic_user_interface",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -77976,39 +76017,6 @@ body {
                     }
                   }
                 },
-                css_box_model: {
-                  children: {
-                    mastering_margin_collapsing: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_box_model/Mastering_margin_collapsing",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "0.4rem 0 1.2rem 0" to be "0.4rem 0 1.2rem" (shorthand-property-no-redundant-values)',
-                            "  margin: 0.4rem 0 1.2rem 0;",
-                            "7:11 - 7:28",
-                            `/en-US/docs/Web/CSS/CSS_box_model/Mastering_margin_collapsing
-[shorthand-property-no-redundant-values] Expected "0.4rem 0 1.2rem 0" to be "0.4rem 0 1.2rem" (shorthand-property-no-redundant-values)
-~~~
-div {
-  margin: 2rem 0;
-  background: lavender;
-}
-
-p {
-  margin: 0.4rem 0 1.2rem 0;
-  background: yellow;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_box_sizing: {
                   children: {
                     "understanding_aspect-ratio": {
@@ -78020,7 +76028,7 @@ p {
                           data: []
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -78058,7 +76066,7 @@ img {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -78104,7 +76112,7 @@ blockquote:nth-of-type(3) {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -78129,7 +76137,7 @@ blockquote {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -78239,98 +76247,6 @@ font:
                         {
                           message: "Stylelint backlog",
                           data: [
-                            "color-hex-length",
-                            'Expected "#8f8" to be "#88ff88" (color-hex-length)',
-                            "  text-decoration-color: #8f8;",
-                            "29:26 - 29:30",
-                            `/en-US/docs/Web/CSS/CSS_colors/Applying_color
-[color-hex-length] Expected "#8f8" to be "#88ff88" (color-hex-length)
-~~~
-.wrapper {
-  height: 110px;
-  padding: 10px;
-  display: flex;
-  gap: 10px;
-  text-align: center;
-  font:
-    28px "Marker Felt",
-    "Zapfino",
-    cursive;
-  border: 6px solid mediumturquoise;
-}
-
-div {
-  flex: 1;
-}
-
-.boxLeft {
-  background-color: rgb(245 130 130);
-  outline: 2px solid darkred;
-}
-
-.boxRight {
-  background-color: hwb(270deg 63% 13%);
-  outline: 4px dashed #6e1478;
-  color: hsl(0deg 95% 95%);
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: #8f8;
-  text-decoration: underline wavy #8f8;
-  text-shadow: 2px 2px 3px black;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#8f8" to be "#88ff88" (color-hex-length)',
-                            "  text-decoration: underline wavy #8f8;",
-                            "30:35 - 30:39",
-                            `/en-US/docs/Web/CSS/CSS_colors/Applying_color
-[color-hex-length] Expected "#8f8" to be "#88ff88" (color-hex-length)
-~~~
-.wrapper {
-  height: 110px;
-  padding: 10px;
-  display: flex;
-  gap: 10px;
-  text-align: center;
-  font:
-    28px "Marker Felt",
-    "Zapfino",
-    cursive;
-  border: 6px solid mediumturquoise;
-}
-
-div {
-  flex: 1;
-}
-
-.boxLeft {
-  background-color: rgb(245 130 130);
-  outline: 2px solid darkred;
-}
-
-.boxRight {
-  background-color: hwb(270deg 63% 13%);
-  outline: 4px dashed #6e1478;
-  color: hsl(0deg 95% 95%);
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: #8f8;
-  text-decoration: underline wavy #8f8;
-  text-shadow: 2px 2px 3px black;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
                             "hue-degree-notation",
                             'Expected "270deg" to be "270" (hue-degree-notation)',
                             "  background-color: hwb(270deg 63% 13%);",
@@ -78427,23 +76343,7 @@ div {
                       slug: "/en-US/docs/Web/CSS/CSS_colors/Color_values",
                       messages: [
                         {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#f00" to be "#ff0000" (color-hex-length)',
-                            "color: #f00;",
-                            "2:8 - 2:12",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
-[color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
-~~~
-color: #ff0000;
-color: #f00;
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#f004" to be "#ff000044" (color-hex-length)',
@@ -80217,7 +78117,7 @@ rgb(from red r g b / alpha)
                       slug: "/en-US/docs/Web/CSS/CSS_conditional_rules/Container_scroll-state_queries",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#0007" to be "#00000077" (color-hex-length)',
@@ -80303,7 +78203,7 @@ html {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#0007" to be "#00000077" (color-hex-length)',
@@ -80389,7 +78289,7 @@ html {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#0009" to be "#00000099" (color-hex-length)',
@@ -80647,7 +78547,7 @@ html {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -80905,7 +78805,7 @@ section {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -80982,7 +78882,7 @@ header p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#0007" to be "#00000077" (color-hex-length)',
@@ -81223,7 +79123,7 @@ header p {
                       slug: "/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#00f" to be "#0000ff" (color-hex-length)',
@@ -81242,7 +79142,26 @@ header p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "#00f" to be "blue" (color-named)',
+                            "  initial-value: #00f;",
+                            "4:18 - 4:22",
+                            `/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries
+[color-named] Expected "#00f" to be "blue" (color-named)
+~~~
+@property --accent-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #00f;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#777" to be "#777777" (color-hex-length)',
@@ -81299,30 +79218,6 @@ output {
                 },
                 css_display: {
                   children: {
-                    block_and_inline_layout_in_normal_flow: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_display/Block_and_inline_layout_in_normal_flow",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "20px 0 40px 0" to be "20px 0 40px" (shorthand-property-no-redundant-values)',
-                            "  margin: 20px 0 40px 0;",
-                            "3:11 - 3:24",
-                            `/en-US/docs/Web/CSS/CSS_display/Block_and_inline_layout_in_normal_flow
-[shorthand-property-no-redundant-values] Expected "20px 0 40px 0" to be "20px 0 40px" (shorthand-property-no-redundant-values)
-~~~
-p {
-  border: 2px solid green;
-  margin: 20px 0 40px 0;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     block_formatting_context: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_display/Block_formatting_context",
@@ -81406,12 +79301,25 @@ section {
                         }
                       ]
                     },
+                    flow_layout_and_writing_modes: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_display/Flow_layout_and_writing_modes",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2019/08/writing-modes-layout/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    },
                     in_flow_and_out_of_flow: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_display/In_flow_and_out_of_flow",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -81445,7 +79353,7 @@ p {
                       slug: "/en-US/docs/Web/CSS/CSS_display/multi-keyword_syntax_of_display",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -81467,7 +79375,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -81494,7 +79402,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -81535,7 +79443,7 @@ body {
                       slug: "/en-US/docs/Web/CSS/CSS_display/Visual_formatting_model",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -81565,7 +79473,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -81605,7 +79513,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#999" to be "#999999" (color-hex-length)',
@@ -81645,7 +79553,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -81915,7 +79823,7 @@ p {
                       slug: "/en-US/docs/Web/CSS/CSS_flexible_box_layout/Typical_use_cases_of_flexbox",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#666" to be "#666666" (color-hex-length)',
@@ -83140,7 +81048,7 @@ div::before {
                       slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Auto-placement_in_grid_layout",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -92861,7 +90769,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#f005" to be "#ff000055" (color-hex-length)',
@@ -92921,7 +90829,7 @@ img {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#f005" to be "#ff000055" (color-hex-length)',
@@ -92981,7 +90889,7 @@ img {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#f005" to be "#ff000055" (color-hex-length)',
@@ -93050,7 +90958,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#f005" to be "#ff000055" (color-hex-length)',
@@ -93120,7 +91028,7 @@ img {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#f005" to be "#ff000055" (color-hex-length)',
@@ -93199,7 +91107,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#f005" to be "#ff000055" (color-hex-length)',
@@ -93288,7 +91196,7 @@ body {
                           data: []
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#f005" to be "#ff000055" (color-hex-length)',
@@ -93334,7 +91242,7 @@ img {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#f005" to be "#ff000055" (color-hex-length)',
@@ -93447,7 +91355,7 @@ body {
                       slug: "/en-US/docs/Web/CSS/CSS_multicol_layout/Handling_content_breaks_in_multicol_layout",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#999" to be "#999999" (color-hex-length)',
@@ -93514,7 +91422,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/CSS_multicol_layout",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#666" to be "#666666" (color-hex-length)',
@@ -93672,166 +91580,6 @@ blockquote p::after {
 ~~~
 `
                       ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "0 0 1em 0" to be "0 0 1em" (shorthand-property-no-redundant-values)',
-                        "  margin: 0 0 1em 0;",
-                        "18:11 - 18:20",
-                        `/en-US/docs/Web/CSS/CSS_multicol_layout
-[shorthand-property-no-redundant-values] Expected "0 0 1em 0" to be "0 0 1em" (shorthand-property-no-redundant-values)
-~~~
-article {
-  column-count: 5;
-  column-width: 8em;
-  widows: 3;
-  orphans: 3;
-  gap: 1em;
-  column-rule: 2px dashed #666;
-  height: 50em;
-}
-.title {
-  column-span: all;
-  display: flex;
-  align-items: baseline;
-  gap: 1em;
-  flex-wrap: wrap;
-}
-p {
-  margin: 0 0 1em 0;
-  line-height: 1.4;
-}
-.breakInside * {
-  break-inside: avoid;
-}
-#options {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  background: white;
-  display: none;
-}
-fieldset p {
-  margin-bottom: 0.25em;
-}
-[aria-expanded] {
-  position: relative;
-  top: 0;
-  transition: 200ms;
-}
-[aria-expanded="false"] {
-  top: 0.75em;
-}
-[aria-expanded="false"] + #controls {
-  display: none;
-}
-legend {
-  background-color: #dedede;
-  padding: 0.5em;
-}
-[aria-expanded="false"] {
-  margin: -1em;
-  display: inline-block;
-}
-blockquote {
-  border: 2px dashed red;
-  margin: 0 0 0.25em 0;
-}
-blockquote p {
-  margin-bottom: 0;
-}
-blockquote p::before,
-blockquote p::after {
-  content: '"';
-  font-size: 1.2em;
-  vertical-align: baseline;
-  color: red;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "0 0 0.25em 0" to be "0 0 0.25em" (shorthand-property-no-redundant-values)',
-                        "  margin: 0 0 0.25em 0;",
-                        "55:11 - 55:23",
-                        `/en-US/docs/Web/CSS/CSS_multicol_layout
-[shorthand-property-no-redundant-values] Expected "0 0 0.25em 0" to be "0 0 0.25em" (shorthand-property-no-redundant-values)
-~~~
-article {
-  column-count: 5;
-  column-width: 8em;
-  widows: 3;
-  orphans: 3;
-  gap: 1em;
-  column-rule: 2px dashed #666;
-  height: 50em;
-}
-.title {
-  column-span: all;
-  display: flex;
-  align-items: baseline;
-  gap: 1em;
-  flex-wrap: wrap;
-}
-p {
-  margin: 0 0 1em 0;
-  line-height: 1.4;
-}
-.breakInside * {
-  break-inside: avoid;
-}
-#options {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
-  background: white;
-  display: none;
-}
-fieldset p {
-  margin-bottom: 0.25em;
-}
-[aria-expanded] {
-  position: relative;
-  top: 0;
-  transition: 200ms;
-}
-[aria-expanded="false"] {
-  top: 0.75em;
-}
-[aria-expanded="false"] + #controls {
-  display: none;
-}
-legend {
-  background-color: #dedede;
-  padding: 0.5em;
-}
-[aria-expanded="false"] {
-  margin: -1em;
-  display: inline-block;
-}
-blockquote {
-  border: 2px dashed red;
-  margin: 0 0 0.25em 0;
-}
-blockquote p {
-  margin-bottom: 0;
-}
-blockquote p::before,
-blockquote p::after {
-  content: '"';
-  font-size: 1.2em;
-  vertical-align: baseline;
-  color: red;
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -93842,7 +91590,7 @@ blockquote p::after {
                       slug: "/en-US/docs/Web/CSS/CSS_overflow/CSS_carousels",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -93899,7 +91647,7 @@ li {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -94070,7 +91818,7 @@ li {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -94177,7 +91925,7 @@ ul::scroll-button(right) {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -94498,7 +92246,7 @@ ul::scroll-button(right) {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -94633,7 +92381,7 @@ li::scroll-marker:target-current {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -95038,7 +92786,7 @@ li::scroll-marker:target-current {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -95177,7 +92925,7 @@ ul::column::scroll-marker:target-current {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -95987,7 +93735,7 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "shorthand-property-no-redundant-values",
                         'Expected "hidden hidden" to be "hidden" (shorthand-property-no-redundant-values)',
@@ -96084,7 +93832,7 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "shorthand-property-no-redundant-values",
                         'Expected "clip clip" to be "clip" (shorthand-property-no-redundant-values)',
@@ -96181,7 +93929,7 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "shorthand-property-no-redundant-values",
                         'Expected "scroll scroll" to be "scroll" (shorthand-property-no-redundant-values)',
@@ -96278,7 +94026,7 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "shorthand-property-no-redundant-values",
                         'Expected "auto auto" to be "auto" (shorthand-property-no-redundant-values)',
@@ -96375,7 +94123,7 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "shorthand-property-no-redundant-values",
                         'Expected "clip clip" to be "clip" (shorthand-property-no-redundant-values)',
@@ -96472,7 +94220,7 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "shorthand-property-no-redundant-values",
                         'Expected "overlay overlay" to be "overlay" (shorthand-property-no-redundant-values)',
@@ -96569,7 +94317,7 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "shorthand-property-no-redundant-values",
                         'Expected "visible visible" to be "visible" (shorthand-property-no-redundant-values)',
@@ -96879,7 +94627,7 @@ div {
                       slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#696" to be "#669966" (color-hex-length)',
@@ -96970,7 +94718,7 @@ article {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#cfc" to be "#ccffcc" (color-hex-length)',
@@ -97061,7 +94809,7 @@ article {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#900" to be "#990000" (color-hex-length)',
@@ -97152,7 +94900,7 @@ article {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#fdd" to be "#ffdddd" (color-hex-length)',
@@ -97243,7 +94991,7 @@ article {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#996" to be "#999966" (color-hex-length)',
@@ -97334,7 +95082,7 @@ article {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ffc" to be "#ffffcc" (color-hex-length)',
@@ -97425,7 +95173,7 @@ article {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#996" to be "#999966" (color-hex-length)',
@@ -97516,7 +95264,7 @@ article {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ffc" to be "#ffffcc" (color-hex-length)',
@@ -97607,7 +95355,7 @@ article {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ddf" to be "#ddddff" (color-hex-length)',
@@ -97698,7 +95446,7 @@ article {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#009" to be "#000099" (color-hex-length)',
@@ -97886,7 +95634,7 @@ article {
                       slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_floating_elements",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#900" to be "#990000" (color-hex-length)',
@@ -97962,7 +95710,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#fdd" to be "#ffdddd" (color-hex-length)',
@@ -98038,7 +95786,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#996" to be "#999966" (color-hex-length)',
@@ -98114,7 +95862,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ffc" to be "#ffffcc" (color-hex-length)',
@@ -98190,7 +95938,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#090" to be "#009900" (color-hex-length)',
@@ -98266,7 +96014,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#cfc" to be "#ccffcc" (color-hex-length)',
@@ -98342,7 +96090,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#090" to be "#009900" (color-hex-length)',
@@ -98418,7 +96166,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#cfc" to be "#ccffcc" (color-hex-length)',
@@ -98494,7 +96242,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#990" to be "#999900" (color-hex-length)',
@@ -98570,7 +96318,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#fdd" to be "#ffdddd" (color-hex-length)',
@@ -98646,7 +96394,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#996" to be "#999966" (color-hex-length)',
@@ -98722,7 +96470,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#cff" to be "#ccffff" (color-hex-length)',
@@ -98798,7 +96546,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "shorthand-property-no-redundant-values",
                             'Expected "0px 10px 0px 10px" to be "0px 10px" (shorthand-property-no-redundant-values)',
@@ -98874,7 +96622,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "shorthand-property-no-redundant-values",
                             'Expected "0px 10px 0px 10px" to be "0px 10px" (shorthand-property-no-redundant-values)',
@@ -98956,7 +96704,7 @@ strong {
                       slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_without_z-index",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ffc" to be "#ffffcc" (color-hex-length)',
@@ -99029,7 +96777,7 @@ div {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#996" to be "#999966" (color-hex-length)',
@@ -99102,7 +96850,7 @@ div {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#fdd" to be "#ffdddd" (color-hex-length)',
@@ -99175,7 +96923,7 @@ div {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#900" to be "#990000" (color-hex-length)',
@@ -99248,7 +96996,7 @@ div {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#cfc" to be "#ccffcc" (color-hex-length)',
@@ -99321,7 +97069,7 @@ div {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#696" to be "#669966" (color-hex-length)',
@@ -99394,7 +97142,7 @@ div {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ffc" to be "#ffffcc" (color-hex-length)',
@@ -99467,7 +97215,7 @@ div {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "shorthand-property-no-redundant-values",
                             'Expected "0px 50px 0px 50px" to be "0px 50px" (shorthand-property-no-redundant-values)',
@@ -99540,7 +97288,7 @@ div {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "shorthand-property-no-redundant-values",
                             'Expected "0px 50px 0px 50px" to be "0px 50px" (shorthand-property-no-redundant-values)',
@@ -99613,7 +97361,7 @@ div {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "shorthand-property-no-redundant-values",
                             'Expected "0px 50px 0px 50px" to be "0px 50px" (shorthand-property-no-redundant-values)',
@@ -100150,7 +97898,7 @@ section {
                       slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Using_z-index",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#900" to be "#990000" (color-hex-length)',
@@ -100224,7 +97972,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#fdd" to be "#ffdddd" (color-hex-length)',
@@ -100298,7 +98046,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#696" to be "#669966" (color-hex-length)',
@@ -100372,7 +98120,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#cfc" to be "#ccffcc" (color-hex-length)',
@@ -100446,7 +98194,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#696" to be "#669966" (color-hex-length)',
@@ -100520,7 +98268,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#cfc" to be "#ccffcc" (color-hex-length)',
@@ -100594,7 +98342,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#900" to be "#990000" (color-hex-length)',
@@ -100668,7 +98416,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#fdd" to be "#ffdddd" (color-hex-length)',
@@ -100742,7 +98490,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#996" to be "#999966" (color-hex-length)',
@@ -100816,7 +98564,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ffc" to be "#ffffcc" (color-hex-length)',
@@ -100890,7 +98638,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "shorthand-property-no-redundant-values",
                             'Expected "0px 50px 0px 50px" to be "0px 50px" (shorthand-property-no-redundant-values)',
@@ -100964,7 +98712,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "shorthand-property-no-redundant-values",
                             'Expected "0px 50px 0px 50px" to be "0px 50px" (shorthand-property-no-redundant-values)',
@@ -101038,7 +98786,7 @@ strong {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "shorthand-property-no-redundant-values",
                             'Expected "0px 50px 0px 50px" to be "0px 50px" (shorthand-property-no-redundant-values)',
@@ -101155,7 +98903,7 @@ strong {
                       slug: "/en-US/docs/Web/CSS/CSS_scroll_snap/Basic_concepts",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -101196,7 +98944,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -101237,7 +98985,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -101278,7 +99026,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -101319,7 +99067,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -101360,7 +99108,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -101401,7 +99149,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -101443,7 +99191,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -101485,7 +99233,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -101542,7 +99290,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -101599,7 +99347,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -101641,7 +99389,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -101689,7 +99437,7 @@ body {
                       slug: "/en-US/docs/Web/CSS/CSS_scroll_snap/Using_scroll_snap_events",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -101760,7 +99508,7 @@ section {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -101973,7 +99721,7 @@ section {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -102044,7 +99792,7 @@ section {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -102257,7 +100005,7 @@ section {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -102364,7 +100112,7 @@ main {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -102471,7 +100219,7 @@ main {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -102578,7 +100326,7 @@ main {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -102685,7 +100433,7 @@ main {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -103111,7 +100859,7 @@ article.snapDisabled ul {
                       slug: "/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -104235,7 +101983,7 @@ section {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -104357,7 +102105,7 @@ section {
                   slug: "/en-US/docs/Web/CSS/CSS_transforms",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -105716,7 +103464,7 @@ output {
                       slug: "/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -105751,7 +103499,7 @@ a:focus {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -105786,7 +103534,7 @@ a:focus {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -105837,7 +103585,7 @@ main {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -105888,7 +103636,7 @@ main {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#c00" to be "#cc0000" (color-hex-length)',
@@ -106114,7 +103862,7 @@ main {
                   slug: "/en-US/docs/Web/CSS/d",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#f338" to be "#ff333388" (color-hex-length)',
@@ -106180,7 +103928,7 @@ h4 {
                   slug: "/en-US/docs/Web/CSS/display",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#8888" to be "#88888888" (color-hex-length)',
@@ -106615,7 +104363,7 @@ li {
                   slug: "/en-US/docs/Web/CSS/empty-cells",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#a19" to be "#aa1199" (color-hex-length)',
@@ -106640,7 +104388,7 @@ td {
                   slug: "/en-US/docs/Web/CSS/env",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -106906,7 +104654,7 @@ ellipse {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -107048,7 +104796,7 @@ contrast(200%)
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#339" to be "#333399" (color-hex-length)',
@@ -107087,7 +104835,7 @@ p {
                       slug: "/en-US/docs/Web/CSS/filter-function/drop-shadow",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#222" to be "#222222" (color-hex-length)',
@@ -107297,7 +105045,7 @@ sepia(100%)
                       data: []
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -107500,7 +105248,7 @@ body * {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#333" to be "#333333" (color-hex-length)',
@@ -107850,7 +105598,7 @@ div > div {
                   slug: "/en-US/docs/Web/CSS/flood-color",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#f36" to be "#ff3366" (color-hex-length)',
@@ -107923,7 +105671,7 @@ rect {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -108946,60 +106694,6 @@ p {
                         "22:16 - 22:22",
                         `/en-US/docs/Web/CSS/font-size-adjust
 [font-family-name-quotes] Expected quotes around "Futura" (font-family-name-quotes)
-~~~
-body {
-  display: flex;
-}
-
-div {
-  text-align: center;
-}
-
-p {
-  margin: 0 30px 10px 30px;
-}
-
-body {
-  display: flex;
-}
-
-div {
-  text-align: center;
-}
-
-p {
-  font-family: Futura, sans-serif;
-  font-size: 50px;
-}
-
-span {
-  border: solid 1px red;
-}
-
-.adjust1 {
-  font-size-adjust: 0.6;
-}
-
-.adjust2 {
-  font-size-adjust: 0.5;
-}
-
-.adjust3 {
-  font-size-adjust: 0.482;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "0 30px 10px 30px" to be "0 30px 10px" (shorthand-property-no-redundant-values)',
-                        "  margin: 0 30px 10px 30px;",
-                        "10:11 - 10:27",
-                        `/en-US/docs/Web/CSS/font-size-adjust
-[shorthand-property-no-redundant-values] Expected "0 30px 10px 30px" to be "0 30px 10px" (shorthand-property-no-redundant-values)
 ~~~
 body {
   display: flex;
@@ -110372,7 +108066,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/forced-color-adjust",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -110429,7 +108123,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/gap",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -110467,7 +108161,7 @@ body > div {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -110595,7 +108289,7 @@ background-size: 25% 25%;
                       slug: "/en-US/docs/Web/CSS/gradient/linear-gradient",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -110610,7 +108304,7 @@ background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -110625,7 +108319,7 @@ background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -110640,7 +108334,7 @@ background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -110724,7 +108418,7 @@ linear-gradient(red 0%, orange 10% 30%, yellow 50% 70%, green 90% 100%);
                       slug: "/en-US/docs/Web/CSS/gradient/radial-gradient",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -110739,7 +108433,7 @@ background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -110754,7 +108448,7 @@ background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -110769,7 +108463,7 @@ background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -110784,7 +108478,7 @@ background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#f35" to be "#ff3355" (color-hex-length)',
@@ -110810,7 +108504,7 @@ background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#43e" to be "#4433ee" (color-hex-length)',
@@ -110885,7 +108579,7 @@ repeating-conic-gradient(from -45deg, red 45deg, orange, yellow, green, blue 225
                       slug: "/en-US/docs/Web/CSS/gradient/repeating-linear-gradient",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#330" to be "#333300" (color-hex-length)',
@@ -110927,7 +108621,7 @@ div {
                       slug: "/en-US/docs/Web/CSS/gradient/repeating-radial-gradient",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -110948,7 +108642,7 @@ background: repeating-radial-gradient(
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -110969,7 +108663,7 @@ background: repeating-radial-gradient(
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -110990,7 +108684,7 @@ background: repeating-radial-gradient(
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -112048,7 +109742,7 @@ background: repeating-radial-gradient(
                   slug: "/en-US/docs/Web/CSS/height",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#0999" to be "#00999999" (color-hex-length)',
@@ -112080,96 +109774,6 @@ background: repeating-radial-gradient(
 
 .stretch {
   height: stretch;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "hex-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/hex-color",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#f09" to be "#ff0099" (color-hex-length)',
-                        "  background: #f09;",
-                        "18:15 - 18:19",
-                        `/en-US/docs/Web/CSS/hex-color
-[color-hex-length] Expected "#f09" to be "#ff0099" (color-hex-length)
-~~~
-body {
-  display: flex;
-  justify-content: space-evenly;
-  font-family: monospace;
-}
-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-[class] {
-  width: 40px;
-  height: 40px;
-}
-.c1 {
-  background: #f09;
-}
-.c2 {
-  background: #f09a;
-}
-.c3 {
-  background: #ff0099;
-}
-.c4 {
-  background: #ff0099aa;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#f09a" to be "#ff0099aa" (color-hex-length)',
-                        "  background: #f09a;",
-                        "21:15 - 21:20",
-                        `/en-US/docs/Web/CSS/hex-color
-[color-hex-length] Expected "#f09a" to be "#ff0099aa" (color-hex-length)
-~~~
-body {
-  display: flex;
-  justify-content: space-evenly;
-  font-family: monospace;
-}
-div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-[class] {
-  width: 40px;
-  height: 40px;
-}
-.c1 {
-  background: #f09;
-}
-.c2 {
-  background: #f09a;
-}
-.c3 {
-  background: #ff0099;
-}
-.c4 {
-  background: #ff0099aa;
 }
 ~~~
 `
@@ -113378,7 +110982,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/hyphenate-character",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#999" to be "#999999" (color-hex-length)',
@@ -113405,7 +111009,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/hyphenate-limit-chars",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#999" to be "#999999" (color-hex-length)',
@@ -113449,7 +111053,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/hyphens",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#999" to be "#999999" (color-hex-length)',
@@ -115985,7 +113589,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/interpolate-size",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -116054,7 +113658,7 @@ section:focus {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -116552,7 +114156,7 @@ span {
                       slug: "/en-US/docs/Web/CSS/Layout_cookbook/Card",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#999" to be "#999999" (color-hex-length)',
@@ -116611,7 +114215,7 @@ img {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -116697,7 +114301,7 @@ img {
                       slug: "/en-US/docs/Web/CSS/Layout_cookbook/List_group_with_badges",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -116747,7 +114351,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -116858,63 +114462,6 @@ p {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "0 0 1em 0" to be "0 0 1em" (shorthand-property-no-redundant-values)',
-                            "  margin: 0 0 1em 0;",
-                            "10:11 - 10:20",
-                            `/en-US/docs/Web/CSS/Layout_cookbook/Media_objects
-[shorthand-property-no-redundant-values] Expected "0 0 1em 0" to be "0 0 1em" (shorthand-property-no-redundant-values)
-~~~
-body {
-  font: 1.2em sans-serif;
-}
-
-img {
-  max-width: 100%;
-}
-
-p {
-  margin: 0 0 1em 0;
-}
-
-@media (width >= 500px) {
-  .media {
-    display: grid;
-    grid-template-columns: fit-content(200px) 1fr;
-    grid-template-rows: 1fr auto;
-    grid-template-areas:
-      "image content"
-      "image footer";
-    grid-gap: 20px;
-    margin-bottom: 4em;
-  }
-
-  .media-flip {
-    grid-template-columns: 1fr fit-content(250px);
-    grid-template-areas:
-      "content image"
-      "footer image";
-  }
-
-  .img {
-    grid-area: image;
-  }
-
-  .content {
-    grid-area: content;
-  }
-
-  .footer {
-    grid-area: footer;
-  }
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -116923,7 +114470,7 @@ p {
                       slug: "/en-US/docs/Web/CSS/Layout_cookbook/Pagination",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -116982,7 +114529,7 @@ nav {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#999" to be "#999999" (color-hex-length)',
@@ -117041,7 +114588,7 @@ nav {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "color-hex-length",
                             'Expected "#333" to be "#333333" (color-hex-length)',
@@ -117372,7 +114919,7 @@ label {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -117438,7 +114985,7 @@ label {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#999" to be "#999999" (color-hex-length)',
@@ -117564,7 +115111,7 @@ section {
                   slug: "/en-US/docs/Web/CSS/lighting-color",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -117604,7 +115151,7 @@ feSpecularLighting {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#f09" to be "#ff0099" (color-hex-length)',
@@ -117650,7 +115197,7 @@ feSpecularLighting {
                   slug: "/en-US/docs/Web/CSS/line-break",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#999" to be "#999999" (color-hex-length)',
@@ -118361,7 +115908,7 @@ css.properties.grid-template-rows.minmax`
                   slug: "/en-US/docs/Web/CSS/mix-blend-mode",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -118675,7 +116222,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/object-fit",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#888" to be "#888888" (color-hex-length)',
@@ -118753,7 +116300,7 @@ img {
                   slug: "/en-US/docs/Web/CSS/offset-anchor",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -118808,7 +116355,7 @@ img {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -119007,7 +116554,7 @@ img.opacity:hover {
                   slug: "/en-US/docs/Web/CSS/outline",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#e73" to be "#ee7733" (color-hex-length)',
@@ -119034,7 +116581,7 @@ a:focus {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ffa" to be "#ffffaa" (color-hex-length)',
@@ -120279,7 +117826,7 @@ span {
                   slug: "/en-US/docs/Web/CSS/position",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -120539,59 +118086,7 @@ dd + dd {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "24px 0 0 0" to be "24px 0 0" (shorthand-property-no-redundant-values)',
-                        "  padding: 24px 0 0 0;",
-                        "7:12 - 7:22",
-                        `/en-US/docs/Web/CSS/position
-[shorthand-property-no-redundant-values] Expected "24px 0 0 0" to be "24px 0 0" (shorthand-property-no-redundant-values)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-dl > div {
-  background: white;
-  padding: 24px 0 0 0;
-}
-
-dt {
-  background: #b8c1c8;
-  border-bottom: 1px solid #989ea4;
-  border-top: 1px solid #717d85;
-  color: white;
-  font:
-    bold 18px/21px Helvetica,
-    Arial,
-    sans-serif;
-  margin: 0;
-  padding: 2px 0 0 12px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: -1px;
-}
-
-dd {
-  font:
-    bold 20px/45px Helvetica,
-    Arial,
-    sans-serif;
-  margin: 0;
-  padding: 0 0 0 12px;
-  white-space: nowrap;
-}
-
-dd + dd {
-  border-top: 1px solid #ccc;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#9999" to be "#99999999" (color-hex-length)',
@@ -120631,7 +118126,7 @@ div {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#9999" to be "#99999999" (color-hex-length)',
@@ -120711,7 +118206,7 @@ div {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "shorthand-property-no-redundant-values",
                         'Expected "50px 100px 50px 100px" to be "50px 100px" (shorthand-property-no-redundant-values)',
@@ -120789,7 +118284,7 @@ keyword value keyword value /* Each value is an offset from the keyword that pre
                   slug: "/en-US/docs/Web/CSS/position-anchor",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -120929,7 +118424,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/position-area",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -121026,7 +118521,7 @@ form {
                   slug: "/en-US/docs/Web/CSS/position-try",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -121096,7 +118591,7 @@ form {
                   slug: "/en-US/docs/Web/CSS/position-try-fallbacks",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -121148,7 +118643,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -121206,7 +118701,7 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -121271,7 +118766,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/position-try-order",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -121339,7 +118834,7 @@ form {
                   slug: "/en-US/docs/Web/CSS/position-visibility",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -121460,7 +118955,7 @@ form {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#900" to be "#990000" (color-hex-length)',
@@ -122241,7 +119736,7 @@ css.properties.grid-template-rows.repeat`
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -122317,7 +119812,7 @@ label {
                   slug: "/en-US/docs/Web/CSS/scroll-snap-stop",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#333" to be "#333333" (color-hex-length)',
@@ -122423,7 +119918,7 @@ div > div {
                   slug: "/en-US/docs/Web/CSS/scrollbar-color",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#007" to be "#000077" (color-hex-length)',
@@ -122541,7 +120036,7 @@ li:nth-of-type(odd) {
                   slug: "/en-US/docs/Web/CSS/sibling-index",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#faa" to be "#ffaaaa" (color-hex-length)',
@@ -122565,7 +120060,7 @@ li {
                   slug: "/en-US/docs/Web/CSS/sin",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#666" to be "#666666" (color-hex-length)',
@@ -122605,7 +120100,7 @@ li {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#666" to be "#666666" (color-hex-length)',
@@ -122645,7 +120140,7 @@ li {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#f66" to be "#ff6666" (color-hex-length)',
@@ -122691,7 +120186,7 @@ li {
                   slug: "/en-US/docs/Web/CSS/stop-color",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#333" to be "#333333" (color-hex-length)',
@@ -122892,7 +120387,7 @@ polygon:nth-of-type(3) {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#333" to be "#333333" (color-hex-length)',
@@ -123000,7 +120495,7 @@ css.properties.list-style-type.symbols`
                   slug: "/en-US/docs/Web/CSS/table-layout",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#139" to be "#113399" (color-hex-length)',
@@ -123023,7 +120518,7 @@ td {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#a19" to be "#aa1199" (color-hex-length)',
@@ -123146,7 +120641,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/text-emphasis",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#d55" to be "#dd5555" (color-hex-length)',
@@ -123188,40 +120683,12 @@ em {
                     }
                   ]
                 },
-                "text-indent": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-indent",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "1em 0 0 0" to be "1em 0 0" (shorthand-property-no-redundant-values)',
-                        "  margin: 1em 0 0 0;",
-                        "3:11 - 3:20",
-                        `/en-US/docs/Web/CSS/text-indent
-[shorthand-property-no-redundant-values] Expected "1em 0 0 0" to be "1em 0 0" (shorthand-property-no-redundant-values)
-~~~
-p {
-  text-align: justify;
-  margin: 1em 0 0 0;
-}
-p + p {
-  text-indent: 2em;
-  margin: 0;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "text-shadow": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/text-shadow",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#fc0" to be "#ffcc00" (color-hex-length)',
@@ -123372,7 +120839,7 @@ div {
                   slug: "/en-US/docs/Web/CSS/transform",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -124859,7 +122326,7 @@ main {
                   slug: "/en-US/docs/Web/CSS/transition",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#909" to be "#990099" (color-hex-length)',
@@ -125012,7 +122479,7 @@ html {
                   slug: "/en-US/docs/Web/CSS/transition-delay",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#909" to be "#990099" (color-hex-length)',
@@ -125047,7 +122514,7 @@ html {
                   slug: "/en-US/docs/Web/CSS/transition-duration",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#909" to be "#990099" (color-hex-length)',
@@ -125082,7 +122549,7 @@ html {
                   slug: "/en-US/docs/Web/CSS/transition-property",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#909" to be "#990099" (color-hex-length)',
@@ -125111,7 +122578,7 @@ html {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -125147,7 +122614,7 @@ button {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -125183,7 +122650,7 @@ button {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -125225,7 +122692,7 @@ button {
                   slug: "/en-US/docs/Web/CSS/transition-timing-function",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#909" to be "#990099" (color-hex-length)',
@@ -125284,7 +122751,7 @@ button {
                   slug: "/en-US/docs/Web/CSS/url_function",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#00d" to be "#0000dd" (color-hex-length)',
@@ -125323,7 +122790,7 @@ body {
                   slug: "/en-US/docs/Web/CSS/var",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#080" to be "#008800" (color-hex-length)',
@@ -125885,7 +123352,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/white-space-collapse",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -125926,7 +123393,7 @@ h2 {
                   slug: "/en-US/docs/Web/CSS/width",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "color-hex-length",
                         'Expected "#0999" to be "#00999999" (color-hex-length)',
@@ -126023,6 +123490,131 @@ section {
             },
             html: {
               children: {
+                guides: {
+                  children: {
+                    microformats: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Guides/Microformats",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/Main_Page",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/microformats2",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-card",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-card",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-entry",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-feed",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/microformats2",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/value-class-pattern",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-card",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-entry",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-feed",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-entry",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/rel-values",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/Main_Page",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/search_engines",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/HTML/Guides",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://microformats.org/wiki/Main_Page",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 how_to: {
                   children: {
                     add_javascript_to_your_web_page: {
@@ -126091,7 +123683,7 @@ html.elements.textarea.disabled`
                           slug: "/en-US/docs/Web/HTML/Reference/Attributes/pattern",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#999" to be "#999999" (color-hex-length)',
@@ -126127,6 +123719,53 @@ input:valid + span::after {
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        rel: {
+                          children: {
+                            me: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/me",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://microformats.org/wiki/RelMeAuth",
+                                    "The operation timed out."
+                                  ]
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://microformats.org/wiki/web-sign-in",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            preload: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
+                                    "unknown certificate verification error"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://microformats.org/wiki/existing-rel-values",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -126372,7 +124011,7 @@ html.elements.select.size`
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#69c" to be "#6699cc" (color-hex-length)',
@@ -126405,7 +124044,7 @@ a {
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/article",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -126590,7 +124229,7 @@ tr:nth-child(odd) td {
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/code",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -126636,7 +124275,7 @@ code {
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/del",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#fbb" to be "#ffbbbb" (color-hex-length)',
@@ -126666,7 +124305,7 @@ blockquote {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#555" to be "#555555" (color-hex-length)',
@@ -126702,7 +124341,7 @@ blockquote {
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/details",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
@@ -126736,7 +124375,7 @@ details[open] summary {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
@@ -126770,7 +124409,7 @@ details[open] summary {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -126812,7 +124451,7 @@ details:open > summary {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -126854,7 +124493,7 @@ details:open > summary {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#ccf" to be "#ccccff" (color-hex-length)',
@@ -127016,7 +124655,7 @@ because the nesting selector cannot represent pseudo-elements. */
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/div",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -127037,7 +124676,7 @@ because the nesting selector cannot represent pseudo-elements. */
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#444" to be "#444444" (color-hex-length)',
@@ -127058,7 +124697,7 @@ because the nesting selector cannot represent pseudo-elements. */
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -127079,7 +124718,7 @@ because the nesting selector cannot represent pseudo-elements. */
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -127106,7 +124745,7 @@ because the nesting selector cannot represent pseudo-elements. */
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/figcaption",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#222" to be "#222222" (color-hex-length)',
@@ -127147,7 +124786,7 @@ figcaption {
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/figure",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#222" to be "#222222" (color-hex-length)',
@@ -127188,7 +124827,7 @@ figcaption {
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/hr",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -127218,7 +124857,7 @@ hr::after {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -127520,7 +125159,7 @@ hr::after {
                                   ]
                                 },
                                 {
-                                  message: "Stylelint backlog",
+                                  message: "CSS code issue",
                                   data: [
                                     "color-hex-length",
                                     'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -127562,7 +125201,7 @@ span {
                                   ]
                                 },
                                 {
-                                  message: "Stylelint backlog",
+                                  message: "CSS code issue",
                                   data: [
                                     "color-hex-length",
                                     'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -127610,7 +125249,7 @@ span {
                               slug: "/en-US/docs/Web/HTML/Reference/Elements/input/file",
                               messages: [
                                 {
-                                  message: "Stylelint backlog",
+                                  message: "CSS code issue",
                                   data: [
                                     "color-hex-length",
                                     'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -127680,7 +125319,7 @@ form button:active {
                                   ]
                                 },
                                 {
-                                  message: "Stylelint backlog",
+                                  message: "CSS code issue",
                                   data: [
                                     "color-hex-length",
                                     'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -127756,7 +125395,7 @@ form button:active {
                               slug: "/en-US/docs/Web/HTML/Reference/Elements/input/image",
                               messages: [
                                 {
-                                  message: "Stylelint backlog",
+                                  message: "CSS code issue",
                                   data: [
                                     "color-hex-length",
                                     'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -127792,7 +125431,7 @@ label {
                               slug: "/en-US/docs/Web/HTML/Reference/Elements/input/radio",
                               messages: [
                                 {
-                                  message: "Stylelint backlog",
+                                  message: "CSS code issue",
                                   data: [
                                     "color-hex-length",
                                     'Expected "#999" to be "#999999" (color-hex-length)',
@@ -127860,7 +125499,7 @@ button:active {
                                   ]
                                 },
                                 {
-                                  message: "Stylelint backlog",
+                                  message: "CSS code issue",
                                   data: [
                                     "color-hex-length",
                                     'Expected "#999" to be "#999999" (color-hex-length)',
@@ -127934,7 +125573,7 @@ button:active {
                               slug: "/en-US/docs/Web/HTML/Reference/Elements/input/text",
                               messages: [
                                 {
-                                  message: "Stylelint backlog",
+                                  message: "CSS code issue",
                                   data: [
                                     "color-hex-length",
                                     'Expected "#999" to be "#999999" (color-hex-length)',
@@ -127981,7 +125620,7 @@ input:valid + span::after {
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/ins",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#fbb" to be "#ffbbbb" (color-hex-length)',
@@ -128079,7 +125718,7 @@ p {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "shorthand-property-no-redundant-values",
                                 'Expected "0 1.8rem 0" to be "0 1.8rem" (shorthand-property-no-redundant-values)',
@@ -128134,7 +125773,7 @@ p {
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/kbd",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -128163,7 +125802,7 @@ kbd {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#333" to be "#333333" (color-hex-length)',
@@ -128272,7 +125911,7 @@ header {
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/p",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#999" to be "#999999" (color-hex-length)',
@@ -128297,7 +125936,7 @@ p {
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/samp",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#b00" to be "#bb0000" (color-hex-length)',
@@ -128322,7 +125961,7 @@ samp > kbd {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#00b" to be "#0000bb" (color-hex-length)',
@@ -128473,61 +126112,6 @@ samp > kbd {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "shorthand-property-no-redundant-values",
-                                'Expected "10px 0 -8px 0" to be "10px 0 -8px" (shorthand-property-no-redundant-values)',
-                                "      margin: 10px 0 -8px 0;",
-                                "11:15 - 11:28",
-                                `/en-US/docs/Web/HTML/Reference/Elements/slot
-[shorthand-property-no-redundant-values] Expected "10px 0 -8px 0" to be "10px 0 -8px" (shorthand-property-no-redundant-values)
-~~~
-<template id="element-details-template">
-  <style>
-    details {
-      font-family: "Open Sans Light", Helvetica, Arial, sans-serif;
-    }
-    .name {
-      font-weight: bold;
-      color: #217ac0;
-      font-size: 120%;
-    }
-    h4 {
-      margin: 10px 0 -8px 0;
-      background: #217ac0;
-      color: white;
-      padding: 2px 6px;
-      border: 1px solid #cee9f9;
-      border-radius: 4px;
-    }
-    .attributes {
-      margin-left: 22px;
-      font-size: 90%;
-    }
-    .attributes p {
-      margin-left: 16px;
-      font-style: italic;
-    }
-  </style>
-  <details>
-    <summary>
-      <code class="name">
-        &lt;<slot name="element-name">NEED NAME</slot>&gt;
-      </code>
-      <span class="desc"><slot name="description">NEED DESCRIPTION</slot></span>
-    </summary>
-    <div class="attributes">
-      <h4>Attributes</h4>
-      <slot name="attributes"><p>None</p></slot>
-    </div>
-  </details>
-  <hr />
-</template>
-~~~
-`
-                              ]
                             }
                           ]
                         },
@@ -128536,7 +126120,7 @@ samp > kbd {
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/summary",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
@@ -128570,7 +126154,7 @@ details[open] summary {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
@@ -128892,7 +126476,7 @@ tfoot td {
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/td",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -128941,7 +126525,7 @@ caption {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -128976,7 +126560,7 @@ table {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -129025,7 +126609,7 @@ table {
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/textarea",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -129058,7 +126642,7 @@ label {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#999" to be "#999999" (color-hex-length)',
@@ -129097,7 +126681,7 @@ label {
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/th",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -129146,7 +126730,7 @@ caption {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -129186,7 +126770,7 @@ table {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -129232,7 +126816,7 @@ tr:nth-of-type(odd) td {
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/tr",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -129281,7 +126865,7 @@ caption {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -129316,7 +126900,7 @@ td {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -129362,7 +126946,7 @@ td {
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/wbr",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#999" to be "#999999" (color-hex-length)',
@@ -129393,7 +126977,7 @@ td {
                           slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/anchor",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#ddd" to be "#dddddd" (color-hex-length)',
@@ -129444,7 +127028,7 @@ body {
                           slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/contenteditable",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -129542,7 +127126,7 @@ h2 {
                           slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/data-*",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -129981,7 +127565,7 @@ h2 {
                           slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#666" to be "#666666" (color-hex-length)',
@@ -130004,7 +127588,7 @@ h2 {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#666" to be "#666666" (color-hex-length)',
@@ -130044,7 +127628,7 @@ h2 {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#ccc" to be "#cccccc" (color-hex-length)',
@@ -130067,7 +127651,7 @@ h2 {
                           slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/buffering_seeking_time_ranges",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#555" to be "#555555" (color-hex-length)',
@@ -130108,7 +127692,7 @@ h2 {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#777" to be "#777777" (color-hex-length)',
@@ -130149,7 +127733,7 @@ h2 {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#595" to be "#559955" (color-hex-length)',
@@ -130196,7 +127780,7 @@ h2 {
                           slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Video_player_styling_basics",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#666" to be "#666666" (color-hex-length)',
@@ -130238,6 +127822,27 @@ figure {
                           ]
                         }
                       }
+                    }
+                  }
+                }
+              }
+            },
+            performance: {
+              children: {
+                guides: {
+                  children: {
+                    speculative_loading: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Performance/Guides/Speculative_loading",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
                     }
                   }
                 }
@@ -130476,7 +128081,7 @@ figure {
                           slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/CycleTracker/HTML_and_CSS",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#efe" to be "#eeffee" (color-hex-length)',
@@ -130513,7 +128118,7 @@ li:nth-of-type(even) {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#cfc" to be "#ccffcc" (color-hex-length)',
@@ -130550,7 +128155,7 @@ li:nth-of-type(even) {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#efe" to be "#eeffee" (color-hex-length)',
@@ -130580,7 +128185,7 @@ li:nth-of-type(even) {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#cfc" to be "#ccffcc" (color-hex-length)',
@@ -130610,7 +128215,7 @@ li:nth-of-type(even) {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#efe" to be "#eeffee" (color-hex-length)',
@@ -130647,7 +128252,7 @@ li:nth-of-type(even) {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#cfc" to be "#ccffcc" (color-hex-length)',
@@ -131271,7 +128876,7 @@ svg.elements.view.preserveAspectRatio`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/requiredFeatures",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#900" to be "#990000" (color-hex-length)',
@@ -131302,7 +128907,7 @@ text {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#060" to be "#006600" (color-hex-length)',
@@ -131973,7 +129578,7 @@ p {
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Basic_transformations",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#bff" to be "#bbffff" (color-hex-length)',
@@ -131990,7 +129595,7 @@ svg {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#bff" to be "#bbffff" (color-hex-length)',
@@ -132013,7 +129618,7 @@ svg {
                           slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Paths",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#eee" to be "#eeeeee" (color-hex-length)',
@@ -132054,7 +129659,7 @@ svg {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "color-hex-length",
                                 'Expected "#ddd" to be "#dddddd" (color-hex-length)',
