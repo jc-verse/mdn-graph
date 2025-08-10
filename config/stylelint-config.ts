@@ -372,7 +372,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       "function-url-quotes": "always",
       "selector-attribute-quotes": "always",
       "declaration-block-no-redundant-longhand-properties": true,
-      "shorthand-property-no-redundant-values": true,
+      "shorthand-property-no-redundant-values": [true, { ignore: ["four-into-three-edge-values"] }],
       "comment-whitespace-inside": "always",
     },
     overrides: [

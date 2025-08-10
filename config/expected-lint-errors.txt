@@ -33,7 +33,7 @@
         margin: 0;
       }
       canvas {
-        background: #eee;
+        background: #eeeeee;
         display: block;
         margin: 0 auto;
       }
@@ -120,25 +120,25 @@ the last one.
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Challenges
-[color-named] Expected "#f00" to be "red" (color-named)
-[color-named] Expected "#00f" to be "blue" (color-named)
+[color-named] Expected "#ff0000" to be "red" (color-named)
+[color-named] Expected "#0000ff" to be "blue" (color-named)
 ~~~
 strong {
-  color: #f00; /* red */
-  background-color: #ddf; /* pale blue */
+  color: #ff0000; /* red */
+  background-color: #ddddff; /* pale blue */
   font: 200% serif;
 }
 
 .carrot {
-  color: #fa0; /* orange */
+  color: #ffaa00; /* orange */
 }
 
 .spinach {
-  color: #080; /* dark green */
+  color: #008800; /* dark green */
 }
 
 p {
-  color: #00f; /* blue */
+  color: #0000ff; /* blue */
 }
 ~~~
 
@@ -1558,7 +1558,7 @@ for (let i = 0; i < keyframes.length; i++) {
 ~~~
 <div
   id="div1"
-  style="margin: 0 10px; background-color: #CA1; font-family: monospace"></div>
+  style="margin: 0 10px; background-color: #ccaa11; font-family: monospace"></div>
 ~~~
 
 /en-US/docs/Web/API/CSSStyleSheet/cssRules
@@ -2778,6 +2778,7 @@ border-top: none thick green;
 ~~~
 
 /en-US/docs/Web/CSS/color
+[color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
 [color-named] Expected "#f00" to be "red" (color-named)
 [color-named] Expected "#ff0000" to be "red" (color-named)
 [color-named] Expected "rgb(255 0 0)" to be "red" (color-named)
@@ -3042,6 +3043,7 @@ div {
 ~~~
 
 /en-US/docs/Web/CSS/CSS_colors/Applying_color
+[color-hex-length] Expected "#8f8" to be "#88ff88" (color-hex-length)
 [declaration-block-no-shorthand-property-overrides] Unexpected shorthand "text-decoration" after "text-decoration-color" (declaration-block-no-shorthand-property-overrides)
 [declaration-block-no-shorthand-property-overrides] Unexpected shorthand "text-decoration" after "text-decoration-line" (declaration-block-no-shorthand-property-overrides)
 [declaration-block-no-shorthand-property-overrides] Unexpected shorthand "text-decoration" after "text-decoration-style" (declaration-block-no-shorthand-property-overrides)
@@ -3081,6 +3083,7 @@ div {
 ~~~
 
 /en-US/docs/Web/CSS/CSS_colors/Color_values
+[color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
 [color-named] Expected "#ff0000" to be "red" (color-named)
 [color-named] Expected "#f00" to be "red" (color-named)
 ~~~
@@ -3160,12 +3163,83 @@ div {
 ~~~
 
 /en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries
-[color-named] Expected "#00f" to be "blue" (color-named)
+[color-named] Expected "#0000ff" to be "blue" (color-named)
 ~~~
 @property --accent-color {
   syntax: "<color>";
   inherits: true;
-  initial-value: #00f;
+  initial-value: #0000ff;
+}
+~~~
+
+/en-US/docs/Web/CSS/CSS_colors/Applying_color
+[color-hex-length] Expected "#8f8" to be "#88ff88" (color-hex-length)
+~~~
+.wrapper {
+  height: 110px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  font:
+    28px "Marker Felt",
+    "Zapfino",
+    cursive;
+  border: 6px solid mediumturquoise;
+}
+
+div {
+  flex: 1;
+}
+
+.boxLeft {
+  background-color: rgb(245 130 130);
+  outline: 2px solid darkred;
+}
+
+.boxRight {
+  background-color: hwb(270deg 63% 13%);
+  outline: 4px dashed #6e1478;
+  color: hsl(0deg 95% 95%);
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #8f8;
+  text-decoration: underline wavy #8f8;
+  text-shadow: 2px 2px 3px black;
+}
+~~~
+
+/en-US/docs/Web/CSS/hex-color
+[color-hex-length] Expected "#f09" to be "#ff0099" (color-hex-length)
+[color-hex-length] Expected "#f09a" to be "#ff0099aa" (color-hex-length)
+~~~
+body {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: monospace;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+[class] {
+  width: 40px;
+  height: 40px;
+}
+.c1 {
+  background: #f09;
+}
+.c2 {
+  background: #f09a;
+}
+.c3 {
+  background: #ff0099;
+}
+.c4 {
+  background: #ff0099aa;
 }
 ~~~
 

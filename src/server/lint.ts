@@ -330,13 +330,11 @@ function reportIfUnexpected(
     path,
     [
       "alpha-value-notation",
-      "color-hex-length",
       "font-weight-notation",
       "hue-degree-notation",
       "lightness-notation",
       "font-family-name-quotes",
       "declaration-block-no-redundant-longhand-properties",
-      "shorthand-property-no-redundant-values",
 
       // Remaining ones are't valid issues; ignore for now
       "CssSyntaxError",
