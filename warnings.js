@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-138fav47.js";
+} from "./chunk-rcq1ctds.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -8481,13 +8481,6 @@ label + input[type="text"] {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.joomla.org/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -38897,26 +38890,6 @@ body * {
                           data: []
                         }
                       ]
-                    },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/downloads.html",
-                            503
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup",
@@ -39113,19 +39086,6 @@ color: rgb(31 41 59 / 26%);
                       }
                     }
                   }
-                },
-                writing_style_guide: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Writing_style_guide",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://imageoptim.com/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Writing_guidelines",
@@ -39148,6 +39108,22 @@ color: rgb(31 41 59 / 26%);
                   children: {
                     api: {
                       children: {
+                        browseraction: {
+                          children: {
+                            onusersettingschanged: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/onUserSettingsChanged",
+                              messages: [
+                                {
+                                  message: "Not in BCD",
+                                  data: [
+                                    "webextensions.api.browserAction.onUserSettingsChanged"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
                         contentscripts: {
                           children: {
                             registeredcontentscript: {
@@ -42176,19 +42152,6 @@ body {
                     }
                   }
                 },
-                attribution_reporting_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Attribution_Reporting_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://privacysandbox.google.com/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 audio_output_devices_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Audio_Output_Devices_API",
@@ -43906,106 +43869,6 @@ button {
                     }
                   }
                 },
-                fence: {
-                  children: {
-                    getnestedconfigs: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Fence/getNestedConfigs",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://privacysandbox.google.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    reportevent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Fence/reportEvent",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://privacysandbox.google.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    setreporteventdataforautomaticbeacons: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Fence/setReportEventDataForAutomaticBeacons",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://privacysandbox.google.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/Fence",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://privacysandbox.google.com/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                fenced_frame_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Fenced_frame_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://privacysandbox.google.com/",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://privacysandbox.google.com/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                fencedframeconfig: {
-                  children: {
-                    setsharedstoragecontext: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FencedFrameConfig/setSharedStorageContext",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://privacysandbox.google.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/FencedFrameConfig",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://privacysandbox.google.com/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 fetchevent: {
                   children: {
                     replacesclientid: {
@@ -44830,72 +44693,6 @@ h1 {
                       ]
                     }
                   }
-                },
-                htmlfencedframeelement: {
-                  children: {
-                    allow: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLFencedFrameElement/allow",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://privacysandbox.google.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    config: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLFencedFrameElement/config",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://privacysandbox.google.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    height: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLFencedFrameElement/height",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://privacysandbox.google.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    width: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLFencedFrameElement/width",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://privacysandbox.google.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/HTMLFencedFrameElement",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://privacysandbox.google.com/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 htmlimageelement: {
                   children: {
@@ -47070,33 +46867,6 @@ aside {
                     }
                   }
                 },
-                navigator: {
-                  children: {
-                    deprecatedreplaceinurn: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/deprecatedReplaceInURN",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://privacysandbox.google.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/Navigator",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://privacysandbox.google.com/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 notifications_api: {
                   children: {
                     using_the_notifications_api: {
@@ -48197,19 +47967,6 @@ video,
                     }
                   }
                 },
-                shared_storage_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Shared_Storage_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://privacysandbox.google.com/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 sharedstorageoperation: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SharedStorageOperation",
@@ -48735,19 +48492,6 @@ ul {
                     }
                   }
                 },
-                topics_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Topics_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://privacysandbox.google.com/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 touch_events: {
                   children: {
                     "multi-touch_interaction": {
@@ -48922,21 +48666,7 @@ textarea,
                   }
                 },
                 ui_events: {
-                  children: {
-                    keyboard_event_key_values: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/UI_Events/Keyboard_event_key_values",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.atsc.org/atsc-documents/a100-dtv-application-software-environment-level-1-dase-1/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/UI_Events",
                   messages: [
                     {
@@ -49160,19 +48890,6 @@ p {
                 },
                 web_audio_api: {
                   children: {
-                    advanced_techniques: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://soundbible.com/1573-DTMF-Tones.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     simple_synth: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Simple_synth",
@@ -50488,19 +50205,6 @@ body {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    fence: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/fence",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://privacysandbox.google.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -63335,56 +63039,6 @@ article {
                     }
                   ]
                 },
-                calc: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/calc",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "  border: 10px solid #000;",
-                        "6:22 - 6:26",
-                        `/en-US/docs/Web/CSS/calc
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-:root {
-  --variable-width: 100px;
-}
-
-#example-element {
-  border: 10px solid #000;
-  padding: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "  border: 10px solid #000;",
-                        "6:22 - 6:26",
-                        `/en-US/docs/Web/CSS/calc
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-:root {
-  --variable-width: 100px;
-}
-
-#example-element {
-  border: 10px solid #000;
-  padding: 10px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "calc-size": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/calc-size",
@@ -64348,43 +64002,6 @@ input {
                       message: "Stylelint backlog",
                       data: [
                         "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "  color: #000;",
-                        "4:10 - 4:14",
-                        `/en-US/docs/Web/CSS/caption-side
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-table {
-  font-size: 1.2rem;
-  text-align: left;
-  color: #000;
-}
-
-th,
-td {
-  padding: 0.2rem 1rem;
-}
-
-caption {
-  background: #fc3;
-  padding: 0.5rem 1rem;
-}
-
-tr {
-  background: #eee;
-}
-
-tr:nth-child(even) {
-  background: #ccc;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
                         'Expected "#fc3" to be "#ffcc33" (color-hex-length)',
                         "  background: #fc3;",
                         "13:15 - 13:19",
@@ -64394,7 +64011,7 @@ tr:nth-child(even) {
 table {
   font-size: 1.2rem;
   text-align: left;
-  color: #000;
+  color: black;
 }
 
 th,
@@ -64431,7 +64048,7 @@ tr:nth-child(even) {
 table {
   font-size: 1.2rem;
   text-align: left;
-  color: #000;
+  color: black;
 }
 
 th,
@@ -64468,44 +64085,7 @@ tr:nth-child(even) {
 table {
   font-size: 1.2rem;
   text-align: left;
-  color: #000;
-}
-
-th,
-td {
-  padding: 0.2rem 1rem;
-}
-
-caption {
-  background: #fc3;
-  padding: 0.5rem 1rem;
-}
-
-tr {
-  background: #eee;
-}
-
-tr:nth-child(even) {
-  background: #ccc;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "  color: #000;",
-                        "4:10 - 4:14",
-                        `/en-US/docs/Web/CSS/caption-side
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-table {
-  font-size: 1.2rem;
-  text-align: left;
-  color: #000;
+  color: black;
 }
 
 th,
@@ -64662,318 +64242,6 @@ tr:nth-child(even) {
 
 .123item {
   background-color: green;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                clear: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/clear",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "13:10 - 13:14",
-                        `/en-US/docs/Web/CSS/clear
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.wrapper {
-  border: 1px solid black;
-  padding: 10px;
-}
-.left {
-  border: 1px solid black;
-  clear: left;
-}
-.black {
-  float: left;
-  margin: 0;
-  background-color: black;
-  color: #fff;
-  width: 20%;
-}
-.red {
-  float: left;
-  margin: 0;
-  background-color: pink;
-  width: 20%;
-}
-p {
-  width: 50%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "13:10 - 13:14",
-                        `/en-US/docs/Web/CSS/clear
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.wrapper {
-  border: 1px solid black;
-  padding: 10px;
-}
-.left {
-  border: 1px solid black;
-  clear: left;
-}
-.black {
-  float: left;
-  margin: 0;
-  background-color: black;
-  color: #fff;
-  width: 20%;
-}
-.red {
-  float: left;
-  margin: 0;
-  background-color: pink;
-  width: 20%;
-}
-p {
-  width: 50%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "13:10 - 13:14",
-                        `/en-US/docs/Web/CSS/clear
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.wrapper {
-  border: 1px solid black;
-  padding: 10px;
-}
-.right {
-  border: 1px solid black;
-  clear: right;
-}
-.black {
-  float: right;
-  margin: 0;
-  background-color: black;
-  color: #fff;
-  width: 20%;
-}
-.red {
-  float: right;
-  margin: 0;
-  background-color: pink;
-  width: 20%;
-}
-p {
-  width: 50%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "13:10 - 13:14",
-                        `/en-US/docs/Web/CSS/clear
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.wrapper {
-  border: 1px solid black;
-  padding: 10px;
-}
-.right {
-  border: 1px solid black;
-  clear: right;
-}
-.black {
-  float: right;
-  margin: 0;
-  background-color: black;
-  color: #fff;
-  width: 20%;
-}
-.red {
-  float: right;
-  margin: 0;
-  background-color: pink;
-  width: 20%;
-}
-p {
-  width: 50%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "13:10 - 13:14",
-                        `/en-US/docs/Web/CSS/clear
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.wrapper {
-  border: 1px solid black;
-  padding: 10px;
-}
-.both {
-  border: 1px solid black;
-  clear: both;
-}
-.black {
-  float: left;
-  margin: 0;
-  background-color: black;
-  color: #fff;
-  width: 20%;
-}
-.red {
-  float: right;
-  margin: 0;
-  background-color: pink;
-  width: 20%;
-}
-p {
-  width: 45%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "13:10 - 13:14",
-                        `/en-US/docs/Web/CSS/clear
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.wrapper {
-  border: 1px solid black;
-  padding: 10px;
-}
-.both {
-  border: 1px solid black;
-  clear: both;
-}
-.black {
-  float: left;
-  margin: 0;
-  background-color: black;
-  color: #fff;
-  width: 20%;
-}
-.red {
-  float: right;
-  margin: 0;
-  background-color: pink;
-  width: 20%;
-}
-p {
-  width: 45%;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "clip-rule": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/clip-rule",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "  stroke: #000;",
-                        "20:11 - 20:15",
-                        `/en-US/docs/Web/CSS/clip-rule
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-}
-svg {
-  width: 110px;
-  height: 110px;
-}
-
-#star1 path {
-  clip-rule: evenodd;
-}
-
-#star2 path {
-  clip-rule: nonzero;
-}
-
-#star3 path {
-  fill: none;
-  stroke: #000;
-  stroke-width: 1;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "  stroke: #000;",
-                        "20:11 - 20:15",
-                        `/en-US/docs/Web/CSS/clip-rule
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-}
-svg {
-  width: 110px;
-  height: 110px;
-}
-
-#star1 path {
-  clip-rule: evenodd;
-}
-
-#star2 path {
-  clip-rule: nonzero;
-}
-
-#star3 path {
-  fill: none;
-  stroke: #000;
-  stroke-width: 1;
 }
 ~~~
 `
@@ -65895,6 +65163,13 @@ div {
 }
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/11577/release-notes-for-safari-technology-preview-122/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -76761,7 +76036,7 @@ rgb(from hsl(0 100% 50%) calc(r/2) calc(g + 25) calc(b + 175) / calc(alpha - 0.1
                           data: [
                             "color-hex-length",
                             'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: repeating-linear-gradient(-45deg, #eee 0 2px, #fff 2px 6px);",
+                            "  background: repeating-linear-gradient(-45deg, #eee 0 2px, white 2px 6px);",
                             "12:49 - 12:53",
                             `/en-US/docs/Web/CSS/color_value/rgb
 [color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
@@ -76777,47 +76052,7 @@ body {
 }
 
 body {
-  background: repeating-linear-gradient(-45deg, #eee 0 2px, #fff 2px 6px);
-  padding: 10px;
-}
-
-#integer {
-  background-color: rgb(189 85 218);
-}
-
-#percent {
-  background-color: rgb(74% 33% 85%);
-}
-
-#alpha {
-  background-color: rgb(189 85 218 / 0.25);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  background: repeating-linear-gradient(-45deg, #eee 0 2px, #fff 2px 6px);",
-                            "12:61 - 12:65",
-                            `/en-US/docs/Web/CSS/color_value/rgb
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-div {
-  display: flex;
-  gap: 20px;
-  height: 50px;
-  flex: 1;
-}
-body {
-  height: calc(100vh - 20px);
-}
-
-body {
-  background: repeating-linear-gradient(-45deg, #eee 0 2px, #fff 2px 6px);
+  background: repeating-linear-gradient(-45deg, #eee 0 2px, white 2px 6px);
   padding: 10px;
 }
 
@@ -77207,138 +76442,10 @@ column-rule-color: #88f;
                     }
                   ]
                 },
-                "column-span": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/column-span",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "14:10 - 14:14",
-                        `/en-US/docs/Web/CSS/column-span
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.multicol-element {
-  width: 100%;
-  text-align: left;
-  column-count: 3;
-}
-
-.multicol-element p {
-  margin: 0;
-}
-
-#example-element {
-  background-color: rebeccapurple;
-  padding: 10px;
-  color: #fff;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "14:10 - 14:14",
-                        `/en-US/docs/Web/CSS/column-span
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.multicol-element {
-  width: 100%;
-  text-align: left;
-  column-count: 3;
-}
-
-.multicol-element p {
-  margin: 0;
-}
-
-#example-element {
-  background-color: rebeccapurple;
-  padding: 10px;
-  color: #fff;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 content: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/content",
                   messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#00f" to be "#0000ff" (color-hex-length)',
-                        "  color: #00f;",
-                        "2:10 - 2:14",
-                        `/en-US/docs/Web/CSS/content
-[color-hex-length] Expected "#00f" to be "#0000ff" (color-hex-length)
-~~~
-q {
-  color: #00f;
-}
-
-q::before,
-q::after {
-  font-size: larger;
-  color: #f00;
-  background: #ccc;
-}
-
-q::before {
-  content: open-quote;
-}
-
-q::after {
-  content: close-quote;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#f00" to be "#ff0000" (color-hex-length)',
-                        "  color: #f00;",
-                        "8:10 - 8:14",
-                        `/en-US/docs/Web/CSS/content
-[color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
-~~~
-q {
-  color: #00f;
-}
-
-q::before,
-q::after {
-  font-size: larger;
-  color: #f00;
-  background: #ccc;
-}
-
-q::before {
-  content: open-quote;
-}
-
-q::after {
-  content: close-quote;
-}
-~~~
-`
-                      ]
-                    },
                     {
                       message: "Stylelint backlog",
                       data: [
@@ -77350,77 +76457,13 @@ q::after {
 [color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
 ~~~
 q {
-  color: #00f;
+  color: blue;
 }
 
 q::before,
 q::after {
   font-size: larger;
-  color: #f00;
-  background: #ccc;
-}
-
-q::before {
-  content: open-quote;
-}
-
-q::after {
-  content: close-quote;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#00f" to be "blue" (color-named)',
-                        "  color: #00f;",
-                        "2:10 - 2:14",
-                        `/en-US/docs/Web/CSS/content
-[color-named] Expected "#00f" to be "blue" (color-named)
-~~~
-q {
-  color: #00f;
-}
-
-q::before,
-q::after {
-  font-size: larger;
-  color: #f00;
-  background: #ccc;
-}
-
-q::before {
-  content: open-quote;
-}
-
-q::after {
-  content: close-quote;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#f00" to be "red" (color-named)',
-                        "  color: #f00;",
-                        "8:10 - 8:14",
-                        `/en-US/docs/Web/CSS/content
-[color-named] Expected "#f00" to be "red" (color-named)
-~~~
-q {
-  color: #00f;
-}
-
-q::before,
-q::after {
-  font-size: larger;
-  color: #f00;
+  color: red;
   background: #ccc;
 }
 
@@ -77462,366 +76505,6 @@ div {
                     }
                   ]
                 },
-                "content-visibility": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/content-visibility",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "0%" to be "0" (alpha-value-notation)',
-                        "    color: rgb(0 0 0 / 0%);",
-                        "26:24 - 26:26",
-                        `/en-US/docs/Web/CSS/content-visibility
-[alpha-value-notation] Expected "0%" to be "0" (alpha-value-notation)
-~~~
-div {
-  font-size: 1.6rem;
-  padding: 20px;
-  border: 3px solid red;
-  border-radius: 20px;
-  width: 480px;
-
-  content-visibility: hidden;
-}
-
-/* Animation classes */
-
-.show {
-  animation: show 0.7s ease-in forwards;
-}
-
-.hide {
-  animation: hide 0.7s ease-out forwards;
-}
-
-/* Animation keyframes */
-
-@keyframes show {
-  0% {
-    content-visibility: hidden;
-    color: rgb(0 0 0 / 0%);
-  }
-
-  100% {
-    content-visibility: visible;
-    color: rgb(0 0 0 / 100%);
-  }
-}
-
-@keyframes hide {
-  0% {
-    content-visibility: visible;
-    color: rgb(0 0 0 / 100%);
-  }
-
-  100% {
-    content-visibility: hidden;
-    color: rgb(0 0 0 / 0%);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "100%" to be "1" (alpha-value-notation)',
-                        "    color: rgb(0 0 0 / 100%);",
-                        "31:24 - 31:28",
-                        `/en-US/docs/Web/CSS/content-visibility
-[alpha-value-notation] Expected "100%" to be "1" (alpha-value-notation)
-~~~
-div {
-  font-size: 1.6rem;
-  padding: 20px;
-  border: 3px solid red;
-  border-radius: 20px;
-  width: 480px;
-
-  content-visibility: hidden;
-}
-
-/* Animation classes */
-
-.show {
-  animation: show 0.7s ease-in forwards;
-}
-
-.hide {
-  animation: hide 0.7s ease-out forwards;
-}
-
-/* Animation keyframes */
-
-@keyframes show {
-  0% {
-    content-visibility: hidden;
-    color: rgb(0 0 0 / 0%);
-  }
-
-  100% {
-    content-visibility: visible;
-    color: rgb(0 0 0 / 100%);
-  }
-}
-
-@keyframes hide {
-  0% {
-    content-visibility: visible;
-    color: rgb(0 0 0 / 100%);
-  }
-
-  100% {
-    content-visibility: hidden;
-    color: rgb(0 0 0 / 0%);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "100%" to be "1" (alpha-value-notation)',
-                        "    color: rgb(0 0 0 / 100%);",
-                        "38:24 - 38:28",
-                        `/en-US/docs/Web/CSS/content-visibility
-[alpha-value-notation] Expected "100%" to be "1" (alpha-value-notation)
-~~~
-div {
-  font-size: 1.6rem;
-  padding: 20px;
-  border: 3px solid red;
-  border-radius: 20px;
-  width: 480px;
-
-  content-visibility: hidden;
-}
-
-/* Animation classes */
-
-.show {
-  animation: show 0.7s ease-in forwards;
-}
-
-.hide {
-  animation: hide 0.7s ease-out forwards;
-}
-
-/* Animation keyframes */
-
-@keyframes show {
-  0% {
-    content-visibility: hidden;
-    color: rgb(0 0 0 / 0%);
-  }
-
-  100% {
-    content-visibility: visible;
-    color: rgb(0 0 0 / 100%);
-  }
-}
-
-@keyframes hide {
-  0% {
-    content-visibility: visible;
-    color: rgb(0 0 0 / 100%);
-  }
-
-  100% {
-    content-visibility: hidden;
-    color: rgb(0 0 0 / 0%);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "0%" to be "0" (alpha-value-notation)',
-                        "    color: rgb(0 0 0 / 0%);",
-                        "43:24 - 43:26",
-                        `/en-US/docs/Web/CSS/content-visibility
-[alpha-value-notation] Expected "0%" to be "0" (alpha-value-notation)
-~~~
-div {
-  font-size: 1.6rem;
-  padding: 20px;
-  border: 3px solid red;
-  border-radius: 20px;
-  width: 480px;
-
-  content-visibility: hidden;
-}
-
-/* Animation classes */
-
-.show {
-  animation: show 0.7s ease-in forwards;
-}
-
-.hide {
-  animation: hide 0.7s ease-out forwards;
-}
-
-/* Animation keyframes */
-
-@keyframes show {
-  0% {
-    content-visibility: hidden;
-    color: rgb(0 0 0 / 0%);
-  }
-
-  100% {
-    content-visibility: visible;
-    color: rgb(0 0 0 / 100%);
-  }
-}
-
-@keyframes hide {
-  0% {
-    content-visibility: visible;
-    color: rgb(0 0 0 / 100%);
-  }
-
-  100% {
-    content-visibility: hidden;
-    color: rgb(0 0 0 / 0%);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "rgb(0 0 0/100%)" to be "black" (color-named)',
-                        "    color: rgb(0 0 0 / 100%);",
-                        "31:12 - 31:29",
-                        `/en-US/docs/Web/CSS/content-visibility
-[color-named] Expected "rgb(0 0 0/100%)" to be "black" (color-named)
-~~~
-div {
-  font-size: 1.6rem;
-  padding: 20px;
-  border: 3px solid red;
-  border-radius: 20px;
-  width: 480px;
-
-  content-visibility: hidden;
-}
-
-/* Animation classes */
-
-.show {
-  animation: show 0.7s ease-in forwards;
-}
-
-.hide {
-  animation: hide 0.7s ease-out forwards;
-}
-
-/* Animation keyframes */
-
-@keyframes show {
-  0% {
-    content-visibility: hidden;
-    color: rgb(0 0 0 / 0%);
-  }
-
-  100% {
-    content-visibility: visible;
-    color: rgb(0 0 0 / 100%);
-  }
-}
-
-@keyframes hide {
-  0% {
-    content-visibility: visible;
-    color: rgb(0 0 0 / 100%);
-  }
-
-  100% {
-    content-visibility: hidden;
-    color: rgb(0 0 0 / 0%);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "rgb(0 0 0/100%)" to be "black" (color-named)',
-                        "    color: rgb(0 0 0 / 100%);",
-                        "38:12 - 38:29",
-                        `/en-US/docs/Web/CSS/content-visibility
-[color-named] Expected "rgb(0 0 0/100%)" to be "black" (color-named)
-~~~
-div {
-  font-size: 1.6rem;
-  padding: 20px;
-  border: 3px solid red;
-  border-radius: 20px;
-  width: 480px;
-
-  content-visibility: hidden;
-}
-
-/* Animation classes */
-
-.show {
-  animation: show 0.7s ease-in forwards;
-}
-
-.hide {
-  animation: hide 0.7s ease-out forwards;
-}
-
-/* Animation keyframes */
-
-@keyframes show {
-  0% {
-    content-visibility: hidden;
-    color: rgb(0 0 0 / 0%);
-  }
-
-  100% {
-    content-visibility: visible;
-    color: rgb(0 0 0 / 100%);
-  }
-}
-
-@keyframes hide {
-  0% {
-    content-visibility: visible;
-    color: rgb(0 0 0 / 100%);
-  }
-
-  100% {
-    content-visibility: hidden;
-    color: rgb(0 0 0 / 0%);
-  }
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 cos: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/cos",
@@ -77850,7 +76533,7 @@ div {
   border: 2px solid #666;
   background-image:
     radial-gradient(black var(--dot-size), transparent var(--dot-size)),
-    linear-gradient(135deg, #0000ff, #00c9ff, #92fe9d, #e6e6fa, #f0fff0);
+    linear-gradient(135deg, blue, deepskyblue, lightgreen, lavender, honeydew);
 }
 .dot {
   display: block;
@@ -77890,7 +76573,7 @@ div {
   border: 2px solid #666;
   background-image:
     radial-gradient(black var(--dot-size), transparent var(--dot-size)),
-    linear-gradient(135deg, #0000ff, #00c9ff, #92fe9d, #e6e6fa, #f0fff0);
+    linear-gradient(135deg, blue, deepskyblue, lightgreen, lavender, honeydew);
 }
 .dot {
   display: block;
@@ -77930,127 +76613,7 @@ div {
   border: 2px solid #666;
   background-image:
     radial-gradient(black var(--dot-size), transparent var(--dot-size)),
-    linear-gradient(135deg, #0000ff, #00c9ff, #92fe9d, #e6e6fa, #f0fff0);
-}
-.dot {
-  display: block;
-  width: var(--dot-size);
-  aspect-ratio: 1;
-  border-radius: 50%;
-  border: 2px solid #666;
-  background-color: #f66;
-  transform: translateX(calc(cos(0deg) * var(--radius)))
-    translateY(calc(sin(0deg) * var(--radius) * -1));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#0000ff" to be "blue" (color-named)',
-                        "    linear-gradient(135deg, #0000ff, #00c9ff, #92fe9d, #e6e6fa, #f0fff0);",
-                        "15:29 - 15:36",
-                        `/en-US/docs/Web/CSS/cos
-[color-named] Expected "#0000ff" to be "blue" (color-named)
-~~~
-:root {
-  --radius: 140px;
-  --dot-size: 10px;
-}
-.circle {
-  display: grid;
-  place-content: center;
-  margin: 0 auto;
-  width: calc(var(--radius) * 2);
-  aspect-ratio: 1;
-  border-radius: 50%;
-  border: 2px solid #666;
-  background-image:
-    radial-gradient(black var(--dot-size), transparent var(--dot-size)),
-    linear-gradient(135deg, #0000ff, #00c9ff, #92fe9d, #e6e6fa, #f0fff0);
-}
-.dot {
-  display: block;
-  width: var(--dot-size);
-  aspect-ratio: 1;
-  border-radius: 50%;
-  border: 2px solid #666;
-  background-color: #f66;
-  transform: translateX(calc(cos(0deg) * var(--radius)))
-    translateY(calc(sin(0deg) * var(--radius) * -1));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#e6e6fa" to be "lavender" (color-named)',
-                        "    linear-gradient(135deg, #0000ff, #00c9ff, #92fe9d, #e6e6fa, #f0fff0);",
-                        "15:56 - 15:63",
-                        `/en-US/docs/Web/CSS/cos
-[color-named] Expected "#e6e6fa" to be "lavender" (color-named)
-~~~
-:root {
-  --radius: 140px;
-  --dot-size: 10px;
-}
-.circle {
-  display: grid;
-  place-content: center;
-  margin: 0 auto;
-  width: calc(var(--radius) * 2);
-  aspect-ratio: 1;
-  border-radius: 50%;
-  border: 2px solid #666;
-  background-image:
-    radial-gradient(black var(--dot-size), transparent var(--dot-size)),
-    linear-gradient(135deg, #0000ff, #00c9ff, #92fe9d, #e6e6fa, #f0fff0);
-}
-.dot {
-  display: block;
-  width: var(--dot-size);
-  aspect-ratio: 1;
-  border-radius: 50%;
-  border: 2px solid #666;
-  background-color: #f66;
-  transform: translateX(calc(cos(0deg) * var(--radius)))
-    translateY(calc(sin(0deg) * var(--radius) * -1));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#f0fff0" to be "honeydew" (color-named)',
-                        "    linear-gradient(135deg, #0000ff, #00c9ff, #92fe9d, #e6e6fa, #f0fff0);",
-                        "15:65 - 15:72",
-                        `/en-US/docs/Web/CSS/cos
-[color-named] Expected "#f0fff0" to be "honeydew" (color-named)
-~~~
-:root {
-  --radius: 140px;
-  --dot-size: 10px;
-}
-.circle {
-  display: grid;
-  place-content: center;
-  margin: 0 auto;
-  width: calc(var(--radius) * 2);
-  aspect-ratio: 1;
-  border-radius: 50%;
-  border: 2px solid #666;
-  background-image:
-    radial-gradient(black var(--dot-size), transparent var(--dot-size)),
-    linear-gradient(135deg, #0000ff, #00c9ff, #92fe9d, #e6e6fa, #f0fff0);
+    linear-gradient(135deg, blue, deepskyblue, lightgreen, lavender, honeydew);
 }
 .dot {
   display: block;
@@ -79074,210 +77637,9 @@ body {
                       message: "Stylelint backlog",
                       data: [
                         "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-image: linear-gradient(to top, #fff 97%, 99%, #bbb 100%);",
-                        "125:45 - 125:49",
-                        `/en-US/docs/Web/CSS/CSS_animations
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-i {
-  display: inline-block;
-  height: 16px;
-  width: 16px;
-  border-radius: 50%;
-  animation: falling 3s linear 0s infinite backwards;
-  /* Snowflakes are made with CSS linear gradients (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients) */
-  background-image:
-    linear-gradient(180deg, transparent 40%, white 40% 60%, transparent 60%),
-    linear-gradient(90deg, transparent 40%, white 40% 60%, transparent 60%),
-    linear-gradient(45deg, transparent 43%, white 43% 57%, transparent 57%),
-    linear-gradient(135deg, transparent 43%, white 43% 57%, transparent 57%);
-}
-i:nth-of-type(4n) {
-  /* Using tree structural pseudo-classes to create randomness - https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type */
-  height: 30px;
-  width: 30px;
-  transform-origin: right -30px;
-}
-i:nth-of-type(4n + 1) {
-  height: 24px;
-  width: 24px;
-  transform-origin: left 30px;
-}
-i:nth-of-type(4n + 2) {
-  height: 10px;
-  width: 10px;
-  transform-origin: -30px 0;
-}
-i:nth-of-type(4n + 3) {
-  height: 40px;
-  width: 40px;
-  transform-origin: -50px 0;
-}
-i:nth-of-type(4n) {
-  animation-duration: 5.3s;
-  animation-iteration-count: 12;
-  transform-origin: -10px -20px;
-}
-i:nth-of-type(4n + 1) {
-  animation-duration: 3.1s;
-  animation-iteration-count: 20;
-  transform-origin: 10px -20px;
-}
-i:nth-of-type(4n + 2) {
-  animation-duration: 1.7s;
-  animation-iteration-count: 35;
-  transform-origin: right -20px;
-}
-i:nth-of-type(3n) {
-  animation-delay: 2.3s;
-}
-i:nth-of-type(3n + 1) {
-  animation-delay: 1.5s;
-}
-i:nth-of-type(3n + 2) {
-  animation-delay: 3.4s;
-}
-i:nth-of-type(5n) {
-  animation-timing-function: ease-in-out;
-}
-i:nth-of-type(5n + 1) {
-  animation-timing-function: ease-out;
-}
-i:nth-of-type(5n + 2) {
-  animation-timing-function: ease;
-}
-i:nth-of-type(5n + 3) {
-  animation-timing-function: ease-in;
-}
-i:nth-of-type(5n + 4) {
-  animation-timing-function: linear;
-}
-i:nth-of-type(11n) {
-  animation-timing-function: cubic-bezier(0.2, 0.3, 0.8, 0.9);
-}
-i:nth-of-type(7n) {
-  opacity: 0.5;
-}
-i:nth-of-type(7n + 2) {
-  opacity: 0.3;
-}
-i:nth-of-type(7n + 4) {
-  opacity: 0.7;
-}
-i:nth-of-type(7n + 6) {
-  opacity: 0.6;
-  animation-timing-function: ease-in;
-  transform-origin: left 10px;
-}
-i:nth-of-type(7n + 1) {
-  opacity: 0.8;
-}
-
-.root {
-  height: 580px;
-  background-color: skyblue;
-  border: 1px solid darkgrey;
-  position: relative;
-  overflow: hidden;
-}
-.ground,
-.cloud {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  background-repeat: no-repeat;
-}
-.cloud {
-  width: 100%;
-  height: 150px;
-  background: #ffffff;
-  border-radius: 0 0 90px 33% / 0 0 45px 50px;
-  box-shadow:
-    5px 15px 15px white,
-    -5px 15px 15px white,
-    0 20px 20px rgb(125 125 125 / 0.5);
-  animation:
-    clouds ease 5s alternate infinite 0.2s,
-    wind ease-out 4s alternate infinite;
-}
-.ground {
-  bottom: 0;
-  background-image: linear-gradient(to top, #fff 97%, 99%, #bbb 100%);
-  background-position: center 580px;
-  animation: snowfall linear 300s forwards;
-  border: 1px solid grey;
-  /* Put the ground into a 3D rendering context (because the snow flakes are in a 3d rendering context) */
-  transform: translate3d(0, 0, 0);
-}
-
-@keyframes snowfall {
-  from {
-    background-position: center 580px;
-  }
-  to {
-    background-position: center 280px;
-  }
-}
-
-@keyframes clouds {
-  from {
-    border-radius: 0 0 90px 33% / 0 0 45px 50px;
-  }
-  to {
-    border-radius: 0 0 40px 50% / 0 0 55px 80px;
-  }
-}
-
-@keyframes wind {
-  from {
-    height: 150px;
-  }
-  to {
-    height: 100px;
-  }
-}
-
-@keyframes falling {
-  from {
-    transform: translate(0, -50px) rotate(0deg) scale(0.9, 0.9);
-  }
-  to {
-    transform: translate(30px, 600px) rotate(360deg) scale(1.1, 1.1);
-  }
-}
-
-/* By default, the animations are paused. */
-i,
-div[class] {
-  animation-play-state: paused;
-}
-/* When the div is hovered, the animation plays. Also,
-when the input is checked, the animation coming after the checked checkbox plays */
-div:hover *,
-input:checked ~ div * {
-  animation-play-state: running;
-}
-
-/* Change the content of the label that comes right after the input. Included aria-label on the label to improve accessibility. */
-input + label::before {
-  content: "Play ";
-}
-input:checked + label::before {
-  content: "Pause ";
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
                         'Expected "#bbb" to be "#bbbbbb" (color-hex-length)',
-                        "  background-image: linear-gradient(to top, #fff 97%, 99%, #bbb 100%);",
-                        "125:60 - 125:64",
+                        "  background-image: linear-gradient(to top, white 97%, 99%, #bbb 100%);",
+                        "125:61 - 125:65",
                         `/en-US/docs/Web/CSS/CSS_animations
 [color-hex-length] Expected "#bbb" to be "#bbbbbb" (color-hex-length)
 ~~~
@@ -79393,7 +77755,7 @@ i:nth-of-type(7n + 1) {
 .cloud {
   width: 100%;
   height: 150px;
-  background: #ffffff;
+  background: white;
   border-radius: 0 0 90px 33% / 0 0 45px 50px;
   box-shadow:
     5px 15px 15px white,
@@ -79405,409 +77767,7 @@ i:nth-of-type(7n + 1) {
 }
 .ground {
   bottom: 0;
-  background-image: linear-gradient(to top, #fff 97%, 99%, #bbb 100%);
-  background-position: center 580px;
-  animation: snowfall linear 300s forwards;
-  border: 1px solid grey;
-  /* Put the ground into a 3D rendering context (because the snow flakes are in a 3d rendering context) */
-  transform: translate3d(0, 0, 0);
-}
-
-@keyframes snowfall {
-  from {
-    background-position: center 580px;
-  }
-  to {
-    background-position: center 280px;
-  }
-}
-
-@keyframes clouds {
-  from {
-    border-radius: 0 0 90px 33% / 0 0 45px 50px;
-  }
-  to {
-    border-radius: 0 0 40px 50% / 0 0 55px 80px;
-  }
-}
-
-@keyframes wind {
-  from {
-    height: 150px;
-  }
-  to {
-    height: 100px;
-  }
-}
-
-@keyframes falling {
-  from {
-    transform: translate(0, -50px) rotate(0deg) scale(0.9, 0.9);
-  }
-  to {
-    transform: translate(30px, 600px) rotate(360deg) scale(1.1, 1.1);
-  }
-}
-
-/* By default, the animations are paused. */
-i,
-div[class] {
-  animation-play-state: paused;
-}
-/* When the div is hovered, the animation plays. Also,
-when the input is checked, the animation coming after the checked checkbox plays */
-div:hover *,
-input:checked ~ div * {
-  animation-play-state: running;
-}
-
-/* Change the content of the label that comes right after the input. Included aria-label on the label to improve accessibility. */
-input + label::before {
-  content: "Play ";
-}
-input:checked + label::before {
-  content: "Pause ";
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#ffffff" to be "white" (color-named)',
-                        "  background: #ffffff;",
-                        "113:15 - 113:22",
-                        `/en-US/docs/Web/CSS/CSS_animations
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-i {
-  display: inline-block;
-  height: 16px;
-  width: 16px;
-  border-radius: 50%;
-  animation: falling 3s linear 0s infinite backwards;
-  /* Snowflakes are made with CSS linear gradients (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients) */
-  background-image:
-    linear-gradient(180deg, transparent 40%, white 40% 60%, transparent 60%),
-    linear-gradient(90deg, transparent 40%, white 40% 60%, transparent 60%),
-    linear-gradient(45deg, transparent 43%, white 43% 57%, transparent 57%),
-    linear-gradient(135deg, transparent 43%, white 43% 57%, transparent 57%);
-}
-i:nth-of-type(4n) {
-  /* Using tree structural pseudo-classes to create randomness - https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type */
-  height: 30px;
-  width: 30px;
-  transform-origin: right -30px;
-}
-i:nth-of-type(4n + 1) {
-  height: 24px;
-  width: 24px;
-  transform-origin: left 30px;
-}
-i:nth-of-type(4n + 2) {
-  height: 10px;
-  width: 10px;
-  transform-origin: -30px 0;
-}
-i:nth-of-type(4n + 3) {
-  height: 40px;
-  width: 40px;
-  transform-origin: -50px 0;
-}
-i:nth-of-type(4n) {
-  animation-duration: 5.3s;
-  animation-iteration-count: 12;
-  transform-origin: -10px -20px;
-}
-i:nth-of-type(4n + 1) {
-  animation-duration: 3.1s;
-  animation-iteration-count: 20;
-  transform-origin: 10px -20px;
-}
-i:nth-of-type(4n + 2) {
-  animation-duration: 1.7s;
-  animation-iteration-count: 35;
-  transform-origin: right -20px;
-}
-i:nth-of-type(3n) {
-  animation-delay: 2.3s;
-}
-i:nth-of-type(3n + 1) {
-  animation-delay: 1.5s;
-}
-i:nth-of-type(3n + 2) {
-  animation-delay: 3.4s;
-}
-i:nth-of-type(5n) {
-  animation-timing-function: ease-in-out;
-}
-i:nth-of-type(5n + 1) {
-  animation-timing-function: ease-out;
-}
-i:nth-of-type(5n + 2) {
-  animation-timing-function: ease;
-}
-i:nth-of-type(5n + 3) {
-  animation-timing-function: ease-in;
-}
-i:nth-of-type(5n + 4) {
-  animation-timing-function: linear;
-}
-i:nth-of-type(11n) {
-  animation-timing-function: cubic-bezier(0.2, 0.3, 0.8, 0.9);
-}
-i:nth-of-type(7n) {
-  opacity: 0.5;
-}
-i:nth-of-type(7n + 2) {
-  opacity: 0.3;
-}
-i:nth-of-type(7n + 4) {
-  opacity: 0.7;
-}
-i:nth-of-type(7n + 6) {
-  opacity: 0.6;
-  animation-timing-function: ease-in;
-  transform-origin: left 10px;
-}
-i:nth-of-type(7n + 1) {
-  opacity: 0.8;
-}
-
-.root {
-  height: 580px;
-  background-color: skyblue;
-  border: 1px solid darkgrey;
-  position: relative;
-  overflow: hidden;
-}
-.ground,
-.cloud {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  background-repeat: no-repeat;
-}
-.cloud {
-  width: 100%;
-  height: 150px;
-  background: #ffffff;
-  border-radius: 0 0 90px 33% / 0 0 45px 50px;
-  box-shadow:
-    5px 15px 15px white,
-    -5px 15px 15px white,
-    0 20px 20px rgb(125 125 125 / 0.5);
-  animation:
-    clouds ease 5s alternate infinite 0.2s,
-    wind ease-out 4s alternate infinite;
-}
-.ground {
-  bottom: 0;
-  background-image: linear-gradient(to top, #fff 97%, 99%, #bbb 100%);
-  background-position: center 580px;
-  animation: snowfall linear 300s forwards;
-  border: 1px solid grey;
-  /* Put the ground into a 3D rendering context (because the snow flakes are in a 3d rendering context) */
-  transform: translate3d(0, 0, 0);
-}
-
-@keyframes snowfall {
-  from {
-    background-position: center 580px;
-  }
-  to {
-    background-position: center 280px;
-  }
-}
-
-@keyframes clouds {
-  from {
-    border-radius: 0 0 90px 33% / 0 0 45px 50px;
-  }
-  to {
-    border-radius: 0 0 40px 50% / 0 0 55px 80px;
-  }
-}
-
-@keyframes wind {
-  from {
-    height: 150px;
-  }
-  to {
-    height: 100px;
-  }
-}
-
-@keyframes falling {
-  from {
-    transform: translate(0, -50px) rotate(0deg) scale(0.9, 0.9);
-  }
-  to {
-    transform: translate(30px, 600px) rotate(360deg) scale(1.1, 1.1);
-  }
-}
-
-/* By default, the animations are paused. */
-i,
-div[class] {
-  animation-play-state: paused;
-}
-/* When the div is hovered, the animation plays. Also,
-when the input is checked, the animation coming after the checked checkbox plays */
-div:hover *,
-input:checked ~ div * {
-  animation-play-state: running;
-}
-
-/* Change the content of the label that comes right after the input. Included aria-label on the label to improve accessibility. */
-input + label::before {
-  content: "Play ";
-}
-input:checked + label::before {
-  content: "Pause ";
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-image: linear-gradient(to top, #fff 97%, 99%, #bbb 100%);",
-                        "125:45 - 125:49",
-                        `/en-US/docs/Web/CSS/CSS_animations
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-i {
-  display: inline-block;
-  height: 16px;
-  width: 16px;
-  border-radius: 50%;
-  animation: falling 3s linear 0s infinite backwards;
-  /* Snowflakes are made with CSS linear gradients (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Using_CSS_gradients) */
-  background-image:
-    linear-gradient(180deg, transparent 40%, white 40% 60%, transparent 60%),
-    linear-gradient(90deg, transparent 40%, white 40% 60%, transparent 60%),
-    linear-gradient(45deg, transparent 43%, white 43% 57%, transparent 57%),
-    linear-gradient(135deg, transparent 43%, white 43% 57%, transparent 57%);
-}
-i:nth-of-type(4n) {
-  /* Using tree structural pseudo-classes to create randomness - https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type */
-  height: 30px;
-  width: 30px;
-  transform-origin: right -30px;
-}
-i:nth-of-type(4n + 1) {
-  height: 24px;
-  width: 24px;
-  transform-origin: left 30px;
-}
-i:nth-of-type(4n + 2) {
-  height: 10px;
-  width: 10px;
-  transform-origin: -30px 0;
-}
-i:nth-of-type(4n + 3) {
-  height: 40px;
-  width: 40px;
-  transform-origin: -50px 0;
-}
-i:nth-of-type(4n) {
-  animation-duration: 5.3s;
-  animation-iteration-count: 12;
-  transform-origin: -10px -20px;
-}
-i:nth-of-type(4n + 1) {
-  animation-duration: 3.1s;
-  animation-iteration-count: 20;
-  transform-origin: 10px -20px;
-}
-i:nth-of-type(4n + 2) {
-  animation-duration: 1.7s;
-  animation-iteration-count: 35;
-  transform-origin: right -20px;
-}
-i:nth-of-type(3n) {
-  animation-delay: 2.3s;
-}
-i:nth-of-type(3n + 1) {
-  animation-delay: 1.5s;
-}
-i:nth-of-type(3n + 2) {
-  animation-delay: 3.4s;
-}
-i:nth-of-type(5n) {
-  animation-timing-function: ease-in-out;
-}
-i:nth-of-type(5n + 1) {
-  animation-timing-function: ease-out;
-}
-i:nth-of-type(5n + 2) {
-  animation-timing-function: ease;
-}
-i:nth-of-type(5n + 3) {
-  animation-timing-function: ease-in;
-}
-i:nth-of-type(5n + 4) {
-  animation-timing-function: linear;
-}
-i:nth-of-type(11n) {
-  animation-timing-function: cubic-bezier(0.2, 0.3, 0.8, 0.9);
-}
-i:nth-of-type(7n) {
-  opacity: 0.5;
-}
-i:nth-of-type(7n + 2) {
-  opacity: 0.3;
-}
-i:nth-of-type(7n + 4) {
-  opacity: 0.7;
-}
-i:nth-of-type(7n + 6) {
-  opacity: 0.6;
-  animation-timing-function: ease-in;
-  transform-origin: left 10px;
-}
-i:nth-of-type(7n + 1) {
-  opacity: 0.8;
-}
-
-.root {
-  height: 580px;
-  background-color: skyblue;
-  border: 1px solid darkgrey;
-  position: relative;
-  overflow: hidden;
-}
-.ground,
-.cloud {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  background-repeat: no-repeat;
-}
-.cloud {
-  width: 100%;
-  height: 150px;
-  background: #ffffff;
-  border-radius: 0 0 90px 33% / 0 0 45px 50px;
-  box-shadow:
-    5px 15px 15px white,
-    -5px 15px 15px white,
-    0 20px 20px rgb(125 125 125 / 0.5);
-  animation:
-    clouds ease 5s alternate infinite 0.2s,
-    wind ease-out 4s alternate infinite;
-}
-.ground {
-  bottom: 0;
-  background-image: linear-gradient(to top, #fff 97%, 99%, #bbb 100%);
+  background-image: linear-gradient(to top, white 97%, 99%, #bbb 100%);
   background-position: center 580px;
   animation: snowfall linear 300s forwards;
   border: 1px solid grey;
@@ -79887,7 +77847,7 @@ input:checked + label::before {
                           data: [
                             "alpha-value-notation",
                             'Expected "100%" to be "1" (alpha-value-notation)',
-                            "    linear-gradient(to right, rgb(30 75 115 / 100%), rgb(255 255 255 / 0%));",
+                            "    linear-gradient(to right, rgb(30 75 115 / 100%), transparent);",
                             "6:47 - 6:51",
                             `/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Using_multiple_backgrounds
 [alpha-value-notation] Expected "100%" to be "1" (alpha-value-notation)
@@ -79897,33 +77857,7 @@ input:checked + label::before {
   height: 400px;
   background-image:
     url("firefox.png"), url("bubbles.png"),
-    linear-gradient(to right, rgb(30 75 115 / 100%), rgb(255 255 255 / 0%));
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position:
-    bottom right,
-    left,
-    right;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "0%" to be "0" (alpha-value-notation)',
-                            "    linear-gradient(to right, rgb(30 75 115 / 100%), rgb(255 255 255 / 0%));",
-                            "6:72 - 6:74",
-                            `/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Using_multiple_backgrounds
-[alpha-value-notation] Expected "0%" to be "0" (alpha-value-notation)
-~~~
-.multi-bg-example {
-  width: 100%;
-  height: 400px;
-  background-image:
-    url("firefox.png"), url("bubbles.png"),
-    linear-gradient(to right, rgb(30 75 115 / 100%), rgb(255 255 255 / 0%));
+    linear-gradient(to right, rgb(30 75 115 / 100%), transparent);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position:
     bottom right,
@@ -80195,79 +78129,6 @@ blockquote {
                           ]
                         },
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#ffffff" to be "white" (color-named)',
-                            "  border: 10px solid #ffffff;",
-                            "16:22 - 16:29",
-                            `/en-US/docs/Web/CSS/CSS_box_sizing/Understanding_aspect-ratio
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-div,
-p {
-  border-radius: 50%;
-}
-
-div {
-  width: 200px;
-  padding: 5px;
-  border: 1px solid black;
-  background-color: #66ccff;
-}
-
-p {
-  aspect-ratio: 1;
-  text-align: center;
-  border: 10px solid #ffffff;
-  background-color: #f4aab9;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#ffffff" to be "white" (color-named)',
-                            "  border: 10px solid #ffffff;",
-                            "11:22 - 11:29",
-                            `/en-US/docs/Web/CSS/CSS_box_sizing/Understanding_aspect-ratio
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-div {
-  width: 200px;
-  padding: 5px;
-  margin: 1rem;
-  border: 1px solid black;
-  background-color: #66ccff;
-}
-
-p {
-  text-align: center;
-  border: 10px solid #ffffff;
-  background-color: #f4aab9;
-}
-
-div,
-p {
-  aspect-ratio: 1;
-  border-radius: 50%;
-}
-
-div:first-of-type {
-  overflow: hidden;
-}
-
-div:last-of-type p {
-  margin-block: 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "color-hex-length",
@@ -80332,72 +78193,6 @@ div div::after {
                         {
                           message: "Stylelint backlog",
                           data: [
-                            "color-hex-length",
-                            'Expected "#000" to be "#000000" (color-hex-length)',
-                            "background-color: #000;",
-                            "1:19 - 1:23",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-background-color: #000;
-background-image: url("images/bg.gif");
-background-repeat: no-repeat;
-background-position: left top;
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#000" to be "black" (color-named)',
-                            "background-color: #000;",
-                            "1:19 - 1:23",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-background-color: #000;
-background-image: url("images/bg.gif");
-background-repeat: no-repeat;
-background-position: left top;
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#000" to be "#000000" (color-hex-length)',
-                            'background: #000 url("images/bg.gif") no-repeat left top;',
-                            "1:13 - 1:17",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-background: #000 url("images/bg.gif") no-repeat left top;
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#000" to be "black" (color-named)',
-                            'background: #000 url("images/bg.gif") no-repeat left top;',
-                            "1:13 - 1:17",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-background: #000 url("images/bg.gif") no-repeat left top;
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
                             "font-family: Arial, sans-serif;",
@@ -80427,70 +78222,6 @@ font-family: Arial, sans-serif;
 font:
   italic bold 0.8em/1.2 Arial,
   sans-serif;
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#000" to be "#000000" (color-hex-length)',
-                            "border-color: #000;",
-                            "3:15 - 3:19",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-border-width: 1px;
-border-style: solid;
-border-color: #000;
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#000" to be "black" (color-named)',
-                            "border-color: #000;",
-                            "3:15 - 3:19",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-border-width: 1px;
-border-style: solid;
-border-color: #000;
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#000" to be "#000000" (color-hex-length)',
-                            "border: 1px solid #000;",
-                            "1:19 - 1:23",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-border: 1px solid #000;
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#000" to be "black" (color-named)',
-                            "border: 1px solid #000;",
-                            "1:19 - 1:23",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-border: 1px solid #000;
 ~~~
 `
                           ]
@@ -80540,7 +78271,7 @@ div {
 .boxRight {
   background-color: hwb(270deg 63% 13%);
   outline: 4px dashed #6e1478;
-  color: hsl(0deg 100% 100%);
+  color: hsl(0deg 95% 95%);
   text-decoration-line: underline;
   text-decoration-style: wavy;
   text-decoration-color: #8f8;
@@ -80586,191 +78317,7 @@ div {
 .boxRight {
   background-color: hwb(270deg 63% 13%);
   outline: 4px dashed #6e1478;
-  color: hsl(0deg 100% 100%);
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: #8f8;
-  text-decoration: underline wavy #8f8;
-  text-shadow: 2px 2px 3px black;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "hsl(0deg 100% 100%)" to be "white" (color-named)',
-                            "  color: hsl(0deg 100% 100%);",
-                            "26:10 - 26:29",
-                            `/en-US/docs/Web/CSS/CSS_colors/Applying_color
-[color-named] Expected "hsl(0deg 100% 100%)" to be "white" (color-named)
-~~~
-.wrapper {
-  height: 110px;
-  padding: 10px;
-  display: flex;
-  gap: 10px;
-  text-align: center;
-  font:
-    28px "Marker Felt",
-    "Zapfino",
-    cursive;
-  border: 6px solid mediumturquoise;
-}
-
-div {
-  flex: 1;
-}
-
-.boxLeft {
-  background-color: rgb(245 130 130);
-  outline: 2px solid darkred;
-}
-
-.boxRight {
-  background-color: hwb(270deg 63% 13%);
-  outline: 4px dashed #6e1478;
-  color: hsl(0deg 100% 100%);
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: #8f8;
-  text-decoration: underline wavy #8f8;
-  text-shadow: 2px 2px 3px black;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-block-no-shorthand-property-overrides",
-                            'Unexpected shorthand "text-decoration" after "text-decoration-line" (declaration-block-no-shorthand-property-overrides)',
-                            "  text-decoration: underline wavy #8f8;",
-                            "30:3 - 30:18",
-                            `/en-US/docs/Web/CSS/CSS_colors/Applying_color
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "text-decoration" after "text-decoration-line" (declaration-block-no-shorthand-property-overrides)
-~~~
-.wrapper {
-  height: 110px;
-  padding: 10px;
-  display: flex;
-  gap: 10px;
-  text-align: center;
-  font:
-    28px "Marker Felt",
-    "Zapfino",
-    cursive;
-  border: 6px solid mediumturquoise;
-}
-
-div {
-  flex: 1;
-}
-
-.boxLeft {
-  background-color: rgb(245 130 130);
-  outline: 2px solid darkred;
-}
-
-.boxRight {
-  background-color: hwb(270deg 63% 13%);
-  outline: 4px dashed #6e1478;
-  color: hsl(0deg 100% 100%);
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: #8f8;
-  text-decoration: underline wavy #8f8;
-  text-shadow: 2px 2px 3px black;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-block-no-shorthand-property-overrides",
-                            'Unexpected shorthand "text-decoration" after "text-decoration-style" (declaration-block-no-shorthand-property-overrides)',
-                            "  text-decoration: underline wavy #8f8;",
-                            "30:3 - 30:18",
-                            `/en-US/docs/Web/CSS/CSS_colors/Applying_color
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "text-decoration" after "text-decoration-style" (declaration-block-no-shorthand-property-overrides)
-~~~
-.wrapper {
-  height: 110px;
-  padding: 10px;
-  display: flex;
-  gap: 10px;
-  text-align: center;
-  font:
-    28px "Marker Felt",
-    "Zapfino",
-    cursive;
-  border: 6px solid mediumturquoise;
-}
-
-div {
-  flex: 1;
-}
-
-.boxLeft {
-  background-color: rgb(245 130 130);
-  outline: 2px solid darkred;
-}
-
-.boxRight {
-  background-color: hwb(270deg 63% 13%);
-  outline: 4px dashed #6e1478;
-  color: hsl(0deg 100% 100%);
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: #8f8;
-  text-decoration: underline wavy #8f8;
-  text-shadow: 2px 2px 3px black;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-block-no-shorthand-property-overrides",
-                            'Unexpected shorthand "text-decoration" after "text-decoration-color" (declaration-block-no-shorthand-property-overrides)',
-                            "  text-decoration: underline wavy #8f8;",
-                            "30:3 - 30:18",
-                            `/en-US/docs/Web/CSS/CSS_colors/Applying_color
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "text-decoration" after "text-decoration-color" (declaration-block-no-shorthand-property-overrides)
-~~~
-.wrapper {
-  height: 110px;
-  padding: 10px;
-  display: flex;
-  gap: 10px;
-  text-align: center;
-  font:
-    28px "Marker Felt",
-    "Zapfino",
-    cursive;
-  border: 6px solid mediumturquoise;
-}
-
-div {
-  flex: 1;
-}
-
-.boxLeft {
-  background-color: rgb(245 130 130);
-  outline: 2px solid darkred;
-}
-
-.boxRight {
-  background-color: hwb(270deg 63% 13%);
-  outline: 4px dashed #6e1478;
-  color: hsl(0deg 100% 100%);
+  color: hsl(0deg 95% 95%);
   text-decoration-line: underline;
   text-decoration-style: wavy;
   text-decoration-color: #8f8;
@@ -80816,7 +78363,7 @@ div {
 .boxRight {
   background-color: hwb(270deg 63% 13%);
   outline: 4px dashed #6e1478;
-  color: hsl(0deg 100% 100%);
+  color: hsl(0deg 95% 95%);
   text-decoration-line: underline;
   text-decoration-style: wavy;
   text-decoration-color: #8f8;
@@ -80832,7 +78379,7 @@ div {
                           data: [
                             "hue-degree-notation",
                             'Expected "0deg" to be "0" (hue-degree-notation)',
-                            "  color: hsl(0deg 100% 100%);",
+                            "  color: hsl(0deg 95% 95%);",
                             "26:14 - 26:18",
                             `/en-US/docs/Web/CSS/CSS_colors/Applying_color
 [hue-degree-notation] Expected "0deg" to be "0" (hue-degree-notation)
@@ -80862,7 +78409,7 @@ div {
 .boxRight {
   background-color: hwb(270deg 63% 13%);
   outline: 4px dashed #6e1478;
-  color: hsl(0deg 100% 100%);
+  color: hsl(0deg 95% 95%);
   text-decoration-line: underline;
   text-decoration-style: wavy;
   text-decoration-color: #8f8;
@@ -82658,184 +80205,6 @@ rgb(from red r g b / alpha)
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#ff0000" to be "red" (color-named)',
-                            "  --base-color: #ff0000;",
-                            "42:17 - 42:24",
-                            `/en-US/docs/Web/CSS/CSS_colors/Relative_colors
-[color-named] Expected "#ff0000" to be "red" (color-named)
-~~~
-html {
-  font-family: sans-serif;
-}
-
-body {
-  margin: 0;
-}
-
-h1 {
-  margin-left: 16px;
-}
-
-/* Basic form styling */
-
-#color-picker {
-  margin-left: 16px;
-  margin-bottom: 20px;
-}
-
-#color-picker label,
-legend {
-  display: block;
-  font-size: 0.8rem;
-  margin-bottom: 10px;
-}
-
-input[type="color"] {
-  width: 200px;
-  display: block;
-}
-
-fieldset {
-  display: flex;
-  gap: 20px;
-  border: 0;
-}
-
-/* Palette container styling */
-
-#container {
-  /* Default value */
-  --base-color: #ff0000;
-
-  display: flex;
-  width: 100vw;
-  height: 250px;
-  box-sizing: border-box;
-}
-
-#container div {
-  flex: 1;
-}
-
-/* Complementary colors */
-/* Base color, and base color with hue channel +180 degrees */
-
-.comp :nth-child(1) {
-  background-color: var(--base-color);
-}
-
-.comp :nth-child(2) {
-  background-color: lch(from var(--base-color) l c calc(h + 180));
-}
-
-/* Use @supports to add in support old syntax that requires deg units
-   to be specified in hue calculations. This is required for Safari 16.4+. */
-@supports (color: lch(from red l c calc(h + 180deg))) {
-  .comp :nth-child(2) {
-    background-color: lch(from var(--base-color) l c calc(h + 180deg));
-  }
-}
-
-/* Triadic colors */
-/* Base color, base color with hue channel -120 degrees, and base color */
-/* with hue channel +120 degrees */
-
-.triadic :nth-child(1) {
-  background-color: var(--base-color);
-}
-
-.triadic :nth-child(2) {
-  background-color: lch(from var(--base-color) l c calc(h - 120));
-}
-
-.triadic :nth-child(3) {
-  background-color: lch(from var(--base-color) l c calc(h + 120));
-}
-
-/* Use @supports to add in support old syntax that requires deg units
-   to be specified in hue calculations. This is required for Safari 16.4+. */
-@supports (color: lch(from red l c calc(h + 120deg))) {
-  .triadic :nth-child(2) {
-    background-color: lch(from var(--base-color) l c calc(h - 120deg));
-  }
-
-  .triadic :nth-child(3) {
-    background-color: lch(from var(--base-color) l c calc(h + 120deg));
-  }
-}
-
-/* Tetradic colors */
-/* Base color, and base color with hue channel +90, +180, and +270 degrees */
-
-.tetradic :nth-child(1) {
-  background-color: var(--base-color);
-}
-
-.tetradic :nth-child(2) {
-  background-color: lch(from var(--base-color) l c calc(h + 90));
-}
-
-.tetradic :nth-child(3) {
-  background-color: lch(from var(--base-color) l c calc(h + 180));
-}
-
-.tetradic :nth-child(4) {
-  background-color: lch(from var(--base-color) l c calc(h + 270));
-}
-
-/* Use @supports to add in support old syntax that requires deg units
-   to be specified in hue calculations. This is required for Safari 16.4+. */
-@supports (color: lch(from red l c calc(h + 90deg))) {
-  .tetradic :nth-child(2) {
-    background-color: lch(from var(--base-color) l c calc(h + 90deg));
-  }
-
-  .tetradic :nth-child(3) {
-    background-color: lch(from var(--base-color) l c calc(h + 180deg));
-  }
-
-  .tetradic :nth-child(4) {
-    background-color: lch(from var(--base-color) l c calc(h + 270deg));
-  }
-}
-
-/* Monochrome colors */
-/* Base color, and base color with lightness channel -20, -10, +10, and +20 */
-
-.monochrome :nth-child(1) {
-  background-color: lch(from var(--base-color) calc(l - 20) c h);
-}
-
-.monochrome :nth-child(2) {
-  background-color: lch(from var(--base-color) calc(l - 10) c h);
-}
-
-.monochrome :nth-child(3) {
-  background-color: var(--base-color);
-}
-
-.monochrome :nth-child(4) {
-  background-color: lch(from var(--base-color) calc(l + 10) c h);
-}
-
-.monochrome :nth-child(5) {
-  background-color: lch(from var(--base-color) calc(l + 20) c h);
-}
-
-/* Hide unused swatches for each palette type */
-.comp :nth-child(2) ~ div,
-.triadic :nth-child(3) ~ div,
-.tetradic :nth-child(4) ~ div {
-  display: none;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     }
@@ -83876,49 +81245,6 @@ header p {
                           message: "Stylelint backlog",
                           data: [
                             "color-hex-length",
-                            'Expected "#f00" to be "#ff0000" (color-hex-length)',
-                            "  initial-value: #f00;",
-                            "4:18 - 4:22",
-                            `/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries
-[color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
-~~~
-@property --theme {
-  syntax: "<color>";
-  inherits: true;
-  initial-value: #f00;
-}
-
-output {
-  padding: 3px 5px;
-  margin-top: 5px;
-}
-
-@container style(--theme) {
-  output {
-    outline: 5px dotted var(--theme);
-    color: #777;
-  }
-}
-
-@container style(--theme: green) or style(--theme: blue) or style(--theme: red) {
-  output {
-    color: var(--theme);
-  }
-}
-
-@container style(--theme: red) {
-  output {
-    font-weight: bold;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
                             'Expected "#777" to be "#777777" (color-hex-length)',
                             "    color: #777;",
                             "15:12 - 15:16",
@@ -83928,50 +81254,7 @@ output {
 @property --theme {
   syntax: "<color>";
   inherits: true;
-  initial-value: #f00;
-}
-
-output {
-  padding: 3px 5px;
-  margin-top: 5px;
-}
-
-@container style(--theme) {
-  output {
-    outline: 5px dotted var(--theme);
-    color: #777;
-  }
-}
-
-@container style(--theme: green) or style(--theme: blue) or style(--theme: red) {
-  output {
-    color: var(--theme);
-  }
-}
-
-@container style(--theme: red) {
-  output {
-    font-weight: bold;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#f00" to be "red" (color-named)',
-                            "  initial-value: #f00;",
-                            "4:18 - 4:22",
-                            `/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries
-[color-named] Expected "#f00" to be "red" (color-named)
-~~~
-@property --theme {
-  syntax: "<color>";
-  inherits: true;
-  initial-value: #f00;
+  initial-value: red;
 }
 
 output {
@@ -84154,134 +81437,6 @@ p {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "14:10 - 14:14",
-                            `/en-US/docs/Web/CSS/CSS_display/In_flow_and_out_of_flow
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-body {
-  font: 1.2em sans-serif;
-}
-.box {
-  width: 70%;
-}
-p {
-  border: 2px solid green;
-}
-
-.abspos {
-  position: absolute;
-  background-color: green;
-  color: #fff;
-  top: 30px;
-  right: 30px;
-  width: 400px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "14:10 - 14:14",
-                            `/en-US/docs/Web/CSS/CSS_display/In_flow_and_out_of_flow
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-body {
-  font: 1.2em sans-serif;
-}
-.box {
-  width: 70%;
-}
-p {
-  border: 2px solid green;
-}
-
-.abspos {
-  position: absolute;
-  background-color: green;
-  color: #fff;
-  top: 30px;
-  right: 30px;
-  width: 400px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "14:10 - 14:14",
-                            `/en-US/docs/Web/CSS/CSS_display/In_flow_and_out_of_flow
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-body {
-  font: 1.2em sans-serif;
-}
-.box {
-  width: 70%;
-}
-p {
-  border: 2px solid green;
-}
-
-.relative {
-  position: relative;
-  background-color: green;
-  color: #fff;
-  bottom: 50px;
-  left: 50px;
-  width: 400px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "14:10 - 14:14",
-                            `/en-US/docs/Web/CSS/CSS_display/In_flow_and_out_of_flow
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-body {
-  font: 1.2em sans-serif;
-}
-.box {
-  width: 70%;
-}
-p {
-  border: 2px solid green;
-}
-
-.relative {
-  position: relative;
-  background-color: green;
-  color: #fff;
-  bottom: 50px;
-  left: 50px;
-  width: 400px;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -84372,176 +81527,6 @@ body {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "41:10 - 41:14",
-                            `/en-US/docs/Web/CSS/CSS_display/multi-keyword_syntax_of_display
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-#controls {
-  padding: 1rem;
-  outline: 2px dashed black;
-}
-body {
-  margin: 10px;
-  font-family: sans-serif;
-}
-
-div,
-p {
-  outline: 2px solid black;
-  background-color: cornflowerblue;
-  display: block;
-  margin-bottom: 2rem;
-}
-
-#parent {
-  background-color: oldlace;
-  min-height: 2rem;
-}
-
-#child {
-  margin-top: 4rem;
-  outline: 2px dashed red;
-}
-
-#sibling {
-  background-color: lavender;
-}
-
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-p {
-  border: 2px dashed;
-  width: 300px;
-}
-.inline-block {
-  background-color: rgb(0 0 0 / 0.4);
-  color: #fff;
-  padding: 10px;
-  display: inline-block;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "41:10 - 41:14",
-                            `/en-US/docs/Web/CSS/CSS_display/multi-keyword_syntax_of_display
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-#controls {
-  padding: 1rem;
-  outline: 2px dashed black;
-}
-body {
-  margin: 10px;
-  font-family: sans-serif;
-}
-
-div,
-p {
-  outline: 2px solid black;
-  background-color: cornflowerblue;
-  display: block;
-  margin-bottom: 2rem;
-}
-
-#parent {
-  background-color: oldlace;
-  min-height: 2rem;
-}
-
-#child {
-  margin-top: 4rem;
-  outline: 2px dashed red;
-}
-
-#sibling {
-  background-color: lavender;
-}
-
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-p {
-  border: 2px dashed;
-  width: 300px;
-}
-.inline-block {
-  background-color: rgb(0 0 0 / 0.4);
-  color: #fff;
-  padding: 10px;
-  display: inline-block;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "10:10 - 10:14",
-                            `/en-US/docs/Web/CSS/CSS_display/multi-keyword_syntax_of_display
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-p {
-  border: 2px dashed;
-  width: 300px;
-}
-.inline-block {
-  background-color: rgb(0 0 0 / 0.4);
-  color: #fff;
-  padding: 10px;
-  display: inline-block;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "10:10 - 10:14",
-                            `/en-US/docs/Web/CSS/CSS_display/multi-keyword_syntax_of_display
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-p {
-  border: 2px dashed;
-  width: 300px;
-}
-.inline-block {
-  background-color: rgb(0 0 0 / 0.4);
-  color: #fff;
-  padding: 10px;
-  display: inline-block;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -84595,91 +81580,11 @@ body {
 }
 .container {
   background-color: #333;
-  color: #fff;
+  color: white;
 }
 
 .item {
-  background-color: #fff;
-  border: 1px solid #999;
-  color: #333;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-}
-
-.container {
-  display: flow-root;
-}
-
-.item {
-  margin: 10px;
-  float: left;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "7:10 - 7:14",
-                            `/en-US/docs/Web/CSS/CSS_display/Visual_formatting_model
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-body {
-  font: 1.2em sans-serif;
-  margin: 20px;
-}
-.container {
-  background-color: #333;
-  color: #fff;
-}
-
-.item {
-  background-color: #fff;
-  border: 1px solid #999;
-  color: #333;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-}
-
-.container {
-  display: flow-root;
-}
-
-.item {
-  margin: 10px;
-  float: left;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  background-color: #fff;",
-                            "11:21 - 11:25",
-                            `/en-US/docs/Web/CSS/CSS_display/Visual_formatting_model
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-body {
-  font: 1.2em sans-serif;
-  margin: 20px;
-}
-.container {
-  background-color: #333;
-  color: #fff;
-}
-
-.item {
-  background-color: #fff;
+  background-color: white;
   border: 1px solid #999;
   color: #333;
   width: 100px;
@@ -84715,11 +81620,11 @@ body {
 }
 .container {
   background-color: #333;
-  color: #fff;
+  color: white;
 }
 
 .item {
-  background-color: #fff;
+  background-color: white;
   border: 1px solid #999;
   color: #333;
   width: 100px;
@@ -84755,91 +81660,11 @@ body {
 }
 .container {
   background-color: #333;
-  color: #fff;
+  color: white;
 }
 
 .item {
-  background-color: #fff;
-  border: 1px solid #999;
-  color: #333;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-}
-
-.container {
-  display: flow-root;
-}
-
-.item {
-  margin: 10px;
-  float: left;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "7:10 - 7:14",
-                            `/en-US/docs/Web/CSS/CSS_display/Visual_formatting_model
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-body {
-  font: 1.2em sans-serif;
-  margin: 20px;
-}
-.container {
-  background-color: #333;
-  color: #fff;
-}
-
-.item {
-  background-color: #fff;
-  border: 1px solid #999;
-  color: #333;
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-}
-
-.container {
-  display: flow-root;
-}
-
-.item {
-  margin: 10px;
-  float: left;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  background-color: #fff;",
-                            "11:21 - 11:25",
-                            `/en-US/docs/Web/CSS/CSS_display/Visual_formatting_model
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-body {
-  font: 1.2em sans-serif;
-  margin: 20px;
-}
-.container {
-  background-color: #333;
-  color: #fff;
-}
-
-.item {
-  background-color: #fff;
+  background-color: white;
   border: 1px solid #999;
   color: #333;
   width: 100px;
@@ -84895,205 +81720,9 @@ p {
 }
 p {
   padding: 0.5rem;
-  color: #ffffff;
+  color: white;
   font-size: 2rem;
   font-family: sans-serif;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#ffffff" to be "white" (color-named)',
-                            "  color: #ffffff;",
-                            "17:10 - 17:17",
-                            `/en-US/docs/Web/CSS/CSS_filter_effects/Using_filter_effects
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-.container {
-  background: url("/shared-assets/images/examples/listen_to_black_women.jpg")
-    no-repeat left / contain goldenrod;
-}
-p {
-  backdrop-filter: hue-rotate(240deg) blur(5px);
-  background-color: rgb(255 255 255 / 10%);
-  text-shadow: 2px 2px black;
-}
-
-.container {
-  padding: 3rem;
-  width: 30rem;
-}
-p {
-  padding: 0.5rem;
-  color: #ffffff;
-  font-size: 2rem;
-  font-family: sans-serif;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "hsl(300deg 100% 50%)" to be "fuchsia" (color-named)',
-                            "  filter: drop-shadow(2px 2px 0 hsl(300deg 100% 50%))",
-                            "6:33 - 6:53",
-                            `/en-US/docs/Web/CSS/CSS_filter_effects/Using_filter_effects
-[color-named] Expected "hsl(300deg 100% 50%)" to be "fuchsia" (color-named)
-~~~
-img {
-  width: 49%;
-}
-
-img {
-  filter: drop-shadow(2px 2px 0 hsl(300deg 100% 50%))
-    drop-shadow(-2px -2px 0 hsl(210deg 100% 50%))
-    drop-shadow(2px 2px 0 hsl(120deg 100% 50%))
-    drop-shadow(-2px -2px 0 hsl(30deg 100% 50%));
-}
-img + img {
-  filter: none;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "hsl(120deg 100% 50%)" to be "lime" (color-named)',
-                            "    drop-shadow(2px 2px 0 hsl(120deg 100% 50%))",
-                            "8:27 - 8:47",
-                            `/en-US/docs/Web/CSS/CSS_filter_effects/Using_filter_effects
-[color-named] Expected "hsl(120deg 100% 50%)" to be "lime" (color-named)
-~~~
-img {
-  width: 49%;
-}
-
-img {
-  filter: drop-shadow(2px 2px 0 hsl(300deg 100% 50%))
-    drop-shadow(-2px -2px 0 hsl(210deg 100% 50%))
-    drop-shadow(2px 2px 0 hsl(120deg 100% 50%))
-    drop-shadow(-2px -2px 0 hsl(30deg 100% 50%));
-}
-img + img {
-  filter: none;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "300deg" to be "300" (hue-degree-notation)',
-                            "  filter: drop-shadow(2px 2px 0 hsl(300deg 100% 50%))",
-                            "6:37 - 6:43",
-                            `/en-US/docs/Web/CSS/CSS_filter_effects/Using_filter_effects
-[hue-degree-notation] Expected "300deg" to be "300" (hue-degree-notation)
-~~~
-img {
-  width: 49%;
-}
-
-img {
-  filter: drop-shadow(2px 2px 0 hsl(300deg 100% 50%))
-    drop-shadow(-2px -2px 0 hsl(210deg 100% 50%))
-    drop-shadow(2px 2px 0 hsl(120deg 100% 50%))
-    drop-shadow(-2px -2px 0 hsl(30deg 100% 50%));
-}
-img + img {
-  filter: none;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "210deg" to be "210" (hue-degree-notation)',
-                            "    drop-shadow(-2px -2px 0 hsl(210deg 100% 50%))",
-                            "7:33 - 7:39",
-                            `/en-US/docs/Web/CSS/CSS_filter_effects/Using_filter_effects
-[hue-degree-notation] Expected "210deg" to be "210" (hue-degree-notation)
-~~~
-img {
-  width: 49%;
-}
-
-img {
-  filter: drop-shadow(2px 2px 0 hsl(300deg 100% 50%))
-    drop-shadow(-2px -2px 0 hsl(210deg 100% 50%))
-    drop-shadow(2px 2px 0 hsl(120deg 100% 50%))
-    drop-shadow(-2px -2px 0 hsl(30deg 100% 50%));
-}
-img + img {
-  filter: none;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "120deg" to be "120" (hue-degree-notation)',
-                            "    drop-shadow(2px 2px 0 hsl(120deg 100% 50%))",
-                            "8:31 - 8:37",
-                            `/en-US/docs/Web/CSS/CSS_filter_effects/Using_filter_effects
-[hue-degree-notation] Expected "120deg" to be "120" (hue-degree-notation)
-~~~
-img {
-  width: 49%;
-}
-
-img {
-  filter: drop-shadow(2px 2px 0 hsl(300deg 100% 50%))
-    drop-shadow(-2px -2px 0 hsl(210deg 100% 50%))
-    drop-shadow(2px 2px 0 hsl(120deg 100% 50%))
-    drop-shadow(-2px -2px 0 hsl(30deg 100% 50%));
-}
-img + img {
-  filter: none;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "30deg" to be "30" (hue-degree-notation)',
-                            "    drop-shadow(-2px -2px 0 hsl(30deg 100% 50%));",
-                            "9:33 - 9:38",
-                            `/en-US/docs/Web/CSS/CSS_filter_effects/Using_filter_effects
-[hue-degree-notation] Expected "30deg" to be "30" (hue-degree-notation)
-~~~
-img {
-  width: 49%;
-}
-
-img {
-  filter: drop-shadow(2px 2px 0 hsl(300deg 100% 50%))
-    drop-shadow(-2px -2px 0 hsl(210deg 100% 50%))
-    drop-shadow(2px 2px 0 hsl(120deg 100% 50%))
-    drop-shadow(-2px -2px 0 hsl(30deg 100% 50%));
-}
-img + img {
-  filter: none;
 }
 ~~~
 `
@@ -85289,306 +81918,6 @@ img + img {
                           message: "Stylelint backlog",
                           data: [
                             "color-hex-length",
-                            'Expected "#000" to be "#000000" (color-hex-length)',
-                            "  color: #000;",
-                            "7:10 - 7:14",
-                            `/en-US/docs/Web/CSS/CSS_flexible_box_layout/Typical_use_cases_of_flexbox
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-nav {
-  border: 2px solid #eeeeee;
-}
-
-nav a {
-  text-decoration: none;
-  color: #000;
-  border: 2px solid rgb(96 139 168);
-  border-radius: 5px;
-  background-color: rgb(96 139 168 / 0.2);
-  padding: 10px;
-  display: block;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#000" to be "black" (color-named)',
-                            "  color: #000;",
-                            "7:10 - 7:14",
-                            `/en-US/docs/Web/CSS/CSS_flexible_box_layout/Typical_use_cases_of_flexbox
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-nav {
-  border: 2px solid #eeeeee;
-}
-
-nav a {
-  text-decoration: none;
-  color: #000;
-  border: 2px solid rgb(96 139 168);
-  border-radius: 5px;
-  background-color: rgb(96 139 168 / 0.2);
-  padding: 10px;
-  display: block;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#000" to be "#000000" (color-hex-length)',
-                            "  color: #000;",
-                            "13:10 - 13:14",
-                            `/en-US/docs/Web/CSS/CSS_flexible_box_layout/Typical_use_cases_of_flexbox
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-nav {
-  border: 2px solid #eeeeee;
-}
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-nav a {
-  text-decoration: none;
-  color: #000;
-  border: 2px solid rgb(96 139 168);
-  border-radius: 5px;
-  background-color: rgb(96 139 168 / 0.2);
-  padding: 10px;
-  display: block;
-}
-
-nav li {
-  flex: auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#000" to be "black" (color-named)',
-                            "  color: #000;",
-                            "13:10 - 13:14",
-                            `/en-US/docs/Web/CSS/CSS_flexible_box_layout/Typical_use_cases_of_flexbox
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-nav {
-  border: 2px solid #eeeeee;
-}
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-nav a {
-  text-decoration: none;
-  color: #000;
-  border: 2px solid rgb(96 139 168);
-  border-radius: 5px;
-  background-color: rgb(96 139 168 / 0.2);
-  padding: 10px;
-  display: block;
-}
-
-nav li {
-  flex: auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#000" to be "#000000" (color-hex-length)',
-                            "  color: #000;",
-                            "7:10 - 7:14",
-                            `/en-US/docs/Web/CSS/CSS_flexible_box_layout/Typical_use_cases_of_flexbox
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-nav {
-  border: 2px solid #eeeeee;
-}
-
-nav a {
-  text-decoration: none;
-  color: #000;
-  border: 2px solid rgb(96 139 168);
-  border-radius: 5px;
-  background-color: rgb(96 139 168 / 0.2);
-  padding: 10px;
-  display: block;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 20px;
-}
-
-.push-right {
-  margin-left: auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#000" to be "black" (color-named)',
-                            "  color: #000;",
-                            "7:10 - 7:14",
-                            `/en-US/docs/Web/CSS/CSS_flexible_box_layout/Typical_use_cases_of_flexbox
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-nav {
-  border: 2px solid #eeeeee;
-}
-
-nav a {
-  text-decoration: none;
-  color: #000;
-  border: 2px solid rgb(96 139 168);
-  border-radius: 5px;
-  background-color: rgb(96 139 168 / 0.2);
-  padding: 10px;
-  display: block;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 20px;
-}
-
-.push-right {
-  margin-left: auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "12:10 - 12:14",
-                            `/en-US/docs/Web/CSS/CSS_flexible_box_layout/Typical_use_cases_of_flexbox
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-* {
-  font: 1.1em sans-serif;
-}
-
-.wrapper {
-  display: flex;
-  border: 1px solid rgb(96 139 168);
-}
-.wrapper > * {
-  padding: 10px;
-  border: none;
-  color: #fff;
-}
-.wrapper > input[type="text"] {
-  background-color: rgb(96 139 168 / 0.5);
-  border-right: 1px solid rgb(96 139 168);
-  flex: 1 1 auto;
-}
-.wrapper input[type="submit"] {
-  background-color: rgb(96 139 168);
-  color: #fff;
-}
-.wrapper label {
-  background-color: #666;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "21:10 - 21:14",
-                            `/en-US/docs/Web/CSS/CSS_flexible_box_layout/Typical_use_cases_of_flexbox
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-* {
-  font: 1.1em sans-serif;
-}
-
-.wrapper {
-  display: flex;
-  border: 1px solid rgb(96 139 168);
-}
-.wrapper > * {
-  padding: 10px;
-  border: none;
-  color: #fff;
-}
-.wrapper > input[type="text"] {
-  background-color: rgb(96 139 168 / 0.5);
-  border-right: 1px solid rgb(96 139 168);
-  flex: 1 1 auto;
-}
-.wrapper input[type="submit"] {
-  background-color: rgb(96 139 168);
-  color: #fff;
-}
-.wrapper label {
-  background-color: #666;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
                             'Expected "#666" to be "#666666" (color-hex-length)',
                             "  background-color: #666;",
                             "24:21 - 24:25",
@@ -85606,7 +81935,7 @@ nav ul {
 .wrapper > * {
   padding: 10px;
   border: none;
-  color: #fff;
+  color: white;
 }
 .wrapper > input[type="text"] {
   background-color: rgb(96 139 168 / 0.5);
@@ -85615,85 +81944,7 @@ nav ul {
 }
 .wrapper input[type="submit"] {
   background-color: rgb(96 139 168);
-  color: #fff;
-}
-.wrapper label {
-  background-color: #666;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "12:10 - 12:14",
-                            `/en-US/docs/Web/CSS/CSS_flexible_box_layout/Typical_use_cases_of_flexbox
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-* {
-  font: 1.1em sans-serif;
-}
-
-.wrapper {
-  display: flex;
-  border: 1px solid rgb(96 139 168);
-}
-.wrapper > * {
-  padding: 10px;
-  border: none;
-  color: #fff;
-}
-.wrapper > input[type="text"] {
-  background-color: rgb(96 139 168 / 0.5);
-  border-right: 1px solid rgb(96 139 168);
-  flex: 1 1 auto;
-}
-.wrapper input[type="submit"] {
-  background-color: rgb(96 139 168);
-  color: #fff;
-}
-.wrapper label {
-  background-color: #666;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "21:10 - 21:14",
-                            `/en-US/docs/Web/CSS/CSS_flexible_box_layout/Typical_use_cases_of_flexbox
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-* {
-  font: 1.1em sans-serif;
-}
-
-.wrapper {
-  display: flex;
-  border: 1px solid rgb(96 139 168);
-}
-.wrapper > * {
-  padding: 10px;
-  border: none;
-  color: #fff;
-}
-.wrapper > input[type="text"] {
-  background-color: rgb(96 139 168 / 0.5);
-  border-right: 1px solid rgb(96 139 168);
-  flex: 1 1 auto;
-}
-.wrapper input[type="submit"] {
-  background-color: rgb(96 139 168);
-  color: #fff;
+  color: white;
 }
 .wrapper label {
   background-color: #666;
@@ -91440,134 +87691,6 @@ nav ul {
                         {
                           message: "Stylelint backlog",
                           data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "22:10 - 22:14",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Realizing_common_layouts_using_grids
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-img {
-  max-width: 100%;
-  display: block;
-}
-body {
-  font:
-    1.2em Helvetica,
-    arial,
-    sans-serif;
-}
-a:link,
-a:visited {
-  text-decoration: none;
-  color: #f08c00;
-}
-
-h2 {
-  background-color: #f08c00;
-  color: #fff;
-  text-align: center;
-  margin: 0;
-  padding: 20px;
-}
-
-.listing {
-  list-style: none;
-  margin: 2em;
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-}
-
-.listing li {
-  border: 1px solid #ffe066;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-}
-.listing .cta {
-  margin-block-start: auto;
-  border-block-start: 1px solid #ffe066;
-  padding: 10px;
-  text-align: center;
-}
-.listing .body {
-  padding: 10px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "22:10 - 22:14",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Realizing_common_layouts_using_grids
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-* {
-  box-sizing: border-box;
-}
-img {
-  max-width: 100%;
-  display: block;
-}
-body {
-  font:
-    1.2em Helvetica,
-    arial,
-    sans-serif;
-}
-a:link,
-a:visited {
-  text-decoration: none;
-  color: #f08c00;
-}
-
-h2 {
-  background-color: #f08c00;
-  color: #fff;
-  text-align: center;
-  margin: 0;
-  padding: 20px;
-}
-
-.listing {
-  list-style: none;
-  margin: 2em;
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-}
-
-.listing li {
-  border: 1px solid #ffe066;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-}
-.listing .cta {
-  margin-block-start: auto;
-  border-block-start: 1px solid #ffe066;
-  padding: 10px;
-  text-align: center;
-}
-.listing .body {
-  padding: 10px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
                             "    1.2em Helvetica,",
@@ -91596,7 +87719,7 @@ a:visited {
 
 h2 {
   background-color: #f08c00;
-  color: #fff;
+  color: white;
   text-align: center;
   margin: 0;
   padding: 20px;
@@ -91660,7 +87783,7 @@ a:visited {
 
 h2 {
   background-color: #f08c00;
-  color: #fff;
+  color: white;
   text-align: center;
   margin: 0;
   padding: 20px;
@@ -91688,142 +87811,6 @@ h2 {
 }
 .listing .body {
   padding: 10px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "22:10 - 22:14",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Realizing_common_layouts_using_grids
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-img {
-  max-width: 100%;
-  display: block;
-}
-body {
-  font:
-    1.2em Helvetica,
-    arial,
-    sans-serif;
-}
-a:link,
-a:visited {
-  text-decoration: none;
-  color: #f08c00;
-}
-
-h2 {
-  background-color: #f08c00;
-  color: #fff;
-  text-align: center;
-  margin: 0;
-  padding: 20px;
-}
-
-.listing li {
-  border: 1px solid #ffe066;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-}
-.listing .cta {
-  margin-block-start: auto;
-  border-block-start: 1px solid #ffe066;
-  padding: 10px;
-  text-align: center;
-}
-.listing .body {
-  padding: 10px;
-}
-
-.listing {
-  list-style: none;
-  margin: 2em;
-  display: grid;
-  gap: 20px;
-  grid-auto-flow: dense;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-}
-.listing .wide {
-  grid-column-end: span 2;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "22:10 - 22:14",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Realizing_common_layouts_using_grids
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-* {
-  box-sizing: border-box;
-}
-img {
-  max-width: 100%;
-  display: block;
-}
-body {
-  font:
-    1.2em Helvetica,
-    arial,
-    sans-serif;
-}
-a:link,
-a:visited {
-  text-decoration: none;
-  color: #f08c00;
-}
-
-h2 {
-  background-color: #f08c00;
-  color: #fff;
-  text-align: center;
-  margin: 0;
-  padding: 20px;
-}
-
-.listing li {
-  border: 1px solid #ffe066;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-}
-.listing .cta {
-  margin-block-start: auto;
-  border-block-start: 1px solid #ffe066;
-  padding: 10px;
-  text-align: center;
-}
-.listing .body {
-  padding: 10px;
-}
-
-.listing {
-  list-style: none;
-  margin: 2em;
-  display: grid;
-  gap: 20px;
-  grid-auto-flow: dense;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-}
-.listing .wide {
-  grid-column-end: span 2;
 }
 ~~~
 `
@@ -91860,7 +87847,7 @@ a:visited {
 
 h2 {
   background-color: #f08c00;
-  color: #fff;
+  color: white;
   text-align: center;
   margin: 0;
   padding: 20px;
@@ -91928,7 +87915,7 @@ a:visited {
 
 h2 {
   background-color: #f08c00;
-  color: #fff;
+  color: white;
   text-align: center;
   margin: 0;
   padding: 20px;
@@ -92162,7 +88149,7 @@ h2 {
   left: 40px;
   background-color: rgb(255 255 255 / 50%);
   border: 1px solid rgb(0 0 0 / 50%);
-  color: #000;
+  color: black;
   padding: 10px;
 }
 ~~~
@@ -92216,115 +88203,7 @@ h2 {
   left: 40px;
   background-color: rgb(255 255 255 / 50%);
   border: 1px solid rgb(0 0 0 / 50%);
-  color: #000;
-  padding: 10px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#000" to be "#000000" (color-hex-length)',
-                            "  color: #000;",
-                            "38:10 - 38:14",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 200px;
-  gap: 20px;
-}
-.box3 {
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  position: relative;
-}
-.abspos {
-  position: absolute;
-  top: 40px;
-  left: 40px;
-  background-color: rgb(255 255 255 / 50%);
-  border: 1px solid rgb(0 0 0 / 50%);
-  color: #000;
-  padding: 10px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#000" to be "black" (color-named)',
-                            "  color: #000;",
-                            "38:10 - 38:14",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 200px;
-  gap: 20px;
-}
-.box3 {
-  grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  position: relative;
-}
-.abspos {
-  position: absolute;
-  top: 40px;
-  left: 40px;
-  background-color: rgb(255 255 255 / 50%);
-  border: 1px solid rgb(0 0 0 / 50%);
-  color: #000;
+  color: black;
   padding: 10px;
 }
 ~~~
@@ -92378,7 +88257,7 @@ h2 {
   left: 40px;
   background-color: rgb(255 255 255 / 50%);
   border: 1px solid rgb(0 0 0 / 50%);
-  color: #000;
+  color: black;
   padding: 10px;
 }
 ~~~
@@ -92432,7 +88311,7 @@ h2 {
   left: 40px;
   background-color: rgb(255 255 255 / 50%);
   border: 1px solid rgb(0 0 0 / 50%);
-  color: #000;
+  color: black;
   padding: 10px;
 }
 ~~~
@@ -92486,7 +88365,7 @@ h2 {
   left: 40px;
   background-color: rgb(255 255 255 / 50%);
   border: 1px solid rgb(0 0 0 / 50%);
-  color: #000;
+  color: black;
   padding: 10px;
 }
 ~~~
@@ -92595,214 +88474,6 @@ h2 {
                       slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid",
                       messages: [
                         {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "22:10 - 22:14",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-body {
-  font: 1.2em sans-serif;
-}
-
-.grid {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.item {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  color: #d9480f;
-}
-
-.subitem {
-  background-color: #d9480f;
-  color: #fff;
-  border-radius: 5px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: repeat(4, minmax(100px, auto));
-}
-
-.item {
-  display: grid;
-  grid-column: 2 / 7;
-  grid-row: 2 / 4;
-  grid-template-columns: subgrid;
-  grid-template-rows: subgrid;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "22:10 - 22:14",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-* {
-  box-sizing: border-box;
-}
-body {
-  font: 1.2em sans-serif;
-}
-
-.grid {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.item {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  color: #d9480f;
-}
-
-.subitem {
-  background-color: #d9480f;
-  color: #fff;
-  border-radius: 5px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: repeat(4, minmax(100px, auto));
-}
-
-.item {
-  display: grid;
-  grid-column: 2 / 7;
-  grid-row: 2 / 4;
-  grid-template-columns: subgrid;
-  grid-template-rows: subgrid;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "22:10 - 22:14",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-body {
-  font: 1.2em sans-serif;
-}
-
-.grid {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.item {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  color: #d9480f;
-}
-
-.subitem {
-  background-color: #d9480f;
-  color: #fff;
-  border-radius: 5px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: repeat(4, minmax(100px, auto));
-}
-
-.item {
-  display: grid;
-  grid-column: 2 / 7;
-  grid-row: 2 / 4;
-  grid-template-columns: subgrid;
-  grid-auto-rows: minmax(100px, auto);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "22:10 - 22:14",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-* {
-  box-sizing: border-box;
-}
-body {
-  font: 1.2em sans-serif;
-}
-
-.grid {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.item {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  color: #d9480f;
-}
-
-.subitem {
-  background-color: #d9480f;
-  color: #fff;
-  border-radius: 5px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: repeat(4, minmax(100px, auto));
-}
-
-.item {
-  display: grid;
-  grid-column: 2 / 7;
-  grid-row: 2 / 4;
-  grid-template-columns: subgrid;
-  grid-auto-rows: minmax(100px, auto);
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Unexpected BCD keys",
                           data: [
                             "Actual:",
@@ -92887,7 +88558,7 @@ body {
                           data: [
                             "alpha-value-notation",
                             'Expected "80%" to be "0.8" (alpha-value-notation)',
-                            "    linear-gradient(217deg, rgb(255 0 0 / 80%), rgb(255 0 0 / 0%) 70.71%),",
+                            "    linear-gradient(217deg, rgb(255 0 0 / 80%), transparent 70.71%),",
                             "8:43 - 8:46",
                             `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
 [alpha-value-notation] Expected "80%" to be "0.8" (alpha-value-notation)
@@ -92899,34 +88570,9 @@ div {
 
 .stacked-linear {
   background:
-    linear-gradient(217deg, rgb(255 0 0 / 80%), rgb(255 0 0 / 0%) 70.71%),
-    linear-gradient(127deg, rgb(0 255 0 / 80%), rgb(0 255 0 / 0%) 70.71%),
-    linear-gradient(336deg, rgb(0 0 255 / 80%), rgb(0 0 255 / 0%) 70.71%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "0%" to be "0" (alpha-value-notation)',
-                            "    linear-gradient(217deg, rgb(255 0 0 / 80%), rgb(255 0 0 / 0%) 70.71%),",
-                            "8:63 - 8:65",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "0%" to be "0" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.stacked-linear {
-  background:
-    linear-gradient(217deg, rgb(255 0 0 / 80%), rgb(255 0 0 / 0%) 70.71%),
-    linear-gradient(127deg, rgb(0 255 0 / 80%), rgb(0 255 0 / 0%) 70.71%),
-    linear-gradient(336deg, rgb(0 0 255 / 80%), rgb(0 0 255 / 0%) 70.71%);
+    linear-gradient(217deg, rgb(255 0 0 / 80%), transparent 70.71%),
+    linear-gradient(127deg, rgb(0 255 0 / 80%), transparent 70.71%),
+    linear-gradient(336deg, rgb(0 0 255 / 80%), transparent 70.71%);
 }
 ~~~
 `
@@ -92937,7 +88583,7 @@ div {
                           data: [
                             "alpha-value-notation",
                             'Expected "80%" to be "0.8" (alpha-value-notation)',
-                            "    linear-gradient(127deg, rgb(0 255 0 / 80%), rgb(0 255 0 / 0%) 70.71%),",
+                            "    linear-gradient(127deg, rgb(0 255 0 / 80%), transparent 70.71%),",
                             "9:43 - 9:46",
                             `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
 [alpha-value-notation] Expected "80%" to be "0.8" (alpha-value-notation)
@@ -92949,34 +88595,9 @@ div {
 
 .stacked-linear {
   background:
-    linear-gradient(217deg, rgb(255 0 0 / 80%), rgb(255 0 0 / 0%) 70.71%),
-    linear-gradient(127deg, rgb(0 255 0 / 80%), rgb(0 255 0 / 0%) 70.71%),
-    linear-gradient(336deg, rgb(0 0 255 / 80%), rgb(0 0 255 / 0%) 70.71%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "0%" to be "0" (alpha-value-notation)',
-                            "    linear-gradient(127deg, rgb(0 255 0 / 80%), rgb(0 255 0 / 0%) 70.71%),",
-                            "9:63 - 9:65",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "0%" to be "0" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.stacked-linear {
-  background:
-    linear-gradient(217deg, rgb(255 0 0 / 80%), rgb(255 0 0 / 0%) 70.71%),
-    linear-gradient(127deg, rgb(0 255 0 / 80%), rgb(0 255 0 / 0%) 70.71%),
-    linear-gradient(336deg, rgb(0 0 255 / 80%), rgb(0 0 255 / 0%) 70.71%);
+    linear-gradient(217deg, rgb(255 0 0 / 80%), transparent 70.71%),
+    linear-gradient(127deg, rgb(0 255 0 / 80%), transparent 70.71%),
+    linear-gradient(336deg, rgb(0 0 255 / 80%), transparent 70.71%);
 }
 ~~~
 `
@@ -92987,7 +88608,7 @@ div {
                           data: [
                             "alpha-value-notation",
                             'Expected "80%" to be "0.8" (alpha-value-notation)',
-                            "    linear-gradient(336deg, rgb(0 0 255 / 80%), rgb(0 0 255 / 0%) 70.71%);",
+                            "    linear-gradient(336deg, rgb(0 0 255 / 80%), transparent 70.71%);",
                             "10:43 - 10:46",
                             `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
 [alpha-value-notation] Expected "80%" to be "0.8" (alpha-value-notation)
@@ -92999,212 +88620,9 @@ div {
 
 .stacked-linear {
   background:
-    linear-gradient(217deg, rgb(255 0 0 / 80%), rgb(255 0 0 / 0%) 70.71%),
-    linear-gradient(127deg, rgb(0 255 0 / 80%), rgb(0 255 0 / 0%) 70.71%),
-    linear-gradient(336deg, rgb(0 0 255 / 80%), rgb(0 0 255 / 0%) 70.71%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "0%" to be "0" (alpha-value-notation)',
-                            "    linear-gradient(336deg, rgb(0 0 255 / 80%), rgb(0 0 255 / 0%) 70.71%);",
-                            "10:63 - 10:65",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "0%" to be "0" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.stacked-linear {
-  background:
-    linear-gradient(217deg, rgb(255 0 0 / 80%), rgb(255 0 0 / 0%) 70.71%),
-    linear-gradient(127deg, rgb(0 255 0 / 80%), rgb(0 255 0 / 0%) 70.71%),
-    linear-gradient(336deg, rgb(0 0 255 / 80%), rgb(0 0 255 / 0%) 70.71%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#1e90ff" to be "dodgerblue" (color-named)',
-                            "  background: radial-gradient(red 10px, yellow 30%, #1e90ff 50%);",
-                            "7:53 - 7:60",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[color-named] Expected "#1e90ff" to be "dodgerblue" (color-named)
-~~~
-div {
-  width: 120px;
-  height: 120px;
-}
-
-.radial-gradient {
-  background: radial-gradient(red 10px, yellow 30%, #1e90ff 50%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#1e90ff" to be "dodgerblue" (color-named)',
-                            "  background: radial-gradient(at 0% 30%, red 10px, yellow 30%, #1e90ff 50%);",
-                            "7:64 - 7:71",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[color-named] Expected "#1e90ff" to be "dodgerblue" (color-named)
-~~~
-div {
-  width: 120px;
-  height: 240px;
-}
-
-.radial-gradient {
-  background: radial-gradient(at 0% 30%, red 10px, yellow 30%, #1e90ff 50%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#1e90ff" to be "dodgerblue" (color-named)',
-                            "    #1e90ff 50%,",
-                            "11:5 - 11:12",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[color-named] Expected "#1e90ff" to be "dodgerblue" (color-named)
-~~~
-div {
-  width: 240px;
-  height: 100px;
-}
-
-.radial-ellipse-side {
-  background: radial-gradient(
-    ellipse closest-side,
-    red,
-    yellow 10%,
-    #1e90ff 50%,
-    beige
-  );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#1e90ff" to be "dodgerblue" (color-named)',
-                            "    #1e90ff 50%,",
-                            "11:5 - 11:12",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[color-named] Expected "#1e90ff" to be "dodgerblue" (color-named)
-~~~
-div {
-  width: 240px;
-  height: 100px;
-}
-
-.radial-ellipse-far {
-  background: radial-gradient(
-    ellipse farthest-corner at 90% 90%,
-    red,
-    yellow 10%,
-    #1e90ff 50%,
-    beige
-  );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#1e90ff" to be "dodgerblue" (color-named)',
-                            "    #1e90ff 50%,",
-                            "11:5 - 11:12",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[color-named] Expected "#1e90ff" to be "dodgerblue" (color-named)
-~~~
-div {
-  width: 240px;
-  height: 120px;
-}
-
-.radial-circle-close {
-  background: radial-gradient(
-    circle closest-side at 25% 75%,
-    red,
-    yellow 10%,
-    #1e90ff 50%,
-    beige
-  );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#1e90ff" to be "dodgerblue" (color-named)',
-                            "    #1e90ff 50%,",
-                            "11:5 - 11:12",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[color-named] Expected "#1e90ff" to be "dodgerblue" (color-named)
-~~~
-div {
-  width: 240px;
-  height: 120px;
-}
-
-.radial-ellipse-size {
-  background: radial-gradient(
-    ellipse 50% 50px,
-    red,
-    yellow 10%,
-    #1e90ff 50%,
-    beige
-  );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#1e90ff" to be "dodgerblue" (color-named)',
-                            "  background: radial-gradient(circle 50px, red, yellow 10%, #1e90ff 50%, beige);",
-                            "7:61 - 7:68",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[color-named] Expected "#1e90ff" to be "dodgerblue" (color-named)
-~~~
-div {
-  width: 240px;
-  height: 120px;
-}
-
-.radial-circle-size {
-  background: radial-gradient(circle 50px, red, yellow 10%, #1e90ff 50%, beige);
+    linear-gradient(217deg, rgb(255 0 0 / 80%), transparent 70.71%),
+    linear-gradient(127deg, rgb(0 255 0 / 80%), transparent 70.71%),
+    linear-gradient(336deg, rgb(0 0 255 / 80%), transparent 70.71%);
 }
 ~~~
 `
@@ -93215,8 +88633,8 @@ div {
                           data: [
                             "alpha-value-notation",
                             'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "      rgb(255 0 0 / 50%),",
-                            "10:21 - 10:24",
+                            "    radial-gradient(circle at 50% 0, rgb(255 0 0 / 50%), transparent 70.71%),",
+                            "8:52 - 8:55",
                             `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
 [alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
 ~~~
@@ -93227,60 +88645,9 @@ div {
 
 .stacked-radial {
   background:
-    radial-gradient(
-      circle at 50% 0,
-      rgb(255 0 0 / 50%),
-      rgb(255 0 0 / 0%) 70.71%
-    ),
-    radial-gradient(
-      circle at 6.7% 75%,
-      rgb(0 0 255 / 50%),
-      rgb(0 0 255 / 0%) 70.71%
-    ),
-    radial-gradient(
-        circle at 93.3% 75%,
-        rgb(0 255 0 / 50%),
-        rgb(0 255 0 / 0%) 70.71%
-      )
-      beige;
-  border-radius: 50%;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "0%" to be "0" (alpha-value-notation)',
-                            "      rgb(255 0 0 / 0%) 70.71%",
-                            "11:21 - 11:23",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "0%" to be "0" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.stacked-radial {
-  background:
-    radial-gradient(
-      circle at 50% 0,
-      rgb(255 0 0 / 50%),
-      rgb(255 0 0 / 0%) 70.71%
-    ),
-    radial-gradient(
-      circle at 6.7% 75%,
-      rgb(0 0 255 / 50%),
-      rgb(0 0 255 / 0%) 70.71%
-    ),
-    radial-gradient(
-        circle at 93.3% 75%,
-        rgb(0 255 0 / 50%),
-        rgb(0 255 0 / 0%) 70.71%
-      )
+    radial-gradient(circle at 50% 0, rgb(255 0 0 / 50%), transparent 70.71%),
+    radial-gradient(circle at 6.7% 75%, rgb(0 0 255 / 50%), transparent 70.71%),
+    radial-gradient(circle at 93.3% 75%, rgb(0 255 0 / 50%), transparent 70.71%)
       beige;
   border-radius: 50%;
 }
@@ -93293,8 +88660,8 @@ div {
                           data: [
                             "alpha-value-notation",
                             'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "      rgb(0 0 255 / 50%),",
-                            "15:21 - 15:24",
+                            "    radial-gradient(circle at 6.7% 75%, rgb(0 0 255 / 50%), transparent 70.71%),",
+                            "9:55 - 9:58",
                             `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
 [alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
 ~~~
@@ -93305,60 +88672,9 @@ div {
 
 .stacked-radial {
   background:
-    radial-gradient(
-      circle at 50% 0,
-      rgb(255 0 0 / 50%),
-      rgb(255 0 0 / 0%) 70.71%
-    ),
-    radial-gradient(
-      circle at 6.7% 75%,
-      rgb(0 0 255 / 50%),
-      rgb(0 0 255 / 0%) 70.71%
-    ),
-    radial-gradient(
-        circle at 93.3% 75%,
-        rgb(0 255 0 / 50%),
-        rgb(0 255 0 / 0%) 70.71%
-      )
-      beige;
-  border-radius: 50%;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "0%" to be "0" (alpha-value-notation)',
-                            "      rgb(0 0 255 / 0%) 70.71%",
-                            "16:21 - 16:23",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "0%" to be "0" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.stacked-radial {
-  background:
-    radial-gradient(
-      circle at 50% 0,
-      rgb(255 0 0 / 50%),
-      rgb(255 0 0 / 0%) 70.71%
-    ),
-    radial-gradient(
-      circle at 6.7% 75%,
-      rgb(0 0 255 / 50%),
-      rgb(0 0 255 / 0%) 70.71%
-    ),
-    radial-gradient(
-        circle at 93.3% 75%,
-        rgb(0 255 0 / 50%),
-        rgb(0 255 0 / 0%) 70.71%
-      )
+    radial-gradient(circle at 50% 0, rgb(255 0 0 / 50%), transparent 70.71%),
+    radial-gradient(circle at 6.7% 75%, rgb(0 0 255 / 50%), transparent 70.71%),
+    radial-gradient(circle at 93.3% 75%, rgb(0 255 0 / 50%), transparent 70.71%)
       beige;
   border-radius: 50%;
 }
@@ -93371,8 +88687,8 @@ div {
                           data: [
                             "alpha-value-notation",
                             'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "        rgb(0 255 0 / 50%),",
-                            "20:23 - 20:26",
+                            "    radial-gradient(circle at 93.3% 75%, rgb(0 255 0 / 50%), transparent 70.71%)",
+                            "10:56 - 10:59",
                             `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
 [alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
 ~~~
@@ -93383,84 +88699,11 @@ div {
 
 .stacked-radial {
   background:
-    radial-gradient(
-      circle at 50% 0,
-      rgb(255 0 0 / 50%),
-      rgb(255 0 0 / 0%) 70.71%
-    ),
-    radial-gradient(
-      circle at 6.7% 75%,
-      rgb(0 0 255 / 50%),
-      rgb(0 0 255 / 0%) 70.71%
-    ),
-    radial-gradient(
-        circle at 93.3% 75%,
-        rgb(0 255 0 / 50%),
-        rgb(0 255 0 / 0%) 70.71%
-      )
+    radial-gradient(circle at 50% 0, rgb(255 0 0 / 50%), transparent 70.71%),
+    radial-gradient(circle at 6.7% 75%, rgb(0 0 255 / 50%), transparent 70.71%),
+    radial-gradient(circle at 93.3% 75%, rgb(0 255 0 / 50%), transparent 70.71%)
       beige;
   border-radius: 50%;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "0%" to be "0" (alpha-value-notation)',
-                            "        rgb(0 255 0 / 0%) 70.71%",
-                            "21:23 - 21:25",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "0%" to be "0" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.stacked-radial {
-  background:
-    radial-gradient(
-      circle at 50% 0,
-      rgb(255 0 0 / 50%),
-      rgb(255 0 0 / 0%) 70.71%
-    ),
-    radial-gradient(
-      circle at 6.7% 75%,
-      rgb(0 0 255 / 50%),
-      rgb(0 0 255 / 0%) 70.71%
-    ),
-    radial-gradient(
-        circle at 93.3% 75%,
-        rgb(0 255 0 / 50%),
-        rgb(0 255 0 / 0%) 70.71%
-      )
-      beige;
-  border-radius: 50%;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#1e90ff" to be "dodgerblue" (color-named)',
-                            "  background: conic-gradient(at 0% 30%, red 10%, yellow 30%, #1e90ff 50%);",
-                            "7:62 - 7:69",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[color-named] Expected "#1e90ff" to be "dodgerblue" (color-named)
-~~~
-div {
-  width: 120px;
-  height: 120px;
-}
-
-.conic-gradient {
-  background: conic-gradient(at 0% 30%, red 10%, yellow 30%, #1e90ff 50%);
 }
 ~~~
 `
@@ -97621,66 +92864,6 @@ body {
                           message: "Stylelint backlog",
                           data: [
                             "color-hex-length",
-                            'Expected "#f00" to be "#ff0000" (color-hex-length)',
-                            "    #f00 0 20px,",
-                            "26:5 - 26:9",
-                            `/en-US/docs/Web/CSS/CSS_masking/Mask_properties
-[color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  padding: 15px;
-  background-image: conic-gradient(
-    rgb(0 0 0 / 0) 90deg,
-    rgb(0 0 0 / 0.05) 90deg 180deg,
-    rgb(0 0 0 / 0) 180deg 270deg,
-    rgb(0 0 0 / 0.05) 270deg
-  );
-  background-size: 30px 30px;
-}
-div,
-svg,
-img {
-  width: 220px;
-  aspect-ratio: 1;
-}
-div {
-  border: 1px solid black;
-}
-
-img {
-  mask-image: repeating-linear-gradient(
-    to bottom right,
-    #f00 0 20px,
-    #f005 20px 40px,
-    transparent 40px 60px
-  );
-}
-.gradient {
-  background: repeating-linear-gradient(
-    to bottom right,
-    #f00 0 20px,
-    #f005 20px 40px,
-    transparent 40px 60px
-  );
-}
-
-.alpha img {
-  mask-mode: alpha;
-}
-
-.luminance img {
-  mask-mode: luminance;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
                             'Expected "#f005" to be "#ff000055" (color-hex-length)',
                             "    #f005 20px 40px,",
                             "27:5 - 27:10",
@@ -97692,9 +92875,9 @@ body {
   gap: 20px;
   padding: 15px;
   background-image: conic-gradient(
-    rgb(0 0 0 / 0) 90deg,
+    transparent 90deg,
     rgb(0 0 0 / 0.05) 90deg 180deg,
-    rgb(0 0 0 / 0) 180deg 270deg,
+    transparent 180deg 270deg,
     rgb(0 0 0 / 0.05) 270deg
   );
   background-size: 30px 30px;
@@ -97712,7 +92895,7 @@ div {
 img {
   mask-image: repeating-linear-gradient(
     to bottom right,
-    #f00 0 20px,
+    red 0 20px,
     #f005 20px 40px,
     transparent 40px 60px
   );
@@ -97720,67 +92903,7 @@ img {
 .gradient {
   background: repeating-linear-gradient(
     to bottom right,
-    #f00 0 20px,
-    #f005 20px 40px,
-    transparent 40px 60px
-  );
-}
-
-.alpha img {
-  mask-mode: alpha;
-}
-
-.luminance img {
-  mask-mode: luminance;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#f00" to be "#ff0000" (color-hex-length)',
-                            "    #f00 0 20px,",
-                            "34:5 - 34:9",
-                            `/en-US/docs/Web/CSS/CSS_masking/Mask_properties
-[color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  padding: 15px;
-  background-image: conic-gradient(
-    rgb(0 0 0 / 0) 90deg,
-    rgb(0 0 0 / 0.05) 90deg 180deg,
-    rgb(0 0 0 / 0) 180deg 270deg,
-    rgb(0 0 0 / 0.05) 270deg
-  );
-  background-size: 30px 30px;
-}
-div,
-svg,
-img {
-  width: 220px;
-  aspect-ratio: 1;
-}
-div {
-  border: 1px solid black;
-}
-
-img {
-  mask-image: repeating-linear-gradient(
-    to bottom right,
-    #f00 0 20px,
-    #f005 20px 40px,
-    transparent 40px 60px
-  );
-}
-.gradient {
-  background: repeating-linear-gradient(
-    to bottom right,
-    #f00 0 20px,
+    red 0 20px,
     #f005 20px 40px,
     transparent 40px 60px
   );
@@ -97812,9 +92935,9 @@ body {
   gap: 20px;
   padding: 15px;
   background-image: conic-gradient(
-    rgb(0 0 0 / 0) 90deg,
+    transparent 90deg,
     rgb(0 0 0 / 0.05) 90deg 180deg,
-    rgb(0 0 0 / 0) 180deg 270deg,
+    transparent 180deg 270deg,
     rgb(0 0 0 / 0.05) 270deg
   );
   background-size: 30px 30px;
@@ -97832,7 +92955,7 @@ div {
 img {
   mask-image: repeating-linear-gradient(
     to bottom right,
-    #f00 0 20px,
+    red 0 20px,
     #f005 20px 40px,
     transparent 40px 60px
   );
@@ -97840,7 +92963,7 @@ img {
 .gradient {
   background: repeating-linear-gradient(
     to bottom right,
-    #f00 0 20px,
+    red 0 20px,
     #f005 20px 40px,
     transparent 40px 60px
   );
@@ -97852,195 +92975,6 @@ img {
 
 .luminance img {
   mask-mode: luminance;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#f00" to be "red" (color-named)',
-                            "    #f00 0 20px,",
-                            "26:5 - 26:9",
-                            `/en-US/docs/Web/CSS/CSS_masking/Mask_properties
-[color-named] Expected "#f00" to be "red" (color-named)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  padding: 15px;
-  background-image: conic-gradient(
-    rgb(0 0 0 / 0) 90deg,
-    rgb(0 0 0 / 0.05) 90deg 180deg,
-    rgb(0 0 0 / 0) 180deg 270deg,
-    rgb(0 0 0 / 0.05) 270deg
-  );
-  background-size: 30px 30px;
-}
-div,
-svg,
-img {
-  width: 220px;
-  aspect-ratio: 1;
-}
-div {
-  border: 1px solid black;
-}
-
-img {
-  mask-image: repeating-linear-gradient(
-    to bottom right,
-    #f00 0 20px,
-    #f005 20px 40px,
-    transparent 40px 60px
-  );
-}
-.gradient {
-  background: repeating-linear-gradient(
-    to bottom right,
-    #f00 0 20px,
-    #f005 20px 40px,
-    transparent 40px 60px
-  );
-}
-
-.alpha img {
-  mask-mode: alpha;
-}
-
-.luminance img {
-  mask-mode: luminance;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#f00" to be "red" (color-named)',
-                            "    #f00 0 20px,",
-                            "34:5 - 34:9",
-                            `/en-US/docs/Web/CSS/CSS_masking/Mask_properties
-[color-named] Expected "#f00" to be "red" (color-named)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  padding: 15px;
-  background-image: conic-gradient(
-    rgb(0 0 0 / 0) 90deg,
-    rgb(0 0 0 / 0.05) 90deg 180deg,
-    rgb(0 0 0 / 0) 180deg 270deg,
-    rgb(0 0 0 / 0.05) 270deg
-  );
-  background-size: 30px 30px;
-}
-div,
-svg,
-img {
-  width: 220px;
-  aspect-ratio: 1;
-}
-div {
-  border: 1px solid black;
-}
-
-img {
-  mask-image: repeating-linear-gradient(
-    to bottom right,
-    #f00 0 20px,
-    #f005 20px 40px,
-    transparent 40px 60px
-  );
-}
-.gradient {
-  background: repeating-linear-gradient(
-    to bottom right,
-    #f00 0 20px,
-    #f005 20px 40px,
-    transparent 40px 60px
-  );
-}
-
-.alpha img {
-  mask-mode: alpha;
-}
-
-.luminance img {
-  mask-mode: luminance;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#f00" to be "#ff0000" (color-hex-length)',
-                            "      #f00 0 20px,",
-                            "27:7 - 27:11",
-                            `/en-US/docs/Web/CSS/CSS_masking/Mask_properties
-[color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  padding: 15px;
-  background-image: conic-gradient(
-    rgb(0 0 0 / 0) 90deg,
-    rgb(0 0 0 / 0.05) 90deg 180deg,
-    rgb(0 0 0 / 0) 180deg 270deg,
-    rgb(0 0 0 / 0.05) 270deg
-  );
-  background-size: 30px 30px;
-}
-div,
-svg,
-img {
-  width: 220px;
-  aspect-ratio: 1;
-}
-div {
-  border: 1px solid black;
-}
-
-img {
-  mask-image:
-    repeating-linear-gradient(
-      to bottom right,
-      #f00 0 20px,
-      #f005 20px 40px,
-      transparent 40px 60px
-    ),
-    url("https://mdn.github.io/shared-assets/images/examples/mask-star.svg");
-}
-
-.add img {
-  mask-composite: add;
-}
-.subtract img {
-  mask-composite: subtract;
-}
-.intersect img {
-  mask-composite: intersect;
-}
-.exclude img {
-  mask-composite: exclude;
-}
-
-div::before {
-  content: "mask-composite: " attr(class);
-  display: block;
-  text-align: center;
-  font-family: monospace;
-}
-body {
-  flex-flow: row wrap;
 }
 ~~~
 `
@@ -98061,9 +92995,9 @@ body {
   gap: 20px;
   padding: 15px;
   background-image: conic-gradient(
-    rgb(0 0 0 / 0) 90deg,
+    transparent 90deg,
     rgb(0 0 0 / 0.05) 90deg 180deg,
-    rgb(0 0 0 / 0) 180deg 270deg,
+    transparent 180deg 270deg,
     rgb(0 0 0 / 0.05) 270deg
   );
   background-size: 30px 30px;
@@ -98082,7 +93016,7 @@ img {
   mask-image:
     repeating-linear-gradient(
       to bottom right,
-      #f00 0 20px,
+      red 0 20px,
       #f005 20px 40px,
       transparent 40px 60px
     ),
@@ -98110,145 +93044,6 @@ div::before {
 }
 body {
   flex-flow: row wrap;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#f00" to be "red" (color-named)',
-                            "      #f00 0 20px,",
-                            "27:7 - 27:11",
-                            `/en-US/docs/Web/CSS/CSS_masking/Mask_properties
-[color-named] Expected "#f00" to be "red" (color-named)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  padding: 15px;
-  background-image: conic-gradient(
-    rgb(0 0 0 / 0) 90deg,
-    rgb(0 0 0 / 0.05) 90deg 180deg,
-    rgb(0 0 0 / 0) 180deg 270deg,
-    rgb(0 0 0 / 0.05) 270deg
-  );
-  background-size: 30px 30px;
-}
-div,
-svg,
-img {
-  width: 220px;
-  aspect-ratio: 1;
-}
-div {
-  border: 1px solid black;
-}
-
-img {
-  mask-image:
-    repeating-linear-gradient(
-      to bottom right,
-      #f00 0 20px,
-      #f005 20px 40px,
-      transparent 40px 60px
-    ),
-    url("https://mdn.github.io/shared-assets/images/examples/mask-star.svg");
-}
-
-.add img {
-  mask-composite: add;
-}
-.subtract img {
-  mask-composite: subtract;
-}
-.intersect img {
-  mask-composite: intersect;
-}
-.exclude img {
-  mask-composite: exclude;
-}
-
-div::before {
-  content: "mask-composite: " attr(class);
-  display: block;
-  text-align: center;
-  font-family: monospace;
-}
-body {
-  flex-flow: row wrap;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#f00" to be "#ff0000" (color-hex-length)',
-                            "      #f00 0 20px,",
-                            "51:7 - 51:11",
-                            `/en-US/docs/Web/CSS/CSS_masking/Mask_properties
-[color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  padding: 15px;
-  background-image: conic-gradient(
-    rgb(0 0 0 / 0) 90deg,
-    rgb(0 0 0 / 0.05) 90deg 180deg,
-    rgb(0 0 0 / 0) 180deg 270deg,
-    rgb(0 0 0 / 0.05) 270deg
-  );
-  background-size: 30px 30px;
-}
-div,
-svg,
-img {
-  width: 220px;
-  aspect-ratio: 1;
-}
-div {
-  border: 1px solid black;
-}
-
-.add img {
-  mask-composite: add;
-}
-.subtract img {
-  mask-composite: subtract;
-}
-.intersect img {
-  mask-composite: intersect;
-}
-.exclude img {
-  mask-composite: exclude;
-}
-
-div::before {
-  content: "mask-composite: " attr(class);
-  display: block;
-  text-align: center;
-  font-family: monospace;
-}
-body {
-  flex-flow: row wrap;
-}
-
-img {
-  mask-image:
-    url("https://mdn.github.io/shared-assets/images/examples/mask-star.svg"),
-    repeating-linear-gradient(
-      to bottom right,
-      #f00 0 20px,
-      #f005 20px 40px,
-      transparent 40px 60px
-    ),
-    none;
 }
 ~~~
 `
@@ -98269,9 +93064,9 @@ body {
   gap: 20px;
   padding: 15px;
   background-image: conic-gradient(
-    rgb(0 0 0 / 0) 90deg,
+    transparent 90deg,
     rgb(0 0 0 / 0.05) 90deg 180deg,
-    rgb(0 0 0 / 0) 180deg 270deg,
+    transparent 180deg 270deg,
     rgb(0 0 0 / 0.05) 270deg
   );
   background-size: 30px 30px;
@@ -98314,160 +93109,11 @@ img {
     url("https://mdn.github.io/shared-assets/images/examples/mask-star.svg"),
     repeating-linear-gradient(
       to bottom right,
-      #f00 0 20px,
+      red 0 20px,
       #f005 20px 40px,
       transparent 40px 60px
     ),
     none;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#f00" to be "red" (color-named)',
-                            "      #f00 0 20px,",
-                            "51:7 - 51:11",
-                            `/en-US/docs/Web/CSS/CSS_masking/Mask_properties
-[color-named] Expected "#f00" to be "red" (color-named)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  padding: 15px;
-  background-image: conic-gradient(
-    rgb(0 0 0 / 0) 90deg,
-    rgb(0 0 0 / 0.05) 90deg 180deg,
-    rgb(0 0 0 / 0) 180deg 270deg,
-    rgb(0 0 0 / 0.05) 270deg
-  );
-  background-size: 30px 30px;
-}
-div,
-svg,
-img {
-  width: 220px;
-  aspect-ratio: 1;
-}
-div {
-  border: 1px solid black;
-}
-
-.add img {
-  mask-composite: add;
-}
-.subtract img {
-  mask-composite: subtract;
-}
-.intersect img {
-  mask-composite: intersect;
-}
-.exclude img {
-  mask-composite: exclude;
-}
-
-div::before {
-  content: "mask-composite: " attr(class);
-  display: block;
-  text-align: center;
-  font-family: monospace;
-}
-body {
-  flex-flow: row wrap;
-}
-
-img {
-  mask-image:
-    url("https://mdn.github.io/shared-assets/images/examples/mask-star.svg"),
-    repeating-linear-gradient(
-      to bottom right,
-      #f00 0 20px,
-      #f005 20px 40px,
-      transparent 40px 60px
-    ),
-    none;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#f00" to be "#ff0000" (color-hex-length)',
-                            "      #f00 0 20px,",
-                            "50:7 - 50:11",
-                            `/en-US/docs/Web/CSS/CSS_masking/Mask_properties
-[color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  padding: 15px;
-  background-image: conic-gradient(
-    rgb(0 0 0 / 0) 90deg,
-    rgb(0 0 0 / 0.05) 90deg 180deg,
-    rgb(0 0 0 / 0) 180deg 270deg,
-    rgb(0 0 0 / 0.05) 270deg
-  );
-  background-size: 30px 30px;
-}
-div,
-svg,
-img {
-  width: 220px;
-  aspect-ratio: 1;
-}
-div {
-  border: 1px solid black;
-}
-
-.add img {
-  mask-composite: add;
-}
-.subtract img {
-  mask-composite: subtract;
-}
-.intersect img {
-  mask-composite: intersect;
-}
-.exclude img {
-  mask-composite: exclude;
-}
-
-div::before {
-  content: "mask-composite: " attr(class);
-  display: block;
-  text-align: center;
-  font-family: monospace;
-}
-body {
-  flex-flow: row wrap;
-}
-
-.gradientFirst {
-  mask-image:
-    repeating-linear-gradient(
-      to bottom right,
-      #f00 0 20px,
-      #f005 20px 40px,
-      transparent 40px 60px
-    ),
-    url("https://mdn.github.io/shared-assets/images/examples/mask-star.svg");
-}
-.starFirst {
-  mask-image:
-    url("https://mdn.github.io/shared-assets/images/examples/mask-star.svg"),
-    repeating-linear-gradient(
-      to bottom right,
-      #f00 0 20px,
-      #f005 20px 40px,
-      transparent 40px 60px
-    );
 }
 ~~~
 `
@@ -98488,9 +93134,9 @@ body {
   gap: 20px;
   padding: 15px;
   background-image: conic-gradient(
-    rgb(0 0 0 / 0) 90deg,
+    transparent 90deg,
     rgb(0 0 0 / 0.05) 90deg 180deg,
-    rgb(0 0 0 / 0) 180deg 270deg,
+    transparent 180deg 270deg,
     rgb(0 0 0 / 0.05) 270deg
   );
   background-size: 30px 30px;
@@ -98532,7 +93178,7 @@ body {
   mask-image:
     repeating-linear-gradient(
       to bottom right,
-      #f00 0 20px,
+      red 0 20px,
       #f005 20px 40px,
       transparent 40px 60px
     ),
@@ -98543,86 +93189,7 @@ body {
     url("https://mdn.github.io/shared-assets/images/examples/mask-star.svg"),
     repeating-linear-gradient(
       to bottom right,
-      #f00 0 20px,
-      #f005 20px 40px,
-      transparent 40px 60px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#f00" to be "#ff0000" (color-hex-length)',
-                            "      #f00 0 20px,",
-                            "61:7 - 61:11",
-                            `/en-US/docs/Web/CSS/CSS_masking/Mask_properties
-[color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  padding: 15px;
-  background-image: conic-gradient(
-    rgb(0 0 0 / 0) 90deg,
-    rgb(0 0 0 / 0.05) 90deg 180deg,
-    rgb(0 0 0 / 0) 180deg 270deg,
-    rgb(0 0 0 / 0.05) 270deg
-  );
-  background-size: 30px 30px;
-}
-div,
-svg,
-img {
-  width: 220px;
-  aspect-ratio: 1;
-}
-div {
-  border: 1px solid black;
-}
-
-.add img {
-  mask-composite: add;
-}
-.subtract img {
-  mask-composite: subtract;
-}
-.intersect img {
-  mask-composite: intersect;
-}
-.exclude img {
-  mask-composite: exclude;
-}
-
-div::before {
-  content: "mask-composite: " attr(class);
-  display: block;
-  text-align: center;
-  font-family: monospace;
-}
-body {
-  flex-flow: row wrap;
-}
-
-.gradientFirst {
-  mask-image:
-    repeating-linear-gradient(
-      to bottom right,
-      #f00 0 20px,
-      #f005 20px 40px,
-      transparent 40px 60px
-    ),
-    url("https://mdn.github.io/shared-assets/images/examples/mask-star.svg");
-}
-.starFirst {
-  mask-image:
-    url("https://mdn.github.io/shared-assets/images/examples/mask-star.svg"),
-    repeating-linear-gradient(
-      to bottom right,
-      #f00 0 20px,
+      red 0 20px,
       #f005 20px 40px,
       transparent 40px 60px
     );
@@ -98646,9 +93213,9 @@ body {
   gap: 20px;
   padding: 15px;
   background-image: conic-gradient(
-    rgb(0 0 0 / 0) 90deg,
+    transparent 90deg,
     rgb(0 0 0 / 0.05) 90deg 180deg,
-    rgb(0 0 0 / 0) 180deg 270deg,
+    transparent 180deg 270deg,
     rgb(0 0 0 / 0.05) 270deg
   );
   background-size: 30px 30px;
@@ -98690,7 +93257,7 @@ body {
   mask-image:
     repeating-linear-gradient(
       to bottom right,
-      #f00 0 20px,
+      red 0 20px,
       #f005 20px 40px,
       transparent 40px 60px
     ),
@@ -98701,165 +93268,7 @@ body {
     url("https://mdn.github.io/shared-assets/images/examples/mask-star.svg"),
     repeating-linear-gradient(
       to bottom right,
-      #f00 0 20px,
-      #f005 20px 40px,
-      transparent 40px 60px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#f00" to be "red" (color-named)',
-                            "      #f00 0 20px,",
-                            "50:7 - 50:11",
-                            `/en-US/docs/Web/CSS/CSS_masking/Mask_properties
-[color-named] Expected "#f00" to be "red" (color-named)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  padding: 15px;
-  background-image: conic-gradient(
-    rgb(0 0 0 / 0) 90deg,
-    rgb(0 0 0 / 0.05) 90deg 180deg,
-    rgb(0 0 0 / 0) 180deg 270deg,
-    rgb(0 0 0 / 0.05) 270deg
-  );
-  background-size: 30px 30px;
-}
-div,
-svg,
-img {
-  width: 220px;
-  aspect-ratio: 1;
-}
-div {
-  border: 1px solid black;
-}
-
-.add img {
-  mask-composite: add;
-}
-.subtract img {
-  mask-composite: subtract;
-}
-.intersect img {
-  mask-composite: intersect;
-}
-.exclude img {
-  mask-composite: exclude;
-}
-
-div::before {
-  content: "mask-composite: " attr(class);
-  display: block;
-  text-align: center;
-  font-family: monospace;
-}
-body {
-  flex-flow: row wrap;
-}
-
-.gradientFirst {
-  mask-image:
-    repeating-linear-gradient(
-      to bottom right,
-      #f00 0 20px,
-      #f005 20px 40px,
-      transparent 40px 60px
-    ),
-    url("https://mdn.github.io/shared-assets/images/examples/mask-star.svg");
-}
-.starFirst {
-  mask-image:
-    url("https://mdn.github.io/shared-assets/images/examples/mask-star.svg"),
-    repeating-linear-gradient(
-      to bottom right,
-      #f00 0 20px,
-      #f005 20px 40px,
-      transparent 40px 60px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#f00" to be "red" (color-named)',
-                            "      #f00 0 20px,",
-                            "61:7 - 61:11",
-                            `/en-US/docs/Web/CSS/CSS_masking/Mask_properties
-[color-named] Expected "#f00" to be "red" (color-named)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  padding: 15px;
-  background-image: conic-gradient(
-    rgb(0 0 0 / 0) 90deg,
-    rgb(0 0 0 / 0.05) 90deg 180deg,
-    rgb(0 0 0 / 0) 180deg 270deg,
-    rgb(0 0 0 / 0.05) 270deg
-  );
-  background-size: 30px 30px;
-}
-div,
-svg,
-img {
-  width: 220px;
-  aspect-ratio: 1;
-}
-div {
-  border: 1px solid black;
-}
-
-.add img {
-  mask-composite: add;
-}
-.subtract img {
-  mask-composite: subtract;
-}
-.intersect img {
-  mask-composite: intersect;
-}
-.exclude img {
-  mask-composite: exclude;
-}
-
-div::before {
-  content: "mask-composite: " attr(class);
-  display: block;
-  text-align: center;
-  font-family: monospace;
-}
-body {
-  flex-flow: row wrap;
-}
-
-.gradientFirst {
-  mask-image:
-    repeating-linear-gradient(
-      to bottom right,
-      #f00 0 20px,
-      #f005 20px 40px,
-      transparent 40px 60px
-    ),
-    url("https://mdn.github.io/shared-assets/images/examples/mask-star.svg");
-}
-.starFirst {
-  mask-image:
-    url("https://mdn.github.io/shared-assets/images/examples/mask-star.svg"),
-    repeating-linear-gradient(
-      to bottom right,
-      #f00 0 20px,
+      red 0 20px,
       #f005 20px 40px,
       transparent 40px 60px
     );
@@ -98879,124 +93288,6 @@ body {
                           data: []
                         },
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(0 0 0/1)" to be "black" (color-named)',
-                            "  mask-image: conic-gradient(rgb(0 0 0 / 1) 90deg, rgb(0 0 0 / 0) 270deg);",
-                            "18:30 - 18:44",
-                            `/en-US/docs/Web/CSS/CSS_masking/Masking
-[color-named] Expected "rgb(0 0 0/1)" to be "black" (color-named)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  padding: 15px;
-  background-image:
-    linear-gradient(to right, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%),
-    linear-gradient(to bottom, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%);
-  background-size: 20px 20px;
-}
-div,
-svg,
-img {
-  width: 220px;
-  aspect-ratio: 1;
-}
-
-.applied-mask {
-  mask-image: conic-gradient(rgb(0 0 0 / 1) 90deg, rgb(0 0 0 / 0) 270deg);
-}
-.mask-source {
-  background: conic-gradient(rgb(0 0 0 / 1) 90deg, rgb(0 0 0 / 0) 270deg);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(0 0 0/1)" to be "black" (color-named)',
-                            "  background: conic-gradient(rgb(0 0 0 / 1) 90deg, rgb(0 0 0 / 0) 270deg);",
-                            "21:30 - 21:44",
-                            `/en-US/docs/Web/CSS/CSS_masking/Masking
-[color-named] Expected "rgb(0 0 0/1)" to be "black" (color-named)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  padding: 15px;
-  background-image:
-    linear-gradient(to right, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%),
-    linear-gradient(to bottom, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%);
-  background-size: 20px 20px;
-}
-div,
-svg,
-img {
-  width: 220px;
-  aspect-ratio: 1;
-}
-
-.applied-mask {
-  mask-image: conic-gradient(rgb(0 0 0 / 1) 90deg, rgb(0 0 0 / 0) 270deg);
-}
-.mask-source {
-  background: conic-gradient(rgb(0 0 0 / 1) 90deg, rgb(0 0 0 / 0) 270deg);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#f00" to be "#ff0000" (color-hex-length)',
-                            "    #f00 0 20px,",
-                            "20:5 - 20:9",
-                            `/en-US/docs/Web/CSS/CSS_masking/Masking
-[color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  padding: 15px;
-  background-image:
-    linear-gradient(to right, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%),
-    linear-gradient(to bottom, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%);
-  background-size: 20px 20px;
-}
-div,
-svg,
-img {
-  width: 220px;
-  aspect-ratio: 1;
-}
-
-.applied-mask {
-  mask-image: repeating-linear-gradient(
-    to bottom right,
-    #f00 0 20px,
-    #f005 20px 40px,
-    transparent 40px 60px
-  );
-}
-.mask-source {
-  background: repeating-linear-gradient(
-    to bottom right,
-    #f00 0 20px,
-    #f005 20px 40px,
-    transparent 40px 60px
-  );
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "color-hex-length",
@@ -99011,8 +93302,8 @@ body {
   gap: 20px;
   padding: 15px;
   background-image:
-    linear-gradient(to right, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%),
-    linear-gradient(to bottom, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%);
+    linear-gradient(to right, transparent 50%, rgb(0 0 0 / 0.05) 50%),
+    linear-gradient(to bottom, transparent 50%, rgb(0 0 0 / 0.05) 50%);
   background-size: 20px 20px;
 }
 div,
@@ -99025,7 +93316,7 @@ img {
 .applied-mask {
   mask-image: repeating-linear-gradient(
     to bottom right,
-    #f00 0 20px,
+    red 0 20px,
     #f005 20px 40px,
     transparent 40px 60px
   );
@@ -99033,53 +93324,7 @@ img {
 .mask-source {
   background: repeating-linear-gradient(
     to bottom right,
-    #f00 0 20px,
-    #f005 20px 40px,
-    transparent 40px 60px
-  );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#f00" to be "#ff0000" (color-hex-length)',
-                            "    #f00 0 20px,",
-                            "28:5 - 28:9",
-                            `/en-US/docs/Web/CSS/CSS_masking/Masking
-[color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  padding: 15px;
-  background-image:
-    linear-gradient(to right, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%),
-    linear-gradient(to bottom, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%);
-  background-size: 20px 20px;
-}
-div,
-svg,
-img {
-  width: 220px;
-  aspect-ratio: 1;
-}
-
-.applied-mask {
-  mask-image: repeating-linear-gradient(
-    to bottom right,
-    #f00 0 20px,
-    #f005 20px 40px,
-    transparent 40px 60px
-  );
-}
-.mask-source {
-  background: repeating-linear-gradient(
-    to bottom right,
-    #f00 0 20px,
+    red 0 20px,
     #f005 20px 40px,
     transparent 40px 60px
   );
@@ -99103,8 +93348,8 @@ body {
   gap: 20px;
   padding: 15px;
   background-image:
-    linear-gradient(to right, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%),
-    linear-gradient(to bottom, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%);
+    linear-gradient(to right, transparent 50%, rgb(0 0 0 / 0.05) 50%),
+    linear-gradient(to bottom, transparent 50%, rgb(0 0 0 / 0.05) 50%);
   background-size: 20px 20px;
 }
 div,
@@ -99117,7 +93362,7 @@ img {
 .applied-mask {
   mask-image: repeating-linear-gradient(
     to bottom right,
-    #f00 0 20px,
+    red 0 20px,
     #f005 20px 40px,
     transparent 40px 60px
   );
@@ -99125,99 +93370,7 @@ img {
 .mask-source {
   background: repeating-linear-gradient(
     to bottom right,
-    #f00 0 20px,
-    #f005 20px 40px,
-    transparent 40px 60px
-  );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#f00" to be "red" (color-named)',
-                            "    #f00 0 20px,",
-                            "20:5 - 20:9",
-                            `/en-US/docs/Web/CSS/CSS_masking/Masking
-[color-named] Expected "#f00" to be "red" (color-named)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  padding: 15px;
-  background-image:
-    linear-gradient(to right, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%),
-    linear-gradient(to bottom, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%);
-  background-size: 20px 20px;
-}
-div,
-svg,
-img {
-  width: 220px;
-  aspect-ratio: 1;
-}
-
-.applied-mask {
-  mask-image: repeating-linear-gradient(
-    to bottom right,
-    #f00 0 20px,
-    #f005 20px 40px,
-    transparent 40px 60px
-  );
-}
-.mask-source {
-  background: repeating-linear-gradient(
-    to bottom right,
-    #f00 0 20px,
-    #f005 20px 40px,
-    transparent 40px 60px
-  );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#f00" to be "red" (color-named)',
-                            "    #f00 0 20px,",
-                            "28:5 - 28:9",
-                            `/en-US/docs/Web/CSS/CSS_masking/Masking
-[color-named] Expected "#f00" to be "red" (color-named)
-~~~
-body {
-  display: flex;
-  gap: 20px;
-  padding: 15px;
-  background-image:
-    linear-gradient(to right, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%),
-    linear-gradient(to bottom, rgb(0 0 0 / 0) 50%, rgb(0 0 0 / 0.05) 50%);
-  background-size: 20px 20px;
-}
-div,
-svg,
-img {
-  width: 220px;
-  aspect-ratio: 1;
-}
-
-.applied-mask {
-  mask-image: repeating-linear-gradient(
-    to bottom right,
-    #f00 0 20px,
-    #f005 20px 40px,
-    transparent 40px 60px
-  );
-}
-.mask-source {
-  background: repeating-linear-gradient(
-    to bottom right,
-    #f00 0 20px,
+    red 0 20px,
     #f005 20px 40px,
     transparent 40px 60px
   );
@@ -99320,300 +93473,6 @@ figcaption {
 }
 .container {
   column-width: 200px;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    spanning_balancing_columns: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_multicol_layout/Spanning_balancing_columns",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "12:10 - 12:14",
-                            `/en-US/docs/Web/CSS/CSS_multicol_layout/Spanning_balancing_columns
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-
-.container {
-  column-width: 250px;
-}
-
-h2 {
-  column-span: all;
-  background-color: #4d4e53;
-  color: #fff;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "12:10 - 12:14",
-                            `/en-US/docs/Web/CSS/CSS_multicol_layout/Spanning_balancing_columns
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-
-.container {
-  column-width: 250px;
-}
-
-h2 {
-  column-span: all;
-  background-color: #4d4e53;
-  color: #fff;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "12:10 - 12:14",
-                            `/en-US/docs/Web/CSS/CSS_multicol_layout/Spanning_balancing_columns
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-
-.container {
-  column-width: 250px;
-}
-
-h2 {
-  column-span: all;
-  background-color: #4d4e53;
-  color: #fff;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "12:10 - 12:14",
-                            `/en-US/docs/Web/CSS/CSS_multicol_layout/Spanning_balancing_columns
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-
-.container {
-  column-width: 250px;
-}
-
-h2 {
-  column-span: all;
-  background-color: #4d4e53;
-  color: #fff;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "15:10 - 15:14",
-                            `/en-US/docs/Web/CSS/CSS_multicol_layout/Spanning_balancing_columns
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-
-article {
-  border: 1px solid red;
-  padding: 10px;
-}
-
-.container {
-  column-width: 250px;
-}
-h2 {
-  background-color: #4d4e53;
-  color: #fff;
-  column-span: all;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "15:10 - 15:14",
-                            `/en-US/docs/Web/CSS/CSS_multicol_layout/Spanning_balancing_columns
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-
-article {
-  border: 1px solid red;
-  padding: 10px;
-}
-
-.container {
-  column-width: 250px;
-}
-h2 {
-  background-color: #4d4e53;
-  color: #fff;
-  column-span: all;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "6:10 - 6:14",
-                            `/en-US/docs/Web/CSS/CSS_multicol_layout/Spanning_balancing_columns
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-h2 {
-  background-color: #4d4e53;
-  color: #fff;
-}
-img {
-  max-width: 100%;
-}
-.container {
-  column-width: 200px;
-  column-fill: balance;
-  height: 250px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "6:10 - 6:14",
-                            `/en-US/docs/Web/CSS/CSS_multicol_layout/Spanning_balancing_columns
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-h2 {
-  background-color: #4d4e53;
-  color: #fff;
-}
-img {
-  max-width: 100%;
-}
-.container {
-  column-width: 200px;
-  column-fill: balance;
-  height: 250px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "6:10 - 6:14",
-                            `/en-US/docs/Web/CSS/CSS_multicol_layout/Spanning_balancing_columns
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-h2 {
-  background-color: #4d4e53;
-  color: #fff;
-}
-img {
-  max-width: 100%;
-}
-
-.container {
-  column-width: 150px;
-  column-fill: auto;
-  height: 250px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "6:10 - 6:14",
-                            `/en-US/docs/Web/CSS/CSS_multicol_layout/Spanning_balancing_columns
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-h2 {
-  background-color: #4d4e53;
-  color: #fff;
-}
-img {
-  max-width: 100%;
-}
-
-.container {
-  column-width: 150px;
-  column-fill: auto;
-  height: 250px;
 }
 ~~~
 `
@@ -100268,13 +94127,14 @@ ul::scroll-button(*) {
   border: 0;
   font-size: 2rem;
   background: none;
-  color: rgb(0 0 0 / 0.7);
+  color: black;
+  opacity: 0.7;
   cursor: pointer;
 }
 
 ul::scroll-button(*):hover,
 ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
+  opacity: 1;
 }
 
 ul::scroll-button(*):active {
@@ -100282,7 +94142,7 @@ ul::scroll-button(*):active {
 }
 
 ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
+  opacity: 0.2;
   cursor: unset;
 }
 
@@ -100374,13 +94234,14 @@ ul::scroll-button(*) {
   border: 0;
   font-size: 2rem;
   background: none;
-  color: rgb(0 0 0 / 0.7);
+  color: black;
+  opacity: 0.7;
   cursor: pointer;
 }
 
 ul::scroll-button(*):hover,
 ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
+  opacity: 1;
 }
 
 ul::scroll-button(*):active {
@@ -100388,113 +94249,7 @@ ul::scroll-button(*):active {
 }
 
 ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
-  cursor: unset;
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-ul {
-  anchor-name: --my-carousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --my-carousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  bottom: calc(anchor(top) + 13px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  bottom: calc(anchor(top) + 13px);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(0 0 0/1)" to be "black" (color-named)',
-                            "  color: rgb(0 0 0 / 1);",
-                            "55:10 - 55:24",
-                            `/en-US/docs/Web/CSS/CSS_overflow/CSS_carousels
-[color-named] Expected "rgb(0 0 0/1)" to be "black" (color-named)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  text-align: center;
-  font-size: 1.7rem;
-}
-
-ul {
-  width: 100vw;
-  height: 300px;
-  padding: 20px;
-  display: flex;
-  gap: 4vw;
-}
-
-li {
-  list-style-type: none;
-  background-color: #eee;
-  border: 1px solid #ddd;
-  padding: 20px;
-
-  flex: 0 0 100%;
-}
-
-li:nth-child(even) {
-  background-color: cyan;
-}
-
-ul {
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-li {
-  scroll-snap-align: center;
-}
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: rgb(0 0 0 / 0.7);
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
+  opacity: 0.2;
   cursor: unset;
 }
 
@@ -100586,13 +94341,14 @@ ul::scroll-button(*) {
   border: 0;
   font-size: 2rem;
   background: none;
-  color: rgb(0 0 0 / 0.7);
+  color: black;
+  opacity: 0.7;
   cursor: pointer;
 }
 
 ul::scroll-button(*):hover,
 ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
+  opacity: 1;
 }
 
 ul::scroll-button(*):active {
@@ -100600,7 +94356,7 @@ ul::scroll-button(*):active {
 }
 
 ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
+  opacity: 0.2;
   cursor: unset;
 }
 
@@ -100692,13 +94448,14 @@ ul::scroll-button(*) {
   border: 0;
   font-size: 2rem;
   background: none;
-  color: rgb(0 0 0 / 0.7);
+  color: black;
+  opacity: 0.7;
   cursor: pointer;
 }
 
 ul::scroll-button(*):hover,
 ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
+  opacity: 1;
 }
 
 ul::scroll-button(*):active {
@@ -100706,7 +94463,7 @@ ul::scroll-button(*):active {
 }
 
 ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
+  opacity: 0.2;
   cursor: unset;
 }
 
@@ -100798,13 +94555,14 @@ ul::scroll-button(*) {
   border: 0;
   font-size: 2rem;
   background: none;
-  color: rgb(0 0 0 / 0.7);
+  color: black;
+  opacity: 0.7;
   cursor: pointer;
 }
 
 ul::scroll-button(*):hover,
 ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
+  opacity: 1;
 }
 
 ul::scroll-button(*):active {
@@ -100812,7 +94570,7 @@ ul::scroll-button(*):active {
 }
 
 ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
+  opacity: 0.2;
   cursor: unset;
 }
 
@@ -100932,13 +94690,14 @@ ul::scroll-button(*) {
   border: 0;
   font-size: 2rem;
   background: none;
-  color: rgb(0 0 0 / 0.7);
+  color: black;
+  opacity: 0.7;
   cursor: pointer;
 }
 
 ul::scroll-button(*):hover,
 ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
+  opacity: 1;
 }
 
 ul::scroll-button(*):active {
@@ -100946,141 +94705,7 @@ ul::scroll-button(*):active {
 }
 
 ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
-  cursor: unset;
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-ul {
-  anchor-name: --my-carousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --my-carousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  bottom: calc(anchor(top) + 13px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  bottom: calc(anchor(top) + 13px);
-}
-
-ul {
-  scroll-marker-group: after;
-}
-
-ul::scroll-marker-group {
-  position: absolute;
-  position-anchor: --my-carousel;
-  top: calc(anchor(bottom) - 70px);
-  justify-self: anchor-center;
-
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-li::scroll-marker {
-  content: "";
-  width: 16px;
-  height: 16px;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 50%;
-}
-
-li::scroll-marker:target-current {
-  background-color: black;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(0 0 0/1)" to be "black" (color-named)',
-                            "  color: rgb(0 0 0 / 1);",
-                            "55:10 - 55:24",
-                            `/en-US/docs/Web/CSS/CSS_overflow/CSS_carousels
-[color-named] Expected "rgb(0 0 0/1)" to be "black" (color-named)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  text-align: center;
-  font-size: 1.7rem;
-}
-
-ul {
-  width: 100vw;
-  height: 300px;
-  padding: 20px;
-  display: flex;
-  gap: 4vw;
-}
-
-li {
-  list-style-type: none;
-  background-color: #eee;
-  border: 1px solid #ddd;
-  padding: 20px;
-
-  flex: 0 0 100%;
-}
-
-li:nth-child(even) {
-  background-color: cyan;
-}
-
-ul {
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-li {
-  scroll-snap-align: center;
-}
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: rgb(0 0 0 / 0.7);
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
+  opacity: 0.2;
   cursor: unset;
 }
 
@@ -101200,13 +94825,14 @@ ul::scroll-button(*) {
   border: 0;
   font-size: 2rem;
   background: none;
-  color: rgb(0 0 0 / 0.7);
+  color: black;
+  opacity: 0.7;
   cursor: pointer;
 }
 
 ul::scroll-button(*):hover,
 ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
+  opacity: 1;
 }
 
 ul::scroll-button(*):active {
@@ -101214,7 +94840,7 @@ ul::scroll-button(*):active {
 }
 
 ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
+  opacity: 0.2;
   cursor: unset;
 }
 
@@ -101334,13 +94960,14 @@ ul::scroll-button(*) {
   border: 0;
   font-size: 2rem;
   background: none;
-  color: rgb(0 0 0 / 0.7);
+  color: black;
+  opacity: 0.7;
   cursor: pointer;
 }
 
 ul::scroll-button(*):hover,
 ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
+  opacity: 1;
 }
 
 ul::scroll-button(*):active {
@@ -101348,7 +94975,7 @@ ul::scroll-button(*):active {
 }
 
 ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
+  opacity: 0.2;
   cursor: unset;
 }
 
@@ -101473,13 +95100,14 @@ ul::scroll-button(*) {
   border: 0;
   font-size: 2rem;
   background: none;
-  color: rgb(0 0 0 / 0.7);
+  color: black;
+  opacity: 0.7;
   cursor: pointer;
 }
 
 ul::scroll-button(*):hover,
 ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
+  opacity: 1;
 }
 
 ul::scroll-button(*):active {
@@ -101487,7 +95115,7 @@ ul::scroll-button(*):active {
 }
 
 ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
+  opacity: 0.2;
   cursor: unset;
 }
 
@@ -101611,13 +95239,14 @@ ul::scroll-button(*) {
   border: 0;
   font-size: 2rem;
   background: none;
-  color: rgb(0 0 0 / 0.7);
+  color: black;
+  opacity: 0.7;
   cursor: pointer;
 }
 
 ul::scroll-button(*):hover,
 ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
+  opacity: 1;
 }
 
 ul::scroll-button(*):active {
@@ -101625,145 +95254,7 @@ ul::scroll-button(*):active {
 }
 
 ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
-  cursor: unset;
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-ul {
-  anchor-name: --my-carousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --my-carousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  bottom: calc(anchor(top) + 13px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  bottom: calc(anchor(top) + 13px);
-}
-
-ul {
-  scroll-marker-group: after;
-}
-
-ul::scroll-marker-group {
-  position: absolute;
-  position-anchor: --my-carousel;
-  top: calc(anchor(bottom) - 70px);
-  justify-self: anchor-center;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-ul::column::scroll-marker {
-  content: "";
-  width: 16px;
-  height: 16px;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 10px;
-}
-
-ul::column::scroll-marker:target-current {
-  background-color: black;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(0 0 0/1)" to be "black" (color-named)',
-                            "  color: rgb(0 0 0 / 1);",
-                            "60:10 - 60:24",
-                            `/en-US/docs/Web/CSS/CSS_overflow/CSS_carousels
-[color-named] Expected "rgb(0 0 0/1)" to be "black" (color-named)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  text-align: center;
-  font-size: 1.7rem;
-}
-
-ul {
-  width: 100vw;
-  height: 300px;
-  padding: 10px;
-
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-
-  columns: 1;
-  text-align: center;
-}
-
-li {
-  list-style-type: none;
-
-  display: inline-block;
-  height: 100%;
-  width: 200px;
-
-  background-color: #eee;
-  border: 1px solid #ddd;
-  padding: 20px;
-  margin: 0 10px;
-
-  text-align: left;
-}
-
-li:nth-child(even) {
-  background-color: cyan;
-}
-
-ul::column {
-  scroll-snap-align: center;
-}
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: rgb(0 0 0 / 0.7);
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
+  opacity: 0.2;
   cursor: unset;
 }
 
@@ -101887,13 +95378,14 @@ ul::scroll-button(*) {
   border: 0;
   font-size: 2rem;
   background: none;
-  color: rgb(0 0 0 / 0.7);
+  color: black;
+  opacity: 0.7;
   cursor: pointer;
 }
 
 ul::scroll-button(*):hover,
 ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
+  opacity: 1;
 }
 
 ul::scroll-button(*):active {
@@ -101901,7 +95393,7 @@ ul::scroll-button(*):active {
 }
 
 ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
+  opacity: 0.2;
   cursor: unset;
 }
 
@@ -102025,13 +95517,14 @@ ul::scroll-button(*) {
   border: 0;
   font-size: 2rem;
   background: none;
-  color: rgb(0 0 0 / 0.7);
+  color: black;
+  opacity: 0.7;
   cursor: pointer;
 }
 
 ul::scroll-button(*):hover,
 ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
+  opacity: 1;
 }
 
 ul::scroll-button(*):active {
@@ -102039,7 +95532,7 @@ ul::scroll-button(*):active {
 }
 
 ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
+  opacity: 0.2;
   cursor: unset;
 }
 
@@ -108023,8 +101516,8 @@ body {
   position: sticky;
   top: 0;
   min-height: 40px;
-  background-color: #000;
-  color: #fff;
+  background-color: black;
+  color: white;
   margin: 0;
   padding: 0;
 }
@@ -108080,236 +101573,8 @@ body {
   position: sticky;
   top: 0;
   min-height: 40px;
-  background-color: #000;
-  color: #fff;
-  margin: 0;
-  padding: 0;
-}
-
-.scroller h2 {
-  margin: 0;
-  padding: 0;
-}
-
-.scroller {
-  height: 300px;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-  scroll-padding: 50px;
-}
-
-.scroller section {
-  scroll-snap-align: start;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#000" to be "#000000" (color-hex-length)',
-                            "  background-color: #000;",
-                            "23:21 - 23:25",
-                            `/en-US/docs/Web/CSS/CSS_scroll_snap/Basic_concepts
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-
-.scroller {
-  border: 4px solid #333;
-  width: 300px;
-}
-
-.scroller section {
-  min-height: 100%;
-  padding: 10px;
-}
-
-.scroller section:nth-child(odd) {
-  background-color: #ccc;
-}
-
-.scroller h1 {
-  position: sticky;
-  top: 0;
-  min-height: 40px;
-  background-color: #000;
-  color: #fff;
-  margin: 0;
-  padding: 0;
-}
-
-.scroller h2 {
-  margin: 0;
-  padding: 0;
-}
-
-.scroller {
-  height: 300px;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-  scroll-padding: 50px;
-}
-
-.scroller section {
-  scroll-snap-align: start;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "24:10 - 24:14",
-                            `/en-US/docs/Web/CSS/CSS_scroll_snap/Basic_concepts
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-
-.scroller {
-  border: 4px solid #333;
-  width: 300px;
-}
-
-.scroller section {
-  min-height: 100%;
-  padding: 10px;
-}
-
-.scroller section:nth-child(odd) {
-  background-color: #ccc;
-}
-
-.scroller h1 {
-  position: sticky;
-  top: 0;
-  min-height: 40px;
-  background-color: #000;
-  color: #fff;
-  margin: 0;
-  padding: 0;
-}
-
-.scroller h2 {
-  margin: 0;
-  padding: 0;
-}
-
-.scroller {
-  height: 300px;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-  scroll-padding: 50px;
-}
-
-.scroller section {
-  scroll-snap-align: start;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#000" to be "black" (color-named)',
-                            "  background-color: #000;",
-                            "23:21 - 23:25",
-                            `/en-US/docs/Web/CSS/CSS_scroll_snap/Basic_concepts
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-
-.scroller {
-  border: 4px solid #333;
-  width: 300px;
-}
-
-.scroller section {
-  min-height: 100%;
-  padding: 10px;
-}
-
-.scroller section:nth-child(odd) {
-  background-color: #ccc;
-}
-
-.scroller h1 {
-  position: sticky;
-  top: 0;
-  min-height: 40px;
-  background-color: #000;
-  color: #fff;
-  margin: 0;
-  padding: 0;
-}
-
-.scroller h2 {
-  margin: 0;
-  padding: 0;
-}
-
-.scroller {
-  height: 300px;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-  scroll-padding: 50px;
-}
-
-.scroller section {
-  scroll-snap-align: start;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "24:10 - 24:14",
-                            `/en-US/docs/Web/CSS/CSS_scroll_snap/Basic_concepts
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-
-.scroller {
-  border: 4px solid #333;
-  width: 300px;
-}
-
-.scroller section {
-  min-height: 100%;
-  padding: 10px;
-}
-
-.scroller section:nth-child(odd) {
-  background-color: #ccc;
-}
-
-.scroller h1 {
-  position: sticky;
-  top: 0;
-  min-height: 40px;
-  background-color: #000;
-  color: #fff;
+  background-color: black;
+  color: white;
   margin: 0;
   padding: 0;
 }
@@ -109839,112 +103104,6 @@ article.snapDisabled ul {
                     }
                   ]
                 },
-                css_text_decoration: {
-                  children: {
-                    text_shadows: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_text_decoration/Text_shadows",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(0 0 0)" to be "black" (color-named)',
-                            "  color: rgb(0 0 0);",
-                            "9:10 - 9:20",
-                            `/en-US/docs/Web/CSS/CSS_text_decoration/Text_shadows
-[color-named] Expected "rgb(0 0 0)" to be "black" (color-named)
-~~~
-p {
-  text-shadow:
-    5px 5px 0 mediumblue,
-    10px 10px 5px magenta,
-    15px 15px 10px rebeccapurple;
-}
-
-.opaque {
-  color: rgb(0 0 0);
-}
-
-.semitransparent {
-  color: rgb(0 0 0 / 0.5);
-}
-
-.transparent {
-  color: rgb(0 0 0 / 0);
-}
-
-.white {
-  color: rgb(255 255 255);
-}
-
-.semi-white {
-  color: rgb(255 255 255 / 0.75);
-}
-
-p {
-  border: 1px solid black;
-  padding: 20px;
-  font-family: sans-serif;
-  font-size: 1.75rem;
-  font-weight: bold;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(255 255 255)" to be "white" (color-named)',
-                            "  color: rgb(255 255 255);",
-                            "21:10 - 21:26",
-                            `/en-US/docs/Web/CSS/CSS_text_decoration/Text_shadows
-[color-named] Expected "rgb(255 255 255)" to be "white" (color-named)
-~~~
-p {
-  text-shadow:
-    5px 5px 0 mediumblue,
-    10px 10px 5px magenta,
-    15px 15px 10px rebeccapurple;
-}
-
-.opaque {
-  color: rgb(0 0 0);
-}
-
-.semitransparent {
-  color: rgb(0 0 0 / 0.5);
-}
-
-.transparent {
-  color: rgb(0 0 0 / 0);
-}
-
-.white {
-  color: rgb(255 255 255);
-}
-
-.semi-white {
-  color: rgb(255 255 255 / 0.75);
-}
-
-p {
-  border: 1px solid black;
-  padding: 20px;
-  font-family: sans-serif;
-  font-size: 1.75rem;
-  font-weight: bold;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_text: {
                   children: {
                     wrapping_breaking_text: {
@@ -110048,108 +103207,7 @@ p {
 }
 
 .back {
-  background: rgb(0 255 0 / 100%);
-  color: black;
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(196 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 196 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(196 196 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(196 0 196 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-
-/* Make the table a little nicer */
-th,
-p,
-td {
-  background-color: #eeeeee;
-  padding: 10px;
-  font-family: sans-serif;
-  text-align: left;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "100%" to be "1" (alpha-value-notation)',
-                            "  background: rgb(0 255 0 / 100%);",
-                            "54:29 - 54:33",
-                            `/en-US/docs/Web/CSS/CSS_transforms/Using_CSS_transforms
-[alpha-value-notation] Expected "100%" to be "1" (alpha-value-notation)
-~~~
-/* Shorthand classes for different perspective values */
-.perspective-250 {
-  perspective: 250px;
-}
-
-.perspective-350 {
-  perspective: 350px;
-}
-
-.perspective-500 {
-  perspective: 500px;
-}
-
-.perspective-650 {
-  perspective: 650px;
-}
-
-/* Define the container div, the cube div, and a generic face */
-.container {
-  width: 200px;
-  height: 200px;
-  margin: 75px 0 0 75px;
-  border: none;
-}
-
-.cube {
-  width: 100%;
-  height: 100%;
-  perspective-origin: 150% 150%;
-  transform-style: preserve-3d;
-}
-
-.face {
-  display: block;
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border: none;
-  line-height: 100px;
-  font-family: sans-serif;
-  font-size: 60px;
-  color: white;
-  text-align: center;
-  backface-visibility: visible;
-}
-
-/* Define each face based on direction */
-.front {
-  background: rgb(0 0 0 / 30%);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: rgb(0 255 0 / 100%);
+  background: lime;
   color: black;
   transform: rotateY(180deg) translateZ(50px);
 }
@@ -110250,7 +103308,7 @@ td {
 }
 
 .back {
-  background: rgb(0 255 0 / 100%);
+  background: lime;
   color: black;
   transform: rotateY(180deg) translateZ(50px);
 }
@@ -110351,7 +103409,7 @@ td {
 }
 
 .back {
-  background: rgb(0 255 0 / 100%);
+  background: lime;
   color: black;
   transform: rotateY(180deg) translateZ(50px);
 }
@@ -110452,7 +103510,7 @@ td {
 }
 
 .back {
-  background: rgb(0 255 0 / 100%);
+  background: lime;
   color: black;
   transform: rotateY(180deg) translateZ(50px);
 }
@@ -110553,108 +103611,7 @@ td {
 }
 
 .back {
-  background: rgb(0 255 0 / 100%);
-  color: black;
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(196 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 196 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(196 196 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(196 0 196 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-
-/* Make the table a little nicer */
-th,
-p,
-td {
-  background-color: #eeeeee;
-  padding: 10px;
-  font-family: sans-serif;
-  text-align: left;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(0 255 0/100%)" to be "lime" (color-named)',
-                            "  background: rgb(0 255 0 / 100%);",
-                            "54:15 - 54:34",
-                            `/en-US/docs/Web/CSS/CSS_transforms/Using_CSS_transforms
-[color-named] Expected "rgb(0 255 0/100%)" to be "lime" (color-named)
-~~~
-/* Shorthand classes for different perspective values */
-.perspective-250 {
-  perspective: 250px;
-}
-
-.perspective-350 {
-  perspective: 350px;
-}
-
-.perspective-500 {
-  perspective: 500px;
-}
-
-.perspective-650 {
-  perspective: 650px;
-}
-
-/* Define the container div, the cube div, and a generic face */
-.container {
-  width: 200px;
-  height: 200px;
-  margin: 75px 0 0 75px;
-  border: none;
-}
-
-.cube {
-  width: 100%;
-  height: 100%;
-  perspective-origin: 150% 150%;
-  transform-style: preserve-3d;
-}
-
-.face {
-  display: block;
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border: none;
-  line-height: 100px;
-  font-family: sans-serif;
-  font-size: 60px;
-  color: white;
-  text-align: center;
-  backface-visibility: visible;
-}
-
-/* Define each face based on direction */
-.front {
-  background: rgb(0 0 0 / 30%);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: rgb(0 255 0 / 100%);
+  background: lime;
   color: black;
   transform: rotateY(180deg) translateZ(50px);
 }
@@ -110775,124 +103732,7 @@ td {
   transform: translateZ(50px);
 }
 .back {
-  background: rgb(0 255 0 / 100%);
-  color: black;
-  transform: rotateY(180deg) translateZ(50px);
-}
-.right {
-  background: rgb(196 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-.left {
-  background: rgb(0 0 196 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-.top {
-  background: rgb(196 196 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-.bottom {
-  background: rgb(196 0 196 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-
-/* Make the layout a little nicer */
-section {
-  background-color: #eee;
-  padding: 10px;
-  font-family: sans-serif;
-  text-align: left;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "100%" to be "1" (alpha-value-notation)',
-                            "  background: rgb(0 255 0 / 100%);",
-                            "74:29 - 74:33",
-                            `/en-US/docs/Web/CSS/CSS_transforms/Using_CSS_transforms
-[alpha-value-notation] Expected "100%" to be "1" (alpha-value-notation)
-~~~
-/* perspective-origin values (unique per example) */
-.po-tl {
-  perspective-origin: top left;
-}
-.po-tm {
-  perspective-origin: top;
-}
-.po-tr {
-  perspective-origin: top right;
-}
-.po-ml {
-  perspective-origin: left;
-}
-.po-mm {
-  perspective-origin: 50% 50%;
-}
-.po-mr {
-  perspective-origin: right;
-}
-.po-bl {
-  perspective-origin: bottom left;
-}
-.po-bm {
-  perspective-origin: bottom;
-}
-.po-br {
-  perspective-origin: bottom right;
-}
-.po-200200neg {
-  perspective-origin: -200% -200%;
-}
-.po-200200pos {
-  perspective-origin: 200% 200%;
-}
-.po-200200 {
-  perspective-origin: 200% -200%;
-}
-
-/* Define the container div, the cube div, and a generic face */
-.container {
-  width: 100px;
-  height: 100px;
-  margin: 24px;
-  border: none;
-}
-
-.cube {
-  width: 100%;
-  height: 100%;
-  perspective: 300px;
-  transform-style: preserve-3d;
-}
-
-.face {
-  display: block;
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border: none;
-  line-height: 100px;
-  font-family: sans-serif;
-  font-size: 60px;
-  color: white;
-  text-align: center;
-  backface-visibility: visible;
-}
-
-/* Define each face based on direction */
-.front {
-  background: rgb(0 0 0 / 30%);
-  transform: translateZ(50px);
-}
-.back {
-  background: rgb(0 255 0 / 100%);
+  background: lime;
   color: black;
   transform: rotateY(180deg) translateZ(50px);
 }
@@ -111009,7 +103849,7 @@ section {
   transform: translateZ(50px);
 }
 .back {
-  background: rgb(0 255 0 / 100%);
+  background: lime;
   color: black;
   transform: rotateY(180deg) translateZ(50px);
 }
@@ -111126,7 +103966,7 @@ section {
   transform: translateZ(50px);
 }
 .back {
-  background: rgb(0 255 0 / 100%);
+  background: lime;
   color: black;
   transform: rotateY(180deg) translateZ(50px);
 }
@@ -111243,7 +104083,7 @@ section {
   transform: translateZ(50px);
 }
 .back {
-  background: rgb(0 255 0 / 100%);
+  background: lime;
   color: black;
   transform: rotateY(180deg) translateZ(50px);
 }
@@ -111360,7 +104200,7 @@ section {
   transform: translateZ(50px);
 }
 .back {
-  background: rgb(0 255 0 / 100%);
+  background: lime;
   color: black;
   transform: rotateY(180deg) translateZ(50px);
 }
@@ -111477,124 +104317,7 @@ section {
   transform: translateZ(50px);
 }
 .back {
-  background: rgb(0 255 0 / 100%);
-  color: black;
-  transform: rotateY(180deg) translateZ(50px);
-}
-.right {
-  background: rgb(196 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-.left {
-  background: rgb(0 0 196 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-.top {
-  background: rgb(196 196 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-.bottom {
-  background: rgb(196 0 196 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-
-/* Make the layout a little nicer */
-section {
-  background-color: #eee;
-  padding: 10px;
-  font-family: sans-serif;
-  text-align: left;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(0 255 0/100%)" to be "lime" (color-named)',
-                            "  background: rgb(0 255 0 / 100%);",
-                            "74:15 - 74:34",
-                            `/en-US/docs/Web/CSS/CSS_transforms/Using_CSS_transforms
-[color-named] Expected "rgb(0 255 0/100%)" to be "lime" (color-named)
-~~~
-/* perspective-origin values (unique per example) */
-.po-tl {
-  perspective-origin: top left;
-}
-.po-tm {
-  perspective-origin: top;
-}
-.po-tr {
-  perspective-origin: top right;
-}
-.po-ml {
-  perspective-origin: left;
-}
-.po-mm {
-  perspective-origin: 50% 50%;
-}
-.po-mr {
-  perspective-origin: right;
-}
-.po-bl {
-  perspective-origin: bottom left;
-}
-.po-bm {
-  perspective-origin: bottom;
-}
-.po-br {
-  perspective-origin: bottom right;
-}
-.po-200200neg {
-  perspective-origin: -200% -200%;
-}
-.po-200200pos {
-  perspective-origin: 200% 200%;
-}
-.po-200200 {
-  perspective-origin: 200% -200%;
-}
-
-/* Define the container div, the cube div, and a generic face */
-.container {
-  width: 100px;
-  height: 100px;
-  margin: 24px;
-  border: none;
-}
-
-.cube {
-  width: 100%;
-  height: 100%;
-  perspective: 300px;
-  transform-style: preserve-3d;
-}
-
-.face {
-  display: block;
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border: none;
-  line-height: 100px;
-  font-family: sans-serif;
-  font-size: 60px;
-  color: white;
-  text-align: center;
-  backface-visibility: visible;
-}
-
-/* Define each face based on direction */
-.front {
-  background: rgb(0 0 0 / 30%);
-  transform: translateZ(50px);
-}
-.back {
-  background: rgb(0 255 0 / 100%);
+  background: lime;
   color: black;
   transform: rotateY(180deg) translateZ(50px);
 }
@@ -112993,40 +105716,6 @@ output {
                       slug: "/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions",
                       messages: [
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#0000ff" to be "blue" (color-named)',
-                            "  background-color: #0000ff;",
-                            "7:21 - 7:28",
-                            `/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions
-[color-named] Expected "#0000ff" to be "blue" (color-named)
-~~~
-.box {
-  border-style: solid;
-  border-width: 1px;
-  display: block;
-  width: 100px;
-  height: 100px;
-  background-color: #0000ff;
-  transition:
-    width 2s,
-    height 2s,
-    background-color 2s,
-    rotate 2s;
-}
-
-.box:hover {
-  background-color: #ffcccc;
-  width: 200px;
-  height: 200px;
-  rotate: 180deg;
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "color-hex-length",
@@ -113044,7 +105733,7 @@ nav {
 a {
   flex: 1;
   background-color: #333;
-  color: #fff;
+  color: white;
   border: 1px solid;
   padding: 0.5rem;
   text-align: center;
@@ -113054,77 +105743,7 @@ a {
 
 a:hover,
 a:focus {
-  background-color: #fff;
-  color: #333;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "9:10 - 9:14",
-                            `/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-nav {
-  display: flex;
-  gap: 0.5rem;
-}
-
-a {
-  flex: 1;
-  background-color: #333;
-  color: #fff;
-  border: 1px solid;
-  padding: 0.5rem;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.5s ease-out;
-}
-
-a:hover,
-a:focus {
-  background-color: #fff;
-  color: #333;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  background-color: #fff;",
-                            "19:21 - 19:25",
-                            `/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-nav {
-  display: flex;
-  gap: 0.5rem;
-}
-
-a {
-  flex: 1;
-  background-color: #333;
-  color: #fff;
-  border: 1px solid;
-  padding: 0.5rem;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.5s ease-out;
-}
-
-a:hover,
-a:focus {
-  background-color: #fff;
+  background-color: white;
   color: #333;
 }
 ~~~
@@ -113149,7 +105768,7 @@ nav {
 a {
   flex: 1;
   background-color: #333;
-  color: #fff;
+  color: white;
   border: 1px solid;
   padding: 0.5rem;
   text-align: center;
@@ -113159,129 +105778,8 @@ a {
 
 a:hover,
 a:focus {
-  background-color: #fff;
+  background-color: white;
   color: #333;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "9:10 - 9:14",
-                            `/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-nav {
-  display: flex;
-  gap: 0.5rem;
-}
-
-a {
-  flex: 1;
-  background-color: #333;
-  color: #fff;
-  border: 1px solid;
-  padding: 0.5rem;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.5s ease-out;
-}
-
-a:hover,
-a:focus {
-  background-color: #fff;
-  color: #333;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  background-color: #fff;",
-                            "19:21 - 19:25",
-                            `/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-nav {
-  display: flex;
-  gap: 0.5rem;
-}
-
-a {
-  flex: 1;
-  background-color: #333;
-  color: #fff;
-  border: 1px solid;
-  padding: 0.5rem;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.5s ease-out;
-}
-
-a:hover,
-a:focus {
-  background-color: #fff;
-  color: #333;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  background-color: #fff;",
-                            "2:21 - 2:25",
-                            `/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-body {
-  background-color: #fff;
-  color: #333;
-  font:
-    1.2em / 1.5 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 0;
-  margin: 0;
-}
-
-p {
-  margin-top: 3em;
-}
-
-main {
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 660px;
-  height: 400px;
-  border: 1px solid #ccc;
-  padding: 20px;
-}
-
-.ball {
-  border-radius: 25px;
-  width: 50px;
-  height: 50px;
-  background: #c00;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: transform 1s;
 }
 ~~~
 `
@@ -113298,7 +105796,7 @@ main {
 [color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
 ~~~
 body {
-  background-color: #fff;
+  background-color: white;
   color: #333;
   font:
     1.2em / 1.5 Helvetica Neue,
@@ -113349,7 +105847,7 @@ main {
 [color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
 ~~~
 body {
-  background-color: #fff;
+  background-color: white;
   color: #333;
   font:
     1.2em / 1.5 Helvetica Neue,
@@ -113400,58 +105898,7 @@ main {
 [color-hex-length] Expected "#c00" to be "#cc0000" (color-hex-length)
 ~~~
 body {
-  background-color: #fff;
-  color: #333;
-  font:
-    1.2em / 1.5 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 0;
-  margin: 0;
-}
-
-p {
-  margin-top: 3em;
-}
-
-main {
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 660px;
-  height: 400px;
-  border: 1px solid #ccc;
-  padding: 20px;
-}
-
-.ball {
-  border-radius: 25px;
-  width: 50px;
-  height: 50px;
-  background: #c00;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: transform 1s;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  background-color: #fff;",
-                            "2:21 - 2:25",
-                            `/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-body {
-  background-color: #fff;
+  background-color: white;
   color: #333;
   font:
     1.2em / 1.5 Helvetica Neue,
@@ -113502,7 +105949,7 @@ main {
 [font-family-name-quotes] Expected quotes around "Helvetica Neue" (font-family-name-quotes)
 ~~~
 body {
-  background-color: #fff;
+  background-color: white;
   color: #333;
   font:
     1.2em / 1.5 Helvetica Neue,
@@ -113553,7 +106000,7 @@ main {
 [font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
 ~~~
 body {
-  background-color: #fff;
+  background-color: white;
   color: #333;
   font:
     1.2em / 1.5 Helvetica Neue,
@@ -113604,7 +106051,7 @@ main {
 [font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
 ~~~
 body {
-  background-color: #fff;
+  background-color: white;
   color: #333;
   font:
     1.2em / 1.5 Helvetica Neue,
@@ -113682,63 +106129,7 @@ svg {
 
 path {
   fill: #f338;
-  stroke: #000;
-}
-
-path:last-of-type {
-  d: path(
-    "M10,30 A20,20 0,0,1 50,30 A20,20 0,0,1 90,30 Q90,60 50,90 Q10,60 10,30 z"
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "  stroke: #000;",
-                        "7:11 - 7:15",
-                        `/en-US/docs/Web/CSS/d
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-svg {
-  border: 1px solid;
-}
-
-path {
-  fill: #f338;
-  stroke: #000;
-}
-
-path:last-of-type {
-  d: path(
-    "M10,30 A20,20 0,0,1 50,30 A20,20 0,0,1 90,30 Q90,60 50,90 Q10,60 10,30 z"
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "  stroke: #000;",
-                        "7:11 - 7:15",
-                        `/en-US/docs/Web/CSS/d
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-svg {
-  border: 1px solid;
-}
-
-path {
-  fill: #f338;
-  stroke: #000;
+  stroke: black;
 }
 
 path:last-of-type {
@@ -113757,32 +106148,6 @@ path:last-of-type {
                   slug: "/en-US/docs/Web/CSS/dashed-ident",
                   messages: [
                     {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#ff0000" to be "red" (color-named)',
-                        "  override-colors: 0 #ff0000;",
-                        "4:22 - 4:29",
-                        `/en-US/docs/Web/CSS/dashed-ident
-[color-named] Expected "#ff0000" to be "red" (color-named)
-~~~
-@font-palette-values --my-palette {
-  font-family: Bixa;
-  base-palette: 1;
-  override-colors: 0 #ff0000;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-palette: --my-palette;
-}
-~~~
-`
-                      ]
-                    },
-                    {
                       message: "Stylelint backlog",
                       data: [
                         "font-family-name-quotes",
@@ -113795,7 +106160,7 @@ h4 {
 @font-palette-values --my-palette {
   font-family: Bixa;
   base-palette: 1;
-  override-colors: 0 #ff0000;
+  override-colors: 0 red;
 }
 
 h1,
@@ -114593,66 +106958,6 @@ ellipse {
                     }
                   ]
                 },
-                filter: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/filter",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "2:21 - 2:25",
-                        `/en-US/docs/Web/CSS/filter
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.example-container {
-  background-color: #fff;
-  width: 260px;
-  height: 260px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#example-element {
-  flex: 1;
-  padding: 30px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "2:21 - 2:25",
-                        `/en-US/docs/Web/CSS/filter
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.example-container {
-  background-color: #fff;
-  width: 260px;
-  height: 260px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#example-element {
-  flex: 1;
-  padding: 30px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "filter-function": {
                   children: {
                     blur: {
@@ -114706,70 +107011,6 @@ brightness(100%)
 
 brightness(2)   /* Brightness of input is doubled */
 brightness(200%)
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#ffffff" to be "white" (color-named)',
-                            "  text-shadow: 2px 2px #ffffff;",
-                            "6:24 - 6:31",
-                            `/en-US/docs/Web/CSS/filter-function/brightness
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-.container {
-  background: url("be_fierce.jpg") no-repeat right / contain #d4d5b2;
-}
-p {
-  backdrop-filter: brightness(150%);
-  text-shadow: 2px 2px #ffffff;
-}
-
-.container {
-  padding: 5rem 3rem 1rem;
-  width: 30rem;
-}
-p {
-  padding: 0.5rem;
-  color: #000000;
-  font-size: 2rem;
-  font-family: sans-serif;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#000000" to be "black" (color-named)',
-                            "  color: #000000;",
-                            "15:10 - 15:17",
-                            `/en-US/docs/Web/CSS/filter-function/brightness
-[color-named] Expected "#000000" to be "black" (color-named)
-~~~
-.container {
-  background: url("be_fierce.jpg") no-repeat right / contain #d4d5b2;
-}
-p {
-  backdrop-filter: brightness(150%);
-  text-shadow: 2px 2px #ffffff;
-}
-
-.container {
-  padding: 5rem 3rem 1rem;
-  width: 30rem;
-}
-p {
-  padding: 0.5rem;
-  color: #000000;
-  font-size: 2rem;
-  font-family: sans-serif;
-}
 ~~~
 `
                           ]
@@ -114832,40 +107073,7 @@ code {
 }
 p {
   padding: 0.5rem;
-  color: #ffffff;
-  font-family: sans-serif;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#ffffff" to be "white" (color-named)',
-                            "  color: #ffffff;",
-                            "17:10 - 17:17",
-                            `/en-US/docs/Web/CSS/filter-function/contrast
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-.container {
-  background: url("unity_for_the_people.jpg") no-repeat center / contain #339;
-}
-p {
-  backdrop-filter: contrast(0.5);
-}
-code {
-  backdrop-filter: contrast(0.15);
-}
-
-.container {
-  padding: 3rem;
-  width: 30rem;
-}
-p {
-  padding: 0.5rem;
-  color: #ffffff;
+  color: white;
   font-family: sans-serif;
 }
 ~~~
@@ -114971,39 +107179,6 @@ hue-rotate(540deg)
 hue-rotate(200grad)
 hue-rotate(3.14159rad)
 hue-rotate(0.5turn)
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#ffffff" to be "white" (color-named)',
-                            "  color: #ffffff;",
-                            "16:10 - 16:17",
-                            `/en-US/docs/Web/CSS/filter-function/hue-rotate
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-.container {
-  background: url("/shared-assets/images/examples/listen_to_black_women.jpg")
-    no-repeat left / contain #011296;
-}
-p {
-  backdrop-filter: hue-rotate(240deg);
-  text-shadow: 2px 2px #011296;
-}
-
-.container {
-  padding: 3rem;
-  width: 30rem;
-}
-p {
-  padding: 0.5rem;
-  color: #ffffff;
-  font-size: 2rem;
-  font-family: sans-serif;
-}
 ~~~
 `
                           ]
@@ -115663,120 +107838,6 @@ div > div {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 300px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "flex-wrap": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex-wrap",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "5:10 - 5:14",
-                        `/en-US/docs/Web/CSS/flex-wrap
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-/* Common Styles */
-.content,
-.content1,
-.content2 {
-  color: #fff;
-  font: 100 24px/100px sans-serif;
-  height: 150px;
-  width: 897px;
-  text-align: center;
-}
-
-.content div,
-.content1 div,
-.content2 div {
-  height: 50%;
-  width: 300px;
-}
-.red {
-  background: orangered;
-}
-.green {
-  background: yellowgreen;
-}
-.blue {
-  background: steelblue;
-}
-
-/* Flexbox Styles */
-.content {
-  display: flex;
-  flex-wrap: wrap;
-}
-.content1 {
-  display: flex;
-  flex-wrap: nowrap;
-}
-.content2 {
-  display: flex;
-  flex-wrap: wrap-reverse;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "5:10 - 5:14",
-                        `/en-US/docs/Web/CSS/flex-wrap
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-/* Common Styles */
-.content,
-.content1,
-.content2 {
-  color: #fff;
-  font: 100 24px/100px sans-serif;
-  height: 150px;
-  width: 897px;
-  text-align: center;
-}
-
-.content div,
-.content1 div,
-.content2 div {
-  height: 50%;
-  width: 300px;
-}
-.red {
-  background: orangered;
-}
-.green {
-  background: yellowgreen;
-}
-.blue {
-  background: steelblue;
-}
-
-/* Flexbox Styles */
-.content {
-  display: flex;
-  flex-wrap: wrap;
-}
-.content1 {
-  display: flex;
-  flex-wrap: nowrap;
-}
-.content2 {
-  display: flex;
-  flex-wrap: wrap-reverse;
 }
 ~~~
 `
@@ -118485,13 +110546,13 @@ conic-gradient(red 40grad, 80grad, blue 360grad);
                           data: [
                             "CssSyntaxError",
                             "Unknown word conic-gradient (CssSyntaxError)",
-                            "conic-gradient(#fff 0.09turn, #bbb 0.09turn, #bbb 0.27turn, #666 0.27turn, #666 0.54turn, #000 0.54turn);",
+                            "conic-gradient(white 0.09turn, #bbb 0.09turn, #bbb 0.27turn, #666 0.27turn, #666 0.54turn, black 0.54turn);",
                             "1:1 - 1:15",
                             `/en-US/docs/Web/CSS/gradient/conic-gradient
 [CssSyntaxError] Unknown word conic-gradient (CssSyntaxError)
 ~~~
-conic-gradient(#fff 0.09turn, #bbb 0.09turn, #bbb 0.27turn, #666 0.27turn, #666 0.54turn, #000 0.54turn);
-conic-gradient(#fff 0turn 0.09turn, #bbb 0.09turn 0.27turn, #666 0.27turn 0.54turn, #000 0.54turn 1turn);
+conic-gradient(white 0.09turn, #bbb 0.09turn, #bbb 0.27turn, #666 0.27turn, #666 0.54turn, black 0.54turn);
+conic-gradient(white 0turn 0.09turn, #bbb 0.09turn 0.27turn, #666 0.27turn 0.54turn, black 0.54turn 1turn);
 ~~~
 `
                           ]
@@ -118516,333 +110577,13 @@ conic-gradient(red .8rad, yellow .6rad, blue 1.3rad);
                           data: [
                             "CssSyntaxError",
                             "Unknown word conic-gradient (CssSyntaxError)",
-                            "conic-gradient(#fff 90deg, #000 0.25turn 0.5turn, #fff 1rad 1.5rad, #000 300grad);",
+                            "conic-gradient(white 90deg, black 0.25turn 0.5turn, white 1rad 1.5rad, black 300grad);",
                             "1:1 - 1:15",
                             `/en-US/docs/Web/CSS/gradient/conic-gradient
 [CssSyntaxError] Unknown word conic-gradient (CssSyntaxError)
 ~~~
-conic-gradient(#fff 90deg, #000 0.25turn 0.5turn, #fff 1rad 1.5rad, #000 300grad);
+conic-gradient(white 90deg, black 0.25turn 0.5turn, white 1rad 1.5rad, black 300grad);
 background-size: 25% 25%;
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  background-image: conic-gradient(from 40deg, #fff, #000);",
-                            "7:48 - 7:52",
-                            `/en-US/docs/Web/CSS/gradient/conic-gradient
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-div {
-  width: 100px;
-  height: 100px;
-}
-
-div {
-  background-image: conic-gradient(from 40deg, #fff, #000);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#000" to be "#000000" (color-hex-length)',
-                            "  background-image: conic-gradient(from 40deg, #fff, #000);",
-                            "7:54 - 7:58",
-                            `/en-US/docs/Web/CSS/gradient/conic-gradient
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-div {
-  width: 100px;
-  height: 100px;
-}
-
-div {
-  background-image: conic-gradient(from 40deg, #fff, #000);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  background-image: conic-gradient(from 40deg, #fff, #000);",
-                            "7:48 - 7:52",
-                            `/en-US/docs/Web/CSS/gradient/conic-gradient
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-div {
-  width: 100px;
-  height: 100px;
-}
-
-div {
-  background-image: conic-gradient(from 40deg, #fff, #000);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#000" to be "black" (color-named)',
-                            "  background-image: conic-gradient(from 40deg, #fff, #000);",
-                            "7:54 - 7:58",
-                            `/en-US/docs/Web/CSS/gradient/conic-gradient
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-div {
-  width: 100px;
-  height: 100px;
-}
-
-div {
-  background-image: conic-gradient(from 40deg, #fff, #000);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "      #fff 0.25turn,",
-                            "8:7 - 8:11",
-                            `/en-US/docs/Web/CSS/gradient/conic-gradient
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-div {
-  width: 100px;
-  height: 100px;
-}
-
-div {
-  background: conic-gradient(
-      #fff 0.25turn,
-      #000 0.25turn 0.5turn,
-      #fff 0.5turn 0.75turn,
-      #000 0.75turn
-    )
-    top left / 25% 25% repeat;
-  border: 1px solid;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#000" to be "#000000" (color-hex-length)',
-                            "      #000 0.25turn 0.5turn,",
-                            "9:7 - 9:11",
-                            `/en-US/docs/Web/CSS/gradient/conic-gradient
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-div {
-  width: 100px;
-  height: 100px;
-}
-
-div {
-  background: conic-gradient(
-      #fff 0.25turn,
-      #000 0.25turn 0.5turn,
-      #fff 0.5turn 0.75turn,
-      #000 0.75turn
-    )
-    top left / 25% 25% repeat;
-  border: 1px solid;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "      #fff 0.5turn 0.75turn,",
-                            "10:7 - 10:11",
-                            `/en-US/docs/Web/CSS/gradient/conic-gradient
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-div {
-  width: 100px;
-  height: 100px;
-}
-
-div {
-  background: conic-gradient(
-      #fff 0.25turn,
-      #000 0.25turn 0.5turn,
-      #fff 0.5turn 0.75turn,
-      #000 0.75turn
-    )
-    top left / 25% 25% repeat;
-  border: 1px solid;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#000" to be "#000000" (color-hex-length)',
-                            "      #000 0.75turn",
-                            "11:7 - 11:11",
-                            `/en-US/docs/Web/CSS/gradient/conic-gradient
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-div {
-  width: 100px;
-  height: 100px;
-}
-
-div {
-  background: conic-gradient(
-      #fff 0.25turn,
-      #000 0.25turn 0.5turn,
-      #fff 0.5turn 0.75turn,
-      #000 0.75turn
-    )
-    top left / 25% 25% repeat;
-  border: 1px solid;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "      #fff 0.25turn,",
-                            "8:7 - 8:11",
-                            `/en-US/docs/Web/CSS/gradient/conic-gradient
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-div {
-  width: 100px;
-  height: 100px;
-}
-
-div {
-  background: conic-gradient(
-      #fff 0.25turn,
-      #000 0.25turn 0.5turn,
-      #fff 0.5turn 0.75turn,
-      #000 0.75turn
-    )
-    top left / 25% 25% repeat;
-  border: 1px solid;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#000" to be "black" (color-named)',
-                            "      #000 0.25turn 0.5turn,",
-                            "9:7 - 9:11",
-                            `/en-US/docs/Web/CSS/gradient/conic-gradient
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-div {
-  width: 100px;
-  height: 100px;
-}
-
-div {
-  background: conic-gradient(
-      #fff 0.25turn,
-      #000 0.25turn 0.5turn,
-      #fff 0.5turn 0.75turn,
-      #000 0.75turn
-    )
-    top left / 25% 25% repeat;
-  border: 1px solid;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "      #fff 0.5turn 0.75turn,",
-                            "10:7 - 10:11",
-                            `/en-US/docs/Web/CSS/gradient/conic-gradient
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-div {
-  width: 100px;
-  height: 100px;
-}
-
-div {
-  background: conic-gradient(
-      #fff 0.25turn,
-      #000 0.25turn 0.5turn,
-      #fff 0.5turn 0.75turn,
-      #000 0.75turn
-    )
-    top left / 25% 25% repeat;
-  border: 1px solid;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#000" to be "black" (color-named)',
-                            "      #000 0.75turn",
-                            "11:7 - 11:11",
-                            `/en-US/docs/Web/CSS/gradient/conic-gradient
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-div {
-  width: 100px;
-  height: 100px;
-}
-
-div {
-  background: conic-gradient(
-      #fff 0.25turn,
-      #000 0.25turn 0.5turn,
-      #fff 0.5turn 0.75turn,
-      #000 0.75turn
-    )
-    top left / 25% 25% repeat;
-  border: 1px solid;
-}
 ~~~
 `
                           ]
@@ -119136,94 +110877,6 @@ repeating-conic-gradient(from -45deg, red 45deg, orange, yellow, green, blue 225
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  background-image: repeating-conic-gradient(#fff 0 9deg, #000 9deg 18deg);",
-                            "7:46 - 7:50",
-                            `/en-US/docs/Web/CSS/gradient/repeating-conic-gradient
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-div {
-  background-image: repeating-conic-gradient(#fff 0 9deg, #000 9deg 18deg);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#000" to be "#000000" (color-hex-length)',
-                            "  background-image: repeating-conic-gradient(#fff 0 9deg, #000 9deg 18deg);",
-                            "7:59 - 7:63",
-                            `/en-US/docs/Web/CSS/gradient/repeating-conic-gradient
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-div {
-  background-image: repeating-conic-gradient(#fff 0 9deg, #000 9deg 18deg);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  background-image: repeating-conic-gradient(#fff 0 9deg, #000 9deg 18deg);",
-                            "7:46 - 7:50",
-                            `/en-US/docs/Web/CSS/gradient/repeating-conic-gradient
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-div {
-  background-image: repeating-conic-gradient(#fff 0 9deg, #000 9deg 18deg);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#000" to be "black" (color-named)',
-                            "  background-image: repeating-conic-gradient(#fff 0 9deg, #000 9deg 18deg);",
-                            "7:59 - 7:63",
-                            `/en-US/docs/Web/CSS/gradient/repeating-conic-gradient
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-div {
-  background-image: repeating-conic-gradient(#fff 0 9deg, #000 9deg 18deg);
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -119359,32 +111012,7 @@ background: repeating-radial-gradient(
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/gradient",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "rgb(30 144 255)" to be "dodgerblue" (color-named)',
-                        "  background: radial-gradient(red, yellow, rgb(30 144 255));",
-                        "7:44 - 7:59",
-                        `/en-US/docs/Web/CSS/gradient
-[color-named] Expected "rgb(30 144 255)" to be "dodgerblue" (color-named)
-~~~
-div {
-  width: 240px;
-  height: 80px;
-}
-
-.radial-gradient {
-  background: radial-gradient(red, yellow, rgb(30 144 255));
-}
-~~~
-`
-                      ]
-                    }
-                  ]
+                  }
                 },
                 "grid-area": {
                   children: {},
@@ -120419,27 +112047,6 @@ div {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/height",
                   messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#ffffff" to be "white" (color-named)',
-                        "  color: #ffffff;",
-                        "6:10 - 6:17",
-                        `/en-US/docs/Web/CSS/height
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-#example-element {
-  display: flex;
-  flex-direction: column;
-  background-color: #5b6dcd;
-  justify-content: center;
-  color: #ffffff;
-}
-~~~
-`
-                      ]
-                    },
                     {
                       message: "Stylelint backlog",
                       data: [
@@ -122293,81 +113900,27 @@ background-color: if(
                       ]
                     },
                     {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "lch(77.7% 0 0)" to be "silver" (color-named)',
-                        "  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);",
-                        "2:19 - 2:33",
-                        `/en-US/docs/Web/CSS/if
-[color-named] Expected "lch(77.7% 0 0)" to be "silver" (color-named)
-~~~
-color: if(
-  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);
-  else: rgb(192 192 192);
-)
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "lch(77.7% 0 0)" to be "silver" (color-named)',
-                        "  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);",
-                        "2:36 - 2:50",
-                        `/en-US/docs/Web/CSS/if
-[color-named] Expected "lch(77.7% 0 0)" to be "silver" (color-named)
-~~~
-color: if(
-  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);
-  else: rgb(192 192 192);
-)
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "rgb(192 192 192)" to be "silver" (color-named)',
-                        "  else: rgb(192 192 192);",
-                        "3:9 - 3:25",
-                        `/en-US/docs/Web/CSS/if
-[color-named] Expected "rgb(192 192 192)" to be "silver" (color-named)
-~~~
-color: if(
-  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);
-  else: rgb(192 192 192);
-)
-~~~
-`
-                      ]
-                    },
-                    {
                       message: "Stylelint backlog",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
-  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);
-  else: rgb(192 192 192);
+  supports(color: lch(75% 0 0)): lch(75% 0 0);
+  else: rgb(185 185 185);
 )" for property "color" (declaration-property-value-no-unknown)`,
                         `color: if(
-  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);
-  else: rgb(192 192 192);
+  supports(color: lch(75% 0 0)): lch(75% 0 0);
+  else: rgb(185 185 185);
 )`,
                         "1:8 - 4:2",
                         `/en-US/docs/Web/CSS/if
 [declaration-property-value-no-unknown] Cannot parse property value "if(
-  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);
-  else: rgb(192 192 192);
+  supports(color: lch(75% 0 0)): lch(75% 0 0);
+  else: rgb(185 185 185);
 )" for property "color" (declaration-property-value-no-unknown)
 ~~~
 color: if(
-  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);
-  else: rgb(192 192 192);
+  supports(color: lch(75% 0 0)): lch(75% 0 0);
+  else: rgb(185 185 185);
 )
 ~~~
 `
@@ -122377,15 +113930,15 @@ color: if(
                       message: "Stylelint backlog",
                       data: [
                         "lightness-notation",
-                        'Expected "77.7%" to be "77.7" (lightness-notation)',
-                        "  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);",
-                        "2:23 - 2:28",
+                        'Expected "75%" to be "75" (lightness-notation)',
+                        "  supports(color: lch(75% 0 0)): lch(75% 0 0);",
+                        "2:23 - 2:26",
                         `/en-US/docs/Web/CSS/if
-[lightness-notation] Expected "77.7%" to be "77.7" (lightness-notation)
+[lightness-notation] Expected "75%" to be "75" (lightness-notation)
 ~~~
 color: if(
-  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);
-  else: rgb(192 192 192);
+  supports(color: lch(75% 0 0)): lch(75% 0 0);
+  else: rgb(185 185 185);
 )
 ~~~
 `
@@ -122395,15 +113948,15 @@ color: if(
                       message: "Stylelint backlog",
                       data: [
                         "lightness-notation",
-                        'Expected "77.7%" to be "77.7" (lightness-notation)',
-                        "  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);",
-                        "2:40 - 2:45",
+                        'Expected "75%" to be "75" (lightness-notation)',
+                        "  supports(color: lch(75% 0 0)): lch(75% 0 0);",
+                        "2:38 - 2:41",
                         `/en-US/docs/Web/CSS/if
-[lightness-notation] Expected "77.7%" to be "77.7" (lightness-notation)
+[lightness-notation] Expected "75%" to be "75" (lightness-notation)
 ~~~
 color: if(
-  supports(color: lch(77.7% 0 0)): lch(77.7% 0 0);
-  else: rgb(192 192 192);
+  supports(color: lch(75% 0 0)): lch(75% 0 0);
+  else: rgb(185 185 185);
 )
 ~~~
 `
@@ -122546,63 +114099,27 @@ padding: if(style(--size: "2xl"): 1em; else: 0.25em);
                       ]
                     },
                     {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "lch(77.7% 0 0)" to be "silver" (color-named)',
-                        "  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);",
-                        "2:19 - 2:33",
-                        `/en-US/docs/Web/CSS/if
-[color-named] Expected "lch(77.7% 0 0)" to be "silver" (color-named)
-~~~
-border: if(
-  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);
-  else: 3px solid #c0c0c0;
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "lch(77.7% 0 0)" to be "silver" (color-named)',
-                        "  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);",
-                        "2:46 - 2:60",
-                        `/en-US/docs/Web/CSS/if
-[color-named] Expected "lch(77.7% 0 0)" to be "silver" (color-named)
-~~~
-border: if(
-  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);
-  else: 3px solid #c0c0c0;
-);
-~~~
-`
-                      ]
-                    },
-                    {
                       message: "Stylelint backlog",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
-  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);
-  else: 3px solid #c0c0c0;
+  supports(color: lch(75% 0 0)): 3px solid lch(75% 0 0);
+  else: 3px solid silver;
 )" for property "border" (declaration-property-value-no-unknown)`,
                         `border: if(
-  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);
-  else: 3px solid #c0c0c0;
+  supports(color: lch(75% 0 0)): 3px solid lch(75% 0 0);
+  else: 3px solid silver;
 );`,
                         "1:9 - 4:2",
                         `/en-US/docs/Web/CSS/if
 [declaration-property-value-no-unknown] Cannot parse property value "if(
-  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);
-  else: 3px solid #c0c0c0;
+  supports(color: lch(75% 0 0)): 3px solid lch(75% 0 0);
+  else: 3px solid silver;
 )" for property "border" (declaration-property-value-no-unknown)
 ~~~
 border: if(
-  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);
-  else: 3px solid #c0c0c0;
+  supports(color: lch(75% 0 0)): 3px solid lch(75% 0 0);
+  else: 3px solid silver;
 );
 ~~~
 `
@@ -122612,15 +114129,15 @@ border: if(
                       message: "Stylelint backlog",
                       data: [
                         "lightness-notation",
-                        'Expected "77.7%" to be "77.7" (lightness-notation)',
-                        "  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);",
-                        "2:23 - 2:28",
+                        'Expected "75%" to be "75" (lightness-notation)',
+                        "  supports(color: lch(75% 0 0)): 3px solid lch(75% 0 0);",
+                        "2:23 - 2:26",
                         `/en-US/docs/Web/CSS/if
-[lightness-notation] Expected "77.7%" to be "77.7" (lightness-notation)
+[lightness-notation] Expected "75%" to be "75" (lightness-notation)
 ~~~
 border: if(
-  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);
-  else: 3px solid #c0c0c0;
+  supports(color: lch(75% 0 0)): 3px solid lch(75% 0 0);
+  else: 3px solid silver;
 );
 ~~~
 `
@@ -122630,52 +114147,16 @@ border: if(
                       message: "Stylelint backlog",
                       data: [
                         "lightness-notation",
-                        'Expected "77.7%" to be "77.7" (lightness-notation)',
-                        "  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);",
-                        "2:50 - 2:55",
+                        'Expected "75%" to be "75" (lightness-notation)',
+                        "  supports(color: lch(75% 0 0)): 3px solid lch(75% 0 0);",
+                        "2:48 - 2:51",
                         `/en-US/docs/Web/CSS/if
-[lightness-notation] Expected "77.7%" to be "77.7" (lightness-notation)
+[lightness-notation] Expected "75%" to be "75" (lightness-notation)
 ~~~
 border: if(
-  supports(color: lch(77.7% 0 0)): 3px solid lch(77.7% 0 0);
-  else: 3px solid #c0c0c0;
+  supports(color: lch(75% 0 0)): 3px solid lch(75% 0 0);
+  else: 3px solid silver;
 );
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "lch(77.7% 0 0)" to be "silver" (color-named)',
-                        "    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;",
-                        "3:21 - 3:35",
-                        `/en-US/docs/Web/CSS/if
-[color-named] Expected "lch(77.7% 0 0)" to be "silver" (color-named)
-~~~
-border: 3px solid
-  if(
-    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;
-  );
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "lch(77.7% 0 0)" to be "silver" (color-named)',
-                        "    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;",
-                        "3:38 - 3:52",
-                        `/en-US/docs/Web/CSS/if
-[color-named] Expected "lch(77.7% 0 0)" to be "silver" (color-named)
-~~~
-border: 3px solid
-  if(
-    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;
-  );
 ~~~
 `
                       ]
@@ -122686,22 +114167,22 @@ border: 3px solid
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "3px solid
   if(
-    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;
+    supports(color: lch(75% 0 0)): lch(75% 0 0); else: silver;
   )" for property "border" (declaration-property-value-no-unknown)`,
                         `border: 3px solid
   if(
-    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;
+    supports(color: lch(75% 0 0)): lch(75% 0 0); else: silver;
   );`,
                         "1:9 - 4:4",
                         `/en-US/docs/Web/CSS/if
 [declaration-property-value-no-unknown] Cannot parse property value "3px solid
   if(
-    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;
+    supports(color: lch(75% 0 0)): lch(75% 0 0); else: silver;
   )" for property "border" (declaration-property-value-no-unknown)
 ~~~
 border: 3px solid
   if(
-    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;
+    supports(color: lch(75% 0 0)): lch(75% 0 0); else: silver;
   );
 ~~~
 `
@@ -122711,15 +114192,15 @@ border: 3px solid
                       message: "Stylelint backlog",
                       data: [
                         "lightness-notation",
-                        'Expected "77.7%" to be "77.7" (lightness-notation)',
-                        "    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;",
-                        "3:25 - 3:30",
+                        'Expected "75%" to be "75" (lightness-notation)',
+                        "    supports(color: lch(75% 0 0)): lch(75% 0 0); else: silver;",
+                        "3:25 - 3:28",
                         `/en-US/docs/Web/CSS/if
-[lightness-notation] Expected "77.7%" to be "77.7" (lightness-notation)
+[lightness-notation] Expected "75%" to be "75" (lightness-notation)
 ~~~
 border: 3px solid
   if(
-    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;
+    supports(color: lch(75% 0 0)): lch(75% 0 0); else: silver;
   );
 ~~~
 `
@@ -122729,15 +114210,15 @@ border: 3px solid
                       message: "Stylelint backlog",
                       data: [
                         "lightness-notation",
-                        'Expected "77.7%" to be "77.7" (lightness-notation)',
-                        "    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;",
-                        "3:42 - 3:47",
+                        'Expected "75%" to be "75" (lightness-notation)',
+                        "    supports(color: lch(75% 0 0)): lch(75% 0 0); else: silver;",
+                        "3:40 - 3:43",
                         `/en-US/docs/Web/CSS/if
-[lightness-notation] Expected "77.7%" to be "77.7" (lightness-notation)
+[lightness-notation] Expected "75%" to be "75" (lightness-notation)
 ~~~
 border: 3px solid
   if(
-    supports(color: lch(77.7% 0 0)): lch(77.7% 0 0); else: #c0c0c0;
+    supports(color: lch(75% 0 0)): lch(75% 0 0); else: silver;
   );
 ~~~
 `
@@ -124499,34 +115980,6 @@ p {
                     }
                   ]
                 },
-                "inline-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/inline-size",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#ffffff" to be "white" (color-named)',
-                        "  color: #ffffff;",
-                        "7:10 - 7:17",
-                        `/en-US/docs/Web/CSS/inline-size
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-#example-element {
-  display: flex;
-  flex-direction: column;
-  background-color: #5b6dcd;
-  height: 80%;
-  justify-content: center;
-  color: #ffffff;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "interpolate-size": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/interpolate-size",
@@ -124878,84 +116331,6 @@ section:focus {
                     }
                   ]
                 },
-                isolation: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/isolation",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "rgb(0 255 0)" to be "lime" (color-named)',
-                        "  background-color: rgb(0 255 0);",
-                        "10:21 - 10:33",
-                        `/en-US/docs/Web/CSS/isolation
-[color-named] Expected "rgb(0 255 0)" to be "lime" (color-named)
-~~~
-.isolation-auto {
-  isolation: auto;
-}
-
-.isolation-isolate {
-  isolation: isolate;
-}
-
-.big-square {
-  background-color: rgb(0 255 0);
-  width: 200px;
-  height: 210px;
-}
-
-.small-square {
-  background-color: rgb(0 255 0);
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
-  padding: 2px;
-  mix-blend-mode: difference;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "rgb(0 255 0)" to be "lime" (color-named)',
-                        "  background-color: rgb(0 255 0);",
-                        "16:21 - 16:33",
-                        `/en-US/docs/Web/CSS/isolation
-[color-named] Expected "rgb(0 255 0)" to be "lime" (color-named)
-~~~
-.isolation-auto {
-  isolation: auto;
-}
-
-.isolation-isolate {
-  isolation: isolate;
-}
-
-.big-square {
-  background-color: rgb(0 255 0);
-  width: 200px;
-  height: 210px;
-}
-
-.small-square {
-  background-color: rgb(0 255 0);
-  width: 100px;
-  height: 100px;
-  border: 1px solid black;
-  padding: 2px;
-  mix-blend-mode: difference;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "justify-items": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/justify-items",
@@ -125228,7 +116603,7 @@ img {
 
 .card footer {
   background-color: #333;
-  color: #fff;
+  color: white;
   padding: 0.5rem;
 }
 ~~~
@@ -125287,125 +116662,7 @@ img {
 
 .card footer {
   background-color: #333;
-  color: #fff;
-  padding: 0.5rem;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "43:10 - 43:14",
-                            `/en-US/docs/Web/CSS/Layout_cookbook/Card
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-body {
-  font: 1.2em sans-serif;
-}
-
-img {
-  max-width: 100%;
-}
-
-.cards {
-  max-width: 700px;
-  margin: 1em auto;
-
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  grid-gap: 20px;
-}
-
-.card {
-  border: 1px solid #999;
-  border-radius: 3px;
-
-  display: grid;
-  grid-template-rows: max-content 200px 1fr;
-}
-
-.card img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
-.card h2 {
-  margin: 0;
-  padding: 0.5rem;
-}
-
-.card .content {
-  padding: 0.5rem;
-}
-
-.card footer {
-  background-color: #333;
-  color: #fff;
-  padding: 0.5rem;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "43:10 - 43:14",
-                            `/en-US/docs/Web/CSS/Layout_cookbook/Card
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-body {
-  font: 1.2em sans-serif;
-}
-
-img {
-  max-width: 100%;
-}
-
-.cards {
-  max-width: 700px;
-  margin: 1em auto;
-
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  grid-gap: 20px;
-}
-
-.card {
-  border: 1px solid #999;
-  border-radius: 3px;
-
-  display: grid;
-  grid-template-rows: max-content 200px 1fr;
-}
-
-.card img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
-.card h2 {
-  margin: 0;
-  padding: 0.5rem;
-}
-
-.card .content {
-  padding: 0.5rem;
-}
-
-.card footer {
-  background-color: #333;
-  color: #fff;
+  color: white;
   padding: 0.5rem;
 }
 ~~~
@@ -125477,7 +116734,7 @@ body {
 
 .list-group .badge {
   background-color: rebeccapurple;
-  color: #fff;
+  color: white;
   font-weight: bold;
   font-size: 80%;
   border-radius: 10em;
@@ -125527,107 +116784,7 @@ body {
 
 .list-group .badge {
   background-color: rebeccapurple;
-  color: #fff;
-  font-weight: bold;
-  font-size: 80%;
-  border-radius: 10em;
-  min-width: 1.5em;
-  padding: 0.25em;
-  text-align: center;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "29:10 - 29:14",
-                            `/en-US/docs/Web/CSS/Layout_cookbook/List_group_with_badges
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-  padding: 0;
-  margin: 1em;
-}
-.list-group {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  border: 1px solid #ccc;
-  border-radius: 0.5em;
-  width: 20em;
-}
-
-.list-group li {
-  border-top: 1px solid #ccc;
-  padding: 0.5em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.list-group li:first-child {
-  border-top: 0;
-}
-
-.list-group .badge {
-  background-color: rebeccapurple;
-  color: #fff;
-  font-weight: bold;
-  font-size: 80%;
-  border-radius: 10em;
-  min-width: 1.5em;
-  padding: 0.25em;
-  text-align: center;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "29:10 - 29:14",
-                            `/en-US/docs/Web/CSS/Layout_cookbook/List_group_with_badges
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-  padding: 0;
-  margin: 1em;
-}
-.list-group {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  border: 1px solid #ccc;
-  border-radius: 0.5em;
-  width: 20em;
-}
-
-.list-group li {
-  border-top: 1px solid #ccc;
-  padding: 0.5em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.list-group li:first-child {
-  border-top: 0;
-}
-
-.list-group .badge {
-  background-color: rebeccapurple;
-  color: #fff;
+  color: white;
   font-weight: bold;
   font-size: 80%;
   border-radius: 10em;
@@ -125818,7 +116975,7 @@ nav {
 
 .pagination a[aria-current="page"] {
   background-color: #333;
-  color: #fff;
+  color: white;
 }
 ~~~
 `
@@ -125877,7 +117034,7 @@ nav {
 
 .pagination a[aria-current="page"] {
   background-color: #333;
-  color: #fff;
+  color: white;
 }
 ~~~
 `
@@ -125936,335 +117093,7 @@ nav {
 
 .pagination a[aria-current="page"] {
   background-color: #333;
-  color: #fff;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "44:10 - 44:14",
-                            `/en-US/docs/Web/CSS/Layout_cookbook/Pagination
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: auto;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  white-space: nowrap;
-}
-
-nav {
-  border-top: 1px solid #eee;
-  margin-top: 1em;
-  padding-top: 0.5em;
-  font: 1.2em sans-serif;
-
-  display: flex;
-  justify-content: center;
-}
-
-.pagination {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.pagination li {
-  margin: 0 1px;
-}
-
-.pagination a {
-  display: block;
-  padding: 0.5em 1em;
-  border: 1px solid #999;
-  border-radius: 0.2em;
-  text-decoration: none;
-}
-
-.pagination a[aria-current="page"] {
-  background-color: #333;
-  color: #fff;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "44:10 - 44:14",
-                            `/en-US/docs/Web/CSS/Layout_cookbook/Pagination
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: auto;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  white-space: nowrap;
-}
-
-nav {
-  border-top: 1px solid #eee;
-  margin-top: 1em;
-  padding-top: 0.5em;
-  font: 1.2em sans-serif;
-
-  display: flex;
-  justify-content: center;
-}
-
-.pagination {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.pagination li {
-  margin: 0 1px;
-}
-
-.pagination a {
-  display: block;
-  padding: 0.5em 1em;
-  border: 1px solid #999;
-  border-radius: 0.2em;
-  text-decoration: none;
-}
-
-.pagination a[aria-current="page"] {
-  background-color: #333;
-  color: #fff;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    sticky_footers: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "24:10 - 24:14",
-                            `/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-* {
-  box-sizing: inherit;
-}
-
-html {
-  height: 100%;
-  box-sizing: border-box;
-}
-
-body {
-  height: 100%;
-  font: 1.2em sans-serif;
-}
-
-.wrapper {
-  min-height: 100%;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-}
-
-.page-header,
-.page-footer {
-  background-color: rgb(75 70 74);
-  color: #fff;
-  padding: 20px;
-}
-
-.page-body {
-  padding: 20px;
-}
-
-.page-body p {
-  border: 1px solid grey;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "24:10 - 24:14",
-                            `/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-* {
-  box-sizing: inherit;
-}
-
-html {
-  height: 100%;
-  box-sizing: border-box;
-}
-
-body {
-  height: 100%;
-  font: 1.2em sans-serif;
-}
-
-.wrapper {
-  min-height: 100%;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-}
-
-.page-header,
-.page-footer {
-  background-color: rgb(75 70 74);
-  color: #fff;
-  padding: 20px;
-}
-
-.page-body {
-  padding: 20px;
-}
-
-.page-body p {
-  border: 1px solid grey;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "25:10 - 25:14",
-                            `/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  box-sizing: border-box;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  font: 1.2em sans-serif;
-}
-
-.wrapper {
-  box-sizing: border-box;
-  min-height: 100%;
-
-  display: flex;
-  flex-direction: column;
-}
-
-.page-header,
-.page-footer {
-  background-color: rgb(75 70 74);
-  color: #fff;
-  padding: 20px;
-
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-
-.page-body {
-  padding: 20px;
-
-  flex-grow: 1;
-}
-
-.page-body p {
-  border: 1px solid grey;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "25:10 - 25:14",
-                            `/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  box-sizing: border-box;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  font: 1.2em sans-serif;
-}
-
-.wrapper {
-  box-sizing: border-box;
-  min-height: 100%;
-
-  display: flex;
-  flex-direction: column;
-}
-
-.page-header,
-.page-footer {
-  background-color: rgb(75 70 74);
-  color: #fff;
-  padding: 20px;
-
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-
-.page-body {
-  padding: 20px;
-
-  flex-grow: 1;
-}
-
-.page-body p {
-  border: 1px solid grey;
+  color: white;
 }
 ~~~
 `
@@ -126962,96 +117791,6 @@ div {
                     }
                   ]
                 },
-                "line-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/line-style",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000000" to be "black" (color-named)',
-                        "  border-color: #000000;",
-                        "29:17 - 29:24",
-                        `/en-US/docs/Web/CSS/line-style
-[color-named] Expected "#000000" to be "black" (color-named)
-~~~
-div {
-  display: flex;
-  gap: 1em;
-  list-style: none;
-  align-items: center;
-}
-div:first-of-type {
-  display: none;
-}
-
-p:first-of-type {
-  text-align: center;
-  line-height: 5em;
-}
-p {
-  width: 10em;
-  height: 5em;
-  background-color: palegoldenrod;
-}
-
-p {
-  padding: 5px;
-  border: double 7px #bada55;
-}
-p + p {
-  columns: 3;
-  column-gap: 20px;
-  column-rule: double 7px;
-  border-color: #000000;
-}
-.none p {
-  border-style: none;
-  column-rule-style: none;
-}
-.hidden p {
-  border-style: hidden;
-  column-rule-style: hidden;
-}
-.dotted p {
-  border-style: dotted;
-  column-rule-style: dotted;
-}
-.dashed p {
-  border-style: dashed;
-  column-rule-style: dashed;
-}
-.solid p {
-  border-style: solid;
-  column-rule-style: solid;
-}
-.double p {
-  border-style: double;
-  column-rule-style: double;
-}
-.groove p {
-  border-style: groove;
-  column-rule-style: groove;
-}
-.ridge p {
-  border-style: ridge;
-  column-rule-style: ridge;
-}
-.inset p {
-  border-style: inset;
-  column-rule-style: inset;
-}
-.outset p {
-  border-style: outset;
-  column-rule-style: outset;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 margin: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/margin",
@@ -127098,42 +117837,6 @@ p + p {
                   slug: "/en-US/docs/Web/CSS/margin-block",
                   messages: [
                     {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#ffffff" to be "white" (color-named)',
-                        "  color: #ffffff;",
-                        "15:10 - 15:17",
-                        `/en-US/docs/Web/CSS/margin-block
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-#container {
-  width: 300px;
-  height: 200px;
-  display: flex;
-  align-content: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.row {
-  height: 33.33%;
-  display: inline-block;
-  border: solid #ce7777 10px;
-  background-color: #2b3a55;
-  color: #ffffff;
-  flex-shrink: 0;
-}
-
-#example-element {
-  border: solid 10px #ffbf00;
-  background-color: #2b3a55;
-}
-~~~
-`
-                      ]
-                    },
-                    {
                       message: "Stylelint backlog",
                       data: [
                         "declaration-block-no-redundant-longhand-properties",
@@ -127157,7 +117860,7 @@ p + p {
   display: inline-block;
   border: solid #ce7777 10px;
   background-color: #2b3a55;
-  color: #ffffff;
+  color: white;
   flex-shrink: 0;
 }
 
@@ -127176,42 +117879,6 @@ p + p {
                   slug: "/en-US/docs/Web/CSS/margin-block-end",
                   messages: [
                     {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#ffffff" to be "white" (color-named)',
-                        "  color: #ffffff;",
-                        "15:10 - 15:17",
-                        `/en-US/docs/Web/CSS/margin-block-end
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-#container {
-  width: 300px;
-  height: 200px;
-  display: flex;
-  align-content: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.row {
-  height: 33.33%;
-  display: inline-block;
-  border: solid #ce7777 10px;
-  background-color: #2b3a55;
-  color: #ffffff;
-  flex-shrink: 0;
-}
-
-#example-element {
-  border: solid 10px #ffbf00;
-  background-color: #2b3a55;
-}
-~~~
-`
-                      ]
-                    },
-                    {
                       message: "Stylelint backlog",
                       data: [
                         "declaration-block-no-redundant-longhand-properties",
@@ -127235,7 +117902,7 @@ p + p {
   display: inline-block;
   border: solid #ce7777 10px;
   background-color: #2b3a55;
-  color: #ffffff;
+  color: white;
   flex-shrink: 0;
 }
 
@@ -127254,42 +117921,6 @@ p + p {
                   slug: "/en-US/docs/Web/CSS/margin-block-start",
                   messages: [
                     {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#ffffff" to be "white" (color-named)',
-                        "  color: #ffffff;",
-                        "15:10 - 15:17",
-                        `/en-US/docs/Web/CSS/margin-block-start
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-#container {
-  width: 300px;
-  height: 200px;
-  display: flex;
-  align-content: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.row {
-  height: 33.33%;
-  display: inline-block;
-  border: solid #ce7777 10px;
-  background-color: #2b3a55;
-  color: #ffffff;
-  flex-shrink: 0;
-}
-
-#example-element {
-  border: solid 10px #ffbf00;
-  background-color: #2b3a55;
-}
-~~~
-`
-                      ]
-                    },
-                    {
                       message: "Stylelint backlog",
                       data: [
                         "declaration-block-no-redundant-longhand-properties",
@@ -127313,7 +117944,7 @@ p + p {
   display: inline-block;
   border: solid #ce7777 10px;
   background-color: #2b3a55;
-  color: #ffffff;
+  color: white;
   flex-shrink: 0;
 }
 
@@ -127689,101 +118320,6 @@ mask-composite: add;
                     }
                   ]
                 },
-                "max-block-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/max-block-size",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#ffffff" to be "white" (color-named)',
-                        "  color: #ffffff;",
-                        "6:10 - 6:17",
-                        `/en-US/docs/Web/CSS/max-block-size
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-#example-element {
-  display: flex;
-  flex-direction: column;
-  background-color: #5b6dcd;
-  justify-content: center;
-  color: #ffffff;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "  color: #000;",
-                        "4:10 - 4:14",
-                        `/en-US/docs/Web/CSS/max-block-size
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-.standard-box {
-  padding: 4px;
-  background-color: #abcdef;
-  color: #000;
-  font:
-    16px "Open Sans",
-    "Helvetica",
-    "Arial",
-    sans-serif;
-  max-block-size: 160px;
-  min-block-size: 100px;
-}
-
-.horizontal {
-  writing-mode: horizontal-tb;
-}
-
-.vertical {
-  writing-mode: vertical-rl;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "  color: #000;",
-                        "4:10 - 4:14",
-                        `/en-US/docs/Web/CSS/max-block-size
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-.standard-box {
-  padding: 4px;
-  background-color: #abcdef;
-  color: #000;
-  font:
-    16px "Open Sans",
-    "Helvetica",
-    "Arial",
-    sans-serif;
-  max-block-size: 160px;
-  min-block-size: 100px;
-}
-
-.horizontal {
-  writing-mode: horizontal-tb;
-}
-
-.vertical {
-  writing-mode: vertical-rl;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "max-content": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/max-content",
@@ -127794,116 +118330,6 @@ mask-composite: add;
                     }
                   ]
                 },
-                "max-height": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/max-height",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#ffffff" to be "white" (color-named)',
-                        "  color: #ffffff;",
-                        "6:10 - 6:17",
-                        `/en-US/docs/Web/CSS/max-height
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-#example-element {
-  display: flex;
-  flex-direction: column;
-  background-color: #5b6dcd;
-  justify-content: center;
-  color: #ffffff;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "max-inline-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/max-inline-size",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#ffffff" to be "white" (color-named)',
-                        "  color: #ffffff;",
-                        "7:10 - 7:17",
-                        `/en-US/docs/Web/CSS/max-inline-size
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-#example-element {
-  display: flex;
-  flex-direction: column;
-  background-color: #5b6dcd;
-  height: 80%;
-  justify-content: center;
-  color: #ffffff;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "max-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/max-width",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#ffffff" to be "white" (color-named)',
-                        "  color: #ffffff;",
-                        "7:10 - 7:17",
-                        `/en-US/docs/Web/CSS/max-width
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-#example-element {
-  display: flex;
-  flex-direction: column;
-  background-color: #5b6dcd;
-  height: 80%;
-  justify-content: center;
-  color: #ffffff;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "min-block-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/min-block-size",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#ffffff" to be "white" (color-named)',
-                        "  color: #ffffff;",
-                        "6:10 - 6:17",
-                        `/en-US/docs/Web/CSS/min-block-size
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-#example-element {
-  display: flex;
-  flex-direction: column;
-  background-color: #5b6dcd;
-  justify-content: center;
-  color: #ffffff;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "min-content": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/min-content",
@@ -127911,89 +118337,6 @@ mask-composite: add;
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    }
-                  ]
-                },
-                "min-height": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/min-height",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#ffffff" to be "white" (color-named)',
-                        "  color: #ffffff;",
-                        "6:10 - 6:17",
-                        `/en-US/docs/Web/CSS/min-height
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-#example-element {
-  display: flex;
-  flex-direction: column;
-  background-color: #5b6dcd;
-  justify-content: center;
-  color: #ffffff;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "min-inline-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/min-inline-size",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#ffffff" to be "white" (color-named)',
-                        "  color: #ffffff;",
-                        "7:10 - 7:17",
-                        `/en-US/docs/Web/CSS/min-inline-size
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-#example-element {
-  display: flex;
-  flex-direction: column;
-  background-color: #5b6dcd;
-  height: 80%;
-  justify-content: center;
-  color: #ffffff;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "min-width": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/min-width",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#ffffff" to be "white" (color-named)',
-                        "  color: #ffffff;",
-                        "7:10 - 7:17",
-                        `/en-US/docs/Web/CSS/min-width
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-#example-element {
-  display: flex;
-  flex-direction: column;
-  background-color: #5b6dcd;
-  height: 80%;
-  justify-content: center;
-  color: #ffffff;
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -128058,7 +118401,7 @@ body {
 .cell {
   margin: 0.5em;
   padding: 0.5em;
-  background-color: #fff;
+  background-color: white;
   overflow: hidden;
   text-align: center;
 }
@@ -128079,1796 +118422,8 @@ body {
 .container {
   position: relative;
   background:
-    linear-gradient(to right, #000 0%, transparent 50%, #fff 100%),
-    linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-}
-
-.R {
-  transform-origin: center;
-  transform: rotate(-30deg);
-  fill: url("#red");
-}
-
-.G {
-  transform-origin: center;
-  transform: rotate(90deg);
-  fill: url("#green");
-}
-
-.B {
-  transform-origin: center;
-  transform: rotate(210deg);
-  fill: url("#blue");
-}
-
-.isolate .group {
-  isolation: isolate;
-}
-
-.normal .item {
-  mix-blend-mode: normal;
-}
-.multiply .item {
-  mix-blend-mode: multiply;
-}
-.screen .item {
-  mix-blend-mode: screen;
-}
-.overlay .item {
-  mix-blend-mode: overlay;
-}
-.darken .item {
-  mix-blend-mode: darken;
-}
-.lighten .item {
-  mix-blend-mode: lighten;
-}
-.color-dodge .item {
-  mix-blend-mode: color-dodge;
-}
-.color-burn .item {
-  mix-blend-mode: color-burn;
-}
-.hard-light .item {
-  mix-blend-mode: hard-light;
-}
-.soft-light .item {
-  mix-blend-mode: soft-light;
-}
-.difference .item {
-  mix-blend-mode: difference;
-}
-.exclusion .item {
-  mix-blend-mode: exclusion;
-}
-.hue .item {
-  mix-blend-mode: hue;
-}
-.saturation .item {
-  mix-blend-mode: saturation;
-}
-.color .item {
-  mix-blend-mode: color;
-}
-.luminosity .item {
-  mix-blend-mode: luminosity;
-}
-.plus-darker .item {
-  mix-blend-mode: plus-darker;
-}
-.plus-lighter .item {
-  mix-blend-mode: plus-lighter;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/mix-blend-mode
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-html,
-body {
-  height: 100%;
-  box-sizing: border-box;
-  background: #eee;
-}
-
-.grid {
-  width: 100%;
-  display: flex;
-  font: 1em monospace;
-}
-
-.row {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: auto;
-}
-
-.col {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: column;
-  height: auto;
-}
-
-.cell {
-  margin: 0.5em;
-  padding: 0.5em;
-  background-color: #fff;
-  overflow: hidden;
-  text-align: center;
-}
-
-.note {
-  background: #fff3d4;
-  padding: 1em;
-  margin: 0.5em 0.5em 0;
-  font: 0.8em sans-serif;
-  text-align: left;
-  white-space: nowrap;
-}
-
-.note + .row .cell {
-  margin-top: 0;
-}
-
-.container {
-  position: relative;
-  background:
-    linear-gradient(to right, #000 0%, transparent 50%, #fff 100%),
-    linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-}
-
-.R {
-  transform-origin: center;
-  transform: rotate(-30deg);
-  fill: url("#red");
-}
-
-.G {
-  transform-origin: center;
-  transform: rotate(90deg);
-  fill: url("#green");
-}
-
-.B {
-  transform-origin: center;
-  transform: rotate(210deg);
-  fill: url("#blue");
-}
-
-.isolate .group {
-  isolation: isolate;
-}
-
-.normal .item {
-  mix-blend-mode: normal;
-}
-.multiply .item {
-  mix-blend-mode: multiply;
-}
-.screen .item {
-  mix-blend-mode: screen;
-}
-.overlay .item {
-  mix-blend-mode: overlay;
-}
-.darken .item {
-  mix-blend-mode: darken;
-}
-.lighten .item {
-  mix-blend-mode: lighten;
-}
-.color-dodge .item {
-  mix-blend-mode: color-dodge;
-}
-.color-burn .item {
-  mix-blend-mode: color-burn;
-}
-.hard-light .item {
-  mix-blend-mode: hard-light;
-}
-.soft-light .item {
-  mix-blend-mode: soft-light;
-}
-.difference .item {
-  mix-blend-mode: difference;
-}
-.exclusion .item {
-  mix-blend-mode: exclusion;
-}
-.hue .item {
-  mix-blend-mode: hue;
-}
-.saturation .item {
-  mix-blend-mode: saturation;
-}
-.color .item {
-  mix-blend-mode: color;
-}
-.luminosity .item {
-  mix-blend-mode: luminosity;
-}
-.plus-darker .item {
-  mix-blend-mode: plus-darker;
-}
-.plus-lighter .item {
-  mix-blend-mode: plus-lighter;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "    linear-gradient(to right, #000 0%, transparent 50%, #fff 100%),",
-                        "53:31 - 53:35",
-                        `/en-US/docs/Web/CSS/mix-blend-mode
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-html,
-body {
-  height: 100%;
-  box-sizing: border-box;
-  background: #eee;
-}
-
-.grid {
-  width: 100%;
-  display: flex;
-  font: 1em monospace;
-}
-
-.row {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: auto;
-}
-
-.col {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: column;
-  height: auto;
-}
-
-.cell {
-  margin: 0.5em;
-  padding: 0.5em;
-  background-color: #fff;
-  overflow: hidden;
-  text-align: center;
-}
-
-.note {
-  background: #fff3d4;
-  padding: 1em;
-  margin: 0.5em 0.5em 0;
-  font: 0.8em sans-serif;
-  text-align: left;
-  white-space: nowrap;
-}
-
-.note + .row .cell {
-  margin-top: 0;
-}
-
-.container {
-  position: relative;
-  background:
-    linear-gradient(to right, #000 0%, transparent 50%, #fff 100%),
-    linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-}
-
-.R {
-  transform-origin: center;
-  transform: rotate(-30deg);
-  fill: url("#red");
-}
-
-.G {
-  transform-origin: center;
-  transform: rotate(90deg);
-  fill: url("#green");
-}
-
-.B {
-  transform-origin: center;
-  transform: rotate(210deg);
-  fill: url("#blue");
-}
-
-.isolate .group {
-  isolation: isolate;
-}
-
-.normal .item {
-  mix-blend-mode: normal;
-}
-.multiply .item {
-  mix-blend-mode: multiply;
-}
-.screen .item {
-  mix-blend-mode: screen;
-}
-.overlay .item {
-  mix-blend-mode: overlay;
-}
-.darken .item {
-  mix-blend-mode: darken;
-}
-.lighten .item {
-  mix-blend-mode: lighten;
-}
-.color-dodge .item {
-  mix-blend-mode: color-dodge;
-}
-.color-burn .item {
-  mix-blend-mode: color-burn;
-}
-.hard-light .item {
-  mix-blend-mode: hard-light;
-}
-.soft-light .item {
-  mix-blend-mode: soft-light;
-}
-.difference .item {
-  mix-blend-mode: difference;
-}
-.exclusion .item {
-  mix-blend-mode: exclusion;
-}
-.hue .item {
-  mix-blend-mode: hue;
-}
-.saturation .item {
-  mix-blend-mode: saturation;
-}
-.color .item {
-  mix-blend-mode: color;
-}
-.luminosity .item {
-  mix-blend-mode: luminosity;
-}
-.plus-darker .item {
-  mix-blend-mode: plus-darker;
-}
-.plus-lighter .item {
-  mix-blend-mode: plus-lighter;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "    linear-gradient(to right, #000 0%, transparent 50%, #fff 100%),",
-                        "53:57 - 53:61",
-                        `/en-US/docs/Web/CSS/mix-blend-mode
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-html,
-body {
-  height: 100%;
-  box-sizing: border-box;
-  background: #eee;
-}
-
-.grid {
-  width: 100%;
-  display: flex;
-  font: 1em monospace;
-}
-
-.row {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: auto;
-}
-
-.col {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: column;
-  height: auto;
-}
-
-.cell {
-  margin: 0.5em;
-  padding: 0.5em;
-  background-color: #fff;
-  overflow: hidden;
-  text-align: center;
-}
-
-.note {
-  background: #fff3d4;
-  padding: 1em;
-  margin: 0.5em 0.5em 0;
-  font: 0.8em sans-serif;
-  text-align: left;
-  white-space: nowrap;
-}
-
-.note + .row .cell {
-  margin-top: 0;
-}
-
-.container {
-  position: relative;
-  background:
-    linear-gradient(to right, #000 0%, transparent 50%, #fff 100%),
-    linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-}
-
-.R {
-  transform-origin: center;
-  transform: rotate(-30deg);
-  fill: url("#red");
-}
-
-.G {
-  transform-origin: center;
-  transform: rotate(90deg);
-  fill: url("#green");
-}
-
-.B {
-  transform-origin: center;
-  transform: rotate(210deg);
-  fill: url("#blue");
-}
-
-.isolate .group {
-  isolation: isolate;
-}
-
-.normal .item {
-  mix-blend-mode: normal;
-}
-.multiply .item {
-  mix-blend-mode: multiply;
-}
-.screen .item {
-  mix-blend-mode: screen;
-}
-.overlay .item {
-  mix-blend-mode: overlay;
-}
-.darken .item {
-  mix-blend-mode: darken;
-}
-.lighten .item {
-  mix-blend-mode: lighten;
-}
-.color-dodge .item {
-  mix-blend-mode: color-dodge;
-}
-.color-burn .item {
-  mix-blend-mode: color-burn;
-}
-.hard-light .item {
-  mix-blend-mode: hard-light;
-}
-.soft-light .item {
-  mix-blend-mode: soft-light;
-}
-.difference .item {
-  mix-blend-mode: difference;
-}
-.exclusion .item {
-  mix-blend-mode: exclusion;
-}
-.hue .item {
-  mix-blend-mode: hue;
-}
-.saturation .item {
-  mix-blend-mode: saturation;
-}
-.color .item {
-  mix-blend-mode: color;
-}
-.luminosity .item {
-  mix-blend-mode: luminosity;
-}
-.plus-darker .item {
-  mix-blend-mode: plus-darker;
-}
-.plus-lighter .item {
-  mix-blend-mode: plus-lighter;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#ff0" to be "#ffff00" (color-hex-length)',
-                        "    linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);",
-                        "54:32 - 54:36",
-                        `/en-US/docs/Web/CSS/mix-blend-mode
-[color-hex-length] Expected "#ff0" to be "#ffff00" (color-hex-length)
-~~~
-html,
-body {
-  height: 100%;
-  box-sizing: border-box;
-  background: #eee;
-}
-
-.grid {
-  width: 100%;
-  display: flex;
-  font: 1em monospace;
-}
-
-.row {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: auto;
-}
-
-.col {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: column;
-  height: auto;
-}
-
-.cell {
-  margin: 0.5em;
-  padding: 0.5em;
-  background-color: #fff;
-  overflow: hidden;
-  text-align: center;
-}
-
-.note {
-  background: #fff3d4;
-  padding: 1em;
-  margin: 0.5em 0.5em 0;
-  font: 0.8em sans-serif;
-  text-align: left;
-  white-space: nowrap;
-}
-
-.note + .row .cell {
-  margin-top: 0;
-}
-
-.container {
-  position: relative;
-  background:
-    linear-gradient(to right, #000 0%, transparent 50%, #fff 100%),
-    linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-}
-
-.R {
-  transform-origin: center;
-  transform: rotate(-30deg);
-  fill: url("#red");
-}
-
-.G {
-  transform-origin: center;
-  transform: rotate(90deg);
-  fill: url("#green");
-}
-
-.B {
-  transform-origin: center;
-  transform: rotate(210deg);
-  fill: url("#blue");
-}
-
-.isolate .group {
-  isolation: isolate;
-}
-
-.normal .item {
-  mix-blend-mode: normal;
-}
-.multiply .item {
-  mix-blend-mode: multiply;
-}
-.screen .item {
-  mix-blend-mode: screen;
-}
-.overlay .item {
-  mix-blend-mode: overlay;
-}
-.darken .item {
-  mix-blend-mode: darken;
-}
-.lighten .item {
-  mix-blend-mode: lighten;
-}
-.color-dodge .item {
-  mix-blend-mode: color-dodge;
-}
-.color-burn .item {
-  mix-blend-mode: color-burn;
-}
-.hard-light .item {
-  mix-blend-mode: hard-light;
-}
-.soft-light .item {
-  mix-blend-mode: soft-light;
-}
-.difference .item {
-  mix-blend-mode: difference;
-}
-.exclusion .item {
-  mix-blend-mode: exclusion;
-}
-.hue .item {
-  mix-blend-mode: hue;
-}
-.saturation .item {
-  mix-blend-mode: saturation;
-}
-.color .item {
-  mix-blend-mode: color;
-}
-.luminosity .item {
-  mix-blend-mode: luminosity;
-}
-.plus-darker .item {
-  mix-blend-mode: plus-darker;
-}
-.plus-lighter .item {
-  mix-blend-mode: plus-lighter;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#f0f" to be "#ff00ff" (color-hex-length)',
-                        "    linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);",
-                        "54:41 - 54:45",
-                        `/en-US/docs/Web/CSS/mix-blend-mode
-[color-hex-length] Expected "#f0f" to be "#ff00ff" (color-hex-length)
-~~~
-html,
-body {
-  height: 100%;
-  box-sizing: border-box;
-  background: #eee;
-}
-
-.grid {
-  width: 100%;
-  display: flex;
-  font: 1em monospace;
-}
-
-.row {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: auto;
-}
-
-.col {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: column;
-  height: auto;
-}
-
-.cell {
-  margin: 0.5em;
-  padding: 0.5em;
-  background-color: #fff;
-  overflow: hidden;
-  text-align: center;
-}
-
-.note {
-  background: #fff3d4;
-  padding: 1em;
-  margin: 0.5em 0.5em 0;
-  font: 0.8em sans-serif;
-  text-align: left;
-  white-space: nowrap;
-}
-
-.note + .row .cell {
-  margin-top: 0;
-}
-
-.container {
-  position: relative;
-  background:
-    linear-gradient(to right, #000 0%, transparent 50%, #fff 100%),
-    linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-}
-
-.R {
-  transform-origin: center;
-  transform: rotate(-30deg);
-  fill: url("#red");
-}
-
-.G {
-  transform-origin: center;
-  transform: rotate(90deg);
-  fill: url("#green");
-}
-
-.B {
-  transform-origin: center;
-  transform: rotate(210deg);
-  fill: url("#blue");
-}
-
-.isolate .group {
-  isolation: isolate;
-}
-
-.normal .item {
-  mix-blend-mode: normal;
-}
-.multiply .item {
-  mix-blend-mode: multiply;
-}
-.screen .item {
-  mix-blend-mode: screen;
-}
-.overlay .item {
-  mix-blend-mode: overlay;
-}
-.darken .item {
-  mix-blend-mode: darken;
-}
-.lighten .item {
-  mix-blend-mode: lighten;
-}
-.color-dodge .item {
-  mix-blend-mode: color-dodge;
-}
-.color-burn .item {
-  mix-blend-mode: color-burn;
-}
-.hard-light .item {
-  mix-blend-mode: hard-light;
-}
-.soft-light .item {
-  mix-blend-mode: soft-light;
-}
-.difference .item {
-  mix-blend-mode: difference;
-}
-.exclusion .item {
-  mix-blend-mode: exclusion;
-}
-.hue .item {
-  mix-blend-mode: hue;
-}
-.saturation .item {
-  mix-blend-mode: saturation;
-}
-.color .item {
-  mix-blend-mode: color;
-}
-.luminosity .item {
-  mix-blend-mode: luminosity;
-}
-.plus-darker .item {
-  mix-blend-mode: plus-darker;
-}
-.plus-lighter .item {
-  mix-blend-mode: plus-lighter;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#0ff" to be "#00ffff" (color-hex-length)',
-                        "    linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);",
-                        "54:51 - 54:55",
-                        `/en-US/docs/Web/CSS/mix-blend-mode
-[color-hex-length] Expected "#0ff" to be "#00ffff" (color-hex-length)
-~~~
-html,
-body {
-  height: 100%;
-  box-sizing: border-box;
-  background: #eee;
-}
-
-.grid {
-  width: 100%;
-  display: flex;
-  font: 1em monospace;
-}
-
-.row {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: auto;
-}
-
-.col {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: column;
-  height: auto;
-}
-
-.cell {
-  margin: 0.5em;
-  padding: 0.5em;
-  background-color: #fff;
-  overflow: hidden;
-  text-align: center;
-}
-
-.note {
-  background: #fff3d4;
-  padding: 1em;
-  margin: 0.5em 0.5em 0;
-  font: 0.8em sans-serif;
-  text-align: left;
-  white-space: nowrap;
-}
-
-.note + .row .cell {
-  margin-top: 0;
-}
-
-.container {
-  position: relative;
-  background:
-    linear-gradient(to right, #000 0%, transparent 50%, #fff 100%),
-    linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-}
-
-.R {
-  transform-origin: center;
-  transform: rotate(-30deg);
-  fill: url("#red");
-}
-
-.G {
-  transform-origin: center;
-  transform: rotate(90deg);
-  fill: url("#green");
-}
-
-.B {
-  transform-origin: center;
-  transform: rotate(210deg);
-  fill: url("#blue");
-}
-
-.isolate .group {
-  isolation: isolate;
-}
-
-.normal .item {
-  mix-blend-mode: normal;
-}
-.multiply .item {
-  mix-blend-mode: multiply;
-}
-.screen .item {
-  mix-blend-mode: screen;
-}
-.overlay .item {
-  mix-blend-mode: overlay;
-}
-.darken .item {
-  mix-blend-mode: darken;
-}
-.lighten .item {
-  mix-blend-mode: lighten;
-}
-.color-dodge .item {
-  mix-blend-mode: color-dodge;
-}
-.color-burn .item {
-  mix-blend-mode: color-burn;
-}
-.hard-light .item {
-  mix-blend-mode: hard-light;
-}
-.soft-light .item {
-  mix-blend-mode: soft-light;
-}
-.difference .item {
-  mix-blend-mode: difference;
-}
-.exclusion .item {
-  mix-blend-mode: exclusion;
-}
-.hue .item {
-  mix-blend-mode: hue;
-}
-.saturation .item {
-  mix-blend-mode: saturation;
-}
-.color .item {
-  mix-blend-mode: color;
-}
-.luminosity .item {
-  mix-blend-mode: luminosity;
-}
-.plus-darker .item {
-  mix-blend-mode: plus-darker;
-}
-.plus-lighter .item {
-  mix-blend-mode: plus-lighter;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/mix-blend-mode
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-html,
-body {
-  height: 100%;
-  box-sizing: border-box;
-  background: #eee;
-}
-
-.grid {
-  width: 100%;
-  display: flex;
-  font: 1em monospace;
-}
-
-.row {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: auto;
-}
-
-.col {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: column;
-  height: auto;
-}
-
-.cell {
-  margin: 0.5em;
-  padding: 0.5em;
-  background-color: #fff;
-  overflow: hidden;
-  text-align: center;
-}
-
-.note {
-  background: #fff3d4;
-  padding: 1em;
-  margin: 0.5em 0.5em 0;
-  font: 0.8em sans-serif;
-  text-align: left;
-  white-space: nowrap;
-}
-
-.note + .row .cell {
-  margin-top: 0;
-}
-
-.container {
-  position: relative;
-  background:
-    linear-gradient(to right, #000 0%, transparent 50%, #fff 100%),
-    linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-}
-
-.R {
-  transform-origin: center;
-  transform: rotate(-30deg);
-  fill: url("#red");
-}
-
-.G {
-  transform-origin: center;
-  transform: rotate(90deg);
-  fill: url("#green");
-}
-
-.B {
-  transform-origin: center;
-  transform: rotate(210deg);
-  fill: url("#blue");
-}
-
-.isolate .group {
-  isolation: isolate;
-}
-
-.normal .item {
-  mix-blend-mode: normal;
-}
-.multiply .item {
-  mix-blend-mode: multiply;
-}
-.screen .item {
-  mix-blend-mode: screen;
-}
-.overlay .item {
-  mix-blend-mode: overlay;
-}
-.darken .item {
-  mix-blend-mode: darken;
-}
-.lighten .item {
-  mix-blend-mode: lighten;
-}
-.color-dodge .item {
-  mix-blend-mode: color-dodge;
-}
-.color-burn .item {
-  mix-blend-mode: color-burn;
-}
-.hard-light .item {
-  mix-blend-mode: hard-light;
-}
-.soft-light .item {
-  mix-blend-mode: soft-light;
-}
-.difference .item {
-  mix-blend-mode: difference;
-}
-.exclusion .item {
-  mix-blend-mode: exclusion;
-}
-.hue .item {
-  mix-blend-mode: hue;
-}
-.saturation .item {
-  mix-blend-mode: saturation;
-}
-.color .item {
-  mix-blend-mode: color;
-}
-.luminosity .item {
-  mix-blend-mode: luminosity;
-}
-.plus-darker .item {
-  mix-blend-mode: plus-darker;
-}
-.plus-lighter .item {
-  mix-blend-mode: plus-lighter;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "    linear-gradient(to right, #000 0%, transparent 50%, #fff 100%),",
-                        "53:31 - 53:35",
-                        `/en-US/docs/Web/CSS/mix-blend-mode
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-html,
-body {
-  height: 100%;
-  box-sizing: border-box;
-  background: #eee;
-}
-
-.grid {
-  width: 100%;
-  display: flex;
-  font: 1em monospace;
-}
-
-.row {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: auto;
-}
-
-.col {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: column;
-  height: auto;
-}
-
-.cell {
-  margin: 0.5em;
-  padding: 0.5em;
-  background-color: #fff;
-  overflow: hidden;
-  text-align: center;
-}
-
-.note {
-  background: #fff3d4;
-  padding: 1em;
-  margin: 0.5em 0.5em 0;
-  font: 0.8em sans-serif;
-  text-align: left;
-  white-space: nowrap;
-}
-
-.note + .row .cell {
-  margin-top: 0;
-}
-
-.container {
-  position: relative;
-  background:
-    linear-gradient(to right, #000 0%, transparent 50%, #fff 100%),
-    linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-}
-
-.R {
-  transform-origin: center;
-  transform: rotate(-30deg);
-  fill: url("#red");
-}
-
-.G {
-  transform-origin: center;
-  transform: rotate(90deg);
-  fill: url("#green");
-}
-
-.B {
-  transform-origin: center;
-  transform: rotate(210deg);
-  fill: url("#blue");
-}
-
-.isolate .group {
-  isolation: isolate;
-}
-
-.normal .item {
-  mix-blend-mode: normal;
-}
-.multiply .item {
-  mix-blend-mode: multiply;
-}
-.screen .item {
-  mix-blend-mode: screen;
-}
-.overlay .item {
-  mix-blend-mode: overlay;
-}
-.darken .item {
-  mix-blend-mode: darken;
-}
-.lighten .item {
-  mix-blend-mode: lighten;
-}
-.color-dodge .item {
-  mix-blend-mode: color-dodge;
-}
-.color-burn .item {
-  mix-blend-mode: color-burn;
-}
-.hard-light .item {
-  mix-blend-mode: hard-light;
-}
-.soft-light .item {
-  mix-blend-mode: soft-light;
-}
-.difference .item {
-  mix-blend-mode: difference;
-}
-.exclusion .item {
-  mix-blend-mode: exclusion;
-}
-.hue .item {
-  mix-blend-mode: hue;
-}
-.saturation .item {
-  mix-blend-mode: saturation;
-}
-.color .item {
-  mix-blend-mode: color;
-}
-.luminosity .item {
-  mix-blend-mode: luminosity;
-}
-.plus-darker .item {
-  mix-blend-mode: plus-darker;
-}
-.plus-lighter .item {
-  mix-blend-mode: plus-lighter;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "    linear-gradient(to right, #000 0%, transparent 50%, #fff 100%),",
-                        "53:57 - 53:61",
-                        `/en-US/docs/Web/CSS/mix-blend-mode
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-html,
-body {
-  height: 100%;
-  box-sizing: border-box;
-  background: #eee;
-}
-
-.grid {
-  width: 100%;
-  display: flex;
-  font: 1em monospace;
-}
-
-.row {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: auto;
-}
-
-.col {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: column;
-  height: auto;
-}
-
-.cell {
-  margin: 0.5em;
-  padding: 0.5em;
-  background-color: #fff;
-  overflow: hidden;
-  text-align: center;
-}
-
-.note {
-  background: #fff3d4;
-  padding: 1em;
-  margin: 0.5em 0.5em 0;
-  font: 0.8em sans-serif;
-  text-align: left;
-  white-space: nowrap;
-}
-
-.note + .row .cell {
-  margin-top: 0;
-}
-
-.container {
-  position: relative;
-  background:
-    linear-gradient(to right, #000 0%, transparent 50%, #fff 100%),
-    linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-}
-
-.R {
-  transform-origin: center;
-  transform: rotate(-30deg);
-  fill: url("#red");
-}
-
-.G {
-  transform-origin: center;
-  transform: rotate(90deg);
-  fill: url("#green");
-}
-
-.B {
-  transform-origin: center;
-  transform: rotate(210deg);
-  fill: url("#blue");
-}
-
-.isolate .group {
-  isolation: isolate;
-}
-
-.normal .item {
-  mix-blend-mode: normal;
-}
-.multiply .item {
-  mix-blend-mode: multiply;
-}
-.screen .item {
-  mix-blend-mode: screen;
-}
-.overlay .item {
-  mix-blend-mode: overlay;
-}
-.darken .item {
-  mix-blend-mode: darken;
-}
-.lighten .item {
-  mix-blend-mode: lighten;
-}
-.color-dodge .item {
-  mix-blend-mode: color-dodge;
-}
-.color-burn .item {
-  mix-blend-mode: color-burn;
-}
-.hard-light .item {
-  mix-blend-mode: hard-light;
-}
-.soft-light .item {
-  mix-blend-mode: soft-light;
-}
-.difference .item {
-  mix-blend-mode: difference;
-}
-.exclusion .item {
-  mix-blend-mode: exclusion;
-}
-.hue .item {
-  mix-blend-mode: hue;
-}
-.saturation .item {
-  mix-blend-mode: saturation;
-}
-.color .item {
-  mix-blend-mode: color;
-}
-.luminosity .item {
-  mix-blend-mode: luminosity;
-}
-.plus-darker .item {
-  mix-blend-mode: plus-darker;
-}
-.plus-lighter .item {
-  mix-blend-mode: plus-lighter;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#ff0" to be "yellow" (color-named)',
-                        "    linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);",
-                        "54:32 - 54:36",
-                        `/en-US/docs/Web/CSS/mix-blend-mode
-[color-named] Expected "#ff0" to be "yellow" (color-named)
-~~~
-html,
-body {
-  height: 100%;
-  box-sizing: border-box;
-  background: #eee;
-}
-
-.grid {
-  width: 100%;
-  display: flex;
-  font: 1em monospace;
-}
-
-.row {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: auto;
-}
-
-.col {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: column;
-  height: auto;
-}
-
-.cell {
-  margin: 0.5em;
-  padding: 0.5em;
-  background-color: #fff;
-  overflow: hidden;
-  text-align: center;
-}
-
-.note {
-  background: #fff3d4;
-  padding: 1em;
-  margin: 0.5em 0.5em 0;
-  font: 0.8em sans-serif;
-  text-align: left;
-  white-space: nowrap;
-}
-
-.note + .row .cell {
-  margin-top: 0;
-}
-
-.container {
-  position: relative;
-  background:
-    linear-gradient(to right, #000 0%, transparent 50%, #fff 100%),
-    linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-}
-
-.R {
-  transform-origin: center;
-  transform: rotate(-30deg);
-  fill: url("#red");
-}
-
-.G {
-  transform-origin: center;
-  transform: rotate(90deg);
-  fill: url("#green");
-}
-
-.B {
-  transform-origin: center;
-  transform: rotate(210deg);
-  fill: url("#blue");
-}
-
-.isolate .group {
-  isolation: isolate;
-}
-
-.normal .item {
-  mix-blend-mode: normal;
-}
-.multiply .item {
-  mix-blend-mode: multiply;
-}
-.screen .item {
-  mix-blend-mode: screen;
-}
-.overlay .item {
-  mix-blend-mode: overlay;
-}
-.darken .item {
-  mix-blend-mode: darken;
-}
-.lighten .item {
-  mix-blend-mode: lighten;
-}
-.color-dodge .item {
-  mix-blend-mode: color-dodge;
-}
-.color-burn .item {
-  mix-blend-mode: color-burn;
-}
-.hard-light .item {
-  mix-blend-mode: hard-light;
-}
-.soft-light .item {
-  mix-blend-mode: soft-light;
-}
-.difference .item {
-  mix-blend-mode: difference;
-}
-.exclusion .item {
-  mix-blend-mode: exclusion;
-}
-.hue .item {
-  mix-blend-mode: hue;
-}
-.saturation .item {
-  mix-blend-mode: saturation;
-}
-.color .item {
-  mix-blend-mode: color;
-}
-.luminosity .item {
-  mix-blend-mode: luminosity;
-}
-.plus-darker .item {
-  mix-blend-mode: plus-darker;
-}
-.plus-lighter .item {
-  mix-blend-mode: plus-lighter;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#f0f" to be "fuchsia" (color-named)',
-                        "    linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);",
-                        "54:41 - 54:45",
-                        `/en-US/docs/Web/CSS/mix-blend-mode
-[color-named] Expected "#f0f" to be "fuchsia" (color-named)
-~~~
-html,
-body {
-  height: 100%;
-  box-sizing: border-box;
-  background: #eee;
-}
-
-.grid {
-  width: 100%;
-  display: flex;
-  font: 1em monospace;
-}
-
-.row {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: auto;
-}
-
-.col {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: column;
-  height: auto;
-}
-
-.cell {
-  margin: 0.5em;
-  padding: 0.5em;
-  background-color: #fff;
-  overflow: hidden;
-  text-align: center;
-}
-
-.note {
-  background: #fff3d4;
-  padding: 1em;
-  margin: 0.5em 0.5em 0;
-  font: 0.8em sans-serif;
-  text-align: left;
-  white-space: nowrap;
-}
-
-.note + .row .cell {
-  margin-top: 0;
-}
-
-.container {
-  position: relative;
-  background:
-    linear-gradient(to right, #000 0%, transparent 50%, #fff 100%),
-    linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-}
-
-.R {
-  transform-origin: center;
-  transform: rotate(-30deg);
-  fill: url("#red");
-}
-
-.G {
-  transform-origin: center;
-  transform: rotate(90deg);
-  fill: url("#green");
-}
-
-.B {
-  transform-origin: center;
-  transform: rotate(210deg);
-  fill: url("#blue");
-}
-
-.isolate .group {
-  isolation: isolate;
-}
-
-.normal .item {
-  mix-blend-mode: normal;
-}
-.multiply .item {
-  mix-blend-mode: multiply;
-}
-.screen .item {
-  mix-blend-mode: screen;
-}
-.overlay .item {
-  mix-blend-mode: overlay;
-}
-.darken .item {
-  mix-blend-mode: darken;
-}
-.lighten .item {
-  mix-blend-mode: lighten;
-}
-.color-dodge .item {
-  mix-blend-mode: color-dodge;
-}
-.color-burn .item {
-  mix-blend-mode: color-burn;
-}
-.hard-light .item {
-  mix-blend-mode: hard-light;
-}
-.soft-light .item {
-  mix-blend-mode: soft-light;
-}
-.difference .item {
-  mix-blend-mode: difference;
-}
-.exclusion .item {
-  mix-blend-mode: exclusion;
-}
-.hue .item {
-  mix-blend-mode: hue;
-}
-.saturation .item {
-  mix-blend-mode: saturation;
-}
-.color .item {
-  mix-blend-mode: color;
-}
-.luminosity .item {
-  mix-blend-mode: luminosity;
-}
-.plus-darker .item {
-  mix-blend-mode: plus-darker;
-}
-.plus-lighter .item {
-  mix-blend-mode: plus-lighter;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#0ff" to be "cyan" (color-named)',
-                        "    linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);",
-                        "54:51 - 54:55",
-                        `/en-US/docs/Web/CSS/mix-blend-mode
-[color-named] Expected "#0ff" to be "cyan" (color-named)
-~~~
-html,
-body {
-  height: 100%;
-  box-sizing: border-box;
-  background: #eee;
-}
-
-.grid {
-  width: 100%;
-  display: flex;
-  font: 1em monospace;
-}
-
-.row {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: auto;
-}
-
-.col {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: column;
-  height: auto;
-}
-
-.cell {
-  margin: 0.5em;
-  padding: 0.5em;
-  background-color: #fff;
-  overflow: hidden;
-  text-align: center;
-}
-
-.note {
-  background: #fff3d4;
-  padding: 1em;
-  margin: 0.5em 0.5em 0;
-  font: 0.8em sans-serif;
-  text-align: left;
-  white-space: nowrap;
-}
-
-.note + .row .cell {
-  margin-top: 0;
-}
-
-.container {
-  position: relative;
-  background:
-    linear-gradient(to right, #000 0%, transparent 50%, #fff 100%),
-    linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);
+    linear-gradient(to right, black 0%, transparent 50%, white 100%),
+    linear-gradient(to bottom, yellow 0%, magenta 50%, cyan 100%);
   width: 150px;
   height: 150px;
   margin: 0 auto;
@@ -129995,7 +118550,7 @@ body {
 .cell {
   margin: 0.5em;
   padding: 0.5em;
-  background-color: #fff;
+  background-color: white;
   overflow: hidden;
   text-align: center;
 }
@@ -130016,8 +118571,8 @@ body {
 .container {
   position: relative;
   background:
-    linear-gradient(to right, #000 0%, transparent 50%, #fff 100%),
-    linear-gradient(to bottom, #ff0 0%, #f0f 50%, #0ff 100%);
+    linear-gradient(to right, black 0%, transparent 50%, white 100%),
+    linear-gradient(to bottom, yellow 0%, magenta 50%, cyan 100%);
   width: 150px;
   height: 150px;
   margin: 0 auto;
@@ -130141,112 +118696,6 @@ body {
                     {
                       message: "Stylelint backlog",
                       data: [
-                        "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "  border: 1px solid #000;",
-                        "12:21 - 12:25",
-                        `/en-US/docs/Web/CSS/object-fit
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-h2 {
-  font-family:
-    Courier New,
-    monospace;
-  font-size: 1em;
-  margin: 1em 0 0.3em;
-}
-
-img {
-  width: 150px;
-  height: 100px;
-  border: 1px solid #000;
-  margin: 10px 0;
-}
-
-.narrow {
-  width: 100px;
-  height: 150px;
-}
-
-.fill {
-  object-fit: fill;
-}
-
-.contain {
-  object-fit: contain;
-}
-
-.cover {
-  object-fit: cover;
-}
-
-.none {
-  object-fit: none;
-}
-
-.scale-down {
-  object-fit: scale-down;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "  border: 1px solid #000;",
-                        "12:21 - 12:25",
-                        `/en-US/docs/Web/CSS/object-fit
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-h2 {
-  font-family:
-    Courier New,
-    monospace;
-  font-size: 1em;
-  margin: 1em 0 0.3em;
-}
-
-img {
-  width: 150px;
-  height: 100px;
-  border: 1px solid #000;
-  margin: 10px 0;
-}
-
-.narrow {
-  width: 100px;
-  height: 150px;
-}
-
-.fill {
-  object-fit: fill;
-}
-
-.contain {
-  object-fit: contain;
-}
-
-.cover {
-  object-fit: cover;
-}
-
-.none {
-  object-fit: none;
-}
-
-.scale-down {
-  object-fit: scale-down;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
                         "font-family-name-quotes",
                         'Expected quotes around "Courier New" (font-family-name-quotes)',
                         "    Courier New,",
@@ -130265,7 +118714,7 @@ h2 {
 img {
   width: 150px;
   height: 100px;
-  border: 1px solid #000;
+  border: 1px solid black;
   margin: 10px 0;
 }
 
@@ -130307,116 +118756,6 @@ img {
                       message: "Stylelint backlog",
                       data: [
                         "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "    #000 50%,",
-                        "19:5 - 19:9",
-                        `/en-US/docs/Web/CSS/offset-anchor
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-#example-element {
-  offset-path: path("M 0,20 L 200,20");
-  animation: distance 3000ms infinite alternate ease-in-out;
-  width: 40px;
-  height: 40px;
-  background: cyan;
-  animation-play-state: paused;
-}
-
-#example-element.running {
-  animation-play-state: running;
-}
-
-.wrapper {
-  background-image: linear-gradient(
-    to bottom,
-    transparent,
-    transparent 49%,
-    #000 50%,
-    #000 51%,
-    transparent 52%
-  );
-  border: 1px solid #ccc;
-  width: 90%;
-}
-
-@keyframes distance {
-  0% {
-    offset-distance: 0%;
-  }
-  100% {
-    offset-distance: 100%;
-  }
-}
-
-#playback {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 1em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "    #000 51%,",
-                        "20:5 - 20:9",
-                        `/en-US/docs/Web/CSS/offset-anchor
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-#example-element {
-  offset-path: path("M 0,20 L 200,20");
-  animation: distance 3000ms infinite alternate ease-in-out;
-  width: 40px;
-  height: 40px;
-  background: cyan;
-  animation-play-state: paused;
-}
-
-#example-element.running {
-  animation-play-state: running;
-}
-
-.wrapper {
-  background-image: linear-gradient(
-    to bottom,
-    transparent,
-    transparent 49%,
-    #000 50%,
-    #000 51%,
-    transparent 52%
-  );
-  border: 1px solid #ccc;
-  width: 90%;
-}
-
-@keyframes distance {
-  0% {
-    offset-distance: 0%;
-  }
-  100% {
-    offset-distance: 100%;
-  }
-}
-
-#playback {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 1em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
                         "  border: 1px solid #ccc;",
                         "23:21 - 23:25",
@@ -130441,8 +118780,8 @@ img {
     to bottom,
     transparent,
     transparent 49%,
-    #000 50%,
-    #000 51%,
+    black 50%,
+    black 51%,
     transparent 52%
   );
   border: 1px solid #ccc;
@@ -130463,230 +118802,6 @@ img {
   top: 0;
   left: 0;
   font-size: 1em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "    #000 50%,",
-                        "19:5 - 19:9",
-                        `/en-US/docs/Web/CSS/offset-anchor
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-#example-element {
-  offset-path: path("M 0,20 L 200,20");
-  animation: distance 3000ms infinite alternate ease-in-out;
-  width: 40px;
-  height: 40px;
-  background: cyan;
-  animation-play-state: paused;
-}
-
-#example-element.running {
-  animation-play-state: running;
-}
-
-.wrapper {
-  background-image: linear-gradient(
-    to bottom,
-    transparent,
-    transparent 49%,
-    #000 50%,
-    #000 51%,
-    transparent 52%
-  );
-  border: 1px solid #ccc;
-  width: 90%;
-}
-
-@keyframes distance {
-  0% {
-    offset-distance: 0%;
-  }
-  100% {
-    offset-distance: 100%;
-  }
-}
-
-#playback {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 1em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "    #000 51%,",
-                        "20:5 - 20:9",
-                        `/en-US/docs/Web/CSS/offset-anchor
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-#example-element {
-  offset-path: path("M 0,20 L 200,20");
-  animation: distance 3000ms infinite alternate ease-in-out;
-  width: 40px;
-  height: 40px;
-  background: cyan;
-  animation-play-state: paused;
-}
-
-#example-element.running {
-  animation-play-state: running;
-}
-
-.wrapper {
-  background-image: linear-gradient(
-    to bottom,
-    transparent,
-    transparent 49%,
-    #000 50%,
-    #000 51%,
-    transparent 52%
-  );
-  border: 1px solid #ccc;
-  width: 90%;
-}
-
-@keyframes distance {
-  0% {
-    offset-distance: 0%;
-  }
-  100% {
-    offset-distance: 100%;
-  }
-}
-
-#playback {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: 1em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "    #000 50%,",
-                        "13:5 - 13:9",
-                        `/en-US/docs/Web/CSS/offset-anchor
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-div {
-  offset-path: path("M 0,20 L 200,20");
-  animation: move 3000ms infinite alternate ease-in-out;
-  width: 40px;
-  height: 40px;
-}
-
-section {
-  background-image: linear-gradient(
-    to bottom,
-    transparent,
-    transparent 49%,
-    #000 50%,
-    #000 51%,
-    transparent 52%
-  );
-  border: 1px solid #ccc;
-  margin-bottom: 10px;
-}
-
-.offset-anchor1 {
-  offset-anchor: auto;
-  background: cyan;
-}
-
-.offset-anchor2 {
-  offset-anchor: right top;
-  background: purple;
-}
-
-.offset-anchor3 {
-  offset-anchor: left bottom;
-  background: magenta;
-}
-
-@keyframes move {
-  0% {
-    offset-distance: 0%;
-  }
-  100% {
-    offset-distance: 100%;
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "    #000 51%,",
-                        "14:5 - 14:9",
-                        `/en-US/docs/Web/CSS/offset-anchor
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-div {
-  offset-path: path("M 0,20 L 200,20");
-  animation: move 3000ms infinite alternate ease-in-out;
-  width: 40px;
-  height: 40px;
-}
-
-section {
-  background-image: linear-gradient(
-    to bottom,
-    transparent,
-    transparent 49%,
-    #000 50%,
-    #000 51%,
-    transparent 52%
-  );
-  border: 1px solid #ccc;
-  margin-bottom: 10px;
-}
-
-.offset-anchor1 {
-  offset-anchor: auto;
-  background: cyan;
-}
-
-.offset-anchor2 {
-  offset-anchor: right top;
-  background: purple;
-}
-
-.offset-anchor3 {
-  offset-anchor: left bottom;
-  background: magenta;
-}
-
-@keyframes move {
-  0% {
-    offset-distance: 0%;
-  }
-  100% {
-    offset-distance: 100%;
-  }
 }
 ~~~
 `
@@ -130714,122 +118829,8 @@ section {
     to bottom,
     transparent,
     transparent 49%,
-    #000 50%,
-    #000 51%,
-    transparent 52%
-  );
-  border: 1px solid #ccc;
-  margin-bottom: 10px;
-}
-
-.offset-anchor1 {
-  offset-anchor: auto;
-  background: cyan;
-}
-
-.offset-anchor2 {
-  offset-anchor: right top;
-  background: purple;
-}
-
-.offset-anchor3 {
-  offset-anchor: left bottom;
-  background: magenta;
-}
-
-@keyframes move {
-  0% {
-    offset-distance: 0%;
-  }
-  100% {
-    offset-distance: 100%;
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "    #000 50%,",
-                        "13:5 - 13:9",
-                        `/en-US/docs/Web/CSS/offset-anchor
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-div {
-  offset-path: path("M 0,20 L 200,20");
-  animation: move 3000ms infinite alternate ease-in-out;
-  width: 40px;
-  height: 40px;
-}
-
-section {
-  background-image: linear-gradient(
-    to bottom,
-    transparent,
-    transparent 49%,
-    #000 50%,
-    #000 51%,
-    transparent 52%
-  );
-  border: 1px solid #ccc;
-  margin-bottom: 10px;
-}
-
-.offset-anchor1 {
-  offset-anchor: auto;
-  background: cyan;
-}
-
-.offset-anchor2 {
-  offset-anchor: right top;
-  background: purple;
-}
-
-.offset-anchor3 {
-  offset-anchor: left bottom;
-  background: magenta;
-}
-
-@keyframes move {
-  0% {
-    offset-distance: 0%;
-  }
-  100% {
-    offset-distance: 100%;
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "    #000 51%,",
-                        "14:5 - 14:9",
-                        `/en-US/docs/Web/CSS/offset-anchor
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-div {
-  offset-path: path("M 0,20 L 200,20");
-  animation: move 3000ms infinite alternate ease-in-out;
-  width: 40px;
-  height: 40px;
-}
-
-section {
-  background-image: linear-gradient(
-    to bottom,
-    transparent,
-    transparent 49%,
-    #000 50%,
-    #000 51%,
+    black 50%,
+    black 51%,
     transparent 52%
   );
   border: 1px solid #ccc;
@@ -131061,136 +119062,10 @@ a:focus {
                     }
                   ]
                 },
-                "outline-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/outline-color",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#0000ff" to be "blue" (color-named)',
-                        "  outline-color: #0000ff; /* Make the outline blue */",
-                        "3:18 - 3:25",
-                        `/en-US/docs/Web/CSS/outline-color
-[color-named] Expected "#0000ff" to be "blue" (color-named)
-~~~
-p {
-  outline: 2px solid; /* Set the outline width and style */
-  outline-color: #0000ff; /* Make the outline blue */
-  margin: 5px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "overflow-wrap": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow-wrap",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#663399" to be "rebeccapurple" (color-named)',
-                        "  border: 3px solid #663399;",
-                        "3:21 - 3:28",
-                        `/en-US/docs/Web/CSS/overflow-wrap
-[color-named] Expected "#663399" to be "rebeccapurple" (color-named)
-~~~
-.example-container {
-  background-color: rgb(255 0 200 / 0.2);
-  border: 3px solid #663399;
-  padding: 0.75em;
-  width: min-content;
-  max-width: 11em;
-  height: 200px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 overlay: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/overlay",
                   messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "0%" to be "0" (alpha-value-notation)',
-                        "  background-color: rgb(0 0 0 / 0%);",
-                        "39:33 - 39:35",
-                        `/en-US/docs/Web/CSS/overlay
-[alpha-value-notation] Expected "0%" to be "0" (alpha-value-notation)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-[popover]:popover-open {
-  opacity: 1;
-  transform: scaleX(1);
-}
-
-[popover] {
-  font-size: 1.2rem;
-  padding: 10px;
-
-  /* Final state of the exit animation */
-  opacity: 0;
-  transform: scaleX(0);
-
-  transition:
-    opacity 0.7s,
-    transform 0.7s,
-    overlay 0.7s allow-discrete,
-    display 0.7s allow-discrete;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-}
-
-/* Needs to be included after the previous [popover]:popover-open
-   rule to take effect, as the specificity is the same */
-@starting-style {
-  [popover]:popover-open {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-}
-
-/* Transition for the popover's backdrop */
-
-[popover]::backdrop {
-  background-color: rgb(0 0 0 / 0%);
-  transition:
-    display 0.7s allow-discrete,
-    overlay 0.7s allow-discrete,
-    background-color 0.7s;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-}
-
-[popover]:popover-open::backdrop {
-  background-color: rgb(0 0 0 / 25%);
-}
-
-/* Nesting selectors (&) cannot represent pseudo-elements, so this 
-   starting-style rule cannot be nested. */
-
-@starting-style {
-  [popover]:popover-open::backdrop {
-    background-color: rgb(0 0 0 / 0%);
-  }
-}
-~~~
-`
-                      ]
-                    },
                     {
                       message: "Stylelint backlog",
                       data: [
@@ -131239,7 +119114,7 @@ html {
 /* Transition for the popover's backdrop */
 
 [popover]::backdrop {
-  background-color: rgb(0 0 0 / 0%);
+  background-color: transparent;
   transition:
     display 0.7s allow-discrete,
     overlay 0.7s allow-discrete,
@@ -131257,80 +119132,7 @@ html {
 
 @starting-style {
   [popover]:popover-open::backdrop {
-    background-color: rgb(0 0 0 / 0%);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "0%" to be "0" (alpha-value-notation)',
-                        "    background-color: rgb(0 0 0 / 0%);",
-                        "57:35 - 57:37",
-                        `/en-US/docs/Web/CSS/overlay
-[alpha-value-notation] Expected "0%" to be "0" (alpha-value-notation)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-[popover]:popover-open {
-  opacity: 1;
-  transform: scaleX(1);
-}
-
-[popover] {
-  font-size: 1.2rem;
-  padding: 10px;
-
-  /* Final state of the exit animation */
-  opacity: 0;
-  transform: scaleX(0);
-
-  transition:
-    opacity 0.7s,
-    transform 0.7s,
-    overlay 0.7s allow-discrete,
-    display 0.7s allow-discrete;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-}
-
-/* Needs to be included after the previous [popover]:popover-open
-   rule to take effect, as the specificity is the same */
-@starting-style {
-  [popover]:popover-open {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-}
-
-/* Transition for the popover's backdrop */
-
-[popover]::backdrop {
-  background-color: rgb(0 0 0 / 0%);
-  transition:
-    display 0.7s allow-discrete,
-    overlay 0.7s allow-discrete,
-    background-color 0.7s;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-}
-
-[popover]:popover-open::backdrop {
-  background-color: rgb(0 0 0 / 25%);
-}
-
-/* Nesting selectors (&) cannot represent pseudo-elements, so this 
-   starting-style rule cannot be nested. */
-
-@starting-style {
-  [popover]:popover-open::backdrop {
-    background-color: rgb(0 0 0 / 0%);
+    background-color: transparent;
   }
 }
 ~~~
@@ -131385,7 +119187,7 @@ html {
 /* Transition for the popover's backdrop */
 
 [popover]::backdrop {
-  background-color: rgb(0 0 0 / 0%);
+  background-color: transparent;
   transition:
     display 0.7s allow-discrete,
     overlay 0.7s allow-discrete,
@@ -131403,7 +119205,7 @@ html {
 
 @starting-style {
   [popover]:popover-open::backdrop {
-    background-color: rgb(0 0 0 / 0%);
+    background-color: transparent;
   }
 }
 ~~~
@@ -131458,7 +119260,7 @@ html {
 /* Transition for the popover's backdrop */
 
 [popover]::backdrop {
-  background-color: rgb(0 0 0 / 0%);
+  background-color: transparent;
   transition:
     display 0.7s allow-discrete,
     overlay 0.7s allow-discrete,
@@ -131476,7 +119278,7 @@ html {
 
 @starting-style {
   [popover]:popover-open::backdrop {
-    background-color: rgb(0 0 0 / 0%);
+    background-color: transparent;
   }
 }
 ~~~
@@ -131493,120 +119295,6 @@ html {
                       message: "Stylelint backlog",
                       data: [
                         "alpha-value-notation",
-                        'Expected "0%" to be "0" (alpha-value-notation)',
-                        "    rgb(0 0 0 / 0%) 0px,",
-                        "7:17 - 7:19",
-                        `/en-US/docs/Web/CSS/overscroll-behavior-block
-[alpha-value-notation] Expected "0%" to be "0" (alpha-value-notation)
-~~~
-main {
-  height: 3000px;
-  width: 500px;
-  background-color: white;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-main > div {
-  height: 300px;
-  width: 400px;
-  overflow: auto;
-  position: relative;
-  top: 50px;
-  left: 50px;
-  overscroll-behavior-block: contain;
-}
-
-div > div {
-  height: 1500px;
-  width: 100%;
-  background-color: yellow;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-p {
-  padding: 10px;
-  background-color: rgb(255 0 0 / 50%);
-  margin: 0;
-  width: 340px;
-  position: relative;
-  top: 10px;
-  left: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "0%" to be "0" (alpha-value-notation)',
-                        "    rgb(0 0 0 / 0%) 19px,",
-                        "8:17 - 8:19",
-                        `/en-US/docs/Web/CSS/overscroll-behavior-block
-[alpha-value-notation] Expected "0%" to be "0" (alpha-value-notation)
-~~~
-main {
-  height: 3000px;
-  width: 500px;
-  background-color: white;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-main > div {
-  height: 300px;
-  width: 400px;
-  overflow: auto;
-  position: relative;
-  top: 50px;
-  left: 50px;
-  overscroll-behavior-block: contain;
-}
-
-div > div {
-  height: 1500px;
-  width: 100%;
-  background-color: yellow;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-p {
-  padding: 10px;
-  background-color: rgb(255 0 0 / 50%);
-  margin: 0;
-  width: 340px;
-  position: relative;
-  top: 10px;
-  left: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
                         'Expected "50%" to be "0.5" (alpha-value-notation)',
                         "    rgb(0 0 0 / 50%) 20px",
                         "9:17 - 9:20",
@@ -131619,8 +119307,8 @@ main {
   background-color: white;
   background-image: repeating-linear-gradient(
     to bottom,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
+    transparent 0px,
+    transparent 19px,
     rgb(0 0 0 / 50%) 20px
   );
 }
@@ -131641,122 +119329,8 @@ div > div {
   background-color: yellow;
   background-image: repeating-linear-gradient(
     to bottom,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-p {
-  padding: 10px;
-  background-color: rgb(255 0 0 / 50%);
-  margin: 0;
-  width: 340px;
-  position: relative;
-  top: 10px;
-  left: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "0%" to be "0" (alpha-value-notation)',
-                        "    rgb(0 0 0 / 0%) 0px,",
-                        "29:17 - 29:19",
-                        `/en-US/docs/Web/CSS/overscroll-behavior-block
-[alpha-value-notation] Expected "0%" to be "0" (alpha-value-notation)
-~~~
-main {
-  height: 3000px;
-  width: 500px;
-  background-color: white;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-main > div {
-  height: 300px;
-  width: 400px;
-  overflow: auto;
-  position: relative;
-  top: 50px;
-  left: 50px;
-  overscroll-behavior-block: contain;
-}
-
-div > div {
-  height: 1500px;
-  width: 100%;
-  background-color: yellow;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-p {
-  padding: 10px;
-  background-color: rgb(255 0 0 / 50%);
-  margin: 0;
-  width: 340px;
-  position: relative;
-  top: 10px;
-  left: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "0%" to be "0" (alpha-value-notation)',
-                        "    rgb(0 0 0 / 0%) 19px,",
-                        "30:17 - 30:19",
-                        `/en-US/docs/Web/CSS/overscroll-behavior-block
-[alpha-value-notation] Expected "0%" to be "0" (alpha-value-notation)
-~~~
-main {
-  height: 3000px;
-  width: 500px;
-  background-color: white;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-main > div {
-  height: 300px;
-  width: 400px;
-  overflow: auto;
-  position: relative;
-  top: 50px;
-  left: 50px;
-  overscroll-behavior-block: contain;
-}
-
-div > div {
-  height: 1500px;
-  width: 100%;
-  background-color: yellow;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
+    transparent 0px,
+    transparent 19px,
     rgb(0 0 0 / 50%) 20px
   );
 }
@@ -131790,8 +119364,8 @@ main {
   background-color: white;
   background-image: repeating-linear-gradient(
     to bottom,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
+    transparent 0px,
+    transparent 19px,
     rgb(0 0 0 / 50%) 20px
   );
 }
@@ -131812,8 +119386,8 @@ div > div {
   background-color: yellow;
   background-image: repeating-linear-gradient(
     to bottom,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
+    transparent 0px,
+    transparent 19px,
     rgb(0 0 0 / 50%) 20px
   );
 }
@@ -131847,8 +119421,8 @@ main {
   background-color: white;
   background-image: repeating-linear-gradient(
     to bottom,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
+    transparent 0px,
+    transparent 19px,
     rgb(0 0 0 / 50%) 20px
   );
 }
@@ -131869,8 +119443,8 @@ div > div {
   background-color: yellow;
   background-image: repeating-linear-gradient(
     to bottom,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
+    transparent 0px,
+    transparent 19px,
     rgb(0 0 0 / 50%) 20px
   );
 }
@@ -131898,120 +119472,6 @@ p {
                       message: "Stylelint backlog",
                       data: [
                         "alpha-value-notation",
-                        'Expected "0%" to be "0" (alpha-value-notation)',
-                        "    rgb(0 0 0 / 0%) 0px,",
-                        "7:17 - 7:19",
-                        `/en-US/docs/Web/CSS/overscroll-behavior-inline
-[alpha-value-notation] Expected "0%" to be "0" (alpha-value-notation)
-~~~
-main {
-  height: 400px;
-  width: 3000px;
-  background-color: white;
-  background-image: repeating-linear-gradient(
-    to right,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-main > div {
-  height: 300px;
-  width: 400px;
-  overflow: auto;
-  position: relative;
-  top: 50px;
-  left: 50px;
-  overscroll-behavior-inline: contain;
-}
-
-div > div {
-  height: 100%;
-  width: 1500px;
-  background-color: yellow;
-  background-image: repeating-linear-gradient(
-    to right,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-p {
-  padding: 10px;
-  background-color: rgb(255 0 0 / 50%);
-  margin: 0;
-  width: 360px;
-  position: relative;
-  top: 10px;
-  left: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "0%" to be "0" (alpha-value-notation)',
-                        "    rgb(0 0 0 / 0%) 19px,",
-                        "8:17 - 8:19",
-                        `/en-US/docs/Web/CSS/overscroll-behavior-inline
-[alpha-value-notation] Expected "0%" to be "0" (alpha-value-notation)
-~~~
-main {
-  height: 400px;
-  width: 3000px;
-  background-color: white;
-  background-image: repeating-linear-gradient(
-    to right,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-main > div {
-  height: 300px;
-  width: 400px;
-  overflow: auto;
-  position: relative;
-  top: 50px;
-  left: 50px;
-  overscroll-behavior-inline: contain;
-}
-
-div > div {
-  height: 100%;
-  width: 1500px;
-  background-color: yellow;
-  background-image: repeating-linear-gradient(
-    to right,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-p {
-  padding: 10px;
-  background-color: rgb(255 0 0 / 50%);
-  margin: 0;
-  width: 360px;
-  position: relative;
-  top: 10px;
-  left: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
                         'Expected "50%" to be "0.5" (alpha-value-notation)',
                         "    rgb(0 0 0 / 50%) 20px",
                         "9:17 - 9:20",
@@ -132024,8 +119484,8 @@ main {
   background-color: white;
   background-image: repeating-linear-gradient(
     to right,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
+    transparent 0px,
+    transparent 19px,
     rgb(0 0 0 / 50%) 20px
   );
 }
@@ -132046,122 +119506,8 @@ div > div {
   background-color: yellow;
   background-image: repeating-linear-gradient(
     to right,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-p {
-  padding: 10px;
-  background-color: rgb(255 0 0 / 50%);
-  margin: 0;
-  width: 360px;
-  position: relative;
-  top: 10px;
-  left: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "0%" to be "0" (alpha-value-notation)',
-                        "    rgb(0 0 0 / 0%) 0px,",
-                        "29:17 - 29:19",
-                        `/en-US/docs/Web/CSS/overscroll-behavior-inline
-[alpha-value-notation] Expected "0%" to be "0" (alpha-value-notation)
-~~~
-main {
-  height: 400px;
-  width: 3000px;
-  background-color: white;
-  background-image: repeating-linear-gradient(
-    to right,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-main > div {
-  height: 300px;
-  width: 400px;
-  overflow: auto;
-  position: relative;
-  top: 50px;
-  left: 50px;
-  overscroll-behavior-inline: contain;
-}
-
-div > div {
-  height: 100%;
-  width: 1500px;
-  background-color: yellow;
-  background-image: repeating-linear-gradient(
-    to right,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-p {
-  padding: 10px;
-  background-color: rgb(255 0 0 / 50%);
-  margin: 0;
-  width: 360px;
-  position: relative;
-  top: 10px;
-  left: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "0%" to be "0" (alpha-value-notation)',
-                        "    rgb(0 0 0 / 0%) 19px,",
-                        "30:17 - 30:19",
-                        `/en-US/docs/Web/CSS/overscroll-behavior-inline
-[alpha-value-notation] Expected "0%" to be "0" (alpha-value-notation)
-~~~
-main {
-  height: 400px;
-  width: 3000px;
-  background-color: white;
-  background-image: repeating-linear-gradient(
-    to right,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-main > div {
-  height: 300px;
-  width: 400px;
-  overflow: auto;
-  position: relative;
-  top: 50px;
-  left: 50px;
-  overscroll-behavior-inline: contain;
-}
-
-div > div {
-  height: 100%;
-  width: 1500px;
-  background-color: yellow;
-  background-image: repeating-linear-gradient(
-    to right,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
+    transparent 0px,
+    transparent 19px,
     rgb(0 0 0 / 50%) 20px
   );
 }
@@ -132195,8 +119541,8 @@ main {
   background-color: white;
   background-image: repeating-linear-gradient(
     to right,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
+    transparent 0px,
+    transparent 19px,
     rgb(0 0 0 / 50%) 20px
   );
 }
@@ -132217,8 +119563,8 @@ div > div {
   background-color: yellow;
   background-image: repeating-linear-gradient(
     to right,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
+    transparent 0px,
+    transparent 19px,
     rgb(0 0 0 / 50%) 20px
   );
 }
@@ -132252,8 +119598,8 @@ main {
   background-color: white;
   background-image: repeating-linear-gradient(
     to right,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
+    transparent 0px,
+    transparent 19px,
     rgb(0 0 0 / 50%) 20px
   );
 }
@@ -132274,8 +119620,8 @@ div > div {
   background-color: yellow;
   background-image: repeating-linear-gradient(
     to right,
-    rgb(0 0 0 / 0%) 0px,
-    rgb(0 0 0 / 0%) 19px,
+    transparent 0px,
+    transparent 19px,
     rgb(0 0 0 / 50%) 20px
   );
 }
@@ -132936,110 +120282,6 @@ span {
                       message: "Stylelint backlog",
                       data: [
                         "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background: #fff;",
-                        "6:15 - 6:19",
-                        `/en-US/docs/Web/CSS/position
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-dl > div {
-  background: #fff;
-  padding: 24px 0 0 0;
-}
-
-dt {
-  background: #b8c1c8;
-  border-bottom: 1px solid #989ea4;
-  border-top: 1px solid #717d85;
-  color: #fff;
-  font:
-    bold 18px/21px Helvetica,
-    Arial,
-    sans-serif;
-  margin: 0;
-  padding: 2px 0 0 12px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: -1px;
-}
-
-dd {
-  font:
-    bold 20px/45px Helvetica,
-    Arial,
-    sans-serif;
-  margin: 0;
-  padding: 0 0 0 12px;
-  white-space: nowrap;
-}
-
-dd + dd {
-  border-top: 1px solid #ccc;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "14:10 - 14:14",
-                        `/en-US/docs/Web/CSS/position
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-dl > div {
-  background: #fff;
-  padding: 24px 0 0 0;
-}
-
-dt {
-  background: #b8c1c8;
-  border-bottom: 1px solid #989ea4;
-  border-top: 1px solid #717d85;
-  color: #fff;
-  font:
-    bold 18px/21px Helvetica,
-    Arial,
-    sans-serif;
-  margin: 0;
-  padding: 2px 0 0 12px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: -1px;
-}
-
-dd {
-  font:
-    bold 20px/45px Helvetica,
-    Arial,
-    sans-serif;
-  margin: 0;
-  padding: 0 0 0 12px;
-  white-space: nowrap;
-}
-
-dd + dd {
-  border-top: 1px solid #ccc;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
                         'Expected "#ccc" to be "#cccccc" (color-hex-length)',
                         "  border-top: 1px solid #ccc;",
                         "37:25 - 37:29",
@@ -133051,7 +120293,7 @@ dd + dd {
 }
 
 dl > div {
-  background: #fff;
+  background: white;
   padding: 24px 0 0 0;
 }
 
@@ -133059,111 +120301,7 @@ dt {
   background: #b8c1c8;
   border-bottom: 1px solid #989ea4;
   border-top: 1px solid #717d85;
-  color: #fff;
-  font:
-    bold 18px/21px Helvetica,
-    Arial,
-    sans-serif;
-  margin: 0;
-  padding: 2px 0 0 12px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: -1px;
-}
-
-dd {
-  font:
-    bold 20px/45px Helvetica,
-    Arial,
-    sans-serif;
-  margin: 0;
-  padding: 0 0 0 12px;
-  white-space: nowrap;
-}
-
-dd + dd {
-  border-top: 1px solid #ccc;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background: #fff;",
-                        "6:15 - 6:19",
-                        `/en-US/docs/Web/CSS/position
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-dl > div {
-  background: #fff;
-  padding: 24px 0 0 0;
-}
-
-dt {
-  background: #b8c1c8;
-  border-bottom: 1px solid #989ea4;
-  border-top: 1px solid #717d85;
-  color: #fff;
-  font:
-    bold 18px/21px Helvetica,
-    Arial,
-    sans-serif;
-  margin: 0;
-  padding: 2px 0 0 12px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: -1px;
-}
-
-dd {
-  font:
-    bold 20px/45px Helvetica,
-    Arial,
-    sans-serif;
-  margin: 0;
-  padding: 0 0 0 12px;
-  white-space: nowrap;
-}
-
-dd + dd {
-  border-top: 1px solid #ccc;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "14:10 - 14:14",
-                        `/en-US/docs/Web/CSS/position
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-dl > div {
-  background: #fff;
-  padding: 24px 0 0 0;
-}
-
-dt {
-  background: #b8c1c8;
-  border-bottom: 1px solid #989ea4;
-  border-top: 1px solid #717d85;
-  color: #fff;
+  color: white;
   font:
     bold 18px/21px Helvetica,
     Arial,
@@ -133207,7 +120345,7 @@ dd + dd {
 }
 
 dl > div {
-  background: #fff;
+  background: white;
   padding: 24px 0 0 0;
 }
 
@@ -133215,7 +120353,7 @@ dt {
   background: #b8c1c8;
   border-bottom: 1px solid #989ea4;
   border-top: 1px solid #717d85;
-  color: #fff;
+  color: white;
   font:
     bold 18px/21px Helvetica,
     Arial,
@@ -133259,7 +120397,7 @@ dd + dd {
 }
 
 dl > div {
-  background: #fff;
+  background: white;
   padding: 24px 0 0 0;
 }
 
@@ -133267,7 +120405,7 @@ dt {
   background: #b8c1c8;
   border-bottom: 1px solid #989ea4;
   border-top: 1px solid #717d85;
-  color: #fff;
+  color: white;
   font:
     bold 18px/21px Helvetica,
     Arial,
@@ -133311,7 +120449,7 @@ dd + dd {
 }
 
 dl > div {
-  background: #fff;
+  background: white;
   padding: 24px 0 0 0;
 }
 
@@ -133319,7 +120457,7 @@ dt {
   background: #b8c1c8;
   border-bottom: 1px solid #989ea4;
   border-top: 1px solid #717d85;
-  color: #fff;
+  color: white;
   font:
     bold 18px/21px Helvetica,
     Arial,
@@ -133363,7 +120501,7 @@ dd + dd {
 }
 
 dl > div {
-  background: #fff;
+  background: white;
   padding: 24px 0 0 0;
 }
 
@@ -133371,7 +120509,7 @@ dt {
   background: #b8c1c8;
   border-bottom: 1px solid #989ea4;
   border-top: 1px solid #717d85;
-  color: #fff;
+  color: white;
   font:
     bold 18px/21px Helvetica,
     Arial,
@@ -133415,7 +120553,7 @@ dd + dd {
 }
 
 dl > div {
-  background: #fff;
+  background: white;
   padding: 24px 0 0 0;
 }
 
@@ -133423,7 +120561,7 @@ dt {
   background: #b8c1c8;
   border-bottom: 1px solid #989ea4;
   border-top: 1px solid #717d85;
-  color: #fff;
+  color: white;
   font:
     bold 18px/21px Helvetica,
     Arial,
@@ -135008,228 +122146,6 @@ css.properties.grid-template-rows.repeat`
                     }
                   ]
                 },
-                resize: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/resize",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#0ff" to be "#00ffff" (color-hex-length)',
-                        "  background: linear-gradient(135deg, #0ff 0%, #0ff 94%, #fff 95%);",
-                        "2:39 - 2:43",
-                        `/en-US/docs/Web/CSS/resize
-[color-hex-length] Expected "#0ff" to be "#00ffff" (color-hex-length)
-~~~
-#example-element {
-  background: linear-gradient(135deg, #0ff 0%, #0ff 94%, #fff 95%);
-  border: 3px solid #c5c5c5;
-  overflow: auto;
-  width: 250px;
-  height: 250px;
-  font-weight: bold;
-  color: #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#0ff" to be "#00ffff" (color-hex-length)',
-                        "  background: linear-gradient(135deg, #0ff 0%, #0ff 94%, #fff 95%);",
-                        "2:48 - 2:52",
-                        `/en-US/docs/Web/CSS/resize
-[color-hex-length] Expected "#0ff" to be "#00ffff" (color-hex-length)
-~~~
-#example-element {
-  background: linear-gradient(135deg, #0ff 0%, #0ff 94%, #fff 95%);
-  border: 3px solid #c5c5c5;
-  overflow: auto;
-  width: 250px;
-  height: 250px;
-  font-weight: bold;
-  color: #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background: linear-gradient(135deg, #0ff 0%, #0ff 94%, #fff 95%);",
-                        "2:58 - 2:62",
-                        `/en-US/docs/Web/CSS/resize
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-#example-element {
-  background: linear-gradient(135deg, #0ff 0%, #0ff 94%, #fff 95%);
-  border: 3px solid #c5c5c5;
-  overflow: auto;
-  width: 250px;
-  height: 250px;
-  font-weight: bold;
-  color: #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "  color: #000;",
-                        "8:10 - 8:14",
-                        `/en-US/docs/Web/CSS/resize
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-#example-element {
-  background: linear-gradient(135deg, #0ff 0%, #0ff 94%, #fff 95%);
-  border: 3px solid #c5c5c5;
-  overflow: auto;
-  width: 250px;
-  height: 250px;
-  font-weight: bold;
-  color: #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#0ff" to be "cyan" (color-named)',
-                        "  background: linear-gradient(135deg, #0ff 0%, #0ff 94%, #fff 95%);",
-                        "2:39 - 2:43",
-                        `/en-US/docs/Web/CSS/resize
-[color-named] Expected "#0ff" to be "cyan" (color-named)
-~~~
-#example-element {
-  background: linear-gradient(135deg, #0ff 0%, #0ff 94%, #fff 95%);
-  border: 3px solid #c5c5c5;
-  overflow: auto;
-  width: 250px;
-  height: 250px;
-  font-weight: bold;
-  color: #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#0ff" to be "cyan" (color-named)',
-                        "  background: linear-gradient(135deg, #0ff 0%, #0ff 94%, #fff 95%);",
-                        "2:48 - 2:52",
-                        `/en-US/docs/Web/CSS/resize
-[color-named] Expected "#0ff" to be "cyan" (color-named)
-~~~
-#example-element {
-  background: linear-gradient(135deg, #0ff 0%, #0ff 94%, #fff 95%);
-  border: 3px solid #c5c5c5;
-  overflow: auto;
-  width: 250px;
-  height: 250px;
-  font-weight: bold;
-  color: #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background: linear-gradient(135deg, #0ff 0%, #0ff 94%, #fff 95%);",
-                        "2:58 - 2:62",
-                        `/en-US/docs/Web/CSS/resize
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-#example-element {
-  background: linear-gradient(135deg, #0ff 0%, #0ff 94%, #fff 95%);
-  border: 3px solid #c5c5c5;
-  overflow: auto;
-  width: 250px;
-  height: 250px;
-  font-weight: bold;
-  color: #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "  color: #000;",
-                        "8:10 - 8:14",
-                        `/en-US/docs/Web/CSS/resize
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-#example-element {
-  background: linear-gradient(135deg, #0ff 0%, #0ff 94%, #fff 95%);
-  border: 3px solid #c5c5c5;
-  overflow: auto;
-  width: 250px;
-  height: 250px;
-  font-weight: bold;
-  color: #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 resolution: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/resolution",
@@ -135311,3812 +122227,6 @@ css.properties.grid-template-rows.repeat`
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    }
-                  ]
-                },
-                "scroll-margin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-margin
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-margin
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-margin
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-margin
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "  border: 1px solid #000;",
-                        "8:21 - 8:25",
-                        `/en-US/docs/Web/CSS/scroll-margin
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "16:10 - 16:14",
-                        `/en-US/docs/Web/CSS/scroll-margin
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "25:21 - 25:25",
-                        `/en-US/docs/Web/CSS/scroll-margin
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "  border: 1px solid #000;",
-                        "8:21 - 8:25",
-                        `/en-US/docs/Web/CSS/scroll-margin
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#663399" to be "rebeccapurple" (color-named)',
-                        "  background-color: #663399;",
-                        "15:21 - 15:28",
-                        `/en-US/docs/Web/CSS/scroll-margin
-[color-named] Expected "#663399" to be "rebeccapurple" (color-named)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "16:10 - 16:14",
-                        `/en-US/docs/Web/CSS/scroll-margin
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "25:21 - 25:25",
-                        `/en-US/docs/Web/CSS/scroll-margin
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#663399" to be "rebeccapurple" (color-named)',
-                        "  color: #663399;",
-                        "26:10 - 26:17",
-                        `/en-US/docs/Web/CSS/scroll-margin
-[color-named] Expected "#663399" to be "rebeccapurple" (color-named)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin: 2rem;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-block": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-block",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-block
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-block
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-block
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-block
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-block-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-block-end",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-block-end
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-block-end
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-block-end
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-block-end
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-block-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-block-start",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-block-start
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-block-start
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-block-start
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-block-start
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-bottom": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-bottom",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-bottom
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-bottom
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-bottom
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-bottom
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-inline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-inline",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "35:21 - 35:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "35:21 - 35:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "  border: 1px solid #000;",
-                        "8:21 - 8:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "16:10 - 16:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "25:21 - 25:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "  border: 1px solid #000;",
-                        "8:21 - 8:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#663399" to be "rebeccapurple" (color-named)',
-                        "  background-color: #663399;",
-                        "15:21 - 15:28",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline
-[color-named] Expected "#663399" to be "rebeccapurple" (color-named)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "16:10 - 16:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "25:21 - 25:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#663399" to be "rebeccapurple" (color-named)',
-                        "  color: #663399;",
-                        "26:10 - 26:17",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline
-[color-named] Expected "#663399" to be "rebeccapurple" (color-named)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline: 2rem;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-inline-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-inline-end",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-end
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "35:21 - 35:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-end
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-end
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "35:21 - 35:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-end
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "  border: 1px solid #000;",
-                        "8:21 - 8:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-end
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline-end: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline-end: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "16:10 - 16:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-end
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline-end: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline-end: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "25:21 - 25:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-end
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline-end: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline-end: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "  border: 1px solid #000;",
-                        "8:21 - 8:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-end
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline-end: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline-end: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#663399" to be "rebeccapurple" (color-named)',
-                        "  background-color: #663399;",
-                        "15:21 - 15:28",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-end
-[color-named] Expected "#663399" to be "rebeccapurple" (color-named)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline-end: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline-end: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "16:10 - 16:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-end
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline-end: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline-end: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "25:21 - 25:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-end
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline-end: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline-end: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#663399" to be "rebeccapurple" (color-named)',
-                        "  color: #663399;",
-                        "26:10 - 26:17",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-end
-[color-named] Expected "#663399" to be "rebeccapurple" (color-named)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline-end: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline-end: 2rem;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-inline-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-inline-start",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-start
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "35:21 - 35:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-start
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-start
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "35:21 - 35:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-start
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "  border: 1px solid #000;",
-                        "8:21 - 8:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-start
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline-start: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline-start: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "16:10 - 16:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-start
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline-start: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline-start: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "25:21 - 25:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-start
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline-start: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline-start: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "  border: 1px solid #000;",
-                        "8:21 - 8:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-start
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline-start: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline-start: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#663399" to be "rebeccapurple" (color-named)',
-                        "  background-color: #663399;",
-                        "15:21 - 15:28",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-start
-[color-named] Expected "#663399" to be "rebeccapurple" (color-named)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline-start: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline-start: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "16:10 - 16:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-start
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline-start: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline-start: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "25:21 - 25:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-start
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline-start: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline-start: 2rem;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#663399" to be "rebeccapurple" (color-named)',
-                        "  color: #663399;",
-                        "26:10 - 26:17",
-                        `/en-US/docs/Web/CSS/scroll-margin-inline-start
-[color-named] Expected "#663399" to be "rebeccapurple" (color-named)
-~~~
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid #000;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: #663399;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(2n) {
-  background-color: #fff;
-  color: #663399;
-}
-
-.scroller > div:nth-child(2) {
-  scroll-margin-inline-start: 1rem;
-}
-
-.scroller > div:nth-child(3) {
-  scroll-margin-inline-start: 2rem;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-left": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-left",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-left
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "35:21 - 35:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-left
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-left
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "35:21 - 35:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-left
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-right": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-right",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-right
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "35:21 - 35:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-right
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-right
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "35:21 - 35:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-right
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-margin-top": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-margin-top",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-top
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-top
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-margin-top
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-margin-top
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -139202,2690 +122312,10 @@ label {
                     }
                   ]
                 },
-                "scroll-padding": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-padding
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-padding
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-padding
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-padding
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-block": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-block",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-padding-block
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-padding-block
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-padding-block
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-padding-block
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-block-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-block-end",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-padding-block-end
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-padding-block-end
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-padding-block-end
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-padding-block-end
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-block-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-block-start",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-padding-block-start
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-padding-block-start
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-padding-block-start
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-padding-block-start
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-bottom": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-bottom",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-padding-bottom
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-padding-bottom
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-padding-bottom
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-padding-bottom
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-inline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-inline",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-padding-inline
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "35:21 - 35:25",
-                        `/en-US/docs/Web/CSS/scroll-padding-inline
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-padding-inline
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "35:21 - 35:25",
-                        `/en-US/docs/Web/CSS/scroll-padding-inline
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-inline-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-inline-end",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-padding-inline-end
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "35:21 - 35:25",
-                        `/en-US/docs/Web/CSS/scroll-padding-inline-end
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-padding-inline-end
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "35:21 - 35:25",
-                        `/en-US/docs/Web/CSS/scroll-padding-inline-end
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-inline-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-inline-start",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-padding-inline-start
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "35:21 - 35:25",
-                        `/en-US/docs/Web/CSS/scroll-padding-inline-start
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-padding-inline-start
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "35:21 - 35:25",
-                        `/en-US/docs/Web/CSS/scroll-padding-inline-start
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-left": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-left",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-padding-left
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "35:21 - 35:25",
-                        `/en-US/docs/Web/CSS/scroll-padding-left
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-padding-left
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "35:21 - 35:25",
-                        `/en-US/docs/Web/CSS/scroll-padding-left
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-right": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-right",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-padding-right
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "35:21 - 35:25",
-                        `/en-US/docs/Web/CSS/scroll-padding-right
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-padding-right
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "35:21 - 35:25",
-                        `/en-US/docs/Web/CSS/scroll-padding-right
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.scroller {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: end;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-padding-top": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-padding-top",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-padding-top
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-padding-top
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "23:10 - 23:14",
-                        `/en-US/docs/Web/CSS/scroll-padding-top
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "32:21 - 32:25",
-                        `/en-US/docs/Web/CSS/scroll-padding-top
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example .info {
-  inline-size: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-  writing-mode: vertical-rl;
-}
-
-.scroller {
-  text-align: left;
-  height: 250px;
-  width: 270px;
-  overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: y mandatory;
-}
-
-.scroller > div {
-  flex: 0 0 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.scroller > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-snap-align": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-snap-align",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-snap-align
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-#example-parent {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-#example-parent > div {
-  flex: 0 0 66%;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#example-parent > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "34:21 - 34:25",
-                        `/en-US/docs/Web/CSS/scroll-snap-align
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-#example-parent {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-#example-parent > div {
-  flex: 0 0 66%;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#example-parent > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "26:10 - 26:14",
-                        `/en-US/docs/Web/CSS/scroll-snap-align
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-#example-parent {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-#example-parent > div {
-  flex: 0 0 66%;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#example-parent > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "34:21 - 34:25",
-                        `/en-US/docs/Web/CSS/scroll-snap-align
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-#example-parent {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-#example-parent > div {
-  flex: 0 0 66%;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#example-parent > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "scroll-snap-stop": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/scroll-snap-stop",
                   messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "34:10 - 34:14",
-                        `/en-US/docs/Web/CSS/scroll-snap-stop
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-direction: column;
-}
-
-.explanation {
-  margin-top: 0;
-}
-
-.keyword {
-  color: darkorange;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.snap-container {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.snap-container > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.snap-container > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "43:21 - 43:25",
-                        `/en-US/docs/Web/CSS/scroll-snap-stop
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-direction: column;
-}
-
-.explanation {
-  margin-top: 0;
-}
-
-.keyword {
-  color: darkorange;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.snap-container {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.snap-container > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.snap-container > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "34:10 - 34:14",
-                        `/en-US/docs/Web/CSS/scroll-snap-stop
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-direction: column;
-}
-
-.explanation {
-  margin-top: 0;
-}
-
-.keyword {
-  color: darkorange;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.snap-container {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.snap-container > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.snap-container > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "43:21 - 43:25",
-                        `/en-US/docs/Web/CSS/scroll-snap-stop
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-direction: column;
-}
-
-.explanation {
-  margin-top: 0;
-}
-
-.keyword {
-  color: darkorange;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-.snap-container {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-  scroll-snap-type: x mandatory;
-}
-
-.snap-container > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-.snap-container > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
                     {
                       message: "Stylelint backlog",
                       data: [
@@ -141981,212 +122411,6 @@ div > div {
 
 .normal-stop > div {
   scroll-snap-stop: normal;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "scroll-snap-type": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-snap-type",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "25:10 - 25:14",
-                        `/en-US/docs/Web/CSS/scroll-snap-type
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-#example-element {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-}
-
-#example-element > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-#example-element > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  background-color: #fff;",
-                        "34:21 - 34:25",
-                        `/en-US/docs/Web/CSS/scroll-snap-type
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-#example-element {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-}
-
-#example-element > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-#example-element > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "25:10 - 25:14",
-                        `/en-US/docs/Web/CSS/scroll-snap-type
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-#example-element {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-}
-
-#example-element > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-#example-element > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  background-color: #fff;",
-                        "34:21 - 34:25",
-                        `/en-US/docs/Web/CSS/scroll-snap-type
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-.default-example {
-  flex-wrap: wrap;
-}
-
-.default-example .info {
-  width: 100%;
-  padding: 0.5em 0;
-  font-size: 90%;
-}
-
-#example-element {
-  text-align: left;
-  width: 250px;
-  height: 250px;
-  overflow-x: scroll;
-  display: flex;
-  box-sizing: border-box;
-  border: 1px solid black;
-}
-
-#example-element > div {
-  flex: 0 0 250px;
-  width: 250px;
-  background-color: rebeccapurple;
-  color: #fff;
-  font-size: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  scroll-snap-align: start;
-}
-
-#example-element > div:nth-child(even) {
-  background-color: #fff;
-  color: rebeccapurple;
 }
 ~~~
 `
@@ -142320,74 +122544,6 @@ li:nth-of-type(odd) {
                       message: "Stylelint backlog",
                       data: [
                         "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "16:10 - 16:14",
-                        `/en-US/docs/Web/CSS/sibling-index
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-#example-element {
-  list-style-type: none;
-  padding: 0;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4px;
-}
-
-#example-element > li {
-  text-align: center;
-  padding: 2px;
-  border-radius: 8px;
-  width: var(--width, calc(sibling-index() * 30px));
-  color: #fff;
-  background-color: hsl(
-    calc(360deg / sibling-count() * sibling-index()) 50% 50%
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "16:10 - 16:14",
-                        `/en-US/docs/Web/CSS/sibling-index
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-#example-element {
-  list-style-type: none;
-  padding: 0;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4px;
-}
-
-#example-element > li {
-  text-align: center;
-  padding: 2px;
-  border-radius: 8px;
-  width: var(--width, calc(sibling-index() * 30px));
-  color: #fff;
-  background-color: hsl(
-    calc(360deg / sibling-count() * sibling-index()) 50% 50%
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
                         'Expected "#faa" to be "#ffaaaa" (color-hex-length)',
                         "  background-color: #faa;",
                         "3:21 - 3:25",
@@ -142432,7 +122588,7 @@ li {
   border: 2px solid #666;
   background-image:
     radial-gradient(black var(--dot-size), transparent var(--dot-size)),
-    linear-gradient(135deg, #0000ff, #00c9ff, #92fe9d, #e6e6fa, #f0fff0);
+    linear-gradient(135deg, blue, deepskyblue, lightgreen, lavender, honeydew);
 }
 .dot {
   display: block;
@@ -142472,7 +122628,7 @@ li {
   border: 2px solid #666;
   background-image:
     radial-gradient(black var(--dot-size), transparent var(--dot-size)),
-    linear-gradient(135deg, #0000ff, #00c9ff, #92fe9d, #e6e6fa, #f0fff0);
+    linear-gradient(135deg, blue, deepskyblue, lightgreen, lavender, honeydew);
 }
 .dot {
   display: block;
@@ -142512,127 +122668,7 @@ li {
   border: 2px solid #666;
   background-image:
     radial-gradient(black var(--dot-size), transparent var(--dot-size)),
-    linear-gradient(135deg, #0000ff, #00c9ff, #92fe9d, #e6e6fa, #f0fff0);
-}
-.dot {
-  display: block;
-  width: var(--dot-size);
-  aspect-ratio: 1;
-  border-radius: 50%;
-  border: 2px solid #666;
-  background-color: #f66;
-  transform: translateX(calc(cos(0deg) * var(--radius)))
-    translateY(calc(sin(0deg) * var(--radius) * -1));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#0000ff" to be "blue" (color-named)',
-                        "    linear-gradient(135deg, #0000ff, #00c9ff, #92fe9d, #e6e6fa, #f0fff0);",
-                        "15:29 - 15:36",
-                        `/en-US/docs/Web/CSS/sin
-[color-named] Expected "#0000ff" to be "blue" (color-named)
-~~~
-:root {
-  --radius: 140px;
-  --dot-size: 10px;
-}
-.circle {
-  display: grid;
-  place-content: center;
-  margin: 0 auto;
-  width: calc(var(--radius) * 2);
-  aspect-ratio: 1;
-  border-radius: 50%;
-  border: 2px solid #666;
-  background-image:
-    radial-gradient(black var(--dot-size), transparent var(--dot-size)),
-    linear-gradient(135deg, #0000ff, #00c9ff, #92fe9d, #e6e6fa, #f0fff0);
-}
-.dot {
-  display: block;
-  width: var(--dot-size);
-  aspect-ratio: 1;
-  border-radius: 50%;
-  border: 2px solid #666;
-  background-color: #f66;
-  transform: translateX(calc(cos(0deg) * var(--radius)))
-    translateY(calc(sin(0deg) * var(--radius) * -1));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#e6e6fa" to be "lavender" (color-named)',
-                        "    linear-gradient(135deg, #0000ff, #00c9ff, #92fe9d, #e6e6fa, #f0fff0);",
-                        "15:56 - 15:63",
-                        `/en-US/docs/Web/CSS/sin
-[color-named] Expected "#e6e6fa" to be "lavender" (color-named)
-~~~
-:root {
-  --radius: 140px;
-  --dot-size: 10px;
-}
-.circle {
-  display: grid;
-  place-content: center;
-  margin: 0 auto;
-  width: calc(var(--radius) * 2);
-  aspect-ratio: 1;
-  border-radius: 50%;
-  border: 2px solid #666;
-  background-image:
-    radial-gradient(black var(--dot-size), transparent var(--dot-size)),
-    linear-gradient(135deg, #0000ff, #00c9ff, #92fe9d, #e6e6fa, #f0fff0);
-}
-.dot {
-  display: block;
-  width: var(--dot-size);
-  aspect-ratio: 1;
-  border-radius: 50%;
-  border: 2px solid #666;
-  background-color: #f66;
-  transform: translateX(calc(cos(0deg) * var(--radius)))
-    translateY(calc(sin(0deg) * var(--radius) * -1));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#f0fff0" to be "honeydew" (color-named)',
-                        "    linear-gradient(135deg, #0000ff, #00c9ff, #92fe9d, #e6e6fa, #f0fff0);",
-                        "15:65 - 15:72",
-                        `/en-US/docs/Web/CSS/sin
-[color-named] Expected "#f0fff0" to be "honeydew" (color-named)
-~~~
-:root {
-  --radius: 140px;
-  --dot-size: 10px;
-}
-.circle {
-  display: grid;
-  place-content: center;
-  margin: 0 auto;
-  width: calc(var(--radius) * 2);
-  aspect-ratio: 1;
-  border-radius: 50%;
-  border: 2px solid #666;
-  background-image:
-    radial-gradient(black var(--dot-size), transparent var(--dot-size)),
-    linear-gradient(135deg, #0000ff, #00c9ff, #92fe9d, #e6e6fa, #f0fff0);
+    linear-gradient(135deg, blue, deepskyblue, lightgreen, lavender, honeydew);
 }
 .dot {
   display: block;
@@ -142693,59 +122729,10 @@ rect {
 }
 #myGradient3 {
   stop:first-of-type {
-    stop-color: hsl(0deg 100% 50%);
+    stop-color: hsl(0deg 90% 50%);
   }
   stop:last-of-type {
-    stop-color: hsl(20deg 100% 50%);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "hsl(0deg 100% 50%)" to be "red" (color-named)',
-                        "    stop-color: hsl(0deg 100% 50%);",
-                        "30:17 - 30:35",
-                        `/en-US/docs/Web/CSS/stop-color
-[color-named] Expected "hsl(0deg 100% 50%)" to be "red" (color-named)
-~~~
-svg {
-  border: 1px solid;
-  height: calc(100vh - 20px);
-  margin-bottom: 10px;
-}
-
-rect {
-  stroke: #333;
-  stroke-width: 1px;
-}
-
-#myGradient1 {
-  stop:first-of-type {
-    stop-color: #66ccff;
-  }
-  stop:last-of-type {
-    stop-color: #f4aab9;
-  }
-}
-#myGradient2 {
-  stop:first-of-type {
-    stop-color: yellow;
-  }
-  stop:last-of-type {
-    stop-color: purple;
-  }
-}
-#myGradient3 {
-  stop:first-of-type {
-    stop-color: hsl(0deg 100% 50%);
-  }
-  stop:last-of-type {
-    stop-color: hsl(20deg 100% 50%);
+    stop-color: hsl(20deg 60% 50%);
   }
 }
 ~~~
@@ -142757,7 +122744,7 @@ rect {
                       data: [
                         "hue-degree-notation",
                         'Expected "0deg" to be "0" (hue-degree-notation)',
-                        "    stop-color: hsl(0deg 100% 50%);",
+                        "    stop-color: hsl(0deg 90% 50%);",
                         "30:21 - 30:25",
                         `/en-US/docs/Web/CSS/stop-color
 [hue-degree-notation] Expected "0deg" to be "0" (hue-degree-notation)
@@ -142791,10 +122778,10 @@ rect {
 }
 #myGradient3 {
   stop:first-of-type {
-    stop-color: hsl(0deg 100% 50%);
+    stop-color: hsl(0deg 90% 50%);
   }
   stop:last-of-type {
-    stop-color: hsl(20deg 100% 50%);
+    stop-color: hsl(20deg 60% 50%);
   }
 }
 ~~~
@@ -142806,7 +122793,7 @@ rect {
                       data: [
                         "hue-degree-notation",
                         'Expected "20deg" to be "20" (hue-degree-notation)',
-                        "    stop-color: hsl(20deg 100% 50%);",
+                        "    stop-color: hsl(20deg 60% 50%);",
                         "33:21 - 33:26",
                         `/en-US/docs/Web/CSS/stop-color
 [hue-degree-notation] Expected "20deg" to be "20" (hue-degree-notation)
@@ -142840,10 +122827,10 @@ rect {
 }
 #myGradient3 {
   stop:first-of-type {
-    stop-color: hsl(0deg 100% 50%);
+    stop-color: hsl(0deg 90% 50%);
   }
   stop:last-of-type {
-    stop-color: hsl(20deg 100% 50%);
+    stop-color: hsl(20deg 60% 50%);
   }
 }
 ~~~
@@ -142992,100 +122979,6 @@ awesome string"
                     }
                   ]
                 },
-                stroke: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stroke",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "hsl(270deg 50% 40%)" to be "rebeccapurple" (color-named)',
-                        "  stroke: hsl(270deg 50% 40%);",
-                        "2:11 - 2:30",
-                        `/en-US/docs/Web/CSS/stroke
-[color-named] Expected "hsl(270deg 50% 40%)" to be "rebeccapurple" (color-named)
-~~~
-rect {
-  stroke: hsl(270deg 50% 40%);
-}
-circle {
-  stroke: red;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "hue-degree-notation",
-                        'Expected "270deg" to be "270" (hue-degree-notation)',
-                        "  stroke: hsl(270deg 50% 40%);",
-                        "2:15 - 2:21",
-                        `/en-US/docs/Web/CSS/stroke
-[hue-degree-notation] Expected "270deg" to be "270" (hue-degree-notation)
-~~~
-rect {
-  stroke: hsl(270deg 50% 40%);
-}
-circle {
-  stroke: red;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "hsl(270deg 50% 40%)" to be "rebeccapurple" (color-named)',
-                        "  stroke: hsl(270deg 50% 40%);",
-                        "2:11 - 2:30",
-                        `/en-US/docs/Web/CSS/stroke
-[color-named] Expected "hsl(270deg 50% 40%)" to be "rebeccapurple" (color-named)
-~~~
-path {
-  stroke: hsl(270deg 50% 40%);
-  marker: url("#circle");
-}
-path:nth-of-type(2) {
-  stroke: url("#orangered");
-}
-marker circle {
-  stroke: context-stroke;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "hue-degree-notation",
-                        'Expected "270deg" to be "270" (hue-degree-notation)',
-                        "  stroke: hsl(270deg 50% 40%);",
-                        "2:15 - 2:21",
-                        `/en-US/docs/Web/CSS/stroke
-[hue-degree-notation] Expected "270deg" to be "270" (hue-degree-notation)
-~~~
-path {
-  stroke: hsl(270deg 50% 40%);
-  marker: url("#circle");
-}
-path:nth-of-type(2) {
-  stroke: url("#orangered");
-}
-marker circle {
-  stroke: context-stroke;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 symbols: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/symbols",
@@ -143184,24 +123077,6 @@ p {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/text-decoration-thickness",
                   messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#ff0000" to be "red" (color-named)',
-                        "  text-decoration-color: #ff0000;",
-                        "3:26 - 3:33",
-                        `/en-US/docs/Web/CSS/text-decoration-thickness
-[color-named] Expected "#ff0000" to be "red" (color-named)
-~~~
-p {
-  font: 1.5em sans-serif;
-  text-decoration-color: #ff0000;
-}
-~~~
-`
-                      ]
-                    },
                     {
                       message: "Stylelint backlog",
                       data: [
@@ -143318,58 +123193,6 @@ em {
                   slug: "/en-US/docs/Web/CSS/text-indent",
                   messages: [
                     {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#483d8b" to be "darkslateblue" (color-named)',
-                        "  background-color: #483d8b;",
-                        "3:21 - 3:28",
-                        `/en-US/docs/Web/CSS/text-indent
-[color-named] Expected "#483d8b" to be "darkslateblue" (color-named)
-~~~
-section {
-  font-size: 1.25em;
-  background-color: #483d8b;
-  align-items: start;
-}
-
-#example-element {
-  text-align: left;
-  margin: 0 0 0 3em;
-  background-color: #6a5acd;
-  color: white;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#6a5acd" to be "slateblue" (color-named)',
-                        "  background-color: #6a5acd;",
-                        "10:21 - 10:28",
-                        `/en-US/docs/Web/CSS/text-indent
-[color-named] Expected "#6a5acd" to be "slateblue" (color-named)
-~~~
-section {
-  font-size: 1.25em;
-  background-color: #483d8b;
-  align-items: start;
-}
-
-#example-element {
-  text-align: left;
-  margin: 0 0 0 3em;
-  background-color: #6a5acd;
-  color: white;
-}
-~~~
-`
-                      ]
-                    },
-                    {
                       message: "Stylelint backlog",
                       data: [
                         "shorthand-property-no-redundant-values",
@@ -143450,31 +123273,6 @@ p {
   font:
     1.5em Georgia,
     serif;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "text-underline-offset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-underline-offset",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#ff0000" to be "red" (color-named)',
-                        "  text-decoration-color: #ff0000;",
-                        "4:26 - 4:33",
-                        `/en-US/docs/Web/CSS/text-underline-offset
-[color-named] Expected "#ff0000" to be "red" (color-named)
-~~~
-p {
-  font: 1.5em sans-serif;
-  text-decoration-line: underline;
-  text-decoration-color: #ff0000;
 }
 ~~~
 `
@@ -143668,7 +123466,7 @@ div {
   position: absolute;
   backface-visibility: inherit;
   font-size: 60px;
-  color: #fff;
+  color: white;
 }
 
 .front {
@@ -143738,7 +123536,7 @@ div {
   position: absolute;
   backface-visibility: inherit;
   font-size: 60px;
-  color: #fff;
+  color: white;
 }
 
 .front {
@@ -143808,7 +123606,7 @@ div {
   position: absolute;
   backface-visibility: inherit;
   font-size: 60px;
-  color: #fff;
+  color: white;
 }
 
 .front {
@@ -143878,7 +123676,7 @@ div {
   position: absolute;
   backface-visibility: inherit;
   font-size: 60px;
-  color: #fff;
+  color: white;
 }
 
 .front {
@@ -143948,7 +123746,7 @@ div {
   position: absolute;
   backface-visibility: inherit;
   font-size: 60px;
-  color: #fff;
+  color: white;
 }
 
 .front {
@@ -144018,147 +123816,7 @@ div {
   position: absolute;
   backface-visibility: inherit;
   font-size: 60px;
-  color: #fff;
-}
-
-.front {
-  background: rgb(90 90 90 / 70%);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: rgb(0 210 0 / 70%);
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(210 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 210 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(210 210 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(210 0 210 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "25:10 - 25:14",
-                            `/en-US/docs/Web/CSS/transform-function/matrix3d
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-#example-element {
-  width: 100px;
-  height: 100px;
-  transform-style: preserve-3d;
-  transition: transform 1.5s;
-  transform: rotate3d(1, 1, 1, 30deg);
-  margin: 50px auto;
-}
-
-#example-element:hover,
-#example-element:focus {
-  transform: rotate3d(1, 1, 1, 30deg)
-    matrix3d(1, 0, 0, 0, 0, 1, 6, 0, 0, 0, 1, 0, 50, 100, 0, 1.1);
-}
-
-.face {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: inherit;
-  font-size: 60px;
-  color: #fff;
-}
-
-.front {
-  background: rgb(90 90 90 / 70%);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: rgb(0 210 0 / 70%);
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(210 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 210 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(210 210 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(210 0 210 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "25:10 - 25:14",
-                            `/en-US/docs/Web/CSS/transform-function/matrix3d
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-#example-element {
-  width: 100px;
-  height: 100px;
-  transform-style: preserve-3d;
-  transition: transform 1.5s;
-  transform: rotate3d(1, 1, 1, 30deg);
-  margin: 50px auto;
-}
-
-#example-element:hover,
-#example-element:focus {
-  transform: rotate3d(1, 1, 1, 30deg)
-    matrix3d(1, 0, 0, 0, 0, 1, 6, 0, 0, 0, 1, 0, 50, 100, 0, 1.1);
-}
-
-.face {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: inherit;
-  font-size: 60px;
-  color: #fff;
+  color: white;
 }
 
 .front {
@@ -144309,7 +123967,7 @@ main {
   position: absolute;
   backface-visibility: inherit;
   font-size: 60px;
-  color: #fff;
+  color: white;
 }
 
 .front {
@@ -144383,7 +124041,7 @@ main {
   position: absolute;
   backface-visibility: inherit;
   font-size: 60px;
-  color: #fff;
+  color: white;
 }
 
 .front {
@@ -144457,7 +124115,7 @@ main {
   position: absolute;
   backface-visibility: inherit;
   font-size: 60px;
-  color: #fff;
+  color: white;
 }
 
 .front {
@@ -144531,7 +124189,7 @@ main {
   position: absolute;
   backface-visibility: inherit;
   font-size: 60px;
-  color: #fff;
+  color: white;
 }
 
 .front {
@@ -144605,7 +124263,7 @@ main {
   position: absolute;
   backface-visibility: inherit;
   font-size: 60px;
-  color: #fff;
+  color: white;
 }
 
 .front {
@@ -144679,155 +124337,7 @@ main {
   position: absolute;
   backface-visibility: inherit;
   font-size: 60px;
-  color: #fff;
-}
-
-.front {
-  background: rgb(90 90 90 / 70%);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: rgb(0 210 0 / 70%);
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(210 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 210 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(210 210 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(210 0 210 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-
-.select-form {
-  margin-top: 50px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "25:10 - 25:14",
-                        `/en-US/docs/Web/CSS/transform-function
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-main {
-  width: 400px;
-  height: 200px;
-  padding: 50px;
-  background-image: linear-gradient(135deg, white, cyan, white);
-}
-
-#example-element {
-  width: 100px;
-  height: 100px;
-  transform-style: preserve-3d;
-  transition: transform 1.5s;
-  transform: rotate3d(1, 1, 1, 30deg);
-}
-
-.face {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: inherit;
-  font-size: 60px;
-  color: #fff;
-}
-
-.front {
-  background: rgb(90 90 90 / 70%);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: rgb(0 210 0 / 70%);
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(210 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 210 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(210 210 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(210 0 210 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-
-.select-form {
-  margin-top: 50px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "25:10 - 25:14",
-                        `/en-US/docs/Web/CSS/transform-function
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-main {
-  width: 400px;
-  height: 200px;
-  padding: 50px;
-  background-image: linear-gradient(135deg, white, cyan, white);
-}
-
-#example-element {
-  width: 100px;
-  height: 100px;
-  transform-style: preserve-3d;
-  transition: transform 1.5s;
-  transform: rotate3d(1, 1, 1, 30deg);
-}
-
-.face {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: inherit;
-  font-size: 60px;
-  color: #fff;
+  color: white;
 }
 
 .front {
@@ -144873,80 +124383,6 @@ main {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/transform-origin",
                   messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000000" to be "black" (color-named)',
-                        "  color: #000000;",
-                        "35:10 - 35:17",
-                        `/en-US/docs/Web/CSS/transform-origin
-[color-named] Expected "#000000" to be "black" (color-named)
-~~~
-@keyframes rotate {
-  from {
-    transform: rotate(0);
-  }
-
-  to {
-    transform: rotate(30deg);
-  }
-}
-
-@keyframes rotate3d {
-  from {
-    transform: rotate3d(0, 0, 0, 0);
-  }
-
-  to {
-    transform: rotate3d(1, 2, 0, 60deg);
-  }
-}
-
-#example-container {
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-
-#example-element {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-  background: #f7ebee;
-  color: #000000;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-}
-
-#example-element.rotate {
-  animation: rotate 1s forwards;
-}
-
-#example-element.rotate3d {
-  animation: rotate3d 1s forwards;
-}
-
-#crosshair {
-  width: 24px;
-  height: 24px;
-  opacity: 0;
-  position: absolute;
-}
-
-#static-element {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  border: dotted 3px #ff1100;
-}
-~~~
-`
-                      ]
-                    },
                     {
                       message: "Stylelint backlog",
                       data: [
@@ -145041,64 +124477,6 @@ main {
                     {
                       message: "Stylelint backlog",
                       data: [
-                        "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "  color: #000;",
-                        "11:10 - 11:14",
-                        `/en-US/docs/Web/CSS/transform-style
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-.layer {
-  background: #623e3f;
-  border-radius: 0.75rem;
-  color: white;
-  transform: perspective(200px) rotateY(30deg);
-}
-
-.numeral {
-  background-color: #ffba08;
-  border-radius: 0.2rem;
-  color: #000;
-  margin: 1rem;
-  padding: 0.2rem;
-  transform: rotate3d(1, 1, 1, 45deg);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "  color: #000;",
-                        "11:10 - 11:14",
-                        `/en-US/docs/Web/CSS/transform-style
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-.layer {
-  background: #623e3f;
-  border-radius: 0.75rem;
-  color: white;
-  transform: perspective(200px) rotateY(30deg);
-}
-
-.numeral {
-  background-color: #ffba08;
-  border-radius: 0.2rem;
-  color: #000;
-  margin: 1rem;
-  padding: 0.2rem;
-  transform: rotate3d(1, 1, 1, 45deg);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
                         "alpha-value-notation",
                         'Expected "70%" to be "0.7" (alpha-value-notation)',
                         "  background: rgb(90 90 90 / 70%);",
@@ -145123,7 +124501,7 @@ main {
   position: absolute;
   backface-visibility: inherit;
   font-size: 60px;
-  color: #fff;
+  color: white;
 }
 
 .front {
@@ -145186,7 +124564,7 @@ main {
   position: absolute;
   backface-visibility: inherit;
   font-size: 60px;
-  color: #fff;
+  color: white;
 }
 
 .front {
@@ -145249,7 +124627,7 @@ main {
   position: absolute;
   backface-visibility: inherit;
   font-size: 60px;
-  color: #fff;
+  color: white;
 }
 
 .front {
@@ -145312,7 +124690,7 @@ main {
   position: absolute;
   backface-visibility: inherit;
   font-size: 60px;
-  color: #fff;
+  color: white;
 }
 
 .front {
@@ -145375,7 +124753,7 @@ main {
   position: absolute;
   backface-visibility: inherit;
   font-size: 60px;
-  color: #fff;
+  color: white;
 }
 
 .front {
@@ -145438,133 +124816,7 @@ main {
   position: absolute;
   backface-visibility: inherit;
   font-size: 60px;
-  color: #fff;
-}
-
-.front {
-  background: rgb(90 90 90 / 70%);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: rgb(0 210 0 / 70%);
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(210 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 210 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(210 210 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(210 0 210 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "18:10 - 18:14",
-                        `/en-US/docs/Web/CSS/transform-style
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-#example-element {
-  margin: 50px;
-  width: 100px;
-  height: 100px;
-  transform-style: preserve-3d;
-  transform: rotate3d(1, 1, 1, 30deg);
-}
-
-.face {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: inherit;
-  font-size: 60px;
-  color: #fff;
-}
-
-.front {
-  background: rgb(90 90 90 / 70%);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: rgb(0 210 0 / 70%);
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(210 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 210 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(210 210 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(210 0 210 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "18:10 - 18:14",
-                        `/en-US/docs/Web/CSS/transform-style
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-#example-element {
-  margin: 50px;
-  width: 100px;
-  height: 100px;
-  transform-style: preserve-3d;
-  transform: rotate3d(1, 1, 1, 30deg);
-}
-
-.face {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: inherit;
-  font-size: 60px;
-  color: #fff;
+  color: white;
 }
 
 .front {
@@ -145610,35 +124862,6 @@ main {
                       message: "Stylelint backlog",
                       data: [
                         "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "  color: #000;",
-                        "3:10 - 3:14",
-                        `/en-US/docs/Web/CSS/transition
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-#example-element {
-  background-color: #e4f0f5;
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font: 1em monospace;
-  width: 100%;
-  transition: margin-right 2s;
-}
-
-#default-example:hover > #example-element {
-  background-color: #909;
-  color: #fff;
-  margin-right: 40%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
                         'Expected "#909" to be "#990099" (color-hex-length)',
                         "  background-color: #909;",
                         "12:21 - 12:25",
@@ -145647,7 +124870,7 @@ main {
 ~~~
 #example-element {
   background-color: #e4f0f5;
-  color: #000;
+  color: black;
   padding: 1rem;
   border-radius: 0.5rem;
   font: 1em monospace;
@@ -145657,94 +124880,7 @@ main {
 
 #default-example:hover > #example-element {
   background-color: #909;
-  color: #fff;
-  margin-right: 40%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "13:10 - 13:14",
-                        `/en-US/docs/Web/CSS/transition
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-#example-element {
-  background-color: #e4f0f5;
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font: 1em monospace;
-  width: 100%;
-  transition: margin-right 2s;
-}
-
-#default-example:hover > #example-element {
-  background-color: #909;
-  color: #fff;
-  margin-right: 40%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "  color: #000;",
-                        "3:10 - 3:14",
-                        `/en-US/docs/Web/CSS/transition
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-#example-element {
-  background-color: #e4f0f5;
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font: 1em monospace;
-  width: 100%;
-  transition: margin-right 2s;
-}
-
-#default-example:hover > #example-element {
-  background-color: #909;
-  color: #fff;
-  margin-right: 40%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "13:10 - 13:14",
-                        `/en-US/docs/Web/CSS/transition
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-#example-element {
-  background-color: #e4f0f5;
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font: 1em monospace;
-  width: 100%;
-  transition: margin-right 2s;
-}
-
-#default-example:hover > #example-element {
-  background-color: #909;
-  color: #fff;
+  color: white;
   margin-right: 40%;
 }
 ~~~
@@ -145879,35 +125015,6 @@ html {
                       message: "Stylelint backlog",
                       data: [
                         "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "  color: #000;",
-                        "3:10 - 3:14",
-                        `/en-US/docs/Web/CSS/transition-delay
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-#example-element {
-  background-color: #e4f0f5;
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font: 1em monospace;
-  width: 100%;
-  transition: margin-right 2s;
-}
-
-#default-example:hover > #example-element {
-  background-color: #909;
-  color: #fff;
-  margin-right: 40%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
                         'Expected "#909" to be "#990099" (color-hex-length)',
                         "  background-color: #909;",
                         "12:21 - 12:25",
@@ -145916,7 +125023,7 @@ html {
 ~~~
 #example-element {
   background-color: #e4f0f5;
-  color: #000;
+  color: black;
   padding: 1rem;
   border-radius: 0.5rem;
   font: 1em monospace;
@@ -145926,94 +125033,7 @@ html {
 
 #default-example:hover > #example-element {
   background-color: #909;
-  color: #fff;
-  margin-right: 40%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "13:10 - 13:14",
-                        `/en-US/docs/Web/CSS/transition-delay
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-#example-element {
-  background-color: #e4f0f5;
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font: 1em monospace;
-  width: 100%;
-  transition: margin-right 2s;
-}
-
-#default-example:hover > #example-element {
-  background-color: #909;
-  color: #fff;
-  margin-right: 40%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "  color: #000;",
-                        "3:10 - 3:14",
-                        `/en-US/docs/Web/CSS/transition-delay
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-#example-element {
-  background-color: #e4f0f5;
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font: 1em monospace;
-  width: 100%;
-  transition: margin-right 2s;
-}
-
-#default-example:hover > #example-element {
-  background-color: #909;
-  color: #fff;
-  margin-right: 40%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "13:10 - 13:14",
-                        `/en-US/docs/Web/CSS/transition-delay
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-#example-element {
-  background-color: #e4f0f5;
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font: 1em monospace;
-  width: 100%;
-  transition: margin-right 2s;
-}
-
-#default-example:hover > #example-element {
-  background-color: #909;
-  color: #fff;
+  color: white;
   margin-right: 40%;
 }
 ~~~
@@ -146030,35 +125050,6 @@ html {
                       message: "Stylelint backlog",
                       data: [
                         "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "  color: #000;",
-                        "3:10 - 3:14",
-                        `/en-US/docs/Web/CSS/transition-duration
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-#example-element {
-  background-color: #e4f0f5;
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font: 1em monospace;
-  width: 100%;
-  transition: margin-right 2s;
-}
-
-#default-example:hover > #example-element {
-  background-color: #909;
-  color: #fff;
-  margin-right: 40%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
                         'Expected "#909" to be "#990099" (color-hex-length)',
                         "  background-color: #909;",
                         "12:21 - 12:25",
@@ -146067,7 +125058,7 @@ html {
 ~~~
 #example-element {
   background-color: #e4f0f5;
-  color: #000;
+  color: black;
   padding: 1rem;
   border-radius: 0.5rem;
   font: 1em monospace;
@@ -146077,94 +125068,7 @@ html {
 
 #default-example:hover > #example-element {
   background-color: #909;
-  color: #fff;
-  margin-right: 40%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "13:10 - 13:14",
-                        `/en-US/docs/Web/CSS/transition-duration
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-#example-element {
-  background-color: #e4f0f5;
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font: 1em monospace;
-  width: 100%;
-  transition: margin-right 2s;
-}
-
-#default-example:hover > #example-element {
-  background-color: #909;
-  color: #fff;
-  margin-right: 40%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "  color: #000;",
-                        "3:10 - 3:14",
-                        `/en-US/docs/Web/CSS/transition-duration
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-#example-element {
-  background-color: #e4f0f5;
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font: 1em monospace;
-  width: 100%;
-  transition: margin-right 2s;
-}
-
-#default-example:hover > #example-element {
-  background-color: #909;
-  color: #fff;
-  margin-right: 40%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "13:10 - 13:14",
-                        `/en-US/docs/Web/CSS/transition-duration
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-#example-element {
-  background-color: #e4f0f5;
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font: 1em monospace;
-  width: 100%;
-  transition: margin-right 2s;
-}
-
-#default-example:hover > #example-element {
-  background-color: #909;
-  color: #fff;
+  color: white;
   margin-right: 40%;
 }
 ~~~
@@ -146181,35 +125085,6 @@ html {
                       message: "Stylelint backlog",
                       data: [
                         "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "  color: #000;",
-                        "3:10 - 3:14",
-                        `/en-US/docs/Web/CSS/transition-property
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-#example-element {
-  background-color: #e4f0f5;
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font: 1em monospace;
-  width: 100%;
-  transition: margin-right 2s;
-}
-
-#default-example:hover > #example-element {
-  background-color: #909;
-  color: #fff;
-  margin-right: 40%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
                         'Expected "#909" to be "#990099" (color-hex-length)',
                         "  background-color: #909;",
                         "12:21 - 12:25",
@@ -146218,7 +125093,7 @@ html {
 ~~~
 #example-element {
   background-color: #e4f0f5;
-  color: #000;
+  color: black;
   padding: 1rem;
   border-radius: 0.5rem;
   font: 1em monospace;
@@ -146228,94 +125103,7 @@ html {
 
 #default-example:hover > #example-element {
   background-color: #909;
-  color: #fff;
-  margin-right: 40%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "13:10 - 13:14",
-                        `/en-US/docs/Web/CSS/transition-property
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-#example-element {
-  background-color: #e4f0f5;
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font: 1em monospace;
-  width: 100%;
-  transition: margin-right 2s;
-}
-
-#default-example:hover > #example-element {
-  background-color: #909;
-  color: #fff;
-  margin-right: 40%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "  color: #000;",
-                        "3:10 - 3:14",
-                        `/en-US/docs/Web/CSS/transition-property
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-#example-element {
-  background-color: #e4f0f5;
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font: 1em monospace;
-  width: 100%;
-  transition: margin-right 2s;
-}
-
-#default-example:hover > #example-element {
-  background-color: #909;
-  color: #fff;
-  margin-right: 40%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "13:10 - 13:14",
-                        `/en-US/docs/Web/CSS/transition-property
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-#example-element {
-  background-color: #e4f0f5;
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font: 1em monospace;
-  width: 100%;
-  transition: margin-right 2s;
-}
-
-#default-example:hover > #example-element {
-  background-color: #909;
-  color: #fff;
+  color: white;
   margin-right: 40%;
 }
 ~~~
@@ -146440,35 +125228,6 @@ button {
                       message: "Stylelint backlog",
                       data: [
                         "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "  color: #000;",
-                        "3:10 - 3:14",
-                        `/en-US/docs/Web/CSS/transition-timing-function
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-#example-element {
-  background-color: #e4f0f5;
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font: 1em monospace;
-  width: 100%;
-  transition: margin-right 2s;
-}
-
-#default-example:hover > #example-element {
-  background-color: #909;
-  color: #fff;
-  margin-right: 40%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
                         'Expected "#909" to be "#990099" (color-hex-length)',
                         "  background-color: #909;",
                         "12:21 - 12:25",
@@ -146477,7 +125236,7 @@ button {
 ~~~
 #example-element {
   background-color: #e4f0f5;
-  color: #000;
+  color: black;
   padding: 1rem;
   border-radius: 0.5rem;
   font: 1em monospace;
@@ -146487,94 +125246,7 @@ button {
 
 #default-example:hover > #example-element {
   background-color: #909;
-  color: #fff;
-  margin-right: 40%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                        "  color: #fff;",
-                        "13:10 - 13:14",
-                        `/en-US/docs/Web/CSS/transition-timing-function
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-#example-element {
-  background-color: #e4f0f5;
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font: 1em monospace;
-  width: 100%;
-  transition: margin-right 2s;
-}
-
-#default-example:hover > #example-element {
-  background-color: #909;
-  color: #fff;
-  margin-right: 40%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "  color: #000;",
-                        "3:10 - 3:14",
-                        `/en-US/docs/Web/CSS/transition-timing-function
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-#example-element {
-  background-color: #e4f0f5;
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font: 1em monospace;
-  width: 100%;
-  transition: margin-right 2s;
-}
-
-#default-example:hover > #example-element {
-  background-color: #909;
-  color: #fff;
-  margin-right: 40%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#fff" to be "white" (color-named)',
-                        "  color: #fff;",
-                        "13:10 - 13:14",
-                        `/en-US/docs/Web/CSS/transition-timing-function
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-#example-element {
-  background-color: #e4f0f5;
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.5rem;
-  font: 1em monospace;
-  width: 100%;
-  transition: margin-right 2s;
-}
-
-#default-example:hover > #example-element {
-  background-color: #909;
-  color: #fff;
+  color: white;
   margin-right: 40%;
 }
 ~~~
@@ -146650,54 +125322,6 @@ body {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/var",
                   messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#000" to be "#000000" (color-hex-length)',
-                        "  border: 10px solid #000;",
-                        "8:22 - 8:26",
-                        `/en-US/docs/Web/CSS/var
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-:root {
-  --color-a: pink;
-  --color-b: green;
-  --color-c: rebeccapurple;
-}
-
-#example-element {
-  border: 10px solid #000;
-  padding: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000" to be "black" (color-named)',
-                        "  border: 10px solid #000;",
-                        "8:22 - 8:26",
-                        `/en-US/docs/Web/CSS/var
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-:root {
-  --color-a: pink;
-  --color-b: green;
-  --color-c: rebeccapurple;
-}
-
-#example-element {
-  border: 10px solid #000;
-  padding: 10px;
-}
-~~~
-`
-                      ]
-                    },
                     {
                       message: "Stylelint backlog",
                       data: [
@@ -147256,48 +125880,6 @@ p {
                     }
                   ]
                 },
-                "white-space": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/white-space",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "rgb(220 220 220)" to be "gainsboro" (color-named)',
-                        "  background-color: rgb(220 220 220);",
-                        "7:21 - 7:37",
-                        `/en-US/docs/Web/CSS/white-space
-[color-named] Expected "rgb(220 220 220)" to be "gainsboro" (color-named)
-~~~
-.box {
-  width: 350px;
-  padding: 16px;
-}
-
-#css-code {
-  background-color: rgb(220 220 220);
-  font-size: 16px;
-  font-family: monospace;
-}
-
-#css-code select {
-  font-family: inherit;
-  width: 100px;
-}
-
-#results {
-  background-color: rgb(230 230 230);
-  overflow-x: scroll;
-  white-space: normal;
-  font-size: 14px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "white-space-collapse": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/white-space-collapse",
@@ -147343,28 +125925,6 @@ h2 {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/width",
                   messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#ffffff" to be "white" (color-named)',
-                        "  color: #ffffff;",
-                        "7:10 - 7:17",
-                        `/en-US/docs/Web/CSS/width
-[color-named] Expected "#ffffff" to be "white" (color-named)
-~~~
-#example-element {
-  display: flex;
-  flex-direction: column;
-  background-color: #5b6dcd;
-  height: 80%;
-  justify-content: center;
-  color: #ffffff;
-}
-~~~
-`
-                      ]
-                    },
                     {
                       message: "Stylelint backlog",
                       data: [
@@ -147570,23 +126130,6 @@ input:valid + span::after {
                               ]
                             }
                           ]
-                        },
-                        rel: {
-                          children: {
-                            preload: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
                         },
                         size: {
                           children: {},
@@ -148554,19 +127097,6 @@ because the nesting selector cannot represent pseudo-elements. */
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        },
-                        fencedframe: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/fencedframe",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://privacysandbox.google.com/",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -151144,17 +129674,7 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         }
-                      },
-                      slug: "/en-US/docs/Web/HTTP/Guides/CSP",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.netlify.com/blog/general-availability-content-security-policy-csp-nonce-integration/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
+                      }
                     },
                     network_error_logging: {
                       children: {},
@@ -151723,59 +130243,12 @@ figure {
                 }
               }
             },
-            performance: {
-              children: {
-                guides: {
-                  children: {
-                    performance_budgets: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Performance/Guides/Performance_budgets",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addyosmani.com/blog/performance-budgets/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
-                    speculative_loading: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Performance/Guides/Speculative_loading",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
-            },
             privacy: {
               children: {
                 guides: {
                   children: {
                     privacy_sandbox: {
                       children: {
-                        enrollment: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Privacy/Guides/Privacy_sandbox/Enrollment",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://privacysandbox.google.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         partitioned_cookies: {
                           children: {},
                           slug: "/en-US/docs/Web/Privacy/Guides/Privacy_sandbox/Partitioned_cookies",
@@ -151791,17 +130264,7 @@ figure {
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/Privacy/Guides/Privacy_sandbox",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://privacysandbox.google.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
+                      }
                     },
                     storage_access_policy: {
                       children: {
@@ -151893,13 +130356,6 @@ figure {
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/Web/Privacy/Guides"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://privacysandbox.google.com/",
-                    "The operation timed out."
                   ]
                 }
               ]
