@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-cfe4zsb1.js";
+} from "./chunk-2md00ngm.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -57,1172 +57,10 @@ var warnings_processed_default = {
             },
             tutorials: {
               children: {
-                "2d_breakout_game_phaser": {
-                  children: {
-                    animations_and_tweens: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Animations_and_tweens",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected method shorthand.",
-                            `  onComplete: () => {
-    brick.destroy();
-  },`,
-                            "10:3 - 12:4",
-                            `/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Animations_and_tweens
-[object-shorthand] Expected method shorthand.
-~~~
-const destroyTween = this.tweens.add({
-  targets: brick,
-  ease: "Linear",
-  repeat: 0,
-  duration: 200,
-  props: {
-    scaleX: 0,
-    scaleY: 0,
-  },
-  onComplete: () => {
-    brick.destroy();
-  },
-});
-destroyTween.play();
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected method shorthand.",
-                            `      onComplete: () => {
-        brick.destroy();
-      },`,
-                            "145:7 - 147:8",
-                            `/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Animations_and_tweens
-[object-shorthand] Expected method shorthand.
-~~~
-class ExampleScene extends Phaser.Scene {
-  ball;
-  paddle;
-  bricks;
-
-  scoreText;
-  score = 0;
-
-  lives = 3;
-  livesText;
-  lifeLostText;
-
-  preload() {
-    this.load.setBaseURL(
-      "https://mdn.github.io/shared-assets/images/examples/2D_breakout_game_Phaser",
-    );
-
-    this.load.image("ball", "ball.png");
-    this.load.image("paddle", "paddle.png");
-    this.load.image("brick", "brick.png");
-    this.load.spritesheet("wobble", "wobble.png", {
-      frameWidth: 20,
-      frameHeight: 20,
-    });
-  }
-  create() {
-    this.physics.world.checkCollision.down = false;
-
-    this.ball = this.add.sprite(
-      this.scale.width * 0.5,
-      this.scale.height - 25,
-      "ball",
-    );
-    this.physics.add.existing(this.ball);
-    this.ball.body.setVelocity(150, -150);
-    this.ball.body.setCollideWorldBounds(true, 1, 1);
-    this.ball.body.setBounce(1);
-    this.ball.anims.create({
-      key: "wobble",
-      frameRate: 24,
-      frames: this.anims.generateFrameNumbers("wobble", {
-        frames: [0, 1, 0, 2, 0, 1, 0, 2, 0],
-      }),
-    });
-
-    this.paddle = this.add.sprite(
-      this.scale.width * 0.5,
-      this.scale.height - 5,
-      "paddle",
-    );
-    this.paddle.setOrigin(0.5, 1);
-    this.physics.add.existing(this.paddle);
-    this.paddle.body.setImmovable(true);
-
-    this.initBricks();
-
-    const textStyle = { font: "18px Arial", fill: "#0095dd" };
-    this.scoreText = this.add.text(5, 5, "Points: 0", textStyle);
-
-    this.livesText = this.add.text(
-      this.scale.width - 5,
-      5,
-      \`Lives: \${this.lives}\`,
-      textStyle,
-    );
-    this.livesText.setOrigin(1, 0);
-    this.lifeLostText = this.add.text(
-      this.scale.width * 0.5,
-      this.scale.height * 0.5,
-      "Life lost, click to continue",
-      textStyle,
-    );
-    this.lifeLostText.setOrigin(0.5, 0.5);
-    this.lifeLostText.visible = false;
-  }
-  update() {
-    this.physics.collide(this.ball, this.paddle, (ball, paddle) =>
-      this.hitPaddle(ball, paddle),
-    );
-    this.physics.collide(this.ball, this.bricks, (ball, brick) =>
-      this.hitBrick(ball, brick),
-    );
-
-    this.paddle.x = this.input.x || this.scale.width * 0.5;
-    const ballIsOutOfBounds = !Phaser.Geom.Rectangle.Overlaps(
-      this.physics.world.bounds,
-      this.ball.getBounds(),
-    );
-    if (ballIsOutOfBounds) {
-      this.ballLeaveScreen();
-    }
-    if (this.bricks.countActive() === 0) {
-      alert("You won the game, congratulations!");
-      location.reload();
-    }
-  }
-
-  initBricks() {
-    const bricksLayout = {
-      width: 50,
-      height: 20,
-      count: {
-        row: 3,
-        col: 7,
-      },
-      offset: {
-        top: 50,
-        left: 60,
-      },
-      padding: 10,
-    };
-
-    this.bricks = this.add.group();
-    for (let c = 0; c < bricksLayout.count.col; c++) {
-      for (let r = 0; r < bricksLayout.count.row; r++) {
-        const brickX =
-          c * (bricksLayout.width + bricksLayout.padding) +
-          bricksLayout.offset.left;
-        const brickY =
-          r * (bricksLayout.height + bricksLayout.padding) +
-          bricksLayout.offset.top;
-
-        const newBrick = this.add.sprite(brickX, brickY, "brick");
-        this.physics.add.existing(newBrick);
-        newBrick.body.setImmovable(true);
-        this.bricks.add(newBrick);
-      }
-    }
-  }
-
-  hitPaddle(ball, paddle) {
-    this.ball.anims.play("wobble");
-  }
-
-  hitBrick(ball, brick) {
-    const destroyTween = this.tweens.add({
-      targets: brick,
-      ease: "Linear",
-      repeat: 0,
-      duration: 200,
-      props: {
-        scaleX: 0,
-        scaleY: 0,
-      },
-      onComplete: () => {
-        brick.destroy();
-      },
-    });
-    destroyTween.play();
-    this.score += 10;
-    this.scoreText.setText(\`Points: \${this.score}\`);
-  }
-
-  ballLeaveScreen() {
-    this.lives--;
-    if (this.lives > 0) {
-      this.livesText.setText(\`Lives: \${this.lives}\`);
-      this.lifeLostText.visible = true;
-      this.ball.body.reset(this.scale.width * 0.5, this.scale.height - 25);
-      this.input.once(
-        "pointerdown",
-        () => {
-          this.lifeLostText.visible = false;
-          this.ball.body.setVelocity(150, -150);
-        },
-        this,
-      );
-    } else {
-      // Game over logic
-      location.reload();
-    }
-  }
-}
-
-const config = {
-  type: Phaser.CANVAS,
-  width: 480,
-  height: 320,
-  scene: ExampleScene,
-  scale: {
-    mode: Phaser.Scale.FIT,
-    autoCenter: Phaser.Scale.CENTER_BOTH,
-  },
-  backgroundColor: "#eeeeee",
-  physics: {
-    default: "arcade",
-  },
-};
-
-const game = new Phaser.Game(config);
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    buttons: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Buttons",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected method shorthand.",
-                            `      onComplete: () => {
-        brick.destroy();
-      },`,
-                            "193:7 - 195:8",
-                            `/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Buttons
-[object-shorthand] Expected method shorthand.
-~~~
-class ExampleScene extends Phaser.Scene {
-  ball;
-  paddle;
-  bricks;
-
-  scoreText;
-  score = 0;
-
-  lives = 3;
-  livesText;
-  lifeLostText;
-
-  preload() {
-    this.load.setBaseURL(
-      "https://mdn.github.io/shared-assets/images/examples/2D_breakout_game_Phaser",
-    );
-
-    this.load.image("ball", "ball.png");
-    this.load.image("paddle", "paddle.png");
-    this.load.image("brick", "brick.png");
-    this.load.spritesheet("wobble", "wobble.png", {
-      frameWidth: 20,
-      frameHeight: 20,
-    });
-    this.load.spritesheet("button", "button.png", {
-      frameWidth: 120,
-      frameHeight: 40,
-    });
-  }
-  create() {
-    this.physics.world.checkCollision.down = false;
-
-    this.ball = this.add.sprite(
-      this.scale.width * 0.5,
-      this.scale.height - 25,
-      "ball",
-    );
-    this.physics.add.existing(this.ball);
-    this.ball.body.setCollideWorldBounds(true, 1, 1);
-    this.ball.body.setBounce(1);
-    this.ball.anims.create({
-      key: "wobble",
-      frameRate: 24,
-      frames: this.anims.generateFrameNumbers("wobble", {
-        frames: [0, 1, 0, 2, 0, 1, 0, 2, 0],
-      }),
-    });
-
-    this.paddle = this.add.sprite(
-      this.scale.width * 0.5,
-      this.scale.height - 5,
-      "paddle",
-    );
-    this.paddle.setOrigin(0.5, 1);
-    this.physics.add.existing(this.paddle);
-    this.paddle.body.setImmovable(true);
-
-    this.initBricks();
-
-    const textStyle = { font: "18px Arial", fill: "#0095dd" };
-    this.scoreText = this.add.text(5, 5, "Points: 0", textStyle);
-
-    this.livesText = this.add.text(
-      this.scale.width - 5,
-      5,
-      \`Lives: \${this.lives}\`,
-      textStyle,
-    );
-    this.livesText.setOrigin(1, 0);
-    this.lifeLostText = this.add.text(
-      this.scale.width * 0.5,
-      this.scale.height * 0.5,
-      "Life lost, click to continue",
-      textStyle,
-    );
-    this.lifeLostText.setOrigin(0.5, 0.5);
-    this.lifeLostText.visible = false;
-
-    this.startButton = this.add.sprite(
-      this.scale.width * 0.5,
-      this.scale.height * 0.5,
-      "button",
-      0,
-    );
-    this.startButton.setInteractive();
-    this.startButton.on(
-      "pointerover",
-      () => {
-        this.startButton.setFrame(1);
-      },
-      this,
-    );
-    this.startButton.on(
-      "pointerdown",
-      () => {
-        this.startButton.setFrame(2);
-      },
-      this,
-    );
-    this.startButton.on(
-      "pointerout",
-      () => {
-        this.startButton.setFrame(0);
-      },
-      this,
-    );
-    this.startButton.on(
-      "pointerup",
-      () => {
-        this.startGame();
-      },
-      this,
-    );
-  }
-  update() {
-    this.physics.collide(this.ball, this.paddle, (ball, paddle) =>
-      this.hitPaddle(ball, paddle),
-    );
-    this.physics.collide(this.ball, this.bricks, (ball, brick) =>
-      this.hitBrick(ball, brick),
-    );
-
-    if (this.playing) {
-      this.paddle.x = this.input.x || this.scale.width * 0.5;
-    }
-
-    const ballIsOutOfBounds = !Phaser.Geom.Rectangle.Overlaps(
-      this.physics.world.bounds,
-      this.ball.getBounds(),
-    );
-    if (ballIsOutOfBounds) {
-      this.ballLeaveScreen();
-    }
-    if (this.bricks.countActive() === 0) {
-      alert("You won the game, congratulations!");
-      location.reload();
-    }
-  }
-
-  startGame() {
-    this.startButton.destroy();
-    this.ball.body.setVelocity(150, -150);
-    this.playing = true;
-  }
-
-  initBricks() {
-    const bricksLayout = {
-      width: 50,
-      height: 20,
-      count: {
-        row: 3,
-        col: 7,
-      },
-      offset: {
-        top: 50,
-        left: 60,
-      },
-      padding: 10,
-    };
-
-    this.bricks = this.add.group();
-    for (let c = 0; c < bricksLayout.count.col; c++) {
-      for (let r = 0; r < bricksLayout.count.row; r++) {
-        const brickX =
-          c * (bricksLayout.width + bricksLayout.padding) +
-          bricksLayout.offset.left;
-        const brickY =
-          r * (bricksLayout.height + bricksLayout.padding) +
-          bricksLayout.offset.top;
-
-        const newBrick = this.add.sprite(brickX, brickY, "brick");
-        this.physics.add.existing(newBrick);
-        newBrick.body.setImmovable(true);
-        this.bricks.add(newBrick);
-      }
-    }
-  }
-
-  hitPaddle(ball, paddle) {
-    this.ball.anims.play("wobble");
-  }
-
-  hitBrick(ball, brick) {
-    const destroyTween = this.tweens.add({
-      targets: brick,
-      ease: "Linear",
-      repeat: 0,
-      duration: 200,
-      props: {
-        scaleX: 0,
-        scaleY: 0,
-      },
-      onComplete: () => {
-        brick.destroy();
-      },
-    });
-    destroyTween.play();
-    this.score += 10;
-    this.scoreText.setText(\`Points: \${this.score}\`);
-  }
-
-  ballLeaveScreen() {
-    this.lives--;
-    if (this.lives > 0) {
-      this.livesText.setText(\`Lives: \${this.lives}\`);
-      this.lifeLostText.visible = true;
-      this.ball.body.reset(this.scale.width * 0.5, this.scale.height - 25);
-      this.input.once(
-        "pointerdown",
-        () => {
-          this.lifeLostText.visible = false;
-          this.ball.body.setVelocity(150, -150);
-        },
-        this,
-      );
-    } else {
-      // Game over logic
-      location.reload();
-    }
-  }
-}
-
-const config = {
-  type: Phaser.CANVAS,
-  width: 480,
-  height: 320,
-  scene: ExampleScene,
-  scale: {
-    mode: Phaser.Scale.FIT,
-    autoCenter: Phaser.Scale.CENTER_BOTH,
-  },
-  backgroundColor: "#eeeeee",
-  physics: {
-    default: "arcade",
-  },
-};
-
-const game = new Phaser.Game(config);
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    randomizing_gameplay: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Randomizing_gameplay",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected method shorthand.",
-                            `      onComplete: () => {
-        brick.destroy();
-      },`,
-                            "194:7 - 196:8",
-                            `/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Randomizing_gameplay
-[object-shorthand] Expected method shorthand.
-~~~
-class ExampleScene extends Phaser.Scene {
-  ball;
-  paddle;
-  bricks;
-
-  scoreText;
-  score = 0;
-
-  lives = 3;
-  livesText;
-  lifeLostText;
-
-  preload() {
-    this.load.setBaseURL(
-      "https://mdn.github.io/shared-assets/images/examples/2D_breakout_game_Phaser",
-    );
-
-    this.load.image("ball", "ball.png");
-    this.load.image("paddle", "paddle.png");
-    this.load.image("brick", "brick.png");
-    this.load.spritesheet("wobble", "wobble.png", {
-      frameWidth: 20,
-      frameHeight: 20,
-    });
-    this.load.spritesheet("button", "button.png", {
-      frameWidth: 120,
-      frameHeight: 40,
-    });
-  }
-  create() {
-    this.physics.world.checkCollision.down = false;
-
-    this.ball = this.add.sprite(
-      this.scale.width * 0.5,
-      this.scale.height - 25,
-      "ball",
-    );
-    this.physics.add.existing(this.ball);
-    this.ball.body.setCollideWorldBounds(true, 1, 1);
-    this.ball.body.setBounce(1);
-    this.ball.anims.create({
-      key: "wobble",
-      frameRate: 24,
-      frames: this.anims.generateFrameNumbers("wobble", {
-        frames: [0, 1, 0, 2, 0, 1, 0, 2, 0],
-      }),
-    });
-
-    this.paddle = this.add.sprite(
-      this.scale.width * 0.5,
-      this.scale.height - 5,
-      "paddle",
-    );
-    this.paddle.setOrigin(0.5, 1);
-    this.physics.add.existing(this.paddle);
-    this.paddle.body.setImmovable(true);
-
-    this.initBricks();
-
-    const textStyle = { font: "18px Arial", fill: "#0095dd" };
-    this.scoreText = this.add.text(5, 5, "Points: 0", textStyle);
-
-    this.livesText = this.add.text(
-      this.scale.width - 5,
-      5,
-      \`Lives: \${this.lives}\`,
-      textStyle,
-    );
-    this.livesText.setOrigin(1, 0);
-    this.lifeLostText = this.add.text(
-      this.scale.width * 0.5,
-      this.scale.height * 0.5,
-      "Life lost, click to continue",
-      textStyle,
-    );
-    this.lifeLostText.setOrigin(0.5, 0.5);
-    this.lifeLostText.visible = false;
-
-    this.startButton = this.add.sprite(
-      this.scale.width * 0.5,
-      this.scale.height * 0.5,
-      "button",
-      0,
-    );
-    this.startButton.setInteractive();
-    this.startButton.on(
-      "pointerover",
-      () => {
-        this.startButton.setFrame(1);
-      },
-      this,
-    );
-    this.startButton.on(
-      "pointerdown",
-      () => {
-        this.startButton.setFrame(2);
-      },
-      this,
-    );
-    this.startButton.on(
-      "pointerout",
-      () => {
-        this.startButton.setFrame(0);
-      },
-      this,
-    );
-    this.startButton.on(
-      "pointerup",
-      () => {
-        this.startGame();
-      },
-      this,
-    );
-  }
-  update() {
-    this.physics.collide(this.ball, this.paddle, (ball, paddle) =>
-      this.hitPaddle(ball, paddle),
-    );
-    this.physics.collide(this.ball, this.bricks, (ball, brick) =>
-      this.hitBrick(ball, brick),
-    );
-
-    if (this.playing) {
-      this.paddle.x = this.input.x || this.scale.width * 0.5;
-    }
-
-    const ballIsOutOfBounds = !Phaser.Geom.Rectangle.Overlaps(
-      this.physics.world.bounds,
-      this.ball.getBounds(),
-    );
-    if (ballIsOutOfBounds) {
-      this.ballLeaveScreen();
-    }
-    if (this.bricks.countActive() === 0) {
-      alert("You won the game, congratulations!");
-      location.reload();
-    }
-  }
-
-  startGame() {
-    this.startButton.destroy();
-    this.ball.body.setVelocity(150, -150);
-    this.playing = true;
-  }
-
-  initBricks() {
-    const bricksLayout = {
-      width: 50,
-      height: 20,
-      count: {
-        row: 3,
-        col: 7,
-      },
-      offset: {
-        top: 50,
-        left: 60,
-      },
-      padding: 10,
-    };
-
-    this.bricks = this.add.group();
-    for (let c = 0; c < bricksLayout.count.col; c++) {
-      for (let r = 0; r < bricksLayout.count.row; r++) {
-        const brickX =
-          c * (bricksLayout.width + bricksLayout.padding) +
-          bricksLayout.offset.left;
-        const brickY =
-          r * (bricksLayout.height + bricksLayout.padding) +
-          bricksLayout.offset.top;
-
-        const newBrick = this.add.sprite(brickX, brickY, "brick");
-        this.physics.add.existing(newBrick);
-        newBrick.body.setImmovable(true);
-        this.bricks.add(newBrick);
-      }
-    }
-  }
-
-  hitPaddle(ball, paddle) {
-    this.ball.anims.play("wobble");
-    ball.body.velocity.x = -5 * (paddle.x - ball.x);
-  }
-
-  hitBrick(ball, brick) {
-    const destroyTween = this.tweens.add({
-      targets: brick,
-      ease: "Linear",
-      repeat: 0,
-      duration: 200,
-      props: {
-        scaleX: 0,
-        scaleY: 0,
-      },
-      onComplete: () => {
-        brick.destroy();
-      },
-    });
-    destroyTween.play();
-    this.score += 10;
-    this.scoreText.setText(\`Points: \${this.score}\`);
-  }
-
-  ballLeaveScreen() {
-    this.lives--;
-    if (this.lives > 0) {
-      this.livesText.setText(\`Lives: \${this.lives}\`);
-      this.lifeLostText.visible = true;
-      this.ball.body.reset(this.scale.width * 0.5, this.scale.height - 25);
-      this.input.once(
-        "pointerdown",
-        () => {
-          this.lifeLostText.visible = false;
-          this.ball.body.setVelocity(150, -150);
-        },
-        this,
-      );
-    } else {
-      // Game over logic
-      location.reload();
-    }
-  }
-}
-
-const config = {
-  type: Phaser.CANVAS,
-  width: 480,
-  height: 320,
-  scene: ExampleScene,
-  scale: {
-    mode: Phaser.Scale.FIT,
-    autoCenter: Phaser.Scale.CENTER_BOTH,
-  },
-  backgroundColor: "#eeeeee",
-  physics: {
-    default: "arcade",
-  },
-};
-
-const game = new Phaser.Game(config);
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "2d_breakout_game_pure_javascript": {
-                  children: {
-                    bounce_off_the_walls: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Bounce_off_the_walls",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "2:15 - 2:19",
-                            `/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Bounce_off_the_walls
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-canvas {
-  background: #eee;
-}
-button {
-  display: block;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    build_the_brick_field: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Build_the_brick_field",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "2:15 - 2:19",
-                            `/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Build_the_brick_field
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-canvas {
-  background: #eee;
-}
-button {
-  display: block;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    collision_detection: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Collision_detection",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "2:15 - 2:19",
-                            `/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Collision_detection
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-canvas {
-  background: #eee;
-}
-button {
-  display: block;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    create_the_canvas_and_draw_on_it: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Create_the_Canvas_and_draw_on_it",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "        background: #eee;",
-                            "7:21 - 7:25",
-                            `/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Create_the_Canvas_and_draw_on_it
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title>Gamedev Canvas Workshop</title>
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-      }
-      canvas {
-        background: #eee;
-        display: block;
-        margin: 0 auto;
-      }
-    </style>
-  </head>
-  <body>
-    <canvas id="myCanvas" width="480" height="320"></canvas>
-
-    <script>
-      // JavaScript code goes here
-    </script>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `    <style>
-      * {
-        padding: 0;
-        margin: 0;
-      }
-      canvas {
-        background: #eee;
-        display: block;
-        margin: 0 auto;
-      }
-    </style>`,
-                            "5:4 - 15:12",
-                            `/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Create_the_Canvas_and_draw_on_it
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title>Gamedev Canvas Workshop</title>
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-      }
-      canvas {
-        background: #eee;
-        display: block;
-        margin: 0 auto;
-      }
-    </style>
-  </head>
-  <body>
-    <canvas id="myCanvas" width="480" height="320"></canvas>
-
-    <script>
-      // JavaScript code goes here
-    </script>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "2:15 - 2:19",
-                            `/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Create_the_Canvas_and_draw_on_it
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-canvas {
-  background: #eee;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    finishing_up: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Finishing_up",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "2:15 - 2:19",
-                            `/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Finishing_up
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-canvas {
-  background: #eee;
-}
-button {
-  display: block;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    game_over: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Game_over",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "2:15 - 2:19",
-                            `/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Game_over
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-canvas {
-  background: #eee;
-}
-button {
-  display: block;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    mouse_controls: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Mouse_controls",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "2:15 - 2:19",
-                            `/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Mouse_controls
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-canvas {
-  background: #eee;
-}
-button {
-  display: block;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    move_the_ball: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Move_the_ball",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "2:15 - 2:19",
-                            `/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Move_the_ball
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-canvas {
-  background: #eee;
-}
-button {
-  display: block;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    paddle_and_keyboard_controls: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Paddle_and_keyboard_controls",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "2:15 - 2:19",
-                            `/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Paddle_and_keyboard_controls
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-canvas {
-  background: #eee;
-}
-button {
-  display: block;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    track_the_score_and_win: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Track_the_score_and_win",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "2:15 - 2:19",
-                            `/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Track_the_score_and_win
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-canvas {
-  background: #eee;
-}
-button {
-  display: block;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 html5_gamedev_phaser_device_orientation: {
                   children: {},
                   slug: "/en-US/docs/Games/Tutorials/HTML5_Gamedev_Phaser_Device_Orientation",
                   messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#333" to be "#333333" (color-hex-length)',
-                        "        background: #333;",
-                        "4:21 - 4:25",
-                        `/en-US/docs/Games/Tutorials/HTML5_Gamedev_Phaser_Device_Orientation
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-<!doctype html>
-<html lang="en-GB">
-  <head>
-    <meta charset="utf-8" />
-    <title>Cyber Orb demo</title>
-    <style>
-      body {
-        margin: 0;
-        background: #333;
-      }
-    </style>
-    <script src="src/phaser-arcade-physics.2.2.2.min.js"></script>
-    <script src="src/Boot.js"></script>
-    <script src="src/Preloader.js"></script>
-    <script src="src/MainMenu.js"></script>
-    <script src="src/Howto.js"></script>
-    <script src="src/Game.js"></script>
-  </head>
-  <body>
-    <script>
-      (() => {
-        const game = new Phaser.Game(320, 480, Phaser.CANVAS, "game");
-        game.state.add("Boot", Ball.Boot);
-        game.state.add("Preloader", Ball.Preloader);
-        game.state.add("MainMenu", Ball.MainMenu);
-        game.state.add("Howto", Ball.Howto);
-        game.state.add("Game", Ball.Game);
-        game.state.start("Boot");
-      })();
-    </script>
-  </body>
-</html>
-~~~
-`
-                      ]
-                    },
                     {
                       message: "HTML code issue",
                       data: [
@@ -1231,7 +69,7 @@ button {
                         `    <style>
       body {
         margin: 0;
-        background: #333;
+        background: #333333;
       }
     </style>`,
                         "5:4 - 10:12",
@@ -1246,7 +84,7 @@ button {
     <style>
       body {
         margin: 0;
-        background: #333;
+        background: #333333;
       }
     </style>
     <script src="src/phaser-arcade-physics.2.2.2.min.js"></script>
@@ -1302,7 +140,7 @@ button {
     <style>
       body {
         margin: 0;
-        background: #333;
+        background: #333333;
       }
     </style>
     <script src="src/phaser-arcade-physics.2.2.2.min.js"></script>
@@ -2150,58 +988,6 @@ div.warning {
                 }
               ]
             },
-            "inline-level_content": {
-              children: {},
-              slug: "/en-US/docs/Glossary/Inline-level_content",
-              messages: [
-                {
-                  message: "CSS code issue",
-                  data: [
-                    "color-hex-length",
-                    'Expected "#333" to be "#333333" (color-hex-length)',
-                    "  border: 1px solid #333;",
-                    "4:21 - 4:25",
-                    `/en-US/docs/Glossary/Inline-level_content
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  margin: 0;
-  padding: 4px;
-  border: 1px solid #333;
-}
-
-.highlight {
-  background-color: #ee3;
-}
-~~~
-`
-                  ]
-                },
-                {
-                  message: "CSS code issue",
-                  data: [
-                    "color-hex-length",
-                    'Expected "#ee3" to be "#eeee33" (color-hex-length)',
-                    "  background-color: #ee3;",
-                    "8:21 - 8:25",
-                    `/en-US/docs/Glossary/Inline-level_content
-[color-hex-length] Expected "#ee3" to be "#eeee33" (color-hex-length)
-~~~
-body {
-  margin: 0;
-  padding: 4px;
-  border: 1px solid #333;
-}
-
-.highlight {
-  background-color: #ee3;
-}
-~~~
-`
-                  ]
-                }
-              ]
-            },
             instance: {
               children: {},
               slug: "/en-US/docs/Glossary/Instance",
@@ -2738,84 +1524,6 @@ body {
                           slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/CSS_and_JavaScript",
                           messages: [
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/CSS_and_JavaScript
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-  color: #666;
-  outline: none;
-}
-
-/* Don't edit the above code! */
-
-/* Add your code here */
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#666" to be "#666666" (color-hex-length)',
-                                "  color: #666;",
-                                "19:10 - 19:14",
-                                `/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/CSS_and_JavaScript
-[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-  color: #666;
-  outline: none;
-}
-
-/* Don't edit the above code! */
-
-/* Add your code here */
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "font-family-name-quotes",
@@ -2827,7 +1535,7 @@ a {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -2843,7 +1551,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #666;
+  color: #666666;
   outline: none;
 }
 
@@ -2866,7 +1574,7 @@ a {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -2882,7 +1590,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #666;
+  color: #666666;
   outline: none;
 }
 
@@ -2905,7 +1613,7 @@ a {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -2921,121 +1629,13 @@ body {
 
 a {
   text-decoration: none;
-  color: #666;
+  color: #666666;
   outline: none;
 }
 
 /* Don't edit the above code! */
 
 /* Add your code here */
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/CSS_and_JavaScript
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* Edit the CSS to fix the a11y problems */
-
-main {
-  padding: 20px;
-  background-color: red;
-}
-
-h1,
-h2,
-p {
-  color: #999;
-}
-
-h1 {
-  font-size: 2vw;
-}
-
-h2 {
-  font-size: 1.5vw;
-}
-
-p {
-  font-size: 1.2vw;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#999" to be "#999999" (color-hex-length)',
-                                "  color: #999;",
-                                "27:10 - 27:14",
-                                `/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/CSS_and_JavaScript
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-/* Edit the CSS to fix the a11y problems */
-
-main {
-  padding: 20px;
-  background-color: red;
-}
-
-h1,
-h2,
-p {
-  color: #999;
-}
-
-h1 {
-  font-size: 2vw;
-}
-
-h2 {
-  font-size: 1.5vw;
-}
-
-p {
-  font-size: 1.2vw;
-}
 ~~~
 `
                               ]
@@ -3052,7 +1652,7 @@ p {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -3076,7 +1676,7 @@ main {
 h1,
 h2,
 p {
-  color: #999;
+  color: #999999;
 }
 
 h1 {
@@ -3106,7 +1706,7 @@ p {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -3130,7 +1730,7 @@ main {
 h1,
 h2,
 p {
-  color: #999;
+  color: #999999;
 }
 
 h1 {
@@ -3160,7 +1760,7 @@ p {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -3184,7 +1784,7 @@ main {
 h1,
 h2,
 p {
-  color: #999;
+  color: #999999;
 }
 
 h1 {
@@ -3203,44 +1803,6 @@ p {
                               ]
                             },
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/CSS_and_JavaScript
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-p {
-  color: purple;
-  margin: 0.5em 0;
-}
-
-li {
-  cursor: pointer;
-}
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "font-family-name-quotes",
@@ -3252,7 +1814,7 @@ li {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -3290,7 +1852,7 @@ li {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -3328,7 +1890,7 @@ li {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -3361,44 +1923,6 @@ li {
                           slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/HTML",
                           messages: [
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/HTML
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.button {
-  color: white;
-  background-color: blue;
-  border-radius: 10px;
-  width: 170px;
-  padding: 10px;
-  text-align: center;
-}
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "font-family-name-quotes",
@@ -3410,7 +1934,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -3448,7 +1972,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -3486,7 +2010,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -3513,46 +2037,6 @@ body {
                               ]
                             },
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/HTML
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-form {
-  width: 400px;
-}
-
-li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "font-family-name-quotes",
@@ -3564,7 +2048,7 @@ li {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -3604,7 +2088,7 @@ li {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -3644,7 +2128,7 @@ li {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -3673,35 +2157,6 @@ li {
                               ]
                             },
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/HTML
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "font-family-name-quotes",
@@ -3713,7 +2168,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -3742,7 +2197,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -3771,7 +2226,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -3783,54 +2238,6 @@ body {
 
 * {
   box-sizing: border-box;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/HTML
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  width: 400px;
-  margin: 0 auto;
-}
-
-main img {
-  display: block;
-  width: 250px;
-  margin: 20px auto;
-  box-shadow: 5px 5px 0 black;
-}
-
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
 }
 ~~~
 `
@@ -3848,7 +2255,7 @@ header {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -3896,7 +2303,7 @@ header {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -3944,7 +2351,7 @@ header {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -3987,51 +2394,6 @@ header {
                           slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/WAI-ARIA",
                           messages: [
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/WAI-ARIA
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-div > div {
-  padding-left: 20px;
-  position: relative;
-}
-
-div > div::before {
-  content: " ";
-  width: 8px;
-  height: 8px;
-  background-color: black;
-  border-radius: 50%;
-  position: absolute;
-  left: 0;
-  top: 8px;
-}
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "font-family-name-quotes",
@@ -4043,7 +2405,7 @@ div > div::before {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -4088,7 +2450,7 @@ div > div::before {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -4133,7 +2495,7 @@ div > div::before {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -4167,35 +2529,6 @@ div > div::before {
                               ]
                             },
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/WAI-ARIA
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "font-family-name-quotes",
@@ -4207,7 +2540,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -4236,7 +2569,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -4265,7 +2598,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -4277,48 +2610,6 @@ body {
 
 * {
   box-sizing: border-box;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/WAI-ARIA
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-p {
-  color: purple;
-  margin: 0.5em 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-li {
-  cursor: pointer;
 }
 ~~~
 `
@@ -4336,7 +2627,7 @@ li {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -4378,7 +2669,7 @@ li {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -4420,7 +2711,7 @@ li {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -4460,430 +2751,6 @@ li {
                           data: []
                         }
                       ]
-                    },
-                    "wai-aria_basics": {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  background: #333;",
-                            "123:15 - 123:19",
-                            `/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-/* || General setup */
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 10px;
-  background-color: darkgrey;
-}
-
-body {
-  width: max(70vw, 90%);
-  margin: 0 auto;
-  padding: 0 10px;
-  display: flex;
-  flex-direction: column;
-}
-
-/* || typography */
-
-h1,
-h2,
-h3 {
-  font-family: "Sonsie One", cursive;
-  color: #2a2a2a;
-}
-
-p,
-input,
-li {
-  font-family: "Open Sans Condensed", sans-serif;
-  color: #2a2a2a;
-}
-
-h1 {
-  font-size: 4rem;
-  text-align: center;
-  color: white;
-  text-shadow: 2px 2px 10px black;
-}
-
-h2 {
-  font-size: 3rem;
-  text-align: center;
-}
-
-h3 {
-  font-size: 2.2rem;
-}
-
-p,
-li {
-  font-size: 1.6rem;
-  line-height: 1.5;
-}
-
-/* || header layout */
-
-header {
-  margin-bottom: 10px;
-}
-
-nav,
-article,
-aside,
-footer {
-  background-color: white;
-  padding: 1%;
-}
-
-nav {
-  background-color: #ff80ff;
-  display: flex;
-  gap: 2vw;
-  @media (width <= 650px) {
-    flex-direction: column;
-  }
-}
-
-nav ul {
-  padding: 0;
-  list-style-type: none;
-  flex: 2;
-  display: flex;
-  gap: 2vw;
-}
-
-nav li {
-  display: inline;
-  text-align: center;
-}
-
-nav a {
-  display: inline-block;
-  font-size: 2rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black;
-}
-
-nav form {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-
-input {
-  font-size: 1.6rem;
-  height: 32px;
-}
-
-input[type="search"] {
-  flex: 3;
-}
-
-input[type="submit"] {
-  flex: 1;
-  margin-left: 1rem;
-  background: #333;
-  border: 0;
-  color: white;
-}
-
-/* || main layout */
-
-main {
-  display: flex;
-  gap: 2vw;
-  @media (width <= 650px) {
-    flex-direction: column;
-  }
-}
-
-article {
-  flex: 4;
-}
-
-aside {
-  flex: 1;
-  background-color: #ff80ff;
-}
-
-aside li {
-  padding-bottom: 10px;
-}
-
-footer {
-  margin-top: 10px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  background: #333;",
-                            "123:15 - 123:19",
-                            `/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-/* || General setup */
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 10px;
-  background-color: darkgrey;
-}
-
-body {
-  width: max(70vw, 90%);
-  margin: 0 auto;
-  padding: 0 10px;
-  display: flex;
-  flex-direction: column;
-}
-
-/* || typography */
-
-h1,
-h2,
-h3 {
-  font-family: "Sonsie One", cursive;
-  color: #2a2a2a;
-}
-
-p,
-input,
-li {
-  font-family: "Open Sans Condensed", sans-serif;
-  color: #2a2a2a;
-}
-
-h1 {
-  font-size: 4rem;
-  text-align: center;
-  color: white;
-  text-shadow: 2px 2px 10px black;
-}
-
-h2 {
-  font-size: 3rem;
-  text-align: center;
-}
-
-h3 {
-  font-size: 2.2rem;
-}
-
-p,
-li {
-  font-size: 1.6rem;
-  line-height: 1.5;
-}
-
-/* || header layout */
-
-header {
-  margin-bottom: 10px;
-}
-
-nav,
-article,
-aside,
-footer {
-  background-color: white;
-  padding: 1%;
-}
-
-nav {
-  background-color: #ff80ff;
-  display: flex;
-  gap: 2vw;
-  @media (width <= 650px) {
-    flex-direction: column;
-  }
-}
-
-nav ul {
-  padding: 0;
-  list-style-type: none;
-  flex: 2;
-  display: flex;
-  gap: 2vw;
-}
-
-nav li {
-  display: inline;
-  text-align: center;
-}
-
-nav a {
-  display: inline-block;
-  font-size: 2rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black;
-}
-
-nav form {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-
-input {
-  font-size: 1.6rem;
-  height: 32px;
-}
-
-input[type="search"] {
-  flex: 3;
-}
-
-input[type="submit"] {
-  flex: 1;
-  margin-left: 1rem;
-  background: #333;
-  border: 0;
-  color: white;
-}
-
-/* || main layout */
-
-main {
-  display: flex;
-  gap: 2vw;
-  @media (width <= 650px) {
-    flex-direction: column;
-  }
-}
-
-article {
-  flex: 4;
-}
-
-aside {
-  flex: 1;
-  background-color: #ff80ff;
-}
-
-aside li {
-  padding-bottom: 10px;
-}
-
-footer {
-  margin-top: 10px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#666" to be "#666666" (color-hex-length)',
-                            "  background: #666;",
-                            "25:15 - 25:19",
-                            `/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics
-[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: sans-serif;
-}
-
-html,
-body {
-  height: 100%;
-}
-
-h1 {
-  letter-spacing: 2px;
-}
-
-p {
-  line-height: 1.6;
-}
-
-section {
-  height: 100%;
-  padding: 10px;
-  background: #666;
-  text-shadow: 1px 1px 1px black;
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#666" to be "#666666" (color-hex-length)',
-                            "  background: #666;",
-                            "25:15 - 25:19",
-                            `/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics
-[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: sans-serif;
-}
-
-html,
-body {
-  height: 100%;
-}
-
-h1 {
-  letter-spacing: 2px;
-}
-
-p {
-  line-height: 1.6;
-}
-
-section {
-  height: 100%;
-  padding: 10px;
-  background: #666;
-  text-shadow: 1px 1px 1px black;
-  color: white;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Core/Accessibility",
@@ -4903,240 +2770,6 @@ section {
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#f00" to be "#ff0000" (color-hex-length)',
-                        "  color: #f00; /* red */",
-                        "2:10 - 2:14",
-                        `/en-US/docs/Learn_web_development/Core/Challenges
-[color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
-~~~
-strong {
-  color: #f00; /* red */
-  background-color: #ddf; /* pale blue */
-  font: 200% serif;
-}
-
-.carrot {
-  color: #fa0; /* orange */
-}
-
-.spinach {
-  color: #080; /* dark green */
-}
-
-p {
-  color: #00f; /* blue */
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#ddf" to be "#ddddff" (color-hex-length)',
-                        "  background-color: #ddf; /* pale blue */",
-                        "3:21 - 3:25",
-                        `/en-US/docs/Learn_web_development/Core/Challenges
-[color-hex-length] Expected "#ddf" to be "#ddddff" (color-hex-length)
-~~~
-strong {
-  color: #f00; /* red */
-  background-color: #ddf; /* pale blue */
-  font: 200% serif;
-}
-
-.carrot {
-  color: #fa0; /* orange */
-}
-
-.spinach {
-  color: #080; /* dark green */
-}
-
-p {
-  color: #00f; /* blue */
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#fa0" to be "#ffaa00" (color-hex-length)',
-                        "  color: #fa0; /* orange */",
-                        "8:10 - 8:14",
-                        `/en-US/docs/Learn_web_development/Core/Challenges
-[color-hex-length] Expected "#fa0" to be "#ffaa00" (color-hex-length)
-~~~
-strong {
-  color: #f00; /* red */
-  background-color: #ddf; /* pale blue */
-  font: 200% serif;
-}
-
-.carrot {
-  color: #fa0; /* orange */
-}
-
-.spinach {
-  color: #080; /* dark green */
-}
-
-p {
-  color: #00f; /* blue */
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#080" to be "#008800" (color-hex-length)',
-                        "  color: #080; /* dark green */",
-                        "12:10 - 12:14",
-                        `/en-US/docs/Learn_web_development/Core/Challenges
-[color-hex-length] Expected "#080" to be "#008800" (color-hex-length)
-~~~
-strong {
-  color: #f00; /* red */
-  background-color: #ddf; /* pale blue */
-  font: 200% serif;
-}
-
-.carrot {
-  color: #fa0; /* orange */
-}
-
-.spinach {
-  color: #080; /* dark green */
-}
-
-p {
-  color: #00f; /* blue */
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#00f" to be "#0000ff" (color-hex-length)',
-                        "  color: #00f; /* blue */",
-                        "16:10 - 16:14",
-                        `/en-US/docs/Learn_web_development/Core/Challenges
-[color-hex-length] Expected "#00f" to be "#0000ff" (color-hex-length)
-~~~
-strong {
-  color: #f00; /* red */
-  background-color: #ddf; /* pale blue */
-  font: 200% serif;
-}
-
-.carrot {
-  color: #fa0; /* orange */
-}
-
-.spinach {
-  color: #080; /* dark green */
-}
-
-p {
-  color: #00f; /* blue */
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#f00" to be "red" (color-named)',
-                        "  color: #f00; /* red */",
-                        "2:10 - 2:14",
-                        `/en-US/docs/Learn_web_development/Core/Challenges
-[color-named] Expected "#f00" to be "red" (color-named)
-~~~
-strong {
-  color: #f00; /* red */
-  background-color: #ddf; /* pale blue */
-  font: 200% serif;
-}
-
-.carrot {
-  color: #fa0; /* orange */
-}
-
-.spinach {
-  color: #080; /* dark green */
-}
-
-p {
-  color: #00f; /* blue */
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#00f" to be "blue" (color-named)',
-                        "  color: #00f; /* blue */",
-                        "16:10 - 16:14",
-                        `/en-US/docs/Learn_web_development/Core/Challenges
-[color-named] Expected "#00f" to be "blue" (color-named)
-~~~
-strong {
-  color: #f00; /* red */
-  background-color: #ddf; /* pale blue */
-  font: 200% serif;
-}
-
-.carrot {
-  color: #fa0; /* orange */
-}
-
-.spinach {
-  color: #080; /* dark green */
-}
-
-p {
-  color: #00f; /* blue */
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#7a7" to be "#77aa77" (color-hex-length)',
-                        "  border: 1px solid #7a7;",
-                        "2:21 - 2:25",
-                        `/en-US/docs/Learn_web_development/Core/Challenges
-[color-hex-length] Expected "#7a7" to be "#77aa77" (color-hex-length)
-~~~
-#demo-table tbody td {
-  border: 1px solid #7a7;
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -5602,36 +3235,6 @@ span {
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries",
                       messages: [
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "    border-top: 1px solid #ccc;",
-                            "13:27 - 13:31",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-@media screen and (width >= 70em) {
-  main {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    column-gap: 20px;
-  }
-
-  article {
-    margin-bottom: 0;
-  }
-
-  footer {
-    border-top: 1px solid #ccc;
-    margin-top: 2em;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "media-feature-range-notation",
@@ -5675,7 +3278,7 @@ body {
 
 a:link,
 a:visited {
-  color: #333;
+  color: #333333;
 }
 
 nav ul,
@@ -5691,7 +3294,7 @@ nav a:visited {
   text-decoration: none;
   display: block;
   padding: 10px;
-  color: #333;
+  color: #333333;
   font-weight: bold;
 }
 
@@ -5742,7 +3345,7 @@ body {
 
 a:link,
 a:visited {
-  color: #333;
+  color: #333333;
 }
 
 nav ul,
@@ -5758,7 +3361,7 @@ nav a:visited {
   text-decoration: none;
   display: block;
   padding: 10px;
-  color: #333;
+  color: #333333;
   font-weight: bold;
 }
 
@@ -5809,7 +3412,7 @@ body {
 
 a:link,
 a:visited {
-  color: #333;
+  color: #333333;
 }
 
 nav ul,
@@ -5825,7 +3428,7 @@ nav a:visited {
   text-decoration: none;
   display: block;
   padding: 10px;
-  color: #333;
+  color: #333333;
   font-weight: bold;
 }
 
@@ -5876,7 +3479,7 @@ body {
 
 a:link,
 a:visited {
-  color: #333;
+  color: #333333;
 }
 
 nav ul,
@@ -5892,141 +3495,7 @@ nav a:visited {
   text-decoration: none;
   display: block;
   padding: 10px;
-  color: #333;
-  font-weight: bold;
-}
-
-nav a:hover {
-  background-color: rgb(207 232 220 / 70%);
-}
-
-.related {
-  background-color: rgb(79 185 227 / 30%);
-  border: 1px solid rgb(79 185 227);
-  padding: 10px;
-}
-
-.sidebar {
-  background-color: rgb(207 232 220 / 50%);
-  padding: 10px;
-}
-
-article {
-  margin-bottom: 1em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  color: #333;",
-                            "16:10 - 16:14",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  width: 90%;
-  margin: 2em auto;
-  font:
-    1em/1.3 Arial,
-    Helvetica,
-    sans-serif;
-}
-
-a:link,
-a:visited {
-  color: #333;
-}
-
-nav ul,
-aside ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav a:link,
-nav a:visited {
-  background-color: rgb(207 232 220 / 20%);
-  border: 2px solid rgb(79 185 227);
-  text-decoration: none;
-  display: block;
-  padding: 10px;
-  color: #333;
-  font-weight: bold;
-}
-
-nav a:hover {
-  background-color: rgb(207 232 220 / 70%);
-}
-
-.related {
-  background-color: rgb(79 185 227 / 30%);
-  border: 1px solid rgb(79 185 227);
-  padding: 10px;
-}
-
-.sidebar {
-  background-color: rgb(207 232 220 / 50%);
-  padding: 10px;
-}
-
-article {
-  margin-bottom: 1em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  color: #333;",
-                            "32:10 - 32:14",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  width: 90%;
-  margin: 2em auto;
-  font:
-    1em/1.3 Arial,
-    Helvetica,
-    sans-serif;
-}
-
-a:link,
-a:visited {
-  color: #333;
-}
-
-nav ul,
-aside ul {
-  list-style: none;
-  padding: 0;
-}
-
-nav a:link,
-nav a:visited {
-  background-color: rgb(207 232 220 / 20%);
-  border: 2px solid rgb(79 185 227);
-  text-decoration: none;
-  display: block;
-  padding: 10px;
-  color: #333;
+  color: #333333;
   font-weight: bold;
 }
 
@@ -6077,7 +3546,7 @@ body {
 
 a:link,
 a:visited {
-  color: #333;
+  color: #333333;
 }
 
 nav ul,
@@ -6093,7 +3562,7 @@ nav a:visited {
   text-decoration: none;
   display: block;
   padding: 10px;
-  color: #333;
+  color: #333333;
   font-weight: bold;
 }
 
@@ -6144,7 +3613,7 @@ body {
 
 a:link,
 a:visited {
-  color: #333;
+  color: #333333;
 }
 
 nav ul,
@@ -6160,7 +3629,7 @@ nav a:visited {
   text-decoration: none;
   display: block;
   padding: 10px;
-  color: #333;
+  color: #333333;
   font-weight: bold;
 }
 
@@ -6181,36 +3650,6 @@ nav a:hover {
 
 article {
   margin-bottom: 1em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#666" to be "#666666" (color-hex-length)',
-                            "  border: 1px solid #666;",
-                            "14:21 - 14:25",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries
-[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-.grid {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-}
-
-.grid li {
-  border: 1px solid #666;
-  padding: 10px;
 }
 ~~~
 `
@@ -6680,140 +4119,6 @@ body {
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
                       messages: [
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background-color: #eee;",
-                            "5:21 - 5:25",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-  margin: 20px;
-  padding: 0;
-  background-color: #eee;
-}
-.wrapper {
-  max-width: 960px;
-  margin: 2em auto;
-}
-
-.col1,
-.col2 {
-  background-color: white;
-}
-
-@media screen and (width >= 600px) {
-  .wrapper {
-    display: flex;
-  }
-
-  .col1 {
-    flex: 1;
-    margin-right: 5%;
-  }
-
-  .col2 {
-    flex: 2;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background-color: #eee;",
-                            "5:21 - 5:25",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-  margin: 20px;
-  padding: 0;
-  background-color: #eee;
-}
-.wrapper {
-  max-width: 960px;
-  margin: 2em auto;
-}
-
-.col1,
-.col2 {
-  background-color: white;
-}
-
-@media screen and (width >= 600px) {
-  .wrapper {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 5%;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background-color: #eee;",
-                            "12:21 - 12:25",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-html {
-  font-size: 1em;
-}
-
-body {
-  font:
-    1.2em Helvetica,
-    Arial,
-    sans-serif;
-  margin: 20px;
-  padding: 0;
-  background-color: #eee;
-}
-.wrapper {
-  max-width: 960px;
-  margin: 2em auto;
-}
-
-h1 {
-  font-size: 2rem;
-  margin: 0;
-}
-
-.col1,
-.col2 {
-  background-color: white;
-}
-
-@media screen and (width >= 600px) {
-  .wrapper {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 5%;
-  }
-
-  h1 {
-    font-size: 4rem;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "font-family-name-quotes",
@@ -6834,7 +4139,7 @@ body {
     sans-serif;
   margin: 20px;
   padding: 0;
-  background-color: #eee;
+  background-color: #eeeeee;
 }
 .wrapper {
   max-width: 960px;
@@ -6887,7 +4192,7 @@ body {
     sans-serif;
   margin: 20px;
   padding: 0;
-  background-color: #eee;
+  background-color: #eeeeee;
 }
 .wrapper {
   max-width: 960px;
@@ -6913,49 +4218,6 @@ h1 {
 
   h1 {
     font-size: 4rem;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background-color: #eee;",
-                            "5:21 - 5:25",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-  margin: 20px;
-  padding: 0;
-  background-color: #eee;
-}
-
-.wrapper {
-  max-width: 960px;
-  margin: 2em auto;
-}
-
-h1 {
-  font-size: calc(1.5rem + 4vw);
-  margin: 0;
-}
-
-.col1,
-.col2 {
-  background-color: white;
-}
-
-@media screen and (width >= 600px) {
-  .wrapper {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 5%;
   }
 }
 ~~~
@@ -7167,155 +4429,6 @@ body {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#999" to be "#999999" (color-hex-length)',
-                                "  background-color: #999;",
-                                "23:21 - 23:25",
-                                `/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Grid
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-
-.card {
-  display: grid;
-  grid-template-rows: 200px min-content;
-}
-
-.card > img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.tags {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.tags > * {
-  background-color: #999;
-  color: white;
-  padding: 0.2em 0.8em;
-  border-radius: 0.2em;
-  font-size: 80%;
-  margin: 5px;
-}
-
-.container {
-  /* Add styles here */
-}
-
-.tags {
-  /* Add styles here */
-}
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        position: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Position",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                                "  border: 5px solid #ccc;",
-                                "11:21 - 11:25",
-                                `/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Position
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.container {
-  padding: 0.5em;
-  border: 5px solid #ccc;
-}
-
-.target {
-  width: 150px;
-  height: 150px;
-  border-radius: 5px;
-  background-color: #663398;
-  padding: 1em;
-  color: white;
-}
-
-.container {
-  /* Add styles here */
-}
-
-.target {
-  /* Add styles here */
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                                "  border: 5px solid #ccc;",
-                                "12:21 - 12:25",
-                                `/en-US/docs/Learn_web_development/Core/CSS_layout/Test_your_skills/Position
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-body {
-  font: 1.2em / 1.5 sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.container {
-  height: 400px;
-  padding: 0.5em;
-  border: 5px solid #ccc;
-  overflow: auto;
-}
-
-.sidebar {
-  color: white;
-  background-color: #663398;
-  padding: 1em;
-  float: left;
-  width: 150px;
-}
-
-.content {
-  padding: 1em;
-  margin-left: 160px;
-}
-
-.container {
-  /* Add styles here */
-}
-
-.sidebar {
-  /* Add styles here */
-}
-~~~
-`
-                              ]
                             }
                           ]
                         }
@@ -7380,268 +4493,6 @@ body {
                           data: []
                         },
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#555" to be "#555555" (color-hex-length)',
-                            "  border: 2px solid #555;",
-                            "54:21 - 54:25",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Angular_item_component
-[color-hex-length] Expected "#555" to be "#555555" (color-hex-length)
-~~~
-.item {
-  padding: 0.5rem 0 0.75rem 0;
-  text-align: left;
-  font-size: 1.2rem;
-}
-
-.btn-wrapper {
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-.btn {
-  /* menu buttons flexbox styles */
-  flex-basis: 49%;
-}
-
-.btn-save {
-  background-color: black;
-  color: white;
-  border-color: black;
-}
-
-.btn-save:hover {
-  background-color: #444242;
-}
-
-.btn-save:focus {
-  background-color: white;
-  color: black;
-}
-
-.checkbox-wrapper {
-  margin: 0.5rem 0;
-}
-
-.btn-warn {
-  background-color: #b90000;
-  color: white;
-  border-color: #9a0000;
-}
-
-.btn-warn:hover {
-  background-color: #9a0000;
-}
-
-.btn-warn:active {
-  background-color: #e30000;
-  border-color: black;
-}
-
-.sm-text-input {
-  width: 100%;
-  padding: 0.5rem;
-  border: 2px solid #555;
-  display: block;
-  box-sizing: border-box;
-  font-size: 1rem;
-  margin: 1rem 0;
-}
-
-/* Custom checkboxes
-Adapted from https://css-tricks.com/the-checkbox-hack/#custom-designed-radio-buttons-and-checkboxes */
-
-/* Base for label styling */
-[type="checkbox"]:not(:checked),
-[type="checkbox"]:checked {
-  position: absolute;
-  left: -9999px;
-}
-[type="checkbox"]:not(:checked) + label,
-[type="checkbox"]:checked + label {
-  position: relative;
-  padding-left: 1.95em;
-  cursor: pointer;
-}
-
-/* checkbox aspect */
-[type="checkbox"]:not(:checked) + label::before,
-[type="checkbox"]:checked + label::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 1.25em;
-  height: 1.25em;
-  border: 2px solid #ccc;
-  background: white;
-}
-
-/* checked mark aspect */
-[type="checkbox"]:not(:checked) + label::after,
-[type="checkbox"]:checked + label::after {
-  content: "\\2713\\0020";
-  position: absolute;
-  top: 0.15em;
-  left: 0.22em;
-  font-size: 1.3em;
-  line-height: 0.8;
-  color: #0d8dee;
-  transition: all 0.2s;
-  font-family: "Lucida Sans Unicode", "Arial Unicode MS", Arial;
-}
-/* checked mark aspect changes */
-[type="checkbox"]:not(:checked) + label::after {
-  opacity: 0;
-  transform: scale(0);
-}
-[type="checkbox"]:checked + label::after {
-  opacity: 1;
-  transform: scale(1);
-}
-
-/* accessibility */
-[type="checkbox"]:checked:focus + label::before,
-[type="checkbox"]:not(:checked):focus + label::before {
-  border: 2px dotted blue;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 2px solid #ccc;",
-                            "86:21 - 86:25",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Angular_item_component
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-.item {
-  padding: 0.5rem 0 0.75rem 0;
-  text-align: left;
-  font-size: 1.2rem;
-}
-
-.btn-wrapper {
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-.btn {
-  /* menu buttons flexbox styles */
-  flex-basis: 49%;
-}
-
-.btn-save {
-  background-color: black;
-  color: white;
-  border-color: black;
-}
-
-.btn-save:hover {
-  background-color: #444242;
-}
-
-.btn-save:focus {
-  background-color: white;
-  color: black;
-}
-
-.checkbox-wrapper {
-  margin: 0.5rem 0;
-}
-
-.btn-warn {
-  background-color: #b90000;
-  color: white;
-  border-color: #9a0000;
-}
-
-.btn-warn:hover {
-  background-color: #9a0000;
-}
-
-.btn-warn:active {
-  background-color: #e30000;
-  border-color: black;
-}
-
-.sm-text-input {
-  width: 100%;
-  padding: 0.5rem;
-  border: 2px solid #555;
-  display: block;
-  box-sizing: border-box;
-  font-size: 1rem;
-  margin: 1rem 0;
-}
-
-/* Custom checkboxes
-Adapted from https://css-tricks.com/the-checkbox-hack/#custom-designed-radio-buttons-and-checkboxes */
-
-/* Base for label styling */
-[type="checkbox"]:not(:checked),
-[type="checkbox"]:checked {
-  position: absolute;
-  left: -9999px;
-}
-[type="checkbox"]:not(:checked) + label,
-[type="checkbox"]:checked + label {
-  position: relative;
-  padding-left: 1.95em;
-  cursor: pointer;
-}
-
-/* checkbox aspect */
-[type="checkbox"]:not(:checked) + label::before,
-[type="checkbox"]:checked + label::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 1.25em;
-  height: 1.25em;
-  border: 2px solid #ccc;
-  background: white;
-}
-
-/* checked mark aspect */
-[type="checkbox"]:not(:checked) + label::after,
-[type="checkbox"]:checked + label::after {
-  content: "\\2713\\0020";
-  position: absolute;
-  top: 0.15em;
-  left: 0.22em;
-  font-size: 1.3em;
-  line-height: 0.8;
-  color: #0d8dee;
-  transition: all 0.2s;
-  font-family: "Lucida Sans Unicode", "Arial Unicode MS", Arial;
-}
-/* checked mark aspect changes */
-[type="checkbox"]:not(:checked) + label::after {
-  opacity: 0;
-  transform: scale(0);
-}
-[type="checkbox"]:checked + label::after {
-  opacity: 1;
-  transform: scale(1);
-}
-
-/* accessibility */
-[type="checkbox"]:checked:focus + label::before,
-[type="checkbox"]:not(:checked):focus + label::before {
-  border: 2px dotted blue;
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "font-family-name-quotes",
@@ -7704,7 +4555,7 @@ Adapted from https://css-tricks.com/the-checkbox-hack/#custom-designed-radio-but
 .sm-text-input {
   width: 100%;
   padding: 0.5rem;
-  border: 2px solid #555;
+  border: 2px solid #555555;
   display: block;
   box-sizing: border-box;
   font-size: 1rem;
@@ -7736,7 +4587,7 @@ Adapted from https://css-tricks.com/the-checkbox-hack/#custom-designed-radio-but
   top: 0;
   width: 1.25em;
   height: 1.25em;
-  border: 2px solid #ccc;
+  border: 2px solid #cccccc;
   background: white;
 }
 
@@ -12425,128 +9276,6 @@ body {
                           ]
                         },
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fd0" to be "#ffdd00" (color-hex-length)',
-                            "  outline: 3px dashed #fd0;",
-                            "29:23 - 29:27",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_styling
-[color-hex-length] Expected "#fd0" to be "#ffdd00" (color-hex-length)
-~~~
-.custom-checkbox > .checkbox-label {
-  font-family: Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.25;
-  color: #0b0c0c;
-  display: block;
-  margin-bottom: 5px;
-}
-.custom-checkbox > .checkbox {
-  font-family: Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.25;
-  box-sizing: border-box;
-  width: 100%;
-  height: 2.5rem;
-  margin-top: 0;
-  padding: 5px;
-  border: 2px solid #0b0c0c;
-  border-radius: 0;
-  appearance: none;
-}
-.custom-checkbox > input:focus {
-  outline: 3px dashed #fd0;
-  outline-offset: 0;
-  box-shadow: inset 0 0 0 2px;
-}
-.custom-checkbox {
-  font-family: Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 1.25;
-  display: block;
-  position: relative;
-  min-height: 40px;
-  margin-bottom: 10px;
-  padding-left: 40px;
-  clear: left;
-}
-.custom-checkbox > input[type="checkbox"] {
-  -webkit-font-smoothing: antialiased;
-  cursor: pointer;
-  position: absolute;
-  z-index: 1;
-  top: -2px;
-  left: -2px;
-  width: 44px;
-  height: 44px;
-  margin: 0;
-  opacity: 0;
-}
-.custom-checkbox > .checkbox-label {
-  font-size: inherit;
-  font-family: inherit;
-  line-height: inherit;
-  display: inline-block;
-  margin-bottom: 0;
-  padding: 8px 15px 5px;
-  cursor: pointer;
-  touch-action: manipulation;
-}
-.custom-checkbox > label::before {
-  content: "";
-  box-sizing: border-box;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  border: 2px solid currentColor;
-  background: transparent;
-}
-.custom-checkbox > input[type="checkbox"]:focus + label::before {
-  border-width: 4px;
-  outline: 3px dashed #228bec;
-}
-.custom-checkbox > label::after {
-  box-sizing: content-box;
-  content: "";
-  position: absolute;
-  top: 11px;
-  left: 9px;
-  width: 18px;
-  height: 7px;
-  transform: rotate(-45deg);
-  border: solid;
-  border-width: 0 0 5px 5px;
-  border-top-color: transparent;
-  opacity: 0;
-  background: transparent;
-}
-.custom-checkbox > input[type="checkbox"]:checked + label::after {
-  opacity: 1;
-}
-@media only screen and (width >= 40rem) {
-  label,
-  input,
-  .custom-checkbox {
-    font-size: 1.9rem;
-    line-height: 1.31579;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "font-family-name-quotes",
@@ -12584,7 +9313,7 @@ body {
   appearance: none;
 }
 .custom-checkbox > input:focus {
-  outline: 3px dashed #fd0;
+  outline: 3px dashed #ffdd00;
   outline-offset: 0;
   box-shadow: inset 0 0 0 2px;
 }
@@ -12706,7 +9435,7 @@ body {
   appearance: none;
 }
 .custom-checkbox > input:focus {
-  outline: 3px dashed #fd0;
+  outline: 3px dashed #ffdd00;
   outline-offset: 0;
   box-shadow: inset 0 0 0 2px;
 }
@@ -12828,7 +9557,7 @@ body {
   appearance: none;
 }
 .custom-checkbox > input:focus {
-  outline: 3px dashed #fd0;
+  outline: 3px dashed #ffdd00;
   outline-offset: 0;
   box-shadow: inset 0 0 0 2px;
 }
@@ -12950,7 +9679,7 @@ body {
   appearance: none;
 }
 .custom-checkbox > input:focus {
-  outline: 3px dashed #fd0;
+  outline: 3px dashed #ffdd00;
   outline-offset: 0;
   box-shadow: inset 0 0 0 2px;
 }
@@ -13072,7 +9801,7 @@ body {
   appearance: none;
 }
 .custom-checkbox > input:focus {
-  outline: 3px dashed #fd0;
+  outline: 3px dashed #ffdd00;
   outline-offset: 0;
   box-shadow: inset 0 0 0 2px;
 }
@@ -13194,7 +9923,7 @@ body {
   appearance: none;
 }
 .custom-checkbox > input:focus {
-  outline: 3px dashed #fd0;
+  outline: 3px dashed #ffdd00;
   outline-offset: 0;
   box-shadow: inset 0 0 0 2px;
 }
@@ -13284,111 +10013,6 @@ body {
                 },
                 scripting: {
                   children: {
-                    event_bubbling: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Event_bubbling",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background-color: #eee;",
-                            "4:21 - 4:25",
-                            `/en-US/docs/Learn_web_development/Core/Scripting/Event_bubbling
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-div {
-  width: 100%;
-  height: 100%;
-  background-color: #eee;
-}
-
-.hidden {
-  display: none;
-}
-
-div video {
-  padding: 40px;
-  display: block;
-  width: 400px;
-  margin: 40px auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background-color: #eee;",
-                            "4:21 - 4:25",
-                            `/en-US/docs/Learn_web_development/Core/Scripting/Event_bubbling
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-div {
-  width: 100%;
-  height: 100%;
-  background-color: #eee;
-}
-
-.hidden {
-  display: none;
-}
-
-div video {
-  padding: 40px;
-  display: block;
-  width: 400px;
-  margin: 40px auto;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    loops: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Loops",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  background: #ddd;",
-                            "4:15 - 4:19",
-                            `/en-US/docs/Learn_web_development/Core/Scripting/Loops
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-html {
-  width: 100%;
-  height: inherit;
-  background: #ddd;
-}
-
-canvas {
-  display: block;
-}
-
-body {
-  margin: 0;
-}
-
-button {
-  position: absolute;
-  top: 5px;
-  left: 5px;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     what_is_javascript: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript",
@@ -13603,19 +10227,6 @@ button {
                         }
                       ]
                     },
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     including_vector_graphics_in_html: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Including_vector_graphics_in_HTML",
@@ -13711,46 +10322,6 @@ button {
                           slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Advanced_HTML_text",
                           messages: [
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Advanced_HTML_text
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-h1 {
-  font-size: 2rem;
-  margin: 0;
-  color: purple;
-}
-
-p {
-  margin: 0.5em 0;
-}
-
-abbr,
-time {
-  color: green;
-}
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "font-family-name-quotes",
@@ -13762,7 +10333,7 @@ time {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -13802,7 +10373,7 @@ time {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -13842,7 +10413,7 @@ time {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -13877,40 +10448,6 @@ time {
                           slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Audio_and_video",
                           messages: [
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Audio_and_video
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-audio,
-video {
-  border: 1px solid black;
-}
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "font-family-name-quotes",
@@ -13922,7 +10459,7 @@ video {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -13956,7 +10493,7 @@ video {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -13990,41 +10527,7 @@ video {
 ~~~
 body {
   background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-audio,
-video {
-  border: 1px solid black;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Audio_and_video
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14058,7 +10561,7 @@ video {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14092,7 +10595,7 @@ video {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14126,7 +10629,7 @@ video {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14155,35 +10658,6 @@ video {
                           slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Forms_and_buttons",
                           messages: [
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Forms_and_buttons
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "font-family-name-quotes",
@@ -14195,7 +10669,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14224,7 +10698,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14253,36 +10727,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Forms_and_buttons
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14311,7 +10756,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14340,7 +10785,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14369,36 +10814,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Forms_and_buttons
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14427,7 +10843,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14456,7 +10872,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14485,36 +10901,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Forms_and_buttons
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14543,7 +10930,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14572,7 +10959,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14601,36 +10988,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Forms_and_buttons
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14659,7 +11017,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14688,7 +11046,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14717,36 +11075,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Forms_and_buttons
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14775,7 +11104,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14804,7 +11133,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14833,7 +11162,7 @@ body {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14857,55 +11186,6 @@ body {
                           slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics",
                           messages: [
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-h1 {
-  font-size: 2rem;
-  margin: 0;
-}
-
-h2 {
-  font-size: 1.6rem;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-h1,
-h2 {
-  color: purple;
-}
-
-p {
-  color: gray;
-  margin: 0.5em 0;
-}
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "font-family-name-quotes",
@@ -14917,7 +11197,7 @@ p {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -14966,7 +11246,7 @@ p {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -15015,7 +11295,7 @@ p {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -15053,63 +11333,6 @@ p {
                               ]
                             },
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-h1 {
-  font-size: 2rem;
-  margin: 0;
-}
-
-h2 {
-  font-size: 1.6rem;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-p {
-  margin: 0.5em 0;
-}
-
-ol {
-  border: 2px solid purple;
-}
-
-ul {
-  border: 2px solid orange;
-}
-
-ol,
-ul {
-  padding: 5px 20px;
-  border-radius: 4px;
-}
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "font-family-name-quotes",
@@ -15121,7 +11344,7 @@ ul {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -15178,7 +11401,7 @@ ul {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -15235,7 +11458,7 @@ ul {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -15281,59 +11504,6 @@ ul {
                               ]
                             },
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-h1 {
-  font-size: 2rem;
-  margin: 0;
-}
-
-h2 {
-  font-size: 1.6rem;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-h1 {
-  color: purple;
-}
-
-dl {
-  color: gray;
-  margin: 0.5em 0;
-}
-
-dt {
-  font-weight: bold;
-  color: purple;
-}
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "font-family-name-quotes",
@@ -15345,7 +11515,7 @@ dt {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -15398,7 +11568,7 @@ dt {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -15451,7 +11621,7 @@ dt {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -15493,59 +11663,6 @@ dt {
                               ]
                             },
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-h1 {
-  font-size: 2rem;
-  margin: 0;
-}
-
-h2 {
-  font-size: 1.6rem;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-h1,
-strong {
-  color: purple;
-}
-
-p,
-em {
-  margin: 0.5em 0;
-}
-
-em {
-  color: gray;
-}
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "font-family-name-quotes",
@@ -15557,7 +11674,7 @@ em {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -15610,7 +11727,7 @@ em {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -15663,7 +11780,7 @@ em {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -15711,39 +11828,6 @@ em {
                           slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Images",
                           messages: [
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Images
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-img {
-  border: 1px solid black;
-}
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "font-family-name-quotes",
@@ -15755,7 +11839,7 @@ img {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -15788,7 +11872,7 @@ img {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -15821,40 +11905,7 @@ img {
 ~~~
 body {
   background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-img {
-  border: 1px solid black;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Images
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -15887,7 +11938,7 @@ img {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -15920,7 +11971,7 @@ img {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -15953,7 +12004,7 @@ img {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -15969,43 +12020,6 @@ body {
 
 img {
   border: 1px solid black;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Images
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-img {
-  border: 1px solid black;
-}
-
-figcaption {
-  font-style: italic;
 }
 ~~~
 `
@@ -16023,7 +12037,7 @@ figcaption {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -16060,7 +12074,7 @@ figcaption {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -16097,7 +12111,7 @@ figcaption {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -16129,46 +12143,6 @@ figcaption {
                           slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Links",
                           messages: [
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Links
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-h1 {
-  font-size: 2rem;
-  margin: 0;
-  color: purple;
-}
-
-p {
-  color: gray;
-  margin: 0.5em 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "font-family-name-quotes",
@@ -16180,7 +12154,7 @@ p {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -16220,7 +12194,7 @@ p {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -16260,7 +12234,7 @@ p {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -16289,46 +12263,6 @@ p {
                               ]
                             },
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Links
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-h1 {
-  font-size: 2rem;
-  margin: 0;
-  color: purple;
-}
-
-li {
-  color: gray;
-  margin: 0.5em 0;
-}
-
-div {
-  height: 600px;
-}
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "font-family-name-quotes",
@@ -16340,7 +12274,7 @@ div {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -16380,7 +12314,7 @@ div {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -16420,7 +12354,7 @@ div {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -16449,40 +12383,6 @@ div {
                               ]
                             },
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "3:10 - 3:14",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Links
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-p {
-  color: gray;
-  margin: 0.5em 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "font-family-name-quotes",
@@ -16494,7 +12394,7 @@ p {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -16528,7 +12428,7 @@ p {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -16562,7 +12462,7 @@ p {
 ~~~
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -16706,7 +12606,7 @@ button {
   line-height: 2;
   border-radius: 10px;
   border: none;
-  background-image: linear-gradient(to bottom right, #777, #ddd);
+  background-image: linear-gradient(to bottom right, #777777, #dddddd);
   box-shadow:
     1px 1px 1px black,
     inset 2px 3px 5px rgb(0 0 0 / 30%),
@@ -16715,7 +12615,7 @@ button {
 
 button:focus,
 button:hover {
-  background-image: linear-gradient(to bottom right, #888, #eee);
+  background-image: linear-gradient(to bottom right, #888888, #eeeeee);
 }
 
 button:active {
@@ -16744,7 +12644,7 @@ button {
   line-height: 2;
   border-radius: 10px;
   border: none;
-  background-image: linear-gradient(to bottom right, #777, #ddd);
+  background-image: linear-gradient(to bottom right, #777777, #dddddd);
   box-shadow:
     1px 1px 1px black,
     inset 2px 3px 5px rgb(0 0 0 / 30%),
@@ -16753,7 +12653,7 @@ button {
 
 button:focus,
 button:hover {
-  background-image: linear-gradient(to bottom right, #888, #eee);
+  background-image: linear-gradient(to bottom right, #888888, #eeeeee);
 }
 
 button:active {
@@ -16782,7 +12682,7 @@ button {
   line-height: 2;
   border-radius: 10px;
   border: none;
-  background-image: linear-gradient(to bottom right, #777, #ddd);
+  background-image: linear-gradient(to bottom right, #777777, #dddddd);
   box-shadow:
     1px 1px 1px black,
     inset 2px 3px 5px rgb(0 0 0 / 30%),
@@ -16791,7 +12691,7 @@ button {
 
 button:focus,
 button:hover {
-  background-image: linear-gradient(to bottom right, #888, #eee);
+  background-image: linear-gradient(to bottom right, #888888, #eeeeee);
 }
 
 button:active {
@@ -16820,7 +12720,7 @@ button {
   line-height: 2;
   border-radius: 10px;
   border: none;
-  background-image: linear-gradient(to bottom right, #777, #ddd);
+  background-image: linear-gradient(to bottom right, #777777, #dddddd);
   box-shadow:
     1px 1px 1px black,
     inset 2px 3px 5px rgb(0 0 0 / 30%),
@@ -16829,159 +12729,7 @@ button {
 
 button:focus,
 button:hover {
-  background-image: linear-gradient(to bottom right, #888, #eee);
-}
-
-button:active {
-  box-shadow:
-    inset 2px 2px 1px black,
-    inset 2px 3px 5px rgb(0 0 0 / 30%),
-    inset -2px -3px 5px rgb(255 255 255 / 50%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#777" to be "#777777" (color-hex-length)',
-                            "  background-image: linear-gradient(to bottom right, #777, #ddd);",
-                            "7:54 - 7:58",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Advanced_styling_effects
-[color-hex-length] Expected "#777" to be "#777777" (color-hex-length)
-~~~
-button {
-  width: 150px;
-  font-size: 1.1rem;
-  line-height: 2;
-  border-radius: 10px;
-  border: none;
-  background-image: linear-gradient(to bottom right, #777, #ddd);
-  box-shadow:
-    1px 1px 1px black,
-    inset 2px 3px 5px rgb(0 0 0 / 30%),
-    inset -2px -3px 5px rgb(255 255 255 / 50%);
-}
-
-button:focus,
-button:hover {
-  background-image: linear-gradient(to bottom right, #888, #eee);
-}
-
-button:active {
-  box-shadow:
-    inset 2px 2px 1px black,
-    inset 2px 3px 5px rgb(0 0 0 / 30%),
-    inset -2px -3px 5px rgb(255 255 255 / 50%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  background-image: linear-gradient(to bottom right, #777, #ddd);",
-                            "7:60 - 7:64",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Advanced_styling_effects
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-button {
-  width: 150px;
-  font-size: 1.1rem;
-  line-height: 2;
-  border-radius: 10px;
-  border: none;
-  background-image: linear-gradient(to bottom right, #777, #ddd);
-  box-shadow:
-    1px 1px 1px black,
-    inset 2px 3px 5px rgb(0 0 0 / 30%),
-    inset -2px -3px 5px rgb(255 255 255 / 50%);
-}
-
-button:focus,
-button:hover {
-  background-image: linear-gradient(to bottom right, #888, #eee);
-}
-
-button:active {
-  box-shadow:
-    inset 2px 2px 1px black,
-    inset 2px 3px 5px rgb(0 0 0 / 30%),
-    inset -2px -3px 5px rgb(255 255 255 / 50%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#888" to be "#888888" (color-hex-length)',
-                            "  background-image: linear-gradient(to bottom right, #888, #eee);",
-                            "16:54 - 16:58",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Advanced_styling_effects
-[color-hex-length] Expected "#888" to be "#888888" (color-hex-length)
-~~~
-button {
-  width: 150px;
-  font-size: 1.1rem;
-  line-height: 2;
-  border-radius: 10px;
-  border: none;
-  background-image: linear-gradient(to bottom right, #777, #ddd);
-  box-shadow:
-    1px 1px 1px black,
-    inset 2px 3px 5px rgb(0 0 0 / 30%),
-    inset -2px -3px 5px rgb(255 255 255 / 50%);
-}
-
-button:focus,
-button:hover {
-  background-image: linear-gradient(to bottom right, #888, #eee);
-}
-
-button:active {
-  box-shadow:
-    inset 2px 2px 1px black,
-    inset 2px 3px 5px rgb(0 0 0 / 30%),
-    inset -2px -3px 5px rgb(255 255 255 / 50%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background-image: linear-gradient(to bottom right, #888, #eee);",
-                            "16:60 - 16:64",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Advanced_styling_effects
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-button {
-  width: 150px;
-  font-size: 1.1rem;
-  line-height: 2;
-  border-radius: 10px;
-  border: none;
-  background-image: linear-gradient(to bottom right, #777, #ddd);
-  box-shadow:
-    1px 1px 1px black,
-    inset 2px 3px 5px rgb(0 0 0 / 30%),
-    inset -2px -3px 5px rgb(255 255 255 / 50%);
-}
-
-button:focus,
-button:hover {
-  background-image: linear-gradient(to bottom right, #888, #eee);
+  background-image: linear-gradient(to bottom right, #888888, #eeeeee);
 }
 
 button:active {
@@ -17146,119 +12894,6 @@ span {
                           ]
                         },
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 1px solid #ccc;",
-                            "9:21 - 9:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Backgrounds_and_borders
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-.wrapper {
-  display: flex;
-}
-
-.box {
-  width: 200px;
-  height: 80px;
-  padding: 0.5em;
-  border: 1px solid #ccc;
-  margin: 20px;
-}
-
-.a {
-  background-image: url("https://mdn.github.io/shared-assets/images/examples/balloons.jpg");
-}
-
-.b {
-  background-image: url("https://mdn.github.io/shared-assets/images/examples/star.png");
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 1px solid #ccc;",
-                            "5:21 - 5:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Backgrounds_and_borders
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-.box {
-  width: 200px;
-  height: 80px;
-  padding: 0.5em;
-  border: 1px solid #ccc;
-  margin: 20px;
-}
-
-.box {
-  background-image: url("https://mdn.github.io/shared-assets/images/examples/star.png");
-  background-repeat: no-repeat;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 1px solid #ccc;",
-                            "5:21 - 5:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Backgrounds_and_borders
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-.box {
-  width: 500px;
-  height: 100px;
-  padding: 0.5em;
-  border: 1px solid #ccc;
-  margin: 10px;
-}
-
-.box {
-  background-image: url("https://mdn.github.io/shared-assets/images/examples/balloons.jpg");
-  background-repeat: no-repeat;
-  background-size: 80px 10em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 1px solid #ccc;",
-                            "5:21 - 5:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Backgrounds_and_borders
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-.box {
-  width: 500px;
-  height: 80px;
-  padding: 0.5em;
-  border: 1px solid #ccc;
-  margin: 20px;
-}
-
-.box {
-  background-image: url("https://mdn.github.io/shared-assets/images/examples/star.png");
-  background-repeat: no-repeat;
-  background-position: 120px 1em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "alpha-value-notation",
@@ -17276,7 +12911,7 @@ span {
   width: 400px;
   height: 80px;
   padding: 0.5em;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   margin: 20px;
 }
 
@@ -17318,7 +12953,7 @@ span {
   width: 400px;
   height: 80px;
   padding: 0.5em;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   margin: 20px;
 }
 
@@ -17360,7 +12995,7 @@ span {
   width: 400px;
   height: 80px;
   padding: 0.5em;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   margin: 20px;
 }
 
@@ -17402,7 +13037,7 @@ span {
   width: 400px;
   height: 80px;
   padding: 0.5em;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   margin: 20px;
 }
 
@@ -17421,79 +13056,6 @@ span {
     rgb(51 56 57 / 100%) 96%
   );
   background-size: 100px 50px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 1px solid #ccc;",
-                            "9:21 - 9:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Backgrounds_and_borders
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-.wrapper {
-  display: flex;
-}
-
-.box {
-  width: 400px;
-  height: 80px;
-  padding: 0.5em;
-  border: 1px solid #ccc;
-  margin: 20px;
-}
-
-.a {
-  background-image: linear-gradient(
-    105deg,
-    rgb(0 249 255 / 100%) 39%,
-    rgb(51 56 57 / 100%) 96%
-  );
-}
-
-.b {
-  background-image: radial-gradient(
-    circle,
-    rgb(0 249 255 / 100%) 39%,
-    rgb(51 56 57 / 100%) 96%
-  );
-  background-size: 100px 50px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 1px solid #ccc;",
-                            "9:21 - 9:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Backgrounds_and_borders
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-.wrapper {
-  display: flex;
-}
-
-.box {
-  width: 500px;
-  height: 80px;
-  padding: 0.5em;
-  border: 1px solid #ccc;
-  margin: 20px;
-}
-
-.box {
-  background-image:
-    url("https://mdn.github.io/shared-assets/images/examples/star.png"),
-    url("https://mdn.github.io/shared-assets/images/examples/big-star.png");
 }
 ~~~
 `
@@ -17559,45 +13121,6 @@ span {
                         }
                       ]
                     },
-                    basic_selectors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#666" to be "#666666" (color-hex-length)',
-                            "  border: 4px solid #666;",
-                            "6:21 - 6:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Basic_selectors
-[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
-~~~
-body {
-  font-family: sans-serif;
-}
-
-.notebox {
-  border: 4px solid #666;
-  padding: 0.5em;
-  margin: 0.5em;
-}
-
-.notebox.warning {
-  border-color: orange;
-  font-weight: bold;
-}
-
-.notebox.danger {
-  border-color: red;
-  font-weight: bold;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     cascade_layers: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers",
@@ -17605,111 +13128,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  color: #333;",
-                            "5:10 - 5:14",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-/* file: layers1.css */
-
-/* unlayered styles */
-body {
-  color: #333;
-}
-
-/* creates the first layer: \`layout\` */
-@layer layout {
-  main {
-    display: grid;
-  }
-}
-
-/* creates the second layer: an unnamed, anonymous layer */
-@layer {
-  body {
-    margin: 0;
-  }
-}
-
-/* creates the third and fourth layers: \`theme\` and \`utilities\` */
-@layer theme, layout, utilities;
-
-/* adds styles to the already existing \`layout\` layer */
-@layer layout {
-  main {
-    color: black;
-  }
-}
-
-/* creates the fifth layer: an unnamed, anonymous layer */
-@layer {
-  body {
-    margin: 1vw;
-  }
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    combinators: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  background-color: #333;",
-                            "7:21 - 7:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  font-family: sans-serif;
-}
-
-h1 + p {
-  font-weight: bold;
-  background-color: #333;
-  color: white;
-  padding: 0.5em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  background-color: #333;",
-                            "7:21 - 7:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Combinators
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  font-family: sans-serif;
-}
-
-h1 ~ p {
-  font-weight: bold;
-  background-color: #333;
-  color: white;
-  padding: 0.5em;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -17930,30 +13348,6 @@ h1{font-size:1.5em;}
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts",
                       messages: [
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 2px solid #ccc;",
-                            "3:21 - 3:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-.main {
-  color: rebeccapurple;
-  border: 2px solid #ccc;
-  padding: 1em;
-}
-
-.special {
-  color: black;
-  font-weight: bold;
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "font-family-name-quotes",
@@ -18016,344 +13410,6 @@ h2 {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 1px solid #ccc;",
-                            "10:21 - 10:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_different_text_directions
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-body {
-  font-family: sans-serif;
-  height: 300px;
-}
-.wrapper {
-  display: flex;
-}
-
-.box {
-  border: 1px solid #ccc;
-  padding: 0.5em;
-  margin: 10px;
-}
-
-.horizontal {
-  writing-mode: horizontal-tb;
-}
-
-.vertical {
-  writing-mode: vertical-rl;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 1px solid #ccc;",
-                            "10:21 - 10:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_different_text_directions
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-body {
-  font-family: sans-serif;
-  height: 300px;
-}
-.wrapper {
-  display: flex;
-}
-
-.box {
-  border: 1px solid #ccc;
-  padding: 0.5em;
-  margin: 10px;
-  width: 100px;
-}
-
-.horizontal {
-  writing-mode: horizontal-tb;
-}
-
-.vertical {
-  writing-mode: vertical-rl;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 1px solid #ccc;",
-                            "6:21 - 6:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_different_text_directions
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-.wrapper {
-  display: flex;
-}
-
-.box {
-  border: 1px solid #ccc;
-  padding: 0.5em;
-  margin: 10px;
-  inline-size: 100px;
-}
-
-.horizontal {
-  writing-mode: horizontal-tb;
-}
-
-.vertical {
-  writing-mode: vertical-rl;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 5px solid #ccc;",
-                            "3:21 - 3:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_different_text_directions
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-.wrapper {
-  display: flex;
-  border: 5px solid #ccc;
-}
-
-.box {
-  margin-right: 30px;
-  inline-size: 200px;
-  writing-mode: horizontal-tb;
-}
-
-.logical {
-  margin-block-start: 20px;
-  padding-inline-end: 2em;
-  padding-block-start: 2px;
-  border-block-start: 5px solid pink;
-  border-inline-end: 10px dotted rebeccapurple;
-  border-block-end: 1em double orange;
-  border-inline-start: 1px solid black;
-}
-
-.physical {
-  margin-top: 20px;
-  padding-right: 2em;
-  padding-top: 2px;
-  border-top: 5px solid pink;
-  border-right: 10px dotted rebeccapurple;
-  border-bottom: 1em double orange;
-  border-left: 1px solid black;
-}
-
-h2 {
-  border-bottom: 5px solid black;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 1px solid #ccc;",
-                            "8:21 - 8:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_different_text_directions
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-.wrapper {
-  display: flex;
-}
-
-.box {
-  margin: 10px;
-  padding: 0.5em;
-  border: 1px solid #ccc;
-  inline-size: 200px;
-  writing-mode: horizontal-tb;
-}
-
-img {
-  float: inline-start;
-  margin-inline-end: 10px;
-  margin-block-end: 10px;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    images_media_forms: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Images_media_forms",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  border: 3px solid #333;",
-                            "25:21 - 25:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Images_media_forms
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  font-family: sans-serif;
-}
-form > div {
-  display: flex;
-}
-
-label {
-  width: 10em;
-}
-
-.buttons {
-  justify-content: center;
-}
-
-input[type="text"],
-input[type="email"] {
-  border: 2px solid black;
-  margin: 0 0 1em 0;
-  padding: 10px;
-  width: 80%;
-}
-
-input[type="submit"] {
-  border: 3px solid #333;
-  background-color: #999;
-  border-radius: 5px;
-  padding: 10px 2em;
-  font-weight: bold;
-  color: white;
-}
-
-input[type="submit"]:hover,
-input[type="submit"]:focus {
-  background-color: #333;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#999" to be "#999999" (color-hex-length)',
-                            "  background-color: #999;",
-                            "26:21 - 26:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Images_media_forms
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-body {
-  font-family: sans-serif;
-}
-form > div {
-  display: flex;
-}
-
-label {
-  width: 10em;
-}
-
-.buttons {
-  justify-content: center;
-}
-
-input[type="text"],
-input[type="email"] {
-  border: 2px solid black;
-  margin: 0 0 1em 0;
-  padding: 10px;
-  width: 80%;
-}
-
-input[type="submit"] {
-  border: 3px solid #333;
-  background-color: #999;
-  border-radius: 5px;
-  padding: 10px 2em;
-  font-weight: bold;
-  color: white;
-}
-
-input[type="submit"]:hover,
-input[type="submit"]:focus {
-  background-color: #333;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  background-color: #333;",
-                            "35:21 - 35:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Images_media_forms
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  font-family: sans-serif;
-}
-form > div {
-  display: flex;
-}
-
-label {
-  width: 10em;
-}
-
-.buttons {
-  justify-content: center;
-}
-
-input[type="text"],
-input[type="email"] {
-  border: 2px solid black;
-  margin: 0 0 1em 0;
-  padding: 10px;
-  width: 80%;
-}
-
-input[type="submit"] {
-  border: 3px solid #333;
-  background-color: #999;
-  border-radius: 5px;
-  padding: 10px 2em;
-  font-weight: bold;
-  color: white;
-}
-
-input[type="submit"]:hover,
-input[type="submit"]:focus {
-  background-color: #333;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -18364,40 +13420,6 @@ input[type="submit"]:focus {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 1px solid #ccc;",
-                            "2:21 - 2:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-article.main p.box {
-  border: 1px solid #ccc;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 1px solid #ccc;",
-                            "2:21 - 2:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-.box {
-  border: 1px solid #ccc;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -18614,203 +13636,6 @@ html {
                           ]
                         },
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#999" to be "#999999" (color-hex-length)',
-                            "  border-top: 1px solid #999;",
-                            "2:25 - 2:29",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Tables
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-tfoot {
-  border-top: 1px solid #999;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#999" to be "#999999" (color-hex-length)',
-                            "  border-top: 1px solid #999;",
-                            "7:25 - 7:29",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Tables
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-table {
-  table-layout: fixed;
-  width: 80%;
-  min-width: 1000px;
-  margin: 0 auto;
-  border-collapse: collapse;
-  border-top: 1px solid #999;
-  border-bottom: 1px solid #999;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#999" to be "#999999" (color-hex-length)',
-                            "  border-bottom: 1px solid #999;",
-                            "8:28 - 8:32",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Tables
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-table {
-  table-layout: fixed;
-  width: 80%;
-  min-width: 1000px;
-  margin: 0 auto;
-  border-collapse: collapse;
-  border-top: 1px solid #999;
-  border-bottom: 1px solid #999;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background-color: #eee;",
-                            "2:21 - 2:25",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Tables
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-tbody tr:nth-child(odd) {
-  background-color: #eee;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#666" to be "#666666" (color-hex-length)',
-                            "  color: #666;",
-                            "100:10 - 100:14",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Tables
-[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
-~~~
-/* font import */
-@import "https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap";
-
-/* spacing */
-table {
-  table-layout: fixed;
-  width: 100%;
-  border-collapse: collapse;
-  border: 3px solid purple;
-}
-
-thead th {
-  line-height: 1.5;
-}
-
-thead th:nth-child(1) {
-  width: 30%;
-}
-
-thead th:nth-child(2) {
-  width: 20%;
-}
-
-thead th:nth-child(3) {
-  width: 15%;
-}
-
-thead th:nth-child(4) {
-  width: 35%;
-}
-
-th,
-td {
-  padding: 20px;
-}
-
-/* typography */
-html {
-  font-family: "helvetica neue", helvetica, arial, sans-serif;
-}
-
-thead th,
-tfoot th {
-  font-family: "Rock Salt", cursive;
-}
-
-th {
-  letter-spacing: 2px;
-}
-
-td {
-  letter-spacing: 1px;
-}
-
-tbody td {
-  text-align: center;
-}
-
-tfoot th {
-  text-align: right;
-}
-
-/* graphics */
-thead,
-tfoot {
-  background: url("https://mdn.github.io/learning-area/css/styling-boxes/styling-tables/leopardskin.jpg");
-  color: white;
-}
-
-thead th,
-tfoot th,
-tfoot td {
-  background: linear-gradient(to bottom, rgb(0 0 0 / 0.1), rgb(0 0 0 / 0.5));
-  border: 3px solid purple;
-  text-shadow: 1px 1px 1px black;
-}
-
-tbody tr:nth-child(odd) {
-  background-color: #ff33cc;
-}
-
-tbody tr:nth-child(even) {
-  background-color: #e495e4;
-}
-
-tbody tr {
-  background-image: url("https://mdn.github.io/learning-area/css/styling-boxes/styling-tables/noise.png");
-}
-
-table {
-  background-color: #ff33cc;
-}
-
-/* caption */
-caption {
-  font-family: "Rock Salt", cursive;
-  padding: 20px;
-  font-style: italic;
-  caption-side: bottom;
-  color: #666;
-  text-align: right;
-  letter-spacing: 1px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "font-family-name-quotes",
@@ -18919,7 +13744,7 @@ caption {
   padding: 20px;
   font-style: italic;
   caption-side: bottom;
-  color: #666;
+  color: #666666;
   text-align: right;
   letter-spacing: 1px;
 }
@@ -19036,7 +13861,7 @@ caption {
   padding: 20px;
   font-style: italic;
   caption-side: bottom;
-  color: #666;
+  color: #666666;
   text-align: right;
   letter-spacing: 1px;
 }
@@ -19084,256 +13909,6 @@ h2 {
                           slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Images",
                           messages: [
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                                "  border: 1px solid #ccc;",
-                                "40:21 - 40:25",
-                                `/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Images
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-/* ... */
-/* Don't edit the code above here! */
-
-button,
-input,
-select {
-  font-family: inherit;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-li:last-of-type {
-  margin-top: 30px;
-}
-
-label {
-  flex: 0 40%;
-  text-align: right;
-  padding-right: 10px;
-}
-
-input,
-select {
-  flex: auto;
-  height: 2em;
-}
-
-input,
-select,
-button {
-  display: block;
-  padding: 5px 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
-
-select {
-  padding: 5px;
-}
-
-button {
-  margin: 0 auto;
-  padding: 5px 20px;
-  line-height: 1.5;
-  background: #eee;
-}
-
-button:hover,
-button:focus {
-  background: #ddd;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                                "  background: #eee;",
-                                "52:15 - 52:19",
-                                `/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Images
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-/* ... */
-/* Don't edit the code above here! */
-
-button,
-input,
-select {
-  font-family: inherit;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-li:last-of-type {
-  margin-top: 30px;
-}
-
-label {
-  flex: 0 40%;
-  text-align: right;
-  padding-right: 10px;
-}
-
-input,
-select {
-  flex: auto;
-  height: 2em;
-}
-
-input,
-select,
-button {
-  display: block;
-  padding: 5px 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
-
-select {
-  padding: 5px;
-}
-
-button {
-  margin: 0 auto;
-  padding: 5px 20px;
-  line-height: 1.5;
-  background: #eee;
-}
-
-button:hover,
-button:focus {
-  background: #ddd;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                                "  background: #ddd;",
-                                "57:15 - 57:19",
-                                `/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Images
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-/* ... */
-/* Don't edit the code above here! */
-
-button,
-input,
-select {
-  font-family: inherit;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-li:last-of-type {
-  margin-top: 30px;
-}
-
-label {
-  flex: 0 40%;
-  text-align: right;
-  padding-right: 10px;
-}
-
-input,
-select {
-  flex: auto;
-  height: 2em;
-}
-
-input,
-select,
-button {
-  display: block;
-  padding: 5px 10px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
-
-select {
-  padding: 5px;
-}
-
-button {
-  margin: 0 auto;
-  padding: 5px 20px;
-  line-height: 1.5;
-  background: #eee;
-}
-
-button:hover,
-button:focus {
-  background: #ddd;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  color: #333;",
-                                "7:10 - 7:14",
-                                `/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Images
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-  width: 500px;
-}
-
-/* Don't edit the code above here! */
-
-/* Add your code here */
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Stylelint backlog",
                               data: [
                                 "font-family-name-quotes",
@@ -19349,7 +13924,7 @@ body {
 
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -19383,7 +13958,7 @@ body {
 
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -19417,7 +13992,7 @@ body {
 
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -19431,72 +14006,6 @@ body {
 /* Don't edit the code above here! */
 
 /* Add your code here */
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        selectors: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Selectors",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#333" to be "#333333" (color-hex-length)',
-                                "  background-color: #333;",
-                                "22:21 - 22:25",
-                                `/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Selectors
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-.container p:first-child {
-  font-size: 150%;
-}
-
-.container p:first-child::first-line {
-  color: red;
-}
-
-a:link {
-  color: orange;
-}
-
-a:visited {
-  color: green;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-tr:nth-child(even) {
-  background-color: #333;
-  color: white;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                                "  border-bottom: 1px solid #ccc;",
-                                "7:28 - 7:32",
-                                `/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Selectors
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-h2 + p {
-  color: red;
-}
-
-.list > li {
-  list-style: none;
-  border-bottom: 1px solid #ccc;
-}
 ~~~
 `
                               ]
@@ -20923,33 +15432,6 @@ p {
               children: {
                 advanced_javascript_objects: {
                   children: {
-                    adding_bouncing_balls_features: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Adding_bouncing_balls_features",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
-                            "  color: #aaa;",
-                            "6:10 - 6:14",
-                            `/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Adding_bouncing_balls_features
-[color-hex-length] Expected "#aaa" to be "#aaaaaa" (color-hex-length)
-~~~
-p {
-  position: absolute;
-  margin: 0;
-  top: 35px;
-  right: 5px;
-  color: #aaa;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Test_your_skills",
@@ -20971,6 +15453,23 @@ p {
                     }
                   ]
                 },
+                async_js: {
+                  children: {
+                    promises: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Async_JS/Promises",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://example.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 "client-side_apis": {
                   children: {
                     drawing_graphics: {
@@ -20989,40 +15488,6 @@ p {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs",
                       messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
-                            "  color: #aaa;",
-                            "18:10 - 18:14",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[color-hex-length] Expected "#aaa" to be "#aaaaaa" (color-hex-length)
-~~~
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("fonts/heydings_controls-webfont.eot");
-  src:
-    url("fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("fonts/heydings_controls-webfont.woff") format("woff"),
-    url("fonts/heydings_controls-webfont.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-button::before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaa;
-  text-shadow: 1px 1px 0px black;
-}
-~~~
-`
-                          ]
-                        },
                         {
                           message: "Stylelint backlog",
                           data: [
@@ -21050,7 +15515,7 @@ button::before {
   font-size: 20px;
   position: relative;
   content: attr(data-icon);
-  color: #aaa;
+  color: #aaaaaa;
   text-shadow: 1px 1px 0px black;
 }
 ~~~
@@ -21100,1207 +15565,13 @@ button::before {
                     }
                   }
                 },
-                "client-side_tools": {
-                  children: {
-                    overview: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/docs/plugins",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 forms: {
                   children: {
-                    advanced_form_styling: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  background: #ddd;",
-                            "28:15 - 28:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-input[type="checkbox"] {
-  position: relative;
-  width: 1em;
-  height: 1em;
-  border: 1px solid gray;
-  /* Adjusts the position of the checkboxes on the text baseline */
-  vertical-align: -2px;
-  /* Set here so that Windows' High-Contrast Mode can override */
-  color: green;
-}
-
-input[type="checkbox"]::before {
-  content: "✔";
-  position: absolute;
-  font-size: 1.2em;
-  right: -1px;
-  top: -0.3em;
-  visibility: hidden;
-}
-
-input[type="checkbox"]:checked::before {
-  /* Use \`visibility\` instead of \`display\` to avoid recalculating layout */
-  visibility: visible;
-}
-
-input[type="checkbox"]:disabled {
-  border-color: black;
-  background: #ddd;
-  color: gray;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  box-shadow: inset 1px 1px 3px #ccc;",
-                            "49:33 - 49:37",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-body {
-  font-family: "Josefin Sans", sans-serif;
-  margin: 20px auto;
-  max-width: 400px;
-}
-
-form > div {
-  margin-bottom: 20px;
-}
-
-select {
-  appearance: none;
-  width: 100%;
-  height: 100%;
-}
-
-.select-wrapper {
-  position: relative;
-}
-
-.select-wrapper::after {
-  content: "▼";
-  font-size: 1rem;
-  top: 3px;
-  right: 10px;
-  position: absolute;
-}
-
-button,
-label,
-input,
-select,
-progress,
-meter {
-  display: block;
-  font-family: inherit;
-  font-size: 100%;
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-  height: 30px;
-}
-
-input[type="text"],
-input[type="datetime-local"],
-input[type="color"],
-select {
-  box-shadow: inset 1px 1px 3px #ccc;
-  border-radius: 5px;
-}
-
-label {
-  margin-bottom: 5px;
-}
-
-button {
-  width: 60%;
-  margin: 0 auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  box-shadow: inset 1px 1px 3px #ccc;",
-                            "5:33 - 5:37",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-input[type="text"],
-input[type="datetime-local"],
-input[type="color"],
-select {
-  box-shadow: inset 1px 1px 3px #ccc;
-  border-radius: 5px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  box-shadow: 1px 1px 3px #ccc;",
-                            "2:27 - 2:31",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-label[for="file"] {
-  box-shadow: 1px 1px 3px #ccc;
-  background: linear-gradient(to bottom, #eee, #ccc);
-  border: 1px solid darkgrey;
-  border-radius: 5px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-label[for="file"]:hover {
-  background: linear-gradient(to bottom, white, #ddd);
-}
-
-label[for="file"]:active {
-  box-shadow: inset 1px 1px 3px #ccc;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: linear-gradient(to bottom, #eee, #ccc);",
-                            "3:42 - 3:46",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-label[for="file"] {
-  box-shadow: 1px 1px 3px #ccc;
-  background: linear-gradient(to bottom, #eee, #ccc);
-  border: 1px solid darkgrey;
-  border-radius: 5px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-label[for="file"]:hover {
-  background: linear-gradient(to bottom, white, #ddd);
-}
-
-label[for="file"]:active {
-  box-shadow: inset 1px 1px 3px #ccc;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  background: linear-gradient(to bottom, #eee, #ccc);",
-                            "3:48 - 3:52",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-label[for="file"] {
-  box-shadow: 1px 1px 3px #ccc;
-  background: linear-gradient(to bottom, #eee, #ccc);
-  border: 1px solid darkgrey;
-  border-radius: 5px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-label[for="file"]:hover {
-  background: linear-gradient(to bottom, white, #ddd);
-}
-
-label[for="file"]:active {
-  box-shadow: inset 1px 1px 3px #ccc;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  background: linear-gradient(to bottom, white, #ddd);",
-                            "11:49 - 11:53",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-label[for="file"] {
-  box-shadow: 1px 1px 3px #ccc;
-  background: linear-gradient(to bottom, #eee, #ccc);
-  border: 1px solid darkgrey;
-  border-radius: 5px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-label[for="file"]:hover {
-  background: linear-gradient(to bottom, white, #ddd);
-}
-
-label[for="file"]:active {
-  box-shadow: inset 1px 1px 3px #ccc;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  box-shadow: inset 1px 1px 3px #ccc;",
-                            "15:33 - 15:37",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-label[for="file"] {
-  box-shadow: 1px 1px 3px #ccc;
-  background: linear-gradient(to bottom, #eee, #ccc);
-  border: 1px solid darkgrey;
-  border-radius: 5px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-label[for="file"]:hover {
-  background: linear-gradient(to bottom, white, #ddd);
-}
-
-label[for="file"]:active {
-  box-shadow: inset 1px 1px 3px #ccc;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     customizable_select: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select",
                       messages: [
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  border: 2px solid #ddd;",
-                            "40:21 - 40:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-::picker(select) {
-  opacity: 0;
-  transition: all 0.4s allow-discrete;
-}
-
-::picker(select):popover-open {
-  opacity: 1;
-}
-
-@starting-style {
-  ::picker(select):popover-open {
-    opacity: 0;
-  }
-}
-
-::picker(select) {
-  top: calc(anchor(bottom) + 1px);
-  left: anchor(10%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "41:15 - 41:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-::picker(select) {
-  opacity: 0;
-  transition: all 0.4s allow-discrete;
-}
-
-::picker(select):popover-open {
-  opacity: 1;
-}
-
-@starting-style {
-  ::picker(select):popover-open {
-    opacity: 0;
-  }
-}
-
-::picker(select) {
-  top: calc(anchor(bottom) + 1px);
-  left: anchor(10%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  background: #ddd;",
-                            "48:15 - 48:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-::picker(select) {
-  opacity: 0;
-  transition: all 0.4s allow-discrete;
-}
-
-::picker(select):popover-open {
-  opacity: 1;
-}
-
-@starting-style {
-  ::picker(select):popover-open {
-    opacity: 0;
-  }
-}
-
-::picker(select) {
-  top: calc(anchor(bottom) + 1px);
-  left: anchor(10%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#999" to be "#999999" (color-hex-length)',
-                            "  color: #999;",
-                            "52:10 - 52:14",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-::picker(select) {
-  opacity: 0;
-  transition: all 0.4s allow-discrete;
-}
-
-::picker(select):popover-open {
-  opacity: 1;
-}
-
-@starting-style {
-  ::picker(select):popover-open {
-    opacity: 0;
-  }
-}
-
-::picker(select) {
-  top: calc(anchor(bottom) + 1px);
-  left: anchor(10%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  border: 2px solid #ddd;",
-                            "69:21 - 69:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-::picker(select) {
-  opacity: 0;
-  transition: all 0.4s allow-discrete;
-}
-
-::picker(select):popover-open {
-  opacity: 1;
-}
-
-@starting-style {
-  ::picker(select):popover-open {
-    opacity: 0;
-  }
-}
-
-::picker(select) {
-  top: calc(anchor(bottom) + 1px);
-  left: anchor(10%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "70:15 - 70:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-::picker(select) {
-  opacity: 0;
-  transition: all 0.4s allow-discrete;
-}
-
-::picker(select):popover-open {
-  opacity: 1;
-}
-
-@starting-style {
-  ::picker(select):popover-open {
-    opacity: 0;
-  }
-}
-
-::picker(select) {
-  top: calc(anchor(bottom) + 1px);
-  left: anchor(10%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "font-family-name-quotes",
@@ -22349,19 +15620,19 @@ select {
 }
 
 select {
-  border: 2px solid #ddd;
-  background: #eee;
+  border: 2px solid #dddddd;
+  background: #eeeeee;
   padding: 10px;
   transition: 0.4s;
 }
 
 select:hover,
 select:focus {
-  background: #ddd;
+  background: #dddddd;
 }
 
 select::picker-icon {
-  color: #999;
+  color: #999999;
   transition: 0.4s rotate;
 }
 
@@ -22378,8 +15649,8 @@ option {
   justify-content: flex-start;
   gap: 20px;
 
-  border: 2px solid #ddd;
-  background: #eee;
+  border: 2px solid #dddddd;
+  background: #eeeeee;
   padding: 10px;
   transition: 0.4s;
 }
@@ -22496,19 +15767,19 @@ select {
 }
 
 select {
-  border: 2px solid #ddd;
-  background: #eee;
+  border: 2px solid #dddddd;
+  background: #eeeeee;
   padding: 10px;
   transition: 0.4s;
 }
 
 select:hover,
 select:focus {
-  background: #ddd;
+  background: #dddddd;
 }
 
 select::picker-icon {
-  color: #999;
+  color: #999999;
   transition: 0.4s rotate;
 }
 
@@ -22525,8 +15796,8 @@ option {
   justify-content: flex-start;
   gap: 20px;
 
-  border: 2px solid #ddd;
-  background: #eee;
+  border: 2px solid #dddddd;
+  background: #eeeeee;
   padding: 10px;
   transition: 0.4s;
 }
@@ -22697,294 +15968,6 @@ select {
                           ]
                         },
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  border: 2px solid #ddd;",
-                            "40:21 - 40:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "41:15 - 41:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  background: #ddd;",
-                            "48:15 - 48:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#999" to be "#999999" (color-hex-length)',
-                            "  color: #999;",
-                            "52:10 - 52:14",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "font-family-name-quotes",
@@ -23033,19 +16016,19 @@ select {
 }
 
 select {
-  border: 2px solid #ddd;
-  background: #eee;
+  border: 2px solid #dddddd;
+  background: #eeeeee;
   padding: 10px;
   transition: 0.4s;
 }
 
 select:hover,
 select:focus {
-  background: #ddd;
+  background: #dddddd;
 }
 
 select::picker-icon {
-  color: #999;
+  color: #999999;
   transition: 0.4s rotate;
 }
 
@@ -23105,702 +16088,24 @@ select {
 }
 
 select {
-  border: 2px solid #ddd;
-  background: #eee;
+  border: 2px solid #dddddd;
+  background: #eeeeee;
   padding: 10px;
   transition: 0.4s;
 }
 
 select:hover,
 select:focus {
-  background: #ddd;
+  background: #dddddd;
 }
 
 select::picker-icon {
-  color: #999;
+  color: #999999;
   transition: 0.4s rotate;
 }
 
 select:open::picker-icon {
   rotate: 180deg;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  border: 2px solid #ddd;",
-                            "40:21 - 40:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "41:15 - 41:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  background: #ddd;",
-                            "48:15 - 48:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#999" to be "#999999" (color-hex-length)',
-                            "  color: #999;",
-                            "52:10 - 52:14",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  border: 2px solid #ddd;",
-                            "69:21 - 69:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "70:15 - 70:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
 }
 ~~~
 `
@@ -23855,19 +16160,19 @@ select {
 }
 
 select {
-  border: 2px solid #ddd;
-  background: #eee;
+  border: 2px solid #dddddd;
+  background: #eeeeee;
   padding: 10px;
   transition: 0.4s;
 }
 
 select:hover,
 select:focus {
-  background: #ddd;
+  background: #dddddd;
 }
 
 select::picker-icon {
-  color: #999;
+  color: #999999;
   transition: 0.4s rotate;
 }
 
@@ -23884,8 +16189,8 @@ option {
   justify-content: flex-start;
   gap: 20px;
 
-  border: 2px solid #ddd;
-  background: #eee;
+  border: 2px solid #dddddd;
+  background: #eeeeee;
   padding: 10px;
   transition: 0.4s;
 }
@@ -23968,19 +16273,19 @@ select {
 }
 
 select {
-  border: 2px solid #ddd;
-  background: #eee;
+  border: 2px solid #dddddd;
+  background: #eeeeee;
   padding: 10px;
   transition: 0.4s;
 }
 
 select:hover,
 select:focus {
-  background: #ddd;
+  background: #dddddd;
 }
 
 select::picker-icon {
-  color: #999;
+  color: #999999;
   transition: 0.4s rotate;
 }
 
@@ -23997,8 +16302,8 @@ option {
   justify-content: flex-start;
   gap: 20px;
 
-  border: 2px solid #ddd;
-  background: #eee;
+  border: 2px solid #dddddd;
+  background: #eeeeee;
   padding: 10px;
   transition: 0.4s;
 }
@@ -24027,768 +16332,6 @@ option:focus {
 option .icon {
   font-size: 1.6rem;
   text-box: trim-both cap alphabetic;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  border: 2px solid #ddd;",
-                            "40:21 - 40:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "41:15 - 41:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  background: #ddd;",
-                            "48:15 - 48:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#999" to be "#999999" (color-hex-length)',
-                            "  color: #999;",
-                            "52:10 - 52:14",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  border: 2px solid #ddd;",
-                            "69:21 - 69:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "70:15 - 70:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
 }
 ~~~
 `
@@ -24843,19 +16386,19 @@ select {
 }
 
 select {
-  border: 2px solid #ddd;
-  background: #eee;
+  border: 2px solid #dddddd;
+  background: #eeeeee;
   padding: 10px;
   transition: 0.4s;
 }
 
 select:hover,
 select:focus {
-  background: #ddd;
+  background: #dddddd;
 }
 
 select::picker-icon {
-  color: #999;
+  color: #999999;
   transition: 0.4s rotate;
 }
 
@@ -24872,8 +16415,8 @@ option {
   justify-content: flex-start;
   gap: 20px;
 
-  border: 2px solid #ddd;
-  background: #eee;
+  border: 2px solid #dddddd;
+  background: #eeeeee;
   padding: 10px;
   transition: 0.4s;
 }
@@ -24970,19 +16513,19 @@ select {
 }
 
 select {
-  border: 2px solid #ddd;
-  background: #eee;
+  border: 2px solid #dddddd;
+  background: #eeeeee;
   padding: 10px;
   transition: 0.4s;
 }
 
 select:hover,
 select:focus {
-  background: #ddd;
+  background: #dddddd;
 }
 
 select::picker-icon {
-  color: #999;
+  color: #999999;
   transition: 0.4s rotate;
 }
 
@@ -24999,8 +16542,8 @@ option {
   justify-content: flex-start;
   gap: 20px;
 
-  border: 2px solid #ddd;
-  background: #eee;
+  border: 2px solid #dddddd;
+  background: #eeeeee;
   padding: 10px;
   transition: 0.4s;
 }
@@ -25043,888 +16586,6 @@ option::checkmark {
   order: 1;
   margin-left: auto;
   content: "☑️";
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  border: 2px solid #ddd;",
-                            "40:21 - 40:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-::picker(select) {
-  opacity: 0;
-  transition: all 0.4s allow-discrete;
-}
-
-::picker(select):popover-open {
-  opacity: 1;
-}
-
-@starting-style {
-  ::picker(select):popover-open {
-    opacity: 0;
-  }
-}
-
-::picker(select) {
-  top: calc(anchor(bottom) + 1px);
-  left: anchor(10%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "41:15 - 41:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-::picker(select) {
-  opacity: 0;
-  transition: all 0.4s allow-discrete;
-}
-
-::picker(select):popover-open {
-  opacity: 1;
-}
-
-@starting-style {
-  ::picker(select):popover-open {
-    opacity: 0;
-  }
-}
-
-::picker(select) {
-  top: calc(anchor(bottom) + 1px);
-  left: anchor(10%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  background: #ddd;",
-                            "48:15 - 48:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-::picker(select) {
-  opacity: 0;
-  transition: all 0.4s allow-discrete;
-}
-
-::picker(select):popover-open {
-  opacity: 1;
-}
-
-@starting-style {
-  ::picker(select):popover-open {
-    opacity: 0;
-  }
-}
-
-::picker(select) {
-  top: calc(anchor(bottom) + 1px);
-  left: anchor(10%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#999" to be "#999999" (color-hex-length)',
-                            "  color: #999;",
-                            "52:10 - 52:14",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-::picker(select) {
-  opacity: 0;
-  transition: all 0.4s allow-discrete;
-}
-
-::picker(select):popover-open {
-  opacity: 1;
-}
-
-@starting-style {
-  ::picker(select):popover-open {
-    opacity: 0;
-  }
-}
-
-::picker(select) {
-  top: calc(anchor(bottom) + 1px);
-  left: anchor(10%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  border: 2px solid #ddd;",
-                            "69:21 - 69:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-::picker(select) {
-  opacity: 0;
-  transition: all 0.4s allow-discrete;
-}
-
-::picker(select):popover-open {
-  opacity: 1;
-}
-
-@starting-style {
-  ::picker(select):popover-open {
-    opacity: 0;
-  }
-}
-
-::picker(select) {
-  top: calc(anchor(bottom) + 1px);
-  left: anchor(10%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "70:15 - 70:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #ddd;
-}
-
-select::picker-icon {
-  color: #999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #ddd;
-  background: #eee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-::picker(select) {
-  opacity: 0;
-  transition: all 0.4s allow-discrete;
-}
-
-::picker(select):popover-open {
-  opacity: 1;
-}
-
-@starting-style {
-  ::picker(select):popover-open {
-    opacity: 0;
-  }
-}
-
-::picker(select) {
-  top: calc(anchor(bottom) + 1px);
-  left: anchor(10%);
 }
 ~~~
 `
@@ -25979,19 +16640,19 @@ select {
 }
 
 select {
-  border: 2px solid #ddd;
-  background: #eee;
+  border: 2px solid #dddddd;
+  background: #eeeeee;
   padding: 10px;
   transition: 0.4s;
 }
 
 select:hover,
 select:focus {
-  background: #ddd;
+  background: #dddddd;
 }
 
 select::picker-icon {
-  color: #999;
+  color: #999999;
   transition: 0.4s rotate;
 }
 
@@ -26008,8 +16669,8 @@ option {
   justify-content: flex-start;
   gap: 20px;
 
-  border: 2px solid #ddd;
-  background: #eee;
+  border: 2px solid #dddddd;
+  background: #eeeeee;
   padding: 10px;
   transition: 0.4s;
 }
@@ -26126,19 +16787,19 @@ select {
 }
 
 select {
-  border: 2px solid #ddd;
-  background: #eee;
+  border: 2px solid #dddddd;
+  background: #eeeeee;
   padding: 10px;
   transition: 0.4s;
 }
 
 select:hover,
 select:focus {
-  background: #ddd;
+  background: #dddddd;
 }
 
 select::picker-icon {
-  color: #999;
+  color: #999999;
   transition: 0.4s rotate;
 }
 
@@ -26155,8 +16816,8 @@ option {
   justify-content: flex-start;
   gap: 20px;
 
-  border: 2px solid #ddd;
-  background: #eee;
+  border: 2px solid #dddddd;
+  background: #eeeeee;
   padding: 10px;
   transition: 0.4s;
 }
@@ -26219,572 +16880,6 @@ option::checkmark {
 ::picker(select) {
   top: calc(anchor(bottom) + 1px);
   left: anchor(10%);
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    form_validation: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  border: 1px solid #333;",
-                            "16:21 - 16:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  font: 1em sans-serif;
-  width: 200px;
-  padding: 0;
-  margin: 0 auto;
-}
-
-p * {
-  display: block;
-}
-
-input[type="email"] {
-  appearance: none;
-
-  width: 100%;
-  border: 1px solid #333;
-  margin: 0;
-
-  font-family: inherit;
-  font-size: 90%;
-
-  box-sizing: border-box;
-}
-
-/* invalid fields */
-input:invalid {
-  border-color: #900;
-  background-color: #fdd;
-}
-
-input:focus:invalid {
-  outline: none;
-}
-
-/* error message styles */
-.error {
-  width: 100%;
-  padding: 0;
-
-  font-size: 80%;
-  color: white;
-  background-color: #900;
-  border-radius: 0 0 5px 5px;
-
-  box-sizing: border-box;
-}
-
-.error.active {
-  padding: 0.3em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#900" to be "#990000" (color-hex-length)',
-                            "  border-color: #900;",
-                            "27:17 - 27:21",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
-[color-hex-length] Expected "#900" to be "#990000" (color-hex-length)
-~~~
-body {
-  font: 1em sans-serif;
-  width: 200px;
-  padding: 0;
-  margin: 0 auto;
-}
-
-p * {
-  display: block;
-}
-
-input[type="email"] {
-  appearance: none;
-
-  width: 100%;
-  border: 1px solid #333;
-  margin: 0;
-
-  font-family: inherit;
-  font-size: 90%;
-
-  box-sizing: border-box;
-}
-
-/* invalid fields */
-input:invalid {
-  border-color: #900;
-  background-color: #fdd;
-}
-
-input:focus:invalid {
-  outline: none;
-}
-
-/* error message styles */
-.error {
-  width: 100%;
-  padding: 0;
-
-  font-size: 80%;
-  color: white;
-  background-color: #900;
-  border-radius: 0 0 5px 5px;
-
-  box-sizing: border-box;
-}
-
-.error.active {
-  padding: 0.3em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fdd" to be "#ffdddd" (color-hex-length)',
-                            "  background-color: #fdd;",
-                            "28:21 - 28:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
-[color-hex-length] Expected "#fdd" to be "#ffdddd" (color-hex-length)
-~~~
-body {
-  font: 1em sans-serif;
-  width: 200px;
-  padding: 0;
-  margin: 0 auto;
-}
-
-p * {
-  display: block;
-}
-
-input[type="email"] {
-  appearance: none;
-
-  width: 100%;
-  border: 1px solid #333;
-  margin: 0;
-
-  font-family: inherit;
-  font-size: 90%;
-
-  box-sizing: border-box;
-}
-
-/* invalid fields */
-input:invalid {
-  border-color: #900;
-  background-color: #fdd;
-}
-
-input:focus:invalid {
-  outline: none;
-}
-
-/* error message styles */
-.error {
-  width: 100%;
-  padding: 0;
-
-  font-size: 80%;
-  color: white;
-  background-color: #900;
-  border-radius: 0 0 5px 5px;
-
-  box-sizing: border-box;
-}
-
-.error.active {
-  padding: 0.3em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#900" to be "#990000" (color-hex-length)',
-                            "  background-color: #900;",
-                            "42:21 - 42:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
-[color-hex-length] Expected "#900" to be "#990000" (color-hex-length)
-~~~
-body {
-  font: 1em sans-serif;
-  width: 200px;
-  padding: 0;
-  margin: 0 auto;
-}
-
-p * {
-  display: block;
-}
-
-input[type="email"] {
-  appearance: none;
-
-  width: 100%;
-  border: 1px solid #333;
-  margin: 0;
-
-  font-family: inherit;
-  font-size: 90%;
-
-  box-sizing: border-box;
-}
-
-/* invalid fields */
-input:invalid {
-  border-color: #900;
-  background-color: #fdd;
-}
-
-input:focus:invalid {
-  outline: none;
-}
-
-/* error message styles */
-.error {
-  width: 100%;
-  padding: 0;
-
-  font-size: 80%;
-  color: white;
-  background-color: #900;
-  border-radius: 0 0 5px 5px;
-
-  box-sizing: border-box;
-}
-
-.error.active {
-  padding: 0.3em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  border: 1px solid #333;",
-                            "16:21 - 16:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-form {
-  font: 1em sans-serif;
-  max-width: 320px;
-}
-
-p > label {
-  display: block;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="number"],
-textarea,
-fieldset {
-  width: 100%;
-  border: 1px solid #333;
-  box-sizing: border-box;
-}
-
-input:invalid {
-  box-shadow: 0 0 5px 1px red;
-}
-
-input:focus:invalid {
-  box-shadow: none;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  border: 1px solid #333;",
-                            "19:21 - 19:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  font: 1em sans-serif;
-  width: 200px;
-  padding: 0;
-  margin: 0 auto;
-}
-
-form {
-  max-width: 200px;
-}
-
-p * {
-  display: block;
-}
-
-input {
-  appearance: none;
-  width: 100%;
-  border: 1px solid #333;
-  margin: 0;
-
-  font-family: inherit;
-  font-size: 90%;
-
-  box-sizing: border-box;
-}
-
-/* invalid fields */
-input.invalid {
-  border: 2px solid #900;
-  background-color: #fdd;
-}
-
-input:focus.invalid {
-  outline: none;
-  /* make sure keyboard-only users see a change when focusing */
-  border-style: dashed;
-}
-
-/* error messages */
-#error {
-  width: 100%;
-  font-size: 80%;
-  color: white;
-  background-color: #900;
-  border-radius: 0 0 5px 5px;
-  box-sizing: border-box;
-}
-
-.active {
-  padding: 0.3rem;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#900" to be "#990000" (color-hex-length)',
-                            "  border: 2px solid #900;",
-                            "30:21 - 30:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
-[color-hex-length] Expected "#900" to be "#990000" (color-hex-length)
-~~~
-body {
-  font: 1em sans-serif;
-  width: 200px;
-  padding: 0;
-  margin: 0 auto;
-}
-
-form {
-  max-width: 200px;
-}
-
-p * {
-  display: block;
-}
-
-input {
-  appearance: none;
-  width: 100%;
-  border: 1px solid #333;
-  margin: 0;
-
-  font-family: inherit;
-  font-size: 90%;
-
-  box-sizing: border-box;
-}
-
-/* invalid fields */
-input.invalid {
-  border: 2px solid #900;
-  background-color: #fdd;
-}
-
-input:focus.invalid {
-  outline: none;
-  /* make sure keyboard-only users see a change when focusing */
-  border-style: dashed;
-}
-
-/* error messages */
-#error {
-  width: 100%;
-  font-size: 80%;
-  color: white;
-  background-color: #900;
-  border-radius: 0 0 5px 5px;
-  box-sizing: border-box;
-}
-
-.active {
-  padding: 0.3rem;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fdd" to be "#ffdddd" (color-hex-length)',
-                            "  background-color: #fdd;",
-                            "31:21 - 31:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
-[color-hex-length] Expected "#fdd" to be "#ffdddd" (color-hex-length)
-~~~
-body {
-  font: 1em sans-serif;
-  width: 200px;
-  padding: 0;
-  margin: 0 auto;
-}
-
-form {
-  max-width: 200px;
-}
-
-p * {
-  display: block;
-}
-
-input {
-  appearance: none;
-  width: 100%;
-  border: 1px solid #333;
-  margin: 0;
-
-  font-family: inherit;
-  font-size: 90%;
-
-  box-sizing: border-box;
-}
-
-/* invalid fields */
-input.invalid {
-  border: 2px solid #900;
-  background-color: #fdd;
-}
-
-input:focus.invalid {
-  outline: none;
-  /* make sure keyboard-only users see a change when focusing */
-  border-style: dashed;
-}
-
-/* error messages */
-#error {
-  width: 100%;
-  font-size: 80%;
-  color: white;
-  background-color: #900;
-  border-radius: 0 0 5px 5px;
-  box-sizing: border-box;
-}
-
-.active {
-  padding: 0.3rem;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#900" to be "#990000" (color-hex-length)',
-                            "  background-color: #900;",
-                            "45:21 - 45:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
-[color-hex-length] Expected "#900" to be "#990000" (color-hex-length)
-~~~
-body {
-  font: 1em sans-serif;
-  width: 200px;
-  padding: 0;
-  margin: 0 auto;
-}
-
-form {
-  max-width: 200px;
-}
-
-p * {
-  display: block;
-}
-
-input {
-  appearance: none;
-  width: 100%;
-  border: 1px solid #333;
-  margin: 0;
-
-  font-family: inherit;
-  font-size: 90%;
-
-  box-sizing: border-box;
-}
-
-/* invalid fields */
-input.invalid {
-  border: 2px solid #900;
-  background-color: #fdd;
-}
-
-input:focus.invalid {
-  outline: none;
-  /* make sure keyboard-only users see a change when focusing */
-  border-style: dashed;
-}
-
-/* error messages */
-#error {
-  width: 100%;
-  font-size: 80%;
-  color: white;
-  background-color: #900;
-  border-radius: 0 0 5px 5px;
-  box-sizing: border-box;
-}
-
-.active {
-  padding: 0.3rem;
 }
 ~~~
 `
@@ -35749,7 +25844,7 @@ input:focus.invalid {
   box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%);
 }
 .styledSelect:focus-within input:checked + label {
-  background-color: #333;
+  background-color: #333333;
   color: white;
   width: 100%;
 }
@@ -35810,463 +25905,8 @@ input:focus.invalid {
   box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%);
 }
 .styledSelect:focus-within input:checked + label {
-  background-color: #333;
+  background-color: #333333;
   color: white;
-  width: 100%;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  background-color: #333;",
-                            "44:21 - 44:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-.styledSelect {
-  display: inline-block;
-  padding: 0;
-}
-.styledSelect li {
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-}
-.styledSelect [type="radio"] {
-  position: absolute;
-  left: -100vw;
-  top: -100vh;
-}
-.styledSelect label {
-  margin: 0;
-  line-height: 2;
-  padding: 0 0 0 4px;
-}
-.styledSelect:not(:focus-within) input:not(:checked) + label {
-  height: 0;
-  outline-color: transparent;
-  overflow: hidden;
-}
-.styledSelect:not(:focus-within) input:checked + label {
-  border: 0.2em solid black;
-  border-radius: 0.4em;
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%);
-}
-.styledSelect:not(:focus-within) input:checked + label::after {
-  content: "▼";
-  background: black;
-  float: right;
-  color: white;
-  padding: 0 4px;
-  margin: 0 -4px 0 4px;
-}
-.styledSelect:focus-within {
-  border: 0.2em solid black;
-  border-radius: 0.4em;
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%);
-}
-.styledSelect:focus-within input:checked + label {
-  background-color: #333;
-  color: white;
-  width: 100%;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    how_to_structure_a_web_form: {
-                      children: {
-                        example: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Forms/How_to_structure_a_web_form/Example",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                                "  border: 1px solid #ccc;",
-                                "15:21 - 15:25",
-                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_structure_a_web_form/Example
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-h1 {
-  margin-top: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-form {
-  margin: 0 auto;
-  width: 400px;
-  padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 1em;
-}
-
-label span {
-  display: inline-block;
-  text-align: right;
-}
-
-input,
-fieldset {
-  font: 1em sans-serif;
-  width: 250px;
-  box-sizing: border-box;
-  border: 1px solid #999;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-  width: auto;
-  border: none;
-}
-
-input:focus {
-  background-color: yellow;
-}
-
-button {
-  margin: 20px 0 0 0;
-}
-
-label {
-  display: inline-block;
-}
-
-p label {
-  width: 100%;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#999" to be "#999999" (color-hex-length)',
-                                "  border: 1px solid #999;",
-                                "29:21 - 29:25",
-                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_structure_a_web_form/Example
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-h1 {
-  margin-top: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-form {
-  margin: 0 auto;
-  width: 400px;
-  padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 1em;
-}
-
-label span {
-  display: inline-block;
-  text-align: right;
-}
-
-input,
-fieldset {
-  font: 1em sans-serif;
-  width: 250px;
-  box-sizing: border-box;
-  border: 1px solid #999;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-  width: auto;
-  border: none;
-}
-
-input:focus {
-  background-color: yellow;
-}
-
-button {
-  margin: 20px 0 0 0;
-}
-
-label {
-  display: inline-block;
-}
-
-p label {
-  width: 100%;
-}
-~~~
-`
-                              ]
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/How_to_structure_a_web_form",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 1px solid #ccc;",
-                            "15:21 - 15:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_structure_a_web_form
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-h1 {
-  margin-top: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-form {
-  margin: 0 auto;
-  width: 400px;
-  padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 1em;
-}
-
-div + div {
-  margin-top: 1em;
-}
-
-label span {
-  display: inline-block;
-  text-align: right;
-}
-
-input,
-textarea {
-  font: 1em sans-serif;
-  width: 250px;
-  box-sizing: border-box;
-  border: 1px solid #999;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-  width: auto;
-  border: none;
-}
-
-input:focus,
-textarea:focus {
-  border-color: black;
-}
-
-textarea {
-  vertical-align: top;
-  height: 5em;
-  resize: vertical;
-}
-
-fieldset {
-  width: 250px;
-  box-sizing: border-box;
-  border: 1px solid #999;
-}
-
-button {
-  margin: 20px 0 0 0;
-}
-
-label {
-  display: inline-block;
-}
-
-p label {
-  width: 100%;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#999" to be "#999999" (color-hex-length)',
-                            "  border: 1px solid #999;",
-                            "33:21 - 33:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_structure_a_web_form
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-h1 {
-  margin-top: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-form {
-  margin: 0 auto;
-  width: 400px;
-  padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 1em;
-}
-
-div + div {
-  margin-top: 1em;
-}
-
-label span {
-  display: inline-block;
-  text-align: right;
-}
-
-input,
-textarea {
-  font: 1em sans-serif;
-  width: 250px;
-  box-sizing: border-box;
-  border: 1px solid #999;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-  width: auto;
-  border: none;
-}
-
-input:focus,
-textarea:focus {
-  border-color: black;
-}
-
-textarea {
-  vertical-align: top;
-  height: 5em;
-  resize: vertical;
-}
-
-fieldset {
-  width: 250px;
-  box-sizing: border-box;
-  border: 1px solid #999;
-}
-
-button {
-  margin: 20px 0 0 0;
-}
-
-label {
-  display: inline-block;
-}
-
-p label {
-  width: 100%;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#999" to be "#999999" (color-hex-length)',
-                            "  border: 1px solid #999;",
-                            "56:21 - 56:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_structure_a_web_form
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-h1 {
-  margin-top: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-form {
-  margin: 0 auto;
-  width: 400px;
-  padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 1em;
-}
-
-div + div {
-  margin-top: 1em;
-}
-
-label span {
-  display: inline-block;
-  text-align: right;
-}
-
-input,
-textarea {
-  font: 1em sans-serif;
-  width: 250px;
-  box-sizing: border-box;
-  border: 1px solid #999;
-}
-
-input[type="checkbox"],
-input[type="radio"] {
-  width: auto;
-  border: none;
-}
-
-input:focus,
-textarea:focus {
-  border-color: black;
-}
-
-textarea {
-  vertical-align: top;
-  height: 5em;
-  resize: vertical;
-}
-
-fieldset {
-  width: 250px;
-  box-sizing: border-box;
-  border: 1px solid #999;
-}
-
-button {
-  margin: 20px 0 0 0;
-}
-
-label {
-  display: inline-block;
-}
-
-p label {
   width: 100%;
 }
 ~~~
@@ -36282,29 +25922,6 @@ p label {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 1px solid #ccc;",
-                            "4:21 - 4:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/HTML_forms_in_legacy_browsers
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-input {
-  /* This rule turns off the default rendering for the input types that have a border,
-     including buttons defined with an input element */
-  border: 1px solid #ccc;
-}
-input[type="button"] {
-  /* Revert the last border declaration */
-  border: revert;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -36323,60 +25940,6 @@ input[type="button"] {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Styling_web_forms",
                       messages: [
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#222" to be "#222222" (color-hex-length)',
-                            "  background: #222;",
-                            "23:15 - 23:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Styling_web_forms
-[color-hex-length] Expected "#222" to be "#222222" (color-hex-length)
-~~~
-@font-face {
-  font-family: "handwriting";
-  src:
-    url("fonts/journal-webfont.woff2") format("woff2"),
-    url("fonts/journal-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "typewriter";
-  src:
-    url("fonts/momot___-webfont.woff2") format("woff2"),
-    url("fonts/momot___-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-body {
-  font: 1.3rem sans-serif;
-  padding: 0.5em;
-  margin: 0;
-  background: #222;
-}
-
-form {
-  position: relative;
-  width: 740px;
-  height: 498px;
-  margin: 0 auto;
-  padding: 1em;
-  box-sizing: border-box;
-  background: white url("background.jpg");
-
-  /* we create our grid */
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 10em 1em 1em 1em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "alpha-value-notation",
@@ -36394,272 +25957,6 @@ textarea:focus {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  border: 2px solid #333;",
-                            "4:21 - 4:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Styling_web_forms
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-button {
-  padding: 5px;
-  font: bold 0.6em sans-serif;
-  border: 2px solid #333;
-  border-radius: 5px;
-  background: none;
-  cursor: pointer;
-  transform: rotate(-1.5deg);
-}
-
-button::after {
-  content: " >>>";
-}
-
-button:hover,
-button:focus {
-  background: black;
-  color: white;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    "ui_pseudo-classes": {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "2:15 - 2:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-input[type="text"]:disabled {
-  background: #eee;
-  border: 1px solid #ccc;
-}
-
-label:has(+ :disabled) {
-  color: #aaa;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 1px solid #ccc;",
-                            "3:21 - 3:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-input[type="text"]:disabled {
-  background: #eee;
-  border: 1px solid #ccc;
-}
-
-label:has(+ :disabled) {
-  color: #aaa;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
-                            "  color: #aaa;",
-                            "7:10 - 7:14",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
-[color-hex-length] Expected "#aaa" to be "#aaaaaa" (color-hex-length)
-~~~
-input[type="text"]:disabled {
-  background: #eee;
-  border: 1px solid #ccc;
-}
-
-label:has(+ :disabled) {
-  color: #aaa;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  box-shadow: inset 1px 1px 3px #ccc;",
-                            "9:33 - 9:37",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-input:read-only,
-textarea:read-only {
-  border: 0;
-  box-shadow: none;
-  background-color: white;
-}
-
-textarea:read-write {
-  box-shadow: inset 1px 1px 3px #ccc;
-  border-radius: 5px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  box-shadow: inset 1px 1px 3px #ccc;",
-                            "34:33 - 34:37",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-body {
-  font-family: sans-serif;
-  margin: 20px auto;
-  max-width: 70%;
-}
-
-fieldset {
-  padding: 10px 30px 0;
-}
-
-legend {
-  color: white;
-  background: black;
-  padding: 5px 10px;
-}
-
-fieldset > div {
-  margin-bottom: 20px;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-button,
-label,
-input {
-  display: block;
-  font-size: 100%;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-}
-
-input {
-  box-shadow: inset 1px 1px 3px #ccc;
-  border-radius: 5px;
-}
-
-input:hover,
-input:focus {
-  background-color: #eee;
-}
-
-button {
-  width: 60%;
-  margin: 0 auto;
-}
-
-input:required {
-  border: 2px solid;
-}
-
-input:optional {
-  border: 2px dashed;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background-color: #eee;",
-                            "40:21 - 40:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-body {
-  font-family: sans-serif;
-  margin: 20px auto;
-  max-width: 70%;
-}
-
-fieldset {
-  padding: 10px 30px 0;
-}
-
-legend {
-  color: white;
-  background: black;
-  padding: 5px 10px;
-}
-
-fieldset > div {
-  margin-bottom: 20px;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-button,
-label,
-input {
-  display: block;
-  font-size: 100%;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-}
-
-input {
-  box-shadow: inset 1px 1px 3px #ccc;
-  border-radius: 5px;
-}
-
-input:hover,
-input:focus {
-  background-color: #eee;
-}
-
-button {
-  width: 60%;
-  margin: 0 auto;
-}
-
-input:required {
-  border: 2px solid;
-}
-
-input:optional {
-  border: 2px dashed;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -36670,322 +25967,6 @@ input:optional {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    your_first_form: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 1px solid #ccc;",
-                            "10:21 - 10:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-body {
-  /* Center the form on the page */
-  text-align: center;
-}
-
-form {
-  display: inline-block;
-  /* Form outline */
-  padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 1em;
-}
-
-p + p {
-  margin-top: 1em;
-}
-
-label {
-  /* Uniform size & alignment */
-  display: inline-block;
-  min-width: 90px;
-  text-align: right;
-}
-
-input,
-textarea {
-  /* To make sure that all text fields have the same font settings
-     By default, text areas have a monospace font */
-  font: 1em sans-serif;
-  /* Uniform text field size */
-  width: 300px;
-  box-sizing: border-box;
-  /* Match form field borders */
-  border: 1px solid #999;
-}
-
-input:focus,
-textarea:focus {
-  /* Set the outline width and style */
-  outline-style: solid;
-  /* To give a little highlight on active elements */
-  outline-color: black;
-}
-
-textarea {
-  /* Align multiline text fields with their labels */
-  vertical-align: top;
-  /* Provide space to type some text */
-  height: 5em;
-}
-
-.button {
-  /* Align buttons with the text fields */
-  padding-left: 90px; /* same size as the label elements */
-}
-
-button {
-  /* This extra margin represent roughly the same space as the space
-     between the labels and their text fields */
-  margin-left: 0.5em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#999" to be "#999999" (color-hex-length)',
-                            "  border: 1px solid #999;",
-                            "34:21 - 34:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-body {
-  /* Center the form on the page */
-  text-align: center;
-}
-
-form {
-  display: inline-block;
-  /* Form outline */
-  padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 1em;
-}
-
-p + p {
-  margin-top: 1em;
-}
-
-label {
-  /* Uniform size & alignment */
-  display: inline-block;
-  min-width: 90px;
-  text-align: right;
-}
-
-input,
-textarea {
-  /* To make sure that all text fields have the same font settings
-     By default, text areas have a monospace font */
-  font: 1em sans-serif;
-  /* Uniform text field size */
-  width: 300px;
-  box-sizing: border-box;
-  /* Match form field borders */
-  border: 1px solid #999;
-}
-
-input:focus,
-textarea:focus {
-  /* Set the outline width and style */
-  outline-style: solid;
-  /* To give a little highlight on active elements */
-  outline-color: black;
-}
-
-textarea {
-  /* Align multiline text fields with their labels */
-  vertical-align: top;
-  /* Provide space to type some text */
-  height: 5em;
-}
-
-.button {
-  /* Align buttons with the text fields */
-  padding-left: 90px; /* same size as the label elements */
-}
-
-button {
-  /* This extra margin represent roughly the same space as the space
-     between the labels and their text fields */
-  margin-left: 0.5em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 1px solid #ccc;",
-                            "8:21 - 8:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-form {
-  /* Just to center the form on the page */
-  margin: 0 auto;
-  width: 400px;
-
-  /* To see the limits of the form */
-  padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 1em;
-}
-
-div + div {
-  margin-top: 1em;
-}
-
-label {
-  /* To make sure that all label have the same size and are properly align */
-  display: inline-block;
-  width: 90px;
-  text-align: right;
-}
-
-input,
-textarea {
-  /* To make sure that all text field have the same font settings
-     By default, textarea are set with a monospace font */
-  font: 1em sans-serif;
-
-  /* To give the same size to all text field */
-  width: 300px;
-
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-
-  /* To harmonize the look & feel of text field border */
-  border: 1px solid #999;
-}
-
-input:focus,
-textarea:focus {
-  /* To give a little highlight on active elements */
-  border-color: black;
-}
-
-textarea {
-  /* To properly align multiline text field with their label */
-  vertical-align: top;
-
-  /* To give enough room to type some text */
-  height: 5em;
-
-  /* To allow users to resize any textarea vertically
-     It works only on Chrome, Firefox and Safari */
-  resize: vertical;
-}
-
-.button {
-  /* To position the buttons to the same position of the text fields */
-  padding-left: 90px; /* same size as the label elements */
-}
-
-button {
-  /* This extra margin represent the same space as the space between
-     the labels and their text fields */
-  margin-left: 0.5em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#999" to be "#999999" (color-hex-length)',
-                            "  border: 1px solid #999;",
-                            "36:21 - 36:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-form {
-  /* Just to center the form on the page */
-  margin: 0 auto;
-  width: 400px;
-
-  /* To see the limits of the form */
-  padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 1em;
-}
-
-div + div {
-  margin-top: 1em;
-}
-
-label {
-  /* To make sure that all label have the same size and are properly align */
-  display: inline-block;
-  width: 90px;
-  text-align: right;
-}
-
-input,
-textarea {
-  /* To make sure that all text field have the same font settings
-     By default, textarea are set with a monospace font */
-  font: 1em sans-serif;
-
-  /* To give the same size to all text field */
-  width: 300px;
-
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-
-  /* To harmonize the look & feel of text field border */
-  border: 1px solid #999;
-}
-
-input:focus,
-textarea:focus {
-  /* To give a little highlight on active elements */
-  border-color: black;
-}
-
-textarea {
-  /* To properly align multiline text field with their label */
-  vertical-align: top;
-
-  /* To give enough room to type some text */
-  height: 5em;
-
-  /* To allow users to resize any textarea vertically
-     It works only on Chrome, Firefox and Safari */
-  resize: vertical;
-}
-
-.button {
-  /* To position the buttons to the same position of the text fields */
-  padding-left: 90px; /* same size as the label elements */
-}
-
-button {
-  /* This extra margin represent the same space as the space between
-     the labels and their text fields */
-  margin-left: 0.5em;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     }
@@ -37544,42 +26525,6 @@ blockquote i {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ffc" to be "#ffffcc" (color-hex-length)',
-                            "  background-color: #ffc;",
-                            "3:21 - 3:25",
-                            `/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/Create_fancy_boxes
-[color-hex-length] Expected "#ffc" to be "#ffffcc" (color-hex-length)
-~~~
-.fancy {
-  position: relative;
-  background-color: #ffc;
-  padding: 2rem;
-  text-align: center;
-  max-width: 200px;
-}
-
-.fancy::before {
-  content: "";
-
-  position: absolute;
-  z-index: -1;
-  bottom: 15px;
-  right: 5px;
-  width: 50%;
-  top: 80%;
-  max-width: 200px;
-
-  box-shadow: 0px 13px 10px black;
-  rotate: 4deg;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -37953,10 +26898,66 @@ color: rgb(31 41 59 / 26%);
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://prettier.io/docs/index.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    html: {
+                      children: {},
+                      slug: "/en-US/docs/MDN/Writing_guidelines/Code_style_guide/HTML",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://prettier.io/docs/index.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    javascript: {
+                      children: {},
+                      slug: "/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://prettier.io/docs/index.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    shell: {
+                      children: {},
+                      slug: "/en-US/docs/MDN/Writing_guidelines/Code_style_guide/Shell",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://prettier.io/docs/index.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/MDN/Writing_guidelines/Code_style_guide",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://prettier.io/docs/index.html",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 howto: {
                   children: {
@@ -38045,6 +27046,30 @@ color: rgb(31 41 59 / 26%);
                                   message: "Not in BCD",
                                   data: [
                                     "webextensions.api.browserAction.onUserSettingsChanged"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        browsersettings: {
+                          children: {
+                            webnotificationsdisabled: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/webNotificationsDisabled",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://example.org/",
+                                    "The operation timed out."
+                                  ]
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://example.org/",
+                                    "The operation timed out."
                                   ]
                                 }
                               ]
@@ -39710,6 +28735,31 @@ webextensions.manifest.options_ui`,
                       data: [
                         "security.integrity_policy.enabled"
                       ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/:heading"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/:heading_function"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/:heading_function"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://w3c.github.io/ppa/",
+                        404
+                      ]
                     }
                   ]
                 },
@@ -40025,41 +29075,15 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "134": {
+                    "128": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/134",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/128",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=134",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "137": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/137",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=137",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "139": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/139",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=139",
-                            "The operation timed out."
+                            "https://w3c.github.io/ppa/",
+                            404
                           ]
                         }
                       ]
@@ -40073,6 +29097,90 @@ webextensions.manifest.options_ui`,
                           data: [
                             "https://whattrainisitnow.com/release/?version=140",
                             "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "142": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/142",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/estimatedPlayoutTimestamp"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/framesAssembledFromMultiplePackets"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/freezeCount"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/jitterBufferMinimumDelay"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/jitterBufferTargetDelay"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/keyFramesDecoded"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/pauseCount"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/totalAssemblyTime"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/totalFreezesDuration"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/totalPausesDuration"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/:heading"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/:heading_function"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/:heading_function"
                           ]
                         }
                       ]
@@ -41195,17 +30303,7 @@ body {
                         }
                       }
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Canvas_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://konvajs.org/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 },
                 channel_messaging_api: {
                   children: {
@@ -42304,98 +31402,6 @@ aside {
 .large {
   transform: scale(1.3);
 }
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    insertadjacenthtml: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/insertAdjacentHTML",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected method shorthand.",
-                            `  createHTML: (input) => {
-    return input; // Do not do this in your own code!
-    // Instead do something like:
-    // return DOMPurify.sanitize(input);
-  },`,
-                            "5:3 - 9:4",
-                            `/en-US/docs/Web/API/Element/insertAdjacentHTML
-[object-shorthand] Expected method shorthand.
-~~~
-if (typeof trustedTypes === "undefined")
-  trustedTypes = { createPolicy: (n, rules) => rules };
-
-const policy = trustedTypes.createPolicy("some-content-policy", {
-  createHTML: (input) => {
-    return input; // Do not do this in your own code!
-    // Instead do something like:
-    // return DOMPurify.sanitize(input);
-  },
-});
-
-const unsafeText = "<strong>inserted text</strong>";
-const trustedHTML = policy.createHTML(unsafeText);
-
-const insert = document.querySelector("#insert");
-insert.addEventListener("click", () => {
-  const subject = document.querySelector("#subject");
-  const positionSelect = document.querySelector("#position");
-  subject.insertAdjacentHTML(positionSelect.value, trustedHTML);
-});
-
-const reset = document.querySelector("#reset");
-reset.addEventListener("click", () => {
-  document.location.reload();
-});
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "arrow-body-style",
-                            "Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`.",
-                            `  createHTML: (input) => {
-    return input; // Do not do this in your own code!
-    // Instead do something like:
-    // return DOMPurify.sanitize(input);
-  },`,
-                            "5:26 - 9:4",
-                            `/en-US/docs/Web/API/Element/insertAdjacentHTML
-[arrow-body-style] Unexpected block statement surrounding arrow body; move the returned value immediately after the \`=>\`.
-~~~
-if (typeof trustedTypes === "undefined")
-  trustedTypes = { createPolicy: (n, rules) => rules };
-
-const policy = trustedTypes.createPolicy("some-content-policy", {
-  createHTML: (input) => {
-    return input; // Do not do this in your own code!
-    // Instead do something like:
-    // return DOMPurify.sanitize(input);
-  },
-});
-
-const unsafeText = "<strong>inserted text</strong>";
-const trustedHTML = policy.createHTML(unsafeText);
-
-const insert = document.querySelector("#insert");
-insert.addEventListener("click", () => {
-  const subject = document.querySelector("#subject");
-  const positionSelect = document.querySelector("#position");
-  subject.insertAdjacentHTML(positionSelect.value, trustedHTML);
-});
-
-const reset = document.querySelector("#reset");
-reset.addEventListener("click", () => {
-  document.location.reload();
-});
 ~~~
 `
                           ]
@@ -47033,19 +36039,6 @@ input {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    sign: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SubtleCrypto/sign",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.itu.int/rec/T-REC-X.509",
-                            500
                           ]
                         }
                       ]
@@ -58186,45 +47179,6 @@ p {
                     }
                   ]
                 },
-                appearance: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/appearance",
-                  messages: [
-                    {
-                      message: "Text stuck to code/link",
-                      data: [
-                        "auto",
-                        "Text before code:",
-                        "Has an effect similar to"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "#Setting_the_appearance_of_a_select"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "#Setting_the_appearance_of_a_select"
-                      ]
-                    }
-                  ]
-                },
-                "aspect-ratio": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/aspect-ratio",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
-                },
                 attr: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/attr",
@@ -63142,13 +52096,6 @@ div.legacyHSLA {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://apps.colorjs.io/picker/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -63510,13 +52457,6 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://lea.verou.me/blog/2020/04/lch-colors-in-css-what-why-and-how/",
-                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -68479,13 +57419,6 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://lea.verou.me/blog/2020/04/lch-colors-in-css-what-why-and-how/",
-                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -123742,23 +112675,6 @@ input:valid + span::after {
                             }
                           ]
                         },
-                        rel: {
-                          children: {
-                            preload: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
-                                    "unknown certificate verification error"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         size: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Attributes/size",
@@ -124877,6 +113793,19 @@ hr::after {
                             }
                           ]
                         },
+                        iframe: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/iframe",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://example.org/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         input: {
                           children: {
                             button: {
@@ -125972,18 +114901,6 @@ samp > kbd {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        },
-                        selectedcontent: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/selectedcontent",
-                          messages: [
-                            {
-                              message: "Bad href",
-                              data: [
-                                "HTMLElement/change_event"
                               ]
                             }
                           ]
@@ -127346,6 +116263,13 @@ http.headers.Use-As-Dictionary`,
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Redirected external link",
+                                  data: [
+                                    "https://www.mozilla.org/en-US/firefox/127.0/releasenotes/",
+                                    "https://www.firefox.com/en-US/firefox/127.0/releasenotes/?redirect_source=mozilla-org"
+                                  ]
                                 }
                               ]
                             }
@@ -127797,33 +116721,6 @@ figure {
                     },
                     formats: {
                       children: {
-                        codecs_parameter: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/codecs_parameter",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.itu.int/rec/T-REC-H.273/en",
-                                500
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.itu.int/rec/T-REC-H.273/en",
-                                500
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.itu.int/rec/T-REC-H.273/en",
-                                500
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -127831,75 +116728,13 @@ figure {
                             {
                               message: "Broken external link",
                               data: [
-                                "https://www.itu.int/rec/T-REC-H.264",
-                                500
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.itu.int/rec/T-REC-H.263/",
-                                500
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.itu.int/rec/T-REC-H.265",
-                                500
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
                                 "https://about.att.com/innovation/ip/patents",
                                 403
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.itu.int/rec/T-REC-H.262",
-                                500
-                              ]
-                            }
-                          ]
-                        },
-                        webrtc_codecs: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/WebRTC_codecs",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.itu.int/rec/T-REC-G.711-198811-I/en",
-                                500
                               ]
                             }
                           ]
                         }
                       }
-                    }
-                  }
-                }
-              }
-            },
-            performance: {
-              children: {
-                guides: {
-                  children: {
-                    speculative_loading: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Performance/Guides/Speculative_loading",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
