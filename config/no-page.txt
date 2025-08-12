@@ -53,11 +53,21 @@
 /en-US/docs/Web/API/RTCIdentityProvider
 /en-US/docs/Web/API/RTCIdentityProviderRegistrar
 /en-US/docs/Web/API/RTCInboundRtpStreamStats/audioLevel
+/en-US/docs/Web/API/RTCInboundRtpStreamStats/estimatedPlayoutTimestamp
+/en-US/docs/Web/API/RTCInboundRtpStreamStats/framesAssembledFromMultiplePackets
+/en-US/docs/Web/API/RTCInboundRtpStreamStats/freezeCount
 /en-US/docs/Web/API/RTCInboundRtpStreamStats/jitter
+/en-US/docs/Web/API/RTCInboundRtpStreamStats/jitterBufferMinimumDelay
+/en-US/docs/Web/API/RTCInboundRtpStreamStats/jitterBufferTargetDelay
+/en-US/docs/Web/API/RTCInboundRtpStreamStats/keyFramesDecoded
 /en-US/docs/Web/API/RTCInboundRtpStreamStats/packetsDiscarded
 /en-US/docs/Web/API/RTCInboundRtpStreamStats/packetsLost
 /en-US/docs/Web/API/RTCInboundRtpStreamStats/packetsReceived
+/en-US/docs/Web/API/RTCInboundRtpStreamStats/pauseCount
+/en-US/docs/Web/API/RTCInboundRtpStreamStats/totalAssemblyTime
 /en-US/docs/Web/API/RTCInboundRtpStreamStats/totalAudioEnergy
+/en-US/docs/Web/API/RTCInboundRtpStreamStats/totalFreezesDuration
+/en-US/docs/Web/API/RTCInboundRtpStreamStats/totalPausesDuration
 /en-US/docs/Web/API/RTCInboundRtpStreamStats/totalSamplesDuration
 /en-US/docs/Web/API/RTCPeerConnection/removetrack_event
 /en-US/docs/Web/API/RTCReceivedRtpStreamStats/framesDecoded
@@ -115,6 +125,11 @@
 /en-US/docs/Web/API/SVGViewSpec
 /en-US/docs/Web/API/ShadowAnimation
 
+/en-US/docs/Web/API/SourceBuffer/abort_event
+/en-US/docs/Web/API/SourceBuffer/error_event
+/en-US/docs/Web/API/SourceBuffer/update_event
+/en-US/docs/Web/API/SourceBuffer/updateend_event
+/en-US/docs/Web/API/SourceBuffer/updatestart_event
 /en-US/docs/Web/API/SourceBufferList/addsourcebuffer_event
 /en-US/docs/Web/API/SourceBufferList/removesourcebuffer_event
 
@@ -127,6 +142,9 @@
 
 /en-US/docs/Web/CSS/::-webkit-color-swatch
 /en-US/docs/Web/CSS/::-webkit-textfield-decoration-container
+/en-US/docs/Web/CSS/:heading
+/en-US/docs/Web/CSS/:heading_function
+/en-US/docs/Web/CSS/@page/marks
 /en-US/docs/Web/CSS/calc-product
 /en-US/docs/Web/CSS/calc-value
 /en-US/docs/Web/CSS/glyph-orientation-horizontal
