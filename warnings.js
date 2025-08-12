@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-2md00ngm.js";
+} from "./chunk-cx47xnev.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -15453,23 +15453,6 @@ p {
                     }
                   ]
                 },
-                async_js: {
-                  children: {
-                    promises: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Async_JS/Promises",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://example.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 "client-side_apis": {
                   children: {
                     drawing_graphics: {
@@ -26079,6 +26062,26 @@ textarea:focus {
                 },
                 testing: {
                   children: {
+                    automated_testing: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Automated_testing",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.browserstack.com/users/sign_up",
+                            503
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.browserstack.com/accounts/profile/details",
+                            503
+                          ]
+                        }
+                      ]
+                    },
                     html_and_css: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS",
@@ -26279,6 +26282,19 @@ button:active {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    your_own_automation_environment: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.browserstack.com/accounts/profile/details",
+                            503
                           ]
                         }
                       ]
@@ -26735,7 +26751,7 @@ body * {
                           message: "Broken external link",
                           data: [
                             "https://mail.gnu.org/mailman/listinfo/help-gnu-emacs",
-                            "Cannot reach server and Bun hangs"
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         }
                       ]
@@ -26773,7 +26789,21 @@ body * {
                   ]
                 },
                 web_mechanics: {
-                  children: {},
+                  children: {
+                    what_is_a_domain_name: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://howdns.works/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics",
                   messages: [
                     {
@@ -26898,66 +26928,10 @@ color: rgb(31 41 59 / 26%);
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://prettier.io/docs/index.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    html: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Code_style_guide/HTML",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://prettier.io/docs/index.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    javascript: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Code_style_guide/JavaScript",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://prettier.io/docs/index.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    shell: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Code_style_guide/Shell",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://prettier.io/docs/index.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Code_style_guide",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://prettier.io/docs/index.html",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 },
                 howto: {
                   children: {
@@ -27046,30 +27020,6 @@ color: rgb(31 41 59 / 26%);
                                   message: "Not in BCD",
                                   data: [
                                     "webextensions.api.browserAction.onUserSettingsChanged"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        browsersettings: {
-                          children: {
-                            webnotificationsdisabled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/webNotificationsDisabled",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://example.org/",
-                                    "The operation timed out."
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://example.org/",
-                                    "The operation timed out."
                                   ]
                                 }
                               ]
@@ -28703,6 +28653,19 @@ webextensions.manifest.options_ui`,
                           ]
                         }
                       }
+                    },
+                    what_are_webextensions: {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/What_are_WebExtensions",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/",
+                            404
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions",
@@ -28730,30 +28693,6 @@ webextensions.manifest.options_ui`,
                   children: {},
                   slug: "/en-US/docs/Mozilla/Firefox/Experimental_features",
                   messages: [
-                    {
-                      message: "Code with underscore",
-                      data: [
-                        "security.integrity_policy.enabled"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/:heading"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/:heading_function"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/:heading_function"
-                      ]
-                    },
                     {
                       message: "Broken external link",
                       data: [
@@ -29063,18 +29002,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "44": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/44",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/@page/marks"
-                          ]
-                        }
-                      ]
-                    },
                     "128": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/128",
@@ -29084,103 +29011,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "https://w3c.github.io/ppa/",
                             404
-                          ]
-                        }
-                      ]
-                    },
-                    "140": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/140",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=140",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "142": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/142",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/estimatedPlayoutTimestamp"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/framesAssembledFromMultiplePackets"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/freezeCount"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/jitterBufferMinimumDelay"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/jitterBufferTargetDelay"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/keyFramesDecoded"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/pauseCount"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/totalAssemblyTime"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/totalFreezesDuration"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/totalPausesDuration"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/:heading"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/:heading_function"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/CSS/:heading_function"
                           ]
                         }
                       ]
@@ -29992,6 +29822,26 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.pbs.org/video/university-place-the-photosensitive-epilepsy-analysis-tool-ep-429/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    seizure_disorders: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.pbs.org/video/university-place-the-photosensitive-epilepsy-analysis-tool-ep-429/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -30303,7 +30153,17 @@ body {
                         }
                       }
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Canvas_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://konvajs.org/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 channel_messaging_api: {
                   children: {
@@ -30414,30 +30274,6 @@ api.MessagePort`,
   margin-left: 300px; /* Adjust for the sidebar width */
   transition: margin-left 0.3s ease-in-out;
   background-color: green;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                css_custom_highlight_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/CSS_Custom_Highlight_API",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#f06" to be "#ff0066" (color-hex-length)',
-                        "  background-color: #f06;",
-                        "2:21 - 2:25",
-                        `/en-US/docs/Web/API/CSS_Custom_Highlight_API
-[color-hex-length] Expected "#f06" to be "#ff0066" (color-hex-length)
-~~~
-::highlight(search-results) {
-  background-color: #f06;
-  color: white;
 }
 ~~~
 `
@@ -30853,70 +30689,12 @@ li:nth-of-type(3n + 1) {
                     }
                   }
                 },
-                cssstyledeclaration: {
-                  children: {
-                    length: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSStyleDeclaration/length",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '  style="margin: 0 10px; background-color: #CA1; font-family: monospace"></div>',
-                            "2:2 - 2:72",
-                            `/en-US/docs/Web/API/CSSStyleDeclaration/length
-[no-style-attr] Do not use the style attribute.
-~~~
-<div
-  id="div1"
-  style="margin: 0 10px; background-color: #CA1; font-family: monospace"></div>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 device_orientation_events: {
                   children: {
                     detecting_device_orientation: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Device_orientation_events/Detecting_device_orientation",
                       messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 5px solid #ccc;",
-                            "5:21 - 5:25",
-                            `/en-US/docs/Web/API/Device_orientation_events/Detecting_device_orientation
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-.garden {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  border: 5px solid #ccc;
-  border-radius: 10px;
-}
-
-.ball {
-  position: absolute;
-  top: 90px;
-  left: 90px;
-  width: 20px;
-  height: 20px;
-  background: green;
-  border-radius: 100%;
-}
-~~~
-`
-                          ]
-                        },
                         {
                           message: "Unexpected BCD keys",
                           data: [
@@ -31140,39 +30918,6 @@ td {
                           ]
                         }
                       ]
-                    },
-                    whitespace: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document_Object_Model/Whitespace",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#f06" to be "#ff0066" (color-hex-length)',
-                            "  background: #f06;",
-                            "11:15 - 11:19",
-                            `/en-US/docs/Web/API/Document_Object_Model/Whitespace
-[color-hex-length] Expected "#f06" to be "#ff0066" (color-hex-length)
-~~~
-.people-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.people-list li {
-  display: inline-block;
-  width: 2em;
-  height: 2em;
-  background: #f06;
-  border: 1px solid;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/API/Document_Object_Model",
@@ -31214,45 +30959,6 @@ td {
                       ]
                     }
                   ]
-                },
-                "document_picture-in-picture_api": {
-                  children: {
-                    using: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document_Picture-in-Picture_API/Using",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "    background: #333;",
-                            "9:17 - 9:21",
-                            `/en-US/docs/Web/API/Document_Picture-in-Picture_API/Using
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-@media (display-mode: picture-in-picture) and (prefers-color-scheme: light) {
-  body {
-    background: antiquewhite;
-  }
-}
-
-@media (display-mode: picture-in-picture) and (prefers-color-scheme: dark) {
-  body {
-    background: #333;
-  }
-
-  a {
-    color: antiquewhite;
-  }
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 editcontext_api: {
                   children: {
@@ -31341,187 +31047,10 @@ td {
                         }
                       ]
                     },
-                    ariacontrolselements: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/ariaControlsElements",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 1px solid #ccc;",
-                            "3:21 - 3:25",
-                            `/en-US/docs/Web/API/Element/ariaControlsElements
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-.panel {
-  display: none; /* Initially hidden */
-  border: 1px solid #ccc;
-  padding: 5px;
-  margin-top: 5px;
-}
-
-#log {
-  height: 70px;
-  overflow: scroll;
-  padding: 0.5rem;
-  border: 1px solid black;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    dblclick_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/dblclick_event",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fe9" to be "#ffee99" (color-hex-length)',
-                            "  background: #fe9;",
-                            "2:15 - 2:19",
-                            `/en-US/docs/Web/API/Element/dblclick_event
-[color-hex-length] Expected "#fe9" to be "#ffee99" (color-hex-length)
-~~~
-aside {
-  background: #fe9;
-  border-radius: 1em;
-  display: inline-block;
-  padding: 1em;
-  transform: scale(0.9);
-  transform-origin: 0 0;
-  transition: transform 0.6s;
-  user-select: none;
-}
-
-.large {
-  transform: scale(1.3);
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    mouseenter_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/mouseenter_event",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  border: 1px solid #333;",
-                            "4:21 - 4:25",
-                            `/en-US/docs/Web/API/Element/mouseenter_event
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-#mouseTarget {
-  box-sizing: border-box;
-  width: 15rem;
-  border: 1px solid #333;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    mouseleave_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/mouseleave_event",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  border: 1px solid #333;",
-                            "4:21 - 4:25",
-                            `/en-US/docs/Web/API/Element/mouseleave_event
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-#mouseTarget {
-  box-sizing: border-box;
-  width: 15rem;
-  border: 1px solid #333;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    releasepointercapture: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/releasePointerCapture",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fbe" to be "#ffbbee" (color-hex-length)',
-                            "  background: #fbe;",
-                            "7:15 - 7:19",
-                            `/en-US/docs/Web/API/Element/releasePointerCapture
-[color-hex-length] Expected "#fbe" to be "#ffbbee" (color-hex-length)
-~~~
-div {
-  width: 140px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #fbe;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     requestfullscreen: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Element/requestFullscreen",
                       messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#448" to be "#444488" (color-hex-length)',
-                            "  background-color: #448;",
-                            "7:21 - 7:25",
-                            `/en-US/docs/Web/API/Element/requestFullscreen
-[color-hex-length] Expected "#448" to be "#444488" (color-hex-length)
-~~~
-body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 2em;
-}
-
-video::backdrop {
-  background-color: #448;
-}
-button {
-  display: block;
-}
-kbd {
-  border: 2px solid #cdcdcd;
-  border-radius: 3px;
-  box-shadow: inset 0 -1px 0 0 #cdcdcd;
-  font-size: 0.825rem;
-  padding: 0.25rem;
-}
-~~~
-`
-                          ]
-                        },
                         {
                           message: "Stylelint backlog",
                           data: [
@@ -31538,7 +31067,7 @@ body {
 }
 
 video::backdrop {
-  background-color: #448;
+  background-color: #444488;
 }
 button {
   display: block;
@@ -31570,7 +31099,7 @@ body {
 }
 
 video::backdrop {
-  background-color: #448;
+  background-color: #444488;
 }
 button {
   display: block;
@@ -31581,223 +31110,6 @@ kbd {
   box-shadow: inset 0 -1px 0 0 #cdcdcd;
   font-size: 0.825rem;
   padding: 0.25rem;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    scrollleft: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/scrollLeft",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 1px solid #ccc;",
-                            "4:21 - 4:25",
-                            `/en-US/docs/Web/API/Element/scrollLeft
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-#container {
-  width: 100px;
-  height: 100px;
-  border: 1px solid #ccc;
-  overflow-x: scroll;
-}
-
-#content {
-  width: 250px;
-  background-color: #ccc;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  background-color: #ccc;",
-                            "10:21 - 10:25",
-                            `/en-US/docs/Web/API/Element/scrollLeft
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-#container {
-  width: 100px;
-  height: 100px;
-  border: 1px solid #ccc;
-  overflow-x: scroll;
-}
-
-#content {
-  width: 250px;
-  background-color: #ccc;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    setpointercapture: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/setPointerCapture",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fbe" to be "#ffbbee" (color-hex-length)',
-                            "  background: #fbe;",
-                            "7:15 - 7:19",
-                            `/en-US/docs/Web/API/Element/setPointerCapture
-[color-hex-length] Expected "#fbe" to be "#ffbbee" (color-hex-length)
-~~~
-div {
-  width: 140px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #fbe;
-  touch-action: none;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    wheel_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/wheel_event",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#cdf" to be "#ccddff" (color-hex-length)',
-                            "  background: #cdf;",
-                            "12:15 - 12:19",
-                            `/en-US/docs/Web/API/Element/wheel_event
-[color-hex-length] Expected "#cdf" to be "#ccddff" (color-hex-length)
-~~~
-body {
-  min-height: 100vh;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-div {
-  width: 105px;
-  height: 105px;
-  background: #cdf;
-  padding: 5px;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                event: {
-                  children: {
-                    stopimmediatepropagation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Event/stopImmediatePropagation",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#008" to be "#000088" (color-hex-length)',
-                            "  color: #008;",
-                            "11:10 - 11:14",
-                            `/en-US/docs/Web/API/Event/stopImmediatePropagation
-[color-hex-length] Expected "#008" to be "#000088" (color-hex-length)
-~~~
-div {
-  display: inline-block;
-  padding: 10px;
-  background-color: white;
-  border: 2px solid black;
-  margin: 10px;
-}
-
-button {
-  width: 100px;
-  color: #008;
-  padding: 5px;
-  background-color: white;
-  border: 2px solid black;
-  border-radius: 30px;
-  margin: 5px;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                eventtarget: {
-                  children: {
-                    addeventlistener: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/EventTarget/addEventListener",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  background-color: #ddd;",
-                            "30:21 - 30:25",
-                            `/en-US/docs/Web/API/EventTarget/addEventListener
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-.outer,
-.middle,
-.inner1,
-.inner2 {
-  display: block;
-  width: 520px;
-  padding: 15px;
-  margin: 15px;
-  text-decoration: none;
-}
-.outer {
-  border: 1px solid red;
-  color: red;
-}
-.middle {
-  border: 1px solid green;
-  color: green;
-  width: 460px;
-}
-.inner1,
-.inner2 {
-  border: 1px solid purple;
-  color: purple;
-  width: 400px;
-}
-
-.demo-logs {
-  width: 530px;
-  height: 16rem;
-  background-color: #ddd;
-  overflow-x: auto;
-  padding: 1rem;
 }
 ~~~
 `
@@ -31911,186 +31223,6 @@ api.Document.fullscreen`,
                       slug: "/en-US/docs/Web/API/HighlightRegistry/highlightsFromPoint",
                       messages: [
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  color: #333;",
-                            "7:10 - 7:14",
-                            `/en-US/docs/Web/API/HighlightRegistry/highlightsFromPoint
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-section {
-  display: flex;
-  gap: 10px;
-}
-
-.highlightable-text,
-article {
-  padding: 10px;
-  background-color: #eee;
-  border: 2px solid #ddd;
-  border-radius: 5px;
-}
-
-.instructions {
-  font-size: 0.8rem;
-}
-
-:root::highlight(highlight1) {
-  background-color: rgb(255 255 0 / 0.5);
-}
-
-:root::highlight(highlight2) {
-  background-color: rgb(255 0 0 / 0.5);
-}
-
-:root::highlight(highlight3) {
-  background-color: rgb(0 0 255 / 0.75);
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background-color: #eee;",
-                            "26:21 - 26:25",
-                            `/en-US/docs/Web/API/HighlightRegistry/highlightsFromPoint
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-section {
-  display: flex;
-  gap: 10px;
-}
-
-.highlightable-text,
-article {
-  padding: 10px;
-  background-color: #eee;
-  border: 2px solid #ddd;
-  border-radius: 5px;
-}
-
-.instructions {
-  font-size: 0.8rem;
-}
-
-:root::highlight(highlight1) {
-  background-color: rgb(255 255 0 / 0.5);
-}
-
-:root::highlight(highlight2) {
-  background-color: rgb(255 0 0 / 0.5);
-}
-
-:root::highlight(highlight3) {
-  background-color: rgb(0 0 255 / 0.75);
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  border: 2px solid #ddd;",
-                            "27:21 - 27:25",
-                            `/en-US/docs/Web/API/HighlightRegistry/highlightsFromPoint
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: white;
-  color: #333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-section {
-  display: flex;
-  gap: 10px;
-}
-
-.highlightable-text,
-article {
-  padding: 10px;
-  background-color: #eee;
-  border: 2px solid #ddd;
-  border-radius: 5px;
-}
-
-.instructions {
-  font-size: 0.8rem;
-}
-
-:root::highlight(highlight1) {
-  background-color: rgb(255 255 0 / 0.5);
-}
-
-:root::highlight(highlight2) {
-  background-color: rgb(255 0 0 / 0.5);
-}
-
-:root::highlight(highlight3) {
-  background-color: rgb(0 0 255 / 0.75);
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "font-family-name-quotes",
@@ -32106,7 +31238,7 @@ article {
 
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -32125,8 +31257,8 @@ section {
 .highlightable-text,
 article {
   padding: 10px;
-  background-color: #eee;
-  border: 2px solid #ddd;
+  background-color: #eeeeee;
+  border: 2px solid #dddddd;
   border-radius: 5px;
 }
 
@@ -32166,7 +31298,7 @@ article {
 
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -32185,8 +31317,8 @@ section {
 .highlightable-text,
 article {
   padding: 10px;
-  background-color: #eee;
-  border: 2px solid #ddd;
+  background-color: #eeeeee;
+  border: 2px solid #dddddd;
   border-radius: 5px;
 }
 
@@ -32226,7 +31358,7 @@ article {
 
 body {
   background-color: white;
-  color: #333;
+  color: #333333;
   font:
     1em / 1.4 Helvetica Neue,
     Helvetica,
@@ -32245,8 +31377,8 @@ section {
 .highlightable-text,
 article {
   padding: 10px;
-  background-color: #eee;
-  border: 2px solid #ddd;
+  background-color: #eeeeee;
+  border: 2px solid #dddddd;
   border-radius: 5px;
 }
 
@@ -32333,145 +31465,12 @@ article {
                     }
                   ]
                 },
-                htmlbuttonelement: {
-                  children: {
-                    reportvalidity: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLButtonElement/reportValidity",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#33a" to be "#3333aa" (color-hex-length)',
-                            "  background-color: #33a;",
-                            "3:21 - 3:25",
-                            `/en-US/docs/Web/API/HTMLButtonElement/reportValidity
-[color-hex-length] Expected "#33a" to be "#3333aa" (color-hex-length)
-~~~
-input[type="submit"],
-button {
-  background-color: #33a;
-  border: none;
-  font-size: 1.3rem;
-  padding: 5px 10px;
-  color: white;
-}
-button:invalid {
-  background-color: #a33;
-}
-button:valid {
-  background-color: #3a3;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#a33" to be "#aa3333" (color-hex-length)',
-                            "  background-color: #a33;",
-                            "10:21 - 10:25",
-                            `/en-US/docs/Web/API/HTMLButtonElement/reportValidity
-[color-hex-length] Expected "#a33" to be "#aa3333" (color-hex-length)
-~~~
-input[type="submit"],
-button {
-  background-color: #33a;
-  border: none;
-  font-size: 1.3rem;
-  padding: 5px 10px;
-  color: white;
-}
-button:invalid {
-  background-color: #a33;
-}
-button:valid {
-  background-color: #3a3;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#3a3" to be "#33aa33" (color-hex-length)',
-                            "  background-color: #3a3;",
-                            "13:21 - 13:25",
-                            `/en-US/docs/Web/API/HTMLButtonElement/reportValidity
-[color-hex-length] Expected "#3a3" to be "#33aa33" (color-hex-length)
-~~~
-input[type="submit"],
-button {
-  background-color: #33a;
-  border: none;
-  font-size: 1.3rem;
-  padding: 5px 10px;
-  color: white;
-}
-button:invalid {
-  background-color: #a33;
-}
-button:valid {
-  background-color: #3a3;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 htmlelement: {
                   children: {
                     hidden: {
                       children: {},
                       slug: "/en-US/docs/Web/API/HTMLElement/hidden",
                       messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#22d" to be "#2222dd" (color-hex-length)',
-                            "  border: 1px solid #22d;",
-                            "7:21 - 7:25",
-                            `/en-US/docs/Web/API/HTMLElement/hidden
-[color-hex-length] Expected "#22d" to be "#2222dd" (color-hex-length)
-~~~
-.panel {
-  font:
-    16px "Open Sans",
-    Helvetica,
-    Arial,
-    sans-serif;
-  border: 1px solid #22d;
-  padding: 12px;
-  width: 500px;
-  text-align: center;
-}
-
-.button {
-  font:
-    22px "Open Sans",
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 5px 36px;
-}
-
-h1 {
-  margin-top: 0;
-  font-size: 175%;
-}
-~~~
-`
-                          ]
-                        },
                         {
                           message: "Stylelint backlog",
                           data: [
@@ -32488,7 +31487,7 @@ h1 {
     Helvetica,
     Arial,
     sans-serif;
-  border: 1px solid #22d;
+  border: 1px solid #2222dd;
   padding: 12px;
   width: 500px;
   text-align: center;
@@ -32527,7 +31526,7 @@ h1 {
     Helvetica,
     Arial,
     sans-serif;
-  border: 1px solid #22d;
+  border: 1px solid #2222dd;
   padding: 12px;
   width: 500px;
   text-align: center;
@@ -32566,7 +31565,7 @@ h1 {
     Helvetica,
     Arial,
     sans-serif;
-  border: 1px solid #22d;
+  border: 1px solid #2222dd;
   padding: 12px;
   width: 500px;
   text-align: center;
@@ -32605,7 +31604,7 @@ h1 {
     Helvetica,
     Arial,
     sans-serif;
-  border: 1px solid #22d;
+  border: 1px solid #2222dd;
   padding: 12px;
   width: 500px;
   text-align: center;
@@ -33092,78 +32091,6 @@ output {
                       slug: "/en-US/docs/Web/API/HTMLImageElement/sizes",
                       messages: [
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#888" to be "#888888" (color-hex-length)',
-                            "  border: 1px solid #888;",
-                            "19:21 - 19:25",
-                            `/en-US/docs/Web/API/HTMLImageElement/sizes
-[color-hex-length] Expected "#888" to be "#888888" (color-hex-length)
-~~~
-article {
-  margin: 1em;
-  max-width: 60em;
-  min-width: 20em;
-  border: 4em solid #880e4f;
-  border-radius: 7em;
-  padding: 1.5em;
-  font:
-    16px "Open Sans",
-    Verdana,
-    Arial,
-    Helvetica,
-    sans-serif;
-}
-
-article img {
-  display: block;
-  max-width: 100%;
-  border: 1px solid #888;
-  box-shadow: 0 0.5em 0.3em #888;
-  margin-bottom: 1.25em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#888" to be "#888888" (color-hex-length)',
-                            "  box-shadow: 0 0.5em 0.3em #888;",
-                            "20:29 - 20:33",
-                            `/en-US/docs/Web/API/HTMLImageElement/sizes
-[color-hex-length] Expected "#888" to be "#888888" (color-hex-length)
-~~~
-article {
-  margin: 1em;
-  max-width: 60em;
-  min-width: 20em;
-  border: 4em solid #880e4f;
-  border-radius: 7em;
-  padding: 1.5em;
-  font:
-    16px "Open Sans",
-    Verdana,
-    Arial,
-    Helvetica,
-    sans-serif;
-}
-
-article img {
-  display: block;
-  max-width: 100%;
-  border: 1px solid #888;
-  box-shadow: 0 0.5em 0.3em #888;
-  margin-bottom: 1.25em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "font-family-name-quotes",
@@ -33191,8 +32118,8 @@ article {
 article img {
   display: block;
   max-width: 100%;
-  border: 1px solid #888;
-  box-shadow: 0 0.5em 0.3em #888;
+  border: 1px solid #888888;
+  box-shadow: 0 0.5em 0.3em #888888;
   margin-bottom: 1.25em;
 }
 ~~~
@@ -33227,8 +32154,8 @@ article {
 article img {
   display: block;
   max-width: 100%;
-  border: 1px solid #888;
-  box-shadow: 0 0.5em 0.3em #888;
+  border: 1px solid #888888;
+  box-shadow: 0 0.5em 0.3em #888888;
   margin-bottom: 1.25em;
 }
 ~~~
@@ -33263,8 +32190,8 @@ article {
 article img {
   display: block;
   max-width: 100%;
-  border: 1px solid #888;
-  box-shadow: 0 0.5em 0.3em #888;
+  border: 1px solid #888888;
+  box-shadow: 0 0.5em 0.3em #888888;
   margin-bottom: 1.25em;
 }
 ~~~
@@ -33354,108 +32281,7 @@ article h2 {
 .ad {
   height: 96px;
   padding: 6px;
-  border-color: #555;
-  border-style: solid;
-  border-width: 1px;
-}
-
-.ad:not(:last-child) {
-  margin-bottom: 8px;
-}
-
-.ad h2 {
-  margin-top: 0;
-}
-
-.ad div {
-  position: relative;
-  float: right;
-  padding: 0 4px;
-  height: 20px;
-  width: 120px;
-  font-size: 14px;
-  bottom: 30px;
-  border: 1px solid black;
-  background-color: rgb(255 255 255 / 50%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#555" to be "#555555" (color-hex-length)',
-                            "  border-color: #555;",
-                            "64:17 - 64:21",
-                            `/en-US/docs/Web/API/Intersection_Observer_API/Timing_element_visibility
-[color-hex-length] Expected "#555" to be "#555555" (color-hex-length)
-~~~
-body {
-  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
-  background-color: aliceblue;
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: auto minmax(min-content, 1fr);
-  grid-template-rows: auto minmax(min-content, 1fr);
-  max-width: 700px;
-  margin: 0 auto;
-  background-color: aliceblue;
-}
-
-header {
-  grid-column: 1 / -1;
-  grid-row: 1;
-  background-color: aliceblue;
-}
-
-aside {
-  grid-column: 1;
-  grid-row: 2;
-  background-color: cornsilk;
-  padding: 5px 10px;
-}
-
-aside ul {
-  padding-left: 0;
-}
-
-aside ul li {
-  list-style: none;
-}
-
-aside ul li a {
-  text-decoration: none;
-}
-
-main {
-  grid-column: 2;
-  grid-row: 2;
-  margin: 0;
-  margin-left: 16px;
-  font-size: 16px;
-}
-
-article {
-  background-color: white;
-  padding: 6px;
-}
-
-article:not(:last-child) {
-  margin-bottom: 8px;
-}
-
-article h2 {
-  margin-top: 0;
-}
-
-.ad {
-  height: 96px;
-  padding: 6px;
-  border-color: #555;
+  border-color: #555555;
   border-style: solid;
   border-width: 1px;
 }
@@ -33488,73 +32314,6 @@ article h2 {
                   },
                   slug: "/en-US/docs/Web/API/Intersection_Observer_API",
                   messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                        "  background-color: #eee; /* Placeholder background */",
-                        "45:21 - 45:25",
-                        `/en-US/docs/Web/API/Intersection_Observer_API
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-#root-container {
-  height: 250px;
-  overflow-y: auto;
-  border: solid blue;
-}
-
-.controls {
-  margin-top: 10px;
-}
-
-p {
-  height: 50vh;
-}
-
-.flex-container {
-  display: flex;
-}
-
-#margin-indicator {
-  position: relative;
-  height: 100px;
-  width: 1px;
-  background-color: red;
-  opacity: 0.5;
-  display: flex;
-}
-
-.carousel {
-  width: 300px;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  display: flex;
-  border: solid;
-  /* outline: 200px solid rgba(0, 0, 0, 0.1); */
-}
-.carousel img {
-  scroll-snap-stop: always;
-  scroll-snap-align: start;
-  display: block;
-  width: 195px;
-  height: 99px;
-  min-width: 195px;
-  min-height: 99px;
-  margin-right: 10px;
-  background-color: #eee; /* Placeholder background */
-}
-
-#log {
-  height: 100px;
-  overflow: scroll;
-  padding: 0.5rem;
-  border: 1px solid black;
-}
-~~~
-`
-                      ]
-                    },
                     {
                       message: "Stylelint backlog",
                       data: [
@@ -33767,83 +32526,6 @@ p {
                       ]
                     }
                   ]
-                },
-                intersectionobserver: {
-                  children: {
-                    scrollmargin: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/IntersectionObserver/scrollMargin",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background-color: #eee; /* Placeholder background */",
-                            "41:21 - 41:25",
-                            `/en-US/docs/Web/API/IntersectionObserver/scrollMargin
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-#root-container {
-  height: 250px;
-  overflow-y: auto;
-  border: solid blue;
-}
-
-p {
-  height: 50vh;
-}
-
-.flex-container {
-  display: flex;
-}
-
-#margin-indicator {
-  position: relative;
-  height: 100px;
-  width: 1px;
-  background-color: red;
-  opacity: 0.5;
-  display: flex;
-}
-
-.carousel {
-  width: 300px;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  display: flex;
-  border: solid;
-  /* outline: 200px solid rgba(0, 0, 0, 0.1); */
-}
-.carousel img {
-  scroll-snap-stop: always;
-  scroll-snap-align: start;
-  display: block;
-  width: 195px;
-  height: 99px;
-  min-width: 195px;
-  min-height: 99px;
-  margin-right: 10px;
-  background-color: #eee; /* Placeholder background */
-}
-
-.controls {
-  margin-top: 10px;
-}
-
-#log {
-  height: 100px;
-  overflow: scroll;
-  padding: 0.5rem;
-  border: 1px solid black;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 keyboardevent: {
                   children: {
@@ -34533,52 +33215,6 @@ body {
                       slug: "/en-US/docs/Web/API/MediaQueryList/media",
                       messages: [
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#88f" to be "#8888ff" (color-hex-length)',
-                            "  color: #88f;",
-                            "6:10 - 6:14",
-                            `/en-US/docs/Web/API/MediaQueryList/media
-[color-hex-length] Expected "#88f" to be "#8888ff" (color-hex-length)
-~~~
-.mq-value {
-  font:
-    18px arial,
-    sans-serif;
-  font-weight: bold;
-  color: #88f;
-  padding: 0.4em;
-  border: 1px solid #dde;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#dde" to be "#ddddee" (color-hex-length)',
-                            "  border: 1px solid #dde;",
-                            "8:21 - 8:25",
-                            `/en-US/docs/Web/API/MediaQueryList/media
-[color-hex-length] Expected "#dde" to be "#ddddee" (color-hex-length)
-~~~
-.mq-value {
-  font:
-    18px arial,
-    sans-serif;
-  font-weight: bold;
-  color: #88f;
-  padding: 0.4em;
-  border: 1px solid #dde;
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "font-family-name-quotes",
@@ -34593,9 +33229,9 @@ body {
     18px arial,
     sans-serif;
   font-weight: bold;
-  color: #88f;
+  color: #8888ff;
   padding: 0.4em;
-  border: 1px solid #dde;
+  border: 1px solid #ddddee;
 }
 ~~~
 `
@@ -34670,37 +33306,7 @@ aside {
   height: 100%;
   transform: translateX(100%);
   transition: 0.6s all;
-  background-color: #999;
-  background-image: linear-gradient(
-    to top right,
-    transparent,
-    rgb(0 0 0 / 50%)
-  );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#999" to be "#999999" (color-hex-length)',
-                            "  background-color: #999;",
-                            "10:21 - 10:25",
-                            `/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-aside {
-  position: fixed;
-  top: 0;
-  left: 0;
-  text-shadow: 1px 1px 1px black;
-  width: 100%;
-  height: 100%;
-  transform: translateX(100%);
-  transition: 0.6s all;
-  background-color: #999;
+  background-color: #999999;
   background-image: linear-gradient(
     to top right,
     transparent,
@@ -34800,38 +33406,6 @@ aside {
                         {
                           message: "Page status not backed by BCD",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                notifications_api: {
-                  children: {
-                    using_the_notifications_api: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  background-color: #ddd;",
-                            "4:21 - 4:25",
-                            `/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-#demo-logs {
-  width: 90%;
-  height: 100px;
-  background-color: #ddd;
-  overflow-x: auto;
-  padding: 10px;
-  margin-top: 10px;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     }
@@ -35444,46 +34018,6 @@ html {
                     }
                   ]
                 },
-                range: {
-                  children: {
-                    commonancestorcontainer: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Range/commonAncestorContainer",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#f000" to be "#ff000000" (color-hex-length)',
-                            "    outline: 1px solid #f000;",
-                            "10:24 - 10:29",
-                            `/en-US/docs/Web/API/Range/commonAncestorContainer
-[color-hex-length] Expected "#f000" to be "#ff000000" (color-hex-length)
-~~~
-.highlight {
-  animation: highlight linear 1s;
-}
-
-@keyframes highlight {
-  from {
-    outline: 1px solid red;
-  }
-  to {
-    outline: 1px solid #f000;
-  }
-}
-
-body {
-  padding: 1px;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 rtcicecandidatepair: {
                   children: {
                     local: {
@@ -35726,79 +34260,10 @@ body {
                 },
                 screen_capture_api: {
                   children: {
-                    element_region_capture: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Screen_Capture_API/Element_Region_Capture",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  border: 1px solid #ccc;",
-                            "11:21 - 11:25",
-                            `/en-US/docs/Web/API/Screen_Capture_API/Element_Region_Capture
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  padding: 0 25px;
-}
-
-video,
-#demo > p {
-  border: 1px solid #ccc;
-  margin: 0;
-}
-
-#demo > h2 {
-  margin-top: 0;
-}
-
-#demo > p {
-  padding: 5px;
-  height: 320px;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     using_screen_capture: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Screen_Capture_API/Using_Screen_Capture",
                       messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#999" to be "#999999" (color-hex-length)',
-                            "  border: 1px solid #999;",
-                            "2:21 - 2:25",
-                            `/en-US/docs/Web/API/Screen_Capture_API/Using_Screen_Capture
-[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
-~~~
-#video {
-  border: 1px solid #999;
-  width: 98%;
-  max-width: 860px;
-}
-
-#log {
-  width: 25rem;
-  height: 15rem;
-  border: 1px solid black;
-  padding: 0.5rem;
-  overflow: scroll;
-}
-~~~
-`
-                          ]
-                        },
                         {
                           message: "Unexpected BCD keys",
                           data: [
@@ -35967,42 +34432,6 @@ video,
                     }
                   ]
                 },
-                sourcebuffer: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SourceBuffer",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/SourceBuffer/abort_event"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/SourceBuffer/error_event"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/SourceBuffer/update_event"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/SourceBuffer/updateend_event"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/SourceBuffer/updatestart_event"
-                      ]
-                    }
-                  ]
-                },
                 subtlecrypto: {
                   children: {
                     derivekey: {
@@ -36155,281 +34584,6 @@ textarea,
                     }
                   }
                 },
-                svganimationelement: {
-                  children: {
-                    beginevent_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGAnimationElement/beginEvent_event",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  border: 1px solid #ddd;",
-                            "3:21 - 3:25",
-                            `/en-US/docs/Web/API/SVGAnimationElement/beginEvent_event
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-ul {
-  height: 100px;
-  border: 1px solid #ddd;
-  overflow-y: scroll;
-  padding: 10px 30px;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    endevent_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGAnimationElement/endEvent_event",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  border: 1px solid #ddd;",
-                            "3:21 - 3:25",
-                            `/en-US/docs/Web/API/SVGAnimationElement/endEvent_event
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-ul {
-  height: 100px;
-  border: 1px solid #ddd;
-  overflow-y: scroll;
-  padding: 10px 30px;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    repeatevent_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGAnimationElement/repeatEvent_event",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  border: 1px solid #ddd;",
-                            "3:21 - 3:25",
-                            `/en-US/docs/Web/API/SVGAnimationElement/repeatEvent_event
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-ul {
-  height: 100px;
-  border: 1px solid #ddd;
-  overflow-y: scroll;
-  padding: 10px 30px;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                textformat: {
-                  children: {
-                    rangeend: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/TextFormat/rangeEnd",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "3:15 - 3:19",
-                            `/en-US/docs/Web/API/TextFormat/rangeEnd
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-#editor {
-  height: 200px;
-  background: #eee;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    rangestart: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/TextFormat/rangeStart",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "3:15 - 3:19",
-                            `/en-US/docs/Web/API/TextFormat/rangeStart
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-#editor {
-  height: 200px;
-  background: #eee;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    underlinestyle: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/TextFormat/underlineStyle",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "3:15 - 3:19",
-                            `/en-US/docs/Web/API/TextFormat/underlineStyle
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-#editor {
-  height: 200px;
-  background: #eee;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    underlinethickness: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/TextFormat/underlineThickness",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "3:15 - 3:19",
-                            `/en-US/docs/Web/API/TextFormat/underlineThickness
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-#editor {
-  height: 200px;
-  background: #eee;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/TextFormat",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                        "  background: #eee;",
-                        "3:15 - 3:19",
-                        `/en-US/docs/Web/API/TextFormat
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-#editor {
-  height: 200px;
-  background: #eee;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                textupdateevent: {
-                  children: {
-                    selectionend: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/TextUpdateEvent/selectionEnd",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "3:15 - 3:19",
-                            `/en-US/docs/Web/API/TextUpdateEvent/selectionEnd
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-#editor {
-  height: 200px;
-  background: #eee;
-  color: black;
-}
-
-.selection {
-  display: inline-block;
-  vertical-align: bottom;
-  background: blue;
-  color: white;
-  min-width: 2px;
-  height: 3ex;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    selectionstart: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/TextUpdateEvent/selectionStart",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: #eee;",
-                            "3:15 - 3:19",
-                            `/en-US/docs/Web/API/TextUpdateEvent/selectionStart
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-#editor {
-  height: 200px;
-  background: #eee;
-  color: black;
-}
-
-.selection {
-  display: inline-block;
-  vertical-align: bottom;
-  background: blue;
-  color: white;
-  min-width: 2px;
-  height: 3ex;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 touch_events: {
                   children: {
                     "multi-touch_interaction": {
@@ -36465,30 +34619,6 @@ ul {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Touch_events/Multi-touch_interaction"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                        "  border: 1px solid #ccc;",
-                        "9:21 - 9:25",
-                        `/en-US/docs/Web/API/Touch_events
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-#canvas {
-  border: 1px solid black;
-}
-
-#log {
-  height: 200px;
-  width: 600px;
-  overflow: scroll;
-  border: 1px solid #ccc;
-}
-~~~
-`
                       ]
                     }
                   ]
@@ -36828,130 +34958,23 @@ p {
                 },
                 web_audio_api: {
                   children: {
+                    advanced_techniques: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://soundbible.com/1573-DTMF-Tones.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     simple_synth: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Simple_synth",
                       messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eef" to be "#eeeeff" (color-hex-length)',
-                            "  background-color: #eef;",
-                            "52:21 - 52:25",
-                            `/en-US/docs/Web/API/Web_Audio_API/Simple_synth
-[color-hex-length] Expected "#eef" to be "#eeeeff" (color-hex-length)
-~~~
-.container {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  width: 660px;
-  height: 110px;
-  white-space: nowrap;
-  margin: 10px;
-}
-
-.keyboard {
-  width: auto;
-  padding: 0;
-  margin: 0;
-}
-
-.key {
-  cursor: pointer;
-  font:
-    16px "Open Sans",
-    "Lucida Grande",
-    "Arial",
-    sans-serif;
-  border: 1px solid black;
-  border-radius: 5px;
-  width: 20px;
-  height: 80px;
-  text-align: center;
-  box-shadow: 2px 2px darkgray;
-  display: inline-block;
-  position: relative;
-  margin-right: 3px;
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-}
-
-.key div {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
-  width: 100%;
-  pointer-events: none;
-}
-
-.key div sub {
-  font-size: 10px;
-  pointer-events: none;
-}
-
-.key:hover {
-  background-color: #eef;
-}
-
-.key:active,
-.active {
-  background-color: black;
-  color: white;
-}
-
-.octave {
-  display: inline-block;
-  padding: 0 6px 0 0;
-}
-
-.settingsBar {
-  padding-top: 8px;
-  font:
-    14px "Open Sans",
-    "Lucida Grande",
-    "Arial",
-    sans-serif;
-  position: relative;
-  vertical-align: middle;
-  width: 100%;
-  height: 30px;
-}
-
-.left {
-  width: 50%;
-  position: absolute;
-  left: 0;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.left span,
-.left input {
-  vertical-align: middle;
-}
-
-.right {
-  width: 50%;
-  position: absolute;
-  right: 0;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.right span {
-  vertical-align: middle;
-}
-
-.right input {
-  vertical-align: baseline;
-}
-~~~
-`
-                          ]
-                        },
                         {
                           message: "Stylelint backlog",
                           data: [
@@ -37013,7 +35036,7 @@ p {
 }
 
 .key:hover {
-  background-color: #eef;
+  background-color: #eeeeff;
 }
 
 .key:active,
@@ -37130,57 +35153,6 @@ p {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_components/Using_templates_and_slots",
                       messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#666" to be "#666666" (color-hex-length)',
-                            "      background-color: #666;",
-                            "4:25 - 4:29",
-                            `/en-US/docs/Web/API/Web_components/Using_templates_and_slots
-[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
-~~~
-<template id="custom-paragraph">
-  <style>
-    p {
-      color: white;
-      background-color: #666;
-      padding: 5px;
-    }
-  </style>
-  <p>My paragraph</p>
-</template>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#666" to be "#666666" (color-hex-length)',
-                            "      background-color: #666;",
-                            "4:25 - 4:29",
-                            `/en-US/docs/Web/API/Web_components/Using_templates_and_slots
-[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
-~~~
-<template id="custom-paragraph">
-  <style>
-    p {
-      color: white;
-      background-color: #666;
-      padding: 5px;
-    }
-  </style>
-  <p>
-    <slot name="my-text">My default text</slot>
-    <slot></slot>
-  </p>
-</template>
-~~~
-`
-                          ]
-                        },
                         {
                           message: "Stylelint backlog",
                           data: [
@@ -37553,296 +35525,6 @@ api.Window.sessionStorage`,
                     }
                   ]
                 },
-                webgl_api: {
-                  children: {
-                    matrix_math_for_the_web: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebGL_API/Matrix_math_for_the_web",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#4cc" to be "#44cccc" (color-hex-length)',
-                            "  background: #4cc;",
-                            "5:15 - 5:19",
-                            `/en-US/docs/Web/API/WebGL_API/Matrix_math_for_the_web
-[color-hex-length] Expected "#4cc" to be "#44cccc" (color-hex-length)
-~~~
-.transformable {
-  width: 200px;
-  height: 200px;
-  overflow-y: scroll;
-  background: #4cc;
-  padding: 10px;
-  border: 2px solid #333;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -100px;
-  margin-top: -100px;
-  transition: transform 500ms;
-}
-.transformable h2 {
-  margin-top: 0;
-}
-.ghost {
-  opacity: 0.1;
-  pointer-events: none;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  border: 2px solid #333;",
-                            "7:21 - 7:25",
-                            `/en-US/docs/Web/API/WebGL_API/Matrix_math_for_the_web
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-.transformable {
-  width: 200px;
-  height: 200px;
-  overflow-y: scroll;
-  background: #4cc;
-  padding: 10px;
-  border: 2px solid #333;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -100px;
-  margin-top: -100px;
-  transition: transform 500ms;
-}
-.transformable h2 {
-  margin-top: 0;
-}
-.ghost {
-  opacity: 0.1;
-  pointer-events: none;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#4cc" to be "#44cccc" (color-hex-length)',
-                            "  background: #4cc;",
-                            "5:15 - 5:19",
-                            `/en-US/docs/Web/API/WebGL_API/Matrix_math_for_the_web
-[color-hex-length] Expected "#4cc" to be "#44cccc" (color-hex-length)
-~~~
-.transformable {
-  width: 200px;
-  height: 200px;
-  overflow-y: scroll;
-  background: #4cc;
-  padding: 10px;
-  border: 2px solid #333;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -100px;
-  margin-top: -100px;
-  transition: transform 500ms;
-}
-.transformable h2 {
-  margin-top: 0;
-}
-.ghost {
-  opacity: 0.1;
-  pointer-events: none;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  border: 2px solid #333;",
-                            "7:21 - 7:25",
-                            `/en-US/docs/Web/API/WebGL_API/Matrix_math_for_the_web
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-.transformable {
-  width: 200px;
-  height: 200px;
-  overflow-y: scroll;
-  background: #4cc;
-  padding: 10px;
-  border: 2px solid #333;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -100px;
-  margin-top: -100px;
-  transition: transform 500ms;
-}
-.transformable h2 {
-  margin-top: 0;
-}
-.ghost {
-  opacity: 0.1;
-  pointer-events: none;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#4cc" to be "#44cccc" (color-hex-length)',
-                            "  background: #4cc;",
-                            "5:15 - 5:19",
-                            `/en-US/docs/Web/API/WebGL_API/Matrix_math_for_the_web
-[color-hex-length] Expected "#4cc" to be "#44cccc" (color-hex-length)
-~~~
-.transformable {
-  width: 200px;
-  height: 200px;
-  overflow-y: scroll;
-  background: #4cc;
-  padding: 10px;
-  border: 2px solid #333;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -100px;
-  margin-top: -100px;
-  transition: transform 500ms;
-}
-.transformable h2 {
-  margin-top: 0;
-}
-.ghost {
-  opacity: 0.1;
-  pointer-events: none;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  border: 2px solid #333;",
-                            "7:21 - 7:25",
-                            `/en-US/docs/Web/API/WebGL_API/Matrix_math_for_the_web
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-.transformable {
-  width: 200px;
-  height: 200px;
-  overflow-y: scroll;
-  background: #4cc;
-  padding: 10px;
-  border: 2px solid #333;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -100px;
-  margin-top: -100px;
-  transition: transform 500ms;
-}
-.transformable h2 {
-  margin-top: 0;
-}
-.ghost {
-  opacity: 0.1;
-  pointer-events: none;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#4cc" to be "#44cccc" (color-hex-length)',
-                            "  background: #4cc;",
-                            "5:15 - 5:19",
-                            `/en-US/docs/Web/API/WebGL_API/Matrix_math_for_the_web
-[color-hex-length] Expected "#4cc" to be "#44cccc" (color-hex-length)
-~~~
-.transformable {
-  width: 200px;
-  height: 200px;
-  overflow-y: scroll;
-  background: #4cc;
-  padding: 10px;
-  border: 2px solid #333;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -100px;
-  margin-top: -100px;
-  transition: transform 500ms;
-}
-.transformable h2 {
-  margin-top: 0;
-}
-.ghost {
-  opacity: 0.1;
-  pointer-events: none;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  border: 2px solid #333;",
-                            "7:21 - 7:25",
-                            `/en-US/docs/Web/API/WebGL_API/Matrix_math_for_the_web
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-.transformable {
-  width: 200px;
-  height: 200px;
-  overflow-y: scroll;
-  background: #4cc;
-  padding: 10px;
-  border: 2px solid #333;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -100px;
-  margin-top: -100px;
-  transition: transform 500ms;
-}
-.transformable h2 {
-  margin-top: 0;
-}
-.ghost {
-  opacity: 0.1;
-  pointer-events: none;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 webrtc_api: {
                   children: {
                     build_a_phone_with_peerjs: {
@@ -37935,104 +35617,10 @@ api.Window.sessionStorage`,
                 },
                 window: {
                   children: {
-                    blur_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/blur_event",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  background: #ddd;",
-                            "2:15 - 2:19",
-                            `/en-US/docs/Web/API/Window/blur_event
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-.paused {
-  background: #ddd;
-  color: #555;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#555" to be "#555555" (color-hex-length)',
-                            "  color: #555;",
-                            "3:10 - 3:14",
-                            `/en-US/docs/Web/API/Window/blur_event
-[color-hex-length] Expected "#555" to be "#555555" (color-hex-length)
-~~~
-.paused {
-  background: #ddd;
-  color: #555;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     devicepixelratio: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Window/devicePixelRatio",
                       messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#22d" to be "#2222dd" (color-hex-length)',
-                            "  border: 2px solid #22d;",
-                            "8:21 - 8:25",
-                            `/en-US/docs/Web/API/Window/devicePixelRatio
-[color-hex-length] Expected "#22d" to be "#2222dd" (color-hex-length)
-~~~
-body {
-  font:
-    22px arial,
-    sans-serif;
-}
-
-#container {
-  border: 2px solid #22d;
-  margin: 1rem auto;
-  padding: 1rem;
-  background-color: #a9f;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#a9f" to be "#aa99ff" (color-hex-length)',
-                            "  background-color: #a9f;",
-                            "11:21 - 11:25",
-                            `/en-US/docs/Web/API/Window/devicePixelRatio
-[color-hex-length] Expected "#a9f" to be "#aa99ff" (color-hex-length)
-~~~
-body {
-  font:
-    22px arial,
-    sans-serif;
-}
-
-#container {
-  border: 2px solid #22d;
-  margin: 1rem auto;
-  padding: 1rem;
-  background-color: #a9f;
-}
-~~~
-`
-                          ]
-                        },
                         {
                           message: "Stylelint backlog",
                           data: [
@@ -38050,52 +35638,10 @@ body {
 }
 
 #container {
-  border: 2px solid #22d;
+  border: 2px solid #2222dd;
   margin: 1rem auto;
   padding: 1rem;
-  background-color: #a9f;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    focus_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/focus_event",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  background: #ddd;",
-                            "2:15 - 2:19",
-                            `/en-US/docs/Web/API/Window/focus_event
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-.paused {
-  background: #ddd;
-  color: #555;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#555" to be "#555555" (color-hex-length)',
-                            "  color: #555;",
-                            "3:10 - 3:14",
-                            `/en-US/docs/Web/API/Window/focus_event
-[color-hex-length] Expected "#555" to be "#555555" (color-hex-length)
-~~~
-.paused {
-  background: #ddd;
-  color: #555;
+  background-color: #aa99ff;
 }
 ~~~
 `
@@ -38107,52 +35653,6 @@ body {
                       children: {},
                       slug: "/en-US/docs/Web/API/Window/matchMedia",
                       messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#88f" to be "#8888ff" (color-hex-length)',
-                            "  color: #88f;",
-                            "6:10 - 6:14",
-                            `/en-US/docs/Web/API/Window/matchMedia
-[color-hex-length] Expected "#88f" to be "#8888ff" (color-hex-length)
-~~~
-.mq-value {
-  font:
-    18px arial,
-    sans-serif;
-  font-weight: bold;
-  color: #88f;
-  padding: 0.4em;
-  border: 1px solid #dde;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#dde" to be "#ddddee" (color-hex-length)',
-                            "  border: 1px solid #dde;",
-                            "8:21 - 8:25",
-                            `/en-US/docs/Web/API/Window/matchMedia
-[color-hex-length] Expected "#dde" to be "#ddddee" (color-hex-length)
-~~~
-.mq-value {
-  font:
-    18px arial,
-    sans-serif;
-  font-weight: bold;
-  color: #88f;
-  padding: 0.4em;
-  border: 1px solid #dde;
-}
-~~~
-`
-                          ]
-                        },
                         {
                           message: "Stylelint backlog",
                           data: [
@@ -38168,9 +35668,9 @@ body {
     18px arial,
     sans-serif;
   font-weight: bold;
-  color: #88f;
+  color: #8888ff;
   padding: 0.4em;
-  border: 1px solid #dde;
+  border: 1px solid #ddddee;
 }
 ~~~
 `
@@ -108437,12 +105937,6 @@ pre {
                     {
                       message: "Broken link",
                       data: [
-                        "/en-US/docs/Web/CSS/@page/marks"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
                         "/en-US/docs/Web/CSS/max-lines"
                       ]
                     },
@@ -113789,19 +111283,6 @@ hr::after {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        },
-                        iframe: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/iframe",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://example.org/",
-                                "The operation timed out."
                               ]
                             }
                           ]
