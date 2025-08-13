@@ -1390,6 +1390,8 @@ div#header {
 /en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
 [color-function-notation] Expected modern color-function notation (color-function-notation)
 [color-function-alias-notation] Expected "rgba" to be "rgb" (color-function-alias-notation)
+[color-hex-length] Expected "#f0f" to be "#ff00ff" (color-hex-length)
+[color-hex-length] Expected "#f0ff" to be "#ff00ffff" (color-hex-length)
 [color-named] Expected "rgb(100% 0% 100%)" to be "fuchsia" (color-named)
 [color-named] Expected "rgb(100% 0% 100%/100%)" to be "fuchsia" (color-named)
 [color-named] Expected "rgb(255 0 255)" to be "fuchsia" (color-named)
@@ -3089,6 +3091,13 @@ div {
 ~~~
 color: #ff0000;
 color: #f00;
+~~~
+
+/en-US/docs/Web/CSS/CSS_colors/Color_values
+[color-hex-length] Expected "#f004" to be "#ff000044" (color-hex-length)
+~~~
+color: #ff000044;
+color: #f004;
 ~~~
 
 /en-US/docs/Web/CSS/CSS_colors/Color_values
