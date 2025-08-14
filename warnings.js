@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-cbs37kz0.js";
+} from "./chunk-042wfj40.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -26678,6 +26678,19 @@ body * {
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mail.gnu.org/mailman/listinfo/help-gnu-emacs",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -29047,114 +29060,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           ]
                         },
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#f0f" to be "#ff00ff" (color-hex-length)',
-                            "color: #f0f; /* #rgb, a shorthand for #rrggbb */",
-                            "17:8 - 17:12",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-hex-length] Expected "#f0f" to be "#ff00ff" (color-hex-length)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by LAB representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#f0ff" to be "#ff00ffff" (color-hex-length)',
-                            "color: #f0ff; /* #rgba */",
-                            "19:8 - 19:13",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-hex-length] Expected "#f0ff" to be "#ff00ffff" (color-hex-length)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by LAB representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "hue-degree-notation",
@@ -30575,25 +30480,6 @@ http.headers.Permissions-Policy.deferred-fetch-minimal`,
                       ]
                     }
                   ]
-                },
-                fontface: {
-                  children: {
-                    variationsettings: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FontFace/variationSettings",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental"
-                            ],
-                            []
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 force_touch_events: {
                   children: {},
@@ -32840,7 +32726,21 @@ aside {
                   }
                 },
                 payment_request_api: {
-                  children: {},
+                  children: {
+                    using_secure_payment_confirmation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Payment_Request_API/Using_secure_payment_confirmation",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.emvco.com/emv-technologies/secure-remote-commerce/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
                   messages: [
                     {
@@ -54470,22 +54370,6 @@ div {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_colors/Color_values",
                       messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#f004" to be "#ff000044" (color-hex-length)',
-                            "color: #f004;",
-                            "2:8 - 2:13",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
-[color-hex-length] Expected "#f004" to be "#ff000044" (color-hex-length)
-~~~
-color: #ff000044;
-color: #f004;
-~~~
-`
-                          ]
-                        },
                         {
                           message: "Stylelint backlog",
                           data: [
@@ -92162,19 +92046,6 @@ h2 {
                   children: {
                     formats: {
                       children: {
-                        audio_codecs: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.via-la.com/licensing-2/aac/",
-                                503
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -92182,57 +92053,8 @@ h2 {
                             {
                               message: "Broken external link",
                               data: [
-                                "https://www.via-la.com/licensing-2/avc-h-264/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.via-la.com/licensing-2/avc-h-264/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.via-la.com/licensing-2/hevc-vvc/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.via-la.com/licensing-2/hevc-vvc/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.via-la.com/licensing-2/mpeg-4-visual/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.via-la.com/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
                                 "https://about.att.com/innovation/ip/patents",
                                 403
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.via-la.com/licensing-2/mpeg-2/",
-                                503
                               ]
                             }
                           ]
