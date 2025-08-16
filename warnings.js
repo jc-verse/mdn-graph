@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-2rcq3r20.js";
+} from "./chunk-jf3053da.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -203,15 +203,15 @@ var warnings_processed_default = {
                 }
               ]
             },
-            brotli_compression: {
+            browser: {
               children: {},
-              slug: "/en-US/docs/Glossary/Brotli_compression",
+              slug: "/en-US/docs/Glossary/Browser",
               messages: [
                 {
-                  message: "Broken external link",
+                  message: "Redirected external link",
                   data: [
-                    "https://brotli.org/",
-                    "Cannot reach server and Bun hangs"
+                    "https://support.apple.com/downloads/safari",
+                    "https://support.apple.com/en-us/docs"
                   ]
                 }
               ]
@@ -542,22 +542,15 @@ div.warning {
                 }
               ]
             },
-            gpl: {
+            google_chrome: {
               children: {},
-              slug: "/en-US/docs/Glossary/GPL",
+              slug: "/en-US/docs/Glossary/Google_Chrome",
               messages: [
                 {
-                  message: "Broken external link",
+                  message: "Redirected external link",
                   data: [
-                    "https://www.gnu.org/licenses/gpl-faq.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
+                    "https://bugs.chromium.org/p/chromium/issues/list",
+                    "https://issues.chromium.org/issues"
                   ]
                 }
               ]
@@ -1031,26 +1024,6 @@ div.warning {
                 }
               ]
             },
-            internationalization: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Internationalization",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://home.unicode.org/",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://home.unicode.org/",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
-            },
             khronos: {
               children: {},
               slug: "/en-US/docs/Glossary/Khronos",
@@ -1058,19 +1031,6 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -1125,6 +1085,18 @@ div.warning {
                 }
               ]
             },
+            microsoft_edge: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Microsoft_Edge",
+              messages: [
+                {
+                  message: "Self link",
+                  data: [
+                    "/en-US/docs/Glossary/Microsoft_Edge"
+                  ]
+                }
+              ]
+            },
             modem: {
               children: {},
               slug: "/en-US/docs/Glossary/Modem",
@@ -1142,6 +1114,19 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            mozilla_firefox: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Mozilla_Firefox",
+              messages: [
+                {
+                  message: "Redirected external link",
+                  data: [
+                    "https://www.mozilla.org/en-US/firefox/releases/",
+                    "https://www.firefox.com/en-US/releases/?redirect_source=mozilla-org"
+                  ]
                 }
               ]
             },
@@ -1172,6 +1157,19 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            opera_browser: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Opera_Browser",
+              messages: [
+                {
+                  message: "Redirected external link",
+                  data: [
+                    "https://apps.apple.com/app/opera-browser-fast-private/id1411869974",
+                    "https://apps.apple.com/us/app/opera-ai-browser-with-vpn/id1411869974"
+                  ]
                 }
               ]
             },
@@ -1322,13 +1320,6 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://angular.dev/guide/routing/common-router-tasks",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -10265,6 +10256,13 @@ button {
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://wiki.creativecommons.org/wiki/Best_practices_for_attribution",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -15453,13 +15451,6 @@ p {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://24ways.org/2011/creating-custom-font-stacks-with-unicode-range/",
-                            404
-                          ]
                         }
                       ]
                     }
@@ -15511,19 +15502,6 @@ p {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mikethomas/pen/kQjKLW"
-                          ]
-                        }
-                      ]
-                    },
-                    third_party_apis: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Third_party_APIs",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://console.cloud.google.com/apis/enabled",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -25969,19 +25947,6 @@ option::checkmark {
                         }
                       ]
                     },
-                    sending_and_retrieving_form_data: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Sending_and_retrieving_form_data",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://spring.io/guides/gs/handling-form-submission/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     sending_forms_through_javascript: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Sending_forms_through_JavaScript",
@@ -26088,19 +26053,6 @@ textarea:focus {
                         }
                       ]
                     },
-                    html: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/HTML",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://web.dev/articles/iframe-lazy-loading",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     web_performance_basics: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Web_Performance_Basics",
@@ -26108,13 +26060,6 @@ textarea:focus {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -26129,13 +26074,6 @@ textarea:focus {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://httpd.apache.org/docs/current/misc/perf-tuning.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -26148,152 +26086,6 @@ textarea:focus {
                           data: []
                         }
                       ]
-                    },
-                    django: {
-                      children: {
-                        authentication: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Authentication",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.python.org/3/library/functions.html",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
-                        forms: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Forms",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/topics/i18n/translation/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.python.org/3/library/datetime.html",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
-                        generic_views: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Generic_views",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/topics/db/queries/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
-                        home_page: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Home_page",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/intro/tutorial03/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
-                        introduction: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Introduction",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/stable/releases/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
-                        models: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Models",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/topics/db/queries/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/topics/db/queries/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
-                        skeleton_website: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/skeleton_website",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/ref/django-admin/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
-                        testing: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Testing",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/ref/django-admin/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.djangoproject.com/en/5.0/ref/django-admin/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    first_steps: {
-                      children: {
-                        website_security: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Website_security",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.mozilla.org/en-US/security/bug-bounty/faq-webapp/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     },
                     node_server_without_framework: {
                       children: {},
@@ -26509,19 +26301,6 @@ button:active {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.android.com/studio/run/emulator.html",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -26970,33 +26749,6 @@ body * {
                 },
                 tools_and_setup: {
                   children: {
-                    available_text_editors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -27004,45 +26756,6 @@ body * {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    how_much_does_it_cost: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.blogger.com/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    what_software_do_i_need: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -27150,6 +26863,19 @@ body * {
             },
             writing_guidelines: {
               children: {
+                attrib_copyright_license: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 changelog: {
                   children: {},
                   slug: "/en-US/docs/MDN/Writing_guidelines/Changelog",
@@ -27263,23 +26989,6 @@ color: rgb(31 41 59 / 26%);
                   children: {
                     api: {
                       children: {
-                        bookmarks: {
-                          children: {
-                            search: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/bookmarks/search",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://extensionworkshop.com/documentation/develop/debugging/",
-                                    "Cannot reach server and Bun hangs"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         contentscripts: {
                           children: {
                             registeredcontentscript: {
@@ -27364,17 +27073,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     }
                                   ]
@@ -27398,17 +27107,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     }
                                   ]
@@ -27417,10 +27126,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "HTTP link",
+                                  message: "Broken external link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    ""
+                                    "Cannot reach server and Bun hangs"
                                   ]
                                 }
                               ]
@@ -27571,17 +27280,7 @@ color: rgb(31 41 59 / 26%);
                                 }
                               }
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://support.mozilla.org/en-US/kb/permission-request-messages-firefox-extensions",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         events: {
                           children: {
@@ -27670,23 +27369,6 @@ color: rgb(31 41 59 / 26%);
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        runtime: {
-                          children: {
-                            getbackgroundpage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getBackgroundPage",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://developer.chrome.com/docs/extensions/develop/migrate/to-service-workers",
-                                    "Cannot reach server and Bun hangs"
-                                  ]
                                 }
                               ]
                             }
@@ -27811,17 +27493,7 @@ color: rgb(31 41 59 / 26%);
                                 }
                               }
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://extensionworkshop.com/documentation/develop/debugging/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         types: {
                           children: {
@@ -28017,17 +27689,7 @@ color: rgb(31 41 59 / 26%);
                             }
                           }
                         }
-                      },
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://extensionworkshop.com/documentation/develop/debugging/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     content_scripts: {
                       children: {
@@ -28067,19 +27729,6 @@ color: rgb(31 41 59 / 26%);
                         }
                       ]
                     },
-                    extending_the_developer_tools: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Extending_the_developer_tools",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://support.mozilla.org/en-US/kb/permission-request-messages-firefox-extensions",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     interact_with_the_clipboard: {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard",
@@ -28098,45 +27747,6 @@ webextensions.api.clipboard`,
                     },
                     "manifest.json": {
                       children: {
-                        browser_specific_settings: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_specific_settings",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://extensionworkshop.com/documentation/manage/updating-your-extension/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
-                        devtools_page: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/devtools_page",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://support.mozilla.org/en-US/kb/permission-request-messages-firefox-extensions",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
-                        storage: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/storage",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.chrome.com/docs/extensions/mv2/manifest/storage/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         version: {
                           children: {
                             format: {
@@ -28164,32 +27774,6 @@ webextensions.api.clipboard`,
                             "webextensions.match_patterns.scheme",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    },
-                    modify_a_web_page: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Modify_a_web_page",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://extensionworkshop.com/documentation/develop/debugging/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    native_messaging: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_messaging",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://extensionworkshop.com/documentation/develop/debugging/",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -28826,19 +28410,6 @@ webextensions.manifest.options_ui`,
                               ]
                             }
                           ]
-                        },
-                        popups: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Popups",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://extensionworkshop.com/documentation/develop/debugging/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
                         }
                       }
                     },
@@ -28854,45 +28425,6 @@ webextensions.manifest.options_ui`,
                           ]
                         }
                       ]
-                    },
-                    what_next: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/What_next",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://extensionworkshop.com/documentation/enterprise/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    working_with_the_tabs_api: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_the_Tabs_API",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://extensionworkshop.com/documentation/develop/debugging/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    your_second_webextension: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://extensionworkshop.com/documentation/develop/debugging/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions",
@@ -28901,13 +28433,6 @@ webextensions.manifest.options_ui`,
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Mozilla/Add-ons/WebExtensions/Developing_WebExtensions_for_Thunderbird"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://extensionworkshop.com/documentation/develop/debugging/",
-                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -28918,18 +28443,23 @@ webextensions.manifest.options_ui`,
                 {
                   message: "Unreachable via sidebar",
                   data: []
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://extensionworkshop.com/documentation/enterprise/",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
             firefox: {
               children: {
+                experimental_features: {
+                  children: {},
+                  slug: "/en-US/docs/Mozilla/Firefox/Experimental_features",
+                  messages: [
+                    {
+                      message: "Code with underscore",
+                      data: [
+                        "security.integrity_policy.stylesheet.enabled"
+                      ]
+                    }
+                  ]
+                },
                 releases: {
                   children: {
                     "2": {
@@ -29230,80 +28760,16 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "31": {
+                    "111": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/31",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/111",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "Replace DT link with real target",
                           data: [
-                            "https://extensionworkshop.com/documentation/develop/debugging/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    "32": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/32",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://extensionworkshop.com/documentation/develop/debugging/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    "34": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/34",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://bugzilla.mozilla.org/buglist.cgi?resolution=FIXED&chfieldto=2014-09-02&chfield=resolution&query_format=advanced&chfieldfrom=2014-07-21&chfieldvalue=FIXED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&product=Add-on%20SDK&list_id=11562840",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    "43": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/43",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://support.mozilla.org/en-US/kb/third-party-cookies-firefox-tracking-protection",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    "108": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/108",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://support.mozilla.org/en-US/kb/site-permission-add-ons",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    "138": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/138",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=138",
-                            "Cannot reach server and Bun hangs"
+                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats#trackidentifier",
+                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/trackIdentifier",
+                            []
                           ]
                         }
                       ]
@@ -29800,19 +29266,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         }
                       ]
                     },
-                    seizure_disorders: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://pubmed.ncbi.nlm.nih.gov/?term=Barkley%20GL%5BAuthor%5D&cauthor=true&cauthor_uid=16146438",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     understanding_wcag: {
                       children: {
                         perceivable: {
@@ -30085,49 +29538,6 @@ body {
                     }
                   ]
                 },
-                audiocontext: {
-                  children: {
-                    setsinkid: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/AudioContext/setSinkId",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/blog/audiocontext-setsinkid/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    sinkchange_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/AudioContext/sinkchange_event",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/blog/audiocontext-setsinkid/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    sinkid: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/AudioContext/sinkId",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/blog/audiocontext-setsinkid/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 canvas_api: {
                   children: {
                     tutorial: {
@@ -30166,23 +29576,6 @@ body {
                     }
                   }
                 },
-                canvasrenderingcontext2d: {
-                  children: {
-                    fontstretch: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CanvasRenderingContext2D/fontStretch",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://fonts.google.com/specimen/Inconsolata/tester",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 channel_messaging_api: {
                   children: {
                     using_channel_messaging: {
@@ -30197,23 +29590,6 @@ body {
 api.MessagePort`,
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                clipboard: {
-                  children: {
-                    read: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Clipboard/read",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/docs/web-platform/unsanitized-html-async-clipboard",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -30989,36 +30365,6 @@ td {
                     }
                   ]
                 },
-                document: {
-                  children: {
-                    scrollsnapchange_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/scrollsnapchange_event",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/blog/scroll-snap-events",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    scrollsnapchanging_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/scrollsnapchanging_event",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/blog/scroll-snap-events",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 editcontext_api: {
                   children: {
                     guide: {
@@ -31175,61 +30521,8 @@ kbd {
                           ]
                         }
                       ]
-                    },
-                    scrollsnapchange_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/scrollsnapchange_event",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/blog/scroll-snap-events",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    scrollsnapchanging_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/scrollsnapchanging_event",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/blog/scroll-snap-events",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
                     }
                   }
-                },
-                fedcm_api: {
-                  children: {
-                    "rp_sign-in": {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FedCM_API/RP_sign-in",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://privacysandbox.google.com/cookies/fedcm/why",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/FedCM_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://developers.google.com/identity/gsi/web/guides/overview",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
                 },
                 fetchevent: {
                   children: {
@@ -31530,19 +30823,6 @@ article {
                     }
                   ]
                 },
-                houdini_apis: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Houdini_APIs",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.smashingmagazine.com/2020/03/practical-overview-css-houdini/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 html_dom_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/HTML_DOM_API",
@@ -31750,23 +31030,6 @@ h1 {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmliframeelement: {
-                  children: {
-                    loading: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLIFrameElement/loading",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://web.dev/articles/iframe-lazy-loading",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -32228,19 +31491,6 @@ output {
                         }
                       ]
                     },
-                    fetchpriority: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLImageElement/fetchPriority",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://web.dev/articles/fetch-priority?hl=en",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     sizes: {
                       children: {},
                       slug: "/en-US/docs/Web/API/HTMLImageElement/sizes",
@@ -32351,77 +31601,6 @@ article img {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmllinkelement: {
-                  children: {
-                    fetchpriority: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLLinkElement/fetchPriority",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://web.dev/articles/fetch-priority?hl=en",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmlscriptelement: {
-                  children: {
-                    fetchpriority: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLScriptElement/fetchPriority",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://web.dev/articles/fetch-priority?hl=en",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                indexeddb_api: {
-                  children: {
-                    basic_terminology: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/IndexedDB_API/Basic_Terminology",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://support.mozilla.org/en-US/kb/third-party-cookies-firefox-tracking-protection",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    using_indexeddb: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://support.mozilla.org/en-US/kb/third-party-cookies-firefox-tracking-protection",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://web.dev/articles/indexeddb-uidatabinding",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -33637,59 +32816,8 @@ aside {
                     }
                   }
                 },
-                navigator: {
-                  children: {
-                    getinstalledrelatedapps: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/getInstalledRelatedApps",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developers.google.com/digital-asset-links/v1/getting-started",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    serial: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/serial",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://codelabs.developers.google.com/codelabs/web-serial",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 payment_request_api: {
-                  children: {
-                    using_secure_payment_confirmation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Payment_Request_API/Using_secure_payment_confirmation",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.emvco.com/emv-technologies/3-d-secure/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.emvco.com/emv-technologies/secure-remote-commerce/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
                   messages: [
                     {
@@ -34442,79 +33570,130 @@ html {
                 },
                 rtcinboundrtpstreamstats: {
                   children: {
-                    averagertcpinterval: {
+                    jitterbufferdelay: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/averageRtcpInterval",
+                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/jitterBufferDelay",
                       messages: [
                         {
-                          message: "Not in BCD",
+                          message: "Self link",
                           data: [
-                            "api.RTCStatsReport.type_inbound-rtp.averageRtcpInterval"
+                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/jitterBufferDelay"
                           ]
                         }
                       ]
                     },
-                    packetsduplicated: {
+                    jitterbuffertargetdelay: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/packetsDuplicated",
+                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/jitterBufferTargetDelay",
                       messages: [
                         {
-                          message: "Not in BCD",
+                          message: "Self link",
                           data: [
-                            "api.RTCStatsReport.type_inbound-rtp.packetsDuplicated"
+                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/jitterBufferTargetDelay"
+                          ]
+                        },
+                        {
+                          message: "Self link",
+                          data: [
+                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/jitterBufferTargetDelay"
                           ]
                         }
                       ]
                     },
-                    packetsfaileddecryption: {
+                    packetslost: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/packetsFailedDecryption",
+                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/packetsLost",
                       messages: [
                         {
-                          message: "Not in BCD",
+                          message: "Self link",
                           data: [
-                            "api.RTCStatsReport.type_inbound-rtp.packetsFailedDecryption"
+                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/packetsLost"
+                          ]
+                        },
+                        {
+                          message: "Self link",
+                          data: [
+                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/packetsLost"
                           ]
                         }
                       ]
                     },
-                    perdscppacketsreceived: {
+                    playoutid: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/perDscpPacketsReceived",
+                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/playoutId",
                       messages: [
                         {
-                          message: "Not in BCD",
+                          message: "Broken link",
                           data: [
-                            "api.RTCStatsReport.type_inbound-rtp.perDscpPacketsReceived"
+                            "/en-US/docs/Web/API/RTCAudioPlayoutStats/id"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/RTCAudioPlayoutStats"
                           ]
                         }
                       ]
                     },
-                    receiverid: {
+                    totalinterframedelay: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/receiverId",
+                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/totalInterFrameDelay",
                       messages: [
                         {
-                          message: "Not in BCD",
+                          message: "Broken link",
                           data: [
-                            "api.RTCStatsReport.type_inbound-rtp.receiverId"
+                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/framesRendered"
                           ]
                         }
                       ]
                     },
-                    slicount: {
+                    totalsquaredinterframedelay: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/sliCount",
+                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/totalSquaredInterFrameDelay",
                       messages: [
                         {
-                          message: "Not in BCD",
+                          message: "Broken link",
                           data: [
-                            "api.RTCStatsReport.type_inbound-rtp.sliCount"
+                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/framesRendered"
                           ]
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats",
+                  messages: [
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/API/RTCAudioPlayoutStats"
+                      ]
+                    },
+                    {
+                      message: "Replace DT link with real target",
+                      data: [
+                        "#ssrc",
+                        "/en-US/docs/Web/API/RTCInboundRtpStreamStats/ssrc",
+                        []
+                      ]
+                    },
+                    {
+                      message: "Replace DT link with real target",
+                      data: [
+                        "#ssrc",
+                        "/en-US/docs/Web/API/RTCInboundRtpStreamStats/ssrc",
+                        []
+                      ]
+                    },
+                    {
+                      message: "Replace DT link with real target",
+                      data: [
+                        "#ssrc",
+                        "/en-US/docs/Web/API/RTCInboundRtpStreamStats/ssrc",
+                        []
+                      ]
+                    }
+                  ]
                 },
                 rtcstatsreport: {
                   children: {
@@ -34537,19 +33716,6 @@ html {
                 },
                 screen_capture_api: {
                   children: {
-                    element_region_capture: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Screen_Capture_API/Element_Region_Capture",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/docs/web-platform/region-capture",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     using_screen_capture: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Screen_Capture_API/Using_Screen_Capture",
@@ -34658,30 +33824,7 @@ html {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Server-sent_events",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://intercoolerjs.org/docs.html",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
-                },
-                serviceworker: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/ServiceWorker",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://web.dev/articles/offline-cookbook",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 sharedstorageoperation: {
                   children: {},
@@ -34741,59 +33884,6 @@ html {
                       message: "Not in BCD",
                       data: [
                         "api.SharedStorageSelectURLOperation"
-                      ]
-                    }
-                  ]
-                },
-                snapevent: {
-                  children: {
-                    snapevent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SnapEvent/SnapEvent",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/blog/scroll-snap-events",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    snaptargetblock: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SnapEvent/snapTargetBlock",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/blog/scroll-snap-events",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    snaptargetinline: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SnapEvent/snapTargetInline",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/blog/scroll-snap-events",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/SnapEvent",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://developer.chrome.com/blog/scroll-snap-events",
-                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -35100,21 +34190,7 @@ textarea,
                   }
                 },
                 ui_events: {
-                  children: {
-                    keyboard_event_key_values: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/UI_Events/Keyboard_event_key_values",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.atsc.org/atsc-documents/a100-dtv-application-software-environment-level-1-dase-1/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/UI_Events",
                   messages: [
                     {
@@ -35867,19 +34943,6 @@ body {
                     }
                   ]
                 },
-                web_serial_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Web_Serial_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://codelabs.developers.google.com/codelabs/web-serial",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
-                },
                 web_storage_api: {
                   children: {
                     using_the_web_storage_api: {
@@ -35898,17 +34961,7 @@ api.Window.sessionStorage`,
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Web_Storage_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://support.mozilla.org/en-US/kb/third-party-cookies-firefox-tracking-protection",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 web_workers_api: {
                   children: {},
@@ -36081,32 +35134,6 @@ body {
                         }
                       ]
                     },
-                    scrollsnapchange_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/scrollsnapchange_event",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/blog/scroll-snap-events",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    scrollsnapchanging_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/scrollsnapchanging_event",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/blog/scroll-snap-events",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     settimeout: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Window/setTimeout",
@@ -36205,19 +35232,6 @@ table {
                         }
                       ]
                     },
-                    serial: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WorkerNavigator/serial",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://codelabs.developers.google.com/codelabs/web-serial",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     setappbadge: {
                       children: {},
                       slug: "/en-US/docs/Web/API/WorkerNavigator/setAppBadge",
@@ -36231,19 +35245,6 @@ table {
                       ]
                     }
                   }
-                },
-                worklet: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Worklet",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://developer.chrome.com/docs/css-ui/houdini",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
                 },
                 workletsharedstorage: {
                   children: {
@@ -57246,19 +56247,6 @@ rgb(from red r g b / alpha)
                           ]
                         }
                       ]
-                    },
-                    using_color_wisely: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_colors/Using_color_wisely",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.khanacademy.org/computing/pixar/color",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -72477,30 +71465,10 @@ strong {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2020/03/practical-overview-css-houdini/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
                   }
-                },
-                css_scoping: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/CSS_scoping",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://web.dev/articles/custom-elements-best-practices",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
                 },
                 css_scroll_anchoring: {
                   children: {
@@ -73024,13 +71992,6 @@ main {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/blog/scroll-snap-events",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -73132,20 +72093,7 @@ article.snapDisabled ul {
                   ]
                 },
                 css_text: {
-                  children: {
-                    whitespace: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_text/Whitespace",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "#solving_problems_with_whitespace_nodes"
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/CSS/CSS_text",
                   messages: [
                     {
@@ -91331,165 +90279,6 @@ section {
             },
             html: {
               children: {
-                guides: {
-                  children: {
-                    microdata: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Guides/Microdata",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://schema.org/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://schema.org/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://schema.org/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://schema.org/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    microformats: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Guides/Microformats",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/Main_Page",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/microformats2",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-feed",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/microformats2",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/value-class-pattern",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-feed",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/rel-values",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/Main_Page",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/search_engines",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/HTML/Guides",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://microformats.org/wiki/Main_Page",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 how_to: {
                   children: {
                     add_javascript_to_your_web_page: {
@@ -91549,53 +90338,6 @@ html.elements.optgroup.disabled
 html.elements.option.disabled
 html.elements.select.disabled
 html.elements.textarea.disabled`
-                              ]
-                            }
-                          ]
-                        },
-                        rel: {
-                          children: {
-                            me: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/me",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://microformats.org/wiki/RelMeAuth",
-                                    "The operation timed out."
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://microformats.org/wiki/web-sign-in",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            preload: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://microformats.org/wiki/existing-rel-values",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -93047,58 +91789,8 @@ h2 {
                               ]
                             }
                           ]
-                        },
-                        itemscope: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/itemscope",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://schema.org/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://schema.org/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
-                        itemtype: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/itemtype",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://schema.org/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://schema.org/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/HTML/Reference/Global_attributes",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://schema.org/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
+                      }
                     }
                   }
                 }
@@ -93117,19 +91809,6 @@ h2 {
               children: {
                 guides: {
                   children: {
-                    browser_detection_using_the_user_agent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTTP/Guides/Browser_detection_using_the_user_agent",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.chromium.org/issue-tracking/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     compression_dictionary_transport: {
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/Compression_dictionary_transport",
@@ -93236,32 +91915,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
-                        link: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Link",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://web.dev/articles/fetch-priority?hl=en",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -93325,10 +91978,10 @@ http.headers.Use-As-Dictionary`,
                                   data: []
                                 },
                                 {
-                                  message: "Broken external link",
+                                  message: "Redirected external link",
                                   data: [
                                     "https://www.mozilla.org/en-US/firefox/127.0/releasenotes/",
-                                    "Cannot reach server and Bun hangs"
+                                    "https://www.firefox.com/en-US/firefox/127.0/releasenotes/?redirect_source=mozilla-org"
                                   ]
                                 }
                               ]
@@ -93402,19 +92055,6 @@ h2 {
                           ]
                         }
                       ]
-                    },
-                    introduction: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Introduction",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/docs/devtools/open",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/JavaScript/Guide",
@@ -93484,19 +92124,6 @@ h2 {
                         },
                         object: {
                           children: {}
-                        },
-                        sharedarraybuffer: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://developer.chrome.com/blog/enabling-shared-array-buffer/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
                         }
                       }
                     },
@@ -93516,36 +92143,6 @@ h2 {
                           data: [
                             "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BID_Continue%7D",
                             "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    operators: {
-                      children: {
-                        await: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/await",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://v8.dev/blog/fast-async",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    regular_expressions: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.perl.org/",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -93589,19 +92186,6 @@ h2 {
                   children: {
                     formats: {
                       children: {
-                        containers: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Containers",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.webmproject.org/docs/container/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -93616,40 +92200,6 @@ h2 {
                           ]
                         }
                       }
-                    }
-                  }
-                }
-              }
-            },
-            performance: {
-              children: {
-                guides: {
-                  children: {
-                    performance_budgets: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Performance/Guides/Performance_budgets",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addyosmani.com/blog/performance-budgets/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
-                    speculative_loading: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Performance/Guides/Speculative_loading",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
@@ -93774,43 +92324,6 @@ h2 {
             },
             progressive_web_apps: {
               children: {
-                guides: {
-                  children: {
-                    caching: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/Guides/Caching",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://developer.chrome.com/docs/workbox/caching-strategies-overview",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://web.dev/articles/offline-cookbook",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    offline_and_background_operation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/Guides/Offline_and_background_operation",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://web.dev/articles/pwa-with-offline-streaming",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 manifest: {
                   children: {
                     reference: {
@@ -93915,27 +92428,6 @@ h2 {
                       }
                     }
                   }
-                },
-                tutorials: {
-                  children: {
-                    js13kgames: {
-                      children: {
-                        "re-engageable_notifications_push": {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Re-engageable_Notifications_Push",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://firebase.google.com/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
                 }
               }
             },
@@ -93948,13 +92440,6 @@ h2 {
                     {
                       message: "Unreachable via page",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://wiki.owasp.org/index.php/Secure_Coding_Principles",
-                        500
-                      ]
                     }
                   ]
                 },
@@ -95149,27 +93634,6 @@ p {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                },
-                tutorials: {
-                  children: {
-                    svg_from_scratch: {
-                      children: {
-                        tools_for_svg: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Tools_for_SVG",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://xmlgraphics.apache.org/fop/",
-                                "Cannot reach server and Bun hangs"
                               ]
                             }
                           ]
