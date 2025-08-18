@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-hfjfbyyp.js";
+} from "./chunk-n6hsckpt.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -10255,13 +10255,6 @@ button {
 </div>
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://wiki.creativecommons.org/wiki/Best_practices_for_attribution",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -26749,6 +26742,33 @@ body * {
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://bluefish.openoffice.nl/manual/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vimdoc.sourceforge.net/htmldoc/uganda.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vimdoc.sourceforge.net/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -26756,6 +26776,39 @@ body * {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/downloads.html",
+                            503
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
+                        }
+                      ]
+                    },
+                    how_much_does_it_cost: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://bluefish.openoffice.nl/index.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -26863,19 +26916,6 @@ body * {
             },
             writing_guidelines: {
               children: {
-                attrib_copyright_license: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 changelog: {
                   children: {},
                   slug: "/en-US/docs/MDN/Writing_guidelines/Changelog",
@@ -28422,26 +28462,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/",
                             404
-                          ]
-                        }
-                      ]
-                    },
-                    your_second_webextension: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iconbeast.com/free/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iconbeast.com/faq/",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -34434,19 +34454,6 @@ p {
                 },
                 web_audio_api: {
                   children: {
-                    advanced_techniques: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://soundbible.com/1573-DTMF-Tones.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     simple_synth: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Simple_synth",
@@ -35041,7 +35048,17 @@ api.Window.sessionStorage`,
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://classic.yarnpkg.com/en/docs/install",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
                     },
                     using_encoded_transforms: {
                       children: {},
@@ -72112,6 +72129,19 @@ article.snapDisabled ul {
                     }
                   ]
                 },
+                css_shapes: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/CSS_shapes",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.sarasoueidan.com/blog/css-shapes/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 css_text: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/CSS_text",
@@ -91935,6 +91965,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        dnt: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -91986,6 +92029,19 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           }
+                        },
+                        tk: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Tk",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         "user-agent": {
                           children: {
@@ -92147,6 +92203,19 @@ h2 {
                         }
                       }
                     },
+                    javascript_technologies_overview: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://babeljs.io/repl",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     lexical_grammar: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
@@ -92206,6 +92275,19 @@ h2 {
                   children: {
                     formats: {
                       children: {
+                        audio_codecs: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/licensing-2/aac/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -92213,8 +92295,57 @@ h2 {
                             {
                               message: "Broken external link",
                               data: [
+                                "https://www.via-la.com/licensing-2/avc-h-264/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/licensing-2/avc-h-264/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/licensing-2/hevc-vvc/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/licensing-2/hevc-vvc/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/licensing-2/mpeg-4-visual/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
                                 "https://about.att.com/innovation/ip/patents",
                                 403
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/licensing-2/mpeg-2/",
+                                "The operation timed out."
                               ]
                             }
                           ]
