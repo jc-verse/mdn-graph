@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-n6hsckpt.js";
+} from "./chunk-vce7dnq9.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -200,19 +200,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            browser: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Browser",
-              messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://support.apple.com/downloads/safari",
-                    "https://support.apple.com/en-us/docs"
-                  ]
                 }
               ]
             },
@@ -542,15 +529,22 @@ div.warning {
                 }
               ]
             },
-            google_chrome: {
+            gpl: {
               children: {},
-              slug: "/en-US/docs/Glossary/Google_Chrome",
+              slug: "/en-US/docs/Glossary/GPL",
               messages: [
                 {
-                  message: "Redirected external link",
+                  message: "Broken external link",
                   data: [
-                    "https://bugs.chromium.org/p/chromium/issues/list",
-                    "https://issues.chromium.org/issues"
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
                   ]
                 }
               ]
@@ -1034,6 +1028,19 @@ div.warning {
                 }
               ]
             },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
             literal: {
               children: {},
               slug: "/en-US/docs/Glossary/Literal",
@@ -1085,18 +1092,6 @@ div.warning {
                 }
               ]
             },
-            microsoft_edge: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Microsoft_Edge",
-              messages: [
-                {
-                  message: "Self link",
-                  data: [
-                    "/en-US/docs/Glossary/Microsoft_Edge"
-                  ]
-                }
-              ]
-            },
             modem: {
               children: {},
               slug: "/en-US/docs/Glossary/Modem",
@@ -1114,19 +1109,6 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            mozilla_firefox: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Mozilla_Firefox",
-              messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://www.mozilla.org/en-US/firefox/releases/",
-                    "https://www.firefox.com/en-US/releases/?redirect_source=mozilla-org"
-                  ]
                 }
               ]
             },
@@ -1157,19 +1139,6 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            opera_browser: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Opera_Browser",
-              messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://apps.apple.com/app/opera-browser-fast-private/id1411869974",
-                    "https://apps.apple.com/us/app/opera-ai-browser-with-vpn/id1411869974"
-                  ]
                 }
               ]
             },
@@ -15580,6 +15549,23 @@ button::before {
                     }
                   }
                 },
+                "client-side_tools": {
+                  children: {
+                    package_management: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://docs.npmjs.com/cli/run-script/",
+                            404
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 forms: {
                   children: {
                     customizable_select: {
@@ -26053,6 +26039,13 @@ textarea:focus {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -26079,6 +26072,23 @@ textarea:focus {
                           data: []
                         }
                       ]
+                    },
+                    express_nodejs: {
+                      children: {
+                        development_environment: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/development_environment",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://docs.npmjs.com/cli/run-script/",
+                                404
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     },
                     node_server_without_framework: {
                       children: {},
@@ -26749,22 +26759,22 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://bluefish.openoffice.nl/manual/",
-                            "The operation timed out."
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vimdoc.sourceforge.net/htmldoc/uganda.html",
-                            "The operation timed out."
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vimdoc.sourceforge.net/",
-                            "The operation timed out."
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -26779,35 +26789,15 @@ body * {
                         }
                       ]
                     },
-                    how_do_you_host_your_website_on_google_app_engine: {
+                    what_software_do_i_need: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/downloads.html",
-                            503
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    how_much_does_it_cost: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://bluefish.openoffice.nl/index.html",
-                            "The operation timed out."
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -28488,18 +28478,6 @@ webextensions.manifest.options_ui`,
             },
             firefox: {
               children: {
-                experimental_features: {
-                  children: {},
-                  slug: "/en-US/docs/Mozilla/Firefox/Experimental_features",
-                  messages: [
-                    {
-                      message: "Code with underscore",
-                      data: [
-                        "security.integrity_policy.stylesheet.enabled"
-                      ]
-                    }
-                  ]
-                },
                 releases: {
                   children: {
                     "2": {
@@ -28796,20 +28774,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://asmjs.org/spec/latest/",
                             ""
-                          ]
-                        }
-                      ]
-                    },
-                    "111": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/111",
-                      messages: [
-                        {
-                          message: "Replace DT link with real target",
-                          data: [
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats#trackidentifier",
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/trackIdentifier",
-                            []
                           ]
                         }
                       ]
@@ -32857,7 +32821,28 @@ aside {
                   }
                 },
                 payment_request_api: {
-                  children: {},
+                  children: {
+                    using_secure_payment_confirmation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Payment_Request_API/Using_secure_payment_confirmation",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.emvco.com/emv-technologies/3-d-secure/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.emvco.com/emv-technologies/secure-remote-commerce/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
                   messages: [
                     {
@@ -33607,133 +33592,6 @@ html {
                       ]
                     }
                   }
-                },
-                rtcinboundrtpstreamstats: {
-                  children: {
-                    jitterbufferdelay: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/jitterBufferDelay",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/jitterBufferDelay"
-                          ]
-                        }
-                      ]
-                    },
-                    jitterbuffertargetdelay: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/jitterBufferTargetDelay",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/jitterBufferTargetDelay"
-                          ]
-                        },
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/jitterBufferTargetDelay"
-                          ]
-                        }
-                      ]
-                    },
-                    packetslost: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/packetsLost",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/packetsLost"
-                          ]
-                        },
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/packetsLost"
-                          ]
-                        }
-                      ]
-                    },
-                    playoutid: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/playoutId",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCAudioPlayoutStats/id"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCAudioPlayoutStats"
-                          ]
-                        }
-                      ]
-                    },
-                    totalinterframedelay: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/totalInterFrameDelay",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/framesRendered"
-                          ]
-                        }
-                      ]
-                    },
-                    totalsquaredinterframedelay: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats/totalSquaredInterFrameDelay",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/RTCInboundRtpStreamStats/framesRendered"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/RTCInboundRtpStreamStats",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/RTCAudioPlayoutStats"
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#ssrc",
-                        "/en-US/docs/Web/API/RTCInboundRtpStreamStats/ssrc",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#ssrc",
-                        "/en-US/docs/Web/API/RTCInboundRtpStreamStats/ssrc",
-                        []
-                      ]
-                    },
-                    {
-                      message: "Replace DT link with real target",
-                      data: [
-                        "#ssrc",
-                        "/en-US/docs/Web/API/RTCInboundRtpStreamStats/ssrc",
-                        []
-                      ]
-                    }
-                  ]
                 },
                 rtcstatsreport: {
                   children: {
@@ -35048,17 +34906,7 @@ api.Window.sessionStorage`,
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://classic.yarnpkg.com/en/docs/install",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     using_encoded_transforms: {
                       children: {},
@@ -35768,6 +35616,404 @@ custom-element:defined::before {
 }
 ~~~
 `
+                      ]
+                    }
+                  ]
+                },
+                _colon_heading: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/:heading",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-pseudo-class-no-unknown",
+                        'Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)',
+                        ":heading {",
+                        "1:1 - 1:9",
+                        `/en-US/docs/Web/CSS/:heading
+[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)
+~~~
+:heading {
+  color: tomato;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                _colon_heading_function: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/:heading_function",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-pseudo-class-no-unknown",
+                        'Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)',
+                        ":heading(odd) {",
+                        "1:1 - 1:9",
+                        `/en-US/docs/Web/CSS/:heading_function
+[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)
+~~~
+:heading(odd) {
+  color: tomato;
+}
+:heading(even) {
+  color: slateblue;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-pseudo-class-no-unknown",
+                        'Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)',
+                        ":heading(even) {",
+                        "4:1 - 4:9",
+                        `/en-US/docs/Web/CSS/:heading_function
+[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)
+~~~
+:heading(odd) {
+  color: tomato;
+}
+:heading(even) {
+  color: slateblue;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-type-no-unknown",
+                        'Unexpected unknown type selector "odd" (selector-type-no-unknown)',
+                        ":heading(odd) {",
+                        "1:10 - 1:13",
+                        `/en-US/docs/Web/CSS/:heading_function
+[selector-type-no-unknown] Unexpected unknown type selector "odd" (selector-type-no-unknown)
+~~~
+:heading(odd) {
+  color: tomato;
+}
+:heading(even) {
+  color: slateblue;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-type-no-unknown",
+                        'Unexpected unknown type selector "even" (selector-type-no-unknown)',
+                        ":heading(even) {",
+                        "4:10 - 4:14",
+                        `/en-US/docs/Web/CSS/:heading_function
+[selector-type-no-unknown] Unexpected unknown type selector "even" (selector-type-no-unknown)
+~~~
+:heading(odd) {
+  color: tomato;
+}
+:heading(even) {
+  color: slateblue;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-pseudo-class-no-unknown",
+                        'Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)',
+                        ":heading(3, 4) {",
+                        "7:1 - 7:9",
+                        `/en-US/docs/Web/CSS/:heading_function
+[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)
+~~~
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Targets headings <h3> and <h4> */
+:heading(3, 4) {
+  font-weight: 100;
+}
+/* Targets headings in reverse starting from <h3> */
+:heading(-n + 3) {
+  color: tomato;
+}
+/* Targets every third heading starting from <h1> */
+:heading(3n + 1) {
+  font-style: italic;
+}
+/* Targets headings after level 5 */
+:heading(n + 5) {
+  color: slateblue;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-pseudo-class-no-unknown",
+                        'Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)',
+                        ":heading(-n + 3) {",
+                        "11:1 - 11:9",
+                        `/en-US/docs/Web/CSS/:heading_function
+[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)
+~~~
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Targets headings <h3> and <h4> */
+:heading(3, 4) {
+  font-weight: 100;
+}
+/* Targets headings in reverse starting from <h3> */
+:heading(-n + 3) {
+  color: tomato;
+}
+/* Targets every third heading starting from <h1> */
+:heading(3n + 1) {
+  font-style: italic;
+}
+/* Targets headings after level 5 */
+:heading(n + 5) {
+  color: slateblue;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-pseudo-class-no-unknown",
+                        'Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)',
+                        ":heading(3n + 1) {",
+                        "15:1 - 15:9",
+                        `/en-US/docs/Web/CSS/:heading_function
+[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)
+~~~
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Targets headings <h3> and <h4> */
+:heading(3, 4) {
+  font-weight: 100;
+}
+/* Targets headings in reverse starting from <h3> */
+:heading(-n + 3) {
+  color: tomato;
+}
+/* Targets every third heading starting from <h1> */
+:heading(3n + 1) {
+  font-style: italic;
+}
+/* Targets headings after level 5 */
+:heading(n + 5) {
+  color: slateblue;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-pseudo-class-no-unknown",
+                        'Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)',
+                        ":heading(n + 5) {",
+                        "19:1 - 19:9",
+                        `/en-US/docs/Web/CSS/:heading_function
+[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)
+~~~
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Targets headings <h3> and <h4> */
+:heading(3, 4) {
+  font-weight: 100;
+}
+/* Targets headings in reverse starting from <h3> */
+:heading(-n + 3) {
+  color: tomato;
+}
+/* Targets every third heading starting from <h1> */
+:heading(3n + 1) {
+  font-style: italic;
+}
+/* Targets headings after level 5 */
+:heading(n + 5) {
+  color: slateblue;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-type-no-unknown",
+                        'Unexpected unknown type selector "3n" (selector-type-no-unknown)',
+                        ":heading(3n + 1) {",
+                        "15:10 - 15:12",
+                        `/en-US/docs/Web/CSS/:heading_function
+[selector-type-no-unknown] Unexpected unknown type selector "3n" (selector-type-no-unknown)
+~~~
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Targets headings <h3> and <h4> */
+:heading(3, 4) {
+  font-weight: 100;
+}
+/* Targets headings in reverse starting from <h3> */
+:heading(-n + 3) {
+  color: tomato;
+}
+/* Targets every third heading starting from <h1> */
+:heading(3n + 1) {
+  font-style: italic;
+}
+/* Targets headings after level 5 */
+:heading(n + 5) {
+  color: slateblue;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-type-no-unknown",
+                        'Unexpected unknown type selector "1" (selector-type-no-unknown)',
+                        ":heading(3n + 1) {",
+                        "15:15 - 15:16",
+                        `/en-US/docs/Web/CSS/:heading_function
+[selector-type-no-unknown] Unexpected unknown type selector "1" (selector-type-no-unknown)
+~~~
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Targets headings <h3> and <h4> */
+:heading(3, 4) {
+  font-weight: 100;
+}
+/* Targets headings in reverse starting from <h3> */
+:heading(-n + 3) {
+  color: tomato;
+}
+/* Targets every third heading starting from <h1> */
+:heading(3n + 1) {
+  font-style: italic;
+}
+/* Targets headings after level 5 */
+:heading(n + 5) {
+  color: slateblue;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-type-no-unknown",
+                        'Unexpected unknown type selector "n" (selector-type-no-unknown)',
+                        ":heading(n + 5) {",
+                        "19:10 - 19:11",
+                        `/en-US/docs/Web/CSS/:heading_function
+[selector-type-no-unknown] Unexpected unknown type selector "n" (selector-type-no-unknown)
+~~~
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Targets headings <h3> and <h4> */
+:heading(3, 4) {
+  font-weight: 100;
+}
+/* Targets headings in reverse starting from <h3> */
+:heading(-n + 3) {
+  color: tomato;
+}
+/* Targets every third heading starting from <h1> */
+:heading(3n + 1) {
+  font-style: italic;
+}
+/* Targets headings after level 5 */
+:heading(n + 5) {
+  color: slateblue;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-type-no-unknown",
+                        'Unexpected unknown type selector "5" (selector-type-no-unknown)',
+                        ":heading(n + 5) {",
+                        "19:14 - 19:15",
+                        `/en-US/docs/Web/CSS/:heading_function
+[selector-type-no-unknown] Unexpected unknown type selector "5" (selector-type-no-unknown)
+~~~
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Targets headings <h3> and <h4> */
+:heading(3, 4) {
+  font-weight: 100;
+}
+/* Targets headings in reverse starting from <h3> */
+:heading(-n + 3) {
+  color: tomato;
+}
+/* Targets every third heading starting from <h1> */
+:heading(3n + 1) {
+  font-style: italic;
+}
+/* Targets headings after level 5 */
+:heading(n + 5) {
+  color: slateblue;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "css.selectors.headingfunction",
+                        "Expected:",
+                        "css.selectors.heading"
                       ]
                     }
                   ]
@@ -72129,19 +72375,6 @@ article.snapDisabled ul {
                     }
                   ]
                 },
-                css_shapes: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/CSS_shapes",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.sarasoueidan.com/blog/css-shapes/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 css_text: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/CSS_text",
@@ -91965,15 +92198,15 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        dnt: {
+                        accept: {
                           children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
-                                "The operation timed out."
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
                               ]
                             }
                           ]
@@ -92030,19 +92263,6 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         },
-                        tk: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Tk",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         "user-agent": {
                           children: {
                             firefox: {
@@ -92052,13 +92272,6 @@ http.headers.Use-As-Dictionary`,
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Redirected external link",
-                                  data: [
-                                    "https://www.mozilla.org/en-US/firefox/127.0/releasenotes/",
-                                    "https://www.firefox.com/en-US/firefox/127.0/releasenotes/?redirect_source=mozilla-org"
-                                  ]
                                 }
                               ]
                             }
@@ -92203,19 +92416,6 @@ h2 {
                         }
                       }
                     },
-                    javascript_technologies_overview: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/repl",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     lexical_grammar: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
@@ -92275,19 +92475,6 @@ h2 {
                   children: {
                     formats: {
                       children: {
-                        audio_codecs: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.via-la.com/licensing-2/aac/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -92295,57 +92482,8 @@ h2 {
                             {
                               message: "Broken external link",
                               data: [
-                                "https://www.via-la.com/licensing-2/avc-h-264/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.via-la.com/licensing-2/avc-h-264/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.via-la.com/licensing-2/hevc-vvc/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.via-la.com/licensing-2/hevc-vvc/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.via-la.com/licensing-2/mpeg-4-visual/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.via-la.com/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
                                 "https://about.att.com/innovation/ip/patents",
                                 403
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.via-la.com/licensing-2/mpeg-2/",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -92631,6 +92769,19 @@ h2 {
 html.elements.script.integrity`,
                         "Expected:",
                         "[None]"
+                      ]
+                    }
+                  ]
+                },
+                transport_layer_security: {
+                  children: {},
+                  slug: "/en-US/docs/Web/Security/Transport_Layer_Security",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.ssllabs.com/ssltest/",
+                        "The operation timed out."
                       ]
                     }
                   ]
