@@ -32,6 +32,7 @@ RsaHashedImportParams
 RsaHashedKeyGenParams
 RsaOaepParams
 RsaPssParams
+RTCAudioPlayoutStats
 RTCAudioSourceStats
 RTCCertificateStats
 RTCCodecStats

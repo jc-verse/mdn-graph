@@ -44,7 +44,8 @@
 /en-US/docs/Web/API/PresentationConnectionList/connectionavailable_event
 /en-US/docs/Web/API/PrivateAggregation/contributeToHistogramOnEvent
 
-/en-US/docs/Web/API/RTCAudioReceiverStats
+/en-US/docs/Web/API/RTCAudioPlayoutStats
+/en-US/docs/Web/API/RTCAudioPlayoutStats/id
 /en-US/docs/Web/API/RTCCertificateExpiration
 /en-US/docs/Web/API/RTCCodecStats/codec
 /en-US/docs/Web/API/RTCDtlsTransport/onerror
@@ -52,32 +53,13 @@
 /en-US/docs/Web/API/RTCIceCandidatePairStats/consentExpiredTimestamp
 /en-US/docs/Web/API/RTCIdentityProvider
 /en-US/docs/Web/API/RTCIdentityProviderRegistrar
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/audioLevel
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/estimatedPlayoutTimestamp
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/framesAssembledFromMultiplePackets
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/freezeCount
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/jitter
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/jitterBufferMinimumDelay
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/jitterBufferTargetDelay
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/keyFramesDecoded
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/packetsDiscarded
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/packetsLost
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/packetsReceived
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/pauseCount
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/totalAssemblyTime
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/totalAudioEnergy
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/totalFreezesDuration
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/totalPausesDuration
-/en-US/docs/Web/API/RTCInboundRtpStreamStats/totalSamplesDuration
+/en-US/docs/Web/API/RTCInboundRtpStreamStats/framesRendered
 /en-US/docs/Web/API/RTCPeerConnection/removetrack_event
 /en-US/docs/Web/API/RTCReceivedRtpStreamStats/framesDecoded
-/en-US/docs/Web/API/RTCReceiverAudioTrackAttachmentStats
-/en-US/docs/Web/API/RTCReceiverVideoTrackAttachmentStats
 /en-US/docs/Web/API/RTCRtcpParameters
 /en-US/docs/Web/API/RTCSentRtpStreamStats/bytesSent
 /en-US/docs/Web/API/RTCSentRtpStreamStats/framesEncoded
 /en-US/docs/Web/API/RTCSentRtpStreamStats/packetsSent
-/en-US/docs/Web/API/RTCVideoReceiverStats
 
 /en-US/docs/Web/API/SVGAElement/hash
 /en-US/docs/Web/API/SVGAElement/host

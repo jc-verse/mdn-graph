@@ -131,6 +131,7 @@ network.cors_preflight.authorization_covered_by_wildcard
 security.insecure_connection_text.enabled
 security.insecure_connection_text.pbmode.enabled
 security.integrity_policy.enabled
+security.integrity_policy.stylesheet.enabled
 
 first baseline	/en-US/docs/Web/CSS/baseline-position
 last baseline	/en-US/docs/Web/CSS/baseline-position
