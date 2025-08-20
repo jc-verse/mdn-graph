@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-papgyert.js";
+} from "./chunk-n53t2fwp.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1256,13 +1256,6 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://router.vuejs.org/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -25900,19 +25893,6 @@ option::checkmark {
                         }
                       ]
                     },
-                    sending_and_retrieving_form_data: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Sending_and_retrieving_form_data",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.mamp.info/en/downloads/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     sending_forms_through_javascript: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Sending_forms_through_JavaScript",
@@ -26059,20 +26039,6 @@ textarea:focus {
                           children: {},
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/development_environment",
                           messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/nvm-sh/nvm",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/nvm-sh/nvm",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
                             {
                               message: "Broken external link",
                               data: [
@@ -26298,19 +26264,6 @@ button:active {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    your_own_automation_environment: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mozilla/geckodriver/releases/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -26768,19 +26721,6 @@ body * {
                           data: []
                         }
                       ]
-                    },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup",
@@ -26835,19 +26775,6 @@ body * {
           children: {
             community: {
               children: {
-                communication_channels: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Communication_channels",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/orgs/mdn/discussions/categories/announcements",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
-                },
                 discussions: {
                   children: {
                     managing_and_resolving_discussions: {
@@ -26860,31 +26787,7 @@ body * {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/MDN/Community/Discussions",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/orgs/mdn/discussions/categories/announcements",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/orgs/mdn/discussions/categories/browser-compatibility-data",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/orgs/mdn/discussions/67",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 issues: {
                   children: {
@@ -26907,39 +26810,6 @@ body * {
                     {
                       message: "Unreachable via page",
                       data: []
-                    }
-                  ]
-                },
-                our_repositories: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Our_repositories",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/rumba",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/web-components-examples",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
-                },
-                translated_content: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Translated_content",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/clovislima",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
                     }
                   ]
                 }
@@ -26994,19 +26864,6 @@ color: rgb(31 41 59 / 26%);
                 },
                 howto: {
                   children: {
-                    json_structured_data: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Howto/JSON_Structured_data",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/blob/main/files/jsondata/GroupData.json",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     write_an_api_reference: {
                       children: {
                         information_contained_in_a_webidl_file: {
@@ -27033,86 +26890,15 @@ color: rgb(31 41 59 / 26%);
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/content/blob/main/files/jsondata/GroupData.json",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Write_an_api_reference",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/blob/main/files/jsondata/GroupData.json",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/blob/main/files/jsondata/GroupData.json",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/blob/main/files/jsondata/GroupData.json",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
+                      }
                     }
                   }
                 },
                 page_structures: {
                   children: {
-                    feature_status: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Feature_status",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/badges.rs",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/badges.rs",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/badges.rs",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
-                    links: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Links",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/list_subpages_for_sidebar.rs",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     macros: {
                       children: {
                         commonly_used_macros: {
@@ -27122,41 +26908,6 @@ color: rgb(31 41 59 / 26%);
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/badges.rs",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/badges.rs",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/badges.rs",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/badges.rs",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/badges.rs",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
                             }
                           ]
                         },
@@ -27167,52 +26918,12 @@ color: rgb(31 41 59 / 26%);
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/rari/blob/main/crates/rari-doc/src/templ/templs/listsubpages.rs",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
                             }
                           ]
                         }
                       }
-                    },
-                    sidebars: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Sidebars",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/blob/main/files/jsondata/GroupData.json",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/blob/main/files/jsondata/GroupData.json",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
                     }
                   }
-                },
-                writing_style_guide: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Writing_style_guide",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/content/issues?q=Weekly+spelling+check+is%3Aissue+in%3Atitle",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Writing_guidelines",
@@ -27235,153 +26946,6 @@ color: rgb(31 41 59 / 26%);
                   children: {
                     api: {
                       children: {
-                        alarms: {
-                          children: {
-                            onalarm: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms/onAlarm",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/dynamic-theme",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/alarms",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/dynamic-theme",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
-                        browseraction: {
-                          children: {
-                            onclicked: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/onClicked",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/forget-it",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/forget-it",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
-                        browsingdata: {
-                          children: {
-                            remove: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData/remove",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/forget-it",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browsingData",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/forget-it",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
-                        commands: {
-                          children: {
-                            getall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/getAll",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/commands",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            oncommand: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/onCommand",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/commands",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            reset: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/reset",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/commands",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands/update",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/commands",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/commands",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/commands",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
                         contentscripts: {
                           children: {
                             registeredcontentscript: {
@@ -27402,19 +26966,6 @@ color: rgb(31 41 59 / 26%);
                         },
                         cookies: {
                           children: {
-                            getall: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/getAll",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/list-cookies",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
                             samesitestatus: {
                               children: {},
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies/SameSiteStatus",
@@ -27430,17 +26981,7 @@ color: rgb(31 41 59 / 26%);
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/cookies",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/list-cookies",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         devtools: {
                           children: {
@@ -27489,17 +27030,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     }
                                   ]
@@ -27523,17 +27064,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     }
                                   ]
@@ -27542,10 +27083,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "Broken external link",
+                                  message: "HTTP link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    "Cannot reach server and Bun hangs"
+                                    ""
                                   ]
                                 }
                               ]
@@ -27790,86 +27331,6 @@ color: rgb(31 41 59 / 26%);
                             }
                           }
                         },
-                        notifications: {
-                          children: {
-                            create: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications/create",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/forget-it",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/notifications",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/forget-it",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
-                        omnibox: {
-                          children: {
-                            oninputchanged: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onInputChanged",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/firefox-code-search",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            oninputentered: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/onInputEntered",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/firefox-code-search",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            setdefaultsuggestion: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox/setDefaultSuggestion",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/firefox-code-search",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/omnibox",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/firefox-code-search",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
                         scripting: {
                           children: {
                             contentscriptfilter: {
@@ -27889,48 +27350,8 @@ color: rgb(31 41 59 / 26%);
                             }
                           }
                         },
-                        sidebaraction: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/sidebarAction",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/annotate-page",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
                         storage: {
                           children: {
-                            local: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/local",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/annotate-page",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/forget-it",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/navigation-stats",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
                             session: {
                               children: {
                                 quota_bytes: {
@@ -28029,218 +27450,7 @@ color: rgb(31 41 59 / 26%);
                                 }
                               }
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/annotate-page",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/forget-it",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/navigation-stats",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
-                        tabs: {
-                          children: {
-                            create: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/create",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/commands",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/firefox-code-search",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            onactivated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onActivated",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/annotate-page",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            onupdated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onUpdated",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/annotate-page",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            query: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/query",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/annotate-page",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/list-cookies",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            tab: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/Tab",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/annotate-page",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs/update",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/firefox-code-search",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/annotate-page",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/commands",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/firefox-code-search",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/list-cookies",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
-                        theme: {
-                          children: {
-                            getcurrent: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/theme/getCurrent",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/theme-integrated-sidebar",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            onupdated: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/theme/onUpdated",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/theme-integrated-sidebar",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            update: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/theme/update",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/dynamic-theme",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/theme",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/dynamic-theme",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/theme-integrated-sidebar",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
+                          }
                         },
                         types: {
                           children: {
@@ -28317,46 +27527,6 @@ color: rgb(31 41 59 / 26%);
                               ]
                             }
                           }
-                        },
-                        webnavigation: {
-                          children: {
-                            oncommitted: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onCommitted",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/navigation-stats",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            },
-                            oncompleted: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onCompleted",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/navigation-stats",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/navigation-stats",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
                         },
                         webrequest: {
                           children: {
@@ -28475,75 +27645,8 @@ color: rgb(31 41 59 / 26%);
                               }
                             }
                           }
-                        },
-                        windows: {
-                          children: {
-                            getcurrent: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/getCurrent",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/annotate-page",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/theme-integrated-sidebar",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            },
-                            window: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows/Window",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/annotate-page",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/windows",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/annotate-page",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/theme-integrated-sidebar",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
                         }
                       }
-                    },
-                    build_a_cross_browser_extension: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Build_a_cross_browser_extension",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mozilla/webextension-polyfill/blob/master/README.md",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
                     },
                     content_scripts: {
                       children: {
@@ -28583,75 +27686,6 @@ color: rgb(31 41 59 / 26%);
                         }
                       ]
                     },
-                    examples: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Examples",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/annotate-page",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/commands",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/dynamic-theme",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/firefox-code-search",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/forget-it",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/list-cookies",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/navigation-stats",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/selection-to-clipboard",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/theme-integrated-sidebar",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     interact_with_the_clipboard: {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard",
@@ -28670,19 +27704,6 @@ webextensions.api.clipboard`,
                     },
                     "manifest.json": {
                       children: {
-                        sidebar_action: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/sidebar_action",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/annotate-page",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
                         version: {
                           children: {
                             format: {
@@ -29364,33 +28385,6 @@ webextensions.manifest.options_ui`,
                                 "https://searchfox.org/mozilla-central/search",
                                 "https://searchfox.org/firefox-main/search"
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/firefox-code-search",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
-                        sidebars: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Sidebars",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/annotate-page",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/annotate-page",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
                             }
                           ]
                         }
@@ -29409,42 +28403,22 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    work_with_the_cookies_api: {
+                    your_second_webextension: {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Work_with_the_Cookies_API",
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/list-cookies",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
-                    working_with_files: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Working_with_files",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/store-collected-images/webextension-plain",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "https://www.iconbeast.com/free/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://github.com/mdn/webextensions-examples/blob/main/store-collected-images/webextension-plain/navigate-collection.js",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/store-collected-images/webextension-plain",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "https://www.iconbeast.com/faq/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -31174,13 +30148,6 @@ li:nth-of-type(3n + 1) {
                       slug: "/en-US/docs/Web/API/Device_orientation_events/Detecting_device_orientation",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/wagerfield/parallax",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
                           message: "Unexpected BCD keys",
                           data: [
                             "Actual:",
@@ -31439,19 +30406,6 @@ td {
                     }
                   ]
                 },
-                domhighrestimestamp: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/DOMHighResTimeStamp",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/xsleaks/xsleaks",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
-                },
                 editcontext_api: {
                   children: {
                     guide: {
@@ -31519,20 +30473,6 @@ td {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/edit-context/html-editor",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/edit-context/html-editor",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -31721,19 +30661,6 @@ api.Document.fullscreen`,
                       ]
                     }
                   }
-                },
-                geolocation_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Geolocation_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://lbs.amap.com/api/javascript-api/guide/services/geolocation",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 highlightregistry: {
                   children: {
@@ -32157,19 +31084,6 @@ h1 {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    inert: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/inert",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/WICG/inert",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -33890,24 +32804,7 @@ aside {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/MediaStream_Recording_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/chrisjohndigital/TutorRoom",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/chrisjohndigital/TutorRoom",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 },
                 mediatracksettings: {
                   children: {
@@ -33990,100 +32887,6 @@ aside {
                     }
                   }
                 },
-                navigateevent: {
-                  children: {
-                    signal: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/NavigateEvent/signal",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/WICG/navigation-api",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
-                    userinitiated: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/NavigateEvent/userInitiated",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/WICG/navigation-api",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/NavigateEvent",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/WICG/navigation-api",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
-                },
-                navigation: {
-                  children: {
-                    navigate_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigation/navigate_event",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/WICG/navigation-api",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/Navigation",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/WICG/navigation-api",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
-                },
-                navigation_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Navigation_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/WICG/navigation-api",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/WICG/navigation-api",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/WICG/navigation-api",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
-                },
                 navigator: {
                   children: {
                     getinstalledrelatedapps: {
@@ -34122,19 +32925,6 @@ aside {
                 },
                 performance_api: {
                   children: {
-                    high_precision_timing: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Performance_API/High_precision_timing",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/xsleaks/xsleaks",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     monitoring_bfcache_blocking_reasons: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Performance_API/Monitoring_bfcache_blocking_reasons",
@@ -34793,36 +33583,6 @@ html {
                     }
                   ]
                 },
-                response: {
-                  children: {
-                    arraybuffer: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Response/arrayBuffer",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/fetch/fetch-array-buffer",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
-                    clone: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Response/clone",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/blob/main/fetch/fetch-response-clone/index.html",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 rtcicecandidatepair: {
                   children: {
                     local: {
@@ -34968,26 +33728,6 @@ html {
                     }
                   }
                 },
-                rtcpeerconnection: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/RTCPeerConnection",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/chrisjohndigital/TutorRoom",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/chrisjohndigital/TutorRoom",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 rtcstatsreport: {
                   children: {
                     "symbol.iterator": {
@@ -35025,32 +33765,6 @@ html {
                       ]
                     }
                   }
-                },
-                screendetailed: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/ScreenDetailed",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/dom-examples/tree/main/window-management-api",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
-                },
-                screendetails: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/ScreenDetails",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/dom-examples/tree/main/window-management-api",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
                 },
                 scrolltimeline: {
                   children: {},
@@ -35203,46 +33917,6 @@ html {
                       message: "Not in BCD",
                       data: [
                         "api.SharedStorageSelectURLOperation"
-                      ]
-                    }
-                  ]
-                },
-                speechgrammarlist: {
-                  children: {
-                    speechgrammarlist: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SpeechGrammarList/SpeechGrammarList",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/web-speech-api/speech-color-changer",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/SpeechGrammarList",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/dom-examples/tree/main/web-speech-api/speech-color-changer",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
-                },
-                speechrecognition: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/SpeechRecognition",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/dom-examples/tree/main/web-speech-api/speech-color-changer",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                       ]
                     }
                   ]
@@ -35790,19 +34464,6 @@ p {
                 },
                 web_audio_api: {
                   children: {
-                    advanced_techniques: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webaudio-examples/tree/main/step-sequencer",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     simple_synth: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Simple_synth",
@@ -35939,13 +34600,6 @@ p {
                             "https://www.mathworks.com/help/dsphdl/ref/biquadfilter.html",
                             403
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.dspguide.com/CH20.PDF",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -35988,19 +34642,6 @@ p {
                 },
                 web_components: {
                   children: {
-                    using_custom_elements: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_components/Using_custom_elements",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/web-components-examples",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     using_templates_and_slots: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Web_components/Using_templates_and_slots",
@@ -36325,17 +34966,7 @@ body {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Web_components",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/web-components-examples",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 web_crypto_api: {
                   children: {},
@@ -36348,23 +34979,6 @@ body {
                       ]
                     }
                   ]
-                },
-                web_speech_api: {
-                  children: {
-                    using_the_web_speech_api: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/web-speech-api/speech-color-changer",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 web_storage_api: {
                   children: {
@@ -36400,37 +35014,6 @@ api.Window.sessionStorage`,
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm"
-                      ]
-                    }
-                  ]
-                },
-                webgl_api: {
-                  children: {
-                    by_example: {
-                      children: {
-                        clearing_by_clicking: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/By_example/Clearing_by_clicking",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/idofilin/webgl-by-example/tree/master/clearing-by-clicking",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/WebGL_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/toji/gl-matrix",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                       ]
                     }
                   ]
@@ -36514,34 +35097,13 @@ api.Window.sessionStorage`,
                   }
                 },
                 window_management_api: {
-                  children: {
-                    using: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window_Management_API/Using",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/window-management-api",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/Window_Management_API",
                   messages: [
                     {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Window_Management_API/Multi-screen_origin"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/dom-examples/tree/main/window-management-api",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                       ]
                     }
                   ]
@@ -36576,19 +35138,6 @@ body {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    getscreendetails: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/getScreenDetails",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/window-management-api",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -38420,19 +36969,6 @@ ul::column::scroll-marker:target-current {
 }
 ~~~
 `
-                      ]
-                    }
-                  ]
-                },
-                _doublecolon_placeholder: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::placeholder",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.smashingmagazine.com/2022/06/guide-windows-high-contrast-mode/",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                       ]
                     }
                   ]
@@ -69366,19 +67902,6 @@ ul {
                 },
                 css_logical_properties_and_values: {
                   children: {
-                    basic_concepts_of_logical_properties_and_values: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_logical_properties_and_values/Basic_concepts_of_logical_properties_and_values",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2018/03/understanding-logical-properties-values/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     margins_borders_padding: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_logical_properties_and_values/Margins_borders_padding",
@@ -92544,23 +91067,6 @@ html.elements.textarea.disabled`
                             }
                           ]
                         },
-                        rel: {
-                          children: {
-                            preload: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         size: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Attributes/size",
@@ -94115,26 +92621,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       }
                     },
-                    evolution_of_http: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTTP/Guides/Evolution_of_HTTP",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://w3techs.com/technologies/details/ce-http2",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://w3techs.com/technologies/details/ce-http3",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     network_error_logging: {
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/Network_Error_Logging",
@@ -94476,23 +92962,6 @@ h2 {
               children: {
                 guides: {
                   children: {
-                    audio_and_video_delivery: {
-                      children: {
-                        video_player_styling_basics: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Video_player_styling_basics",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.base64-image.de/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     formats: {
                       children: {
                         video_codecs: {
@@ -94518,14 +92987,14 @@ h2 {
               children: {
                 guides: {
                   children: {
-                    speculative_loading: {
+                    performance_budgets: {
                       children: {},
-                      slug: "/en-US/docs/Web/Performance/Guides/Speculative_loading",
+                      slug: "/en-US/docs/Web/Performance/Guides/Performance_budgets",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
+                            "https://addyosmani.com/blog/performance-budgets/",
                             "The operation timed out."
                           ]
                         }
@@ -96181,27 +94650,6 @@ p {
               data: []
             }
           ]
-        },
-        webassembly: {
-          children: {
-            guides: {
-              children: {
-                rust_to_wasm: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/Rust_to_Wasm",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/nvm-sh/nvm",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
-                }
-              }
-            }
-          }
         }
       }
     }
