@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-n53t2fwp.js";
+} from "./chunk-3nknbnxe.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -995,6 +995,19 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            itu: {
+              children: {},
+              slug: "/en-US/docs/Glossary/ITU",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.itu.int/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -3912,7 +3925,7 @@ body {
   background-color: rgb(207 232 220);
   border: 2px solid rgb(79 185 227);
   padding: 10px;
-  margin: 0 0 1em 0;
+  margin-bottom: 1em;
 }
 ~~~
 `
@@ -3947,7 +3960,7 @@ body {
   background-color: rgb(207 232 220);
   border: 2px solid rgb(79 185 227);
   padding: 10px;
-  margin: 0 0 1em 0;
+  margin-bottom: 1em;
 }
 ~~~
 `
@@ -3968,7 +3981,7 @@ body {
   background-color: rgb(207 232 220);
   border: 2px solid rgb(79 185 227);
   padding: 10px;
-  margin: 0 0 1em 0;
+  margin-bottom: 1em;
 }
 
 body {
@@ -4004,7 +4017,7 @@ body {
   background-color: rgb(207 232 220);
   border: 2px solid rgb(79 185 227);
   padding: 10px;
-  margin: 0 0 1em 0;
+  margin-bottom: 1em;
 }
 
 body {
@@ -4072,29 +4085,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "0 1rem 0 1rem" to be "0 1rem" (shorthand-property-no-redundant-values)',
-                            "  padding: 0 1rem 0 1rem;",
-                            "2:12 - 2:25",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Practical_positioning_examples
-[shorthand-property-no-redundant-values] Expected "0 1rem 0 1rem" to be "0 1rem" (shorthand-property-no-redundant-values)
-~~~
-.info-box [role="tab"] {
-  padding: 0 1rem 0 1rem;
-  line-height: 3rem;
-  background: white;
-  color: #b60000;
-  font-weight: bold;
-  border: none;
-  outline: none;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -25786,7 +25776,7 @@ option::checkmark {
 .styledSelect label {
   margin: 0;
   line-height: 2;
-  padding: 0 0 0 4px;
+  padding-left: 4px;
 }
 .styledSelect:not(:focus-within) input:not(:checked) + label {
   height: 0;
@@ -25847,7 +25837,7 @@ option::checkmark {
 .styledSelect label {
   margin: 0;
   line-height: 2;
-  padding: 0 0 0 4px;
+  padding-left: 4px;
 }
 .styledSelect:not(:focus-within) input:not(:checked) + label {
   height: 0;
@@ -26873,13 +26863,6 @@ color: rgb(31 41 59 / 26%);
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://searchfox.org/mozilla-central/source/dom/webidl/",
-                                "https://searchfox.org/firefox-main/source/dom/webidl/"
-                              ]
                             }
                           ]
                         },
@@ -28354,13 +28337,6 @@ html > body {
                               ]
                             },
                             {
-                              message: "Redirected external link",
-                              data: [
-                                "https://searchfox.org/mozilla-central/source/browser/components/extensions/extension.css",
-                                "https://searchfox.org/firefox-main/source/browser/components/extensions/extension.css"
-                              ]
-                            },
-                            {
                               message: "Unexpected BCD keys",
                               data: [
                                 "Actual:",
@@ -28371,19 +28347,6 @@ webextensions.manifest.sidebar_action
 webextensions.manifest.options_ui`,
                                 "Expected:",
                                 "[None]"
-                              ]
-                            }
-                          ]
-                        },
-                        omnibox: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Omnibox",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://searchfox.org/mozilla-central/search",
-                                "https://searchfox.org/firefox-main/search"
                               ]
                             }
                           ]
@@ -28399,26 +28362,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/",
                             404
-                          ]
-                        }
-                      ]
-                    },
-                    your_second_webextension: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iconbeast.com/free/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iconbeast.com/faq/",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -28554,13 +28497,6 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://searchfox.org/mozilla-central/source/netwerk/protocol/about/nsIAboutModule.idl",
-                                "https://searchfox.org/firefox-main/source/netwerk/protocol/about/nsIAboutModule.idl"
-                              ]
                             }
                           ]
                         },
@@ -28752,45 +28688,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "30": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/30",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://searchfox.org/mozilla-central/source/dom/webidl/",
-                            "https://searchfox.org/firefox-main/source/dom/webidl/"
-                          ]
-                        }
-                      ]
-                    },
-                    "44": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/44",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://searchfox.org/mozilla-central/source/dom/base/nsPIDOMWindow.h",
-                            "https://searchfox.org/firefox-main/source/dom/base/nsPIDOMWindow.h"
-                          ]
-                        }
-                      ]
-                    },
-                    "59": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/59",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://searchfox.org/mozilla-central/source/security/manager/ssl/nsSTSPreloadList.inc",
-                            "https://searchfox.org/firefox-main/source/security/manager/ssl/nsSTSPreloadList.inc"
-                          ]
-                        }
-                      ]
-                    },
                     "1.5": {
                       children: {
                         changing_the_priority_of_http_requests: {
@@ -28959,13 +28856,6 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://searchfox.org/mozilla-central/source/docshell/base/nsILoadContext.idl",
-                                "https://searchfox.org/firefox-main/source/docshell/base/nsILoadContext.idl"
-                              ]
                             }
                           ]
                         }
@@ -29048,23 +28938,6 @@ webextensions.manifest.options_ui`,
               children: {
                 aria: {
                   children: {
-                    how_to: {
-                      children: {
-                        "file_aria-related_bugs": {
-                          children: {},
-                          slug: "/en-US/docs/Web/Accessibility/ARIA/How_to/File_ARIA-related_bugs",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://www.webkit.org/reporting-bugs/",
-                                "https://webkit.org/reporting-bugs/"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     reference: {
                       children: {
                         attributes: {
@@ -30338,36 +30211,6 @@ p {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "2px 10px 2px 10px" to be "2px 10px" (shorthand-property-no-redundant-values)',
-                            "  padding: 2px 10px 2px 10px;",
-                            "8:12 - 8:29",
-                            `/en-US/docs/Web/API/Document_Object_Model/Examples
-[shorthand-property-no-redundant-values] Expected "2px 10px 2px 10px" to be "2px 10px" (shorthand-property-no-redundant-values)
-~~~
-table {
-  border-collapse: collapse;
-}
-thead {
-  font-weight: bold;
-}
-td {
-  padding: 2px 10px 2px 10px;
-}
-
-.odd {
-  background-color: #efdfef;
-}
-.even {
-  background-color: white;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     }
@@ -30405,79 +30248,6 @@ td {
                       ]
                     }
                   ]
-                },
-                editcontext_api: {
-                  children: {
-                    guide: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/EditContext_API/Guide",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "1px 0 1px 0" to be "1px 0" (shorthand-property-no-redundant-values)',
-                            "  border-width: 1px 0 1px 0;",
-                            "29:17 - 29:28",
-                            `/en-US/docs/Web/API/EditContext_API/Guide
-[shorthand-property-no-redundant-values] Expected "1px 0 1px 0" to be "1px 0" (shorthand-property-no-redundant-values)
-~~~
-.token-openTagStart,
-.token-openTagEnd,
-.token-closeTagStart,
-.token-closeTagEnd,
-.token-selfClose {
-  background: rgb(7 53 92);
-  margin: 0 2px;
-  color: white;
-  border-radius: 0.25rem;
-}
-
-.token-equal {
-  color: white;
-}
-
-.token-tagName {
-  font-weight: bold;
-  color: rgb(117 186 242);
-}
-
-.token-attributeName {
-  color: rgb(207 81 198);
-}
-
-.token-attributeValue {
-  font-style: italic;
-  color: rgb(127 230 127);
-  border: 1px dashed #8c8c8c;
-  border-width: 1px 0 1px 0;
-}
-
-.token-quoteStart,
-.token-quoteEnd {
-  font-weight: bold;
-  color: rgb(127 230 127);
-  border: 1px solid #8c8c8c;
-  border-width: 1px 0 1px 1px;
-  border-radius: 0.25rem 0 0 0.25rem;
-}
-
-.token-quoteEnd {
-  border-width: 1px 1px 1px 0;
-  border-radius: 0 0.25rem 0.25rem 0;
-}
-
-.token-text {
-  color: #6a6a6a;
-  padding: 0 0.25rem;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 element: {
                   children: {
@@ -30907,19 +30677,6 @@ article {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/HTML_Sanitizer_API/Using_the_HTML_Sanitizer_API"
-                      ]
-                    }
-                  ]
-                },
-                htmlcanvaselement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/HTMLCanvasElement",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://searchfox.org/mozilla-central/search?q=interface%20MozCanvasPrintState&path=HTMLCanvasElement.webidl",
-                        "https://searchfox.org/firefox-main/search?q=interface%20MozCanvasPrintState&path=HTMLCanvasElement.webidl"
                       ]
                     }
                   ]
@@ -31655,23 +31412,6 @@ article img {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                indexeddb_api: {
-                  children: {
-                    using_indexeddb: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://searchfox.org/mozilla-central/search?q=dom%2FindexedDB%2F.*%5C.idl&path=&case=false&regexp=true",
-                            "https://searchfox.org/firefox-main/search?q=dom%2FindexedDB%2F.*%5C.idl&path=&case=false&regexp=true"
                           ]
                         }
                       ]
@@ -32887,30 +32627,6 @@ aside {
                     }
                   }
                 },
-                navigator: {
-                  children: {
-                    getinstalledrelatedapps: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/getInstalledRelatedApps",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://web.dev/articles/get-installed-related-apps",
-                            "https://developer.chrome.com/docs/capabilities/get-installed-related-apps"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://web.dev/articles/get-installed-related-apps",
-                            "https://developer.chrome.com/docs/capabilities/get-installed-related-apps"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 payment_request_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
@@ -32936,23 +32652,6 @@ aside {
                             "api.PerformanceNavigationTiming.notRestoredReasons",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                permissions: {
-                  children: {
-                    query: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Permissions/query",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://searchfox.org/mozilla-central/source/dom/webidl/Permissions.webidl",
-                            "https://searchfox.org/firefox-main/source/dom/webidl/Permissions.webidl"
                           ]
                         }
                       ]
@@ -33535,18 +33234,6 @@ html {
                     }
                   ]
                 },
-                quotaexceedederror: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/QuotaExceededError",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/navigator/storage/estimate"
-                      ]
-                    }
-                  ]
-                },
                 request: {
                   children: {
                     duplex: {
@@ -33554,16 +33241,10 @@ html {
                       slug: "/en-US/docs/Web/API/Request/duplex",
                       messages: [
                         {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/RequestInit/duplex"
-                          ]
-                        },
-                        {
                           message: "Broken anchor",
                           data: [
                             "/en-US/docs/Web/API/Streams_API/Using_readable_streams",
-                            "#streams_with_fetch"
+                            "#consuming_a_fetch_as_a_streamh"
                           ]
                         },
                         {
@@ -33920,65 +33601,6 @@ html {
                       ]
                     }
                   ]
-                },
-                storage_api: {
-                  children: {
-                    storage_quotas_and_eviction_criteria: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Storage_API/Storage_quotas_and_eviction_criteria",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://www.webkit.org/blog/14403/updates-to-storage-policy/",
-                            "https://webkit.org/blog/14403/updates-to-storage-policy/"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                subtlecrypto: {
-                  children: {
-                    derivekey: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SubtleCrypto/deriveKey",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "5px 0px 5px 0px" to be "5px 0px" (shorthand-property-no-redundant-values)',
-                            "  margin: 5px 0px 5px 0px;",
-                            "3:11 - 3:26",
-                            `/en-US/docs/Web/API/SubtleCrypto/deriveKey
-[shorthand-property-no-redundant-values] Expected "5px 0px 5px 0px" to be "5px 0px" (shorthand-property-no-redundant-values)
-~~~
-input {
-  display: block;
-  margin: 5px 0px 5px 0px;
-}
-#results {
-  margin-top: 20px;
-}
-
-#log {
-  height: 150px;
-  width: 90%;
-  white-space: pre-wrap; /* wrap pre blocks */
-  overflow-wrap: break-word; /* break on words */
-  overflow-y: auto;
-  padding: 0.5rem;
-  border: 1px solid black;
-  margin-top: 20px;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 summarizer_api: {
                   children: {
@@ -34540,7 +34162,7 @@ p {
 
 .octave {
   display: inline-block;
-  padding: 0 6px 0 0;
+  padding-right: 6px;
 }
 
 .settingsBar {
@@ -34731,7 +34353,7 @@ body {
     }
     h4 span {
       background: #217ac0;
-      padding: 2px 6px 2px 6px;
+      padding: 2px 6px;
     }
     h4 span {
       border: 1px solid #cee9f9;
@@ -34817,93 +34439,7 @@ body {
     }
     h4 span {
       background: #217ac0;
-      padding: 2px 6px 2px 6px;
-    }
-    h4 span {
-      border: 1px solid #cee9f9;
-      border-radius: 4px;
-    }
-    h4 span {
-      color: white;
-    }
-    .attributes {
-      margin-left: 22px;
-      font-size: 90%;
-    }
-    .attributes p {
-      margin-left: 16px;
-      font-style: italic;
-    }
-  </style>
-  <details>
-    <summary>
-      <span>
-        <code class="name"
-          >&lt;<slot name="element-name">NEED NAME</slot>&gt;</code
-        >
-        <span class="desc"
-          ><slot name="description">NEED DESCRIPTION</slot></span
-        >
-      </span>
-    </summary>
-    <div class="attributes">
-      <h4><span>Attributes</span></h4>
-      <slot name="attributes"><p>None</p></slot>
-    </div>
-  </details>
-  <hr />
-</template>
-
-<element-details>
-  <span slot="element-name">slot</span>
-  <span slot="description"
-    >A placeholder inside a web component that users can fill with their own
-    markup, with the effect of composing different DOM trees together.</span
-  >
-  <dl slot="attributes">
-    <dt>name</dt>
-    <dd>The name of the slot.</dd>
-  </dl>
-</element-details>
-
-<element-details>
-  <span slot="element-name">template</span>
-  <span slot="description"
-    >A mechanism for holding client- side content that is not to be rendered
-    when a page is loaded but may subsequently be instantiated during runtime
-    using JavaScript.</span
-  >
-</element-details>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "2px 6px 2px 6px" to be "2px 6px" (shorthand-property-no-redundant-values)',
-                            "      padding: 2px 6px 2px 6px;",
-                            "15:16 - 15:31",
-                            `/en-US/docs/Web/API/Web_components/Using_templates_and_slots
-[shorthand-property-no-redundant-values] Expected "2px 6px 2px 6px" to be "2px 6px" (shorthand-property-no-redundant-values)
-~~~
-<template id="element-details-template">
-  <style>
-    details {
-      font-family: "Open Sans Light", Helvetica, Arial;
-    }
-    .name {
-      font-weight: bold;
-      color: #217ac0;
-      font-size: 120%;
-    }
-    h4 {
-      margin: 10px 0 -8px 0;
-    }
-    h4 span {
-      background: #217ac0;
-      padding: 2px 6px 2px 6px;
+      padding: 2px 6px;
     }
     h4 span {
       border: 1px solid #cee9f9;
@@ -35170,39 +34706,6 @@ body {
                           ]
                         }
                       ]
-                    },
-                    settimeout: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/setTimeout",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "0 10px 0 10px" to be "0 10px" (shorthand-property-no-redundant-values)',
-                            "  padding: 0 10px 0 10px;",
-                            "6:12 - 6:25",
-                            `/en-US/docs/Web/API/Window/setTimeout
-[shorthand-property-no-redundant-values] Expected "0 10px 0 10px" to be "0 10px" (shorthand-property-no-redundant-values)
-~~~
-* {
-  font-family: monospace;
-}
-th,
-td {
-  padding: 0 10px 0 10px;
-  text-align: center;
-  border: 1px solid;
-}
-table {
-  border-collapse: collapse;
-  margin-top: 10px;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -35425,51 +34928,6 @@ table {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/XMLHttpRequest_API/Using_FormData_Objects"
-                      ]
-                    }
-                  ]
-                },
-                xmlhttprequestupload: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/XMLHttpRequestUpload",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "10px 10px" to be "10px" (shorthand-property-no-redundant-values)',
-                        "  padding: 10px 10px;",
-                        "16:12 - 16:21",
-                        `/en-US/docs/Web/API/XMLHttpRequestUpload
-[shorthand-property-no-redundant-values] Expected "10px 10px" to be "10px" (shorthand-property-no-redundant-values)
-~~~
-body {
-  background-color: lightblue;
-}
-
-main {
-  margin: 50px auto;
-  text-align: center;
-}
-
-#file {
-  display: none;
-}
-
-label[for="file"] {
-  background-color: lightgrey;
-  padding: 10px 10px;
-}
-
-progress {
-  display: none;
-}
-
-progress.visible {
-  display: inline;
-}
-~~~
-`
                       ]
                     }
                   ]
@@ -35701,73 +35159,6 @@ p {
                       message: "Not in BCD",
                       data: [
                         "css.selectors.current"
-                      ]
-                    }
-                  ]
-                },
-                _colon_defined: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:defined",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "0 0 0 0" to be "0" (shorthand-property-no-redundant-values)',
-                        "  inset: 0 0 0 0;",
-                        "36:10 - 36:17",
-                        `/en-US/docs/Web/CSS/:defined
-[shorthand-property-no-redundant-values] Expected "0 0 0 0" to be "0" (shorthand-property-no-redundant-values)
-~~~
-custom-element {
-  display: block;
-  border: 5px dashed grey;
-  border-radius: 1rem;
-  height: 100px;
-  width: 400px;
-  padding: 1rem;
-  position: relative;
-  user-select: none;
-}
-
-code {
-  background: #cccccc;
-}
-
-#btn {
-  margin-top: 1rem;
-  cursor: pointer;
-}
-
-custom-element:not(:defined) {
-  border-color: grey;
-  color: grey;
-}
-
-custom-element:defined {
-  background-color: wheat;
-  border-color: black;
-  color: black;
-}
-
-/* show loading message */
-custom-element:not(:defined)::before {
-  content: "Loading...";
-  position: absolute;
-  inset: 0 0 0 0;
-  align-content: center;
-  text-align: center;
-  font-size: 2rem;
-  background-color: white;
-  border-radius: 1rem;
-}
-
-/* remove the loading message */
-custom-element:defined::before {
-  content: "";
-}
-~~~
-`
                       ]
                     }
                   ]
@@ -37281,34 +36672,6 @@ ul::scroll-marker-group {
 ~~~
 ::view-transition {
   background-color: rgb(0 0 0 / 25%);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "-moz-float-edge": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-moz-float-edge",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "0.5em auto 0.5em auto" to be "0.5em auto" (shorthand-property-no-redundant-values)',
-                        "  margin: 0.5em auto 0.5em auto;",
-                        "4:11 - 4:32",
-                        `/en-US/docs/Web/CSS/-moz-float-edge
-[shorthand-property-no-redundant-values] Expected "0.5em auto 0.5em auto" to be "0.5em auto" (shorthand-property-no-redundant-values)
-~~~
-.box {
-  display: block;
-  height: 5px;
-  margin: 0.5em auto 0.5em auto;
-  color: gray;
-  -moz-float-edge: margin-box;
-  box-sizing: border-box;
 }
 ~~~
 `
@@ -39580,48 +38943,7 @@ p {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/@property",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "#000000" to be "black" (color-named)',
-                        "    #000000 var(--progress)",
-                        "15:5 - 15:12",
-                        `/en-US/docs/Web/CSS/@property
-[color-named] Expected "#000000" to be "black" (color-named)
-~~~
-@property --progress {
-  syntax: "<percentage>";
-  inherits: false;
-  initial-value: 25%;
-}
-
-.bar {
-  display: inline-block;
-  --progress: 25%;
-  width: 100%;
-  height: 5px;
-  background: linear-gradient(
-    to right,
-    #00d230 var(--progress),
-    #000000 var(--progress)
-  );
-  animation: progressAnimation 2.5s ease infinite;
-}
-
-@keyframes progressAnimation {
-  to {
-    --progress: 100%;
-  }
-}
-~~~
-`
-                      ]
-                    }
-                  ]
+                  }
                 },
                 "@starting-style": {
                   children: {},
@@ -41466,82 +40788,22 @@ p {
                   slug: "/en-US/docs/Web/CSS/border-radius",
                   messages: [
                     {
-                      message: "CSS code issue",
+                      message: "Stylelint backlog",
                       data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "1em/5em" to be "1em / 5em" (shorthand-property-no-redundant-values)',
-                        "border-radius: 1em/5em;",
-                        "1:16 - 1:23",
+                        "declaration-block-no-redundant-longhand-properties",
+                        'Expected shorthand property "border-radius" (declaration-block-no-redundant-longhand-properties)',
+                        "border-bottom-left-radius: 1em 5em;",
+                        "7:1 - 7:26",
                         `/en-US/docs/Web/CSS/border-radius
-[shorthand-property-no-redundant-values] Expected "1em/5em" to be "1em / 5em" (shorthand-property-no-redundant-values)
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "border-radius" (declaration-block-no-redundant-longhand-properties)
 ~~~
-border-radius: 1em/5em;
+border-radius: 1em / 5em;
 
 /* It is equivalent to: */
 border-top-left-radius: 1em 5em;
 border-top-right-radius: 1em 5em;
 border-bottom-right-radius: 1em 5em;
 border-bottom-left-radius: 1em 5em;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "13em/3em" to be "13em / 3em" (shorthand-property-no-redundant-values)',
-                        "  border-radius: 13em/3em;",
-                        "21:18 - 21:26",
-                        `/en-US/docs/Web/CSS/border-radius
-[shorthand-property-no-redundant-values] Expected "13em/3em" to be "13em / 3em" (shorthand-property-no-redundant-values)
-~~~
-pre {
-  margin: 20px;
-  padding: 20px;
-  width: 80%;
-  height: 50px;
-}
-
-pre#example-1 {
-  border: solid 10px;
-  border-radius: 10px 40px 40px 10px;
-}
-
-pre#example-2 {
-  border: groove 1em red;
-  border-radius: 2em;
-}
-
-pre#example-3 {
-  background: gold;
-  border: ridge gold;
-  border-radius: 13em/3em;
-}
-
-pre#example-4 {
-  border: none;
-  border-radius: 40px 10px;
-  background: gold;
-}
-
-pre#example-5 {
-  border: none;
-  border-radius: 50%;
-  background: burlywood;
-}
-
-pre#example-6 {
-  border: dotted;
-  border-width: 10px 4px;
-  border-radius: 10px 40px;
-}
-
-pre#example-7 {
-  border: dashed;
-  border-width: 2px 4px;
-  border-radius: 40px;
-}
 ~~~
 `
                       ]
@@ -69491,1013 +68753,43 @@ pre {
 }
 
 .hidden {
-  overflow: hidden hidden;
+  overflow: hidden;
 }
 .hidden::before {
   content: "hidden: ";
 }
 
 .clip {
-  overflow: clip clip;
+  overflow: clip;
 }
 .clip::before {
   content: "clip: ";
 }
 
 .scroll {
-  overflow: scroll scroll;
+  overflow: scroll;
 }
 .scroll::before {
   content: "scroll: ";
 }
 
 .auto {
-  overflow: auto auto;
+  overflow: auto;
 }
 .auto::before {
   content: "auto: ";
 }
 
 .overlay {
-  overflow: clip clip;
-  overflow: overlay overlay;
+  overflow: clip;
+  overflow: overlay;
 }
 .overlay::before {
   content: "overlay (or clip if not supported): ";
 }
 
 .visible {
-  overflow: visible visible;
-}
-.visible::before {
-  content: "visible: ";
-}
-
-article:not(:has(pre.clip)) > fieldset > label:nth-of-type(2),
-article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
-  fieldset
-  fieldset {
-  opacity: 20%;
-  pointer-events: none;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-property-value-keyword-no-deprecated",
-                        'Expected "overlay" to be "auto" (declaration-property-value-keyword-no-deprecated)',
-                        "  overflow: overlay overlay;",
-                        "64:13 - 64:20",
-                        `/en-US/docs/Web/CSS/CSS_overflow
-[declaration-property-value-keyword-no-deprecated] Expected "overlay" to be "auto" (declaration-property-value-keyword-no-deprecated)
-~~~
-article {
-  display: flex;
-  gap: 1em;
-}
-
-label {
-  display: block;
-  white-space: nowrap;
-}
-
-pre {
-  border: 2px dashed crimson;
-  height: 150px;
-  width: 20em;
-  margin-bottom: 3em;
-  overflow-clip-margin: 1em;
-  text-align: center;
-}
-
-.wide {
-  width: 40em;
-}
-
-::before {
-  font-weight: bold;
-  color: white;
-  background: crimson;
-  display: inline-block;
-  min-width: 50%;
-  padding: 3px 5px;
-  box-sizing: border-box;
-}
-
-.hidden {
-  overflow: hidden hidden;
-}
-.hidden::before {
-  content: "hidden: ";
-}
-
-.clip {
-  overflow: clip clip;
-}
-.clip::before {
-  content: "clip: ";
-}
-
-.scroll {
-  overflow: scroll scroll;
-}
-.scroll::before {
-  content: "scroll: ";
-}
-
-.auto {
-  overflow: auto auto;
-}
-.auto::before {
-  content: "auto: ";
-}
-
-.overlay {
-  overflow: clip clip;
-  overflow: overlay overlay;
-}
-.overlay::before {
-  content: "overlay (or clip if not supported): ";
-}
-
-.visible {
-  overflow: visible visible;
-}
-.visible::before {
-  content: "visible: ";
-}
-
-article:not(:has(pre.clip)) > fieldset > label:nth-of-type(2),
-article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
-  fieldset
-  fieldset {
-  opacity: 20%;
-  pointer-events: none;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-property-value-keyword-no-deprecated",
-                        'Expected "overlay" to be "auto" (declaration-property-value-keyword-no-deprecated)',
-                        "  overflow: overlay overlay;",
-                        "64:21 - 64:28",
-                        `/en-US/docs/Web/CSS/CSS_overflow
-[declaration-property-value-keyword-no-deprecated] Expected "overlay" to be "auto" (declaration-property-value-keyword-no-deprecated)
-~~~
-article {
-  display: flex;
-  gap: 1em;
-}
-
-label {
-  display: block;
-  white-space: nowrap;
-}
-
-pre {
-  border: 2px dashed crimson;
-  height: 150px;
-  width: 20em;
-  margin-bottom: 3em;
-  overflow-clip-margin: 1em;
-  text-align: center;
-}
-
-.wide {
-  width: 40em;
-}
-
-::before {
-  font-weight: bold;
-  color: white;
-  background: crimson;
-  display: inline-block;
-  min-width: 50%;
-  padding: 3px 5px;
-  box-sizing: border-box;
-}
-
-.hidden {
-  overflow: hidden hidden;
-}
-.hidden::before {
-  content: "hidden: ";
-}
-
-.clip {
-  overflow: clip clip;
-}
-.clip::before {
-  content: "clip: ";
-}
-
-.scroll {
-  overflow: scroll scroll;
-}
-.scroll::before {
-  content: "scroll: ";
-}
-
-.auto {
-  overflow: auto auto;
-}
-.auto::before {
-  content: "auto: ";
-}
-
-.overlay {
-  overflow: clip clip;
-  overflow: overlay overlay;
-}
-.overlay::before {
-  content: "overlay (or clip if not supported): ";
-}
-
-.visible {
-  overflow: visible visible;
-}
-.visible::before {
-  content: "visible: ";
-}
-
-article:not(:has(pre.clip)) > fieldset > label:nth-of-type(2),
-article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
-  fieldset
-  fieldset {
-  opacity: 20%;
-  pointer-events: none;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "overlay" for property "overflow" (declaration-property-value-no-unknown)',
-                        "  overflow: overlay overlay;",
-                        "64:21 - 64:28",
-                        `/en-US/docs/Web/CSS/CSS_overflow
-[declaration-property-value-no-unknown] Unexpected unknown value "overlay" for property "overflow" (declaration-property-value-no-unknown)
-~~~
-article {
-  display: flex;
-  gap: 1em;
-}
-
-label {
-  display: block;
-  white-space: nowrap;
-}
-
-pre {
-  border: 2px dashed crimson;
-  height: 150px;
-  width: 20em;
-  margin-bottom: 3em;
-  overflow-clip-margin: 1em;
-  text-align: center;
-}
-
-.wide {
-  width: 40em;
-}
-
-::before {
-  font-weight: bold;
-  color: white;
-  background: crimson;
-  display: inline-block;
-  min-width: 50%;
-  padding: 3px 5px;
-  box-sizing: border-box;
-}
-
-.hidden {
-  overflow: hidden hidden;
-}
-.hidden::before {
-  content: "hidden: ";
-}
-
-.clip {
-  overflow: clip clip;
-}
-.clip::before {
-  content: "clip: ";
-}
-
-.scroll {
-  overflow: scroll scroll;
-}
-.scroll::before {
-  content: "scroll: ";
-}
-
-.auto {
-  overflow: auto auto;
-}
-.auto::before {
-  content: "auto: ";
-}
-
-.overlay {
-  overflow: clip clip;
-  overflow: overlay overlay;
-}
-.overlay::before {
-  content: "overlay (or clip if not supported): ";
-}
-
-.visible {
-  overflow: visible visible;
-}
-.visible::before {
-  content: "visible: ";
-}
-
-article:not(:has(pre.clip)) > fieldset > label:nth-of-type(2),
-article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
-  fieldset
-  fieldset {
-  opacity: 20%;
-  pointer-events: none;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "hidden hidden" to be "hidden" (shorthand-property-no-redundant-values)',
-                        "  overflow: hidden hidden;",
-                        "35:13 - 35:26",
-                        `/en-US/docs/Web/CSS/CSS_overflow
-[shorthand-property-no-redundant-values] Expected "hidden hidden" to be "hidden" (shorthand-property-no-redundant-values)
-~~~
-article {
-  display: flex;
-  gap: 1em;
-}
-
-label {
-  display: block;
-  white-space: nowrap;
-}
-
-pre {
-  border: 2px dashed crimson;
-  height: 150px;
-  width: 20em;
-  margin-bottom: 3em;
-  overflow-clip-margin: 1em;
-  text-align: center;
-}
-
-.wide {
-  width: 40em;
-}
-
-::before {
-  font-weight: bold;
-  color: white;
-  background: crimson;
-  display: inline-block;
-  min-width: 50%;
-  padding: 3px 5px;
-  box-sizing: border-box;
-}
-
-.hidden {
-  overflow: hidden hidden;
-}
-.hidden::before {
-  content: "hidden: ";
-}
-
-.clip {
-  overflow: clip clip;
-}
-.clip::before {
-  content: "clip: ";
-}
-
-.scroll {
-  overflow: scroll scroll;
-}
-.scroll::before {
-  content: "scroll: ";
-}
-
-.auto {
-  overflow: auto auto;
-}
-.auto::before {
-  content: "auto: ";
-}
-
-.overlay {
-  overflow: clip clip;
-  overflow: overlay overlay;
-}
-.overlay::before {
-  content: "overlay (or clip if not supported): ";
-}
-
-.visible {
-  overflow: visible visible;
-}
-.visible::before {
-  content: "visible: ";
-}
-
-article:not(:has(pre.clip)) > fieldset > label:nth-of-type(2),
-article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
-  fieldset
-  fieldset {
-  opacity: 20%;
-  pointer-events: none;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "clip clip" to be "clip" (shorthand-property-no-redundant-values)',
-                        "  overflow: clip clip;",
-                        "42:13 - 42:22",
-                        `/en-US/docs/Web/CSS/CSS_overflow
-[shorthand-property-no-redundant-values] Expected "clip clip" to be "clip" (shorthand-property-no-redundant-values)
-~~~
-article {
-  display: flex;
-  gap: 1em;
-}
-
-label {
-  display: block;
-  white-space: nowrap;
-}
-
-pre {
-  border: 2px dashed crimson;
-  height: 150px;
-  width: 20em;
-  margin-bottom: 3em;
-  overflow-clip-margin: 1em;
-  text-align: center;
-}
-
-.wide {
-  width: 40em;
-}
-
-::before {
-  font-weight: bold;
-  color: white;
-  background: crimson;
-  display: inline-block;
-  min-width: 50%;
-  padding: 3px 5px;
-  box-sizing: border-box;
-}
-
-.hidden {
-  overflow: hidden hidden;
-}
-.hidden::before {
-  content: "hidden: ";
-}
-
-.clip {
-  overflow: clip clip;
-}
-.clip::before {
-  content: "clip: ";
-}
-
-.scroll {
-  overflow: scroll scroll;
-}
-.scroll::before {
-  content: "scroll: ";
-}
-
-.auto {
-  overflow: auto auto;
-}
-.auto::before {
-  content: "auto: ";
-}
-
-.overlay {
-  overflow: clip clip;
-  overflow: overlay overlay;
-}
-.overlay::before {
-  content: "overlay (or clip if not supported): ";
-}
-
-.visible {
-  overflow: visible visible;
-}
-.visible::before {
-  content: "visible: ";
-}
-
-article:not(:has(pre.clip)) > fieldset > label:nth-of-type(2),
-article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
-  fieldset
-  fieldset {
-  opacity: 20%;
-  pointer-events: none;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "scroll scroll" to be "scroll" (shorthand-property-no-redundant-values)',
-                        "  overflow: scroll scroll;",
-                        "49:13 - 49:26",
-                        `/en-US/docs/Web/CSS/CSS_overflow
-[shorthand-property-no-redundant-values] Expected "scroll scroll" to be "scroll" (shorthand-property-no-redundant-values)
-~~~
-article {
-  display: flex;
-  gap: 1em;
-}
-
-label {
-  display: block;
-  white-space: nowrap;
-}
-
-pre {
-  border: 2px dashed crimson;
-  height: 150px;
-  width: 20em;
-  margin-bottom: 3em;
-  overflow-clip-margin: 1em;
-  text-align: center;
-}
-
-.wide {
-  width: 40em;
-}
-
-::before {
-  font-weight: bold;
-  color: white;
-  background: crimson;
-  display: inline-block;
-  min-width: 50%;
-  padding: 3px 5px;
-  box-sizing: border-box;
-}
-
-.hidden {
-  overflow: hidden hidden;
-}
-.hidden::before {
-  content: "hidden: ";
-}
-
-.clip {
-  overflow: clip clip;
-}
-.clip::before {
-  content: "clip: ";
-}
-
-.scroll {
-  overflow: scroll scroll;
-}
-.scroll::before {
-  content: "scroll: ";
-}
-
-.auto {
-  overflow: auto auto;
-}
-.auto::before {
-  content: "auto: ";
-}
-
-.overlay {
-  overflow: clip clip;
-  overflow: overlay overlay;
-}
-.overlay::before {
-  content: "overlay (or clip if not supported): ";
-}
-
-.visible {
-  overflow: visible visible;
-}
-.visible::before {
-  content: "visible: ";
-}
-
-article:not(:has(pre.clip)) > fieldset > label:nth-of-type(2),
-article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
-  fieldset
-  fieldset {
-  opacity: 20%;
-  pointer-events: none;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "auto auto" to be "auto" (shorthand-property-no-redundant-values)',
-                        "  overflow: auto auto;",
-                        "56:13 - 56:22",
-                        `/en-US/docs/Web/CSS/CSS_overflow
-[shorthand-property-no-redundant-values] Expected "auto auto" to be "auto" (shorthand-property-no-redundant-values)
-~~~
-article {
-  display: flex;
-  gap: 1em;
-}
-
-label {
-  display: block;
-  white-space: nowrap;
-}
-
-pre {
-  border: 2px dashed crimson;
-  height: 150px;
-  width: 20em;
-  margin-bottom: 3em;
-  overflow-clip-margin: 1em;
-  text-align: center;
-}
-
-.wide {
-  width: 40em;
-}
-
-::before {
-  font-weight: bold;
-  color: white;
-  background: crimson;
-  display: inline-block;
-  min-width: 50%;
-  padding: 3px 5px;
-  box-sizing: border-box;
-}
-
-.hidden {
-  overflow: hidden hidden;
-}
-.hidden::before {
-  content: "hidden: ";
-}
-
-.clip {
-  overflow: clip clip;
-}
-.clip::before {
-  content: "clip: ";
-}
-
-.scroll {
-  overflow: scroll scroll;
-}
-.scroll::before {
-  content: "scroll: ";
-}
-
-.auto {
-  overflow: auto auto;
-}
-.auto::before {
-  content: "auto: ";
-}
-
-.overlay {
-  overflow: clip clip;
-  overflow: overlay overlay;
-}
-.overlay::before {
-  content: "overlay (or clip if not supported): ";
-}
-
-.visible {
-  overflow: visible visible;
-}
-.visible::before {
-  content: "visible: ";
-}
-
-article:not(:has(pre.clip)) > fieldset > label:nth-of-type(2),
-article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
-  fieldset
-  fieldset {
-  opacity: 20%;
-  pointer-events: none;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "clip clip" to be "clip" (shorthand-property-no-redundant-values)',
-                        "  overflow: clip clip;",
-                        "63:13 - 63:22",
-                        `/en-US/docs/Web/CSS/CSS_overflow
-[shorthand-property-no-redundant-values] Expected "clip clip" to be "clip" (shorthand-property-no-redundant-values)
-~~~
-article {
-  display: flex;
-  gap: 1em;
-}
-
-label {
-  display: block;
-  white-space: nowrap;
-}
-
-pre {
-  border: 2px dashed crimson;
-  height: 150px;
-  width: 20em;
-  margin-bottom: 3em;
-  overflow-clip-margin: 1em;
-  text-align: center;
-}
-
-.wide {
-  width: 40em;
-}
-
-::before {
-  font-weight: bold;
-  color: white;
-  background: crimson;
-  display: inline-block;
-  min-width: 50%;
-  padding: 3px 5px;
-  box-sizing: border-box;
-}
-
-.hidden {
-  overflow: hidden hidden;
-}
-.hidden::before {
-  content: "hidden: ";
-}
-
-.clip {
-  overflow: clip clip;
-}
-.clip::before {
-  content: "clip: ";
-}
-
-.scroll {
-  overflow: scroll scroll;
-}
-.scroll::before {
-  content: "scroll: ";
-}
-
-.auto {
-  overflow: auto auto;
-}
-.auto::before {
-  content: "auto: ";
-}
-
-.overlay {
-  overflow: clip clip;
-  overflow: overlay overlay;
-}
-.overlay::before {
-  content: "overlay (or clip if not supported): ";
-}
-
-.visible {
-  overflow: visible visible;
-}
-.visible::before {
-  content: "visible: ";
-}
-
-article:not(:has(pre.clip)) > fieldset > label:nth-of-type(2),
-article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
-  fieldset
-  fieldset {
-  opacity: 20%;
-  pointer-events: none;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "overlay overlay" to be "overlay" (shorthand-property-no-redundant-values)',
-                        "  overflow: overlay overlay;",
-                        "64:13 - 64:28",
-                        `/en-US/docs/Web/CSS/CSS_overflow
-[shorthand-property-no-redundant-values] Expected "overlay overlay" to be "overlay" (shorthand-property-no-redundant-values)
-~~~
-article {
-  display: flex;
-  gap: 1em;
-}
-
-label {
-  display: block;
-  white-space: nowrap;
-}
-
-pre {
-  border: 2px dashed crimson;
-  height: 150px;
-  width: 20em;
-  margin-bottom: 3em;
-  overflow-clip-margin: 1em;
-  text-align: center;
-}
-
-.wide {
-  width: 40em;
-}
-
-::before {
-  font-weight: bold;
-  color: white;
-  background: crimson;
-  display: inline-block;
-  min-width: 50%;
-  padding: 3px 5px;
-  box-sizing: border-box;
-}
-
-.hidden {
-  overflow: hidden hidden;
-}
-.hidden::before {
-  content: "hidden: ";
-}
-
-.clip {
-  overflow: clip clip;
-}
-.clip::before {
-  content: "clip: ";
-}
-
-.scroll {
-  overflow: scroll scroll;
-}
-.scroll::before {
-  content: "scroll: ";
-}
-
-.auto {
-  overflow: auto auto;
-}
-.auto::before {
-  content: "auto: ";
-}
-
-.overlay {
-  overflow: clip clip;
-  overflow: overlay overlay;
-}
-.overlay::before {
-  content: "overlay (or clip if not supported): ";
-}
-
-.visible {
-  overflow: visible visible;
-}
-.visible::before {
-  content: "visible: ";
-}
-
-article:not(:has(pre.clip)) > fieldset > label:nth-of-type(2),
-article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
-  fieldset
-  fieldset {
-  opacity: 20%;
-  pointer-events: none;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "visible visible" to be "visible" (shorthand-property-no-redundant-values)',
-                        "  overflow: visible visible;",
-                        "71:13 - 71:28",
-                        `/en-US/docs/Web/CSS/CSS_overflow
-[shorthand-property-no-redundant-values] Expected "visible visible" to be "visible" (shorthand-property-no-redundant-values)
-~~~
-article {
-  display: flex;
-  gap: 1em;
-}
-
-label {
-  display: block;
-  white-space: nowrap;
-}
-
-pre {
-  border: 2px dashed crimson;
-  height: 150px;
-  width: 20em;
-  margin-bottom: 3em;
-  overflow-clip-margin: 1em;
-  text-align: center;
-}
-
-.wide {
-  width: 40em;
-}
-
-::before {
-  font-weight: bold;
-  color: white;
-  background: crimson;
-  display: inline-block;
-  min-width: 50%;
-  padding: 3px 5px;
-  box-sizing: border-box;
-}
-
-.hidden {
-  overflow: hidden hidden;
-}
-.hidden::before {
-  content: "hidden: ";
-}
-
-.clip {
-  overflow: clip clip;
-}
-.clip::before {
-  content: "clip: ";
-}
-
-.scroll {
-  overflow: scroll scroll;
-}
-.scroll::before {
-  content: "scroll: ";
-}
-
-.auto {
-  overflow: auto auto;
-}
-.auto::before {
-  content: "auto: ";
-}
-
-.overlay {
-  overflow: clip clip;
-  overflow: overlay overlay;
-}
-.overlay::before {
-  content: "overlay (or clip if not supported): ";
-}
-
-.visible {
-  overflow: visible visible;
+  overflow: visible;
 }
 .visible::before {
   content: "visible: ";
@@ -70813,389 +69105,6 @@ article {
   position: absolute;
   top: 20px;
   left: 180px;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    stacking_floating_elements: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_floating_elements",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "0px 10px 0px 10px" to be "0px 10px" (shorthand-property-no-redundant-values)',
-                            "  margin: 0px 10px 0px 10px;",
-                            "24:11 - 24:28",
-                            `/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_floating_elements
-[shorthand-property-no-redundant-values] Expected "0px 10px 0px 10px" to be "0px 10px" (shorthand-property-no-redundant-values)
-~~~
-div {
-  padding: 10px;
-  text-align: center;
-}
-
-strong {
-  font-family: sans-serif;
-}
-
-#abs1 {
-  position: absolute;
-  width: 150px;
-  height: 200px;
-  top: 10px;
-  right: 140px;
-  border: 1px dashed #990000;
-  background-color: #ffdddd;
-}
-
-#sta1 {
-  height: 100px;
-  border: 1px dashed #999966;
-  background-color: #ffffcc;
-  margin: 0px 10px 0px 10px;
-  text-align: left;
-}
-
-#flo1 {
-  margin: 0px 10px 0px 20px;
-  float: left;
-  width: 150px;
-  height: 200px;
-  border: 1px dashed #009900;
-  background-color: #ccffcc;
-}
-
-#flo2 {
-  margin: 0px 20px 0px 10px;
-  float: right;
-  width: 150px;
-  height: 200px;
-  border: 1px dashed #009900;
-  background-color: #ccffcc;
-}
-
-#abs2 {
-  position: absolute;
-  width: 150px;
-  height: 100px;
-  top: 80px;
-  left: 100px;
-  border: 1px dashed #999900;
-  background-color: #ffdddd;
-}
-
-#rel1 {
-  position: relative;
-  border: 1px dashed #999966;
-  background-color: #ccffff;
-  margin: 0px 10px 0px 10px;
-  text-align: left;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "0px 10px 0px 10px" to be "0px 10px" (shorthand-property-no-redundant-values)',
-                            "  margin: 0px 10px 0px 10px;",
-                            "60:11 - 60:28",
-                            `/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_floating_elements
-[shorthand-property-no-redundant-values] Expected "0px 10px 0px 10px" to be "0px 10px" (shorthand-property-no-redundant-values)
-~~~
-div {
-  padding: 10px;
-  text-align: center;
-}
-
-strong {
-  font-family: sans-serif;
-}
-
-#abs1 {
-  position: absolute;
-  width: 150px;
-  height: 200px;
-  top: 10px;
-  right: 140px;
-  border: 1px dashed #990000;
-  background-color: #ffdddd;
-}
-
-#sta1 {
-  height: 100px;
-  border: 1px dashed #999966;
-  background-color: #ffffcc;
-  margin: 0px 10px 0px 10px;
-  text-align: left;
-}
-
-#flo1 {
-  margin: 0px 10px 0px 20px;
-  float: left;
-  width: 150px;
-  height: 200px;
-  border: 1px dashed #009900;
-  background-color: #ccffcc;
-}
-
-#flo2 {
-  margin: 0px 20px 0px 10px;
-  float: right;
-  width: 150px;
-  height: 200px;
-  border: 1px dashed #009900;
-  background-color: #ccffcc;
-}
-
-#abs2 {
-  position: absolute;
-  width: 150px;
-  height: 100px;
-  top: 80px;
-  left: 100px;
-  border: 1px dashed #999900;
-  background-color: #ffdddd;
-}
-
-#rel1 {
-  position: relative;
-  border: 1px dashed #999966;
-  background-color: #ccffff;
-  margin: 0px 10px 0px 10px;
-  text-align: left;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    "stacking_without_z-index": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_without_z-index",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "0px 50px 0px 50px" to be "0px 50px" (shorthand-property-no-redundant-values)',
-                            "  margin: 0px 50px 0px 50px;",
-                            "42:11 - 42:28",
-                            `/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_without_z-index
-[shorthand-property-no-redundant-values] Expected "0px 50px 0px 50px" to be "0px 50px" (shorthand-property-no-redundant-values)
-~~~
-strong {
-  font-family: sans-serif;
-}
-
-div {
-  padding: 10px;
-  border: 1px dashed;
-  text-align: center;
-}
-
-.static {
-  position: static;
-  height: 80px;
-  background-color: #ffffcc;
-  border-color: #999966;
-}
-
-.absolute {
-  position: absolute;
-  width: 150px;
-  height: 350px;
-  background-color: #ffdddd;
-  border-color: #990000;
-  opacity: 0.7;
-}
-
-.relative {
-  position: relative;
-  height: 80px;
-  background-color: #ccffcc;
-  border-color: #669966;
-  opacity: 0.7;
-}
-
-#abs1 {
-  top: 10px;
-  left: 10px;
-}
-
-#rel1 {
-  top: 30px;
-  margin: 0px 50px 0px 50px;
-}
-
-#rel2 {
-  top: 15px;
-  left: 20px;
-  margin: 0px 50px 0px 50px;
-}
-
-#abs2 {
-  top: 10px;
-  right: 10px;
-}
-
-#sta1 {
-  background-color: #ffffcc;
-  margin: 0px 50px 0px 50px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "0px 50px 0px 50px" to be "0px 50px" (shorthand-property-no-redundant-values)',
-                            "  margin: 0px 50px 0px 50px;",
-                            "48:11 - 48:28",
-                            `/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_without_z-index
-[shorthand-property-no-redundant-values] Expected "0px 50px 0px 50px" to be "0px 50px" (shorthand-property-no-redundant-values)
-~~~
-strong {
-  font-family: sans-serif;
-}
-
-div {
-  padding: 10px;
-  border: 1px dashed;
-  text-align: center;
-}
-
-.static {
-  position: static;
-  height: 80px;
-  background-color: #ffffcc;
-  border-color: #999966;
-}
-
-.absolute {
-  position: absolute;
-  width: 150px;
-  height: 350px;
-  background-color: #ffdddd;
-  border-color: #990000;
-  opacity: 0.7;
-}
-
-.relative {
-  position: relative;
-  height: 80px;
-  background-color: #ccffcc;
-  border-color: #669966;
-  opacity: 0.7;
-}
-
-#abs1 {
-  top: 10px;
-  left: 10px;
-}
-
-#rel1 {
-  top: 30px;
-  margin: 0px 50px 0px 50px;
-}
-
-#rel2 {
-  top: 15px;
-  left: 20px;
-  margin: 0px 50px 0px 50px;
-}
-
-#abs2 {
-  top: 10px;
-  right: 10px;
-}
-
-#sta1 {
-  background-color: #ffffcc;
-  margin: 0px 50px 0px 50px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "0px 50px 0px 50px" to be "0px 50px" (shorthand-property-no-redundant-values)',
-                            "  margin: 0px 50px 0px 50px;",
-                            "58:11 - 58:28",
-                            `/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_without_z-index
-[shorthand-property-no-redundant-values] Expected "0px 50px 0px 50px" to be "0px 50px" (shorthand-property-no-redundant-values)
-~~~
-strong {
-  font-family: sans-serif;
-}
-
-div {
-  padding: 10px;
-  border: 1px dashed;
-  text-align: center;
-}
-
-.static {
-  position: static;
-  height: 80px;
-  background-color: #ffffcc;
-  border-color: #999966;
-}
-
-.absolute {
-  position: absolute;
-  width: 150px;
-  height: 350px;
-  background-color: #ffdddd;
-  border-color: #990000;
-  opacity: 0.7;
-}
-
-.relative {
-  position: relative;
-  height: 80px;
-  background-color: #ccffcc;
-  border-color: #669966;
-  opacity: 0.7;
-}
-
-#abs1 {
-  top: 10px;
-  left: 10px;
-}
-
-#rel1 {
-  top: 30px;
-  margin: 0px 50px 0px 50px;
-}
-
-#rel2 {
-  top: 15px;
-  left: 20px;
-  margin: 0px 50px 0px 50px;
-}
-
-#abs2 {
-  top: 10px;
-  right: 10px;
-}
-
-#sta1 {
-  background-color: #ffffcc;
-  margin: 0px 50px 0px 50px;
 }
 ~~~
 `
@@ -71654,234 +69563,6 @@ div {
 section {
   position: absolute;
   z-index: 2;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    "using_z-index": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Using_z-index",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "0px 50px 0px 50px" to be "0px 50px" (shorthand-property-no-redundant-values)',
-                            "  margin: 0px 50px 0px 50px;",
-                            "29:11 - 29:28",
-                            `/en-US/docs/Web/CSS/CSS_positioned_layout/Using_z-index
-[shorthand-property-no-redundant-values] Expected "0px 50px 0px 50px" to be "0px 50px" (shorthand-property-no-redundant-values)
-~~~
-div {
-  padding: 10px;
-  opacity: 0.7;
-  text-align: center;
-}
-
-strong {
-  font-family: sans-serif;
-}
-
-#abs1 {
-  z-index: 5;
-  position: absolute;
-  width: 150px;
-  height: 350px;
-  top: 10px;
-  left: 10px;
-  border: 1px dashed #990000;
-  background-color: #ffdddd;
-}
-
-#rel1 {
-  z-index: 3;
-  height: 100px;
-  position: relative;
-  top: 30px;
-  border: 1px dashed #669966;
-  background-color: #ccffcc;
-  margin: 0px 50px 0px 50px;
-}
-
-#rel2 {
-  z-index: 2;
-  height: 100px;
-  position: relative;
-  top: 15px;
-  left: 20px;
-  border: 1px dashed #669966;
-  background-color: #ccffcc;
-  margin: 0px 50px 0px 50px;
-}
-
-#abs2 {
-  z-index: 1;
-  position: absolute;
-  width: 150px;
-  height: 350px;
-  top: 10px;
-  right: 10px;
-  border: 1px dashed #990000;
-  background-color: #ffdddd;
-}
-
-#sta1 {
-  z-index: 8;
-  height: 70px;
-  border: 1px dashed #999966;
-  background-color: #ffffcc;
-  margin: 0px 50px 0px 50px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "0px 50px 0px 50px" to be "0px 50px" (shorthand-property-no-redundant-values)',
-                            "  margin: 0px 50px 0px 50px;",
-                            "40:11 - 40:28",
-                            `/en-US/docs/Web/CSS/CSS_positioned_layout/Using_z-index
-[shorthand-property-no-redundant-values] Expected "0px 50px 0px 50px" to be "0px 50px" (shorthand-property-no-redundant-values)
-~~~
-div {
-  padding: 10px;
-  opacity: 0.7;
-  text-align: center;
-}
-
-strong {
-  font-family: sans-serif;
-}
-
-#abs1 {
-  z-index: 5;
-  position: absolute;
-  width: 150px;
-  height: 350px;
-  top: 10px;
-  left: 10px;
-  border: 1px dashed #990000;
-  background-color: #ffdddd;
-}
-
-#rel1 {
-  z-index: 3;
-  height: 100px;
-  position: relative;
-  top: 30px;
-  border: 1px dashed #669966;
-  background-color: #ccffcc;
-  margin: 0px 50px 0px 50px;
-}
-
-#rel2 {
-  z-index: 2;
-  height: 100px;
-  position: relative;
-  top: 15px;
-  left: 20px;
-  border: 1px dashed #669966;
-  background-color: #ccffcc;
-  margin: 0px 50px 0px 50px;
-}
-
-#abs2 {
-  z-index: 1;
-  position: absolute;
-  width: 150px;
-  height: 350px;
-  top: 10px;
-  right: 10px;
-  border: 1px dashed #990000;
-  background-color: #ffdddd;
-}
-
-#sta1 {
-  z-index: 8;
-  height: 70px;
-  border: 1px dashed #999966;
-  background-color: #ffffcc;
-  margin: 0px 50px 0px 50px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "0px 50px 0px 50px" to be "0px 50px" (shorthand-property-no-redundant-values)',
-                            "  margin: 0px 50px 0px 50px;",
-                            "59:11 - 59:28",
-                            `/en-US/docs/Web/CSS/CSS_positioned_layout/Using_z-index
-[shorthand-property-no-redundant-values] Expected "0px 50px 0px 50px" to be "0px 50px" (shorthand-property-no-redundant-values)
-~~~
-div {
-  padding: 10px;
-  opacity: 0.7;
-  text-align: center;
-}
-
-strong {
-  font-family: sans-serif;
-}
-
-#abs1 {
-  z-index: 5;
-  position: absolute;
-  width: 150px;
-  height: 350px;
-  top: 10px;
-  left: 10px;
-  border: 1px dashed #990000;
-  background-color: #ffdddd;
-}
-
-#rel1 {
-  z-index: 3;
-  height: 100px;
-  position: relative;
-  top: 30px;
-  border: 1px dashed #669966;
-  background-color: #ccffcc;
-  margin: 0px 50px 0px 50px;
-}
-
-#rel2 {
-  z-index: 2;
-  height: 100px;
-  position: relative;
-  top: 15px;
-  left: 20px;
-  border: 1px dashed #669966;
-  background-color: #ccffcc;
-  margin: 0px 50px 0px 50px;
-}
-
-#abs2 {
-  z-index: 1;
-  position: absolute;
-  width: 150px;
-  height: 350px;
-  top: 10px;
-  right: 10px;
-  border: 1px dashed #990000;
-  background-color: #ffdddd;
-}
-
-#sta1 {
-  z-index: 8;
-  height: 70px;
-  border: 1px dashed #999966;
-  background-color: #ffffcc;
-  margin: 0px 50px 0px 50px;
 }
 ~~~
 `
@@ -86794,7 +84475,7 @@ span {
 
 dl > div {
   background: white;
-  padding: 24px 0 0 0;
+  padding-top: 24px;
 }
 
 dt {
@@ -86819,7 +84500,7 @@ dd {
     Arial,
     sans-serif;
   margin: 0;
-  padding: 0 0 0 12px;
+  padding-left: 12px;
   white-space: nowrap;
 }
 
@@ -86846,7 +84527,7 @@ dd + dd {
 
 dl > div {
   background: white;
-  padding: 24px 0 0 0;
+  padding-top: 24px;
 }
 
 dt {
@@ -86871,7 +84552,7 @@ dd {
     Arial,
     sans-serif;
   margin: 0;
-  padding: 0 0 0 12px;
+  padding-left: 12px;
   white-space: nowrap;
 }
 
@@ -86898,7 +84579,7 @@ dd + dd {
 
 dl > div {
   background: white;
-  padding: 24px 0 0 0;
+  padding-top: 24px;
 }
 
 dt {
@@ -86923,7 +84604,7 @@ dd {
     Arial,
     sans-serif;
   margin: 0;
-  padding: 0 0 0 12px;
+  padding-left: 12px;
   white-space: nowrap;
 }
 
@@ -86950,7 +84631,7 @@ dd + dd {
 
 dl > div {
   background: white;
-  padding: 24px 0 0 0;
+  padding-top: 24px;
 }
 
 dt {
@@ -86975,7 +84656,7 @@ dd {
     Arial,
     sans-serif;
   margin: 0;
-  padding: 0 0 0 12px;
+  padding-left: 12px;
   white-space: nowrap;
 }
 
@@ -87015,48 +84696,7 @@ p {
 
 .bulb {
   position: sticky;
-  inset: 50px 100px 50px 100px;
-}
-
-div {
-  /* mark area defined by the inset boundaries using gray color */
-  background: linear-gradient(#99999999, #99999999) 100px 50px / 192px 100px
-    no-repeat;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "shorthand-property-no-redundant-values",
-                        'Expected "50px 100px 50px 100px" to be "50px 100px" (shorthand-property-no-redundant-values)',
-                        "  inset: 50px 100px 50px 100px;",
-                        "20:10 - 20:31",
-                        `/en-US/docs/Web/CSS/position
-[shorthand-property-no-redundant-values] Expected "50px 100px 50px 100px" to be "50px 100px" (shorthand-property-no-redundant-values)
-~~~
-div {
-  width: 400px;
-  height: 200px;
-  overflow: scroll;
-  scrollbar-width: thin;
-  font-size: 16px;
-  font-family: Verdana;
-  border: 1px solid;
-}
-
-p {
-  width: 600px;
-  user-select: none;
-  margin: 0;
-  border: 110px solid transparent;
-}
-
-.bulb {
-  position: sticky;
-  inset: 50px 100px 50px 100px;
+  inset: 50px 100px;
 }
 
 div {
@@ -90676,7 +88316,7 @@ body {
   height: inherit;
   display: flex;
   flex-direction: column;
-  justify-content:space-around
+  justify-content: space-around;
 }
 li h2 {
   margin: 0;
@@ -90818,7 +88458,7 @@ body {
   height: inherit;
   display: flex;
   flex-direction: column;
-  justify-content:space-around
+  justify-content: space-around;
 }
 li h2 {
   margin: 0;
@@ -91910,56 +89550,7 @@ ins::before {
 }
 
 p {
-  margin: 0 1.8rem 0;
-  font-family: Georgia, serif;
-  font-size: 1rem;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "shorthand-property-no-redundant-values",
-                                'Expected "0 1.8rem 0" to be "0 1.8rem" (shorthand-property-no-redundant-values)',
-                                "  margin: 0 1.8rem 0;",
-                                "32:11 - 32:21",
-                                `/en-US/docs/Web/HTML/Reference/Elements/ins
-[shorthand-property-no-redundant-values] Expected "0 1.8rem 0" to be "0 1.8rem" (shorthand-property-no-redundant-values)
-~~~
-del,
-ins {
-  display: block;
-  text-decoration: none;
-  position: relative;
-}
-
-del {
-  background-color: #ffbbbb;
-}
-
-ins {
-  background-color: #d4fcbc;
-}
-
-del::before,
-ins::before {
-  position: absolute;
-  left: 0.5rem;
-  font-family: monospace;
-}
-
-del::before {
-  content: "−";
-}
-
-ins::before {
-  content: "+";
-}
-
-p {
-  margin: 0 1.8rem 0;
+  margin: 0 1.8rem;
   font-family: Georgia, serif;
   font-size: 1rem;
 }
@@ -92556,23 +90147,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
-                    content_negotiation: {
-                      children: {
-                        list_of_default_accept_values: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Guides/Content_negotiation/List_of_default_Accept_values",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://searchfox.org/mozilla-central/search?q=image.http.accept",
-                                "https://searchfox.org/firefox-main/search?q=image.http.accept"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     cors: {
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/CORS",
@@ -92650,23 +90224,6 @@ http.headers.Use-As-Dictionary`,
                           ]
                         }
                       ]
-                    },
-                    proxy_servers_and_tunneling: {
-                      children: {
-                        "proxy_auto-configuration_pac_file": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Guides/Proxy_servers_and_tunneling/Proxy_Auto-Configuration_PAC_file",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://searchfox.org/mozilla-central/source/netwerk/base/ProxyAutoConfig.cpp",
-                                "https://searchfox.org/firefox-main/source/netwerk/base/ProxyAutoConfig.cpp"
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     }
                   }
                 },
@@ -92674,19 +90231,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        "access-control-max-age": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Access-Control-Max-Age",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://searchfox.org/mozilla-central/source/netwerk/protocol/http/nsCORSListenerProxy.cpp",
-                                "https://searchfox.org/firefox-main/source/netwerk/protocol/http/nsCORSListenerProxy.cpp"
-                              ]
-                            }
-                          ]
-                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -92738,19 +90282,6 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           }
-                        },
-                        "strict-transport-security": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Strict-Transport-Security",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://searchfox.org/mozilla-central/source/security/manager/ssl/nsSTSPreloadList.inc",
-                                "https://searchfox.org/firefox-main/source/security/manager/ssl/nsSTSPreloadList.inc"
-                              ]
-                            }
-                          ]
                         },
                         "user-agent": {
                           children: {
@@ -92852,6 +90383,23 @@ h2 {
                     },
                     global_objects: {
                       children: {
+                        array: {
+                          children: {
+                            map: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://wirfs-brock.com/allen/posts/166",
+                                    "Cannot reach server and Bun hangs"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
                         asyncgeneratorfunction: {
                           children: {
                             prototype: {
@@ -92971,34 +90519,41 @@ h2 {
                             {
                               message: "Broken external link",
                               data: [
+                                "https://www.itu.int/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.itu.int/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.itu.int/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
                                 "https://about.att.com/innovation/ip/patents",
                                 403
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.itu.int/",
+                                "The operation timed out."
                               ]
                             }
                           ]
                         }
                       }
-                    }
-                  }
-                }
-              }
-            },
-            performance: {
-              children: {
-                guides: {
-                  children: {
-                    performance_budgets: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Performance/Guides/Performance_budgets",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addyosmani.com/blog/performance-budgets/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
@@ -93026,19 +90581,6 @@ h2 {
                           ]
                         }
                       }
-                    },
-                    redirect_tracking_protection: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Privacy/Guides/Redirect_tracking_protection",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://searchfox.org/mozilla-central/rev/622dbd3409610ad3f71b56c9a6a92da905dab0aa/toolkit/components/antitracking/PurgeTrackerService.jsm",
-                            "https://searchfox.org/firefox-main/rev/9767e215f62521af8168bfb6fb4275755868f0db/toolkit/components/antitracking/PurgeTrackerService.jsm"
-                          ]
-                        }
-                      ]
                     },
                     storage_access_policy: {
                       children: {
@@ -94487,23 +92029,6 @@ p {
               children: {
                 reference: {
                   children: {
-                    capabilities: {
-                      children: {
-                        firefoxoptions: {
-                          children: {},
-                          slug: "/en-US/docs/Web/WebDriver/Reference/Capabilities/firefoxOptions",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://searchfox.org/mozilla-central/source/modules/libpref/init/all.js",
-                                "https://searchfox.org/firefox-main/source/modules/libpref/init/all.js"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     errors: {
                       children: {},
                       slug: "/en-US/docs/Web/WebDriver/Reference/Errors",
