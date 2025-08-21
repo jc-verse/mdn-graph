@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-3nknbnxe.js";
+} from "./chunk-hkc2dzaj.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -20,6 +20,23 @@ var warnings_processed_default = {
                   ]
                 }
               ]
+            },
+            techniques: {
+              children: {
+                audio_for_web_games: {
+                  children: {},
+                  slug: "/en-US/docs/Games/Techniques/Audio_for_Web_Games",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://pupunzi.open-lab.com/2013/03/13/making-html5-audio-actually-work-on-mobile/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                }
+              }
             },
             tools: {
               children: {
@@ -995,19 +1012,6 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            itu: {
-              children: {},
-              slug: "/en-US/docs/Glossary/ITU",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.itu.int/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -15370,6 +15374,13 @@ p {
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://24ways.org/2011/creating-custom-font-stacks-with-unicode-range/",
+                            404
+                          ]
                         }
                       ]
                     }
@@ -29182,6 +29193,19 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                     },
                     understanding_wcag: {
                       children: {
+                        keyboard: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Keyboard",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         perceivable: {
                           children: {
                             color_contrast: {
@@ -56561,6 +56585,66 @@ section {
                     }
                   }
                 },
+                css_environment_variables: {
+                  children: {
+                    using_environment_variables: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_environment_variables/Using_environment_variables",
+                      messages: [
+                        {
+                          message: "Code ending with punctuation",
+                          data: [
+                            "text-size-adjust: auto."
+                          ]
+                        },
+                        {
+                          message: "Code with space",
+                          data: [
+                            "@media `shape` descriptor"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#browser_defined_environment_variables"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#browser_defined_environment_variables"
+                          ]
+                        },
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "#browser_defined_environment_variables"
+                          ]
+                        },
+                        {
+                          message: "Unreachable via sidebar",
+                          data: []
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word env (CssSyntaxError)",
+                            "env( <environment-variable-name> )",
+                            "1:1 - 1:4",
+                            `/en-US/docs/Web/CSS/CSS_environment_variables/Using_environment_variables
+[CssSyntaxError] Unknown word env (CssSyntaxError)
+~~~
+env( <environment-variable-name> )
+env( <environment-variable-name>, <fallback-value> )
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 css_filter_effects: {
                   children: {
                     using_filter_effects: {
@@ -70205,6 +70289,13 @@ article.snapDisabled ul {
 ~~~
 `
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2022/06/keyboard-only-scrolling-areas.html",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -83243,6 +83334,19 @@ img.opacity:hover {
                     }
                   ]
                 },
+                overflow: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/overflow",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2022/06/keyboard-only-scrolling-areas.html",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 overlay: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/overlay",
@@ -84982,6 +85086,13 @@ pre {
                       data: [
                         "CSS info"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -84993,6 +85104,13 @@ pre {
                       message: "Missing data",
                       data: [
                         "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -88943,6 +89061,32 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
+                        a: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        button: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         caption: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/caption",
@@ -89111,6 +89255,19 @@ code {
                             }
                           ]
                         },
+                        del: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/del",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         details: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/details",
@@ -89227,6 +89384,32 @@ because the nesting selector cannot represent pseudo-elements. */
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        dl: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dl",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2022/12/brief-note-on-description-list-support.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        heading_elements: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2016/08/there-is-no-document-outline-algorithm.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -89503,7 +89686,17 @@ because the nesting selector cannot represent pseudo-elements. */
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/input",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         ins: {
                           children: {},
@@ -89556,6 +89749,13 @@ p {
 }
 ~~~
 `
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -89620,6 +89820,19 @@ header {
                             }
                           ]
                         },
+                        mark: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/mark",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         meta: {
                           children: {
                             name: {
@@ -89639,6 +89852,19 @@ header {
                               }
                             }
                           }
+                        },
+                        s: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/s",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         slot: {
                           children: {},
@@ -90105,6 +90331,19 @@ h2 {
                               ]
                             }
                           ]
+                        },
+                        tabindex: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/tabindex",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         }
                       }
                     }
@@ -90383,23 +90622,6 @@ h2 {
                     },
                     global_objects: {
                       children: {
-                        array: {
-                          children: {
-                            map: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://wirfs-brock.com/allen/posts/166",
-                                    "Cannot reach server and Bun hangs"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         asyncgeneratorfunction: {
                           children: {
                             prototype: {
@@ -90519,36 +90741,8 @@ h2 {
                             {
                               message: "Broken external link",
                               data: [
-                                "https://www.itu.int/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.itu.int/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.itu.int/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
                                 "https://about.att.com/innovation/ip/patents",
                                 403
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.itu.int/",
-                                "The operation timed out."
                               ]
                             }
                           ]
