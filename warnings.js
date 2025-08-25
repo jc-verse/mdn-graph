@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-enzj64z8.js";
+} from "./chunk-2yfnmx5d.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -975,13 +975,6 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://people.eecs.berkeley.edu/~messer/netappc/Supplements/10-idl.pdf",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -26068,26 +26061,6 @@ button:active {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://marketplace.visualstudio.com/search?target=vscode&category=Linters&sortBy=Installs",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2016/11/worlds-best-open-device-labs/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -26542,19 +26515,6 @@ body * {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
                         }
                       ]
                     }
@@ -28521,19 +28481,6 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
-                    "21": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/21",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/21.0/releasenotes/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "22": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
@@ -29306,7 +29253,17 @@ body {
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Animation",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/blog/7551/responsive-design-for-motion/",
+                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                      ]
+                    }
+                  ]
                 },
                 audio_output_devices_api: {
                   children: {},
@@ -29474,19 +29431,6 @@ api.MessagePort`,
 }
 ~~~
 `
-                      ]
-                    }
-                  ]
-                },
-                credential_management_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Credential_Management_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://openid.net/developers/specs/",
-                        503
                       ]
                     }
                   ]
@@ -30219,32 +30163,6 @@ kbd {
                       ]
                     }
                   }
-                },
-                fedcm_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/FedCM_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://openid.net/specs/openid-connect-frontchannel-1_0.html",
-                        503
-                      ]
-                    }
-                  ]
-                },
-                federatedcredential: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/FederatedCredential",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://openid.net/developers/specs/",
-                        503
-                      ]
-                    }
-                  ]
                 },
                 fetchevent: {
                   children: {
@@ -39114,6 +39032,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/7551/responsive-design-for-motion/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
                         }
                       ]
                     },
@@ -39655,6 +39580,19 @@ body {
 }
 ~~~
 `
+                      ]
+                    }
+                  ]
+                },
+                animation: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/animation",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/blog/7551/responsive-design-for-motion/",
+                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                       ]
                     }
                   ]
@@ -89105,23 +89043,6 @@ html.elements.textarea.disabled`
                             }
                           ]
                         },
-                        rel: {
-                          children: {
-                            preload: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         size: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Attributes/size",
@@ -90646,6 +90567,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        dnt: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -90697,6 +90631,19 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           }
+                        },
+                        tk: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Tk",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         "user-agent": {
                           children: {
@@ -90908,52 +90855,8 @@ h2 {
               children: {
                 guides: {
                   children: {
-                    audio_and_video_delivery: {
-                      children: {
-                        live_streaming_web_audio_and_video: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Live_streaming_web_audio_and_video",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://gstreamer.freedesktop.org/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://gstreamer.freedesktop.org/documentation/soup/souphttpclientsink.html?gi-language=c",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://gstreamer.freedesktop.org/documentation/shout2/index.html?gi-language=c",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     formats: {
                       children: {
-                        audio_codecs: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://gstreamer.freedesktop.org/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -90968,27 +90871,6 @@ h2 {
                           ]
                         }
                       }
-                    }
-                  }
-                }
-              }
-            },
-            performance: {
-              children: {
-                guides: {
-                  children: {
-                    speculative_loading: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Performance/Guides/Speculative_loading",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
@@ -92352,6 +92234,19 @@ svg.elements.feSpotLight.z`
                     },
                     element: {
                       children: {
+                        animate: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Element/animate",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webkit.org/blog/7551/responsive-design-for-motion/",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
+                        },
                         femorphology: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/feMorphology",
@@ -92501,6 +92396,23 @@ p {
               children: {
                 reference: {
                   children: {
+                    capabilities: {
+                      children: {
+                        firefoxoptions: {
+                          children: {},
+                          slug: "/en-US/docs/Web/WebDriver/Reference/Capabilities/firefoxOptions",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://manpages.debian.org/stretch/debianutils/which.1.en.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     errors: {
                       children: {},
                       slug: "/en-US/docs/Web/WebDriver/Reference/Errors",
