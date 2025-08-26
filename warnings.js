@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-2yfnmx5d.js";
+} from "./chunk-xd544x2t.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -529,6 +529,26 @@ div.warning {
                 }
               ]
             },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
             grid_areas: {
               children: {},
               slug: "/en-US/docs/Glossary/Grid_Areas",
@@ -1005,6 +1025,19 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -5116,6 +5149,19 @@ label + input[type="text"] {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    react_getting_started: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://babeljs.io/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -10115,6 +10161,201 @@ button {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    },
+                    marking_up_a_letter: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Marking_up_a_letter",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-elem",
+                            "Do not use the <style> element; use separate CSS blocks instead.",
+                            `    <style>
+      body {
+        font: 1.2em / 1.5 system-ui;
+      }
+
+      .sender-column {
+        text-align: right;
+      }
+
+      h1 {
+        font-size: 1.5em;
+      }
+
+      h2 {
+        font-size: 1.3em;
+      }
+    </style>`,
+                            "6:4 - 22:12",
+                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Marking_up_a_letter
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Dr. Eleanor Gaye" />
+    <title>Awesome science application correspondence</title>
+    <style>
+      body {
+        font: 1.2em / 1.5 system-ui;
+      }
+
+      .sender-column {
+        text-align: right;
+      }
+
+      h1 {
+        font-size: 1.5em;
+      }
+
+      h2 {
+        font-size: 1.3em;
+      }
+    </style>
+  </head>
+  <body>
+    <address class="sender-column">
+      <strong>Dr. Eleanor Gaye</strong><br />
+      Awesome Science faculty<br />
+      University of Awesome<br />
+      Bobtown, CA 99999,<br />
+      USA<br />
+      <strong>Tel</strong>: 123-456-7890<br />
+      <strong>Email</strong>: no_reply@example.com
+    </address>
+
+    <p class="sender-column">
+      <time datetime="2016-01-20">20 January 2016</time>
+    </p>
+
+    <address>
+      <strong>Miss Eileen Dover</strong><br />
+      4321 Cliff Top Edge<br />
+      Dover, CT9 XXX<br />
+      UK
+    </address>
+
+    <h1>Re: Eileen Dover university application</h1>
+
+    <p>Dear Eileen,</p>
+
+    <p>
+      Thank you for your recent application to join us at the University of
+      Awesome's science faculty to study as part of your
+      <abbr>PhD</abbr> (Doctor of Philosophy) next year. I will answer your
+      questions one by one, in the following sections.
+    </p>
+
+    <h2>Starting dates</h2>
+
+    <p>
+      We are happy to accommodate you starting your study with us at any time,
+      however it would suit us better if you could start at the beginning of a
+      semester; the start dates for each one are as follows:
+    </p>
+
+    <ul>
+      <li>
+        First semester: <time datetime="2016-09-09">9 September 2016</time>
+      </li>
+      <li>
+        Second semester: <time datetime="2017-01-15">15 January 2017</time>
+      </li>
+      <li>Third semester: <time datetime="2017-05-02">2 May 2017</time></li>
+    </ul>
+
+    <p>
+      Please let me know if this is ok, and if so which start date you would
+      prefer.
+    </p>
+
+    <h2>Subjects of study</h2>
+
+    <p>
+      At the Awesome Science Faculty, we have a pretty open-minded research
+      facility — as long as the subjects fall somewhere in the realm of science
+      and technology. You seem like an intelligent, dedicated researcher, and
+      just the kind of person we'd like to have on our team. Saying that, of the
+      ideas you submitted we were most intrigued by are as follows, in order of
+      priority:
+    </p>
+
+    <ol>
+      <li>
+        Turning H<sub>2</sub>O into wine, and the health benefits of Resveratrol
+        (C<sub>14</sub>H<sub>12</sub>O<sub>3</sub>.)
+      </li>
+      <li>
+        Measuring the effect on performance of funk bassplayers at temperatures
+        exceeding 30°C (86°F), when the audience size exponentially increases
+        (effect of 3 × 10<sup>3</sup> increasing to 3 × 10<sup>4</sup>.)
+      </li>
+      <li>
+        <abbr>HTML</abbr>, Hypertext Markup Language, and <abbr>CSS</abbr>,
+        Cascading Style Sheets, constructs for representing musical scores.
+      </li>
+    </ol>
+
+    <p>
+      So please can you provide more information on each of these subjects,
+      including how long you'd expect the research to take, required staff and
+      other resources, and anything else you think we'd need to know? Thanks.
+    </p>
+
+    <h2>Exotic dance moves</h2>
+
+    <p>
+      Yes, you are right! As part of my post-doctorate work, I
+      <em>did</em> study exotic tribal dances. To answer your question, my
+      favourite dances are as follows, with definitions:
+    </p>
+
+    <dl>
+      <dt>Polynesian chicken dance</dt>
+      <dd>
+        A little known but <em>very</em> influential dance dating back as far as
+        300 <abbr title="Before Common Era">BCE</abbr>, a whole village would
+        dance around in a circle like chickens, to encourage their livestock to
+        be "fruitful".
+      </dd>
+      <dt>Icelandic brownian shuffle</dt>
+      <dd>
+        Before the Icelanders developed fire as a means of getting warm, they
+        used to practice this dance, which involved huddling close together in a
+        circle on the floor, and shuffling their bodies around in imperceptibly
+        tiny, very rapid movements. One of my fellow students used to say that
+        he thought this dance inspired modern styles such as Twerking.
+      </dd>
+      <dt>Arctic robot dance</dt>
+      <dd>
+        An interesting example of historic misinformation, English explorers in
+        the 1960s believed to have discovered a new dance style characterised by
+        "robotic", stilted movements, being practiced by inhabitants of Northern
+        Alaska and Canada. Later on however it was discovered that they were
+        just moving like this because they were really cold.
+      </dd>
+    </dl>
+
+    <p>Yours sincerely,</p>
+
+    <p>Dr Eleanor Gaye</p>
+
+    <p>
+      University of Awesome motto: <q>Be awesome to each other.</q> --
+      <cite
+        >The memoirs of Bill S Preston, <abbr title="Esquire">Esq.</abbr></cite
+      >
+    </p>
+  </body>
+</html>
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -15314,15 +15555,15 @@ button::before {
                 },
                 "client-side_tools": {
                   children: {
-                    package_management: {
+                    overview: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://docs.npmjs.com/cli/run-script/",
-                            404
+                            "https://babeljs.io/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -25686,6 +25927,10 @@ option::checkmark {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Unreachable via page",
+                          data: []
                         }
                       ]
                     },
@@ -25802,6 +26047,13 @@ textarea:focus {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -25828,23 +26080,6 @@ textarea:focus {
                           data: []
                         }
                       ]
-                    },
-                    express_nodejs: {
-                      children: {
-                        development_environment: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/development_environment",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://docs.npmjs.com/cli/run-script/",
-                                404
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     },
                     node_server_without_framework: {
                       children: {},
@@ -26508,6 +26743,33 @@ body * {
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -26515,6 +26777,32 @@ body * {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_much_does_it_cost: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.magix.com/us/music-editing/sound-forge/",
+                            400
+                          ]
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -27115,6 +27403,23 @@ color: rgb(31 41 59 / 26%);
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        menus: {
+                          children: {
+                            overridecontext: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/overrideContext",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://blog.mozilla.org/addons/2018/11/08/extensions-in-firefox-64/",
+                                    504
+                                  ]
                                 }
                               ]
                             }
@@ -28158,19 +28463,6 @@ webextensions.manifest.options_ui`,
                           ]
                         }
                       }
-                    },
-                    what_are_webextensions: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/What_are_WebExtensions",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/",
-                            404
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions",
@@ -28479,7 +28771,76 @@ webextensions.manifest.options_ui`,
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/10",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2012/01/firefox-goes-2-digit-time-to-check-your-ua-sniffing-scripts/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "17": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/17",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2012/08/aurora-17-is-out/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blog.mozilla.org/addons/2012/11/08/compatibility-for-firefox-17/",
+                            504
+                          ]
+                        }
+                      ]
+                    },
+                    "19": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/19",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blog.mozilla.org/addons/2013/02/07/compatibility-for-firefox-19/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "20": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/20",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blog.mozilla.org/addons/2013/03/20/compatibility-for-firefox-20/",
+                            504
+                          ]
+                        }
+                      ]
+                    },
+                    "21": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/21",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blog.mozilla.org/addons/2013/04/26/compatibility-for-firefox-21/",
+                            504
+                          ]
+                        }
+                      ]
                     },
                     "22": {
                       children: {},
@@ -28490,6 +28851,307 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://asmjs.org/spec/latest/",
                             ""
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blog.mozilla.org/addons/2013/06/03/compatibility-for-firefox-22/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2013/04/developer-tools-update-firefox-22/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blog.mozilla.org/addons/2013/06/03/compatibility-for-firefox-22/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "26": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/26",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2013/09/new-features-in-the-firefox-developer-tools-episode-26/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "27": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/27",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2013/11/firefox-developer-tools-episode-27-edit-as-html-codemirror-more/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "28": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/28",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2013/12/split-console-pretty-print-minified-js-and-more-firefox-developer-tools-episode-28/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "29": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/29",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2014/02/css-source-map-support-network-performance-analysis-more-firefox-developer-tools-episode-29/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "33": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/33",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2014/07/event-listeners-popup-media-sidebar-cubic-bezier-editor-more-firefox-developer-tools-episode-33/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "63": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/63",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blog.mozilla.org/webrtc/getstats-isremote-65/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "64": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/64",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blog.mozilla.org/addons/2018/11/08/extensions-in-firefox-64/",
+                            504
+                          ]
+                        }
+                      ]
+                    },
+                    "65": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/65",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2019/01/firefox-65-webp-flexbox-inspector-new-tooling/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "66": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/66",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2019/03/firefox-66-the-sound-of-silence/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "68": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/68",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2019/07/firefox-68-bigints-contrast-checks-and-the-quantumbar/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "69": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/69",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2019/06/geckoview-in-2019/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2019/09/firefox-69-a-tale-of-resize-observer-microtasks-css-and-devtools/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "75": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/75",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2020/04/firefox-75-ambitions-for-april/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "76": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/76",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2020/05/firefox-76-audio-worklets-and-other-tricks/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "77": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/77",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2020/06/new-in-firefox-77-devtool-improvements-and-web-platform-updates/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "78": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/78",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2020/06/a-new-regexp-engine-in-spidermonkey/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "79": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/79",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blog.mozilla.org/addons/2020/07/09/changes-to-storage-sync-in-firefox-79/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "82": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/82",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2020/10/coming-through-with-firefox-82/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "83": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/83",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2020/11/firefox-83-is-upon-us/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "89": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/89",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blog.mozilla.org/addons/2021/04/19/changes-to-themeable-areas-of-firefox-in-version-89/",
+                            504
+                          ]
+                        }
+                      ]
+                    },
+                    "91": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/91",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2021/08/hopping-on-firefox-91/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "139": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/139",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blog.mozilla.org/addons/2025/04/30/webextensions-support-for-tab-groups/",
+                            504
                           ]
                         }
                       ]
@@ -28986,19 +29648,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         }
                       ]
                     },
-                    seizure_disorders: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.hardingfpa.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     understanding_wcag: {
                       children: {
                         perceivable: {
@@ -29253,17 +29902,7 @@ body {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Animation",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webkit.org/blog/7551/responsive-design-for-motion/",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 audio_output_devices_api: {
                   children: {},
@@ -30259,7 +30898,30 @@ api.Document.fullscreen`,
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/Gamepad_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://hacks.mozilla.org/2013/12/the-gamepad-api/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                geolocation_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Geolocation_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://hacks.mozilla.org/2013/10/who-moved-my-geolocation/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 highlightregistry: {
                   children: {
@@ -30509,6 +31171,36 @@ article {
                       ]
                     }
                   ]
+                },
+                htmlaudioelement: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/HTMLAudioElement",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://hacks.mozilla.org/2019/02/firefox-66-to-block-automatically-playing-audible-video-and-audio/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                htmlcanvaselement: {
+                  children: {
+                    mozopaque: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLCanvasElement/mozOpaque",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2013/05/optimizing-your-javascript-game-for-firefox-os/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 htmlelement: {
                   children: {
@@ -32456,205 +33148,6 @@ aside {
                     }
                   }
                 },
-                navigator: {
-                  children: {
-                    appcodename: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/appCodeName",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "deprecated"
-                            ],
-                            []
-                          ]
-                        }
-                      ]
-                    },
-                    appname: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/appName",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "deprecated"
-                            ],
-                            []
-                          ]
-                        }
-                      ]
-                    },
-                    appversion: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/appVersion",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "deprecated"
-                            ],
-                            []
-                          ]
-                        }
-                      ]
-                    },
-                    javaenabled: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/javaEnabled",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "deprecated"
-                            ],
-                            []
-                          ]
-                        }
-                      ]
-                    },
-                    mimetypes: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/mimeTypes",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "deprecated"
-                            ],
-                            []
-                          ]
-                        }
-                      ]
-                    },
-                    oscpu: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/oscpu",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "deprecated"
-                            ],
-                            []
-                          ]
-                        }
-                      ]
-                    },
-                    platform: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/platform",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "deprecated"
-                            ],
-                            []
-                          ]
-                        }
-                      ]
-                    },
-                    plugins: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/plugins",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "deprecated"
-                            ],
-                            []
-                          ]
-                        }
-                      ]
-                    },
-                    product: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/product",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "deprecated"
-                            ],
-                            []
-                          ]
-                        }
-                      ]
-                    },
-                    productsub: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/productSub",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "deprecated"
-                            ],
-                            []
-                          ]
-                        }
-                      ]
-                    },
-                    taintenabled: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/taintEnabled",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "deprecated"
-                            ],
-                            []
-                          ]
-                        }
-                      ]
-                    },
-                    vendor: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/vendor",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "deprecated"
-                            ],
-                            []
-                          ]
-                        }
-                      ]
-                    },
-                    vendorsub: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/vendorSub",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "deprecated"
-                            ],
-                            []
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 payment_request_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
@@ -33912,290 +34405,6 @@ textarea,
                     }
                   ]
                 },
-                url_pattern_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/URL_Pattern_API",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/URL_Pattern_API#inheritance_from_a_base_url"
-                      ]
-                    }
-                  ]
-                },
-                urlpattern: {
-                  children: {
-                    urlpattern: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/URLPattern/URLPattern",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "spaced-comment",
-                            "Expected space or tab after '//' in comment.",
-                            "  //More-specific URL parts are discarded",
-                            "23:3 - 23:42",
-                            `/en-US/docs/Web/API/URLPattern/URLPattern
-[spaced-comment] Expected space or tab after '//' in comment.
-~~~
-let pattern1 = new URLPattern("https://example.com/books/:id");
-
-// same as
-let pattern2 = new URLPattern("/books/:id", "https://example.com");
-
-// or
-let pattern3 = new URLPattern({
-  protocol: "https",
-  hostname: "example.com",
-  pathname: "/books/:id",
-});
-
-// or
-let pattern4 = new URLPattern({
-  pathname: "/books/:id",
-  baseURL: "https://example.com",
-});
-
-// or
-let pattern5 = new URLPattern({
-  pathname: "/books/:id",
-  baseURL: "https://example.com/some/path/?search=3#param=1",
-  //More-specific URL parts are discarded
-});
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "spaced-comment",
-                            "Expected space or tab after '//' in comment.",
-                            "//protocol: https",
-                            "7:1 - 7:18",
-                            `/en-US/docs/Web/API/URLPattern/URLPattern
-[spaced-comment] Expected space or tab after '//' in comment.
-~~~
-const pattern = new URLPattern({
-  pathname: "/some/path",
-  baseURL: "https://myuser:mypass@example.com/mypath?search=1&p=3#fred",
-});
-
-console.log(pattern);
-//protocol: https
-//username: *
-//password: *
-//hostname: example.com
-//port:
-//pathname: /some/path
-//search: *
-//hash: *
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "spaced-comment",
-                            "Expected space or tab after '//' in comment.",
-                            "//username: *",
-                            "8:1 - 8:14",
-                            `/en-US/docs/Web/API/URLPattern/URLPattern
-[spaced-comment] Expected space or tab after '//' in comment.
-~~~
-const pattern = new URLPattern({
-  pathname: "/some/path",
-  baseURL: "https://myuser:mypass@example.com/mypath?search=1&p=3#fred",
-});
-
-console.log(pattern);
-//protocol: https
-//username: *
-//password: *
-//hostname: example.com
-//port:
-//pathname: /some/path
-//search: *
-//hash: *
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "spaced-comment",
-                            "Expected space or tab after '//' in comment.",
-                            "//password: *",
-                            "9:1 - 9:14",
-                            `/en-US/docs/Web/API/URLPattern/URLPattern
-[spaced-comment] Expected space or tab after '//' in comment.
-~~~
-const pattern = new URLPattern({
-  pathname: "/some/path",
-  baseURL: "https://myuser:mypass@example.com/mypath?search=1&p=3#fred",
-});
-
-console.log(pattern);
-//protocol: https
-//username: *
-//password: *
-//hostname: example.com
-//port:
-//pathname: /some/path
-//search: *
-//hash: *
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "spaced-comment",
-                            "Expected space or tab after '//' in comment.",
-                            "//hostname: example.com",
-                            "10:1 - 10:24",
-                            `/en-US/docs/Web/API/URLPattern/URLPattern
-[spaced-comment] Expected space or tab after '//' in comment.
-~~~
-const pattern = new URLPattern({
-  pathname: "/some/path",
-  baseURL: "https://myuser:mypass@example.com/mypath?search=1&p=3#fred",
-});
-
-console.log(pattern);
-//protocol: https
-//username: *
-//password: *
-//hostname: example.com
-//port:
-//pathname: /some/path
-//search: *
-//hash: *
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "spaced-comment",
-                            "Expected space or tab after '//' in comment.",
-                            "//port:",
-                            "11:1 - 11:8",
-                            `/en-US/docs/Web/API/URLPattern/URLPattern
-[spaced-comment] Expected space or tab after '//' in comment.
-~~~
-const pattern = new URLPattern({
-  pathname: "/some/path",
-  baseURL: "https://myuser:mypass@example.com/mypath?search=1&p=3#fred",
-});
-
-console.log(pattern);
-//protocol: https
-//username: *
-//password: *
-//hostname: example.com
-//port:
-//pathname: /some/path
-//search: *
-//hash: *
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "spaced-comment",
-                            "Expected space or tab after '//' in comment.",
-                            "//pathname: /some/path",
-                            "12:1 - 12:23",
-                            `/en-US/docs/Web/API/URLPattern/URLPattern
-[spaced-comment] Expected space or tab after '//' in comment.
-~~~
-const pattern = new URLPattern({
-  pathname: "/some/path",
-  baseURL: "https://myuser:mypass@example.com/mypath?search=1&p=3#fred",
-});
-
-console.log(pattern);
-//protocol: https
-//username: *
-//password: *
-//hostname: example.com
-//port:
-//pathname: /some/path
-//search: *
-//hash: *
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "spaced-comment",
-                            "Expected space or tab after '//' in comment.",
-                            "//search: *",
-                            "13:1 - 13:12",
-                            `/en-US/docs/Web/API/URLPattern/URLPattern
-[spaced-comment] Expected space or tab after '//' in comment.
-~~~
-const pattern = new URLPattern({
-  pathname: "/some/path",
-  baseURL: "https://myuser:mypass@example.com/mypath?search=1&p=3#fred",
-});
-
-console.log(pattern);
-//protocol: https
-//username: *
-//password: *
-//hostname: example.com
-//port:
-//pathname: /some/path
-//search: *
-//hash: *
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "spaced-comment",
-                            "Expected space or tab after '//' in comment.",
-                            "//hash: *",
-                            "14:1 - 14:10",
-                            `/en-US/docs/Web/API/URLPattern/URLPattern
-[spaced-comment] Expected space or tab after '//' in comment.
-~~~
-const pattern = new URLPattern({
-  pathname: "/some/path",
-  baseURL: "https://myuser:mypass@example.com/mypath?search=1&p=3#fred",
-});
-
-console.log(pattern);
-//protocol: https
-//username: *
-//password: *
-//hostname: example.com
-//port:
-//pathname: /some/path
-//search: *
-//hash: *
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 viewtimeline: {
                   children: {},
                   slug: "/en-US/docs/Web/API/ViewTimeline",
@@ -34859,6 +35068,37 @@ api.Window.sessionStorage`,
                     }
                   ]
                 },
+                webgl_api: {
+                  children: {
+                    tutorial: {
+                      children: {
+                        using_textures_in_webgl: {
+                          children: {},
+                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Using_textures_in_WebGL",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://hacks.mozilla.org/2011/11/using-cors-to-load-webgl-textures-from-cross-domain-images/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/WebGL_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://hacks.mozilla.org/2017/01/webgl-2-lands-in-firefox/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 webrtc_api: {
                   children: {
                     build_a_phone_with_peerjs: {
@@ -34900,6 +35140,19 @@ api.Window.sessionStorage`,
                           ]
                         }
                       }
+                    },
+                    connectivity: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebRTC_API/Connectivity",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2013/07/webrtc-and-the-ocean-of-acronyms/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     },
                     using_encoded_transforms: {
                       children: {},
@@ -34979,6 +35232,32 @@ body {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    getcomputedstyle: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/getComputedStyle",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blog.mozilla.org/security/2010/03/31/plugging-the-css-history-leak/",
+                            504
+                          ]
+                        }
+                      ]
+                    },
+                    getdefaultcomputedstyle: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/getDefaultComputedStyle",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blog.mozilla.org/security/2010/03/31/plugging-the-css-history-leak/",
+                            504
                           ]
                         }
                       ]
@@ -39032,13 +39311,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webkit.org/blog/7551/responsive-design-for-motion/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
                         }
                       ]
                     },
@@ -39580,19 +39852,6 @@ body {
 }
 ~~~
 `
-                      ]
-                    }
-                  ]
-                },
-                animation: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webkit.org/blog/7551/responsive-design-for-motion/",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                       ]
                     }
                   ]
@@ -89043,6 +89302,23 @@ html.elements.textarea.disabled`
                             }
                           ]
                         },
+                        rel: {
+                          children: {
+                            preload: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
+                                    "unknown certificate verification error"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
                         size: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Attributes/size",
@@ -90488,6 +90764,13 @@ http.headers.Use-As-Dictionary`,
                       slug: "/en-US/docs/Web/HTTP/Guides/CORS",
                       messages: [
                         {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.telerik.com/blogs/using-cors-with-all-modern-browsers",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
                           message: "Unexpected BCD keys",
                           data: [
                             "Actual:",
@@ -90567,15 +90850,15 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        dnt: {
+                        accept: {
                           children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
-                                "The operation timed out."
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
                               ]
                             }
                           ]
@@ -90632,19 +90915,6 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         },
-                        tk: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Tk",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         "user-agent": {
                           children: {
                             firefox: {
@@ -90658,6 +90928,19 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           }
+                        },
+                        "x-content-type-options": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Content-Type-Options",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://blog.mozilla.org/security/2016/08/26/mitigating-mime-confusion-attacks-in-firefox/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         }
                       }
                     }
@@ -90726,6 +91009,19 @@ h2 {
                           ]
                         }
                       ]
+                    },
+                    modules: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Guide/Modules",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://babeljs.io/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/JavaScript/Guide",
@@ -90741,7 +91037,21 @@ h2 {
                 reference: {
                   children: {
                     classes: {
-                      children: {}
+                      children: {
+                        public_class_fields: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://babeljs.io/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     },
                     global_objects: {
                       children: {
@@ -90833,6 +91143,19 @@ h2 {
                           ]
                         }
                       }
+                    },
+                    template_literals: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Reference/Template_literals",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2015/05/es6-in-depth-template-strings-2/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   }
                 }
@@ -90855,6 +91178,19 @@ h2 {
               children: {
                 guides: {
                   children: {
+                    audio_and_video_delivery: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2014/06/easy-audio-capture-with-the-mediarecorder-api/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     formats: {
                       children: {
                         video_codecs: {
@@ -90871,6 +91207,27 @@ h2 {
                           ]
                         }
                       }
+                    }
+                  }
+                }
+              }
+            },
+            performance: {
+              children: {
+                guides: {
+                  children: {
+                    speculative_loading: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Performance/Guides/Speculative_loading",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
                     }
                   }
                 }
@@ -90969,6 +91326,19 @@ h2 {
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Web/Privacy/Guides/Storage_Access_Policy/Errors"
+                          ]
+                        }
+                      ]
+                    },
+                    "third-party_cookies": {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/tracking-prevention-policy/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -91099,45 +91469,8 @@ h2 {
                       }
                     }
                   }
-                },
-                tutorials: {
-                  children: {
-                    js13kgames: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://2017.js13kgames.com/",
-                            "https://js13kgames.com/2017/"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://2017.js13kgames.com/",
-                        "https://js13kgames.com/2017/"
-                      ]
-                    }
-                  ]
                 }
-              },
-              slug: "/en-US/docs/Web/Progressive_web_apps",
-              messages: [
-                {
-                  message: "Redirected external link",
-                  data: [
-                    "https://2017.js13kgames.com/",
-                    "https://js13kgames.com/2017/"
-                  ]
-                }
-              ]
+              }
             },
             security: {
               children: {
@@ -92234,19 +92567,6 @@ svg.elements.feSpotLight.z`
                     },
                     element: {
                       children: {
-                        animate: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/animate",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://webkit.org/blog/7551/responsive-design-for-motion/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
-                            }
-                          ]
-                        },
                         femorphology: {
                           children: {},
                           slug: "/en-US/docs/Web/SVG/Reference/Element/feMorphology",
@@ -92396,36 +92716,6 @@ p {
               children: {
                 reference: {
                   children: {
-                    capabilities: {
-                      children: {
-                        firefoxoptions: {
-                          children: {},
-                          slug: "/en-US/docs/Web/WebDriver/Reference/Capabilities/firefoxOptions",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://manpages.debian.org/stretch/debianutils/which.1.en.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    errors: {
-                      children: {},
-                      slug: "/en-US/docs/Web/WebDriver/Reference/Errors",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.selenium.dev/selenium/docs/api/py/common/selenium.common.exceptions.html",
-                            404
-                          ]
-                        }
-                      ]
-                    },
                     timeouts: {
                       children: {},
                       slug: "/en-US/docs/Web/WebDriver/Reference/Timeouts",
@@ -92480,7 +92770,28 @@ p {
                   }
                 },
                 guides: {
-                  children: {},
+                  children: {
+                    opensearch: {
+                      children: {},
+                      slug: "/en-US/docs/Web/XML/Guides/OpenSearch",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://ready.to/search/en/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://ready.to/search/make/en_make_plugin.htm",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/XML/Guides",
                   messages: [
                     {
