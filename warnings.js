@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-xd544x2t.js";
+} from "./chunk-56gkjba9.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -20,6 +20,53 @@ var warnings_processed_default = {
                   ]
                 }
               ]
+            },
+            techniques: {
+              children: {
+                audio_for_web_games: {
+                  children: {},
+                  slug: "/en-US/docs/Games/Techniques/Audio_for_Web_Games",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://hacks.mozilla.org/2013/10/songs-of-diridum-pushing-the-web-audio-api-to-its-limits/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                control_mechanisms: {
+                  children: {
+                    other: {
+                      children: {},
+                      slug: "/en-US/docs/Games/Techniques/Control_mechanisms/Other",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2016/01/building-games-for-firefox-os-tv/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                webrtc_data_channels: {
+                  children: {},
+                  slug: "/en-US/docs/Games/Techniques/WebRTC_data_channels",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://hacks.mozilla.org/2013/03/webrtc-data-channels-for-great-multiplayer/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                }
+              }
             },
             tools: {
               children: {
@@ -178,6 +225,13 @@ var warnings_processed_default = {
             {
               message: "Unreachable via sidebar",
               data: []
+            },
+            {
+              message: "Broken external link",
+              data: [
+                "https://hacks.mozilla.org/category/games/",
+                "The operation timed out."
+              ]
             }
           ]
         },
@@ -526,26 +580,6 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            gpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/GPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-faq.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -1028,19 +1062,6 @@ div.warning {
                 }
               ]
             },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
-            },
             literal: {
               children: {},
               slug: "/en-US/docs/Glossary/Literal",
@@ -1319,6 +1340,19 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            sgml: {
+              children: {},
+              slug: "/en-US/docs/Glossary/SGML",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.tei-c.org/Vault/GL/P3/SG.htm",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -5149,19 +5183,6 @@ label + input[type="text"] {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    react_getting_started: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -11412,6 +11433,324 @@ h2 {
   box-sizing: border-box;
 }
 
+h1,
+h2 {
+  color: purple;
+}
+
+p {
+  color: gray;
+  margin: 0.5em 0;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                                "    1em / 1.4 Helvetica Neue,",
+                                "5:15 - 5:24",
+                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  background-color: white;
+  color: #333333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  color: purple;
+}
+
+p {
+  color: gray;
+  margin: 0.5em 0;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Arial" (font-family-name-quotes)',
+                                "    Arial,",
+                                "7:5 - 7:10",
+                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  background-color: white;
+  color: #333333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  color: purple;
+}
+
+p {
+  color: gray;
+  margin: 0.5em 0;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
+                                "    1em / 1.4 Helvetica Neue,",
+                                "5:15 - 5:29",
+                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
+[font-family-name-quotes] Expected quotes around "Helvetica Neue" (font-family-name-quotes)
+~~~
+body {
+  background-color: white;
+  color: #333333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+ol {
+  border: 2px solid purple;
+}
+
+ul {
+  border: 2px solid orange;
+}
+
+ol,
+ul {
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                                "    1em / 1.4 Helvetica Neue,",
+                                "5:15 - 5:24",
+                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  background-color: white;
+  color: #333333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+ol {
+  border: 2px solid purple;
+}
+
+ul {
+  border: 2px solid orange;
+}
+
+ol,
+ul {
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Arial" (font-family-name-quotes)',
+                                "    Arial,",
+                                "7:5 - 7:10",
+                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  background-color: white;
+  color: #333333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+ol {
+  border: 2px solid purple;
+}
+
+ul {
+  border: 2px solid orange;
+}
+
+ol,
+ul {
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
+                                "    1em / 1.4 Helvetica Neue,",
+                                "5:15 - 5:29",
+                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
+[font-family-name-quotes] Expected quotes around "Helvetica Neue" (font-family-name-quotes)
+~~~
+body {
+  background-color: white;
+  color: #333333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 p {
   margin: 0.5em 0;
 }
@@ -11701,6 +12040,324 @@ dl {
 dt {
   font-weight: bold;
   color: purple;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
+                                "    1em / 1.4 Helvetica Neue,",
+                                "5:15 - 5:29",
+                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
+[font-family-name-quotes] Expected quotes around "Helvetica Neue" (font-family-name-quotes)
+~~~
+body {
+  background-color: white;
+  color: #333333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: purple;
+}
+
+dl {
+  color: gray;
+  margin: 0.5em 0;
+}
+
+dt {
+  font-weight: bold;
+  color: purple;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                                "    1em / 1.4 Helvetica Neue,",
+                                "5:15 - 5:24",
+                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  background-color: white;
+  color: #333333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: purple;
+}
+
+dl {
+  color: gray;
+  margin: 0.5em 0;
+}
+
+dt {
+  font-weight: bold;
+  color: purple;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Arial" (font-family-name-quotes)',
+                                "    Arial,",
+                                "7:5 - 7:10",
+                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  background-color: white;
+  color: #333333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: purple;
+}
+
+dl {
+  color: gray;
+  margin: 0.5em 0;
+}
+
+dt {
+  font-weight: bold;
+  color: purple;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
+                                "    1em / 1.4 Helvetica Neue,",
+                                "5:15 - 5:29",
+                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
+[font-family-name-quotes] Expected quotes around "Helvetica Neue" (font-family-name-quotes)
+~~~
+body {
+  background-color: white;
+  color: #333333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+strong {
+  color: purple;
+}
+
+p,
+em {
+  margin: 0.5em 0;
+}
+
+em {
+  color: gray;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                                "    1em / 1.4 Helvetica Neue,",
+                                "5:15 - 5:24",
+                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  background-color: white;
+  color: #333333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+strong {
+  color: purple;
+}
+
+p,
+em {
+  margin: 0.5em 0;
+}
+
+em {
+  color: gray;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Arial" (font-family-name-quotes)',
+                                "    Arial,",
+                                "7:5 - 7:10",
+                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  background-color: white;
+  color: #333333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+strong {
+  color: purple;
+}
+
+p,
+em {
+  margin: 0.5em 0;
+}
+
+em {
+  color: gray;
 }
 ~~~
 `
@@ -15444,6 +16101,19 @@ p {
                       ]
                     }
                   }
+                },
+                version_control: {
+                  children: {},
+                  slug: "/en-US/docs/Learn_web_development/Core/Version_control",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues",
+                        "https://docs.github.com/en/issues/tracking-your-work-with-issues/learning-about-issues/about-issues"
+                      ]
+                    }
+                  ]
                 }
               },
               slug: "/en-US/docs/Learn_web_development/Core",
@@ -15555,14 +16225,14 @@ button::before {
                 },
                 "client-side_tools": {
                   children: {
-                    overview: {
+                    introducing_complete_toolchain: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://babeljs.io/",
+                            "https://eslint.org/docs/latest/rules/",
                             "The operation timed out."
                           ]
                         }
@@ -25969,6 +26639,5369 @@ textarea:focus {
                         }
                       ]
                     },
+                    "ui_pseudo-classes": {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
+                            "        box-shadow: inset 1px 1px 3px #ccc;",
+                            "39:39 - 39:43",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:required and :optional with generated content</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      button,
+      label,
+      input {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input + span {
+        position: relative;
+      }
+
+      input:required + span::after {
+        font-size: 0.7rem;
+        position: absolute;
+        content: "required";
+        color: white;
+        background-color: black;
+        padding: 5px 10px;
+        top: -26px;
+        left: -70px;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Feedback form</legend>
+
+        <p>Required fields are labelled with "required".</p>
+        <div>
+          <label for="fname">First name: </label>
+          <input id="fname" name="fname" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="lname">Last name: </label>
+          <input id="lname" name="lname" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="email"
+            >Email address (include if you want a response):
+          </label>
+          <input id="email" name="email" type="email" />
+          <span></span>
+        </div>
+        <div><button>Submit</button></div>
+      </fieldset>
+    </form>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                            "        background-color: #eee;",
+                            "45:27 - 45:31",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:required and :optional with generated content</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      button,
+      label,
+      input {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input + span {
+        position: relative;
+      }
+
+      input:required + span::after {
+        font-size: 0.7rem;
+        position: absolute;
+        content: "required";
+        color: white;
+        background-color: black;
+        padding: 5px 10px;
+        top: -26px;
+        left: -70px;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Feedback form</legend>
+
+        <p>Required fields are labelled with "required".</p>
+        <div>
+          <label for="fname">First name: </label>
+          <input id="fname" name="fname" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="lname">Last name: </label>
+          <input id="lname" name="lname" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="email"
+            >Email address (include if you want a response):
+          </label>
+          <input id="email" name="email" type="email" />
+          <span></span>
+        </div>
+        <div><button>Submit</button></div>
+      </fieldset>
+    </form>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)',
+                            "        padding: 0;",
+                            "30:9 - 30:16",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[declaration-block-no-duplicate-properties] Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:required and :optional with generated content</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      button,
+      label,
+      input {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input + span {
+        position: relative;
+      }
+
+      input:required + span::after {
+        font-size: 0.7rem;
+        position: absolute;
+        content: "required";
+        color: white;
+        background-color: black;
+        padding: 5px 10px;
+        top: -26px;
+        left: -70px;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Feedback form</legend>
+
+        <p>Required fields are labelled with "required".</p>
+        <div>
+          <label for="fname">First name: </label>
+          <input id="fname" name="fname" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="lname">Last name: </label>
+          <input id="lname" name="lname" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="email"
+            >Email address (include if you want a response):
+          </label>
+          <input id="email" name="email" type="email" />
+          <span></span>
+        </div>
+        <div><button>Submit</button></div>
+      </fieldset>
+    </form>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-elem",
+                            "Do not use the <style> element; use separate CSS blocks instead.",
+                            `    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      button,
+      label,
+      input {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input + span {
+        position: relative;
+      }
+
+      input:required + span::after {
+        font-size: 0.7rem;
+        position: absolute;
+        content: "required";
+        color: white;
+        background-color: black;
+        padding: 5px 10px;
+        top: -26px;
+        left: -70px;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>`,
+                            "9:4 - 75:12",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:required and :optional with generated content</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      button,
+      label,
+      input {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input + span {
+        position: relative;
+      }
+
+      input:required + span::after {
+        font-size: 0.7rem;
+        position: absolute;
+        content: "required";
+        color: white;
+        background-color: black;
+        padding: 5px 10px;
+        top: -26px;
+        left: -70px;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Feedback form</legend>
+
+        <p>Required fields are labelled with "required".</p>
+        <div>
+          <label for="fname">First name: </label>
+          <input id="fname" name="fname" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="lname">Last name: </label>
+          <input id="lname" name="lname" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="email"
+            >Email address (include if you want a response):
+          </label>
+          <input id="email" name="email" type="email" />
+          <span></span>
+        </div>
+        <div><button>Submit</button></div>
+      </fieldset>
+    </form>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>`,
+                            "104:4 - 109:13",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:required and :optional with generated content</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      button,
+      label,
+      input {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input + span {
+        position: relative;
+      }
+
+      input:required + span::after {
+        font-size: 0.7rem;
+        position: absolute;
+        content: "required";
+        color: white;
+        background-color: black;
+        padding: 5px 10px;
+        top: -26px;
+        left: -70px;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Feedback form</legend>
+
+        <p>Required fields are labelled with "required".</p>
+        <div>
+          <label for="fname">First name: </label>
+          <input id="fname" name="fname" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="lname">Last name: </label>
+          <input id="lname" name="lname" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="email"
+            >Email address (include if you want a response):
+          </label>
+          <input id="email" name="email" type="email" />
+          <span></span>
+        </div>
+        <div><button>Submit</button></div>
+      </fieldset>
+    </form>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
+                            "        box-shadow: inset 1px 1px 3px #ccc;",
+                            "39:39 - 39:43",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:valid and :invalid example</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      button,
+      label,
+      input {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input + span {
+        position: relative;
+      }
+
+      input:required + span::after {
+        font-size: 0.7rem;
+        position: absolute;
+        content: "required";
+        color: white;
+        background-color: black;
+        padding: 5px 10px;
+        top: -26px;
+        left: -70px;
+      }
+
+      input + span::before {
+        position: absolute;
+        right: -20px;
+        top: 5px;
+      }
+
+      input:invalid {
+        border: 2px solid red;
+      }
+
+      input:invalid + span::before {
+        content: "✖";
+        color: red;
+      }
+
+      input:valid + span::before {
+        content: "✓";
+        color: green;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Feedback form</legend>
+
+        <p>Required fields are labelled with "required".</p>
+        <div>
+          <label for="fname">First name: </label>
+          <input id="fname" name="fname" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="lname">Last name: </label>
+          <input id="lname" name="lname" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="email"
+            >Email address (include if you want a response):
+          </label>
+          <input id="email" name="email" type="email" />
+          <span></span>
+        </div>
+        <div><button>Submit</button></div>
+      </fieldset>
+    </form>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                            "        background-color: #eee;",
+                            "45:27 - 45:31",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:valid and :invalid example</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      button,
+      label,
+      input {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input + span {
+        position: relative;
+      }
+
+      input:required + span::after {
+        font-size: 0.7rem;
+        position: absolute;
+        content: "required";
+        color: white;
+        background-color: black;
+        padding: 5px 10px;
+        top: -26px;
+        left: -70px;
+      }
+
+      input + span::before {
+        position: absolute;
+        right: -20px;
+        top: 5px;
+      }
+
+      input:invalid {
+        border: 2px solid red;
+      }
+
+      input:invalid + span::before {
+        content: "✖";
+        color: red;
+      }
+
+      input:valid + span::before {
+        content: "✓";
+        color: green;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Feedback form</legend>
+
+        <p>Required fields are labelled with "required".</p>
+        <div>
+          <label for="fname">First name: </label>
+          <input id="fname" name="fname" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="lname">Last name: </label>
+          <input id="lname" name="lname" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="email"
+            >Email address (include if you want a response):
+          </label>
+          <input id="email" name="email" type="email" />
+          <span></span>
+        </div>
+        <div><button>Submit</button></div>
+      </fieldset>
+    </form>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)',
+                            "        padding: 0;",
+                            "30:9 - 30:16",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[declaration-block-no-duplicate-properties] Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:valid and :invalid example</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      button,
+      label,
+      input {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input + span {
+        position: relative;
+      }
+
+      input:required + span::after {
+        font-size: 0.7rem;
+        position: absolute;
+        content: "required";
+        color: white;
+        background-color: black;
+        padding: 5px 10px;
+        top: -26px;
+        left: -70px;
+      }
+
+      input + span::before {
+        position: absolute;
+        right: -20px;
+        top: 5px;
+      }
+
+      input:invalid {
+        border: 2px solid red;
+      }
+
+      input:invalid + span::before {
+        content: "✖";
+        color: red;
+      }
+
+      input:valid + span::before {
+        content: "✓";
+        color: green;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Feedback form</legend>
+
+        <p>Required fields are labelled with "required".</p>
+        <div>
+          <label for="fname">First name: </label>
+          <input id="fname" name="fname" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="lname">Last name: </label>
+          <input id="lname" name="lname" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="email"
+            >Email address (include if you want a response):
+          </label>
+          <input id="email" name="email" type="email" />
+          <span></span>
+        </div>
+        <div><button>Submit</button></div>
+      </fieldset>
+    </form>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-elem",
+                            "Do not use the <style> element; use separate CSS blocks instead.",
+                            `    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      button,
+      label,
+      input {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input + span {
+        position: relative;
+      }
+
+      input:required + span::after {
+        font-size: 0.7rem;
+        position: absolute;
+        content: "required";
+        color: white;
+        background-color: black;
+        padding: 5px 10px;
+        top: -26px;
+        left: -70px;
+      }
+
+      input + span::before {
+        position: absolute;
+        right: -20px;
+        top: 5px;
+      }
+
+      input:invalid {
+        border: 2px solid red;
+      }
+
+      input:invalid + span::before {
+        content: "✖";
+        color: red;
+      }
+
+      input:valid + span::before {
+        content: "✓";
+        color: green;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>`,
+                            "9:4 - 95:12",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:valid and :invalid example</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      button,
+      label,
+      input {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input + span {
+        position: relative;
+      }
+
+      input:required + span::after {
+        font-size: 0.7rem;
+        position: absolute;
+        content: "required";
+        color: white;
+        background-color: black;
+        padding: 5px 10px;
+        top: -26px;
+        left: -70px;
+      }
+
+      input + span::before {
+        position: absolute;
+        right: -20px;
+        top: 5px;
+      }
+
+      input:invalid {
+        border: 2px solid red;
+      }
+
+      input:invalid + span::before {
+        content: "✖";
+        color: red;
+      }
+
+      input:valid + span::before {
+        content: "✓";
+        color: green;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Feedback form</legend>
+
+        <p>Required fields are labelled with "required".</p>
+        <div>
+          <label for="fname">First name: </label>
+          <input id="fname" name="fname" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="lname">Last name: </label>
+          <input id="lname" name="lname" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="email"
+            >Email address (include if you want a response):
+          </label>
+          <input id="email" name="email" type="email" />
+          <span></span>
+        </div>
+        <div><button>Submit</button></div>
+      </fieldset>
+    </form>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>`,
+                            "124:4 - 129:13",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:valid and :invalid example</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      button,
+      label,
+      input {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input + span {
+        position: relative;
+      }
+
+      input:required + span::after {
+        font-size: 0.7rem;
+        position: absolute;
+        content: "required";
+        color: white;
+        background-color: black;
+        padding: 5px 10px;
+        top: -26px;
+        left: -70px;
+      }
+
+      input + span::before {
+        position: absolute;
+        right: -20px;
+        top: 5px;
+      }
+
+      input:invalid {
+        border: 2px solid red;
+      }
+
+      input:invalid + span::before {
+        content: "✖";
+        color: red;
+      }
+
+      input:valid + span::before {
+        content: "✓";
+        color: green;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Feedback form</legend>
+
+        <p>Required fields are labelled with "required".</p>
+        <div>
+          <label for="fname">First name: </label>
+          <input id="fname" name="fname" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="lname">Last name: </label>
+          <input id="lname" name="lname" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="email"
+            >Email address (include if you want a response):
+          </label>
+          <input id="email" name="email" type="email" />
+          <span></span>
+        </div>
+        <div><button>Submit</button></div>
+      </fieldset>
+    </form>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
+                            "        box-shadow: inset 1px 1px 3px #ccc;",
+                            "39:39 - 39:43",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:out-of-range example</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      button,
+      label,
+      input {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input + span {
+        position: relative;
+      }
+
+      input + span::after {
+        font-size: 0.7rem;
+        position: absolute;
+        padding: 5px 10px;
+        top: -26px;
+      }
+
+      input:required + span::after {
+        color: white;
+        background-color: black;
+        content: "required";
+        left: -70px;
+      }
+
+      input:out-of-range + span::after {
+        color: white;
+        background-color: red;
+        width: 155px;
+        content: "Outside allowable value range";
+        left: -182px;
+      }
+
+      input + span::before {
+        position: absolute;
+        right: -20px;
+        top: 5px;
+      }
+
+      input:invalid {
+        border: 2px solid red;
+      }
+
+      input:invalid + span::before {
+        content: "✖";
+        color: red;
+      }
+
+      input:valid + span::before {
+        content: "✓";
+        color: green;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Feedback form</legend>
+
+        <p>Required fields are labelled with "required".</p>
+        <div>
+          <label for="name">Name: </label>
+          <input id="name" name="name" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="age">Age (must be 12+): </label>
+          <input
+            id="age"
+            name="age"
+            type="number"
+            min="12"
+            max="120"
+            required />
+          <span></span>
+        </div>
+        <div>
+          <label for="email"
+            >Email address (include if you want a response):
+          </label>
+          <input id="email" name="email" type="email" />
+          <span></span>
+        </div>
+        <div><button>Submit</button></div>
+      </fieldset>
+    </form>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                            "        background-color: #eee;",
+                            "45:27 - 45:31",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:out-of-range example</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      button,
+      label,
+      input {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input + span {
+        position: relative;
+      }
+
+      input + span::after {
+        font-size: 0.7rem;
+        position: absolute;
+        padding: 5px 10px;
+        top: -26px;
+      }
+
+      input:required + span::after {
+        color: white;
+        background-color: black;
+        content: "required";
+        left: -70px;
+      }
+
+      input:out-of-range + span::after {
+        color: white;
+        background-color: red;
+        width: 155px;
+        content: "Outside allowable value range";
+        left: -182px;
+      }
+
+      input + span::before {
+        position: absolute;
+        right: -20px;
+        top: 5px;
+      }
+
+      input:invalid {
+        border: 2px solid red;
+      }
+
+      input:invalid + span::before {
+        content: "✖";
+        color: red;
+      }
+
+      input:valid + span::before {
+        content: "✓";
+        color: green;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Feedback form</legend>
+
+        <p>Required fields are labelled with "required".</p>
+        <div>
+          <label for="name">Name: </label>
+          <input id="name" name="name" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="age">Age (must be 12+): </label>
+          <input
+            id="age"
+            name="age"
+            type="number"
+            min="12"
+            max="120"
+            required />
+          <span></span>
+        </div>
+        <div>
+          <label for="email"
+            >Email address (include if you want a response):
+          </label>
+          <input id="email" name="email" type="email" />
+          <span></span>
+        </div>
+        <div><button>Submit</button></div>
+      </fieldset>
+    </form>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)',
+                            "        padding: 0;",
+                            "30:9 - 30:16",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[declaration-block-no-duplicate-properties] Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:out-of-range example</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      button,
+      label,
+      input {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input + span {
+        position: relative;
+      }
+
+      input + span::after {
+        font-size: 0.7rem;
+        position: absolute;
+        padding: 5px 10px;
+        top: -26px;
+      }
+
+      input:required + span::after {
+        color: white;
+        background-color: black;
+        content: "required";
+        left: -70px;
+      }
+
+      input:out-of-range + span::after {
+        color: white;
+        background-color: red;
+        width: 155px;
+        content: "Outside allowable value range";
+        left: -182px;
+      }
+
+      input + span::before {
+        position: absolute;
+        right: -20px;
+        top: 5px;
+      }
+
+      input:invalid {
+        border: 2px solid red;
+      }
+
+      input:invalid + span::before {
+        content: "✖";
+        color: red;
+      }
+
+      input:valid + span::before {
+        content: "✓";
+        color: green;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Feedback form</legend>
+
+        <p>Required fields are labelled with "required".</p>
+        <div>
+          <label for="name">Name: </label>
+          <input id="name" name="name" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="age">Age (must be 12+): </label>
+          <input
+            id="age"
+            name="age"
+            type="number"
+            min="12"
+            max="120"
+            required />
+          <span></span>
+        </div>
+        <div>
+          <label for="email"
+            >Email address (include if you want a response):
+          </label>
+          <input id="email" name="email" type="email" />
+          <span></span>
+        </div>
+        <div><button>Submit</button></div>
+      </fieldset>
+    </form>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-elem",
+                            "Do not use the <style> element; use separate CSS blocks instead.",
+                            `    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      button,
+      label,
+      input {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input + span {
+        position: relative;
+      }
+
+      input + span::after {
+        font-size: 0.7rem;
+        position: absolute;
+        padding: 5px 10px;
+        top: -26px;
+      }
+
+      input:required + span::after {
+        color: white;
+        background-color: black;
+        content: "required";
+        left: -70px;
+      }
+
+      input:out-of-range + span::after {
+        color: white;
+        background-color: red;
+        width: 155px;
+        content: "Outside allowable value range";
+        left: -182px;
+      }
+
+      input + span::before {
+        position: absolute;
+        right: -20px;
+        top: 5px;
+      }
+
+      input:invalid {
+        border: 2px solid red;
+      }
+
+      input:invalid + span::before {
+        content: "✖";
+        color: red;
+      }
+
+      input:valid + span::before {
+        content: "✓";
+        color: green;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>`,
+                            "9:4 - 106:12",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:out-of-range example</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      button,
+      label,
+      input {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input + span {
+        position: relative;
+      }
+
+      input + span::after {
+        font-size: 0.7rem;
+        position: absolute;
+        padding: 5px 10px;
+        top: -26px;
+      }
+
+      input:required + span::after {
+        color: white;
+        background-color: black;
+        content: "required";
+        left: -70px;
+      }
+
+      input:out-of-range + span::after {
+        color: white;
+        background-color: red;
+        width: 155px;
+        content: "Outside allowable value range";
+        left: -182px;
+      }
+
+      input + span::before {
+        position: absolute;
+        right: -20px;
+        top: 5px;
+      }
+
+      input:invalid {
+        border: 2px solid red;
+      }
+
+      input:invalid + span::before {
+        content: "✖";
+        color: red;
+      }
+
+      input:valid + span::before {
+        content: "✓";
+        color: green;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Feedback form</legend>
+
+        <p>Required fields are labelled with "required".</p>
+        <div>
+          <label for="name">Name: </label>
+          <input id="name" name="name" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="age">Age (must be 12+): </label>
+          <input
+            id="age"
+            name="age"
+            type="number"
+            min="12"
+            max="120"
+            required />
+          <span></span>
+        </div>
+        <div>
+          <label for="email"
+            >Email address (include if you want a response):
+          </label>
+          <input id="email" name="email" type="email" />
+          <span></span>
+        </div>
+        <div><button>Submit</button></div>
+      </fieldset>
+    </form>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>`,
+                            "141:4 - 146:13",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:out-of-range example</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        flex-flow: row wrap;
+      }
+
+      button,
+      label,
+      input {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input + span {
+        position: relative;
+      }
+
+      input + span::after {
+        font-size: 0.7rem;
+        position: absolute;
+        padding: 5px 10px;
+        top: -26px;
+      }
+
+      input:required + span::after {
+        color: white;
+        background-color: black;
+        content: "required";
+        left: -70px;
+      }
+
+      input:out-of-range + span::after {
+        color: white;
+        background-color: red;
+        width: 155px;
+        content: "Outside allowable value range";
+        left: -182px;
+      }
+
+      input + span::before {
+        position: absolute;
+        right: -20px;
+        top: 5px;
+      }
+
+      input:invalid {
+        border: 2px solid red;
+      }
+
+      input:invalid + span::before {
+        content: "✖";
+        color: red;
+      }
+
+      input:valid + span::before {
+        content: "✓";
+        color: green;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Feedback form</legend>
+
+        <p>Required fields are labelled with "required".</p>
+        <div>
+          <label for="name">Name: </label>
+          <input id="name" name="name" type="text" required />
+          <span></span>
+        </div>
+        <div>
+          <label for="age">Age (must be 12+): </label>
+          <input
+            id="age"
+            name="age"
+            type="number"
+            min="12"
+            max="120"
+            required />
+          <span></span>
+        </div>
+        <div>
+          <label for="email"
+            >Email address (include if you want a response):
+          </label>
+          <input id="email" name="email" type="email" />
+          <span></span>
+        </div>
+        <div><button>Submit</button></div>
+      </fieldset>
+    </form>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-arrow-callback",
+                            "Unexpected function expression.",
+                            `        function () {
+          // Attach \`change\` event listener to checkbox
+          document
+            .getElementById("billing-checkbox")
+            .addEventListener("change", toggleBilling);
+        },`,
+                            "5:9 - 10:10",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[prefer-arrow-callback] Unexpected function expression.
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:enabled and :disabled demo — shipping form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+        margin-bottom: 20px;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+      }
+
+      button,
+      label,
+      input[type="text"] {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input[type="text"]:disabled {
+        background: #eee;
+        border: 1px solid #ccc;
+      }
+
+      label:has(+ :disabled) {
+        color: #aaa;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset id="shipping">
+        <legend>Shipping address</legend>
+        <div>
+          <label for="name1">Name: </label>
+          <input id="name1" name="name1" type="text" required />
+        </div>
+        <div>
+          <label for="address1">Address: </label>
+          <input id="address1" name="address1" type="text" required />
+        </div>
+        <div>
+          <label for="pcode1">Zip/postal code: </label>
+          <input id="pcode1" name="pcode1" type="text" required />
+        </div>
+      </fieldset>
+      <fieldset id="billing">
+        <legend>Billing address</legend>
+        <div>
+          <label for="billing-checkbox">Same as shipping address:</label>
+          <input type="checkbox" id="billing-checkbox" checked />
+        </div>
+        <div>
+          <label for="name" class="billing-label">Name: </label>
+          <input id="name" name="name" type="text" disabled required />
+        </div>
+        <div>
+          <label for="address2" class="billing-label">Address: </label>
+          <input id="address2" name="address2" type="text" disabled required />
+        </div>
+        <div>
+          <label for="pcode2" class="billing-label">Zip/postal code: </label>
+          <input id="pcode2" name="pcode2" type="text" disabled required />
+        </div>
+      </fieldset>
+
+      <div><button>Submit</button></div>
+    </form>
+
+    <script>
+      // Wait for the page to finish loading
+      document.addEventListener(
+        "DOMContentLoaded",
+        function () {
+          // Attach \`change\` event listener to checkbox
+          document
+            .getElementById("billing-checkbox")
+            .addEventListener("change", toggleBilling);
+        },
+        false,
+      );
+
+      function toggleBilling() {
+        // Select the billing text fields
+        let billingItems = document.querySelectorAll(
+          '#billing input[type="text"]',
+        );
+
+        // Toggle the billing text fields
+        for (let i = 0; i < billingItems.length; i++) {
+          billingItems[i].disabled = !billingItems[i].disabled;
+        }
+      }
+
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "@typescript-eslint/prefer-for-of",
+                            "Expected a `for-of` loop instead of a `for` loop with this simple iteration.",
+                            `        for (let i = 0; i < billingItems.length; i++) {
+          billingItems[i].disabled = !billingItems[i].disabled;
+        }`,
+                            "21:9 - 23:10",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[@typescript-eslint/prefer-for-of] Expected a \`for-of\` loop instead of a \`for\` loop with this simple iteration.
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:enabled and :disabled demo — shipping form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+        margin-bottom: 20px;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+      }
+
+      button,
+      label,
+      input[type="text"] {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input[type="text"]:disabled {
+        background: #eee;
+        border: 1px solid #ccc;
+      }
+
+      label:has(+ :disabled) {
+        color: #aaa;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset id="shipping">
+        <legend>Shipping address</legend>
+        <div>
+          <label for="name1">Name: </label>
+          <input id="name1" name="name1" type="text" required />
+        </div>
+        <div>
+          <label for="address1">Address: </label>
+          <input id="address1" name="address1" type="text" required />
+        </div>
+        <div>
+          <label for="pcode1">Zip/postal code: </label>
+          <input id="pcode1" name="pcode1" type="text" required />
+        </div>
+      </fieldset>
+      <fieldset id="billing">
+        <legend>Billing address</legend>
+        <div>
+          <label for="billing-checkbox">Same as shipping address:</label>
+          <input type="checkbox" id="billing-checkbox" checked />
+        </div>
+        <div>
+          <label for="name" class="billing-label">Name: </label>
+          <input id="name" name="name" type="text" disabled required />
+        </div>
+        <div>
+          <label for="address2" class="billing-label">Address: </label>
+          <input id="address2" name="address2" type="text" disabled required />
+        </div>
+        <div>
+          <label for="pcode2" class="billing-label">Zip/postal code: </label>
+          <input id="pcode2" name="pcode2" type="text" disabled required />
+        </div>
+      </fieldset>
+
+      <div><button>Submit</button></div>
+    </form>
+
+    <script>
+      // Wait for the page to finish loading
+      document.addEventListener(
+        "DOMContentLoaded",
+        function () {
+          // Attach \`change\` event listener to checkbox
+          document
+            .getElementById("billing-checkbox")
+            .addEventListener("change", toggleBilling);
+        },
+        false,
+      );
+
+      function toggleBilling() {
+        // Select the billing text fields
+        let billingItems = document.querySelectorAll(
+          '#billing input[type="text"]',
+        );
+
+        // Toggle the billing text fields
+        for (let i = 0; i < billingItems.length; i++) {
+          billingItems[i].disabled = !billingItems[i].disabled;
+        }
+      }
+
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
+                            "        box-shadow: inset 1px 1px 3px #ccc;",
+                            "39:39 - 39:43",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:enabled and :disabled demo — shipping form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+        margin-bottom: 20px;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+      }
+
+      button,
+      label,
+      input[type="text"] {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input[type="text"]:disabled {
+        background: #eee;
+        border: 1px solid #ccc;
+      }
+
+      label:has(+ :disabled) {
+        color: #aaa;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset id="shipping">
+        <legend>Shipping address</legend>
+        <div>
+          <label for="name1">Name: </label>
+          <input id="name1" name="name1" type="text" required />
+        </div>
+        <div>
+          <label for="address1">Address: </label>
+          <input id="address1" name="address1" type="text" required />
+        </div>
+        <div>
+          <label for="pcode1">Zip/postal code: </label>
+          <input id="pcode1" name="pcode1" type="text" required />
+        </div>
+      </fieldset>
+      <fieldset id="billing">
+        <legend>Billing address</legend>
+        <div>
+          <label for="billing-checkbox">Same as shipping address:</label>
+          <input type="checkbox" id="billing-checkbox" checked />
+        </div>
+        <div>
+          <label for="name" class="billing-label">Name: </label>
+          <input id="name" name="name" type="text" disabled required />
+        </div>
+        <div>
+          <label for="address2" class="billing-label">Address: </label>
+          <input id="address2" name="address2" type="text" disabled required />
+        </div>
+        <div>
+          <label for="pcode2" class="billing-label">Zip/postal code: </label>
+          <input id="pcode2" name="pcode2" type="text" disabled required />
+        </div>
+      </fieldset>
+
+      <div><button>Submit</button></div>
+    </form>
+
+    <script>
+      // Wait for the page to finish loading
+      document.addEventListener(
+        "DOMContentLoaded",
+        function () {
+          // Attach \`change\` event listener to checkbox
+          document
+            .getElementById("billing-checkbox")
+            .addEventListener("change", toggleBilling);
+        },
+        false,
+      );
+
+      function toggleBilling() {
+        // Select the billing text fields
+        let billingItems = document.querySelectorAll(
+          '#billing input[type="text"]',
+        );
+
+        // Toggle the billing text fields
+        for (let i = 0; i < billingItems.length; i++) {
+          billingItems[i].disabled = !billingItems[i].disabled;
+        }
+      }
+
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                            "        background-color: #eee;",
+                            "45:27 - 45:31",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:enabled and :disabled demo — shipping form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+        margin-bottom: 20px;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+      }
+
+      button,
+      label,
+      input[type="text"] {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input[type="text"]:disabled {
+        background: #eee;
+        border: 1px solid #ccc;
+      }
+
+      label:has(+ :disabled) {
+        color: #aaa;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset id="shipping">
+        <legend>Shipping address</legend>
+        <div>
+          <label for="name1">Name: </label>
+          <input id="name1" name="name1" type="text" required />
+        </div>
+        <div>
+          <label for="address1">Address: </label>
+          <input id="address1" name="address1" type="text" required />
+        </div>
+        <div>
+          <label for="pcode1">Zip/postal code: </label>
+          <input id="pcode1" name="pcode1" type="text" required />
+        </div>
+      </fieldset>
+      <fieldset id="billing">
+        <legend>Billing address</legend>
+        <div>
+          <label for="billing-checkbox">Same as shipping address:</label>
+          <input type="checkbox" id="billing-checkbox" checked />
+        </div>
+        <div>
+          <label for="name" class="billing-label">Name: </label>
+          <input id="name" name="name" type="text" disabled required />
+        </div>
+        <div>
+          <label for="address2" class="billing-label">Address: </label>
+          <input id="address2" name="address2" type="text" disabled required />
+        </div>
+        <div>
+          <label for="pcode2" class="billing-label">Zip/postal code: </label>
+          <input id="pcode2" name="pcode2" type="text" disabled required />
+        </div>
+      </fieldset>
+
+      <div><button>Submit</button></div>
+    </form>
+
+    <script>
+      // Wait for the page to finish loading
+      document.addEventListener(
+        "DOMContentLoaded",
+        function () {
+          // Attach \`change\` event listener to checkbox
+          document
+            .getElementById("billing-checkbox")
+            .addEventListener("change", toggleBilling);
+        },
+        false,
+      );
+
+      function toggleBilling() {
+        // Select the billing text fields
+        let billingItems = document.querySelectorAll(
+          '#billing input[type="text"]',
+        );
+
+        // Toggle the billing text fields
+        for (let i = 0; i < billingItems.length; i++) {
+          billingItems[i].disabled = !billingItems[i].disabled;
+        }
+      }
+
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                            "        background: #eee;",
+                            "49:21 - 49:25",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:enabled and :disabled demo — shipping form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+        margin-bottom: 20px;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+      }
+
+      button,
+      label,
+      input[type="text"] {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input[type="text"]:disabled {
+        background: #eee;
+        border: 1px solid #ccc;
+      }
+
+      label:has(+ :disabled) {
+        color: #aaa;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset id="shipping">
+        <legend>Shipping address</legend>
+        <div>
+          <label for="name1">Name: </label>
+          <input id="name1" name="name1" type="text" required />
+        </div>
+        <div>
+          <label for="address1">Address: </label>
+          <input id="address1" name="address1" type="text" required />
+        </div>
+        <div>
+          <label for="pcode1">Zip/postal code: </label>
+          <input id="pcode1" name="pcode1" type="text" required />
+        </div>
+      </fieldset>
+      <fieldset id="billing">
+        <legend>Billing address</legend>
+        <div>
+          <label for="billing-checkbox">Same as shipping address:</label>
+          <input type="checkbox" id="billing-checkbox" checked />
+        </div>
+        <div>
+          <label for="name" class="billing-label">Name: </label>
+          <input id="name" name="name" type="text" disabled required />
+        </div>
+        <div>
+          <label for="address2" class="billing-label">Address: </label>
+          <input id="address2" name="address2" type="text" disabled required />
+        </div>
+        <div>
+          <label for="pcode2" class="billing-label">Zip/postal code: </label>
+          <input id="pcode2" name="pcode2" type="text" disabled required />
+        </div>
+      </fieldset>
+
+      <div><button>Submit</button></div>
+    </form>
+
+    <script>
+      // Wait for the page to finish loading
+      document.addEventListener(
+        "DOMContentLoaded",
+        function () {
+          // Attach \`change\` event listener to checkbox
+          document
+            .getElementById("billing-checkbox")
+            .addEventListener("change", toggleBilling);
+        },
+        false,
+      );
+
+      function toggleBilling() {
+        // Select the billing text fields
+        let billingItems = document.querySelectorAll(
+          '#billing input[type="text"]',
+        );
+
+        // Toggle the billing text fields
+        for (let i = 0; i < billingItems.length; i++) {
+          billingItems[i].disabled = !billingItems[i].disabled;
+        }
+      }
+
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
+                            "        border: 1px solid #ccc;",
+                            "50:27 - 50:31",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:enabled and :disabled demo — shipping form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+        margin-bottom: 20px;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+      }
+
+      button,
+      label,
+      input[type="text"] {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input[type="text"]:disabled {
+        background: #eee;
+        border: 1px solid #ccc;
+      }
+
+      label:has(+ :disabled) {
+        color: #aaa;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset id="shipping">
+        <legend>Shipping address</legend>
+        <div>
+          <label for="name1">Name: </label>
+          <input id="name1" name="name1" type="text" required />
+        </div>
+        <div>
+          <label for="address1">Address: </label>
+          <input id="address1" name="address1" type="text" required />
+        </div>
+        <div>
+          <label for="pcode1">Zip/postal code: </label>
+          <input id="pcode1" name="pcode1" type="text" required />
+        </div>
+      </fieldset>
+      <fieldset id="billing">
+        <legend>Billing address</legend>
+        <div>
+          <label for="billing-checkbox">Same as shipping address:</label>
+          <input type="checkbox" id="billing-checkbox" checked />
+        </div>
+        <div>
+          <label for="name" class="billing-label">Name: </label>
+          <input id="name" name="name" type="text" disabled required />
+        </div>
+        <div>
+          <label for="address2" class="billing-label">Address: </label>
+          <input id="address2" name="address2" type="text" disabled required />
+        </div>
+        <div>
+          <label for="pcode2" class="billing-label">Zip/postal code: </label>
+          <input id="pcode2" name="pcode2" type="text" disabled required />
+        </div>
+      </fieldset>
+
+      <div><button>Submit</button></div>
+    </form>
+
+    <script>
+      // Wait for the page to finish loading
+      document.addEventListener(
+        "DOMContentLoaded",
+        function () {
+          // Attach \`change\` event listener to checkbox
+          document
+            .getElementById("billing-checkbox")
+            .addEventListener("change", toggleBilling);
+        },
+        false,
+      );
+
+      function toggleBilling() {
+        // Select the billing text fields
+        let billingItems = document.querySelectorAll(
+          '#billing input[type="text"]',
+        );
+
+        // Toggle the billing text fields
+        for (let i = 0; i < billingItems.length; i++) {
+          billingItems[i].disabled = !billingItems[i].disabled;
+        }
+      }
+
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
+                            "        color: #aaa;",
+                            "54:16 - 54:20",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[color-hex-length] Expected "#aaa" to be "#aaaaaa" (color-hex-length)
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:enabled and :disabled demo — shipping form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+        margin-bottom: 20px;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+      }
+
+      button,
+      label,
+      input[type="text"] {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input[type="text"]:disabled {
+        background: #eee;
+        border: 1px solid #ccc;
+      }
+
+      label:has(+ :disabled) {
+        color: #aaa;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset id="shipping">
+        <legend>Shipping address</legend>
+        <div>
+          <label for="name1">Name: </label>
+          <input id="name1" name="name1" type="text" required />
+        </div>
+        <div>
+          <label for="address1">Address: </label>
+          <input id="address1" name="address1" type="text" required />
+        </div>
+        <div>
+          <label for="pcode1">Zip/postal code: </label>
+          <input id="pcode1" name="pcode1" type="text" required />
+        </div>
+      </fieldset>
+      <fieldset id="billing">
+        <legend>Billing address</legend>
+        <div>
+          <label for="billing-checkbox">Same as shipping address:</label>
+          <input type="checkbox" id="billing-checkbox" checked />
+        </div>
+        <div>
+          <label for="name" class="billing-label">Name: </label>
+          <input id="name" name="name" type="text" disabled required />
+        </div>
+        <div>
+          <label for="address2" class="billing-label">Address: </label>
+          <input id="address2" name="address2" type="text" disabled required />
+        </div>
+        <div>
+          <label for="pcode2" class="billing-label">Zip/postal code: </label>
+          <input id="pcode2" name="pcode2" type="text" disabled required />
+        </div>
+      </fieldset>
+
+      <div><button>Submit</button></div>
+    </form>
+
+    <script>
+      // Wait for the page to finish loading
+      document.addEventListener(
+        "DOMContentLoaded",
+        function () {
+          // Attach \`change\` event listener to checkbox
+          document
+            .getElementById("billing-checkbox")
+            .addEventListener("change", toggleBilling);
+        },
+        false,
+      );
+
+      function toggleBilling() {
+        // Select the billing text fields
+        let billingItems = document.querySelectorAll(
+          '#billing input[type="text"]',
+        );
+
+        // Toggle the billing text fields
+        for (let i = 0; i < billingItems.length; i++) {
+          billingItems[i].disabled = !billingItems[i].disabled;
+        }
+      }
+
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)',
+                            "        padding: 0;",
+                            "30:9 - 30:16",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[declaration-block-no-duplicate-properties] Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:enabled and :disabled demo — shipping form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+        margin-bottom: 20px;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+      }
+
+      button,
+      label,
+      input[type="text"] {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input[type="text"]:disabled {
+        background: #eee;
+        border: 1px solid #ccc;
+      }
+
+      label:has(+ :disabled) {
+        color: #aaa;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset id="shipping">
+        <legend>Shipping address</legend>
+        <div>
+          <label for="name1">Name: </label>
+          <input id="name1" name="name1" type="text" required />
+        </div>
+        <div>
+          <label for="address1">Address: </label>
+          <input id="address1" name="address1" type="text" required />
+        </div>
+        <div>
+          <label for="pcode1">Zip/postal code: </label>
+          <input id="pcode1" name="pcode1" type="text" required />
+        </div>
+      </fieldset>
+      <fieldset id="billing">
+        <legend>Billing address</legend>
+        <div>
+          <label for="billing-checkbox">Same as shipping address:</label>
+          <input type="checkbox" id="billing-checkbox" checked />
+        </div>
+        <div>
+          <label for="name" class="billing-label">Name: </label>
+          <input id="name" name="name" type="text" disabled required />
+        </div>
+        <div>
+          <label for="address2" class="billing-label">Address: </label>
+          <input id="address2" name="address2" type="text" disabled required />
+        </div>
+        <div>
+          <label for="pcode2" class="billing-label">Zip/postal code: </label>
+          <input id="pcode2" name="pcode2" type="text" disabled required />
+        </div>
+      </fieldset>
+
+      <div><button>Submit</button></div>
+    </form>
+
+    <script>
+      // Wait for the page to finish loading
+      document.addEventListener(
+        "DOMContentLoaded",
+        function () {
+          // Attach \`change\` event listener to checkbox
+          document
+            .getElementById("billing-checkbox")
+            .addEventListener("change", toggleBilling);
+        },
+        false,
+      );
+
+      function toggleBilling() {
+        // Select the billing text fields
+        let billingItems = document.querySelectorAll(
+          '#billing input[type="text"]',
+        );
+
+        // Toggle the billing text fields
+        for (let i = 0; i < billingItems.length; i++) {
+          billingItems[i].disabled = !billingItems[i].disabled;
+        }
+      }
+
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-elem",
+                            "Do not use the <style> element; use separate CSS blocks instead.",
+                            `    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+        margin-bottom: 20px;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+      }
+
+      button,
+      label,
+      input[type="text"] {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input[type="text"]:disabled {
+        background: #eee;
+        border: 1px solid #ccc;
+      }
+
+      label:has(+ :disabled) {
+        color: #aaa;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>`,
+                            "9:4 - 69:12",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:enabled and :disabled demo — shipping form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+        margin-bottom: 20px;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+      }
+
+      button,
+      label,
+      input[type="text"] {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input[type="text"]:disabled {
+        background: #eee;
+        border: 1px solid #ccc;
+      }
+
+      label:has(+ :disabled) {
+        color: #aaa;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset id="shipping">
+        <legend>Shipping address</legend>
+        <div>
+          <label for="name1">Name: </label>
+          <input id="name1" name="name1" type="text" required />
+        </div>
+        <div>
+          <label for="address1">Address: </label>
+          <input id="address1" name="address1" type="text" required />
+        </div>
+        <div>
+          <label for="pcode1">Zip/postal code: </label>
+          <input id="pcode1" name="pcode1" type="text" required />
+        </div>
+      </fieldset>
+      <fieldset id="billing">
+        <legend>Billing address</legend>
+        <div>
+          <label for="billing-checkbox">Same as shipping address:</label>
+          <input type="checkbox" id="billing-checkbox" checked />
+        </div>
+        <div>
+          <label for="name" class="billing-label">Name: </label>
+          <input id="name" name="name" type="text" disabled required />
+        </div>
+        <div>
+          <label for="address2" class="billing-label">Address: </label>
+          <input id="address2" name="address2" type="text" disabled required />
+        </div>
+        <div>
+          <label for="pcode2" class="billing-label">Zip/postal code: </label>
+          <input id="pcode2" name="pcode2" type="text" disabled required />
+        </div>
+      </fieldset>
+
+      <div><button>Submit</button></div>
+    </form>
+
+    <script>
+      // Wait for the page to finish loading
+      document.addEventListener(
+        "DOMContentLoaded",
+        function () {
+          // Attach \`change\` event listener to checkbox
+          document
+            .getElementById("billing-checkbox")
+            .addEventListener("change", toggleBilling);
+        },
+        false,
+      );
+
+      function toggleBilling() {
+        // Select the billing text fields
+        let billingItems = document.querySelectorAll(
+          '#billing input[type="text"]',
+        );
+
+        // Toggle the billing text fields
+        for (let i = 0; i < billingItems.length; i++) {
+          billingItems[i].disabled = !billingItems[i].disabled;
+        }
+      }
+
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      // Wait for the page to finish loading
+      document.addEventListener(
+        "DOMContentLoaded",
+        function () {
+          // Attach \`change\` event listener to checkbox
+          document
+            .getElementById("billing-checkbox")
+            .addEventListener("change", toggleBilling);
+        },
+        false,
+      );
+
+      function toggleBilling() {
+        // Select the billing text fields
+        let billingItems = document.querySelectorAll(
+          '#billing input[type="text"]',
+        );
+
+        // Toggle the billing text fields
+        for (let i = 0; i < billingItems.length; i++) {
+          billingItems[i].disabled = !billingItems[i].disabled;
+        }
+      }
+
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>`,
+                            "112:4 - 141:13",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:enabled and :disabled demo — shipping form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+        margin-bottom: 20px;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+      }
+
+      button,
+      label,
+      input[type="text"] {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+
+      input:hover,
+      input:focus {
+        background-color: #eee;
+      }
+
+      input[type="text"]:disabled {
+        background: #eee;
+        border: 1px solid #ccc;
+      }
+
+      label:has(+ :disabled) {
+        color: #aaa;
+      }
+
+      button {
+        width: 60%;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset id="shipping">
+        <legend>Shipping address</legend>
+        <div>
+          <label for="name1">Name: </label>
+          <input id="name1" name="name1" type="text" required />
+        </div>
+        <div>
+          <label for="address1">Address: </label>
+          <input id="address1" name="address1" type="text" required />
+        </div>
+        <div>
+          <label for="pcode1">Zip/postal code: </label>
+          <input id="pcode1" name="pcode1" type="text" required />
+        </div>
+      </fieldset>
+      <fieldset id="billing">
+        <legend>Billing address</legend>
+        <div>
+          <label for="billing-checkbox">Same as shipping address:</label>
+          <input type="checkbox" id="billing-checkbox" checked />
+        </div>
+        <div>
+          <label for="name" class="billing-label">Name: </label>
+          <input id="name" name="name" type="text" disabled required />
+        </div>
+        <div>
+          <label for="address2" class="billing-label">Address: </label>
+          <input id="address2" name="address2" type="text" disabled required />
+        </div>
+        <div>
+          <label for="pcode2" class="billing-label">Zip/postal code: </label>
+          <input id="pcode2" name="pcode2" type="text" disabled required />
+        </div>
+      </fieldset>
+
+      <div><button>Submit</button></div>
+    </form>
+
+    <script>
+      // Wait for the page to finish loading
+      document.addEventListener(
+        "DOMContentLoaded",
+        function () {
+          // Attach \`change\` event listener to checkbox
+          document
+            .getElementById("billing-checkbox")
+            .addEventListener("change", toggleBilling);
+        },
+        false,
+      );
+
+      function toggleBilling() {
+        // Select the billing text fields
+        let billingItems = document.querySelectorAll(
+          '#billing input[type="text"]',
+        );
+
+        // Toggle the billing text fields
+        for (let i = 0; i < billingItems.length; i++) {
+          billingItems[i].disabled = !billingItems[i].disabled;
+        }
+      }
+
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                            "        background-color: #eee;",
+                            "57:27 - 57:31",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:read-only demo — confirmation form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+        margin-bottom: 20px;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      button,
+      label,
+      input[type="text"],
+      textarea {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input[type="text"],
+      textarea {
+        width: 50%;
+      }
+
+      textarea {
+        height: 110px;
+        resize: none;
+      }
+
+      label {
+        width: 40%;
+      }
+
+      input:hover,
+      input:focus,
+      textarea:hover,
+      textarea:focus {
+        background-color: #eee;
+      }
+
+      button {
+        width: 60%;
+        margin: 20px auto;
+      }
+
+      input:read-only,
+      textarea:read-only {
+        border: 0;
+        box-shadow: none;
+        background-color: white;
+      }
+
+      textarea:read-write {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Check shipping details</legend>
+        <div>
+          <label for="name">Name: </label>
+          <input id="name" name="name" type="text" value="Mr Soft" readonly />
+        </div>
+        <div>
+          <label for="address">Address: </label>
+          <textarea id="address" name="address" readonly>
+23 Elastic Way,
+Viscous,
+Bright Ridge,
+CA
+</textarea
+          >
+        </div>
+        <div>
+          <label for="pcode">Zip/postal code: </label>
+          <input id="pcode" name="pcode" type="text" value="94708" readonly />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Final instructions</legend>
+        <div>
+          <label for="sms-confirm">Send confirmation by SMS?</label>
+          <input id="sms-confirm" name="sms-confirm" type="checkbox" />
+        </div>
+        <div>
+          <label for="instructions">Any special instructions?</label>
+          <textarea id="instructions" name="instructions"></textarea>
+        </div>
+      </fieldset>
+
+      <div><button type="button">Amend details</button></div>
+      <div><button type="submit">Submit</button></div>
+    </form>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
+                            "        box-shadow: inset 1px 1px 3px #ccc;",
+                            "73:39 - 73:43",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:read-only demo — confirmation form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+        margin-bottom: 20px;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      button,
+      label,
+      input[type="text"],
+      textarea {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input[type="text"],
+      textarea {
+        width: 50%;
+      }
+
+      textarea {
+        height: 110px;
+        resize: none;
+      }
+
+      label {
+        width: 40%;
+      }
+
+      input:hover,
+      input:focus,
+      textarea:hover,
+      textarea:focus {
+        background-color: #eee;
+      }
+
+      button {
+        width: 60%;
+        margin: 20px auto;
+      }
+
+      input:read-only,
+      textarea:read-only {
+        border: 0;
+        box-shadow: none;
+        background-color: white;
+      }
+
+      textarea:read-write {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Check shipping details</legend>
+        <div>
+          <label for="name">Name: </label>
+          <input id="name" name="name" type="text" value="Mr Soft" readonly />
+        </div>
+        <div>
+          <label for="address">Address: </label>
+          <textarea id="address" name="address" readonly>
+23 Elastic Way,
+Viscous,
+Bright Ridge,
+CA
+</textarea
+          >
+        </div>
+        <div>
+          <label for="pcode">Zip/postal code: </label>
+          <input id="pcode" name="pcode" type="text" value="94708" readonly />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Final instructions</legend>
+        <div>
+          <label for="sms-confirm">Send confirmation by SMS?</label>
+          <input id="sms-confirm" name="sms-confirm" type="checkbox" />
+        </div>
+        <div>
+          <label for="instructions">Any special instructions?</label>
+          <textarea id="instructions" name="instructions"></textarea>
+        </div>
+      </fieldset>
+
+      <div><button type="button">Amend details</button></div>
+      <div><button type="submit">Submit</button></div>
+    </form>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)',
+                            "        padding: 0;",
+                            "32:9 - 32:16",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[declaration-block-no-duplicate-properties] Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:read-only demo — confirmation form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+        margin-bottom: 20px;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      button,
+      label,
+      input[type="text"],
+      textarea {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input[type="text"],
+      textarea {
+        width: 50%;
+      }
+
+      textarea {
+        height: 110px;
+        resize: none;
+      }
+
+      label {
+        width: 40%;
+      }
+
+      input:hover,
+      input:focus,
+      textarea:hover,
+      textarea:focus {
+        background-color: #eee;
+      }
+
+      button {
+        width: 60%;
+        margin: 20px auto;
+      }
+
+      input:read-only,
+      textarea:read-only {
+        border: 0;
+        box-shadow: none;
+        background-color: white;
+      }
+
+      textarea:read-write {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Check shipping details</legend>
+        <div>
+          <label for="name">Name: </label>
+          <input id="name" name="name" type="text" value="Mr Soft" readonly />
+        </div>
+        <div>
+          <label for="address">Address: </label>
+          <textarea id="address" name="address" readonly>
+23 Elastic Way,
+Viscous,
+Bright Ridge,
+CA
+</textarea
+          >
+        </div>
+        <div>
+          <label for="pcode">Zip/postal code: </label>
+          <input id="pcode" name="pcode" type="text" value="94708" readonly />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Final instructions</legend>
+        <div>
+          <label for="sms-confirm">Send confirmation by SMS?</label>
+          <input id="sms-confirm" name="sms-confirm" type="checkbox" />
+        </div>
+        <div>
+          <label for="instructions">Any special instructions?</label>
+          <textarea id="instructions" name="instructions"></textarea>
+        </div>
+      </fieldset>
+
+      <div><button type="button">Amend details</button></div>
+      <div><button type="submit">Submit</button></div>
+    </form>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-elem",
+                            "Do not use the <style> element; use separate CSS blocks instead.",
+                            `    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+        margin-bottom: 20px;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      button,
+      label,
+      input[type="text"],
+      textarea {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input[type="text"],
+      textarea {
+        width: 50%;
+      }
+
+      textarea {
+        height: 110px;
+        resize: none;
+      }
+
+      label {
+        width: 40%;
+      }
+
+      input:hover,
+      input:focus,
+      textarea:hover,
+      textarea:focus {
+        background-color: #eee;
+      }
+
+      button {
+        width: 60%;
+        margin: 20px auto;
+      }
+
+      input:read-only,
+      textarea:read-only {
+        border: 0;
+        box-shadow: none;
+        background-color: white;
+      }
+
+      textarea:read-write {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+    </style>`,
+                            "9:4 - 84:12",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:read-only demo — confirmation form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+        margin-bottom: 20px;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      button,
+      label,
+      input[type="text"],
+      textarea {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input[type="text"],
+      textarea {
+        width: 50%;
+      }
+
+      textarea {
+        height: 110px;
+        resize: none;
+      }
+
+      label {
+        width: 40%;
+      }
+
+      input:hover,
+      input:focus,
+      textarea:hover,
+      textarea:focus {
+        background-color: #eee;
+      }
+
+      button {
+        width: 60%;
+        margin: 20px auto;
+      }
+
+      input:read-only,
+      textarea:read-only {
+        border: 0;
+        box-shadow: none;
+        background-color: white;
+      }
+
+      textarea:read-write {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Check shipping details</legend>
+        <div>
+          <label for="name">Name: </label>
+          <input id="name" name="name" type="text" value="Mr Soft" readonly />
+        </div>
+        <div>
+          <label for="address">Address: </label>
+          <textarea id="address" name="address" readonly>
+23 Elastic Way,
+Viscous,
+Bright Ridge,
+CA
+</textarea
+          >
+        </div>
+        <div>
+          <label for="pcode">Zip/postal code: </label>
+          <input id="pcode" name="pcode" type="text" value="94708" readonly />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Final instructions</legend>
+        <div>
+          <label for="sms-confirm">Send confirmation by SMS?</label>
+          <input id="sms-confirm" name="sms-confirm" type="checkbox" />
+        </div>
+        <div>
+          <label for="instructions">Any special instructions?</label>
+          <textarea id="instructions" name="instructions"></textarea>
+        </div>
+      </fieldset>
+
+      <div><button type="button">Amend details</button></div>
+      <div><button type="submit">Submit</button></div>
+    </form>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>`,
+                            "126:4 - 131:13",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>:read-only demo — confirmation form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+        margin: 20px auto;
+        max-width: 460px;
+      }
+
+      fieldset {
+        padding: 10px 30px 0;
+        margin-bottom: 20px;
+      }
+
+      legend {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+      }
+
+      fieldset > div {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      button,
+      label,
+      input[type="text"],
+      textarea {
+        display: block;
+        font-family: inherit;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 5px;
+        height: 30px;
+      }
+
+      input[type="text"],
+      textarea {
+        width: 50%;
+      }
+
+      textarea {
+        height: 110px;
+        resize: none;
+      }
+
+      label {
+        width: 40%;
+      }
+
+      input:hover,
+      input:focus,
+      textarea:hover,
+      textarea:focus {
+        background-color: #eee;
+      }
+
+      button {
+        width: 60%;
+        margin: 20px auto;
+      }
+
+      input:read-only,
+      textarea:read-only {
+        border: 0;
+        box-shadow: none;
+        background-color: white;
+      }
+
+      textarea:read-write {
+        box-shadow: inset 1px 1px 3px #ccc;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Check shipping details</legend>
+        <div>
+          <label for="name">Name: </label>
+          <input id="name" name="name" type="text" value="Mr Soft" readonly />
+        </div>
+        <div>
+          <label for="address">Address: </label>
+          <textarea id="address" name="address" readonly>
+23 Elastic Way,
+Viscous,
+Bright Ridge,
+CA
+</textarea
+          >
+        </div>
+        <div>
+          <label for="pcode">Zip/postal code: </label>
+          <input id="pcode" name="pcode" type="text" value="94708" readonly />
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Final instructions</legend>
+        <div>
+          <label for="sms-confirm">Send confirmation by SMS?</label>
+          <input id="sms-confirm" name="sms-confirm" type="checkbox" />
+        </div>
+        <div>
+          <label for="instructions">Any special instructions?</label>
+          <textarea id="instructions" name="instructions"></textarea>
+        </div>
+      </fieldset>
+
+      <div><button type="button">Amend details</button></div>
+      <div><button type="submit">Submit</button></div>
+    </form>
+    <script>
+      const form = document.querySelector("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+      });
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-elem",
+                            "Do not use the <style> element; use separate CSS blocks instead.",
+                            `    <style>
+      input[type="radio"] {
+        appearance: none;
+      }
+
+      input[type="radio"] {
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        border: 2px solid gray;
+        /* Adjusts the position of the checkboxes on the text baseline */
+        vertical-align: -2px;
+        outline: none;
+      }
+
+      input[type="radio"]::before {
+        display: block;
+        content: " ";
+        width: 10px;
+        height: 10px;
+        border-radius: 6px;
+        background-color: red;
+        font-size: 1.2em;
+        transform: translate(3px, 3px) scale(0);
+        transform-origin: center;
+        transition: all 0.3s ease-in;
+      }
+
+      input[type="radio"]:checked::before {
+        transform: translate(3px, 3px) scale(1);
+        transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
+      }
+    </style>`,
+                            "6:4 - 38:12",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Radio buttons styled</title>
+    <style>
+      input[type="radio"] {
+        appearance: none;
+      }
+
+      input[type="radio"] {
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        border: 2px solid gray;
+        /* Adjusts the position of the checkboxes on the text baseline */
+        vertical-align: -2px;
+        outline: none;
+      }
+
+      input[type="radio"]::before {
+        display: block;
+        content: " ";
+        width: 10px;
+        height: 10px;
+        border-radius: 6px;
+        background-color: red;
+        font-size: 1.2em;
+        transform: translate(3px, 3px) scale(0);
+        transform-origin: center;
+        transition: all 0.3s ease-in;
+      }
+
+      input[type="radio"]:checked::before {
+        transform: translate(3px, 3px) scale(1);
+        transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Choose your favourite fruit</legend>
+
+        <p>
+          <label>
+            <input type="radio" name="fruit" value="cherry" />
+            Cherry
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="radio" name="fruit" value="banana" />
+            Banana
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="radio" name="fruit" value="strawberry" />
+            Strawberry
+          </label>
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-elem",
+                            "Do not use the <style> element; use separate CSS blocks instead.",
+                            `    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+      }
+
+      input[type="radio"] {
+        -webkit-appearance: none;
+        appearance: none;
+      }
+
+      input[type="radio"] {
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        border: 2px solid gray;
+        /* Adjusts the position of the checkboxes on the text baseline */
+        vertical-align: -2px;
+        outline: none;
+      }
+
+      input[type="radio"]::before {
+        display: block;
+        content: " ";
+        width: 10px;
+        height: 10px;
+        border-radius: 6px;
+        background-color: red;
+        font-size: 1.2em;
+        transform: translate(3px, 3px) scale(0);
+        transform-origin: center;
+        transition: all 0.3s ease-in;
+      }
+
+      input[type="radio"]:checked::before {
+        transform: translate(3px, 3px) scale(1);
+        transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
+      }
+
+      input ~ span {
+        position: relative;
+      }
+
+      input:default ~ span::after {
+        font-size: 0.7rem;
+        position: absolute;
+        content: "Default";
+        color: white;
+        background-color: black;
+        padding: 5px 10px;
+        right: -65px;
+        top: -3px;
+      }
+    </style>`,
+                            "9:4 - 61:12",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Radio buttons :checked, :default</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+      }
+
+      input[type="radio"] {
+        -webkit-appearance: none;
+        appearance: none;
+      }
+
+      input[type="radio"] {
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        border: 2px solid gray;
+        /* Adjusts the position of the checkboxes on the text baseline */
+        vertical-align: -2px;
+        outline: none;
+      }
+
+      input[type="radio"]::before {
+        display: block;
+        content: " ";
+        width: 10px;
+        height: 10px;
+        border-radius: 6px;
+        background-color: red;
+        font-size: 1.2em;
+        transform: translate(3px, 3px) scale(0);
+        transform-origin: center;
+        transition: all 0.3s ease-in;
+      }
+
+      input[type="radio"]:checked::before {
+        transform: translate(3px, 3px) scale(1);
+        transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
+      }
+
+      input ~ span {
+        position: relative;
+      }
+
+      input:default ~ span::after {
+        font-size: 0.7rem;
+        position: absolute;
+        content: "Default";
+        color: white;
+        background-color: black;
+        padding: 5px 10px;
+        right: -65px;
+        top: -3px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Choose your favourite fruit</legend>
+
+        <p>
+          <input type="radio" name="fruit" value="cherry" id="cherry" />
+          <label for="cherry">Cherry</label>
+          <span></span>
+        </p>
+        <p>
+          <input type="radio" name="fruit" value="banana" id="banana" checked />
+          <label for="banana">Banana</label>
+          <span></span>
+        </p>
+        <p>
+          <input type="radio" name="fruit" value="strawberry" id="strawberry" />
+          <label for="strawberry">Strawberry</label>
+          <span></span>
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-elem",
+                            "Do not use the <style> element; use separate CSS blocks instead.",
+                            `    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+      }
+
+      input[type="radio"] {
+        -webkit-appearance: none;
+        appearance: none;
+      }
+
+      input[type="radio"] {
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        border: 2px solid gray;
+        /* Adjusts the position of the checkboxes on the text baseline */
+        vertical-align: -2px;
+        outline: none;
+      }
+
+      input[type="radio"]::before {
+        display: block;
+        content: " ";
+        width: 10px;
+        height: 10px;
+        border-radius: 6px;
+        background-color: red;
+        font-size: 1.2em;
+        transform: translate(3px, 3px) scale(0);
+        transform-origin: center;
+        transition: all 0.3s ease-in;
+      }
+
+      input[type="radio"]:checked::before {
+        transform: translate(3px, 3px) scale(1);
+        transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
+      }
+
+      input[type="radio"]:indeterminate {
+        border: 2px solid red;
+        animation: 0.4s linear infinite alternate border-pulse;
+      }
+
+      @keyframes border-pulse {
+        from {
+          border: 2px solid red;
+        }
+
+        to {
+          border: 6px solid red;
+        }
+      }
+    </style>`,
+                            "9:4 - 61:12",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Radio buttons :checked, :indeterminate</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap"
+      rel="stylesheet" />
+    <style>
+      body {
+        font-family: "Josefin Sans", sans-serif;
+      }
+
+      input[type="radio"] {
+        -webkit-appearance: none;
+        appearance: none;
+      }
+
+      input[type="radio"] {
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        border: 2px solid gray;
+        /* Adjusts the position of the checkboxes on the text baseline */
+        vertical-align: -2px;
+        outline: none;
+      }
+
+      input[type="radio"]::before {
+        display: block;
+        content: " ";
+        width: 10px;
+        height: 10px;
+        border-radius: 6px;
+        background-color: red;
+        font-size: 1.2em;
+        transform: translate(3px, 3px) scale(0);
+        transform-origin: center;
+        transition: all 0.3s ease-in;
+      }
+
+      input[type="radio"]:checked::before {
+        transform: translate(3px, 3px) scale(1);
+        transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
+      }
+
+      input[type="radio"]:indeterminate {
+        border: 2px solid red;
+        animation: 0.4s linear infinite alternate border-pulse;
+      }
+
+      @keyframes border-pulse {
+        from {
+          border: 2px solid red;
+        }
+
+        to {
+          border: 6px solid red;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <fieldset>
+        <legend>Choose your favourite fruit</legend>
+
+        <p>
+          <input type="radio" name="fruit" value="cherry" id="cherry" />
+          <label for="cherry">Cherry</label>
+          <span></span>
+        </p>
+        <p>
+          <input type="radio" name="fruit" value="banana" id="banana" />
+          <label for="banana">Banana</label>
+          <span></span>
+        </p>
+        <p>
+          <input type="radio" name="fruit" value="strawberry" id="strawberry" />
+          <label for="strawberry">Strawberry</label>
+          <span></span>
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     user_input_methods: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/User_input_methods",
@@ -26047,13 +32080,6 @@ textarea:focus {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -26750,22 +32776,15 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
+                            "https://espressoapp.com/",
+                            403
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "Cannot reach server and Bun hangs"
+                            "https://help.espressoapp.com/",
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         }
                       ]
@@ -26780,28 +32799,22 @@ body * {
                         }
                       ]
                     },
-                    how_much_does_it_cost: {
+                    how_do_you_host_your_website_on_google_app_engine: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.magix.com/us/music-editing/sound-forge/",
-                            400
+                            "https://gaesamplesite.appspot.com/downloads.html",
+                            503
                           ]
-                        }
-                      ]
-                    },
-                    what_software_do_i_need: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
-                      messages: [
+                        },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
+                            "https://gaesamplesite.appspot.com/",
+                            503
                           ]
                         }
                       ]
@@ -26885,7 +32898,17 @@ body * {
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/MDN/Community/Issues",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues",
+                        "https://docs.github.com/en/issues/tracking-your-work-with-issues/learning-about-issues/about-issues"
+                      ]
+                    }
+                  ]
                 },
                 learn_forum: {
                   children: {},
@@ -26894,6 +32917,19 @@ body * {
                     {
                       message: "Unreachable via page",
                       data: []
+                    }
+                  ]
+                },
+                translated_content: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Community/Translated_content",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://hacks.mozilla.org/2021/02/mdn-localization-update-february-2021/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 }
@@ -26917,6 +32953,13 @@ body * {
                     {
                       message: "Unreachable via sidebar",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://hacks.mozilla.org/2022/10/revamp-of-mdn-web-docs-contribution-docs/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -28684,6 +34727,13 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://blog.mozilla.org/addons/2010/11/11/making-add-on-compatible-firefox-4/",
+                                504
+                              ]
                             }
                           ]
                         }
@@ -28803,6 +34853,26 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
+                    "18": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/18",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2012/10/aurora-18-hidpi-touch-events/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blog.mozilla.org/addons/2012/12/28/compatibility-for-firefox-18/",
+                            504
+                          ]
+                        }
+                      ]
+                    },
                     "19": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/19",
@@ -28811,32 +34881,6 @@ webextensions.manifest.options_ui`,
                           message: "Broken external link",
                           data: [
                             "https://blog.mozilla.org/addons/2013/02/07/compatibility-for-firefox-19/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "20": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/20",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blog.mozilla.org/addons/2013/03/20/compatibility-for-firefox-20/",
-                            504
-                          ]
-                        }
-                      ]
-                    },
-                    "21": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/21",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blog.mozilla.org/addons/2013/04/26/compatibility-for-firefox-21/",
                             504
                           ]
                         }
@@ -28857,7 +34901,7 @@ webextensions.manifest.options_ui`,
                           message: "Broken external link",
                           data: [
                             "https://blog.mozilla.org/addons/2013/06/03/compatibility-for-firefox-22/",
-                            "The operation timed out."
+                            504
                           ]
                         },
                         {
@@ -28871,7 +34915,7 @@ webextensions.manifest.options_ui`,
                           message: "Broken external link",
                           data: [
                             "https://blog.mozilla.org/addons/2013/06/03/compatibility-for-firefox-22/",
-                            "The operation timed out."
+                            504
                           ]
                         }
                       ]
@@ -28884,19 +34928,6 @@ webextensions.manifest.options_ui`,
                           message: "Broken external link",
                           data: [
                             "https://hacks.mozilla.org/2013/09/new-features-in-the-firefox-developer-tools-episode-26/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "27": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/27",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2013/11/firefox-developer-tools-episode-27-edit-as-html-codemirror-more/",
                             "The operation timed out."
                           ]
                         }
@@ -28922,7 +34953,7 @@ webextensions.manifest.options_ui`,
                         {
                           message: "Broken external link",
                           data: [
-                            "https://hacks.mozilla.org/2014/02/css-source-map-support-network-performance-analysis-more-firefox-developer-tools-episode-29/",
+                            "https://hacks.mozilla.org/2013/12/css-variables-in-firefox-nightly/",
                             "The operation timed out."
                           ]
                         }
@@ -28941,6 +34972,65 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
+                    "44": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/44",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blog.mozilla.org/addons/2015/10/14/breaking-changes-let-const-firefox-nightly-44/",
+                            504
+                          ]
+                        }
+                      ]
+                    },
+                    "51": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/51",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2016/10/whats-new-in-indexeddb-2-0/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blog.mozilla.org/security/2016/10/24/distrusting-new-wosign-and-startcom-certificates/",
+                            504
+                          ]
+                        }
+                      ]
+                    },
+                    "56": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/56",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2017/06/new-css-grid-layout-panel-in-firefox-nightly/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "60": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/60",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blog.mozilla.org/webrtc/better-privacy-on-camera-mute-in-firefox-60/",
+                            504
+                          ]
+                        }
+                      ]
+                    },
                     "63": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/63",
@@ -28949,7 +35039,7 @@ webextensions.manifest.options_ui`,
                           message: "Broken external link",
                           data: [
                             "https://blog.mozilla.org/webrtc/getstats-isremote-65/",
-                            "The operation timed out."
+                            504
                           ]
                         }
                       ]
@@ -28967,27 +35057,14 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "65": {
+                    "67": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/65",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/67",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://hacks.mozilla.org/2019/01/firefox-65-webp-flexbox-inspector-new-tooling/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "66": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/66",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2019/03/firefox-66-the-sound-of-silence/",
+                            "https://hacks.mozilla.org/2019/05/firefox-67-dark-mode-css-webrender/",
                             "The operation timed out."
                           ]
                         }
@@ -29016,141 +35093,17 @@ webextensions.manifest.options_ui`,
                             "https://hacks.mozilla.org/2019/06/geckoview-in-2019/",
                             "The operation timed out."
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2019/09/firefox-69-a-tale-of-resize-observer-microtasks-css-and-devtools/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
-                    "75": {
+                    "109": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/75",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/109",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://hacks.mozilla.org/2020/04/firefox-75-ambitions-for-april/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "76": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/76",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2020/05/firefox-76-audio-worklets-and-other-tricks/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "77": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/77",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2020/06/new-in-firefox-77-devtool-improvements-and-web-platform-updates/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "78": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/78",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2020/06/a-new-regexp-engine-in-spidermonkey/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "79": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/79",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blog.mozilla.org/addons/2020/07/09/changes-to-storage-sync-in-firefox-79/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "82": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/82",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2020/10/coming-through-with-firefox-82/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "83": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/83",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2020/11/firefox-83-is-upon-us/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "89": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/89",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blog.mozilla.org/addons/2021/04/19/changes-to-themeable-areas-of-firefox-in-version-89/",
-                            504
-                          ]
-                        }
-                      ]
-                    },
-                    "91": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/91",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2021/08/hopping-on-firefox-91/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "139": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/139",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blog.mozilla.org/addons/2025/04/30/webextensions-support-for-tab-groups/",
+                            "https://blog.mozilla.org/addons/2022/11/17/manifest-v3-signing-available-november-21-on-firefox-nightly/",
                             504
                           ]
                         }
@@ -29391,7 +35344,42 @@ webextensions.manifest.options_ui`,
           ]
         },
         related: {
-          children: {},
+          children: {
+            imsc: {
+              children: {
+                imsc_and_other_standards: {
+                  children: {},
+                  slug: "/en-US/docs/Related/IMSC/IMSC_and_other_standards",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://tech.ebu.ch/publications/tech3380",
+                        403
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://tech.ebu.ch/publications/tech3380",
+                        403
+                      ]
+                    }
+                  ]
+                }
+              },
+              slug: "/en-US/docs/Related/IMSC",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://tech.ebu.ch/publications/tech3380",
+                    403
+                  ]
+                }
+              ]
+            }
+          },
           slug: "/en-US/docs/Related",
           messages: [
             {
@@ -30898,30 +36886,7 @@ api.Document.fullscreen`,
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Gamepad_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://hacks.mozilla.org/2013/12/the-gamepad-api/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                geolocation_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Geolocation_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://hacks.mozilla.org/2013/10/who-moved-my-geolocation/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 },
                 highlightregistry: {
                   children: {
@@ -31171,36 +37136,6 @@ article {
                       ]
                     }
                   ]
-                },
-                htmlaudioelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/HTMLAudioElement",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://hacks.mozilla.org/2019/02/firefox-66-to-block-automatically-playing-audible-video-and-audio/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                htmlcanvaselement: {
-                  children: {
-                    mozopaque: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLCanvasElement/mozOpaque",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2013/05/optimizing-your-javascript-game-for-firefox-os/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 htmlelement: {
                   children: {
@@ -31938,6 +37873,19 @@ article img {
                       ]
                     }
                   }
+                },
+                insertable_streams_for_mediastreamtrack_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Insertable_Streams_for_MediaStreamTrack_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://blog.mozilla.org/webrtc/unbundling-mediastreamtrackprocessor-and-videotrackgenerator/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 intersection_observer_api: {
                   children: {
@@ -33067,6 +39015,19 @@ aside {
                     }
                   }
                 },
+                mediastreamtrackprocessor: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/MediaStreamTrackProcessor",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://blog.mozilla.org/webrtc/unbundling-mediastreamtrackprocessor-and-videotrackgenerator/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 mediatracksettings: {
                   children: {
                     cursor: {
@@ -34116,6 +40077,19 @@ html {
                     }
                   ]
                 },
+                storage_access_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Storage_Access_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://blog.mozilla.org/en/mozilla/firefox-rolls-out-total-cookie-protection-by-default-to-all-users-worldwide/",
+                        504
+                      ]
+                    }
+                  ]
+                },
                 summarizer_api: {
                   children: {
                     using: {
@@ -34401,6 +40375,19 @@ textarea,
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/URL_API/Resolving_relative_references"
+                      ]
+                    }
+                  ]
+                },
+                videotrackgenerator: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/VideoTrackGenerator",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://blog.mozilla.org/webrtc/unbundling-mediastreamtrackprocessor-and-videotrackgenerator/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -35068,37 +41055,6 @@ api.Window.sessionStorage`,
                     }
                   ]
                 },
-                webgl_api: {
-                  children: {
-                    tutorial: {
-                      children: {
-                        using_textures_in_webgl: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Using_textures_in_WebGL",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://hacks.mozilla.org/2011/11/using-cors-to-load-webgl-textures-from-cross-domain-images/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/WebGL_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://hacks.mozilla.org/2017/01/webgl-2-lands-in-firefox/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 webrtc_api: {
                   children: {
                     build_a_phone_with_peerjs: {
@@ -35141,19 +41097,6 @@ api.Window.sessionStorage`,
                         }
                       }
                     },
-                    connectivity: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebRTC_API/Connectivity",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2013/07/webrtc-and-the-ocean-of-acronyms/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     using_encoded_transforms: {
                       children: {},
                       slug: "/en-US/docs/Web/API/WebRTC_API/Using_Encoded_Transforms",
@@ -35184,6 +41127,23 @@ api.Window.sessionStorage`,
                             "html.elements.track",
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                webxr_device_api: {
+                  children: {
+                    targeting: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebXR_Device_API/Targeting",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2015/10/html-5-games-3d-collision-detection/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -35232,32 +41192,6 @@ body {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    getcomputedstyle: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/getComputedStyle",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blog.mozilla.org/security/2010/03/31/plugging-the-css-history-leak/",
-                            504
-                          ]
-                        }
-                      ]
-                    },
-                    getdefaultcomputedstyle: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/getDefaultComputedStyle",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blog.mozilla.org/security/2010/03/31/plugging-the-css-history-leak/",
-                            504
                           ]
                         }
                       ]
@@ -35515,6 +41449,164 @@ body {
                       ]
                     }
                   ]
+                },
+                xmlhttprequesteventtarget: {
+                  children: {
+                    abort_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/XMLHttpRequestEventTarget/abort_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.XMLHttpRequestEventTarget.abort_event"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            `api.XMLHttpRequest.abort_event
+api.XMLHttpRequestUpload.abort_event`,
+                            "Expected:",
+                            "api.XMLHttpRequestEventTarget.abort_event"
+                          ]
+                        }
+                      ]
+                    },
+                    error_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/XMLHttpRequestEventTarget/error_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.XMLHttpRequestEventTarget.error_event"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            `api.XMLHttpRequest.error_event
+api.XMLHttpRequestUpload.error_event`,
+                            "Expected:",
+                            "api.XMLHttpRequestEventTarget.error_event"
+                          ]
+                        }
+                      ]
+                    },
+                    load_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/XMLHttpRequestEventTarget/load_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.XMLHttpRequestEventTarget.load_event"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            `api.XMLHttpRequest.load_event
+api.XMLHttpRequestUpload.load_event`,
+                            "Expected:",
+                            "api.XMLHttpRequestEventTarget.load_event"
+                          ]
+                        }
+                      ]
+                    },
+                    loadend_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/XMLHttpRequestEventTarget/loadend_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.XMLHttpRequestEventTarget.loadend_event"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            `api.XMLHttpRequest.loadend_event
+api.XMLHttpRequestUpload.loadend_event`,
+                            "Expected:",
+                            "api.XMLHttpRequestEventTarget.loadend_event"
+                          ]
+                        }
+                      ]
+                    },
+                    loadstart_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/XMLHttpRequestEventTarget/loadstart_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.XMLHttpRequestEventTarget.loadstart_event"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            `api.XMLHttpRequest.loadstart_event
+api.XMLHttpRequestUpload.loadstart_event`,
+                            "Expected:",
+                            "api.XMLHttpRequestEventTarget.loadstart_event"
+                          ]
+                        }
+                      ]
+                    },
+                    progress_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/XMLHttpRequestEventTarget/progress_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.XMLHttpRequestEventTarget.progress_event"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            `api.XMLHttpRequest.progress_event
+api.XMLHttpRequestUpload.progress_event`,
+                            "Expected:",
+                            "api.XMLHttpRequestEventTarget.progress_event"
+                          ]
+                        }
+                      ]
+                    },
+                    timeout_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/XMLHttpRequestEventTarget/timeout_event",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.XMLHttpRequestEventTarget.timeout_event"
+                          ]
+                        },
+                        {
+                          message: "Unexpected BCD keys",
+                          data: [
+                            "Actual:",
+                            `api.XMLHttpRequest.timeout_event
+api.XMLHttpRequestUpload.timeout_event`,
+                            "Expected:",
+                            "api.XMLHttpRequestEventTarget.timeout_event"
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 xrwebgllayer: {
                   children: {
@@ -54577,6 +60669,270 @@ cross-fade(url("white.png"), url("black.png"), 100%); /* fully white */
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator"
+                      ]
+                    }
+                  ]
+                },
+                css_borders_and_box_decorations: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/CSS_borders_and_box_decorations",
+                  messages: [
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/corner-shape-value"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/superellipse"
+                      ]
+                    },
+                    {
+                      message: "Unreachable via page",
+                      data: []
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-hex-length",
+                        'Expected "#0002" to be "#00000022" (color-hex-length)',
+                        "    repeating-linear-gradient(transparent 0 19px, #0002 19px 20px),",
+                        "6:51 - 6:56",
+                        `/en-US/docs/Web/CSS/CSS_borders_and_box_decorations
+[color-hex-length] Expected "#0002" to be "#00000022" (color-hex-length)
+~~~
+div {
+  width: 100%;
+  height: 200px;
+  background-color: plum;
+  background-image:
+    repeating-linear-gradient(transparent 0 19px, #0002 19px 20px),
+    repeating-linear-gradient(to left, transparent 0 19px, #0002 19px 20px);
+}
+
+div {
+  box-shadow: 3px 3px 5px rgb(0 0 0 / 0.5);
+  border-radius: 30px;
+}
+body:has(input:checked) div {
+  box-shadow: none;
+}
+
+@layer pageSetUp {
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    max-width: 600px;
+    min-width: fit-content;
+    margin: 20px auto;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  select {
+    padding: 3px 5px;
+  }
+  code {
+    font-weight: bolder;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-hex-length",
+                        'Expected "#0002" to be "#00000022" (color-hex-length)',
+                        "    repeating-linear-gradient(to left, transparent 0 19px, #0002 19px 20px);",
+                        "7:60 - 7:65",
+                        `/en-US/docs/Web/CSS/CSS_borders_and_box_decorations
+[color-hex-length] Expected "#0002" to be "#00000022" (color-hex-length)
+~~~
+div {
+  width: 100%;
+  height: 200px;
+  background-color: plum;
+  background-image:
+    repeating-linear-gradient(transparent 0 19px, #0002 19px 20px),
+    repeating-linear-gradient(to left, transparent 0 19px, #0002 19px 20px);
+}
+
+div {
+  box-shadow: 3px 3px 5px rgb(0 0 0 / 0.5);
+  border-radius: 30px;
+}
+body:has(input:checked) div {
+  box-shadow: none;
+}
+
+@layer pageSetUp {
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    max-width: 600px;
+    min-width: fit-content;
+    margin: 20px auto;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  select {
+    padding: 3px 5px;
+  }
+  code {
+    font-weight: bolder;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "    font-family: Arial, Helvetica, sans-serif;",
+                        "20:18 - 20:23",
+                        `/en-US/docs/Web/CSS/CSS_borders_and_box_decorations
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+div {
+  width: 100%;
+  height: 200px;
+  background-color: plum;
+  background-image:
+    repeating-linear-gradient(transparent 0 19px, #0002 19px 20px),
+    repeating-linear-gradient(to left, transparent 0 19px, #0002 19px 20px);
+}
+
+div {
+  box-shadow: 3px 3px 5px rgb(0 0 0 / 0.5);
+  border-radius: 30px;
+}
+body:has(input:checked) div {
+  box-shadow: none;
+}
+
+@layer pageSetUp {
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    max-width: 600px;
+    min-width: fit-content;
+    margin: 20px auto;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  select {
+    padding: 3px 5px;
+  }
+  code {
+    font-weight: bolder;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "    font-family: Arial, Helvetica, sans-serif;",
+                        "20:25 - 20:34",
+                        `/en-US/docs/Web/CSS/CSS_borders_and_box_decorations
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+div {
+  width: 100%;
+  height: 200px;
+  background-color: plum;
+  background-image:
+    repeating-linear-gradient(transparent 0 19px, #0002 19px 20px),
+    repeating-linear-gradient(to left, transparent 0 19px, #0002 19px 20px);
+}
+
+div {
+  box-shadow: 3px 3px 5px rgb(0 0 0 / 0.5);
+  border-radius: 30px;
+}
+body:has(input:checked) div {
+  box-shadow: none;
+}
+
+@layer pageSetUp {
+  html {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    max-width: 600px;
+    min-width: fit-content;
+    margin: 20px auto;
+  }
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  select {
+    padding: 3px 5px;
+  }
+  code {
+    font-weight: bolder;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "prefer-template",
+                        "Unexpected string concatenation.",
+                        '  rectangle.style.borderRadius = range.value + "px";',
+                        "7:34 - 7:52",
+                        `/en-US/docs/Web/CSS/CSS_borders_and_box_decorations
+[prefer-template] Unexpected string concatenation.
+~~~
+const rectangle = document.querySelector("div");
+const select = document.querySelector("select");
+const range = document.getElementById("radius");
+
+function setCornerShape() {
+  rectangle.style.cornerShape = select.value;
+  rectangle.style.borderRadius = range.value + "px";
+  rectangle.innerHTML = \`<pre>div {
+  corner-shape: \${select.value};
+  border-radius: \${range.value}px;
+}</pre>\`;
+}
+
+select.addEventListener("change", setCornerShape);
+range.addEventListener("input", setCornerShape);
+setCornerShape();
+~~~
+`
                       ]
                     }
                   ]
@@ -89302,23 +95658,6 @@ html.elements.textarea.disabled`
                             }
                           ]
                         },
-                        rel: {
-                          children: {
-                            preload: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
-                                    "unknown certificate verification error"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         size: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Attributes/size",
@@ -90764,13 +97103,6 @@ http.headers.Use-As-Dictionary`,
                       slug: "/en-US/docs/Web/HTTP/Guides/CORS",
                       messages: [
                         {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.telerik.com/blogs/using-cors-with-all-modern-browsers",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
                           message: "Unexpected BCD keys",
                           data: [
                             "Actual:",
@@ -90850,18 +97182,21 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
+                        "content-security-policy": {
+                          children: {
+                            "frame-ancestors": {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/frame-ancestors",
+                              messages: [
+                                {
+                                  message: "w3.org/TR link",
+                                  data: [
+                                    "https://www.w3.org/TR/CSP2/#frame-ancestors-and-frame-options"
+                                  ]
+                                }
                               ]
                             }
-                          ]
+                          }
                         },
                         "permissions-policy": {
                           children: {
@@ -90928,19 +97263,6 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           }
-                        },
-                        "x-content-type-options": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/X-Content-Type-Options",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://blog.mozilla.org/security/2016/08/26/mitigating-mime-confusion-attacks-in-firefox/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
                         }
                       }
                     }
@@ -91010,14 +97332,14 @@ h2 {
                         }
                       ]
                     },
-                    modules: {
+                    typed_arrays: {
                       children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Modules",
+                      slug: "/en-US/docs/Web/JavaScript/Guide/Typed_arrays",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://babeljs.io/",
+                            "https://hacks.mozilla.org/2011/12/faster-canvas-pixel-manipulation-with-typed-arrays/",
                             "The operation timed out."
                           ]
                         }
@@ -91037,15 +97359,18 @@ h2 {
                 reference: {
                   children: {
                     classes: {
+                      children: {}
+                    },
+                    functions: {
                       children: {
-                        public_class_fields: {
+                        arrow_functions: {
                           children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields",
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://babeljs.io/",
+                                "https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/",
                                 "The operation timed out."
                               ]
                             }
@@ -91128,6 +97453,23 @@ h2 {
                         }
                       ]
                     },
+                    operators: {
+                      children: {
+                        destructuring: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     statements: {
                       children: {
                         expression_statement: {
@@ -91141,21 +97483,21 @@ h2 {
                               ]
                             }
                           ]
-                        }
-                      }
-                    },
-                    template_literals: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/Template_literals",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2015/05/es6-in-depth-template-strings-2/",
-                            "The operation timed out."
+                        },
+                        let: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/let",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://blog.mozilla.org/addons/2015/10/14/breaking-changes-let-const-firefox-nightly-44/",
+                                504
+                              ]
+                            }
                           ]
                         }
-                      ]
+                      }
                     }
                   }
                 }
@@ -91179,17 +97521,21 @@ h2 {
                 guides: {
                   children: {
                     audio_and_video_delivery: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2014/06/easy-audio-capture-with-the-mediarecorder-api/",
-                            "The operation timed out."
+                      children: {
+                        live_streaming_web_audio_and_video: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Live_streaming_web_audio_and_video",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://hacks.mozilla.org/2015/07/streaming-media-on-demand-with-media-source-extensions/",
+                                "The operation timed out."
+                              ]
+                            }
                           ]
                         }
-                      ]
+                      }
                     },
                     formats: {
                       children: {
@@ -91212,31 +97558,23 @@ h2 {
                 }
               }
             },
-            performance: {
-              children: {
-                guides: {
-                  children: {
-                    speculative_loading: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Performance/Guides/Speculative_loading",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
-            },
             privacy: {
               children: {
                 guides: {
                   children: {
+                    firefox_tracking_protection: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Firefox_tracking_protection",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://hacks.mozilla.org/2016/01/google-analytics-privacy-and-event-tracking/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     privacy_sandbox: {
                       children: {
                         partitioned_cookies: {
@@ -91337,8 +97675,8 @@ h2 {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://webkit.org/tracking-prevention-policy/",
-                            "The operation timed out."
+                            "https://blog.mozilla.org/en/mozilla/firefox-rolls-out-total-cookie-protection-by-default-to-all-users-worldwide/",
+                            504
                           ]
                         }
                       ]
@@ -92770,28 +99108,7 @@ p {
                   }
                 },
                 guides: {
-                  children: {
-                    opensearch: {
-                      children: {},
-                      slug: "/en-US/docs/Web/XML/Guides/OpenSearch",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://ready.to/search/en/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://ready.to/search/make/en_make_plugin.htm",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/XML/Guides",
                   messages: [
                     {
@@ -92868,6 +99185,50 @@ p {
             {
               message: "Unreachable via sidebar",
               data: []
+            }
+          ]
+        },
+        webassembly: {
+          children: {
+            guides: {
+              children: {
+                concepts: {
+                  children: {},
+                  slug: "/en-US/docs/WebAssembly/Guides/Concepts",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://research.mozilla.org/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                using_the_javascript_api: {
+                  children: {},
+                  slug: "/en-US/docs/WebAssembly/Guides/Using_the_JavaScript_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://research.mozilla.org/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          slug: "/en-US/docs/WebAssembly",
+          messages: [
+            {
+              message: "Broken external link",
+              data: [
+                "https://research.mozilla.org/",
+                "The operation timed out."
+              ]
             }
           ]
         }
