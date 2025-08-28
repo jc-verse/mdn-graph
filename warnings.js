@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-56gkjba9.js";
+} from "./chunk-q5x28161.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -20,53 +20,6 @@ var warnings_processed_default = {
                   ]
                 }
               ]
-            },
-            techniques: {
-              children: {
-                audio_for_web_games: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Techniques/Audio_for_Web_Games",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://hacks.mozilla.org/2013/10/songs-of-diridum-pushing-the-web-audio-api-to-its-limits/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                control_mechanisms: {
-                  children: {
-                    other: {
-                      children: {},
-                      slug: "/en-US/docs/Games/Techniques/Control_mechanisms/Other",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2016/01/building-games-for-firefox-os-tv/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                webrtc_data_channels: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Techniques/WebRTC_data_channels",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://hacks.mozilla.org/2013/03/webrtc-data-channels-for-great-multiplayer/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                }
-              }
             },
             tools: {
               children: {
@@ -225,13 +178,6 @@ var warnings_processed_default = {
             {
               message: "Unreachable via sidebar",
               data: []
-            },
-            {
-              message: "Broken external link",
-              data: [
-                "https://hacks.mozilla.org/category/games/",
-                "The operation timed out."
-              ]
             }
           ]
         },
@@ -1343,19 +1289,6 @@ div.warning {
                 }
               ]
             },
-            sgml: {
-              children: {},
-              slug: "/en-US/docs/Glossary/SGML",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.tei-c.org/Vault/GL/P3/SG.htm",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             shim: {
               children: {},
               slug: "/en-US/docs/Glossary/Shim",
@@ -1409,16 +1342,6 @@ div.warning {
             smoke_test: {
               children: {},
               slug: "/en-US/docs/Glossary/Smoke_Test",
-              messages: [
-                {
-                  message: "Unreachable via page",
-                  data: []
-                }
-              ]
-            },
-            snap_positions: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Snap_positions",
               messages: [
                 {
                   message: "Unreachable via page",
@@ -4463,6 +4386,19 @@ body {
                       }
                     }
                   }
+                },
+                design_for_developers: {
+                  children: {},
+                  slug: "/en-US/docs/Learn_web_development/Core/Design_for_developers",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.adhamdannaway.com/blog/ui-design/ui-design-tips",
+                        "certificate has expired"
+                      ]
+                    }
+                  ]
                 },
                 frameworks_libraries: {
                   children: {
@@ -10380,6 +10316,438 @@ button {
                         }
                       ]
                     },
+                    structuring_a_page_of_content: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_a_page_of_content",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-function-alias-notation",
+                            'Expected "rgba" to be "rgb" (color-function-alias-notation)',
+                            "  background-color: rgba(0, 255, 0, 0.5);",
+                            "62:21 - 62:25",
+                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_a_page_of_content
+[color-function-alias-notation] Expected "rgba" to be "rgb" (color-function-alias-notation)
+~~~
+/* || General setup */
+
+body {
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+  background-color: #a9a9a9;
+}
+
+body {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+/* || typography */
+
+h1,
+h2 {
+  font-family: "Cinzel Decorative", cursive;
+  color: #2a2a2a;
+}
+
+p,
+li {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #2a2a2a;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 2px 2px 10px black;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* || header layout */
+
+header {
+  margin-bottom: 10px;
+}
+
+main,
+header,
+nav,
+article,
+aside,
+footer,
+section {
+  background-color: rgba(0, 255, 0, 0.5);
+  padding: 1%;
+}
+
+h1 {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+header img {
+  height: 60px;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  text-align: center;
+  flex: 1;
+}
+
+nav a {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover,
+nav a:focus {
+  color: red;
+}
+
+/* || main layout */
+
+main {
+  display: flex;
+  gap: 10px;
+}
+
+article {
+  flex: 4;
+}
+
+aside {
+  flex: 1;
+}
+
+aside a {
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+aside img {
+  max-width: 100%;
+}
+
+footer {
+  margin-top: 10px;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-function-notation",
+                            "Expected modern color-function notation (color-function-notation)",
+                            "  background-color: rgba(0, 255, 0, 0.5);",
+                            "62:21 - 62:41",
+                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_a_page_of_content
+[color-function-notation] Expected modern color-function notation (color-function-notation)
+~~~
+/* || General setup */
+
+body {
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+  background-color: #a9a9a9;
+}
+
+body {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+/* || typography */
+
+h1,
+h2 {
+  font-family: "Cinzel Decorative", cursive;
+  color: #2a2a2a;
+}
+
+p,
+li {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #2a2a2a;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 2px 2px 10px black;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* || header layout */
+
+header {
+  margin-bottom: 10px;
+}
+
+main,
+header,
+nav,
+article,
+aside,
+footer,
+section {
+  background-color: rgba(0, 255, 0, 0.5);
+  padding: 1%;
+}
+
+h1 {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+header img {
+  height: 60px;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  text-align: center;
+  flex: 1;
+}
+
+nav a {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover,
+nav a:focus {
+  color: red;
+}
+
+/* || main layout */
+
+main {
+  display: flex;
+  gap: 10px;
+}
+
+article {
+  flex: 4;
+}
+
+aside {
+  flex: 1;
+}
+
+aside a {
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+aside img {
+  max-width: 100%;
+}
+
+footer {
+  margin-top: 10px;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "#a9a9a9" to be "darkgrey" (color-named)',
+                            "  background-color: #a9a9a9;",
+                            "9:21 - 9:28",
+                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_a_page_of_content
+[color-named] Expected "#a9a9a9" to be "darkgrey" (color-named)
+~~~
+/* || General setup */
+
+body {
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+  background-color: #a9a9a9;
+}
+
+body {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+/* || typography */
+
+h1,
+h2 {
+  font-family: "Cinzel Decorative", cursive;
+  color: #2a2a2a;
+}
+
+p,
+li {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #2a2a2a;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 2px 2px 10px black;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* || header layout */
+
+header {
+  margin-bottom: 10px;
+}
+
+main,
+header,
+nav,
+article,
+aside,
+footer,
+section {
+  background-color: rgba(0, 255, 0, 0.5);
+  padding: 1%;
+}
+
+h1 {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+header img {
+  height: 60px;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  text-align: center;
+  flex: 1;
+}
+
+nav a {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover,
+nav a:focus {
+  color: red;
+}
+
+/* || main layout */
+
+main {
+  display: flex;
+  gap: 10px;
+}
+
+article {
+  flex: 4;
+}
+
+aside {
+  flex: 1;
+}
+
+aside a {
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+aside img {
+  max-width: 100%;
+}
+
+footer {
+  margin-top: 10px;
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {
                         advanced_html_text: {
@@ -14121,6 +14489,13 @@ h2 {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/guide/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -16217,23 +16592,6 @@ button::before {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "client-side_tools": {
-                  children: {
-                    introducing_complete_toolchain: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/docs/latest/rules/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -32732,13 +33090,13 @@ body * {
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ"
+                        "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/Transition_button"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/Transition_button"
+                        "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ"
                       ]
                     },
                     {
@@ -32776,13 +33134,6 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://espressoapp.com/",
-                            403
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://help.espressoapp.com/",
                             "Unable to connect. Is the computer able to access the url?"
                           ]
@@ -32799,22 +33150,15 @@ body * {
                         }
                       ]
                     },
-                    how_do_you_host_your_website_on_google_app_engine: {
+                    what_software_do_i_need: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/downloads.html",
-                            503
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
+                            "https://www.browsershots.at/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -32919,19 +33263,6 @@ body * {
                       data: []
                     }
                   ]
-                },
-                translated_content: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Translated_content",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://hacks.mozilla.org/2021/02/mdn-localization-update-february-2021/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Community",
@@ -32953,13 +33284,6 @@ body * {
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://hacks.mozilla.org/2022/10/revamp-of-mdn-web-docs-contribution-docs/",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -33446,23 +33770,6 @@ color: rgb(31 41 59 / 26%);
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        menus: {
-                          children: {
-                            overridecontext: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/menus/overrideContext",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://blog.mozilla.org/addons/2018/11/08/extensions-in-firefox-64/",
-                                    504
-                                  ]
                                 }
                               ]
                             }
@@ -34691,12 +34998,6 @@ webextensions.manifest.options_ui`,
                         {
                           message: "No link to child page",
                           data: [
-                            "/en-US/docs/Mozilla/Firefox/Releases/3/Site_compatibility"
-                          ]
-                        },
-                        {
-                          message: "No link to child page",
-                          data: [
                             "/en-US/docs/Mozilla/Firefox/Releases/3/Using_an_external_spell_checker"
                           ]
                         },
@@ -34704,6 +35005,12 @@ webextensions.manifest.options_ui`,
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Mozilla/Firefox/Releases/3/WAI_ARIA_Live_Regions_API_Support"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Mozilla/Firefox/Releases/3/Site_compatibility"
                           ]
                         }
                       ]
@@ -34727,13 +35034,6 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://blog.mozilla.org/addons/2010/11/11/making-add-on-compatible-firefox-4/",
-                                504
-                              ]
                             }
                           ]
                         }
@@ -34821,70 +35121,7 @@ webextensions.manifest.options_ui`,
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/10",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2012/01/firefox-goes-2-digit-time-to-check-your-ua-sniffing-scripts/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "17": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/17",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2012/08/aurora-17-is-out/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blog.mozilla.org/addons/2012/11/08/compatibility-for-firefox-17/",
-                            504
-                          ]
-                        }
-                      ]
-                    },
-                    "18": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/18",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2012/10/aurora-18-hidpi-touch-events/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blog.mozilla.org/addons/2012/12/28/compatibility-for-firefox-18/",
-                            504
-                          ]
-                        }
-                      ]
-                    },
-                    "19": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/19",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blog.mozilla.org/addons/2013/02/07/compatibility-for-firefox-19/",
-                            504
-                          ]
-                        }
-                      ]
+                      }
                     },
                     "22": {
                       children: {},
@@ -34895,216 +35132,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://asmjs.org/spec/latest/",
                             ""
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blog.mozilla.org/addons/2013/06/03/compatibility-for-firefox-22/",
-                            504
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2013/04/developer-tools-update-firefox-22/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blog.mozilla.org/addons/2013/06/03/compatibility-for-firefox-22/",
-                            504
-                          ]
-                        }
-                      ]
-                    },
-                    "26": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/26",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2013/09/new-features-in-the-firefox-developer-tools-episode-26/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "28": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/28",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2013/12/split-console-pretty-print-minified-js-and-more-firefox-developer-tools-episode-28/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "29": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/29",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2013/12/css-variables-in-firefox-nightly/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "33": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/33",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2014/07/event-listeners-popup-media-sidebar-cubic-bezier-editor-more-firefox-developer-tools-episode-33/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "44": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/44",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blog.mozilla.org/addons/2015/10/14/breaking-changes-let-const-firefox-nightly-44/",
-                            504
-                          ]
-                        }
-                      ]
-                    },
-                    "51": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/51",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2016/10/whats-new-in-indexeddb-2-0/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blog.mozilla.org/security/2016/10/24/distrusting-new-wosign-and-startcom-certificates/",
-                            504
-                          ]
-                        }
-                      ]
-                    },
-                    "56": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/56",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2017/06/new-css-grid-layout-panel-in-firefox-nightly/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "60": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/60",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blog.mozilla.org/webrtc/better-privacy-on-camera-mute-in-firefox-60/",
-                            504
-                          ]
-                        }
-                      ]
-                    },
-                    "63": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/63",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blog.mozilla.org/webrtc/getstats-isremote-65/",
-                            504
-                          ]
-                        }
-                      ]
-                    },
-                    "64": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/64",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blog.mozilla.org/addons/2018/11/08/extensions-in-firefox-64/",
-                            504
-                          ]
-                        }
-                      ]
-                    },
-                    "67": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/67",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2019/05/firefox-67-dark-mode-css-webrender/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "68": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/68",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2019/07/firefox-68-bigints-contrast-checks-and-the-quantumbar/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "69": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/69",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2019/06/geckoview-in-2019/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "109": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/109",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blog.mozilla.org/addons/2022/11/17/manifest-v3-signing-available-november-21-on-firefox-nightly/",
-                            504
                           ]
                         }
                       ]
@@ -35362,6 +35389,19 @@ webextensions.manifest.options_ui`,
                       message: "Broken external link",
                       data: [
                         "https://tech.ebu.ch/publications/tech3380",
+                        403
+                      ]
+                    }
+                  ]
+                },
+                namespaces: {
+                  children: {},
+                  slug: "/en-US/docs/Related/IMSC/Namespaces",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://tech.ebu.ch/publications/tech3390",
                         403
                       ]
                     }
@@ -35672,18 +35712,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
               children: {
                 animation: {
                   children: {
-                    animation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Animation/Animation",
-                      messages: [
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://codepen.io/rachelnabors/pen/eJyWzm/?editors=0010"
-                          ]
-                        }
-                      ]
-                    },
                     currenttime: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Animation/currentTime",
@@ -35704,18 +35732,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/rachelnabors/pen/PNYGZQ?editors=0010"
-                          ]
-                        }
-                      ]
-                    },
-                    id: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Animation/id",
-                      messages: [
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://codepen.io/rachelnabors/pen/eJyWzm?editors=0010"
                           ]
                         }
                       ]
@@ -35839,12 +35855,6 @@ body {
                           data: [
                             "https://codepen.io/rachelnabors/pen/PNYGZQ?editors=0010"
                           ]
-                        },
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://codepen.io/rachelnabors/pen/PNGGaV?editors=0010"
-                          ]
                         }
                       ]
                     },
@@ -35874,18 +35884,6 @@ body {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/rachelnabors/pen/PNYGZQ?editors=0010"
-                          ]
-                        }
-                      ]
-                    },
-                    starttime: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Animation/startTime",
-                      messages: [
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://codepen.io/rachelnabors/pen/zxYexJ?editors=0010"
                           ]
                         }
                       ]
@@ -36069,6 +36067,12 @@ api.MessagePort`,
                     {
                       message: "No link to child page",
                       data: [
+                        "/en-US/docs/Web/API/CSS_Object_Model/CSS_Declaration"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
                         "/en-US/docs/Web/API/CSS_Object_Model/CSS_Declaration_Block"
                       ]
                     },
@@ -36076,12 +36080,6 @@ api.MessagePort`,
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/CSS_Object_Model/Using_dynamic_styling_information"
-                      ]
-                    },
-                    {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/Web/API/CSS_Object_Model/CSS_Declaration"
                       ]
                     }
                   ]
@@ -36494,13 +36492,13 @@ api.DeviceOrientationEvent`,
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Device_orientation_events/Using_device_orientation_with_3D_transforms"
+                        "/en-US/docs/Web/API/Device_orientation_events/Orientation_and_motion_data_explained"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Device_orientation_events/Orientation_and_motion_data_explained"
+                        "/en-US/docs/Web/API/Device_orientation_events/Using_device_orientation_with_3D_transforms"
                       ]
                     }
                   ]
@@ -36676,7 +36674,7 @@ p {
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces"
+                        "/en-US/docs/Web/API/Document_Object_Model/Events"
                       ]
                     },
                     {
@@ -36688,37 +36686,25 @@ p {
                     {
                       message: "No link to child page",
                       data: [
+                        "/en-US/docs/Web/API/Document_Object_Model/Locating_DOM_elements_using_selectors"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
                         "/en-US/docs/Web/API/Document_Object_Model/Reflected_attributes"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Document_Object_Model/Events"
-                      ]
-                    },
-                    {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/Web/API/Document_Object_Model/Locating_DOM_elements_using_selectors"
+                        "/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces"
                       ]
                     }
                   ]
                 },
                 element: {
                   children: {
-                    animate: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/animate",
-                      messages: [
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://codepen.io/rachelnabors/pen/rxpmJL/?editors=0010"
-                          ]
-                        }
-                      ]
-                    },
                     requestfullscreen: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Element/requestFullscreen",
@@ -37874,19 +37860,6 @@ article img {
                     }
                   }
                 },
-                insertable_streams_for_mediastreamtrack_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Insertable_Streams_for_MediaStreamTrack_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://blog.mozilla.org/webrtc/unbundling-mediastreamtrackprocessor-and-videotrackgenerator/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 intersection_observer_api: {
                   children: {
                     timing_element_visibility: {
@@ -39015,19 +38988,6 @@ aside {
                     }
                   }
                 },
-                mediastreamtrackprocessor: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/MediaStreamTrackProcessor",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://blog.mozilla.org/webrtc/unbundling-mediastreamtrackprocessor-and-videotrackgenerator/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 mediatracksettings: {
                   children: {
                     cursor: {
@@ -39187,6 +39147,12 @@ aside {
                     {
                       message: "No link to child page",
                       data: [
+                        "/en-US/docs/Web/API/Pointer_events/Multi-touch_interaction"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
                         "/en-US/docs/Web/API/Pointer_events/Pinch_zoom_gestures"
                       ]
                     },
@@ -39194,12 +39160,6 @@ aside {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Pointer_events/Using_Pointer_Events"
-                      ]
-                    },
-                    {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/Web/API/Pointer_events/Multi-touch_interaction"
                       ]
                     }
                   ]
@@ -40077,19 +40037,6 @@ html {
                     }
                   ]
                 },
-                storage_access_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Storage_Access_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://blog.mozilla.org/en/mozilla/firefox-rolls-out-total-cookie-protection-by-default-to-all-users-worldwide/",
-                        504
-                      ]
-                    }
-                  ]
-                },
                 summarizer_api: {
                   children: {
                     using: {
@@ -40379,19 +40326,6 @@ textarea,
                     }
                   ]
                 },
-                videotrackgenerator: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/VideoTrackGenerator",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://blog.mozilla.org/webrtc/unbundling-mediastreamtrackprocessor-and-videotrackgenerator/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 viewtimeline: {
                   children: {},
                   slug: "/en-US/docs/Web/API/ViewTimeline",
@@ -40509,45 +40443,295 @@ p {
                       slug: "/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API",
                       messages: [
                         {
-                          message: "External sandbox link",
+                          message: "CSS code issue",
                           data: [
-                            "https://codepen.io/rachelnabors/pen/QyOqqW"
+                            "comment-whitespace-inside",
+                            'Expected whitespace after "/*" (comment-whitespace-inside)',
+                            "  max-width: 450px; /*height: 783px / 2*/",
+                            "82:23 - 82:24",
+                            `/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API
+[comment-whitespace-inside] Expected whitespace after "/*" (comment-whitespace-inside)
+~~~
+* {
+  user-select: none;
+}
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.scenery {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#foreground1,
+#foreground2 {
+  z-index: 1;
+}
+
+#foreground2,
+#background2 {
+  transform: translateX(100%);
+}
+
+#palm3 {
+  top: 0;
+  left: 10%;
+}
+
+#w_rook_upright {
+  top: 30%;
+  left: 75%;
+}
+
+#r_pawn {
+  top: 10%;
+  left: 15%;
+}
+
+#w_rook {
+  top: 10%;
+  left: 80%;
+}
+
+#r_pawn_upright {
+  top: 5%;
+  left: 30%;
+}
+
+#r_knight {
+  top: 0;
+  left: 70%;
+}
+
+#palm2 {
+  top: -15%;
+  left: 90%;
+}
+
+#palm1 {
+  top: -15%;
+  left: 40%;
+}
+
+#bush {
+  top: 55%;
+  left: 20%;
+}
+
+#red-queen-and-alice {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  width: 80%;
+  max-width: 450px; /*height: 783px / 2*/
+  z-index: 1;
+}
+
+#red-queen-and-alice::before {
+  content: " ";
+  display: block;
+  padding-top: 87%;
+}
+
+#red-queen-and-alice img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.sky,
+.earth {
+  position: absolute;
+  left: 0;
+  height: 50vh;
+  width: 100%;
+}
+
+.earth {
+  background: #eb125d
+    url("/shared-assets/images/examples/web-animations/bg_earth.jpg") repeat-x 0
+    0 / 100% auto;
+  bottom: 0;
+}
+
+.sky {
+  background: #246e89
+    url("/shared-assets/images/examples/web-animations/bg_sky.jpg") repeat-x
+    100% 100% / auto 100%;
+  top: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+~~~
+`
                           ]
                         },
                         {
-                          message: "External sandbox link",
+                          message: "CSS code issue",
                           data: [
-                            "https://codepen.io/rachelnabors/pen/rxpmJL"
-                          ]
-                        },
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://codepen.io/rachelnabors/pen/rxpmJL"
-                          ]
-                        },
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://codepen.io/rachelnabors/pen/PNYGZQ"
-                          ]
-                        },
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://codepen.io/rachelnabors/pen/PNYGZQ?editors=0010"
-                          ]
-                        },
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://codepen.io/rachelnabors/pen/PNGGaV"
-                          ]
-                        },
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://codepen.io/rachelnabors/pen/PNGGaV"
+                            "comment-whitespace-inside",
+                            'Expected whitespace before "*/" (comment-whitespace-inside)',
+                            "  max-width: 450px; /*height: 783px / 2*/",
+                            "82:39 - 82:40",
+                            `/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API
+[comment-whitespace-inside] Expected whitespace before "*/" (comment-whitespace-inside)
+~~~
+* {
+  user-select: none;
+}
+
+img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.scenery {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#foreground1,
+#foreground2 {
+  z-index: 1;
+}
+
+#foreground2,
+#background2 {
+  transform: translateX(100%);
+}
+
+#palm3 {
+  top: 0;
+  left: 10%;
+}
+
+#w_rook_upright {
+  top: 30%;
+  left: 75%;
+}
+
+#r_pawn {
+  top: 10%;
+  left: 15%;
+}
+
+#w_rook {
+  top: 10%;
+  left: 80%;
+}
+
+#r_pawn_upright {
+  top: 5%;
+  left: 30%;
+}
+
+#r_knight {
+  top: 0;
+  left: 70%;
+}
+
+#palm2 {
+  top: -15%;
+  left: 90%;
+}
+
+#palm1 {
+  top: -15%;
+  left: 40%;
+}
+
+#bush {
+  top: 55%;
+  left: 20%;
+}
+
+#red-queen-and-alice {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  width: 80%;
+  max-width: 450px; /*height: 783px / 2*/
+  z-index: 1;
+}
+
+#red-queen-and-alice::before {
+  content: " ";
+  display: block;
+  padding-top: 87%;
+}
+
+#red-queen-and-alice img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.sky,
+.earth {
+  position: absolute;
+  left: 0;
+  height: 50vh;
+  width: 100%;
+}
+
+.earth {
+  background: #eb125d
+    url("/shared-assets/images/examples/web-animations/bg_earth.jpg") repeat-x 0
+    0 / 100% auto;
+  bottom: 0;
+}
+
+.sky {
+  background: #246e89
+    url("/shared-assets/images/examples/web-animations/bg_sky.jpg") repeat-x
+    100% 100% / auto 100%;
+  top: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+~~~
+`
                           ]
                         }
                       ]
@@ -40568,13 +40752,13 @@ p {
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats"
+                        "/en-US/docs/Web/API/Web_Animations_API/Web_Animations_API_Concepts"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Web_Animations_API/Web_Animations_API_Concepts"
+                        "/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats"
                       ]
                     },
                     {
@@ -40752,13 +40936,13 @@ p {
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Web_Authentication_API/Attestation_and_Assertion"
+                        "/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions"
+                        "/en-US/docs/Web/API/Web_Authentication_API/Attestation_and_Assertion"
                       ]
                     }
                   ]
@@ -41044,13 +41228,13 @@ api.Window.sessionStorage`,
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Web_Workers_API/Transferable_objects"
+                        "/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm"
+                        "/en-US/docs/Web/API/Web_Workers_API/Transferable_objects"
                       ]
                     }
                   ]
@@ -41063,6 +41247,18 @@ api.Window.sessionStorage`,
                           children: {},
                           slug: "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers",
                           messages: [
+                            {
+                              message: "No link to child page",
+                              data: [
+                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Create_a_peer_connection"
+                              ]
+                            },
+                            {
+                              message: "No link to child page",
+                              data: [
+                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Show_hide_html"
+                              ]
+                            },
                             {
                               message: "No link to child page",
                               data: [
@@ -41079,18 +41275,6 @@ api.Window.sessionStorage`,
                               message: "No link to child page",
                               data: [
                                 "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/End_a_call"
-                              ]
-                            },
-                            {
-                              message: "No link to child page",
-                              data: [
-                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Create_a_peer_connection"
-                              ]
-                            },
-                            {
-                              message: "No link to child page",
-                              data: [
-                                "/en-US/docs/Web/API/WebRTC_API/Build_a_phone_with_peerjs/Connect_peers/Show_hide_html"
                               ]
                             }
                           ]
@@ -41127,23 +41311,6 @@ api.Window.sessionStorage`,
                             "html.elements.track",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                webxr_device_api: {
-                  children: {
-                    targeting: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebXR_Device_API/Targeting",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2015/10/html-5-games-3d-collision-detection/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -41433,13 +41600,13 @@ body {
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/XMLHttpRequest_API/HTML_in_XMLHttpRequest"
+                        "/en-US/docs/Web/API/XMLHttpRequest_API/Synchronous_and_Asynchronous_Requests"
                       ]
                     },
                     {
                       message: "No link to child page",
                       data: [
-                        "/en-US/docs/Web/API/XMLHttpRequest_API/Synchronous_and_Asynchronous_Requests"
+                        "/en-US/docs/Web/API/XMLHttpRequest_API/HTML_in_XMLHttpRequest"
                       ]
                     },
                     {
@@ -88848,6 +89015,19 @@ p {
                           ]
                         }
                       ]
+                    },
+                    pagination: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Layout_cookbook/Pagination",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -97331,19 +97511,6 @@ h2 {
                           ]
                         }
                       ]
-                    },
-                    typed_arrays: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Typed_arrays",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2011/12/faster-canvas-pixel-manipulation-with-typed-arrays/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/JavaScript/Guide",
@@ -97360,23 +97527,6 @@ h2 {
                   children: {
                     classes: {
                       children: {}
-                    },
-                    functions: {
-                      children: {
-                        arrow_functions: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     },
                     global_objects: {
                       children: {
@@ -97453,23 +97603,6 @@ h2 {
                         }
                       ]
                     },
-                    operators: {
-                      children: {
-                        destructuring: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     statements: {
                       children: {
                         expression_statement: {
@@ -97480,19 +97613,6 @@ h2 {
                               message: "Not in BCD",
                               data: [
                                 "javascript.statements.expression_statement"
-                              ]
-                            }
-                          ]
-                        },
-                        let: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/let",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://blog.mozilla.org/addons/2015/10/14/breaking-changes-let-const-firefox-nightly-44/",
-                                504
                               ]
                             }
                           ]
@@ -97520,23 +97640,6 @@ h2 {
               children: {
                 guides: {
                   children: {
-                    audio_and_video_delivery: {
-                      children: {
-                        live_streaming_web_audio_and_video: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Live_streaming_web_audio_and_video",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://hacks.mozilla.org/2015/07/streaming-media-on-demand-with-media-source-extensions/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     formats: {
                       children: {
                         video_codecs: {
@@ -97562,19 +97665,6 @@ h2 {
               children: {
                 guides: {
                   children: {
-                    firefox_tracking_protection: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Privacy/Guides/Firefox_tracking_protection",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hacks.mozilla.org/2016/01/google-analytics-privacy-and-event-tracking/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     privacy_sandbox: {
                       children: {
                         partitioned_cookies: {
@@ -97664,19 +97754,6 @@ h2 {
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Web/Privacy/Guides/Storage_Access_Policy/Errors"
-                          ]
-                        }
-                      ]
-                    },
-                    "third-party_cookies": {
-                      children: {},
-                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://blog.mozilla.org/en/mozilla/firefox-rolls-out-total-cookie-protection-by-default-to-all-users-worldwide/",
-                            504
                           ]
                         }
                       ]
@@ -97869,6 +97946,12 @@ html.elements.script.integrity`,
                 {
                   message: "No link to child page",
                   data: [
+                    "/en-US/docs/Web/Security/Subdomain_takeovers"
+                  ]
+                },
+                {
+                  message: "No link to child page",
+                  data: [
                     "/en-US/docs/Web/Security/Attacks"
                   ]
                 },
@@ -97876,12 +97959,6 @@ html.elements.script.integrity`,
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/Web/Security/IFrame_credentialless"
-                  ]
-                },
-                {
-                  message: "No link to child page",
-                  data: [
-                    "/en-US/docs/Web/Security/Subdomain_takeovers"
                   ]
                 },
                 {
@@ -99161,19 +99238,7 @@ p {
             {
               message: "No link to child page",
               data: [
-                "/en-US/docs/Games"
-              ]
-            },
-            {
-              message: "No link to child page",
-              data: [
                 "/en-US/docs/Mozilla"
-              ]
-            },
-            {
-              message: "No link to child page",
-              data: [
-                "/en-US/docs/MDN"
               ]
             },
             {
@@ -99183,52 +99248,20 @@ p {
               ]
             },
             {
+              message: "No link to child page",
+              data: [
+                "/en-US/docs/Games"
+              ]
+            },
+            {
+              message: "No link to child page",
+              data: [
+                "/en-US/docs/MDN"
+              ]
+            },
+            {
               message: "Unreachable via sidebar",
               data: []
-            }
-          ]
-        },
-        webassembly: {
-          children: {
-            guides: {
-              children: {
-                concepts: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/Concepts",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://research.mozilla.org/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                using_the_javascript_api: {
-                  children: {},
-                  slug: "/en-US/docs/WebAssembly/Guides/Using_the_JavaScript_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://research.mozilla.org/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                }
-              }
-            }
-          },
-          slug: "/en-US/docs/WebAssembly",
-          messages: [
-            {
-              message: "Broken external link",
-              data: [
-                "https://research.mozilla.org/",
-                "The operation timed out."
-              ]
             }
           ]
         }
