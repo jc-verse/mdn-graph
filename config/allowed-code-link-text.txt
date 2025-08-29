@@ -121,7 +121,6 @@ declarative_net_request.rule_resources
 browser_specific_settings.gecko.id
 storage.managed_schema
 
-dom.enable_web_task_scheduling
 dom.events.script_execute.enable
 dom.performance.event_timing.enable_interactionid
 dom.security.trusted_types.enabled

@@ -17,6 +17,7 @@
 /en-US/docs/Web/API/HTMLDialogElement	api.HTMLDialogElement,api.HTMLElement.beforetoggle_event.dialog_elements,api.HTMLElement.toggle_event.dialog_elements
 /en-US/docs/Web/API/IdentityCredentialRequestOptions	api.CredentialsContainer.get.identity_option
 /en-US/docs/Web/API/IntegrityViolationReportBody	http.headers.Integrity-Policy
+/en-US/docs/Web/API/MediaTrackSettings/screenPixelRatio	api.MediaStreamTrack.getSettings.return_object_property_screenPixelRatio
 /en-US/docs/Web/API/PublicKeyCredentialCreationOptions	api.CredentialsContainer.create.publicKey_option
 /en-US/docs/Web/API/PublicKeyCredentialRequestOptions	api.CredentialsContainer.get.publicKey_option
 /en-US/docs/Web/API/SanitizerConfig	api.Sanitizer.get,api.Sanitizer.Sanitizer
@@ -34,6 +35,14 @@
 /en-US/docs/Web/API/WebGLRenderingContext/uniform	api.WebGLRenderingContext.uniform1f
 /en-US/docs/Web/API/WebGLRenderingContext/uniformMatrix	api.WebGLRenderingContext.uniformMatrix2fv
 /en-US/docs/Web/API/WebGLRenderingContext/vertexAttrib	api.WebGLRenderingContext.vertexAttrib1f
+  XHR and XHRUpload have different support so we document the children separately
+/en-US/docs/Web/API/XMLHttpRequestEventTarget/abort_event	api.XMLHttpRequest.abort_event,api.XMLHttpRequestUpload.abort_event
+/en-US/docs/Web/API/XMLHttpRequestEventTarget/error_event	api.XMLHttpRequest.error_event,api.XMLHttpRequestUpload.error_event
+/en-US/docs/Web/API/XMLHttpRequestEventTarget/load_event	api.XMLHttpRequest.load_event,api.XMLHttpRequestUpload.load_event
+/en-US/docs/Web/API/XMLHttpRequestEventTarget/loadend_event	api.XMLHttpRequest.loadend_event,api.XMLHttpRequestUpload.loadend_event
+/en-US/docs/Web/API/XMLHttpRequestEventTarget/loadstart_event	api.XMLHttpRequest.loadstart_event,api.XMLHttpRequestUpload.loadstart_event
+/en-US/docs/Web/API/XMLHttpRequestEventTarget/progress_event	api.XMLHttpRequest.progress_event,api.XMLHttpRequestUpload.progress_event
+/en-US/docs/Web/API/XMLHttpRequestEventTarget/timeout_event	api.XMLHttpRequest.timeout_event,api.XMLHttpRequestUpload.timeout_event
 
   Guide pages that need BCD
 /en-US/docs/Web/API/File_System_API/Origin_private_file_system	api.StorageManager.getDirectory
@@ -41,6 +50,7 @@
 /en-US/docs/Web/Security/Mixed_content	http.mixed-content
 
 /en-US/docs/Web/CSS/--*	css.properties.custom-property
+/en-US/docs/Web/CSS/:heading_function	css.selectors.headingfunction
 /en-US/docs/Web/CSS/color-interpolation-method	css.types.color.color-mix
   Interesting case: css.selectors.column is `::column`, not the column combinator
 /en-US/docs/Web/CSS/Column_combinator	css.selectors.column
@@ -71,4 +81,5 @@
 /en-US/docs/Web/SVG/Reference/Attribute/data-*	svg.global_attributes.data
 /en-US/docs/WebAssembly/Reference/JavaScript_interface/Memory	webassembly.api.Memory,webassembly.multiMemory
 /en-US/docs/Web/URI/Reference/Fragment/Text_fragments	html.elements.a.text_fragments,api.FragmentDirective,css.selectors.target-text
+/en-US/docs/Web/URI/Reference/Schemes/blob	api.URL.createObjectURL_static
 /en-US/docs/Web/URI/Reference/Schemes/data	http.data-url

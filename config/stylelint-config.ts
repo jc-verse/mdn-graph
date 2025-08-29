@@ -41,9 +41,11 @@ function mergeSyntaxes(...entries) {
         } else if (res[key].startsWith("| ")) {
           res[key] = value + res[key];
         } else if (res[key] !== value) {
-          console.warn(
-            `Duplicate syntax for ${key}:\n- ${res[key]}\n- ${value}`,
-          );
+          if (Bun.argv.includes("lint")) {
+            console.warn(
+              `Duplicate syntax for ${key}:\n- ${res[key]}\n- ${value}`,
+            );
+          }
           // Later one is newer
           res[key] = value;
         }
@@ -372,7 +374,10 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       "function-url-quotes": "always",
       "selector-attribute-quotes": "always",
       "declaration-block-no-redundant-longhand-properties": true,
-      "shorthand-property-no-redundant-values": [true, { ignore: ["four-into-three-edge-values"] }],
+      "shorthand-property-no-redundant-values": [
+        true,
+        { ignore: ["four-into-three-edge-values"] },
+      ],
       "comment-whitespace-inside": "always",
     },
     overrides: [
@@ -519,7 +524,11 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       },
       {
-        files: ["Web/CSS/color_value/**", "Web/CSS/hue/*", "Web/CSS/hue-interpolation-method/*"],
+        files: [
+          "Web/CSS/color_value/**",
+          "Web/CSS/hue/*",
+          "Web/CSS/hue-interpolation-method/*",
+        ],
         rules: { "color-named": null },
       },
       {

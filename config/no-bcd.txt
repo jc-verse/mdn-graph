@@ -9,6 +9,14 @@ api.AudioWorkletProcessor.parameterDescriptors_static
 api.AudioWorkletProcessor.process
   TODO: it should not have content
 api.RTCStatsReport.Symbol.iterator
+  No compat data out of convenience; the events are defined on the subinterfaces instead
+api.XMLHttpRequestEventTarget.abort_event
+api.XMLHttpRequestEventTarget.error_event
+api.XMLHttpRequestEventTarget.load_event
+api.XMLHttpRequestEventTarget.loadend_event
+api.XMLHttpRequestEventTarget.loadstart_event
+api.XMLHttpRequestEventTarget.progress_event
+api.XMLHttpRequestEventTarget.timeout_event
 
 css.types.absolute-size
 css.types.alpha-value

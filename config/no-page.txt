@@ -124,8 +124,6 @@
 
 /en-US/docs/Web/CSS/::-webkit-color-swatch
 /en-US/docs/Web/CSS/::-webkit-textfield-decoration-container
-/en-US/docs/Web/CSS/:heading
-/en-US/docs/Web/CSS/:heading_function
 /en-US/docs/Web/CSS/@page/marks
 /en-US/docs/Web/CSS/calc-product
 /en-US/docs/Web/CSS/calc-value
