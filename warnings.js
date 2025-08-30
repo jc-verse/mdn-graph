@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-v6qhvjhs.js";
+} from "./chunk-hnmfvp2k.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -1246,6 +1246,19 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            "robots.txt": {
+              children: {},
+              slug: "/en-US/docs/Glossary/Robots.txt",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.robotstxt.org/",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -5106,6 +5119,39 @@ label + input[type="text"] {
 }
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://v2.vuejs.org/v2/guide/comparison.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    main_features: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://v2.vuejs.org/v2/api/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    },
+                    react_resources: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2020/05/styling-components-react/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -9948,6 +9994,29 @@ body {
                 },
                 scripting: {
                   children: {
+                    strings: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Strings",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            'console.log(greeting2 + ", " + name2); // "Hello, Bob"',
+                            "3:13 - 3:37",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Strings
+[prefer-template] Unexpected string concatenation.
+~~~
+const greeting2 = "Hello";
+const name2 = "Bob";
+console.log(greeting2 + ", " + name2); // "Hello, Bob"
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     what_is_javascript: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript",
@@ -10088,6 +10157,500 @@ button {
                 },
                 structuring_content: {
                   children: {
+                    forms_challenge: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Forms_challenge",
+                      messages: [
+                        {
+                          message: "Text stuck to code/link",
+                          data: [
+                            "#",
+                            "Text after code:",
+                            "for a placeholder."
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
+                            "  background-color: #ddd;",
+                            "98:21 - 98:25",
+                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Forms_challenge
+[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
+~~~
+/* Basic font styles */
+
+body {
+  background-color: white;
+  color: #333333;
+  font: 1em / 1.4 system-ui;
+  padding: 1em;
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h1,
+h2 {
+  margin: 0 0 20px;
+  color: purple;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  color: gray;
+  margin: 0.5em 0;
+}
+
+/* Form structure */
+
+fieldset {
+  border: 0;
+  padding: 0;
+}
+
+legend {
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+fieldset,
+.separator {
+  margin-bottom: 20px;
+}
+
+.form-section {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: 50px;
+  margin: 20px 0;
+}
+
+/* Individual form items */
+
+fieldset input {
+  margin: 0 10px 0 0;
+}
+
+label {
+  margin-right: 40px;
+}
+
+textarea {
+  margin-top: 10px;
+  padding: 5px;
+  width: 100%;
+  height: 200px;
+}
+
+.separator {
+  display: flex;
+}
+
+.separator label {
+  flex: 2;
+}
+
+.separator input,
+.separator select {
+  flex: 3;
+  padding: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  background-color: #ddd;
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+button:hover,
+button:focus {
+  background-color: #eee;
+  cursor: pointer;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                            "  background-color: #eee;",
+                            "106:21 - 106:25",
+                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Forms_challenge
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+/* Basic font styles */
+
+body {
+  background-color: white;
+  color: #333333;
+  font: 1em / 1.4 system-ui;
+  padding: 1em;
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h1,
+h2 {
+  margin: 0 0 20px;
+  color: purple;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  color: gray;
+  margin: 0.5em 0;
+}
+
+/* Form structure */
+
+fieldset {
+  border: 0;
+  padding: 0;
+}
+
+legend {
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+fieldset,
+.separator {
+  margin-bottom: 20px;
+}
+
+.form-section {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: 50px;
+  margin: 20px 0;
+}
+
+/* Individual form items */
+
+fieldset input {
+  margin: 0 10px 0 0;
+}
+
+label {
+  margin-right: 40px;
+}
+
+textarea {
+  margin-top: 10px;
+  padding: 5px;
+  width: 100%;
+  height: 200px;
+}
+
+.separator {
+  display: flex;
+}
+
+.separator label {
+  flex: 2;
+}
+
+.separator input,
+.separator select {
+  flex: 3;
+  padding: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  background-color: #ddd;
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+button:hover,
+button:focus {
+  background-color: #eee;
+  cursor: pointer;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "syntax",
+                            'Opening tag "label" not terminated.',
+                            "          <legend>Were the beds</legend>",
+                            "32:75 - 32:92",
+                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Forms_challenge
+[syntax] Opening tag "label" not terminated.
+~~~
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Forms challenge</title>
+    <link href="style.css" rel="stylesheet" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <h1>We want your feedback!</h1>
+
+    <p>We're very excited that you visited the <a href="#">little house in the woods</a>, and we want to hear what
+    you thought of it! Please fill in the below sections. You don't need to provide your name or
+    contact details, but if you do, we'll enter you into a <a href="#">prize draw</a> where you'll have a chance
+    to win prizes.</p>
+
+    <img src="https://mdn.github.io/shared-assets/images/examples/learn/woodland-strip.jpg" alt="">
+
+    <form>
+
+      <div class="form-section">
+        <h2>Facilities</h2>
+
+        <fieldset>
+          <legend>Was the porridge</legend>
+          <input type="radio" id="porridge-1" name="porridge" value="hot" checked><label for="porridge-1">Too hot?</label>
+          <input type="radio" id="porridge-2" name="porridge" value="cold"><label for="porridge-2">Too cold?</label>
+          <input type="radio" id="porridge-3" name="porridge" value="right"><label for="porridge-3">Just right?</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Were the beds</legend>
+          <input type="radio" id="beds-1" name="beds" value="hard" checked><label for=beds-1">Too hard?</label>
+          <input type="radio" id="beds-2" name="beds" value="soft"><label for="beds-2">Too soft?</label>
+          <input type="radio" id="beds-3" name="beds" value="right"><label for="beds-3">Just right?</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Describe the chairs (select all you agree with)</legend>
+          <input type="checkbox" id="comfy" name="comfy" /><label for="comfy">Comfy</label>
+          <input type="checkbox" id="luxurious" name="luxurious" /><label for="luxurious">Luxurious</label>
+          <input type="checkbox" id="hi-tech" name="hi-tech" /><label for="hi-tech">Hi-tech</label>
+          <input type="checkbox" id="pretty" name="pretty" /><label for="pretty">Pretty</label>
+          <input type="checkbox" id="majestic" name="majestic" /><label for="majestic">Majestic</label>
+        </fieldset>
+      </div>
+
+      <div class="form-section">
+        <h2>About your hosts</h2>
+
+        <div class="separator">
+          <label for="favorite">Who's your favorite bear?</label>
+          <select name="favorite" id="favorite">
+            <option value="papa">Papa bear</option>
+            <option value="mama">Mama bear</option>
+            <option value="junior">Junior</option>
+            <option value="randy">Cousin Randy</option>
+          </select>
+        </div>
+
+        <div class="separator">
+          <label for="greeting">Which greeting did you prefer?</label>
+          <select name="greeting" id="greeting">
+            <option value="papa">Wave</option>
+            <option value="mama">Friendly greeting</option>
+            <option value="junior">Growl</option>
+            <option value="randy">Claw marks in the door</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-section">
+        <h2>Any other feedback?</h2>
+
+        <label for="comments">Give us your comments</label>
+        <br>
+        <textarea id="comments" name="comments"></textarea>
+      </div>
+
+      <div class="form-section">
+        <h2>Your details</h2>
+
+        <div class="separator">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name">
+        </div>
+
+        <div class="separator">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+        </div>
+
+        <div class="separator">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+      </div>
+
+      <div class="form-section">
+        <button>Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "syntax",
+                            'Unexpected closing tag "label". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
+                            "          <legend>Were the beds</legend>",
+                            "32:103 - 32:111",
+                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Forms_challenge
+[syntax] Unexpected closing tag "label". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Forms challenge</title>
+    <link href="style.css" rel="stylesheet" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <h1>We want your feedback!</h1>
+
+    <p>We're very excited that you visited the <a href="#">little house in the woods</a>, and we want to hear what
+    you thought of it! Please fill in the below sections. You don't need to provide your name or
+    contact details, but if you do, we'll enter you into a <a href="#">prize draw</a> where you'll have a chance
+    to win prizes.</p>
+
+    <img src="https://mdn.github.io/shared-assets/images/examples/learn/woodland-strip.jpg" alt="">
+
+    <form>
+
+      <div class="form-section">
+        <h2>Facilities</h2>
+
+        <fieldset>
+          <legend>Was the porridge</legend>
+          <input type="radio" id="porridge-1" name="porridge" value="hot" checked><label for="porridge-1">Too hot?</label>
+          <input type="radio" id="porridge-2" name="porridge" value="cold"><label for="porridge-2">Too cold?</label>
+          <input type="radio" id="porridge-3" name="porridge" value="right"><label for="porridge-3">Just right?</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Were the beds</legend>
+          <input type="radio" id="beds-1" name="beds" value="hard" checked><label for=beds-1">Too hard?</label>
+          <input type="radio" id="beds-2" name="beds" value="soft"><label for="beds-2">Too soft?</label>
+          <input type="radio" id="beds-3" name="beds" value="right"><label for="beds-3">Just right?</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Describe the chairs (select all you agree with)</legend>
+          <input type="checkbox" id="comfy" name="comfy" /><label for="comfy">Comfy</label>
+          <input type="checkbox" id="luxurious" name="luxurious" /><label for="luxurious">Luxurious</label>
+          <input type="checkbox" id="hi-tech" name="hi-tech" /><label for="hi-tech">Hi-tech</label>
+          <input type="checkbox" id="pretty" name="pretty" /><label for="pretty">Pretty</label>
+          <input type="checkbox" id="majestic" name="majestic" /><label for="majestic">Majestic</label>
+        </fieldset>
+      </div>
+
+      <div class="form-section">
+        <h2>About your hosts</h2>
+
+        <div class="separator">
+          <label for="favorite">Who's your favorite bear?</label>
+          <select name="favorite" id="favorite">
+            <option value="papa">Papa bear</option>
+            <option value="mama">Mama bear</option>
+            <option value="junior">Junior</option>
+            <option value="randy">Cousin Randy</option>
+          </select>
+        </div>
+
+        <div class="separator">
+          <label for="greeting">Which greeting did you prefer?</label>
+          <select name="greeting" id="greeting">
+            <option value="papa">Wave</option>
+            <option value="mama">Friendly greeting</option>
+            <option value="junior">Growl</option>
+            <option value="randy">Claw marks in the door</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-section">
+        <h2>Any other feedback?</h2>
+
+        <label for="comments">Give us your comments</label>
+        <br>
+        <textarea id="comments" name="comments"></textarea>
+      </div>
+
+      <div class="form-section">
+        <h2>Your details</h2>
+
+        <div class="separator">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name">
+        </div>
+
+        <div class="separator">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+        </div>
+
+        <div class="separator">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+      </div>
+
+      <div class="form-section">
+        <button>Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     general_embedding_technologies: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies",
@@ -10095,6 +10658,19 @@ button {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    },
+                    html_video_and_audio: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://soundcloud.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -12917,7 +13493,16 @@ p {
                         }
                       }
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Learn_web_development/Core/Structuring_content",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Learn_web_development/Core/Structuring_content/Forms_challenge"
+                      ]
+                    }
+                  ]
                 },
                 styling_basics: {
                   children: {
@@ -15824,13 +16409,6 @@ p {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.exljbris.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -26449,6 +27027,23 @@ textarea:focus {
                         }
                       ]
                     },
+                    first_steps: {
+                      children: {
+                        web_frameworks: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://soundcloud.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     node_server_without_framework: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Node_server_without_framework",
@@ -27118,13 +27713,6 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://mail.gnu.org/mailman/listinfo/help-gnu-emacs",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://help.espressoapp.com/",
                             "Unable to connect. Is the computer able to access the url?"
                           ]
@@ -27742,6 +28330,19 @@ color: rgb(31 41 59 / 26%);
                               ]
                             }
                           }
+                        },
+                        identity: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/identity",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.oauth.com/oauth2-servers/redirect-uris/",
+                                "unknown certificate verification error"
+                              ]
+                            }
+                          ]
                         },
                         scripting: {
                           children: {
@@ -29091,6 +29692,19 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
+                    "21": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/21",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/21.0/releasenotes/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     "22": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
@@ -29100,6 +29714,19 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://asmjs.org/spec/latest/",
                             ""
+                          ]
+                        }
+                      ]
+                    },
+                    "23": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/23",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/23.0a2/auroranotes/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -29339,55 +29966,7 @@ webextensions.manifest.options_ui`,
           ]
         },
         related: {
-          children: {
-            imsc: {
-              children: {
-                imsc_and_other_standards: {
-                  children: {},
-                  slug: "/en-US/docs/Related/IMSC/IMSC_and_other_standards",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://tech.ebu.ch/publications/tech3380",
-                        403
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://tech.ebu.ch/publications/tech3380",
-                        403
-                      ]
-                    }
-                  ]
-                },
-                namespaces: {
-                  children: {},
-                  slug: "/en-US/docs/Related/IMSC/Namespaces",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://tech.ebu.ch/publications/tech3390",
-                        403
-                      ]
-                    }
-                  ]
-                }
-              },
-              slug: "/en-US/docs/Related/IMSC",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://tech.ebu.ch/publications/tech3380",
-                    403
-                  ]
-                }
-              ]
-            }
-          },
+          children: {},
           slug: "/en-US/docs/Related",
           messages: [
             {
@@ -70652,6 +71231,19 @@ article.snapDisabled ul {
                     }
                   ]
                 },
+                css_shapes: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/CSS_shapes",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webdesignerdepot.com/how-to-get-started-with-css-shapes/",
+                        500
+                      ]
+                    }
+                  ]
+                },
                 css_text: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/CSS_text",
@@ -91167,6 +91759,23 @@ h2 {
                       ]
                     }
                   ]
+                },
+                practical_implementation_guides: {
+                  children: {
+                    robots_txt: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Security/Practical_implementation_guides/Robots_txt",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.robotstxt.org/robotstxt.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 subdomain_takeovers: {
                   children: {},
