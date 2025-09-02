@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-k70y9jg7.js";
+} from "./chunk-zm3cw2ey.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -20,23 +20,6 @@ var warnings_processed_default = {
                   ]
                 }
               ]
-            },
-            publishing_games: {
-              children: {
-                game_distribution: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Publishing_games/Game_distribution",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.playmox.com/",
-                        503
-                      ]
-                    }
-                  ]
-                }
-              }
             },
             tools: {
               children: {
@@ -237,6 +220,13 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://trac.webkit.org/wiki/JavaScriptCore",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -543,26 +533,6 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            gpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/GPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-faq.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -1045,19 +1015,6 @@ div.warning {
                 }
               ]
             },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
-            },
             literal: {
               children: {},
               slug: "/en-US/docs/Glossary/Literal",
@@ -1106,6 +1063,19 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            microsoft_internet_explorer: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Microsoft_Internet_Explorer",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://death-to-ie11.com/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -1509,19 +1479,6 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            web_standards: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Web_standards",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://webkit.org/standards-positions/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -10187,500 +10144,6 @@ button {
                 },
                 structuring_content: {
                   children: {
-                    forms_challenge: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Forms_challenge",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "#",
-                            "Text after code:",
-                            "for a placeholder."
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  background-color: #ddd;",
-                            "98:21 - 98:25",
-                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Forms_challenge
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-/* Basic font styles */
-
-body {
-  background-color: white;
-  color: #333333;
-  font: 1em / 1.4 system-ui;
-  padding: 1em;
-  width: 800px;
-  margin: 0 auto;
-}
-
-h1 {
-  font-size: 2rem;
-}
-
-h2 {
-  font-size: 1.6rem;
-}
-
-h1,
-h2 {
-  margin: 0 0 20px;
-  color: purple;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-p {
-  color: gray;
-  margin: 0.5em 0;
-}
-
-/* Form structure */
-
-fieldset {
-  border: 0;
-  padding: 0;
-}
-
-legend {
-  padding-bottom: 10px;
-  font-weight: bold;
-}
-
-fieldset,
-.separator {
-  margin-bottom: 20px;
-}
-
-.form-section {
-  margin-bottom: 20px;
-  padding: 20px;
-}
-
-img {
-  max-width: 100%;
-  height: 50px;
-  margin: 20px 0;
-}
-
-/* Individual form items */
-
-fieldset input {
-  margin: 0 10px 0 0;
-}
-
-label {
-  margin-right: 40px;
-}
-
-textarea {
-  margin-top: 10px;
-  padding: 5px;
-  width: 100%;
-  height: 200px;
-}
-
-.separator {
-  display: flex;
-}
-
-.separator label {
-  flex: 2;
-}
-
-.separator input,
-.separator select {
-  flex: 3;
-  padding: 5px;
-}
-
-button {
-  padding: 10px 20px;
-  border-radius: 10px;
-  border: 1px solid grey;
-  background-color: #ddd;
-  width: 50%;
-  margin: 0 auto;
-  display: block;
-}
-
-button:hover,
-button:focus {
-  background-color: #eee;
-  cursor: pointer;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background-color: #eee;",
-                            "106:21 - 106:25",
-                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Forms_challenge
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-/* Basic font styles */
-
-body {
-  background-color: white;
-  color: #333333;
-  font: 1em / 1.4 system-ui;
-  padding: 1em;
-  width: 800px;
-  margin: 0 auto;
-}
-
-h1 {
-  font-size: 2rem;
-}
-
-h2 {
-  font-size: 1.6rem;
-}
-
-h1,
-h2 {
-  margin: 0 0 20px;
-  color: purple;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-p {
-  color: gray;
-  margin: 0.5em 0;
-}
-
-/* Form structure */
-
-fieldset {
-  border: 0;
-  padding: 0;
-}
-
-legend {
-  padding-bottom: 10px;
-  font-weight: bold;
-}
-
-fieldset,
-.separator {
-  margin-bottom: 20px;
-}
-
-.form-section {
-  margin-bottom: 20px;
-  padding: 20px;
-}
-
-img {
-  max-width: 100%;
-  height: 50px;
-  margin: 20px 0;
-}
-
-/* Individual form items */
-
-fieldset input {
-  margin: 0 10px 0 0;
-}
-
-label {
-  margin-right: 40px;
-}
-
-textarea {
-  margin-top: 10px;
-  padding: 5px;
-  width: 100%;
-  height: 200px;
-}
-
-.separator {
-  display: flex;
-}
-
-.separator label {
-  flex: 2;
-}
-
-.separator input,
-.separator select {
-  flex: 3;
-  padding: 5px;
-}
-
-button {
-  padding: 10px 20px;
-  border-radius: 10px;
-  border: 1px solid grey;
-  background-color: #ddd;
-  width: 50%;
-  margin: 0 auto;
-  display: block;
-}
-
-button:hover,
-button:focus {
-  background-color: #eee;
-  cursor: pointer;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "syntax",
-                            'Opening tag "label" not terminated.',
-                            "          <legend>Were the beds</legend>",
-                            "32:75 - 32:92",
-                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Forms_challenge
-[syntax] Opening tag "label" not terminated.
-~~~
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Forms challenge</title>
-    <link href="style.css" rel="stylesheet" />
-    <script defer src="index.js"></script>
-  </head>
-  <body>
-    <h1>We want your feedback!</h1>
-
-    <p>We're very excited that you visited the <a href="#">little house in the woods</a>, and we want to hear what
-    you thought of it! Please fill in the below sections. You don't need to provide your name or
-    contact details, but if you do, we'll enter you into a <a href="#">prize draw</a> where you'll have a chance
-    to win prizes.</p>
-
-    <img src="https://mdn.github.io/shared-assets/images/examples/learn/woodland-strip.jpg" alt="">
-
-    <form>
-
-      <div class="form-section">
-        <h2>Facilities</h2>
-
-        <fieldset>
-          <legend>Was the porridge</legend>
-          <input type="radio" id="porridge-1" name="porridge" value="hot" checked><label for="porridge-1">Too hot?</label>
-          <input type="radio" id="porridge-2" name="porridge" value="cold"><label for="porridge-2">Too cold?</label>
-          <input type="radio" id="porridge-3" name="porridge" value="right"><label for="porridge-3">Just right?</label>
-        </fieldset>
-
-        <fieldset>
-          <legend>Were the beds</legend>
-          <input type="radio" id="beds-1" name="beds" value="hard" checked><label for=beds-1">Too hard?</label>
-          <input type="radio" id="beds-2" name="beds" value="soft"><label for="beds-2">Too soft?</label>
-          <input type="radio" id="beds-3" name="beds" value="right"><label for="beds-3">Just right?</label>
-        </fieldset>
-
-        <fieldset>
-          <legend>Describe the chairs (select all you agree with)</legend>
-          <input type="checkbox" id="comfy" name="comfy" /><label for="comfy">Comfy</label>
-          <input type="checkbox" id="luxurious" name="luxurious" /><label for="luxurious">Luxurious</label>
-          <input type="checkbox" id="hi-tech" name="hi-tech" /><label for="hi-tech">Hi-tech</label>
-          <input type="checkbox" id="pretty" name="pretty" /><label for="pretty">Pretty</label>
-          <input type="checkbox" id="majestic" name="majestic" /><label for="majestic">Majestic</label>
-        </fieldset>
-      </div>
-
-      <div class="form-section">
-        <h2>About your hosts</h2>
-
-        <div class="separator">
-          <label for="favorite">Who's your favorite bear?</label>
-          <select name="favorite" id="favorite">
-            <option value="papa">Papa bear</option>
-            <option value="mama">Mama bear</option>
-            <option value="junior">Junior</option>
-            <option value="randy">Cousin Randy</option>
-          </select>
-        </div>
-
-        <div class="separator">
-          <label for="greeting">Which greeting did you prefer?</label>
-          <select name="greeting" id="greeting">
-            <option value="papa">Wave</option>
-            <option value="mama">Friendly greeting</option>
-            <option value="junior">Growl</option>
-            <option value="randy">Claw marks in the door</option>
-          </select>
-        </div>
-      </div>
-
-      <div class="form-section">
-        <h2>Any other feedback?</h2>
-
-        <label for="comments">Give us your comments</label>
-        <br>
-        <textarea id="comments" name="comments"></textarea>
-      </div>
-
-      <div class="form-section">
-        <h2>Your details</h2>
-
-        <div class="separator">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name">
-        </div>
-
-        <div class="separator">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email">
-        </div>
-
-        <div class="separator">
-          <label for="phone">Phone</label>
-          <input type="tel" id="phone" name="phone">
-        </div>
-      </div>
-
-      <div class="form-section">
-        <button>Submit</button>
-      </div>
-    </form>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "syntax",
-                            'Unexpected closing tag "label". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            "          <legend>Were the beds</legend>",
-                            "32:103 - 32:111",
-                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Forms_challenge
-[syntax] Unexpected closing tag "label". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Forms challenge</title>
-    <link href="style.css" rel="stylesheet" />
-    <script defer src="index.js"></script>
-  </head>
-  <body>
-    <h1>We want your feedback!</h1>
-
-    <p>We're very excited that you visited the <a href="#">little house in the woods</a>, and we want to hear what
-    you thought of it! Please fill in the below sections. You don't need to provide your name or
-    contact details, but if you do, we'll enter you into a <a href="#">prize draw</a> where you'll have a chance
-    to win prizes.</p>
-
-    <img src="https://mdn.github.io/shared-assets/images/examples/learn/woodland-strip.jpg" alt="">
-
-    <form>
-
-      <div class="form-section">
-        <h2>Facilities</h2>
-
-        <fieldset>
-          <legend>Was the porridge</legend>
-          <input type="radio" id="porridge-1" name="porridge" value="hot" checked><label for="porridge-1">Too hot?</label>
-          <input type="radio" id="porridge-2" name="porridge" value="cold"><label for="porridge-2">Too cold?</label>
-          <input type="radio" id="porridge-3" name="porridge" value="right"><label for="porridge-3">Just right?</label>
-        </fieldset>
-
-        <fieldset>
-          <legend>Were the beds</legend>
-          <input type="radio" id="beds-1" name="beds" value="hard" checked><label for=beds-1">Too hard?</label>
-          <input type="radio" id="beds-2" name="beds" value="soft"><label for="beds-2">Too soft?</label>
-          <input type="radio" id="beds-3" name="beds" value="right"><label for="beds-3">Just right?</label>
-        </fieldset>
-
-        <fieldset>
-          <legend>Describe the chairs (select all you agree with)</legend>
-          <input type="checkbox" id="comfy" name="comfy" /><label for="comfy">Comfy</label>
-          <input type="checkbox" id="luxurious" name="luxurious" /><label for="luxurious">Luxurious</label>
-          <input type="checkbox" id="hi-tech" name="hi-tech" /><label for="hi-tech">Hi-tech</label>
-          <input type="checkbox" id="pretty" name="pretty" /><label for="pretty">Pretty</label>
-          <input type="checkbox" id="majestic" name="majestic" /><label for="majestic">Majestic</label>
-        </fieldset>
-      </div>
-
-      <div class="form-section">
-        <h2>About your hosts</h2>
-
-        <div class="separator">
-          <label for="favorite">Who's your favorite bear?</label>
-          <select name="favorite" id="favorite">
-            <option value="papa">Papa bear</option>
-            <option value="mama">Mama bear</option>
-            <option value="junior">Junior</option>
-            <option value="randy">Cousin Randy</option>
-          </select>
-        </div>
-
-        <div class="separator">
-          <label for="greeting">Which greeting did you prefer?</label>
-          <select name="greeting" id="greeting">
-            <option value="papa">Wave</option>
-            <option value="mama">Friendly greeting</option>
-            <option value="junior">Growl</option>
-            <option value="randy">Claw marks in the door</option>
-          </select>
-        </div>
-      </div>
-
-      <div class="form-section">
-        <h2>Any other feedback?</h2>
-
-        <label for="comments">Give us your comments</label>
-        <br>
-        <textarea id="comments" name="comments"></textarea>
-      </div>
-
-      <div class="form-section">
-        <h2>Your details</h2>
-
-        <div class="separator">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name">
-        </div>
-
-        <div class="separator">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email">
-        </div>
-
-        <div class="separator">
-          <label for="phone">Phone</label>
-          <input type="tel" id="phone" name="phone">
-        </div>
-      </div>
-
-      <div class="form-section">
-        <button>Submit</button>
-      </div>
-    </form>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     general_embedding_technologies: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies",
@@ -10688,19 +10151,6 @@ button:focus {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -16465,6 +15915,188 @@ p {
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Drawing_graphics",
                       messages: [
                         {
+                          message: "Stylelint backlog",
+                          data: [
+                            "font-family-name-quotes",
+                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                            '  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;',
+                            "7:17 - 7:26",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Drawing_graphics
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+html,
+body {
+  margin: 0;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: inherit;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: -4px;
+  right: 5px;
+
+  color: transparent;
+  text-shadow: 0 0 4px white;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "font-family-name-quotes",
+                            'Expected quotes around "Arial" (font-family-name-quotes)',
+                            '  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;',
+                            "7:45 - 7:50",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Drawing_graphics
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+html,
+body {
+  margin: 0;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: inherit;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: -4px;
+  right: 5px;
+
+  color: transparent;
+  text-shadow: 0 0 4px white;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
+                            "  background: #ccc;",
+                            "4:15 - 4:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Drawing_graphics
+[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
+~~~
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #ccc;
+}
+
+.toolbar {
+  height: 75px;
+  background: #ccc;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toolbar div {
+  margin: 0 20px;
+  flex: 3;
+}
+
+input[type="color"],
+button {
+  flex: 1;
+}
+
+input[type="range"] {
+  width: calc(100% - 20px);
+}
+
+output {
+  width: 20px;
+}
+
+span {
+  position: relative;
+  bottom: 5px;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
+                            "  background: #ccc;",
+                            "9:15 - 9:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Drawing_graphics
+[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
+~~~
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #ccc;
+}
+
+.toolbar {
+  height: 75px;
+  background: #ccc;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toolbar div {
+  margin: 0 20px;
+  flex: 3;
+}
+
+input[type="color"],
+button {
+  flex: 1;
+}
+
+input[type="range"] {
+  width: calc(100% - 20px);
+}
+
+output {
+  width: 20px;
+}
+
+span {
+  position: relative;
+  bottom: 5px;
+}
+~~~
+`
+                          ]
+                        },
+                        {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mikethomas/pen/kQjKLW"
@@ -16479,21 +16111,1563 @@ p {
                         {
                           message: "Stylelint backlog",
                           data: [
+                            "alpha-value-notation",
+                            'Expected "20%" to be "0.2" (alpha-value-notation)',
+                            "  background-color: rgb(255 255 255 / 20%);",
+                            "101:39 - 101:42",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[alpha-value-notation] Expected "20%" to be "0.2" (alpha-value-notation)
+~~~
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-function-alias-notation",
+                            'Expected "rgba" to be "rgb" (color-function-alias-notation)',
+                            "  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);",
+                            "70:33 - 70:37",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[color-function-alias-notation] Expected "rgba" to be "rgb" (color-function-alias-notation)
+~~~
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-function-notation",
+                            "Expected modern color-function notation (color-function-notation)",
+                            "  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);",
+                            "70:33 - 70:51",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[color-function-notation] Expected modern color-function notation (color-function-notation)
+~~~
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#222" to be "#222222" (color-hex-length)',
+                            "  background: linear-gradient(to bottom, #222, #666);",
+                            "50:42 - 50:46",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[color-hex-length] Expected "#222" to be "#222222" (color-hex-length)
+~~~
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#666" to be "#666666" (color-hex-length)',
+                            "  background: linear-gradient(to bottom, #222, #666);",
+                            "50:48 - 50:52",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
+~~~
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
+                            "  color: #aaa;",
+                            "58:10 - 58:14",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[color-hex-length] Expected "#aaa" to be "#aaaaaa" (color-hex-length)
+~~~
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#333" to be "#333333" (color-hex-length)',
+                            "  border-right: 1px solid #333;",
+                            "71:27 - 71:31",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
+~~~
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
                             "font-family-name-quotes",
                             'Expected quotes around "HeydingsControlsRegular" (font-family-name-quotes)',
                             "  font-family: HeydingsControlsRegular;",
-                            "14:16 - 14:39",
+                            "54:16 - 54:39",
                             `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
 [font-family-name-quotes] Expected quotes around "HeydingsControlsRegular" (font-family-name-quotes)
 ~~~
 @font-face {
   font-family: "HeydingsControlsRegular";
-  src: url("fonts/heydings_controls-webfont.eot");
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
   src:
-    url("fonts/heydings_controls-webfont.eot?#iefix")
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
       format("embedded-opentype"),
-    url("fonts/heydings_controls-webfont.woff") format("woff"),
-    url("fonts/heydings_controls-webfont.ttf") format("truetype");
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-pseudo-element-colon-notation",
+                            "Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)",
+                            "button:before {",
+                            "53:7 - 53:8",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[selector-pseudo-element-colon-notation] Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)
+~~~
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-pseudo-element-colon-notation",
+                            "Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)",
+                            ".play:before {",
+                            "62:6 - 62:7",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[selector-pseudo-element-colon-notation] Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)
+~~~
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-pseudo-element-colon-notation",
+                            "Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)",
+                            ".active:before {",
+                            "124:8 - 124:9",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[selector-pseudo-element-colon-notation] Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)
+~~~
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "font-family-name-quotes",
+                            'Expected quotes around "HeydingsControlsRegular" (font-family-name-quotes)',
+                            "  font-family: HeydingsControlsRegular;",
+                            "16:16 - 16:39",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[font-family-name-quotes] Expected quotes around "HeydingsControlsRegular" (font-family-name-quotes)
+~~~
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -16544,6 +17718,1590 @@ button::before {
   position: absolute;
   z-index: 3;
   left: 19px;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "alpha-value-notation",
+                            'Expected "20%" to be "0.2" (alpha-value-notation)',
+                            "  background-color: rgb(255 255 255 / 20%);",
+                            "105:39 - 105:42",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[alpha-value-notation] Expected "20%" to be "0.2" (alpha-value-notation)
+~~~
+body {
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-function-alias-notation",
+                            'Expected "rgba" to be "rgb" (color-function-alias-notation)',
+                            "  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);",
+                            "74:33 - 74:37",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[color-function-alias-notation] Expected "rgba" to be "rgb" (color-function-alias-notation)
+~~~
+body {
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-function-notation",
+                            "Expected modern color-function notation (color-function-notation)",
+                            "  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);",
+                            "74:33 - 74:51",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[color-function-notation] Expected modern color-function notation (color-function-notation)
+~~~
+body {
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#222" to be "#222222" (color-hex-length)',
+                            "  background: linear-gradient(to bottom, #222, #666);",
+                            "54:42 - 54:46",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[color-hex-length] Expected "#222" to be "#222222" (color-hex-length)
+~~~
+body {
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#666" to be "#666666" (color-hex-length)',
+                            "  background: linear-gradient(to bottom, #222, #666);",
+                            "54:48 - 54:52",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
+~~~
+body {
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
+                            "  color: #aaa;",
+                            "62:10 - 62:14",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[color-hex-length] Expected "#aaa" to be "#aaaaaa" (color-hex-length)
+~~~
+body {
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#333" to be "#333333" (color-hex-length)',
+                            "  border-right: 1px solid #333;",
+                            "75:27 - 75:31",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
+~~~
+body {
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "font-family-name-quotes",
+                            'Expected quotes around "HeydingsControlsRegular" (font-family-name-quotes)',
+                            "  font-family: HeydingsControlsRegular;",
+                            "58:16 - 58:39",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[font-family-name-quotes] Expected quotes around "HeydingsControlsRegular" (font-family-name-quotes)
+~~~
+body {
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-pseudo-element-colon-notation",
+                            "Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)",
+                            "button:before {",
+                            "57:7 - 57:8",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[selector-pseudo-element-colon-notation] Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)
+~~~
+body {
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-pseudo-element-colon-notation",
+                            "Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)",
+                            ".play:before {",
+                            "66:6 - 66:7",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[selector-pseudo-element-colon-notation] Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)
+~~~
+body {
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "selector-pseudo-element-colon-notation",
+                            "Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)",
+                            ".active:before {",
+                            "128:8 - 128:9",
+                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
+[selector-pseudo-element-colon-notation] Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)
+~~~
+body {
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "HeydingsControlsRegular";
+  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
+  src:
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
+      format("woff"),
+    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+video {
+  border: 1px solid black;
+}
+
+p {
+  position: absolute;
+  top: 310px;
+}
+
+.player {
+  position: absolute;
+}
+
+.controls {
+  visibility: hidden;
+  opacity: 0.5;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -200px;
+  background-color: black;
+  box-shadow: 3px 3px 5px black;
+  transition: 1s all;
+  display: flex;
+}
+
+.player:hover .controls,
+.player:focus-within .controls {
+  opacity: 1;
+}
+
+button,
+.controls {
+  background: linear-gradient(to bottom, #222, #666);
+}
+
+button:before {
+  font-family: HeydingsControlsRegular;
+  font-size: 20px;
+  position: relative;
+  content: attr(data-icon);
+  color: #aaa;
+  text-shadow: 1px 1px 0px black;
+}
+
+.play:before {
+  font-size: 22px;
+}
+
+button,
+.timer {
+  height: 38px;
+  line-height: 19px;
+  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
+  border-right: 1px solid #333;
+}
+
+button {
+  position: relative;
+  border: 0;
+  flex: 1;
+  outline: none;
+}
+
+.play {
+  border-radius: 10px 0 0 10px;
+}
+
+.fwd {
+  border-radius: 0 10px 10px 0;
+}
+
+.timer {
+  line-height: 38px;
+  font-size: 10px;
+  font-family: monospace;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+  flex: 5;
+  position: relative;
+}
+
+.timer div {
+  position: absolute;
+  background-color: rgb(255 255 255 / 20%);
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 38px;
+  z-index: 2;
+}
+
+.timer span {
+  position: absolute;
+  z-index: 3;
+  left: 19px;
+}
+
+button:hover,
+button:focus {
+  box-shadow: inset 1px 1px 2px black;
+}
+
+button:active {
+  box-shadow: inset 3px 3px 2px black;
+}
+
+.active:before {
+  color: red;
 }
 ~~~
 `
@@ -27030,13 +29788,6 @@ textarea:focus {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -27086,30 +29837,31 @@ textarea:focus {
                           message: "Stylelint backlog",
                           data: [
                             "alpha-value-notation",
-                            'Expected "90%" to be "0.9" (alpha-value-notation)',
-                            "  background-color: rgb(255 0 0 / 90%);",
+                            'Expected "75%" to be "0.75" (alpha-value-notation)',
+                            "  background-color: rgb(255 0 0 / 75%);",
                             "5:35 - 5:38",
                             `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
-[alpha-value-notation] Expected "90%" to be "0.9" (alpha-value-notation)
+[alpha-value-notation] Expected "75%" to be "0.75" (alpha-value-notation)
 ~~~
 button {
   /* … */
 
   background-color: red;
-  background-color: rgb(255 0 0 / 90%);
+  background-color: rgb(255 0 0 / 75%);
   box-shadow:
-    inset 1px 1px 3px rgb(255 255 255 / 40%),
-    inset -1px -1px 3px rgb(0 0 0 / 40%);
+    inset 3px 3px 3px rgb(255 255 255 / 40%),
+    inset -3px -3px 3px rgb(0 0 0 / 40%);
 }
 
-button:hover {
-  background-color: rgb(255 0 0 / 50%);
+button:hover,
+button:focus {
+  background-color: rgb(255 0 0 / 100%);
 }
 
 button:active {
   box-shadow:
-    inset 1px 1px 3px rgb(0 0 0 / 40%),
-    inset -1px -1px 3px rgb(255 255 255 / 40%);
+    inset 3px 3px 3px rgb(0 0 0 / 40%),
+    inset -3px -3px 3px rgb(255 255 255 / 40%);
 }
 ~~~
 `
@@ -27120,7 +29872,7 @@ button:active {
                           data: [
                             "alpha-value-notation",
                             'Expected "40%" to be "0.4" (alpha-value-notation)',
-                            "    inset 1px 1px 3px rgb(255 255 255 / 40%),",
+                            "    inset 3px 3px 3px rgb(255 255 255 / 40%),",
                             "7:41 - 7:44",
                             `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
 [alpha-value-notation] Expected "40%" to be "0.4" (alpha-value-notation)
@@ -27129,20 +29881,21 @@ button {
   /* … */
 
   background-color: red;
-  background-color: rgb(255 0 0 / 90%);
+  background-color: rgb(255 0 0 / 75%);
   box-shadow:
-    inset 1px 1px 3px rgb(255 255 255 / 40%),
-    inset -1px -1px 3px rgb(0 0 0 / 40%);
+    inset 3px 3px 3px rgb(255 255 255 / 40%),
+    inset -3px -3px 3px rgb(0 0 0 / 40%);
 }
 
-button:hover {
-  background-color: rgb(255 0 0 / 50%);
+button:hover,
+button:focus {
+  background-color: rgb(255 0 0 / 100%);
 }
 
 button:active {
   box-shadow:
-    inset 1px 1px 3px rgb(0 0 0 / 40%),
-    inset -1px -1px 3px rgb(255 255 255 / 40%);
+    inset 3px 3px 3px rgb(0 0 0 / 40%),
+    inset -3px -3px 3px rgb(255 255 255 / 40%);
 }
 ~~~
 `
@@ -27153,7 +29906,7 @@ button:active {
                           data: [
                             "alpha-value-notation",
                             'Expected "40%" to be "0.4" (alpha-value-notation)',
-                            "    inset -1px -1px 3px rgb(0 0 0 / 40%);",
+                            "    inset -3px -3px 3px rgb(0 0 0 / 40%);",
                             "8:37 - 8:40",
                             `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
 [alpha-value-notation] Expected "40%" to be "0.4" (alpha-value-notation)
@@ -27162,20 +29915,21 @@ button {
   /* … */
 
   background-color: red;
-  background-color: rgb(255 0 0 / 90%);
+  background-color: rgb(255 0 0 / 75%);
   box-shadow:
-    inset 1px 1px 3px rgb(255 255 255 / 40%),
-    inset -1px -1px 3px rgb(0 0 0 / 40%);
+    inset 3px 3px 3px rgb(255 255 255 / 40%),
+    inset -3px -3px 3px rgb(0 0 0 / 40%);
 }
 
-button:hover {
-  background-color: rgb(255 0 0 / 50%);
+button:hover,
+button:focus {
+  background-color: rgb(255 0 0 / 100%);
 }
 
 button:active {
   box-shadow:
-    inset 1px 1px 3px rgb(0 0 0 / 40%),
-    inset -1px -1px 3px rgb(255 255 255 / 40%);
+    inset 3px 3px 3px rgb(0 0 0 / 40%),
+    inset -3px -3px 3px rgb(255 255 255 / 40%);
 }
 ~~~
 `
@@ -27185,63 +29939,31 @@ button:active {
                           message: "Stylelint backlog",
                           data: [
                             "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "  background-color: rgb(255 0 0 / 50%);",
-                            "12:35 - 12:38",
+                            'Expected "100%" to be "1" (alpha-value-notation)',
+                            "  background-color: rgb(255 0 0 / 100%);",
+                            "13:35 - 13:39",
                             `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+[alpha-value-notation] Expected "100%" to be "1" (alpha-value-notation)
 ~~~
 button {
   /* … */
 
   background-color: red;
-  background-color: rgb(255 0 0 / 90%);
+  background-color: rgb(255 0 0 / 75%);
   box-shadow:
-    inset 1px 1px 3px rgb(255 255 255 / 40%),
-    inset -1px -1px 3px rgb(0 0 0 / 40%);
+    inset 3px 3px 3px rgb(255 255 255 / 40%),
+    inset -3px -3px 3px rgb(0 0 0 / 40%);
 }
 
-button:hover {
-  background-color: rgb(255 0 0 / 50%);
+button:hover,
+button:focus {
+  background-color: rgb(255 0 0 / 100%);
 }
 
 button:active {
   box-shadow:
-    inset 1px 1px 3px rgb(0 0 0 / 40%),
-    inset -1px -1px 3px rgb(255 255 255 / 40%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "40%" to be "0.4" (alpha-value-notation)',
-                            "    inset 1px 1px 3px rgb(0 0 0 / 40%),",
-                            "17:35 - 17:38",
-                            `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
-[alpha-value-notation] Expected "40%" to be "0.4" (alpha-value-notation)
-~~~
-button {
-  /* … */
-
-  background-color: red;
-  background-color: rgb(255 0 0 / 90%);
-  box-shadow:
-    inset 1px 1px 3px rgb(255 255 255 / 40%),
-    inset -1px -1px 3px rgb(0 0 0 / 40%);
-}
-
-button:hover {
-  background-color: rgb(255 0 0 / 50%);
-}
-
-button:active {
-  box-shadow:
-    inset 1px 1px 3px rgb(0 0 0 / 40%),
-    inset -1px -1px 3px rgb(255 255 255 / 40%);
+    inset 3px 3px 3px rgb(0 0 0 / 40%),
+    inset -3px -3px 3px rgb(255 255 255 / 40%);
 }
 ~~~
 `
@@ -27252,8 +29974,8 @@ button:active {
                           data: [
                             "alpha-value-notation",
                             'Expected "40%" to be "0.4" (alpha-value-notation)',
-                            "    inset -1px -1px 3px rgb(255 255 255 / 40%);",
-                            "18:43 - 18:46",
+                            "    inset 3px 3px 3px rgb(0 0 0 / 40%),",
+                            "18:35 - 18:38",
                             `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
 [alpha-value-notation] Expected "40%" to be "0.4" (alpha-value-notation)
 ~~~
@@ -27261,20 +29983,555 @@ button {
   /* … */
 
   background-color: red;
-  background-color: rgb(255 0 0 / 90%);
+  background-color: rgb(255 0 0 / 75%);
   box-shadow:
-    inset 1px 1px 3px rgb(255 255 255 / 40%),
-    inset -1px -1px 3px rgb(0 0 0 / 40%);
+    inset 3px 3px 3px rgb(255 255 255 / 40%),
+    inset -3px -3px 3px rgb(0 0 0 / 40%);
 }
 
-button:hover {
-  background-color: rgb(255 0 0 / 50%);
+button:hover,
+button:focus {
+  background-color: rgb(255 0 0 / 100%);
 }
 
 button:active {
   box-shadow:
-    inset 1px 1px 3px rgb(0 0 0 / 40%),
-    inset -1px -1px 3px rgb(255 255 255 / 40%);
+    inset 3px 3px 3px rgb(0 0 0 / 40%),
+    inset -3px -3px 3px rgb(255 255 255 / 40%);
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "alpha-value-notation",
+                            'Expected "40%" to be "0.4" (alpha-value-notation)',
+                            "    inset -3px -3px 3px rgb(255 255 255 / 40%);",
+                            "19:43 - 19:46",
+                            `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
+[alpha-value-notation] Expected "40%" to be "0.4" (alpha-value-notation)
+~~~
+button {
+  /* … */
+
+  background-color: red;
+  background-color: rgb(255 0 0 / 75%);
+  box-shadow:
+    inset 3px 3px 3px rgb(255 255 255 / 40%),
+    inset -3px -3px 3px rgb(0 0 0 / 40%);
+}
+
+button:hover,
+button:focus {
+  background-color: rgb(255 0 0 / 100%);
+}
+
+button:active {
+  box-shadow:
+    inset 3px 3px 3px rgb(0 0 0 / 40%),
+    inset -3px -3px 3px rgb(255 255 255 / 40%);
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "rgb(255 0 0/100%)" to be "red" (color-named)',
+                            "  background-color: rgb(255 0 0 / 100%);",
+                            "13:21 - 13:40",
+                            `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
+[color-named] Expected "rgb(255 0 0/100%)" to be "red" (color-named)
+~~~
+button {
+  /* … */
+
+  background-color: red;
+  background-color: rgb(255 0 0 / 75%);
+  box-shadow:
+    inset 3px 3px 3px rgb(255 255 255 / 40%),
+    inset -3px -3px 3px rgb(0 0 0 / 40%);
+}
+
+button:hover,
+button:focus {
+  background-color: rgb(255 0 0 / 100%);
+}
+
+button:active {
+  box-shadow:
+    inset 3px 3px 3px rgb(0 0 0 / 40%),
+    inset -3px -3px 3px rgb(255 255 255 / 40%);
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "background-color" (declaration-block-no-duplicate-properties)',
+                            "  background-color: red;",
+                            "4:3 - 4:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background-color" (declaration-block-no-duplicate-properties)
+~~~
+button {
+  /* … */
+
+  background-color: red;
+  background-color: rgb(255 0 0 / 75%);
+  box-shadow:
+    inset 3px 3px 3px rgb(255 255 255 / 40%),
+    inset -3px -3px 3px rgb(0 0 0 / 40%);
+}
+
+button:hover,
+button:focus {
+  background-color: rgb(255 0 0 / 100%);
+}
+
+button:active {
+  box-shadow:
+    inset 3px 3px 3px rgb(0 0 0 / 40%),
+    inset -3px -3px 3px rgb(255 255 255 / 40%);
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "alpha-value-notation",
+                            'Expected "75%" to be "0.75" (alpha-value-notation)',
+                            "  background-color: rgb(255 0 0 / 75%);",
+                            "19:35 - 19:38",
+                            `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
+[alpha-value-notation] Expected "75%" to be "0.75" (alpha-value-notation)
+~~~
+html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+button {
+  width: 150px;
+  margin: auto;
+  line-height: 2;
+  font-size: 1.1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 20px / 15px;
+  border: none;
+  cursor: pointer;
+
+  background-color: red;
+  background-color: rgb(255 0 0 / 75%);
+  box-shadow:
+    inset 3px 3px 3px rgb(255 255 255 / 40%),
+    inset -3px -3px 3px rgb(0 0 0 / 40%);
+}
+
+button:hover,
+button:focus {
+  background-color: rgb(255 0 0 / 100%);
+}
+
+button:active {
+  box-shadow:
+    inset 3px 3px 3px rgb(0 0 0 / 40%),
+    inset -3px -3px 3px rgb(255 255 255 / 40%);
+}
+
+body {
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "alpha-value-notation",
+                            'Expected "40%" to be "0.4" (alpha-value-notation)',
+                            "    inset 3px 3px 3px rgb(255 255 255 / 40%),",
+                            "21:41 - 21:44",
+                            `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
+[alpha-value-notation] Expected "40%" to be "0.4" (alpha-value-notation)
+~~~
+html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+button {
+  width: 150px;
+  margin: auto;
+  line-height: 2;
+  font-size: 1.1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 20px / 15px;
+  border: none;
+  cursor: pointer;
+
+  background-color: red;
+  background-color: rgb(255 0 0 / 75%);
+  box-shadow:
+    inset 3px 3px 3px rgb(255 255 255 / 40%),
+    inset -3px -3px 3px rgb(0 0 0 / 40%);
+}
+
+button:hover,
+button:focus {
+  background-color: rgb(255 0 0 / 100%);
+}
+
+button:active {
+  box-shadow:
+    inset 3px 3px 3px rgb(0 0 0 / 40%),
+    inset -3px -3px 3px rgb(255 255 255 / 40%);
+}
+
+body {
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "alpha-value-notation",
+                            'Expected "40%" to be "0.4" (alpha-value-notation)',
+                            "    inset -3px -3px 3px rgb(0 0 0 / 40%);",
+                            "22:37 - 22:40",
+                            `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
+[alpha-value-notation] Expected "40%" to be "0.4" (alpha-value-notation)
+~~~
+html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+button {
+  width: 150px;
+  margin: auto;
+  line-height: 2;
+  font-size: 1.1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 20px / 15px;
+  border: none;
+  cursor: pointer;
+
+  background-color: red;
+  background-color: rgb(255 0 0 / 75%);
+  box-shadow:
+    inset 3px 3px 3px rgb(255 255 255 / 40%),
+    inset -3px -3px 3px rgb(0 0 0 / 40%);
+}
+
+button:hover,
+button:focus {
+  background-color: rgb(255 0 0 / 100%);
+}
+
+button:active {
+  box-shadow:
+    inset 3px 3px 3px rgb(0 0 0 / 40%),
+    inset -3px -3px 3px rgb(255 255 255 / 40%);
+}
+
+body {
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "alpha-value-notation",
+                            'Expected "100%" to be "1" (alpha-value-notation)',
+                            "  background-color: rgb(255 0 0 / 100%);",
+                            "27:35 - 27:39",
+                            `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
+[alpha-value-notation] Expected "100%" to be "1" (alpha-value-notation)
+~~~
+html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+button {
+  width: 150px;
+  margin: auto;
+  line-height: 2;
+  font-size: 1.1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 20px / 15px;
+  border: none;
+  cursor: pointer;
+
+  background-color: red;
+  background-color: rgb(255 0 0 / 75%);
+  box-shadow:
+    inset 3px 3px 3px rgb(255 255 255 / 40%),
+    inset -3px -3px 3px rgb(0 0 0 / 40%);
+}
+
+button:hover,
+button:focus {
+  background-color: rgb(255 0 0 / 100%);
+}
+
+button:active {
+  box-shadow:
+    inset 3px 3px 3px rgb(0 0 0 / 40%),
+    inset -3px -3px 3px rgb(255 255 255 / 40%);
+}
+
+body {
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "alpha-value-notation",
+                            'Expected "40%" to be "0.4" (alpha-value-notation)',
+                            "    inset 3px 3px 3px rgb(0 0 0 / 40%),",
+                            "32:35 - 32:38",
+                            `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
+[alpha-value-notation] Expected "40%" to be "0.4" (alpha-value-notation)
+~~~
+html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+button {
+  width: 150px;
+  margin: auto;
+  line-height: 2;
+  font-size: 1.1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 20px / 15px;
+  border: none;
+  cursor: pointer;
+
+  background-color: red;
+  background-color: rgb(255 0 0 / 75%);
+  box-shadow:
+    inset 3px 3px 3px rgb(255 255 255 / 40%),
+    inset -3px -3px 3px rgb(0 0 0 / 40%);
+}
+
+button:hover,
+button:focus {
+  background-color: rgb(255 0 0 / 100%);
+}
+
+button:active {
+  box-shadow:
+    inset 3px 3px 3px rgb(0 0 0 / 40%),
+    inset -3px -3px 3px rgb(255 255 255 / 40%);
+}
+
+body {
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "alpha-value-notation",
+                            'Expected "40%" to be "0.4" (alpha-value-notation)',
+                            "    inset -3px -3px 3px rgb(255 255 255 / 40%);",
+                            "33:43 - 33:46",
+                            `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
+[alpha-value-notation] Expected "40%" to be "0.4" (alpha-value-notation)
+~~~
+html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+button {
+  width: 150px;
+  margin: auto;
+  line-height: 2;
+  font-size: 1.1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 20px / 15px;
+  border: none;
+  cursor: pointer;
+
+  background-color: red;
+  background-color: rgb(255 0 0 / 75%);
+  box-shadow:
+    inset 3px 3px 3px rgb(255 255 255 / 40%),
+    inset -3px -3px 3px rgb(0 0 0 / 40%);
+}
+
+button:hover,
+button:focus {
+  background-color: rgb(255 0 0 / 100%);
+}
+
+button:active {
+  box-shadow:
+    inset 3px 3px 3px rgb(0 0 0 / 40%),
+    inset -3px -3px 3px rgb(255 255 255 / 40%);
+}
+
+body {
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "rgb(255 0 0/100%)" to be "red" (color-named)',
+                            "  background-color: rgb(255 0 0 / 100%);",
+                            "27:21 - 27:40",
+                            `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
+[color-named] Expected "rgb(255 0 0/100%)" to be "red" (color-named)
+~~~
+html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+button {
+  width: 150px;
+  margin: auto;
+  line-height: 2;
+  font-size: 1.1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 20px / 15px;
+  border: none;
+  cursor: pointer;
+
+  background-color: red;
+  background-color: rgb(255 0 0 / 75%);
+  box-shadow:
+    inset 3px 3px 3px rgb(255 255 255 / 40%),
+    inset -3px -3px 3px rgb(0 0 0 / 40%);
+}
+
+button:hover,
+button:focus {
+  background-color: rgb(255 0 0 / 100%);
+}
+
+button:active {
+  box-shadow:
+    inset 3px 3px 3px rgb(0 0 0 / 40%),
+    inset -3px -3px 3px rgb(255 255 255 / 40%);
+}
+
+body {
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "background-color" (declaration-block-no-duplicate-properties)',
+                            "  background-color: red;",
+                            "18:3 - 18:19",
+                            `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background-color" (declaration-block-no-duplicate-properties)
+~~~
+html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+button {
+  width: 150px;
+  margin: auto;
+  line-height: 2;
+  font-size: 1.1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 20px / 15px;
+  border: none;
+  cursor: pointer;
+
+  background-color: red;
+  background-color: rgb(255 0 0 / 75%);
+  box-shadow:
+    inset 3px 3px 3px rgb(255 255 255 / 40%),
+    inset -3px -3px 3px rgb(0 0 0 / 40%);
+}
+
+button:hover,
+button:focus {
+  background-color: rgb(255 0 0 / 100%);
+}
+
+button:active {
+  box-shadow:
+    inset 3px 3px 3px rgb(0 0 0 / 40%),
+    inset -3px -3px 3px rgb(255 255 255 / 40%);
+}
+
+body {
+  height: inherit;
+  display: flex;
+  align-items: center;
 }
 ~~~
 `
@@ -27733,27 +30990,6 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://help.espressoapp.com/",
                             "Unable to connect. Is the computer able to access the url?"
                           ]
@@ -27767,32 +31003,6 @@ body * {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    what_software_do_i_need: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -28097,17 +31307,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     }
                                   ]
@@ -28131,17 +31341,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     }
                                   ]
@@ -28150,10 +31360,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "HTTP link",
+                                  message: "Broken external link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    ""
+                                    "Cannot reach server and Bun hangs"
                                   ]
                                 }
                               ]
@@ -29746,6 +32956,19 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
+                    "20": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/20",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/20.0/releasenotes/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    },
                     "22": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
@@ -29755,6 +32978,19 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://asmjs.org/spec/latest/",
                             ""
+                          ]
+                        }
+                      ]
+                    },
+                    "141": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/141",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=141",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -34591,23 +37827,6 @@ html {
                     }
                   ]
                 },
-                storage_access_api: {
-                  children: {
-                    related_website_sets: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Storage_Access_API/Related_website_sets",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webkit.org/standards-positions/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 summarizer_api: {
                   children: {
                     using: {
@@ -34717,19 +37936,6 @@ textarea,
                       ]
                     }
                   }
-                },
-                topics_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Topics_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webkit.org/standards-positions/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 touch_events: {
                   children: {
@@ -35196,17 +38402,7 @@ p {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/Web_Audio_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/bit101/tones",
-                        404
-                      ]
-                    }
-                  ]
+                  }
                 },
                 web_authentication_api: {
                   children: {
@@ -36533,6 +39729,21 @@ main {
                     }
                   ]
                 },
+                "_colon_host-context": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/:host-context",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "deprecated"
+                        ],
+                        []
+                      ]
+                    }
+                  ]
+                },
                 "_colon_in-range": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/:in-range",
@@ -36816,6 +40027,19 @@ input[type="submit"]::-moz-focus-inner {
                     {
                       message: "Page status not backed by BCD",
                       data: []
+                    }
+                  ]
+                },
+                "_doublecolon_-webkit-inner-spin-button": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/::-webkit-inner-spin-button",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://trac.webkit.org/wiki/Styling%20Form%20Controls",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -89650,6 +92874,13 @@ html::view-transition-new(*) {
                     {
                       message: "Unreachable via sidebar",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://trac.webkit.org/wiki/Styling%20Form%20Controls",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -89711,6 +92942,23 @@ section {
             },
             html: {
               children: {
+                guides: {
+                  children: {
+                    microformats: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Guides/Microformats",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webmention.net/draft/",
+                            "certificate has expired"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 how_to: {
                   children: {
                     add_javascript_to_your_web_page: {
@@ -91292,19 +94540,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -91840,6 +95075,23 @@ h2 {
                       ]
                     }
                   ]
+                },
+                practical_implementation_guides: {
+                  children: {
+                    robots_txt: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Security/Practical_implementation_guides/Robots_txt",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.robotstxt.org/robotstxt.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 subdomain_takeovers: {
                   children: {},
