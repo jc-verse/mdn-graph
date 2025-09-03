@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-zm3cw2ey.js";
+} from "./chunk-tmv3qhf5.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -220,13 +220,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://trac.webkit.org/wiki/JavaScriptCore",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -297,6 +290,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            css_preprocessor: {
+              children: {},
+              slug: "/en-US/docs/Glossary/CSS_preprocessor",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://sass-lang.com/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -533,6 +539,19 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -1015,6 +1034,19 @@ div.warning {
                 }
               ]
             },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             literal: {
               children: {},
               slug: "/en-US/docs/Glossary/Literal",
@@ -1063,19 +1095,6 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            microsoft_internet_explorer: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Microsoft_Internet_Explorer",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://death-to-ie11.com/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -1389,6 +1408,19 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            source_map: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Source_map",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://sass-lang.com/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -3227,6 +3259,13 @@ span {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
                         },
                         {
                           message: "HTTP link",
@@ -5139,6 +5178,19 @@ label + input[type="text"] {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    main_features: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -9010,6 +9062,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -10151,6 +10210,19 @@ button {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    },
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -13914,6 +13986,13 @@ h2 {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -13922,169 +14001,137 @@ h2 {
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Styling_a_bio_page",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "HTML code issue",
                           data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "2:16 - 2:21",
+                            "syntax",
+                            'Opening tag "a" not terminated.',
+                            '  <li>Web: <a href="http://example.com">http://example.com</a></li>',
+                            "18:11 - 18:33",
                             `/en-US/docs/Learn_web_development/Core/Styling_basics/Styling_a_bio_page
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+[syntax] Opening tag "a" not terminated.
 ~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+<h1>Jane Doe</h1>
+<div class="job-title">Web Developer</div>
+<p>
+  Far far away, behind the word mountains, far from the countries Vokalia and
+  Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+  right at the coast of the Semantics, a large language ocean.
+</p>
 
-h1 {
-  color: #375e97;
-  font-size: 2em;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  border-bottom: 1px solid #375e97;
-}
+<p>
+  A small river named Duden flows by their place and supplies it with the
+  necessary regelialia. It is a paradisematic country, in which roasted parts of
+  sentences fly into your mouth.
+</p>
 
-h2 {
-  font-size: 1.5em;
-}
-
-.job-title {
-  color: #999999;
-  font-weight: bold;
-}
-
-a:link,
-a:visited {
-  color: #fb6542;
-}
-
-a:hover {
-  text-decoration: none;
-}
+<h2>Contact information</h2>
+<ul>
+  <li>Email: <a href="mailto:jane@example.com">jane@example.com</a></li>
+  <li>Web: <a href="http://example.com">http://example.com</a></li>
+  <li>Tel: <a href="tel:12345678"">123 45678</a></li>
+</ul>
 ~~~
 `
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "HTML code issue",
                           data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "2:23 - 2:32",
+                            "syntax",
+                            'Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
+                            '  <li>Web: <a href="http://example.com">http://example.com</a></li>',
+                            "18:44 - 18:48",
                             `/en-US/docs/Learn_web_development/Core/Styling_basics/Styling_a_bio_page
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+[syntax] Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
 ~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+<h1>Jane Doe</h1>
+<div class="job-title">Web Developer</div>
+<p>
+  Far far away, behind the word mountains, far from the countries Vokalia and
+  Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+  right at the coast of the Semantics, a large language ocean.
+</p>
 
-h1 {
-  color: #375e97;
-  font-size: 2em;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  border-bottom: 1px solid #375e97;
-}
+<p>
+  A small river named Duden flows by their place and supplies it with the
+  necessary regelialia. It is a paradisematic country, in which roasted parts of
+  sentences fly into your mouth.
+</p>
 
-h2 {
-  font-size: 1.5em;
-}
-
-.job-title {
-  color: #999999;
-  font-weight: bold;
-}
-
-a:link,
-a:visited {
-  color: #fb6542;
-}
-
-a:hover {
-  text-decoration: none;
-}
+<h2>Contact information</h2>
+<ul>
+  <li>Email: <a href="mailto:jane@example.com">jane@example.com</a></li>
+  <li>Web: <a href="http://example.com">http://example.com</a></li>
+  <li>Tel: <a href="tel:12345678"">123 45678</a></li>
+</ul>
 ~~~
 `
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "HTML code issue",
                           data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Georgia" (font-family-name-quotes)',
-                            '  font-family: Georgia, "Times New Roman", Times, serif;',
-                            "8:16 - 8:23",
+                            "syntax",
+                            'Opening tag "a" not terminated.',
+                            '  <li>Web: <a href="http://example.com">http://example.com</a></li>',
+                            "18:11 - 18:33",
                             `/en-US/docs/Learn_web_development/Core/Styling_basics/Styling_a_bio_page
-[font-family-name-quotes] Expected quotes around "Georgia" (font-family-name-quotes)
+[syntax] Opening tag "a" not terminated.
 ~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+<h1>Jane Doe</h1>
+<div class="job-title">Web Developer</div>
+<p>
+  Far far away, behind the word mountains, far from the countries Vokalia and
+  Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+  right at the coast of the Semantics, a large language ocean.
+</p>
 
-h1 {
-  color: #375e97;
-  font-size: 2em;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  border-bottom: 1px solid #375e97;
-}
+<p>
+  A small river named Duden flows by their place and supplies it with the
+  necessary regelialia. It is a paradisematic country, in which roasted parts of
+  sentences fly into your mouth.
+</p>
 
-h2 {
-  font-size: 1.5em;
-}
-
-.job-title {
-  color: #999999;
-  font-weight: bold;
-}
-
-a:link,
-a:visited {
-  color: #fb6542;
-}
-
-a:hover {
-  text-decoration: none;
-}
+<h2>Contact information</h2>
+<ul>
+  <li>Email: <a href="mailto:jane@example.com">jane@example.com</a></li>
+  <li>Web: <a href="http://example.com">http://example.com</a></li>
+  <li>Tel: <a href="tel:12345678"">123 45678</a></li>
+</ul>
 ~~~
 `
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "HTML code issue",
                           data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Times" (font-family-name-quotes)',
-                            '  font-family: Georgia, "Times New Roman", Times, serif;',
-                            "8:26 - 8:31",
+                            "syntax",
+                            'Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
+                            '  <li>Web: <a href="http://example.com">http://example.com</a></li>',
+                            "18:44 - 18:48",
                             `/en-US/docs/Learn_web_development/Core/Styling_basics/Styling_a_bio_page
-[font-family-name-quotes] Expected quotes around "Times" (font-family-name-quotes)
+[syntax] Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
 ~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+<h1>Jane Doe</h1>
+<div class="job-title">Web Developer</div>
+<p>
+  Far far away, behind the word mountains, far from the countries Vokalia and
+  Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+  right at the coast of the Semantics, a large language ocean.
+</p>
 
-h1 {
-  color: #375e97;
-  font-size: 2em;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  border-bottom: 1px solid #375e97;
-}
+<p>
+  A small river named Duden flows by their place and supplies it with the
+  necessary regelialia. It is a paradisematic country, in which roasted parts of
+  sentences fly into your mouth.
+</p>
 
-h2 {
-  font-size: 1.5em;
-}
-
-.job-title {
-  color: #999999;
-  font-weight: bold;
-}
-
-a:link,
-a:visited {
-  color: #fb6542;
-}
-
-a:hover {
-  text-decoration: none;
-}
+<h2>Contact information</h2>
+<ul>
+  <li>Email: <a href="mailto:jane@example.com">jane@example.com</a></li>
+  <li>Web: <a href="http://example.com">http://example.com</a></li>
+  <li>Tel: <a href="tel:12345678"">123 45678</a></li>
+</ul>
 ~~~
 `
                           ]
@@ -14537,6 +14584,20 @@ body {
 }
 ~~~
 `
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://convertingcolors.com/hex-color-86DEFA.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://convertingcolors.com/hex-color-86DEFA.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -19305,6 +19366,43 @@ button:active {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "client-side_tools": {
+                  children: {
+                    introducing_complete_toolchain: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://eslint.org/docs/latest/rules/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    overview: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -29815,6 +29913,23 @@ textarea:focus {
                         }
                       ]
                     },
+                    express_nodejs: {
+                      children: {
+                        skeleton_website: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://sass-lang.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     node_server_without_framework: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Node_server_without_framework",
@@ -30545,6 +30660,23 @@ body {
             },
             getting_started: {
               children: {
+                soft_skills: {
+                  children: {
+                    workflows_and_processes: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
@@ -30990,6 +31122,13 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://help.espressoapp.com/",
                             "Unable to connect. Is the computer able to access the url?"
                           ]
@@ -31003,6 +31142,19 @@ body * {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -31141,6 +31293,13 @@ color: rgb(31 41 59 / 26%);
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -31223,6 +31382,22 @@ color: rgb(31 41 59 / 26%);
                   children: {
                     api: {
                       children: {
+                        browsersettings: {
+                          children: {
+                            verticaltabs: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/verticalTabs",
+                              messages: [
+                                {
+                                  message: "Not in BCD",
+                                  data: [
+                                    "webextensions.api.browserSettings.verticalTabs"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
                         contentscripts: {
                           children: {
                             registeredcontentscript: {
@@ -31307,17 +31482,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     }
                                   ]
@@ -31341,17 +31516,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     }
                                   ]
@@ -31360,10 +31535,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "Broken external link",
+                                  message: "HTTP link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    "Cannot reach server and Bun hangs"
+                                    ""
                                   ]
                                 }
                               ]
@@ -32956,19 +33131,6 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
-                    "20": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/20",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/20.0/releasenotes/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
                     "22": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
@@ -32982,14 +33144,27 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "141": {
+                    "41": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/141",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/41",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=141",
+                            "https://whereswalden.com/2015/06/20/new-changes-to-make-spidermonkeys-and-firefoxs-parsing-of-destructuring-patterns-more-spec-compliant/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "136": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/136",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=136",
                             "The operation timed out."
                           ]
                         }
@@ -33871,6 +34046,244 @@ api.MessagePort`,
                     }
                   ]
                 },
+                console: {
+                  children: {
+                    assert_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/assert_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    clear_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/clear_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    count_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/count_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    countreset_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/countReset_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    debug_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/debug_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    dir_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/dir_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    dirxml_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/dirxml_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    error_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/error_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    group_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/group_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    groupcollapsed_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/groupCollapsed_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    groupend_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/groupEnd_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    info_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/info_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    log_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/log_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    table_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/table_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    time_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/time_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    timeend_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/timeEnd_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    trace_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/trace_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    warn_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/console/warn_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 css_object_model: {
                   children: {},
                   slug: "/en-US/docs/Web/API/CSS_Object_Model",
@@ -34585,8 +34998,55 @@ kbd {
                           ]
                         }
                       ]
+                    },
+                    setattribute: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Element/setAttribute",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/css/inspect",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   }
+                },
+                ext_texture_compression_rgtc: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/EXT_texture_compression_rgtc",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://learn.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-block-compression",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://learn.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-block-compression",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://learn.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-block-compression",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://learn.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-block-compression",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 fetchevent: {
                   children: {
@@ -35671,6 +36131,36 @@ article img {
                     }
                   }
                 },
+                indexeddb_api: {
+                  children: {
+                    basic_terminology: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/IndexedDB_API/Basic_Terminology",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/previous-versions/msdn10/gg679063(v=msdn.10)",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    using_indexeddb: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/previous-versions/msdn10/gg679063(v=msdn.10)",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 intersection_observer_api: {
                   children: {
                     timing_element_visibility: {
@@ -36046,6 +36536,19 @@ article h2 {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    keycode: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/KeyboardEvent/keyCode",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452679(v=msdn.10)",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -36859,6 +37362,23 @@ aside {
                     }
                   }
                 },
+                navigator: {
+                  children: {
+                    getinstalledrelatedapps: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Navigator/getInstalledRelatedApps",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/windows/apps/develop/launch/web-to-app-linking",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 payment_request_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
@@ -37440,6 +37960,19 @@ html {
                           ]
                         }
                       ]
+                    },
+                    isuserverifyingplatformauthenticatoravailable_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PublicKeyCredential/isUserVerifyingPlatformAuthenticatorAvailable_static",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/windows-hello",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -37759,6 +38292,23 @@ html {
                             "api.EventSource",
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                service_worker_api: {
+                  children: {
+                    using_service_workers: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/service-workers/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -38731,6 +39281,19 @@ api.Window.sessionStorage`,
                     }
                   ]
                 },
+                webgpu_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WebGPU_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://learn.microsoft.com/en-us/windows/win32/direct3d12/direct3d-12-graphics",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 webrtc_api: {
                   children: {
                     build_a_phone_with_peerjs: {
@@ -38784,6 +39347,23 @@ api.Window.sessionStorage`,
                             "api.RTCRtpReceiver.transform",
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                websockets_api: {
+                  children: {
+                    writing_websocket_server: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_server",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/dotnet/api/system.net.sockets.tcplistener?view=net-6.0",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -38851,6 +39431,19 @@ body {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    external: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/external",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/mt795399(v=vs.85)",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -40027,19 +40620,6 @@ input[type="submit"]::-moz-focus-inner {
                     {
                       message: "Page status not backed by BCD",
                       data: []
-                    }
-                  ]
-                },
-                "_doublecolon_-webkit-inner-spin-button": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-webkit-inner-spin-button",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://trac.webkit.org/wiki/Styling%20Form%20Controls",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -72137,6 +72717,40 @@ blockquote p::after {
                     }
                   ]
                 },
+                css_nesting: {
+                  children: {
+                    using_css_nesting: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/CSS/CSS_nesting",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://sass-lang.com/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 css_overflow: {
                   children: {
                     css_carousels: {
@@ -92874,13 +93488,6 @@ html::view-transition-new(*) {
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://trac.webkit.org/wiki/Styling%20Form%20Controls",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -93536,6 +94143,19 @@ because the nesting selector cannot represent pseudo-elements. */
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        dl: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dl",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2022/12/brief-note-on-description-list-support.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -94540,6 +95160,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -94786,7 +95419,25 @@ h2 {
               }
             },
             mathml: {
-              children: {},
+              children: {
+                guides: {
+                  children: {
+                    fonts: {
+                      children: {},
+                      slug: "/en-US/docs/Web/MathML/Guides/Fonts",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/typography/font-list/?FID=360",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
               slug: "/en-US/docs/Web/MathML",
               messages: [
                 {
@@ -94802,8 +95453,134 @@ h2 {
               children: {
                 guides: {
                   children: {
+                    audio_and_video_delivery: {
+                      children: {
+                        cross_browser_video_player: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/cross_browser_video_player",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
+                                "  border: 1px solid #aaa;",
+                                "63:21 - 63:25",
+                                `/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/cross_browser_video_player
+[color-hex-length] Expected "#aaa" to be "#aaaaaa" (color-hex-length)
+~~~
+:root {
+  color: #333333;
+  font-family:
+    "Lucida Grande", "Lucida Sans Unicode", "DejaVu Sans", "Lucida", "Arial",
+    "Helvetica", sans-serif;
+}
+a {
+  color: #0095dd;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #2255aa;
+  text-decoration: underline;
+}
+figure {
+  max-width: 64rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+figcaption {
+  display: block;
+  font-size: 1rem;
+}
+video {
+  width: 100%;
+}
+
+/* controls */
+.controls {
+  display: flex;
+  gap: 6px;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.controls[data-state="hidden"] {
+  display: none;
+}
+.controls li {
+  width: max(10%, 3rem);
+  margin: 0;
+  padding: 0;
+}
+.controls .progress {
+  flex-grow: 1;
+  cursor: pointer;
+}
+.controls button {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.controls progress {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #aaa;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+/* fullscreen */
+figure:fullscreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 100%;
+  height: 100%;
+}
+figure:fullscreen video {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+figure:fullscreen figcaption {
+  display: none;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     formats: {
                       children: {
+                        image_types: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://learn.microsoft.com/en-us/windows/win32/gdi/bitmap-storage",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://learn.microsoft.com/en-us/openspecs/dev_center/ms-devcentlp/1c24c7c8-28b0-4ce1-a47d-95fe1ff504bc",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -94919,6 +95696,26 @@ h2 {
                           ]
                         }
                       ]
+                    },
+                    "third-party_cookies": {
+                      children: {},
+                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/tracking-prevention/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/web-platform/tracking-prevention",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/Privacy/Guides",
@@ -94942,6 +95739,23 @@ h2 {
             },
             progressive_web_apps: {
               children: {
+                how_to: {
+                  children: {
+                    display_badge_on_app_icon: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Display_badge_on_app_icon",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/notifications-badges",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 manifest: {
                   children: {
                     reference: {
@@ -96381,6 +97195,12 @@ p {
           },
           slug: "/en-US/docs/Web",
           messages: [
+            {
+              message: "Asset without content page",
+              data: [
+                "en-us/learn_web_development/core/styling_basics/fundamental_css_comprehension/business-card.png"
+              ]
+            },
             {
               message: "No link to child page",
               data: [
