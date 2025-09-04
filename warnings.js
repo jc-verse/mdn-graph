@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-tmv3qhf5.js";
+} from "./chunk-g8hzr123.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -293,19 +293,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            css_preprocessor: {
-              children: {},
-              slug: "/en-US/docs/Glossary/CSS_preprocessor",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://sass-lang.com/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             css_selector: {
               children: {},
               slug: "/en-US/docs/Glossary/CSS_Selector",
@@ -539,19 +526,6 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            gpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/GPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-faq.html",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -1034,19 +1008,6 @@ div.warning {
                 }
               ]
             },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             literal: {
               children: {},
               slug: "/en-US/docs/Glossary/Literal",
@@ -1411,19 +1372,6 @@ div.warning {
                 }
               ]
             },
-            source_map: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Source_map",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://sass-lang.com/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -1568,6 +1516,19 @@ div.warning {
         },
         learn_web_development: {
           children: {
+            about: {
+              children: {},
+              slug: "/en-US/docs/Learn_web_development/About",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://aws.amazon.com/",
+                    405
+                  ]
+                }
+              ]
+            },
             core: {
               children: {
                 accessibility: {
@@ -3259,13 +3220,6 @@ span {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
                         },
                         {
                           message: "HTTP link",
@@ -5178,19 +5132,6 @@ label + input[type="text"] {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    main_features: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -9062,13 +9003,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -10210,19 +10144,6 @@ button {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -13986,13 +13907,6 @@ h2 {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -14584,20 +14498,6 @@ body {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://convertingcolors.com/hex-color-86DEFA.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://convertingcolors.com/hex-color-86DEFA.html",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -15950,6 +15850,13 @@ p {
 }
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.exljbris.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -19366,43 +19273,6 @@ button:active {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "client-side_tools": {
-                  children: {
-                    introducing_complete_toolchain: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/docs/latest/rules/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    overview: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -29817,6 +29687,19 @@ textarea:focus {
                           data: []
                         }
                       ]
+                    },
+                    your_first_form: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2011/11/extensive-guide-web-form-usability/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Extensions/Forms",
@@ -29913,17 +29796,17 @@ textarea:focus {
                         }
                       ]
                     },
-                    express_nodejs: {
+                    django: {
                       children: {
-                        skeleton_website: {
+                        deployment: {
                           children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://sass-lang.com/",
-                                "The operation timed out."
+                                "https://aws.amazon.com/",
+                                405
                               ]
                             }
                           ]
@@ -29944,6 +29827,18 @@ textarea:focus {
                 },
                 testing: {
                   children: {
+                    automated_testing: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Automated_testing",
+                      messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "sauce-test-running.png"
+                          ]
+                        }
+                      ]
+                    },
                     html_and_css: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS",
@@ -30660,23 +30555,6 @@ body {
             },
             getting_started: {
               children: {
-                soft_skills: {
-                  children: {
-                    workflows_and_processes: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
@@ -31122,7 +31000,7 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/",
+                            "https://mail.gnu.org/mailman/listinfo/help-gnu-emacs",
                             "Cannot reach server and Bun hangs"
                           ]
                         },
@@ -31145,15 +31023,15 @@ body * {
                         }
                       ]
                     },
-                    what_software_do_i_need: {
+                    how_do_you_host_your_website_on_google_app_engine: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
+                            "https://gaesamplesite.appspot.com/",
+                            503
                           ]
                         }
                       ]
@@ -31292,13 +31170,6 @@ color: rgb(31 41 59);
 color: rgb(31 41 59 / 26%);
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -31915,6 +31786,15 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
+                                    },
+                                    {
+                                      message: "Unexpected BCD keys",
+                                      data: [
+                                        "Actual:",
+                                        "webextensions.api.types.BrowserSetting.clear",
+                                        "Expected:",
+                                        "[None]"
+                                      ]
                                     }
                                   ]
                                 },
@@ -31925,6 +31805,15 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
+                                    },
+                                    {
+                                      message: "Unexpected BCD keys",
+                                      data: [
+                                        "Actual:",
+                                        "webextensions.api.types.BrowserSetting.get",
+                                        "Expected:",
+                                        "[None]"
+                                      ]
                                     }
                                   ]
                                 },
@@ -31945,6 +31834,15 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
+                                    },
+                                    {
+                                      message: "Unexpected BCD keys",
+                                      data: [
+                                        "Actual:",
+                                        "webextensions.api.types.BrowserSetting.set",
+                                        "Expected:",
+                                        "[None]"
+                                      ]
                                     }
                                   ]
                                 }
@@ -33131,6 +33029,19 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
+                    "21": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/21",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/21.0/releasenotes/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    },
                     "22": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
@@ -33140,19 +33051,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://asmjs.org/spec/latest/",
                             ""
-                          ]
-                        }
-                      ]
-                    },
-                    "41": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/41",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whereswalden.com/2015/06/20/new-changes-to-make-spidermonkeys-and-firefoxs-parsing-of-destructuring-patterns-more-spec-compliant/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -34046,244 +33944,6 @@ api.MessagePort`,
                     }
                   ]
                 },
-                console: {
-                  children: {
-                    assert_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/assert_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    clear_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/clear_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    count_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/count_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    countreset_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/countReset_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    debug_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/debug_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    dir_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/dir_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    dirxml_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/dirxml_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    error_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/error_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    group_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/group_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    groupcollapsed_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/groupCollapsed_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    groupend_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/groupEnd_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    info_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/info_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    log_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/log_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    table_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/table_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    time_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/time_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    timeend_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/timeEnd_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    trace_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/trace_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    warn_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/console/warn_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/console/api",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_object_model: {
                   children: {},
                   slug: "/en-US/docs/Web/API/CSS_Object_Model",
@@ -34998,55 +34658,8 @@ kbd {
                           ]
                         }
                       ]
-                    },
-                    setattribute: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/setAttribute",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/css/inspect",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   }
-                },
-                ext_texture_compression_rgtc: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/EXT_texture_compression_rgtc",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://learn.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-block-compression",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://learn.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-block-compression",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://learn.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-block-compression",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://learn.microsoft.com/en-us/windows/win32/direct3d10/d3d10-graphics-programming-guide-resources-block-compression",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 fetchevent: {
                   children: {
@@ -36131,30 +35744,16 @@ article img {
                     }
                   }
                 },
-                indexeddb_api: {
+                identitycredentialerror: {
                   children: {
-                    basic_terminology: {
+                    error: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/IndexedDB_API/Basic_Terminology",
+                      slug: "/en-US/docs/Web/API/IdentityCredentialError/error",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "Not in BCD",
                           data: [
-                            "https://learn.microsoft.com/en-us/previous-versions/msdn10/gg679063(v=msdn.10)",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    using_indexeddb: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/previous-versions/msdn10/gg679063(v=msdn.10)",
-                            "The operation timed out."
+                            "api.IdentityCredentialError.error"
                           ]
                         }
                       ]
@@ -36536,19 +36135,6 @@ article h2 {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    keycode: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/KeyboardEvent/keyCode",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/previous-versions/windows/embedded/aa452679(v=msdn.10)",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -37362,23 +36948,6 @@ aside {
                     }
                   }
                 },
-                navigator: {
-                  children: {
-                    getinstalledrelatedapps: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Navigator/getInstalledRelatedApps",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/windows/apps/develop/launch/web-to-app-linking",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 payment_request_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
@@ -37960,19 +37529,6 @@ html {
                           ]
                         }
                       ]
-                    },
-                    isuserverifyingplatformauthenticatoravailable_static: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PublicKeyCredential/isUserVerifyingPlatformAuthenticatorAvailable_static",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/windows-hello",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -38292,23 +37848,6 @@ html {
                             "api.EventSource",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                service_worker_api: {
-                  children: {
-                    using_service_workers: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/devtools/service-workers/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -39281,19 +38820,6 @@ api.Window.sessionStorage`,
                     }
                   ]
                 },
-                webgpu_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/WebGPU_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://learn.microsoft.com/en-us/windows/win32/direct3d12/direct3d-12-graphics",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 webrtc_api: {
                   children: {
                     build_a_phone_with_peerjs: {
@@ -39347,23 +38873,6 @@ api.Window.sessionStorage`,
                             "api.RTCRtpReceiver.transform",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                websockets_api: {
-                  children: {
-                    writing_websocket_server: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_server",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/dotnet/api/system.net.sockets.tcplistener?view=net-6.0",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -39431,19 +38940,6 @@ body {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    external: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/external",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/mt795399(v=vs.85)",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -72717,40 +72213,6 @@ blockquote p::after {
                     }
                   ]
                 },
-                css_nesting: {
-                  children: {
-                    using_css_nesting: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/CSS/CSS_nesting",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://sass-lang.com/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 css_overflow: {
                   children: {
                     css_carousels: {
@@ -93549,23 +93011,6 @@ section {
             },
             html: {
               children: {
-                guides: {
-                  children: {
-                    microformats: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Guides/Microformats",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webmention.net/draft/",
-                            "certificate has expired"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 how_to: {
                   children: {
                     add_javascript_to_your_web_page: {
@@ -94143,19 +93588,6 @@ because the nesting selector cannot represent pseudo-elements. */
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        },
-                        dl: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dl",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2022/12/brief-note-on-description-list-support.html",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -95160,19 +94592,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -95419,25 +94838,7 @@ h2 {
               }
             },
             mathml: {
-              children: {
-                guides: {
-                  children: {
-                    fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/typography/font-list/?FID=360",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              },
+              children: {},
               slug: "/en-US/docs/Web/MathML",
               messages: [
                 {
@@ -95561,26 +94962,6 @@ figure:fullscreen figcaption {
                     },
                     formats: {
                       children: {
-                        image_types: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://learn.microsoft.com/en-us/windows/win32/gdi/bitmap-storage",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://learn.microsoft.com/en-us/openspecs/dev_center/ms-devcentlp/1c24c7c8-28b0-4ce1-a47d-95fe1ff504bc",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -95696,26 +95077,6 @@ figure:fullscreen figcaption {
                           ]
                         }
                       ]
-                    },
-                    "third-party_cookies": {
-                      children: {},
-                      slug: "/en-US/docs/Web/Privacy/Guides/Third-party_cookies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webkit.org/tracking-prevention/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/web-platform/tracking-prevention",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/Privacy/Guides",
@@ -95739,23 +95100,6 @@ figure:fullscreen figcaption {
             },
             progressive_web_apps: {
               children: {
-                how_to: {
-                  children: {
-                    display_badge_on_app_icon: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Display_badge_on_app_icon",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://learn.microsoft.com/en-us/microsoft-edge/progressive-web-apps/how-to/notifications-badges",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 manifest: {
                   children: {
                     reference: {
