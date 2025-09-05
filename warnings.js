@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-g8hzr123.js";
+} from "./chunk-vtaef9y6.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -190,6 +190,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            adobe_flash: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Adobe_Flash",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://webkit.org/blog/7839/adobe-announces-flash-distribution-and-updates-to-end/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -1229,6 +1242,19 @@ div.warning {
                 }
               ]
             },
+            rest: {
+              children: {},
+              slug: "/en-US/docs/Glossary/REST",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.service-architecture.com/articles/web-services/representational-state-transfer-rest.html",
+                    'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://www.service-architecture.com/articles/web-services/representational-state-transfer-rest.html". For more information, pass `verbose: true` in the second argument to fetch()'
+                  ]
+                }
+              ]
+            },
             ril: {
               children: {},
               slug: "/en-US/docs/Glossary/RIL",
@@ -1516,19 +1542,6 @@ div.warning {
         },
         learn_web_development: {
           children: {
-            about: {
-              children: {},
-              slug: "/en-US/docs/Learn_web_development/About",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://aws.amazon.com/",
-                    405
-                  ]
-                }
-              ]
-            },
             core: {
               children: {
                 accessibility: {
@@ -13910,148 +13923,6 @@ h2 {
                         }
                       ]
                     },
-                    styling_a_bio_page: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Styling_a_bio_page",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "syntax",
-                            'Opening tag "a" not terminated.',
-                            '  <li>Web: <a href="http://example.com">http://example.com</a></li>',
-                            "18:11 - 18:33",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Styling_a_bio_page
-[syntax] Opening tag "a" not terminated.
-~~~
-<h1>Jane Doe</h1>
-<div class="job-title">Web Developer</div>
-<p>
-  Far far away, behind the word mountains, far from the countries Vokalia and
-  Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-  right at the coast of the Semantics, a large language ocean.
-</p>
-
-<p>
-  A small river named Duden flows by their place and supplies it with the
-  necessary regelialia. It is a paradisematic country, in which roasted parts of
-  sentences fly into your mouth.
-</p>
-
-<h2>Contact information</h2>
-<ul>
-  <li>Email: <a href="mailto:jane@example.com">jane@example.com</a></li>
-  <li>Web: <a href="http://example.com">http://example.com</a></li>
-  <li>Tel: <a href="tel:12345678"">123 45678</a></li>
-</ul>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "syntax",
-                            'Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            '  <li>Web: <a href="http://example.com">http://example.com</a></li>',
-                            "18:44 - 18:48",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Styling_a_bio_page
-[syntax] Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<h1>Jane Doe</h1>
-<div class="job-title">Web Developer</div>
-<p>
-  Far far away, behind the word mountains, far from the countries Vokalia and
-  Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-  right at the coast of the Semantics, a large language ocean.
-</p>
-
-<p>
-  A small river named Duden flows by their place and supplies it with the
-  necessary regelialia. It is a paradisematic country, in which roasted parts of
-  sentences fly into your mouth.
-</p>
-
-<h2>Contact information</h2>
-<ul>
-  <li>Email: <a href="mailto:jane@example.com">jane@example.com</a></li>
-  <li>Web: <a href="http://example.com">http://example.com</a></li>
-  <li>Tel: <a href="tel:12345678"">123 45678</a></li>
-</ul>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "syntax",
-                            'Opening tag "a" not terminated.',
-                            '  <li>Web: <a href="http://example.com">http://example.com</a></li>',
-                            "18:11 - 18:33",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Styling_a_bio_page
-[syntax] Opening tag "a" not terminated.
-~~~
-<h1>Jane Doe</h1>
-<div class="job-title">Web Developer</div>
-<p>
-  Far far away, behind the word mountains, far from the countries Vokalia and
-  Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-  right at the coast of the Semantics, a large language ocean.
-</p>
-
-<p>
-  A small river named Duden flows by their place and supplies it with the
-  necessary regelialia. It is a paradisematic country, in which roasted parts of
-  sentences fly into your mouth.
-</p>
-
-<h2>Contact information</h2>
-<ul>
-  <li>Email: <a href="mailto:jane@example.com">jane@example.com</a></li>
-  <li>Web: <a href="http://example.com">http://example.com</a></li>
-  <li>Tel: <a href="tel:12345678"">123 45678</a></li>
-</ul>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "syntax",
-                            'Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            '  <li>Web: <a href="http://example.com">http://example.com</a></li>',
-                            "18:44 - 18:48",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Styling_a_bio_page
-[syntax] Unexpected closing tag "a". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<h1>Jane Doe</h1>
-<div class="job-title">Web Developer</div>
-<p>
-  Far far away, behind the word mountains, far from the countries Vokalia and
-  Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-  right at the coast of the Semantics, a large language ocean.
-</p>
-
-<p>
-  A small river named Duden flows by their place and supplies it with the
-  necessary regelialia. It is a paradisematic country, in which roasted parts of
-  sentences fly into your mouth.
-</p>
-
-<h2>Contact information</h2>
-<ul>
-  <li>Email: <a href="mailto:jane@example.com">jane@example.com</a></li>
-  <li>Web: <a href="http://example.com">http://example.com</a></li>
-  <li>Tel: <a href="tel:12345678"">123 45678</a></li>
-</ul>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     tables: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Tables",
@@ -15851,13 +15722,6 @@ p {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.exljbris.com/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -15963,108 +15827,6 @@ h1 {
                           ]
                         },
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  background: #ccc;",
-                            "4:15 - 4:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Drawing_graphics
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-body {
-  margin: 0;
-  overflow: hidden;
-  background: #ccc;
-}
-
-.toolbar {
-  height: 75px;
-  background: #ccc;
-  padding: 5px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.toolbar div {
-  margin: 0 20px;
-  flex: 3;
-}
-
-input[type="color"],
-button {
-  flex: 1;
-}
-
-input[type="range"] {
-  width: calc(100% - 20px);
-}
-
-output {
-  width: 20px;
-}
-
-span {
-  position: relative;
-  bottom: 5px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  background: #ccc;",
-                            "9:15 - 9:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Drawing_graphics
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-body {
-  margin: 0;
-  overflow: hidden;
-  background: #ccc;
-}
-
-.toolbar {
-  height: 75px;
-  background: #ccc;
-  padding: 5px 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.toolbar div {
-  margin: 0 20px;
-  flex: 3;
-}
-
-input[type="color"],
-button {
-  flex: 1;
-}
-
-input[type="range"] {
-  width: calc(100% - 20px);
-}
-
-output {
-  width: 20px;
-}
-
-span {
-  position: relative;
-  bottom: 5px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/mikethomas/pen/kQjKLW"
@@ -16135,19 +15897,19 @@ p {
 
 button,
 .controls {
-  background: linear-gradient(to bottom, #222, #666);
+  background: linear-gradient(to bottom, #222222, #666666);
 }
 
-button:before {
+button::before {
   font-family: HeydingsControlsRegular;
   font-size: 20px;
   position: relative;
   content: attr(data-icon);
-  color: #aaa;
+  color: #aaaaaa;
   text-shadow: 1px 1px 0px black;
 }
 
-.play:before {
+.play::before {
   font-size: 22px;
 }
 
@@ -16155,8 +15917,8 @@ button,
 .timer {
   height: 38px;
   line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
+  box-shadow: inset 0 -5px 25px #0000004d;
+  border-right: 1px solid #333333;
 }
 
 button {
@@ -16209,847 +15971,7 @@ button:active {
   box-shadow: inset 3px 3px 2px black;
 }
 
-.active:before {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-function-alias-notation",
-                            'Expected "rgba" to be "rgb" (color-function-alias-notation)',
-                            "  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);",
-                            "70:33 - 70:37",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[color-function-alias-notation] Expected "rgba" to be "rgb" (color-function-alias-notation)
-~~~
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-video {
-  border: 1px solid black;
-}
-
-p {
-  position: absolute;
-  top: 310px;
-}
-
-.player {
-  position: absolute;
-}
-
-.controls {
-  visibility: hidden;
-  opacity: 0.5;
-  width: 400px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -200px;
-  background-color: black;
-  box-shadow: 3px 3px 5px black;
-  transition: 1s all;
-  display: flex;
-}
-
-.player:hover .controls,
-.player:focus-within .controls {
-  opacity: 1;
-}
-
-button,
-.controls {
-  background: linear-gradient(to bottom, #222, #666);
-}
-
-button:before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaa;
-  text-shadow: 1px 1px 0px black;
-}
-
-.play:before {
-  font-size: 22px;
-}
-
-button,
-.timer {
-  height: 38px;
-  line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
-}
-
-button {
-  position: relative;
-  border: 0;
-  flex: 1;
-  outline: none;
-}
-
-.play {
-  border-radius: 10px 0 0 10px;
-}
-
-.fwd {
-  border-radius: 0 10px 10px 0;
-}
-
-.timer {
-  line-height: 38px;
-  font-size: 10px;
-  font-family: monospace;
-  text-shadow: 1px 1px 0px black;
-  color: white;
-  flex: 5;
-  position: relative;
-}
-
-.timer div {
-  position: absolute;
-  background-color: rgb(255 255 255 / 20%);
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 38px;
-  z-index: 2;
-}
-
-.timer span {
-  position: absolute;
-  z-index: 3;
-  left: 19px;
-}
-
-button:hover,
-button:focus {
-  box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-  box-shadow: inset 3px 3px 2px black;
-}
-
-.active:before {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-function-notation",
-                            "Expected modern color-function notation (color-function-notation)",
-                            "  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);",
-                            "70:33 - 70:51",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[color-function-notation] Expected modern color-function notation (color-function-notation)
-~~~
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-video {
-  border: 1px solid black;
-}
-
-p {
-  position: absolute;
-  top: 310px;
-}
-
-.player {
-  position: absolute;
-}
-
-.controls {
-  visibility: hidden;
-  opacity: 0.5;
-  width: 400px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -200px;
-  background-color: black;
-  box-shadow: 3px 3px 5px black;
-  transition: 1s all;
-  display: flex;
-}
-
-.player:hover .controls,
-.player:focus-within .controls {
-  opacity: 1;
-}
-
-button,
-.controls {
-  background: linear-gradient(to bottom, #222, #666);
-}
-
-button:before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaa;
-  text-shadow: 1px 1px 0px black;
-}
-
-.play:before {
-  font-size: 22px;
-}
-
-button,
-.timer {
-  height: 38px;
-  line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
-}
-
-button {
-  position: relative;
-  border: 0;
-  flex: 1;
-  outline: none;
-}
-
-.play {
-  border-radius: 10px 0 0 10px;
-}
-
-.fwd {
-  border-radius: 0 10px 10px 0;
-}
-
-.timer {
-  line-height: 38px;
-  font-size: 10px;
-  font-family: monospace;
-  text-shadow: 1px 1px 0px black;
-  color: white;
-  flex: 5;
-  position: relative;
-}
-
-.timer div {
-  position: absolute;
-  background-color: rgb(255 255 255 / 20%);
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 38px;
-  z-index: 2;
-}
-
-.timer span {
-  position: absolute;
-  z-index: 3;
-  left: 19px;
-}
-
-button:hover,
-button:focus {
-  box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-  box-shadow: inset 3px 3px 2px black;
-}
-
-.active:before {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#222" to be "#222222" (color-hex-length)',
-                            "  background: linear-gradient(to bottom, #222, #666);",
-                            "50:42 - 50:46",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[color-hex-length] Expected "#222" to be "#222222" (color-hex-length)
-~~~
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-video {
-  border: 1px solid black;
-}
-
-p {
-  position: absolute;
-  top: 310px;
-}
-
-.player {
-  position: absolute;
-}
-
-.controls {
-  visibility: hidden;
-  opacity: 0.5;
-  width: 400px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -200px;
-  background-color: black;
-  box-shadow: 3px 3px 5px black;
-  transition: 1s all;
-  display: flex;
-}
-
-.player:hover .controls,
-.player:focus-within .controls {
-  opacity: 1;
-}
-
-button,
-.controls {
-  background: linear-gradient(to bottom, #222, #666);
-}
-
-button:before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaa;
-  text-shadow: 1px 1px 0px black;
-}
-
-.play:before {
-  font-size: 22px;
-}
-
-button,
-.timer {
-  height: 38px;
-  line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
-}
-
-button {
-  position: relative;
-  border: 0;
-  flex: 1;
-  outline: none;
-}
-
-.play {
-  border-radius: 10px 0 0 10px;
-}
-
-.fwd {
-  border-radius: 0 10px 10px 0;
-}
-
-.timer {
-  line-height: 38px;
-  font-size: 10px;
-  font-family: monospace;
-  text-shadow: 1px 1px 0px black;
-  color: white;
-  flex: 5;
-  position: relative;
-}
-
-.timer div {
-  position: absolute;
-  background-color: rgb(255 255 255 / 20%);
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 38px;
-  z-index: 2;
-}
-
-.timer span {
-  position: absolute;
-  z-index: 3;
-  left: 19px;
-}
-
-button:hover,
-button:focus {
-  box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-  box-shadow: inset 3px 3px 2px black;
-}
-
-.active:before {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#666" to be "#666666" (color-hex-length)',
-                            "  background: linear-gradient(to bottom, #222, #666);",
-                            "50:48 - 50:52",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
-~~~
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-video {
-  border: 1px solid black;
-}
-
-p {
-  position: absolute;
-  top: 310px;
-}
-
-.player {
-  position: absolute;
-}
-
-.controls {
-  visibility: hidden;
-  opacity: 0.5;
-  width: 400px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -200px;
-  background-color: black;
-  box-shadow: 3px 3px 5px black;
-  transition: 1s all;
-  display: flex;
-}
-
-.player:hover .controls,
-.player:focus-within .controls {
-  opacity: 1;
-}
-
-button,
-.controls {
-  background: linear-gradient(to bottom, #222, #666);
-}
-
-button:before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaa;
-  text-shadow: 1px 1px 0px black;
-}
-
-.play:before {
-  font-size: 22px;
-}
-
-button,
-.timer {
-  height: 38px;
-  line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
-}
-
-button {
-  position: relative;
-  border: 0;
-  flex: 1;
-  outline: none;
-}
-
-.play {
-  border-radius: 10px 0 0 10px;
-}
-
-.fwd {
-  border-radius: 0 10px 10px 0;
-}
-
-.timer {
-  line-height: 38px;
-  font-size: 10px;
-  font-family: monospace;
-  text-shadow: 1px 1px 0px black;
-  color: white;
-  flex: 5;
-  position: relative;
-}
-
-.timer div {
-  position: absolute;
-  background-color: rgb(255 255 255 / 20%);
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 38px;
-  z-index: 2;
-}
-
-.timer span {
-  position: absolute;
-  z-index: 3;
-  left: 19px;
-}
-
-button:hover,
-button:focus {
-  box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-  box-shadow: inset 3px 3px 2px black;
-}
-
-.active:before {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
-                            "  color: #aaa;",
-                            "58:10 - 58:14",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[color-hex-length] Expected "#aaa" to be "#aaaaaa" (color-hex-length)
-~~~
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-video {
-  border: 1px solid black;
-}
-
-p {
-  position: absolute;
-  top: 310px;
-}
-
-.player {
-  position: absolute;
-}
-
-.controls {
-  visibility: hidden;
-  opacity: 0.5;
-  width: 400px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -200px;
-  background-color: black;
-  box-shadow: 3px 3px 5px black;
-  transition: 1s all;
-  display: flex;
-}
-
-.player:hover .controls,
-.player:focus-within .controls {
-  opacity: 1;
-}
-
-button,
-.controls {
-  background: linear-gradient(to bottom, #222, #666);
-}
-
-button:before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaa;
-  text-shadow: 1px 1px 0px black;
-}
-
-.play:before {
-  font-size: 22px;
-}
-
-button,
-.timer {
-  height: 38px;
-  line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
-}
-
-button {
-  position: relative;
-  border: 0;
-  flex: 1;
-  outline: none;
-}
-
-.play {
-  border-radius: 10px 0 0 10px;
-}
-
-.fwd {
-  border-radius: 0 10px 10px 0;
-}
-
-.timer {
-  line-height: 38px;
-  font-size: 10px;
-  font-family: monospace;
-  text-shadow: 1px 1px 0px black;
-  color: white;
-  flex: 5;
-  position: relative;
-}
-
-.timer div {
-  position: absolute;
-  background-color: rgb(255 255 255 / 20%);
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 38px;
-  z-index: 2;
-}
-
-.timer span {
-  position: absolute;
-  z-index: 3;
-  left: 19px;
-}
-
-button:hover,
-button:focus {
-  box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-  box-shadow: inset 3px 3px 2px black;
-}
-
-.active:before {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  border-right: 1px solid #333;",
-                            "71:27 - 71:31",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-video {
-  border: 1px solid black;
-}
-
-p {
-  position: absolute;
-  top: 310px;
-}
-
-.player {
-  position: absolute;
-}
-
-.controls {
-  visibility: hidden;
-  opacity: 0.5;
-  width: 400px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -200px;
-  background-color: black;
-  box-shadow: 3px 3px 5px black;
-  transition: 1s all;
-  display: flex;
-}
-
-.player:hover .controls,
-.player:focus-within .controls {
-  opacity: 1;
-}
-
-button,
-.controls {
-  background: linear-gradient(to bottom, #222, #666);
-}
-
-button:before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaa;
-  text-shadow: 1px 1px 0px black;
-}
-
-.play:before {
-  font-size: 22px;
-}
-
-button,
-.timer {
-  height: 38px;
-  line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
-}
-
-button {
-  position: relative;
-  border: 0;
-  flex: 1;
-  outline: none;
-}
-
-.play {
-  border-radius: 10px 0 0 10px;
-}
-
-.fwd {
-  border-radius: 0 10px 10px 0;
-}
-
-.timer {
-  line-height: 38px;
-  font-size: 10px;
-  font-family: monospace;
-  text-shadow: 1px 1px 0px black;
-  color: white;
-  flex: 5;
-  position: relative;
-}
-
-.timer div {
-  position: absolute;
-  background-color: rgb(255 255 255 / 20%);
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 38px;
-  z-index: 2;
-}
-
-.timer span {
-  position: absolute;
-  z-index: 3;
-  left: 19px;
-}
-
-button:hover,
-button:focus {
-  box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-  box-shadow: inset 3px 3px 2px black;
-}
-
-.active:before {
+.active::before {
   color: red;
 }
 ~~~
@@ -17115,19 +16037,19 @@ p {
 
 button,
 .controls {
-  background: linear-gradient(to bottom, #222, #666);
+  background: linear-gradient(to bottom, #222222, #666666);
 }
 
-button:before {
+button::before {
   font-family: HeydingsControlsRegular;
   font-size: 20px;
   position: relative;
   content: attr(data-icon);
-  color: #aaa;
+  color: #aaaaaa;
   text-shadow: 1px 1px 0px black;
 }
 
-.play:before {
+.play::before {
   font-size: 22px;
 }
 
@@ -17135,8 +16057,8 @@ button,
 .timer {
   height: 38px;
   line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
+  box-shadow: inset 0 -5px 25px #0000004d;
+  border-right: 1px solid #333333;
 }
 
 button {
@@ -17189,427 +16111,7 @@ button:active {
   box-shadow: inset 3px 3px 2px black;
 }
 
-.active:before {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "selector-pseudo-element-colon-notation",
-                            "Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)",
-                            "button:before {",
-                            "53:7 - 53:8",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[selector-pseudo-element-colon-notation] Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)
-~~~
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-video {
-  border: 1px solid black;
-}
-
-p {
-  position: absolute;
-  top: 310px;
-}
-
-.player {
-  position: absolute;
-}
-
-.controls {
-  visibility: hidden;
-  opacity: 0.5;
-  width: 400px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -200px;
-  background-color: black;
-  box-shadow: 3px 3px 5px black;
-  transition: 1s all;
-  display: flex;
-}
-
-.player:hover .controls,
-.player:focus-within .controls {
-  opacity: 1;
-}
-
-button,
-.controls {
-  background: linear-gradient(to bottom, #222, #666);
-}
-
-button:before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaa;
-  text-shadow: 1px 1px 0px black;
-}
-
-.play:before {
-  font-size: 22px;
-}
-
-button,
-.timer {
-  height: 38px;
-  line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
-}
-
-button {
-  position: relative;
-  border: 0;
-  flex: 1;
-  outline: none;
-}
-
-.play {
-  border-radius: 10px 0 0 10px;
-}
-
-.fwd {
-  border-radius: 0 10px 10px 0;
-}
-
-.timer {
-  line-height: 38px;
-  font-size: 10px;
-  font-family: monospace;
-  text-shadow: 1px 1px 0px black;
-  color: white;
-  flex: 5;
-  position: relative;
-}
-
-.timer div {
-  position: absolute;
-  background-color: rgb(255 255 255 / 20%);
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 38px;
-  z-index: 2;
-}
-
-.timer span {
-  position: absolute;
-  z-index: 3;
-  left: 19px;
-}
-
-button:hover,
-button:focus {
-  box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-  box-shadow: inset 3px 3px 2px black;
-}
-
-.active:before {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "selector-pseudo-element-colon-notation",
-                            "Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)",
-                            ".play:before {",
-                            "62:6 - 62:7",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[selector-pseudo-element-colon-notation] Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)
-~~~
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-video {
-  border: 1px solid black;
-}
-
-p {
-  position: absolute;
-  top: 310px;
-}
-
-.player {
-  position: absolute;
-}
-
-.controls {
-  visibility: hidden;
-  opacity: 0.5;
-  width: 400px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -200px;
-  background-color: black;
-  box-shadow: 3px 3px 5px black;
-  transition: 1s all;
-  display: flex;
-}
-
-.player:hover .controls,
-.player:focus-within .controls {
-  opacity: 1;
-}
-
-button,
-.controls {
-  background: linear-gradient(to bottom, #222, #666);
-}
-
-button:before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaa;
-  text-shadow: 1px 1px 0px black;
-}
-
-.play:before {
-  font-size: 22px;
-}
-
-button,
-.timer {
-  height: 38px;
-  line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
-}
-
-button {
-  position: relative;
-  border: 0;
-  flex: 1;
-  outline: none;
-}
-
-.play {
-  border-radius: 10px 0 0 10px;
-}
-
-.fwd {
-  border-radius: 0 10px 10px 0;
-}
-
-.timer {
-  line-height: 38px;
-  font-size: 10px;
-  font-family: monospace;
-  text-shadow: 1px 1px 0px black;
-  color: white;
-  flex: 5;
-  position: relative;
-}
-
-.timer div {
-  position: absolute;
-  background-color: rgb(255 255 255 / 20%);
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 38px;
-  z-index: 2;
-}
-
-.timer span {
-  position: absolute;
-  z-index: 3;
-  left: 19px;
-}
-
-button:hover,
-button:focus {
-  box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-  box-shadow: inset 3px 3px 2px black;
-}
-
-.active:before {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "selector-pseudo-element-colon-notation",
-                            "Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)",
-                            ".active:before {",
-                            "124:8 - 124:9",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[selector-pseudo-element-colon-notation] Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)
-~~~
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-video {
-  border: 1px solid black;
-}
-
-p {
-  position: absolute;
-  top: 310px;
-}
-
-.player {
-  position: absolute;
-}
-
-.controls {
-  visibility: hidden;
-  opacity: 0.5;
-  width: 400px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -200px;
-  background-color: black;
-  box-shadow: 3px 3px 5px black;
-  transition: 1s all;
-  display: flex;
-}
-
-.player:hover .controls,
-.player:focus-within .controls {
-  opacity: 1;
-}
-
-button,
-.controls {
-  background: linear-gradient(to bottom, #222, #666);
-}
-
-button:before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaa;
-  text-shadow: 1px 1px 0px black;
-}
-
-.play:before {
-  font-size: 22px;
-}
-
-button,
-.timer {
-  height: 38px;
-  line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
-}
-
-button {
-  position: relative;
-  border: 0;
-  flex: 1;
-  outline: none;
-}
-
-.play {
-  border-radius: 10px 0 0 10px;
-}
-
-.fwd {
-  border-radius: 0 10px 10px 0;
-}
-
-.timer {
-  line-height: 38px;
-  font-size: 10px;
-  font-family: monospace;
-  text-shadow: 1px 1px 0px black;
-  color: white;
-  flex: 5;
-  position: relative;
-}
-
-.timer div {
-  position: absolute;
-  background-color: rgb(255 255 255 / 20%);
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 38px;
-  z-index: 2;
-}
-
-.timer span {
-  position: absolute;
-  z-index: 3;
-  left: 19px;
-}
-
-button:hover,
-button:focus {
-  box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-  box-shadow: inset 3px 3px 2px black;
-}
-
-.active:before {
+.active::before {
   color: red;
 }
 ~~~
@@ -17754,19 +16256,19 @@ p {
 
 button,
 .controls {
-  background: linear-gradient(to bottom, #222, #666);
+  background: linear-gradient(to bottom, #222222, #666666);
 }
 
-button:before {
+button::before {
   font-family: HeydingsControlsRegular;
   font-size: 20px;
   position: relative;
   content: attr(data-icon);
-  color: #aaa;
+  color: #aaaaaa;
   text-shadow: 1px 1px 0px black;
 }
 
-.play:before {
+.play::before {
   font-size: 22px;
 }
 
@@ -17774,8 +16276,8 @@ button,
 .timer {
   height: 38px;
   line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
+  box-shadow: inset 0 -5px 25px #0000004d;
+  border-right: 1px solid #333333;
 }
 
 button {
@@ -17828,871 +16330,7 @@ button:active {
   box-shadow: inset 3px 3px 2px black;
 }
 
-.active:before {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-function-alias-notation",
-                            'Expected "rgba" to be "rgb" (color-function-alias-notation)',
-                            "  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);",
-                            "74:33 - 74:37",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[color-function-alias-notation] Expected "rgba" to be "rgb" (color-function-alias-notation)
-~~~
-body {
-  overflow: hidden;
-}
-
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-video {
-  border: 1px solid black;
-}
-
-p {
-  position: absolute;
-  top: 310px;
-}
-
-.player {
-  position: absolute;
-}
-
-.controls {
-  visibility: hidden;
-  opacity: 0.5;
-  width: 400px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -200px;
-  background-color: black;
-  box-shadow: 3px 3px 5px black;
-  transition: 1s all;
-  display: flex;
-}
-
-.player:hover .controls,
-.player:focus-within .controls {
-  opacity: 1;
-}
-
-button,
-.controls {
-  background: linear-gradient(to bottom, #222, #666);
-}
-
-button:before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaa;
-  text-shadow: 1px 1px 0px black;
-}
-
-.play:before {
-  font-size: 22px;
-}
-
-button,
-.timer {
-  height: 38px;
-  line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
-}
-
-button {
-  position: relative;
-  border: 0;
-  flex: 1;
-  outline: none;
-}
-
-.play {
-  border-radius: 10px 0 0 10px;
-}
-
-.fwd {
-  border-radius: 0 10px 10px 0;
-}
-
-.timer {
-  line-height: 38px;
-  font-size: 10px;
-  font-family: monospace;
-  text-shadow: 1px 1px 0px black;
-  color: white;
-  flex: 5;
-  position: relative;
-}
-
-.timer div {
-  position: absolute;
-  background-color: rgb(255 255 255 / 20%);
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 38px;
-  z-index: 2;
-}
-
-.timer span {
-  position: absolute;
-  z-index: 3;
-  left: 19px;
-}
-
-button:hover,
-button:focus {
-  box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-  box-shadow: inset 3px 3px 2px black;
-}
-
-.active:before {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-function-notation",
-                            "Expected modern color-function notation (color-function-notation)",
-                            "  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);",
-                            "74:33 - 74:51",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[color-function-notation] Expected modern color-function notation (color-function-notation)
-~~~
-body {
-  overflow: hidden;
-}
-
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-video {
-  border: 1px solid black;
-}
-
-p {
-  position: absolute;
-  top: 310px;
-}
-
-.player {
-  position: absolute;
-}
-
-.controls {
-  visibility: hidden;
-  opacity: 0.5;
-  width: 400px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -200px;
-  background-color: black;
-  box-shadow: 3px 3px 5px black;
-  transition: 1s all;
-  display: flex;
-}
-
-.player:hover .controls,
-.player:focus-within .controls {
-  opacity: 1;
-}
-
-button,
-.controls {
-  background: linear-gradient(to bottom, #222, #666);
-}
-
-button:before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaa;
-  text-shadow: 1px 1px 0px black;
-}
-
-.play:before {
-  font-size: 22px;
-}
-
-button,
-.timer {
-  height: 38px;
-  line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
-}
-
-button {
-  position: relative;
-  border: 0;
-  flex: 1;
-  outline: none;
-}
-
-.play {
-  border-radius: 10px 0 0 10px;
-}
-
-.fwd {
-  border-radius: 0 10px 10px 0;
-}
-
-.timer {
-  line-height: 38px;
-  font-size: 10px;
-  font-family: monospace;
-  text-shadow: 1px 1px 0px black;
-  color: white;
-  flex: 5;
-  position: relative;
-}
-
-.timer div {
-  position: absolute;
-  background-color: rgb(255 255 255 / 20%);
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 38px;
-  z-index: 2;
-}
-
-.timer span {
-  position: absolute;
-  z-index: 3;
-  left: 19px;
-}
-
-button:hover,
-button:focus {
-  box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-  box-shadow: inset 3px 3px 2px black;
-}
-
-.active:before {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#222" to be "#222222" (color-hex-length)',
-                            "  background: linear-gradient(to bottom, #222, #666);",
-                            "54:42 - 54:46",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[color-hex-length] Expected "#222" to be "#222222" (color-hex-length)
-~~~
-body {
-  overflow: hidden;
-}
-
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-video {
-  border: 1px solid black;
-}
-
-p {
-  position: absolute;
-  top: 310px;
-}
-
-.player {
-  position: absolute;
-}
-
-.controls {
-  visibility: hidden;
-  opacity: 0.5;
-  width: 400px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -200px;
-  background-color: black;
-  box-shadow: 3px 3px 5px black;
-  transition: 1s all;
-  display: flex;
-}
-
-.player:hover .controls,
-.player:focus-within .controls {
-  opacity: 1;
-}
-
-button,
-.controls {
-  background: linear-gradient(to bottom, #222, #666);
-}
-
-button:before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaa;
-  text-shadow: 1px 1px 0px black;
-}
-
-.play:before {
-  font-size: 22px;
-}
-
-button,
-.timer {
-  height: 38px;
-  line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
-}
-
-button {
-  position: relative;
-  border: 0;
-  flex: 1;
-  outline: none;
-}
-
-.play {
-  border-radius: 10px 0 0 10px;
-}
-
-.fwd {
-  border-radius: 0 10px 10px 0;
-}
-
-.timer {
-  line-height: 38px;
-  font-size: 10px;
-  font-family: monospace;
-  text-shadow: 1px 1px 0px black;
-  color: white;
-  flex: 5;
-  position: relative;
-}
-
-.timer div {
-  position: absolute;
-  background-color: rgb(255 255 255 / 20%);
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 38px;
-  z-index: 2;
-}
-
-.timer span {
-  position: absolute;
-  z-index: 3;
-  left: 19px;
-}
-
-button:hover,
-button:focus {
-  box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-  box-shadow: inset 3px 3px 2px black;
-}
-
-.active:before {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#666" to be "#666666" (color-hex-length)',
-                            "  background: linear-gradient(to bottom, #222, #666);",
-                            "54:48 - 54:52",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[color-hex-length] Expected "#666" to be "#666666" (color-hex-length)
-~~~
-body {
-  overflow: hidden;
-}
-
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-video {
-  border: 1px solid black;
-}
-
-p {
-  position: absolute;
-  top: 310px;
-}
-
-.player {
-  position: absolute;
-}
-
-.controls {
-  visibility: hidden;
-  opacity: 0.5;
-  width: 400px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -200px;
-  background-color: black;
-  box-shadow: 3px 3px 5px black;
-  transition: 1s all;
-  display: flex;
-}
-
-.player:hover .controls,
-.player:focus-within .controls {
-  opacity: 1;
-}
-
-button,
-.controls {
-  background: linear-gradient(to bottom, #222, #666);
-}
-
-button:before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaa;
-  text-shadow: 1px 1px 0px black;
-}
-
-.play:before {
-  font-size: 22px;
-}
-
-button,
-.timer {
-  height: 38px;
-  line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
-}
-
-button {
-  position: relative;
-  border: 0;
-  flex: 1;
-  outline: none;
-}
-
-.play {
-  border-radius: 10px 0 0 10px;
-}
-
-.fwd {
-  border-radius: 0 10px 10px 0;
-}
-
-.timer {
-  line-height: 38px;
-  font-size: 10px;
-  font-family: monospace;
-  text-shadow: 1px 1px 0px black;
-  color: white;
-  flex: 5;
-  position: relative;
-}
-
-.timer div {
-  position: absolute;
-  background-color: rgb(255 255 255 / 20%);
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 38px;
-  z-index: 2;
-}
-
-.timer span {
-  position: absolute;
-  z-index: 3;
-  left: 19px;
-}
-
-button:hover,
-button:focus {
-  box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-  box-shadow: inset 3px 3px 2px black;
-}
-
-.active:before {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
-                            "  color: #aaa;",
-                            "62:10 - 62:14",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[color-hex-length] Expected "#aaa" to be "#aaaaaa" (color-hex-length)
-~~~
-body {
-  overflow: hidden;
-}
-
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-video {
-  border: 1px solid black;
-}
-
-p {
-  position: absolute;
-  top: 310px;
-}
-
-.player {
-  position: absolute;
-}
-
-.controls {
-  visibility: hidden;
-  opacity: 0.5;
-  width: 400px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -200px;
-  background-color: black;
-  box-shadow: 3px 3px 5px black;
-  transition: 1s all;
-  display: flex;
-}
-
-.player:hover .controls,
-.player:focus-within .controls {
-  opacity: 1;
-}
-
-button,
-.controls {
-  background: linear-gradient(to bottom, #222, #666);
-}
-
-button:before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaa;
-  text-shadow: 1px 1px 0px black;
-}
-
-.play:before {
-  font-size: 22px;
-}
-
-button,
-.timer {
-  height: 38px;
-  line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
-}
-
-button {
-  position: relative;
-  border: 0;
-  flex: 1;
-  outline: none;
-}
-
-.play {
-  border-radius: 10px 0 0 10px;
-}
-
-.fwd {
-  border-radius: 0 10px 10px 0;
-}
-
-.timer {
-  line-height: 38px;
-  font-size: 10px;
-  font-family: monospace;
-  text-shadow: 1px 1px 0px black;
-  color: white;
-  flex: 5;
-  position: relative;
-}
-
-.timer div {
-  position: absolute;
-  background-color: rgb(255 255 255 / 20%);
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 38px;
-  z-index: 2;
-}
-
-.timer span {
-  position: absolute;
-  z-index: 3;
-  left: 19px;
-}
-
-button:hover,
-button:focus {
-  box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-  box-shadow: inset 3px 3px 2px black;
-}
-
-.active:before {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  border-right: 1px solid #333;",
-                            "75:27 - 75:31",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  overflow: hidden;
-}
-
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-video {
-  border: 1px solid black;
-}
-
-p {
-  position: absolute;
-  top: 310px;
-}
-
-.player {
-  position: absolute;
-}
-
-.controls {
-  visibility: hidden;
-  opacity: 0.5;
-  width: 400px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -200px;
-  background-color: black;
-  box-shadow: 3px 3px 5px black;
-  transition: 1s all;
-  display: flex;
-}
-
-.player:hover .controls,
-.player:focus-within .controls {
-  opacity: 1;
-}
-
-button,
-.controls {
-  background: linear-gradient(to bottom, #222, #666);
-}
-
-button:before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaa;
-  text-shadow: 1px 1px 0px black;
-}
-
-.play:before {
-  font-size: 22px;
-}
-
-button,
-.timer {
-  height: 38px;
-  line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
-}
-
-button {
-  position: relative;
-  border: 0;
-  flex: 1;
-  outline: none;
-}
-
-.play {
-  border-radius: 10px 0 0 10px;
-}
-
-.fwd {
-  border-radius: 0 10px 10px 0;
-}
-
-.timer {
-  line-height: 38px;
-  font-size: 10px;
-  font-family: monospace;
-  text-shadow: 1px 1px 0px black;
-  color: white;
-  flex: 5;
-  position: relative;
-}
-
-.timer div {
-  position: absolute;
-  background-color: rgb(255 255 255 / 20%);
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 38px;
-  z-index: 2;
-}
-
-.timer span {
-  position: absolute;
-  z-index: 3;
-  left: 19px;
-}
-
-button:hover,
-button:focus {
-  box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-  box-shadow: inset 3px 3px 2px black;
-}
-
-.active:before {
+.active::before {
   color: red;
 }
 ~~~
@@ -18762,19 +16400,19 @@ p {
 
 button,
 .controls {
-  background: linear-gradient(to bottom, #222, #666);
+  background: linear-gradient(to bottom, #222222, #666666);
 }
 
-button:before {
+button::before {
   font-family: HeydingsControlsRegular;
   font-size: 20px;
   position: relative;
   content: attr(data-icon);
-  color: #aaa;
+  color: #aaaaaa;
   text-shadow: 1px 1px 0px black;
 }
 
-.play:before {
+.play::before {
   font-size: 22px;
 }
 
@@ -18782,8 +16420,8 @@ button,
 .timer {
   height: 38px;
   line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
+  box-shadow: inset 0 -5px 25px #0000004d;
+  border-right: 1px solid #333333;
 }
 
 button {
@@ -18836,439 +16474,7 @@ button:active {
   box-shadow: inset 3px 3px 2px black;
 }
 
-.active:before {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "selector-pseudo-element-colon-notation",
-                            "Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)",
-                            "button:before {",
-                            "57:7 - 57:8",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[selector-pseudo-element-colon-notation] Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)
-~~~
-body {
-  overflow: hidden;
-}
-
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-video {
-  border: 1px solid black;
-}
-
-p {
-  position: absolute;
-  top: 310px;
-}
-
-.player {
-  position: absolute;
-}
-
-.controls {
-  visibility: hidden;
-  opacity: 0.5;
-  width: 400px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -200px;
-  background-color: black;
-  box-shadow: 3px 3px 5px black;
-  transition: 1s all;
-  display: flex;
-}
-
-.player:hover .controls,
-.player:focus-within .controls {
-  opacity: 1;
-}
-
-button,
-.controls {
-  background: linear-gradient(to bottom, #222, #666);
-}
-
-button:before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaa;
-  text-shadow: 1px 1px 0px black;
-}
-
-.play:before {
-  font-size: 22px;
-}
-
-button,
-.timer {
-  height: 38px;
-  line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
-}
-
-button {
-  position: relative;
-  border: 0;
-  flex: 1;
-  outline: none;
-}
-
-.play {
-  border-radius: 10px 0 0 10px;
-}
-
-.fwd {
-  border-radius: 0 10px 10px 0;
-}
-
-.timer {
-  line-height: 38px;
-  font-size: 10px;
-  font-family: monospace;
-  text-shadow: 1px 1px 0px black;
-  color: white;
-  flex: 5;
-  position: relative;
-}
-
-.timer div {
-  position: absolute;
-  background-color: rgb(255 255 255 / 20%);
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 38px;
-  z-index: 2;
-}
-
-.timer span {
-  position: absolute;
-  z-index: 3;
-  left: 19px;
-}
-
-button:hover,
-button:focus {
-  box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-  box-shadow: inset 3px 3px 2px black;
-}
-
-.active:before {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "selector-pseudo-element-colon-notation",
-                            "Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)",
-                            ".play:before {",
-                            "66:6 - 66:7",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[selector-pseudo-element-colon-notation] Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)
-~~~
-body {
-  overflow: hidden;
-}
-
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-video {
-  border: 1px solid black;
-}
-
-p {
-  position: absolute;
-  top: 310px;
-}
-
-.player {
-  position: absolute;
-}
-
-.controls {
-  visibility: hidden;
-  opacity: 0.5;
-  width: 400px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -200px;
-  background-color: black;
-  box-shadow: 3px 3px 5px black;
-  transition: 1s all;
-  display: flex;
-}
-
-.player:hover .controls,
-.player:focus-within .controls {
-  opacity: 1;
-}
-
-button,
-.controls {
-  background: linear-gradient(to bottom, #222, #666);
-}
-
-button:before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaa;
-  text-shadow: 1px 1px 0px black;
-}
-
-.play:before {
-  font-size: 22px;
-}
-
-button,
-.timer {
-  height: 38px;
-  line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
-}
-
-button {
-  position: relative;
-  border: 0;
-  flex: 1;
-  outline: none;
-}
-
-.play {
-  border-radius: 10px 0 0 10px;
-}
-
-.fwd {
-  border-radius: 0 10px 10px 0;
-}
-
-.timer {
-  line-height: 38px;
-  font-size: 10px;
-  font-family: monospace;
-  text-shadow: 1px 1px 0px black;
-  color: white;
-  flex: 5;
-  position: relative;
-}
-
-.timer div {
-  position: absolute;
-  background-color: rgb(255 255 255 / 20%);
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 38px;
-  z-index: 2;
-}
-
-.timer span {
-  position: absolute;
-  z-index: 3;
-  left: 19px;
-}
-
-button:hover,
-button:focus {
-  box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-  box-shadow: inset 3px 3px 2px black;
-}
-
-.active:before {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "selector-pseudo-element-colon-notation",
-                            "Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)",
-                            ".active:before {",
-                            "128:8 - 128:9",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[selector-pseudo-element-colon-notation] Expected double colon pseudo-element notation (selector-pseudo-element-colon-notation)
-~~~
-body {
-  overflow: hidden;
-}
-
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-video {
-  border: 1px solid black;
-}
-
-p {
-  position: absolute;
-  top: 310px;
-}
-
-.player {
-  position: absolute;
-}
-
-.controls {
-  visibility: hidden;
-  opacity: 0.5;
-  width: 400px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -200px;
-  background-color: black;
-  box-shadow: 3px 3px 5px black;
-  transition: 1s all;
-  display: flex;
-}
-
-.player:hover .controls,
-.player:focus-within .controls {
-  opacity: 1;
-}
-
-button,
-.controls {
-  background: linear-gradient(to bottom, #222, #666);
-}
-
-button:before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaa;
-  text-shadow: 1px 1px 0px black;
-}
-
-.play:before {
-  font-size: 22px;
-}
-
-button,
-.timer {
-  height: 38px;
-  line-height: 19px;
-  box-shadow: inset 0 -5px 25px rgba(0, 0, 0, 0.3);
-  border-right: 1px solid #333;
-}
-
-button {
-  position: relative;
-  border: 0;
-  flex: 1;
-  outline: none;
-}
-
-.play {
-  border-radius: 10px 0 0 10px;
-}
-
-.fwd {
-  border-radius: 0 10px 10px 0;
-}
-
-.timer {
-  line-height: 38px;
-  font-size: 10px;
-  font-family: monospace;
-  text-shadow: 1px 1px 0px black;
-  color: white;
-  flex: 5;
-  position: relative;
-}
-
-.timer div {
-  position: absolute;
-  background-color: rgb(255 255 255 / 20%);
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 38px;
-  z-index: 2;
-}
-
-.timer span {
-  position: absolute;
-  z-index: 3;
-  left: 19px;
-}
-
-button:hover,
-button:focus {
-  box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-  box-shadow: inset 3px 3px 2px black;
-}
-
-.active:before {
+.active::before {
   color: red;
 }
 ~~~
@@ -29687,19 +26893,6 @@ textarea:focus {
                           data: []
                         }
                       ]
-                    },
-                    your_first_form: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2011/11/extensive-guide-web-form-usability/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Extensions/Forms",
@@ -29796,23 +26989,6 @@ textarea:focus {
                         }
                       ]
                     },
-                    django: {
-                      children: {
-                        deployment: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://aws.amazon.com/",
-                                405
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     node_server_without_framework: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Node_server_without_framework",
@@ -29827,18 +27003,6 @@ textarea:focus {
                 },
                 testing: {
                   children: {
-                    automated_testing: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Automated_testing",
-                      messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "sauce-test-running.png"
-                          ]
-                        }
-                      ]
-                    },
                     html_and_css: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS",
@@ -30548,6 +27712,26 @@ body {
                           ]
                         }
                       ]
+                    },
+                    testing_strategies: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.virtualbox.org/wiki/Downloads",
+                            502
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.virtualbox.org/wiki/Downloads",
+                            502
+                          ]
+                        }
+                      ]
                     }
                   }
                 }
@@ -31000,8 +28184,22 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://mail.gnu.org/mailman/listinfo/help-gnu-emacs",
                             "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -31032,6 +28230,19 @@ body * {
                           data: [
                             "https://gaesamplesite.appspot.com/",
                             503
+                          ]
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -33029,19 +30240,6 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
-                    "21": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/21",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/21.0/releasenotes/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
                     "22": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
@@ -33063,6 +30261,19 @@ webextensions.manifest.options_ui`,
                           message: "Broken external link",
                           data: [
                             "https://whattrainisitnow.com/release/?version=136",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "141": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/141",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=141",
                             "The operation timed out."
                           ]
                         }
@@ -33562,6 +30773,19 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                     },
                     understanding_wcag: {
                       children: {
+                        keyboard: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Keyboard",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         perceivable: {
                           children: {
                             color_contrast: {
@@ -61171,6 +58395,13 @@ p {
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://adrianroselli.com/2015/10/html-source-order-vs-css-display-order.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -74596,6 +71827,13 @@ article.snapDisabled ul {
 ~~~
 `
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2022/06/keyboard-only-scrolling-areas.html",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -78224,6 +75462,19 @@ body * {
 }
 ~~~
 `
+                      ]
+                    }
+                  ]
+                },
+                "flex-direction": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/flex-direction",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2015/09/source-order-matters.html",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -87647,6 +84898,32 @@ img.opacity:hover {
                     }
                   ]
                 },
+                order: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/order",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2015/09/source-order-matters.html",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                overflow: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/overflow",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2022/06/keyboard-only-scrolling-areas.html",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 overlay: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/overlay",
@@ -89386,6 +86663,13 @@ pre {
                       data: [
                         "CSS info"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -89397,6 +86681,13 @@ pre {
                       message: "Missing data",
                       data: [
                         "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -93304,6 +90595,32 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
+                        a: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        button: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         caption: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/caption",
@@ -93592,6 +90909,26 @@ because the nesting selector cannot represent pseudo-elements. */
                             }
                           ]
                         },
+                        dl: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dl",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2020/09/voiceover-on-ios-14-supports-description-lists.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2022/12/brief-note-on-description-list-support.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         input: {
                           children: {
                             button: {
@@ -93864,7 +91201,17 @@ because the nesting selector cannot represent pseudo-elements. */
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/input",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         ins: {
                           children: {},
@@ -93993,6 +91340,27 @@ header {
                                       message: "Not in BCD",
                                       data: [
                                         "html.elements.meta.name.viewport"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          }
+                        },
+                        script: {
+                          children: {
+                            type: {
+                              children: {
+                                speculationrules: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/HTML/Reference/Elements/script/type/speculationrules",
+                                  messages: [
+                                    {
+                                      message: "Broken external link",
+                                      data: [
+                                        "https://support.apple.com/en-us/102602",
+                                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                                       ]
                                     }
                                   ]
@@ -94466,6 +91834,19 @@ h2 {
                               ]
                             }
                           ]
+                        },
+                        tabindex: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/tabindex",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         }
                       }
                     }
@@ -94657,6 +92038,19 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           }
+                        },
+                        vary: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Vary",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.smashingmagazine.com/2017/11/understanding-vary-header/",
+                                "unknown certificate verification error"
+                              ]
+                            }
+                          ]
                         }
                       }
                     }
@@ -94817,6 +92211,27 @@ h2 {
                         }
                       ]
                     },
+                    operators: {
+                      children: {
+                        "import.meta": {
+                          children: {
+                            resolve: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Operators/import.meta/resolve",
+                              messages: [
+                                {
+                                  message: "Redirected external link",
+                                  data: [
+                                    "https://docs.deno.com/runtime/reference/deno_namespace_apis/",
+                                    "https://docs.deno.com/api/deno/"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    },
                     statements: {
                       children: {
                         expression_statement: {
@@ -94854,114 +92269,21 @@ h2 {
               children: {
                 guides: {
                   children: {
-                    audio_and_video_delivery: {
+                    formats: {
                       children: {
-                        cross_browser_video_player: {
+                        configuring_servers_for_ogg_media: {
                           children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/cross_browser_video_player",
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Configuring_servers_for_Ogg_media",
                           messages: [
                             {
-                              message: "CSS code issue",
+                              message: "Broken external link",
                               data: [
-                                "color-hex-length",
-                                'Expected "#aaa" to be "#aaaaaa" (color-hex-length)',
-                                "  border: 1px solid #aaa;",
-                                "63:21 - 63:25",
-                                `/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/cross_browser_video_player
-[color-hex-length] Expected "#aaa" to be "#aaaaaa" (color-hex-length)
-~~~
-:root {
-  color: #333333;
-  font-family:
-    "Lucida Grande", "Lucida Sans Unicode", "DejaVu Sans", "Lucida", "Arial",
-    "Helvetica", sans-serif;
-}
-a {
-  color: #0095dd;
-  text-decoration: none;
-}
-a:hover,
-a:focus {
-  color: #2255aa;
-  text-decoration: underline;
-}
-figure {
-  max-width: 64rem;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-figcaption {
-  display: block;
-  font-size: 1rem;
-}
-video {
-  width: 100%;
-}
-
-/* controls */
-.controls {
-  display: flex;
-  gap: 6px;
-  list-style-type: none;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-.controls[data-state="hidden"] {
-  display: none;
-}
-.controls li {
-  width: max(10%, 3rem);
-  margin: 0;
-  padding: 0;
-}
-.controls .progress {
-  flex-grow: 1;
-  cursor: pointer;
-}
-.controls button {
-  width: 100%;
-  text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-.controls progress {
-  display: block;
-  width: 100%;
-  height: 100%;
-  border: 1px solid #aaa;
-  overflow: hidden;
-  border-radius: 2px;
-}
-
-/* fullscreen */
-figure:fullscreen {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  max-width: 100%;
-  height: 100%;
-}
-figure:fullscreen video {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-figure:fullscreen figcaption {
-  display: none;
-}
-~~~
-`
+                                "https://gitlab.xiph.org/xiph/ffmpeg2theora",
+                                "The operation timed out."
                               ]
                             }
                           ]
-                        }
-                      }
-                    },
-                    formats: {
-                      children: {
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -95209,6 +92531,26 @@ figure:fullscreen figcaption {
             },
             security: {
               children: {
+                certificate_transparency: {
+                  children: {},
+                  slug: "/en-US/docs/Web/Security/Certificate_Transparency",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://support.apple.com/en-gb/103214",
+                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://support.apple.com/en-us/103703",
+                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                      ]
+                    }
+                  ]
+                },
                 firefox_security_guidelines: {
                   children: {},
                   slug: "/en-US/docs/Web/Security/Firefox_Security_Guidelines",
@@ -96542,7 +93884,7 @@ p {
             {
               message: "Asset without content page",
               data: [
-                "en-us/learn_web_development/core/styling_basics/fundamental_css_comprehension/business-card.png"
+                "en-us/learn_web_development/core/styling_basics/fancy_letterheaded_paper/letterhead.png"
               ]
             },
             {
