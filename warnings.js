@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-vtaef9y6.js";
+} from "./chunk-ne6vjah7.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -20,6 +20,23 @@ var warnings_processed_default = {
                   ]
                 }
               ]
+            },
+            publishing_games: {
+              children: {
+                game_promotion: {
+                  children: {},
+                  slug: "/en-US/docs/Games/Publishing_games/Game_promotion",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://indiegamesplus.com/",
+                        "Unable to connect. Is the computer able to access the url?"
+                      ]
+                    }
+                  ]
+                }
+              }
             },
             tools: {
               children: {
@@ -190,19 +207,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            adobe_flash: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Adobe_Flash",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://webkit.org/blog/7839/adobe-announces-flash-distribution-and-updates-to-end/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -539,6 +543,26 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -1021,6 +1045,19 @@ div.warning {
                 }
               ]
             },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
             literal: {
               children: {},
               slug: "/en-US/docs/Glossary/Literal",
@@ -1239,19 +1276,6 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            rest: {
-              children: {},
-              slug: "/en-US/docs/Glossary/REST",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.service-architecture.com/articles/web-services/representational-state-transfer-rest.html",
-                    'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://www.service-architecture.com/articles/web-services/representational-state-transfer-rest.html". For more information, pass `verbose: true` in the second argument to fetch()'
-                  ]
                 }
               ]
             },
@@ -9987,6 +10011,219 @@ body {
                 },
                 scripting: {
                   children: {
+                    silly_story_generator: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Silly_story_generator",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "syntax",
+                            "Parsing error: Expression expected.",
+                            "  story.textContent = ;",
+                            "53:9",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Silly_story_generator
+[syntax] Parsing error: Expression expected.
+~~~
+// 1. COMPLETE VARIABLE DEFINITIONS AND RANDOM FUNCTION
+
+const customName = document.getElementById("custom-name");
+const generateBtn = document.querySelector(".generate");
+const story = document.querySelector(".story");
+
+function randomValueFromArray(array){
+  const random = Math.floor(Math.random()*array.length);
+  return array[random];
+}
+
+// 2. RAW TEXT STRINGS
+
+// Willy the Goblin
+// Big Daddy
+// Father Christmas
+
+// the soup kitchen
+// Disneyland
+// the White House
+
+// spontaneously combusted
+// melted into a puddle on the sidewalk
+// turned into a slug and slithered away
+
+// 3. PARTIAL RETURN RANDOM STRING FUNCTION
+
+function returnRandomStoryString() {
+
+// It was 94 Fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.
+
+return storyText;
+
+}
+
+// 4. EVENT LISTENER AND PARTIAL GENERATE FUNCTION DEFINITION
+
+generateBtn.addEventListener('click', generateStory);
+
+function generateStory() {
+
+  if(customName.value !== "") {
+    const name = customName.value;
+
+  }
+
+  if(document.getElementById("uk").checked) {
+    const weight = Math.round(300);
+    const temperature =  Math.round(94);
+
+  }
+
+  story.textContent = ;
+  story.style.visibility = "visible";
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '    const weight = Math.round(300 / 14) + " stone";',
+                            "47:20 - 47:51",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Silly_story_generator
+[prefer-template] Unexpected string concatenation.
+~~~
+// 1. COMPLETE VARIABLE DEFINITIONS AND RANDOM FUNCTION
+
+const customName = document.getElementById("custom-name");
+const generateBtn = document.querySelector(".generate");
+const story = document.querySelector(".story");
+
+function randomValueFromArray(array) {
+  const random = Math.floor(Math.random() * array.length);
+  return array[random];
+}
+
+// 2. RAW TEXT STRINGS
+
+const characters = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
+const places = ["the soup kitchen", "Disneyland", "the White House"];
+const events = [
+  "spontaneously combusted",
+  "melted into a puddle on the sidewalk",
+  "turned into a slug and slithered away",
+];
+
+// 3. PARTIAL RETURN RANDOM STRING FUNCTION
+
+function returnRandomStoryString() {
+  const randomCharacter = randomValueFromArray(characters);
+  const randomPlace = randomValueFromArray(places);
+  const randomEvent = randomValueFromArray(events);
+
+  let storyText = \`It was 94 Fahrenheit outside, so \${randomCharacter} went for a walk. When they got to \${randomPlace}, they stared in horror for a few moments, then \${randomEvent}. Bob saw the whole thing, but was not surprised — \${randomCharacter} weighs 300 pounds, and it was a hot day.\`;
+
+  return storyText;
+}
+
+// 4. EVENT LISTENER AND PARTIAL GENERATE FUNCTION DEFINITION
+
+generateBtn.addEventListener("click", generateStory);
+
+function generateStory() {
+  let newStory = returnRandomStoryString();
+
+  if (customName.value !== "") {
+    const name = customName.value;
+    newStory = newStory.replace("Bob", name);
+  }
+
+  if (document.getElementById("uk").checked) {
+    const weight = Math.round(300 / 14) + " stone";
+    const temperature = Math.round((94 - 32) * (5 / 9)) + " Celsius";
+    newStory = newStory.replace("300 pounds", weight);
+    newStory = newStory.replace("94 Fahrenheit", temperature);
+  }
+
+  story.textContent = newStory;
+  story.style.visibility = "visible";
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '    const temperature = Math.round((94 - 32) * (5 / 9)) + " Celsius";',
+                            "48:25 - 48:69",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Silly_story_generator
+[prefer-template] Unexpected string concatenation.
+~~~
+// 1. COMPLETE VARIABLE DEFINITIONS AND RANDOM FUNCTION
+
+const customName = document.getElementById("custom-name");
+const generateBtn = document.querySelector(".generate");
+const story = document.querySelector(".story");
+
+function randomValueFromArray(array) {
+  const random = Math.floor(Math.random() * array.length);
+  return array[random];
+}
+
+// 2. RAW TEXT STRINGS
+
+const characters = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
+const places = ["the soup kitchen", "Disneyland", "the White House"];
+const events = [
+  "spontaneously combusted",
+  "melted into a puddle on the sidewalk",
+  "turned into a slug and slithered away",
+];
+
+// 3. PARTIAL RETURN RANDOM STRING FUNCTION
+
+function returnRandomStoryString() {
+  const randomCharacter = randomValueFromArray(characters);
+  const randomPlace = randomValueFromArray(places);
+  const randomEvent = randomValueFromArray(events);
+
+  let storyText = \`It was 94 Fahrenheit outside, so \${randomCharacter} went for a walk. When they got to \${randomPlace}, they stared in horror for a few moments, then \${randomEvent}. Bob saw the whole thing, but was not surprised — \${randomCharacter} weighs 300 pounds, and it was a hot day.\`;
+
+  return storyText;
+}
+
+// 4. EVENT LISTENER AND PARTIAL GENERATE FUNCTION DEFINITION
+
+generateBtn.addEventListener("click", generateStory);
+
+function generateStory() {
+  let newStory = returnRandomStoryString();
+
+  if (customName.value !== "") {
+    const name = customName.value;
+    newStory = newStory.replace("Bob", name);
+  }
+
+  if (document.getElementById("uk").checked) {
+    const weight = Math.round(300 / 14) + " stone";
+    const temperature = Math.round((94 - 32) * (5 / 9)) + " Celsius";
+    newStory = newStory.replace("300 pounds", weight);
+    newStory = newStory.replace("94 Fahrenheit", temperature);
+  }
+
+  story.textContent = newStory;
+  story.style.visibility = "visible";
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     strings: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Strings",
@@ -10157,6 +10394,26 @@ button {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    },
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://fairuse.stanford.edu/overview/fair-use/what-is-fair-use/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     },
@@ -26962,6 +27219,13 @@ textarea:focus {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -27712,26 +27976,6 @@ body {
                           ]
                         }
                       ]
-                    },
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.virtualbox.org/wiki/Downloads",
-                            502
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.virtualbox.org/wiki/Downloads",
-                            502
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
@@ -28185,13 +28429,13 @@ body * {
                           message: "Broken external link",
                           data: [
                             "https://www.gnu.org/software/emacs/",
-                            "The operation timed out."
+                            "Cannot reach server and Bun hangs"
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://mail.gnu.org/mailman/listinfo/help-gnu-emacs",
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
                             "Cannot reach server and Bun hangs"
                           ]
                         },
@@ -28199,7 +28443,7 @@ body * {
                           message: "Broken external link",
                           data: [
                             "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "The operation timed out."
+                            "Cannot reach server and Bun hangs"
                           ]
                         },
                         {
@@ -28228,6 +28472,13 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://gaesamplesite.appspot.com/downloads.html",
+                            503
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://gaesamplesite.appspot.com/",
                             503
                           ]
@@ -28242,7 +28493,7 @@ body * {
                           message: "Broken external link",
                           data: [
                             "https://www.gnu.org/software/emacs/",
-                            "The operation timed out."
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -28564,17 +28815,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     }
                                   ]
@@ -28598,17 +28849,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     }
                                   ]
@@ -28617,10 +28868,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "HTTP link",
+                                  message: "Broken external link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    ""
+                                    "Cannot reach server and Bun hangs"
                                   ]
                                 }
                               ]
@@ -30253,32 +30504,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "136": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/136",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=136",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "141": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/141",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=141",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "1.5": {
                       children: {
                         changing_the_priority_of_http_requests: {
@@ -30773,19 +30998,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                     },
                     understanding_wcag: {
                       children: {
-                        keyboard: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Keyboard",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         perceivable: {
                           children: {
                             color_contrast: {
@@ -34203,6 +34415,99 @@ aside {
                     }
                   }
                 },
+                periodicsyncevent: {
+                  children: {
+                    periodicsyncevent: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PeriodicSyncEvent/PeriodicSyncEvent",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "https://www.spacepioneergame.com/"
+                          ]
+                        }
+                      ]
+                    },
+                    tag: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PeriodicSyncEvent/tag",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "https://www.spacepioneergame.com/"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/PeriodicSyncEvent",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                        "https://www.spacepioneergame.com/"
+                      ]
+                    }
+                  ]
+                },
+                periodicsyncmanager: {
+                  children: {
+                    gettags: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PeriodicSyncManager/getTags",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "https://www.spacepioneergame.com/"
+                          ]
+                        }
+                      ]
+                    },
+                    register: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PeriodicSyncManager/register",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "https://www.spacepioneergame.com/"
+                          ]
+                        }
+                      ]
+                    },
+                    unregister: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PeriodicSyncManager/unregister",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "https://www.spacepioneergame.com/"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/PeriodicSyncManager",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                        "https://www.spacepioneergame.com/"
+                      ]
+                    }
+                  ]
+                },
                 pointer_events: {
                   children: {
                     "multi-touch_interaction": {
@@ -34779,6 +35084,71 @@ html {
                     }
                   ]
                 },
+                readablebytestreamcontroller: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/ReadableByteStreamController",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/stardazed/sd-streams",
+                        404
+                      ]
+                    }
+                  ]
+                },
+                readablestream: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/ReadableStream",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/stardazed/sd-streams",
+                        404
+                      ]
+                    }
+                  ]
+                },
+                readablestreambyobreader: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/ReadableStreamBYOBReader",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/stardazed/sd-streams",
+                        404
+                      ]
+                    }
+                  ]
+                },
+                readablestreamdefaultcontroller: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/ReadableStreamDefaultController",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/stardazed/sd-streams",
+                        404
+                      ]
+                    }
+                  ]
+                },
+                readablestreamdefaultreader: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/ReadableStreamDefaultReader",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/stardazed/sd-streams",
+                        404
+                      ]
+                    }
+                  ]
+                },
                 request: {
                   children: {
                     duplex: {
@@ -35072,6 +35442,53 @@ html {
                             "api.EventSource",
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                serviceworkerglobalscope: {
+                  children: {
+                    periodicsync_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ServiceWorkerGlobalScope/periodicsync_event",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "https://www.spacepioneergame.com/"
+                          ]
+                        }
+                      ]
+                    },
+                    sync_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ServiceWorkerGlobalScope/sync_event",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "https://www.spacepioneergame.com/"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                serviceworkerregistration: {
+                  children: {
+                    periodicsync: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ServiceWorkerRegistration/periodicSync",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                            "https://www.spacepioneergame.com/"
                           ]
                         }
                       ]
@@ -36002,6 +36419,19 @@ body {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Web_Crypto_API/Non-cryptographic_uses_of_subtle_crypto"
+                      ]
+                    }
+                  ]
+                },
+                web_periodic_background_synchronization_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Web_Periodic_Background_Synchronization_API",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
+                        "https://www.spacepioneergame.com/"
                       ]
                     }
                   ]
@@ -58395,13 +58825,6 @@ p {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://adrianroselli.com/2015/10/html-source-order-vs-css-display-order.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -71827,13 +72250,6 @@ article.snapDisabled ul {
 ~~~
 `
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2022/06/keyboard-only-scrolling-areas.html",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -75462,19 +75878,6 @@ body * {
 }
 ~~~
 `
-                      ]
-                    }
-                  ]
-                },
-                "flex-direction": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex-direction",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2015/09/source-order-matters.html",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -84898,32 +85301,6 @@ img.opacity:hover {
                     }
                   ]
                 },
-                order: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/order",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2015/09/source-order-matters.html",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                overflow: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2022/06/keyboard-only-scrolling-areas.html",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 overlay: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/overlay",
@@ -86663,13 +87040,6 @@ pre {
                       data: [
                         "CSS info"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -86681,13 +87051,6 @@ pre {
                       message: "Missing data",
                       data: [
                         "CSS info"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -90595,32 +90958,6 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
-                        a: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        button: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         caption: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/caption",
@@ -90909,26 +91246,6 @@ because the nesting selector cannot represent pseudo-elements. */
                             }
                           ]
                         },
-                        dl: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dl",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2020/09/voiceover-on-ios-14-supports-description-lists.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2022/12/brief-note-on-description-list-support.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         input: {
                           children: {
                             button: {
@@ -91201,17 +91518,7 @@ because the nesting selector cannot represent pseudo-elements. */
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/input",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
+                          }
                         },
                         ins: {
                           children: {},
@@ -91340,27 +91647,6 @@ header {
                                       message: "Not in BCD",
                                       data: [
                                         "html.elements.meta.name.viewport"
-                                      ]
-                                    }
-                                  ]
-                                }
-                              }
-                            }
-                          }
-                        },
-                        script: {
-                          children: {
-                            type: {
-                              children: {
-                                speculationrules: {
-                                  children: {},
-                                  slug: "/en-US/docs/Web/HTML/Reference/Elements/script/type/speculationrules",
-                                  messages: [
-                                    {
-                                      message: "Broken external link",
-                                      data: [
-                                        "https://support.apple.com/en-us/102602",
-                                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                                       ]
                                     }
                                   ]
@@ -91834,19 +92120,6 @@ h2 {
                               ]
                             }
                           ]
-                        },
-                        tabindex: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/tabindex",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
                         }
                       }
                     }
@@ -91893,6 +92166,13 @@ http.headers.Use-As-Dictionary`,
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/CORS",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://httptoolkit.com/will-it-cors/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "Unexpected BCD keys",
                           data: [
@@ -91973,6 +92253,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -92038,19 +92331,6 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           }
-                        },
-                        vary: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Vary",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.smashingmagazine.com/2017/11/understanding-vary-header/",
-                                "unknown certificate verification error"
-                              ]
-                            }
-                          ]
                         }
                       }
                     }
@@ -92531,26 +92811,6 @@ h2 {
             },
             security: {
               children: {
-                certificate_transparency: {
-                  children: {},
-                  slug: "/en-US/docs/Web/Security/Certificate_Transparency",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://support.apple.com/en-gb/103214",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://support.apple.com/en-us/103703",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
-                },
                 firefox_security_guidelines: {
                   children: {},
                   slug: "/en-US/docs/Web/Security/Firefox_Security_Guidelines",
