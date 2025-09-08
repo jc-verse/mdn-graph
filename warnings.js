@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-ra0rxtva.js";
+} from "./chunk-bs63z599.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -190,6 +190,58 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            accessibility: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Accessibility",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://webaim.org/",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
+            accessibility_tree: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Accessibility_tree",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://webaim.org/",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
+            accessible_description: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Accessible_description",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://webaim.org/",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
+            accessible_name: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Accessible_name",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://webaim.org/",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -1553,6 +1605,53 @@ div.warning {
               children: {
                 accessibility: {
                   children: {
+                    css_and_javascript: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/CSS_and_JavaScript",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/resources/contrastchecker/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/techniques/css/invisiblecontent/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/techniques/formvalidation/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
+                    html: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/techniques/hypertext/hypertext_links",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/techniques/skipnav/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {
                         css_and_javascript: {
@@ -1950,6 +2049,13 @@ li {
 }
 ~~~
 `
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webaim.org/resources/contrastchecker/",
+                                "Cannot reach server and Bun hangs"
                               ]
                             }
                           ]
@@ -2786,15 +2892,93 @@ li {
                       slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Tooling",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd",
-                            "https://chromewebstore.google.com/detail/empty-title/lhdoppojpmngadmnindnejefpokejbdd"
+                            "https://webaim.org/resources/contrastchecker/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://wave.webaim.org/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://wave.webaim.org/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/techniques/screenreader/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/projects/screenreadersurvey10/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/articles/nvda/tables.htm",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
+                    "wai-aria_basics": {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/techniques/javascript/other",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/techniques/forms/advanced",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
+                    what_is_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/articles/cognitive/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Learn_web_development/Core/Accessibility",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webaim.org/resources/",
+                        "Cannot reach server and Bun hangs"
+                      ]
+                    }
+                  ]
                 },
                 challenges: {
                   children: {},
@@ -7046,6 +7230,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://livebook.manning.com/book/svelte-and-sapper-in-action/welcome",
+                            500
+                          ]
                         }
                       ]
                     },
@@ -10390,6 +10581,13 @@ button {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/techniques/acrobat/acrobat",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     },
@@ -27065,13 +27263,6 @@ option::checkmark {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://chromewebstore.google.com/detail/scriptblock/hcdjknjpbnhdoabbngpmfekaecnpajba",
-                            "https://chromewebstore.google.com/detail/empty-title/hcdjknjpbnhdoabbngpmfekaecnpajba"
-                          ]
                         }
                       ]
                     },
@@ -27202,6 +27393,13 @@ textarea:focus {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -27228,23 +27426,6 @@ textarea:focus {
                           data: []
                         }
                       ]
-                    },
-                    first_steps: {
-                      children: {
-                        web_frameworks: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.techuseful.com/drone-definitions-learning-the-drone-lingo/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     },
                     node_server_without_framework: {
                       children: {},
@@ -28019,6 +28200,13 @@ html {
                         {
                           message: "Unreachable via page",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/resources/contrastchecker/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     },
@@ -28421,8 +28609,15 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://mail.gnu.org/mailman/listinfo/help-gnu-emacs",
-                            "Cannot reach server and Bun hangs"
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -28448,26 +28643,6 @@ body * {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/downloads.html",
-                            503
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
                         }
                       ]
                     }
@@ -30730,7 +30905,28 @@ webextensions.manifest.options_ui`,
                     reference: {
                       children: {
                         attributes: {
-                          children: {},
+                          children: {
+                            "aria-keyshortcuts": {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-keyshortcuts",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://webaim.org/techniques/keyboard/accesskey",
+                                    "Cannot reach server and Bun hangs"
+                                  ]
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://webaim.org/techniques/keyboard/accesskey",
+                                    "Cannot reach server and Bun hangs"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
                           slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes",
                           messages: [
                             {
@@ -30740,13 +30936,60 @@ webextensions.manifest.options_ui`,
                               ]
                             }
                           ]
+                        },
+                        roles: {
+                          children: {
+                            main_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/main_role",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://webaim.org/techniques/skipnav/",
+                                    "Cannot reach server and Bun hangs"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/Accessibility/ARIA",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webaim.org/projects/million/",
+                        "Cannot reach server and Bun hangs"
+                      ]
+                    }
+                  ]
                 },
                 guides: {
                   children: {
+                    cognitive_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Accessibility/Guides/Cognitive_accessibility",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/articles/cognitive/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/articles/cognitive/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     colors_and_luminance: {
                       children: {},
                       slug: "/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance",
@@ -30970,21 +31213,28 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.pbs.org/video/university-place-the-photosensitive-epilepsy-analysis-tool-ep-429/",
-                            "The operation timed out."
+                            "https://webaim.org/resources/contrastchecker/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/articles/contrast/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
                     },
-                    seizure_disorders: {
+                    information_for_web_authors: {
                       children: {},
-                      slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
+                      slug: "/en-US/docs/Web/Accessibility/Guides/Information_for_Web_authors",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.pbs.org/video/university-place-the-photosensitive-epilepsy-analysis-tool-ep-429/",
-                            "The operation timed out."
+                            "https://wave.webaim.org/extension/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -31000,6 +31250,13 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://webaim.org/resources/contrastchecker/",
+                                    "Cannot reach server and Bun hangs"
+                                  ]
                                 }
                               ]
                             },
@@ -34378,28 +34635,7 @@ aside {
                   }
                 },
                 payment_request_api: {
-                  children: {
-                    using_secure_payment_confirmation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Payment_Request_API/Using_secure_payment_confirmation",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.emvco.com/emv-technologies/3-d-secure/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.emvco.com/emv-technologies/secure-remote-commerce/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
                   messages: [
                     {
@@ -36640,6 +36876,19 @@ body {
                           ]
                         }
                       ]
+                    },
+                    open: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/open",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/techniques/hypertext/hypertext_links",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -38292,6 +38541,19 @@ ul::column::scroll-marker:target-current {
                     }
                   ]
                 },
+                _doublecolon_placeholder: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/::placeholder",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webaim.org/resources/contrastchecker/",
+                        "Cannot reach server and Bun hangs"
+                      ]
+                    }
+                  ]
+                },
                 "_doublecolon_scroll-marker-group": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/::scroll-marker-group",
@@ -38580,6 +38842,19 @@ ul::scroll-marker-group {
 }
 ~~~
 `
+                      ]
+                    }
+                  ]
+                },
+                _doublecolon_selection: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/::selection",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webaim.org/resources/contrastchecker/",
+                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -42612,6 +42887,32 @@ p {
                     }
                   ]
                 },
+                "background-color": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/background-color",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webaim.org/resources/contrastchecker/",
+                        "Cannot reach server and Bun hangs"
+                      ]
+                    }
+                  ]
+                },
+                "background-image": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/background-image",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webaim.org/resources/contrastchecker/",
+                        "Cannot reach server and Bun hangs"
+                      ]
+                    }
+                  ]
+                },
                 "background-origin": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/background-origin",
@@ -43877,6 +44178,13 @@ p {
 ~~~
 `
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webaim.org/resources/contrastchecker/",
+                        "Cannot reach server and Bun hangs"
+                      ]
                     }
                   ]
                 },
@@ -43976,6 +44284,19 @@ color(from hsl(0 100% 50%) xyz calc(x - 0.3) calc(y + 0.3) calc(z + 0.3) / calc(
 /* Computed output color: color(xyz-d65 0.112426 0.512648 0.319317 / 0.9) */
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    "contrast-color": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/color_value/contrast-color",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/resources/contrastchecker/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -74845,6 +75166,13 @@ div {
 ~~~
 `
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webaim.org/techniques/css/invisiblecontent/",
+                        "Cannot reach server and Bun hangs"
+                      ]
                     }
                   ]
                 },
@@ -83938,6 +84266,19 @@ p {
                           ]
                         }
                       ]
+                    },
+                    pagination: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Layout_cookbook/Pagination",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/techniques/css/invisiblecontent/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -85311,6 +85652,26 @@ img.opacity:hover {
 }
 ~~~
 `
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webaim.org/resources/contrastchecker/",
+                        "Cannot reach server and Bun hangs"
+                      ]
+                    }
+                  ]
+                },
+                "outline-color": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/outline-color",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webaim.org/resources/contrastchecker/",
+                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -87960,6 +88321,19 @@ awesome string"
                         "Expected:",
                         `css.properties.list-style.symbols
 css.properties.list-style-type.symbols`
+                      ]
+                    }
+                  ]
+                },
+                "text-decoration-color": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/text-decoration-color",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webaim.org/resources/contrastchecker/",
+                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -90681,117 +91055,6 @@ section {
               children: {
                 guides: {
                   children: {
-                    microformats: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Guides/Microformats",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/Main_Page",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/microformats2",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-feed",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/microformats2",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/value-class-pattern",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-feed",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/rel-values",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/Main_Page",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/search_engines",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     quirks_mode_and_standards_mode: {
                       children: {},
                       slug: "/en-US/docs/Web/HTML/Guides/Quirks_mode_and_standards_mode",
@@ -90805,17 +91068,7 @@ section {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/HTML/Guides",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://microformats.org/wiki/Main_Page",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 },
                 how_to: {
                   children: {
@@ -90876,40 +91129,6 @@ html.elements.optgroup.disabled
 html.elements.option.disabled
 html.elements.select.disabled
 html.elements.textarea.disabled`
-                              ]
-                            }
-                          ]
-                        },
-                        rel: {
-                          children: {
-                            me: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/me",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://microformats.org/wiki/RelMeAuth",
-                                    "The operation timed out."
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://microformats.org/wiki/web-sign-in",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://microformats.org/wiki/existing-rel-values",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -91144,6 +91363,52 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
+                        a: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webaim.org/techniques/hypertext/hypertext_links",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webaim.org/techniques/skipnav/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
+                        audio: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/audio",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webaim.org/techniques/captions/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
+                        button: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webaim.org/resources/contrastchecker/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         caption: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/caption",
@@ -91818,6 +92083,13 @@ header {
 ~~~
 `
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webaim.org/techniques/skipnav/",
+                                "Cannot reach server and Bun hangs"
+                              ]
                             }
                           ]
                         },
@@ -92244,11 +92516,37 @@ tfoot td {
                               ]
                             }
                           ]
+                        },
+                        video: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/video",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webaim.org/techniques/captions/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
                         }
                       }
                     },
                     global_attributes: {
                       children: {
+                        accesskey: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/accesskey",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webaim.org/techniques/keyboard/accesskey",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         contenteditable: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/contenteditable",
@@ -92394,17 +92692,7 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         }
-                      },
-                      slug: "/en-US/docs/Web/HTTP/Guides/CSP",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.netlify.com/blog/general-availability-content-security-policy-csp-nonce-integration/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
+                      }
                     },
                     network_error_logging: {
                       children: {},
