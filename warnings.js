@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-bs63z599.js";
+} from "./chunk-15mv7mtt.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -190,58 +190,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            accessibility: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Accessibility",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://webaim.org/",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
-            },
-            accessibility_tree: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Accessibility_tree",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://webaim.org/",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
-            },
-            accessible_description: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Accessible_description",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://webaim.org/",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
-            },
-            accessible_name: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Accessible_name",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://webaim.org/",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -589,13 +537,6 @@ div.warning {
                   message: "Broken external link",
                   data: [
                     "https://www.gnu.org/licenses/gpl-faq.html",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-3.0.html",
                     "The operation timed out."
                   ]
                 }
@@ -1077,19 +1018,6 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -1605,53 +1533,6 @@ div.warning {
               children: {
                 accessibility: {
                   children: {
-                    css_and_javascript: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/CSS_and_JavaScript",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webaim.org/resources/contrastchecker/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webaim.org/techniques/css/invisiblecontent/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webaim.org/techniques/formvalidation/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    html: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webaim.org/techniques/hypertext/hypertext_links",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webaim.org/techniques/skipnav/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
                       children: {
                         css_and_javascript: {
@@ -2049,13 +1930,6 @@ li {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://webaim.org/resources/contrastchecker/",
-                                "Cannot reach server and Bun hangs"
                               ]
                             }
                           ]
@@ -2886,99 +2760,8 @@ li {
                           ]
                         }
                       }
-                    },
-                    tooling: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Tooling",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webaim.org/resources/contrastchecker/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://wave.webaim.org/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://wave.webaim.org/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webaim.org/techniques/screenreader/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webaim.org/projects/screenreadersurvey10/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webaim.org/articles/nvda/tables.htm",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    "wai-aria_basics": {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webaim.org/techniques/javascript/other",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webaim.org/techniques/forms/advanced",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    what_is_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webaim.org/articles/cognitive/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
                     }
-                  },
-                  slug: "/en-US/docs/Learn_web_development/Core/Accessibility",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webaim.org/resources/",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 challenges: {
                   children: {},
@@ -7230,13 +7013,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://livebook.manning.com/book/svelte-and-sapper-in-action/welcome",
-                            500
-                          ]
                         }
                       ]
                     },
@@ -10198,219 +9974,6 @@ body {
                 },
                 scripting: {
                   children: {
-                    silly_story_generator: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Silly_story_generator",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Expression expected.",
-                            "  story.textContent = ;",
-                            "53:9",
-                            `/en-US/docs/Learn_web_development/Core/Scripting/Silly_story_generator
-[syntax] Parsing error: Expression expected.
-~~~
-// 1. COMPLETE VARIABLE DEFINITIONS AND RANDOM FUNCTION
-
-const customName = document.getElementById("custom-name");
-const generateBtn = document.querySelector(".generate");
-const story = document.querySelector(".story");
-
-function randomValueFromArray(array){
-  const random = Math.floor(Math.random()*array.length);
-  return array[random];
-}
-
-// 2. RAW TEXT STRINGS
-
-// Willy the Goblin
-// Big Daddy
-// Father Christmas
-
-// the soup kitchen
-// Disneyland
-// the White House
-
-// spontaneously combusted
-// melted into a puddle on the sidewalk
-// turned into a slug and slithered away
-
-// 3. PARTIAL RETURN RANDOM STRING FUNCTION
-
-function returnRandomStoryString() {
-
-// It was 94 Fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.
-
-return storyText;
-
-}
-
-// 4. EVENT LISTENER AND PARTIAL GENERATE FUNCTION DEFINITION
-
-generateBtn.addEventListener('click', generateStory);
-
-function generateStory() {
-
-  if(customName.value !== "") {
-    const name = customName.value;
-
-  }
-
-  if(document.getElementById("uk").checked) {
-    const weight = Math.round(300);
-    const temperature =  Math.round(94);
-
-  }
-
-  story.textContent = ;
-  story.style.visibility = "visible";
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-template",
-                            "Unexpected string concatenation.",
-                            '    const weight = Math.round(300 / 14) + " stone";',
-                            "47:20 - 47:51",
-                            `/en-US/docs/Learn_web_development/Core/Scripting/Silly_story_generator
-[prefer-template] Unexpected string concatenation.
-~~~
-// 1. COMPLETE VARIABLE DEFINITIONS AND RANDOM FUNCTION
-
-const customName = document.getElementById("custom-name");
-const generateBtn = document.querySelector(".generate");
-const story = document.querySelector(".story");
-
-function randomValueFromArray(array) {
-  const random = Math.floor(Math.random() * array.length);
-  return array[random];
-}
-
-// 2. RAW TEXT STRINGS
-
-const characters = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
-const places = ["the soup kitchen", "Disneyland", "the White House"];
-const events = [
-  "spontaneously combusted",
-  "melted into a puddle on the sidewalk",
-  "turned into a slug and slithered away",
-];
-
-// 3. PARTIAL RETURN RANDOM STRING FUNCTION
-
-function returnRandomStoryString() {
-  const randomCharacter = randomValueFromArray(characters);
-  const randomPlace = randomValueFromArray(places);
-  const randomEvent = randomValueFromArray(events);
-
-  let storyText = \`It was 94 Fahrenheit outside, so \${randomCharacter} went for a walk. When they got to \${randomPlace}, they stared in horror for a few moments, then \${randomEvent}. Bob saw the whole thing, but was not surprised — \${randomCharacter} weighs 300 pounds, and it was a hot day.\`;
-
-  return storyText;
-}
-
-// 4. EVENT LISTENER AND PARTIAL GENERATE FUNCTION DEFINITION
-
-generateBtn.addEventListener("click", generateStory);
-
-function generateStory() {
-  let newStory = returnRandomStoryString();
-
-  if (customName.value !== "") {
-    const name = customName.value;
-    newStory = newStory.replace("Bob", name);
-  }
-
-  if (document.getElementById("uk").checked) {
-    const weight = Math.round(300 / 14) + " stone";
-    const temperature = Math.round((94 - 32) * (5 / 9)) + " Celsius";
-    newStory = newStory.replace("300 pounds", weight);
-    newStory = newStory.replace("94 Fahrenheit", temperature);
-  }
-
-  story.textContent = newStory;
-  story.style.visibility = "visible";
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-template",
-                            "Unexpected string concatenation.",
-                            '    const temperature = Math.round((94 - 32) * (5 / 9)) + " Celsius";',
-                            "48:25 - 48:69",
-                            `/en-US/docs/Learn_web_development/Core/Scripting/Silly_story_generator
-[prefer-template] Unexpected string concatenation.
-~~~
-// 1. COMPLETE VARIABLE DEFINITIONS AND RANDOM FUNCTION
-
-const customName = document.getElementById("custom-name");
-const generateBtn = document.querySelector(".generate");
-const story = document.querySelector(".story");
-
-function randomValueFromArray(array) {
-  const random = Math.floor(Math.random() * array.length);
-  return array[random];
-}
-
-// 2. RAW TEXT STRINGS
-
-const characters = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
-const places = ["the soup kitchen", "Disneyland", "the White House"];
-const events = [
-  "spontaneously combusted",
-  "melted into a puddle on the sidewalk",
-  "turned into a slug and slithered away",
-];
-
-// 3. PARTIAL RETURN RANDOM STRING FUNCTION
-
-function returnRandomStoryString() {
-  const randomCharacter = randomValueFromArray(characters);
-  const randomPlace = randomValueFromArray(places);
-  const randomEvent = randomValueFromArray(events);
-
-  let storyText = \`It was 94 Fahrenheit outside, so \${randomCharacter} went for a walk. When they got to \${randomPlace}, they stared in horror for a few moments, then \${randomEvent}. Bob saw the whole thing, but was not surprised — \${randomCharacter} weighs 300 pounds, and it was a hot day.\`;
-
-  return storyText;
-}
-
-// 4. EVENT LISTENER AND PARTIAL GENERATE FUNCTION DEFINITION
-
-generateBtn.addEventListener("click", generateStory);
-
-function generateStory() {
-  let newStory = returnRandomStoryString();
-
-  if (customName.value !== "") {
-    const name = customName.value;
-    newStory = newStory.replace("Bob", name);
-  }
-
-  if (document.getElementById("uk").checked) {
-    const weight = Math.round(300 / 14) + " stone";
-    const temperature = Math.round((94 - 32) * (5 / 9)) + " Celsius";
-    newStory = newStory.replace("300 pounds", weight);
-    newStory = newStory.replace("94 Fahrenheit", temperature);
-  }
-
-  story.textContent = newStory;
-  story.style.visibility = "visible";
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     strings: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/Strings",
@@ -10581,12 +10144,18 @@ button {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
+                        }
+                      ]
+                    },
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://webaim.org/techniques/acrobat/acrobat",
-                            "Cannot reach server and Bun hangs"
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -16153,6 +15722,13 @@ p {
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.exljbris.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -16177,6 +15753,12 @@ p {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Drawing_graphics",
                       messages: [
+                        {
+                          message: "Unused image",
+                          data: [
+                            "walk-right.png"
+                          ]
+                        },
                         {
                           message: "Stylelint backlog",
                           data: [
@@ -16255,12 +15837,6 @@ h1 {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "External sandbox link",
-                          data: [
-                            "https://codepen.io/mikethomas/pen/kQjKLW"
                           ]
                         }
                       ]
@@ -27393,13 +26969,6 @@ textarea:focus {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -27427,6 +26996,23 @@ textarea:focus {
                         }
                       ]
                     },
+                    first_steps: {
+                      children: {
+                        web_frameworks: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.techuseful.com/drone-definitions-learning-the-drone-lingo/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     node_server_without_framework: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Node_server_without_framework",
@@ -27449,17 +27035,17 @@ textarea:focus {
                           message: "Stylelint backlog",
                           data: [
                             "alpha-value-notation",
-                            'Expected "75%" to be "0.75" (alpha-value-notation)',
-                            "  background-color: rgb(255 0 0 / 75%);",
+                            'Expected "90%" to be "0.9" (alpha-value-notation)',
+                            "  background-color: rgb(255 0 0 / 90%);",
                             "5:35 - 5:38",
                             `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
-[alpha-value-notation] Expected "75%" to be "0.75" (alpha-value-notation)
+[alpha-value-notation] Expected "90%" to be "0.9" (alpha-value-notation)
 ~~~
 button {
   /* … */
 
   background-color: red;
-  background-color: rgb(255 0 0 / 75%);
+  background-color: rgb(255 0 0 / 90%);
   box-shadow:
     inset 3px 3px 3px rgb(255 255 255 / 40%),
     inset -3px -3px 3px rgb(0 0 0 / 40%);
@@ -27467,7 +27053,7 @@ button {
 
 button:hover,
 button:focus {
-  background-color: rgb(255 0 0 / 100%);
+  background-color: rgb(255 0 0 / 50%);
 }
 
 button:active {
@@ -27493,7 +27079,7 @@ button {
   /* … */
 
   background-color: red;
-  background-color: rgb(255 0 0 / 75%);
+  background-color: rgb(255 0 0 / 90%);
   box-shadow:
     inset 3px 3px 3px rgb(255 255 255 / 40%),
     inset -3px -3px 3px rgb(0 0 0 / 40%);
@@ -27501,7 +27087,7 @@ button {
 
 button:hover,
 button:focus {
-  background-color: rgb(255 0 0 / 100%);
+  background-color: rgb(255 0 0 / 50%);
 }
 
 button:active {
@@ -27527,7 +27113,7 @@ button {
   /* … */
 
   background-color: red;
-  background-color: rgb(255 0 0 / 75%);
+  background-color: rgb(255 0 0 / 90%);
   box-shadow:
     inset 3px 3px 3px rgb(255 255 255 / 40%),
     inset -3px -3px 3px rgb(0 0 0 / 40%);
@@ -27535,7 +27121,7 @@ button {
 
 button:hover,
 button:focus {
-  background-color: rgb(255 0 0 / 100%);
+  background-color: rgb(255 0 0 / 50%);
 }
 
 button:active {
@@ -27551,17 +27137,17 @@ button:active {
                           message: "Stylelint backlog",
                           data: [
                             "alpha-value-notation",
-                            'Expected "100%" to be "1" (alpha-value-notation)',
-                            "  background-color: rgb(255 0 0 / 100%);",
-                            "13:35 - 13:39",
+                            'Expected "50%" to be "0.5" (alpha-value-notation)',
+                            "  background-color: rgb(255 0 0 / 50%);",
+                            "13:35 - 13:38",
                             `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
-[alpha-value-notation] Expected "100%" to be "1" (alpha-value-notation)
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
 ~~~
 button {
   /* … */
 
   background-color: red;
-  background-color: rgb(255 0 0 / 75%);
+  background-color: rgb(255 0 0 / 90%);
   box-shadow:
     inset 3px 3px 3px rgb(255 255 255 / 40%),
     inset -3px -3px 3px rgb(0 0 0 / 40%);
@@ -27569,7 +27155,7 @@ button {
 
 button:hover,
 button:focus {
-  background-color: rgb(255 0 0 / 100%);
+  background-color: rgb(255 0 0 / 50%);
 }
 
 button:active {
@@ -27595,7 +27181,7 @@ button {
   /* … */
 
   background-color: red;
-  background-color: rgb(255 0 0 / 75%);
+  background-color: rgb(255 0 0 / 90%);
   box-shadow:
     inset 3px 3px 3px rgb(255 255 255 / 40%),
     inset -3px -3px 3px rgb(0 0 0 / 40%);
@@ -27603,7 +27189,7 @@ button {
 
 button:hover,
 button:focus {
-  background-color: rgb(255 0 0 / 100%);
+  background-color: rgb(255 0 0 / 50%);
 }
 
 button:active {
@@ -27629,7 +27215,7 @@ button {
   /* … */
 
   background-color: red;
-  background-color: rgb(255 0 0 / 75%);
+  background-color: rgb(255 0 0 / 90%);
   box-shadow:
     inset 3px 3px 3px rgb(255 255 255 / 40%),
     inset -3px -3px 3px rgb(0 0 0 / 40%);
@@ -27637,41 +27223,7 @@ button {
 
 button:hover,
 button:focus {
-  background-color: rgb(255 0 0 / 100%);
-}
-
-button:active {
-  box-shadow:
-    inset 3px 3px 3px rgb(0 0 0 / 40%),
-    inset -3px -3px 3px rgb(255 255 255 / 40%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(255 0 0/100%)" to be "red" (color-named)',
-                            "  background-color: rgb(255 0 0 / 100%);",
-                            "13:21 - 13:40",
-                            `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
-[color-named] Expected "rgb(255 0 0/100%)" to be "red" (color-named)
-~~~
-button {
-  /* … */
-
-  background-color: red;
-  background-color: rgb(255 0 0 / 75%);
-  box-shadow:
-    inset 3px 3px 3px rgb(255 255 255 / 40%),
-    inset -3px -3px 3px rgb(0 0 0 / 40%);
-}
-
-button:hover,
-button:focus {
-  background-color: rgb(255 0 0 / 100%);
+  background-color: rgb(255 0 0 / 50%);
 }
 
 button:active {
@@ -27697,7 +27249,7 @@ button {
   /* … */
 
   background-color: red;
-  background-color: rgb(255 0 0 / 75%);
+  background-color: rgb(255 0 0 / 90%);
   box-shadow:
     inset 3px 3px 3px rgb(255 255 255 / 40%),
     inset -3px -3px 3px rgb(0 0 0 / 40%);
@@ -27705,7 +27257,7 @@ button {
 
 button:hover,
 button:focus {
-  background-color: rgb(255 0 0 / 100%);
+  background-color: rgb(255 0 0 / 50%);
 }
 
 button:active {
@@ -27721,11 +27273,11 @@ button:active {
                           message: "Stylelint backlog",
                           data: [
                             "alpha-value-notation",
-                            'Expected "75%" to be "0.75" (alpha-value-notation)',
-                            "  background-color: rgb(255 0 0 / 75%);",
+                            'Expected "90%" to be "0.9" (alpha-value-notation)',
+                            "  background-color: rgb(255 0 0 / 90%);",
                             "19:35 - 19:38",
                             `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
-[alpha-value-notation] Expected "75%" to be "0.75" (alpha-value-notation)
+[alpha-value-notation] Expected "90%" to be "0.9" (alpha-value-notation)
 ~~~
 html {
   font-family: sans-serif;
@@ -27745,7 +27297,7 @@ button {
   cursor: pointer;
 
   background-color: red;
-  background-color: rgb(255 0 0 / 75%);
+  background-color: rgb(255 0 0 / 90%);
   box-shadow:
     inset 3px 3px 3px rgb(255 255 255 / 40%),
     inset -3px -3px 3px rgb(0 0 0 / 40%);
@@ -27753,7 +27305,7 @@ button {
 
 button:hover,
 button:focus {
-  background-color: rgb(255 0 0 / 100%);
+  background-color: rgb(255 0 0 / 50%);
 }
 
 button:active {
@@ -27799,7 +27351,7 @@ button {
   cursor: pointer;
 
   background-color: red;
-  background-color: rgb(255 0 0 / 75%);
+  background-color: rgb(255 0 0 / 90%);
   box-shadow:
     inset 3px 3px 3px rgb(255 255 255 / 40%),
     inset -3px -3px 3px rgb(0 0 0 / 40%);
@@ -27807,7 +27359,7 @@ button {
 
 button:hover,
 button:focus {
-  background-color: rgb(255 0 0 / 100%);
+  background-color: rgb(255 0 0 / 50%);
 }
 
 button:active {
@@ -27853,7 +27405,7 @@ button {
   cursor: pointer;
 
   background-color: red;
-  background-color: rgb(255 0 0 / 75%);
+  background-color: rgb(255 0 0 / 90%);
   box-shadow:
     inset 3px 3px 3px rgb(255 255 255 / 40%),
     inset -3px -3px 3px rgb(0 0 0 / 40%);
@@ -27861,7 +27413,7 @@ button {
 
 button:hover,
 button:focus {
-  background-color: rgb(255 0 0 / 100%);
+  background-color: rgb(255 0 0 / 50%);
 }
 
 button:active {
@@ -27883,11 +27435,11 @@ body {
                           message: "Stylelint backlog",
                           data: [
                             "alpha-value-notation",
-                            'Expected "100%" to be "1" (alpha-value-notation)',
-                            "  background-color: rgb(255 0 0 / 100%);",
-                            "27:35 - 27:39",
+                            'Expected "50%" to be "0.5" (alpha-value-notation)',
+                            "  background-color: rgb(255 0 0 / 50%);",
+                            "27:35 - 27:38",
                             `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
-[alpha-value-notation] Expected "100%" to be "1" (alpha-value-notation)
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
 ~~~
 html {
   font-family: sans-serif;
@@ -27907,7 +27459,7 @@ button {
   cursor: pointer;
 
   background-color: red;
-  background-color: rgb(255 0 0 / 75%);
+  background-color: rgb(255 0 0 / 90%);
   box-shadow:
     inset 3px 3px 3px rgb(255 255 255 / 40%),
     inset -3px -3px 3px rgb(0 0 0 / 40%);
@@ -27915,7 +27467,7 @@ button {
 
 button:hover,
 button:focus {
-  background-color: rgb(255 0 0 / 100%);
+  background-color: rgb(255 0 0 / 50%);
 }
 
 button:active {
@@ -27961,7 +27513,7 @@ button {
   cursor: pointer;
 
   background-color: red;
-  background-color: rgb(255 0 0 / 75%);
+  background-color: rgb(255 0 0 / 90%);
   box-shadow:
     inset 3px 3px 3px rgb(255 255 255 / 40%),
     inset -3px -3px 3px rgb(0 0 0 / 40%);
@@ -27969,7 +27521,7 @@ button {
 
 button:hover,
 button:focus {
-  background-color: rgb(255 0 0 / 100%);
+  background-color: rgb(255 0 0 / 50%);
 }
 
 button:active {
@@ -28015,7 +27567,7 @@ button {
   cursor: pointer;
 
   background-color: red;
-  background-color: rgb(255 0 0 / 75%);
+  background-color: rgb(255 0 0 / 90%);
   box-shadow:
     inset 3px 3px 3px rgb(255 255 255 / 40%),
     inset -3px -3px 3px rgb(0 0 0 / 40%);
@@ -28023,61 +27575,7 @@ button {
 
 button:hover,
 button:focus {
-  background-color: rgb(255 0 0 / 100%);
-}
-
-button:active {
-  box-shadow:
-    inset 3px 3px 3px rgb(0 0 0 / 40%),
-    inset -3px -3px 3px rgb(255 255 255 / 40%);
-}
-
-body {
-  height: inherit;
-  display: flex;
-  align-items: center;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(255 0 0/100%)" to be "red" (color-named)',
-                            "  background-color: rgb(255 0 0 / 100%);",
-                            "27:21 - 27:40",
-                            `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
-[color-named] Expected "rgb(255 0 0/100%)" to be "red" (color-named)
-~~~
-html {
-  font-family: sans-serif;
-  height: 100%;
-}
-
-button {
-  width: 150px;
-  margin: auto;
-  line-height: 2;
-  font-size: 1.1rem;
-  text-align: center;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  border-radius: 20px / 15px;
-  border: none;
-  cursor: pointer;
-
-  background-color: red;
-  background-color: rgb(255 0 0 / 75%);
-  box-shadow:
-    inset 3px 3px 3px rgb(255 255 255 / 40%),
-    inset -3px -3px 3px rgb(0 0 0 / 40%);
-}
-
-button:hover,
-button:focus {
-  background-color: rgb(255 0 0 / 100%);
+  background-color: rgb(255 0 0 / 50%);
 }
 
 button:active {
@@ -28123,7 +27621,7 @@ button {
   cursor: pointer;
 
   background-color: red;
-  background-color: rgb(255 0 0 / 75%);
+  background-color: rgb(255 0 0 / 90%);
   box-shadow:
     inset 3px 3px 3px rgb(255 255 255 / 40%),
     inset -3px -3px 3px rgb(0 0 0 / 40%);
@@ -28131,7 +27629,7 @@ button {
 
 button:hover,
 button:focus {
-  background-color: rgb(255 0 0 / 100%);
+  background-color: rgb(255 0 0 / 50%);
 }
 
 button:active {
@@ -28200,13 +27698,6 @@ html {
                         {
                           message: "Unreachable via page",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webaim.org/resources/contrastchecker/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -28609,22 +28100,8 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://mail.gnu.org/mailman/listinfo/help-gnu-emacs",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "The operation timed out."
+                            "Unable to connect. Is the computer able to access the url?"
                           ]
                         },
                         {
@@ -28963,17 +28440,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     }
                                   ]
@@ -28997,17 +28474,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "Cannot reach server and Bun hangs"
                                       ]
                                     }
                                   ]
@@ -29016,10 +28493,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "HTTP link",
+                                  message: "Broken external link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    ""
+                                    "Cannot reach server and Bun hangs"
                                   ]
                                 }
                               ]
@@ -30905,28 +30382,7 @@ webextensions.manifest.options_ui`,
                     reference: {
                       children: {
                         attributes: {
-                          children: {
-                            "aria-keyshortcuts": {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-keyshortcuts",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://webaim.org/techniques/keyboard/accesskey",
-                                    "Cannot reach server and Bun hangs"
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://webaim.org/techniques/keyboard/accesskey",
-                                    "Cannot reach server and Bun hangs"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
+                          children: {},
                           slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes",
                           messages: [
                             {
@@ -30936,60 +30392,13 @@ webextensions.manifest.options_ui`,
                               ]
                             }
                           ]
-                        },
-                        roles: {
-                          children: {
-                            main_role: {
-                              children: {},
-                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/main_role",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://webaim.org/techniques/skipnav/",
-                                    "Cannot reach server and Bun hangs"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
                         }
                       }
                     }
-                  },
-                  slug: "/en-US/docs/Web/Accessibility/ARIA",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webaim.org/projects/million/",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 guides: {
                   children: {
-                    cognitive_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Accessibility/Guides/Cognitive_accessibility",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webaim.org/articles/cognitive/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webaim.org/articles/cognitive/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     colors_and_luminance: {
                       children: {},
                       slug: "/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance",
@@ -31209,33 +30618,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webaim.org/resources/contrastchecker/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webaim.org/articles/contrast/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    information_for_web_authors: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Accessibility/Guides/Information_for_Web_authors",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://wave.webaim.org/extension/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -31250,13 +30632,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://webaim.org/resources/contrastchecker/",
-                                    "Cannot reach server and Bun hangs"
-                                  ]
                                 }
                               ]
                             },
@@ -34665,99 +34040,6 @@ aside {
                     }
                   }
                 },
-                periodicsyncevent: {
-                  children: {
-                    periodicsyncevent: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PeriodicSyncEvent/PeriodicSyncEvent",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "https://www.spacepioneergame.com/"
-                          ]
-                        }
-                      ]
-                    },
-                    tag: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PeriodicSyncEvent/tag",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "https://www.spacepioneergame.com/"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/PeriodicSyncEvent",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                        "https://www.spacepioneergame.com/"
-                      ]
-                    }
-                  ]
-                },
-                periodicsyncmanager: {
-                  children: {
-                    gettags: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PeriodicSyncManager/getTags",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "https://www.spacepioneergame.com/"
-                          ]
-                        }
-                      ]
-                    },
-                    register: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PeriodicSyncManager/register",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "https://www.spacepioneergame.com/"
-                          ]
-                        }
-                      ]
-                    },
-                    unregister: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PeriodicSyncManager/unregister",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "https://www.spacepioneergame.com/"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/PeriodicSyncManager",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                        "https://www.spacepioneergame.com/"
-                      ]
-                    }
-                  ]
-                },
                 pointer_events: {
                   children: {
                     "multi-touch_interaction": {
@@ -35334,71 +34616,6 @@ html {
                     }
                   ]
                 },
-                readablebytestreamcontroller: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/ReadableByteStreamController",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/stardazed/sd-streams",
-                        404
-                      ]
-                    }
-                  ]
-                },
-                readablestream: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/ReadableStream",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/stardazed/sd-streams",
-                        404
-                      ]
-                    }
-                  ]
-                },
-                readablestreambyobreader: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/ReadableStreamBYOBReader",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/stardazed/sd-streams",
-                        404
-                      ]
-                    }
-                  ]
-                },
-                readablestreamdefaultcontroller: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/ReadableStreamDefaultController",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/stardazed/sd-streams",
-                        404
-                      ]
-                    }
-                  ]
-                },
-                readablestreamdefaultreader: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/ReadableStreamDefaultReader",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/stardazed/sd-streams",
-                        404
-                      ]
-                    }
-                  ]
-                },
                 request: {
                   children: {
                     duplex: {
@@ -35692,53 +34909,6 @@ html {
                             "api.EventSource",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                serviceworkerglobalscope: {
-                  children: {
-                    periodicsync_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ServiceWorkerGlobalScope/periodicsync_event",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "https://www.spacepioneergame.com/"
-                          ]
-                        }
-                      ]
-                    },
-                    sync_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ServiceWorkerGlobalScope/sync_event",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "https://www.spacepioneergame.com/"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                serviceworkerregistration: {
-                  children: {
-                    periodicsync: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ServiceWorkerRegistration/periodicSync",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                            "https://www.spacepioneergame.com/"
                           ]
                         }
                       ]
@@ -36673,19 +35843,6 @@ body {
                     }
                   ]
                 },
-                web_periodic_background_synchronization_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Web_Periodic_Background_Synchronization_API",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://webplatformapis.com/periodic_sync/periodicSync_improved.html",
-                        "https://www.spacepioneergame.com/"
-                      ]
-                    }
-                  ]
-                },
                 web_storage_api: {
                   children: {
                     using_the_web_storage_api: {
@@ -36873,19 +36030,6 @@ body {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    open: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/open",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webaim.org/techniques/hypertext/hypertext_links",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -38541,19 +37685,6 @@ ul::column::scroll-marker:target-current {
                     }
                   ]
                 },
-                _doublecolon_placeholder: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::placeholder",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webaim.org/resources/contrastchecker/",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
-                },
                 "_doublecolon_scroll-marker-group": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/::scroll-marker-group",
@@ -38842,19 +37973,6 @@ ul::scroll-marker-group {
 }
 ~~~
 `
-                      ]
-                    }
-                  ]
-                },
-                _doublecolon_selection: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::selection",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webaim.org/resources/contrastchecker/",
-                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -42887,32 +42005,6 @@ p {
                     }
                   ]
                 },
-                "background-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-color",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webaim.org/resources/contrastchecker/",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
-                },
-                "background-image": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-image",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webaim.org/resources/contrastchecker/",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
-                },
                 "background-origin": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/background-origin",
@@ -44178,13 +43270,6 @@ p {
 ~~~
 `
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webaim.org/resources/contrastchecker/",
-                        "Cannot reach server and Bun hangs"
-                      ]
                     }
                   ]
                 },
@@ -44284,19 +43369,6 @@ color(from hsl(0 100% 50%) xyz calc(x - 0.3) calc(y + 0.3) calc(z + 0.3) / calc(
 /* Computed output color: color(xyz-d65 0.112426 0.512648 0.319317 / 0.9) */
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    "contrast-color": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/color_value/contrast-color",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webaim.org/resources/contrastchecker/",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -75166,13 +74238,6 @@ div {
 ~~~
 `
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webaim.org/techniques/css/invisiblecontent/",
-                        "Cannot reach server and Bun hangs"
-                      ]
                     }
                   ]
                 },
@@ -84266,19 +83331,6 @@ p {
                           ]
                         }
                       ]
-                    },
-                    pagination: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/Layout_cookbook/Pagination",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webaim.org/techniques/css/invisiblecontent/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -85652,26 +84704,6 @@ img.opacity:hover {
 }
 ~~~
 `
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webaim.org/resources/contrastchecker/",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
-                },
-                "outline-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/outline-color",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webaim.org/resources/contrastchecker/",
-                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -88325,15 +87357,62 @@ css.properties.list-style-type.symbols`
                     }
                   ]
                 },
-                "text-decoration-color": {
+                "text-autospace": {
                   children: {},
-                  slug: "/en-US/docs/Web/CSS/text-decoration-color",
+                  slug: "/en-US/docs/Web/CSS/text-autospace",
                   messages: [
                     {
-                      message: "Broken external link",
+                      message: "Bad DL",
                       data: [
-                        "https://webaim.org/resources/contrastchecker/",
-                        "Cannot reach server and Bun hangs"
+                        ": Disables automatic spacing between CJK and non-C"
+                      ]
+                    },
+                    {
+                      message: "Bad DL",
+                      data: [
+                        ": Adds spacing only between ideographic characters"
+                      ]
+                    },
+                    {
+                      message: "Bad DL",
+                      data: [
+                        ": Adds spacing only between ideographic characters"
+                      ]
+                    },
+                    {
+                      message: "Bad DL",
+                      data: [
+                        ": Adds non-breaking spacing around punctuation as "
+                      ]
+                    },
+                    {
+                      message: "Bad DL",
+                      data: [
+                        ": Adds the specified spacing only if there are no "
+                      ]
+                    },
+                    {
+                      message: "Bad DL",
+                      data: [
+                        ": Replaces existing spacing (such as U+0020) betwe"
+                      ]
+                    },
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Broken anchor",
+                      data: [
+                        "#ideograph-alpha"
+                      ]
+                    },
+                    {
+                      message: "Broken anchor",
+                      data: [
+                        "#ideograph-numeric"
                       ]
                     }
                   ]
@@ -91053,23 +90132,6 @@ section {
             },
             html: {
               children: {
-                guides: {
-                  children: {
-                    quirks_mode_and_standards_mode: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Guides/Quirks_mode_and_standards_mode",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://hsivonen.fi/doctype/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 how_to: {
                   children: {
                     add_javascript_to_your_web_page: {
@@ -91363,52 +90425,6 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
-                        a: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://webaim.org/techniques/hypertext/hypertext_links",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://webaim.org/techniques/skipnav/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
-                        audio: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/audio",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://webaim.org/techniques/captions/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
-                        button: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://webaim.org/resources/contrastchecker/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         caption: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/caption",
@@ -92083,13 +91099,6 @@ header {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://webaim.org/techniques/skipnav/",
-                                "Cannot reach server and Bun hangs"
-                              ]
                             }
                           ]
                         },
@@ -92516,37 +91525,11 @@ tfoot td {
                               ]
                             }
                           ]
-                        },
-                        video: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/video",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://webaim.org/techniques/captions/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
                         }
                       }
                     },
                     global_attributes: {
                       children: {
-                        accesskey: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/accesskey",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://webaim.org/techniques/keyboard/accesskey",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         contenteditable: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/contenteditable",
@@ -92954,27 +91937,6 @@ h2 {
                           ]
                         }
                       ]
-                    },
-                    operators: {
-                      children: {
-                        "import.meta": {
-                          children: {
-                            resolve: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Operators/import.meta/resolve",
-                              messages: [
-                                {
-                                  message: "Redirected external link",
-                                  data: [
-                                    "https://docs.deno.com/runtime/reference/deno_namespace_apis/",
-                                    "https://docs.deno.com/api/deno/"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        }
-                      }
                     },
                     statements: {
                       children: {
