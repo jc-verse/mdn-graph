@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-15mv7mtt.js";
+} from "./chunk-g0de4kgh.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -20,6 +20,23 @@ var warnings_processed_default = {
                   ]
                 }
               ]
+            },
+            publishing_games: {
+              children: {
+                game_promotion: {
+                  children: {},
+                  slug: "/en-US/docs/Games/Publishing_games/Game_promotion",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://indiegamesplus.com/",
+                        "Unable to connect. Is the computer able to access the url?"
+                      ]
+                    }
+                  ]
+                }
+              }
             },
             tools: {
               children: {
@@ -489,16 +506,6 @@ div.warning {
                 }
               ]
             },
-            fragmentainer: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Fragmentainer",
-              messages: [
-                {
-                  message: "Unreachable via page",
-                  data: []
-                }
-              ]
-            },
             ftu: {
               children: {},
               slug: "/en-US/docs/Glossary/FTU",
@@ -537,7 +544,14 @@ div.warning {
                   message: "Broken external link",
                   data: [
                     "https://www.gnu.org/licenses/gpl-faq.html",
-                    "The operation timed out."
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
                   ]
                 }
               ]
@@ -1018,6 +1032,19 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -10155,7 +10182,7 @@ button {
                           message: "Broken external link",
                           data: [
                             "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "The operation timed out."
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -15721,13 +15748,6 @@ p {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.exljbris.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -26969,6 +26989,13 @@ textarea:focus {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -26995,23 +27022,6 @@ textarea:focus {
                           data: []
                         }
                       ]
-                    },
-                    first_steps: {
-                      children: {
-                        web_frameworks: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.techuseful.com/drone-definitions-learning-the-drone-lingo/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     },
                     node_server_without_framework: {
                       children: {},
@@ -28100,8 +28110,22 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://mail.gnu.org/mailman/listinfo/help-gnu-emacs",
-                            "Unable to connect. Is the computer able to access the url?"
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
                           ]
                         },
                         {
@@ -28120,6 +28144,32 @@ body * {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -28440,17 +28490,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     }
                                   ]
@@ -28474,17 +28524,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     }
                                   ]
@@ -28493,10 +28543,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "Broken external link",
+                                  message: "HTTP link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    "Cannot reach server and Bun hangs"
+                                    ""
                                   ]
                                 }
                               ]
@@ -29141,6 +29191,19 @@ webextensions.api.clipboard`,
                     },
                     "manifest.json": {
                       children: {
+                        commands: {
+                          children: {},
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/commands",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://bug1303384.bmoattachments.org/attachment.cgi?id=9051647",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         version: {
                           children: {
                             format: {
@@ -30125,6 +30188,45 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://asmjs.org/spec/latest/",
                             ""
+                          ]
+                        }
+                      ]
+                    },
+                    "27": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/27",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://bugzilla.mozilla.org/buglist.cgi?resolution=FIXED&component=Marionette&product=Testing&target_milestone=mozilla27",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "43": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/43",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://bugzilla.mozilla.org/buglist.cgi?resolution=FIXED&classification=Client%20Software&chfieldto=2015-09-19&query_format=advanced&chfield=resolution&chfieldfrom=2015-08-10&chfieldvalue=FIXED&bug_status=RESOLVED&bug_status=VERIFIED&component=Developer%20Tools&component=Developer%20Tools%3A%203D%20View&component=Developer%20Tools%3A%20Canvas%20Debugger&component=Developer%20Tools%3A%20Console&component=Developer%20Tools%3A%20Debugger&component=Developer%20Tools%3A%20Framework&component=Developer%20Tools%3A%20Graphic%20Commandline%20and%20Toolbar&component=Developer%20Tools%3A%20Inspector&component=Developer%20Tools%3A%20Memory&component=Developer%20Tools%3A%20Netmonitor&component=Developer%20Tools%3A%20Object%20Inspector&component=Developer%20Tools%3A%20Performance%20Tools%20%28Profiler%2FTimeline%29&component=Developer%20Tools%3A%20Responsive%20Mode&component=Developer%20Tools%3A%20Scratchpad&component=Developer%20Tools%3A%20Source%20Editor&component=Developer%20Tools%3A%20Storage%20Inspector&component=Developer%20Tools%3A%20Style%20Editor&component=Developer%20Tools%3A%20User%20Stories&component=Developer%20Tools%3A%20Web%20Audio%20Editor&component=Developer%20Tools%3A%20WebGL%20Shader%20Editor&component=Developer%20Tools%3A%20WebIDE&product=Firefox&list_id=12582678",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "101": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/101",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://bugzilla.mozilla.org/buglist.cgi?component=Agent&component=Marionette&component=WebDriver%20BiDi&v1=fixed&query_format=advanced&f1=cf_status_firefox101&o1=equals&product=Remote%20Protocol&product=Testing&j_top=OR&list_id=16095473&resolution=FIXED",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -34558,6 +34660,19 @@ html {
                     }
                   }
                 },
+                presentation_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Presentation_API",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://developer.apple.com/airplay/",
+                        "https://developer.apple.com/documentation/technologyoverviews/streaming"
+                      ]
+                    }
+                  ]
+                },
                 profiler: {
                   children: {
                     samplebufferfull_event: {
@@ -35880,6 +35995,27 @@ api.Window.sessionStorage`,
                       ]
                     }
                   ]
+                },
+                webgl_api: {
+                  children: {
+                    tutorial: {
+                      children: {
+                        adding_2d_content_to_a_webgl_context: {
+                          children: {},
+                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Adding_2D_content_to_a_WebGL_context",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://mathworld.wolfram.com/Matrix.html",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
                 },
                 webrtc_api: {
                   children: {
@@ -59223,6 +59359,30 @@ css.at-rules.font-face.WOFF_2`,
                     }
                   ]
                 },
+                css_fragmentation: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/CSS_fragmentation",
+                  messages: [
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/@media/horizontal-viewport-segments"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/@media/vertical-viewport-segments"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/API/Viewport_segments_API"
+                      ]
+                    }
+                  ]
+                },
                 css_generated_content: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/CSS_generated_content",
@@ -71660,19 +71820,6 @@ article.snapDisabled ul {
                     }
                   ]
                 },
-                css_shapes: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/CSS_shapes",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webdesignerdepot.com/how-to-get-started-with-css-shapes/",
-                        500
-                      ]
-                    }
-                  ]
-                },
                 css_text: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/CSS_text",
@@ -74109,6 +74256,48 @@ main {
                     }
                   }
                 },
+                css_viewport: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/CSS_viewport",
+                  messages: [
+                    {
+                      message: "Code with space",
+                      data: [
+                        "Viewport Segments"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/API/Window/Viewport"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/API/Viewport_Segments"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/API/Viewport_segments_API/Using"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/media/horizontal-viewport-segments"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/media/vertical-viewport-segments"
+                      ]
+                    }
+                  ]
+                },
                 css_writing_modes: {
                   children: {
                     vertical_controls: {
@@ -74118,6 +74307,22 @@ main {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    }
+                  }
+                },
+                cssom_view: {
+                  children: {
+                    viewport_concepts: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSSOM_view/Viewport_concepts",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/Viewport_API"
+                          ]
                         }
                       ]
                     }
@@ -90132,6 +90337,131 @@ section {
             },
             html: {
               children: {
+                guides: {
+                  children: {
+                    microformats: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Guides/Microformats",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/Main_Page",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/microformats2",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-card",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-card",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-entry",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-feed",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/microformats2",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/value-class-pattern",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-card",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-entry",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-feed",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/h-entry",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/rel-values",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/Main_Page",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://microformats.org/wiki/search_engines",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/HTML/Guides",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://microformats.org/wiki/Main_Page",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 how_to: {
                   children: {
                     add_javascript_to_your_web_page: {
@@ -90191,6 +90521,40 @@ html.elements.optgroup.disabled
 html.elements.option.disabled
 html.elements.select.disabled
 html.elements.textarea.disabled`
+                              ]
+                            }
+                          ]
+                        },
+                        rel: {
+                          children: {
+                            me: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/me",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://microformats.org/wiki/RelMeAuth",
+                                    "The operation timed out."
+                                  ]
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://microformats.org/wiki/web-sign-in",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://microformats.org/wiki/existing-rel-values",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -91713,6 +92077,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -91865,6 +92242,23 @@ h2 {
                     },
                     global_objects: {
                       children: {
+                        array: {
+                          children: {
+                            map: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://wirfs-brock.com/allen/posts/166",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
                         asyncgeneratorfunction: {
                           children: {
                             prototype: {
@@ -91977,6 +92371,19 @@ h2 {
                   children: {
                     formats: {
                       children: {
+                        configuring_servers_for_ogg_media: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Configuring_servers_for_Ogg_media",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://gitlab.xiph.org/xiph/ffmpeg2theora",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -91991,6 +92398,27 @@ h2 {
                           ]
                         }
                       }
+                    }
+                  }
+                }
+              }
+            },
+            performance: {
+              children: {
+                guides: {
+                  children: {
+                    fundamentals: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Performance/Guides/Fundamentals",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.slideshare.net/firt/mobile-web-high-performance",
+                            "https://www.slideshare.net/slideshow/mobile-web-high-performance/4586529"
+                          ]
+                        }
+                      ]
                     }
                   }
                 }
