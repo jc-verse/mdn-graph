@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-g0de4kgh.js";
+} from "./chunk-ccy6gxh5.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -20,23 +20,6 @@ var warnings_processed_default = {
                   ]
                 }
               ]
-            },
-            publishing_games: {
-              children: {
-                game_promotion: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Publishing_games/Game_promotion",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://indiegamesplus.com/",
-                        "Unable to connect. Is the computer able to access the url?"
-                      ]
-                    }
-                  ]
-                }
-              }
             },
             tools: {
               children: {
@@ -29191,19 +29174,6 @@ webextensions.api.clipboard`,
                     },
                     "manifest.json": {
                       children: {
-                        commands: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/commands",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://bug1303384.bmoattachments.org/attachment.cgi?id=9051647",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         version: {
                           children: {
                             format: {
@@ -30192,40 +30162,27 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "27": {
+                    "122": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/27",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/122",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://bugzilla.mozilla.org/buglist.cgi?resolution=FIXED&component=Marionette&product=Testing&target_milestone=mozilla27",
+                            "https://whattrainisitnow.com/release/?version=122",
                             "The operation timed out."
                           ]
                         }
                       ]
                     },
-                    "43": {
+                    "136": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/43",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/136",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://bugzilla.mozilla.org/buglist.cgi?resolution=FIXED&classification=Client%20Software&chfieldto=2015-09-19&query_format=advanced&chfield=resolution&chfieldfrom=2015-08-10&chfieldvalue=FIXED&bug_status=RESOLVED&bug_status=VERIFIED&component=Developer%20Tools&component=Developer%20Tools%3A%203D%20View&component=Developer%20Tools%3A%20Canvas%20Debugger&component=Developer%20Tools%3A%20Console&component=Developer%20Tools%3A%20Debugger&component=Developer%20Tools%3A%20Framework&component=Developer%20Tools%3A%20Graphic%20Commandline%20and%20Toolbar&component=Developer%20Tools%3A%20Inspector&component=Developer%20Tools%3A%20Memory&component=Developer%20Tools%3A%20Netmonitor&component=Developer%20Tools%3A%20Object%20Inspector&component=Developer%20Tools%3A%20Performance%20Tools%20%28Profiler%2FTimeline%29&component=Developer%20Tools%3A%20Responsive%20Mode&component=Developer%20Tools%3A%20Scratchpad&component=Developer%20Tools%3A%20Source%20Editor&component=Developer%20Tools%3A%20Storage%20Inspector&component=Developer%20Tools%3A%20Style%20Editor&component=Developer%20Tools%3A%20User%20Stories&component=Developer%20Tools%3A%20Web%20Audio%20Editor&component=Developer%20Tools%3A%20WebGL%20Shader%20Editor&component=Developer%20Tools%3A%20WebIDE&product=Firefox&list_id=12582678",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "101": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/101",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://bugzilla.mozilla.org/buglist.cgi?component=Agent&component=Marionette&component=WebDriver%20BiDi&v1=fixed&query_format=advanced&f1=cf_status_firefox101&o1=equals&product=Remote%20Protocol&product=Testing&j_top=OR&list_id=16095473&resolution=FIXED",
+                            "https://whattrainisitnow.com/release/?version=136",
                             "The operation timed out."
                           ]
                         }
@@ -31749,6 +31706,28 @@ p {
                       ]
                     }
                   ]
+                },
+                document: {
+                  children: {
+                    prerendering: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document/prerendering",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental",
+                              "non-standard"
+                            ],
+                            [
+                              "experimental"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 element: {
                   children: {
@@ -34142,6 +34121,28 @@ aside {
                     }
                   }
                 },
+                performancenavigationtiming: {
+                  children: {
+                    activationstart: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/PerformanceNavigationTiming/activationStart",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental",
+                              "non-standard"
+                            ],
+                            [
+                              "experimental"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 pointer_events: {
                   children: {
                     "multi-touch_interaction": {
@@ -35092,6 +35093,41 @@ html {
                     }
                   ]
                 },
+                speculation_rules_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Speculation_Rules_API",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "experimental",
+                          "non-standard"
+                        ],
+                        [
+                          "experimental"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                subtlecrypto: {
+                  children: {
+                    sign: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SubtleCrypto/sign",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://standards.ieee.org/ieee/1363/2049/",
+                            500
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 summarizer_api: {
                   children: {
                     using: {
@@ -35995,27 +36031,6 @@ api.Window.sessionStorage`,
                       ]
                     }
                   ]
-                },
-                webgl_api: {
-                  children: {
-                    tutorial: {
-                      children: {
-                        adding_2d_content_to_a_webgl_context: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Adding_2D_content_to_a_WebGL_context",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://mathworld.wolfram.com/Matrix.html",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
                 },
                 webrtc_api: {
                   children: {
@@ -42233,6 +42248,168 @@ p {
   width: 400px;
   background-origin: padding-box, content-box;
   background-repeat: no-repeat;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "border-radius": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/border-radius",
+                  messages: [
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "superellipse(0.5)" for property "corner-shape" (declaration-property-value-no-unknown)',
+                        "  corner-shape: superellipse(0.5) bevel notch squircle;",
+                        "24:17 - 24:34",
+                        `/en-US/docs/Web/CSS/border-radius
+[declaration-property-value-no-unknown] Unexpected unknown value "superellipse(0.5)" for property "corner-shape" (declaration-property-value-no-unknown)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 0 20% 50px 30%;
+  corner-shape: superellipse(0.5) bevel notch squircle;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/border-radius
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 0 20% 50px 30%;
+  corner-shape: superellipse(0.5) bevel notch squircle;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/border-radius
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 0 20% 50px 30%;
+  corner-shape: superellipse(0.5) bevel notch squircle;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "superellipse" (function-no-unknown)',
+                        "  corner-shape: superellipse(0.5) bevel notch squircle;",
+                        "24:17 - 24:29",
+                        `/en-US/docs/Web/CSS/border-radius
+[function-no-unknown] Unexpected unknown function "superellipse" (function-no-unknown)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 0 20% 50px 30%;
+  corner-shape: superellipse(0.5) bevel notch squircle;
 }
 ~~~
 `
@@ -55243,6 +55420,2006 @@ oklch(63.612% 0.1522 78.748)
                     }
                   ]
                 },
+                "corner-block-end-shape": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/corner-block-end-shape",
+                  messages: [
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/corner-block-end-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 80px / 40px;
+  corner-block-end-shape: notch square;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/corner-block-end-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 80px / 40px;
+  corner-block-end-shape: notch square;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "corner-block-start-shape": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/corner-block-start-shape",
+                  messages: [
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/corner-block-start-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: goldenrod;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 40px 60px;
+  corner-block-start-shape: scoop notch;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/corner-block-start-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: goldenrod;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 40px 60px;
+  corner-block-start-shape: scoop notch;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "corner-bottom-left-shape": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/corner-bottom-left-shape",
+                  messages: [
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/corner-bottom-left-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: goldenrod;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 80px 40% 60px 20%;
+  corner-bottom-left-shape: squircle;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/corner-bottom-left-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: goldenrod;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 80px 40% 60px 20%;
+  corner-bottom-left-shape: squircle;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "corner-bottom-right-shape": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/corner-bottom-right-shape",
+                  messages: [
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/corner-bottom-right-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 30% / 20%;
+  corner-bottom-right-shape: notch;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/corner-bottom-right-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 30% / 20%;
+  corner-bottom-right-shape: notch;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "corner-bottom-shape": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/corner-bottom-shape",
+                  messages: [
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/corner-bottom-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 60px 30px 20% 40%;
+  corner-bottom-shape: square squircle;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/corner-bottom-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 60px 30px 20% 40%;
+  corner-bottom-shape: square squircle;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "corner-end-end-shape": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/corner-end-end-shape",
+                  messages: [
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/corner-end-end-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 60px;
+  corner-end-end-shape: squircle;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/corner-end-end-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 60px;
+  corner-end-end-shape: squircle;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "corner-end-start-shape": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/corner-end-start-shape",
+                  messages: [
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/corner-end-start-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 60px / 20%;
+  corner-end-start-shape: bevel;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/corner-end-start-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 60px / 20%;
+  corner-end-start-shape: bevel;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "corner-inline-end-shape": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/corner-inline-end-shape",
+                  messages: [
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/corner-inline-end-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 15% 30%;
+  corner-inline-end-shape: bevel squircle;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/corner-inline-end-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 15% 30%;
+  corner-inline-end-shape: bevel squircle;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "corner-inline-start-shape": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/corner-inline-start-shape",
+                  messages: [
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/corner-inline-start-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 60px;
+  corner-inline-start-shape: square bevel;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/corner-inline-start-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 60px;
+  corner-inline-start-shape: square bevel;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "corner-left-shape": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/corner-left-shape",
+                  messages: [
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/corner-left-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 20px 40px / 60px 80px;
+  corner-left-shape: notch bevel;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/corner-left-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 20px 40px / 60px 80px;
+  corner-left-shape: notch bevel;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "corner-right-shape": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/corner-right-shape",
+                  messages: [
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/corner-right-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 20% 30% / 50% 40%;
+  corner-right-shape: square scoop;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/corner-right-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 20% 30% / 50% 40%;
+  corner-right-shape: square scoop;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "corner-shape": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/corner-shape",
+                  messages: [
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/corner-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  height: 180px;
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 30px;
+  corner-shape: scoop;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/corner-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  height: 180px;
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 30px;
+  corner-shape: scoop;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-named",
+                        'Expected "rgb(255 255 255/1)" to be "white" (color-named)',
+                        "  background-color: rgb(255 255 255 / 1);",
+                        "37:21 - 37:41",
+                        `/en-US/docs/Web/CSS/corner-shape
+[color-named] Expected "rgb(255 255 255/1)" to be "white" (color-named)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: inherit;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  width: 240px;
+  height: 180px;
+}
+
+body {
+  background: url("https://mdn.github.io/shared-assets/images/examples/leopard.jpg")
+    no-repeat;
+  background-size: cover;
+}
+
+div {
+  border-radius: 40px;
+  corner-shape: scoop notch;
+  background-color: rgb(255 255 255 / 0.2);
+  border-top: 3px solid blue;
+  border-left: 6px dashed red;
+  border-bottom: 9px solid yellow;
+  border-right: 12px double green;
+  backdrop-filter: invert(100%);
+}
+
+div:hover {
+  background-color: rgb(255 255 255 / 1);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "6:16 - 6:21",
+                        `/en-US/docs/Web/CSS/corner-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: inherit;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  width: 240px;
+  height: 180px;
+}
+
+body {
+  background: url("https://mdn.github.io/shared-assets/images/examples/leopard.jpg")
+    no-repeat;
+  background-size: cover;
+}
+
+div {
+  border-radius: 40px;
+  corner-shape: scoop notch;
+  background-color: rgb(255 255 255 / 0.2);
+  border-top: 3px solid blue;
+  border-left: 6px dashed red;
+  border-bottom: 9px solid yellow;
+  border-right: 12px double green;
+  backdrop-filter: invert(100%);
+}
+
+div:hover {
+  background-color: rgb(255 255 255 / 1);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "6:23 - 6:32",
+                        `/en-US/docs/Web/CSS/corner-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: inherit;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  width: 240px;
+  height: 180px;
+}
+
+body {
+  background: url("https://mdn.github.io/shared-assets/images/examples/leopard.jpg")
+    no-repeat;
+  background-size: cover;
+}
+
+div {
+  border-radius: 40px;
+  corner-shape: scoop notch;
+  background-color: rgb(255 255 255 / 0.2);
+  border-top: 3px solid blue;
+  border-left: 6px dashed red;
+  border-bottom: 9px solid yellow;
+  border-right: 12px double green;
+  backdrop-filter: invert(100%);
+}
+
+div:hover {
+  background-color: rgb(255 255 255 / 1);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/corner-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+select {
+  padding: 3px 5px;
+}
+
+form div:nth-of-type(2) {
+  margin-top: 5px;
+  display: flex;
+}
+
+section {
+  width: 100%;
+  height: 180px;
+  background-color: palegoldenrod;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+section {
+  box-shadow: 1px 1px 3px gray;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/corner-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+select {
+  padding: 3px 5px;
+}
+
+form div:nth-of-type(2) {
+  margin-top: 5px;
+  display: flex;
+}
+
+section {
+  width: 100%;
+  height: 180px;
+  background-color: palegoldenrod;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+section {
+  box-shadow: 1px 1px 3px gray;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/corner-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+form div {
+  margin-top: 5px;
+  display: flex;
+}
+
+section {
+  width: 100%;
+  height: 180px;
+  background-color: orange;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+section {
+  box-shadow: 1px 1px 3px gray;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/corner-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+form div {
+  margin-top: 5px;
+  display: flex;
+}
+
+section {
+  width: 100%;
+  height: 180px;
+  background-color: orange;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+section {
+  box-shadow: 1px 1px 3px gray;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "corner-shape-value": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/corner-shape-value",
+                  messages: [
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/corner-shape-value
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+select {
+  padding: 3px 5px;
+}
+
+form div:nth-of-type(2) {
+  margin-top: 5px;
+  display: flex;
+}
+
+section {
+  width: 100%;
+  height: 180px;
+  background-color: orange;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+section {
+  box-shadow: 1px 1px 3px gray;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/corner-shape-value
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+select {
+  padding: 3px 5px;
+}
+
+form div:nth-of-type(2) {
+  margin-top: 5px;
+  display: flex;
+}
+
+section {
+  width: 100%;
+  height: 180px;
+  background-color: orange;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+section {
+  box-shadow: 1px 1px 3px gray;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "corner-start-end-shape": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/corner-start-end-shape",
+                  messages: [
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/corner-start-end-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 20px 40px 60px 80px;
+  corner-start-end-shape: notch;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/corner-start-end-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cyan;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 20px 40px 60px 80px;
+  corner-start-end-shape: notch;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "corner-start-start-shape": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/corner-start-start-shape",
+                  messages: [
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/corner-start-start-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: goldenrod;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 40% 10px 10px;
+  corner-start-start-shape: scoop;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/corner-start-start-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: goldenrod;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 40% 10px 10px;
+  corner-start-start-shape: scoop;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "corner-top-left-shape": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/corner-top-left-shape",
+                  messages: [
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/corner-top-left-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 25% 100px;
+  corner-top-left-shape: scoop;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/corner-top-left-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 25% 100px;
+  corner-top-left-shape: scoop;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "corner-top-right-shape": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/corner-top-right-shape",
+                  messages: [
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/corner-top-right-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 60px;
+  corner-top-right-shape: bevel;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/corner-top-right-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 60px;
+  corner-top-right-shape: bevel;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "corner-top-shape": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/corner-top-shape",
+                  messages: [
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/corner-top-shape
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: goldenrod;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 60px;
+  corner-top-shape: scoop notch;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/corner-top-shape
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: goldenrod;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 60px;
+  corner-top-shape: scoop notch;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 "counter-increment": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/counter-increment",
@@ -55431,10 +57608,6 @@ cross-fade(url("white.png"), url("black.png"), 100%); /* fully white */
                   children: {},
                   slug: "/en-US/docs/Web/CSS/CSS_borders_and_box_decorations",
                   messages: [
-                    {
-                      message: "Unreachable via page",
-                      data: []
-                    },
                     {
                       message: "Stylelint backlog",
                       data: [
@@ -74256,6 +76429,23 @@ main {
                     }
                   }
                 },
+                css_values_and_units: {
+                  children: {
+                    css_value_functions: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_Value_Functions",
+                      messages: [
+                        {
+                          message: "Broken anchor",
+                          data: [
+                            "/en-US/docs/Web/CSS/corner-shape",
+                            "#related_properties"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 css_viewport: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/CSS_viewport",
@@ -87546,6 +89736,112 @@ awesome string"
                     }
                   ]
                 },
+                superellipse: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/superellipse",
+                  messages: [
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:16 - 2:21",
+                        `/en-US/docs/Web/CSS/superellipse
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 100%;
+  margin-top: 20px;
+}
+
+form div {
+  margin-top: 5px;
+  display: flex;
+}
+
+section {
+  width: 100%;
+  height: 180px;
+  background-color: orange;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+section {
+  box-shadow: 1px 1px 3px gray;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "2:23 - 2:32",
+                        `/en-US/docs/Web/CSS/superellipse
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: fit-content;
+  margin: 20px auto;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 100%;
+  margin-top: 20px;
+}
+
+form div {
+  margin-top: 5px;
+  display: flex;
+}
+
+section {
+  width: 100%;
+  height: 180px;
+  background-color: orange;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+section {
+  box-shadow: 1px 1px 3px gray;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 symbols: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/symbols",
@@ -90337,131 +92633,6 @@ section {
             },
             html: {
               children: {
-                guides: {
-                  children: {
-                    microformats: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Guides/Microformats",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/Main_Page",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/microformats2",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-feed",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/microformats2",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/value-class-pattern",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-feed",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/rel-values",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/Main_Page",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/search_engines",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/HTML/Guides",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://microformats.org/wiki/Main_Page",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 how_to: {
                   children: {
                     add_javascript_to_your_web_page: {
@@ -90521,40 +92692,6 @@ html.elements.optgroup.disabled
 html.elements.option.disabled
 html.elements.select.disabled
 html.elements.textarea.disabled`
-                              ]
-                            }
-                          ]
-                        },
-                        rel: {
-                          children: {
-                            me: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/me",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://microformats.org/wiki/RelMeAuth",
-                                    "The operation timed out."
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://microformats.org/wiki/web-sign-in",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://microformats.org/wiki/existing-rel-values",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -91486,6 +93623,32 @@ header {
                             }
                           }
                         },
+                        script: {
+                          children: {
+                            type: {
+                              children: {
+                                speculationrules: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/HTML/Reference/Elements/script/type/speculationrules",
+                                  messages: [
+                                    {
+                                      message: "Page status inconsistent with BCD",
+                                      data: [
+                                        [
+                                          "experimental",
+                                          "non-standard"
+                                        ],
+                                        [
+                                          "experimental"
+                                        ]
+                                      ]
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          }
+                        },
                         slot: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/slot",
@@ -92090,6 +94253,19 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         },
+                        dnt: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -92141,6 +94317,73 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           }
+                        },
+                        "sec-speculation-tags": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Speculation-Tags",
+                          messages: [
+                            {
+                              message: "Page status inconsistent with BCD",
+                              data: [
+                                [
+                                  "experimental",
+                                  "non-standard"
+                                ],
+                                [
+                                  "experimental"
+                                ]
+                              ]
+                            }
+                          ]
+                        },
+                        "speculation-rules": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Speculation-Rules",
+                          messages: [
+                            {
+                              message: "Page status inconsistent with BCD",
+                              data: [
+                                [
+                                  "experimental",
+                                  "non-standard"
+                                ],
+                                [
+                                  "experimental"
+                                ]
+                              ]
+                            }
+                          ]
+                        },
+                        "supports-loading-mode": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Supports-Loading-Mode",
+                          messages: [
+                            {
+                              message: "Page status inconsistent with BCD",
+                              data: [
+                                [
+                                  "experimental",
+                                  "non-standard"
+                                ],
+                                [
+                                  "experimental"
+                                ]
+                              ]
+                            }
+                          ]
+                        },
+                        tk: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Tk",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         "user-agent": {
                           children: {
@@ -92242,23 +94485,6 @@ h2 {
                     },
                     global_objects: {
                       children: {
-                        array: {
-                          children: {
-                            map: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://wirfs-brock.com/allen/posts/166",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         asyncgeneratorfunction: {
                           children: {
                             prototype: {
@@ -92371,19 +94597,6 @@ h2 {
                   children: {
                     formats: {
                       children: {
-                        configuring_servers_for_ogg_media: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Configuring_servers_for_Ogg_media",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://gitlab.xiph.org/xiph/ffmpeg2theora",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -92694,16 +94907,6 @@ h2 {
                     }
                   }
                 },
-                subdomain_takeovers: {
-                  children: {},
-                  slug: "/en-US/docs/Web/Security/Subdomain_takeovers",
-                  messages: [
-                    {
-                      message: "Unreachable via page",
-                      data: []
-                    }
-                  ]
-                },
                 subresource_integrity: {
                   children: {},
                   slug: "/en-US/docs/Web/Security/Subresource_Integrity",
@@ -92723,12 +94926,6 @@ html.elements.script.integrity`,
               },
               slug: "/en-US/docs/Web/Security",
               messages: [
-                {
-                  message: "No link to child page",
-                  data: [
-                    "/en-US/docs/Web/Security/Subdomain_takeovers"
-                  ]
-                },
                 {
                   message: "No link to child page",
                   data: [
