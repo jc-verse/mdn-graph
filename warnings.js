@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-ccy6gxh5.js";
+} from "./chunk-adbgdvaa.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -418,6 +418,19 @@ div.warning {
                 }
               ]
             },
+            developer_tools: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Developer_Tools",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://getfirebug.com/",
+                    "unknown certificate verification error"
+                  ]
+                }
+              ]
+            },
             dmz: {
               children: {},
               slug: "/en-US/docs/Glossary/DMZ",
@@ -527,14 +540,14 @@ div.warning {
                   message: "Broken external link",
                   data: [
                     "https://www.gnu.org/licenses/gpl-faq.html",
-                    "Cannot reach server and Bun hangs"
+                    "The operation timed out."
                   ]
                 },
                 {
                   message: "Broken external link",
                   data: [
                     "https://www.gnu.org/licenses/gpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
+                    "The operation timed out."
                   ]
                 }
               ]
@@ -988,6 +1001,19 @@ div.warning {
                 }
               ]
             },
+            imap: {
+              children: {},
+              slug: "/en-US/docs/Glossary/IMAP",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.rfc-editor.org/info/rfc3501",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             inheritance: {
               children: {},
               slug: "/en-US/docs/Glossary/Inheritance",
@@ -1026,7 +1052,7 @@ div.warning {
                   message: "Broken external link",
                   data: [
                     "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
+                    "The operation timed out."
                   ]
                 }
               ]
@@ -1229,6 +1255,19 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            protocol: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Protocol",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.rfc-editor.org/standards",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -8983,6 +9022,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/guide/essentials/computed.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -10165,7 +10211,7 @@ button {
                           message: "Broken external link",
                           data: [
                             "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "Cannot reach server and Bun hangs"
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -15840,6 +15886,19 @@ h1 {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    introduction: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://core.telegram.org/api",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -26977,7 +27036,7 @@ textarea:focus {
                           message: "Broken external link",
                           data: [
                             "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -27641,6 +27700,26 @@ body {
                           ]
                         }
                       ]
+                    },
+                    testing_strategies: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.virtualbox.org/wiki/Downloads",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.virtualbox.org/wiki/Downloads",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   }
                 }
@@ -28094,21 +28173,21 @@ body * {
                           message: "Broken external link",
                           data: [
                             "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
+                            "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
                             "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "Cannot reach server and Bun hangs"
+                            "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
                             "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "Cannot reach server and Bun hangs"
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -28137,7 +28216,7 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/",
+                            "https://gaesamplesite.appspot.com/downloads.html",
                             503
                           ]
                         }
@@ -28151,7 +28230,7 @@ body * {
                           message: "Broken external link",
                           data: [
                             "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -30149,6 +30228,45 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
+                    "12": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/12",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://getfirebug.com/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    },
+                    "14": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/14",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.rfc-editor.org/info/bcp47",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "17": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/17",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/17.0/releasenotes/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    },
                     "22": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
@@ -30162,15 +30280,15 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "122": {
+                    "23": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/122",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/23",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=122",
-                            "The operation timed out."
+                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/23.0a2/auroranotes/",
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -30943,6 +31061,100 @@ body {
                               ]
                             }
                           ]
+                        },
+                        basic_usage: {
+                          children: {},
+                          slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-elem",
+                                "Do not use the <style> element; use separate CSS blocks instead.",
+                                `    <style>
+      canvas {
+        border: 1px solid black;
+      }
+    </style>`,
+                                "5:4 - 9:12",
+                                `/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Canvas tutorial</title>
+    <style>
+      canvas {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" width="150" height="150"></canvas>
+    <script>
+      function draw() {
+        const canvas = document.getElementById("canvas");
+        if (canvas.getContext) {
+          const ctx = canvas.getContext("2d");
+        }
+      }
+      draw();
+    </script>
+  </body>
+</html>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-script",
+                                "Do not write JS within the <script> element; use separate JS blocks instead.",
+                                `    <script>
+      function draw() {
+        const canvas = document.getElementById("canvas");
+        if (canvas.getContext) {
+          const ctx = canvas.getContext("2d");
+        }
+      }
+      draw();
+    </script>`,
+                                "13:4 - 21:13",
+                                `/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Canvas tutorial</title>
+    <style>
+      canvas {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" width="150" height="150"></canvas>
+    <script>
+      function draw() {
+        const canvas = document.getElementById("canvas");
+        if (canvas.getContext) {
+          const ctx = canvas.getContext("2d");
+        }
+      }
+      draw();
+    </script>
+  </body>
+</html>
+~~~
+`
+                              ]
+                            }
+                          ]
                         }
                       }
                     }
@@ -31666,6 +31878,44 @@ p {
 #lumpy {
   display: none;
 }
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    introduction: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Document_Object_Model/Introduction",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      // create a couple of elements in an otherwise empty HTML page
+      const heading = document.createElement("h1");
+      const headingText = document.createTextNode("Big Head!");
+      heading.appendChild(headingText);
+      document.body.appendChild(heading);
+    </script>`,
+                            "3:4 - 9:13",
+                            `/en-US/docs/Web/API/Document_Object_Model/Introduction
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<html lang="en">
+  <head> </head>
+  <body>
+    <script>
+      // create a couple of elements in an otherwise empty HTML page
+      const heading = document.createElement("h1");
+      const headingText = document.createTextNode("Big Head!");
+      heading.appendChild(headingText);
+      document.body.appendChild(heading);
+    </script>
+  </body>
+</html>
 ~~~
 `
                           ]
@@ -35111,23 +35361,6 @@ html {
                     }
                   ]
                 },
-                subtlecrypto: {
-                  children: {
-                    sign: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SubtleCrypto/sign",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://standards.ieee.org/ieee/1363/2049/",
-                            500
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 summarizer_api: {
                   children: {
                     using: {
@@ -36015,7 +36248,254 @@ api.Window.sessionStorage`,
                   }
                 },
                 web_workers_api: {
-                  children: {},
+                  children: {
+                    using_web_workers: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Workers_API/Using_web_workers",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      // This script WILL be parsed by JS engines because its MIME type is text/javascript.
+      function pageLog(sMsg) {
+        // Use a fragment: browser will only render/reflow once.
+        const frag = document.createDocumentFragment();
+        frag.appendChild(document.createTextNode(sMsg));
+        frag.appendChild(document.createElement("br"));
+        document.querySelector("#logDisplay").appendChild(frag);
+      }
+    </script>`,
+                            "11:4 - 20:13",
+                            `/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>MDN Example - Embedded worker</title>
+    <script type="text/js-worker">
+      // This script WON'T be parsed by JS engines because its MIME type is text/js-worker.
+      const myVar = "Hello World!";
+      // Rest of your worker code goes here.
+    </script>
+    <script>
+      // This script WILL be parsed by JS engines because its MIME type is text/javascript.
+      function pageLog(sMsg) {
+        // Use a fragment: browser will only render/reflow once.
+        const frag = document.createDocumentFragment();
+        frag.appendChild(document.createTextNode(sMsg));
+        frag.appendChild(document.createElement("br"));
+        document.querySelector("#logDisplay").appendChild(frag);
+      }
+    </script>
+    <script type="text/js-worker">
+      // This script WON'T be parsed by JS engines because its MIME type is text/js-worker.
+      onmessage = (event) => {
+        postMessage(myVar);
+      };
+      // Rest of your worker code goes here.
+    </script>
+    <script>
+      // This script WILL be parsed by JS engines because its MIME type is text/javascript.
+
+      // In the past blob builder existed, but now we use Blob
+      const blob = new Blob(
+        Array.prototype.map.call(
+          document.querySelectorAll("script[type='text/js-worker']"),
+          (script) => script.textContent,
+        ),
+        { type: "text/javascript" },
+      );
+
+      // Creating a new global "worker" variable from all our "text/js-worker" scripts.
+      const worker = new Worker(window.URL.createObjectURL(blob));
+
+      worker.onmessage = (event) => {
+        pageLog(\`Received: \${event.data}\`);
+      };
+    </script>
+  </head>
+  <body>
+    <div id="logDisplay"></div>
+    <script>
+      // Start the worker.
+      worker.postMessage("");
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      // This script WILL be parsed by JS engines because its MIME type is text/javascript.
+
+      // In the past blob builder existed, but now we use Blob
+      const blob = new Blob(
+        Array.prototype.map.call(
+          document.querySelectorAll("script[type='text/js-worker']"),
+          (script) => script.textContent,
+        ),
+        { type: "text/javascript" },
+      );
+
+      // Creating a new global "worker" variable from all our "text/js-worker" scripts.
+      const worker = new Worker(window.URL.createObjectURL(blob));
+
+      worker.onmessage = (event) => {
+        pageLog(\`Received: \${event.data}\`);
+      };
+    </script>`,
+                            "28:4 - 46:13",
+                            `/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>MDN Example - Embedded worker</title>
+    <script type="text/js-worker">
+      // This script WON'T be parsed by JS engines because its MIME type is text/js-worker.
+      const myVar = "Hello World!";
+      // Rest of your worker code goes here.
+    </script>
+    <script>
+      // This script WILL be parsed by JS engines because its MIME type is text/javascript.
+      function pageLog(sMsg) {
+        // Use a fragment: browser will only render/reflow once.
+        const frag = document.createDocumentFragment();
+        frag.appendChild(document.createTextNode(sMsg));
+        frag.appendChild(document.createElement("br"));
+        document.querySelector("#logDisplay").appendChild(frag);
+      }
+    </script>
+    <script type="text/js-worker">
+      // This script WON'T be parsed by JS engines because its MIME type is text/js-worker.
+      onmessage = (event) => {
+        postMessage(myVar);
+      };
+      // Rest of your worker code goes here.
+    </script>
+    <script>
+      // This script WILL be parsed by JS engines because its MIME type is text/javascript.
+
+      // In the past blob builder existed, but now we use Blob
+      const blob = new Blob(
+        Array.prototype.map.call(
+          document.querySelectorAll("script[type='text/js-worker']"),
+          (script) => script.textContent,
+        ),
+        { type: "text/javascript" },
+      );
+
+      // Creating a new global "worker" variable from all our "text/js-worker" scripts.
+      const worker = new Worker(window.URL.createObjectURL(blob));
+
+      worker.onmessage = (event) => {
+        pageLog(\`Received: \${event.data}\`);
+      };
+    </script>
+  </head>
+  <body>
+    <div id="logDisplay"></div>
+    <script>
+      // Start the worker.
+      worker.postMessage("");
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-inline-script",
+                            "Do not write JS within the <script> element; use separate JS blocks instead.",
+                            `    <script>
+      // Start the worker.
+      worker.postMessage("");
+    </script>`,
+                            "50:4 - 53:13",
+                            `/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>MDN Example - Embedded worker</title>
+    <script type="text/js-worker">
+      // This script WON'T be parsed by JS engines because its MIME type is text/js-worker.
+      const myVar = "Hello World!";
+      // Rest of your worker code goes here.
+    </script>
+    <script>
+      // This script WILL be parsed by JS engines because its MIME type is text/javascript.
+      function pageLog(sMsg) {
+        // Use a fragment: browser will only render/reflow once.
+        const frag = document.createDocumentFragment();
+        frag.appendChild(document.createTextNode(sMsg));
+        frag.appendChild(document.createElement("br"));
+        document.querySelector("#logDisplay").appendChild(frag);
+      }
+    </script>
+    <script type="text/js-worker">
+      // This script WON'T be parsed by JS engines because its MIME type is text/js-worker.
+      onmessage = (event) => {
+        postMessage(myVar);
+      };
+      // Rest of your worker code goes here.
+    </script>
+    <script>
+      // This script WILL be parsed by JS engines because its MIME type is text/javascript.
+
+      // In the past blob builder existed, but now we use Blob
+      const blob = new Blob(
+        Array.prototype.map.call(
+          document.querySelectorAll("script[type='text/js-worker']"),
+          (script) => script.textContent,
+        ),
+        { type: "text/javascript" },
+      );
+
+      // Creating a new global "worker" variable from all our "text/js-worker" scripts.
+      const worker = new Worker(window.URL.createObjectURL(blob));
+
+      worker.onmessage = (event) => {
+        pageLog(\`Received: \${event.data}\`);
+      };
+    </script>
+  </head>
+  <body>
+    <div id="logDisplay"></div>
+    <script>
+      // Start the worker.
+      worker.postMessage("");
+    </script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/Web_Workers_API",
                   messages: [
                     {
@@ -37125,6 +37605,19 @@ input:out-of-range + label::after {
 }
 ~~~
 `
+                      ]
+                    }
+                  ]
+                },
+                _colon_lang: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/:lang",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.rfc-editor.org/info/bcp47",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -40417,6 +40910,22 @@ p {
                     }
                   }
                 },
+                "@scope": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/@scope",
+                  messages: [
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        `css.at-rules.scope
+css.selectors.nesting.at-scope`,
+                        "Expected:",
+                        "css.at-rules.scope"
+                      ]
+                    }
+                  ]
+                },
                 "@starting-style": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/@starting-style",
@@ -43407,6 +43916,279 @@ input {
                     }
                   ]
                 },
+                caret: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/caret",
+                  messages: [
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "manual" for property "caret" (declaration-property-value-no-unknown)',
+                        "caret: block manual;",
+                        "1:14 - 1:20",
+                        `/en-US/docs/Web/CSS/caret
+[declaration-property-value-no-unknown] Unexpected unknown value "manual" for property "caret" (declaration-property-value-no-unknown)
+~~~
+caret: block manual;
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "green" for property "caret" (declaration-property-value-no-unknown)',
+                        "caret: underscore auto green;",
+                        "1:24 - 1:29",
+                        `/en-US/docs/Web/CSS/caret
+[declaration-property-value-no-unknown] Unexpected unknown value "green" for property "caret" (declaration-property-value-no-unknown)
+~~~
+caret: underscore auto green;
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "manual" for property "caret" (declaration-property-value-no-unknown)',
+                        "caret: bar manual orange;",
+                        "1:12 - 1:18",
+                        `/en-US/docs/Web/CSS/caret
+[declaration-property-value-no-unknown] Unexpected unknown value "manual" for property "caret" (declaration-property-value-no-unknown)
+~~~
+caret: bar manual orange;
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "manual" for property "caret" (declaration-property-value-no-unknown)',
+                        "  caret: block manual green;",
+                        "45:16 - 45:22",
+                        `/en-US/docs/Web/CSS/caret
+[declaration-property-value-no-unknown] Unexpected unknown value "manual" for property "caret" (declaration-property-value-no-unknown)
+~~~
+label {
+  background: #092104;
+  display: block;
+  padding: 10px 20px;
+  color: green;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.old-screen {
+  background: repeating-linear-gradient(
+    #092104,
+    #092104 2px,
+    #123208 2px,
+    #123208 4px
+  );
+  height: 140px;
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  font-family: monospace;
+}
+
+span {
+  display: inline-block;
+  padding: 2px 5px;
+  color: green;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.terminal-input {
+  background: transparent;
+  height: 100%;
+  border: none;
+  color: green;
+  font-family: inherit;
+  font-size: 1rem;
+  outline: none;
+  flex: 1;
+  resize: none;
+}
+
+.terminal-input {
+  caret: block manual green;
+  animation: vintage-caret 2s infinite;
+}
+
+@keyframes vintage-caret {
+  from,
+  50% {
+    caret-color: green;
+  }
+  75%,
+  to {
+    caret-color: transparent;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "keyframe-selector-notation",
+                        'Expected "from" to be "0%" (keyframe-selector-notation)',
+                        "  from,",
+                        "50:3 - 50:7",
+                        `/en-US/docs/Web/CSS/caret
+[keyframe-selector-notation] Expected "from" to be "0%" (keyframe-selector-notation)
+~~~
+label {
+  background: #092104;
+  display: block;
+  padding: 10px 20px;
+  color: green;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.old-screen {
+  background: repeating-linear-gradient(
+    #092104,
+    #092104 2px,
+    #123208 2px,
+    #123208 4px
+  );
+  height: 140px;
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  font-family: monospace;
+}
+
+span {
+  display: inline-block;
+  padding: 2px 5px;
+  color: green;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.terminal-input {
+  background: transparent;
+  height: 100%;
+  border: none;
+  color: green;
+  font-family: inherit;
+  font-size: 1rem;
+  outline: none;
+  flex: 1;
+  resize: none;
+}
+
+.terminal-input {
+  caret: block manual green;
+  animation: vintage-caret 2s infinite;
+}
+
+@keyframes vintage-caret {
+  from,
+  50% {
+    caret-color: green;
+  }
+  75%,
+  to {
+    caret-color: transparent;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "keyframe-selector-notation",
+                        'Expected "to" to be "100%" (keyframe-selector-notation)',
+                        "  to {",
+                        "55:3 - 55:5",
+                        `/en-US/docs/Web/CSS/caret
+[keyframe-selector-notation] Expected "to" to be "100%" (keyframe-selector-notation)
+~~~
+label {
+  background: #092104;
+  display: block;
+  padding: 10px 20px;
+  color: green;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.old-screen {
+  background: repeating-linear-gradient(
+    #092104,
+    #092104 2px,
+    #123208 2px,
+    #123208 4px
+  );
+  height: 140px;
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  font-family: monospace;
+}
+
+span {
+  display: inline-block;
+  padding: 2px 5px;
+  color: green;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.terminal-input {
+  background: transparent;
+  height: 100%;
+  border: none;
+  color: green;
+  font-family: inherit;
+  font-size: 1rem;
+  outline: none;
+  flex: 1;
+  resize: none;
+}
+
+.terminal-input {
+  caret: block manual green;
+  animation: vintage-caret 2s infinite;
+}
+
+@keyframes vintage-caret {
+  from,
+  50% {
+    caret-color: green;
+  }
+  75%,
+  to {
+    caret-color: transparent;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "css.properties.caret"
+                      ]
+                    }
+                  ]
+                },
                 "caret-animation": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/caret-animation",
@@ -43415,6 +44197,164 @@ input {
                       message: "Missing data",
                       data: [
                         "CSS info"
+                      ]
+                    }
+                  ]
+                },
+                "caret-shape": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/caret-shape",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "keyframe-selector-notation",
+                        'Expected "from" to be "0%" (keyframe-selector-notation)',
+                        "  from,",
+                        "51:3 - 51:7",
+                        `/en-US/docs/Web/CSS/caret-shape
+[keyframe-selector-notation] Expected "from" to be "0%" (keyframe-selector-notation)
+~~~
+label {
+  background: #092104;
+  display: block;
+  padding: 10px 20px;
+  color: green;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.old-screen {
+  background: repeating-linear-gradient(
+    #092104,
+    #092104 2px,
+    #123208 2px,
+    #123208 4px
+  );
+  height: 140px;
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  font-family: monospace;
+}
+
+span {
+  display: inline-block;
+  padding: 2px 5px;
+  color: green;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.terminal-input {
+  background: transparent;
+  height: 100%;
+  border: none;
+  color: green;
+  font-family: inherit;
+  font-size: 1rem;
+  outline: none;
+  flex: 1;
+  resize: none;
+}
+
+.terminal-input {
+  caret-shape: block;
+  caret-animation: manual;
+  animation: old-caret 2s infinite;
+}
+
+@keyframes old-caret {
+  from,
+  50% {
+    caret-color: green;
+  }
+  75%,
+  to {
+    caret-color: transparent;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "keyframe-selector-notation",
+                        'Expected "to" to be "100%" (keyframe-selector-notation)',
+                        "  to {",
+                        "56:3 - 56:5",
+                        `/en-US/docs/Web/CSS/caret-shape
+[keyframe-selector-notation] Expected "to" to be "100%" (keyframe-selector-notation)
+~~~
+label {
+  background: #092104;
+  display: block;
+  padding: 10px 20px;
+  color: green;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.old-screen {
+  background: repeating-linear-gradient(
+    #092104,
+    #092104 2px,
+    #123208 2px,
+    #123208 4px
+  );
+  height: 140px;
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  font-family: monospace;
+}
+
+span {
+  display: inline-block;
+  padding: 2px 5px;
+  color: green;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.terminal-input {
+  background: transparent;
+  height: 100%;
+  border: none;
+  color: green;
+  font-family: inherit;
+  font-size: 1rem;
+  outline: none;
+  flex: 1;
+  resize: none;
+}
+
+.terminal-input {
+  caret-shape: block;
+  caret-animation: manual;
+  animation: old-caret 2s infinite;
+}
+
+@keyframes old-caret {
+  from,
+  50% {
+    caret-color: green;
+  }
+  75%,
+  to {
+    caret-color: transparent;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Not in BCD",
+                      data: [
+                        "css.properties.caret-shape"
                       ]
                     }
                   ]
@@ -88889,18 +89829,6 @@ pre {
                     {
                       message: "Broken link",
                       data: [
-                        "/en-US/docs/Web/CSS/caret"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/caret-shape"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
                         "/en-US/docs/Web/CSS/ch"
                       ]
                     },
@@ -94240,27 +95168,14 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        accept: {
+                        "content-language": {
                           children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Language",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
-                        dnt: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
+                                "https://www.rfc-editor.org/rfc/bcp/bcp47.txt",
                                 "The operation timed out."
                               ]
                             }
@@ -94368,19 +95283,6 @@ http.headers.Use-As-Dictionary`,
                                 [
                                   "experimental"
                                 ]
-                              ]
-                            }
-                          ]
-                        },
-                        tk: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Tk",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -94597,6 +95499,26 @@ h2 {
                   children: {
                     formats: {
                       children: {
+                        audio_codecs: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://voiceage.com/AMR-NB.AMR.html",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://voiceage.com/Overview-lic.html",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
