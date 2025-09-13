@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-adbgdvaa.js";
+} from "./chunk-v92307t2.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -20,6 +20,23 @@ var warnings_processed_default = {
                   ]
                 }
               ]
+            },
+            publishing_games: {
+              children: {
+                game_promotion: {
+                  children: {},
+                  slug: "/en-US/docs/Games/Publishing_games/Game_promotion",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://indiegamesplus.com/",
+                        "Unable to connect. Is the computer able to access the url?"
+                      ]
+                    }
+                  ]
+                }
+              }
             },
             tools: {
               children: {
@@ -415,19 +432,6 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            developer_tools: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Developer_Tools",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://getfirebug.com/",
-                    "unknown certificate verification error"
-                  ]
                 }
               ]
             },
@@ -1001,19 +1005,6 @@ div.warning {
                 }
               ]
             },
-            imap: {
-              children: {},
-              slug: "/en-US/docs/Glossary/IMAP",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.rfc-editor.org/info/rfc3501",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             inheritance: {
               children: {},
               slug: "/en-US/docs/Glossary/Inheritance",
@@ -1052,7 +1043,7 @@ div.warning {
                   message: "Broken external link",
                   data: [
                     "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "The operation timed out."
+                    "Cannot reach server and Bun hangs"
                   ]
                 }
               ]
@@ -1255,19 +1246,6 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            protocol: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Protocol",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.rfc-editor.org/standards",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -9022,13 +9000,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/guide/essentials/computed.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -10200,19 +10171,6 @@ button {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -15778,6 +15736,13 @@ p {
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.exljbris.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -15886,19 +15851,6 @@ h1 {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    introduction: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Introduction",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://core.telegram.org/api",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -27031,13 +26983,6 @@ textarea:focus {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -27700,26 +27645,6 @@ body {
                           ]
                         }
                       ]
-                    },
-                    testing_strategies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Testing_strategies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.virtualbox.org/wiki/Downloads",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.virtualbox.org/wiki/Downloads",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
@@ -28179,13 +28104,6 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
                             "The operation timed out."
                           ]
@@ -28206,19 +28124,6 @@ body * {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/downloads.html",
-                            503
-                          ]
                         }
                       ]
                     },
@@ -30228,45 +30133,6 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
-                    "12": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/12",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://getfirebug.com/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
-                    "14": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/14",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.rfc-editor.org/info/bcp47",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "17": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/17",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/17.0/releasenotes/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
                     "22": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
@@ -30280,19 +30146,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "23": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/23",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/23.0a2/auroranotes/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
                     "136": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/136",
@@ -30301,6 +30154,19 @@ webextensions.manifest.options_ui`,
                           message: "Broken external link",
                           data: [
                             "https://whattrainisitnow.com/release/?version=136",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "141": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/141",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=141",
                             "The operation timed out."
                           ]
                         }
@@ -37609,19 +37475,6 @@ input:out-of-range + label::after {
                     }
                   ]
                 },
-                _colon_lang: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:lang",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.rfc-editor.org/info/bcp47",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 "_colon_local-link": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/:local-link",
@@ -43979,7 +43832,7 @@ label {
   background: #092104;
   display: block;
   padding: 10px 20px;
-  color: green;
+  color: #00ad00;
   font-weight: bold;
   font-family: monospace;
 }
@@ -44001,7 +43854,7 @@ label {
 span {
   display: inline-block;
   padding: 2px 5px;
-  color: green;
+  color: #00ad00;
   font-weight: bold;
   margin-right: 8px;
 }
@@ -44010,7 +43863,7 @@ span {
   background: transparent;
   height: 100%;
   border: none;
-  color: green;
+  color: #00ad00;
   font-family: inherit;
   font-size: 1rem;
   outline: none;
@@ -44026,7 +43879,7 @@ span {
 @keyframes vintage-caret {
   from,
   50% {
-    caret-color: green;
+    caret-color: #00ad00;
   }
   75%,
   to {
@@ -44051,7 +43904,7 @@ label {
   background: #092104;
   display: block;
   padding: 10px 20px;
-  color: green;
+  color: #00ad00;
   font-weight: bold;
   font-family: monospace;
 }
@@ -44073,7 +43926,7 @@ label {
 span {
   display: inline-block;
   padding: 2px 5px;
-  color: green;
+  color: #00ad00;
   font-weight: bold;
   margin-right: 8px;
 }
@@ -44082,7 +43935,7 @@ span {
   background: transparent;
   height: 100%;
   border: none;
-  color: green;
+  color: #00ad00;
   font-family: inherit;
   font-size: 1rem;
   outline: none;
@@ -44098,7 +43951,7 @@ span {
 @keyframes vintage-caret {
   from,
   50% {
-    caret-color: green;
+    caret-color: #00ad00;
   }
   75%,
   to {
@@ -44123,7 +43976,7 @@ label {
   background: #092104;
   display: block;
   padding: 10px 20px;
-  color: green;
+  color: #00ad00;
   font-weight: bold;
   font-family: monospace;
 }
@@ -44145,7 +43998,7 @@ label {
 span {
   display: inline-block;
   padding: 2px 5px;
-  color: green;
+  color: #00ad00;
   font-weight: bold;
   margin-right: 8px;
 }
@@ -44154,7 +44007,7 @@ span {
   background: transparent;
   height: 100%;
   border: none;
-  color: green;
+  color: #00ad00;
   font-family: inherit;
   font-size: 1rem;
   outline: none;
@@ -44170,7 +44023,7 @@ span {
 @keyframes vintage-caret {
   from,
   50% {
-    caret-color: green;
+    caret-color: #00ad00;
   }
   75%,
   to {
@@ -44219,7 +44072,7 @@ label {
   background: #092104;
   display: block;
   padding: 10px 20px;
-  color: green;
+  color: #00ad00;
   font-weight: bold;
   font-family: monospace;
 }
@@ -44241,7 +44094,7 @@ label {
 span {
   display: inline-block;
   padding: 2px 5px;
-  color: green;
+  color: #00ad00;
   font-weight: bold;
   margin-right: 8px;
 }
@@ -44250,7 +44103,7 @@ span {
   background: transparent;
   height: 100%;
   border: none;
-  color: green;
+  color: #00ad00;
   font-family: inherit;
   font-size: 1rem;
   outline: none;
@@ -44267,7 +44120,7 @@ span {
 @keyframes old-caret {
   from,
   50% {
-    caret-color: green;
+    caret-color: #00ad00;
   }
   75%,
   to {
@@ -44292,7 +44145,7 @@ label {
   background: #092104;
   display: block;
   padding: 10px 20px;
-  color: green;
+  color: #00ad00;
   font-weight: bold;
   font-family: monospace;
 }
@@ -44314,7 +44167,7 @@ label {
 span {
   display: inline-block;
   padding: 2px 5px;
-  color: green;
+  color: #00ad00;
   font-weight: bold;
   margin-right: 8px;
 }
@@ -44323,7 +44176,7 @@ span {
   background: transparent;
   height: 100%;
   border: none;
-  color: green;
+  color: #00ad00;
   font-family: inherit;
   font-size: 1rem;
   outline: none;
@@ -44340,7 +44193,7 @@ span {
 @keyframes old-caret {
   from,
   50% {
-    caret-color: green;
+    caret-color: #00ad00;
   }
   75%,
   to {
@@ -95168,19 +95021,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        "content-language": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Language",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.rfc-editor.org/rfc/bcp/bcp47.txt",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -95499,22 +95339,15 @@ h2 {
                   children: {
                     formats: {
                       children: {
-                        audio_codecs: {
+                        configuring_servers_for_ogg_media: {
                           children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Configuring_servers_for_Ogg_media",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://voiceage.com/AMR-NB.AMR.html",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://voiceage.com/Overview-lic.html",
-                                "Cannot reach server and Bun hangs"
+                                "https://gitlab.xiph.org/xiph/ffmpeg2theora",
+                                "The operation timed out."
                               ]
                             }
                           ]
