@@ -381,9 +381,9 @@ for (let i = 0; i < cats.length; i++) {
 /en-US/docs/Learn_web_development/Core/Scripting/Strings
 [prefer-template] Unexpected string concatenation.
 ~~~
-const greeting = "Hello";
-const name = "Chris";
-console.log(greeting + ", " + name); // "Hello, Chris"
+const greeting2 = "Hello";
+const name2 = "Bob";
+console.log(greeting2 + ", " + name2); // "Hello, Bob"
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Scripting/Strings
@@ -1693,7 +1693,7 @@ function play() {
           const ctx = canvas.getContext("2d");
         }
       }
-      window.addEventListener("load", draw);
+      draw();
     </script>
   </body>
 </html>
@@ -1799,19 +1799,16 @@ worker.postMessage({ cmd: "list" });
 [no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
 ~~~
 <html lang="en">
-  <head>
+  <head> </head>
+  <body>
     <script>
-      // run this function when the document is loaded
-      window.onload = () => {
-        // create a couple of elements in an otherwise empty HTML page
-        const heading = document.createElement("h1");
-        const headingText = document.createTextNode("Big Head!");
-        heading.appendChild(headingText);
-        document.body.appendChild(heading);
-      };
+      // create a couple of elements in an otherwise empty HTML page
+      const heading = document.createElement("h1");
+      const headingText = document.createTextNode("Big Head!");
+      heading.appendChild(headingText);
+      document.body.appendChild(heading);
     </script>
-  </head>
-  <body></body>
+  </body>
 </html>
 ~~~
 
@@ -2547,21 +2544,20 @@ new RegExp("[\\(\\)]"); // ok
         { type: "text/javascript" },
       );
 
-      // Creating a new document.worker property containing all our "text/js-worker" scripts.
-      document.worker = new Worker(window.URL.createObjectURL(blob));
+      // Creating a new global "worker" variable from all our "text/js-worker" scripts.
+      const worker = new Worker(window.URL.createObjectURL(blob));
 
-      document.worker.onmessage = (event) => {
+      worker.onmessage = (event) => {
         pageLog(`Received: ${event.data}`);
-      };
-
-      // Start the worker.
-      window.onload = () => {
-        document.worker.postMessage("");
       };
     </script>
   </head>
   <body>
     <div id="logDisplay"></div>
+    <script>
+      // Start the worker.
+      worker.postMessage("");
+    </script>
   </body>
 </html>
 ~~~

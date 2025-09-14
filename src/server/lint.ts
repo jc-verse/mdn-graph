@@ -326,6 +326,13 @@ function reportIfUnexpected(
       return;
     }
   }
+  if (
+    path.startsWith("/en-US/docs/Mozilla/Add-ons/WebExtensions") &&
+    language === "json" &&
+    ruleId === "syntax"
+  ) {
+    return;
+  }
   report(
     path,
     [
@@ -605,6 +612,29 @@ async function checkHTML(
   }
 }
 
+function checkJSON(
+  content: string,
+  language: string,
+  path: string,
+  report: (path: string, message: string, ...data: string[]) => void,
+) {
+  let cleanContent = content.replaceAll("// …\n", "");
+  try {
+    JSON.parse(cleanContent);
+  } catch (e) {
+    reportIfUnexpected(
+      path,
+      "json",
+      "syntax",
+      e.message,
+      cleanContent,
+      null,
+      content,
+      report,
+    );
+  }
+}
+
 export default async function checkCode() {
   const { default: codes } = await import("../../data/codes.json", {
     with: { type: "json" },
@@ -643,6 +673,8 @@ export default async function checkCode() {
         await checkCSS(block.content, block.language, path, report, block.full);
       } else if (["html"].includes(block.language)) {
         await checkHTML(block.content, block.language, path, report);
+      } else if (["json"].includes(block.language)) {
+        checkJSON(block.content, block.language, path, report);
       } else if (!sanctionedLanguages.includes(block.language)) {
         report(path, "Invalid code block language", block.language);
       }

@@ -19,6 +19,8 @@ https://scrimba.com/{([^?]+)}?via={([a-z-]+)}	https://scrimba.com/$1?via=$2{&.*}
   This is weird—the HTTPS URL is redirecting to HTTP in the action runner
 https://www.sublimelinter.com/	http://www.sublimelinter.com/en/master/
 
+https://www.slideshare.net/firt/mobile-web-high-performance	https://www.slideshare.net/slideshow/mobile-web-high-performance/4586529
+
 https://onlinelibrary.wiley.com/doi/{.*}	https://onlinelibrary.wiley.com/action/cookieAbsent
 https://dl.acm.org/doi/{.*}	https://dl.acm.org/action/cookieAbsent
 

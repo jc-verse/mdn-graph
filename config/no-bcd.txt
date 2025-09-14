@@ -157,10 +157,6 @@ webextensions.api.scripting.ContentScriptFilter
 webextensions.api.userScripts_legacy.UserScriptOptions
 
   Temporary
-  https://github.com/mdn/browser-compat-data/issues/26521
-webextensions.api.types.BrowserSetting.clear
-webextensions.api.types.BrowserSetting.get
-webextensions.api.types.BrowserSetting.set
   https://github.com/mdn/browser-compat-data/issues/27335
 api.MouseEvent.mozInputSource
   https://github.com/mdn/browser-compat-data/issues/27334
