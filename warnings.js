@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-sq022e0p.js";
+} from "./chunk-rj5tp6ax.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -519,6 +519,19 @@ div.warning {
                 }
               ]
             },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             grid_areas: {
               children: {},
               slug: "/en-US/docs/Glossary/Grid_Areas",
@@ -998,6 +1011,19 @@ div.warning {
                 }
               ]
             },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             literal: {
               children: {},
               slug: "/en-US/docs/Glossary/Literal",
@@ -1236,19 +1262,6 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            "robots.txt": {
-              children: {},
-              slug: "/en-US/docs/Glossary/Robots.txt",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.robotstxt.org/",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -15636,13 +15649,6 @@ dt {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/css/styling-text/styling-lists/unstyled-list.html",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
                         }
                       ]
                     },
@@ -15707,12 +15713,6 @@ p {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Drawing_graphics",
                       messages: [
-                        {
-                          message: "Unused image",
-                          data: [
-                            "walk-right.png"
-                          ]
-                        },
                         {
                           message: "Stylelint backlog",
                           data: [
@@ -26957,6 +26957,23 @@ textarea:focus {
                         }
                       ]
                     },
+                    first_steps: {
+                      children: {
+                        "client-server_overview": {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://websniffer.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     node_server_without_framework: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Node_server_without_framework",
@@ -30086,19 +30103,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://asmjs.org/spec/latest/",
                             ""
-                          ]
-                        }
-                      ]
-                    },
-                    "141": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/141",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=141",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -34006,28 +34010,7 @@ aside {
                   }
                 },
                 payment_request_api: {
-                  children: {
-                    using_secure_payment_confirmation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Payment_Request_API/Using_secure_payment_confirmation",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.emvco.com/emv-technologies/3-d-secure/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.emvco.com/emv-technologies/secure-remote-commerce/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
                   messages: [
                     {
@@ -35436,6 +35419,16 @@ p {
                     }
                   ]
                 },
+                visual_viewport_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Visual_Viewport_API",
+                  messages: [
+                    {
+                      message: "Missing sidebar",
+                      data: []
+                    }
+                  ]
+                },
                 web_animations_api: {
                   children: {
                     tips: {
@@ -36389,7 +36382,16 @@ body {
                     }
                   ]
                 }
-              }
+              },
+              slug: "/en-US/docs/Web/API",
+              messages: [
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Web/API/Visual_Viewport_API"
+                  ]
+                }
+              ]
             },
             css: {
               children: {
@@ -43450,156 +43452,12 @@ span {
 }
 
 @keyframes vintage-caret {
-  from,
+  0%,
   50% {
     caret-color: #00ad00;
   }
   75%,
-  to {
-    caret-color: transparent;
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "keyframe-selector-notation",
-                        'Expected "from" to be "0%" (keyframe-selector-notation)',
-                        "  from,",
-                        "50:3 - 50:7",
-                        `/en-US/docs/Web/CSS/caret
-[keyframe-selector-notation] Expected "from" to be "0%" (keyframe-selector-notation)
-~~~
-label {
-  background: #092104;
-  display: block;
-  padding: 10px 20px;
-  color: #00ad00;
-  font-weight: bold;
-  font-family: monospace;
-}
-
-.old-screen {
-  background: repeating-linear-gradient(
-    #092104,
-    #092104 2px,
-    #123208 2px,
-    #123208 4px
-  );
-  height: 140px;
-  display: flex;
-  align-items: flex-start;
-  padding: 20px;
-  font-family: monospace;
-}
-
-span {
-  display: inline-block;
-  padding: 2px 5px;
-  color: #00ad00;
-  font-weight: bold;
-  margin-right: 8px;
-}
-
-.terminal-input {
-  background: transparent;
-  height: 100%;
-  border: none;
-  color: #00ad00;
-  font-family: inherit;
-  font-size: 1rem;
-  outline: none;
-  flex: 1;
-  resize: none;
-}
-
-.terminal-input {
-  caret: block manual green;
-  animation: vintage-caret 2s infinite;
-}
-
-@keyframes vintage-caret {
-  from,
-  50% {
-    caret-color: #00ad00;
-  }
-  75%,
-  to {
-    caret-color: transparent;
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "keyframe-selector-notation",
-                        'Expected "to" to be "100%" (keyframe-selector-notation)',
-                        "  to {",
-                        "55:3 - 55:5",
-                        `/en-US/docs/Web/CSS/caret
-[keyframe-selector-notation] Expected "to" to be "100%" (keyframe-selector-notation)
-~~~
-label {
-  background: #092104;
-  display: block;
-  padding: 10px 20px;
-  color: #00ad00;
-  font-weight: bold;
-  font-family: monospace;
-}
-
-.old-screen {
-  background: repeating-linear-gradient(
-    #092104,
-    #092104 2px,
-    #123208 2px,
-    #123208 4px
-  );
-  height: 140px;
-  display: flex;
-  align-items: flex-start;
-  padding: 20px;
-  font-family: monospace;
-}
-
-span {
-  display: inline-block;
-  padding: 2px 5px;
-  color: #00ad00;
-  font-weight: bold;
-  margin-right: 8px;
-}
-
-.terminal-input {
-  background: transparent;
-  height: 100%;
-  border: none;
-  color: #00ad00;
-  font-family: inherit;
-  font-size: 1rem;
-  outline: none;
-  flex: 1;
-  resize: none;
-}
-
-.terminal-input {
-  caret: block manual green;
-  animation: vintage-caret 2s infinite;
-}
-
-@keyframes vintage-caret {
-  from,
-  50% {
-    caret-color: #00ad00;
-  }
-  75%,
-  to {
+  100% {
     caret-color: transparent;
   }
 }
@@ -43631,152 +43489,6 @@ span {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/caret-shape",
                   messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "keyframe-selector-notation",
-                        'Expected "from" to be "0%" (keyframe-selector-notation)',
-                        "  from,",
-                        "51:3 - 51:7",
-                        `/en-US/docs/Web/CSS/caret-shape
-[keyframe-selector-notation] Expected "from" to be "0%" (keyframe-selector-notation)
-~~~
-label {
-  background: #092104;
-  display: block;
-  padding: 10px 20px;
-  color: #00ad00;
-  font-weight: bold;
-  font-family: monospace;
-}
-
-.old-screen {
-  background: repeating-linear-gradient(
-    #092104,
-    #092104 2px,
-    #123208 2px,
-    #123208 4px
-  );
-  height: 140px;
-  display: flex;
-  align-items: flex-start;
-  padding: 20px;
-  font-family: monospace;
-}
-
-span {
-  display: inline-block;
-  padding: 2px 5px;
-  color: #00ad00;
-  font-weight: bold;
-  margin-right: 8px;
-}
-
-.terminal-input {
-  background: transparent;
-  height: 100%;
-  border: none;
-  color: #00ad00;
-  font-family: inherit;
-  font-size: 1rem;
-  outline: none;
-  flex: 1;
-  resize: none;
-}
-
-.terminal-input {
-  caret-shape: block;
-  caret-animation: manual;
-  animation: old-caret 2s infinite;
-}
-
-@keyframes old-caret {
-  from,
-  50% {
-    caret-color: #00ad00;
-  }
-  75%,
-  to {
-    caret-color: transparent;
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "keyframe-selector-notation",
-                        'Expected "to" to be "100%" (keyframe-selector-notation)',
-                        "  to {",
-                        "56:3 - 56:5",
-                        `/en-US/docs/Web/CSS/caret-shape
-[keyframe-selector-notation] Expected "to" to be "100%" (keyframe-selector-notation)
-~~~
-label {
-  background: #092104;
-  display: block;
-  padding: 10px 20px;
-  color: #00ad00;
-  font-weight: bold;
-  font-family: monospace;
-}
-
-.old-screen {
-  background: repeating-linear-gradient(
-    #092104,
-    #092104 2px,
-    #123208 2px,
-    #123208 4px
-  );
-  height: 140px;
-  display: flex;
-  align-items: flex-start;
-  padding: 20px;
-  font-family: monospace;
-}
-
-span {
-  display: inline-block;
-  padding: 2px 5px;
-  color: #00ad00;
-  font-weight: bold;
-  margin-right: 8px;
-}
-
-.terminal-input {
-  background: transparent;
-  height: 100%;
-  border: none;
-  color: #00ad00;
-  font-family: inherit;
-  font-size: 1rem;
-  outline: none;
-  flex: 1;
-  resize: none;
-}
-
-.terminal-input {
-  caret-shape: block;
-  caret-animation: manual;
-  animation: old-caret 2s infinite;
-}
-
-@keyframes old-caret {
-  from,
-  50% {
-    caret-color: #00ad00;
-  }
-  75%,
-  to {
-    caret-color: transparent;
-  }
-}
-~~~
-`
-                      ]
-                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -56863,58 +56575,6 @@ div {
                       ]
                     },
                     {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "rgb(255 255 255/1)" to be "white" (color-named)',
-                        "  background-color: rgb(255 255 255 / 1);",
-                        "37:21 - 37:41",
-                        `/en-US/docs/Web/CSS/corner-shape
-[color-named] Expected "rgb(255 255 255/1)" to be "white" (color-named)
-~~~
-html {
-  height: 100%;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  height: inherit;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-div {
-  width: 240px;
-  height: 180px;
-}
-
-body {
-  background: url("https://mdn.github.io/shared-assets/images/examples/leopard.jpg")
-    no-repeat;
-  background-size: cover;
-}
-
-div {
-  border-radius: 40px;
-  corner-shape: scoop notch;
-  background-color: rgb(255 255 255 / 0.2);
-  border-top: 3px solid blue;
-  border-left: 6px dashed red;
-  border-bottom: 9px solid yellow;
-  border-right: 12px double green;
-  backdrop-filter: invert(100%);
-}
-
-div:hover {
-  background-color: rgb(255 255 255 / 1);
-}
-~~~
-`
-                      ]
-                    },
-                    {
                       message: "Stylelint backlog",
                       data: [
                         "font-family-name-quotes",
@@ -56960,7 +56620,7 @@ div {
 }
 
 div:hover {
-  background-color: rgb(255 255 255 / 1);
+  background-color: white;
 }
 ~~~
 `
@@ -57012,7 +56672,7 @@ div {
 }
 
 div:hover {
-  background-color: rgb(255 255 255 / 1);
+  background-color: white;
 }
 ~~~
 `
@@ -76795,43 +76455,14 @@ main {
                     }
                   }
                 },
-                css_values_and_units: {
-                  children: {
-                    css_value_functions: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_Values_and_Units/CSS_Value_Functions",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/CSS/corner-shape",
-                            "#related_properties"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_viewport: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/CSS_viewport",
                   messages: [
                     {
-                      message: "Code with space",
-                      data: [
-                        "Viewport Segments"
-                      ]
-                    },
-                    {
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/API/Window/Viewport"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/Viewport_Segments"
                       ]
                     },
                     {
@@ -90217,57 +89848,9 @@ css.properties.list-style-type.symbols`
                   slug: "/en-US/docs/Web/CSS/text-autospace",
                   messages: [
                     {
-                      message: "Bad DL",
-                      data: [
-                        ": Disables automatic spacing between CJK and non-C"
-                      ]
-                    },
-                    {
-                      message: "Bad DL",
-                      data: [
-                        ": Adds spacing only between ideographic characters"
-                      ]
-                    },
-                    {
-                      message: "Bad DL",
-                      data: [
-                        ": Adds spacing only between ideographic characters"
-                      ]
-                    },
-                    {
-                      message: "Bad DL",
-                      data: [
-                        ": Adds non-breaking spacing around punctuation as "
-                      ]
-                    },
-                    {
-                      message: "Bad DL",
-                      data: [
-                        ": Adds the specified spacing only if there are no "
-                      ]
-                    },
-                    {
-                      message: "Bad DL",
-                      data: [
-                        ": Replaces existing spacing (such as U+0020) betwe"
-                      ]
-                    },
-                    {
                       message: "Missing data",
                       data: [
                         "CSS info"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "#ideograph-alpha"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "#ideograph-numeric"
                       ]
                     }
                   ]
@@ -93839,6 +93422,23 @@ because the nesting selector cannot represent pseudo-elements. */
                                   ]
                                 }
                               ]
+                            },
+                            color: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/color",
+                              messages: [
+                                {
+                                  message: "Unexpected BCD keys",
+                                  data: [
+                                    "Actual:",
+                                    `html.elements.input.type_color
+html.elements.input.alpha
+html.elements.input.colorspace`,
+                                    "Expected:",
+                                    "html.elements.input.type_color"
+                                  ]
+                                }
+                              ]
                             }
                           }
                         },
@@ -94510,19 +94110,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
-                    content_negotiation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTTP/Guides/Content_negotiation",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     cors: {
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/CORS",
@@ -94607,19 +94194,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -94824,8 +94398,55 @@ h2 {
                     classes: {
                       children: {}
                     },
+                    functions: {
+                      children: {
+                        get: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Functions/get",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://whereswalden.com/2010/08/22/incompatible-es5-change-literal-getter-and-setter-functions-must-now-have-exactly-zero-or-one-arguments/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        set: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Functions/set",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://whereswalden.com/2010/08/22/incompatible-es5-change-literal-getter-and-setter-functions-must-now-have-exactly-zero-or-one-arguments/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     global_objects: {
                       children: {
+                        array: {
+                          children: {
+                            map: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://wirfs-brock.com/allen/posts/166",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
                         asyncgeneratorfunction: {
                           children: {
                             prototype: {
@@ -94919,25 +94540,38 @@ h2 {
                 }
               }
             },
-            mathml: {
-              children: {},
-              slug: "/en-US/docs/Web/MathML",
-              messages: [
-                {
-                  message: "HTTP link",
-                  data: [
-                    "http://eyeasme.com/Joe/MathML/MathML_browser_test.html",
-                    ""
-                  ]
-                }
-              ]
-            },
             media: {
               children: {
                 guides: {
                   children: {
                     formats: {
                       children: {
+                        audio_codecs: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/licensing-2/aac/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        image_types: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Image_types",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://ev.buaa.edu.cn/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -94945,8 +94579,57 @@ h2 {
                             {
                               message: "Broken external link",
                               data: [
+                                "https://www.via-la.com/licensing-2/avc-h-264/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/licensing-2/avc-h-264/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/licensing-2/hevc-vvc/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/licensing-2/hevc-vvc/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/licensing-2/mpeg-4-visual/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
                                 "https://about.att.com/innovation/ip/patents",
                                 403
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/licensing-2/mpeg-2/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -95209,23 +94892,6 @@ h2 {
                       ]
                     }
                   ]
-                },
-                practical_implementation_guides: {
-                  children: {
-                    robots_txt: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Practical_implementation_guides/Robots_txt",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.robotstxt.org/robotstxt.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 subresource_integrity: {
                   children: {},
@@ -96394,6 +96060,27 @@ p {
                       }
                     }
                   }
+                },
+                tutorials: {
+                  children: {
+                    svg_from_scratch: {
+                      children: {
+                        getting_started: {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Getting_started",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://websniffer.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
                 }
               }
             },
@@ -96499,12 +96186,6 @@ p {
           },
           slug: "/en-US/docs/Web",
           messages: [
-            {
-              message: "Asset without content page",
-              data: [
-                "en-us/learn_web_development/core/styling_basics/fancy_letterheaded_paper/letterhead.png"
-              ]
-            },
             {
               message: "No link to child page",
               data: [
