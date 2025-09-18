@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-7zzgcbwx.js";
+} from "./chunk-sdc7xsk5.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -526,8 +526,15 @@ div.warning {
                 {
                   message: "Broken external link",
                   data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
                     "https://www.gnu.org/licenses/gpl-3.0.html",
-                    "The operation timed out."
+                    "Cannot reach server and Bun hangs"
                   ]
                 }
               ]
@@ -1008,6 +1015,19 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -6997,6 +7017,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.udemy.com/topic/svelte-framework/?sort=popularity",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -10105,6 +10132,19 @@ button {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    },
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     },
@@ -13868,6 +13908,13 @@ h2 {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/documentation/at-rules/use/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -16429,6 +16476,1270 @@ button:active {
                 },
                 forms: {
                   children: {
+                    advanced_form_styling: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "@typescript-eslint/prefer-for-of",
+                            "Expected a `for-of` loop instead of a `for` loop with this simple iteration.",
+                            `    for (let i = 0; i < curFiles.length; i++) {
+      const listItem = document.createElement("li");
+      listItem.textContent =
+        "File name: " +
+        curFiles[i].name +
+        "; file size " +
+        returnFileSize(curFiles[i].size) +
+        ".";
+      fileList.appendChild(listItem);
+    }`,
+                            "14:5 - 23:6",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[@typescript-eslint/prefer-for-of] Expected a \`for-of\` loop instead of a \`for\` loop with this simple iteration.
+~~~
+const fileInput = document.querySelector("#file");
+const fileList = document.querySelector("#file-list");
+
+fileInput.addEventListener("change", updateFileList);
+
+function updateFileList() {
+  while (fileList.firstChild) {
+    fileList.removeChild(fileList.firstChild);
+  }
+
+  let curFiles = fileInput.files;
+
+  if (!(curFiles.length === 0)) {
+    for (let i = 0; i < curFiles.length; i++) {
+      const listItem = document.createElement("li");
+      listItem.textContent =
+        "File name: " +
+        curFiles[i].name +
+        "; file size " +
+        returnFileSize(curFiles[i].size) +
+        ".";
+      fileList.appendChild(listItem);
+    }
+  }
+}
+
+function returnFileSize(number) {
+  if (number < 1024) {
+    return number + "bytes";
+  } else if (number >= 1024 && number < 1048576) {
+    return (number / 1024).toFixed(1) + "KB";
+  } else if (number >= 1048576) {
+    return (number / 1048576).toFixed(1) + "MB";
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            `        "File name: " +
+        curFiles[i].name +
+        "; file size " +
+        returnFileSize(curFiles[i].size) +
+        ".";`,
+                            "17:9 - 21:12",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[prefer-template] Unexpected string concatenation.
+~~~
+const fileInput = document.querySelector("#file");
+const fileList = document.querySelector("#file-list");
+
+fileInput.addEventListener("change", updateFileList);
+
+function updateFileList() {
+  while (fileList.firstChild) {
+    fileList.removeChild(fileList.firstChild);
+  }
+
+  let curFiles = fileInput.files;
+
+  if (!(curFiles.length === 0)) {
+    for (let i = 0; i < curFiles.length; i++) {
+      const listItem = document.createElement("li");
+      listItem.textContent =
+        "File name: " +
+        curFiles[i].name +
+        "; file size " +
+        returnFileSize(curFiles[i].size) +
+        ".";
+      fileList.appendChild(listItem);
+    }
+  }
+}
+
+function returnFileSize(number) {
+  if (number < 1024) {
+    return number + "bytes";
+  } else if (number >= 1024 && number < 1048576) {
+    return (number / 1024).toFixed(1) + "KB";
+  } else if (number >= 1048576) {
+    return (number / 1048576).toFixed(1) + "MB";
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '    return number + "bytes";',
+                            "29:12 - 29:28",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[prefer-template] Unexpected string concatenation.
+~~~
+const fileInput = document.querySelector("#file");
+const fileList = document.querySelector("#file-list");
+
+fileInput.addEventListener("change", updateFileList);
+
+function updateFileList() {
+  while (fileList.firstChild) {
+    fileList.removeChild(fileList.firstChild);
+  }
+
+  let curFiles = fileInput.files;
+
+  if (!(curFiles.length === 0)) {
+    for (let i = 0; i < curFiles.length; i++) {
+      const listItem = document.createElement("li");
+      listItem.textContent =
+        "File name: " +
+        curFiles[i].name +
+        "; file size " +
+        returnFileSize(curFiles[i].size) +
+        ".";
+      fileList.appendChild(listItem);
+    }
+  }
+}
+
+function returnFileSize(number) {
+  if (number < 1024) {
+    return number + "bytes";
+  } else if (number >= 1024 && number < 1048576) {
+    return (number / 1024).toFixed(1) + "KB";
+  } else if (number >= 1048576) {
+    return (number / 1048576).toFixed(1) + "MB";
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '    return (number / 1024).toFixed(1) + "KB";',
+                            "31:12 - 31:45",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[prefer-template] Unexpected string concatenation.
+~~~
+const fileInput = document.querySelector("#file");
+const fileList = document.querySelector("#file-list");
+
+fileInput.addEventListener("change", updateFileList);
+
+function updateFileList() {
+  while (fileList.firstChild) {
+    fileList.removeChild(fileList.firstChild);
+  }
+
+  let curFiles = fileInput.files;
+
+  if (!(curFiles.length === 0)) {
+    for (let i = 0; i < curFiles.length; i++) {
+      const listItem = document.createElement("li");
+      listItem.textContent =
+        "File name: " +
+        curFiles[i].name +
+        "; file size " +
+        returnFileSize(curFiles[i].size) +
+        ".";
+      fileList.appendChild(listItem);
+    }
+  }
+}
+
+function returnFileSize(number) {
+  if (number < 1024) {
+    return number + "bytes";
+  } else if (number >= 1024 && number < 1048576) {
+    return (number / 1024).toFixed(1) + "KB";
+  } else if (number >= 1048576) {
+    return (number / 1048576).toFixed(1) + "MB";
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '    return (number / 1048576).toFixed(1) + "MB";',
+                            "33:12 - 33:48",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[prefer-template] Unexpected string concatenation.
+~~~
+const fileInput = document.querySelector("#file");
+const fileList = document.querySelector("#file-list");
+
+fileInput.addEventListener("change", updateFileList);
+
+function updateFileList() {
+  while (fileList.firstChild) {
+    fileList.removeChild(fileList.firstChild);
+  }
+
+  let curFiles = fileInput.files;
+
+  if (!(curFiles.length === 0)) {
+    for (let i = 0; i < curFiles.length; i++) {
+      const listItem = document.createElement("li");
+      listItem.textContent =
+        "File name: " +
+        curFiles[i].name +
+        "; file size " +
+        returnFileSize(curFiles[i].size) +
+        ".";
+      fileList.appendChild(listItem);
+    }
+  }
+}
+
+function returnFileSize(number) {
+  if (number < 1024) {
+    return number + "bytes";
+  } else if (number >= 1024 && number < 1048576) {
+    return (number / 1024).toFixed(1) + "KB";
+  } else if (number >= 1048576) {
+    return (number / 1048576).toFixed(1) + "MB";
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-function-notation",
+                            "Expected modern color-function notation (color-function-notation)",
+                            "  border: 1px solid rgb(169, 169, 169);",
+                            "36:21 - 36:39",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[color-function-notation] Expected modern color-function notation (color-function-notation)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+form > div {
+  margin-bottom: 20px;
+}
+
+button,
+label,
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input[type="file"] {
+  height: 0;
+  padding: 0;
+  opacity: 0;
+}
+
+label[for="file"] {
+  box-shadow: 1px 1px 3px #ccc;
+  background: linear-gradient(to bottom, #eee, #ccc);
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+label[for="file"]:hover {
+  background: linear-gradient(to bottom, #fff, #ddd);
+}
+
+label[for="file"]:active {
+  box-shadow: inset 1px 1px 3px #ccc;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
+                            "  box-shadow: 1px 1px 3px #ccc;",
+                            "34:27 - 34:31",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+form > div {
+  margin-bottom: 20px;
+}
+
+button,
+label,
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input[type="file"] {
+  height: 0;
+  padding: 0;
+  opacity: 0;
+}
+
+label[for="file"] {
+  box-shadow: 1px 1px 3px #ccc;
+  background: linear-gradient(to bottom, #eee, #ccc);
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+label[for="file"]:hover {
+  background: linear-gradient(to bottom, #fff, #ddd);
+}
+
+label[for="file"]:active {
+  box-shadow: inset 1px 1px 3px #ccc;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                            "  background: linear-gradient(to bottom, #eee, #ccc);",
+                            "35:42 - 35:46",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+form > div {
+  margin-bottom: 20px;
+}
+
+button,
+label,
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input[type="file"] {
+  height: 0;
+  padding: 0;
+  opacity: 0;
+}
+
+label[for="file"] {
+  box-shadow: 1px 1px 3px #ccc;
+  background: linear-gradient(to bottom, #eee, #ccc);
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+label[for="file"]:hover {
+  background: linear-gradient(to bottom, #fff, #ddd);
+}
+
+label[for="file"]:active {
+  box-shadow: inset 1px 1px 3px #ccc;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
+                            "  background: linear-gradient(to bottom, #eee, #ccc);",
+                            "35:48 - 35:52",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+form > div {
+  margin-bottom: 20px;
+}
+
+button,
+label,
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input[type="file"] {
+  height: 0;
+  padding: 0;
+  opacity: 0;
+}
+
+label[for="file"] {
+  box-shadow: 1px 1px 3px #ccc;
+  background: linear-gradient(to bottom, #eee, #ccc);
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+label[for="file"]:hover {
+  background: linear-gradient(to bottom, #fff, #ddd);
+}
+
+label[for="file"]:active {
+  box-shadow: inset 1px 1px 3px #ccc;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
+                            "  background: linear-gradient(to bottom, #fff, #ddd);",
+                            "43:42 - 43:46",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+form > div {
+  margin-bottom: 20px;
+}
+
+button,
+label,
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input[type="file"] {
+  height: 0;
+  padding: 0;
+  opacity: 0;
+}
+
+label[for="file"] {
+  box-shadow: 1px 1px 3px #ccc;
+  background: linear-gradient(to bottom, #eee, #ccc);
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+label[for="file"]:hover {
+  background: linear-gradient(to bottom, #fff, #ddd);
+}
+
+label[for="file"]:active {
+  box-shadow: inset 1px 1px 3px #ccc;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
+                            "  background: linear-gradient(to bottom, #fff, #ddd);",
+                            "43:48 - 43:52",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+form > div {
+  margin-bottom: 20px;
+}
+
+button,
+label,
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input[type="file"] {
+  height: 0;
+  padding: 0;
+  opacity: 0;
+}
+
+label[for="file"] {
+  box-shadow: 1px 1px 3px #ccc;
+  background: linear-gradient(to bottom, #eee, #ccc);
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+label[for="file"]:hover {
+  background: linear-gradient(to bottom, #fff, #ddd);
+}
+
+label[for="file"]:active {
+  box-shadow: inset 1px 1px 3px #ccc;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
+                            "  box-shadow: inset 1px 1px 3px #ccc;",
+                            "47:33 - 47:37",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+form > div {
+  margin-bottom: 20px;
+}
+
+button,
+label,
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input[type="file"] {
+  height: 0;
+  padding: 0;
+  opacity: 0;
+}
+
+label[for="file"] {
+  box-shadow: 1px 1px 3px #ccc;
+  background: linear-gradient(to bottom, #eee, #ccc);
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+label[for="file"]:hover {
+  background: linear-gradient(to bottom, #fff, #ddd);
+}
+
+label[for="file"]:active {
+  box-shadow: inset 1px 1px 3px #ccc;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "rgb(169,169,169)" to be "darkgrey" (color-named)',
+                            "  border: 1px solid rgb(169, 169, 169);",
+                            "36:21 - 36:39",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[color-named] Expected "rgb(169,169,169)" to be "darkgrey" (color-named)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+form > div {
+  margin-bottom: 20px;
+}
+
+button,
+label,
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input[type="file"] {
+  height: 0;
+  padding: 0;
+  opacity: 0;
+}
+
+label[for="file"] {
+  box-shadow: 1px 1px 3px #ccc;
+  background: linear-gradient(to bottom, #eee, #ccc);
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+label[for="file"]:hover {
+  background: linear-gradient(to bottom, #fff, #ddd);
+}
+
+label[for="file"]:active {
+  box-shadow: inset 1px 1px 3px #ccc;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "#fff" to be "white" (color-named)',
+                            "  background: linear-gradient(to bottom, #fff, #ddd);",
+                            "43:42 - 43:46",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[color-named] Expected "#fff" to be "white" (color-named)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+form > div {
+  margin-bottom: 20px;
+}
+
+button,
+label,
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input[type="file"] {
+  height: 0;
+  padding: 0;
+  opacity: 0;
+}
+
+label[for="file"] {
+  box-shadow: 1px 1px 3px #ccc;
+  background: linear-gradient(to bottom, #eee, #ccc);
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+label[for="file"]:hover {
+  background: linear-gradient(to bottom, #fff, #ddd);
+}
+
+label[for="file"]:active {
+  box-shadow: inset 1px 1px 3px #ccc;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)',
+                            "  padding: 0;",
+                            "19:3 - 19:10",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[declaration-block-no-duplicate-properties] Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+form > div {
+  margin-bottom: 20px;
+}
+
+button,
+label,
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input[type="file"] {
+  height: 0;
+  padding: 0;
+  opacity: 0;
+}
+
+label[for="file"] {
+  box-shadow: 1px 1px 3px #ccc;
+  background: linear-gradient(to bottom, #eee, #ccc);
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+label[for="file"]:hover {
+  background: linear-gradient(to bottom, #fff, #ddd);
+}
+
+label[for="file"]:active {
+  box-shadow: inset 1px 1px 3px #ccc;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "import-notation",
+                            'Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)',
+                            '@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");',
+                            "1:9 - 1:114",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[import-notation] Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+form > div {
+  margin-bottom: 20px;
+}
+
+button,
+label,
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input[type="file"] {
+  height: 0;
+  padding: 0;
+  opacity: 0;
+}
+
+label[for="file"] {
+  box-shadow: 1px 1px 3px #ccc;
+  background: linear-gradient(to bottom, #eee, #ccc);
+  border: 1px solid rgb(169, 169, 169);
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+label[for="file"]:hover {
+  background: linear-gradient(to bottom, #fff, #ddd);
+}
+
+label[for="file"]:active {
+  box-shadow: inset 1px 1px 3px #ccc;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "@typescript-eslint/prefer-for-of",
+                            "Expected a `for-of` loop instead of a `for` loop with this simple iteration.",
+                            `    for (let i = 0; i < curFiles.length; i++) {
+      const listItem = document.createElement("li");
+      listItem.textContent =
+        "File name: " +
+        curFiles[i].name +
+        "; file size " +
+        returnFileSize(curFiles[i].size) +
+        ".";
+      fileList.appendChild(listItem);
+    }`,
+                            "15:5 - 24:6",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[@typescript-eslint/prefer-for-of] Expected a \`for-of\` loop instead of a \`for\` loop with this simple iteration.
+~~~
+const fileInput = document.querySelector("#file");
+const fileList = document.querySelector("#file-list");
+
+fileInput.addEventListener("change", updateFileList);
+
+function updateFileList() {
+  while (fileList.firstChild) {
+    fileList.removeChild(fileList.firstChild);
+  }
+
+  let curFiles = fileInput.files;
+
+  if (!(curFiles.length === 0)) {
+    console.log("test");
+    for (let i = 0; i < curFiles.length; i++) {
+      const listItem = document.createElement("li");
+      listItem.textContent =
+        "File name: " +
+        curFiles[i].name +
+        "; file size " +
+        returnFileSize(curFiles[i].size) +
+        ".";
+      fileList.appendChild(listItem);
+    }
+  }
+}
+
+function returnFileSize(number) {
+  if (number < 1024) {
+    return number + "bytes";
+  } else if (number >= 1024 && number < 1048576) {
+    return (number / 1024).toFixed(1) + "KB";
+  } else if (number >= 1048576) {
+    return (number / 1048576).toFixed(1) + "MB";
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            `        "File name: " +
+        curFiles[i].name +
+        "; file size " +
+        returnFileSize(curFiles[i].size) +
+        ".";`,
+                            "18:9 - 22:12",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[prefer-template] Unexpected string concatenation.
+~~~
+const fileInput = document.querySelector("#file");
+const fileList = document.querySelector("#file-list");
+
+fileInput.addEventListener("change", updateFileList);
+
+function updateFileList() {
+  while (fileList.firstChild) {
+    fileList.removeChild(fileList.firstChild);
+  }
+
+  let curFiles = fileInput.files;
+
+  if (!(curFiles.length === 0)) {
+    console.log("test");
+    for (let i = 0; i < curFiles.length; i++) {
+      const listItem = document.createElement("li");
+      listItem.textContent =
+        "File name: " +
+        curFiles[i].name +
+        "; file size " +
+        returnFileSize(curFiles[i].size) +
+        ".";
+      fileList.appendChild(listItem);
+    }
+  }
+}
+
+function returnFileSize(number) {
+  if (number < 1024) {
+    return number + "bytes";
+  } else if (number >= 1024 && number < 1048576) {
+    return (number / 1024).toFixed(1) + "KB";
+  } else if (number >= 1048576) {
+    return (number / 1048576).toFixed(1) + "MB";
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '    return number + "bytes";',
+                            "30:12 - 30:28",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[prefer-template] Unexpected string concatenation.
+~~~
+const fileInput = document.querySelector("#file");
+const fileList = document.querySelector("#file-list");
+
+fileInput.addEventListener("change", updateFileList);
+
+function updateFileList() {
+  while (fileList.firstChild) {
+    fileList.removeChild(fileList.firstChild);
+  }
+
+  let curFiles = fileInput.files;
+
+  if (!(curFiles.length === 0)) {
+    console.log("test");
+    for (let i = 0; i < curFiles.length; i++) {
+      const listItem = document.createElement("li");
+      listItem.textContent =
+        "File name: " +
+        curFiles[i].name +
+        "; file size " +
+        returnFileSize(curFiles[i].size) +
+        ".";
+      fileList.appendChild(listItem);
+    }
+  }
+}
+
+function returnFileSize(number) {
+  if (number < 1024) {
+    return number + "bytes";
+  } else if (number >= 1024 && number < 1048576) {
+    return (number / 1024).toFixed(1) + "KB";
+  } else if (number >= 1048576) {
+    return (number / 1048576).toFixed(1) + "MB";
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '    return (number / 1024).toFixed(1) + "KB";',
+                            "32:12 - 32:45",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[prefer-template] Unexpected string concatenation.
+~~~
+const fileInput = document.querySelector("#file");
+const fileList = document.querySelector("#file-list");
+
+fileInput.addEventListener("change", updateFileList);
+
+function updateFileList() {
+  while (fileList.firstChild) {
+    fileList.removeChild(fileList.firstChild);
+  }
+
+  let curFiles = fileInput.files;
+
+  if (!(curFiles.length === 0)) {
+    console.log("test");
+    for (let i = 0; i < curFiles.length; i++) {
+      const listItem = document.createElement("li");
+      listItem.textContent =
+        "File name: " +
+        curFiles[i].name +
+        "; file size " +
+        returnFileSize(curFiles[i].size) +
+        ".";
+      fileList.appendChild(listItem);
+    }
+  }
+}
+
+function returnFileSize(number) {
+  if (number < 1024) {
+    return number + "bytes";
+  } else if (number >= 1024 && number < 1048576) {
+    return (number / 1024).toFixed(1) + "KB";
+  } else if (number >= 1048576) {
+    return (number / 1048576).toFixed(1) + "MB";
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '    return (number / 1048576).toFixed(1) + "MB";',
+                            "34:12 - 34:48",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
+[prefer-template] Unexpected string concatenation.
+~~~
+const fileInput = document.querySelector("#file");
+const fileList = document.querySelector("#file-list");
+
+fileInput.addEventListener("change", updateFileList);
+
+function updateFileList() {
+  while (fileList.firstChild) {
+    fileList.removeChild(fileList.firstChild);
+  }
+
+  let curFiles = fileInput.files;
+
+  if (!(curFiles.length === 0)) {
+    console.log("test");
+    for (let i = 0; i < curFiles.length; i++) {
+      const listItem = document.createElement("li");
+      listItem.textContent =
+        "File name: " +
+        curFiles[i].name +
+        "; file size " +
+        returnFileSize(curFiles[i].size) +
+        ".";
+      fileList.appendChild(listItem);
+    }
+  }
+}
+
+function returnFileSize(number) {
+  if (number < 1024) {
+    return number + "bytes";
+  } else if (number >= 1024 && number < 1048576) {
+    return (number / 1024).toFixed(1) + "KB";
+  } else if (number >= 1048576) {
+    return (number / 1048576).toFixed(1) + "MB";
+  }
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     customizable_select: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select",
@@ -17743,6 +19054,513 @@ option::checkmark {
   top: calc(anchor(bottom) + 1px);
   left: anchor(10%);
 }
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    form_validation: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-elem",
+                            "Do not use the <style> element; use separate CSS blocks instead.",
+                            `    <style>
+      input:invalid {
+        border: 2px dashed red;
+      }
+
+      input:valid {
+        border: 2px solid black;
+      }
+    </style>`,
+                            "6:4 - 14:12",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Favorite fruit start</title>
+    <style>
+      input:invalid {
+        border: 2px dashed red;
+      }
+
+      input:valid {
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <label for="choose">Would you prefer a banana or a cherry?</label>
+      <input id="choose" name="i_like" />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-arrow-callback",
+                            "Unexpected function expression.",
+                            `email.addEventListener("input", function (event) {
+  if (email.validity.typeMismatch) {
+    email.setCustomValidity("I am expecting an email address!");
+  } else {
+    email.setCustomValidity("");
+  }
+});`,
+                            "3:33 - 9:2",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
+[prefer-arrow-callback] Unexpected function expression.
+~~~
+const email = document.getElementById("mail");
+
+email.addEventListener("input", function (event) {
+  if (email.validity.typeMismatch) {
+    email.setCustomValidity("I am expecting an email address!");
+  } else {
+    email.setCustomValidity("");
+  }
+});
+
+const form = document.querySelector("form");
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+});
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#333" to be "#333333" (color-hex-length)',
+                            "  border: 1px solid #333;",
+                            "17:21 - 17:25",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
+[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
+~~~
+body {
+  font: 1em sans-serif;
+  width: 200px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+p * {
+  display: block;
+}
+
+input[type="email"] {
+  -webkit-appearance: none;
+  appearance: none;
+
+  width: 100%;
+  border: 1px solid #333;
+  margin: 0;
+
+  font-family: inherit;
+  font-size: 90%;
+
+  box-sizing: border-box;
+}
+
+/* This is our style for the invalid fields */
+input:invalid {
+  border-color: #900;
+  background-color: #fdd;
+}
+
+input:focus:invalid {
+  outline: none;
+}
+
+/* This is the style of our error messages */
+.error {
+  width: 100%;
+  padding: 0;
+
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#900" to be "#990000" (color-hex-length)',
+                            "  border-color: #900;",
+                            "28:17 - 28:21",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
+[color-hex-length] Expected "#900" to be "#990000" (color-hex-length)
+~~~
+body {
+  font: 1em sans-serif;
+  width: 200px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+p * {
+  display: block;
+}
+
+input[type="email"] {
+  -webkit-appearance: none;
+  appearance: none;
+
+  width: 100%;
+  border: 1px solid #333;
+  margin: 0;
+
+  font-family: inherit;
+  font-size: 90%;
+
+  box-sizing: border-box;
+}
+
+/* This is our style for the invalid fields */
+input:invalid {
+  border-color: #900;
+  background-color: #fdd;
+}
+
+input:focus:invalid {
+  outline: none;
+}
+
+/* This is the style of our error messages */
+.error {
+  width: 100%;
+  padding: 0;
+
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#fdd" to be "#ffdddd" (color-hex-length)',
+                            "  background-color: #fdd;",
+                            "29:21 - 29:25",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
+[color-hex-length] Expected "#fdd" to be "#ffdddd" (color-hex-length)
+~~~
+body {
+  font: 1em sans-serif;
+  width: 200px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+p * {
+  display: block;
+}
+
+input[type="email"] {
+  -webkit-appearance: none;
+  appearance: none;
+
+  width: 100%;
+  border: 1px solid #333;
+  margin: 0;
+
+  font-family: inherit;
+  font-size: 90%;
+
+  box-sizing: border-box;
+}
+
+/* This is our style for the invalid fields */
+input:invalid {
+  border-color: #900;
+  background-color: #fdd;
+}
+
+input:focus:invalid {
+  outline: none;
+}
+
+/* This is the style of our error messages */
+.error {
+  width: 100%;
+  padding: 0;
+
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#900" to be "#990000" (color-hex-length)',
+                            "  background-color: #900;",
+                            "43:21 - 43:25",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
+[color-hex-length] Expected "#900" to be "#990000" (color-hex-length)
+~~~
+body {
+  font: 1em sans-serif;
+  width: 200px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+p * {
+  display: block;
+}
+
+input[type="email"] {
+  -webkit-appearance: none;
+  appearance: none;
+
+  width: 100%;
+  border: 1px solid #333;
+  margin: 0;
+
+  font-family: inherit;
+  font-size: 90%;
+
+  box-sizing: border-box;
+}
+
+/* This is our style for the invalid fields */
+input:invalid {
+  border-color: #900;
+  background-color: #fdd;
+}
+
+input:focus:invalid {
+  outline: none;
+}
+
+/* This is the style of our error messages */
+.error {
+  width: 100%;
+  padding: 0;
+
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-arrow-callback",
+                            "Unexpected function expression.",
+                            `email.addEventListener("input", function (event) {
+  // Each time the user types something, we check if the
+  // form fields are valid.
+
+  if (email.validity.valid) {
+    // In case there is an error message visible, if the field
+    // is valid, we remove the error message.
+    emailError.innerHTML = ""; // Reset the content of the message
+    emailError.className = "error"; // Reset the visual state of the message
+  } else {
+    // If there is still an error, show the correct error
+    showError();
+  }
+});`,
+                            "8:33 - 21:2",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
+[prefer-arrow-callback] Unexpected function expression.
+~~~
+// There are many ways to pick a DOM node; here we get the form itself and the email
+// input box, as well as the span element into which we will place the error message.
+const form = document.getElementsByTagName("form")[0];
+
+const email = document.getElementById("mail");
+const emailError = document.querySelector("#mail + span.error");
+
+email.addEventListener("input", function (event) {
+  // Each time the user types something, we check if the
+  // form fields are valid.
+
+  if (email.validity.valid) {
+    // In case there is an error message visible, if the field
+    // is valid, we remove the error message.
+    emailError.innerHTML = ""; // Reset the content of the message
+    emailError.className = "error"; // Reset the visual state of the message
+  } else {
+    // If there is still an error, show the correct error
+    showError();
+  }
+});
+
+form.addEventListener("submit", function (event) {
+  // if the form contains valid data, we let it submit
+
+  if (!email.validity.valid) {
+    // If it isn't, we display an appropriate error message
+    showError();
+    // Then we prevent the form from being sent by canceling the event
+    event.preventDefault();
+  }
+});
+
+function showError() {
+  if (email.validity.valueMissing) {
+    // If the field is empty
+    // display the following error message.
+    emailError.textContent = "You need to enter an email address.";
+  } else if (email.validity.typeMismatch) {
+    // If the field doesn't contain an email address
+    // display the following error message.
+    emailError.textContent = "Entered value needs to be an email address.";
+  } else if (email.validity.tooShort) {
+    // If the data is too short
+    // display the following error message.
+    emailError.textContent = \`Email should be at least \${email.minLength} characters; you entered \${email.value.length}.\`;
+  }
+
+  // Set the styling appropriately
+  emailError.className = "error active";
+}
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+});
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-arrow-callback",
+                            "Unexpected function expression.",
+                            `form.addEventListener("submit", function (event) {
+  // if the form contains valid data, we let it submit
+
+  if (!email.validity.valid) {
+    // If it isn't, we display an appropriate error message
+    showError();
+    // Then we prevent the form from being sent by canceling the event
+    event.preventDefault();
+  }
+});`,
+                            "23:33 - 32:2",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
+[prefer-arrow-callback] Unexpected function expression.
+~~~
+// There are many ways to pick a DOM node; here we get the form itself and the email
+// input box, as well as the span element into which we will place the error message.
+const form = document.getElementsByTagName("form")[0];
+
+const email = document.getElementById("mail");
+const emailError = document.querySelector("#mail + span.error");
+
+email.addEventListener("input", function (event) {
+  // Each time the user types something, we check if the
+  // form fields are valid.
+
+  if (email.validity.valid) {
+    // In case there is an error message visible, if the field
+    // is valid, we remove the error message.
+    emailError.innerHTML = ""; // Reset the content of the message
+    emailError.className = "error"; // Reset the visual state of the message
+  } else {
+    // If there is still an error, show the correct error
+    showError();
+  }
+});
+
+form.addEventListener("submit", function (event) {
+  // if the form contains valid data, we let it submit
+
+  if (!email.validity.valid) {
+    // If it isn't, we display an appropriate error message
+    showError();
+    // Then we prevent the form from being sent by canceling the event
+    event.preventDefault();
+  }
+});
+
+function showError() {
+  if (email.validity.valueMissing) {
+    // If the field is empty
+    // display the following error message.
+    emailError.textContent = "You need to enter an email address.";
+  } else if (email.validity.typeMismatch) {
+    // If the field doesn't contain an email address
+    // display the following error message.
+    emailError.textContent = "Entered value needs to be an email address.";
+  } else if (email.validity.tooShort) {
+    // If the data is too short
+    // display the following error message.
+    emailError.textContent = \`Email should be at least \${email.minLength} characters; you entered \${email.value.length}.\`;
+  }
+
+  // Set the styling appropriately
+  emailError.className = "error active";
+}
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+});
 ~~~
 `
                           ]
@@ -26826,6 +28644,600 @@ textarea:focus {
                         }
                       ]
                     },
+                    "ui_pseudo-classes": {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "import-notation",
+                            'Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)',
+                            '@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");',
+                            "1:9 - 1:114",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[import-notation] Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 460px;
+}
+
+fieldset {
+  padding: 10px 30px 0;
+}
+
+legend {
+  color: white;
+  background: black;
+  padding: 5px 10px;
+}
+
+fieldset > div {
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+button,
+label,
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input {
+  box-shadow: inset 1px 1px 3px #cccccc;
+  border-radius: 5px;
+}
+
+input:hover,
+input:focus {
+  background-color: #eeeeee;
+}
+
+input + span {
+  position: relative;
+}
+
+input:required + span::after {
+  font-size: 0.7rem;
+  position: absolute;
+  content: "required";
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  top: -26px;
+  left: -70px;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "import-notation",
+                            'Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)',
+                            '@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");',
+                            "1:9 - 1:114",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[import-notation] Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 460px;
+}
+
+fieldset {
+  padding: 10px 30px 0;
+}
+
+legend {
+  color: white;
+  background: black;
+  padding: 5px 10px;
+}
+
+fieldset > div {
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+button,
+label,
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input {
+  box-shadow: inset 1px 1px 3px #cccccc;
+  border-radius: 5px;
+}
+
+input:hover,
+input:focus {
+  background-color: #eeeeee;
+}
+
+input + span {
+  position: relative;
+}
+
+input:required + span::after {
+  font-size: 0.7rem;
+  position: absolute;
+  content: "required";
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  top: -26px;
+  left: -70px;
+}
+
+input + span::before {
+  position: absolute;
+  right: -20px;
+  top: 5px;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:invalid + span::before {
+  content: "✖";
+  color: red;
+}
+
+input:valid + span::before {
+  content: "✓";
+  color: green;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "import-notation",
+                            'Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)',
+                            '@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");',
+                            "1:9 - 1:114",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[import-notation] Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 460px;
+}
+
+fieldset {
+  padding: 10px 30px 0;
+}
+
+legend {
+  color: white;
+  background: black;
+  padding: 5px 10px;
+}
+
+fieldset > div {
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+button,
+label,
+input {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input {
+  box-shadow: inset 1px 1px 3px #cccccc;
+  border-radius: 5px;
+}
+
+input:hover,
+input:focus {
+  background-color: #eeeeee;
+}
+
+input + span {
+  position: relative;
+}
+
+input + span::after {
+  font-size: 0.7rem;
+  position: absolute;
+  padding: 5px 10px;
+  top: -26px;
+}
+
+input:required + span::after {
+  color: white;
+  background-color: black;
+  content: "required";
+  left: -70px;
+}
+
+input:out-of-range + span::after {
+  color: white;
+  background-color: red;
+  width: 155px;
+  content: "Outside allowable value range";
+  left: -182px;
+}
+
+input + span::before {
+  position: absolute;
+  right: -20px;
+  top: 5px;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:invalid + span::before {
+  content: "✖";
+  color: red;
+}
+
+input:valid + span::before {
+  content: "✓";
+  color: green;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "import-notation",
+                            'Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)',
+                            '@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");',
+                            "1:9 - 1:114",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[import-notation] Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 460px;
+}
+
+fieldset {
+  padding: 10px 30px 0;
+  margin-bottom: 20px;
+}
+
+legend {
+  color: white;
+  background: black;
+  padding: 5px 10px;
+}
+
+fieldset > div {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+button,
+label,
+input[type="text"] {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  height: 30px;
+}
+
+input {
+  box-shadow: inset 1px 1px 3px #cccccc;
+  border-radius: 5px;
+}
+
+input:hover,
+input:focus {
+  background-color: #eeeeee;
+}
+
+input[type="text"]:disabled {
+  background: #eeeeee;
+  border: 1px solid #cccccc;
+}
+
+label:has(+ :disabled) {
+  color: #aaaaaa;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "import-notation",
+                            'Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)',
+                            '@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");',
+                            "1:9 - 1:114",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[import-notation] Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px auto;
+  max-width: 460px;
+}
+
+fieldset {
+  padding: 10px 30px 0;
+  margin-bottom: 20px;
+}
+
+legend {
+  color: white;
+  background: black;
+  padding: 5px 10px;
+}
+
+fieldset > div {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button,
+label,
+input[type="text"],
+textarea {
+  display: block;
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 5px;
+  height: 30px;
+}
+
+input[type="text"],
+textarea {
+  width: 50%;
+}
+
+textarea {
+  height: 110px;
+  resize: none;
+}
+
+label {
+  width: 40%;
+}
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus {
+  background-color: #eeeeee;
+}
+
+button {
+  width: 60%;
+  margin: 20px auto;
+}
+
+input:read-only,
+textarea:read-only {
+  border: 0;
+  box-shadow: none;
+  background-color: white;
+}
+
+textarea:read-write {
+  box-shadow: inset 1px 1px 3px #cccccc;
+  border-radius: 5px;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "import-notation",
+                            'Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)',
+                            '@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");',
+                            "1:9 - 1:114",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[import-notation] Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  /* Adjusts the position of the checkboxes on the text baseline */
+  vertical-align: -2px;
+  outline: none;
+}
+
+input[type="radio"]::before {
+  display: block;
+  content: " ";
+  width: 10px;
+  height: 10px;
+  border-radius: 6px;
+  background-color: red;
+  font-size: 1.2em;
+  transform: translate(3px, 3px) scale(0);
+  transform-origin: center;
+  transition: all 0.3s ease-in;
+}
+
+input[type="radio"]:checked::before {
+  transform: translate(3px, 3px) scale(1);
+  transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
+}
+
+input ~ span {
+  position: relative;
+}
+
+input:default ~ span::after {
+  font-size: 0.7rem;
+  position: absolute;
+  content: "Default";
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  right: -65px;
+  top: -3px;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "import-notation",
+                            'Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)',
+                            '@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");',
+                            "1:9 - 1:114",
+                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
+[import-notation] Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)
+~~~
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  /* Adjusts the position of the checkboxes on the text baseline */
+  vertical-align: -2px;
+  outline: none;
+}
+
+input[type="radio"]::before {
+  display: block;
+  content: " ";
+  width: 10px;
+  height: 10px;
+  border-radius: 6px;
+  background-color: red;
+  font-size: 1.2em;
+  transform: translate(3px, 3px) scale(0);
+  transform-origin: center;
+  transition: all 0.3s ease-in;
+}
+
+input[type="radio"]:checked::before {
+  transform: translate(3px, 3px) scale(1);
+  transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
+}
+
+input[type="radio"]:indeterminate {
+  border: 2px solid red;
+  animation: 0.4s linear infinite alternate border-pulse;
+}
+
+@keyframes border-pulse {
+  from {
+    border: 2px solid red;
+  }
+
+  to {
+    border: 6px solid red;
+  }
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     user_input_methods: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/User_input_methods",
@@ -26904,6 +29316,13 @@ textarea:focus {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -28018,8 +30437,64 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://help.espressoapp.com/",
                             "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.pspad.com/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.pspad.com/en/faq.htm",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://forum.pspad.com/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.pspad.com/en/helpfiles.htm",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.pspad.com/en/pspad-extensions.php",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -28034,6 +30509,19 @@ body * {
                         }
                       ]
                     },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
+                        }
+                      ]
+                    },
                     how_much_does_it_cost: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
@@ -28043,6 +30531,19 @@ body * {
                           data: [
                             "https://dotclear.org/",
                             "unable to verify the first certificate"
+                          ]
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -30618,6 +33119,19 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                     },
                     understanding_wcag: {
                       children: {
+                        keyboard: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Keyboard",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         perceivable: {
                           children: {
                             color_contrast: {
@@ -30650,6 +33164,18 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
             },
             api: {
               children: {
+                abortsignal: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/AbortSignal",
+                  messages: [
+                    {
+                      message: "Self link",
+                      data: [
+                        "/en-US/docs/Web/API/AbortSignal"
+                      ]
+                    }
+                  ]
+                },
                 aesderivedkeyparams: {
                   children: {},
                   slug: "/en-US/docs/Web/API/AesDerivedKeyParams",
@@ -30854,6 +33380,19 @@ body {
                         ],
                         [],
                         []
+                      ]
+                    }
+                  ]
+                },
+                beacon_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Beacon_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webkit.org/blog/8821/link-click-analytics-and-privacy/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -35988,6 +38527,27 @@ api.Window.sessionStorage`,
                       ]
                     }
                   ]
+                },
+                webgl_api: {
+                  children: {
+                    tutorial: {
+                      children: {
+                        adding_2d_content_to_a_webgl_context: {
+                          children: {},
+                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Adding_2D_content_to_a_WebGL_context",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://mathworld.wolfram.com/Matrix.html",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
                 },
                 webrtc_api: {
                   children: {
@@ -68701,6 +71261,19 @@ div::before {
                         }
                       ]
                     },
+                    grid_layout_and_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_and_accessibility",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     "grid_layout_using_line-based_placement": {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement",
@@ -82228,6 +84801,33 @@ div {
 ~~~
 `
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "display-box": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/display-box",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -94412,6 +97012,13 @@ pre {
                       data: [
                         "CSS info"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -94423,6 +97030,13 @@ pre {
                       message: "Missing data",
                       data: [
                         "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -98436,6 +101050,32 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
+                        a: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        button: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         caption: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/caption",
@@ -98720,6 +101360,39 @@ because the nesting selector cannot represent pseudo-elements. */
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        dl: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dl",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2020/09/voiceover-on-ios-14-supports-description-lists.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2022/12/brief-note-on-description-list-support.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        heading_elements: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2016/08/there-is-no-document-outline-algorithm.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -99013,7 +101686,17 @@ html.elements.input.colorspace`,
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/input",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         ins: {
                           children: {},
@@ -99641,6 +102324,19 @@ h2 {
                               ]
                             }
                           ]
+                        },
+                        tabindex: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/tabindex",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         }
                       }
                     }
@@ -99767,6 +102463,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
