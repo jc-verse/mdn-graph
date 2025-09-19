@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-sdc7xsk5.js";
+} from "./chunk-z6zqv2wb.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -519,26 +519,6 @@ div.warning {
                 }
               ]
             },
-            gpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/GPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-faq.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/gpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
-            },
             grid_areas: {
               children: {},
               slug: "/en-US/docs/Glossary/Grid_Areas",
@@ -1015,19 +995,6 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -2757,8 +2724,31 @@ li {
                           ]
                         }
                       }
+                    },
+                    tooling: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Tooling",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Learn_web_development/Core/Accessibility",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://egghead.io/courses/start-building-accessible-web-applications-today",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 challenges: {
                   children: {},
@@ -5140,6 +5130,19 @@ label + input[type="text"] {
                         }
                       ]
                     },
+                    react_resources: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://addons.mozilla.org/en-US/firefox/addon/react-devtools/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     react_todo_list_beginning: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_todo_list_beginning",
@@ -7017,13 +7020,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.udemy.com/topic/svelte-framework/?sort=popularity",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -10142,8 +10138,8 @@ button {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "Cannot reach server and Bun hangs"
+                            "https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -13908,13 +13904,6 @@ h2 {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/documentation/at-rules/use/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -29316,13 +29305,6 @@ input[type="radio"]:indeterminate {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -30437,64 +30419,8 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://help.espressoapp.com/",
                             "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.pspad.com/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.pspad.com/en/faq.htm",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://forum.pspad.com/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.pspad.com/en/helpfiles.htm",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.pspad.com/en/pspad-extensions.php",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -30531,19 +30457,6 @@ body * {
                           data: [
                             "https://dotclear.org/",
                             "unable to verify the first certificate"
-                          ]
-                        }
-                      ]
-                    },
-                    what_software_do_i_need: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -31233,6 +31146,33 @@ color: rgb(31 41 59 / 26%);
                             }
                           }
                         },
+                        management: {
+                          children: {
+                            install: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/install",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://addons.mozilla.org/",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://addons.mozilla.org/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         scripting: {
                           children: {
                             contentscriptfilter: {
@@ -31636,7 +31576,17 @@ webextensions.api.clipboard`,
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/version",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://addons.mozilla.org/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         }
                       }
                     },
@@ -32289,6 +32239,88 @@ webextensions.manifest.options_ui`,
                           ]
                         }
                       }
+                    },
+                    what_are_webextensions: {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/What_are_WebExtensions",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://addons.mozilla.org/en-US/firefox/addon/grammarly-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://addons.mozilla.org/en-US/firefox/addon/tabliss/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://addons.mozilla.org/en-US/firefox/addon/emoji-sav/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/",
+                            502
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://addons.mozilla.org/en-US/firefox/addon/leechblock-ng/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://addons.mozilla.org/en-US/firefox/addon/worldwide-radio/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://addons.mozilla.org/en-US/firefox/addon/2048-prime/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://addons.mozilla.org/en-US/firefox/addon/react-devtools/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    your_second_webextension: {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://addons.mozilla.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions",
@@ -32307,6 +32339,13 @@ webextensions.manifest.options_ui`,
                 {
                   message: "Unreachable via sidebar",
                   data: []
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://addons.mozilla.org/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -32343,6 +32382,13 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://addons.mozilla.org/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         }
@@ -32421,6 +32467,20 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://addons.mozilla.org/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://addons.mozilla.org/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -32488,6 +32548,13 @@ webextensions.manifest.options_ui`,
                           data: [
                             "/en-US/docs/Mozilla/Firefox/Releases/3/Site_compatibility"
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://addons.mozilla.org/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -32524,6 +32591,13 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://addons.mozilla.org/en-US/firefox/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         }
@@ -32538,6 +32612,13 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://addons.mozilla.org/en-US/firefox/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         }
@@ -32566,6 +32647,13 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://addons.mozilla.org/en-US/firefox/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         }
@@ -32580,6 +32668,13 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://addons.mozilla.org/en-US/firefox/",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         }
@@ -32598,6 +32693,19 @@ webextensions.manifest.options_ui`,
                           ]
                         }
                       }
+                    },
+                    "15": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/15",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://addons.mozilla.org/en-US/firefox/addon/mathml-fonts/",
+                            502
+                          ]
+                        }
+                      ]
                     },
                     "22": {
                       children: {},
@@ -33119,19 +33227,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                     },
                     understanding_wcag: {
                       children: {
-                        keyboard: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Keyboard",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         perceivable: {
                           children: {
                             color_contrast: {
@@ -33380,19 +33475,6 @@ body {
                         ],
                         [],
                         []
-                      ]
-                    }
-                  ]
-                },
-                beacon_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Beacon_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webkit.org/blog/8821/link-click-analytics-and-privacy/",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -34282,6 +34364,43 @@ kbd {
   font-size: 0.825rem;
   padding: 0.25rem;
 }
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                eventtarget: {
+                  children: {
+                    addeventlistener: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/EventTarget/addEventListener",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-arrow-callback",
+                            "Unexpected function expression.",
+                            `el.addEventListener("click", function () {
+  modifyText("four");
+});`,
+                            "9:30 - 11:2",
+                            `/en-US/docs/Web/API/EventTarget/addEventListener
+[prefer-arrow-callback] Unexpected function expression.
+~~~
+// Function to change the content of t2
+function modifyText(newText) {
+  const t2 = document.getElementById("t2");
+  t2.firstChild.nodeValue = newText;
+}
+
+// Function to add event listener to table
+const el = document.getElementById("outside");
+el.addEventListener("click", function () {
+  modifyText("four");
+});
 ~~~
 `
                           ]
@@ -36446,6 +36565,106 @@ body {
                 },
                 mediastream_recording_api: {
                   children: {
+                    recording_a_media_element: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "logical-assignment-operators",
+                            "Assignment (=) can be replaced with operator assignment (||=).",
+                            "      preview.captureStream = preview.captureStream || preview.mozCaptureStream;",
+                            "53:7 - 53:80",
+                            `/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element
+[logical-assignment-operators] Assignment (=) can be replaced with operator assignment (||=).
+~~~
+let preview = document.getElementById("preview");
+let recording = document.getElementById("recording");
+let startButton = document.getElementById("startButton");
+let stopButton = document.getElementById("stopButton");
+let downloadButton = document.getElementById("downloadButton");
+let logElement = document.getElementById("log");
+
+let recordingTimeMS = 5000;
+
+function log(msg) {
+  logElement.innerText += \`\${msg}\\n\`;
+}
+
+function wait(delayInMS) {
+  return new Promise((resolve) => setTimeout(resolve, delayInMS));
+}
+
+function startRecording(stream, lengthInMS) {
+  let recorder = new MediaRecorder(stream);
+  let data = [];
+
+  recorder.ondataavailable = (event) => data.push(event.data);
+  recorder.start();
+  log(\`\${recorder.state} for \${lengthInMS / 1000} seconds…\`);
+
+  let stopped = new Promise((resolve, reject) => {
+    recorder.onstop = resolve;
+    recorder.onerror = (event) => reject(event.name);
+  });
+
+  let recorded = wait(lengthInMS).then(() => {
+    if (recorder.state === "recording") {
+      recorder.stop();
+    }
+  });
+
+  return Promise.all([stopped, recorded]).then(() => data);
+}
+
+function stop(stream) {
+  stream.getTracks().forEach((track) => track.stop());
+}
+
+startButton.addEventListener("click", () => {
+  navigator.mediaDevices
+    .getUserMedia({
+      video: true,
+      audio: true,
+    })
+    .then((stream) => {
+      preview.srcObject = stream;
+      downloadButton.href = stream;
+      preview.captureStream = preview.captureStream || preview.mozCaptureStream;
+      return new Promise((resolve) => {
+        preview.onplaying = resolve;
+      });
+    })
+    .then(() => startRecording(preview.captureStream(), recordingTimeMS))
+    .then((recordedChunks) => {
+      let recordedBlob = new Blob(recordedChunks, { type: "video/webm" });
+      recording.src = URL.createObjectURL(recordedBlob);
+      downloadButton.href = recording.src;
+      downloadButton.download = "RecordedVideo.webm";
+
+      log(
+        \`Successfully recorded \${recordedBlob.size} bytes of \${recordedBlob.type} media.\`,
+      );
+    })
+    .catch((error) => {
+      if (error.name === "NotFoundError") {
+        log("Camera or microphone not found. Can't record.");
+      } else {
+        log(error);
+      }
+    });
+});
+
+stopButton.addEventListener("click", () => {
+  stop(preview.srcObject);
+});
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     using_the_mediastream_recording_api: {
                       children: {},
                       slug: "/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API",
@@ -37903,6 +38122,418 @@ textarea,
                     }
                   ]
                 },
+                viewport_segments_api: {
+                  children: {
+                    using: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Viewport_segments_API/Using",
+                      messages: [
+                        {
+                          message: "Missing sidebar",
+                          data: []
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "media-feature-range-notation",
+                            'Expected "context" media feature range notation (media-feature-range-notation)',
+                            "@media (horizontal-viewport-segments: 2) {",
+                            "2:8 - 2:41",
+                            `/en-US/docs/Web/API/Viewport_segments_API/Using
+[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
+~~~
+/* Segments are laid out horizontally. */
+@media (horizontal-viewport-segments: 2) {
+  .wrapper {
+    flex-direction: row;
+  }
+
+  /* ... */
+}
+
+/* Segments are laid out vertically. */
+@media (vertical-viewport-segments: 2) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  /* ... */
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "media-feature-range-notation",
+                            'Expected "context" media feature range notation (media-feature-range-notation)',
+                            "@media (vertical-viewport-segments: 2) {",
+                            "11:8 - 11:39",
+                            `/en-US/docs/Web/API/Viewport_segments_API/Using
+[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
+~~~
+/* Segments are laid out horizontally. */
+@media (horizontal-viewport-segments: 2) {
+  .wrapper {
+    flex-direction: row;
+  }
+
+  /* ... */
+}
+
+/* Segments are laid out vertically. */
+@media (vertical-viewport-segments: 2) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  /* ... */
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "CssSyntaxError",
+                            "Unknown word env (CssSyntaxError)",
+                            "env(viewport-segment-width 0 0)",
+                            "2:1 - 2:4",
+                            `/en-US/docs/Web/API/Viewport_segments_API/Using
+[CssSyntaxError] Unknown word env (CssSyntaxError)
+~~~
+/* Return the width of the top/left segment */
+env(viewport-segment-width 0 0)
+
+/* Return the width of the right segment */
+env(viewport-segment-width 1 0)
+
+/* Return the width of the bottom segment */
+env(viewport-segment-width 0 1)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "media-feature-range-notation",
+                            'Expected "context" media feature range notation (media-feature-range-notation)',
+                            "@media (horizontal-viewport-segments: 2) {",
+                            "1:8 - 1:41",
+                            `/en-US/docs/Web/API/Viewport_segments_API/Using
+[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
+~~~
+@media (horizontal-viewport-segments: 2) {
+  .wrapper {
+    display: grid;
+    grid-template: "left fold right";
+    grid-columns: env(viewport-segment-width 0 0)
+      env(viewport-segment-width 1 0);
+  }
+  .firstSection {
+    grid-area: left;
+  }
+  .secondSection {
+    grid-area: right;
+  }
+}
+
+@media (vertical-viewport-segments: 2) {
+  .wrapper {
+    display: grid;
+    grid-template:
+      "top"
+      "bottom";
+    grid-rows: env(viewport-segment-height 0 1) env(viewport-segment-width 0 0);
+  }
+  .firstSection {
+    grid-area: top;
+  }
+  .secondSection {
+    grid-area: bottom;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "media-feature-range-notation",
+                            'Expected "context" media feature range notation (media-feature-range-notation)',
+                            "@media (vertical-viewport-segments: 2) {",
+                            "16:8 - 16:39",
+                            `/en-US/docs/Web/API/Viewport_segments_API/Using
+[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
+~~~
+@media (horizontal-viewport-segments: 2) {
+  .wrapper {
+    display: grid;
+    grid-template: "left fold right";
+    grid-columns: env(viewport-segment-width 0 0)
+      env(viewport-segment-width 1 0);
+  }
+  .firstSection {
+    grid-area: left;
+  }
+  .secondSection {
+    grid-area: right;
+  }
+}
+
+@media (vertical-viewport-segments: 2) {
+  .wrapper {
+    display: grid;
+    grid-template:
+      "top"
+      "bottom";
+    grid-rows: env(viewport-segment-height 0 1) env(viewport-segment-width 0 0);
+  }
+  .firstSection {
+    grid-area: top;
+  }
+  .secondSection {
+    grid-area: bottom;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "property-no-unknown",
+                            'Unexpected unknown property "grid-columns" (property-no-unknown)',
+                            "    grid-columns: env(viewport-segment-width 0 0)",
+                            "5:5 - 5:17",
+                            `/en-US/docs/Web/API/Viewport_segments_API/Using
+[property-no-unknown] Unexpected unknown property "grid-columns" (property-no-unknown)
+~~~
+@media (horizontal-viewport-segments: 2) {
+  .wrapper {
+    display: grid;
+    grid-template: "left fold right";
+    grid-columns: env(viewport-segment-width 0 0)
+      env(viewport-segment-width 1 0);
+  }
+  .firstSection {
+    grid-area: left;
+  }
+  .secondSection {
+    grid-area: right;
+  }
+}
+
+@media (vertical-viewport-segments: 2) {
+  .wrapper {
+    display: grid;
+    grid-template:
+      "top"
+      "bottom";
+    grid-rows: env(viewport-segment-height 0 1) env(viewport-segment-width 0 0);
+  }
+  .firstSection {
+    grid-area: top;
+  }
+  .secondSection {
+    grid-area: bottom;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "property-no-unknown",
+                            'Unexpected unknown property "grid-rows" (property-no-unknown)',
+                            "    grid-rows: env(viewport-segment-height 0 1) env(viewport-segment-width 0 0);",
+                            "22:5 - 22:14",
+                            `/en-US/docs/Web/API/Viewport_segments_API/Using
+[property-no-unknown] Unexpected unknown property "grid-rows" (property-no-unknown)
+~~~
+@media (horizontal-viewport-segments: 2) {
+  .wrapper {
+    display: grid;
+    grid-template: "left fold right";
+    grid-columns: env(viewport-segment-width 0 0)
+      env(viewport-segment-width 1 0);
+  }
+  .firstSection {
+    grid-area: left;
+  }
+  .secondSection {
+    grid-area: right;
+  }
+}
+
+@media (vertical-viewport-segments: 2) {
+  .wrapper {
+    display: grid;
+    grid-template:
+      "top"
+      "bottom";
+    grid-rows: env(viewport-segment-height 0 1) env(viewport-segment-width 0 0);
+  }
+  .firstSection {
+    grid-area: top;
+  }
+  .secondSection {
+    grid-area: bottom;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "CssSyntaxError",
+                            "Unclosed bracket (CssSyntaxError)",
+                            "        calc(100vw - (env(viewport-segment-width 0 0) + env(viewport-segment-width 1 0))",
+                            "6:13 - 6:14",
+                            `/en-US/docs/Web/API/Viewport_segments_API/Using
+[CssSyntaxError] Unclosed bracket (CssSyntaxError)
+~~~
+@media (horizontal-viewport-segments: 2) {
+   .wrapper {
+     grid-template: "left fold right";
+     grid-columns:
+        env(viewport-segment-width 0 0)
+        calc(100vw - (env(viewport-segment-width 0 0) + env(viewport-segment-width 1 0))
+        env(viewport-segment-width 1 0);
+   }
+}
+
+@media (vertical-viewport-segments: 2) {
+   .wrapper {
+     grid-template:
+      "top"
+      "fold"
+      "bottom";
+     grid-rows: env(viewport-segment-height 0 1) 1fr env(viewport-segment-width 0 0);
+
+   }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "media-feature-range-notation",
+                            'Expected "context" media feature range notation (media-feature-range-notation)',
+                            "@media (horizontal-viewport-segments: 2) {",
+                            "1:8 - 1:41",
+                            `/en-US/docs/Web/API/Viewport_segments_API/Using
+[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
+~~~
+@media (horizontal-viewport-segments: 2) {
+  .wrapper {
+    flex-direction: row;
+  }
+
+  .list-view {
+    width: env(viewport-segment-width 0 0);
+  }
+
+  .fold {
+    width: calc(
+      env(viewport-segment-left 1 0) - env(viewport-segment-right 0 0)
+    );
+    background-color: black;
+    height: 100%;
+  }
+
+  .detail-view {
+    width: env(viewport-segment-width 1 0);
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "media-feature-range-notation",
+                            'Expected "context" media feature range notation (media-feature-range-notation)',
+                            "@media (vertical-viewport-segments: 2) {",
+                            "1:8 - 1:39",
+                            `/en-US/docs/Web/API/Viewport_segments_API/Using
+[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
+~~~
+@media (vertical-viewport-segments: 2) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .list-view {
+    height: env(viewport-segment-height 0 0);
+  }
+
+  .fold {
+    width: 100%;
+    height: calc(
+      env(viewport-segment-top 0 1) - env(viewport-segment-bottom 0 0)
+    );
+    background-color: black;
+  }
+
+  .detail-view {
+    height: env(viewport-segment-height 0 1);
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mdn.github.io/dom-examples/viewport-segment-api/",
+                            404
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/viewport-segment-api",
+                            404
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/Viewport_segments_API",
+                  messages: [
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/API/Viewport_API"
+                      ]
+                    },
+                    {
+                      message: "Missing sidebar",
+                      data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://mdn.github.io/dom-examples/viewport-segment-api/",
+                        404
+                      ]
+                    }
+                  ]
+                },
                 viewtimeline: {
                   children: {},
                   slug: "/en-US/docs/Web/API/ViewTimeline",
@@ -38530,6 +39161,19 @@ api.Window.sessionStorage`,
                 },
                 webgl_api: {
                   children: {
+                    matrix_math_for_the_web: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebGL_API/Matrix_math_for_the_web",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mathworld.wolfram.com/RotationMatrix.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     tutorial: {
                       children: {
                         adding_2d_content_to_a_webgl_context: {
@@ -38627,6 +39271,23 @@ api.Window.sessionStorage`,
                     }
                   }
                 },
+                webxr_device_api: {
+                  children: {
+                    startup_and_shutdown: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebXR_Device_API/Startup_and_shutdown",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://addons.mozilla.org/en-US/firefox/addon/webxr-api-emulator/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 window_management_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Window_Management_API",
@@ -38698,6 +39359,83 @@ body {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    postmessage: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/postMessage",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-useless-return",
+                            "Unnecessary return statement.",
+                            '  if (event.origin !== "http://example.org:8080") return;',
+                            "2:51 - 2:58",
+                            `/en-US/docs/Web/API/Window/postMessage
+[no-useless-return] Unnecessary return statement.
+~~~
+window.addEventListener("message", (event) => {
+  if (event.origin !== "http://example.org:8080") return;
+
+  // …
+});
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-useless-return",
+                            "Unnecessary return statement.",
+                            '  if (event.origin !== "http://example.com") return;',
+                            "22:46 - 22:53",
+                            `/en-US/docs/Web/API/Window/postMessage
+[no-useless-return] Unnecessary return statement.
+~~~
+/*
+ * In window A's scripts, with A being on http://example.com:8080:
+ */
+
+const popup = window.open(/* popup details */);
+
+// When the popup has fully loaded, if not blocked by a popup blocker:
+
+// This does nothing, assuming the window hasn't changed its location.
+popup.postMessage(
+  "The user is 'bob' and the password is 'secret'",
+  "https://secure.example.net",
+);
+
+// This will successfully queue a message to be dispatched to the popup, assuming
+// the window hasn't changed its location.
+popup.postMessage("hello there!", "http://example.com");
+
+window.addEventListener("message", (event) => {
+  // Do we trust the sender of this message? (might be
+  // different from what we originally opened, for example).
+  if (event.origin !== "http://example.com") return;
+
+  // event.source is popup
+  // event.data is "hi there yourself! the secret response is: rheeeeet!"
+});
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    viewport: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/viewport",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/Viewport_API"
                           ]
                         }
                       ]
@@ -42336,6 +43074,30 @@ h2 {
                         }
                       ]
                     },
+                    "horizontal-viewport-segments": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/@media/horizontal-viewport-segments",
+                      messages: [
+                        {
+                          message: "Unreachable via sidebar",
+                          data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mdn.github.io/dom-examples/viewport-segment-api/",
+                            404
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/viewport-segment-api",
+                            404
+                          ]
+                        }
+                      ]
+                    },
                     hover: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@media/hover",
@@ -42800,6 +43562,30 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    },
+                    "vertical-viewport-segments": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/@media/vertical-viewport-segments",
+                      messages: [
+                        {
+                          message: "Unreachable via sidebar",
+                          data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mdn.github.io/dom-examples/viewport-segment-api/",
+                            404
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/dom-examples/tree/main/viewport-segment-api",
+                            404
+                          ]
                         }
                       ]
                     },
@@ -69716,30 +70502,6 @@ css.at-rules.font-face.WOFF_2`,
                     }
                   ]
                 },
-                css_fragmentation: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/CSS_fragmentation",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/@media/horizontal-viewport-segments"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/@media/vertical-viewport-segments"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/Viewport_segments_API"
-                      ]
-                    }
-                  ]
-                },
                 css_generated_content: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/CSS_generated_content",
@@ -71257,19 +72019,6 @@ div::before {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    grid_layout_and_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_and_accessibility",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -84633,18 +85382,6 @@ main {
                     {
                       message: "Broken link",
                       data: [
-                        "/en-US/docs/Web/API/Window/Viewport"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/API/Viewport_segments_API/Using"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
                         "/en-US/docs/Web/CSS/media/horizontal-viewport-segments"
                       ]
                     },
@@ -84800,33 +85537,6 @@ div {
 }
 ~~~
 `
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "display-box": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/display-box",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -85142,6 +85852,48 @@ li {
 }
 ~~~
 `
+                      ]
+                    }
+                  ]
+                },
+                env: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/env",
+                  messages: [
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word env (CssSyntaxError)",
+                        "env(viewport-segment-width 1 0)",
+                        "1:1 - 1:4",
+                        `/en-US/docs/Web/CSS/env
+[CssSyntaxError] Unknown word env (CssSyntaxError)
+~~~
+env(viewport-segment-width 1 0)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://mdn.github.io/dom-examples/viewport-segment-api/",
+                        404
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://github.com/mdn/dom-examples/tree/main/viewport-segment-api",
+                        404
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://mdn.github.io/dom-examples/viewport-segment-api/",
+                        404
                       ]
                     }
                   ]
@@ -97012,13 +97764,6 @@ pre {
                       data: [
                         "CSS info"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -97030,13 +97775,6 @@ pre {
                       message: "Missing data",
                       data: [
                         "CSS info"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -101050,32 +101788,6 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
-                        a: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        button: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         caption: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/caption",
@@ -101360,39 +102072,6 @@ because the nesting selector cannot represent pseudo-elements. */
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        },
-                        dl: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dl",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2020/09/voiceover-on-ios-14-supports-description-lists.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2022/12/brief-note-on-description-list-support.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        heading_elements: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2016/08/there-is-no-document-outline-algorithm.html",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -101686,17 +102365,7 @@ html.elements.input.colorspace`,
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/input",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
+                          }
                         },
                         ins: {
                           children: {},
@@ -102325,14 +102994,14 @@ h2 {
                             }
                           ]
                         },
-                        tabindex: {
+                        title: {
                           children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/tabindex",
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/title",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                                "https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/",
                                 "The operation timed out."
                               ]
                             }
@@ -102463,19 +103132,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -102732,6 +103388,41 @@ h2 {
                         },
                         object: {
                           children: {}
+                        },
+                        promise: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-script",
+                                "Do not write JS within the <script> element; use separate JS blocks instead.",
+                                `<script>
+  window.addEventListener("message", (event) => {
+    document.querySelector("#text").textContent = "hello";
+    // this code will only run in browsers that track the incumbent settings object
+    console.log(event);
+  });
+</script>`,
+                                "2:0 - 8:9",
+                                `/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!-- x.html -->
+<!doctype html>
+<script>
+  window.addEventListener("message", (event) => {
+    document.querySelector("#text").textContent = "hello";
+    // this code will only run in browsers that track the incumbent settings object
+    console.log(event);
+  });
+</script>
+~~~
+`
+                              ]
+                            }
+                          ]
                         }
                       }
                     },
@@ -102774,6 +103465,152 @@ h2 {
                   }
                 }
               }
+            },
+            mathml: {
+              children: {
+                guides: {
+                  children: {
+                    fonts: {
+                      children: {},
+                      slug: "/en-US/docs/Web/MathML/Guides/Fonts",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://addons.mozilla.org/en-US/firefox/addon/mathml-fonts/",
+                            502
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://addons.mozilla.org/en-US/firefox/addon/mathml-fonts/",
+                            502
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://addons.mozilla.org/en-US/firefox/addon/mathml-fonts/",
+                            502
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                reference: {
+                  children: {
+                    attribute: {
+                      children: {},
+                      slug: "/en-US/docs/Web/MathML/Reference/Attribute",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://w3c.github.io/mathml/",
+                            404
+                          ]
+                        }
+                      ]
+                    },
+                    element: {
+                      children: {
+                        menclose: {
+                          children: {},
+                          slug: "/en-US/docs/Web/MathML/Reference/Element/menclose",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://w3c.github.io/mathml/",
+                                404
+                              ]
+                            }
+                          ]
+                        },
+                        mfenced: {
+                          children: {},
+                          slug: "/en-US/docs/Web/MathML/Reference/Element/mfenced",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://w3c.github.io/mathml/",
+                                404
+                              ]
+                            }
+                          ]
+                        },
+                        semantics: {
+                          children: {},
+                          slug: "/en-US/docs/Web/MathML/Reference/Element/semantics",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://w3c.github.io/mathml/",
+                                404
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/MathML/Reference/Element",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://w3c.github.io/mathml/",
+                            404
+                          ]
+                        }
+                      ]
+                    },
+                    global_attributes: {
+                      children: {
+                        href: {
+                          children: {},
+                          slug: "/en-US/docs/Web/MathML/Reference/Global_attributes/href",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://w3c.github.io/mathml/",
+                                404
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              slug: "/en-US/docs/Web/MathML",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://w3c.github.io/mathml/",
+                    404
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://w3c.github.io/mathml/",
+                    404
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://w3c.github.io/mathml/",
+                    404
+                  ]
+                }
+              ]
             },
             media: {
               children: {
@@ -102913,6 +103750,13 @@ h2 {
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/Web/Privacy/Guides"
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://addons.mozilla.org/en-GB/firefox/addon/clearurls/",
+                    "The operation timed out."
                   ]
                 }
               ]
