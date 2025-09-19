@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-z6zqv2wb.js";
+} from "./chunk-6mrmcnzh.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -2724,19 +2724,6 @@ li {
                           ]
                         }
                       }
-                    },
-                    tooling: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Tooling",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Core/Accessibility",
@@ -3221,25 +3208,6 @@ span {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries",
                       messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "media-feature-range-notation",
-                            'Expected "context" media feature range notation (media-feature-range-notation)',
-                            "@media screen and (width: 600px) {",
-                            "1:19 - 1:33",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Media_queries
-[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
-~~~
-@media screen and (width: 600px) {
-  body {
-    color: red;
-  }
-}
-~~~
-`
-                          ]
-                        },
                         {
                           message: "Stylelint backlog",
                           data: [
@@ -5126,19 +5094,6 @@ label + input[type="text"] {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    react_resources: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addons.mozilla.org/en-US/firefox/addon/react-devtools/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -10131,19 +10086,6 @@ button {
                         }
                       ]
                     },
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     including_vector_graphics_in_html: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Including_vector_graphics_in_HTML",
@@ -10151,6 +10093,201 @@ button {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    },
+                    marking_up_a_letter: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Marking_up_a_letter",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-elem",
+                            "Do not use the <style> element; use separate CSS blocks instead.",
+                            `    <style>
+      body {
+        font: 1.2em / 1.5 system-ui;
+      }
+
+      .sender-column {
+        text-align: right;
+      }
+
+      h1 {
+        font-size: 1.5em;
+      }
+
+      h2 {
+        font-size: 1.3em;
+      }
+    </style>`,
+                            "6:4 - 22:12",
+                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Marking_up_a_letter
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Dr. Eleanor Gaye" />
+    <title>Awesome science application correspondence</title>
+    <style>
+      body {
+        font: 1.2em / 1.5 system-ui;
+      }
+
+      .sender-column {
+        text-align: right;
+      }
+
+      h1 {
+        font-size: 1.5em;
+      }
+
+      h2 {
+        font-size: 1.3em;
+      }
+    </style>
+  </head>
+  <body>
+    <address class="sender-column">
+      <strong>Dr. Eleanor Gaye</strong><br />
+      Awesome Science faculty<br />
+      University of Awesome<br />
+      Bobtown, CA 99999,<br />
+      USA<br />
+      <strong>Tel</strong>: 123-456-7890<br />
+      <strong>Email</strong>: no_reply@example.com
+    </address>
+
+    <p class="sender-column">
+      <time datetime="2016-01-20">20 January 2016</time>
+    </p>
+
+    <address>
+      <strong>Miss Eileen Dover</strong><br />
+      4321 Cliff Top Edge<br />
+      Dover, CT9 XXX<br />
+      UK
+    </address>
+
+    <h1>Re: Eileen Dover university application</h1>
+
+    <p>Dear Eileen,</p>
+
+    <p>
+      Thank you for your recent application to join us at the University of
+      Awesome's science faculty to study as part of your
+      <abbr>PhD</abbr> (Doctor of Philosophy) next year. I will answer your
+      questions one by one, in the following sections.
+    </p>
+
+    <h2>Starting dates</h2>
+
+    <p>
+      We are happy to accommodate you starting your study with us at any time,
+      however it would suit us better if you could start at the beginning of a
+      semester; the start dates for each one are as follows:
+    </p>
+
+    <ul>
+      <li>
+        First semester: <time datetime="2016-09-09">9 September 2016</time>
+      </li>
+      <li>
+        Second semester: <time datetime="2017-01-15">15 January 2017</time>
+      </li>
+      <li>Third semester: <time datetime="2017-05-02">2 May 2017</time></li>
+    </ul>
+
+    <p>
+      Please let me know if this is ok, and if so which start date you would
+      prefer.
+    </p>
+
+    <h2>Subjects of study</h2>
+
+    <p>
+      At the Awesome Science Faculty, we have a pretty open-minded research
+      facility — as long as the subjects fall somewhere in the realm of science
+      and technology. You seem like an intelligent, dedicated researcher, and
+      just the kind of person we'd like to have on our team. Saying that, of the
+      ideas you submitted we were most intrigued by are as follows, in order of
+      priority:
+    </p>
+
+    <ol>
+      <li>
+        Turning H<sub>2</sub>O into wine, and the health benefits of Resveratrol
+        (C<sub>14</sub>H<sub>12</sub>O<sub>3</sub>.)
+      </li>
+      <li>
+        Measuring the effect on performance of funk bass players at temperatures
+        exceeding 30°C (86°F), when the audience size exponentially increases
+        (effect of 3 × 10<sup>3</sup> increasing to 3 × 10<sup>4</sup>.)
+      </li>
+      <li>
+        <abbr>HTML</abbr>, Hypertext Markup Language, and <abbr>CSS</abbr>,
+        Cascading Style Sheets, constructs for representing musical scores.
+      </li>
+    </ol>
+
+    <p>
+      So please can you provide more information on each of these subjects,
+      including how long you'd expect the research to take, required staff and
+      other resources, and anything else you think we'd need to know? Thanks.
+    </p>
+
+    <h2>Exotic dance moves</h2>
+
+    <p>
+      Yes, you are right! As part of my post-doctorate work, I
+      <em>did</em> study exotic tribal dances. To answer your question, my
+      favorite dances are as follows, with definitions:
+    </p>
+
+    <dl>
+      <dt>Polynesian chicken dance</dt>
+      <dd>
+        A little known but <em>very</em> influential dance dating back as far as
+        300 <abbr title="Before Common Era">BCE</abbr>, a whole village would
+        dance around in a circle like chickens, to encourage their livestock to
+        be "fruitful".
+      </dd>
+      <dt>Icelandic brownian shuffle</dt>
+      <dd>
+        Before the Icelanders developed fire as a means of getting warm, they
+        used to practice this dance, which involved huddling close together in a
+        circle on the floor, and shuffling their bodies around in imperceptibly
+        tiny, very rapid movements. One of my fellow students used to say that
+        he thought this dance inspired modern styles such as Twerking.
+      </dd>
+      <dt>Arctic robot dance</dt>
+      <dd>
+        An interesting example of historic misinformation, English explorers in
+        the 1960s believed to have discovered a new dance style characterized by
+        "robotic", stilted movements, being practiced by inhabitants of Northern
+        Alaska and Canada. Later on however it was discovered that they were
+        just moving like this because they were really cold.
+      </dd>
+    </dl>
+
+    <p>Yours sincerely,</p>
+
+    <p>Dr Eleanor Gaye</p>
+
+    <p>
+      University of Awesome motto: <q>Be awesome to each other.</q> --
+      <cite
+        >The memoirs of Bill S Preston, <abbr title="Esquire">Esq.</abbr></cite
+      >
+    </p>
+  </body>
+</html>
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -29555,40 +29692,6 @@ button:active {
                           ]
                         },
                         {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-block-no-duplicate-properties",
-                            'Unexpected duplicate "background-color" (declaration-block-no-duplicate-properties)',
-                            "  background-color: red;",
-                            "4:3 - 4:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
-[declaration-block-no-duplicate-properties] Unexpected duplicate "background-color" (declaration-block-no-duplicate-properties)
-~~~
-button {
-  /* … */
-
-  background-color: red;
-  background-color: rgb(255 0 0 / 90%);
-  box-shadow:
-    inset 3px 3px 3px rgb(255 255 255 / 40%),
-    inset -3px -3px 3px rgb(0 0 0 / 40%);
-}
-
-button:hover,
-button:focus {
-  background-color: rgb(255 0 0 / 50%);
-}
-
-button:active {
-  box-shadow:
-    inset 3px 3px 3px rgb(0 0 0 / 40%),
-    inset -3px -3px 3px rgb(255 255 255 / 40%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "alpha-value-notation",
@@ -29911,60 +30014,6 @@ body {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-block-no-duplicate-properties",
-                            'Unexpected duplicate "background-color" (declaration-block-no-duplicate-properties)',
-                            "  background-color: red;",
-                            "18:3 - 18:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
-[declaration-block-no-duplicate-properties] Unexpected duplicate "background-color" (declaration-block-no-duplicate-properties)
-~~~
-html {
-  font-family: sans-serif;
-  height: 100%;
-}
-
-button {
-  width: 150px;
-  margin: auto;
-  line-height: 2;
-  font-size: 1.1rem;
-  text-align: center;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  border-radius: 20px / 15px;
-  border: none;
-  cursor: pointer;
-
-  background-color: red;
-  background-color: rgb(255 0 0 / 90%);
-  box-shadow:
-    inset 3px 3px 3px rgb(255 255 255 / 40%),
-    inset -3px -3px 3px rgb(0 0 0 / 40%);
-}
-
-button:hover,
-button:focus {
-  background-color: rgb(255 0 0 / 50%);
-}
-
-button:active {
-  box-shadow:
-    inset 3px 3px 3px rgb(0 0 0 / 40%),
-    inset -3px -3px 3px rgb(255 255 255 / 40%);
-}
-
-body {
-  height: inherit;
-  display: flex;
-  align-items: center;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     }
@@ -29974,6 +30023,23 @@ body {
             },
             getting_started: {
               children: {
+                environment_setup: {
+                  children: {
+                    installing_software: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Installing_software",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.samsung.com/us/support/owners/app/samsung-internet",
+                            "The response redirected too many times. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
@@ -30442,6 +30508,13 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://gaesamplesite.appspot.com/downloads.html",
+                            503
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://gaesamplesite.appspot.com/",
                             503
                           ]
@@ -30745,22 +30818,6 @@ color: rgb(31 41 59 / 26%);
                   children: {
                     api: {
                       children: {
-                        browsersettings: {
-                          children: {
-                            verticaltabs: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserSettings/verticalTabs",
-                              messages: [
-                                {
-                                  message: "Not in BCD",
-                                  data: [
-                                    "webextensions.api.browserSettings.verticalTabs"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         contentscripts: {
                           children: {
                             registeredcontentscript: {
@@ -31146,33 +31203,6 @@ color: rgb(31 41 59 / 26%);
                             }
                           }
                         },
-                        management: {
-                          children: {
-                            install: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management/install",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://addons.mozilla.org/",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/management",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://addons.mozilla.org/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         scripting: {
                           children: {
                             contentscriptfilter: {
@@ -31305,12 +31335,6 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "Not in BCD",
-                                      data: [
-                                        "webextensions.api.types.BrowserSetting.clear"
-                                      ]
                                     }
                                   ]
                                 },
@@ -31321,12 +31345,6 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "Not in BCD",
-                                      data: [
-                                        "webextensions.api.types.BrowserSetting.get"
-                                      ]
                                     }
                                   ]
                                 },
@@ -31347,12 +31365,6 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "Not in BCD",
-                                      data: [
-                                        "webextensions.api.types.BrowserSetting.set"
-                                      ]
                                     }
                                   ]
                                 }
@@ -31576,17 +31588,7 @@ webextensions.api.clipboard`,
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/version",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://addons.mozilla.org/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
+                          }
                         }
                       }
                     },
@@ -32239,88 +32241,6 @@ webextensions.manifest.options_ui`,
                           ]
                         }
                       }
-                    },
-                    what_are_webextensions: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/What_are_WebExtensions",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addons.mozilla.org/en-US/firefox/addon/grammarly-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addons.mozilla.org/en-US/firefox/addon/tabliss/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addons.mozilla.org/en-US/firefox/addon/emoji-sav/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/",
-                            502
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addons.mozilla.org/en-US/firefox/addon/leechblock-ng/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addons.mozilla.org/en-US/firefox/addon/worldwide-radio/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addons.mozilla.org/en-US/firefox/addon/2048-prime/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addons.mozilla.org/en-US/firefox/addon/react-devtools/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    your_second_webextension: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addons.mozilla.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions",
@@ -32339,13 +32259,6 @@ webextensions.manifest.options_ui`,
                 {
                   message: "Unreachable via sidebar",
                   data: []
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://addons.mozilla.org/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -32382,13 +32295,6 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://addons.mozilla.org/",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         }
@@ -32467,20 +32373,6 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://addons.mozilla.org/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://addons.mozilla.org/",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         },
@@ -32548,13 +32440,6 @@ webextensions.manifest.options_ui`,
                           data: [
                             "/en-US/docs/Mozilla/Firefox/Releases/3/Site_compatibility"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addons.mozilla.org/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -32591,13 +32476,6 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://addons.mozilla.org/en-US/firefox/",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         }
@@ -32612,13 +32490,6 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://addons.mozilla.org/en-US/firefox/",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         }
@@ -32647,13 +32518,6 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://addons.mozilla.org/en-US/firefox/",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         }
@@ -32668,13 +32532,6 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://addons.mozilla.org/en-US/firefox/",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         }
@@ -32693,19 +32550,6 @@ webextensions.manifest.options_ui`,
                           ]
                         }
                       }
-                    },
-                    "15": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/15",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addons.mozilla.org/en-US/firefox/addon/mathml-fonts/",
-                            502
-                          ]
-                        }
-                      ]
                     },
                     "22": {
                       children: {},
@@ -32729,6 +32573,19 @@ webextensions.manifest.options_ui`,
                           data: [
                             "/en-US/docs/Web/API/SubtleCrypto/deriveKey",
                             "#derivedkeyalgorithm"
+                          ]
+                        }
+                      ]
+                    },
+                    "120": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/120",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=120",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -34276,28 +34133,6 @@ p {
                     }
                   ]
                 },
-                document: {
-                  children: {
-                    prerendering: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document/prerendering",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental",
-                              "non-standard"
-                            ],
-                            [
-                              "experimental"
-                            ]
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 element: {
                   children: {
                     requestfullscreen: {
@@ -34364,43 +34199,6 @@ kbd {
   font-size: 0.825rem;
   padding: 0.25rem;
 }
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                eventtarget: {
-                  children: {
-                    addeventlistener: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/EventTarget/addEventListener",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-arrow-callback",
-                            "Unexpected function expression.",
-                            `el.addEventListener("click", function () {
-  modifyText("four");
-});`,
-                            "9:30 - 11:2",
-                            `/en-US/docs/Web/API/EventTarget/addEventListener
-[prefer-arrow-callback] Unexpected function expression.
-~~~
-// Function to change the content of t2
-function modifyText(newText) {
-  const t2 = document.getElementById("t2");
-  t2.firstChild.nodeValue = newText;
-}
-
-// Function to add event listener to table
-const el = document.getElementById("outside");
-el.addEventListener("click", function () {
-  modifyText("four");
-});
 ~~~
 `
                           ]
@@ -35492,22 +35290,6 @@ article img {
                     }
                   }
                 },
-                identitycredentialerror: {
-                  children: {
-                    error: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/IdentityCredentialError/error",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.IdentityCredentialError.error"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 intersection_observer_api: {
                   children: {
                     timing_element_visibility: {
@@ -36565,106 +36347,6 @@ body {
                 },
                 mediastream_recording_api: {
                   children: {
-                    recording_a_media_element: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "logical-assignment-operators",
-                            "Assignment (=) can be replaced with operator assignment (||=).",
-                            "      preview.captureStream = preview.captureStream || preview.mozCaptureStream;",
-                            "53:7 - 53:80",
-                            `/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element
-[logical-assignment-operators] Assignment (=) can be replaced with operator assignment (||=).
-~~~
-let preview = document.getElementById("preview");
-let recording = document.getElementById("recording");
-let startButton = document.getElementById("startButton");
-let stopButton = document.getElementById("stopButton");
-let downloadButton = document.getElementById("downloadButton");
-let logElement = document.getElementById("log");
-
-let recordingTimeMS = 5000;
-
-function log(msg) {
-  logElement.innerText += \`\${msg}\\n\`;
-}
-
-function wait(delayInMS) {
-  return new Promise((resolve) => setTimeout(resolve, delayInMS));
-}
-
-function startRecording(stream, lengthInMS) {
-  let recorder = new MediaRecorder(stream);
-  let data = [];
-
-  recorder.ondataavailable = (event) => data.push(event.data);
-  recorder.start();
-  log(\`\${recorder.state} for \${lengthInMS / 1000} seconds…\`);
-
-  let stopped = new Promise((resolve, reject) => {
-    recorder.onstop = resolve;
-    recorder.onerror = (event) => reject(event.name);
-  });
-
-  let recorded = wait(lengthInMS).then(() => {
-    if (recorder.state === "recording") {
-      recorder.stop();
-    }
-  });
-
-  return Promise.all([stopped, recorded]).then(() => data);
-}
-
-function stop(stream) {
-  stream.getTracks().forEach((track) => track.stop());
-}
-
-startButton.addEventListener("click", () => {
-  navigator.mediaDevices
-    .getUserMedia({
-      video: true,
-      audio: true,
-    })
-    .then((stream) => {
-      preview.srcObject = stream;
-      downloadButton.href = stream;
-      preview.captureStream = preview.captureStream || preview.mozCaptureStream;
-      return new Promise((resolve) => {
-        preview.onplaying = resolve;
-      });
-    })
-    .then(() => startRecording(preview.captureStream(), recordingTimeMS))
-    .then((recordedChunks) => {
-      let recordedBlob = new Blob(recordedChunks, { type: "video/webm" });
-      recording.src = URL.createObjectURL(recordedBlob);
-      downloadButton.href = recording.src;
-      downloadButton.download = "RecordedVideo.webm";
-
-      log(
-        \`Successfully recorded \${recordedBlob.size} bytes of \${recordedBlob.type} media.\`,
-      );
-    })
-    .catch((error) => {
-      if (error.name === "NotFoundError") {
-        log("Camera or microphone not found. Can't record.");
-      } else {
-        log(error);
-      }
-    });
-});
-
-stopButton.addEventListener("click", () => {
-  stop(preview.srcObject);
-});
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     using_the_mediastream_recording_api: {
                       children: {},
                       slug: "/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API",
@@ -36837,28 +36519,6 @@ aside {
                             "api.PerformanceNavigationTiming.notRestoredReasons",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                performancenavigationtiming: {
-                  children: {
-                    activationstart: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/PerformanceNavigationTiming/activationStart",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental",
-                              "non-standard"
-                            ],
-                            [
-                              "experimental"
-                            ]
                           ]
                         }
                       ]
@@ -37820,7 +37480,7 @@ html {
                   slug: "/en-US/docs/Web/API/Speculation_Rules_API",
                   messages: [
                     {
-                      message: "Page status inconsistent with BCD",
+                      message: "Mixed BCD status",
                       data: [
                         [
                           "experimental",
@@ -37828,6 +37488,10 @@ html {
                         ],
                         [
                           "experimental"
+                        ],
+                        [
+                          "experimental",
+                          "non-standard"
                         ]
                       ]
                     }
@@ -38133,38 +37797,7 @@ textarea,
                           data: []
                         },
                         {
-                          message: "Stylelint backlog",
-                          data: [
-                            "media-feature-range-notation",
-                            'Expected "context" media feature range notation (media-feature-range-notation)',
-                            "@media (horizontal-viewport-segments: 2) {",
-                            "2:8 - 2:41",
-                            `/en-US/docs/Web/API/Viewport_segments_API/Using
-[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
-~~~
-/* Segments are laid out horizontally. */
-@media (horizontal-viewport-segments: 2) {
-  .wrapper {
-    flex-direction: row;
-  }
-
-  /* ... */
-}
-
-/* Segments are laid out vertically. */
-@media (vertical-viewport-segments: 2) {
-  .wrapper {
-    flex-direction: column;
-  }
-
-  /* ... */
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "media-feature-range-notation",
                             'Expected "context" media feature range notation (media-feature-range-notation)',
@@ -38217,51 +37850,7 @@ env(viewport-segment-width 0 1)
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
-                          data: [
-                            "media-feature-range-notation",
-                            'Expected "context" media feature range notation (media-feature-range-notation)',
-                            "@media (horizontal-viewport-segments: 2) {",
-                            "1:8 - 1:41",
-                            `/en-US/docs/Web/API/Viewport_segments_API/Using
-[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
-~~~
-@media (horizontal-viewport-segments: 2) {
-  .wrapper {
-    display: grid;
-    grid-template: "left fold right";
-    grid-columns: env(viewport-segment-width 0 0)
-      env(viewport-segment-width 1 0);
-  }
-  .firstSection {
-    grid-area: left;
-  }
-  .secondSection {
-    grid-area: right;
-  }
-}
-
-@media (vertical-viewport-segments: 2) {
-  .wrapper {
-    display: grid;
-    grid-template:
-      "top"
-      "bottom";
-    grid-rows: env(viewport-segment-height 0 1) env(viewport-segment-width 0 0);
-  }
-  .firstSection {
-    grid-area: top;
-  }
-  .secondSection {
-    grid-area: bottom;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "media-feature-range-notation",
                             'Expected "context" media feature range notation (media-feature-range-notation)',
@@ -38421,76 +38010,6 @@ env(viewport-segment-width 0 1)
      grid-rows: env(viewport-segment-height 0 1) 1fr env(viewport-segment-width 0 0);
 
    }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "media-feature-range-notation",
-                            'Expected "context" media feature range notation (media-feature-range-notation)',
-                            "@media (horizontal-viewport-segments: 2) {",
-                            "1:8 - 1:41",
-                            `/en-US/docs/Web/API/Viewport_segments_API/Using
-[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
-~~~
-@media (horizontal-viewport-segments: 2) {
-  .wrapper {
-    flex-direction: row;
-  }
-
-  .list-view {
-    width: env(viewport-segment-width 0 0);
-  }
-
-  .fold {
-    width: calc(
-      env(viewport-segment-left 1 0) - env(viewport-segment-right 0 0)
-    );
-    background-color: black;
-    height: 100%;
-  }
-
-  .detail-view {
-    width: env(viewport-segment-width 1 0);
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "media-feature-range-notation",
-                            'Expected "context" media feature range notation (media-feature-range-notation)',
-                            "@media (vertical-viewport-segments: 2) {",
-                            "1:8 - 1:39",
-                            `/en-US/docs/Web/API/Viewport_segments_API/Using
-[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
-~~~
-@media (vertical-viewport-segments: 2) {
-  .wrapper {
-    flex-direction: column;
-  }
-
-  .list-view {
-    height: env(viewport-segment-height 0 0);
-  }
-
-  .fold {
-    width: 100%;
-    height: calc(
-      env(viewport-segment-top 0 1) - env(viewport-segment-bottom 0 0)
-    );
-    background-color: black;
-  }
-
-  .detail-view {
-    height: env(viewport-segment-height 0 1);
-  }
 }
 ~~~
 `
@@ -39159,40 +38678,6 @@ api.Window.sessionStorage`,
                     }
                   ]
                 },
-                webgl_api: {
-                  children: {
-                    matrix_math_for_the_web: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebGL_API/Matrix_math_for_the_web",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mathworld.wolfram.com/RotationMatrix.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    tutorial: {
-                      children: {
-                        adding_2d_content_to_a_webgl_context: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Adding_2D_content_to_a_WebGL_context",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://mathworld.wolfram.com/Matrix.html",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                },
                 webrtc_api: {
                   children: {
                     build_a_phone_with_peerjs: {
@@ -39271,23 +38756,6 @@ api.Window.sessionStorage`,
                     }
                   }
                 },
-                webxr_device_api: {
-                  children: {
-                    startup_and_shutdown: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/WebXR_Device_API/Startup_and_shutdown",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addons.mozilla.org/en-US/firefox/addon/webxr-api-emulator/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 window_management_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Window_Management_API",
@@ -39357,71 +38825,6 @@ body {
   padding: 0.4em;
   border: 1px solid #ddddee;
 }
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    postmessage: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/postMessage",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-useless-return",
-                            "Unnecessary return statement.",
-                            '  if (event.origin !== "http://example.org:8080") return;',
-                            "2:51 - 2:58",
-                            `/en-US/docs/Web/API/Window/postMessage
-[no-useless-return] Unnecessary return statement.
-~~~
-window.addEventListener("message", (event) => {
-  if (event.origin !== "http://example.org:8080") return;
-
-  // …
-});
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-useless-return",
-                            "Unnecessary return statement.",
-                            '  if (event.origin !== "http://example.com") return;',
-                            "22:46 - 22:53",
-                            `/en-US/docs/Web/API/Window/postMessage
-[no-useless-return] Unnecessary return statement.
-~~~
-/*
- * In window A's scripts, with A being on http://example.com:8080:
- */
-
-const popup = window.open(/* popup details */);
-
-// When the popup has fully loaded, if not blocked by a popup blocker:
-
-// This does nothing, assuming the window hasn't changed its location.
-popup.postMessage(
-  "The user is 'bob' and the password is 'secret'",
-  "https://secure.example.net",
-);
-
-// This will successfully queue a message to be dispatched to the popup, assuming
-// the window hasn't changed its location.
-popup.postMessage("hello there!", "http://example.com");
-
-window.addEventListener("message", (event) => {
-  // Do we trust the sender of this message? (might be
-  // different from what we originally opened, for example).
-  if (event.origin !== "http://example.com") return;
-
-  // event.source is popup
-  // event.data is "hi there yourself! the secret response is: rheeeeet!"
-});
 ~~~
 `
                           ]
@@ -39905,73 +39308,10 @@ p {
                     }
                   ]
                 },
-                _colon_heading: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:heading",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-pseudo-class-no-unknown",
-                        'Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)',
-                        ":heading {",
-                        "1:1 - 1:9",
-                        `/en-US/docs/Web/CSS/:heading
-[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)
-~~~
-:heading {
-  color: tomato;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 _colon_heading_function: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/:heading_function",
                   messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-pseudo-class-no-unknown",
-                        'Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)',
-                        ":heading(odd) {",
-                        "1:1 - 1:9",
-                        `/en-US/docs/Web/CSS/:heading_function
-[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)
-~~~
-:heading(odd) {
-  color: tomato;
-}
-:heading(even) {
-  color: slateblue;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-pseudo-class-no-unknown",
-                        'Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)',
-                        ":heading(even) {",
-                        "4:1 - 4:9",
-                        `/en-US/docs/Web/CSS/:heading_function
-[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)
-~~~
-:heading(odd) {
-  color: tomato;
-}
-:heading(even) {
-  color: slateblue;
-}
-~~~
-`
-                      ]
-                    },
                     {
                       message: "CSS code issue",
                       data: [
@@ -40006,146 +39346,6 @@ p {
   color: tomato;
 }
 :heading(even) {
-  color: slateblue;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-pseudo-class-no-unknown",
-                        'Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)',
-                        ":heading(3, 4) {",
-                        "7:1 - 7:9",
-                        `/en-US/docs/Web/CSS/:heading_function
-[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)
-~~~
-main {
-  display: flex;
-  justify-content: space-around;
-}
-
-/* Targets headings <h3> and <h4> */
-:heading(3, 4) {
-  font-weight: 100;
-}
-/* Targets headings in reverse starting from <h3> */
-:heading(-n + 3) {
-  color: tomato;
-}
-/* Targets every third heading starting from <h1> */
-:heading(3n + 1) {
-  font-style: italic;
-}
-/* Targets headings after level 5 */
-:heading(n + 5) {
-  color: slateblue;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-pseudo-class-no-unknown",
-                        'Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)',
-                        ":heading(-n + 3) {",
-                        "11:1 - 11:9",
-                        `/en-US/docs/Web/CSS/:heading_function
-[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)
-~~~
-main {
-  display: flex;
-  justify-content: space-around;
-}
-
-/* Targets headings <h3> and <h4> */
-:heading(3, 4) {
-  font-weight: 100;
-}
-/* Targets headings in reverse starting from <h3> */
-:heading(-n + 3) {
-  color: tomato;
-}
-/* Targets every third heading starting from <h1> */
-:heading(3n + 1) {
-  font-style: italic;
-}
-/* Targets headings after level 5 */
-:heading(n + 5) {
-  color: slateblue;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-pseudo-class-no-unknown",
-                        'Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)',
-                        ":heading(3n + 1) {",
-                        "15:1 - 15:9",
-                        `/en-US/docs/Web/CSS/:heading_function
-[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)
-~~~
-main {
-  display: flex;
-  justify-content: space-around;
-}
-
-/* Targets headings <h3> and <h4> */
-:heading(3, 4) {
-  font-weight: 100;
-}
-/* Targets headings in reverse starting from <h3> */
-:heading(-n + 3) {
-  color: tomato;
-}
-/* Targets every third heading starting from <h1> */
-:heading(3n + 1) {
-  font-style: italic;
-}
-/* Targets headings after level 5 */
-:heading(n + 5) {
-  color: slateblue;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-pseudo-class-no-unknown",
-                        'Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)',
-                        ":heading(n + 5) {",
-                        "19:1 - 19:9",
-                        `/en-US/docs/Web/CSS/:heading_function
-[selector-pseudo-class-no-unknown] Unexpected unknown pseudo-class selector ":heading" (selector-pseudo-class-no-unknown)
-~~~
-main {
-  display: flex;
-  justify-content: space-around;
-}
-
-/* Targets headings <h3> and <h4> */
-:heading(3, 4) {
-  font-weight: 100;
-}
-/* Targets headings in reverse starting from <h3> */
-:heading(-n + 3) {
-  color: tomato;
-}
-/* Targets every third heading starting from <h1> */
-:heading(3n + 1) {
-  font-style: italic;
-}
-/* Targets headings after level 5 */
-:heading(n + 5) {
   color: slateblue;
 }
 ~~~
@@ -40290,21 +39490,6 @@ main {
 }
 ~~~
 `
-                      ]
-                    }
-                  ]
-                },
-                "_colon_host-context": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:host-context",
-                  messages: [
-                    {
-                      message: "Page status inconsistent with BCD",
-                      data: [
-                        [
-                          "deprecated"
-                        ],
-                        []
                       ]
                     }
                   ]
@@ -41467,6 +40652,26 @@ ul::scroll-marker-group {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/@color-profile",
                   messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "color(--swop5c 0% 70% 20% 0%)" for property "background-color" (declaration-property-value-no-unknown)',
+                        "  background-color: color(--swop5c 0% 70% 20% 0%);",
+                        "5:21 - 5:50",
+                        `/en-US/docs/Web/CSS/@color-profile
+[declaration-property-value-no-unknown] Unexpected unknown value "color(--swop5c 0% 70% 20% 0%)" for property "background-color" (declaration-property-value-no-unknown)
+~~~
+@color-profile --swop5c {
+  src: url("https://example.org/SWOP2006_Coated5v2.icc");
+}
+.header {
+  background-color: color(--swop5c 0% 70% 20% 0%);
+}
+~~~
+`
+                      ]
+                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -43961,6 +43166,54 @@ so specify a standalone starting-style block. */
                     }
                   ]
                 },
+                "alignment-baseline": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/alignment-baseline",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "hanging" for property "alignment-baseline" (declaration-property-value-no-unknown)',
+                        "  alignment-baseline: hanging;",
+                        "12:23 - 12:30",
+                        `/en-US/docs/Web/CSS/alignment-baseline
+[declaration-property-value-no-unknown] Unexpected unknown value "hanging" for property "alignment-baseline" (declaration-property-value-no-unknown)
+~~~
+text {
+  font-size: 20px;
+  alignment-baseline: baseline;
+}
+text:nth-of-type(1) {
+  alignment-baseline: alphabetic;
+}
+text:nth-of-type(2) {
+  alignment-baseline: central;
+}
+text:nth-of-type(3) {
+  alignment-baseline: hanging;
+}
+text:nth-of-type(4) {
+  alignment-baseline: ideographic;
+}
+text:nth-of-type(5) {
+  alignment-baseline: mathematical;
+}
+text:nth-of-type(6) {
+  alignment-baseline: middle;
+}
+text:nth-of-type(7) {
+  alignment-baseline: text-bottom;
+}
+text:nth-of-type(8) {
+  alignment-baseline: text-top;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 "alpha-value": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/alpha-value",
@@ -44793,7 +44046,7 @@ attr(data-rotation deg)
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         'Cannot parse property value "attr(data-background type(<color>), red)" for property "background-color" (declaration-property-value-no-unknown)',
@@ -44818,7 +44071,39 @@ attr(data-rotation deg)
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "attr(data-rotation deg, 1.5deg)" for property "rotate" (declaration-property-value-no-unknown)',
+                        "  rotate: attr(data-rotation deg, 1.5deg);",
+                        "17:11 - 17:42",
+                        `/en-US/docs/Web/CSS/attr
+[declaration-property-value-no-unknown] Unexpected unknown value "attr(data-rotation deg, 1.5deg)" for property "rotate" (declaration-property-value-no-unknown)
+~~~
+body {
+  min-height: 100svh;
+  display: grid;
+  place-content: center;
+  gap: 1em;
+}
+div {
+  margin: 0 auto;
+  border: 1px solid;
+  border-radius: 0.25em;
+  padding: 0.5em;
+}
+
+div {
+  width: fit-content;
+  transform-origin: 50% 50%;
+  rotate: attr(data-rotation deg, 1.5deg);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         'Cannot parse property value "attr(id type(<custom-ident>), none)" for property "view-transition-name" (declaration-property-value-no-unknown)',
@@ -45588,7 +44873,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/border-radius",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         'Unexpected unknown value "superellipse(0.5)" for property "corner-shape" (declaration-property-value-no-unknown)',
@@ -45674,45 +44959,6 @@ div {
                         "2:23 - 2:32",
                         `/en-US/docs/Web/CSS/border-radius
 [font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 0 20% 50px 30%;
-  corner-shape: superellipse(0.5) bevel notch squircle;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "superellipse" (function-no-unknown)',
-                        "  corner-shape: superellipse(0.5) bevel notch squircle;",
-                        "24:17 - 24:29",
-                        `/en-US/docs/Web/CSS/border-radius
-[function-no-unknown] Unexpected unknown function "superellipse" (function-no-unknown)
 ~~~
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -46740,123 +45986,6 @@ input {
                   slug: "/en-US/docs/Web/CSS/caret",
                   messages: [
                     {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "manual" for property "caret" (declaration-property-value-no-unknown)',
-                        "caret: block manual;",
-                        "1:14 - 1:20",
-                        `/en-US/docs/Web/CSS/caret
-[declaration-property-value-no-unknown] Unexpected unknown value "manual" for property "caret" (declaration-property-value-no-unknown)
-~~~
-caret: block manual;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "green" for property "caret" (declaration-property-value-no-unknown)',
-                        "caret: underscore auto green;",
-                        "1:24 - 1:29",
-                        `/en-US/docs/Web/CSS/caret
-[declaration-property-value-no-unknown] Unexpected unknown value "green" for property "caret" (declaration-property-value-no-unknown)
-~~~
-caret: underscore auto green;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "manual" for property "caret" (declaration-property-value-no-unknown)',
-                        "caret: bar manual orange;",
-                        "1:12 - 1:18",
-                        `/en-US/docs/Web/CSS/caret
-[declaration-property-value-no-unknown] Unexpected unknown value "manual" for property "caret" (declaration-property-value-no-unknown)
-~~~
-caret: bar manual orange;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "manual" for property "caret" (declaration-property-value-no-unknown)',
-                        "  caret: block manual green;",
-                        "45:16 - 45:22",
-                        `/en-US/docs/Web/CSS/caret
-[declaration-property-value-no-unknown] Unexpected unknown value "manual" for property "caret" (declaration-property-value-no-unknown)
-~~~
-label {
-  background: #092104;
-  display: block;
-  padding: 10px 20px;
-  color: #00ad00;
-  font-weight: bold;
-  font-family: monospace;
-}
-
-.old-screen {
-  background: repeating-linear-gradient(
-    #092104,
-    #092104 2px,
-    #123208 2px,
-    #123208 4px
-  );
-  height: 140px;
-  display: flex;
-  align-items: flex-start;
-  padding: 20px;
-  font-family: monospace;
-}
-
-span {
-  display: inline-block;
-  padding: 2px 5px;
-  color: #00ad00;
-  font-weight: bold;
-  margin-right: 8px;
-}
-
-.terminal-input {
-  background: transparent;
-  height: 100%;
-  border: none;
-  color: #00ad00;
-  font-family: inherit;
-  font-size: 1rem;
-  outline: none;
-  flex: 1;
-  resize: none;
-}
-
-.terminal-input {
-  caret: block manual green;
-  animation: vintage-caret 2s infinite;
-}
-
-@keyframes vintage-caret {
-  0%,
-  50% {
-    caret-color: #00ad00;
-  }
-  75%,
-  100% {
-    caret-color: transparent;
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
                       message: "Not in BCD",
                       data: [
                         "css.properties.caret"
@@ -47151,6 +46280,19 @@ color(from hsl(0 100% 50%) xyz calc(x - 0.3) calc(y + 0.3) calc(z + 0.3) / calc(
 /* Computed output color: color(xyz-d65 0.112426 0.512648 0.319317 / 0.9) */
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    "contrast-color": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/color_value/contrast-color",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/blog/16929/contrast-color/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -74521,7 +73663,7 @@ nav a {
                       slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "declaration-property-value-no-unknown",
                             'Unexpected unknown value "masonry" for property "grid-template-rows" (declaration-property-value-no-unknown)',
@@ -74563,7 +73705,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "declaration-property-value-no-unknown",
                             'Unexpected unknown value "masonry" for property "grid-template-columns" (declaration-property-value-no-unknown)',
@@ -74605,7 +73747,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "declaration-property-value-no-unknown",
                             'Unexpected unknown value "masonry" for property "grid-template-rows" (declaration-property-value-no-unknown)',
@@ -74651,7 +73793,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "declaration-property-value-no-unknown",
                             'Unexpected unknown value "masonry" for property "grid-template-rows" (declaration-property-value-no-unknown)',
@@ -85402,6 +84544,24 @@ main {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "slider-vertical" for property "appearance" (declaration-property-value-no-unknown)',
+                            "  appearance: slider-vertical;",
+                            "3:15 - 3:30",
+                            `/en-US/docs/Web/CSS/CSS_writing_modes/Vertical_controls
+[declaration-property-value-no-unknown] Unexpected unknown value "slider-vertical" for property "appearance" (declaration-property-value-no-unknown)
+~~~
+input[type="range"] {
+  margin-block-end: 20px;
+  appearance: slider-vertical;
+}
+~~~
+`
+                          ]
                         }
                       ]
                     }
@@ -85427,6 +84587,27 @@ main {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/dashed-ident",
                   messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "color(--my-color-profile 0% 70% 20% 0%)" for property "background-color" (declaration-property-value-no-unknown)',
+                        "  background-color: color(--my-color-profile 0% 70% 20% 0%);",
+                        "6:21 - 6:60",
+                        `/en-US/docs/Web/CSS/dashed-ident
+[declaration-property-value-no-unknown] Unexpected unknown value "color(--my-color-profile 0% 70% 20% 0%)" for property "background-color" (declaration-property-value-no-unknown)
+~~~
+@color-profile --my-color-profile {
+  src: url("https://example.org/SWOP2006_Coated5v2.icc");
+}
+
+.header {
+  background-color: color(--my-color-profile 0% 70% 20% 0%);
+}
+~~~
+`
+                      ]
+                    },
                     {
                       message: "Stylelint backlog",
                       data: [
@@ -87554,6 +86735,50 @@ p {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/font-palette/palette-mix",
                       messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "palette-mix(in lch, --blue-nabla 55%, --yellow-nabla 45%)" for property "font-palette" (declaration-property-value-no-unknown)',
+                            "  font-palette: palette-mix(in lch, --blue-nabla 55%, --yellow-nabla 45%);",
+                            "29:17 - 29:74",
+                            `/en-US/docs/Web/CSS/font-palette/palette-mix
+[declaration-property-value-no-unknown] Unexpected unknown value "palette-mix(in lch, --blue-nabla 55%, --yellow-nabla 45%)" for property "font-palette" (declaration-property-value-no-unknown)
+~~~
+@import "https://fonts.googleapis.com/css2?family=Nabla&display=swap";
+
+@font-palette-values --blue-nabla {
+  font-family: Nabla;
+  base-palette: 2; /* this is Nabla's blue palette */
+}
+
+@font-palette-values --yellow-nabla {
+  font-family: Nabla;
+  base-palette: 7; /* this is Nabla's yellow palette */
+}
+
+p {
+  font-family: "Nabla", fantasy;
+  font-size: 4rem;
+  text-align: center;
+  margin: 0;
+}
+
+.yellowPalette {
+  font-palette: --yellow-nabla;
+}
+
+.bluePalette {
+  font-palette: --blue-nabla;
+}
+
+.mixedPalette {
+  font-palette: palette-mix(in lch, --blue-nabla 55%, --yellow-nabla 45%);
+}
+~~~
+`
+                          ]
+                        },
                         {
                           message: "Stylelint backlog",
                           data: [
@@ -91631,7 +90856,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/if",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -91664,7 +90889,7 @@ div {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -91697,7 +90922,7 @@ div {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -91734,7 +90959,7 @@ div {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         'Cannot parse property value "if(else: yellow)" for property "background-color" (declaration-property-value-no-unknown)',
@@ -91750,7 +90975,7 @@ background-image: if();
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         'Unexpected unknown value "if()" for property "background-image" (declaration-property-value-no-unknown)',
@@ -91766,7 +90991,7 @@ background-image: if();
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -91793,7 +91018,7 @@ background-image: if(
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -91824,7 +91049,7 @@ background-color: if(
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -91855,7 +91080,7 @@ background-color: if(
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -91903,7 +91128,7 @@ if(
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -91930,7 +91155,7 @@ background-color: if(
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -91957,7 +91182,7 @@ margin: if(
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -91989,7 +91214,7 @@ background-color: if(
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -92021,7 +91246,7 @@ background-color: if(
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -92056,7 +91281,7 @@ background-color: if(
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -92119,7 +91344,7 @@ color: if(
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -92146,7 +91371,7 @@ margin-top: if(
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -92177,7 +91402,7 @@ margin-top: if(
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -92208,7 +91433,7 @@ margin-top: if(
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -92239,7 +91464,7 @@ margin-top: if(
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         'Cannot parse property value "if(style(--size: "2xl"): 1em; else: 0.25em)" for property "padding" (declaration-property-value-no-unknown)',
@@ -92255,7 +91480,7 @@ padding: if(style(--size: "2xl"): 1em; else: 0.25em);
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -92318,7 +91543,7 @@ border: if(
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "3px solid
@@ -92381,7 +91606,7 @@ border: 3px solid
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -92444,7 +91669,7 @@ color: if(
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "calc(if(
@@ -92471,7 +91696,7 @@ width: calc(if(
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -92535,7 +91760,7 @@ h2 {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -92596,7 +91821,7 @@ h2 {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -92770,7 +91995,7 @@ h2 {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "custom-property-no-missing-var-function",
                         'Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)',
@@ -92866,7 +92091,7 @@ h1::before {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "custom-property-no-missing-var-function",
                         'Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)',
@@ -92962,7 +92187,7 @@ h1::before {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "custom-property-no-missing-var-function",
                         'Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)',
@@ -93058,7 +92283,7 @@ h1::before {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "custom-property-no-missing-var-function",
                         'Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)',
@@ -93154,7 +92379,7 @@ h1::before {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "custom-property-no-missing-var-function",
                         'Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)',
@@ -93250,7 +92475,7 @@ h1::before {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "custom-property-no-missing-var-function",
                         'Unexpected missing var function for "--scheme" (custom-property-no-missing-var-function)',
@@ -93346,7 +92571,7 @@ h1::before {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -93451,7 +92676,7 @@ h1::before {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -93556,7 +92781,7 @@ h1::before {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         `Cannot parse property value "if(
@@ -93864,7 +93089,7 @@ h1::before {
                       slug: "/en-US/docs/Web/CSS/image/image",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "declaration-property-value-no-unknown",
                             'Unexpected unknown value "image("sprite.png#xywh=32,64,16,16")" for property "cursor" (declaration-property-value-no-unknown)',
@@ -95583,7 +94808,7 @@ mask-composite: add;
                   slug: "/en-US/docs/Web/CSS/mask-border",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "declaration-property-value-no-unknown",
                         'Unexpected unknown value "30" for property "-webkit-mask-box-image" (declaration-property-value-no-unknown)',
@@ -98298,14 +97523,14 @@ css.properties.grid-template-rows.repeat`
                   slug: "/en-US/docs/Web/CSS/resolution",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "media-feature-range-notation",
-                        'Expected "context" media feature range notation (media-feature-range-notation)',
-                        "@media (resolution: 120dpcm) {",
-                        "5:8 - 5:29",
+                        'Expected "prefix" media feature range notation (media-feature-range-notation)',
+                        "@media (resolution >= 2dppx) {",
+                        "9:8 - 9:29",
                         `/en-US/docs/Web/CSS/resolution
-[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
+[media-feature-range-notation] Expected "prefix" media feature range notation (media-feature-range-notation)
 ~~~
 @media print and (resolution >= 300dpi) {
   /* … */
@@ -98327,7 +97552,7 @@ css.properties.grid-template-rows.repeat`
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "media-feature-range-notation",
                         'Expected "context" media feature range notation (media-feature-range-notation)',
@@ -98385,6 +97610,1734 @@ css.properties.grid-template-rows.repeat`
                       message: "Missing data",
                       data: [
                         "CSS info"
+                      ]
+                    }
+                  ]
+                },
+                "scroll-target-group": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/scroll-target-group",
+                  messages: [
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-hex-length",
+                        'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                        "  background-color: #eee;",
+                        "36:21 - 36:25",
+                        `/en-US/docs/Web/CSS/scroll-target-group
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+/* General styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+}
+
+/* General styling of list as scrolling carousel */
+
+ul {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  gap: 4%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 20px;
+
+  scroll-snap-align: center;
+}
+
+/* CSS scroll buttons */
+
+/* Style the scroll buttons */
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: rgb(0 0 0 / 0.7);
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  color: rgb(0 0 0 / 1);
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  color: rgb(0 0 0 / 0.2);
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+/* Position the scroll buttons */
+
+ul {
+  anchor-name: --myCarousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --myCarousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ol {
+  position: absolute;
+  position-anchor: --myCarousel;
+  top: calc(anchor(bottom) - 90px);
+  justify-self: anchor-center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  list-style-type: none;
+  padding: 0;
+  scroll-target-group: auto;
+}
+
+ol a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 4px;
+  color: black;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+ol a:hover,
+ol a:focus,
+:target-current {
+  background-color: black;
+  color: white;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-hex-length",
+                        'Expected "#ddd" to be "#dddddd" (color-hex-length)',
+                        "  border: 1px solid #ddd;",
+                        "37:21 - 37:25",
+                        `/en-US/docs/Web/CSS/scroll-target-group
+[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
+~~~
+/* General styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+}
+
+/* General styling of list as scrolling carousel */
+
+ul {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  gap: 4%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 20px;
+
+  scroll-snap-align: center;
+}
+
+/* CSS scroll buttons */
+
+/* Style the scroll buttons */
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: rgb(0 0 0 / 0.7);
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  color: rgb(0 0 0 / 1);
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  color: rgb(0 0 0 / 0.2);
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+/* Position the scroll buttons */
+
+ul {
+  anchor-name: --myCarousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --myCarousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ol {
+  position: absolute;
+  position-anchor: --myCarousel;
+  top: calc(anchor(bottom) - 90px);
+  justify-self: anchor-center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  list-style-type: none;
+  padding: 0;
+  scroll-target-group: auto;
+}
+
+ol a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 4px;
+  color: black;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+ol a:hover,
+ol a:focus,
+:target-current {
+  background-color: black;
+  color: white;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-named",
+                        'Expected "rgb(0 0 0/1)" to be "black" (color-named)',
+                        "  color: rgb(0 0 0 / 1);",
+                        "57:10 - 57:24",
+                        `/en-US/docs/Web/CSS/scroll-target-group
+[color-named] Expected "rgb(0 0 0/1)" to be "black" (color-named)
+~~~
+/* General styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+}
+
+/* General styling of list as scrolling carousel */
+
+ul {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  gap: 4%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 20px;
+
+  scroll-snap-align: center;
+}
+
+/* CSS scroll buttons */
+
+/* Style the scroll buttons */
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: rgb(0 0 0 / 0.7);
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  color: rgb(0 0 0 / 1);
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  color: rgb(0 0 0 / 0.2);
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+/* Position the scroll buttons */
+
+ul {
+  anchor-name: --myCarousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --myCarousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ol {
+  position: absolute;
+  position-anchor: --myCarousel;
+  top: calc(anchor(bottom) - 90px);
+  justify-self: anchor-center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  list-style-type: none;
+  padding: 0;
+  scroll-target-group: auto;
+}
+
+ol a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 4px;
+  color: black;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+ol a:hover,
+ol a:focus,
+:target-current {
+  background-color: black;
+  color: white;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "9:16 - 9:21",
+                        `/en-US/docs/Web/CSS/scroll-target-group
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+/* General styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+}
+
+/* General styling of list as scrolling carousel */
+
+ul {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  gap: 4%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 20px;
+
+  scroll-snap-align: center;
+}
+
+/* CSS scroll buttons */
+
+/* Style the scroll buttons */
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: rgb(0 0 0 / 0.7);
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  color: rgb(0 0 0 / 1);
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  color: rgb(0 0 0 / 0.2);
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+/* Position the scroll buttons */
+
+ul {
+  anchor-name: --myCarousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --myCarousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ol {
+  position: absolute;
+  position-anchor: --myCarousel;
+  top: calc(anchor(bottom) - 90px);
+  justify-self: anchor-center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  list-style-type: none;
+  padding: 0;
+  scroll-target-group: auto;
+}
+
+ol a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 4px;
+  color: black;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+ol a:hover,
+ol a:focus,
+:target-current {
+  background-color: black;
+  color: white;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "9:23 - 9:32",
+                        `/en-US/docs/Web/CSS/scroll-target-group
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+/* General styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+}
+
+/* General styling of list as scrolling carousel */
+
+ul {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  gap: 4%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 20px;
+
+  scroll-snap-align: center;
+}
+
+/* CSS scroll buttons */
+
+/* Style the scroll buttons */
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: rgb(0 0 0 / 0.7);
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  color: rgb(0 0 0 / 1);
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  color: rgb(0 0 0 / 0.2);
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+/* Position the scroll buttons */
+
+ul {
+  anchor-name: --myCarousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --myCarousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ol {
+  position: absolute;
+  position-anchor: --myCarousel;
+  top: calc(anchor(bottom) - 90px);
+  justify-self: anchor-center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  list-style-type: none;
+  padding: 0;
+  scroll-target-group: auto;
+}
+
+ol a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 4px;
+  color: black;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+ol a:hover,
+ol a:focus,
+:target-current {
+  background-color: black;
+  color: white;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-type-no-unknown",
+                        'Unexpected unknown type selector "left" (selector-type-no-unknown)',
+                        "ul::scroll-button(left) {",
+                        "68:19 - 68:23",
+                        `/en-US/docs/Web/CSS/scroll-target-group
+[selector-type-no-unknown] Unexpected unknown type selector "left" (selector-type-no-unknown)
+~~~
+/* General styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+}
+
+/* General styling of list as scrolling carousel */
+
+ul {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  gap: 4%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 20px;
+
+  scroll-snap-align: center;
+}
+
+/* CSS scroll buttons */
+
+/* Style the scroll buttons */
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: rgb(0 0 0 / 0.7);
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  color: rgb(0 0 0 / 1);
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  color: rgb(0 0 0 / 0.2);
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+/* Position the scroll buttons */
+
+ul {
+  anchor-name: --myCarousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --myCarousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ol {
+  position: absolute;
+  position-anchor: --myCarousel;
+  top: calc(anchor(bottom) - 90px);
+  justify-self: anchor-center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  list-style-type: none;
+  padding: 0;
+  scroll-target-group: auto;
+}
+
+ol a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 4px;
+  color: black;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+ol a:hover,
+ol a:focus,
+:target-current {
+  background-color: black;
+  color: white;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-type-no-unknown",
+                        'Unexpected unknown type selector "right" (selector-type-no-unknown)',
+                        "ul::scroll-button(right) {",
+                        "72:19 - 72:24",
+                        `/en-US/docs/Web/CSS/scroll-target-group
+[selector-type-no-unknown] Unexpected unknown type selector "right" (selector-type-no-unknown)
+~~~
+/* General styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+}
+
+/* General styling of list as scrolling carousel */
+
+ul {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  gap: 4%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 20px;
+
+  scroll-snap-align: center;
+}
+
+/* CSS scroll buttons */
+
+/* Style the scroll buttons */
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: rgb(0 0 0 / 0.7);
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  color: rgb(0 0 0 / 1);
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  color: rgb(0 0 0 / 0.2);
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+/* Position the scroll buttons */
+
+ul {
+  anchor-name: --myCarousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --myCarousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ol {
+  position: absolute;
+  position-anchor: --myCarousel;
+  top: calc(anchor(bottom) - 90px);
+  justify-self: anchor-center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  list-style-type: none;
+  padding: 0;
+  scroll-target-group: auto;
+}
+
+ol a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 4px;
+  color: black;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+ol a:hover,
+ol a:focus,
+:target-current {
+  background-color: black;
+  color: white;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-type-no-unknown",
+                        'Unexpected unknown type selector "left" (selector-type-no-unknown)',
+                        "ul::scroll-button(left) {",
+                        "87:19 - 87:23",
+                        `/en-US/docs/Web/CSS/scroll-target-group
+[selector-type-no-unknown] Unexpected unknown type selector "left" (selector-type-no-unknown)
+~~~
+/* General styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+}
+
+/* General styling of list as scrolling carousel */
+
+ul {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  gap: 4%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 20px;
+
+  scroll-snap-align: center;
+}
+
+/* CSS scroll buttons */
+
+/* Style the scroll buttons */
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: rgb(0 0 0 / 0.7);
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  color: rgb(0 0 0 / 1);
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  color: rgb(0 0 0 / 0.2);
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+/* Position the scroll buttons */
+
+ul {
+  anchor-name: --myCarousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --myCarousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ol {
+  position: absolute;
+  position-anchor: --myCarousel;
+  top: calc(anchor(bottom) - 90px);
+  justify-self: anchor-center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  list-style-type: none;
+  padding: 0;
+  scroll-target-group: auto;
+}
+
+ol a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 4px;
+  color: black;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+ol a:hover,
+ol a:focus,
+:target-current {
+  background-color: black;
+  color: white;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "selector-type-no-unknown",
+                        'Unexpected unknown type selector "right" (selector-type-no-unknown)',
+                        "ul::scroll-button(right) {",
+                        "92:19 - 92:24",
+                        `/en-US/docs/Web/CSS/scroll-target-group
+[selector-type-no-unknown] Unexpected unknown type selector "right" (selector-type-no-unknown)
+~~~
+/* General styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+}
+
+/* General styling of list as scrolling carousel */
+
+ul {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  gap: 4%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 20px;
+
+  scroll-snap-align: center;
+}
+
+/* CSS scroll buttons */
+
+/* Style the scroll buttons */
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: rgb(0 0 0 / 0.7);
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  color: rgb(0 0 0 / 1);
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  color: rgb(0 0 0 / 0.2);
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+/* Position the scroll buttons */
+
+ul {
+  anchor-name: --myCarousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --myCarousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ol {
+  position: absolute;
+  position-anchor: --myCarousel;
+  top: calc(anchor(bottom) - 90px);
+  justify-self: anchor-center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  list-style-type: none;
+  padding: 0;
+  scroll-target-group: auto;
+}
+
+ol a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 4px;
+  color: black;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+ol a:hover,
+ol a:focus,
+:target-current {
+  background-color: black;
+  color: white;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "value-keyword-case",
+                        'Expected "--myCarousel" to be "--mycarousel" (value-keyword-case)',
+                        "  anchor-name: --myCarousel;",
+                        "79:16 - 79:28",
+                        `/en-US/docs/Web/CSS/scroll-target-group
+[value-keyword-case] Expected "--myCarousel" to be "--mycarousel" (value-keyword-case)
+~~~
+/* General styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+}
+
+/* General styling of list as scrolling carousel */
+
+ul {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  gap: 4%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 20px;
+
+  scroll-snap-align: center;
+}
+
+/* CSS scroll buttons */
+
+/* Style the scroll buttons */
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: rgb(0 0 0 / 0.7);
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  color: rgb(0 0 0 / 1);
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  color: rgb(0 0 0 / 0.2);
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+/* Position the scroll buttons */
+
+ul {
+  anchor-name: --myCarousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --myCarousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ol {
+  position: absolute;
+  position-anchor: --myCarousel;
+  top: calc(anchor(bottom) - 90px);
+  justify-self: anchor-center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  list-style-type: none;
+  padding: 0;
+  scroll-target-group: auto;
+}
+
+ol a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 4px;
+  color: black;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+ol a:hover,
+ol a:focus,
+:target-current {
+  background-color: black;
+  color: white;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "value-keyword-case",
+                        'Expected "--myCarousel" to be "--mycarousel" (value-keyword-case)',
+                        "  position-anchor: --myCarousel;",
+                        "84:20 - 84:32",
+                        `/en-US/docs/Web/CSS/scroll-target-group
+[value-keyword-case] Expected "--myCarousel" to be "--mycarousel" (value-keyword-case)
+~~~
+/* General styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+}
+
+/* General styling of list as scrolling carousel */
+
+ul {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  gap: 4%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 20px;
+
+  scroll-snap-align: center;
+}
+
+/* CSS scroll buttons */
+
+/* Style the scroll buttons */
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: rgb(0 0 0 / 0.7);
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  color: rgb(0 0 0 / 1);
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  color: rgb(0 0 0 / 0.2);
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+/* Position the scroll buttons */
+
+ul {
+  anchor-name: --myCarousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --myCarousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ol {
+  position: absolute;
+  position-anchor: --myCarousel;
+  top: calc(anchor(bottom) - 90px);
+  justify-self: anchor-center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  list-style-type: none;
+  padding: 0;
+  scroll-target-group: auto;
+}
+
+ol a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 4px;
+  color: black;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+ol a:hover,
+ol a:focus,
+:target-current {
+  background-color: black;
+  color: white;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "value-keyword-case",
+                        'Expected "--myCarousel" to be "--mycarousel" (value-keyword-case)',
+                        "  position-anchor: --myCarousel;",
+                        "99:20 - 99:32",
+                        `/en-US/docs/Web/CSS/scroll-target-group
+[value-keyword-case] Expected "--myCarousel" to be "--mycarousel" (value-keyword-case)
+~~~
+/* General styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+}
+
+/* General styling of list as scrolling carousel */
+
+ul {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  gap: 4%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 20px;
+
+  scroll-snap-align: center;
+}
+
+/* CSS scroll buttons */
+
+/* Style the scroll buttons */
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: rgb(0 0 0 / 0.7);
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  color: rgb(0 0 0 / 1);
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  color: rgb(0 0 0 / 0.2);
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+/* Position the scroll buttons */
+
+ul {
+  anchor-name: --myCarousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --myCarousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ol {
+  position: absolute;
+  position-anchor: --myCarousel;
+  top: calc(anchor(bottom) - 90px);
+  justify-self: anchor-center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  list-style-type: none;
+  padding: 0;
+  scroll-target-group: auto;
+}
+
+ol a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 4px;
+  color: black;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+ol a:hover,
+ol a:focus,
+:target-current {
+  background-color: black;
+  color: white;
+}
+~~~
+`
                       ]
                     }
                   ]
@@ -102502,32 +103455,6 @@ header {
                             }
                           }
                         },
-                        script: {
-                          children: {
-                            type: {
-                              children: {
-                                speculationrules: {
-                                  children: {},
-                                  slug: "/en-US/docs/Web/HTML/Reference/Elements/script/type/speculationrules",
-                                  messages: [
-                                    {
-                                      message: "Page status inconsistent with BCD",
-                                      data: [
-                                        [
-                                          "experimental",
-                                          "non-standard"
-                                        ],
-                                        [
-                                          "experimental"
-                                        ]
-                                      ]
-                                    }
-                                  ]
-                                }
-                              }
-                            }
-                          }
-                        },
                         slot: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/slot",
@@ -102993,19 +103920,6 @@ h2 {
                               ]
                             }
                           ]
-                        },
-                        title: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/title",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.24a11y.com/2017/the-trials-and-tribulations-of-the-title-attribute/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
                         }
                       }
                     }
@@ -103184,60 +104098,6 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         },
-                        "sec-speculation-tags": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Speculation-Tags",
-                          messages: [
-                            {
-                              message: "Page status inconsistent with BCD",
-                              data: [
-                                [
-                                  "experimental",
-                                  "non-standard"
-                                ],
-                                [
-                                  "experimental"
-                                ]
-                              ]
-                            }
-                          ]
-                        },
-                        "speculation-rules": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Speculation-Rules",
-                          messages: [
-                            {
-                              message: "Page status inconsistent with BCD",
-                              data: [
-                                [
-                                  "experimental",
-                                  "non-standard"
-                                ],
-                                [
-                                  "experimental"
-                                ]
-                              ]
-                            }
-                          ]
-                        },
-                        "supports-loading-mode": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Supports-Loading-Mode",
-                          messages: [
-                            {
-                              message: "Page status inconsistent with BCD",
-                              data: [
-                                [
-                                  "experimental",
-                                  "non-standard"
-                                ],
-                                [
-                                  "experimental"
-                                ]
-                              ]
-                            }
-                          ]
-                        },
                         "user-agent": {
                           children: {
                             firefox: {
@@ -103388,41 +104248,6 @@ h2 {
                         },
                         object: {
                           children: {}
-                        },
-                        promise: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-inline-script",
-                                "Do not write JS within the <script> element; use separate JS blocks instead.",
-                                `<script>
-  window.addEventListener("message", (event) => {
-    document.querySelector("#text").textContent = "hello";
-    // this code will only run in browsers that track the incumbent settings object
-    console.log(event);
-  });
-</script>`,
-                                "2:0 - 8:9",
-                                `/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!-- x.html -->
-<!doctype html>
-<script>
-  window.addEventListener("message", (event) => {
-    document.querySelector("#text").textContent = "hello";
-    // this code will only run in browsers that track the incumbent settings object
-    console.log(event);
-  });
-</script>
-~~~
-`
-                              ]
-                            }
-                          ]
                         }
                       }
                     },
@@ -103468,37 +104293,6 @@ h2 {
             },
             mathml: {
               children: {
-                guides: {
-                  children: {
-                    fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Guides/Fonts",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addons.mozilla.org/en-US/firefox/addon/mathml-fonts/",
-                            502
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addons.mozilla.org/en-US/firefox/addon/mathml-fonts/",
-                            502
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://addons.mozilla.org/en-US/firefox/addon/mathml-fonts/",
-                            502
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 reference: {
                   children: {
                     attribute: {
@@ -103750,13 +104544,6 @@ h2 {
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/Web/Privacy/Guides"
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://addons.mozilla.org/en-GB/firefox/addon/clearurls/",
-                    "The operation timed out."
                   ]
                 }
               ]
