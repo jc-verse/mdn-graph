@@ -583,7 +583,7 @@ function checkGuess( {
 /en-US/docs/Learn_web_development/Core/Structuring_content/Marking_up_a_letter
 [no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
 ~~~
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
   <head>
     <meta charset="utf-8" />
@@ -866,6 +866,36 @@ ul {
 layers: L.mapquest.tileLayer("map"),
 ~~~
 
+/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Favorite fruit start</title>
+    <style>
+      input:invalid {
+        border: 2px dashed red;
+      }
+
+      input:valid {
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <label for="choose">Would you prefer a banana or a cherry?</label>
+      <input id="choose" name="i_like" />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
+~~~
+
 /en-US/docs/Learn_web_development/Extensions/Server-side/Django/web_application_security
 [no-inline-event-handlers] Do not use inline event handler "onload".
 ~~~
@@ -961,24 +991,70 @@ if (author === null) {
 /en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
 [declaration-block-no-duplicate-properties] Unexpected duplicate "background-color" (declaration-block-no-duplicate-properties)
 ~~~
+html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+button {
+  width: 150px;
+  margin: auto;
+  line-height: 2;
+  font-size: 1.1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 20px / 15px;
+  border: none;
+  cursor: pointer;
+
+  background-color: red;
+  background-color: rgb(255 0 0 / 90%);
+  box-shadow:
+    inset 3px 3px 3px rgb(255 255 255 / 40%),
+    inset -3px -3px 3px rgb(0 0 0 / 40%);
+}
+
+button:hover,
+button:focus {
+  background-color: rgb(255 0 0 / 50%);
+}
+
+button:active {
+  box-shadow:
+    inset 3px 3px 3px rgb(0 0 0 / 40%),
+    inset -3px -3px 3px rgb(255 255 255 / 40%);
+}
+
+body {
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+~~~
+
+/en-US/docs/Learn_web_development/Extensions/Testing/HTML_and_CSS
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background-color" (declaration-block-no-duplicate-properties)
+~~~
 button {
   /* … */
 
   background-color: red;
   background-color: rgb(255 0 0 / 90%);
   box-shadow:
-    inset 1px 1px 3px rgb(255 255 255 / 40%),
-    inset -1px -1px 3px rgb(0 0 0 / 40%);
+    inset 3px 3px 3px rgb(255 255 255 / 40%),
+    inset -3px -3px 3px rgb(0 0 0 / 40%);
 }
 
-button:hover {
+button:hover,
+button:focus {
   background-color: rgb(255 0 0 / 50%);
 }
 
 button:active {
   box-shadow:
-    inset 1px 1px 3px rgb(0 0 0 / 40%),
-    inset -1px -1px 3px rgb(255 255 255 / 40%);
+    inset 3px 3px 3px rgb(0 0 0 / 40%),
+    inset -3px -3px 3px rgb(255 255 255 / 40%);
 }
 ~~~
 
@@ -1931,13 +2007,9 @@ function modifyText(newText) {
 
 // Function to add event listener to table
 const el = document.getElementById("outside");
-el.addEventListener(
-  "click",
-  function () {
-    modifyText("four");
-  },
-  false,
-);
+el.addEventListener("click", function () {
+  modifyText("four");
+});
 ~~~
 
 /en-US/docs/Web/API/FileSystemDirectoryEntry
@@ -2193,52 +2265,43 @@ function stop(stream) {
   stream.getTracks().forEach((track) => track.stop());
 }
 
-startButton.addEventListener(
-  "click",
-  () => {
-    navigator.mediaDevices
-      .getUserMedia({
-        video: true,
-        audio: true,
-      })
-      .then((stream) => {
-        preview.srcObject = stream;
-        downloadButton.href = stream;
-        preview.captureStream =
-          preview.captureStream || preview.mozCaptureStream;
-        return new Promise((resolve) => {
-          preview.onplaying = resolve;
-        });
-      })
-      .then(() => startRecording(preview.captureStream(), recordingTimeMS))
-      .then((recordedChunks) => {
-        let recordedBlob = new Blob(recordedChunks, { type: "video/webm" });
-        recording.src = URL.createObjectURL(recordedBlob);
-        downloadButton.href = recording.src;
-        downloadButton.download = "RecordedVideo.webm";
-
-        log(
-          `Successfully recorded ${recordedBlob.size} bytes of ${recordedBlob.type} media.`,
-        );
-      })
-      .catch((error) => {
-        if (error.name === "NotFoundError") {
-          log("Camera or microphone not found. Can't record.");
-        } else {
-          log(error);
-        }
+startButton.addEventListener("click", () => {
+  navigator.mediaDevices
+    .getUserMedia({
+      video: true,
+      audio: true,
+    })
+    .then((stream) => {
+      preview.srcObject = stream;
+      downloadButton.href = stream;
+      preview.captureStream = preview.captureStream || preview.mozCaptureStream;
+      return new Promise((resolve) => {
+        preview.onplaying = resolve;
       });
-  },
-  false,
-);
+    })
+    .then(() => startRecording(preview.captureStream(), recordingTimeMS))
+    .then((recordedChunks) => {
+      let recordedBlob = new Blob(recordedChunks, { type: "video/webm" });
+      recording.src = URL.createObjectURL(recordedBlob);
+      downloadButton.href = recording.src;
+      downloadButton.download = "RecordedVideo.webm";
 
-stopButton.addEventListener(
-  "click",
-  () => {
-    stop(preview.srcObject);
-  },
-  false,
-);
+      log(
+        `Successfully recorded ${recordedBlob.size} bytes of ${recordedBlob.type} media.`,
+      );
+    })
+    .catch((error) => {
+      if (error.name === "NotFoundError") {
+        log("Camera or microphone not found. Can't record.");
+      } else {
+        log(error);
+      }
+    });
+});
+
+stopButton.addEventListener("click", () => {
+  stop(preview.srcObject);
+});
 ~~~
 
 /en-US/docs/Web/API/Navigator/deprecatedReplaceInURN
@@ -2581,15 +2644,11 @@ for (let i = 0; i < frames.length; i++) {
 /en-US/docs/Web/API/Window/postMessage
 [no-useless-return] Unnecessary return statement.
 ~~~
-window.addEventListener(
-  "message",
-  (event) => {
-    if (event.origin !== "http://example.org:8080") return;
+window.addEventListener("message", (event) => {
+  if (event.origin !== "http://example.org:8080") return;
 
-    // …
-  },
-  false,
-);
+  // …
+});
 ~~~
 
 /en-US/docs/Web/API/Window/postMessage
@@ -2613,18 +2672,14 @@ popup.postMessage(
 // the window hasn't changed its location.
 popup.postMessage("hello there!", "http://example.com");
 
-window.addEventListener(
-  "message",
-  (event) => {
-    // Do we trust the sender of this message? (might be
-    // different from what we originally opened, for example).
-    if (event.origin !== "http://example.com") return;
+window.addEventListener("message", (event) => {
+  // Do we trust the sender of this message? (might be
+  // different from what we originally opened, for example).
+  if (event.origin !== "http://example.com") return;
 
-    // event.source is popup
-    // event.data is "hi there yourself! the secret response is: rheeeeet!"
-  },
-  false,
-);
+  // event.source is popup
+  // event.data is "hi there yourself! the secret response is: rheeeeet!"
+});
 ~~~
 
 /en-US/docs/Web/API/Window/setTimeout
@@ -3570,22 +3625,6 @@ p {
   rotate: 45deg;
   color: white;
 }
-~~~
-
-/en-US/docs/Web/CSS/env
-[value-keyword-case] Expected "Safe-area-inset-bottom" to be "safe-area-inset-bottom" (value-keyword-case)
-~~~
-/* zero for all rectangular user agents */
-padding: env(safe-area-inset-bottom, 50px);
-
-/* 50px because UA properties are case sensitive */
-padding: env(Safe-area-inset-bottom, 50px);
-
-/* as if padding: '50px 20px' were set because x is not a valid environment variable */
-padding: env(x, 50px 20px);
-
-/* ignored because '50px, 20px' is not a valid padding value and x is not a valid environment variable */
-padding: env(x, 50px, 20px);
 ~~~
 
 /en-US/docs/Web/CSS/env
@@ -4636,26 +4675,6 @@ console.log("PI: " + Math.PI);
 const = "foo";
 ~~~
 
-/en-US/docs/Web/JavaScript/Reference/Errors/Property_access_denied
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <iframe
-      id="myframe"
-      src="http://www1.w3c-test.org/common/blank.html"></iframe>
-    <script>
-      onload = function () {
-        console.log(frames[0].document);
-        // Error: Permission denied to access property "document"
-      };
-    </script>
-  </head>
-  <body></body>
-</html>
-~~~
-
 /en-US/docs/Web/JavaScript/Reference/Errors/Read-only
 [no-implicit-globals] Unexpected assignment to read-only global variable.
 ~~~
@@ -5655,15 +5674,11 @@ console.log(box == 123); // true
 <!-- x.html -->
 <!doctype html>
 <script>
-  window.addEventListener(
-    "message",
-    (event) => {
-      document.querySelector("#text").textContent = "hello";
-      // this code will only run in browsers that track the incumbent settings object
-      console.log(event);
-    },
-    false,
-  );
+  window.addEventListener("message", (event) => {
+    document.querySelector("#text").textContent = "hello";
+    // this code will only run in browsers that track the incumbent settings object
+    console.log(event);
+  });
 </script>
 ~~~
 

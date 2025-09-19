@@ -345,10 +345,9 @@ function reportIfUnexpected(
 
       // Remaining ones are't valid issues; ignore for now
       "CssSyntaxError",
-      "media-feature-range-notation",
-      "declaration-property-value-no-unknown",
-      "declaration-property-value-keyword-no-deprecated",
-      "custom-property-no-missing-var-function",
+      // "declaration-property-value-no-unknown",
+      // "declaration-property-value-keyword-no-deprecated",
+      // "custom-property-no-missing-var-function",
     ].includes(ruleId)
       ? "Stylelint backlog"
       : `${language.toUpperCase()} code issue`,

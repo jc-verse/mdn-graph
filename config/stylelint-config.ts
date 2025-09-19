@@ -1,60 +1,25 @@
 import cssSyntax from "@webref/css";
 
-const parsedFiles = await cssSyntax.listAll();
+const features = await cssSyntax.index();
 
-function toPropertiesSyntax(spec) {
-  const res = {};
-  for (const prop of spec.properties) {
-    if (prop.value) {
-      res[prop.name] = prop.value;
-    } else if (prop.newValues) {
-      res[prop.name] = `| ${prop.newValues}`;
-    }
+function gatherProperties(...properties: string[]) {
+  const result: Record<string, string> = {};
+  for (const prop of properties) {
+    if (!features.properties[prop]) throw new Error(`Unknown property ${prop}`);
+    result[prop] = features.properties[prop].syntax;
   }
-  return res;
+  return result;
 }
 
-function toTypesSyntax(spec, res = {}) {
-  for (const prop of spec.values) {
-    if (prop.value) {
-      res[prop.name.replace(/^<|>$/g, "")] = prop.value;
-    } else if (prop.values) {
-      res[prop.name.replace(/^<|>$/g, "")] = prop.values
-        .map((x) => {
-          if (!x.value) throw new Error(`No value for ${prop.name} ${x.name}`);
-          if (x.values) toTypesSyntax(x, res);
-          return x.value;
-        })
-        .join(" | ");
-    }
+function gatherTypes(...types: string[]) {
+  const result: Record<string, string> = {};
+  for (const type of types) {
+    if (!features.types[type] && !features.functions[type])
+      throw new Error(`Unknown type ${type}`);
+    result[type] =
+      features.types[type]?.syntax || features.functions[type]?.syntax;
   }
-  return res;
-}
-
-function mergeSyntaxes(...entries) {
-  const res = {};
-  for (const entry of entries) {
-    for (const [key, value] of Object.entries(entry)) {
-      if (res[key]) {
-        if (value.startsWith("| ")) {
-          res[key] += value;
-        } else if (res[key].startsWith("| ")) {
-          res[key] = value + res[key];
-        } else if (res[key] !== value) {
-          if (Bun.argv.includes("lint")) {
-            console.warn(
-              `Duplicate syntax for ${key}:\n- ${res[key]}\n- ${value}`,
-            );
-          }
-          // Later one is newer
-          res[key] = value;
-        }
-      } else {
-        res[key] = value;
-      }
-    }
-  }
-  return res;
+  return result;
 }
 
 const languageOptions = {
@@ -75,117 +40,152 @@ const languageOptions = {
         },
       },
     },
-    properties: mergeSyntaxes(
-      toPropertiesSyntax(parsedFiles["css-anchor-position"]),
-      toPropertiesSyntax(parsedFiles["css-backgrounds-4"]),
-      toPropertiesSyntax(parsedFiles["css-borders"]),
-      toPropertiesSyntax(parsedFiles["css-box"]),
-      toPropertiesSyntax(parsedFiles["css-conditional-5"]),
-      toPropertiesSyntax(parsedFiles["css-fonts"]),
-      toPropertiesSyntax(parsedFiles["css-fonts-5"]),
-      toPropertiesSyntax(parsedFiles["css-grid-3"]),
-      toPropertiesSyntax(parsedFiles["css-images"]),
-      toPropertiesSyntax(parsedFiles["css-inline"]),
-      toPropertiesSyntax(parsedFiles["css-text-4"]),
-      toPropertiesSyntax(parsedFiles["compositing"]),
-      {
-        // LEGACY
-        "alignment-baseline": "| hanging",
-        appearance: "| slider-vertical | base-select", // NEW: base-select
-        display: "| box | -moz-box",
-        "box-align": "start | center | end | baseline | stretch",
-        "box-direction": "normal | reverse",
-        "box-lines": "single | multiple",
-        "box-ordinal-group": "<integer>",
-        "box-orient": "horizontal | vertical | inline-axis | block-axis",
-        "box-pack": "start | center | end | stretch",
-        "text-justify": "| distribute", // TODO: remove
-        "fill-opacity": "<'opacity'>", // csstree incorrect
-        // horizontal & vertical are FF-only
-        "scroll-timeline-axis":
-          "[ block | inline | x | y | horizontal | vertical ]#",
-        // NEW: calc-size
-        // https://github.com/stylelint/stylelint/issues/8320
-        // I can't extend the length type, only each property
-        height: "| <calc-size()>",
-        width: "| <calc-size()>",
-        // TODO: No way to say that every property accepts <attr()>
-        "background-color": "| <attr()>",
-        rotate: "| <attr()>",
-        "view-transition-name": "| <attr()>",
-        // csstree bugs?
-        "-webkit-mask-repeat-x": "[ repeat | no-repeat | space | round ]#",
-        "-webkit-mask-repeat-y": "[ repeat | no-repeat | space | round ]#",
-        "-webkit-text-stroke-width": "| thin | medium | thick",
-      },
-    ),
-    types: mergeSyntaxes(
-      toTypesSyntax(parsedFiles["css-anchor-position"]),
-      toTypesSyntax(parsedFiles["css-backgrounds-4"]),
-      toTypesSyntax(parsedFiles["css-borders"]),
-      toTypesSyntax(parsedFiles["css-color"]),
-      toTypesSyntax(parsedFiles["css-color-5"]),
-      toTypesSyntax(parsedFiles["css-counter-styles"]),
-      {
-        // <counter-style-name> is defined as a <custom-ident>
-        // but there are some pre-defined values. webref is confusing in this case
-        "counter-style-name": "<custom-ident>",
-      },
-      toTypesSyntax(parsedFiles["css-easing"]),
-      toTypesSyntax(parsedFiles["css-fonts"]),
-      toTypesSyntax(parsedFiles["css-images"]),
-      toTypesSyntax(parsedFiles["css-images-4"]),
-      {
-        // LEGACY
-        "cross-fade()": "| cross-fade( <image> , <image> , <percentage> )",
-        "-webkit-cross-fade()":
-          "-webkit-cross-fade( <image> , <image> , <percentage> )",
-        // TODO: paint() should be added to <image> in webref
-        image: "| <paint()> | <-webkit-cross-fade()>",
-        // TODO: currently there's a webref warning: "Missing definition"
-        // Remove when fixed
-        "radial-size": "<radial-extent>{1,2} | <length-percentage [0,∞]>{1,2}",
-      },
-      toTypesSyntax(parsedFiles["css-shapes"]),
-      toTypesSyntax(parsedFiles["css-shapes-2"]),
-      toTypesSyntax(parsedFiles["css-text-4"]),
-      toTypesSyntax(parsedFiles["css-values-5"]),
-      {
-        // should suffice to accept all valid values
-        "size-keyword":
-          "auto | fit-content | min-content | max-content | fill-available | stretch",
-        // TODO: verify
-        "attr-unit":
-          "string | color | url | integer | number | length | angle | time | frequency | cap | ch | em | ex | ic | lh | rlh | rem | vb | vi | vw | vh | vmin | vmax | mm | Q | cm | in | pt | pc | px | deg | grad | rad | turn | ms | s | Hz | kHz | %",
-      },
-      toTypesSyntax(parsedFiles["compositing"]),
-      {
-        // I think this is a bug with the compositing spec:
-        // <background-blend-mode> refers to <mix-blend-mode>
-        // without declaring the latter as a type
-        "mix-blend-mode": "<blend-mode> | plus-darker | plus-lighter",
-      },
-      // TODO There's some incompatibility between fill-stroke and SVG.
-      // Namely SVG defines fill = <paint> but fill-stroke considers it a shorthand
-      // For now we manually patch the part we need
-      // toTypesSyntax(parsedFiles["fill-stroke"]),
-      {
-        paint: "| <image>",
-      },
-      {
-        // LEGACY
-        image: "| <-moz-element()> | <-moz-image-rect()>",
-        "-moz-element()": "-moz-element( <id-selector> )",
-        "-moz-image-rect()":
-          "-moz-image-rect( <url> , [ <integer> | <percentage> ]#{4} )",
-      },
-    ),
+    properties: {
+      ...gatherProperties(
+        ...Object.keys(features.properties).filter((p) =>
+          p.startsWith("corner"),
+        ),
+        "appearance",
+        "caret",
+        "caret-animation",
+        "alignment-baseline",
+        "dominant-baseline",
+        "text-transform",
+        "word-break",
+        "font-synthesis-style",
+        "font-variant",
+        "margin-trim",
+        "image-rendering",
+        "image-orientation",
+        "container-type",
+        "fill-opacity",
+        // Anchor sizing/positioning
+        "justify-self",
+        "align-self",
+        "left",
+        "right",
+        "top",
+        "bottom",
+        "min-width",
+        "width",
+        "height",
+        "margin-block-start",
+        "margin-top",
+        // Why does csstree say <length> instead of <length>{1,2}?
+        "border-inline-width",
+        // Another csstree bug
+        "mix-blend-mode",
+      ),
+      // LEGACY
+      display: "| box | -moz-box",
+      "box-align": "start | center | end | baseline | stretch",
+      "box-direction": "normal | reverse",
+      "box-lines": "single | multiple",
+      "box-ordinal-group": "<integer>",
+      "box-orient": "horizontal | vertical | inline-axis | block-axis",
+      "box-pack": "start | center | end | stretch",
+      // csstree bugs?
+      "-webkit-mask-repeat-x": "[ repeat | no-repeat | space | round ]#",
+      "-webkit-mask-repeat-y": "[ repeat | no-repeat | space | round ]#",
+      "-webkit-text-stroke-width": "| thin | medium | thick",
+      "text-justify": "| distribute", // TODO: remove
+      // horizontal & vertical are FF-only
+      "scroll-timeline-axis":
+        "[ block | inline | x | y | horizontal | vertical ]#",
+    },
+    types: {
+      ...gatherTypes(
+        // attr()
+        "attr()",
+        "attr-type",
+        "syntax",
+        "syntax-component",
+        "syntax-combinator",
+        "syntax-single-component",
+        "syntax-multiplier",
+        "syntax-string",
+        // corner-shape
+        "corner-shape-value",
+        "superellipse()",
+        // hsl()
+        "hsl()",
+        "hsla()",
+        "legacy-hsl-syntax",
+        "modern-hsl-syntax",
+        "legacy-hsla-syntax",
+        "modern-hsla-syntax",
+        // Color interpolation
+        "repeating-linear-gradient()",
+        "linear-gradient-syntax",
+        "repeating-conic-gradient()",
+        "conic-gradient()",
+        "conic-gradient-syntax",
+        "repeating-radial-gradient()",
+        "radial-gradient()",
+        "radial-gradient-syntax",
+        "radial-shape",
+        "radial-size",
+        "radial-extent",
+        "color-stop-angle",
+        // appearance
+        "compat-special",
+        // easing functions
+        "easing-function",
+        "linear-easing-function",
+        "cubic-bezier-easing-function",
+        "step-easing-function",
+        "linear()",
+        "cubic-bezier()",
+        "steps()",
+        // background-clip
+        "bg-clip",
+        // calc-size()
+        "calc-size()",
+        "calc-size-basis",
+        // list-style-type
+        "counter-style",
+        "symbols()",
+        "symbols-type",
+        // stroke
+        "svg-paint",
+        // shape()
+        "shape()",
+        "shape-command",
+      ),
+      "basic-shape": " | <shape()>",
+      // TODO why are these missing from webref?
+      "coordinate-pair": "<length-percentage>{2}",
+      "command-end-point": "[ to <position> | by <coordinate-pair> ]",
+      "move-command": "move <command-end-point>",
+      "line-command": "line <command-end-point>",
+      "horizontal-line-command": "hline [ to [ <length-percentage> | left | center | right | x-start | x-end ] | by <length-percentage> ]",
+      "vertical-line-command": "vline [ to [ <length-percentage> | top | center | bottom | y-start | y-end ] | by <length-percentage> ]",
+      "curve-command": "curve [ [ to <position> with <control-point> [ / <control-point> ]? ] | [ by <coordinate-pair> with <relative-control-point> [ / <relative-control-point> ]? ] ]",
+      "smooth-command": "smooth [ [ to <position> [ with <control-point> ]? ] | [ by <coordinate-pair> [ with <relative-control-point> ]? ] ]",
+      "control-point": "[ <position> | <relative-control-point> ]",
+      "relative-control-point": "<coordinate-pair> [ from [ start | end | origin ] ]?",
+      "arc-command": "arc <command-end-point> [ [ of <length-percentage>{1,2} ] && <arc-sweep>? && <arc-size>? && [rotate <angle>]? ]",
+      "arc-sweep": "cw | ccw",
+      "arc-size": "large | small",
+      // TODO: https://github.com/w3c/webref/issues/625
+      paint: " | <image> | <svg-paint>",
+      // should suffice to accept all valid values
+      "size-keyword":
+        "auto | fit-content | min-content | max-content | fill-available | stretch",
+      // TODO: verify
+      "attr-unit":
+        "string | color | url | integer | number | length | angle | time | frequency | cap | ch | em | ex | ic | lh | rlh | rem | vb | vi | vw | vh | vmin | vmax | mm | Q | cm | in | pt | pc | px | deg | grad | rad | turn | ms | s | Hz | kHz | %",
+      // LEGACY
+      image: "| <-moz-element()> | <-moz-image-rect()> | <-webkit-cross-fade()>",
+      "-moz-element()": "-moz-element( <id-selector> )",
+      "-moz-image-rect()":
+        "-moz-image-rect( <url> , [ <integer> | <percentage> ]#{4} )",
+      "cross-fade()": "| cross-fade( <image> , <image> , <percentage> )",
+      "-webkit-cross-fade()":
+        "-webkit-cross-fade( <image> , <image> , <percentage> )",
+    },
   },
 };
-
-// console.log(Object.keys(parsedFiles).sort().join("\n"));
-// console.log(toTypesSyntax(parsedFiles["css-images-4"]));
-// console.log(languageOptions);
 
 export default function stylelintConfig(isPropertyOnly: boolean) {
   return {
@@ -263,6 +263,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
             "media",
             "style",
             "supports",
+            "superellipse",
             "sibling-count",
             "sibling-index",
           ],
@@ -367,7 +368,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       "keyframe-selector-notation":
         "percentage-unless-within-keyword-only-block",
       "lightness-notation": "number",
-      "media-feature-range-notation": "context",
+      "media-feature-range-notation": ["context", { except: ["exact-value"] }],
       "selector-not-notation": "complex",
       "selector-pseudo-element-colon-notation": "double",
       "font-family-name-quotes": "always-unless-keyword",
