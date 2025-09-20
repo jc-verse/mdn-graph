@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-6mrmcnzh.js";
+} from "./chunk-tzt4c485.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -190,6 +190,58 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            accessibility: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Accessibility",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://webaim.org/",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
+            accessibility_tree: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Accessibility_tree",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://webaim.org/",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
+            accessible_description: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Accessible_description",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://webaim.org/",
+                    "Cannot reach server and Bun hangs"
+                  ]
+                }
+              ]
+            },
+            accessible_name: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Accessible_name",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://webaim.org/",
+                    "Cannot reach server and Bun hangs"
+                  ]
                 }
               ]
             },
@@ -1497,6 +1549,53 @@ div.warning {
               children: {
                 accessibility: {
                   children: {
+                    css_and_javascript: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/CSS_and_JavaScript",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/resources/contrastchecker/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/techniques/css/invisiblecontent/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/techniques/formvalidation/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
+                    html: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/techniques/hypertext/hypertext_links",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/techniques/skipnav/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {
                         css_and_javascript: {
@@ -1894,6 +1993,13 @@ li {
 }
 ~~~
 `
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webaim.org/resources/contrastchecker/",
+                                "Cannot reach server and Bun hangs"
                               ]
                             }
                           ]
@@ -2724,6 +2830,87 @@ li {
                           ]
                         }
                       }
+                    },
+                    tooling: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Tooling",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/resources/contrastchecker/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://wave.webaim.org/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://wave.webaim.org/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/techniques/screenreader/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/projects/screenreadersurvey10/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/articles/nvda/tables.htm",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
+                    "wai-aria_basics": {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/techniques/javascript/other",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/techniques/forms/advanced",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
+                    what_is_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/articles/cognitive/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Core/Accessibility",
@@ -2731,8 +2918,8 @@ li {
                     {
                       message: "Broken external link",
                       data: [
-                        "https://egghead.io/courses/start-building-accessible-web-applications-today",
-                        "The operation timed out."
+                        "https://webaim.org/resources/",
+                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -4860,13 +5047,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://api.emberjs.com/ember/3.16/classes/Ember.Templates.helpers/methods/on?anchor=on",
-                            "https://api.emberjs.com/ember/3.16/classes/Ember.Templates.helpers?anchor=on#on"
-                          ]
                         }
                       ]
                     },
@@ -9005,6 +9185,20 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/guide/extras/composition-api-faq.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/guide/extras/composition-api-faq.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -10083,6 +10277,13 @@ button {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/techniques/acrobat/acrobat",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     },
@@ -10093,201 +10294,6 @@ button {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    marking_up_a_letter: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Marking_up_a_letter",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `    <style>
-      body {
-        font: 1.2em / 1.5 system-ui;
-      }
-
-      .sender-column {
-        text-align: right;
-      }
-
-      h1 {
-        font-size: 1.5em;
-      }
-
-      h2 {
-        font-size: 1.3em;
-      }
-    </style>`,
-                            "6:4 - 22:12",
-                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Marking_up_a_letter
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="author" content="Dr. Eleanor Gaye" />
-    <title>Awesome science application correspondence</title>
-    <style>
-      body {
-        font: 1.2em / 1.5 system-ui;
-      }
-
-      .sender-column {
-        text-align: right;
-      }
-
-      h1 {
-        font-size: 1.5em;
-      }
-
-      h2 {
-        font-size: 1.3em;
-      }
-    </style>
-  </head>
-  <body>
-    <address class="sender-column">
-      <strong>Dr. Eleanor Gaye</strong><br />
-      Awesome Science faculty<br />
-      University of Awesome<br />
-      Bobtown, CA 99999,<br />
-      USA<br />
-      <strong>Tel</strong>: 123-456-7890<br />
-      <strong>Email</strong>: no_reply@example.com
-    </address>
-
-    <p class="sender-column">
-      <time datetime="2016-01-20">20 January 2016</time>
-    </p>
-
-    <address>
-      <strong>Miss Eileen Dover</strong><br />
-      4321 Cliff Top Edge<br />
-      Dover, CT9 XXX<br />
-      UK
-    </address>
-
-    <h1>Re: Eileen Dover university application</h1>
-
-    <p>Dear Eileen,</p>
-
-    <p>
-      Thank you for your recent application to join us at the University of
-      Awesome's science faculty to study as part of your
-      <abbr>PhD</abbr> (Doctor of Philosophy) next year. I will answer your
-      questions one by one, in the following sections.
-    </p>
-
-    <h2>Starting dates</h2>
-
-    <p>
-      We are happy to accommodate you starting your study with us at any time,
-      however it would suit us better if you could start at the beginning of a
-      semester; the start dates for each one are as follows:
-    </p>
-
-    <ul>
-      <li>
-        First semester: <time datetime="2016-09-09">9 September 2016</time>
-      </li>
-      <li>
-        Second semester: <time datetime="2017-01-15">15 January 2017</time>
-      </li>
-      <li>Third semester: <time datetime="2017-05-02">2 May 2017</time></li>
-    </ul>
-
-    <p>
-      Please let me know if this is ok, and if so which start date you would
-      prefer.
-    </p>
-
-    <h2>Subjects of study</h2>
-
-    <p>
-      At the Awesome Science Faculty, we have a pretty open-minded research
-      facility — as long as the subjects fall somewhere in the realm of science
-      and technology. You seem like an intelligent, dedicated researcher, and
-      just the kind of person we'd like to have on our team. Saying that, of the
-      ideas you submitted we were most intrigued by are as follows, in order of
-      priority:
-    </p>
-
-    <ol>
-      <li>
-        Turning H<sub>2</sub>O into wine, and the health benefits of Resveratrol
-        (C<sub>14</sub>H<sub>12</sub>O<sub>3</sub>.)
-      </li>
-      <li>
-        Measuring the effect on performance of funk bass players at temperatures
-        exceeding 30°C (86°F), when the audience size exponentially increases
-        (effect of 3 × 10<sup>3</sup> increasing to 3 × 10<sup>4</sup>.)
-      </li>
-      <li>
-        <abbr>HTML</abbr>, Hypertext Markup Language, and <abbr>CSS</abbr>,
-        Cascading Style Sheets, constructs for representing musical scores.
-      </li>
-    </ol>
-
-    <p>
-      So please can you provide more information on each of these subjects,
-      including how long you'd expect the research to take, required staff and
-      other resources, and anything else you think we'd need to know? Thanks.
-    </p>
-
-    <h2>Exotic dance moves</h2>
-
-    <p>
-      Yes, you are right! As part of my post-doctorate work, I
-      <em>did</em> study exotic tribal dances. To answer your question, my
-      favorite dances are as follows, with definitions:
-    </p>
-
-    <dl>
-      <dt>Polynesian chicken dance</dt>
-      <dd>
-        A little known but <em>very</em> influential dance dating back as far as
-        300 <abbr title="Before Common Era">BCE</abbr>, a whole village would
-        dance around in a circle like chickens, to encourage their livestock to
-        be "fruitful".
-      </dd>
-      <dt>Icelandic brownian shuffle</dt>
-      <dd>
-        Before the Icelanders developed fire as a means of getting warm, they
-        used to practice this dance, which involved huddling close together in a
-        circle on the floor, and shuffling their bodies around in imperceptibly
-        tiny, very rapid movements. One of my fellow students used to say that
-        he thought this dance inspired modern styles such as Twerking.
-      </dd>
-      <dt>Arctic robot dance</dt>
-      <dd>
-        An interesting example of historic misinformation, English explorers in
-        the 1960s believed to have discovered a new dance style characterized by
-        "robotic", stilted movements, being practiced by inhabitants of Northern
-        Alaska and Canada. Later on however it was discovered that they were
-        just moving like this because they were really cold.
-      </dd>
-    </dl>
-
-    <p>Yours sincerely,</p>
-
-    <p>Dr Eleanor Gaye</p>
-
-    <p>
-      University of Awesome motto: <q>Be awesome to each other.</q> --
-      <cite
-        >The memoirs of Bill S Preston, <abbr title="Esquire">Esq.</abbr></cite
-      >
-    </p>
-  </body>
-</html>
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -15843,6 +15849,13 @@ p {
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.exljbris.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -16602,1270 +16615,6 @@ button:active {
                 },
                 forms: {
                   children: {
-                    advanced_form_styling: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "@typescript-eslint/prefer-for-of",
-                            "Expected a `for-of` loop instead of a `for` loop with this simple iteration.",
-                            `    for (let i = 0; i < curFiles.length; i++) {
-      const listItem = document.createElement("li");
-      listItem.textContent =
-        "File name: " +
-        curFiles[i].name +
-        "; file size " +
-        returnFileSize(curFiles[i].size) +
-        ".";
-      fileList.appendChild(listItem);
-    }`,
-                            "14:5 - 23:6",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[@typescript-eslint/prefer-for-of] Expected a \`for-of\` loop instead of a \`for\` loop with this simple iteration.
-~~~
-const fileInput = document.querySelector("#file");
-const fileList = document.querySelector("#file-list");
-
-fileInput.addEventListener("change", updateFileList);
-
-function updateFileList() {
-  while (fileList.firstChild) {
-    fileList.removeChild(fileList.firstChild);
-  }
-
-  let curFiles = fileInput.files;
-
-  if (!(curFiles.length === 0)) {
-    for (let i = 0; i < curFiles.length; i++) {
-      const listItem = document.createElement("li");
-      listItem.textContent =
-        "File name: " +
-        curFiles[i].name +
-        "; file size " +
-        returnFileSize(curFiles[i].size) +
-        ".";
-      fileList.appendChild(listItem);
-    }
-  }
-}
-
-function returnFileSize(number) {
-  if (number < 1024) {
-    return number + "bytes";
-  } else if (number >= 1024 && number < 1048576) {
-    return (number / 1024).toFixed(1) + "KB";
-  } else if (number >= 1048576) {
-    return (number / 1048576).toFixed(1) + "MB";
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-template",
-                            "Unexpected string concatenation.",
-                            `        "File name: " +
-        curFiles[i].name +
-        "; file size " +
-        returnFileSize(curFiles[i].size) +
-        ".";`,
-                            "17:9 - 21:12",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[prefer-template] Unexpected string concatenation.
-~~~
-const fileInput = document.querySelector("#file");
-const fileList = document.querySelector("#file-list");
-
-fileInput.addEventListener("change", updateFileList);
-
-function updateFileList() {
-  while (fileList.firstChild) {
-    fileList.removeChild(fileList.firstChild);
-  }
-
-  let curFiles = fileInput.files;
-
-  if (!(curFiles.length === 0)) {
-    for (let i = 0; i < curFiles.length; i++) {
-      const listItem = document.createElement("li");
-      listItem.textContent =
-        "File name: " +
-        curFiles[i].name +
-        "; file size " +
-        returnFileSize(curFiles[i].size) +
-        ".";
-      fileList.appendChild(listItem);
-    }
-  }
-}
-
-function returnFileSize(number) {
-  if (number < 1024) {
-    return number + "bytes";
-  } else if (number >= 1024 && number < 1048576) {
-    return (number / 1024).toFixed(1) + "KB";
-  } else if (number >= 1048576) {
-    return (number / 1048576).toFixed(1) + "MB";
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-template",
-                            "Unexpected string concatenation.",
-                            '    return number + "bytes";',
-                            "29:12 - 29:28",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[prefer-template] Unexpected string concatenation.
-~~~
-const fileInput = document.querySelector("#file");
-const fileList = document.querySelector("#file-list");
-
-fileInput.addEventListener("change", updateFileList);
-
-function updateFileList() {
-  while (fileList.firstChild) {
-    fileList.removeChild(fileList.firstChild);
-  }
-
-  let curFiles = fileInput.files;
-
-  if (!(curFiles.length === 0)) {
-    for (let i = 0; i < curFiles.length; i++) {
-      const listItem = document.createElement("li");
-      listItem.textContent =
-        "File name: " +
-        curFiles[i].name +
-        "; file size " +
-        returnFileSize(curFiles[i].size) +
-        ".";
-      fileList.appendChild(listItem);
-    }
-  }
-}
-
-function returnFileSize(number) {
-  if (number < 1024) {
-    return number + "bytes";
-  } else if (number >= 1024 && number < 1048576) {
-    return (number / 1024).toFixed(1) + "KB";
-  } else if (number >= 1048576) {
-    return (number / 1048576).toFixed(1) + "MB";
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-template",
-                            "Unexpected string concatenation.",
-                            '    return (number / 1024).toFixed(1) + "KB";',
-                            "31:12 - 31:45",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[prefer-template] Unexpected string concatenation.
-~~~
-const fileInput = document.querySelector("#file");
-const fileList = document.querySelector("#file-list");
-
-fileInput.addEventListener("change", updateFileList);
-
-function updateFileList() {
-  while (fileList.firstChild) {
-    fileList.removeChild(fileList.firstChild);
-  }
-
-  let curFiles = fileInput.files;
-
-  if (!(curFiles.length === 0)) {
-    for (let i = 0; i < curFiles.length; i++) {
-      const listItem = document.createElement("li");
-      listItem.textContent =
-        "File name: " +
-        curFiles[i].name +
-        "; file size " +
-        returnFileSize(curFiles[i].size) +
-        ".";
-      fileList.appendChild(listItem);
-    }
-  }
-}
-
-function returnFileSize(number) {
-  if (number < 1024) {
-    return number + "bytes";
-  } else if (number >= 1024 && number < 1048576) {
-    return (number / 1024).toFixed(1) + "KB";
-  } else if (number >= 1048576) {
-    return (number / 1048576).toFixed(1) + "MB";
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-template",
-                            "Unexpected string concatenation.",
-                            '    return (number / 1048576).toFixed(1) + "MB";',
-                            "33:12 - 33:48",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[prefer-template] Unexpected string concatenation.
-~~~
-const fileInput = document.querySelector("#file");
-const fileList = document.querySelector("#file-list");
-
-fileInput.addEventListener("change", updateFileList);
-
-function updateFileList() {
-  while (fileList.firstChild) {
-    fileList.removeChild(fileList.firstChild);
-  }
-
-  let curFiles = fileInput.files;
-
-  if (!(curFiles.length === 0)) {
-    for (let i = 0; i < curFiles.length; i++) {
-      const listItem = document.createElement("li");
-      listItem.textContent =
-        "File name: " +
-        curFiles[i].name +
-        "; file size " +
-        returnFileSize(curFiles[i].size) +
-        ".";
-      fileList.appendChild(listItem);
-    }
-  }
-}
-
-function returnFileSize(number) {
-  if (number < 1024) {
-    return number + "bytes";
-  } else if (number >= 1024 && number < 1048576) {
-    return (number / 1024).toFixed(1) + "KB";
-  } else if (number >= 1048576) {
-    return (number / 1048576).toFixed(1) + "MB";
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-function-notation",
-                            "Expected modern color-function notation (color-function-notation)",
-                            "  border: 1px solid rgb(169, 169, 169);",
-                            "36:21 - 36:39",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[color-function-notation] Expected modern color-function notation (color-function-notation)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-
-body {
-  font-family: "Josefin Sans", sans-serif;
-  margin: 20px auto;
-  max-width: 400px;
-}
-
-form > div {
-  margin-bottom: 20px;
-}
-
-button,
-label,
-input {
-  display: block;
-  font-family: inherit;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-  height: 30px;
-}
-
-input[type="file"] {
-  height: 0;
-  padding: 0;
-  opacity: 0;
-}
-
-label[for="file"] {
-  box-shadow: 1px 1px 3px #ccc;
-  background: linear-gradient(to bottom, #eee, #ccc);
-  border: 1px solid rgb(169, 169, 169);
-  border-radius: 5px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-label[for="file"]:hover {
-  background: linear-gradient(to bottom, #fff, #ddd);
-}
-
-label[for="file"]:active {
-  box-shadow: inset 1px 1px 3px #ccc;
-}
-
-button {
-  width: 60%;
-  margin: 0 auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  box-shadow: 1px 1px 3px #ccc;",
-                            "34:27 - 34:31",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-
-body {
-  font-family: "Josefin Sans", sans-serif;
-  margin: 20px auto;
-  max-width: 400px;
-}
-
-form > div {
-  margin-bottom: 20px;
-}
-
-button,
-label,
-input {
-  display: block;
-  font-family: inherit;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-  height: 30px;
-}
-
-input[type="file"] {
-  height: 0;
-  padding: 0;
-  opacity: 0;
-}
-
-label[for="file"] {
-  box-shadow: 1px 1px 3px #ccc;
-  background: linear-gradient(to bottom, #eee, #ccc);
-  border: 1px solid rgb(169, 169, 169);
-  border-radius: 5px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-label[for="file"]:hover {
-  background: linear-gradient(to bottom, #fff, #ddd);
-}
-
-label[for="file"]:active {
-  box-shadow: inset 1px 1px 3px #ccc;
-}
-
-button {
-  width: 60%;
-  margin: 0 auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                            "  background: linear-gradient(to bottom, #eee, #ccc);",
-                            "35:42 - 35:46",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-
-body {
-  font-family: "Josefin Sans", sans-serif;
-  margin: 20px auto;
-  max-width: 400px;
-}
-
-form > div {
-  margin-bottom: 20px;
-}
-
-button,
-label,
-input {
-  display: block;
-  font-family: inherit;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-  height: 30px;
-}
-
-input[type="file"] {
-  height: 0;
-  padding: 0;
-  opacity: 0;
-}
-
-label[for="file"] {
-  box-shadow: 1px 1px 3px #ccc;
-  background: linear-gradient(to bottom, #eee, #ccc);
-  border: 1px solid rgb(169, 169, 169);
-  border-radius: 5px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-label[for="file"]:hover {
-  background: linear-gradient(to bottom, #fff, #ddd);
-}
-
-label[for="file"]:active {
-  box-shadow: inset 1px 1px 3px #ccc;
-}
-
-button {
-  width: 60%;
-  margin: 0 auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  background: linear-gradient(to bottom, #eee, #ccc);",
-                            "35:48 - 35:52",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-
-body {
-  font-family: "Josefin Sans", sans-serif;
-  margin: 20px auto;
-  max-width: 400px;
-}
-
-form > div {
-  margin-bottom: 20px;
-}
-
-button,
-label,
-input {
-  display: block;
-  font-family: inherit;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-  height: 30px;
-}
-
-input[type="file"] {
-  height: 0;
-  padding: 0;
-  opacity: 0;
-}
-
-label[for="file"] {
-  box-shadow: 1px 1px 3px #ccc;
-  background: linear-gradient(to bottom, #eee, #ccc);
-  border: 1px solid rgb(169, 169, 169);
-  border-radius: 5px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-label[for="file"]:hover {
-  background: linear-gradient(to bottom, #fff, #ddd);
-}
-
-label[for="file"]:active {
-  box-shadow: inset 1px 1px 3px #ccc;
-}
-
-button {
-  width: 60%;
-  margin: 0 auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  background: linear-gradient(to bottom, #fff, #ddd);",
-                            "43:42 - 43:46",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-
-body {
-  font-family: "Josefin Sans", sans-serif;
-  margin: 20px auto;
-  max-width: 400px;
-}
-
-form > div {
-  margin-bottom: 20px;
-}
-
-button,
-label,
-input {
-  display: block;
-  font-family: inherit;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-  height: 30px;
-}
-
-input[type="file"] {
-  height: 0;
-  padding: 0;
-  opacity: 0;
-}
-
-label[for="file"] {
-  box-shadow: 1px 1px 3px #ccc;
-  background: linear-gradient(to bottom, #eee, #ccc);
-  border: 1px solid rgb(169, 169, 169);
-  border-radius: 5px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-label[for="file"]:hover {
-  background: linear-gradient(to bottom, #fff, #ddd);
-}
-
-label[for="file"]:active {
-  box-shadow: inset 1px 1px 3px #ccc;
-}
-
-button {
-  width: 60%;
-  margin: 0 auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  background: linear-gradient(to bottom, #fff, #ddd);",
-                            "43:48 - 43:52",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-
-body {
-  font-family: "Josefin Sans", sans-serif;
-  margin: 20px auto;
-  max-width: 400px;
-}
-
-form > div {
-  margin-bottom: 20px;
-}
-
-button,
-label,
-input {
-  display: block;
-  font-family: inherit;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-  height: 30px;
-}
-
-input[type="file"] {
-  height: 0;
-  padding: 0;
-  opacity: 0;
-}
-
-label[for="file"] {
-  box-shadow: 1px 1px 3px #ccc;
-  background: linear-gradient(to bottom, #eee, #ccc);
-  border: 1px solid rgb(169, 169, 169);
-  border-radius: 5px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-label[for="file"]:hover {
-  background: linear-gradient(to bottom, #fff, #ddd);
-}
-
-label[for="file"]:active {
-  box-shadow: inset 1px 1px 3px #ccc;
-}
-
-button {
-  width: 60%;
-  margin: 0 auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ccc" to be "#cccccc" (color-hex-length)',
-                            "  box-shadow: inset 1px 1px 3px #ccc;",
-                            "47:33 - 47:37",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[color-hex-length] Expected "#ccc" to be "#cccccc" (color-hex-length)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-
-body {
-  font-family: "Josefin Sans", sans-serif;
-  margin: 20px auto;
-  max-width: 400px;
-}
-
-form > div {
-  margin-bottom: 20px;
-}
-
-button,
-label,
-input {
-  display: block;
-  font-family: inherit;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-  height: 30px;
-}
-
-input[type="file"] {
-  height: 0;
-  padding: 0;
-  opacity: 0;
-}
-
-label[for="file"] {
-  box-shadow: 1px 1px 3px #ccc;
-  background: linear-gradient(to bottom, #eee, #ccc);
-  border: 1px solid rgb(169, 169, 169);
-  border-radius: 5px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-label[for="file"]:hover {
-  background: linear-gradient(to bottom, #fff, #ddd);
-}
-
-label[for="file"]:active {
-  box-shadow: inset 1px 1px 3px #ccc;
-}
-
-button {
-  width: 60%;
-  margin: 0 auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(169,169,169)" to be "darkgrey" (color-named)',
-                            "  border: 1px solid rgb(169, 169, 169);",
-                            "36:21 - 36:39",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[color-named] Expected "rgb(169,169,169)" to be "darkgrey" (color-named)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-
-body {
-  font-family: "Josefin Sans", sans-serif;
-  margin: 20px auto;
-  max-width: 400px;
-}
-
-form > div {
-  margin-bottom: 20px;
-}
-
-button,
-label,
-input {
-  display: block;
-  font-family: inherit;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-  height: 30px;
-}
-
-input[type="file"] {
-  height: 0;
-  padding: 0;
-  opacity: 0;
-}
-
-label[for="file"] {
-  box-shadow: 1px 1px 3px #ccc;
-  background: linear-gradient(to bottom, #eee, #ccc);
-  border: 1px solid rgb(169, 169, 169);
-  border-radius: 5px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-label[for="file"]:hover {
-  background: linear-gradient(to bottom, #fff, #ddd);
-}
-
-label[for="file"]:active {
-  box-shadow: inset 1px 1px 3px #ccc;
-}
-
-button {
-  width: 60%;
-  margin: 0 auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  background: linear-gradient(to bottom, #fff, #ddd);",
-                            "43:42 - 43:46",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-
-body {
-  font-family: "Josefin Sans", sans-serif;
-  margin: 20px auto;
-  max-width: 400px;
-}
-
-form > div {
-  margin-bottom: 20px;
-}
-
-button,
-label,
-input {
-  display: block;
-  font-family: inherit;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-  height: 30px;
-}
-
-input[type="file"] {
-  height: 0;
-  padding: 0;
-  opacity: 0;
-}
-
-label[for="file"] {
-  box-shadow: 1px 1px 3px #ccc;
-  background: linear-gradient(to bottom, #eee, #ccc);
-  border: 1px solid rgb(169, 169, 169);
-  border-radius: 5px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-label[for="file"]:hover {
-  background: linear-gradient(to bottom, #fff, #ddd);
-}
-
-label[for="file"]:active {
-  box-shadow: inset 1px 1px 3px #ccc;
-}
-
-button {
-  width: 60%;
-  margin: 0 auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-block-no-duplicate-properties",
-                            'Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)',
-                            "  padding: 0;",
-                            "19:3 - 19:10",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[declaration-block-no-duplicate-properties] Unexpected duplicate "padding" (declaration-block-no-duplicate-properties)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-
-body {
-  font-family: "Josefin Sans", sans-serif;
-  margin: 20px auto;
-  max-width: 400px;
-}
-
-form > div {
-  margin-bottom: 20px;
-}
-
-button,
-label,
-input {
-  display: block;
-  font-family: inherit;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-  height: 30px;
-}
-
-input[type="file"] {
-  height: 0;
-  padding: 0;
-  opacity: 0;
-}
-
-label[for="file"] {
-  box-shadow: 1px 1px 3px #ccc;
-  background: linear-gradient(to bottom, #eee, #ccc);
-  border: 1px solid rgb(169, 169, 169);
-  border-radius: 5px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-label[for="file"]:hover {
-  background: linear-gradient(to bottom, #fff, #ddd);
-}
-
-label[for="file"]:active {
-  box-shadow: inset 1px 1px 3px #ccc;
-}
-
-button {
-  width: 60%;
-  margin: 0 auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "import-notation",
-                            'Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)',
-                            '@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");',
-                            "1:9 - 1:114",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[import-notation] Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-
-body {
-  font-family: "Josefin Sans", sans-serif;
-  margin: 20px auto;
-  max-width: 400px;
-}
-
-form > div {
-  margin-bottom: 20px;
-}
-
-button,
-label,
-input {
-  display: block;
-  font-family: inherit;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-  height: 30px;
-}
-
-input[type="file"] {
-  height: 0;
-  padding: 0;
-  opacity: 0;
-}
-
-label[for="file"] {
-  box-shadow: 1px 1px 3px #ccc;
-  background: linear-gradient(to bottom, #eee, #ccc);
-  border: 1px solid rgb(169, 169, 169);
-  border-radius: 5px;
-  text-align: center;
-  line-height: 1.5;
-}
-
-label[for="file"]:hover {
-  background: linear-gradient(to bottom, #fff, #ddd);
-}
-
-label[for="file"]:active {
-  box-shadow: inset 1px 1px 3px #ccc;
-}
-
-button {
-  width: 60%;
-  margin: 0 auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "@typescript-eslint/prefer-for-of",
-                            "Expected a `for-of` loop instead of a `for` loop with this simple iteration.",
-                            `    for (let i = 0; i < curFiles.length; i++) {
-      const listItem = document.createElement("li");
-      listItem.textContent =
-        "File name: " +
-        curFiles[i].name +
-        "; file size " +
-        returnFileSize(curFiles[i].size) +
-        ".";
-      fileList.appendChild(listItem);
-    }`,
-                            "15:5 - 24:6",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[@typescript-eslint/prefer-for-of] Expected a \`for-of\` loop instead of a \`for\` loop with this simple iteration.
-~~~
-const fileInput = document.querySelector("#file");
-const fileList = document.querySelector("#file-list");
-
-fileInput.addEventListener("change", updateFileList);
-
-function updateFileList() {
-  while (fileList.firstChild) {
-    fileList.removeChild(fileList.firstChild);
-  }
-
-  let curFiles = fileInput.files;
-
-  if (!(curFiles.length === 0)) {
-    console.log("test");
-    for (let i = 0; i < curFiles.length; i++) {
-      const listItem = document.createElement("li");
-      listItem.textContent =
-        "File name: " +
-        curFiles[i].name +
-        "; file size " +
-        returnFileSize(curFiles[i].size) +
-        ".";
-      fileList.appendChild(listItem);
-    }
-  }
-}
-
-function returnFileSize(number) {
-  if (number < 1024) {
-    return number + "bytes";
-  } else if (number >= 1024 && number < 1048576) {
-    return (number / 1024).toFixed(1) + "KB";
-  } else if (number >= 1048576) {
-    return (number / 1048576).toFixed(1) + "MB";
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-template",
-                            "Unexpected string concatenation.",
-                            `        "File name: " +
-        curFiles[i].name +
-        "; file size " +
-        returnFileSize(curFiles[i].size) +
-        ".";`,
-                            "18:9 - 22:12",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[prefer-template] Unexpected string concatenation.
-~~~
-const fileInput = document.querySelector("#file");
-const fileList = document.querySelector("#file-list");
-
-fileInput.addEventListener("change", updateFileList);
-
-function updateFileList() {
-  while (fileList.firstChild) {
-    fileList.removeChild(fileList.firstChild);
-  }
-
-  let curFiles = fileInput.files;
-
-  if (!(curFiles.length === 0)) {
-    console.log("test");
-    for (let i = 0; i < curFiles.length; i++) {
-      const listItem = document.createElement("li");
-      listItem.textContent =
-        "File name: " +
-        curFiles[i].name +
-        "; file size " +
-        returnFileSize(curFiles[i].size) +
-        ".";
-      fileList.appendChild(listItem);
-    }
-  }
-}
-
-function returnFileSize(number) {
-  if (number < 1024) {
-    return number + "bytes";
-  } else if (number >= 1024 && number < 1048576) {
-    return (number / 1024).toFixed(1) + "KB";
-  } else if (number >= 1048576) {
-    return (number / 1048576).toFixed(1) + "MB";
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-template",
-                            "Unexpected string concatenation.",
-                            '    return number + "bytes";',
-                            "30:12 - 30:28",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[prefer-template] Unexpected string concatenation.
-~~~
-const fileInput = document.querySelector("#file");
-const fileList = document.querySelector("#file-list");
-
-fileInput.addEventListener("change", updateFileList);
-
-function updateFileList() {
-  while (fileList.firstChild) {
-    fileList.removeChild(fileList.firstChild);
-  }
-
-  let curFiles = fileInput.files;
-
-  if (!(curFiles.length === 0)) {
-    console.log("test");
-    for (let i = 0; i < curFiles.length; i++) {
-      const listItem = document.createElement("li");
-      listItem.textContent =
-        "File name: " +
-        curFiles[i].name +
-        "; file size " +
-        returnFileSize(curFiles[i].size) +
-        ".";
-      fileList.appendChild(listItem);
-    }
-  }
-}
-
-function returnFileSize(number) {
-  if (number < 1024) {
-    return number + "bytes";
-  } else if (number >= 1024 && number < 1048576) {
-    return (number / 1024).toFixed(1) + "KB";
-  } else if (number >= 1048576) {
-    return (number / 1048576).toFixed(1) + "MB";
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-template",
-                            "Unexpected string concatenation.",
-                            '    return (number / 1024).toFixed(1) + "KB";',
-                            "32:12 - 32:45",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[prefer-template] Unexpected string concatenation.
-~~~
-const fileInput = document.querySelector("#file");
-const fileList = document.querySelector("#file-list");
-
-fileInput.addEventListener("change", updateFileList);
-
-function updateFileList() {
-  while (fileList.firstChild) {
-    fileList.removeChild(fileList.firstChild);
-  }
-
-  let curFiles = fileInput.files;
-
-  if (!(curFiles.length === 0)) {
-    console.log("test");
-    for (let i = 0; i < curFiles.length; i++) {
-      const listItem = document.createElement("li");
-      listItem.textContent =
-        "File name: " +
-        curFiles[i].name +
-        "; file size " +
-        returnFileSize(curFiles[i].size) +
-        ".";
-      fileList.appendChild(listItem);
-    }
-  }
-}
-
-function returnFileSize(number) {
-  if (number < 1024) {
-    return number + "bytes";
-  } else if (number >= 1024 && number < 1048576) {
-    return (number / 1024).toFixed(1) + "KB";
-  } else if (number >= 1048576) {
-    return (number / 1048576).toFixed(1) + "MB";
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-template",
-                            "Unexpected string concatenation.",
-                            '    return (number / 1048576).toFixed(1) + "MB";',
-                            "34:12 - 34:48",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Advanced_form_styling
-[prefer-template] Unexpected string concatenation.
-~~~
-const fileInput = document.querySelector("#file");
-const fileList = document.querySelector("#file-list");
-
-fileInput.addEventListener("change", updateFileList);
-
-function updateFileList() {
-  while (fileList.firstChild) {
-    fileList.removeChild(fileList.firstChild);
-  }
-
-  let curFiles = fileInput.files;
-
-  if (!(curFiles.length === 0)) {
-    console.log("test");
-    for (let i = 0; i < curFiles.length; i++) {
-      const listItem = document.createElement("li");
-      listItem.textContent =
-        "File name: " +
-        curFiles[i].name +
-        "; file size " +
-        returnFileSize(curFiles[i].size) +
-        ".";
-      fileList.appendChild(listItem);
-    }
-  }
-}
-
-function returnFileSize(number) {
-  if (number < 1024) {
-    return number + "bytes";
-  } else if (number >= 1024 && number < 1048576) {
-    return (number / 1024).toFixed(1) + "KB";
-  } else if (number >= 1048576) {
-    return (number / 1048576).toFixed(1) + "MB";
-  }
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     customizable_select: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select",
@@ -19180,513 +17929,6 @@ option::checkmark {
   top: calc(anchor(bottom) + 1px);
   left: anchor(10%);
 }
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    form_validation: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `    <style>
-      input:invalid {
-        border: 2px dashed red;
-      }
-
-      input:valid {
-        border: 2px solid black;
-      }
-    </style>`,
-                            "6:4 - 14:12",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Favorite fruit start</title>
-    <style>
-      input:invalid {
-        border: 2px dashed red;
-      }
-
-      input:valid {
-        border: 2px solid black;
-      }
-    </style>
-  </head>
-
-  <body>
-    <form>
-      <label for="choose">Would you prefer a banana or a cherry?</label>
-      <input id="choose" name="i_like" />
-      <button>Submit</button>
-    </form>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-arrow-callback",
-                            "Unexpected function expression.",
-                            `email.addEventListener("input", function (event) {
-  if (email.validity.typeMismatch) {
-    email.setCustomValidity("I am expecting an email address!");
-  } else {
-    email.setCustomValidity("");
-  }
-});`,
-                            "3:33 - 9:2",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
-[prefer-arrow-callback] Unexpected function expression.
-~~~
-const email = document.getElementById("mail");
-
-email.addEventListener("input", function (event) {
-  if (email.validity.typeMismatch) {
-    email.setCustomValidity("I am expecting an email address!");
-  } else {
-    email.setCustomValidity("");
-  }
-});
-
-const form = document.querySelector("form");
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-});
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  border: 1px solid #333;",
-                            "17:21 - 17:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-body {
-  font: 1em sans-serif;
-  width: 200px;
-  padding: 0;
-  margin: 0 auto;
-}
-
-p * {
-  display: block;
-}
-
-input[type="email"] {
-  -webkit-appearance: none;
-  appearance: none;
-
-  width: 100%;
-  border: 1px solid #333;
-  margin: 0;
-
-  font-family: inherit;
-  font-size: 90%;
-
-  box-sizing: border-box;
-}
-
-/* This is our style for the invalid fields */
-input:invalid {
-  border-color: #900;
-  background-color: #fdd;
-}
-
-input:focus:invalid {
-  outline: none;
-}
-
-/* This is the style of our error messages */
-.error {
-  width: 100%;
-  padding: 0;
-
-  font-size: 80%;
-  color: white;
-  background-color: #900;
-  border-radius: 0 0 5px 5px;
-
-  box-sizing: border-box;
-}
-
-.error.active {
-  padding: 0.3em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#900" to be "#990000" (color-hex-length)',
-                            "  border-color: #900;",
-                            "28:17 - 28:21",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
-[color-hex-length] Expected "#900" to be "#990000" (color-hex-length)
-~~~
-body {
-  font: 1em sans-serif;
-  width: 200px;
-  padding: 0;
-  margin: 0 auto;
-}
-
-p * {
-  display: block;
-}
-
-input[type="email"] {
-  -webkit-appearance: none;
-  appearance: none;
-
-  width: 100%;
-  border: 1px solid #333;
-  margin: 0;
-
-  font-family: inherit;
-  font-size: 90%;
-
-  box-sizing: border-box;
-}
-
-/* This is our style for the invalid fields */
-input:invalid {
-  border-color: #900;
-  background-color: #fdd;
-}
-
-input:focus:invalid {
-  outline: none;
-}
-
-/* This is the style of our error messages */
-.error {
-  width: 100%;
-  padding: 0;
-
-  font-size: 80%;
-  color: white;
-  background-color: #900;
-  border-radius: 0 0 5px 5px;
-
-  box-sizing: border-box;
-}
-
-.error.active {
-  padding: 0.3em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fdd" to be "#ffdddd" (color-hex-length)',
-                            "  background-color: #fdd;",
-                            "29:21 - 29:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
-[color-hex-length] Expected "#fdd" to be "#ffdddd" (color-hex-length)
-~~~
-body {
-  font: 1em sans-serif;
-  width: 200px;
-  padding: 0;
-  margin: 0 auto;
-}
-
-p * {
-  display: block;
-}
-
-input[type="email"] {
-  -webkit-appearance: none;
-  appearance: none;
-
-  width: 100%;
-  border: 1px solid #333;
-  margin: 0;
-
-  font-family: inherit;
-  font-size: 90%;
-
-  box-sizing: border-box;
-}
-
-/* This is our style for the invalid fields */
-input:invalid {
-  border-color: #900;
-  background-color: #fdd;
-}
-
-input:focus:invalid {
-  outline: none;
-}
-
-/* This is the style of our error messages */
-.error {
-  width: 100%;
-  padding: 0;
-
-  font-size: 80%;
-  color: white;
-  background-color: #900;
-  border-radius: 0 0 5px 5px;
-
-  box-sizing: border-box;
-}
-
-.error.active {
-  padding: 0.3em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#900" to be "#990000" (color-hex-length)',
-                            "  background-color: #900;",
-                            "43:21 - 43:25",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
-[color-hex-length] Expected "#900" to be "#990000" (color-hex-length)
-~~~
-body {
-  font: 1em sans-serif;
-  width: 200px;
-  padding: 0;
-  margin: 0 auto;
-}
-
-p * {
-  display: block;
-}
-
-input[type="email"] {
-  -webkit-appearance: none;
-  appearance: none;
-
-  width: 100%;
-  border: 1px solid #333;
-  margin: 0;
-
-  font-family: inherit;
-  font-size: 90%;
-
-  box-sizing: border-box;
-}
-
-/* This is our style for the invalid fields */
-input:invalid {
-  border-color: #900;
-  background-color: #fdd;
-}
-
-input:focus:invalid {
-  outline: none;
-}
-
-/* This is the style of our error messages */
-.error {
-  width: 100%;
-  padding: 0;
-
-  font-size: 80%;
-  color: white;
-  background-color: #900;
-  border-radius: 0 0 5px 5px;
-
-  box-sizing: border-box;
-}
-
-.error.active {
-  padding: 0.3em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-arrow-callback",
-                            "Unexpected function expression.",
-                            `email.addEventListener("input", function (event) {
-  // Each time the user types something, we check if the
-  // form fields are valid.
-
-  if (email.validity.valid) {
-    // In case there is an error message visible, if the field
-    // is valid, we remove the error message.
-    emailError.innerHTML = ""; // Reset the content of the message
-    emailError.className = "error"; // Reset the visual state of the message
-  } else {
-    // If there is still an error, show the correct error
-    showError();
-  }
-});`,
-                            "8:33 - 21:2",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
-[prefer-arrow-callback] Unexpected function expression.
-~~~
-// There are many ways to pick a DOM node; here we get the form itself and the email
-// input box, as well as the span element into which we will place the error message.
-const form = document.getElementsByTagName("form")[0];
-
-const email = document.getElementById("mail");
-const emailError = document.querySelector("#mail + span.error");
-
-email.addEventListener("input", function (event) {
-  // Each time the user types something, we check if the
-  // form fields are valid.
-
-  if (email.validity.valid) {
-    // In case there is an error message visible, if the field
-    // is valid, we remove the error message.
-    emailError.innerHTML = ""; // Reset the content of the message
-    emailError.className = "error"; // Reset the visual state of the message
-  } else {
-    // If there is still an error, show the correct error
-    showError();
-  }
-});
-
-form.addEventListener("submit", function (event) {
-  // if the form contains valid data, we let it submit
-
-  if (!email.validity.valid) {
-    // If it isn't, we display an appropriate error message
-    showError();
-    // Then we prevent the form from being sent by canceling the event
-    event.preventDefault();
-  }
-});
-
-function showError() {
-  if (email.validity.valueMissing) {
-    // If the field is empty
-    // display the following error message.
-    emailError.textContent = "You need to enter an email address.";
-  } else if (email.validity.typeMismatch) {
-    // If the field doesn't contain an email address
-    // display the following error message.
-    emailError.textContent = "Entered value needs to be an email address.";
-  } else if (email.validity.tooShort) {
-    // If the data is too short
-    // display the following error message.
-    emailError.textContent = \`Email should be at least \${email.minLength} characters; you entered \${email.value.length}.\`;
-  }
-
-  // Set the styling appropriately
-  emailError.className = "error active";
-}
-
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-});
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-arrow-callback",
-                            "Unexpected function expression.",
-                            `form.addEventListener("submit", function (event) {
-  // if the form contains valid data, we let it submit
-
-  if (!email.validity.valid) {
-    // If it isn't, we display an appropriate error message
-    showError();
-    // Then we prevent the form from being sent by canceling the event
-    event.preventDefault();
-  }
-});`,
-                            "23:33 - 32:2",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
-[prefer-arrow-callback] Unexpected function expression.
-~~~
-// There are many ways to pick a DOM node; here we get the form itself and the email
-// input box, as well as the span element into which we will place the error message.
-const form = document.getElementsByTagName("form")[0];
-
-const email = document.getElementById("mail");
-const emailError = document.querySelector("#mail + span.error");
-
-email.addEventListener("input", function (event) {
-  // Each time the user types something, we check if the
-  // form fields are valid.
-
-  if (email.validity.valid) {
-    // In case there is an error message visible, if the field
-    // is valid, we remove the error message.
-    emailError.innerHTML = ""; // Reset the content of the message
-    emailError.className = "error"; // Reset the visual state of the message
-  } else {
-    // If there is still an error, show the correct error
-    showError();
-  }
-});
-
-form.addEventListener("submit", function (event) {
-  // if the form contains valid data, we let it submit
-
-  if (!email.validity.valid) {
-    // If it isn't, we display an appropriate error message
-    showError();
-    // Then we prevent the form from being sent by canceling the event
-    event.preventDefault();
-  }
-});
-
-function showError() {
-  if (email.validity.valueMissing) {
-    // If the field is empty
-    // display the following error message.
-    emailError.textContent = "You need to enter an email address.";
-  } else if (email.validity.typeMismatch) {
-    // If the field doesn't contain an email address
-    // display the following error message.
-    emailError.textContent = "Entered value needs to be an email address.";
-  } else if (email.validity.tooShort) {
-    // If the data is too short
-    // display the following error message.
-    emailError.textContent = \`Email should be at least \${email.minLength} characters; you entered \${email.value.length}.\`;
-  }
-
-  // Set the styling appropriately
-  emailError.className = "error active";
-}
-
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-});
 ~~~
 `
                           ]
@@ -28770,600 +27012,6 @@ textarea:focus {
                         }
                       ]
                     },
-                    "ui_pseudo-classes": {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "import-notation",
-                            'Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)',
-                            '@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");',
-                            "1:9 - 1:114",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
-[import-notation] Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-
-body {
-  font-family: "Josefin Sans", sans-serif;
-  margin: 20px auto;
-  max-width: 460px;
-}
-
-fieldset {
-  padding: 10px 30px 0;
-}
-
-legend {
-  color: white;
-  background: black;
-  padding: 5px 10px;
-}
-
-fieldset > div {
-  margin-bottom: 20px;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-button,
-label,
-input {
-  display: block;
-  font-family: inherit;
-  font-size: 100%;
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-  height: 30px;
-}
-
-input {
-  box-shadow: inset 1px 1px 3px #cccccc;
-  border-radius: 5px;
-}
-
-input:hover,
-input:focus {
-  background-color: #eeeeee;
-}
-
-input + span {
-  position: relative;
-}
-
-input:required + span::after {
-  font-size: 0.7rem;
-  position: absolute;
-  content: "required";
-  color: white;
-  background-color: black;
-  padding: 5px 10px;
-  top: -26px;
-  left: -70px;
-}
-
-button {
-  width: 60%;
-  margin: 0 auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "import-notation",
-                            'Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)',
-                            '@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");',
-                            "1:9 - 1:114",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
-[import-notation] Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-
-body {
-  font-family: "Josefin Sans", sans-serif;
-  margin: 20px auto;
-  max-width: 460px;
-}
-
-fieldset {
-  padding: 10px 30px 0;
-}
-
-legend {
-  color: white;
-  background: black;
-  padding: 5px 10px;
-}
-
-fieldset > div {
-  margin-bottom: 20px;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-button,
-label,
-input {
-  display: block;
-  font-family: inherit;
-  font-size: 100%;
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-  height: 30px;
-}
-
-input {
-  box-shadow: inset 1px 1px 3px #cccccc;
-  border-radius: 5px;
-}
-
-input:hover,
-input:focus {
-  background-color: #eeeeee;
-}
-
-input + span {
-  position: relative;
-}
-
-input:required + span::after {
-  font-size: 0.7rem;
-  position: absolute;
-  content: "required";
-  color: white;
-  background-color: black;
-  padding: 5px 10px;
-  top: -26px;
-  left: -70px;
-}
-
-input + span::before {
-  position: absolute;
-  right: -20px;
-  top: 5px;
-}
-
-input:invalid {
-  border: 2px solid red;
-}
-
-input:invalid + span::before {
-  content: "✖";
-  color: red;
-}
-
-input:valid + span::before {
-  content: "✓";
-  color: green;
-}
-
-button {
-  width: 60%;
-  margin: 0 auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "import-notation",
-                            'Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)',
-                            '@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");',
-                            "1:9 - 1:114",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
-[import-notation] Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-
-body {
-  font-family: "Josefin Sans", sans-serif;
-  margin: 20px auto;
-  max-width: 460px;
-}
-
-fieldset {
-  padding: 10px 30px 0;
-}
-
-legend {
-  color: white;
-  background: black;
-  padding: 5px 10px;
-}
-
-fieldset > div {
-  margin-bottom: 20px;
-  display: flex;
-  flex-flow: row wrap;
-}
-
-button,
-label,
-input {
-  display: block;
-  font-family: inherit;
-  font-size: 100%;
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-  height: 30px;
-}
-
-input {
-  box-shadow: inset 1px 1px 3px #cccccc;
-  border-radius: 5px;
-}
-
-input:hover,
-input:focus {
-  background-color: #eeeeee;
-}
-
-input + span {
-  position: relative;
-}
-
-input + span::after {
-  font-size: 0.7rem;
-  position: absolute;
-  padding: 5px 10px;
-  top: -26px;
-}
-
-input:required + span::after {
-  color: white;
-  background-color: black;
-  content: "required";
-  left: -70px;
-}
-
-input:out-of-range + span::after {
-  color: white;
-  background-color: red;
-  width: 155px;
-  content: "Outside allowable value range";
-  left: -182px;
-}
-
-input + span::before {
-  position: absolute;
-  right: -20px;
-  top: 5px;
-}
-
-input:invalid {
-  border: 2px solid red;
-}
-
-input:invalid + span::before {
-  content: "✖";
-  color: red;
-}
-
-input:valid + span::before {
-  content: "✓";
-  color: green;
-}
-
-button {
-  width: 60%;
-  margin: 0 auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "import-notation",
-                            'Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)',
-                            '@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");',
-                            "1:9 - 1:114",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
-[import-notation] Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-
-body {
-  font-family: "Josefin Sans", sans-serif;
-  margin: 20px auto;
-  max-width: 460px;
-}
-
-fieldset {
-  padding: 10px 30px 0;
-  margin-bottom: 20px;
-}
-
-legend {
-  color: white;
-  background: black;
-  padding: 5px 10px;
-}
-
-fieldset > div {
-  margin-bottom: 20px;
-  display: flex;
-}
-
-button,
-label,
-input[type="text"] {
-  display: block;
-  font-family: inherit;
-  font-size: 100%;
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
-  padding: 5px;
-  height: 30px;
-}
-
-input {
-  box-shadow: inset 1px 1px 3px #cccccc;
-  border-radius: 5px;
-}
-
-input:hover,
-input:focus {
-  background-color: #eeeeee;
-}
-
-input[type="text"]:disabled {
-  background: #eeeeee;
-  border: 1px solid #cccccc;
-}
-
-label:has(+ :disabled) {
-  color: #aaaaaa;
-}
-
-button {
-  width: 60%;
-  margin: 0 auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "import-notation",
-                            'Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)',
-                            '@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");',
-                            "1:9 - 1:114",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
-[import-notation] Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-
-body {
-  font-family: "Josefin Sans", sans-serif;
-  margin: 20px auto;
-  max-width: 460px;
-}
-
-fieldset {
-  padding: 10px 30px 0;
-  margin-bottom: 20px;
-}
-
-legend {
-  color: white;
-  background: black;
-  padding: 5px 10px;
-}
-
-fieldset > div {
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: space-between;
-}
-
-button,
-label,
-input[type="text"],
-textarea {
-  display: block;
-  font-family: inherit;
-  font-size: 100%;
-  margin: 0;
-  box-sizing: border-box;
-  padding: 5px;
-  height: 30px;
-}
-
-input[type="text"],
-textarea {
-  width: 50%;
-}
-
-textarea {
-  height: 110px;
-  resize: none;
-}
-
-label {
-  width: 40%;
-}
-
-input:hover,
-input:focus,
-textarea:hover,
-textarea:focus {
-  background-color: #eeeeee;
-}
-
-button {
-  width: 60%;
-  margin: 20px auto;
-}
-
-input:read-only,
-textarea:read-only {
-  border: 0;
-  box-shadow: none;
-  background-color: white;
-}
-
-textarea:read-write {
-  box-shadow: inset 1px 1px 3px #cccccc;
-  border-radius: 5px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "import-notation",
-                            'Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)',
-                            '@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");',
-                            "1:9 - 1:114",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
-[import-notation] Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-
-body {
-  font-family: "Josefin Sans", sans-serif;
-}
-
-input[type="radio"] {
-  -webkit-appearance: none;
-  appearance: none;
-}
-
-input[type="radio"] {
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-  border: 2px solid gray;
-  /* Adjusts the position of the checkboxes on the text baseline */
-  vertical-align: -2px;
-  outline: none;
-}
-
-input[type="radio"]::before {
-  display: block;
-  content: " ";
-  width: 10px;
-  height: 10px;
-  border-radius: 6px;
-  background-color: red;
-  font-size: 1.2em;
-  transform: translate(3px, 3px) scale(0);
-  transform-origin: center;
-  transition: all 0.3s ease-in;
-}
-
-input[type="radio"]:checked::before {
-  transform: translate(3px, 3px) scale(1);
-  transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
-}
-
-input ~ span {
-  position: relative;
-}
-
-input:default ~ span::after {
-  font-size: 0.7rem;
-  position: absolute;
-  content: "Default";
-  color: white;
-  background-color: black;
-  padding: 5px 10px;
-  right: -65px;
-  top: -3px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "import-notation",
-                            'Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)',
-                            '@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");',
-                            "1:9 - 1:114",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/UI_pseudo-classes
-[import-notation] Expected "url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"" (import-notation)
-~~~
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
-
-body {
-  font-family: "Josefin Sans", sans-serif;
-}
-
-input[type="radio"] {
-  -webkit-appearance: none;
-  appearance: none;
-}
-
-input[type="radio"] {
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-  border: 2px solid gray;
-  /* Adjusts the position of the checkboxes on the text baseline */
-  vertical-align: -2px;
-  outline: none;
-}
-
-input[type="radio"]::before {
-  display: block;
-  content: " ";
-  width: 10px;
-  height: 10px;
-  border-radius: 6px;
-  background-color: red;
-  font-size: 1.2em;
-  transform: translate(3px, 3px) scale(0);
-  transform-origin: center;
-  transition: all 0.3s ease-in;
-}
-
-input[type="radio"]:checked::before {
-  transform: translate(3px, 3px) scale(1);
-  transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
-}
-
-input[type="radio"]:indeterminate {
-  border: 2px solid red;
-  animation: 0.4s linear infinite alternate border-pulse;
-}
-
-@keyframes border-pulse {
-  from {
-    border: 2px solid red;
-  }
-
-  to {
-    border: 6px solid red;
-  }
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     user_input_methods: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/User_input_methods",
@@ -29468,6 +27116,23 @@ input[type="radio"]:indeterminate {
                           data: []
                         }
                       ]
+                    },
+                    first_steps: {
+                      children: {
+                        web_frameworks: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://dotnet.microsoft.com/en-us/apps/aspnet",
+                                403
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     },
                     node_server_without_framework: {
                       children: {},
@@ -30033,7 +27698,7 @@ body {
                           message: "Broken external link",
                           data: [
                             "https://www.samsung.com/us/support/owners/app/samsung-internet",
-                            "The response redirected too many times. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -30083,6 +27748,13 @@ html {
                         {
                           message: "Unreachable via page",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/resources/contrastchecker/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     },
@@ -30478,19 +28150,6 @@ body * {
                 },
                 tools_and_setup: {
                   children: {
-                    available_text_editors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://help.espressoapp.com/",
-                            "Unable to connect. Is the computer able to access the url?"
-                          ]
-                        }
-                      ]
-                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -30498,26 +28157,6 @@ body * {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/downloads.html",
-                            503
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
                         }
                       ]
                     },
@@ -30674,26 +28313,6 @@ color: rgb(31 41 59 / 26%);
                     }
                   }
                 },
-                experimental_deprecated_obsolete: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Experimental_deprecated_obsolete",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/browser-compat-data/blob/main/docs/data-guidelines/index.md",
-                        404
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/browser-compat-data/blob/main/docs/data-guidelines/index.md",
-                        404
-                      ]
-                    }
-                  ]
-                },
                 howto: {
                   children: {
                     write_an_api_reference: {
@@ -30705,13 +28324,6 @@ color: rgb(31 41 59 / 26%);
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/browser-compat-data/blob/main/docs/data-guidelines/index.md",
-                                404
-                              ]
                             }
                           ]
                         },
@@ -30731,46 +28343,6 @@ color: rgb(31 41 59 / 26%);
                 },
                 page_structures: {
                   children: {
-                    compatibility_tables: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Compatibility_tables",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/browser-compat-data/blob/main/docs/data-guidelines/index.md",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    feature_status: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Page_structures/Feature_status",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/browser-compat-data/blob/main/docs/data-guidelines/index.md",
-                            404
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/browser-compat-data/blob/main/docs/data-guidelines/index.md",
-                            404
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/browser-compat-data/blob/main/docs/data-guidelines/index.md",
-                            404
-                          ]
-                        }
-                      ]
-                    },
                     macros: {
                       children: {
                         commonly_used_macros: {
@@ -32564,32 +30136,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "119": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/119",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/API/SubtleCrypto/deriveKey",
-                            "#derivedkeyalgorithm"
-                          ]
-                        }
-                      ]
-                    },
-                    "120": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/120",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=120",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "1.5": {
                       children: {
                         changing_the_priority_of_http_requests: {
@@ -32843,7 +30389,28 @@ webextensions.manifest.options_ui`,
                     reference: {
                       children: {
                         attributes: {
-                          children: {},
+                          children: {
+                            "aria-keyshortcuts": {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-keyshortcuts",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://webaim.org/techniques/keyboard/accesskey",
+                                    "Cannot reach server and Bun hangs"
+                                  ]
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://webaim.org/techniques/keyboard/accesskey",
+                                    "Cannot reach server and Bun hangs"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
                           slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes",
                           messages: [
                             {
@@ -32853,6 +30420,23 @@ webextensions.manifest.options_ui`,
                               ]
                             }
                           ]
+                        },
+                        roles: {
+                          children: {
+                            main_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/main_role",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://webaim.org/techniques/skipnav/",
+                                    "Cannot reach server and Bun hangs"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
@@ -32860,6 +30444,26 @@ webextensions.manifest.options_ui`,
                 },
                 guides: {
                   children: {
+                    cognitive_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Accessibility/Guides/Cognitive_accessibility",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/articles/cognitive/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/articles/cognitive/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     colors_and_luminance: {
                       children: {},
                       slug: "/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance",
@@ -33079,6 +30683,13 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/resources/contrastchecker/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     },
@@ -33093,6 +30704,13 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
+                                },
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://webaim.org/resources/contrastchecker/",
+                                    "Cannot reach server and Bun hangs"
+                                  ]
                                 }
                               ]
                             },
@@ -33116,18 +30734,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
             },
             api: {
               children: {
-                abortsignal: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/AbortSignal",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/AbortSignal"
-                      ]
-                    }
-                  ]
-                },
                 aesderivedkeyparams: {
                   children: {},
                   slug: "/en-US/docs/Web/API/AesDerivedKeyParams",
@@ -35290,6 +32896,121 @@ article img {
                     }
                   }
                 },
+                htmlscriptelement: {
+                  children: {
+                    text: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLScriptElement/text",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/HTMLScriptElement/textContent"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/HTMLScriptElement/textContent"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/HTMLScriptElement/innerText"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/HTMLScriptElement/textContent"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/HTMLScriptElement/innerText"
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "object-shorthand",
+                            "Expected method shorthand.",
+                            `  createScript: (input) => {
+    // Here specify what scripts are safe to allow
+    if (input === "const num = 10;\\nconsole.log(num)") {
+      return input; // allow this exact script
+    }
+    throw new TypeError("Untrusted script blocked: " + input);
+  },`,
+                            "2:3 - 8:4",
+                            `/en-US/docs/Web/API/HTMLScriptElement/text
+[object-shorthand] Expected method shorthand.
+~~~
+const policy = trustedTypes.createPolicy("inline-script-policy", {
+  createScript: (input) => {
+    // Here specify what scripts are safe to allow
+    if (input === "const num = 10;\\nconsole.log(num)") {
+      return input; // allow this exact script
+    }
+    throw new TypeError("Untrusted script blocked: " + input);
+  },
+});
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-template",
+                            "Unexpected string concatenation.",
+                            '    throw new TypeError("Untrusted script blocked: " + input);',
+                            "7:25 - 7:61",
+                            `/en-US/docs/Web/API/HTMLScriptElement/text
+[prefer-template] Unexpected string concatenation.
+~~~
+const policy = trustedTypes.createPolicy("inline-script-policy", {
+  createScript: (input) => {
+    // Here specify what scripts are safe to allow
+    if (input === "const num = 10;\\nconsole.log(num)") {
+      return input; // allow this exact script
+    }
+    throw new TypeError("Untrusted script blocked: " + input);
+  },
+});
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "syntax",
+                            "Parsing error: ',' expected.",
+                            'let el.text = "const num = 10;\\nconsole.log(num)";',
+                            "2:16",
+                            `/en-US/docs/Web/API/HTMLScriptElement/text
+[syntax] Parsing error: ',' expected.
+~~~
+// Set the text property
+let el.text = "const num = 10;\\nconsole.log(num)";
+console.log(el.text); // Output: "const num = 10;\\nconsole.log(num);"
+console.log(el.textContent); // Output: "const num = 10;\\nconsole.log(num);"
+
+// Set the textContent property
+el.textContent = "console.log(10);";
+console.log(el.text); // Output: "console.log(10);"
+console.log(el.textContent); // Output: "console.log(10);"
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 intersection_observer_api: {
                   children: {
                     timing_element_visibility: {
@@ -35665,22 +33386,6 @@ article h2 {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                largestcontentfulpaint: {
-                  children: {
-                    rendertime: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/LargestContentfulPaint/renderTime",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/API/LargestContentfulPaint/renderTime"
                           ]
                         }
                       ]
@@ -37043,19 +34748,6 @@ html {
                     }
                   }
                 },
-                presentation_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Presentation_API",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://developer.apple.com/airplay/",
-                        "https://developer.apple.com/documentation/technologyoverviews/streaming"
-                      ]
-                    }
-                  ]
-                },
                 profiler: {
                   children: {
                     samplebufferfull_event: {
@@ -37110,29 +34802,6 @@ html {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Push_API/Best_Practices"
-                      ]
-                    }
-                  ]
-                },
-                request: {
-                  children: {
-                    duplex: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Request/duplex",
-                      messages: [
-                        {
-                          message: "Unreachable via page",
-                          data: []
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/Request",
-                  messages: [
-                    {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/Web/API/Request/duplex"
                       ]
                     }
                   ]
@@ -37497,6 +35166,192 @@ html {
                     }
                   ]
                 },
+                speechgrammar: {
+                  children: {
+                    src: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SpeechGrammar/src",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ],
+                            [
+                              "deprecated"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    weight: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SpeechGrammar/weight",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated",
+                              "non-standard"
+                            ],
+                            [
+                              "deprecated"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/SpeechGrammar",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "deprecated",
+                          "non-standard"
+                        ],
+                        [
+                          "deprecated"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                speechgrammarlist: {
+                  children: {
+                    addfromstring: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SpeechGrammarList/addFromString",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            [
+                              "deprecated"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    addfromuri: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SpeechGrammarList/addFromURI",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            [
+                              "deprecated"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    item: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SpeechGrammarList/item",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            [
+                              "deprecated"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    length: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SpeechGrammarList/length",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            [
+                              "deprecated"
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    speechgrammarlist: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SpeechGrammarList/SpeechGrammarList",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            [
+                              "deprecated"
+                            ]
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/SpeechGrammarList",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "experimental"
+                        ],
+                        [
+                          "deprecated"
+                        ]
+                      ]
+                    }
+                  ]
+                },
+                speechrecognitionevent: {
+                  children: {
+                    emma: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SpeechRecognitionEvent/emma",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.SpeechRecognitionEvent.emma"
+                          ]
+                        }
+                      ]
+                    },
+                    interpretation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SpeechRecognitionEvent/interpretation",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.SpeechRecognitionEvent.interpretation"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 summarizer_api: {
                   children: {
                     using: {
@@ -37793,10 +35648,6 @@ textarea,
                       slug: "/en-US/docs/Web/API/Viewport_segments_API/Using",
                       messages: [
                         {
-                          message: "Missing sidebar",
-                          data: []
-                        },
-                        {
                           message: "CSS code issue",
                           data: [
                             "media-feature-range-notation",
@@ -37855,7 +35706,7 @@ env(viewport-segment-width 0 1)
                             "media-feature-range-notation",
                             'Expected "context" media feature range notation (media-feature-range-notation)',
                             "@media (vertical-viewport-segments: 2) {",
-                            "16:8 - 16:39",
+                            "15:8 - 15:39",
                             `/en-US/docs/Web/API/Viewport_segments_API/Using
 [media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
 ~~~
@@ -37863,8 +35714,7 @@ env(viewport-segment-width 0 1)
   .wrapper {
     display: grid;
     grid-template: "left fold right";
-    grid-columns: env(viewport-segment-width 0 0)
-      env(viewport-segment-width 1 0);
+    grid-column: env(viewport-segment-width 0 0) env(viewport-segment-width 1 0);
   }
   .firstSection {
     grid-area: left;
@@ -37880,7 +35730,7 @@ env(viewport-segment-width 0 1)
     grid-template:
       "top"
       "bottom";
-    grid-rows: env(viewport-segment-height 0 1) env(viewport-segment-width 0 0);
+    grid-row: env(viewport-segment-height 0 1) env(viewport-segment-width 0 0);
   }
   .firstSection {
     grid-area: top;
@@ -37896,137 +35746,37 @@ env(viewport-segment-width 0 1)
                         {
                           message: "CSS code issue",
                           data: [
-                            "property-no-unknown",
-                            'Unexpected unknown property "grid-columns" (property-no-unknown)',
-                            "    grid-columns: env(viewport-segment-width 0 0)",
-                            "5:5 - 5:17",
+                            "media-feature-range-notation",
+                            'Expected "context" media feature range notation (media-feature-range-notation)',
+                            "@media (vertical-viewport-segments: 2) {",
+                            "13:8 - 13:39",
                             `/en-US/docs/Web/API/Viewport_segments_API/Using
-[property-no-unknown] Unexpected unknown property "grid-columns" (property-no-unknown)
+[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
 ~~~
 @media (horizontal-viewport-segments: 2) {
   .wrapper {
-    display: grid;
     grid-template: "left fold right";
-    grid-columns: env(viewport-segment-width 0 0)
+    grid-column: env(viewport-segment-width 0 0)
+      calc(
+        100vw -
+          (env(viewport-segment-width 0 0) + env(viewport-segment-width 1 0))
+      )
       env(viewport-segment-width 1 0);
   }
-  .firstSection {
-    grid-area: left;
-  }
-  .secondSection {
-    grid-area: right;
-  }
 }
 
 @media (vertical-viewport-segments: 2) {
   .wrapper {
-    display: grid;
     grid-template:
-      "top"
-      "bottom";
-    grid-rows: env(viewport-segment-height 0 1) env(viewport-segment-width 0 0);
-  }
-  .firstSection {
-    grid-area: top;
-  }
-  .secondSection {
-    grid-area: bottom;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "property-no-unknown",
-                            'Unexpected unknown property "grid-rows" (property-no-unknown)',
-                            "    grid-rows: env(viewport-segment-height 0 1) env(viewport-segment-width 0 0);",
-                            "22:5 - 22:14",
-                            `/en-US/docs/Web/API/Viewport_segments_API/Using
-[property-no-unknown] Unexpected unknown property "grid-rows" (property-no-unknown)
-~~~
-@media (horizontal-viewport-segments: 2) {
-  .wrapper {
-    display: grid;
-    grid-template: "left fold right";
-    grid-columns: env(viewport-segment-width 0 0)
-      env(viewport-segment-width 1 0);
-  }
-  .firstSection {
-    grid-area: left;
-  }
-  .secondSection {
-    grid-area: right;
-  }
-}
-
-@media (vertical-viewport-segments: 2) {
-  .wrapper {
-    display: grid;
-    grid-template:
-      "top"
-      "bottom";
-    grid-rows: env(viewport-segment-height 0 1) env(viewport-segment-width 0 0);
-  }
-  .firstSection {
-    grid-area: top;
-  }
-  .secondSection {
-    grid-area: bottom;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "CssSyntaxError",
-                            "Unclosed bracket (CssSyntaxError)",
-                            "        calc(100vw - (env(viewport-segment-width 0 0) + env(viewport-segment-width 1 0))",
-                            "6:13 - 6:14",
-                            `/en-US/docs/Web/API/Viewport_segments_API/Using
-[CssSyntaxError] Unclosed bracket (CssSyntaxError)
-~~~
-@media (horizontal-viewport-segments: 2) {
-   .wrapper {
-     grid-template: "left fold right";
-     grid-columns:
-        env(viewport-segment-width 0 0)
-        calc(100vw - (env(viewport-segment-width 0 0) + env(viewport-segment-width 1 0))
-        env(viewport-segment-width 1 0);
-   }
-}
-
-@media (vertical-viewport-segments: 2) {
-   .wrapper {
-     grid-template:
       "top"
       "fold"
       "bottom";
-     grid-rows: env(viewport-segment-height 0 1) 1fr env(viewport-segment-width 0 0);
-
-   }
+    grid-row: env(viewport-segment-height 0 1) 1fr
+      env(viewport-segment-width 0 0);
+  }
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mdn.github.io/dom-examples/viewport-segment-api/",
-                            404
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/viewport-segment-api",
-                            404
                           ]
                         }
                       ]
@@ -38038,17 +35788,6 @@ env(viewport-segment-width 0 1)
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/API/Viewport_API"
-                      ]
-                    },
-                    {
-                      message: "Missing sidebar",
-                      data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://mdn.github.io/dom-examples/viewport-segment-api/",
-                        404
                       ]
                     }
                   ]
@@ -38737,6 +36476,19 @@ api.Window.sessionStorage`,
                     }
                   }
                 },
+                websockets_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WebSockets_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://dotnet.microsoft.com/en-us/apps/aspnet/signalr",
+                        403
+                      ]
+                    }
+                  ]
+                },
                 webvtt_api: {
                   children: {
                     web_video_text_tracks_format: {
@@ -38827,6 +36579,19 @@ body {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    open: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/open",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/techniques/hypertext/hypertext_links",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -40285,6 +38050,19 @@ ul::column::scroll-marker:target-current {
                     }
                   ]
                 },
+                _doublecolon_placeholder: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/::placeholder",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webaim.org/resources/contrastchecker/",
+                        "Cannot reach server and Bun hangs"
+                      ]
+                    }
+                  ]
+                },
                 "_doublecolon_scroll-marker-group": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/::scroll-marker-group",
@@ -40573,6 +38351,19 @@ ul::scroll-marker-group {
 }
 ~~~
 `
+                      ]
+                    }
+                  ]
+                },
+                _doublecolon_selection: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/::selection",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webaim.org/resources/contrastchecker/",
+                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -42286,20 +40077,6 @@ h2 {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mdn.github.io/dom-examples/viewport-segment-api/",
-                            404
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/viewport-segment-api",
-                            404
-                          ]
                         }
                       ]
                     },
@@ -42777,20 +40554,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://mdn.github.io/dom-examples/viewport-segment-api/",
-                            404
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/tree/main/viewport-segment-api",
-                            404
-                          ]
                         }
                       ]
                     },
@@ -44769,6 +42532,32 @@ p {
                     }
                   ]
                 },
+                "background-color": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/background-color",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webaim.org/resources/contrastchecker/",
+                        "Cannot reach server and Bun hangs"
+                      ]
+                    }
+                  ]
+                },
+                "background-image": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/background-image",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webaim.org/resources/contrastchecker/",
+                        "Cannot reach server and Bun hangs"
+                      ]
+                    }
+                  ]
+                },
                 "background-origin": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/background-origin",
@@ -46005,18 +43794,6 @@ input {
                     }
                   ]
                 },
-                "caret-shape": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/caret-shape",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.properties.caret-shape"
-                      ]
-                    }
-                  ]
-                },
                 color: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/color",
@@ -46181,6 +43958,13 @@ p {
 ~~~
 `
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webaim.org/resources/contrastchecker/",
+                        "Cannot reach server and Bun hangs"
+                      ]
                     }
                   ]
                 },
@@ -46291,8 +44075,8 @@ color(from hsl(0 100% 50%) xyz calc(x - 0.3) calc(y + 0.3) calc(z + 0.3) / calc(
                         {
                           message: "Broken external link",
                           data: [
-                            "https://webkit.org/blog/16929/contrast-color/",
-                            "The operation timed out."
+                            "https://webaim.org/resources/contrastchecker/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -60488,5540 +58272,6 @@ div {
                         {
                           message: "Unreachable via page",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                            "  background: #ddd;",
-                            "7:15 - 7:19",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_mixer
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-#picker-dialog[open] {
-  position: fixed;
-  top: 30%;
-  z-index: 100;
-  padding: 1rem;
-  width: 70vw;
-  background: #ddd;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-}
-
-#picker-dialog #color-opacity {
-  width: 200px;
-}
-
-#picker-dialog > div:first-child {
-  font-weight: bold;
-  margin-bottom: 1rem;
-}
-
-#picker-dialog > div {
-  width: max-content;
-  margin: 0.4rem auto;
-  white-space: nowrap;
-}
-
-#picker-dialog #color-text {
-  width: 200px;
-}
-
-#picker-dialog label {
-  margin: 1rem 0;
-}
-
-#picker-dialog button {
-  width: 100px;
-  margin-top: 1rem;
-}
-
-dialog#picker-dialog table {
-  width: fit-content;
-}
-
-#color-mixer {
-  margin: 0.5rem;
-  font-family: sans-serif;
-  display: grid;
-  grid-template-columns: 150px 1fr 1fr 150px;
-  grid-template-areas:
-    "header            header           header              header"
-    "text              text             text                text"
-    "color-one-label   mix-label        mix-label           color-two-label"
-    "color-background  color-background color-background    color-background"
-    "percent-one       percent-one      percent-two         percent-two"
-    "color-space-label color-space      interpolation-label interpolation"
-    "mix-output-text   mix-output-text  mix-output-text     mix-output-text";
-}
-
-#color-mixer > * {
-  padding: 0;
-  margin: 0 auto;
-}
-
-#color-mixer > :nth-child(1) {
-  grid-area: header;
-}
-
-#color-mixer > :nth-child(2) {
-  grid-area: text;
-  margin-bottom: 2rem;
-}
-
-#color-mixer > :nth-child(3) {
-  grid-area: color-one-label;
-}
-
-#color-mixer > :nth-child(4) {
-  grid-area: mix-label;
-}
-
-#color-mixer > :nth-child(5) {
-  grid-area: color-two-label;
-}
-
-#color-mixer > :nth-child(6) {
-  grid-area: color-background;
-  background:
-    linear-gradient(
-      0deg,
-      transparent 0 38%,
-      47%,
-      rgb(0 0 0 / 0.7) 50%,
-      white 50% 100%
-    ),
-    conic-gradient(
-      black 0 90deg,
-      transparent 90deg 180deg,
-      black 180deg 270deg,
-      transparent 270deg 360deg
-    );
-  background-size:
-    100% 100%,
-    20px 20px;
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  border-radius: 10% 10% 10% 10%;
-}
-
-#color-one {
-  height: 100px;
-  flex: 1 1 100%;
-  border-radius: 20% 0 0 20%;
-  cursor: pointer;
-  border: none;
-  z-index: 1;
-  box-shadow: -5px 5px 5px grey;
-  background-color: #ff7f50;
-}
-
-#mixed-color {
-  flex: 2 0.7 100%;
-  height: 100px;
-}
-
-#color-two {
-  height: 100px;
-  flex: 1 1 100%;
-  border-radius: 0 20% 20% 0;
-  cursor: pointer;
-  border: none;
-  z-index: 1;
-  box-shadow: 5px 5px 5px grey;
-  background-color: #00ffff;
-}
-
-#color-mixer > :nth-child(7) {
-  grid-area: percent-one;
-  width: 100%;
-  display: flex;
-}
-
-#percentage-one-label,
-#percentage-two-label {
-  width: 2rem;
-  text-align: end;
-}
-
-#color-mixer > :nth-child(8) {
-  grid-area: percent-two;
-  width: 100%;
-  display: flex;
-}
-
-#color-mixer > :nth-child(9) {
-  grid-area: color-space-label;
-  margin: 0.5rem 0 0 auto;
-}
-
-#color-mixer > :nth-child(10) {
-  grid-area: color-space;
-  margin: 0.5rem auto 0 1rem;
-}
-
-#color-mixer > :nth-child(11) {
-  grid-area: interpolation-label;
-  margin: 0.5rem 0 0 auto;
-}
-
-#color-mixer > :nth-child(12) {
-  grid-area: interpolation;
-  margin: 0.5rem auto 0 1rem;
-}
-
-#color-mixer > :nth-child(13) {
-  grid-area: mix-output-text;
-  margin: 1rem 0;
-  padding: 1rem 0;
-  text-align: center;
-  background-color: #dfdfde;
-  font-family: monospace;
-}
-
-input[type="range"] {
-  width: 80%;
-}
-
-label {
-  margin: 1rem;
-}
-
-*:focus {
-  outline: 2px dashed purple;
-  outline-offset: 1px;
-}
-
-table {
-  width: 100%;
-}
-caption {
-  font-family: sans-serif;
-}
-th {
-  padding: 5px 15px;
-  background-color: #ededed;
-}
-td {
-  background-color: #dedede;
-  font-family: monospace;
-  padding: 5px;
-}
-
-#output-colors th {
-  padding-right: 0;
-  width: 20%;
-}
-
-#output-colors td button {
-  margin-right: 0.4rem;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#ff7f50" to be "coral" (color-named)',
-                            "  background-color: #ff7f50;",
-                            "120:21 - 120:28",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_mixer
-[color-named] Expected "#ff7f50" to be "coral" (color-named)
-~~~
-#picker-dialog[open] {
-  position: fixed;
-  top: 30%;
-  z-index: 100;
-  padding: 1rem;
-  width: 70vw;
-  background: #ddd;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-}
-
-#picker-dialog #color-opacity {
-  width: 200px;
-}
-
-#picker-dialog > div:first-child {
-  font-weight: bold;
-  margin-bottom: 1rem;
-}
-
-#picker-dialog > div {
-  width: max-content;
-  margin: 0.4rem auto;
-  white-space: nowrap;
-}
-
-#picker-dialog #color-text {
-  width: 200px;
-}
-
-#picker-dialog label {
-  margin: 1rem 0;
-}
-
-#picker-dialog button {
-  width: 100px;
-  margin-top: 1rem;
-}
-
-dialog#picker-dialog table {
-  width: fit-content;
-}
-
-#color-mixer {
-  margin: 0.5rem;
-  font-family: sans-serif;
-  display: grid;
-  grid-template-columns: 150px 1fr 1fr 150px;
-  grid-template-areas:
-    "header            header           header              header"
-    "text              text             text                text"
-    "color-one-label   mix-label        mix-label           color-two-label"
-    "color-background  color-background color-background    color-background"
-    "percent-one       percent-one      percent-two         percent-two"
-    "color-space-label color-space      interpolation-label interpolation"
-    "mix-output-text   mix-output-text  mix-output-text     mix-output-text";
-}
-
-#color-mixer > * {
-  padding: 0;
-  margin: 0 auto;
-}
-
-#color-mixer > :nth-child(1) {
-  grid-area: header;
-}
-
-#color-mixer > :nth-child(2) {
-  grid-area: text;
-  margin-bottom: 2rem;
-}
-
-#color-mixer > :nth-child(3) {
-  grid-area: color-one-label;
-}
-
-#color-mixer > :nth-child(4) {
-  grid-area: mix-label;
-}
-
-#color-mixer > :nth-child(5) {
-  grid-area: color-two-label;
-}
-
-#color-mixer > :nth-child(6) {
-  grid-area: color-background;
-  background:
-    linear-gradient(
-      0deg,
-      transparent 0 38%,
-      47%,
-      rgb(0 0 0 / 0.7) 50%,
-      white 50% 100%
-    ),
-    conic-gradient(
-      black 0 90deg,
-      transparent 90deg 180deg,
-      black 180deg 270deg,
-      transparent 270deg 360deg
-    );
-  background-size:
-    100% 100%,
-    20px 20px;
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  border-radius: 10% 10% 10% 10%;
-}
-
-#color-one {
-  height: 100px;
-  flex: 1 1 100%;
-  border-radius: 20% 0 0 20%;
-  cursor: pointer;
-  border: none;
-  z-index: 1;
-  box-shadow: -5px 5px 5px grey;
-  background-color: #ff7f50;
-}
-
-#mixed-color {
-  flex: 2 0.7 100%;
-  height: 100px;
-}
-
-#color-two {
-  height: 100px;
-  flex: 1 1 100%;
-  border-radius: 0 20% 20% 0;
-  cursor: pointer;
-  border: none;
-  z-index: 1;
-  box-shadow: 5px 5px 5px grey;
-  background-color: #00ffff;
-}
-
-#color-mixer > :nth-child(7) {
-  grid-area: percent-one;
-  width: 100%;
-  display: flex;
-}
-
-#percentage-one-label,
-#percentage-two-label {
-  width: 2rem;
-  text-align: end;
-}
-
-#color-mixer > :nth-child(8) {
-  grid-area: percent-two;
-  width: 100%;
-  display: flex;
-}
-
-#color-mixer > :nth-child(9) {
-  grid-area: color-space-label;
-  margin: 0.5rem 0 0 auto;
-}
-
-#color-mixer > :nth-child(10) {
-  grid-area: color-space;
-  margin: 0.5rem auto 0 1rem;
-}
-
-#color-mixer > :nth-child(11) {
-  grid-area: interpolation-label;
-  margin: 0.5rem 0 0 auto;
-}
-
-#color-mixer > :nth-child(12) {
-  grid-area: interpolation;
-  margin: 0.5rem auto 0 1rem;
-}
-
-#color-mixer > :nth-child(13) {
-  grid-area: mix-output-text;
-  margin: 1rem 0;
-  padding: 1rem 0;
-  text-align: center;
-  background-color: #dfdfde;
-  font-family: monospace;
-}
-
-input[type="range"] {
-  width: 80%;
-}
-
-label {
-  margin: 1rem;
-}
-
-*:focus {
-  outline: 2px dashed purple;
-  outline-offset: 1px;
-}
-
-table {
-  width: 100%;
-}
-caption {
-  font-family: sans-serif;
-}
-th {
-  padding: 5px 15px;
-  background-color: #ededed;
-}
-td {
-  background-color: #dedede;
-  font-family: monospace;
-  padding: 5px;
-}
-
-#output-colors th {
-  padding-right: 0;
-  width: 20%;
-}
-
-#output-colors td button {
-  margin-right: 0.4rem;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#00ffff" to be "cyan" (color-named)',
-                            "  background-color: #00ffff;",
-                            "136:21 - 136:28",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_mixer
-[color-named] Expected "#00ffff" to be "cyan" (color-named)
-~~~
-#picker-dialog[open] {
-  position: fixed;
-  top: 30%;
-  z-index: 100;
-  padding: 1rem;
-  width: 70vw;
-  background: #ddd;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-}
-
-#picker-dialog #color-opacity {
-  width: 200px;
-}
-
-#picker-dialog > div:first-child {
-  font-weight: bold;
-  margin-bottom: 1rem;
-}
-
-#picker-dialog > div {
-  width: max-content;
-  margin: 0.4rem auto;
-  white-space: nowrap;
-}
-
-#picker-dialog #color-text {
-  width: 200px;
-}
-
-#picker-dialog label {
-  margin: 1rem 0;
-}
-
-#picker-dialog button {
-  width: 100px;
-  margin-top: 1rem;
-}
-
-dialog#picker-dialog table {
-  width: fit-content;
-}
-
-#color-mixer {
-  margin: 0.5rem;
-  font-family: sans-serif;
-  display: grid;
-  grid-template-columns: 150px 1fr 1fr 150px;
-  grid-template-areas:
-    "header            header           header              header"
-    "text              text             text                text"
-    "color-one-label   mix-label        mix-label           color-two-label"
-    "color-background  color-background color-background    color-background"
-    "percent-one       percent-one      percent-two         percent-two"
-    "color-space-label color-space      interpolation-label interpolation"
-    "mix-output-text   mix-output-text  mix-output-text     mix-output-text";
-}
-
-#color-mixer > * {
-  padding: 0;
-  margin: 0 auto;
-}
-
-#color-mixer > :nth-child(1) {
-  grid-area: header;
-}
-
-#color-mixer > :nth-child(2) {
-  grid-area: text;
-  margin-bottom: 2rem;
-}
-
-#color-mixer > :nth-child(3) {
-  grid-area: color-one-label;
-}
-
-#color-mixer > :nth-child(4) {
-  grid-area: mix-label;
-}
-
-#color-mixer > :nth-child(5) {
-  grid-area: color-two-label;
-}
-
-#color-mixer > :nth-child(6) {
-  grid-area: color-background;
-  background:
-    linear-gradient(
-      0deg,
-      transparent 0 38%,
-      47%,
-      rgb(0 0 0 / 0.7) 50%,
-      white 50% 100%
-    ),
-    conic-gradient(
-      black 0 90deg,
-      transparent 90deg 180deg,
-      black 180deg 270deg,
-      transparent 270deg 360deg
-    );
-  background-size:
-    100% 100%,
-    20px 20px;
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  border-radius: 10% 10% 10% 10%;
-}
-
-#color-one {
-  height: 100px;
-  flex: 1 1 100%;
-  border-radius: 20% 0 0 20%;
-  cursor: pointer;
-  border: none;
-  z-index: 1;
-  box-shadow: -5px 5px 5px grey;
-  background-color: #ff7f50;
-}
-
-#mixed-color {
-  flex: 2 0.7 100%;
-  height: 100px;
-}
-
-#color-two {
-  height: 100px;
-  flex: 1 1 100%;
-  border-radius: 0 20% 20% 0;
-  cursor: pointer;
-  border: none;
-  z-index: 1;
-  box-shadow: 5px 5px 5px grey;
-  background-color: #00ffff;
-}
-
-#color-mixer > :nth-child(7) {
-  grid-area: percent-one;
-  width: 100%;
-  display: flex;
-}
-
-#percentage-one-label,
-#percentage-two-label {
-  width: 2rem;
-  text-align: end;
-}
-
-#color-mixer > :nth-child(8) {
-  grid-area: percent-two;
-  width: 100%;
-  display: flex;
-}
-
-#color-mixer > :nth-child(9) {
-  grid-area: color-space-label;
-  margin: 0.5rem 0 0 auto;
-}
-
-#color-mixer > :nth-child(10) {
-  grid-area: color-space;
-  margin: 0.5rem auto 0 1rem;
-}
-
-#color-mixer > :nth-child(11) {
-  grid-area: interpolation-label;
-  margin: 0.5rem 0 0 auto;
-}
-
-#color-mixer > :nth-child(12) {
-  grid-area: interpolation;
-  margin: 0.5rem auto 0 1rem;
-}
-
-#color-mixer > :nth-child(13) {
-  grid-area: mix-output-text;
-  margin: 1rem 0;
-  padding: 1rem 0;
-  text-align: center;
-  background-color: #dfdfde;
-  font-family: monospace;
-}
-
-input[type="range"] {
-  width: 80%;
-}
-
-label {
-  margin: 1rem;
-}
-
-*:focus {
-  outline: 2px dashed purple;
-  outline-offset: 1px;
-}
-
-table {
-  width: 100%;
-}
-caption {
-  font-family: sans-serif;
-}
-th {
-  padding: 5px 15px;
-  background-color: #ededed;
-}
-td {
-  background-color: #dedede;
-  font-family: monospace;
-  padding: 5px;
-}
-
-#output-colors th {
-  padding-right: 0;
-  width: 20%;
-}
-
-#output-colors td button {
-  margin-right: 0.4rem;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "shorthand-property-no-redundant-values",
-                            'Expected "10% 10% 10% 10%" to be "10%" (shorthand-property-no-redundant-values)',
-                            "  border-radius: 10% 10% 10% 10%;",
-                            "109:18 - 109:33",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_mixer
-[shorthand-property-no-redundant-values] Expected "10% 10% 10% 10%" to be "10%" (shorthand-property-no-redundant-values)
-~~~
-#picker-dialog[open] {
-  position: fixed;
-  top: 30%;
-  z-index: 100;
-  padding: 1rem;
-  width: 70vw;
-  background: #ddd;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-}
-
-#picker-dialog #color-opacity {
-  width: 200px;
-}
-
-#picker-dialog > div:first-child {
-  font-weight: bold;
-  margin-bottom: 1rem;
-}
-
-#picker-dialog > div {
-  width: max-content;
-  margin: 0.4rem auto;
-  white-space: nowrap;
-}
-
-#picker-dialog #color-text {
-  width: 200px;
-}
-
-#picker-dialog label {
-  margin: 1rem 0;
-}
-
-#picker-dialog button {
-  width: 100px;
-  margin-top: 1rem;
-}
-
-dialog#picker-dialog table {
-  width: fit-content;
-}
-
-#color-mixer {
-  margin: 0.5rem;
-  font-family: sans-serif;
-  display: grid;
-  grid-template-columns: 150px 1fr 1fr 150px;
-  grid-template-areas:
-    "header            header           header              header"
-    "text              text             text                text"
-    "color-one-label   mix-label        mix-label           color-two-label"
-    "color-background  color-background color-background    color-background"
-    "percent-one       percent-one      percent-two         percent-two"
-    "color-space-label color-space      interpolation-label interpolation"
-    "mix-output-text   mix-output-text  mix-output-text     mix-output-text";
-}
-
-#color-mixer > * {
-  padding: 0;
-  margin: 0 auto;
-}
-
-#color-mixer > :nth-child(1) {
-  grid-area: header;
-}
-
-#color-mixer > :nth-child(2) {
-  grid-area: text;
-  margin-bottom: 2rem;
-}
-
-#color-mixer > :nth-child(3) {
-  grid-area: color-one-label;
-}
-
-#color-mixer > :nth-child(4) {
-  grid-area: mix-label;
-}
-
-#color-mixer > :nth-child(5) {
-  grid-area: color-two-label;
-}
-
-#color-mixer > :nth-child(6) {
-  grid-area: color-background;
-  background:
-    linear-gradient(
-      0deg,
-      transparent 0 38%,
-      47%,
-      rgb(0 0 0 / 0.7) 50%,
-      white 50% 100%
-    ),
-    conic-gradient(
-      black 0 90deg,
-      transparent 90deg 180deg,
-      black 180deg 270deg,
-      transparent 270deg 360deg
-    );
-  background-size:
-    100% 100%,
-    20px 20px;
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  border-radius: 10% 10% 10% 10%;
-}
-
-#color-one {
-  height: 100px;
-  flex: 1 1 100%;
-  border-radius: 20% 0 0 20%;
-  cursor: pointer;
-  border: none;
-  z-index: 1;
-  box-shadow: -5px 5px 5px grey;
-  background-color: #ff7f50;
-}
-
-#mixed-color {
-  flex: 2 0.7 100%;
-  height: 100px;
-}
-
-#color-two {
-  height: 100px;
-  flex: 1 1 100%;
-  border-radius: 0 20% 20% 0;
-  cursor: pointer;
-  border: none;
-  z-index: 1;
-  box-shadow: 5px 5px 5px grey;
-  background-color: #00ffff;
-}
-
-#color-mixer > :nth-child(7) {
-  grid-area: percent-one;
-  width: 100%;
-  display: flex;
-}
-
-#percentage-one-label,
-#percentage-two-label {
-  width: 2rem;
-  text-align: end;
-}
-
-#color-mixer > :nth-child(8) {
-  grid-area: percent-two;
-  width: 100%;
-  display: flex;
-}
-
-#color-mixer > :nth-child(9) {
-  grid-area: color-space-label;
-  margin: 0.5rem 0 0 auto;
-}
-
-#color-mixer > :nth-child(10) {
-  grid-area: color-space;
-  margin: 0.5rem auto 0 1rem;
-}
-
-#color-mixer > :nth-child(11) {
-  grid-area: interpolation-label;
-  margin: 0.5rem 0 0 auto;
-}
-
-#color-mixer > :nth-child(12) {
-  grid-area: interpolation;
-  margin: 0.5rem auto 0 1rem;
-}
-
-#color-mixer > :nth-child(13) {
-  grid-area: mix-output-text;
-  margin: 1rem 0;
-  padding: 1rem 0;
-  text-align: center;
-  background-color: #dfdfde;
-  font-family: monospace;
-}
-
-input[type="range"] {
-  width: 80%;
-}
-
-label {
-  margin: 1rem;
-}
-
-*:focus {
-  outline: 2px dashed purple;
-  outline-offset: 1px;
-}
-
-table {
-  width: 100%;
-}
-caption {
-  font-family: sans-serif;
-}
-th {
-  padding: 5px 15px;
-  background-color: #ededed;
-}
-td {
-  background-color: #dedede;
-  font-family: monospace;
-  padding: 5px;
-}
-
-#output-colors th {
-  padding-right: 0;
-  width: 20%;
-}
-
-#output-colors td button {
-  margin-right: 0.4rem;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-exponentiation-operator",
-                            "Use the '**' operator instead of 'Math.pow'.",
-                            "  return c <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);",
-                            "77:37 - 77:71",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_mixer
-[prefer-exponentiation-operator] Use the '**' operator instead of 'Math.pow'.
-~~~
-const root = document.querySelector(":root");
-
-const colorSpace = document.getElementById("color-space");
-const interpolationMethod = document.getElementById("interpolation-method");
-const interpolationMethodLabel = document.getElementById(
-  "interpolation-method-label",
-);
-
-const colorOneButton = document.getElementById("color-one");
-const colorTwoButton = document.getElementById("color-two");
-const mixedColorDiv = document.getElementById("mixed-color");
-const mixedOutputText = document.getElementById("mix-output-text");
-
-const percentageOneLabel = document.getElementById("percentage-one-label");
-const percentageTwoLabel = document.getElementById("percentage-two-label");
-const percentageOneSlider = document.getElementById("percentage-one");
-const percentageTwoSlider = document.getElementById("percentage-two");
-
-// pop up dialog elements
-const pickerDialog = document.getElementById("picker-dialog");
-const colorTextInput = document.getElementById("color-text");
-const colorInput = document.getElementById("color-input");
-const colorOpacitySlider = document.getElementById("color-opacity");
-const pickerOkButton = document.getElementById("picker-ok-button");
-
-// color output spans
-const hexOutput = document.querySelector("#hex td > span");
-const colorFunctionOutput = document.querySelector("#color-function td > span");
-const rgbFunctionOutput = document.querySelector("#rgb-function td > span");
-const hslFunctionOutput = document.querySelector("#hsl-function td > span");
-const hwbFunctionOutput = document.querySelector("#hwb-function td > span");
-const labFunctionOutput = document.querySelector("#lab-function td > span");
-const oklabFunctionOutput = document.querySelector("#oklab-function td > span");
-const lchFunctionOutput = document.querySelector("#lch-function td > span");
-const oklchFunctionOutput = document.querySelector("#oklch-function td > span");
-const xyzD50FunctionOutput = document.querySelector(
-  "#xyz-d50-function td > span",
-);
-const xyzD65FunctionOutput = document.querySelector(
-  "#xyz-d65-function td > span",
-);
-
-const LRGB_LMS_MATRIX = [
-  [0.4122214708, 0.5363325363, 0.0514459929],
-  [0.2119034982, 0.6806995451, 0.1073969566],
-  [0.0883024619, 0.2817188376, 0.6299787005],
-];
-
-const LMS_LAB_MATRIX = [
-  [+0.2104542553, +0.793617785, -0.0040720468],
-  [+1.9779984951, -2.428592205, +0.4505937099],
-  [+0.0259040371, +0.7827717662, -0.808675766],
-];
-
-// srgb-linear to xyz-d50
-// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
-const LRGB_XYZ_D50_MATRIX = [
-  [0.4360747, 0.3850649, 0.1430804],
-  [0.2225045, 0.7168786, 0.0606169],
-  [0.0139322, 0.0971045, 0.7141733],
-];
-
-// srgb-linear to xyz-d65
-// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
-const LRGB_XYZ_D65_MATRIX = [
-  [0.4124564, 0.3575761, 0.1804375],
-  [0.2126729, 0.7151522, 0.072175],
-  [0.0193339, 0.119192, 0.9503041],
-];
-
-const polarColorSpaces = ["hsl", "hwb", "lch", "oklch"];
-const colorOne = { r: 255, g: 127, b: 80, alpha: 1.0 };
-const colorTwo = { r: 0, g: 255, b: 255, alpha: 1.0 };
-let currentColor = null;
-
-function rgbToLinear(c) {
-  return c <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
-}
-
-function intToHex(i) {
-  return Math.floor(i).toString(16).padStart(2, "0").toUpperCase();
-}
-
-function rgbToHEXText(c) {
-  return \`#\${intToHex(c.r)}\${intToHex(c.g)}\${intToHex(c.b)}\`;
-}
-
-function colorToRGBA(c) {
-  const ctx = new OffscreenCanvas(1, 1).getContext("2d");
-  ctx.fillStyle = c;
-  ctx.fillRect(0, 0, 1, 1);
-  const data = ctx.getImageData(0, 0, 1, 1).data;
-  return {
-    r: data[0],
-    g: data[1],
-    b: data[2],
-    alpha: data[3] / 255,
-  };
-}
-
-function multiplyByMatrix(matrix, tuple) {
-  let i = [0, 0, 0];
-  let j = matrix.length;
-  let k = matrix[0].length;
-  for (let l = 0; l < j; l++)
-    for (let m = 0; m < k; m++) i[l] += matrix[l][m] * tuple[m];
-  return i;
-}
-
-function rgbaToHEXAText(color) {
-  const hexText = rgbToHEXText(color);
-  if (color.alpha === 1.0) {
-    return hexText;
-  }
-  const alpha = intToHex(color.alpha * 255);
-  return \`\${hexText}\${alpha}\`;
-}
-
-function rgbaToHSLA(color) {
-  let { r, g, b, a: alpha } = color;
-  // Let's have r, g, b in the range [0, 1]
-  r = r / 255;
-  g = g / 255;
-  b = b / 255;
-  const min = Math.min(r, g, b);
-  const max = Math.max(r, g, b);
-  const delta = max - min;
-  let h, s, l;
-
-  if (delta === 0) {
-    h = 0;
-  } else if (max === r) {
-    h = ((g - b) / delta) % 6;
-  } else if (max === g) {
-    h = (b - r) / delta + 2;
-  } else h = (r - g) / delta + 4;
-  h = Math.round(h * 60);
-
-  // We want an angle between 0 and 360°
-  if (h < 0) {
-    h += 360;
-  }
-
-  l = (max + min) / 2;
-  s = delta === 0 ? 0 : delta / (1 - Math.abs(2 * l - 1));
-  s = Number((s * 100).toFixed(1));
-  l = Number((l * 100).toFixed(1));
-
-  return { h, s, l, alpha };
-}
-
-function toHSLAText(color) {
-  const { h, s, l, alpha } = rgbaToHSLA(color);
-  return \`hsl(\${h.toFixed(0)} \${s.toFixed(0)}% \${l.toFixed(0)}%\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbaToHWBAText(color) {
-  let { h, s, l, alpha } = rgbaToHSLA(color);
-  const chroma = s * (1 - Math.abs(l / 50 - 1));
-  let W = (l - chroma / 2).toFixed(0);
-  let B = (100 - l - chroma / 2).toFixed(0);
-  return \`hwb(\${h} \${W}% \${B}%\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function rgbaToXYZD50(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255) * 255;
-  g = rgbToLinear(g / 255) * 255;
-  b = rgbToLinear(b / 255) * 255;
-
-  const xyz = multiplyByMatrix(LRGB_XYZ_D50_MATRIX, [r, g, b]);
-  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, a: alpha };
-}
-
-function rgbaToXYZD50Text(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  return \`color(xyz-d50 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function rgbaToXYZD65(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255) * 255;
-  g = rgbToLinear(g / 255) * 255;
-  b = rgbToLinear(b / 255) * 255;
-
-  const xyz = multiplyByMatrix(LRGB_XYZ_D65_MATRIX, [r, g, b]);
-  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, a: alpha };
-}
-
-function rgbaToXYZD65Text(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD65(color);
-  return \`color(xyz-d65 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-const D65 = [0.3457 / 0.3585, 1, 0.2958 / 0.3585];
-function xyzToLab(color) {
-  let { x, y, z, alpha } = color;
-  [x, y, z] = [x, y, z].map((v, i) => {
-    v = v / D65[i];
-    return v > 0.0088564516 ? Math.cbrt(v) : v * 903.2962962962963 + 16 / 116;
-  });
-  return { l: 116 * y - 16, a: 500 * (x - y), b: 200 * (y - z), alpha };
-}
-
-function rgbaToLabText(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  const lab = xyzToLab(xyz);
-  return \`lab(\${lab.l.toFixed(3)} \${lab.a.toFixed(3)} \${lab.b.toFixed(3)}\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbToOklab(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255);
-  g = rgbToLinear(g / 255);
-  b = rgbToLinear(b / 255);
-  const lms = multiplyByMatrix(LRGB_LMS_MATRIX, [r, g, b]).map((v) =>
-    Math.cbrt(v),
-  );
-
-  const oklab = multiplyByMatrix(LMS_LAB_MATRIX, lms);
-  return { l: oklab[0], a: oklab[1], b: oklab[2], a: alpha };
-}
-
-function toOkLabText(color) {
-  let { alpha } = color;
-  const oklab = rgbToOklab(color);
-  return \`oklab(\${oklab.l.toFixed(5)} \${oklab.a.toFixed(5)} \${oklab.b.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function labToLCH(color) {
-  const { l, a, b, alpha } = color;
-  const c = Math.sqrt(a * a + b * b);
-  let h = Math.atan2(b, a) * (180 / Math.PI);
-  if (h < 0) {
-    h += 360;
-  }
-  return { l, c, h, alpha };
-}
-
-function toLCHText(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  const lab = xyzToLab(xyz);
-  const lch = labToLCH(lab);
-  return \`lch(\${lch.l.toFixed(3)} \${lch.c.toFixed(3)} \${lch.h.toFixed(3)}\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbaToOkLCh(color) {
-  const lab = rgbToOklab(color);
-  const oklch = labToLCH(lab);
-  return { l: oklch.l, c: oklch.c, h: oklch.h, alpha: color.alpha };
-}
-
-function toOkLChText(color) {
-  let { alpha } = color;
-  const oklch = rgbaToOkLCh(color);
-  return \`oklch(\${oklch.l.toFixed(5)} \${oklch.c.toFixed(5)} \${oklch.h.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function updateColorMix() {
-  let colorMixFunction = "color-mix(in ";
-
-  root.style.setProperty("--color-space", colorSpace.value);
-  colorMixFunction += colorSpace.value;
-
-  if (polarColorSpaces.includes(colorSpace.value)) {
-    root.style.setProperty("--interpolation-method", interpolationMethod.value);
-    colorMixFunction += \` \${interpolationMethod.value}, \`;
-  } else {
-    root.style.setProperty("--interpolation-method", "");
-    colorMixFunction += \`, \`;
-  }
-  root.style.setProperty(
-    "--color-one",
-    colorOneButton.style.getPropertyValue("background-color"),
-  );
-  root.style.setProperty("--percentage-one", percentageOneSlider.value + "%");
-  colorMixFunction += \`\${rgbaToHEXAText(colorOne)} \${
-    percentageOneSlider.value
-  }%, \`;
-
-  root.style.setProperty(
-    "--color-two",
-    colorTwoButton.style.getPropertyValue("background-color"),
-  );
-  root.style.setProperty("--percentage-two", percentageTwoSlider.value + "%");
-  colorMixFunction += \`\${rgbaToHEXAText(colorTwo)} \${
-    percentageTwoSlider.value
-  }%)\`;
-
-  mixedColorDiv.style.setProperty("background-color", colorMixFunction);
-
-  mixedOutputText.innerText = colorMixFunction;
-  displayOutputColors(window.getComputedStyle(mixedColorDiv).backgroundColor);
-}
-
-function displayOutputColors(color) {
-  let rgbaColor = colorToRGBA(color);
-
-  hexOutput.innerText = rgbaToHEXAText(rgbaColor);
-
-  rgbFunctionOutput.innerText = \`rgb(\${Math.round(rgbaColor.r)} \${Math.round(
-    rgbaColor.g,
-  )} \${Math.round(rgbaColor.b)}\`;
-  if (rgbaColor.alpha && rgbaColor.alpha < 1.0) {
-    rgbFunctionOutput.innerText += \` / \${rgbaColor.alpha.toFixed(3)}\`;
-  }
-  rgbFunctionOutput.innerText += \`)\`;
-
-  colorFunctionOutput.innerText = \`color(srgb \${(rgbaColor.r / 255).toFixed(
-    3,
-  )} \${(rgbaColor.g / 255).toFixed(3)} \${(rgbaColor.b / 255).toFixed(3)}\`;
-  if (rgbaColor.alpha && rgbaColor.alpha < 1.0) {
-    colorFunctionOutput.innerText += \` / \${rgbaColor.alpha.toFixed(3)}\`;
-  }
-  colorFunctionOutput.innerText += \`)\`;
-
-  hslFunctionOutput.innerText = toHSLAText(rgbaColor);
-
-  hwbFunctionOutput.innerText = rgbaToHWBAText(rgbaColor);
-  labFunctionOutput.innerText = rgbaToLabText(rgbaColor);
-  xyzD50FunctionOutput.innerText = rgbaToXYZD50Text(rgbaColor);
-  xyzD65FunctionOutput.innerText = rgbaToXYZD65Text(rgbaColor);
-  lchFunctionOutput.innerText = toLCHText(rgbaColor);
-  oklabFunctionOutput.innerText = toOkLabText(rgbaColor);
-  oklchFunctionOutput.innerText = toOkLChText(rgbaColor);
-}
-
-function setColorToDialog() {
-  colorTextInput.value = rgbaToHEXAText(currentColor);
-  colorInput.value = rgbToHEXText(currentColor);
-  colorOpacitySlider.value = currentColor.alpha;
-}
-
-function init() {
-  percentageOneSlider.addEventListener("input", (e) => {
-    percentageOneLabel.innerText = e.target.value + "%";
-    updateColorMix();
-  });
-
-  percentageTwoSlider.addEventListener("input", (e) => {
-    percentageTwoLabel.innerText = e.target.value + "%";
-    updateColorMix();
-  });
-
-  colorSpace.addEventListener("change", (e) => {
-    if (polarColorSpaces.includes(e.target.value)) {
-      interpolationMethod.style.visibility = "visible";
-      interpolationMethodLabel.style.visibility = "visible";
-    } else {
-      interpolationMethod.style.visibility = "hidden";
-      interpolationMethodLabel.style.visibility = "hidden";
-    }
-    updateColorMix();
-  });
-
-  interpolationMethod.addEventListener("change", () => {
-    updateColorMix();
-  });
-
-  interpolationMethod.style.visibility = "hidden";
-  interpolationMethodLabel.style.visibility = "hidden";
-
-  colorOneButton.addEventListener("click", () => {
-    currentColor = colorOne;
-    setColorToDialog();
-    pickerDialog.showModal();
-  });
-
-  colorTwoButton.addEventListener("click", () => {
-    currentColor = colorTwo;
-    setColorToDialog();
-    pickerDialog.showModal();
-  });
-
-  colorTextInput.addEventListener("input", (e) => {
-    const color = colorToRGBA(e.target.value);
-    Object.assign(currentColor, color);
-    colorInput.value = rgbToHEXText(currentColor);
-    colorOpacitySlider.value = currentColor.alpha;
-  });
-
-  colorInput.addEventListener("input", (e) => {
-    const text = e.target.value;
-    currentColor.r = parseInt(text.slice(1, 3), 16);
-    currentColor.g = parseInt(text.slice(3, 5), 16);
-    currentColor.b = parseInt(text.slice(5, 7), 16);
-    colorTextInput.value = rgbaToHEXAText(currentColor);
-    colorOpacitySlider.value = 1.0;
-  });
-
-  colorOpacitySlider.addEventListener("input", (e) => {
-    const value = parseFloat(e.target.value);
-    if (value >= 0 && value <= 1) {
-      currentColor.alpha = value;
-      colorTextInput.value = rgbaToHEXAText(currentColor);
-    }
-  });
-
-  pickerOkButton.addEventListener("click", () => {
-    colorOneButton.style.setProperty(
-      "background-color",
-      rgbaToHEXAText(colorOne),
-    );
-    colorTwoButton.style.setProperty(
-      "background-color",
-      rgbaToHEXAText(colorTwo),
-    );
-    pickerDialog.close();
-    updateColorMix();
-  });
-
-  document.querySelectorAll("#output-colors button").forEach((button) => {
-    button.addEventListener("click", (e) => {
-      // get parent element
-      const text = e.target.nextElementSibling.innerText;
-      navigator.clipboard.writeText(text);
-      e.target.innerText = "Copied!";
-      setTimeout(() => {
-        e.target.innerText = "Copy";
-      }, 1000);
-    });
-  });
-
-  updateColorMix();
-}
-
-init();
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "operator-assignment",
-                            "Assignment (=) can be replaced with operator assignment (/=).",
-                            "  r = r / 255;",
-                            "122:3 - 122:14",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_mixer
-[operator-assignment] Assignment (=) can be replaced with operator assignment (/=).
-~~~
-const root = document.querySelector(":root");
-
-const colorSpace = document.getElementById("color-space");
-const interpolationMethod = document.getElementById("interpolation-method");
-const interpolationMethodLabel = document.getElementById(
-  "interpolation-method-label",
-);
-
-const colorOneButton = document.getElementById("color-one");
-const colorTwoButton = document.getElementById("color-two");
-const mixedColorDiv = document.getElementById("mixed-color");
-const mixedOutputText = document.getElementById("mix-output-text");
-
-const percentageOneLabel = document.getElementById("percentage-one-label");
-const percentageTwoLabel = document.getElementById("percentage-two-label");
-const percentageOneSlider = document.getElementById("percentage-one");
-const percentageTwoSlider = document.getElementById("percentage-two");
-
-// pop up dialog elements
-const pickerDialog = document.getElementById("picker-dialog");
-const colorTextInput = document.getElementById("color-text");
-const colorInput = document.getElementById("color-input");
-const colorOpacitySlider = document.getElementById("color-opacity");
-const pickerOkButton = document.getElementById("picker-ok-button");
-
-// color output spans
-const hexOutput = document.querySelector("#hex td > span");
-const colorFunctionOutput = document.querySelector("#color-function td > span");
-const rgbFunctionOutput = document.querySelector("#rgb-function td > span");
-const hslFunctionOutput = document.querySelector("#hsl-function td > span");
-const hwbFunctionOutput = document.querySelector("#hwb-function td > span");
-const labFunctionOutput = document.querySelector("#lab-function td > span");
-const oklabFunctionOutput = document.querySelector("#oklab-function td > span");
-const lchFunctionOutput = document.querySelector("#lch-function td > span");
-const oklchFunctionOutput = document.querySelector("#oklch-function td > span");
-const xyzD50FunctionOutput = document.querySelector(
-  "#xyz-d50-function td > span",
-);
-const xyzD65FunctionOutput = document.querySelector(
-  "#xyz-d65-function td > span",
-);
-
-const LRGB_LMS_MATRIX = [
-  [0.4122214708, 0.5363325363, 0.0514459929],
-  [0.2119034982, 0.6806995451, 0.1073969566],
-  [0.0883024619, 0.2817188376, 0.6299787005],
-];
-
-const LMS_LAB_MATRIX = [
-  [+0.2104542553, +0.793617785, -0.0040720468],
-  [+1.9779984951, -2.428592205, +0.4505937099],
-  [+0.0259040371, +0.7827717662, -0.808675766],
-];
-
-// srgb-linear to xyz-d50
-// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
-const LRGB_XYZ_D50_MATRIX = [
-  [0.4360747, 0.3850649, 0.1430804],
-  [0.2225045, 0.7168786, 0.0606169],
-  [0.0139322, 0.0971045, 0.7141733],
-];
-
-// srgb-linear to xyz-d65
-// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
-const LRGB_XYZ_D65_MATRIX = [
-  [0.4124564, 0.3575761, 0.1804375],
-  [0.2126729, 0.7151522, 0.072175],
-  [0.0193339, 0.119192, 0.9503041],
-];
-
-const polarColorSpaces = ["hsl", "hwb", "lch", "oklch"];
-const colorOne = { r: 255, g: 127, b: 80, alpha: 1.0 };
-const colorTwo = { r: 0, g: 255, b: 255, alpha: 1.0 };
-let currentColor = null;
-
-function rgbToLinear(c) {
-  return c <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
-}
-
-function intToHex(i) {
-  return Math.floor(i).toString(16).padStart(2, "0").toUpperCase();
-}
-
-function rgbToHEXText(c) {
-  return \`#\${intToHex(c.r)}\${intToHex(c.g)}\${intToHex(c.b)}\`;
-}
-
-function colorToRGBA(c) {
-  const ctx = new OffscreenCanvas(1, 1).getContext("2d");
-  ctx.fillStyle = c;
-  ctx.fillRect(0, 0, 1, 1);
-  const data = ctx.getImageData(0, 0, 1, 1).data;
-  return {
-    r: data[0],
-    g: data[1],
-    b: data[2],
-    alpha: data[3] / 255,
-  };
-}
-
-function multiplyByMatrix(matrix, tuple) {
-  let i = [0, 0, 0];
-  let j = matrix.length;
-  let k = matrix[0].length;
-  for (let l = 0; l < j; l++)
-    for (let m = 0; m < k; m++) i[l] += matrix[l][m] * tuple[m];
-  return i;
-}
-
-function rgbaToHEXAText(color) {
-  const hexText = rgbToHEXText(color);
-  if (color.alpha === 1.0) {
-    return hexText;
-  }
-  const alpha = intToHex(color.alpha * 255);
-  return \`\${hexText}\${alpha}\`;
-}
-
-function rgbaToHSLA(color) {
-  let { r, g, b, a: alpha } = color;
-  // Let's have r, g, b in the range [0, 1]
-  r = r / 255;
-  g = g / 255;
-  b = b / 255;
-  const min = Math.min(r, g, b);
-  const max = Math.max(r, g, b);
-  const delta = max - min;
-  let h, s, l;
-
-  if (delta === 0) {
-    h = 0;
-  } else if (max === r) {
-    h = ((g - b) / delta) % 6;
-  } else if (max === g) {
-    h = (b - r) / delta + 2;
-  } else h = (r - g) / delta + 4;
-  h = Math.round(h * 60);
-
-  // We want an angle between 0 and 360°
-  if (h < 0) {
-    h += 360;
-  }
-
-  l = (max + min) / 2;
-  s = delta === 0 ? 0 : delta / (1 - Math.abs(2 * l - 1));
-  s = Number((s * 100).toFixed(1));
-  l = Number((l * 100).toFixed(1));
-
-  return { h, s, l, alpha };
-}
-
-function toHSLAText(color) {
-  const { h, s, l, alpha } = rgbaToHSLA(color);
-  return \`hsl(\${h.toFixed(0)} \${s.toFixed(0)}% \${l.toFixed(0)}%\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbaToHWBAText(color) {
-  let { h, s, l, alpha } = rgbaToHSLA(color);
-  const chroma = s * (1 - Math.abs(l / 50 - 1));
-  let W = (l - chroma / 2).toFixed(0);
-  let B = (100 - l - chroma / 2).toFixed(0);
-  return \`hwb(\${h} \${W}% \${B}%\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function rgbaToXYZD50(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255) * 255;
-  g = rgbToLinear(g / 255) * 255;
-  b = rgbToLinear(b / 255) * 255;
-
-  const xyz = multiplyByMatrix(LRGB_XYZ_D50_MATRIX, [r, g, b]);
-  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, a: alpha };
-}
-
-function rgbaToXYZD50Text(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  return \`color(xyz-d50 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function rgbaToXYZD65(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255) * 255;
-  g = rgbToLinear(g / 255) * 255;
-  b = rgbToLinear(b / 255) * 255;
-
-  const xyz = multiplyByMatrix(LRGB_XYZ_D65_MATRIX, [r, g, b]);
-  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, a: alpha };
-}
-
-function rgbaToXYZD65Text(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD65(color);
-  return \`color(xyz-d65 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-const D65 = [0.3457 / 0.3585, 1, 0.2958 / 0.3585];
-function xyzToLab(color) {
-  let { x, y, z, alpha } = color;
-  [x, y, z] = [x, y, z].map((v, i) => {
-    v = v / D65[i];
-    return v > 0.0088564516 ? Math.cbrt(v) : v * 903.2962962962963 + 16 / 116;
-  });
-  return { l: 116 * y - 16, a: 500 * (x - y), b: 200 * (y - z), alpha };
-}
-
-function rgbaToLabText(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  const lab = xyzToLab(xyz);
-  return \`lab(\${lab.l.toFixed(3)} \${lab.a.toFixed(3)} \${lab.b.toFixed(3)}\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbToOklab(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255);
-  g = rgbToLinear(g / 255);
-  b = rgbToLinear(b / 255);
-  const lms = multiplyByMatrix(LRGB_LMS_MATRIX, [r, g, b]).map((v) =>
-    Math.cbrt(v),
-  );
-
-  const oklab = multiplyByMatrix(LMS_LAB_MATRIX, lms);
-  return { l: oklab[0], a: oklab[1], b: oklab[2], a: alpha };
-}
-
-function toOkLabText(color) {
-  let { alpha } = color;
-  const oklab = rgbToOklab(color);
-  return \`oklab(\${oklab.l.toFixed(5)} \${oklab.a.toFixed(5)} \${oklab.b.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function labToLCH(color) {
-  const { l, a, b, alpha } = color;
-  const c = Math.sqrt(a * a + b * b);
-  let h = Math.atan2(b, a) * (180 / Math.PI);
-  if (h < 0) {
-    h += 360;
-  }
-  return { l, c, h, alpha };
-}
-
-function toLCHText(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  const lab = xyzToLab(xyz);
-  const lch = labToLCH(lab);
-  return \`lch(\${lch.l.toFixed(3)} \${lch.c.toFixed(3)} \${lch.h.toFixed(3)}\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbaToOkLCh(color) {
-  const lab = rgbToOklab(color);
-  const oklch = labToLCH(lab);
-  return { l: oklch.l, c: oklch.c, h: oklch.h, alpha: color.alpha };
-}
-
-function toOkLChText(color) {
-  let { alpha } = color;
-  const oklch = rgbaToOkLCh(color);
-  return \`oklch(\${oklch.l.toFixed(5)} \${oklch.c.toFixed(5)} \${oklch.h.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function updateColorMix() {
-  let colorMixFunction = "color-mix(in ";
-
-  root.style.setProperty("--color-space", colorSpace.value);
-  colorMixFunction += colorSpace.value;
-
-  if (polarColorSpaces.includes(colorSpace.value)) {
-    root.style.setProperty("--interpolation-method", interpolationMethod.value);
-    colorMixFunction += \` \${interpolationMethod.value}, \`;
-  } else {
-    root.style.setProperty("--interpolation-method", "");
-    colorMixFunction += \`, \`;
-  }
-  root.style.setProperty(
-    "--color-one",
-    colorOneButton.style.getPropertyValue("background-color"),
-  );
-  root.style.setProperty("--percentage-one", percentageOneSlider.value + "%");
-  colorMixFunction += \`\${rgbaToHEXAText(colorOne)} \${
-    percentageOneSlider.value
-  }%, \`;
-
-  root.style.setProperty(
-    "--color-two",
-    colorTwoButton.style.getPropertyValue("background-color"),
-  );
-  root.style.setProperty("--percentage-two", percentageTwoSlider.value + "%");
-  colorMixFunction += \`\${rgbaToHEXAText(colorTwo)} \${
-    percentageTwoSlider.value
-  }%)\`;
-
-  mixedColorDiv.style.setProperty("background-color", colorMixFunction);
-
-  mixedOutputText.innerText = colorMixFunction;
-  displayOutputColors(window.getComputedStyle(mixedColorDiv).backgroundColor);
-}
-
-function displayOutputColors(color) {
-  let rgbaColor = colorToRGBA(color);
-
-  hexOutput.innerText = rgbaToHEXAText(rgbaColor);
-
-  rgbFunctionOutput.innerText = \`rgb(\${Math.round(rgbaColor.r)} \${Math.round(
-    rgbaColor.g,
-  )} \${Math.round(rgbaColor.b)}\`;
-  if (rgbaColor.alpha && rgbaColor.alpha < 1.0) {
-    rgbFunctionOutput.innerText += \` / \${rgbaColor.alpha.toFixed(3)}\`;
-  }
-  rgbFunctionOutput.innerText += \`)\`;
-
-  colorFunctionOutput.innerText = \`color(srgb \${(rgbaColor.r / 255).toFixed(
-    3,
-  )} \${(rgbaColor.g / 255).toFixed(3)} \${(rgbaColor.b / 255).toFixed(3)}\`;
-  if (rgbaColor.alpha && rgbaColor.alpha < 1.0) {
-    colorFunctionOutput.innerText += \` / \${rgbaColor.alpha.toFixed(3)}\`;
-  }
-  colorFunctionOutput.innerText += \`)\`;
-
-  hslFunctionOutput.innerText = toHSLAText(rgbaColor);
-
-  hwbFunctionOutput.innerText = rgbaToHWBAText(rgbaColor);
-  labFunctionOutput.innerText = rgbaToLabText(rgbaColor);
-  xyzD50FunctionOutput.innerText = rgbaToXYZD50Text(rgbaColor);
-  xyzD65FunctionOutput.innerText = rgbaToXYZD65Text(rgbaColor);
-  lchFunctionOutput.innerText = toLCHText(rgbaColor);
-  oklabFunctionOutput.innerText = toOkLabText(rgbaColor);
-  oklchFunctionOutput.innerText = toOkLChText(rgbaColor);
-}
-
-function setColorToDialog() {
-  colorTextInput.value = rgbaToHEXAText(currentColor);
-  colorInput.value = rgbToHEXText(currentColor);
-  colorOpacitySlider.value = currentColor.alpha;
-}
-
-function init() {
-  percentageOneSlider.addEventListener("input", (e) => {
-    percentageOneLabel.innerText = e.target.value + "%";
-    updateColorMix();
-  });
-
-  percentageTwoSlider.addEventListener("input", (e) => {
-    percentageTwoLabel.innerText = e.target.value + "%";
-    updateColorMix();
-  });
-
-  colorSpace.addEventListener("change", (e) => {
-    if (polarColorSpaces.includes(e.target.value)) {
-      interpolationMethod.style.visibility = "visible";
-      interpolationMethodLabel.style.visibility = "visible";
-    } else {
-      interpolationMethod.style.visibility = "hidden";
-      interpolationMethodLabel.style.visibility = "hidden";
-    }
-    updateColorMix();
-  });
-
-  interpolationMethod.addEventListener("change", () => {
-    updateColorMix();
-  });
-
-  interpolationMethod.style.visibility = "hidden";
-  interpolationMethodLabel.style.visibility = "hidden";
-
-  colorOneButton.addEventListener("click", () => {
-    currentColor = colorOne;
-    setColorToDialog();
-    pickerDialog.showModal();
-  });
-
-  colorTwoButton.addEventListener("click", () => {
-    currentColor = colorTwo;
-    setColorToDialog();
-    pickerDialog.showModal();
-  });
-
-  colorTextInput.addEventListener("input", (e) => {
-    const color = colorToRGBA(e.target.value);
-    Object.assign(currentColor, color);
-    colorInput.value = rgbToHEXText(currentColor);
-    colorOpacitySlider.value = currentColor.alpha;
-  });
-
-  colorInput.addEventListener("input", (e) => {
-    const text = e.target.value;
-    currentColor.r = parseInt(text.slice(1, 3), 16);
-    currentColor.g = parseInt(text.slice(3, 5), 16);
-    currentColor.b = parseInt(text.slice(5, 7), 16);
-    colorTextInput.value = rgbaToHEXAText(currentColor);
-    colorOpacitySlider.value = 1.0;
-  });
-
-  colorOpacitySlider.addEventListener("input", (e) => {
-    const value = parseFloat(e.target.value);
-    if (value >= 0 && value <= 1) {
-      currentColor.alpha = value;
-      colorTextInput.value = rgbaToHEXAText(currentColor);
-    }
-  });
-
-  pickerOkButton.addEventListener("click", () => {
-    colorOneButton.style.setProperty(
-      "background-color",
-      rgbaToHEXAText(colorOne),
-    );
-    colorTwoButton.style.setProperty(
-      "background-color",
-      rgbaToHEXAText(colorTwo),
-    );
-    pickerDialog.close();
-    updateColorMix();
-  });
-
-  document.querySelectorAll("#output-colors button").forEach((button) => {
-    button.addEventListener("click", (e) => {
-      // get parent element
-      const text = e.target.nextElementSibling.innerText;
-      navigator.clipboard.writeText(text);
-      e.target.innerText = "Copied!";
-      setTimeout(() => {
-        e.target.innerText = "Copy";
-      }, 1000);
-    });
-  });
-
-  updateColorMix();
-}
-
-init();
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "operator-assignment",
-                            "Assignment (=) can be replaced with operator assignment (/=).",
-                            "  g = g / 255;",
-                            "123:3 - 123:14",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_mixer
-[operator-assignment] Assignment (=) can be replaced with operator assignment (/=).
-~~~
-const root = document.querySelector(":root");
-
-const colorSpace = document.getElementById("color-space");
-const interpolationMethod = document.getElementById("interpolation-method");
-const interpolationMethodLabel = document.getElementById(
-  "interpolation-method-label",
-);
-
-const colorOneButton = document.getElementById("color-one");
-const colorTwoButton = document.getElementById("color-two");
-const mixedColorDiv = document.getElementById("mixed-color");
-const mixedOutputText = document.getElementById("mix-output-text");
-
-const percentageOneLabel = document.getElementById("percentage-one-label");
-const percentageTwoLabel = document.getElementById("percentage-two-label");
-const percentageOneSlider = document.getElementById("percentage-one");
-const percentageTwoSlider = document.getElementById("percentage-two");
-
-// pop up dialog elements
-const pickerDialog = document.getElementById("picker-dialog");
-const colorTextInput = document.getElementById("color-text");
-const colorInput = document.getElementById("color-input");
-const colorOpacitySlider = document.getElementById("color-opacity");
-const pickerOkButton = document.getElementById("picker-ok-button");
-
-// color output spans
-const hexOutput = document.querySelector("#hex td > span");
-const colorFunctionOutput = document.querySelector("#color-function td > span");
-const rgbFunctionOutput = document.querySelector("#rgb-function td > span");
-const hslFunctionOutput = document.querySelector("#hsl-function td > span");
-const hwbFunctionOutput = document.querySelector("#hwb-function td > span");
-const labFunctionOutput = document.querySelector("#lab-function td > span");
-const oklabFunctionOutput = document.querySelector("#oklab-function td > span");
-const lchFunctionOutput = document.querySelector("#lch-function td > span");
-const oklchFunctionOutput = document.querySelector("#oklch-function td > span");
-const xyzD50FunctionOutput = document.querySelector(
-  "#xyz-d50-function td > span",
-);
-const xyzD65FunctionOutput = document.querySelector(
-  "#xyz-d65-function td > span",
-);
-
-const LRGB_LMS_MATRIX = [
-  [0.4122214708, 0.5363325363, 0.0514459929],
-  [0.2119034982, 0.6806995451, 0.1073969566],
-  [0.0883024619, 0.2817188376, 0.6299787005],
-];
-
-const LMS_LAB_MATRIX = [
-  [+0.2104542553, +0.793617785, -0.0040720468],
-  [+1.9779984951, -2.428592205, +0.4505937099],
-  [+0.0259040371, +0.7827717662, -0.808675766],
-];
-
-// srgb-linear to xyz-d50
-// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
-const LRGB_XYZ_D50_MATRIX = [
-  [0.4360747, 0.3850649, 0.1430804],
-  [0.2225045, 0.7168786, 0.0606169],
-  [0.0139322, 0.0971045, 0.7141733],
-];
-
-// srgb-linear to xyz-d65
-// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
-const LRGB_XYZ_D65_MATRIX = [
-  [0.4124564, 0.3575761, 0.1804375],
-  [0.2126729, 0.7151522, 0.072175],
-  [0.0193339, 0.119192, 0.9503041],
-];
-
-const polarColorSpaces = ["hsl", "hwb", "lch", "oklch"];
-const colorOne = { r: 255, g: 127, b: 80, alpha: 1.0 };
-const colorTwo = { r: 0, g: 255, b: 255, alpha: 1.0 };
-let currentColor = null;
-
-function rgbToLinear(c) {
-  return c <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
-}
-
-function intToHex(i) {
-  return Math.floor(i).toString(16).padStart(2, "0").toUpperCase();
-}
-
-function rgbToHEXText(c) {
-  return \`#\${intToHex(c.r)}\${intToHex(c.g)}\${intToHex(c.b)}\`;
-}
-
-function colorToRGBA(c) {
-  const ctx = new OffscreenCanvas(1, 1).getContext("2d");
-  ctx.fillStyle = c;
-  ctx.fillRect(0, 0, 1, 1);
-  const data = ctx.getImageData(0, 0, 1, 1).data;
-  return {
-    r: data[0],
-    g: data[1],
-    b: data[2],
-    alpha: data[3] / 255,
-  };
-}
-
-function multiplyByMatrix(matrix, tuple) {
-  let i = [0, 0, 0];
-  let j = matrix.length;
-  let k = matrix[0].length;
-  for (let l = 0; l < j; l++)
-    for (let m = 0; m < k; m++) i[l] += matrix[l][m] * tuple[m];
-  return i;
-}
-
-function rgbaToHEXAText(color) {
-  const hexText = rgbToHEXText(color);
-  if (color.alpha === 1.0) {
-    return hexText;
-  }
-  const alpha = intToHex(color.alpha * 255);
-  return \`\${hexText}\${alpha}\`;
-}
-
-function rgbaToHSLA(color) {
-  let { r, g, b, a: alpha } = color;
-  // Let's have r, g, b in the range [0, 1]
-  r = r / 255;
-  g = g / 255;
-  b = b / 255;
-  const min = Math.min(r, g, b);
-  const max = Math.max(r, g, b);
-  const delta = max - min;
-  let h, s, l;
-
-  if (delta === 0) {
-    h = 0;
-  } else if (max === r) {
-    h = ((g - b) / delta) % 6;
-  } else if (max === g) {
-    h = (b - r) / delta + 2;
-  } else h = (r - g) / delta + 4;
-  h = Math.round(h * 60);
-
-  // We want an angle between 0 and 360°
-  if (h < 0) {
-    h += 360;
-  }
-
-  l = (max + min) / 2;
-  s = delta === 0 ? 0 : delta / (1 - Math.abs(2 * l - 1));
-  s = Number((s * 100).toFixed(1));
-  l = Number((l * 100).toFixed(1));
-
-  return { h, s, l, alpha };
-}
-
-function toHSLAText(color) {
-  const { h, s, l, alpha } = rgbaToHSLA(color);
-  return \`hsl(\${h.toFixed(0)} \${s.toFixed(0)}% \${l.toFixed(0)}%\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbaToHWBAText(color) {
-  let { h, s, l, alpha } = rgbaToHSLA(color);
-  const chroma = s * (1 - Math.abs(l / 50 - 1));
-  let W = (l - chroma / 2).toFixed(0);
-  let B = (100 - l - chroma / 2).toFixed(0);
-  return \`hwb(\${h} \${W}% \${B}%\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function rgbaToXYZD50(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255) * 255;
-  g = rgbToLinear(g / 255) * 255;
-  b = rgbToLinear(b / 255) * 255;
-
-  const xyz = multiplyByMatrix(LRGB_XYZ_D50_MATRIX, [r, g, b]);
-  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, a: alpha };
-}
-
-function rgbaToXYZD50Text(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  return \`color(xyz-d50 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function rgbaToXYZD65(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255) * 255;
-  g = rgbToLinear(g / 255) * 255;
-  b = rgbToLinear(b / 255) * 255;
-
-  const xyz = multiplyByMatrix(LRGB_XYZ_D65_MATRIX, [r, g, b]);
-  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, a: alpha };
-}
-
-function rgbaToXYZD65Text(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD65(color);
-  return \`color(xyz-d65 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-const D65 = [0.3457 / 0.3585, 1, 0.2958 / 0.3585];
-function xyzToLab(color) {
-  let { x, y, z, alpha } = color;
-  [x, y, z] = [x, y, z].map((v, i) => {
-    v = v / D65[i];
-    return v > 0.0088564516 ? Math.cbrt(v) : v * 903.2962962962963 + 16 / 116;
-  });
-  return { l: 116 * y - 16, a: 500 * (x - y), b: 200 * (y - z), alpha };
-}
-
-function rgbaToLabText(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  const lab = xyzToLab(xyz);
-  return \`lab(\${lab.l.toFixed(3)} \${lab.a.toFixed(3)} \${lab.b.toFixed(3)}\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbToOklab(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255);
-  g = rgbToLinear(g / 255);
-  b = rgbToLinear(b / 255);
-  const lms = multiplyByMatrix(LRGB_LMS_MATRIX, [r, g, b]).map((v) =>
-    Math.cbrt(v),
-  );
-
-  const oklab = multiplyByMatrix(LMS_LAB_MATRIX, lms);
-  return { l: oklab[0], a: oklab[1], b: oklab[2], a: alpha };
-}
-
-function toOkLabText(color) {
-  let { alpha } = color;
-  const oklab = rgbToOklab(color);
-  return \`oklab(\${oklab.l.toFixed(5)} \${oklab.a.toFixed(5)} \${oklab.b.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function labToLCH(color) {
-  const { l, a, b, alpha } = color;
-  const c = Math.sqrt(a * a + b * b);
-  let h = Math.atan2(b, a) * (180 / Math.PI);
-  if (h < 0) {
-    h += 360;
-  }
-  return { l, c, h, alpha };
-}
-
-function toLCHText(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  const lab = xyzToLab(xyz);
-  const lch = labToLCH(lab);
-  return \`lch(\${lch.l.toFixed(3)} \${lch.c.toFixed(3)} \${lch.h.toFixed(3)}\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbaToOkLCh(color) {
-  const lab = rgbToOklab(color);
-  const oklch = labToLCH(lab);
-  return { l: oklch.l, c: oklch.c, h: oklch.h, alpha: color.alpha };
-}
-
-function toOkLChText(color) {
-  let { alpha } = color;
-  const oklch = rgbaToOkLCh(color);
-  return \`oklch(\${oklch.l.toFixed(5)} \${oklch.c.toFixed(5)} \${oklch.h.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function updateColorMix() {
-  let colorMixFunction = "color-mix(in ";
-
-  root.style.setProperty("--color-space", colorSpace.value);
-  colorMixFunction += colorSpace.value;
-
-  if (polarColorSpaces.includes(colorSpace.value)) {
-    root.style.setProperty("--interpolation-method", interpolationMethod.value);
-    colorMixFunction += \` \${interpolationMethod.value}, \`;
-  } else {
-    root.style.setProperty("--interpolation-method", "");
-    colorMixFunction += \`, \`;
-  }
-  root.style.setProperty(
-    "--color-one",
-    colorOneButton.style.getPropertyValue("background-color"),
-  );
-  root.style.setProperty("--percentage-one", percentageOneSlider.value + "%");
-  colorMixFunction += \`\${rgbaToHEXAText(colorOne)} \${
-    percentageOneSlider.value
-  }%, \`;
-
-  root.style.setProperty(
-    "--color-two",
-    colorTwoButton.style.getPropertyValue("background-color"),
-  );
-  root.style.setProperty("--percentage-two", percentageTwoSlider.value + "%");
-  colorMixFunction += \`\${rgbaToHEXAText(colorTwo)} \${
-    percentageTwoSlider.value
-  }%)\`;
-
-  mixedColorDiv.style.setProperty("background-color", colorMixFunction);
-
-  mixedOutputText.innerText = colorMixFunction;
-  displayOutputColors(window.getComputedStyle(mixedColorDiv).backgroundColor);
-}
-
-function displayOutputColors(color) {
-  let rgbaColor = colorToRGBA(color);
-
-  hexOutput.innerText = rgbaToHEXAText(rgbaColor);
-
-  rgbFunctionOutput.innerText = \`rgb(\${Math.round(rgbaColor.r)} \${Math.round(
-    rgbaColor.g,
-  )} \${Math.round(rgbaColor.b)}\`;
-  if (rgbaColor.alpha && rgbaColor.alpha < 1.0) {
-    rgbFunctionOutput.innerText += \` / \${rgbaColor.alpha.toFixed(3)}\`;
-  }
-  rgbFunctionOutput.innerText += \`)\`;
-
-  colorFunctionOutput.innerText = \`color(srgb \${(rgbaColor.r / 255).toFixed(
-    3,
-  )} \${(rgbaColor.g / 255).toFixed(3)} \${(rgbaColor.b / 255).toFixed(3)}\`;
-  if (rgbaColor.alpha && rgbaColor.alpha < 1.0) {
-    colorFunctionOutput.innerText += \` / \${rgbaColor.alpha.toFixed(3)}\`;
-  }
-  colorFunctionOutput.innerText += \`)\`;
-
-  hslFunctionOutput.innerText = toHSLAText(rgbaColor);
-
-  hwbFunctionOutput.innerText = rgbaToHWBAText(rgbaColor);
-  labFunctionOutput.innerText = rgbaToLabText(rgbaColor);
-  xyzD50FunctionOutput.innerText = rgbaToXYZD50Text(rgbaColor);
-  xyzD65FunctionOutput.innerText = rgbaToXYZD65Text(rgbaColor);
-  lchFunctionOutput.innerText = toLCHText(rgbaColor);
-  oklabFunctionOutput.innerText = toOkLabText(rgbaColor);
-  oklchFunctionOutput.innerText = toOkLChText(rgbaColor);
-}
-
-function setColorToDialog() {
-  colorTextInput.value = rgbaToHEXAText(currentColor);
-  colorInput.value = rgbToHEXText(currentColor);
-  colorOpacitySlider.value = currentColor.alpha;
-}
-
-function init() {
-  percentageOneSlider.addEventListener("input", (e) => {
-    percentageOneLabel.innerText = e.target.value + "%";
-    updateColorMix();
-  });
-
-  percentageTwoSlider.addEventListener("input", (e) => {
-    percentageTwoLabel.innerText = e.target.value + "%";
-    updateColorMix();
-  });
-
-  colorSpace.addEventListener("change", (e) => {
-    if (polarColorSpaces.includes(e.target.value)) {
-      interpolationMethod.style.visibility = "visible";
-      interpolationMethodLabel.style.visibility = "visible";
-    } else {
-      interpolationMethod.style.visibility = "hidden";
-      interpolationMethodLabel.style.visibility = "hidden";
-    }
-    updateColorMix();
-  });
-
-  interpolationMethod.addEventListener("change", () => {
-    updateColorMix();
-  });
-
-  interpolationMethod.style.visibility = "hidden";
-  interpolationMethodLabel.style.visibility = "hidden";
-
-  colorOneButton.addEventListener("click", () => {
-    currentColor = colorOne;
-    setColorToDialog();
-    pickerDialog.showModal();
-  });
-
-  colorTwoButton.addEventListener("click", () => {
-    currentColor = colorTwo;
-    setColorToDialog();
-    pickerDialog.showModal();
-  });
-
-  colorTextInput.addEventListener("input", (e) => {
-    const color = colorToRGBA(e.target.value);
-    Object.assign(currentColor, color);
-    colorInput.value = rgbToHEXText(currentColor);
-    colorOpacitySlider.value = currentColor.alpha;
-  });
-
-  colorInput.addEventListener("input", (e) => {
-    const text = e.target.value;
-    currentColor.r = parseInt(text.slice(1, 3), 16);
-    currentColor.g = parseInt(text.slice(3, 5), 16);
-    currentColor.b = parseInt(text.slice(5, 7), 16);
-    colorTextInput.value = rgbaToHEXAText(currentColor);
-    colorOpacitySlider.value = 1.0;
-  });
-
-  colorOpacitySlider.addEventListener("input", (e) => {
-    const value = parseFloat(e.target.value);
-    if (value >= 0 && value <= 1) {
-      currentColor.alpha = value;
-      colorTextInput.value = rgbaToHEXAText(currentColor);
-    }
-  });
-
-  pickerOkButton.addEventListener("click", () => {
-    colorOneButton.style.setProperty(
-      "background-color",
-      rgbaToHEXAText(colorOne),
-    );
-    colorTwoButton.style.setProperty(
-      "background-color",
-      rgbaToHEXAText(colorTwo),
-    );
-    pickerDialog.close();
-    updateColorMix();
-  });
-
-  document.querySelectorAll("#output-colors button").forEach((button) => {
-    button.addEventListener("click", (e) => {
-      // get parent element
-      const text = e.target.nextElementSibling.innerText;
-      navigator.clipboard.writeText(text);
-      e.target.innerText = "Copied!";
-      setTimeout(() => {
-        e.target.innerText = "Copy";
-      }, 1000);
-    });
-  });
-
-  updateColorMix();
-}
-
-init();
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "operator-assignment",
-                            "Assignment (=) can be replaced with operator assignment (/=).",
-                            "  b = b / 255;",
-                            "124:3 - 124:14",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_mixer
-[operator-assignment] Assignment (=) can be replaced with operator assignment (/=).
-~~~
-const root = document.querySelector(":root");
-
-const colorSpace = document.getElementById("color-space");
-const interpolationMethod = document.getElementById("interpolation-method");
-const interpolationMethodLabel = document.getElementById(
-  "interpolation-method-label",
-);
-
-const colorOneButton = document.getElementById("color-one");
-const colorTwoButton = document.getElementById("color-two");
-const mixedColorDiv = document.getElementById("mixed-color");
-const mixedOutputText = document.getElementById("mix-output-text");
-
-const percentageOneLabel = document.getElementById("percentage-one-label");
-const percentageTwoLabel = document.getElementById("percentage-two-label");
-const percentageOneSlider = document.getElementById("percentage-one");
-const percentageTwoSlider = document.getElementById("percentage-two");
-
-// pop up dialog elements
-const pickerDialog = document.getElementById("picker-dialog");
-const colorTextInput = document.getElementById("color-text");
-const colorInput = document.getElementById("color-input");
-const colorOpacitySlider = document.getElementById("color-opacity");
-const pickerOkButton = document.getElementById("picker-ok-button");
-
-// color output spans
-const hexOutput = document.querySelector("#hex td > span");
-const colorFunctionOutput = document.querySelector("#color-function td > span");
-const rgbFunctionOutput = document.querySelector("#rgb-function td > span");
-const hslFunctionOutput = document.querySelector("#hsl-function td > span");
-const hwbFunctionOutput = document.querySelector("#hwb-function td > span");
-const labFunctionOutput = document.querySelector("#lab-function td > span");
-const oklabFunctionOutput = document.querySelector("#oklab-function td > span");
-const lchFunctionOutput = document.querySelector("#lch-function td > span");
-const oklchFunctionOutput = document.querySelector("#oklch-function td > span");
-const xyzD50FunctionOutput = document.querySelector(
-  "#xyz-d50-function td > span",
-);
-const xyzD65FunctionOutput = document.querySelector(
-  "#xyz-d65-function td > span",
-);
-
-const LRGB_LMS_MATRIX = [
-  [0.4122214708, 0.5363325363, 0.0514459929],
-  [0.2119034982, 0.6806995451, 0.1073969566],
-  [0.0883024619, 0.2817188376, 0.6299787005],
-];
-
-const LMS_LAB_MATRIX = [
-  [+0.2104542553, +0.793617785, -0.0040720468],
-  [+1.9779984951, -2.428592205, +0.4505937099],
-  [+0.0259040371, +0.7827717662, -0.808675766],
-];
-
-// srgb-linear to xyz-d50
-// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
-const LRGB_XYZ_D50_MATRIX = [
-  [0.4360747, 0.3850649, 0.1430804],
-  [0.2225045, 0.7168786, 0.0606169],
-  [0.0139322, 0.0971045, 0.7141733],
-];
-
-// srgb-linear to xyz-d65
-// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
-const LRGB_XYZ_D65_MATRIX = [
-  [0.4124564, 0.3575761, 0.1804375],
-  [0.2126729, 0.7151522, 0.072175],
-  [0.0193339, 0.119192, 0.9503041],
-];
-
-const polarColorSpaces = ["hsl", "hwb", "lch", "oklch"];
-const colorOne = { r: 255, g: 127, b: 80, alpha: 1.0 };
-const colorTwo = { r: 0, g: 255, b: 255, alpha: 1.0 };
-let currentColor = null;
-
-function rgbToLinear(c) {
-  return c <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
-}
-
-function intToHex(i) {
-  return Math.floor(i).toString(16).padStart(2, "0").toUpperCase();
-}
-
-function rgbToHEXText(c) {
-  return \`#\${intToHex(c.r)}\${intToHex(c.g)}\${intToHex(c.b)}\`;
-}
-
-function colorToRGBA(c) {
-  const ctx = new OffscreenCanvas(1, 1).getContext("2d");
-  ctx.fillStyle = c;
-  ctx.fillRect(0, 0, 1, 1);
-  const data = ctx.getImageData(0, 0, 1, 1).data;
-  return {
-    r: data[0],
-    g: data[1],
-    b: data[2],
-    alpha: data[3] / 255,
-  };
-}
-
-function multiplyByMatrix(matrix, tuple) {
-  let i = [0, 0, 0];
-  let j = matrix.length;
-  let k = matrix[0].length;
-  for (let l = 0; l < j; l++)
-    for (let m = 0; m < k; m++) i[l] += matrix[l][m] * tuple[m];
-  return i;
-}
-
-function rgbaToHEXAText(color) {
-  const hexText = rgbToHEXText(color);
-  if (color.alpha === 1.0) {
-    return hexText;
-  }
-  const alpha = intToHex(color.alpha * 255);
-  return \`\${hexText}\${alpha}\`;
-}
-
-function rgbaToHSLA(color) {
-  let { r, g, b, a: alpha } = color;
-  // Let's have r, g, b in the range [0, 1]
-  r = r / 255;
-  g = g / 255;
-  b = b / 255;
-  const min = Math.min(r, g, b);
-  const max = Math.max(r, g, b);
-  const delta = max - min;
-  let h, s, l;
-
-  if (delta === 0) {
-    h = 0;
-  } else if (max === r) {
-    h = ((g - b) / delta) % 6;
-  } else if (max === g) {
-    h = (b - r) / delta + 2;
-  } else h = (r - g) / delta + 4;
-  h = Math.round(h * 60);
-
-  // We want an angle between 0 and 360°
-  if (h < 0) {
-    h += 360;
-  }
-
-  l = (max + min) / 2;
-  s = delta === 0 ? 0 : delta / (1 - Math.abs(2 * l - 1));
-  s = Number((s * 100).toFixed(1));
-  l = Number((l * 100).toFixed(1));
-
-  return { h, s, l, alpha };
-}
-
-function toHSLAText(color) {
-  const { h, s, l, alpha } = rgbaToHSLA(color);
-  return \`hsl(\${h.toFixed(0)} \${s.toFixed(0)}% \${l.toFixed(0)}%\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbaToHWBAText(color) {
-  let { h, s, l, alpha } = rgbaToHSLA(color);
-  const chroma = s * (1 - Math.abs(l / 50 - 1));
-  let W = (l - chroma / 2).toFixed(0);
-  let B = (100 - l - chroma / 2).toFixed(0);
-  return \`hwb(\${h} \${W}% \${B}%\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function rgbaToXYZD50(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255) * 255;
-  g = rgbToLinear(g / 255) * 255;
-  b = rgbToLinear(b / 255) * 255;
-
-  const xyz = multiplyByMatrix(LRGB_XYZ_D50_MATRIX, [r, g, b]);
-  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, a: alpha };
-}
-
-function rgbaToXYZD50Text(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  return \`color(xyz-d50 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function rgbaToXYZD65(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255) * 255;
-  g = rgbToLinear(g / 255) * 255;
-  b = rgbToLinear(b / 255) * 255;
-
-  const xyz = multiplyByMatrix(LRGB_XYZ_D65_MATRIX, [r, g, b]);
-  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, a: alpha };
-}
-
-function rgbaToXYZD65Text(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD65(color);
-  return \`color(xyz-d65 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-const D65 = [0.3457 / 0.3585, 1, 0.2958 / 0.3585];
-function xyzToLab(color) {
-  let { x, y, z, alpha } = color;
-  [x, y, z] = [x, y, z].map((v, i) => {
-    v = v / D65[i];
-    return v > 0.0088564516 ? Math.cbrt(v) : v * 903.2962962962963 + 16 / 116;
-  });
-  return { l: 116 * y - 16, a: 500 * (x - y), b: 200 * (y - z), alpha };
-}
-
-function rgbaToLabText(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  const lab = xyzToLab(xyz);
-  return \`lab(\${lab.l.toFixed(3)} \${lab.a.toFixed(3)} \${lab.b.toFixed(3)}\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbToOklab(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255);
-  g = rgbToLinear(g / 255);
-  b = rgbToLinear(b / 255);
-  const lms = multiplyByMatrix(LRGB_LMS_MATRIX, [r, g, b]).map((v) =>
-    Math.cbrt(v),
-  );
-
-  const oklab = multiplyByMatrix(LMS_LAB_MATRIX, lms);
-  return { l: oklab[0], a: oklab[1], b: oklab[2], a: alpha };
-}
-
-function toOkLabText(color) {
-  let { alpha } = color;
-  const oklab = rgbToOklab(color);
-  return \`oklab(\${oklab.l.toFixed(5)} \${oklab.a.toFixed(5)} \${oklab.b.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function labToLCH(color) {
-  const { l, a, b, alpha } = color;
-  const c = Math.sqrt(a * a + b * b);
-  let h = Math.atan2(b, a) * (180 / Math.PI);
-  if (h < 0) {
-    h += 360;
-  }
-  return { l, c, h, alpha };
-}
-
-function toLCHText(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  const lab = xyzToLab(xyz);
-  const lch = labToLCH(lab);
-  return \`lch(\${lch.l.toFixed(3)} \${lch.c.toFixed(3)} \${lch.h.toFixed(3)}\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbaToOkLCh(color) {
-  const lab = rgbToOklab(color);
-  const oklch = labToLCH(lab);
-  return { l: oklch.l, c: oklch.c, h: oklch.h, alpha: color.alpha };
-}
-
-function toOkLChText(color) {
-  let { alpha } = color;
-  const oklch = rgbaToOkLCh(color);
-  return \`oklch(\${oklch.l.toFixed(5)} \${oklch.c.toFixed(5)} \${oklch.h.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function updateColorMix() {
-  let colorMixFunction = "color-mix(in ";
-
-  root.style.setProperty("--color-space", colorSpace.value);
-  colorMixFunction += colorSpace.value;
-
-  if (polarColorSpaces.includes(colorSpace.value)) {
-    root.style.setProperty("--interpolation-method", interpolationMethod.value);
-    colorMixFunction += \` \${interpolationMethod.value}, \`;
-  } else {
-    root.style.setProperty("--interpolation-method", "");
-    colorMixFunction += \`, \`;
-  }
-  root.style.setProperty(
-    "--color-one",
-    colorOneButton.style.getPropertyValue("background-color"),
-  );
-  root.style.setProperty("--percentage-one", percentageOneSlider.value + "%");
-  colorMixFunction += \`\${rgbaToHEXAText(colorOne)} \${
-    percentageOneSlider.value
-  }%, \`;
-
-  root.style.setProperty(
-    "--color-two",
-    colorTwoButton.style.getPropertyValue("background-color"),
-  );
-  root.style.setProperty("--percentage-two", percentageTwoSlider.value + "%");
-  colorMixFunction += \`\${rgbaToHEXAText(colorTwo)} \${
-    percentageTwoSlider.value
-  }%)\`;
-
-  mixedColorDiv.style.setProperty("background-color", colorMixFunction);
-
-  mixedOutputText.innerText = colorMixFunction;
-  displayOutputColors(window.getComputedStyle(mixedColorDiv).backgroundColor);
-}
-
-function displayOutputColors(color) {
-  let rgbaColor = colorToRGBA(color);
-
-  hexOutput.innerText = rgbaToHEXAText(rgbaColor);
-
-  rgbFunctionOutput.innerText = \`rgb(\${Math.round(rgbaColor.r)} \${Math.round(
-    rgbaColor.g,
-  )} \${Math.round(rgbaColor.b)}\`;
-  if (rgbaColor.alpha && rgbaColor.alpha < 1.0) {
-    rgbFunctionOutput.innerText += \` / \${rgbaColor.alpha.toFixed(3)}\`;
-  }
-  rgbFunctionOutput.innerText += \`)\`;
-
-  colorFunctionOutput.innerText = \`color(srgb \${(rgbaColor.r / 255).toFixed(
-    3,
-  )} \${(rgbaColor.g / 255).toFixed(3)} \${(rgbaColor.b / 255).toFixed(3)}\`;
-  if (rgbaColor.alpha && rgbaColor.alpha < 1.0) {
-    colorFunctionOutput.innerText += \` / \${rgbaColor.alpha.toFixed(3)}\`;
-  }
-  colorFunctionOutput.innerText += \`)\`;
-
-  hslFunctionOutput.innerText = toHSLAText(rgbaColor);
-
-  hwbFunctionOutput.innerText = rgbaToHWBAText(rgbaColor);
-  labFunctionOutput.innerText = rgbaToLabText(rgbaColor);
-  xyzD50FunctionOutput.innerText = rgbaToXYZD50Text(rgbaColor);
-  xyzD65FunctionOutput.innerText = rgbaToXYZD65Text(rgbaColor);
-  lchFunctionOutput.innerText = toLCHText(rgbaColor);
-  oklabFunctionOutput.innerText = toOkLabText(rgbaColor);
-  oklchFunctionOutput.innerText = toOkLChText(rgbaColor);
-}
-
-function setColorToDialog() {
-  colorTextInput.value = rgbaToHEXAText(currentColor);
-  colorInput.value = rgbToHEXText(currentColor);
-  colorOpacitySlider.value = currentColor.alpha;
-}
-
-function init() {
-  percentageOneSlider.addEventListener("input", (e) => {
-    percentageOneLabel.innerText = e.target.value + "%";
-    updateColorMix();
-  });
-
-  percentageTwoSlider.addEventListener("input", (e) => {
-    percentageTwoLabel.innerText = e.target.value + "%";
-    updateColorMix();
-  });
-
-  colorSpace.addEventListener("change", (e) => {
-    if (polarColorSpaces.includes(e.target.value)) {
-      interpolationMethod.style.visibility = "visible";
-      interpolationMethodLabel.style.visibility = "visible";
-    } else {
-      interpolationMethod.style.visibility = "hidden";
-      interpolationMethodLabel.style.visibility = "hidden";
-    }
-    updateColorMix();
-  });
-
-  interpolationMethod.addEventListener("change", () => {
-    updateColorMix();
-  });
-
-  interpolationMethod.style.visibility = "hidden";
-  interpolationMethodLabel.style.visibility = "hidden";
-
-  colorOneButton.addEventListener("click", () => {
-    currentColor = colorOne;
-    setColorToDialog();
-    pickerDialog.showModal();
-  });
-
-  colorTwoButton.addEventListener("click", () => {
-    currentColor = colorTwo;
-    setColorToDialog();
-    pickerDialog.showModal();
-  });
-
-  colorTextInput.addEventListener("input", (e) => {
-    const color = colorToRGBA(e.target.value);
-    Object.assign(currentColor, color);
-    colorInput.value = rgbToHEXText(currentColor);
-    colorOpacitySlider.value = currentColor.alpha;
-  });
-
-  colorInput.addEventListener("input", (e) => {
-    const text = e.target.value;
-    currentColor.r = parseInt(text.slice(1, 3), 16);
-    currentColor.g = parseInt(text.slice(3, 5), 16);
-    currentColor.b = parseInt(text.slice(5, 7), 16);
-    colorTextInput.value = rgbaToHEXAText(currentColor);
-    colorOpacitySlider.value = 1.0;
-  });
-
-  colorOpacitySlider.addEventListener("input", (e) => {
-    const value = parseFloat(e.target.value);
-    if (value >= 0 && value <= 1) {
-      currentColor.alpha = value;
-      colorTextInput.value = rgbaToHEXAText(currentColor);
-    }
-  });
-
-  pickerOkButton.addEventListener("click", () => {
-    colorOneButton.style.setProperty(
-      "background-color",
-      rgbaToHEXAText(colorOne),
-    );
-    colorTwoButton.style.setProperty(
-      "background-color",
-      rgbaToHEXAText(colorTwo),
-    );
-    pickerDialog.close();
-    updateColorMix();
-  });
-
-  document.querySelectorAll("#output-colors button").forEach((button) => {
-    button.addEventListener("click", (e) => {
-      // get parent element
-      const text = e.target.nextElementSibling.innerText;
-      navigator.clipboard.writeText(text);
-      e.target.innerText = "Copied!";
-      setTimeout(() => {
-        e.target.innerText = "Copy";
-      }, 1000);
-    });
-  });
-
-  updateColorMix();
-}
-
-init();
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "operator-assignment",
-                            "Assignment (=) can be replaced with operator assignment (/=).",
-                            "    v = v / D65[i];",
-                            "207:5 - 207:19",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_mixer
-[operator-assignment] Assignment (=) can be replaced with operator assignment (/=).
-~~~
-const root = document.querySelector(":root");
-
-const colorSpace = document.getElementById("color-space");
-const interpolationMethod = document.getElementById("interpolation-method");
-const interpolationMethodLabel = document.getElementById(
-  "interpolation-method-label",
-);
-
-const colorOneButton = document.getElementById("color-one");
-const colorTwoButton = document.getElementById("color-two");
-const mixedColorDiv = document.getElementById("mixed-color");
-const mixedOutputText = document.getElementById("mix-output-text");
-
-const percentageOneLabel = document.getElementById("percentage-one-label");
-const percentageTwoLabel = document.getElementById("percentage-two-label");
-const percentageOneSlider = document.getElementById("percentage-one");
-const percentageTwoSlider = document.getElementById("percentage-two");
-
-// pop up dialog elements
-const pickerDialog = document.getElementById("picker-dialog");
-const colorTextInput = document.getElementById("color-text");
-const colorInput = document.getElementById("color-input");
-const colorOpacitySlider = document.getElementById("color-opacity");
-const pickerOkButton = document.getElementById("picker-ok-button");
-
-// color output spans
-const hexOutput = document.querySelector("#hex td > span");
-const colorFunctionOutput = document.querySelector("#color-function td > span");
-const rgbFunctionOutput = document.querySelector("#rgb-function td > span");
-const hslFunctionOutput = document.querySelector("#hsl-function td > span");
-const hwbFunctionOutput = document.querySelector("#hwb-function td > span");
-const labFunctionOutput = document.querySelector("#lab-function td > span");
-const oklabFunctionOutput = document.querySelector("#oklab-function td > span");
-const lchFunctionOutput = document.querySelector("#lch-function td > span");
-const oklchFunctionOutput = document.querySelector("#oklch-function td > span");
-const xyzD50FunctionOutput = document.querySelector(
-  "#xyz-d50-function td > span",
-);
-const xyzD65FunctionOutput = document.querySelector(
-  "#xyz-d65-function td > span",
-);
-
-const LRGB_LMS_MATRIX = [
-  [0.4122214708, 0.5363325363, 0.0514459929],
-  [0.2119034982, 0.6806995451, 0.1073969566],
-  [0.0883024619, 0.2817188376, 0.6299787005],
-];
-
-const LMS_LAB_MATRIX = [
-  [+0.2104542553, +0.793617785, -0.0040720468],
-  [+1.9779984951, -2.428592205, +0.4505937099],
-  [+0.0259040371, +0.7827717662, -0.808675766],
-];
-
-// srgb-linear to xyz-d50
-// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
-const LRGB_XYZ_D50_MATRIX = [
-  [0.4360747, 0.3850649, 0.1430804],
-  [0.2225045, 0.7168786, 0.0606169],
-  [0.0139322, 0.0971045, 0.7141733],
-];
-
-// srgb-linear to xyz-d65
-// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
-const LRGB_XYZ_D65_MATRIX = [
-  [0.4124564, 0.3575761, 0.1804375],
-  [0.2126729, 0.7151522, 0.072175],
-  [0.0193339, 0.119192, 0.9503041],
-];
-
-const polarColorSpaces = ["hsl", "hwb", "lch", "oklch"];
-const colorOne = { r: 255, g: 127, b: 80, alpha: 1.0 };
-const colorTwo = { r: 0, g: 255, b: 255, alpha: 1.0 };
-let currentColor = null;
-
-function rgbToLinear(c) {
-  return c <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
-}
-
-function intToHex(i) {
-  return Math.floor(i).toString(16).padStart(2, "0").toUpperCase();
-}
-
-function rgbToHEXText(c) {
-  return \`#\${intToHex(c.r)}\${intToHex(c.g)}\${intToHex(c.b)}\`;
-}
-
-function colorToRGBA(c) {
-  const ctx = new OffscreenCanvas(1, 1).getContext("2d");
-  ctx.fillStyle = c;
-  ctx.fillRect(0, 0, 1, 1);
-  const data = ctx.getImageData(0, 0, 1, 1).data;
-  return {
-    r: data[0],
-    g: data[1],
-    b: data[2],
-    alpha: data[3] / 255,
-  };
-}
-
-function multiplyByMatrix(matrix, tuple) {
-  let i = [0, 0, 0];
-  let j = matrix.length;
-  let k = matrix[0].length;
-  for (let l = 0; l < j; l++)
-    for (let m = 0; m < k; m++) i[l] += matrix[l][m] * tuple[m];
-  return i;
-}
-
-function rgbaToHEXAText(color) {
-  const hexText = rgbToHEXText(color);
-  if (color.alpha === 1.0) {
-    return hexText;
-  }
-  const alpha = intToHex(color.alpha * 255);
-  return \`\${hexText}\${alpha}\`;
-}
-
-function rgbaToHSLA(color) {
-  let { r, g, b, a: alpha } = color;
-  // Let's have r, g, b in the range [0, 1]
-  r = r / 255;
-  g = g / 255;
-  b = b / 255;
-  const min = Math.min(r, g, b);
-  const max = Math.max(r, g, b);
-  const delta = max - min;
-  let h, s, l;
-
-  if (delta === 0) {
-    h = 0;
-  } else if (max === r) {
-    h = ((g - b) / delta) % 6;
-  } else if (max === g) {
-    h = (b - r) / delta + 2;
-  } else h = (r - g) / delta + 4;
-  h = Math.round(h * 60);
-
-  // We want an angle between 0 and 360°
-  if (h < 0) {
-    h += 360;
-  }
-
-  l = (max + min) / 2;
-  s = delta === 0 ? 0 : delta / (1 - Math.abs(2 * l - 1));
-  s = Number((s * 100).toFixed(1));
-  l = Number((l * 100).toFixed(1));
-
-  return { h, s, l, alpha };
-}
-
-function toHSLAText(color) {
-  const { h, s, l, alpha } = rgbaToHSLA(color);
-  return \`hsl(\${h.toFixed(0)} \${s.toFixed(0)}% \${l.toFixed(0)}%\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbaToHWBAText(color) {
-  let { h, s, l, alpha } = rgbaToHSLA(color);
-  const chroma = s * (1 - Math.abs(l / 50 - 1));
-  let W = (l - chroma / 2).toFixed(0);
-  let B = (100 - l - chroma / 2).toFixed(0);
-  return \`hwb(\${h} \${W}% \${B}%\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function rgbaToXYZD50(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255) * 255;
-  g = rgbToLinear(g / 255) * 255;
-  b = rgbToLinear(b / 255) * 255;
-
-  const xyz = multiplyByMatrix(LRGB_XYZ_D50_MATRIX, [r, g, b]);
-  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, a: alpha };
-}
-
-function rgbaToXYZD50Text(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  return \`color(xyz-d50 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function rgbaToXYZD65(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255) * 255;
-  g = rgbToLinear(g / 255) * 255;
-  b = rgbToLinear(b / 255) * 255;
-
-  const xyz = multiplyByMatrix(LRGB_XYZ_D65_MATRIX, [r, g, b]);
-  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, a: alpha };
-}
-
-function rgbaToXYZD65Text(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD65(color);
-  return \`color(xyz-d65 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-const D65 = [0.3457 / 0.3585, 1, 0.2958 / 0.3585];
-function xyzToLab(color) {
-  let { x, y, z, alpha } = color;
-  [x, y, z] = [x, y, z].map((v, i) => {
-    v = v / D65[i];
-    return v > 0.0088564516 ? Math.cbrt(v) : v * 903.2962962962963 + 16 / 116;
-  });
-  return { l: 116 * y - 16, a: 500 * (x - y), b: 200 * (y - z), alpha };
-}
-
-function rgbaToLabText(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  const lab = xyzToLab(xyz);
-  return \`lab(\${lab.l.toFixed(3)} \${lab.a.toFixed(3)} \${lab.b.toFixed(3)}\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbToOklab(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255);
-  g = rgbToLinear(g / 255);
-  b = rgbToLinear(b / 255);
-  const lms = multiplyByMatrix(LRGB_LMS_MATRIX, [r, g, b]).map((v) =>
-    Math.cbrt(v),
-  );
-
-  const oklab = multiplyByMatrix(LMS_LAB_MATRIX, lms);
-  return { l: oklab[0], a: oklab[1], b: oklab[2], a: alpha };
-}
-
-function toOkLabText(color) {
-  let { alpha } = color;
-  const oklab = rgbToOklab(color);
-  return \`oklab(\${oklab.l.toFixed(5)} \${oklab.a.toFixed(5)} \${oklab.b.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function labToLCH(color) {
-  const { l, a, b, alpha } = color;
-  const c = Math.sqrt(a * a + b * b);
-  let h = Math.atan2(b, a) * (180 / Math.PI);
-  if (h < 0) {
-    h += 360;
-  }
-  return { l, c, h, alpha };
-}
-
-function toLCHText(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  const lab = xyzToLab(xyz);
-  const lch = labToLCH(lab);
-  return \`lch(\${lch.l.toFixed(3)} \${lch.c.toFixed(3)} \${lch.h.toFixed(3)}\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbaToOkLCh(color) {
-  const lab = rgbToOklab(color);
-  const oklch = labToLCH(lab);
-  return { l: oklch.l, c: oklch.c, h: oklch.h, alpha: color.alpha };
-}
-
-function toOkLChText(color) {
-  let { alpha } = color;
-  const oklch = rgbaToOkLCh(color);
-  return \`oklch(\${oklch.l.toFixed(5)} \${oklch.c.toFixed(5)} \${oklch.h.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function updateColorMix() {
-  let colorMixFunction = "color-mix(in ";
-
-  root.style.setProperty("--color-space", colorSpace.value);
-  colorMixFunction += colorSpace.value;
-
-  if (polarColorSpaces.includes(colorSpace.value)) {
-    root.style.setProperty("--interpolation-method", interpolationMethod.value);
-    colorMixFunction += \` \${interpolationMethod.value}, \`;
-  } else {
-    root.style.setProperty("--interpolation-method", "");
-    colorMixFunction += \`, \`;
-  }
-  root.style.setProperty(
-    "--color-one",
-    colorOneButton.style.getPropertyValue("background-color"),
-  );
-  root.style.setProperty("--percentage-one", percentageOneSlider.value + "%");
-  colorMixFunction += \`\${rgbaToHEXAText(colorOne)} \${
-    percentageOneSlider.value
-  }%, \`;
-
-  root.style.setProperty(
-    "--color-two",
-    colorTwoButton.style.getPropertyValue("background-color"),
-  );
-  root.style.setProperty("--percentage-two", percentageTwoSlider.value + "%");
-  colorMixFunction += \`\${rgbaToHEXAText(colorTwo)} \${
-    percentageTwoSlider.value
-  }%)\`;
-
-  mixedColorDiv.style.setProperty("background-color", colorMixFunction);
-
-  mixedOutputText.innerText = colorMixFunction;
-  displayOutputColors(window.getComputedStyle(mixedColorDiv).backgroundColor);
-}
-
-function displayOutputColors(color) {
-  let rgbaColor = colorToRGBA(color);
-
-  hexOutput.innerText = rgbaToHEXAText(rgbaColor);
-
-  rgbFunctionOutput.innerText = \`rgb(\${Math.round(rgbaColor.r)} \${Math.round(
-    rgbaColor.g,
-  )} \${Math.round(rgbaColor.b)}\`;
-  if (rgbaColor.alpha && rgbaColor.alpha < 1.0) {
-    rgbFunctionOutput.innerText += \` / \${rgbaColor.alpha.toFixed(3)}\`;
-  }
-  rgbFunctionOutput.innerText += \`)\`;
-
-  colorFunctionOutput.innerText = \`color(srgb \${(rgbaColor.r / 255).toFixed(
-    3,
-  )} \${(rgbaColor.g / 255).toFixed(3)} \${(rgbaColor.b / 255).toFixed(3)}\`;
-  if (rgbaColor.alpha && rgbaColor.alpha < 1.0) {
-    colorFunctionOutput.innerText += \` / \${rgbaColor.alpha.toFixed(3)}\`;
-  }
-  colorFunctionOutput.innerText += \`)\`;
-
-  hslFunctionOutput.innerText = toHSLAText(rgbaColor);
-
-  hwbFunctionOutput.innerText = rgbaToHWBAText(rgbaColor);
-  labFunctionOutput.innerText = rgbaToLabText(rgbaColor);
-  xyzD50FunctionOutput.innerText = rgbaToXYZD50Text(rgbaColor);
-  xyzD65FunctionOutput.innerText = rgbaToXYZD65Text(rgbaColor);
-  lchFunctionOutput.innerText = toLCHText(rgbaColor);
-  oklabFunctionOutput.innerText = toOkLabText(rgbaColor);
-  oklchFunctionOutput.innerText = toOkLChText(rgbaColor);
-}
-
-function setColorToDialog() {
-  colorTextInput.value = rgbaToHEXAText(currentColor);
-  colorInput.value = rgbToHEXText(currentColor);
-  colorOpacitySlider.value = currentColor.alpha;
-}
-
-function init() {
-  percentageOneSlider.addEventListener("input", (e) => {
-    percentageOneLabel.innerText = e.target.value + "%";
-    updateColorMix();
-  });
-
-  percentageTwoSlider.addEventListener("input", (e) => {
-    percentageTwoLabel.innerText = e.target.value + "%";
-    updateColorMix();
-  });
-
-  colorSpace.addEventListener("change", (e) => {
-    if (polarColorSpaces.includes(e.target.value)) {
-      interpolationMethod.style.visibility = "visible";
-      interpolationMethodLabel.style.visibility = "visible";
-    } else {
-      interpolationMethod.style.visibility = "hidden";
-      interpolationMethodLabel.style.visibility = "hidden";
-    }
-    updateColorMix();
-  });
-
-  interpolationMethod.addEventListener("change", () => {
-    updateColorMix();
-  });
-
-  interpolationMethod.style.visibility = "hidden";
-  interpolationMethodLabel.style.visibility = "hidden";
-
-  colorOneButton.addEventListener("click", () => {
-    currentColor = colorOne;
-    setColorToDialog();
-    pickerDialog.showModal();
-  });
-
-  colorTwoButton.addEventListener("click", () => {
-    currentColor = colorTwo;
-    setColorToDialog();
-    pickerDialog.showModal();
-  });
-
-  colorTextInput.addEventListener("input", (e) => {
-    const color = colorToRGBA(e.target.value);
-    Object.assign(currentColor, color);
-    colorInput.value = rgbToHEXText(currentColor);
-    colorOpacitySlider.value = currentColor.alpha;
-  });
-
-  colorInput.addEventListener("input", (e) => {
-    const text = e.target.value;
-    currentColor.r = parseInt(text.slice(1, 3), 16);
-    currentColor.g = parseInt(text.slice(3, 5), 16);
-    currentColor.b = parseInt(text.slice(5, 7), 16);
-    colorTextInput.value = rgbaToHEXAText(currentColor);
-    colorOpacitySlider.value = 1.0;
-  });
-
-  colorOpacitySlider.addEventListener("input", (e) => {
-    const value = parseFloat(e.target.value);
-    if (value >= 0 && value <= 1) {
-      currentColor.alpha = value;
-      colorTextInput.value = rgbaToHEXAText(currentColor);
-    }
-  });
-
-  pickerOkButton.addEventListener("click", () => {
-    colorOneButton.style.setProperty(
-      "background-color",
-      rgbaToHEXAText(colorOne),
-    );
-    colorTwoButton.style.setProperty(
-      "background-color",
-      rgbaToHEXAText(colorTwo),
-    );
-    pickerDialog.close();
-    updateColorMix();
-  });
-
-  document.querySelectorAll("#output-colors button").forEach((button) => {
-    button.addEventListener("click", (e) => {
-      // get parent element
-      const text = e.target.nextElementSibling.innerText;
-      navigator.clipboard.writeText(text);
-      e.target.innerText = "Copied!";
-      setTimeout(() => {
-        e.target.innerText = "Copy";
-      }, 1000);
-    });
-  });
-
-  updateColorMix();
-}
-
-init();
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-dupe-keys",
-                            "Duplicate key 'a'.",
-                            "  return { l: oklab[0], a: oklab[1], b: oklab[2], a: alpha };",
-                            "232:51 - 232:52",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_mixer
-[no-dupe-keys] Duplicate key 'a'.
-~~~
-const root = document.querySelector(":root");
-
-const colorSpace = document.getElementById("color-space");
-const interpolationMethod = document.getElementById("interpolation-method");
-const interpolationMethodLabel = document.getElementById(
-  "interpolation-method-label",
-);
-
-const colorOneButton = document.getElementById("color-one");
-const colorTwoButton = document.getElementById("color-two");
-const mixedColorDiv = document.getElementById("mixed-color");
-const mixedOutputText = document.getElementById("mix-output-text");
-
-const percentageOneLabel = document.getElementById("percentage-one-label");
-const percentageTwoLabel = document.getElementById("percentage-two-label");
-const percentageOneSlider = document.getElementById("percentage-one");
-const percentageTwoSlider = document.getElementById("percentage-two");
-
-// pop up dialog elements
-const pickerDialog = document.getElementById("picker-dialog");
-const colorTextInput = document.getElementById("color-text");
-const colorInput = document.getElementById("color-input");
-const colorOpacitySlider = document.getElementById("color-opacity");
-const pickerOkButton = document.getElementById("picker-ok-button");
-
-// color output spans
-const hexOutput = document.querySelector("#hex td > span");
-const colorFunctionOutput = document.querySelector("#color-function td > span");
-const rgbFunctionOutput = document.querySelector("#rgb-function td > span");
-const hslFunctionOutput = document.querySelector("#hsl-function td > span");
-const hwbFunctionOutput = document.querySelector("#hwb-function td > span");
-const labFunctionOutput = document.querySelector("#lab-function td > span");
-const oklabFunctionOutput = document.querySelector("#oklab-function td > span");
-const lchFunctionOutput = document.querySelector("#lch-function td > span");
-const oklchFunctionOutput = document.querySelector("#oklch-function td > span");
-const xyzD50FunctionOutput = document.querySelector(
-  "#xyz-d50-function td > span",
-);
-const xyzD65FunctionOutput = document.querySelector(
-  "#xyz-d65-function td > span",
-);
-
-const LRGB_LMS_MATRIX = [
-  [0.4122214708, 0.5363325363, 0.0514459929],
-  [0.2119034982, 0.6806995451, 0.1073969566],
-  [0.0883024619, 0.2817188376, 0.6299787005],
-];
-
-const LMS_LAB_MATRIX = [
-  [+0.2104542553, +0.793617785, -0.0040720468],
-  [+1.9779984951, -2.428592205, +0.4505937099],
-  [+0.0259040371, +0.7827717662, -0.808675766],
-];
-
-// srgb-linear to xyz-d50
-// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
-const LRGB_XYZ_D50_MATRIX = [
-  [0.4360747, 0.3850649, 0.1430804],
-  [0.2225045, 0.7168786, 0.0606169],
-  [0.0139322, 0.0971045, 0.7141733],
-];
-
-// srgb-linear to xyz-d65
-// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
-const LRGB_XYZ_D65_MATRIX = [
-  [0.4124564, 0.3575761, 0.1804375],
-  [0.2126729, 0.7151522, 0.072175],
-  [0.0193339, 0.119192, 0.9503041],
-];
-
-const polarColorSpaces = ["hsl", "hwb", "lch", "oklch"];
-const colorOne = { r: 255, g: 127, b: 80, alpha: 1.0 };
-const colorTwo = { r: 0, g: 255, b: 255, alpha: 1.0 };
-let currentColor = null;
-
-function rgbToLinear(c) {
-  return c <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
-}
-
-function intToHex(i) {
-  return Math.floor(i).toString(16).padStart(2, "0").toUpperCase();
-}
-
-function rgbToHEXText(c) {
-  return \`#\${intToHex(c.r)}\${intToHex(c.g)}\${intToHex(c.b)}\`;
-}
-
-function colorToRGBA(c) {
-  const ctx = new OffscreenCanvas(1, 1).getContext("2d");
-  ctx.fillStyle = c;
-  ctx.fillRect(0, 0, 1, 1);
-  const data = ctx.getImageData(0, 0, 1, 1).data;
-  return {
-    r: data[0],
-    g: data[1],
-    b: data[2],
-    alpha: data[3] / 255,
-  };
-}
-
-function multiplyByMatrix(matrix, tuple) {
-  let i = [0, 0, 0];
-  let j = matrix.length;
-  let k = matrix[0].length;
-  for (let l = 0; l < j; l++)
-    for (let m = 0; m < k; m++) i[l] += matrix[l][m] * tuple[m];
-  return i;
-}
-
-function rgbaToHEXAText(color) {
-  const hexText = rgbToHEXText(color);
-  if (color.alpha === 1.0) {
-    return hexText;
-  }
-  const alpha = intToHex(color.alpha * 255);
-  return \`\${hexText}\${alpha}\`;
-}
-
-function rgbaToHSLA(color) {
-  let { r, g, b, a: alpha } = color;
-  // Let's have r, g, b in the range [0, 1]
-  r = r / 255;
-  g = g / 255;
-  b = b / 255;
-  const min = Math.min(r, g, b);
-  const max = Math.max(r, g, b);
-  const delta = max - min;
-  let h, s, l;
-
-  if (delta === 0) {
-    h = 0;
-  } else if (max === r) {
-    h = ((g - b) / delta) % 6;
-  } else if (max === g) {
-    h = (b - r) / delta + 2;
-  } else h = (r - g) / delta + 4;
-  h = Math.round(h * 60);
-
-  // We want an angle between 0 and 360°
-  if (h < 0) {
-    h += 360;
-  }
-
-  l = (max + min) / 2;
-  s = delta === 0 ? 0 : delta / (1 - Math.abs(2 * l - 1));
-  s = Number((s * 100).toFixed(1));
-  l = Number((l * 100).toFixed(1));
-
-  return { h, s, l, alpha };
-}
-
-function toHSLAText(color) {
-  const { h, s, l, alpha } = rgbaToHSLA(color);
-  return \`hsl(\${h.toFixed(0)} \${s.toFixed(0)}% \${l.toFixed(0)}%\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbaToHWBAText(color) {
-  let { h, s, l, alpha } = rgbaToHSLA(color);
-  const chroma = s * (1 - Math.abs(l / 50 - 1));
-  let W = (l - chroma / 2).toFixed(0);
-  let B = (100 - l - chroma / 2).toFixed(0);
-  return \`hwb(\${h} \${W}% \${B}%\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function rgbaToXYZD50(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255) * 255;
-  g = rgbToLinear(g / 255) * 255;
-  b = rgbToLinear(b / 255) * 255;
-
-  const xyz = multiplyByMatrix(LRGB_XYZ_D50_MATRIX, [r, g, b]);
-  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, a: alpha };
-}
-
-function rgbaToXYZD50Text(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  return \`color(xyz-d50 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function rgbaToXYZD65(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255) * 255;
-  g = rgbToLinear(g / 255) * 255;
-  b = rgbToLinear(b / 255) * 255;
-
-  const xyz = multiplyByMatrix(LRGB_XYZ_D65_MATRIX, [r, g, b]);
-  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, a: alpha };
-}
-
-function rgbaToXYZD65Text(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD65(color);
-  return \`color(xyz-d65 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-const D65 = [0.3457 / 0.3585, 1, 0.2958 / 0.3585];
-function xyzToLab(color) {
-  let { x, y, z, alpha } = color;
-  [x, y, z] = [x, y, z].map((v, i) => {
-    v = v / D65[i];
-    return v > 0.0088564516 ? Math.cbrt(v) : v * 903.2962962962963 + 16 / 116;
-  });
-  return { l: 116 * y - 16, a: 500 * (x - y), b: 200 * (y - z), alpha };
-}
-
-function rgbaToLabText(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  const lab = xyzToLab(xyz);
-  return \`lab(\${lab.l.toFixed(3)} \${lab.a.toFixed(3)} \${lab.b.toFixed(3)}\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbToOklab(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255);
-  g = rgbToLinear(g / 255);
-  b = rgbToLinear(b / 255);
-  const lms = multiplyByMatrix(LRGB_LMS_MATRIX, [r, g, b]).map((v) =>
-    Math.cbrt(v),
-  );
-
-  const oklab = multiplyByMatrix(LMS_LAB_MATRIX, lms);
-  return { l: oklab[0], a: oklab[1], b: oklab[2], a: alpha };
-}
-
-function toOkLabText(color) {
-  let { alpha } = color;
-  const oklab = rgbToOklab(color);
-  return \`oklab(\${oklab.l.toFixed(5)} \${oklab.a.toFixed(5)} \${oklab.b.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function labToLCH(color) {
-  const { l, a, b, alpha } = color;
-  const c = Math.sqrt(a * a + b * b);
-  let h = Math.atan2(b, a) * (180 / Math.PI);
-  if (h < 0) {
-    h += 360;
-  }
-  return { l, c, h, alpha };
-}
-
-function toLCHText(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  const lab = xyzToLab(xyz);
-  const lch = labToLCH(lab);
-  return \`lch(\${lch.l.toFixed(3)} \${lch.c.toFixed(3)} \${lch.h.toFixed(3)}\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbaToOkLCh(color) {
-  const lab = rgbToOklab(color);
-  const oklch = labToLCH(lab);
-  return { l: oklch.l, c: oklch.c, h: oklch.h, alpha: color.alpha };
-}
-
-function toOkLChText(color) {
-  let { alpha } = color;
-  const oklch = rgbaToOkLCh(color);
-  return \`oklch(\${oklch.l.toFixed(5)} \${oklch.c.toFixed(5)} \${oklch.h.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function updateColorMix() {
-  let colorMixFunction = "color-mix(in ";
-
-  root.style.setProperty("--color-space", colorSpace.value);
-  colorMixFunction += colorSpace.value;
-
-  if (polarColorSpaces.includes(colorSpace.value)) {
-    root.style.setProperty("--interpolation-method", interpolationMethod.value);
-    colorMixFunction += \` \${interpolationMethod.value}, \`;
-  } else {
-    root.style.setProperty("--interpolation-method", "");
-    colorMixFunction += \`, \`;
-  }
-  root.style.setProperty(
-    "--color-one",
-    colorOneButton.style.getPropertyValue("background-color"),
-  );
-  root.style.setProperty("--percentage-one", percentageOneSlider.value + "%");
-  colorMixFunction += \`\${rgbaToHEXAText(colorOne)} \${
-    percentageOneSlider.value
-  }%, \`;
-
-  root.style.setProperty(
-    "--color-two",
-    colorTwoButton.style.getPropertyValue("background-color"),
-  );
-  root.style.setProperty("--percentage-two", percentageTwoSlider.value + "%");
-  colorMixFunction += \`\${rgbaToHEXAText(colorTwo)} \${
-    percentageTwoSlider.value
-  }%)\`;
-
-  mixedColorDiv.style.setProperty("background-color", colorMixFunction);
-
-  mixedOutputText.innerText = colorMixFunction;
-  displayOutputColors(window.getComputedStyle(mixedColorDiv).backgroundColor);
-}
-
-function displayOutputColors(color) {
-  let rgbaColor = colorToRGBA(color);
-
-  hexOutput.innerText = rgbaToHEXAText(rgbaColor);
-
-  rgbFunctionOutput.innerText = \`rgb(\${Math.round(rgbaColor.r)} \${Math.round(
-    rgbaColor.g,
-  )} \${Math.round(rgbaColor.b)}\`;
-  if (rgbaColor.alpha && rgbaColor.alpha < 1.0) {
-    rgbFunctionOutput.innerText += \` / \${rgbaColor.alpha.toFixed(3)}\`;
-  }
-  rgbFunctionOutput.innerText += \`)\`;
-
-  colorFunctionOutput.innerText = \`color(srgb \${(rgbaColor.r / 255).toFixed(
-    3,
-  )} \${(rgbaColor.g / 255).toFixed(3)} \${(rgbaColor.b / 255).toFixed(3)}\`;
-  if (rgbaColor.alpha && rgbaColor.alpha < 1.0) {
-    colorFunctionOutput.innerText += \` / \${rgbaColor.alpha.toFixed(3)}\`;
-  }
-  colorFunctionOutput.innerText += \`)\`;
-
-  hslFunctionOutput.innerText = toHSLAText(rgbaColor);
-
-  hwbFunctionOutput.innerText = rgbaToHWBAText(rgbaColor);
-  labFunctionOutput.innerText = rgbaToLabText(rgbaColor);
-  xyzD50FunctionOutput.innerText = rgbaToXYZD50Text(rgbaColor);
-  xyzD65FunctionOutput.innerText = rgbaToXYZD65Text(rgbaColor);
-  lchFunctionOutput.innerText = toLCHText(rgbaColor);
-  oklabFunctionOutput.innerText = toOkLabText(rgbaColor);
-  oklchFunctionOutput.innerText = toOkLChText(rgbaColor);
-}
-
-function setColorToDialog() {
-  colorTextInput.value = rgbaToHEXAText(currentColor);
-  colorInput.value = rgbToHEXText(currentColor);
-  colorOpacitySlider.value = currentColor.alpha;
-}
-
-function init() {
-  percentageOneSlider.addEventListener("input", (e) => {
-    percentageOneLabel.innerText = e.target.value + "%";
-    updateColorMix();
-  });
-
-  percentageTwoSlider.addEventListener("input", (e) => {
-    percentageTwoLabel.innerText = e.target.value + "%";
-    updateColorMix();
-  });
-
-  colorSpace.addEventListener("change", (e) => {
-    if (polarColorSpaces.includes(e.target.value)) {
-      interpolationMethod.style.visibility = "visible";
-      interpolationMethodLabel.style.visibility = "visible";
-    } else {
-      interpolationMethod.style.visibility = "hidden";
-      interpolationMethodLabel.style.visibility = "hidden";
-    }
-    updateColorMix();
-  });
-
-  interpolationMethod.addEventListener("change", () => {
-    updateColorMix();
-  });
-
-  interpolationMethod.style.visibility = "hidden";
-  interpolationMethodLabel.style.visibility = "hidden";
-
-  colorOneButton.addEventListener("click", () => {
-    currentColor = colorOne;
-    setColorToDialog();
-    pickerDialog.showModal();
-  });
-
-  colorTwoButton.addEventListener("click", () => {
-    currentColor = colorTwo;
-    setColorToDialog();
-    pickerDialog.showModal();
-  });
-
-  colorTextInput.addEventListener("input", (e) => {
-    const color = colorToRGBA(e.target.value);
-    Object.assign(currentColor, color);
-    colorInput.value = rgbToHEXText(currentColor);
-    colorOpacitySlider.value = currentColor.alpha;
-  });
-
-  colorInput.addEventListener("input", (e) => {
-    const text = e.target.value;
-    currentColor.r = parseInt(text.slice(1, 3), 16);
-    currentColor.g = parseInt(text.slice(3, 5), 16);
-    currentColor.b = parseInt(text.slice(5, 7), 16);
-    colorTextInput.value = rgbaToHEXAText(currentColor);
-    colorOpacitySlider.value = 1.0;
-  });
-
-  colorOpacitySlider.addEventListener("input", (e) => {
-    const value = parseFloat(e.target.value);
-    if (value >= 0 && value <= 1) {
-      currentColor.alpha = value;
-      colorTextInput.value = rgbaToHEXAText(currentColor);
-    }
-  });
-
-  pickerOkButton.addEventListener("click", () => {
-    colorOneButton.style.setProperty(
-      "background-color",
-      rgbaToHEXAText(colorOne),
-    );
-    colorTwoButton.style.setProperty(
-      "background-color",
-      rgbaToHEXAText(colorTwo),
-    );
-    pickerDialog.close();
-    updateColorMix();
-  });
-
-  document.querySelectorAll("#output-colors button").forEach((button) => {
-    button.addEventListener("click", (e) => {
-      // get parent element
-      const text = e.target.nextElementSibling.innerText;
-      navigator.clipboard.writeText(text);
-      e.target.innerText = "Copied!";
-      setTimeout(() => {
-        e.target.innerText = "Copy";
-      }, 1000);
-    });
-  });
-
-  updateColorMix();
-}
-
-init();
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-template",
-                            "Unexpected string concatenation.",
-                            '  root.style.setProperty("--percentage-one", percentageOneSlider.value + "%");',
-                            "294:46 - 294:77",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_mixer
-[prefer-template] Unexpected string concatenation.
-~~~
-const root = document.querySelector(":root");
-
-const colorSpace = document.getElementById("color-space");
-const interpolationMethod = document.getElementById("interpolation-method");
-const interpolationMethodLabel = document.getElementById(
-  "interpolation-method-label",
-);
-
-const colorOneButton = document.getElementById("color-one");
-const colorTwoButton = document.getElementById("color-two");
-const mixedColorDiv = document.getElementById("mixed-color");
-const mixedOutputText = document.getElementById("mix-output-text");
-
-const percentageOneLabel = document.getElementById("percentage-one-label");
-const percentageTwoLabel = document.getElementById("percentage-two-label");
-const percentageOneSlider = document.getElementById("percentage-one");
-const percentageTwoSlider = document.getElementById("percentage-two");
-
-// pop up dialog elements
-const pickerDialog = document.getElementById("picker-dialog");
-const colorTextInput = document.getElementById("color-text");
-const colorInput = document.getElementById("color-input");
-const colorOpacitySlider = document.getElementById("color-opacity");
-const pickerOkButton = document.getElementById("picker-ok-button");
-
-// color output spans
-const hexOutput = document.querySelector("#hex td > span");
-const colorFunctionOutput = document.querySelector("#color-function td > span");
-const rgbFunctionOutput = document.querySelector("#rgb-function td > span");
-const hslFunctionOutput = document.querySelector("#hsl-function td > span");
-const hwbFunctionOutput = document.querySelector("#hwb-function td > span");
-const labFunctionOutput = document.querySelector("#lab-function td > span");
-const oklabFunctionOutput = document.querySelector("#oklab-function td > span");
-const lchFunctionOutput = document.querySelector("#lch-function td > span");
-const oklchFunctionOutput = document.querySelector("#oklch-function td > span");
-const xyzD50FunctionOutput = document.querySelector(
-  "#xyz-d50-function td > span",
-);
-const xyzD65FunctionOutput = document.querySelector(
-  "#xyz-d65-function td > span",
-);
-
-const LRGB_LMS_MATRIX = [
-  [0.4122214708, 0.5363325363, 0.0514459929],
-  [0.2119034982, 0.6806995451, 0.1073969566],
-  [0.0883024619, 0.2817188376, 0.6299787005],
-];
-
-const LMS_LAB_MATRIX = [
-  [+0.2104542553, +0.793617785, -0.0040720468],
-  [+1.9779984951, -2.428592205, +0.4505937099],
-  [+0.0259040371, +0.7827717662, -0.808675766],
-];
-
-// srgb-linear to xyz-d50
-// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
-const LRGB_XYZ_D50_MATRIX = [
-  [0.4360747, 0.3850649, 0.1430804],
-  [0.2225045, 0.7168786, 0.0606169],
-  [0.0139322, 0.0971045, 0.7141733],
-];
-
-// srgb-linear to xyz-d65
-// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
-const LRGB_XYZ_D65_MATRIX = [
-  [0.4124564, 0.3575761, 0.1804375],
-  [0.2126729, 0.7151522, 0.072175],
-  [0.0193339, 0.119192, 0.9503041],
-];
-
-const polarColorSpaces = ["hsl", "hwb", "lch", "oklch"];
-const colorOne = { r: 255, g: 127, b: 80, alpha: 1.0 };
-const colorTwo = { r: 0, g: 255, b: 255, alpha: 1.0 };
-let currentColor = null;
-
-function rgbToLinear(c) {
-  return c <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
-}
-
-function intToHex(i) {
-  return Math.floor(i).toString(16).padStart(2, "0").toUpperCase();
-}
-
-function rgbToHEXText(c) {
-  return \`#\${intToHex(c.r)}\${intToHex(c.g)}\${intToHex(c.b)}\`;
-}
-
-function colorToRGBA(c) {
-  const ctx = new OffscreenCanvas(1, 1).getContext("2d");
-  ctx.fillStyle = c;
-  ctx.fillRect(0, 0, 1, 1);
-  const data = ctx.getImageData(0, 0, 1, 1).data;
-  return {
-    r: data[0],
-    g: data[1],
-    b: data[2],
-    alpha: data[3] / 255,
-  };
-}
-
-function multiplyByMatrix(matrix, tuple) {
-  let i = [0, 0, 0];
-  let j = matrix.length;
-  let k = matrix[0].length;
-  for (let l = 0; l < j; l++)
-    for (let m = 0; m < k; m++) i[l] += matrix[l][m] * tuple[m];
-  return i;
-}
-
-function rgbaToHEXAText(color) {
-  const hexText = rgbToHEXText(color);
-  if (color.alpha === 1.0) {
-    return hexText;
-  }
-  const alpha = intToHex(color.alpha * 255);
-  return \`\${hexText}\${alpha}\`;
-}
-
-function rgbaToHSLA(color) {
-  let { r, g, b, a: alpha } = color;
-  // Let's have r, g, b in the range [0, 1]
-  r = r / 255;
-  g = g / 255;
-  b = b / 255;
-  const min = Math.min(r, g, b);
-  const max = Math.max(r, g, b);
-  const delta = max - min;
-  let h, s, l;
-
-  if (delta === 0) {
-    h = 0;
-  } else if (max === r) {
-    h = ((g - b) / delta) % 6;
-  } else if (max === g) {
-    h = (b - r) / delta + 2;
-  } else h = (r - g) / delta + 4;
-  h = Math.round(h * 60);
-
-  // We want an angle between 0 and 360°
-  if (h < 0) {
-    h += 360;
-  }
-
-  l = (max + min) / 2;
-  s = delta === 0 ? 0 : delta / (1 - Math.abs(2 * l - 1));
-  s = Number((s * 100).toFixed(1));
-  l = Number((l * 100).toFixed(1));
-
-  return { h, s, l, alpha };
-}
-
-function toHSLAText(color) {
-  const { h, s, l, alpha } = rgbaToHSLA(color);
-  return \`hsl(\${h.toFixed(0)} \${s.toFixed(0)}% \${l.toFixed(0)}%\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbaToHWBAText(color) {
-  let { h, s, l, alpha } = rgbaToHSLA(color);
-  const chroma = s * (1 - Math.abs(l / 50 - 1));
-  let W = (l - chroma / 2).toFixed(0);
-  let B = (100 - l - chroma / 2).toFixed(0);
-  return \`hwb(\${h} \${W}% \${B}%\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function rgbaToXYZD50(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255) * 255;
-  g = rgbToLinear(g / 255) * 255;
-  b = rgbToLinear(b / 255) * 255;
-
-  const xyz = multiplyByMatrix(LRGB_XYZ_D50_MATRIX, [r, g, b]);
-  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, a: alpha };
-}
-
-function rgbaToXYZD50Text(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  return \`color(xyz-d50 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function rgbaToXYZD65(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255) * 255;
-  g = rgbToLinear(g / 255) * 255;
-  b = rgbToLinear(b / 255) * 255;
-
-  const xyz = multiplyByMatrix(LRGB_XYZ_D65_MATRIX, [r, g, b]);
-  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, a: alpha };
-}
-
-function rgbaToXYZD65Text(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD65(color);
-  return \`color(xyz-d65 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-const D65 = [0.3457 / 0.3585, 1, 0.2958 / 0.3585];
-function xyzToLab(color) {
-  let { x, y, z, alpha } = color;
-  [x, y, z] = [x, y, z].map((v, i) => {
-    v = v / D65[i];
-    return v > 0.0088564516 ? Math.cbrt(v) : v * 903.2962962962963 + 16 / 116;
-  });
-  return { l: 116 * y - 16, a: 500 * (x - y), b: 200 * (y - z), alpha };
-}
-
-function rgbaToLabText(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  const lab = xyzToLab(xyz);
-  return \`lab(\${lab.l.toFixed(3)} \${lab.a.toFixed(3)} \${lab.b.toFixed(3)}\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbToOklab(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255);
-  g = rgbToLinear(g / 255);
-  b = rgbToLinear(b / 255);
-  const lms = multiplyByMatrix(LRGB_LMS_MATRIX, [r, g, b]).map((v) =>
-    Math.cbrt(v),
-  );
-
-  const oklab = multiplyByMatrix(LMS_LAB_MATRIX, lms);
-  return { l: oklab[0], a: oklab[1], b: oklab[2], a: alpha };
-}
-
-function toOkLabText(color) {
-  let { alpha } = color;
-  const oklab = rgbToOklab(color);
-  return \`oklab(\${oklab.l.toFixed(5)} \${oklab.a.toFixed(5)} \${oklab.b.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function labToLCH(color) {
-  const { l, a, b, alpha } = color;
-  const c = Math.sqrt(a * a + b * b);
-  let h = Math.atan2(b, a) * (180 / Math.PI);
-  if (h < 0) {
-    h += 360;
-  }
-  return { l, c, h, alpha };
-}
-
-function toLCHText(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  const lab = xyzToLab(xyz);
-  const lch = labToLCH(lab);
-  return \`lch(\${lch.l.toFixed(3)} \${lch.c.toFixed(3)} \${lch.h.toFixed(3)}\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbaToOkLCh(color) {
-  const lab = rgbToOklab(color);
-  const oklch = labToLCH(lab);
-  return { l: oklch.l, c: oklch.c, h: oklch.h, alpha: color.alpha };
-}
-
-function toOkLChText(color) {
-  let { alpha } = color;
-  const oklch = rgbaToOkLCh(color);
-  return \`oklch(\${oklch.l.toFixed(5)} \${oklch.c.toFixed(5)} \${oklch.h.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function updateColorMix() {
-  let colorMixFunction = "color-mix(in ";
-
-  root.style.setProperty("--color-space", colorSpace.value);
-  colorMixFunction += colorSpace.value;
-
-  if (polarColorSpaces.includes(colorSpace.value)) {
-    root.style.setProperty("--interpolation-method", interpolationMethod.value);
-    colorMixFunction += \` \${interpolationMethod.value}, \`;
-  } else {
-    root.style.setProperty("--interpolation-method", "");
-    colorMixFunction += \`, \`;
-  }
-  root.style.setProperty(
-    "--color-one",
-    colorOneButton.style.getPropertyValue("background-color"),
-  );
-  root.style.setProperty("--percentage-one", percentageOneSlider.value + "%");
-  colorMixFunction += \`\${rgbaToHEXAText(colorOne)} \${
-    percentageOneSlider.value
-  }%, \`;
-
-  root.style.setProperty(
-    "--color-two",
-    colorTwoButton.style.getPropertyValue("background-color"),
-  );
-  root.style.setProperty("--percentage-two", percentageTwoSlider.value + "%");
-  colorMixFunction += \`\${rgbaToHEXAText(colorTwo)} \${
-    percentageTwoSlider.value
-  }%)\`;
-
-  mixedColorDiv.style.setProperty("background-color", colorMixFunction);
-
-  mixedOutputText.innerText = colorMixFunction;
-  displayOutputColors(window.getComputedStyle(mixedColorDiv).backgroundColor);
-}
-
-function displayOutputColors(color) {
-  let rgbaColor = colorToRGBA(color);
-
-  hexOutput.innerText = rgbaToHEXAText(rgbaColor);
-
-  rgbFunctionOutput.innerText = \`rgb(\${Math.round(rgbaColor.r)} \${Math.round(
-    rgbaColor.g,
-  )} \${Math.round(rgbaColor.b)}\`;
-  if (rgbaColor.alpha && rgbaColor.alpha < 1.0) {
-    rgbFunctionOutput.innerText += \` / \${rgbaColor.alpha.toFixed(3)}\`;
-  }
-  rgbFunctionOutput.innerText += \`)\`;
-
-  colorFunctionOutput.innerText = \`color(srgb \${(rgbaColor.r / 255).toFixed(
-    3,
-  )} \${(rgbaColor.g / 255).toFixed(3)} \${(rgbaColor.b / 255).toFixed(3)}\`;
-  if (rgbaColor.alpha && rgbaColor.alpha < 1.0) {
-    colorFunctionOutput.innerText += \` / \${rgbaColor.alpha.toFixed(3)}\`;
-  }
-  colorFunctionOutput.innerText += \`)\`;
-
-  hslFunctionOutput.innerText = toHSLAText(rgbaColor);
-
-  hwbFunctionOutput.innerText = rgbaToHWBAText(rgbaColor);
-  labFunctionOutput.innerText = rgbaToLabText(rgbaColor);
-  xyzD50FunctionOutput.innerText = rgbaToXYZD50Text(rgbaColor);
-  xyzD65FunctionOutput.innerText = rgbaToXYZD65Text(rgbaColor);
-  lchFunctionOutput.innerText = toLCHText(rgbaColor);
-  oklabFunctionOutput.innerText = toOkLabText(rgbaColor);
-  oklchFunctionOutput.innerText = toOkLChText(rgbaColor);
-}
-
-function setColorToDialog() {
-  colorTextInput.value = rgbaToHEXAText(currentColor);
-  colorInput.value = rgbToHEXText(currentColor);
-  colorOpacitySlider.value = currentColor.alpha;
-}
-
-function init() {
-  percentageOneSlider.addEventListener("input", (e) => {
-    percentageOneLabel.innerText = e.target.value + "%";
-    updateColorMix();
-  });
-
-  percentageTwoSlider.addEventListener("input", (e) => {
-    percentageTwoLabel.innerText = e.target.value + "%";
-    updateColorMix();
-  });
-
-  colorSpace.addEventListener("change", (e) => {
-    if (polarColorSpaces.includes(e.target.value)) {
-      interpolationMethod.style.visibility = "visible";
-      interpolationMethodLabel.style.visibility = "visible";
-    } else {
-      interpolationMethod.style.visibility = "hidden";
-      interpolationMethodLabel.style.visibility = "hidden";
-    }
-    updateColorMix();
-  });
-
-  interpolationMethod.addEventListener("change", () => {
-    updateColorMix();
-  });
-
-  interpolationMethod.style.visibility = "hidden";
-  interpolationMethodLabel.style.visibility = "hidden";
-
-  colorOneButton.addEventListener("click", () => {
-    currentColor = colorOne;
-    setColorToDialog();
-    pickerDialog.showModal();
-  });
-
-  colorTwoButton.addEventListener("click", () => {
-    currentColor = colorTwo;
-    setColorToDialog();
-    pickerDialog.showModal();
-  });
-
-  colorTextInput.addEventListener("input", (e) => {
-    const color = colorToRGBA(e.target.value);
-    Object.assign(currentColor, color);
-    colorInput.value = rgbToHEXText(currentColor);
-    colorOpacitySlider.value = currentColor.alpha;
-  });
-
-  colorInput.addEventListener("input", (e) => {
-    const text = e.target.value;
-    currentColor.r = parseInt(text.slice(1, 3), 16);
-    currentColor.g = parseInt(text.slice(3, 5), 16);
-    currentColor.b = parseInt(text.slice(5, 7), 16);
-    colorTextInput.value = rgbaToHEXAText(currentColor);
-    colorOpacitySlider.value = 1.0;
-  });
-
-  colorOpacitySlider.addEventListener("input", (e) => {
-    const value = parseFloat(e.target.value);
-    if (value >= 0 && value <= 1) {
-      currentColor.alpha = value;
-      colorTextInput.value = rgbaToHEXAText(currentColor);
-    }
-  });
-
-  pickerOkButton.addEventListener("click", () => {
-    colorOneButton.style.setProperty(
-      "background-color",
-      rgbaToHEXAText(colorOne),
-    );
-    colorTwoButton.style.setProperty(
-      "background-color",
-      rgbaToHEXAText(colorTwo),
-    );
-    pickerDialog.close();
-    updateColorMix();
-  });
-
-  document.querySelectorAll("#output-colors button").forEach((button) => {
-    button.addEventListener("click", (e) => {
-      // get parent element
-      const text = e.target.nextElementSibling.innerText;
-      navigator.clipboard.writeText(text);
-      e.target.innerText = "Copied!";
-      setTimeout(() => {
-        e.target.innerText = "Copy";
-      }, 1000);
-    });
-  });
-
-  updateColorMix();
-}
-
-init();
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-template",
-                            "Unexpected string concatenation.",
-                            '  root.style.setProperty("--percentage-two", percentageTwoSlider.value + "%");',
-                            "303:46 - 303:77",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_mixer
-[prefer-template] Unexpected string concatenation.
-~~~
-const root = document.querySelector(":root");
-
-const colorSpace = document.getElementById("color-space");
-const interpolationMethod = document.getElementById("interpolation-method");
-const interpolationMethodLabel = document.getElementById(
-  "interpolation-method-label",
-);
-
-const colorOneButton = document.getElementById("color-one");
-const colorTwoButton = document.getElementById("color-two");
-const mixedColorDiv = document.getElementById("mixed-color");
-const mixedOutputText = document.getElementById("mix-output-text");
-
-const percentageOneLabel = document.getElementById("percentage-one-label");
-const percentageTwoLabel = document.getElementById("percentage-two-label");
-const percentageOneSlider = document.getElementById("percentage-one");
-const percentageTwoSlider = document.getElementById("percentage-two");
-
-// pop up dialog elements
-const pickerDialog = document.getElementById("picker-dialog");
-const colorTextInput = document.getElementById("color-text");
-const colorInput = document.getElementById("color-input");
-const colorOpacitySlider = document.getElementById("color-opacity");
-const pickerOkButton = document.getElementById("picker-ok-button");
-
-// color output spans
-const hexOutput = document.querySelector("#hex td > span");
-const colorFunctionOutput = document.querySelector("#color-function td > span");
-const rgbFunctionOutput = document.querySelector("#rgb-function td > span");
-const hslFunctionOutput = document.querySelector("#hsl-function td > span");
-const hwbFunctionOutput = document.querySelector("#hwb-function td > span");
-const labFunctionOutput = document.querySelector("#lab-function td > span");
-const oklabFunctionOutput = document.querySelector("#oklab-function td > span");
-const lchFunctionOutput = document.querySelector("#lch-function td > span");
-const oklchFunctionOutput = document.querySelector("#oklch-function td > span");
-const xyzD50FunctionOutput = document.querySelector(
-  "#xyz-d50-function td > span",
-);
-const xyzD65FunctionOutput = document.querySelector(
-  "#xyz-d65-function td > span",
-);
-
-const LRGB_LMS_MATRIX = [
-  [0.4122214708, 0.5363325363, 0.0514459929],
-  [0.2119034982, 0.6806995451, 0.1073969566],
-  [0.0883024619, 0.2817188376, 0.6299787005],
-];
-
-const LMS_LAB_MATRIX = [
-  [+0.2104542553, +0.793617785, -0.0040720468],
-  [+1.9779984951, -2.428592205, +0.4505937099],
-  [+0.0259040371, +0.7827717662, -0.808675766],
-];
-
-// srgb-linear to xyz-d50
-// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
-const LRGB_XYZ_D50_MATRIX = [
-  [0.4360747, 0.3850649, 0.1430804],
-  [0.2225045, 0.7168786, 0.0606169],
-  [0.0139322, 0.0971045, 0.7141733],
-];
-
-// srgb-linear to xyz-d65
-// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
-const LRGB_XYZ_D65_MATRIX = [
-  [0.4124564, 0.3575761, 0.1804375],
-  [0.2126729, 0.7151522, 0.072175],
-  [0.0193339, 0.119192, 0.9503041],
-];
-
-const polarColorSpaces = ["hsl", "hwb", "lch", "oklch"];
-const colorOne = { r: 255, g: 127, b: 80, alpha: 1.0 };
-const colorTwo = { r: 0, g: 255, b: 255, alpha: 1.0 };
-let currentColor = null;
-
-function rgbToLinear(c) {
-  return c <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
-}
-
-function intToHex(i) {
-  return Math.floor(i).toString(16).padStart(2, "0").toUpperCase();
-}
-
-function rgbToHEXText(c) {
-  return \`#\${intToHex(c.r)}\${intToHex(c.g)}\${intToHex(c.b)}\`;
-}
-
-function colorToRGBA(c) {
-  const ctx = new OffscreenCanvas(1, 1).getContext("2d");
-  ctx.fillStyle = c;
-  ctx.fillRect(0, 0, 1, 1);
-  const data = ctx.getImageData(0, 0, 1, 1).data;
-  return {
-    r: data[0],
-    g: data[1],
-    b: data[2],
-    alpha: data[3] / 255,
-  };
-}
-
-function multiplyByMatrix(matrix, tuple) {
-  let i = [0, 0, 0];
-  let j = matrix.length;
-  let k = matrix[0].length;
-  for (let l = 0; l < j; l++)
-    for (let m = 0; m < k; m++) i[l] += matrix[l][m] * tuple[m];
-  return i;
-}
-
-function rgbaToHEXAText(color) {
-  const hexText = rgbToHEXText(color);
-  if (color.alpha === 1.0) {
-    return hexText;
-  }
-  const alpha = intToHex(color.alpha * 255);
-  return \`\${hexText}\${alpha}\`;
-}
-
-function rgbaToHSLA(color) {
-  let { r, g, b, a: alpha } = color;
-  // Let's have r, g, b in the range [0, 1]
-  r = r / 255;
-  g = g / 255;
-  b = b / 255;
-  const min = Math.min(r, g, b);
-  const max = Math.max(r, g, b);
-  const delta = max - min;
-  let h, s, l;
-
-  if (delta === 0) {
-    h = 0;
-  } else if (max === r) {
-    h = ((g - b) / delta) % 6;
-  } else if (max === g) {
-    h = (b - r) / delta + 2;
-  } else h = (r - g) / delta + 4;
-  h = Math.round(h * 60);
-
-  // We want an angle between 0 and 360°
-  if (h < 0) {
-    h += 360;
-  }
-
-  l = (max + min) / 2;
-  s = delta === 0 ? 0 : delta / (1 - Math.abs(2 * l - 1));
-  s = Number((s * 100).toFixed(1));
-  l = Number((l * 100).toFixed(1));
-
-  return { h, s, l, alpha };
-}
-
-function toHSLAText(color) {
-  const { h, s, l, alpha } = rgbaToHSLA(color);
-  return \`hsl(\${h.toFixed(0)} \${s.toFixed(0)}% \${l.toFixed(0)}%\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbaToHWBAText(color) {
-  let { h, s, l, alpha } = rgbaToHSLA(color);
-  const chroma = s * (1 - Math.abs(l / 50 - 1));
-  let W = (l - chroma / 2).toFixed(0);
-  let B = (100 - l - chroma / 2).toFixed(0);
-  return \`hwb(\${h} \${W}% \${B}%\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function rgbaToXYZD50(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255) * 255;
-  g = rgbToLinear(g / 255) * 255;
-  b = rgbToLinear(b / 255) * 255;
-
-  const xyz = multiplyByMatrix(LRGB_XYZ_D50_MATRIX, [r, g, b]);
-  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, a: alpha };
-}
-
-function rgbaToXYZD50Text(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  return \`color(xyz-d50 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function rgbaToXYZD65(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255) * 255;
-  g = rgbToLinear(g / 255) * 255;
-  b = rgbToLinear(b / 255) * 255;
-
-  const xyz = multiplyByMatrix(LRGB_XYZ_D65_MATRIX, [r, g, b]);
-  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, a: alpha };
-}
-
-function rgbaToXYZD65Text(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD65(color);
-  return \`color(xyz-d65 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-const D65 = [0.3457 / 0.3585, 1, 0.2958 / 0.3585];
-function xyzToLab(color) {
-  let { x, y, z, alpha } = color;
-  [x, y, z] = [x, y, z].map((v, i) => {
-    v = v / D65[i];
-    return v > 0.0088564516 ? Math.cbrt(v) : v * 903.2962962962963 + 16 / 116;
-  });
-  return { l: 116 * y - 16, a: 500 * (x - y), b: 200 * (y - z), alpha };
-}
-
-function rgbaToLabText(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  const lab = xyzToLab(xyz);
-  return \`lab(\${lab.l.toFixed(3)} \${lab.a.toFixed(3)} \${lab.b.toFixed(3)}\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbToOklab(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255);
-  g = rgbToLinear(g / 255);
-  b = rgbToLinear(b / 255);
-  const lms = multiplyByMatrix(LRGB_LMS_MATRIX, [r, g, b]).map((v) =>
-    Math.cbrt(v),
-  );
-
-  const oklab = multiplyByMatrix(LMS_LAB_MATRIX, lms);
-  return { l: oklab[0], a: oklab[1], b: oklab[2], a: alpha };
-}
-
-function toOkLabText(color) {
-  let { alpha } = color;
-  const oklab = rgbToOklab(color);
-  return \`oklab(\${oklab.l.toFixed(5)} \${oklab.a.toFixed(5)} \${oklab.b.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function labToLCH(color) {
-  const { l, a, b, alpha } = color;
-  const c = Math.sqrt(a * a + b * b);
-  let h = Math.atan2(b, a) * (180 / Math.PI);
-  if (h < 0) {
-    h += 360;
-  }
-  return { l, c, h, alpha };
-}
-
-function toLCHText(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  const lab = xyzToLab(xyz);
-  const lch = labToLCH(lab);
-  return \`lch(\${lch.l.toFixed(3)} \${lch.c.toFixed(3)} \${lch.h.toFixed(3)}\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbaToOkLCh(color) {
-  const lab = rgbToOklab(color);
-  const oklch = labToLCH(lab);
-  return { l: oklch.l, c: oklch.c, h: oklch.h, alpha: color.alpha };
-}
-
-function toOkLChText(color) {
-  let { alpha } = color;
-  const oklch = rgbaToOkLCh(color);
-  return \`oklch(\${oklch.l.toFixed(5)} \${oklch.c.toFixed(5)} \${oklch.h.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function updateColorMix() {
-  let colorMixFunction = "color-mix(in ";
-
-  root.style.setProperty("--color-space", colorSpace.value);
-  colorMixFunction += colorSpace.value;
-
-  if (polarColorSpaces.includes(colorSpace.value)) {
-    root.style.setProperty("--interpolation-method", interpolationMethod.value);
-    colorMixFunction += \` \${interpolationMethod.value}, \`;
-  } else {
-    root.style.setProperty("--interpolation-method", "");
-    colorMixFunction += \`, \`;
-  }
-  root.style.setProperty(
-    "--color-one",
-    colorOneButton.style.getPropertyValue("background-color"),
-  );
-  root.style.setProperty("--percentage-one", percentageOneSlider.value + "%");
-  colorMixFunction += \`\${rgbaToHEXAText(colorOne)} \${
-    percentageOneSlider.value
-  }%, \`;
-
-  root.style.setProperty(
-    "--color-two",
-    colorTwoButton.style.getPropertyValue("background-color"),
-  );
-  root.style.setProperty("--percentage-two", percentageTwoSlider.value + "%");
-  colorMixFunction += \`\${rgbaToHEXAText(colorTwo)} \${
-    percentageTwoSlider.value
-  }%)\`;
-
-  mixedColorDiv.style.setProperty("background-color", colorMixFunction);
-
-  mixedOutputText.innerText = colorMixFunction;
-  displayOutputColors(window.getComputedStyle(mixedColorDiv).backgroundColor);
-}
-
-function displayOutputColors(color) {
-  let rgbaColor = colorToRGBA(color);
-
-  hexOutput.innerText = rgbaToHEXAText(rgbaColor);
-
-  rgbFunctionOutput.innerText = \`rgb(\${Math.round(rgbaColor.r)} \${Math.round(
-    rgbaColor.g,
-  )} \${Math.round(rgbaColor.b)}\`;
-  if (rgbaColor.alpha && rgbaColor.alpha < 1.0) {
-    rgbFunctionOutput.innerText += \` / \${rgbaColor.alpha.toFixed(3)}\`;
-  }
-  rgbFunctionOutput.innerText += \`)\`;
-
-  colorFunctionOutput.innerText = \`color(srgb \${(rgbaColor.r / 255).toFixed(
-    3,
-  )} \${(rgbaColor.g / 255).toFixed(3)} \${(rgbaColor.b / 255).toFixed(3)}\`;
-  if (rgbaColor.alpha && rgbaColor.alpha < 1.0) {
-    colorFunctionOutput.innerText += \` / \${rgbaColor.alpha.toFixed(3)}\`;
-  }
-  colorFunctionOutput.innerText += \`)\`;
-
-  hslFunctionOutput.innerText = toHSLAText(rgbaColor);
-
-  hwbFunctionOutput.innerText = rgbaToHWBAText(rgbaColor);
-  labFunctionOutput.innerText = rgbaToLabText(rgbaColor);
-  xyzD50FunctionOutput.innerText = rgbaToXYZD50Text(rgbaColor);
-  xyzD65FunctionOutput.innerText = rgbaToXYZD65Text(rgbaColor);
-  lchFunctionOutput.innerText = toLCHText(rgbaColor);
-  oklabFunctionOutput.innerText = toOkLabText(rgbaColor);
-  oklchFunctionOutput.innerText = toOkLChText(rgbaColor);
-}
-
-function setColorToDialog() {
-  colorTextInput.value = rgbaToHEXAText(currentColor);
-  colorInput.value = rgbToHEXText(currentColor);
-  colorOpacitySlider.value = currentColor.alpha;
-}
-
-function init() {
-  percentageOneSlider.addEventListener("input", (e) => {
-    percentageOneLabel.innerText = e.target.value + "%";
-    updateColorMix();
-  });
-
-  percentageTwoSlider.addEventListener("input", (e) => {
-    percentageTwoLabel.innerText = e.target.value + "%";
-    updateColorMix();
-  });
-
-  colorSpace.addEventListener("change", (e) => {
-    if (polarColorSpaces.includes(e.target.value)) {
-      interpolationMethod.style.visibility = "visible";
-      interpolationMethodLabel.style.visibility = "visible";
-    } else {
-      interpolationMethod.style.visibility = "hidden";
-      interpolationMethodLabel.style.visibility = "hidden";
-    }
-    updateColorMix();
-  });
-
-  interpolationMethod.addEventListener("change", () => {
-    updateColorMix();
-  });
-
-  interpolationMethod.style.visibility = "hidden";
-  interpolationMethodLabel.style.visibility = "hidden";
-
-  colorOneButton.addEventListener("click", () => {
-    currentColor = colorOne;
-    setColorToDialog();
-    pickerDialog.showModal();
-  });
-
-  colorTwoButton.addEventListener("click", () => {
-    currentColor = colorTwo;
-    setColorToDialog();
-    pickerDialog.showModal();
-  });
-
-  colorTextInput.addEventListener("input", (e) => {
-    const color = colorToRGBA(e.target.value);
-    Object.assign(currentColor, color);
-    colorInput.value = rgbToHEXText(currentColor);
-    colorOpacitySlider.value = currentColor.alpha;
-  });
-
-  colorInput.addEventListener("input", (e) => {
-    const text = e.target.value;
-    currentColor.r = parseInt(text.slice(1, 3), 16);
-    currentColor.g = parseInt(text.slice(3, 5), 16);
-    currentColor.b = parseInt(text.slice(5, 7), 16);
-    colorTextInput.value = rgbaToHEXAText(currentColor);
-    colorOpacitySlider.value = 1.0;
-  });
-
-  colorOpacitySlider.addEventListener("input", (e) => {
-    const value = parseFloat(e.target.value);
-    if (value >= 0 && value <= 1) {
-      currentColor.alpha = value;
-      colorTextInput.value = rgbaToHEXAText(currentColor);
-    }
-  });
-
-  pickerOkButton.addEventListener("click", () => {
-    colorOneButton.style.setProperty(
-      "background-color",
-      rgbaToHEXAText(colorOne),
-    );
-    colorTwoButton.style.setProperty(
-      "background-color",
-      rgbaToHEXAText(colorTwo),
-    );
-    pickerDialog.close();
-    updateColorMix();
-  });
-
-  document.querySelectorAll("#output-colors button").forEach((button) => {
-    button.addEventListener("click", (e) => {
-      // get parent element
-      const text = e.target.nextElementSibling.innerText;
-      navigator.clipboard.writeText(text);
-      e.target.innerText = "Copied!";
-      setTimeout(() => {
-        e.target.innerText = "Copy";
-      }, 1000);
-    });
-  });
-
-  updateColorMix();
-}
-
-init();
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-template",
-                            "Unexpected string concatenation.",
-                            '    percentageOneLabel.innerText = e.target.value + "%";',
-                            "354:36 - 354:56",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_mixer
-[prefer-template] Unexpected string concatenation.
-~~~
-const root = document.querySelector(":root");
-
-const colorSpace = document.getElementById("color-space");
-const interpolationMethod = document.getElementById("interpolation-method");
-const interpolationMethodLabel = document.getElementById(
-  "interpolation-method-label",
-);
-
-const colorOneButton = document.getElementById("color-one");
-const colorTwoButton = document.getElementById("color-two");
-const mixedColorDiv = document.getElementById("mixed-color");
-const mixedOutputText = document.getElementById("mix-output-text");
-
-const percentageOneLabel = document.getElementById("percentage-one-label");
-const percentageTwoLabel = document.getElementById("percentage-two-label");
-const percentageOneSlider = document.getElementById("percentage-one");
-const percentageTwoSlider = document.getElementById("percentage-two");
-
-// pop up dialog elements
-const pickerDialog = document.getElementById("picker-dialog");
-const colorTextInput = document.getElementById("color-text");
-const colorInput = document.getElementById("color-input");
-const colorOpacitySlider = document.getElementById("color-opacity");
-const pickerOkButton = document.getElementById("picker-ok-button");
-
-// color output spans
-const hexOutput = document.querySelector("#hex td > span");
-const colorFunctionOutput = document.querySelector("#color-function td > span");
-const rgbFunctionOutput = document.querySelector("#rgb-function td > span");
-const hslFunctionOutput = document.querySelector("#hsl-function td > span");
-const hwbFunctionOutput = document.querySelector("#hwb-function td > span");
-const labFunctionOutput = document.querySelector("#lab-function td > span");
-const oklabFunctionOutput = document.querySelector("#oklab-function td > span");
-const lchFunctionOutput = document.querySelector("#lch-function td > span");
-const oklchFunctionOutput = document.querySelector("#oklch-function td > span");
-const xyzD50FunctionOutput = document.querySelector(
-  "#xyz-d50-function td > span",
-);
-const xyzD65FunctionOutput = document.querySelector(
-  "#xyz-d65-function td > span",
-);
-
-const LRGB_LMS_MATRIX = [
-  [0.4122214708, 0.5363325363, 0.0514459929],
-  [0.2119034982, 0.6806995451, 0.1073969566],
-  [0.0883024619, 0.2817188376, 0.6299787005],
-];
-
-const LMS_LAB_MATRIX = [
-  [+0.2104542553, +0.793617785, -0.0040720468],
-  [+1.9779984951, -2.428592205, +0.4505937099],
-  [+0.0259040371, +0.7827717662, -0.808675766],
-];
-
-// srgb-linear to xyz-d50
-// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
-const LRGB_XYZ_D50_MATRIX = [
-  [0.4360747, 0.3850649, 0.1430804],
-  [0.2225045, 0.7168786, 0.0606169],
-  [0.0139322, 0.0971045, 0.7141733],
-];
-
-// srgb-linear to xyz-d65
-// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
-const LRGB_XYZ_D65_MATRIX = [
-  [0.4124564, 0.3575761, 0.1804375],
-  [0.2126729, 0.7151522, 0.072175],
-  [0.0193339, 0.119192, 0.9503041],
-];
-
-const polarColorSpaces = ["hsl", "hwb", "lch", "oklch"];
-const colorOne = { r: 255, g: 127, b: 80, alpha: 1.0 };
-const colorTwo = { r: 0, g: 255, b: 255, alpha: 1.0 };
-let currentColor = null;
-
-function rgbToLinear(c) {
-  return c <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
-}
-
-function intToHex(i) {
-  return Math.floor(i).toString(16).padStart(2, "0").toUpperCase();
-}
-
-function rgbToHEXText(c) {
-  return \`#\${intToHex(c.r)}\${intToHex(c.g)}\${intToHex(c.b)}\`;
-}
-
-function colorToRGBA(c) {
-  const ctx = new OffscreenCanvas(1, 1).getContext("2d");
-  ctx.fillStyle = c;
-  ctx.fillRect(0, 0, 1, 1);
-  const data = ctx.getImageData(0, 0, 1, 1).data;
-  return {
-    r: data[0],
-    g: data[1],
-    b: data[2],
-    alpha: data[3] / 255,
-  };
-}
-
-function multiplyByMatrix(matrix, tuple) {
-  let i = [0, 0, 0];
-  let j = matrix.length;
-  let k = matrix[0].length;
-  for (let l = 0; l < j; l++)
-    for (let m = 0; m < k; m++) i[l] += matrix[l][m] * tuple[m];
-  return i;
-}
-
-function rgbaToHEXAText(color) {
-  const hexText = rgbToHEXText(color);
-  if (color.alpha === 1.0) {
-    return hexText;
-  }
-  const alpha = intToHex(color.alpha * 255);
-  return \`\${hexText}\${alpha}\`;
-}
-
-function rgbaToHSLA(color) {
-  let { r, g, b, a: alpha } = color;
-  // Let's have r, g, b in the range [0, 1]
-  r = r / 255;
-  g = g / 255;
-  b = b / 255;
-  const min = Math.min(r, g, b);
-  const max = Math.max(r, g, b);
-  const delta = max - min;
-  let h, s, l;
-
-  if (delta === 0) {
-    h = 0;
-  } else if (max === r) {
-    h = ((g - b) / delta) % 6;
-  } else if (max === g) {
-    h = (b - r) / delta + 2;
-  } else h = (r - g) / delta + 4;
-  h = Math.round(h * 60);
-
-  // We want an angle between 0 and 360°
-  if (h < 0) {
-    h += 360;
-  }
-
-  l = (max + min) / 2;
-  s = delta === 0 ? 0 : delta / (1 - Math.abs(2 * l - 1));
-  s = Number((s * 100).toFixed(1));
-  l = Number((l * 100).toFixed(1));
-
-  return { h, s, l, alpha };
-}
-
-function toHSLAText(color) {
-  const { h, s, l, alpha } = rgbaToHSLA(color);
-  return \`hsl(\${h.toFixed(0)} \${s.toFixed(0)}% \${l.toFixed(0)}%\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbaToHWBAText(color) {
-  let { h, s, l, alpha } = rgbaToHSLA(color);
-  const chroma = s * (1 - Math.abs(l / 50 - 1));
-  let W = (l - chroma / 2).toFixed(0);
-  let B = (100 - l - chroma / 2).toFixed(0);
-  return \`hwb(\${h} \${W}% \${B}%\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function rgbaToXYZD50(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255) * 255;
-  g = rgbToLinear(g / 255) * 255;
-  b = rgbToLinear(b / 255) * 255;
-
-  const xyz = multiplyByMatrix(LRGB_XYZ_D50_MATRIX, [r, g, b]);
-  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, a: alpha };
-}
-
-function rgbaToXYZD50Text(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  return \`color(xyz-d50 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function rgbaToXYZD65(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255) * 255;
-  g = rgbToLinear(g / 255) * 255;
-  b = rgbToLinear(b / 255) * 255;
-
-  const xyz = multiplyByMatrix(LRGB_XYZ_D65_MATRIX, [r, g, b]);
-  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, a: alpha };
-}
-
-function rgbaToXYZD65Text(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD65(color);
-  return \`color(xyz-d65 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-const D65 = [0.3457 / 0.3585, 1, 0.2958 / 0.3585];
-function xyzToLab(color) {
-  let { x, y, z, alpha } = color;
-  [x, y, z] = [x, y, z].map((v, i) => {
-    v = v / D65[i];
-    return v > 0.0088564516 ? Math.cbrt(v) : v * 903.2962962962963 + 16 / 116;
-  });
-  return { l: 116 * y - 16, a: 500 * (x - y), b: 200 * (y - z), alpha };
-}
-
-function rgbaToLabText(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  const lab = xyzToLab(xyz);
-  return \`lab(\${lab.l.toFixed(3)} \${lab.a.toFixed(3)} \${lab.b.toFixed(3)}\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbToOklab(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255);
-  g = rgbToLinear(g / 255);
-  b = rgbToLinear(b / 255);
-  const lms = multiplyByMatrix(LRGB_LMS_MATRIX, [r, g, b]).map((v) =>
-    Math.cbrt(v),
-  );
-
-  const oklab = multiplyByMatrix(LMS_LAB_MATRIX, lms);
-  return { l: oklab[0], a: oklab[1], b: oklab[2], a: alpha };
-}
-
-function toOkLabText(color) {
-  let { alpha } = color;
-  const oklab = rgbToOklab(color);
-  return \`oklab(\${oklab.l.toFixed(5)} \${oklab.a.toFixed(5)} \${oklab.b.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function labToLCH(color) {
-  const { l, a, b, alpha } = color;
-  const c = Math.sqrt(a * a + b * b);
-  let h = Math.atan2(b, a) * (180 / Math.PI);
-  if (h < 0) {
-    h += 360;
-  }
-  return { l, c, h, alpha };
-}
-
-function toLCHText(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  const lab = xyzToLab(xyz);
-  const lch = labToLCH(lab);
-  return \`lch(\${lch.l.toFixed(3)} \${lch.c.toFixed(3)} \${lch.h.toFixed(3)}\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbaToOkLCh(color) {
-  const lab = rgbToOklab(color);
-  const oklch = labToLCH(lab);
-  return { l: oklch.l, c: oklch.c, h: oklch.h, alpha: color.alpha };
-}
-
-function toOkLChText(color) {
-  let { alpha } = color;
-  const oklch = rgbaToOkLCh(color);
-  return \`oklch(\${oklch.l.toFixed(5)} \${oklch.c.toFixed(5)} \${oklch.h.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function updateColorMix() {
-  let colorMixFunction = "color-mix(in ";
-
-  root.style.setProperty("--color-space", colorSpace.value);
-  colorMixFunction += colorSpace.value;
-
-  if (polarColorSpaces.includes(colorSpace.value)) {
-    root.style.setProperty("--interpolation-method", interpolationMethod.value);
-    colorMixFunction += \` \${interpolationMethod.value}, \`;
-  } else {
-    root.style.setProperty("--interpolation-method", "");
-    colorMixFunction += \`, \`;
-  }
-  root.style.setProperty(
-    "--color-one",
-    colorOneButton.style.getPropertyValue("background-color"),
-  );
-  root.style.setProperty("--percentage-one", percentageOneSlider.value + "%");
-  colorMixFunction += \`\${rgbaToHEXAText(colorOne)} \${
-    percentageOneSlider.value
-  }%, \`;
-
-  root.style.setProperty(
-    "--color-two",
-    colorTwoButton.style.getPropertyValue("background-color"),
-  );
-  root.style.setProperty("--percentage-two", percentageTwoSlider.value + "%");
-  colorMixFunction += \`\${rgbaToHEXAText(colorTwo)} \${
-    percentageTwoSlider.value
-  }%)\`;
-
-  mixedColorDiv.style.setProperty("background-color", colorMixFunction);
-
-  mixedOutputText.innerText = colorMixFunction;
-  displayOutputColors(window.getComputedStyle(mixedColorDiv).backgroundColor);
-}
-
-function displayOutputColors(color) {
-  let rgbaColor = colorToRGBA(color);
-
-  hexOutput.innerText = rgbaToHEXAText(rgbaColor);
-
-  rgbFunctionOutput.innerText = \`rgb(\${Math.round(rgbaColor.r)} \${Math.round(
-    rgbaColor.g,
-  )} \${Math.round(rgbaColor.b)}\`;
-  if (rgbaColor.alpha && rgbaColor.alpha < 1.0) {
-    rgbFunctionOutput.innerText += \` / \${rgbaColor.alpha.toFixed(3)}\`;
-  }
-  rgbFunctionOutput.innerText += \`)\`;
-
-  colorFunctionOutput.innerText = \`color(srgb \${(rgbaColor.r / 255).toFixed(
-    3,
-  )} \${(rgbaColor.g / 255).toFixed(3)} \${(rgbaColor.b / 255).toFixed(3)}\`;
-  if (rgbaColor.alpha && rgbaColor.alpha < 1.0) {
-    colorFunctionOutput.innerText += \` / \${rgbaColor.alpha.toFixed(3)}\`;
-  }
-  colorFunctionOutput.innerText += \`)\`;
-
-  hslFunctionOutput.innerText = toHSLAText(rgbaColor);
-
-  hwbFunctionOutput.innerText = rgbaToHWBAText(rgbaColor);
-  labFunctionOutput.innerText = rgbaToLabText(rgbaColor);
-  xyzD50FunctionOutput.innerText = rgbaToXYZD50Text(rgbaColor);
-  xyzD65FunctionOutput.innerText = rgbaToXYZD65Text(rgbaColor);
-  lchFunctionOutput.innerText = toLCHText(rgbaColor);
-  oklabFunctionOutput.innerText = toOkLabText(rgbaColor);
-  oklchFunctionOutput.innerText = toOkLChText(rgbaColor);
-}
-
-function setColorToDialog() {
-  colorTextInput.value = rgbaToHEXAText(currentColor);
-  colorInput.value = rgbToHEXText(currentColor);
-  colorOpacitySlider.value = currentColor.alpha;
-}
-
-function init() {
-  percentageOneSlider.addEventListener("input", (e) => {
-    percentageOneLabel.innerText = e.target.value + "%";
-    updateColorMix();
-  });
-
-  percentageTwoSlider.addEventListener("input", (e) => {
-    percentageTwoLabel.innerText = e.target.value + "%";
-    updateColorMix();
-  });
-
-  colorSpace.addEventListener("change", (e) => {
-    if (polarColorSpaces.includes(e.target.value)) {
-      interpolationMethod.style.visibility = "visible";
-      interpolationMethodLabel.style.visibility = "visible";
-    } else {
-      interpolationMethod.style.visibility = "hidden";
-      interpolationMethodLabel.style.visibility = "hidden";
-    }
-    updateColorMix();
-  });
-
-  interpolationMethod.addEventListener("change", () => {
-    updateColorMix();
-  });
-
-  interpolationMethod.style.visibility = "hidden";
-  interpolationMethodLabel.style.visibility = "hidden";
-
-  colorOneButton.addEventListener("click", () => {
-    currentColor = colorOne;
-    setColorToDialog();
-    pickerDialog.showModal();
-  });
-
-  colorTwoButton.addEventListener("click", () => {
-    currentColor = colorTwo;
-    setColorToDialog();
-    pickerDialog.showModal();
-  });
-
-  colorTextInput.addEventListener("input", (e) => {
-    const color = colorToRGBA(e.target.value);
-    Object.assign(currentColor, color);
-    colorInput.value = rgbToHEXText(currentColor);
-    colorOpacitySlider.value = currentColor.alpha;
-  });
-
-  colorInput.addEventListener("input", (e) => {
-    const text = e.target.value;
-    currentColor.r = parseInt(text.slice(1, 3), 16);
-    currentColor.g = parseInt(text.slice(3, 5), 16);
-    currentColor.b = parseInt(text.slice(5, 7), 16);
-    colorTextInput.value = rgbaToHEXAText(currentColor);
-    colorOpacitySlider.value = 1.0;
-  });
-
-  colorOpacitySlider.addEventListener("input", (e) => {
-    const value = parseFloat(e.target.value);
-    if (value >= 0 && value <= 1) {
-      currentColor.alpha = value;
-      colorTextInput.value = rgbaToHEXAText(currentColor);
-    }
-  });
-
-  pickerOkButton.addEventListener("click", () => {
-    colorOneButton.style.setProperty(
-      "background-color",
-      rgbaToHEXAText(colorOne),
-    );
-    colorTwoButton.style.setProperty(
-      "background-color",
-      rgbaToHEXAText(colorTwo),
-    );
-    pickerDialog.close();
-    updateColorMix();
-  });
-
-  document.querySelectorAll("#output-colors button").forEach((button) => {
-    button.addEventListener("click", (e) => {
-      // get parent element
-      const text = e.target.nextElementSibling.innerText;
-      navigator.clipboard.writeText(text);
-      e.target.innerText = "Copied!";
-      setTimeout(() => {
-        e.target.innerText = "Copy";
-      }, 1000);
-    });
-  });
-
-  updateColorMix();
-}
-
-init();
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-template",
-                            "Unexpected string concatenation.",
-                            '    percentageTwoLabel.innerText = e.target.value + "%";',
-                            "359:36 - 359:56",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_mixer
-[prefer-template] Unexpected string concatenation.
-~~~
-const root = document.querySelector(":root");
-
-const colorSpace = document.getElementById("color-space");
-const interpolationMethod = document.getElementById("interpolation-method");
-const interpolationMethodLabel = document.getElementById(
-  "interpolation-method-label",
-);
-
-const colorOneButton = document.getElementById("color-one");
-const colorTwoButton = document.getElementById("color-two");
-const mixedColorDiv = document.getElementById("mixed-color");
-const mixedOutputText = document.getElementById("mix-output-text");
-
-const percentageOneLabel = document.getElementById("percentage-one-label");
-const percentageTwoLabel = document.getElementById("percentage-two-label");
-const percentageOneSlider = document.getElementById("percentage-one");
-const percentageTwoSlider = document.getElementById("percentage-two");
-
-// pop up dialog elements
-const pickerDialog = document.getElementById("picker-dialog");
-const colorTextInput = document.getElementById("color-text");
-const colorInput = document.getElementById("color-input");
-const colorOpacitySlider = document.getElementById("color-opacity");
-const pickerOkButton = document.getElementById("picker-ok-button");
-
-// color output spans
-const hexOutput = document.querySelector("#hex td > span");
-const colorFunctionOutput = document.querySelector("#color-function td > span");
-const rgbFunctionOutput = document.querySelector("#rgb-function td > span");
-const hslFunctionOutput = document.querySelector("#hsl-function td > span");
-const hwbFunctionOutput = document.querySelector("#hwb-function td > span");
-const labFunctionOutput = document.querySelector("#lab-function td > span");
-const oklabFunctionOutput = document.querySelector("#oklab-function td > span");
-const lchFunctionOutput = document.querySelector("#lch-function td > span");
-const oklchFunctionOutput = document.querySelector("#oklch-function td > span");
-const xyzD50FunctionOutput = document.querySelector(
-  "#xyz-d50-function td > span",
-);
-const xyzD65FunctionOutput = document.querySelector(
-  "#xyz-d65-function td > span",
-);
-
-const LRGB_LMS_MATRIX = [
-  [0.4122214708, 0.5363325363, 0.0514459929],
-  [0.2119034982, 0.6806995451, 0.1073969566],
-  [0.0883024619, 0.2817188376, 0.6299787005],
-];
-
-const LMS_LAB_MATRIX = [
-  [+0.2104542553, +0.793617785, -0.0040720468],
-  [+1.9779984951, -2.428592205, +0.4505937099],
-  [+0.0259040371, +0.7827717662, -0.808675766],
-];
-
-// srgb-linear to xyz-d50
-// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
-const LRGB_XYZ_D50_MATRIX = [
-  [0.4360747, 0.3850649, 0.1430804],
-  [0.2225045, 0.7168786, 0.0606169],
-  [0.0139322, 0.0971045, 0.7141733],
-];
-
-// srgb-linear to xyz-d65
-// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
-const LRGB_XYZ_D65_MATRIX = [
-  [0.4124564, 0.3575761, 0.1804375],
-  [0.2126729, 0.7151522, 0.072175],
-  [0.0193339, 0.119192, 0.9503041],
-];
-
-const polarColorSpaces = ["hsl", "hwb", "lch", "oklch"];
-const colorOne = { r: 255, g: 127, b: 80, alpha: 1.0 };
-const colorTwo = { r: 0, g: 255, b: 255, alpha: 1.0 };
-let currentColor = null;
-
-function rgbToLinear(c) {
-  return c <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
-}
-
-function intToHex(i) {
-  return Math.floor(i).toString(16).padStart(2, "0").toUpperCase();
-}
-
-function rgbToHEXText(c) {
-  return \`#\${intToHex(c.r)}\${intToHex(c.g)}\${intToHex(c.b)}\`;
-}
-
-function colorToRGBA(c) {
-  const ctx = new OffscreenCanvas(1, 1).getContext("2d");
-  ctx.fillStyle = c;
-  ctx.fillRect(0, 0, 1, 1);
-  const data = ctx.getImageData(0, 0, 1, 1).data;
-  return {
-    r: data[0],
-    g: data[1],
-    b: data[2],
-    alpha: data[3] / 255,
-  };
-}
-
-function multiplyByMatrix(matrix, tuple) {
-  let i = [0, 0, 0];
-  let j = matrix.length;
-  let k = matrix[0].length;
-  for (let l = 0; l < j; l++)
-    for (let m = 0; m < k; m++) i[l] += matrix[l][m] * tuple[m];
-  return i;
-}
-
-function rgbaToHEXAText(color) {
-  const hexText = rgbToHEXText(color);
-  if (color.alpha === 1.0) {
-    return hexText;
-  }
-  const alpha = intToHex(color.alpha * 255);
-  return \`\${hexText}\${alpha}\`;
-}
-
-function rgbaToHSLA(color) {
-  let { r, g, b, a: alpha } = color;
-  // Let's have r, g, b in the range [0, 1]
-  r = r / 255;
-  g = g / 255;
-  b = b / 255;
-  const min = Math.min(r, g, b);
-  const max = Math.max(r, g, b);
-  const delta = max - min;
-  let h, s, l;
-
-  if (delta === 0) {
-    h = 0;
-  } else if (max === r) {
-    h = ((g - b) / delta) % 6;
-  } else if (max === g) {
-    h = (b - r) / delta + 2;
-  } else h = (r - g) / delta + 4;
-  h = Math.round(h * 60);
-
-  // We want an angle between 0 and 360°
-  if (h < 0) {
-    h += 360;
-  }
-
-  l = (max + min) / 2;
-  s = delta === 0 ? 0 : delta / (1 - Math.abs(2 * l - 1));
-  s = Number((s * 100).toFixed(1));
-  l = Number((l * 100).toFixed(1));
-
-  return { h, s, l, alpha };
-}
-
-function toHSLAText(color) {
-  const { h, s, l, alpha } = rgbaToHSLA(color);
-  return \`hsl(\${h.toFixed(0)} \${s.toFixed(0)}% \${l.toFixed(0)}%\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbaToHWBAText(color) {
-  let { h, s, l, alpha } = rgbaToHSLA(color);
-  const chroma = s * (1 - Math.abs(l / 50 - 1));
-  let W = (l - chroma / 2).toFixed(0);
-  let B = (100 - l - chroma / 2).toFixed(0);
-  return \`hwb(\${h} \${W}% \${B}%\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function rgbaToXYZD50(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255) * 255;
-  g = rgbToLinear(g / 255) * 255;
-  b = rgbToLinear(b / 255) * 255;
-
-  const xyz = multiplyByMatrix(LRGB_XYZ_D50_MATRIX, [r, g, b]);
-  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, a: alpha };
-}
-
-function rgbaToXYZD50Text(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  return \`color(xyz-d50 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function rgbaToXYZD65(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255) * 255;
-  g = rgbToLinear(g / 255) * 255;
-  b = rgbToLinear(b / 255) * 255;
-
-  const xyz = multiplyByMatrix(LRGB_XYZ_D65_MATRIX, [r, g, b]);
-  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, a: alpha };
-}
-
-function rgbaToXYZD65Text(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD65(color);
-  return \`color(xyz-d65 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-const D65 = [0.3457 / 0.3585, 1, 0.2958 / 0.3585];
-function xyzToLab(color) {
-  let { x, y, z, alpha } = color;
-  [x, y, z] = [x, y, z].map((v, i) => {
-    v = v / D65[i];
-    return v > 0.0088564516 ? Math.cbrt(v) : v * 903.2962962962963 + 16 / 116;
-  });
-  return { l: 116 * y - 16, a: 500 * (x - y), b: 200 * (y - z), alpha };
-}
-
-function rgbaToLabText(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  const lab = xyzToLab(xyz);
-  return \`lab(\${lab.l.toFixed(3)} \${lab.a.toFixed(3)} \${lab.b.toFixed(3)}\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbToOklab(color) {
-  let { r, g, b, alpha } = color;
-  r = rgbToLinear(r / 255);
-  g = rgbToLinear(g / 255);
-  b = rgbToLinear(b / 255);
-  const lms = multiplyByMatrix(LRGB_LMS_MATRIX, [r, g, b]).map((v) =>
-    Math.cbrt(v),
-  );
-
-  const oklab = multiplyByMatrix(LMS_LAB_MATRIX, lms);
-  return { l: oklab[0], a: oklab[1], b: oklab[2], a: alpha };
-}
-
-function toOkLabText(color) {
-  let { alpha } = color;
-  const oklab = rgbToOklab(color);
-  return \`oklab(\${oklab.l.toFixed(5)} \${oklab.a.toFixed(5)} \${oklab.b.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function labToLCH(color) {
-  const { l, a, b, alpha } = color;
-  const c = Math.sqrt(a * a + b * b);
-  let h = Math.atan2(b, a) * (180 / Math.PI);
-  if (h < 0) {
-    h += 360;
-  }
-  return { l, c, h, alpha };
-}
-
-function toLCHText(color) {
-  let { alpha } = color;
-  const xyz = rgbaToXYZD50(color);
-  const lab = xyzToLab(xyz);
-  const lch = labToLCH(lab);
-  return \`lch(\${lch.l.toFixed(3)} \${lch.c.toFixed(3)} \${lch.h.toFixed(3)}\${
-    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
-  })\`;
-}
-
-function rgbaToOkLCh(color) {
-  const lab = rgbToOklab(color);
-  const oklch = labToLCH(lab);
-  return { l: oklch.l, c: oklch.c, h: oklch.h, alpha: color.alpha };
-}
-
-function toOkLChText(color) {
-  let { alpha } = color;
-  const oklch = rgbaToOkLCh(color);
-  return \`oklch(\${oklch.l.toFixed(5)} \${oklch.c.toFixed(5)} \${oklch.h.toFixed(
-    5,
-  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
-}
-
-function updateColorMix() {
-  let colorMixFunction = "color-mix(in ";
-
-  root.style.setProperty("--color-space", colorSpace.value);
-  colorMixFunction += colorSpace.value;
-
-  if (polarColorSpaces.includes(colorSpace.value)) {
-    root.style.setProperty("--interpolation-method", interpolationMethod.value);
-    colorMixFunction += \` \${interpolationMethod.value}, \`;
-  } else {
-    root.style.setProperty("--interpolation-method", "");
-    colorMixFunction += \`, \`;
-  }
-  root.style.setProperty(
-    "--color-one",
-    colorOneButton.style.getPropertyValue("background-color"),
-  );
-  root.style.setProperty("--percentage-one", percentageOneSlider.value + "%");
-  colorMixFunction += \`\${rgbaToHEXAText(colorOne)} \${
-    percentageOneSlider.value
-  }%, \`;
-
-  root.style.setProperty(
-    "--color-two",
-    colorTwoButton.style.getPropertyValue("background-color"),
-  );
-  root.style.setProperty("--percentage-two", percentageTwoSlider.value + "%");
-  colorMixFunction += \`\${rgbaToHEXAText(colorTwo)} \${
-    percentageTwoSlider.value
-  }%)\`;
-
-  mixedColorDiv.style.setProperty("background-color", colorMixFunction);
-
-  mixedOutputText.innerText = colorMixFunction;
-  displayOutputColors(window.getComputedStyle(mixedColorDiv).backgroundColor);
-}
-
-function displayOutputColors(color) {
-  let rgbaColor = colorToRGBA(color);
-
-  hexOutput.innerText = rgbaToHEXAText(rgbaColor);
-
-  rgbFunctionOutput.innerText = \`rgb(\${Math.round(rgbaColor.r)} \${Math.round(
-    rgbaColor.g,
-  )} \${Math.round(rgbaColor.b)}\`;
-  if (rgbaColor.alpha && rgbaColor.alpha < 1.0) {
-    rgbFunctionOutput.innerText += \` / \${rgbaColor.alpha.toFixed(3)}\`;
-  }
-  rgbFunctionOutput.innerText += \`)\`;
-
-  colorFunctionOutput.innerText = \`color(srgb \${(rgbaColor.r / 255).toFixed(
-    3,
-  )} \${(rgbaColor.g / 255).toFixed(3)} \${(rgbaColor.b / 255).toFixed(3)}\`;
-  if (rgbaColor.alpha && rgbaColor.alpha < 1.0) {
-    colorFunctionOutput.innerText += \` / \${rgbaColor.alpha.toFixed(3)}\`;
-  }
-  colorFunctionOutput.innerText += \`)\`;
-
-  hslFunctionOutput.innerText = toHSLAText(rgbaColor);
-
-  hwbFunctionOutput.innerText = rgbaToHWBAText(rgbaColor);
-  labFunctionOutput.innerText = rgbaToLabText(rgbaColor);
-  xyzD50FunctionOutput.innerText = rgbaToXYZD50Text(rgbaColor);
-  xyzD65FunctionOutput.innerText = rgbaToXYZD65Text(rgbaColor);
-  lchFunctionOutput.innerText = toLCHText(rgbaColor);
-  oklabFunctionOutput.innerText = toOkLabText(rgbaColor);
-  oklchFunctionOutput.innerText = toOkLChText(rgbaColor);
-}
-
-function setColorToDialog() {
-  colorTextInput.value = rgbaToHEXAText(currentColor);
-  colorInput.value = rgbToHEXText(currentColor);
-  colorOpacitySlider.value = currentColor.alpha;
-}
-
-function init() {
-  percentageOneSlider.addEventListener("input", (e) => {
-    percentageOneLabel.innerText = e.target.value + "%";
-    updateColorMix();
-  });
-
-  percentageTwoSlider.addEventListener("input", (e) => {
-    percentageTwoLabel.innerText = e.target.value + "%";
-    updateColorMix();
-  });
-
-  colorSpace.addEventListener("change", (e) => {
-    if (polarColorSpaces.includes(e.target.value)) {
-      interpolationMethod.style.visibility = "visible";
-      interpolationMethodLabel.style.visibility = "visible";
-    } else {
-      interpolationMethod.style.visibility = "hidden";
-      interpolationMethodLabel.style.visibility = "hidden";
-    }
-    updateColorMix();
-  });
-
-  interpolationMethod.addEventListener("change", () => {
-    updateColorMix();
-  });
-
-  interpolationMethod.style.visibility = "hidden";
-  interpolationMethodLabel.style.visibility = "hidden";
-
-  colorOneButton.addEventListener("click", () => {
-    currentColor = colorOne;
-    setColorToDialog();
-    pickerDialog.showModal();
-  });
-
-  colorTwoButton.addEventListener("click", () => {
-    currentColor = colorTwo;
-    setColorToDialog();
-    pickerDialog.showModal();
-  });
-
-  colorTextInput.addEventListener("input", (e) => {
-    const color = colorToRGBA(e.target.value);
-    Object.assign(currentColor, color);
-    colorInput.value = rgbToHEXText(currentColor);
-    colorOpacitySlider.value = currentColor.alpha;
-  });
-
-  colorInput.addEventListener("input", (e) => {
-    const text = e.target.value;
-    currentColor.r = parseInt(text.slice(1, 3), 16);
-    currentColor.g = parseInt(text.slice(3, 5), 16);
-    currentColor.b = parseInt(text.slice(5, 7), 16);
-    colorTextInput.value = rgbaToHEXAText(currentColor);
-    colorOpacitySlider.value = 1.0;
-  });
-
-  colorOpacitySlider.addEventListener("input", (e) => {
-    const value = parseFloat(e.target.value);
-    if (value >= 0 && value <= 1) {
-      currentColor.alpha = value;
-      colorTextInput.value = rgbaToHEXAText(currentColor);
-    }
-  });
-
-  pickerOkButton.addEventListener("click", () => {
-    colorOneButton.style.setProperty(
-      "background-color",
-      rgbaToHEXAText(colorOne),
-    );
-    colorTwoButton.style.setProperty(
-      "background-color",
-      rgbaToHEXAText(colorTwo),
-    );
-    pickerDialog.close();
-    updateColorMix();
-  });
-
-  document.querySelectorAll("#output-colors button").forEach((button) => {
-    button.addEventListener("click", (e) => {
-      // get parent element
-      const text = e.target.nextElementSibling.innerText;
-      navigator.clipboard.writeText(text);
-      e.target.innerText = "Copied!";
-      setTimeout(() => {
-        e.target.innerText = "Copy";
-      }, 1000);
-    });
-  });
-
-  updateColorMix();
-}
-
-init();
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -84517,24 +76767,6 @@ main {
                     }
                   }
                 },
-                css_viewport: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/CSS_viewport",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/media/horizontal-viewport-segments"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/media/vertical-viewport-segments"
-                      ]
-                    }
-                  ]
-                },
                 css_writing_modes: {
                   children: {
                     vertical_controls: {
@@ -84718,6 +76950,13 @@ div {
 }
 ~~~
 `
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webaim.org/techniques/css/invisiblecontent/",
+                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -85054,27 +77293,6 @@ li {
 env(viewport-segment-width 1 0)
 ~~~
 `
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://mdn.github.io/dom-examples/viewport-segment-api/",
-                        404
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/dom-examples/tree/main/viewport-segment-api",
-                        404
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://mdn.github.io/dom-examples/viewport-segment-api/",
-                        404
                       ]
                     }
                   ]
@@ -85418,21 +77636,65 @@ hue-rotate(0.5turn)
                       slug: "/en-US/docs/Web/CSS/filter-function/invert",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "HTML code issue",
                           data: [
-                            "CssSyntaxError",
-                            "Unknown word invert (CssSyntaxError)",
-                            "invert(0)     /* No effect */",
-                            "1:1 - 1:7",
+                            "syntax",
+                            'Unexpected closing tag ":svg:filter". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
+                            "          </filter>",
+                            "35:10 - 35:19",
                             `/en-US/docs/Web/CSS/filter-function/invert
-[CssSyntaxError] Unknown word invert (CssSyntaxError)
+[syntax] Unexpected closing tag ":svg:filter". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
 ~~~
-invert(0)     /* No effect */
-invert(.6)    /* 60% inversion */
+<svg height="0">
+  <filter id="invert">
+    <feComponentTransfer>
+      <feFuncR type="table" tableValues="0.3 0" />
+      <feFuncG type="table" tableValues="0.3 0" />
+      <feFuncB type="table" tableValues="0.3 0" />
+    </feComponentTransfer>
+  </filter>
+</svg>
 
-invert()      /* Completely inverted */
-invert(1)
-invert(100%)
+<table cellpadding="5">
+  <thead>
+    <tr>
+      <th><code>invert()</code> filter</th>
+      <th>SVG filter equivalent</th>
+      <th>Original image</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img
+          class="svgFilter"
+          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+          alt="Pride flag" />
+      </td>
+      <td>
+        <svg id="svg" height="220" width="220" overflow="visible">
+          <filter id="svgInvert">
+            <feComponentTransfer>
+              <feFuncR type="table" tableValues="0.3 0"/>
+              <feFuncG type="table" tableValues="0.3 0"/>
+              <feFuncB type="table" tableValues="0.3 0"/>
+            </feComponentTransfer>
+          </filter>
+          </filter>
+          <image
+            href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+            xlink:href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+            filter="url('#svgInvert')" />
+        </svg>
+      </td>
+      <td>
+        <img
+          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+          alt="Pride flag" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 ~~~
 `
                           ]
@@ -93873,6 +86135,19 @@ p {
                           ]
                         }
                       ]
+                    },
+                    pagination: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Layout_cookbook/Pagination",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webaim.org/techniques/css/invisiblecontent/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -95246,6 +87521,26 @@ img.opacity:hover {
 }
 ~~~
 `
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webaim.org/resources/contrastchecker/",
+                        "Cannot reach server and Bun hangs"
+                      ]
+                    }
+                  ]
+                },
+                "outline-color": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/outline-color",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webaim.org/resources/contrastchecker/",
+                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -97625,435 +89920,6 @@ css.properties.grid-template-rows.repeat`
                       ]
                     },
                     {
-                      message: "CSS code issue",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#eee" to be "#eeeeee" (color-hex-length)',
-                        "  background-color: #eee;",
-                        "36:21 - 36:25",
-                        `/en-US/docs/Web/CSS/scroll-target-group
-[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  text-align: center;
-}
-
-button {
-  background-color: white;
-}
-
-/* General styling of list as scrolling carousel */
-
-ul {
-  width: 100%;
-  height: 400px;
-  padding: 20px;
-  gap: 4%;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 100%;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-ul li {
-  list-style-type: none;
-  background-color: #eee;
-  border: 1px solid #ddd;
-  padding: 20px;
-
-  scroll-snap-align: center;
-}
-
-/* CSS scroll buttons */
-
-/* Style the scroll buttons */
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: rgb(0 0 0 / 0.7);
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-/* Position the scroll buttons */
-
-ul {
-  anchor-name: --myCarousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --myCarousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ol {
-  position: absolute;
-  position-anchor: --myCarousel;
-  top: calc(anchor(bottom) - 90px);
-  justify-self: anchor-center;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-
-  list-style-type: none;
-  padding: 0;
-  scroll-target-group: auto;
-}
-
-ol a {
-  width: 28px;
-  height: 28px;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  padding-top: 4px;
-  color: black;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 50%;
-}
-
-ol a:hover,
-ol a:focus,
-:target-current {
-  background-color: black;
-  color: white;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#ddd" to be "#dddddd" (color-hex-length)',
-                        "  border: 1px solid #ddd;",
-                        "37:21 - 37:25",
-                        `/en-US/docs/Web/CSS/scroll-target-group
-[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  text-align: center;
-}
-
-button {
-  background-color: white;
-}
-
-/* General styling of list as scrolling carousel */
-
-ul {
-  width: 100%;
-  height: 400px;
-  padding: 20px;
-  gap: 4%;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 100%;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-ul li {
-  list-style-type: none;
-  background-color: #eee;
-  border: 1px solid #ddd;
-  padding: 20px;
-
-  scroll-snap-align: center;
-}
-
-/* CSS scroll buttons */
-
-/* Style the scroll buttons */
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: rgb(0 0 0 / 0.7);
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-/* Position the scroll buttons */
-
-ul {
-  anchor-name: --myCarousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --myCarousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ol {
-  position: absolute;
-  position-anchor: --myCarousel;
-  top: calc(anchor(bottom) - 90px);
-  justify-self: anchor-center;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-
-  list-style-type: none;
-  padding: 0;
-  scroll-target-group: auto;
-}
-
-ol a {
-  width: 28px;
-  height: 28px;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  padding-top: 4px;
-  color: black;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 50%;
-}
-
-ol a:hover,
-ol a:focus,
-:target-current {
-  background-color: black;
-  color: white;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-named",
-                        'Expected "rgb(0 0 0/1)" to be "black" (color-named)',
-                        "  color: rgb(0 0 0 / 1);",
-                        "57:10 - 57:24",
-                        `/en-US/docs/Web/CSS/scroll-target-group
-[color-named] Expected "rgb(0 0 0/1)" to be "black" (color-named)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  text-align: center;
-}
-
-button {
-  background-color: white;
-}
-
-/* General styling of list as scrolling carousel */
-
-ul {
-  width: 100%;
-  height: 400px;
-  padding: 20px;
-  gap: 4%;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 100%;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-ul li {
-  list-style-type: none;
-  background-color: #eee;
-  border: 1px solid #ddd;
-  padding: 20px;
-
-  scroll-snap-align: center;
-}
-
-/* CSS scroll buttons */
-
-/* Style the scroll buttons */
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: rgb(0 0 0 / 0.7);
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-/* Position the scroll buttons */
-
-ul {
-  anchor-name: --myCarousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --myCarousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ol {
-  position: absolute;
-  position-anchor: --myCarousel;
-  top: calc(anchor(bottom) - 90px);
-  justify-self: anchor-center;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-
-  list-style-type: none;
-  padding: 0;
-  scroll-target-group: auto;
-}
-
-ol a {
-  width: 28px;
-  height: 28px;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  padding-top: 4px;
-  color: black;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 50%;
-}
-
-ol a:hover,
-ol a:focus,
-:target-current {
-  background-color: black;
-  color: white;
-}
-~~~
-`
-                      ]
-                    },
-                    {
                       message: "Stylelint backlog",
                       data: [
                         "font-family-name-quotes",
@@ -98098,8 +89964,8 @@ ul {
 
 ul li {
   list-style-type: none;
-  background-color: #eee;
-  border: 1px solid #ddd;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
   padding: 20px;
 
   scroll-snap-align: center;
@@ -98119,7 +89985,7 @@ ul::scroll-button(*) {
 
 ul::scroll-button(*):hover,
 ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
+  color: black;
 }
 
 ul::scroll-button(*):active {
@@ -98141,12 +90007,12 @@ ul::scroll-button(right) {
 /* Position the scroll buttons */
 
 ul {
-  anchor-name: --myCarousel;
+  anchor-name: --my-carousel;
 }
 
 ul::scroll-button(*) {
   position: absolute;
-  position-anchor: --myCarousel;
+  position-anchor: --my-carousel;
 }
 
 ul::scroll-button(left) {
@@ -98161,7 +90027,7 @@ ul::scroll-button(right) {
 
 ol {
   position: absolute;
-  position-anchor: --myCarousel;
+  position-anchor: --my-carousel;
   top: calc(anchor(bottom) - 90px);
   justify-self: anchor-center;
   display: flex;
@@ -98241,8 +90107,8 @@ ul {
 
 ul li {
   list-style-type: none;
-  background-color: #eee;
-  border: 1px solid #ddd;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
   padding: 20px;
 
   scroll-snap-align: center;
@@ -98262,7 +90128,7 @@ ul::scroll-button(*) {
 
 ul::scroll-button(*):hover,
 ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
+  color: black;
 }
 
 ul::scroll-button(*):active {
@@ -98284,12 +90150,12 @@ ul::scroll-button(right) {
 /* Position the scroll buttons */
 
 ul {
-  anchor-name: --myCarousel;
+  anchor-name: --my-carousel;
 }
 
 ul::scroll-button(*) {
   position: absolute;
-  position-anchor: --myCarousel;
+  position-anchor: --my-carousel;
 }
 
 ul::scroll-button(left) {
@@ -98304,7 +90170,7 @@ ul::scroll-button(right) {
 
 ol {
   position: absolute;
-  position-anchor: --myCarousel;
+  position-anchor: --my-carousel;
   top: calc(anchor(bottom) - 90px);
   justify-self: anchor-center;
   display: flex;
@@ -98384,8 +90250,8 @@ ul {
 
 ul li {
   list-style-type: none;
-  background-color: #eee;
-  border: 1px solid #ddd;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
   padding: 20px;
 
   scroll-snap-align: center;
@@ -98405,7 +90271,7 @@ ul::scroll-button(*) {
 
 ul::scroll-button(*):hover,
 ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
+  color: black;
 }
 
 ul::scroll-button(*):active {
@@ -98427,12 +90293,12 @@ ul::scroll-button(right) {
 /* Position the scroll buttons */
 
 ul {
-  anchor-name: --myCarousel;
+  anchor-name: --my-carousel;
 }
 
 ul::scroll-button(*) {
   position: absolute;
-  position-anchor: --myCarousel;
+  position-anchor: --my-carousel;
 }
 
 ul::scroll-button(left) {
@@ -98447,7 +90313,7 @@ ul::scroll-button(right) {
 
 ol {
   position: absolute;
-  position-anchor: --myCarousel;
+  position-anchor: --my-carousel;
   top: calc(anchor(bottom) - 90px);
   justify-self: anchor-center;
   display: flex;
@@ -98527,8 +90393,8 @@ ul {
 
 ul li {
   list-style-type: none;
-  background-color: #eee;
-  border: 1px solid #ddd;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
   padding: 20px;
 
   scroll-snap-align: center;
@@ -98548,7 +90414,7 @@ ul::scroll-button(*) {
 
 ul::scroll-button(*):hover,
 ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
+  color: black;
 }
 
 ul::scroll-button(*):active {
@@ -98570,12 +90436,12 @@ ul::scroll-button(right) {
 /* Position the scroll buttons */
 
 ul {
-  anchor-name: --myCarousel;
+  anchor-name: --my-carousel;
 }
 
 ul::scroll-button(*) {
   position: absolute;
-  position-anchor: --myCarousel;
+  position-anchor: --my-carousel;
 }
 
 ul::scroll-button(left) {
@@ -98590,7 +90456,7 @@ ul::scroll-button(right) {
 
 ol {
   position: absolute;
-  position-anchor: --myCarousel;
+  position-anchor: --my-carousel;
   top: calc(anchor(bottom) - 90px);
   justify-self: anchor-center;
   display: flex;
@@ -98670,8 +90536,8 @@ ul {
 
 ul li {
   list-style-type: none;
-  background-color: #eee;
-  border: 1px solid #ddd;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
   padding: 20px;
 
   scroll-snap-align: center;
@@ -98691,7 +90557,7 @@ ul::scroll-button(*) {
 
 ul::scroll-button(*):hover,
 ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
+  color: black;
 }
 
 ul::scroll-button(*):active {
@@ -98713,12 +90579,12 @@ ul::scroll-button(right) {
 /* Position the scroll buttons */
 
 ul {
-  anchor-name: --myCarousel;
+  anchor-name: --my-carousel;
 }
 
 ul::scroll-button(*) {
   position: absolute;
-  position-anchor: --myCarousel;
+  position-anchor: --my-carousel;
 }
 
 ul::scroll-button(left) {
@@ -98733,7 +90599,7 @@ ul::scroll-button(right) {
 
 ol {
   position: absolute;
-  position-anchor: --myCarousel;
+  position-anchor: --my-carousel;
   top: calc(anchor(bottom) - 90px);
   justify-self: anchor-center;
   display: flex;
@@ -98813,8 +90679,8 @@ ul {
 
 ul li {
   list-style-type: none;
-  background-color: #eee;
-  border: 1px solid #ddd;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
   padding: 20px;
 
   scroll-snap-align: center;
@@ -98834,150 +90700,7 @@ ul::scroll-button(*) {
 
 ul::scroll-button(*):hover,
 ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-/* Position the scroll buttons */
-
-ul {
-  anchor-name: --myCarousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --myCarousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ol {
-  position: absolute;
-  position-anchor: --myCarousel;
-  top: calc(anchor(bottom) - 90px);
-  justify-self: anchor-center;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-
-  list-style-type: none;
-  padding: 0;
-  scroll-target-group: auto;
-}
-
-ol a {
-  width: 28px;
-  height: 28px;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  padding-top: 4px;
   color: black;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 50%;
-}
-
-ol a:hover,
-ol a:focus,
-:target-current {
-  background-color: black;
-  color: white;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "value-keyword-case",
-                        'Expected "--myCarousel" to be "--mycarousel" (value-keyword-case)',
-                        "  anchor-name: --myCarousel;",
-                        "79:16 - 79:28",
-                        `/en-US/docs/Web/CSS/scroll-target-group
-[value-keyword-case] Expected "--myCarousel" to be "--mycarousel" (value-keyword-case)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  text-align: center;
-}
-
-button {
-  background-color: white;
-}
-
-/* General styling of list as scrolling carousel */
-
-ul {
-  width: 100%;
-  height: 400px;
-  padding: 20px;
-  gap: 4%;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 100%;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-ul li {
-  list-style-type: none;
-  background-color: #eee;
-  border: 1px solid #ddd;
-  padding: 20px;
-
-  scroll-snap-align: center;
-}
-
-/* CSS scroll buttons */
-
-/* Style the scroll buttons */
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: rgb(0 0 0 / 0.7);
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
 }
 
 ul::scroll-button(*):active {
@@ -98999,12 +90722,12 @@ ul::scroll-button(right) {
 /* Position the scroll buttons */
 
 ul {
-  anchor-name: --myCarousel;
+  anchor-name: --my-carousel;
 }
 
 ul::scroll-button(*) {
   position: absolute;
-  position-anchor: --myCarousel;
+  position-anchor: --my-carousel;
 }
 
 ul::scroll-button(left) {
@@ -99019,293 +90742,7 @@ ul::scroll-button(right) {
 
 ol {
   position: absolute;
-  position-anchor: --myCarousel;
-  top: calc(anchor(bottom) - 90px);
-  justify-self: anchor-center;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-
-  list-style-type: none;
-  padding: 0;
-  scroll-target-group: auto;
-}
-
-ol a {
-  width: 28px;
-  height: 28px;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  padding-top: 4px;
-  color: black;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 50%;
-}
-
-ol a:hover,
-ol a:focus,
-:target-current {
-  background-color: black;
-  color: white;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "value-keyword-case",
-                        'Expected "--myCarousel" to be "--mycarousel" (value-keyword-case)',
-                        "  position-anchor: --myCarousel;",
-                        "84:20 - 84:32",
-                        `/en-US/docs/Web/CSS/scroll-target-group
-[value-keyword-case] Expected "--myCarousel" to be "--mycarousel" (value-keyword-case)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  text-align: center;
-}
-
-button {
-  background-color: white;
-}
-
-/* General styling of list as scrolling carousel */
-
-ul {
-  width: 100%;
-  height: 400px;
-  padding: 20px;
-  gap: 4%;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 100%;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-ul li {
-  list-style-type: none;
-  background-color: #eee;
-  border: 1px solid #ddd;
-  padding: 20px;
-
-  scroll-snap-align: center;
-}
-
-/* CSS scroll buttons */
-
-/* Style the scroll buttons */
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: rgb(0 0 0 / 0.7);
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-/* Position the scroll buttons */
-
-ul {
-  anchor-name: --myCarousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --myCarousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ol {
-  position: absolute;
-  position-anchor: --myCarousel;
-  top: calc(anchor(bottom) - 90px);
-  justify-self: anchor-center;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-
-  list-style-type: none;
-  padding: 0;
-  scroll-target-group: auto;
-}
-
-ol a {
-  width: 28px;
-  height: 28px;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  padding-top: 4px;
-  color: black;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 50%;
-}
-
-ol a:hover,
-ol a:focus,
-:target-current {
-  background-color: black;
-  color: white;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "value-keyword-case",
-                        'Expected "--myCarousel" to be "--mycarousel" (value-keyword-case)',
-                        "  position-anchor: --myCarousel;",
-                        "99:20 - 99:32",
-                        `/en-US/docs/Web/CSS/scroll-target-group
-[value-keyword-case] Expected "--myCarousel" to be "--mycarousel" (value-keyword-case)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  text-align: center;
-}
-
-button {
-  background-color: white;
-}
-
-/* General styling of list as scrolling carousel */
-
-ul {
-  width: 100%;
-  height: 400px;
-  padding: 20px;
-  gap: 4%;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 100%;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-ul li {
-  list-style-type: none;
-  background-color: #eee;
-  border: 1px solid #ddd;
-  padding: 20px;
-
-  scroll-snap-align: center;
-}
-
-/* CSS scroll buttons */
-
-/* Style the scroll buttons */
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: rgb(0 0 0 / 0.7);
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  color: rgb(0 0 0 / 1);
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-/* Position the scroll buttons */
-
-ul {
-  anchor-name: --myCarousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --myCarousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ol {
-  position: absolute;
-  position-anchor: --myCarousel;
+  position-anchor: --my-carousel;
   top: calc(anchor(bottom) - 90px);
   justify-self: anchor-center;
   display: flex;
@@ -99729,6 +91166,19 @@ css.properties.list-style-type.symbols`
                       message: "Missing data",
                       data: [
                         "CSS info"
+                      ]
+                    }
+                  ]
+                },
+                "text-decoration-color": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/text-decoration-color",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webaim.org/resources/contrastchecker/",
+                        "Cannot reach server and Bun hangs"
                       ]
                     }
                   ]
@@ -102741,6 +94191,52 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
+                        a: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webaim.org/techniques/hypertext/hypertext_links",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webaim.org/techniques/skipnav/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
+                        audio: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/audio",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webaim.org/techniques/captions/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
+                        button: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webaim.org/resources/contrastchecker/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         caption: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/caption",
@@ -103432,6 +94928,13 @@ header {
 ~~~
 `
                               ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webaim.org/techniques/skipnav/",
+                                "Cannot reach server and Bun hangs"
+                              ]
                             }
                           ]
                         },
@@ -103858,11 +95361,37 @@ tfoot td {
                               ]
                             }
                           ]
+                        },
+                        video: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/video",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webaim.org/techniques/captions/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
                         }
                       }
                     },
                     global_attributes: {
                       children: {
+                        accesskey: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/accesskey",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://webaim.org/techniques/keyboard/accesskey",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         contenteditable: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/contenteditable",
@@ -104258,6 +95787,13 @@ h2 {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BWhite_Space%7D%26%5CP%7BGeneral_Category%3DSpace_Separator%7D",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://util.unicode.org/UnicodeJsps/list-unicodeset.jsp?a=%5Cp%7BID_Start%7D",
                             "The operation timed out."
                           ]
@@ -104291,127 +95827,25 @@ h2 {
                 }
               }
             },
-            mathml: {
-              children: {
-                reference: {
-                  children: {
-                    attribute: {
-                      children: {},
-                      slug: "/en-US/docs/Web/MathML/Reference/Attribute",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://w3c.github.io/mathml/",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    element: {
-                      children: {
-                        menclose: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/menclose",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/mathml/",
-                                404
-                              ]
-                            }
-                          ]
-                        },
-                        mfenced: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/mfenced",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/mathml/",
-                                404
-                              ]
-                            }
-                          ]
-                        },
-                        semantics: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Element/semantics",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/mathml/",
-                                404
-                              ]
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/Web/MathML/Reference/Element",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://w3c.github.io/mathml/",
-                            404
-                          ]
-                        }
-                      ]
-                    },
-                    global_attributes: {
-                      children: {
-                        href: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Reference/Global_attributes/href",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://w3c.github.io/mathml/",
-                                404
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              slug: "/en-US/docs/Web/MathML",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://w3c.github.io/mathml/",
-                    404
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://w3c.github.io/mathml/",
-                    404
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://w3c.github.io/mathml/",
-                    404
-                  ]
-                }
-              ]
-            },
             media: {
               children: {
                 guides: {
                   children: {
                     formats: {
                       children: {
+                        configuring_servers_for_ogg_media: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Configuring_servers_for_Ogg_media",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://gitlab.xiph.org/xiph/ffmpeg2theora",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -104659,6 +96093,28 @@ h2 {
             },
             security: {
               children: {
+                attacks: {
+                  children: {
+                    phishing: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Security/Attacks/Phishing",
+                      messages: [
+                        {
+                          message: "Bad href",
+                          data: [
+                            "web_authentication_passkeys"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Glossary/multi-factor_authentication"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 firefox_security_guidelines: {
                   children: {},
                   slug: "/en-US/docs/Web/Security/Firefox_Security_Guidelines",
