@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-ce64vgeg.js";
+} from "./chunk-xgkyzqbn.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -10106,20 +10106,6 @@ button {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://fairuse.stanford.edu/overview/fair-use/what-is-fair-use/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://copyrightservice.co.uk/copyright/p27_work_of_others",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -27529,33 +27515,6 @@ body {
               children: {
                 environment_setup: {
                   children: {
-                    browsing_the_web: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://duckduckgo.com/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://duckduckgo.com/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://duckduckgo.com/duckduckgo-help-pages/results/syntax",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     installing_software: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Installing_software",
@@ -28053,21 +28012,8 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/downloads.html",
+                            "https://gaesamplesite.appspot.com/",
                             503
-                          ]
-                        }
-                      ]
-                    },
-                    how_much_does_it_cost: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://dotclear.org/",
-                            "unable to verify the first certificate"
                           ]
                         }
                       ]
@@ -28386,17 +28332,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     }
                                   ]
@@ -28420,17 +28366,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     },
                                     {
-                                      message: "Broken external link",
+                                      message: "HTTP link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        "Cannot reach server and Bun hangs"
+                                        ""
                                       ]
                                     }
                                   ]
@@ -28439,10 +28385,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "Broken external link",
+                                  message: "HTTP link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    "Cannot reach server and Bun hangs"
+                                    ""
                                   ]
                                 }
                               ]
@@ -30048,6 +29994,19 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
+                    "67": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/67",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://code.videolan.org/videolan/dav1d",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     "1.5": {
                       children: {
                         changing_the_priority_of_http_requests: {
@@ -30167,13 +30126,6 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via page",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www-archive.mozilla.org/projects/xforms/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                              ]
                             }
                           ]
                         }
@@ -30368,7 +30320,7 @@ color: hsl(300deg 100% 50% / 100%);
 color: hwb(300deg 0% 0%);
 color: hwb(300 0% 0% / 1);
 
-/* by LAB representation of the sRGB value */
+/* by Lab representation of the sRGB value */
 color: lab(60 93.56 -60.5);
 color: lab(60 93.56 -60.5 / 1);
 
@@ -30422,7 +30374,1033 @@ color: hsl(300deg 100% 50% / 100%);
 color: hwb(300deg 0% 0%);
 color: hwb(300 0% 0% / 1);
 
-/* by LAB representation of the sRGB value */
+/* by Lab representation of the sRGB value */
+color: lab(60 93.56 -60.5);
+color: lab(60 93.56 -60.5 / 1);
+
+/* representation in the CIELAB color spaces */
+color: oklch(0.7 0.32 328.37);
+color: oklch(0.7 0.32 328.37 / 1);
+
+/* color() function in the XYZ color space */
+color: color(xyz-d65 0.59 0.28 0.96);
+color: color(xyz-d65 0.59 0.28 0.96 / 1);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-function-alias-notation",
+                            'Expected "rgba" to be "rgb" (color-function-alias-notation)',
+                            "color: rgba(255, 0, 255, 1);",
+                            "14:8 - 14:12",
+                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
+[color-function-alias-notation] Expected "rgba" to be "rgb" (color-function-alias-notation)
+~~~
+/* named color */
+color: magenta;
+
+/* sRGB value with percentage values */
+color: rgb(100% 0% 100%);
+color: rgb(100% 0% 100% / 100%);
+
+/* by sRGB numeric values */
+color: rgb(255 0 255);
+color: rgb(255 0 255 / 1);
+
+/* legacy rgb and rgba notation */
+color: rgb(100%, 0%, 100%);
+color: rgba(255, 0, 255, 1);
+
+/* by sRGB value in hex */
+color: #f0f; /* #rgb, a shorthand for #rrggbb */
+color: #ff00ff; /* #rrggbb */
+color: #f0ff; /* #rgba */
+color: #ff00ffff; /* #rrggbbaa */
+
+/* by HSL representation of the sRGB value */
+color: hsl(300 100% 50%);
+color: hsl(300deg 100% 50% / 100%);
+
+/* by HWB representation of the sRGB value */
+color: hwb(300deg 0% 0%);
+color: hwb(300 0% 0% / 1);
+
+/* by Lab representation of the sRGB value */
+color: lab(60 93.56 -60.5);
+color: lab(60 93.56 -60.5 / 1);
+
+/* representation in the CIELAB color spaces */
+color: oklch(0.7 0.32 328.37);
+color: oklch(0.7 0.32 328.37 / 1);
+
+/* color() function in the XYZ color space */
+color: color(xyz-d65 0.59 0.28 0.96);
+color: color(xyz-d65 0.59 0.28 0.96 / 1);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-function-notation",
+                            "Expected modern color-function notation (color-function-notation)",
+                            "color: rgb(100%, 0%, 100%);",
+                            "13:8 - 13:27",
+                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
+[color-function-notation] Expected modern color-function notation (color-function-notation)
+~~~
+/* named color */
+color: magenta;
+
+/* sRGB value with percentage values */
+color: rgb(100% 0% 100%);
+color: rgb(100% 0% 100% / 100%);
+
+/* by sRGB numeric values */
+color: rgb(255 0 255);
+color: rgb(255 0 255 / 1);
+
+/* legacy rgb and rgba notation */
+color: rgb(100%, 0%, 100%);
+color: rgba(255, 0, 255, 1);
+
+/* by sRGB value in hex */
+color: #f0f; /* #rgb, a shorthand for #rrggbb */
+color: #ff00ff; /* #rrggbb */
+color: #f0ff; /* #rgba */
+color: #ff00ffff; /* #rrggbbaa */
+
+/* by HSL representation of the sRGB value */
+color: hsl(300 100% 50%);
+color: hsl(300deg 100% 50% / 100%);
+
+/* by HWB representation of the sRGB value */
+color: hwb(300deg 0% 0%);
+color: hwb(300 0% 0% / 1);
+
+/* by Lab representation of the sRGB value */
+color: lab(60 93.56 -60.5);
+color: lab(60 93.56 -60.5 / 1);
+
+/* representation in the CIELAB color spaces */
+color: oklch(0.7 0.32 328.37);
+color: oklch(0.7 0.32 328.37 / 1);
+
+/* color() function in the XYZ color space */
+color: color(xyz-d65 0.59 0.28 0.96);
+color: color(xyz-d65 0.59 0.28 0.96 / 1);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-function-notation",
+                            "Expected modern color-function notation (color-function-notation)",
+                            "color: rgba(255, 0, 255, 1);",
+                            "14:8 - 14:28",
+                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
+[color-function-notation] Expected modern color-function notation (color-function-notation)
+~~~
+/* named color */
+color: magenta;
+
+/* sRGB value with percentage values */
+color: rgb(100% 0% 100%);
+color: rgb(100% 0% 100% / 100%);
+
+/* by sRGB numeric values */
+color: rgb(255 0 255);
+color: rgb(255 0 255 / 1);
+
+/* legacy rgb and rgba notation */
+color: rgb(100%, 0%, 100%);
+color: rgba(255, 0, 255, 1);
+
+/* by sRGB value in hex */
+color: #f0f; /* #rgb, a shorthand for #rrggbb */
+color: #ff00ff; /* #rrggbb */
+color: #f0ff; /* #rgba */
+color: #ff00ffff; /* #rrggbbaa */
+
+/* by HSL representation of the sRGB value */
+color: hsl(300 100% 50%);
+color: hsl(300deg 100% 50% / 100%);
+
+/* by HWB representation of the sRGB value */
+color: hwb(300deg 0% 0%);
+color: hwb(300 0% 0% / 1);
+
+/* by Lab representation of the sRGB value */
+color: lab(60 93.56 -60.5);
+color: lab(60 93.56 -60.5 / 1);
+
+/* representation in the CIELAB color spaces */
+color: oklch(0.7 0.32 328.37);
+color: oklch(0.7 0.32 328.37 / 1);
+
+/* color() function in the XYZ color space */
+color: color(xyz-d65 0.59 0.28 0.96);
+color: color(xyz-d65 0.59 0.28 0.96 / 1);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#f0f" to be "#ff00ff" (color-hex-length)',
+                            "color: #f0f; /* #rgb, a shorthand for #rrggbb */",
+                            "17:8 - 17:12",
+                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
+[color-hex-length] Expected "#f0f" to be "#ff00ff" (color-hex-length)
+~~~
+/* named color */
+color: magenta;
+
+/* sRGB value with percentage values */
+color: rgb(100% 0% 100%);
+color: rgb(100% 0% 100% / 100%);
+
+/* by sRGB numeric values */
+color: rgb(255 0 255);
+color: rgb(255 0 255 / 1);
+
+/* legacy rgb and rgba notation */
+color: rgb(100%, 0%, 100%);
+color: rgba(255, 0, 255, 1);
+
+/* by sRGB value in hex */
+color: #f0f; /* #rgb, a shorthand for #rrggbb */
+color: #ff00ff; /* #rrggbb */
+color: #f0ff; /* #rgba */
+color: #ff00ffff; /* #rrggbbaa */
+
+/* by HSL representation of the sRGB value */
+color: hsl(300 100% 50%);
+color: hsl(300deg 100% 50% / 100%);
+
+/* by HWB representation of the sRGB value */
+color: hwb(300deg 0% 0%);
+color: hwb(300 0% 0% / 1);
+
+/* by Lab representation of the sRGB value */
+color: lab(60 93.56 -60.5);
+color: lab(60 93.56 -60.5 / 1);
+
+/* representation in the CIELAB color spaces */
+color: oklch(0.7 0.32 328.37);
+color: oklch(0.7 0.32 328.37 / 1);
+
+/* color() function in the XYZ color space */
+color: color(xyz-d65 0.59 0.28 0.96);
+color: color(xyz-d65 0.59 0.28 0.96 / 1);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#f0ff" to be "#ff00ffff" (color-hex-length)',
+                            "color: #f0ff; /* #rgba */",
+                            "19:8 - 19:13",
+                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
+[color-hex-length] Expected "#f0ff" to be "#ff00ffff" (color-hex-length)
+~~~
+/* named color */
+color: magenta;
+
+/* sRGB value with percentage values */
+color: rgb(100% 0% 100%);
+color: rgb(100% 0% 100% / 100%);
+
+/* by sRGB numeric values */
+color: rgb(255 0 255);
+color: rgb(255 0 255 / 1);
+
+/* legacy rgb and rgba notation */
+color: rgb(100%, 0%, 100%);
+color: rgba(255, 0, 255, 1);
+
+/* by sRGB value in hex */
+color: #f0f; /* #rgb, a shorthand for #rrggbb */
+color: #ff00ff; /* #rrggbb */
+color: #f0ff; /* #rgba */
+color: #ff00ffff; /* #rrggbbaa */
+
+/* by HSL representation of the sRGB value */
+color: hsl(300 100% 50%);
+color: hsl(300deg 100% 50% / 100%);
+
+/* by HWB representation of the sRGB value */
+color: hwb(300deg 0% 0%);
+color: hwb(300 0% 0% / 1);
+
+/* by Lab representation of the sRGB value */
+color: lab(60 93.56 -60.5);
+color: lab(60 93.56 -60.5 / 1);
+
+/* representation in the CIELAB color spaces */
+color: oklch(0.7 0.32 328.37);
+color: oklch(0.7 0.32 328.37 / 1);
+
+/* color() function in the XYZ color space */
+color: color(xyz-d65 0.59 0.28 0.96);
+color: color(xyz-d65 0.59 0.28 0.96 / 1);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "rgb(100% 0% 100%)" to be "fuchsia" (color-named)',
+                            "color: rgb(100% 0% 100%);",
+                            "5:8 - 5:25",
+                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
+[color-named] Expected "rgb(100% 0% 100%)" to be "fuchsia" (color-named)
+~~~
+/* named color */
+color: magenta;
+
+/* sRGB value with percentage values */
+color: rgb(100% 0% 100%);
+color: rgb(100% 0% 100% / 100%);
+
+/* by sRGB numeric values */
+color: rgb(255 0 255);
+color: rgb(255 0 255 / 1);
+
+/* legacy rgb and rgba notation */
+color: rgb(100%, 0%, 100%);
+color: rgba(255, 0, 255, 1);
+
+/* by sRGB value in hex */
+color: #f0f; /* #rgb, a shorthand for #rrggbb */
+color: #ff00ff; /* #rrggbb */
+color: #f0ff; /* #rgba */
+color: #ff00ffff; /* #rrggbbaa */
+
+/* by HSL representation of the sRGB value */
+color: hsl(300 100% 50%);
+color: hsl(300deg 100% 50% / 100%);
+
+/* by HWB representation of the sRGB value */
+color: hwb(300deg 0% 0%);
+color: hwb(300 0% 0% / 1);
+
+/* by Lab representation of the sRGB value */
+color: lab(60 93.56 -60.5);
+color: lab(60 93.56 -60.5 / 1);
+
+/* representation in the CIELAB color spaces */
+color: oklch(0.7 0.32 328.37);
+color: oklch(0.7 0.32 328.37 / 1);
+
+/* color() function in the XYZ color space */
+color: color(xyz-d65 0.59 0.28 0.96);
+color: color(xyz-d65 0.59 0.28 0.96 / 1);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "rgb(100% 0% 100%/100%)" to be "fuchsia" (color-named)',
+                            "color: rgb(100% 0% 100% / 100%);",
+                            "6:8 - 6:32",
+                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
+[color-named] Expected "rgb(100% 0% 100%/100%)" to be "fuchsia" (color-named)
+~~~
+/* named color */
+color: magenta;
+
+/* sRGB value with percentage values */
+color: rgb(100% 0% 100%);
+color: rgb(100% 0% 100% / 100%);
+
+/* by sRGB numeric values */
+color: rgb(255 0 255);
+color: rgb(255 0 255 / 1);
+
+/* legacy rgb and rgba notation */
+color: rgb(100%, 0%, 100%);
+color: rgba(255, 0, 255, 1);
+
+/* by sRGB value in hex */
+color: #f0f; /* #rgb, a shorthand for #rrggbb */
+color: #ff00ff; /* #rrggbb */
+color: #f0ff; /* #rgba */
+color: #ff00ffff; /* #rrggbbaa */
+
+/* by HSL representation of the sRGB value */
+color: hsl(300 100% 50%);
+color: hsl(300deg 100% 50% / 100%);
+
+/* by HWB representation of the sRGB value */
+color: hwb(300deg 0% 0%);
+color: hwb(300 0% 0% / 1);
+
+/* by Lab representation of the sRGB value */
+color: lab(60 93.56 -60.5);
+color: lab(60 93.56 -60.5 / 1);
+
+/* representation in the CIELAB color spaces */
+color: oklch(0.7 0.32 328.37);
+color: oklch(0.7 0.32 328.37 / 1);
+
+/* color() function in the XYZ color space */
+color: color(xyz-d65 0.59 0.28 0.96);
+color: color(xyz-d65 0.59 0.28 0.96 / 1);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "rgb(255 0 255)" to be "fuchsia" (color-named)',
+                            "color: rgb(255 0 255);",
+                            "9:8 - 9:22",
+                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
+[color-named] Expected "rgb(255 0 255)" to be "fuchsia" (color-named)
+~~~
+/* named color */
+color: magenta;
+
+/* sRGB value with percentage values */
+color: rgb(100% 0% 100%);
+color: rgb(100% 0% 100% / 100%);
+
+/* by sRGB numeric values */
+color: rgb(255 0 255);
+color: rgb(255 0 255 / 1);
+
+/* legacy rgb and rgba notation */
+color: rgb(100%, 0%, 100%);
+color: rgba(255, 0, 255, 1);
+
+/* by sRGB value in hex */
+color: #f0f; /* #rgb, a shorthand for #rrggbb */
+color: #ff00ff; /* #rrggbb */
+color: #f0ff; /* #rgba */
+color: #ff00ffff; /* #rrggbbaa */
+
+/* by HSL representation of the sRGB value */
+color: hsl(300 100% 50%);
+color: hsl(300deg 100% 50% / 100%);
+
+/* by HWB representation of the sRGB value */
+color: hwb(300deg 0% 0%);
+color: hwb(300 0% 0% / 1);
+
+/* by Lab representation of the sRGB value */
+color: lab(60 93.56 -60.5);
+color: lab(60 93.56 -60.5 / 1);
+
+/* representation in the CIELAB color spaces */
+color: oklch(0.7 0.32 328.37);
+color: oklch(0.7 0.32 328.37 / 1);
+
+/* color() function in the XYZ color space */
+color: color(xyz-d65 0.59 0.28 0.96);
+color: color(xyz-d65 0.59 0.28 0.96 / 1);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "rgb(255 0 255/1)" to be "fuchsia" (color-named)',
+                            "color: rgb(255 0 255 / 1);",
+                            "10:8 - 10:26",
+                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
+[color-named] Expected "rgb(255 0 255/1)" to be "fuchsia" (color-named)
+~~~
+/* named color */
+color: magenta;
+
+/* sRGB value with percentage values */
+color: rgb(100% 0% 100%);
+color: rgb(100% 0% 100% / 100%);
+
+/* by sRGB numeric values */
+color: rgb(255 0 255);
+color: rgb(255 0 255 / 1);
+
+/* legacy rgb and rgba notation */
+color: rgb(100%, 0%, 100%);
+color: rgba(255, 0, 255, 1);
+
+/* by sRGB value in hex */
+color: #f0f; /* #rgb, a shorthand for #rrggbb */
+color: #ff00ff; /* #rrggbb */
+color: #f0ff; /* #rgba */
+color: #ff00ffff; /* #rrggbbaa */
+
+/* by HSL representation of the sRGB value */
+color: hsl(300 100% 50%);
+color: hsl(300deg 100% 50% / 100%);
+
+/* by HWB representation of the sRGB value */
+color: hwb(300deg 0% 0%);
+color: hwb(300 0% 0% / 1);
+
+/* by Lab representation of the sRGB value */
+color: lab(60 93.56 -60.5);
+color: lab(60 93.56 -60.5 / 1);
+
+/* representation in the CIELAB color spaces */
+color: oklch(0.7 0.32 328.37);
+color: oklch(0.7 0.32 328.37 / 1);
+
+/* color() function in the XYZ color space */
+color: color(xyz-d65 0.59 0.28 0.96);
+color: color(xyz-d65 0.59 0.28 0.96 / 1);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "rgb(100%,0%,100%)" to be "fuchsia" (color-named)',
+                            "color: rgb(100%, 0%, 100%);",
+                            "13:8 - 13:27",
+                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
+[color-named] Expected "rgb(100%,0%,100%)" to be "fuchsia" (color-named)
+~~~
+/* named color */
+color: magenta;
+
+/* sRGB value with percentage values */
+color: rgb(100% 0% 100%);
+color: rgb(100% 0% 100% / 100%);
+
+/* by sRGB numeric values */
+color: rgb(255 0 255);
+color: rgb(255 0 255 / 1);
+
+/* legacy rgb and rgba notation */
+color: rgb(100%, 0%, 100%);
+color: rgba(255, 0, 255, 1);
+
+/* by sRGB value in hex */
+color: #f0f; /* #rgb, a shorthand for #rrggbb */
+color: #ff00ff; /* #rrggbb */
+color: #f0ff; /* #rgba */
+color: #ff00ffff; /* #rrggbbaa */
+
+/* by HSL representation of the sRGB value */
+color: hsl(300 100% 50%);
+color: hsl(300deg 100% 50% / 100%);
+
+/* by HWB representation of the sRGB value */
+color: hwb(300deg 0% 0%);
+color: hwb(300 0% 0% / 1);
+
+/* by Lab representation of the sRGB value */
+color: lab(60 93.56 -60.5);
+color: lab(60 93.56 -60.5 / 1);
+
+/* representation in the CIELAB color spaces */
+color: oklch(0.7 0.32 328.37);
+color: oklch(0.7 0.32 328.37 / 1);
+
+/* color() function in the XYZ color space */
+color: color(xyz-d65 0.59 0.28 0.96);
+color: color(xyz-d65 0.59 0.28 0.96 / 1);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "rgba(255,0,255,1)" to be "fuchsia" (color-named)',
+                            "color: rgba(255, 0, 255, 1);",
+                            "14:8 - 14:28",
+                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
+[color-named] Expected "rgba(255,0,255,1)" to be "fuchsia" (color-named)
+~~~
+/* named color */
+color: magenta;
+
+/* sRGB value with percentage values */
+color: rgb(100% 0% 100%);
+color: rgb(100% 0% 100% / 100%);
+
+/* by sRGB numeric values */
+color: rgb(255 0 255);
+color: rgb(255 0 255 / 1);
+
+/* legacy rgb and rgba notation */
+color: rgb(100%, 0%, 100%);
+color: rgba(255, 0, 255, 1);
+
+/* by sRGB value in hex */
+color: #f0f; /* #rgb, a shorthand for #rrggbb */
+color: #ff00ff; /* #rrggbb */
+color: #f0ff; /* #rgba */
+color: #ff00ffff; /* #rrggbbaa */
+
+/* by HSL representation of the sRGB value */
+color: hsl(300 100% 50%);
+color: hsl(300deg 100% 50% / 100%);
+
+/* by HWB representation of the sRGB value */
+color: hwb(300deg 0% 0%);
+color: hwb(300 0% 0% / 1);
+
+/* by Lab representation of the sRGB value */
+color: lab(60 93.56 -60.5);
+color: lab(60 93.56 -60.5 / 1);
+
+/* representation in the CIELAB color spaces */
+color: oklch(0.7 0.32 328.37);
+color: oklch(0.7 0.32 328.37 / 1);
+
+/* color() function in the XYZ color space */
+color: color(xyz-d65 0.59 0.28 0.96);
+color: color(xyz-d65 0.59 0.28 0.96 / 1);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "#f0f" to be "fuchsia" (color-named)',
+                            "color: #f0f; /* #rgb, a shorthand for #rrggbb */",
+                            "17:8 - 17:12",
+                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
+[color-named] Expected "#f0f" to be "fuchsia" (color-named)
+~~~
+/* named color */
+color: magenta;
+
+/* sRGB value with percentage values */
+color: rgb(100% 0% 100%);
+color: rgb(100% 0% 100% / 100%);
+
+/* by sRGB numeric values */
+color: rgb(255 0 255);
+color: rgb(255 0 255 / 1);
+
+/* legacy rgb and rgba notation */
+color: rgb(100%, 0%, 100%);
+color: rgba(255, 0, 255, 1);
+
+/* by sRGB value in hex */
+color: #f0f; /* #rgb, a shorthand for #rrggbb */
+color: #ff00ff; /* #rrggbb */
+color: #f0ff; /* #rgba */
+color: #ff00ffff; /* #rrggbbaa */
+
+/* by HSL representation of the sRGB value */
+color: hsl(300 100% 50%);
+color: hsl(300deg 100% 50% / 100%);
+
+/* by HWB representation of the sRGB value */
+color: hwb(300deg 0% 0%);
+color: hwb(300 0% 0% / 1);
+
+/* by Lab representation of the sRGB value */
+color: lab(60 93.56 -60.5);
+color: lab(60 93.56 -60.5 / 1);
+
+/* representation in the CIELAB color spaces */
+color: oklch(0.7 0.32 328.37);
+color: oklch(0.7 0.32 328.37 / 1);
+
+/* color() function in the XYZ color space */
+color: color(xyz-d65 0.59 0.28 0.96);
+color: color(xyz-d65 0.59 0.28 0.96 / 1);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "#ff00ff" to be "fuchsia" (color-named)',
+                            "color: #ff00ff; /* #rrggbb */",
+                            "18:8 - 18:15",
+                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
+[color-named] Expected "#ff00ff" to be "fuchsia" (color-named)
+~~~
+/* named color */
+color: magenta;
+
+/* sRGB value with percentage values */
+color: rgb(100% 0% 100%);
+color: rgb(100% 0% 100% / 100%);
+
+/* by sRGB numeric values */
+color: rgb(255 0 255);
+color: rgb(255 0 255 / 1);
+
+/* legacy rgb and rgba notation */
+color: rgb(100%, 0%, 100%);
+color: rgba(255, 0, 255, 1);
+
+/* by sRGB value in hex */
+color: #f0f; /* #rgb, a shorthand for #rrggbb */
+color: #ff00ff; /* #rrggbb */
+color: #f0ff; /* #rgba */
+color: #ff00ffff; /* #rrggbbaa */
+
+/* by HSL representation of the sRGB value */
+color: hsl(300 100% 50%);
+color: hsl(300deg 100% 50% / 100%);
+
+/* by HWB representation of the sRGB value */
+color: hwb(300deg 0% 0%);
+color: hwb(300 0% 0% / 1);
+
+/* by Lab representation of the sRGB value */
+color: lab(60 93.56 -60.5);
+color: lab(60 93.56 -60.5 / 1);
+
+/* representation in the CIELAB color spaces */
+color: oklch(0.7 0.32 328.37);
+color: oklch(0.7 0.32 328.37 / 1);
+
+/* color() function in the XYZ color space */
+color: color(xyz-d65 0.59 0.28 0.96);
+color: color(xyz-d65 0.59 0.28 0.96 / 1);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "#f0ff" to be "fuchsia" (color-named)',
+                            "color: #f0ff; /* #rgba */",
+                            "19:8 - 19:13",
+                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
+[color-named] Expected "#f0ff" to be "fuchsia" (color-named)
+~~~
+/* named color */
+color: magenta;
+
+/* sRGB value with percentage values */
+color: rgb(100% 0% 100%);
+color: rgb(100% 0% 100% / 100%);
+
+/* by sRGB numeric values */
+color: rgb(255 0 255);
+color: rgb(255 0 255 / 1);
+
+/* legacy rgb and rgba notation */
+color: rgb(100%, 0%, 100%);
+color: rgba(255, 0, 255, 1);
+
+/* by sRGB value in hex */
+color: #f0f; /* #rgb, a shorthand for #rrggbb */
+color: #ff00ff; /* #rrggbb */
+color: #f0ff; /* #rgba */
+color: #ff00ffff; /* #rrggbbaa */
+
+/* by HSL representation of the sRGB value */
+color: hsl(300 100% 50%);
+color: hsl(300deg 100% 50% / 100%);
+
+/* by HWB representation of the sRGB value */
+color: hwb(300deg 0% 0%);
+color: hwb(300 0% 0% / 1);
+
+/* by Lab representation of the sRGB value */
+color: lab(60 93.56 -60.5);
+color: lab(60 93.56 -60.5 / 1);
+
+/* representation in the CIELAB color spaces */
+color: oklch(0.7 0.32 328.37);
+color: oklch(0.7 0.32 328.37 / 1);
+
+/* color() function in the XYZ color space */
+color: color(xyz-d65 0.59 0.28 0.96);
+color: color(xyz-d65 0.59 0.28 0.96 / 1);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "#ff00ffff" to be "fuchsia" (color-named)',
+                            "color: #ff00ffff; /* #rrggbbaa */",
+                            "20:8 - 20:17",
+                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
+[color-named] Expected "#ff00ffff" to be "fuchsia" (color-named)
+~~~
+/* named color */
+color: magenta;
+
+/* sRGB value with percentage values */
+color: rgb(100% 0% 100%);
+color: rgb(100% 0% 100% / 100%);
+
+/* by sRGB numeric values */
+color: rgb(255 0 255);
+color: rgb(255 0 255 / 1);
+
+/* legacy rgb and rgba notation */
+color: rgb(100%, 0%, 100%);
+color: rgba(255, 0, 255, 1);
+
+/* by sRGB value in hex */
+color: #f0f; /* #rgb, a shorthand for #rrggbb */
+color: #ff00ff; /* #rrggbb */
+color: #f0ff; /* #rgba */
+color: #ff00ffff; /* #rrggbbaa */
+
+/* by HSL representation of the sRGB value */
+color: hsl(300 100% 50%);
+color: hsl(300deg 100% 50% / 100%);
+
+/* by HWB representation of the sRGB value */
+color: hwb(300deg 0% 0%);
+color: hwb(300 0% 0% / 1);
+
+/* by Lab representation of the sRGB value */
+color: lab(60 93.56 -60.5);
+color: lab(60 93.56 -60.5 / 1);
+
+/* representation in the CIELAB color spaces */
+color: oklch(0.7 0.32 328.37);
+color: oklch(0.7 0.32 328.37 / 1);
+
+/* color() function in the XYZ color space */
+color: color(xyz-d65 0.59 0.28 0.96);
+color: color(xyz-d65 0.59 0.28 0.96 / 1);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "hsl(300 100% 50%)" to be "fuchsia" (color-named)',
+                            "color: hsl(300 100% 50%);",
+                            "23:8 - 23:25",
+                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
+[color-named] Expected "hsl(300 100% 50%)" to be "fuchsia" (color-named)
+~~~
+/* named color */
+color: magenta;
+
+/* sRGB value with percentage values */
+color: rgb(100% 0% 100%);
+color: rgb(100% 0% 100% / 100%);
+
+/* by sRGB numeric values */
+color: rgb(255 0 255);
+color: rgb(255 0 255 / 1);
+
+/* legacy rgb and rgba notation */
+color: rgb(100%, 0%, 100%);
+color: rgba(255, 0, 255, 1);
+
+/* by sRGB value in hex */
+color: #f0f; /* #rgb, a shorthand for #rrggbb */
+color: #ff00ff; /* #rrggbb */
+color: #f0ff; /* #rgba */
+color: #ff00ffff; /* #rrggbbaa */
+
+/* by HSL representation of the sRGB value */
+color: hsl(300 100% 50%);
+color: hsl(300deg 100% 50% / 100%);
+
+/* by HWB representation of the sRGB value */
+color: hwb(300deg 0% 0%);
+color: hwb(300 0% 0% / 1);
+
+/* by Lab representation of the sRGB value */
+color: lab(60 93.56 -60.5);
+color: lab(60 93.56 -60.5 / 1);
+
+/* representation in the CIELAB color spaces */
+color: oklch(0.7 0.32 328.37);
+color: oklch(0.7 0.32 328.37 / 1);
+
+/* color() function in the XYZ color space */
+color: color(xyz-d65 0.59 0.28 0.96);
+color: color(xyz-d65 0.59 0.28 0.96 / 1);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "hsl(300deg 100% 50%/100%)" to be "fuchsia" (color-named)',
+                            "color: hsl(300deg 100% 50% / 100%);",
+                            "24:8 - 24:35",
+                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
+[color-named] Expected "hsl(300deg 100% 50%/100%)" to be "fuchsia" (color-named)
+~~~
+/* named color */
+color: magenta;
+
+/* sRGB value with percentage values */
+color: rgb(100% 0% 100%);
+color: rgb(100% 0% 100% / 100%);
+
+/* by sRGB numeric values */
+color: rgb(255 0 255);
+color: rgb(255 0 255 / 1);
+
+/* legacy rgb and rgba notation */
+color: rgb(100%, 0%, 100%);
+color: rgba(255, 0, 255, 1);
+
+/* by sRGB value in hex */
+color: #f0f; /* #rgb, a shorthand for #rrggbb */
+color: #ff00ff; /* #rrggbb */
+color: #f0ff; /* #rgba */
+color: #ff00ffff; /* #rrggbbaa */
+
+/* by HSL representation of the sRGB value */
+color: hsl(300 100% 50%);
+color: hsl(300deg 100% 50% / 100%);
+
+/* by HWB representation of the sRGB value */
+color: hwb(300deg 0% 0%);
+color: hwb(300 0% 0% / 1);
+
+/* by Lab representation of the sRGB value */
+color: lab(60 93.56 -60.5);
+color: lab(60 93.56 -60.5 / 1);
+
+/* representation in the CIELAB color spaces */
+color: oklch(0.7 0.32 328.37);
+color: oklch(0.7 0.32 328.37 / 1);
+
+/* color() function in the XYZ color space */
+color: color(xyz-d65 0.59 0.28 0.96);
+color: color(xyz-d65 0.59 0.28 0.96 / 1);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "hwb(300deg 0% 0%)" to be "fuchsia" (color-named)',
+                            "color: hwb(300deg 0% 0%);",
+                            "27:8 - 27:25",
+                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
+[color-named] Expected "hwb(300deg 0% 0%)" to be "fuchsia" (color-named)
+~~~
+/* named color */
+color: magenta;
+
+/* sRGB value with percentage values */
+color: rgb(100% 0% 100%);
+color: rgb(100% 0% 100% / 100%);
+
+/* by sRGB numeric values */
+color: rgb(255 0 255);
+color: rgb(255 0 255 / 1);
+
+/* legacy rgb and rgba notation */
+color: rgb(100%, 0%, 100%);
+color: rgba(255, 0, 255, 1);
+
+/* by sRGB value in hex */
+color: #f0f; /* #rgb, a shorthand for #rrggbb */
+color: #ff00ff; /* #rrggbb */
+color: #f0ff; /* #rgba */
+color: #ff00ffff; /* #rrggbbaa */
+
+/* by HSL representation of the sRGB value */
+color: hsl(300 100% 50%);
+color: hsl(300deg 100% 50% / 100%);
+
+/* by HWB representation of the sRGB value */
+color: hwb(300deg 0% 0%);
+color: hwb(300 0% 0% / 1);
+
+/* by Lab representation of the sRGB value */
+color: lab(60 93.56 -60.5);
+color: lab(60 93.56 -60.5 / 1);
+
+/* representation in the CIELAB color spaces */
+color: oklch(0.7 0.32 328.37);
+color: oklch(0.7 0.32 328.37 / 1);
+
+/* color() function in the XYZ color space */
+color: color(xyz-d65 0.59 0.28 0.96);
+color: color(xyz-d65 0.59 0.28 0.96 / 1);
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "hwb(300 0% 0%/1)" to be "fuchsia" (color-named)',
+                            "color: hwb(300 0% 0% / 1);",
+                            "28:8 - 28:26",
+                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
+[color-named] Expected "hwb(300 0% 0%/1)" to be "fuchsia" (color-named)
+~~~
+/* named color */
+color: magenta;
+
+/* sRGB value with percentage values */
+color: rgb(100% 0% 100%);
+color: rgb(100% 0% 100% / 100%);
+
+/* by sRGB numeric values */
+color: rgb(255 0 255);
+color: rgb(255 0 255 / 1);
+
+/* legacy rgb and rgba notation */
+color: rgb(100%, 0%, 100%);
+color: rgba(255, 0, 255, 1);
+
+/* by sRGB value in hex */
+color: #f0f; /* #rgb, a shorthand for #rrggbb */
+color: #ff00ff; /* #rrggbb */
+color: #f0ff; /* #rgba */
+color: #ff00ffff; /* #rrggbbaa */
+
+/* by HSL representation of the sRGB value */
+color: hsl(300 100% 50%);
+color: hsl(300deg 100% 50% / 100%);
+
+/* by HWB representation of the sRGB value */
+color: hwb(300deg 0% 0%);
+color: hwb(300 0% 0% / 1);
+
+/* by Lab representation of the sRGB value */
 color: lab(60 93.56 -60.5);
 color: lab(60 93.56 -60.5 / 1);
 
@@ -30476,7 +31454,7 @@ color: hsl(300deg 100% 50% / 100%);
 color: hwb(300deg 0% 0%);
 color: hwb(300 0% 0% / 1);
 
-/* by LAB representation of the sRGB value */
+/* by Lab representation of the sRGB value */
 color: lab(60 93.56 -60.5);
 color: lab(60 93.56 -60.5 / 1);
 
@@ -30530,7 +31508,7 @@ color: hsl(300deg 100% 50% / 100%);
 color: hwb(300deg 0% 0%);
 color: hwb(300 0% 0% / 1);
 
-/* by LAB representation of the sRGB value */
+/* by Lab representation of the sRGB value */
 color: lab(60 93.56 -60.5);
 color: lab(60 93.56 -60.5 / 1);
 
@@ -30817,6 +31795,94 @@ body {
   padding: 0;
   background-color: rgb(0 0 0 / 5%);
 }
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        basic_usage: {
+                          children: {},
+                          slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-elem",
+                                "Do not use the <style> element; use separate CSS blocks instead.",
+                                `    <style>
+      canvas {
+        border: 1px solid black;
+      }
+    </style>`,
+                                "5:4 - 9:12",
+                                `/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Canvas tutorial</title>
+    <style>
+      canvas {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" width="150" height="150"></canvas>
+    <script>
+      function draw() {
+        const canvas = document.getElementById("canvas");
+        const ctx = canvas.getContext("2d");
+      }
+      draw();
+    </script>
+  </body>
+</html>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-script",
+                                "Do not write JS within the <script> element; use separate JS blocks instead.",
+                                `    <script>
+      function draw() {
+        const canvas = document.getElementById("canvas");
+        const ctx = canvas.getContext("2d");
+      }
+      draw();
+    </script>`,
+                                "13:4 - 19:13",
+                                `/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Canvas tutorial</title>
+    <style>
+      canvas {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" width="150" height="150"></canvas>
+    <script>
+      function draw() {
+        const canvas = document.getElementById("canvas");
+        const ctx = canvas.getContext("2d");
+      }
+      draw();
+    </script>
+  </body>
+</html>
 ~~~
 `
                               ]
@@ -34047,21 +35113,7 @@ aside {
                   }
                 },
                 payment_request_api: {
-                  children: {
-                    using_secure_payment_confirmation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Payment_Request_API/Using_secure_payment_confirmation",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.emvco.com/emv-technologies/secure-remote-commerce/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
                   messages: [
                     {
@@ -35945,6 +36997,13 @@ p {
                           data: [
                             "https://www.mathworks.com/help/dsphdl/ref/biquadfilter.html",
                             403
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.staff.ncl.ac.uk/oliver.hinton/eee305/Chapter5.pdf",
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -55371,7 +56430,7 @@ hsl(150 30% 60% / 80%)
 hwb(12 50% 0%)
 hwb(194 0% 0% / 0.5)
 
-/* LAB (Lightness, A-axis, B-axis) */
+/* Lab (Lightness, A-axis, B-axis) */
 lab(50% 40 59.5)
 lab(50% 40 59.5 / 0.5)
 
@@ -55383,7 +56442,7 @@ lch(52.2% 72.2 50 / 0.5)
 oklab(59% 0.1 0.1)
 oklab(59% 0.1 0.1 / 0.5)
 
-/* Oklch (Lightness, Chroma, Hue) */
+/* OkLCh (Lightness, Chroma, Hue) */
 oklch(60% 0.15 50)
 oklch(60% 0.15 50 / 0.5)
 
@@ -58022,6 +59081,1921 @@ div {
   text-decoration: underline wavy #8f8;
   text-shadow: 2px 2px 3px black;
 }
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    color_format_converter: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_colors/Color_format_converter",
+                      messages: [
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "font-family-name-quotes",
+                            'Expected quotes around "segue" (font-family-name-quotes)',
+                            "  font-family: segue, arial, helvetica, sans-serif;",
+                            "6:16 - 6:21",
+                            `/en-US/docs/Web/CSS/CSS_colors/Color_format_converter
+[font-family-name-quotes] Expected quotes around "segue" (font-family-name-quotes)
+~~~
+dialog {
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
+  background-color: white;
+  font-family: segue, arial, helvetica, sans-serif;
+  margin-top: 5vh;
+  width: 550px;
+}
+
+table {
+  width: 100%;
+}
+
+td,
+th {
+  padding: 3px 0;
+}
+
+th {
+  background-color: #ededed;
+}
+
+td {
+  background-color: #dedede;
+  font-family: monospace;
+}
+
+body {
+  background:
+    linear-gradient(
+      -90deg,
+      transparent 0 38%,
+      47%,
+      rgb(0 0 0 / 0.7) 50%,
+      white 50% 100%
+    ),
+    conic-gradient(
+      black 0 90deg,
+      transparent 90deg 180deg,
+      black 180deg 270deg,
+      transparent 270deg 360deg
+    );
+  background-size:
+    100% 100%,
+    20px 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.color-inputs {
+  display: inline-flex;
+  margin-top: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  margin-right: 0.5rem;
+}
+
+input[type="text"] {
+  width: 300px;
+  margin-right: 0.5rem;
+}
+
+input[type="range"] {
+  width: 350px;
+}
+
+label {
+  user-select: none;
+}
+
+p {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "font-family-name-quotes",
+                            'Expected quotes around "arial" (font-family-name-quotes)',
+                            "  font-family: segue, arial, helvetica, sans-serif;",
+                            "6:23 - 6:28",
+                            `/en-US/docs/Web/CSS/CSS_colors/Color_format_converter
+[font-family-name-quotes] Expected quotes around "arial" (font-family-name-quotes)
+~~~
+dialog {
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
+  background-color: white;
+  font-family: segue, arial, helvetica, sans-serif;
+  margin-top: 5vh;
+  width: 550px;
+}
+
+table {
+  width: 100%;
+}
+
+td,
+th {
+  padding: 3px 0;
+}
+
+th {
+  background-color: #ededed;
+}
+
+td {
+  background-color: #dedede;
+  font-family: monospace;
+}
+
+body {
+  background:
+    linear-gradient(
+      -90deg,
+      transparent 0 38%,
+      47%,
+      rgb(0 0 0 / 0.7) 50%,
+      white 50% 100%
+    ),
+    conic-gradient(
+      black 0 90deg,
+      transparent 90deg 180deg,
+      black 180deg 270deg,
+      transparent 270deg 360deg
+    );
+  background-size:
+    100% 100%,
+    20px 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.color-inputs {
+  display: inline-flex;
+  margin-top: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  margin-right: 0.5rem;
+}
+
+input[type="text"] {
+  width: 300px;
+  margin-right: 0.5rem;
+}
+
+input[type="range"] {
+  width: 350px;
+}
+
+label {
+  user-select: none;
+}
+
+p {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "font-family-name-quotes",
+                            'Expected quotes around "helvetica" (font-family-name-quotes)',
+                            "  font-family: segue, arial, helvetica, sans-serif;",
+                            "6:30 - 6:39",
+                            `/en-US/docs/Web/CSS/CSS_colors/Color_format_converter
+[font-family-name-quotes] Expected quotes around "helvetica" (font-family-name-quotes)
+~~~
+dialog {
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
+  background-color: white;
+  font-family: segue, arial, helvetica, sans-serif;
+  margin-top: 5vh;
+  width: 550px;
+}
+
+table {
+  width: 100%;
+}
+
+td,
+th {
+  padding: 3px 0;
+}
+
+th {
+  background-color: #ededed;
+}
+
+td {
+  background-color: #dedede;
+  font-family: monospace;
+}
+
+body {
+  background:
+    linear-gradient(
+      -90deg,
+      transparent 0 38%,
+      47%,
+      rgb(0 0 0 / 0.7) 50%,
+      white 50% 100%
+    ),
+    conic-gradient(
+      black 0 90deg,
+      transparent 90deg 180deg,
+      black 180deg 270deg,
+      transparent 270deg 360deg
+    );
+  background-size:
+    100% 100%,
+    20px 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.color-inputs {
+  display: inline-flex;
+  margin-top: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  margin-right: 0.5rem;
+}
+
+input[type="text"] {
+  width: 300px;
+  margin-right: 0.5rem;
+}
+
+input[type="range"] {
+  width: 350px;
+}
+
+label {
+  user-select: none;
+}
+
+p {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-exponentiation-operator",
+                            "Use the '**' operator instead of 'Math.pow'.",
+                            "  return c <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);",
+                            "61:37 - 61:71",
+                            `/en-US/docs/Web/CSS/CSS_colors/Color_format_converter
+[prefer-exponentiation-operator] Use the '**' operator instead of 'Math.pow'.
+~~~
+const background = document.querySelector("body div");
+const colorText = document.getElementById("color-text");
+const colorPicker = document.getElementById("color-input");
+const opacityPicker = document.getElementById("opacity-input");
+const hexOutput = document.querySelector("#hex td > span");
+const rgbFunctionOutput = document.querySelector("#rgb-function td > span");
+const colorFunctionOutput = document.querySelector("#color-function td > span");
+const hslFunctionOutput = document.querySelector("#hsl-function td > span");
+const hwbFunctionOutput = document.querySelector("#hwb-function td > span");
+const labFunctionOutput = document.querySelector("#lab-function td > span");
+const okLabFunctionOutput = document.querySelector("#oklab-function td > span");
+const lchFunctionOutput = document.querySelector("#lch-function td > span");
+const okLchFunctionOutput = document.querySelector("#oklch-function td > span");
+const xyzD50FunctionOutput = document.querySelector(
+  "#xyz-d50-function td > span",
+);
+const xyzD65FunctionOutput = document.querySelector(
+  "#xyz-d65-function td > span",
+);
+
+const LRGB_LMS_MATRIX = [
+  [0.4122214708, 0.5363325363, 0.0514459929],
+  [0.2119034982, 0.6806995451, 0.1073969566],
+  [0.0883024619, 0.2817188376, 0.6299787005],
+];
+
+const LMS_LAB_MATRIX = [
+  [+0.2104542553, +0.793617785, -0.0040720468],
+  [+1.9779984951, -2.428592205, +0.4505937099],
+  [+0.0259040371, +0.7827717662, -0.808675766],
+];
+
+// srgb-linear to xyz-d50
+// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
+const LRGB_XYZ_D50_MATRIX = [
+  [0.4360747, 0.3850649, 0.1430804],
+  [0.2225045, 0.7168786, 0.0606169],
+  [0.0139322, 0.0971045, 0.7141733],
+];
+
+// srgb-linear to xyz-d65
+// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
+const LRGB_XYZ_D65_MATRIX = [
+  [0.4124564, 0.3575761, 0.1804375],
+  [0.2126729, 0.7151522, 0.072175],
+  [0.0193339, 0.119192, 0.9503041],
+];
+
+const currentColor = { r: 186, g: 218, b: 85, alpha: 1.0 }; // #bada55
+
+function multiplyByMatrix(matrix, tuple) {
+  let i = [0, 0, 0];
+  let j = matrix.length;
+  let k = matrix[0].length;
+  for (let l = 0; l < j; l++)
+    for (let m = 0; m < k; m++) i[l] += matrix[l][m] * tuple[m];
+  return i;
+}
+
+function rgbToLinear(c) {
+  return c <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
+}
+
+function intToHex(i) {
+  return Math.floor(i).toString(16).padStart(2, "0").toLowerCase();
+}
+
+function rgbToHEXText(c) {
+  return \`#\${intToHex(c.r)}\${intToHex(c.g)}\${intToHex(c.b)}\`;
+}
+
+function rgbaToHEXAText(color) {
+  const hexText = rgbToHEXText(color);
+  if (color.alpha === 1.0) {
+    return hexText;
+  }
+  const alpha = intToHex(color.alpha * 255);
+  return \`\${hexText}\${alpha}\`;
+}
+
+function rgbaToHSLA(color) {
+  let { r, g, b, alpha } = color;
+  // Let's have r, g, b in the range [0, 1]
+  r = r / 255;
+  g = g / 255;
+  b = b / 255;
+  const min = Math.min(r, g, b);
+  const max = Math.max(r, g, b);
+  const delta = max - min;
+  let h, s, l;
+
+  if (delta === 0) {
+    h = 0;
+  } else if (max === r) {
+    h = ((g - b) / delta) % 6;
+  } else if (max === g) {
+    h = (b - r) / delta + 2;
+  } else h = (r - g) / delta + 4;
+  h = Math.round(h * 60);
+
+  // We want an angle between 0 and 360°
+  if (h < 0) {
+    h += 360;
+  }
+
+  l = (max + min) / 2;
+  s = delta === 0 ? 0 : delta / (1 - Math.abs(2 * l - 1));
+  s = Number((s * 100).toFixed(1));
+  l = Number((l * 100).toFixed(1));
+
+  return { h, s, l, alpha };
+}
+
+function toHSLAText(color) {
+  const { h, s, l, alpha } = rgbaToHSLA(color);
+  return \`hsl(\${h.toFixed(0)} \${s.toFixed(0)}% \${l.toFixed(0)}%\${
+    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
+  })\`;
+}
+
+function rgbaToHWBAText(color) {
+  let { h, s, l, alpha } = rgbaToHSLA(color);
+  const chroma = s * (1 - Math.abs(l / 50 - 1));
+  let W = (l - chroma / 2).toFixed(0);
+  let B = (100 - l - chroma / 2).toFixed(0);
+  return \`hwb(\${h} \${W}% \${B}%\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+function rgbaToXYZD50(color) {
+  let { r, g, b, alpha } = color;
+  r = rgbToLinear(r / 255) * 255;
+  g = rgbToLinear(g / 255) * 255;
+  b = rgbToLinear(b / 255) * 255;
+
+  const xyz = multiplyByMatrix(LRGB_XYZ_D50_MATRIX, [r, g, b]);
+  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, alpha };
+}
+
+function rgbaToXYZD50Text(color) {
+  let { alpha } = color;
+  const xyz = rgbaToXYZD50(color);
+  return \`color(xyz-d50 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
+    5,
+  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+function rgbaToXYZD65(color) {
+  let { r, g, b, alpha } = color;
+  r = rgbToLinear(r / 255) * 255;
+  g = rgbToLinear(g / 255) * 255;
+  b = rgbToLinear(b / 255) * 255;
+
+  const xyz = multiplyByMatrix(LRGB_XYZ_D65_MATRIX, [r, g, b]);
+  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, alpha };
+}
+
+function rgbaToXYZD65Text(color) {
+  let { alpha } = color;
+  const xyz = rgbaToXYZD65(color);
+  return \`color(xyz-d65 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
+    5,
+  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+const D65 = [0.3457 / 0.3585, 1, 0.2958 / 0.3585];
+function xyzToLab(color) {
+  let { x, y, z, alpha } = color;
+  [x, y, z] = [x, y, z].map((v, i) => {
+    v = v / D65[i];
+    return v > 0.0088564516 ? Math.cbrt(v) : v * 903.2962962962963 + 16 / 116;
+  });
+  return { l: 116 * y - 16, a: 500 * (x - y), b: 200 * (y - z), alpha };
+}
+
+function rgbaToLabText(color) {
+  let { alpha } = color;
+  const xyz = rgbaToXYZD50(color);
+  const lab = xyzToLab(xyz);
+  return \`lab(\${lab.l.toFixed(3)} \${lab.a.toFixed(3)} \${lab.b.toFixed(3)}\${
+    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
+  })\`;
+}
+
+function rgbToOklab(color) {
+  let { r, g, b, alpha } = color;
+  r = rgbToLinear(r / 255);
+  g = rgbToLinear(g / 255);
+  b = rgbToLinear(b / 255);
+  const lms = multiplyByMatrix(LRGB_LMS_MATRIX, [r, g, b]).map((v) =>
+    Math.cbrt(v),
+  );
+
+  const oklab = multiplyByMatrix(LMS_LAB_MATRIX, lms);
+  return { l: oklab[0], a: oklab[1], b: oklab[2], alpha };
+}
+
+function toOkLabText(color) {
+  let { alpha } = color;
+  const oklab = rgbToOklab(color);
+  return \`oklab(\${oklab.l.toFixed(5)} \${oklab.a.toFixed(5)} \${oklab.b.toFixed(
+    5,
+  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+function labToLCH(color) {
+  const { l, a, b, alpha } = color;
+  const c = Math.sqrt(a * a + b * b);
+  let h = Math.atan2(b, a) * (180 / Math.PI);
+  if (h < 0) {
+    h += 360;
+  }
+  return { l, c, h, alpha };
+}
+
+function toLCHText(color) {
+  let { alpha } = color;
+  const xyz = rgbaToXYZD50(color);
+  const lab = xyzToLab(xyz);
+  const lch = labToLCH(lab);
+  return \`lch(\${lch.l.toFixed(3)} \${lch.c.toFixed(3)} \${lch.h.toFixed(3)}\${
+    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
+  })\`;
+}
+
+function rgbaToOkLCh(color) {
+  const lab = rgbToOklab(color);
+  const oklch = labToLCH(lab);
+  return { l: oklch.l, c: oklch.c, h: oklch.h, alpha: color.alpha };
+}
+
+function toOkLChText(color) {
+  let { alpha } = color;
+  const oklch = rgbaToOkLCh(color);
+  return \`oklch(\${oklch.l.toFixed(5)} \${oklch.c.toFixed(5)} \${oklch.h.toFixed(
+    5,
+  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+function colorToRGBA(c) {
+  const ctx = new OffscreenCanvas(1, 1).getContext("2d");
+  ctx.fillStyle = c;
+  ctx.fillRect(0, 0, 1, 1);
+  const data = ctx.getImageData(0, 0, 1, 1).data;
+  return {
+    r: data[0],
+    g: data[1],
+    b: data[2],
+    alpha: data[3] / 255,
+  };
+}
+
+function updateOutput(c) {
+  background.style.backgroundColor = rgbaToHEXAText(c);
+  hexOutput.innerText = rgbaToHEXAText(c);
+  rgbFunctionOutput.innerText = \`rgb(\${c.r} \${c.g} \${c.b}\${c.alpha < 1 ? \` / \${c.alpha.toFixed(3)}\` : ""})\`;
+  colorFunctionOutput.innerText = \`color(srgb \${(c.r / 255).toFixed(3)} \${(c.g / 255).toFixed(3)} \${(c.b / 255).toFixed(3)}\${c.alpha < 1 ? \` / \${c.alpha.toFixed(3)}\` : ""})\`;
+  hslFunctionOutput.innerText = toHSLAText(c);
+  hwbFunctionOutput.innerText = rgbaToHWBAText(c);
+  labFunctionOutput.innerText = rgbaToLabText(c);
+  xyzD50FunctionOutput.innerText = rgbaToXYZD50Text(c);
+  xyzD65FunctionOutput.innerText = rgbaToXYZD65Text(c);
+  lchFunctionOutput.innerText = toLCHText(c);
+  okLabFunctionOutput.innerText = toOkLabText(c);
+  okLchFunctionOutput.innerText = toOkLChText(c);
+}
+
+function init() {
+  colorText.addEventListener("input", (e) => {
+    const color = colorToRGBA(e.target.value);
+    Object.assign(currentColor, color);
+    colorPicker.value = rgbToHEXText(currentColor);
+    opacityPicker.value = currentColor.alpha;
+    updateOutput(currentColor);
+  });
+
+  colorPicker.addEventListener("input", (e) => {
+    const text = e.target.value;
+    currentColor.r = parseInt(text.slice(1, 3), 16);
+    currentColor.g = parseInt(text.slice(3, 5), 16);
+    currentColor.b = parseInt(text.slice(5, 7), 16);
+    colorText.value = rgbaToHEXAText(currentColor);
+    opacityPicker.value = currentColor.alpha;
+    updateOutput(currentColor);
+  });
+
+  opacityPicker.addEventListener("input", (e) => {
+    const value = parseFloat(e.target.value);
+    currentColor.alpha = value;
+    colorText.value = rgbaToHEXAText(currentColor);
+    updateOutput(currentColor);
+  });
+  document.querySelectorAll("#output-colors button").forEach((button) => {
+    button.addEventListener("click", (e) => {
+      const text = e.target.nextElementSibling.innerText;
+      navigator.clipboard.writeText(text);
+      e.target.innerText = "Copied!";
+      setTimeout(() => {
+        e.target.innerText = "Copy";
+      }, 1000);
+    });
+  });
+
+  colorText.value = rgbaToHEXAText(currentColor);
+  colorPicker.value = rgbToHEXText(currentColor);
+  opacityPicker.value = currentColor.alpha;
+  updateOutput(currentColor);
+}
+
+init();
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "operator-assignment",
+                            "Assignment (=) can be replaced with operator assignment (/=).",
+                            "  r = r / 255;",
+                            "84:3 - 84:14",
+                            `/en-US/docs/Web/CSS/CSS_colors/Color_format_converter
+[operator-assignment] Assignment (=) can be replaced with operator assignment (/=).
+~~~
+const background = document.querySelector("body div");
+const colorText = document.getElementById("color-text");
+const colorPicker = document.getElementById("color-input");
+const opacityPicker = document.getElementById("opacity-input");
+const hexOutput = document.querySelector("#hex td > span");
+const rgbFunctionOutput = document.querySelector("#rgb-function td > span");
+const colorFunctionOutput = document.querySelector("#color-function td > span");
+const hslFunctionOutput = document.querySelector("#hsl-function td > span");
+const hwbFunctionOutput = document.querySelector("#hwb-function td > span");
+const labFunctionOutput = document.querySelector("#lab-function td > span");
+const okLabFunctionOutput = document.querySelector("#oklab-function td > span");
+const lchFunctionOutput = document.querySelector("#lch-function td > span");
+const okLchFunctionOutput = document.querySelector("#oklch-function td > span");
+const xyzD50FunctionOutput = document.querySelector(
+  "#xyz-d50-function td > span",
+);
+const xyzD65FunctionOutput = document.querySelector(
+  "#xyz-d65-function td > span",
+);
+
+const LRGB_LMS_MATRIX = [
+  [0.4122214708, 0.5363325363, 0.0514459929],
+  [0.2119034982, 0.6806995451, 0.1073969566],
+  [0.0883024619, 0.2817188376, 0.6299787005],
+];
+
+const LMS_LAB_MATRIX = [
+  [+0.2104542553, +0.793617785, -0.0040720468],
+  [+1.9779984951, -2.428592205, +0.4505937099],
+  [+0.0259040371, +0.7827717662, -0.808675766],
+];
+
+// srgb-linear to xyz-d50
+// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
+const LRGB_XYZ_D50_MATRIX = [
+  [0.4360747, 0.3850649, 0.1430804],
+  [0.2225045, 0.7168786, 0.0606169],
+  [0.0139322, 0.0971045, 0.7141733],
+];
+
+// srgb-linear to xyz-d65
+// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
+const LRGB_XYZ_D65_MATRIX = [
+  [0.4124564, 0.3575761, 0.1804375],
+  [0.2126729, 0.7151522, 0.072175],
+  [0.0193339, 0.119192, 0.9503041],
+];
+
+const currentColor = { r: 186, g: 218, b: 85, alpha: 1.0 }; // #bada55
+
+function multiplyByMatrix(matrix, tuple) {
+  let i = [0, 0, 0];
+  let j = matrix.length;
+  let k = matrix[0].length;
+  for (let l = 0; l < j; l++)
+    for (let m = 0; m < k; m++) i[l] += matrix[l][m] * tuple[m];
+  return i;
+}
+
+function rgbToLinear(c) {
+  return c <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
+}
+
+function intToHex(i) {
+  return Math.floor(i).toString(16).padStart(2, "0").toLowerCase();
+}
+
+function rgbToHEXText(c) {
+  return \`#\${intToHex(c.r)}\${intToHex(c.g)}\${intToHex(c.b)}\`;
+}
+
+function rgbaToHEXAText(color) {
+  const hexText = rgbToHEXText(color);
+  if (color.alpha === 1.0) {
+    return hexText;
+  }
+  const alpha = intToHex(color.alpha * 255);
+  return \`\${hexText}\${alpha}\`;
+}
+
+function rgbaToHSLA(color) {
+  let { r, g, b, alpha } = color;
+  // Let's have r, g, b in the range [0, 1]
+  r = r / 255;
+  g = g / 255;
+  b = b / 255;
+  const min = Math.min(r, g, b);
+  const max = Math.max(r, g, b);
+  const delta = max - min;
+  let h, s, l;
+
+  if (delta === 0) {
+    h = 0;
+  } else if (max === r) {
+    h = ((g - b) / delta) % 6;
+  } else if (max === g) {
+    h = (b - r) / delta + 2;
+  } else h = (r - g) / delta + 4;
+  h = Math.round(h * 60);
+
+  // We want an angle between 0 and 360°
+  if (h < 0) {
+    h += 360;
+  }
+
+  l = (max + min) / 2;
+  s = delta === 0 ? 0 : delta / (1 - Math.abs(2 * l - 1));
+  s = Number((s * 100).toFixed(1));
+  l = Number((l * 100).toFixed(1));
+
+  return { h, s, l, alpha };
+}
+
+function toHSLAText(color) {
+  const { h, s, l, alpha } = rgbaToHSLA(color);
+  return \`hsl(\${h.toFixed(0)} \${s.toFixed(0)}% \${l.toFixed(0)}%\${
+    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
+  })\`;
+}
+
+function rgbaToHWBAText(color) {
+  let { h, s, l, alpha } = rgbaToHSLA(color);
+  const chroma = s * (1 - Math.abs(l / 50 - 1));
+  let W = (l - chroma / 2).toFixed(0);
+  let B = (100 - l - chroma / 2).toFixed(0);
+  return \`hwb(\${h} \${W}% \${B}%\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+function rgbaToXYZD50(color) {
+  let { r, g, b, alpha } = color;
+  r = rgbToLinear(r / 255) * 255;
+  g = rgbToLinear(g / 255) * 255;
+  b = rgbToLinear(b / 255) * 255;
+
+  const xyz = multiplyByMatrix(LRGB_XYZ_D50_MATRIX, [r, g, b]);
+  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, alpha };
+}
+
+function rgbaToXYZD50Text(color) {
+  let { alpha } = color;
+  const xyz = rgbaToXYZD50(color);
+  return \`color(xyz-d50 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
+    5,
+  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+function rgbaToXYZD65(color) {
+  let { r, g, b, alpha } = color;
+  r = rgbToLinear(r / 255) * 255;
+  g = rgbToLinear(g / 255) * 255;
+  b = rgbToLinear(b / 255) * 255;
+
+  const xyz = multiplyByMatrix(LRGB_XYZ_D65_MATRIX, [r, g, b]);
+  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, alpha };
+}
+
+function rgbaToXYZD65Text(color) {
+  let { alpha } = color;
+  const xyz = rgbaToXYZD65(color);
+  return \`color(xyz-d65 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
+    5,
+  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+const D65 = [0.3457 / 0.3585, 1, 0.2958 / 0.3585];
+function xyzToLab(color) {
+  let { x, y, z, alpha } = color;
+  [x, y, z] = [x, y, z].map((v, i) => {
+    v = v / D65[i];
+    return v > 0.0088564516 ? Math.cbrt(v) : v * 903.2962962962963 + 16 / 116;
+  });
+  return { l: 116 * y - 16, a: 500 * (x - y), b: 200 * (y - z), alpha };
+}
+
+function rgbaToLabText(color) {
+  let { alpha } = color;
+  const xyz = rgbaToXYZD50(color);
+  const lab = xyzToLab(xyz);
+  return \`lab(\${lab.l.toFixed(3)} \${lab.a.toFixed(3)} \${lab.b.toFixed(3)}\${
+    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
+  })\`;
+}
+
+function rgbToOklab(color) {
+  let { r, g, b, alpha } = color;
+  r = rgbToLinear(r / 255);
+  g = rgbToLinear(g / 255);
+  b = rgbToLinear(b / 255);
+  const lms = multiplyByMatrix(LRGB_LMS_MATRIX, [r, g, b]).map((v) =>
+    Math.cbrt(v),
+  );
+
+  const oklab = multiplyByMatrix(LMS_LAB_MATRIX, lms);
+  return { l: oklab[0], a: oklab[1], b: oklab[2], alpha };
+}
+
+function toOkLabText(color) {
+  let { alpha } = color;
+  const oklab = rgbToOklab(color);
+  return \`oklab(\${oklab.l.toFixed(5)} \${oklab.a.toFixed(5)} \${oklab.b.toFixed(
+    5,
+  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+function labToLCH(color) {
+  const { l, a, b, alpha } = color;
+  const c = Math.sqrt(a * a + b * b);
+  let h = Math.atan2(b, a) * (180 / Math.PI);
+  if (h < 0) {
+    h += 360;
+  }
+  return { l, c, h, alpha };
+}
+
+function toLCHText(color) {
+  let { alpha } = color;
+  const xyz = rgbaToXYZD50(color);
+  const lab = xyzToLab(xyz);
+  const lch = labToLCH(lab);
+  return \`lch(\${lch.l.toFixed(3)} \${lch.c.toFixed(3)} \${lch.h.toFixed(3)}\${
+    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
+  })\`;
+}
+
+function rgbaToOkLCh(color) {
+  const lab = rgbToOklab(color);
+  const oklch = labToLCH(lab);
+  return { l: oklch.l, c: oklch.c, h: oklch.h, alpha: color.alpha };
+}
+
+function toOkLChText(color) {
+  let { alpha } = color;
+  const oklch = rgbaToOkLCh(color);
+  return \`oklch(\${oklch.l.toFixed(5)} \${oklch.c.toFixed(5)} \${oklch.h.toFixed(
+    5,
+  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+function colorToRGBA(c) {
+  const ctx = new OffscreenCanvas(1, 1).getContext("2d");
+  ctx.fillStyle = c;
+  ctx.fillRect(0, 0, 1, 1);
+  const data = ctx.getImageData(0, 0, 1, 1).data;
+  return {
+    r: data[0],
+    g: data[1],
+    b: data[2],
+    alpha: data[3] / 255,
+  };
+}
+
+function updateOutput(c) {
+  background.style.backgroundColor = rgbaToHEXAText(c);
+  hexOutput.innerText = rgbaToHEXAText(c);
+  rgbFunctionOutput.innerText = \`rgb(\${c.r} \${c.g} \${c.b}\${c.alpha < 1 ? \` / \${c.alpha.toFixed(3)}\` : ""})\`;
+  colorFunctionOutput.innerText = \`color(srgb \${(c.r / 255).toFixed(3)} \${(c.g / 255).toFixed(3)} \${(c.b / 255).toFixed(3)}\${c.alpha < 1 ? \` / \${c.alpha.toFixed(3)}\` : ""})\`;
+  hslFunctionOutput.innerText = toHSLAText(c);
+  hwbFunctionOutput.innerText = rgbaToHWBAText(c);
+  labFunctionOutput.innerText = rgbaToLabText(c);
+  xyzD50FunctionOutput.innerText = rgbaToXYZD50Text(c);
+  xyzD65FunctionOutput.innerText = rgbaToXYZD65Text(c);
+  lchFunctionOutput.innerText = toLCHText(c);
+  okLabFunctionOutput.innerText = toOkLabText(c);
+  okLchFunctionOutput.innerText = toOkLChText(c);
+}
+
+function init() {
+  colorText.addEventListener("input", (e) => {
+    const color = colorToRGBA(e.target.value);
+    Object.assign(currentColor, color);
+    colorPicker.value = rgbToHEXText(currentColor);
+    opacityPicker.value = currentColor.alpha;
+    updateOutput(currentColor);
+  });
+
+  colorPicker.addEventListener("input", (e) => {
+    const text = e.target.value;
+    currentColor.r = parseInt(text.slice(1, 3), 16);
+    currentColor.g = parseInt(text.slice(3, 5), 16);
+    currentColor.b = parseInt(text.slice(5, 7), 16);
+    colorText.value = rgbaToHEXAText(currentColor);
+    opacityPicker.value = currentColor.alpha;
+    updateOutput(currentColor);
+  });
+
+  opacityPicker.addEventListener("input", (e) => {
+    const value = parseFloat(e.target.value);
+    currentColor.alpha = value;
+    colorText.value = rgbaToHEXAText(currentColor);
+    updateOutput(currentColor);
+  });
+  document.querySelectorAll("#output-colors button").forEach((button) => {
+    button.addEventListener("click", (e) => {
+      const text = e.target.nextElementSibling.innerText;
+      navigator.clipboard.writeText(text);
+      e.target.innerText = "Copied!";
+      setTimeout(() => {
+        e.target.innerText = "Copy";
+      }, 1000);
+    });
+  });
+
+  colorText.value = rgbaToHEXAText(currentColor);
+  colorPicker.value = rgbToHEXText(currentColor);
+  opacityPicker.value = currentColor.alpha;
+  updateOutput(currentColor);
+}
+
+init();
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "operator-assignment",
+                            "Assignment (=) can be replaced with operator assignment (/=).",
+                            "  g = g / 255;",
+                            "85:3 - 85:14",
+                            `/en-US/docs/Web/CSS/CSS_colors/Color_format_converter
+[operator-assignment] Assignment (=) can be replaced with operator assignment (/=).
+~~~
+const background = document.querySelector("body div");
+const colorText = document.getElementById("color-text");
+const colorPicker = document.getElementById("color-input");
+const opacityPicker = document.getElementById("opacity-input");
+const hexOutput = document.querySelector("#hex td > span");
+const rgbFunctionOutput = document.querySelector("#rgb-function td > span");
+const colorFunctionOutput = document.querySelector("#color-function td > span");
+const hslFunctionOutput = document.querySelector("#hsl-function td > span");
+const hwbFunctionOutput = document.querySelector("#hwb-function td > span");
+const labFunctionOutput = document.querySelector("#lab-function td > span");
+const okLabFunctionOutput = document.querySelector("#oklab-function td > span");
+const lchFunctionOutput = document.querySelector("#lch-function td > span");
+const okLchFunctionOutput = document.querySelector("#oklch-function td > span");
+const xyzD50FunctionOutput = document.querySelector(
+  "#xyz-d50-function td > span",
+);
+const xyzD65FunctionOutput = document.querySelector(
+  "#xyz-d65-function td > span",
+);
+
+const LRGB_LMS_MATRIX = [
+  [0.4122214708, 0.5363325363, 0.0514459929],
+  [0.2119034982, 0.6806995451, 0.1073969566],
+  [0.0883024619, 0.2817188376, 0.6299787005],
+];
+
+const LMS_LAB_MATRIX = [
+  [+0.2104542553, +0.793617785, -0.0040720468],
+  [+1.9779984951, -2.428592205, +0.4505937099],
+  [+0.0259040371, +0.7827717662, -0.808675766],
+];
+
+// srgb-linear to xyz-d50
+// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
+const LRGB_XYZ_D50_MATRIX = [
+  [0.4360747, 0.3850649, 0.1430804],
+  [0.2225045, 0.7168786, 0.0606169],
+  [0.0139322, 0.0971045, 0.7141733],
+];
+
+// srgb-linear to xyz-d65
+// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
+const LRGB_XYZ_D65_MATRIX = [
+  [0.4124564, 0.3575761, 0.1804375],
+  [0.2126729, 0.7151522, 0.072175],
+  [0.0193339, 0.119192, 0.9503041],
+];
+
+const currentColor = { r: 186, g: 218, b: 85, alpha: 1.0 }; // #bada55
+
+function multiplyByMatrix(matrix, tuple) {
+  let i = [0, 0, 0];
+  let j = matrix.length;
+  let k = matrix[0].length;
+  for (let l = 0; l < j; l++)
+    for (let m = 0; m < k; m++) i[l] += matrix[l][m] * tuple[m];
+  return i;
+}
+
+function rgbToLinear(c) {
+  return c <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
+}
+
+function intToHex(i) {
+  return Math.floor(i).toString(16).padStart(2, "0").toLowerCase();
+}
+
+function rgbToHEXText(c) {
+  return \`#\${intToHex(c.r)}\${intToHex(c.g)}\${intToHex(c.b)}\`;
+}
+
+function rgbaToHEXAText(color) {
+  const hexText = rgbToHEXText(color);
+  if (color.alpha === 1.0) {
+    return hexText;
+  }
+  const alpha = intToHex(color.alpha * 255);
+  return \`\${hexText}\${alpha}\`;
+}
+
+function rgbaToHSLA(color) {
+  let { r, g, b, alpha } = color;
+  // Let's have r, g, b in the range [0, 1]
+  r = r / 255;
+  g = g / 255;
+  b = b / 255;
+  const min = Math.min(r, g, b);
+  const max = Math.max(r, g, b);
+  const delta = max - min;
+  let h, s, l;
+
+  if (delta === 0) {
+    h = 0;
+  } else if (max === r) {
+    h = ((g - b) / delta) % 6;
+  } else if (max === g) {
+    h = (b - r) / delta + 2;
+  } else h = (r - g) / delta + 4;
+  h = Math.round(h * 60);
+
+  // We want an angle between 0 and 360°
+  if (h < 0) {
+    h += 360;
+  }
+
+  l = (max + min) / 2;
+  s = delta === 0 ? 0 : delta / (1 - Math.abs(2 * l - 1));
+  s = Number((s * 100).toFixed(1));
+  l = Number((l * 100).toFixed(1));
+
+  return { h, s, l, alpha };
+}
+
+function toHSLAText(color) {
+  const { h, s, l, alpha } = rgbaToHSLA(color);
+  return \`hsl(\${h.toFixed(0)} \${s.toFixed(0)}% \${l.toFixed(0)}%\${
+    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
+  })\`;
+}
+
+function rgbaToHWBAText(color) {
+  let { h, s, l, alpha } = rgbaToHSLA(color);
+  const chroma = s * (1 - Math.abs(l / 50 - 1));
+  let W = (l - chroma / 2).toFixed(0);
+  let B = (100 - l - chroma / 2).toFixed(0);
+  return \`hwb(\${h} \${W}% \${B}%\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+function rgbaToXYZD50(color) {
+  let { r, g, b, alpha } = color;
+  r = rgbToLinear(r / 255) * 255;
+  g = rgbToLinear(g / 255) * 255;
+  b = rgbToLinear(b / 255) * 255;
+
+  const xyz = multiplyByMatrix(LRGB_XYZ_D50_MATRIX, [r, g, b]);
+  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, alpha };
+}
+
+function rgbaToXYZD50Text(color) {
+  let { alpha } = color;
+  const xyz = rgbaToXYZD50(color);
+  return \`color(xyz-d50 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
+    5,
+  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+function rgbaToXYZD65(color) {
+  let { r, g, b, alpha } = color;
+  r = rgbToLinear(r / 255) * 255;
+  g = rgbToLinear(g / 255) * 255;
+  b = rgbToLinear(b / 255) * 255;
+
+  const xyz = multiplyByMatrix(LRGB_XYZ_D65_MATRIX, [r, g, b]);
+  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, alpha };
+}
+
+function rgbaToXYZD65Text(color) {
+  let { alpha } = color;
+  const xyz = rgbaToXYZD65(color);
+  return \`color(xyz-d65 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
+    5,
+  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+const D65 = [0.3457 / 0.3585, 1, 0.2958 / 0.3585];
+function xyzToLab(color) {
+  let { x, y, z, alpha } = color;
+  [x, y, z] = [x, y, z].map((v, i) => {
+    v = v / D65[i];
+    return v > 0.0088564516 ? Math.cbrt(v) : v * 903.2962962962963 + 16 / 116;
+  });
+  return { l: 116 * y - 16, a: 500 * (x - y), b: 200 * (y - z), alpha };
+}
+
+function rgbaToLabText(color) {
+  let { alpha } = color;
+  const xyz = rgbaToXYZD50(color);
+  const lab = xyzToLab(xyz);
+  return \`lab(\${lab.l.toFixed(3)} \${lab.a.toFixed(3)} \${lab.b.toFixed(3)}\${
+    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
+  })\`;
+}
+
+function rgbToOklab(color) {
+  let { r, g, b, alpha } = color;
+  r = rgbToLinear(r / 255);
+  g = rgbToLinear(g / 255);
+  b = rgbToLinear(b / 255);
+  const lms = multiplyByMatrix(LRGB_LMS_MATRIX, [r, g, b]).map((v) =>
+    Math.cbrt(v),
+  );
+
+  const oklab = multiplyByMatrix(LMS_LAB_MATRIX, lms);
+  return { l: oklab[0], a: oklab[1], b: oklab[2], alpha };
+}
+
+function toOkLabText(color) {
+  let { alpha } = color;
+  const oklab = rgbToOklab(color);
+  return \`oklab(\${oklab.l.toFixed(5)} \${oklab.a.toFixed(5)} \${oklab.b.toFixed(
+    5,
+  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+function labToLCH(color) {
+  const { l, a, b, alpha } = color;
+  const c = Math.sqrt(a * a + b * b);
+  let h = Math.atan2(b, a) * (180 / Math.PI);
+  if (h < 0) {
+    h += 360;
+  }
+  return { l, c, h, alpha };
+}
+
+function toLCHText(color) {
+  let { alpha } = color;
+  const xyz = rgbaToXYZD50(color);
+  const lab = xyzToLab(xyz);
+  const lch = labToLCH(lab);
+  return \`lch(\${lch.l.toFixed(3)} \${lch.c.toFixed(3)} \${lch.h.toFixed(3)}\${
+    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
+  })\`;
+}
+
+function rgbaToOkLCh(color) {
+  const lab = rgbToOklab(color);
+  const oklch = labToLCH(lab);
+  return { l: oklch.l, c: oklch.c, h: oklch.h, alpha: color.alpha };
+}
+
+function toOkLChText(color) {
+  let { alpha } = color;
+  const oklch = rgbaToOkLCh(color);
+  return \`oklch(\${oklch.l.toFixed(5)} \${oklch.c.toFixed(5)} \${oklch.h.toFixed(
+    5,
+  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+function colorToRGBA(c) {
+  const ctx = new OffscreenCanvas(1, 1).getContext("2d");
+  ctx.fillStyle = c;
+  ctx.fillRect(0, 0, 1, 1);
+  const data = ctx.getImageData(0, 0, 1, 1).data;
+  return {
+    r: data[0],
+    g: data[1],
+    b: data[2],
+    alpha: data[3] / 255,
+  };
+}
+
+function updateOutput(c) {
+  background.style.backgroundColor = rgbaToHEXAText(c);
+  hexOutput.innerText = rgbaToHEXAText(c);
+  rgbFunctionOutput.innerText = \`rgb(\${c.r} \${c.g} \${c.b}\${c.alpha < 1 ? \` / \${c.alpha.toFixed(3)}\` : ""})\`;
+  colorFunctionOutput.innerText = \`color(srgb \${(c.r / 255).toFixed(3)} \${(c.g / 255).toFixed(3)} \${(c.b / 255).toFixed(3)}\${c.alpha < 1 ? \` / \${c.alpha.toFixed(3)}\` : ""})\`;
+  hslFunctionOutput.innerText = toHSLAText(c);
+  hwbFunctionOutput.innerText = rgbaToHWBAText(c);
+  labFunctionOutput.innerText = rgbaToLabText(c);
+  xyzD50FunctionOutput.innerText = rgbaToXYZD50Text(c);
+  xyzD65FunctionOutput.innerText = rgbaToXYZD65Text(c);
+  lchFunctionOutput.innerText = toLCHText(c);
+  okLabFunctionOutput.innerText = toOkLabText(c);
+  okLchFunctionOutput.innerText = toOkLChText(c);
+}
+
+function init() {
+  colorText.addEventListener("input", (e) => {
+    const color = colorToRGBA(e.target.value);
+    Object.assign(currentColor, color);
+    colorPicker.value = rgbToHEXText(currentColor);
+    opacityPicker.value = currentColor.alpha;
+    updateOutput(currentColor);
+  });
+
+  colorPicker.addEventListener("input", (e) => {
+    const text = e.target.value;
+    currentColor.r = parseInt(text.slice(1, 3), 16);
+    currentColor.g = parseInt(text.slice(3, 5), 16);
+    currentColor.b = parseInt(text.slice(5, 7), 16);
+    colorText.value = rgbaToHEXAText(currentColor);
+    opacityPicker.value = currentColor.alpha;
+    updateOutput(currentColor);
+  });
+
+  opacityPicker.addEventListener("input", (e) => {
+    const value = parseFloat(e.target.value);
+    currentColor.alpha = value;
+    colorText.value = rgbaToHEXAText(currentColor);
+    updateOutput(currentColor);
+  });
+  document.querySelectorAll("#output-colors button").forEach((button) => {
+    button.addEventListener("click", (e) => {
+      const text = e.target.nextElementSibling.innerText;
+      navigator.clipboard.writeText(text);
+      e.target.innerText = "Copied!";
+      setTimeout(() => {
+        e.target.innerText = "Copy";
+      }, 1000);
+    });
+  });
+
+  colorText.value = rgbaToHEXAText(currentColor);
+  colorPicker.value = rgbToHEXText(currentColor);
+  opacityPicker.value = currentColor.alpha;
+  updateOutput(currentColor);
+}
+
+init();
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "operator-assignment",
+                            "Assignment (=) can be replaced with operator assignment (/=).",
+                            "  b = b / 255;",
+                            "86:3 - 86:14",
+                            `/en-US/docs/Web/CSS/CSS_colors/Color_format_converter
+[operator-assignment] Assignment (=) can be replaced with operator assignment (/=).
+~~~
+const background = document.querySelector("body div");
+const colorText = document.getElementById("color-text");
+const colorPicker = document.getElementById("color-input");
+const opacityPicker = document.getElementById("opacity-input");
+const hexOutput = document.querySelector("#hex td > span");
+const rgbFunctionOutput = document.querySelector("#rgb-function td > span");
+const colorFunctionOutput = document.querySelector("#color-function td > span");
+const hslFunctionOutput = document.querySelector("#hsl-function td > span");
+const hwbFunctionOutput = document.querySelector("#hwb-function td > span");
+const labFunctionOutput = document.querySelector("#lab-function td > span");
+const okLabFunctionOutput = document.querySelector("#oklab-function td > span");
+const lchFunctionOutput = document.querySelector("#lch-function td > span");
+const okLchFunctionOutput = document.querySelector("#oklch-function td > span");
+const xyzD50FunctionOutput = document.querySelector(
+  "#xyz-d50-function td > span",
+);
+const xyzD65FunctionOutput = document.querySelector(
+  "#xyz-d65-function td > span",
+);
+
+const LRGB_LMS_MATRIX = [
+  [0.4122214708, 0.5363325363, 0.0514459929],
+  [0.2119034982, 0.6806995451, 0.1073969566],
+  [0.0883024619, 0.2817188376, 0.6299787005],
+];
+
+const LMS_LAB_MATRIX = [
+  [+0.2104542553, +0.793617785, -0.0040720468],
+  [+1.9779984951, -2.428592205, +0.4505937099],
+  [+0.0259040371, +0.7827717662, -0.808675766],
+];
+
+// srgb-linear to xyz-d50
+// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
+const LRGB_XYZ_D50_MATRIX = [
+  [0.4360747, 0.3850649, 0.1430804],
+  [0.2225045, 0.7168786, 0.0606169],
+  [0.0139322, 0.0971045, 0.7141733],
+];
+
+// srgb-linear to xyz-d65
+// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
+const LRGB_XYZ_D65_MATRIX = [
+  [0.4124564, 0.3575761, 0.1804375],
+  [0.2126729, 0.7151522, 0.072175],
+  [0.0193339, 0.119192, 0.9503041],
+];
+
+const currentColor = { r: 186, g: 218, b: 85, alpha: 1.0 }; // #bada55
+
+function multiplyByMatrix(matrix, tuple) {
+  let i = [0, 0, 0];
+  let j = matrix.length;
+  let k = matrix[0].length;
+  for (let l = 0; l < j; l++)
+    for (let m = 0; m < k; m++) i[l] += matrix[l][m] * tuple[m];
+  return i;
+}
+
+function rgbToLinear(c) {
+  return c <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
+}
+
+function intToHex(i) {
+  return Math.floor(i).toString(16).padStart(2, "0").toLowerCase();
+}
+
+function rgbToHEXText(c) {
+  return \`#\${intToHex(c.r)}\${intToHex(c.g)}\${intToHex(c.b)}\`;
+}
+
+function rgbaToHEXAText(color) {
+  const hexText = rgbToHEXText(color);
+  if (color.alpha === 1.0) {
+    return hexText;
+  }
+  const alpha = intToHex(color.alpha * 255);
+  return \`\${hexText}\${alpha}\`;
+}
+
+function rgbaToHSLA(color) {
+  let { r, g, b, alpha } = color;
+  // Let's have r, g, b in the range [0, 1]
+  r = r / 255;
+  g = g / 255;
+  b = b / 255;
+  const min = Math.min(r, g, b);
+  const max = Math.max(r, g, b);
+  const delta = max - min;
+  let h, s, l;
+
+  if (delta === 0) {
+    h = 0;
+  } else if (max === r) {
+    h = ((g - b) / delta) % 6;
+  } else if (max === g) {
+    h = (b - r) / delta + 2;
+  } else h = (r - g) / delta + 4;
+  h = Math.round(h * 60);
+
+  // We want an angle between 0 and 360°
+  if (h < 0) {
+    h += 360;
+  }
+
+  l = (max + min) / 2;
+  s = delta === 0 ? 0 : delta / (1 - Math.abs(2 * l - 1));
+  s = Number((s * 100).toFixed(1));
+  l = Number((l * 100).toFixed(1));
+
+  return { h, s, l, alpha };
+}
+
+function toHSLAText(color) {
+  const { h, s, l, alpha } = rgbaToHSLA(color);
+  return \`hsl(\${h.toFixed(0)} \${s.toFixed(0)}% \${l.toFixed(0)}%\${
+    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
+  })\`;
+}
+
+function rgbaToHWBAText(color) {
+  let { h, s, l, alpha } = rgbaToHSLA(color);
+  const chroma = s * (1 - Math.abs(l / 50 - 1));
+  let W = (l - chroma / 2).toFixed(0);
+  let B = (100 - l - chroma / 2).toFixed(0);
+  return \`hwb(\${h} \${W}% \${B}%\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+function rgbaToXYZD50(color) {
+  let { r, g, b, alpha } = color;
+  r = rgbToLinear(r / 255) * 255;
+  g = rgbToLinear(g / 255) * 255;
+  b = rgbToLinear(b / 255) * 255;
+
+  const xyz = multiplyByMatrix(LRGB_XYZ_D50_MATRIX, [r, g, b]);
+  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, alpha };
+}
+
+function rgbaToXYZD50Text(color) {
+  let { alpha } = color;
+  const xyz = rgbaToXYZD50(color);
+  return \`color(xyz-d50 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
+    5,
+  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+function rgbaToXYZD65(color) {
+  let { r, g, b, alpha } = color;
+  r = rgbToLinear(r / 255) * 255;
+  g = rgbToLinear(g / 255) * 255;
+  b = rgbToLinear(b / 255) * 255;
+
+  const xyz = multiplyByMatrix(LRGB_XYZ_D65_MATRIX, [r, g, b]);
+  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, alpha };
+}
+
+function rgbaToXYZD65Text(color) {
+  let { alpha } = color;
+  const xyz = rgbaToXYZD65(color);
+  return \`color(xyz-d65 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
+    5,
+  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+const D65 = [0.3457 / 0.3585, 1, 0.2958 / 0.3585];
+function xyzToLab(color) {
+  let { x, y, z, alpha } = color;
+  [x, y, z] = [x, y, z].map((v, i) => {
+    v = v / D65[i];
+    return v > 0.0088564516 ? Math.cbrt(v) : v * 903.2962962962963 + 16 / 116;
+  });
+  return { l: 116 * y - 16, a: 500 * (x - y), b: 200 * (y - z), alpha };
+}
+
+function rgbaToLabText(color) {
+  let { alpha } = color;
+  const xyz = rgbaToXYZD50(color);
+  const lab = xyzToLab(xyz);
+  return \`lab(\${lab.l.toFixed(3)} \${lab.a.toFixed(3)} \${lab.b.toFixed(3)}\${
+    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
+  })\`;
+}
+
+function rgbToOklab(color) {
+  let { r, g, b, alpha } = color;
+  r = rgbToLinear(r / 255);
+  g = rgbToLinear(g / 255);
+  b = rgbToLinear(b / 255);
+  const lms = multiplyByMatrix(LRGB_LMS_MATRIX, [r, g, b]).map((v) =>
+    Math.cbrt(v),
+  );
+
+  const oklab = multiplyByMatrix(LMS_LAB_MATRIX, lms);
+  return { l: oklab[0], a: oklab[1], b: oklab[2], alpha };
+}
+
+function toOkLabText(color) {
+  let { alpha } = color;
+  const oklab = rgbToOklab(color);
+  return \`oklab(\${oklab.l.toFixed(5)} \${oklab.a.toFixed(5)} \${oklab.b.toFixed(
+    5,
+  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+function labToLCH(color) {
+  const { l, a, b, alpha } = color;
+  const c = Math.sqrt(a * a + b * b);
+  let h = Math.atan2(b, a) * (180 / Math.PI);
+  if (h < 0) {
+    h += 360;
+  }
+  return { l, c, h, alpha };
+}
+
+function toLCHText(color) {
+  let { alpha } = color;
+  const xyz = rgbaToXYZD50(color);
+  const lab = xyzToLab(xyz);
+  const lch = labToLCH(lab);
+  return \`lch(\${lch.l.toFixed(3)} \${lch.c.toFixed(3)} \${lch.h.toFixed(3)}\${
+    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
+  })\`;
+}
+
+function rgbaToOkLCh(color) {
+  const lab = rgbToOklab(color);
+  const oklch = labToLCH(lab);
+  return { l: oklch.l, c: oklch.c, h: oklch.h, alpha: color.alpha };
+}
+
+function toOkLChText(color) {
+  let { alpha } = color;
+  const oklch = rgbaToOkLCh(color);
+  return \`oklch(\${oklch.l.toFixed(5)} \${oklch.c.toFixed(5)} \${oklch.h.toFixed(
+    5,
+  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+function colorToRGBA(c) {
+  const ctx = new OffscreenCanvas(1, 1).getContext("2d");
+  ctx.fillStyle = c;
+  ctx.fillRect(0, 0, 1, 1);
+  const data = ctx.getImageData(0, 0, 1, 1).data;
+  return {
+    r: data[0],
+    g: data[1],
+    b: data[2],
+    alpha: data[3] / 255,
+  };
+}
+
+function updateOutput(c) {
+  background.style.backgroundColor = rgbaToHEXAText(c);
+  hexOutput.innerText = rgbaToHEXAText(c);
+  rgbFunctionOutput.innerText = \`rgb(\${c.r} \${c.g} \${c.b}\${c.alpha < 1 ? \` / \${c.alpha.toFixed(3)}\` : ""})\`;
+  colorFunctionOutput.innerText = \`color(srgb \${(c.r / 255).toFixed(3)} \${(c.g / 255).toFixed(3)} \${(c.b / 255).toFixed(3)}\${c.alpha < 1 ? \` / \${c.alpha.toFixed(3)}\` : ""})\`;
+  hslFunctionOutput.innerText = toHSLAText(c);
+  hwbFunctionOutput.innerText = rgbaToHWBAText(c);
+  labFunctionOutput.innerText = rgbaToLabText(c);
+  xyzD50FunctionOutput.innerText = rgbaToXYZD50Text(c);
+  xyzD65FunctionOutput.innerText = rgbaToXYZD65Text(c);
+  lchFunctionOutput.innerText = toLCHText(c);
+  okLabFunctionOutput.innerText = toOkLabText(c);
+  okLchFunctionOutput.innerText = toOkLChText(c);
+}
+
+function init() {
+  colorText.addEventListener("input", (e) => {
+    const color = colorToRGBA(e.target.value);
+    Object.assign(currentColor, color);
+    colorPicker.value = rgbToHEXText(currentColor);
+    opacityPicker.value = currentColor.alpha;
+    updateOutput(currentColor);
+  });
+
+  colorPicker.addEventListener("input", (e) => {
+    const text = e.target.value;
+    currentColor.r = parseInt(text.slice(1, 3), 16);
+    currentColor.g = parseInt(text.slice(3, 5), 16);
+    currentColor.b = parseInt(text.slice(5, 7), 16);
+    colorText.value = rgbaToHEXAText(currentColor);
+    opacityPicker.value = currentColor.alpha;
+    updateOutput(currentColor);
+  });
+
+  opacityPicker.addEventListener("input", (e) => {
+    const value = parseFloat(e.target.value);
+    currentColor.alpha = value;
+    colorText.value = rgbaToHEXAText(currentColor);
+    updateOutput(currentColor);
+  });
+  document.querySelectorAll("#output-colors button").forEach((button) => {
+    button.addEventListener("click", (e) => {
+      const text = e.target.nextElementSibling.innerText;
+      navigator.clipboard.writeText(text);
+      e.target.innerText = "Copied!";
+      setTimeout(() => {
+        e.target.innerText = "Copy";
+      }, 1000);
+    });
+  });
+
+  colorText.value = rgbaToHEXAText(currentColor);
+  colorPicker.value = rgbToHEXText(currentColor);
+  opacityPicker.value = currentColor.alpha;
+  updateOutput(currentColor);
+}
+
+init();
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "operator-assignment",
+                            "Assignment (=) can be replaced with operator assignment (/=).",
+                            "    v = v / D65[i];",
+                            "169:5 - 169:19",
+                            `/en-US/docs/Web/CSS/CSS_colors/Color_format_converter
+[operator-assignment] Assignment (=) can be replaced with operator assignment (/=).
+~~~
+const background = document.querySelector("body div");
+const colorText = document.getElementById("color-text");
+const colorPicker = document.getElementById("color-input");
+const opacityPicker = document.getElementById("opacity-input");
+const hexOutput = document.querySelector("#hex td > span");
+const rgbFunctionOutput = document.querySelector("#rgb-function td > span");
+const colorFunctionOutput = document.querySelector("#color-function td > span");
+const hslFunctionOutput = document.querySelector("#hsl-function td > span");
+const hwbFunctionOutput = document.querySelector("#hwb-function td > span");
+const labFunctionOutput = document.querySelector("#lab-function td > span");
+const okLabFunctionOutput = document.querySelector("#oklab-function td > span");
+const lchFunctionOutput = document.querySelector("#lch-function td > span");
+const okLchFunctionOutput = document.querySelector("#oklch-function td > span");
+const xyzD50FunctionOutput = document.querySelector(
+  "#xyz-d50-function td > span",
+);
+const xyzD65FunctionOutput = document.querySelector(
+  "#xyz-d65-function td > span",
+);
+
+const LRGB_LMS_MATRIX = [
+  [0.4122214708, 0.5363325363, 0.0514459929],
+  [0.2119034982, 0.6806995451, 0.1073969566],
+  [0.0883024619, 0.2817188376, 0.6299787005],
+];
+
+const LMS_LAB_MATRIX = [
+  [+0.2104542553, +0.793617785, -0.0040720468],
+  [+1.9779984951, -2.428592205, +0.4505937099],
+  [+0.0259040371, +0.7827717662, -0.808675766],
+];
+
+// srgb-linear to xyz-d50
+// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
+const LRGB_XYZ_D50_MATRIX = [
+  [0.4360747, 0.3850649, 0.1430804],
+  [0.2225045, 0.7168786, 0.0606169],
+  [0.0139322, 0.0971045, 0.7141733],
+];
+
+// srgb-linear to xyz-d65
+// matrix taken from http://www.brucelindbloom.com/index.html?Eqn_RGB_to_XYZ.html
+const LRGB_XYZ_D65_MATRIX = [
+  [0.4124564, 0.3575761, 0.1804375],
+  [0.2126729, 0.7151522, 0.072175],
+  [0.0193339, 0.119192, 0.9503041],
+];
+
+const currentColor = { r: 186, g: 218, b: 85, alpha: 1.0 }; // #bada55
+
+function multiplyByMatrix(matrix, tuple) {
+  let i = [0, 0, 0];
+  let j = matrix.length;
+  let k = matrix[0].length;
+  for (let l = 0; l < j; l++)
+    for (let m = 0; m < k; m++) i[l] += matrix[l][m] * tuple[m];
+  return i;
+}
+
+function rgbToLinear(c) {
+  return c <= 0.04045 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4);
+}
+
+function intToHex(i) {
+  return Math.floor(i).toString(16).padStart(2, "0").toLowerCase();
+}
+
+function rgbToHEXText(c) {
+  return \`#\${intToHex(c.r)}\${intToHex(c.g)}\${intToHex(c.b)}\`;
+}
+
+function rgbaToHEXAText(color) {
+  const hexText = rgbToHEXText(color);
+  if (color.alpha === 1.0) {
+    return hexText;
+  }
+  const alpha = intToHex(color.alpha * 255);
+  return \`\${hexText}\${alpha}\`;
+}
+
+function rgbaToHSLA(color) {
+  let { r, g, b, alpha } = color;
+  // Let's have r, g, b in the range [0, 1]
+  r = r / 255;
+  g = g / 255;
+  b = b / 255;
+  const min = Math.min(r, g, b);
+  const max = Math.max(r, g, b);
+  const delta = max - min;
+  let h, s, l;
+
+  if (delta === 0) {
+    h = 0;
+  } else if (max === r) {
+    h = ((g - b) / delta) % 6;
+  } else if (max === g) {
+    h = (b - r) / delta + 2;
+  } else h = (r - g) / delta + 4;
+  h = Math.round(h * 60);
+
+  // We want an angle between 0 and 360°
+  if (h < 0) {
+    h += 360;
+  }
+
+  l = (max + min) / 2;
+  s = delta === 0 ? 0 : delta / (1 - Math.abs(2 * l - 1));
+  s = Number((s * 100).toFixed(1));
+  l = Number((l * 100).toFixed(1));
+
+  return { h, s, l, alpha };
+}
+
+function toHSLAText(color) {
+  const { h, s, l, alpha } = rgbaToHSLA(color);
+  return \`hsl(\${h.toFixed(0)} \${s.toFixed(0)}% \${l.toFixed(0)}%\${
+    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
+  })\`;
+}
+
+function rgbaToHWBAText(color) {
+  let { h, s, l, alpha } = rgbaToHSLA(color);
+  const chroma = s * (1 - Math.abs(l / 50 - 1));
+  let W = (l - chroma / 2).toFixed(0);
+  let B = (100 - l - chroma / 2).toFixed(0);
+  return \`hwb(\${h} \${W}% \${B}%\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+function rgbaToXYZD50(color) {
+  let { r, g, b, alpha } = color;
+  r = rgbToLinear(r / 255) * 255;
+  g = rgbToLinear(g / 255) * 255;
+  b = rgbToLinear(b / 255) * 255;
+
+  const xyz = multiplyByMatrix(LRGB_XYZ_D50_MATRIX, [r, g, b]);
+  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, alpha };
+}
+
+function rgbaToXYZD50Text(color) {
+  let { alpha } = color;
+  const xyz = rgbaToXYZD50(color);
+  return \`color(xyz-d50 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
+    5,
+  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+function rgbaToXYZD65(color) {
+  let { r, g, b, alpha } = color;
+  r = rgbToLinear(r / 255) * 255;
+  g = rgbToLinear(g / 255) * 255;
+  b = rgbToLinear(b / 255) * 255;
+
+  const xyz = multiplyByMatrix(LRGB_XYZ_D65_MATRIX, [r, g, b]);
+  return { x: xyz[0] / 255, y: xyz[1] / 255, z: xyz[2] / 255, alpha };
+}
+
+function rgbaToXYZD65Text(color) {
+  let { alpha } = color;
+  const xyz = rgbaToXYZD65(color);
+  return \`color(xyz-d65 \${xyz.x.toFixed(5)} \${xyz.y.toFixed(5)} \${xyz.z.toFixed(
+    5,
+  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+const D65 = [0.3457 / 0.3585, 1, 0.2958 / 0.3585];
+function xyzToLab(color) {
+  let { x, y, z, alpha } = color;
+  [x, y, z] = [x, y, z].map((v, i) => {
+    v = v / D65[i];
+    return v > 0.0088564516 ? Math.cbrt(v) : v * 903.2962962962963 + 16 / 116;
+  });
+  return { l: 116 * y - 16, a: 500 * (x - y), b: 200 * (y - z), alpha };
+}
+
+function rgbaToLabText(color) {
+  let { alpha } = color;
+  const xyz = rgbaToXYZD50(color);
+  const lab = xyzToLab(xyz);
+  return \`lab(\${lab.l.toFixed(3)} \${lab.a.toFixed(3)} \${lab.b.toFixed(3)}\${
+    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
+  })\`;
+}
+
+function rgbToOklab(color) {
+  let { r, g, b, alpha } = color;
+  r = rgbToLinear(r / 255);
+  g = rgbToLinear(g / 255);
+  b = rgbToLinear(b / 255);
+  const lms = multiplyByMatrix(LRGB_LMS_MATRIX, [r, g, b]).map((v) =>
+    Math.cbrt(v),
+  );
+
+  const oklab = multiplyByMatrix(LMS_LAB_MATRIX, lms);
+  return { l: oklab[0], a: oklab[1], b: oklab[2], alpha };
+}
+
+function toOkLabText(color) {
+  let { alpha } = color;
+  const oklab = rgbToOklab(color);
+  return \`oklab(\${oklab.l.toFixed(5)} \${oklab.a.toFixed(5)} \${oklab.b.toFixed(
+    5,
+  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+function labToLCH(color) {
+  const { l, a, b, alpha } = color;
+  const c = Math.sqrt(a * a + b * b);
+  let h = Math.atan2(b, a) * (180 / Math.PI);
+  if (h < 0) {
+    h += 360;
+  }
+  return { l, c, h, alpha };
+}
+
+function toLCHText(color) {
+  let { alpha } = color;
+  const xyz = rgbaToXYZD50(color);
+  const lab = xyzToLab(xyz);
+  const lch = labToLCH(lab);
+  return \`lch(\${lch.l.toFixed(3)} \${lch.c.toFixed(3)} \${lch.h.toFixed(3)}\${
+    alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""
+  })\`;
+}
+
+function rgbaToOkLCh(color) {
+  const lab = rgbToOklab(color);
+  const oklch = labToLCH(lab);
+  return { l: oklch.l, c: oklch.c, h: oklch.h, alpha: color.alpha };
+}
+
+function toOkLChText(color) {
+  let { alpha } = color;
+  const oklch = rgbaToOkLCh(color);
+  return \`oklch(\${oklch.l.toFixed(5)} \${oklch.c.toFixed(5)} \${oklch.h.toFixed(
+    5,
+  )}\${alpha < 1.0 ? \` / \${alpha.toFixed(3)}\` : ""})\`;
+}
+
+function colorToRGBA(c) {
+  const ctx = new OffscreenCanvas(1, 1).getContext("2d");
+  ctx.fillStyle = c;
+  ctx.fillRect(0, 0, 1, 1);
+  const data = ctx.getImageData(0, 0, 1, 1).data;
+  return {
+    r: data[0],
+    g: data[1],
+    b: data[2],
+    alpha: data[3] / 255,
+  };
+}
+
+function updateOutput(c) {
+  background.style.backgroundColor = rgbaToHEXAText(c);
+  hexOutput.innerText = rgbaToHEXAText(c);
+  rgbFunctionOutput.innerText = \`rgb(\${c.r} \${c.g} \${c.b}\${c.alpha < 1 ? \` / \${c.alpha.toFixed(3)}\` : ""})\`;
+  colorFunctionOutput.innerText = \`color(srgb \${(c.r / 255).toFixed(3)} \${(c.g / 255).toFixed(3)} \${(c.b / 255).toFixed(3)}\${c.alpha < 1 ? \` / \${c.alpha.toFixed(3)}\` : ""})\`;
+  hslFunctionOutput.innerText = toHSLAText(c);
+  hwbFunctionOutput.innerText = rgbaToHWBAText(c);
+  labFunctionOutput.innerText = rgbaToLabText(c);
+  xyzD50FunctionOutput.innerText = rgbaToXYZD50Text(c);
+  xyzD65FunctionOutput.innerText = rgbaToXYZD65Text(c);
+  lchFunctionOutput.innerText = toLCHText(c);
+  okLabFunctionOutput.innerText = toOkLabText(c);
+  okLchFunctionOutput.innerText = toOkLChText(c);
+}
+
+function init() {
+  colorText.addEventListener("input", (e) => {
+    const color = colorToRGBA(e.target.value);
+    Object.assign(currentColor, color);
+    colorPicker.value = rgbToHEXText(currentColor);
+    opacityPicker.value = currentColor.alpha;
+    updateOutput(currentColor);
+  });
+
+  colorPicker.addEventListener("input", (e) => {
+    const text = e.target.value;
+    currentColor.r = parseInt(text.slice(1, 3), 16);
+    currentColor.g = parseInt(text.slice(3, 5), 16);
+    currentColor.b = parseInt(text.slice(5, 7), 16);
+    colorText.value = rgbaToHEXAText(currentColor);
+    opacityPicker.value = currentColor.alpha;
+    updateOutput(currentColor);
+  });
+
+  opacityPicker.addEventListener("input", (e) => {
+    const value = parseFloat(e.target.value);
+    currentColor.alpha = value;
+    colorText.value = rgbaToHEXAText(currentColor);
+    updateOutput(currentColor);
+  });
+  document.querySelectorAll("#output-colors button").forEach((button) => {
+    button.addEventListener("click", (e) => {
+      const text = e.target.nextElementSibling.innerText;
+      navigator.clipboard.writeText(text);
+      e.target.innerText = "Copied!";
+      setTimeout(() => {
+        e.target.innerText = "Copy";
+      }, 1000);
+    });
+  });
+
+  colorText.value = rgbaToHEXAText(currentColor);
+  colorPicker.value = rgbToHEXText(currentColor);
+  opacityPicker.value = currentColor.alpha;
+  updateOutput(currentColor);
+}
+
+init();
 ~~~
 `
                           ]
@@ -93671,23 +96645,6 @@ html.elements.textarea.disabled`
                             }
                           ]
                         },
-                        rel: {
-                          children: {
-                            preload: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
-                                    "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         size: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Attributes/size",
@@ -95236,19 +98193,6 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         },
-                        dnt: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -95300,19 +98244,6 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           }
-                        },
-                        tk: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Tk",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
                         },
                         "user-agent": {
                           children: {
@@ -95513,6 +98444,19 @@ h2 {
                   children: {
                     formats: {
                       children: {
+                        configuring_servers_for_ogg_media: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Configuring_servers_for_Ogg_media",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://gitlab.xiph.org/xiph/ffmpeg2theora",
+                                502
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -95527,27 +98471,6 @@ h2 {
                           ]
                         }
                       }
-                    }
-                  }
-                }
-              }
-            },
-            performance: {
-              children: {
-                guides: {
-                  children: {
-                    speculative_loading: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Performance/Guides/Speculative_loading",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
