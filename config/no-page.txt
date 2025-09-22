@@ -13,48 +13,27 @@
 
 /en-US/docs/Web/API/AnimationWorklet
 /en-US/docs/Web/API/BluetoothDevice/forget
-/en-US/docs/Web/API/BluetoothDevice/gattserverdisconnected_event
 /en-US/docs/Web/API/BluetoothDevice/watchAdvertisements
-/en-US/docs/Web/API/BluetoothRemoteGATTCharacteristic/characteristicvaluechanged_event
-/en-US/docs/Web/API/DOMMatrix/fromFloat32Array_static
-/en-US/docs/Web/API/DOMMatrix/fromFloat64Array_static
-/en-US/docs/Web/API/DOMMatrix/fromMatrix_static
-/en-US/docs/Web/API/DOMMatrixReadOnly/fromFloat32Array_static
-/en-US/docs/Web/API/DOMMatrixReadOnly/fromFloat64Array_static
-/en-US/docs/Web/API/DOMMatrixReadOnly/fromMatrix_static
-/en-US/docs/Web/API/DOMQuad/fromRect_static
-/en-US/docs/Web/API/DOMQuad/fromQuad_static
 /en-US/docs/Web/API/EXT_disjoint_timer_query_webgl2
 /en-US/docs/Web/API/Element/pseudo
 /en-US/docs/Web/API/FileWriter
 
 /en-US/docs/Web/API/InterestGroupReportingScriptRunnerGlobalScope/registerAdBeacon
 /en-US/docs/Web/API/LayoutWorklet
-/en-US/docs/Web/API/MediaStream/active_event
-/en-US/docs/Web/API/MediaStream/inactive_event
 /en-US/docs/Web/API/MediaTrackConstraints/resizeMode
 /en-US/docs/Web/API/MediaTrackSettings/resizeMode
 /en-US/docs/Web/API/MediaTrackSupportedConstraints/resizeMode
 /en-US/docs/Web/API/Navigator/standalone
-/en-US/docs/Web/API/PresentationAvailability/change_event
-/en-US/docs/Web/API/PresentationConnection/close_event
-/en-US/docs/Web/API/PresentationConnection/connect_event
-/en-US/docs/Web/API/PresentationConnection/message_event
-/en-US/docs/Web/API/PresentationConnection/terminate_event
-/en-US/docs/Web/API/PresentationConnectionList/connectionavailable_event
 /en-US/docs/Web/API/PrivateAggregation/contributeToHistogramOnEvent
 
 /en-US/docs/Web/API/RTCAudioPlayoutStats
 /en-US/docs/Web/API/RTCAudioPlayoutStats/id
 /en-US/docs/Web/API/RTCCertificateExpiration
 /en-US/docs/Web/API/RTCCodecStats/codec
-/en-US/docs/Web/API/RTCDtlsTransport/onerror
-/en-US/docs/Web/API/RTCDtlsTransport/statechange_event
 /en-US/docs/Web/API/RTCIceCandidatePairStats/consentExpiredTimestamp
 /en-US/docs/Web/API/RTCIdentityProvider
 /en-US/docs/Web/API/RTCIdentityProviderRegistrar
 /en-US/docs/Web/API/RTCInboundRtpStreamStats/framesRendered
-/en-US/docs/Web/API/RTCPeerConnection/removetrack_event
 /en-US/docs/Web/API/RTCReceivedRtpStreamStats/framesDecoded
 /en-US/docs/Web/API/RTCRtcpParameters
 /en-US/docs/Web/API/RTCSentRtpStreamStats/bytesSent
@@ -106,14 +85,6 @@
 /en-US/docs/Web/API/SVGUseElementShadowRoot
 /en-US/docs/Web/API/SVGViewSpec
 /en-US/docs/Web/API/ShadowAnimation
-
-/en-US/docs/Web/API/SourceBuffer/abort_event
-/en-US/docs/Web/API/SourceBuffer/error_event
-/en-US/docs/Web/API/SourceBuffer/update_event
-/en-US/docs/Web/API/SourceBuffer/updateend_event
-/en-US/docs/Web/API/SourceBuffer/updatestart_event
-/en-US/docs/Web/API/SourceBufferList/addsourcebuffer_event
-/en-US/docs/Web/API/SourceBufferList/removesourcebuffer_event
 
 /en-US/docs/Web/API/TouchEvent/rotation
 /en-US/docs/Web/API/TouchEvent/scale
