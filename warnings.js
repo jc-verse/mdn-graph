@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-xgkyzqbn.js";
+} from "./chunk-j4q8hxy4.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -20,6 +20,23 @@ var warnings_processed_default = {
                   ]
                 }
               ]
+            },
+            publishing_games: {
+              children: {
+                game_promotion: {
+                  children: {},
+                  slug: "/en-US/docs/Games/Publishing_games/Game_promotion",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://dopresskit.com/",
+                        'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://dopresskit.com/". For more information, pass `verbose: true` in the second argument to fetch()'
+                      ]
+                    }
+                  ]
+                }
+              }
             },
             tools: {
               children: {
@@ -527,14 +544,14 @@ div.warning {
                   message: "Broken external link",
                   data: [
                     "https://www.gnu.org/licenses/gpl-faq.html",
-                    "Cannot reach server and Bun hangs"
+                    "The operation timed out."
                   ]
                 },
                 {
                   message: "Broken external link",
                   data: [
                     "https://www.gnu.org/licenses/gpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
+                    "The operation timed out."
                   ]
                 }
               ]
@@ -1015,19 +1032,6 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "Cannot reach server and Bun hangs"
-                  ]
                 }
               ]
             },
@@ -3215,10 +3219,6 @@ span {
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
                       messages: [
                         {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
                           message: "HTTP link",
                           data: [
                             "http://getskeleton.com/",
@@ -3640,10 +3640,6 @@ article {
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Multiple-column_Layout",
                       messages: [
                         {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "font-family-name-quotes",
@@ -4059,16 +4055,6 @@ body {
                         }
                       ]
                     },
-                    practical_positioning_examples: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Practical_positioning_examples",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
                     responsive_design: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
@@ -4178,16 +4164,6 @@ h1 {
 ~~~
 `
                           ]
-                        }
-                      ]
-                    },
-                    supporting_older_browsers: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Supporting_Older_Browsers",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -10092,39 +10068,6 @@ button {
                 },
                 structuring_content: {
                   children: {
-                    general_embedding_technologies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    including_vector_graphics_in_html: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Including_vector_graphics_in_HTML",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
                     test_your_skills: {
                       children: {
                         advanced_html_text: {
@@ -12952,10 +12895,6 @@ p {
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Advanced_styling_effects",
                       messages: [
                         {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "alpha-value-notation",
@@ -13576,16 +13515,6 @@ span {
                         }
                       ]
                     },
-                    cascade_layers: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
                     getting_started: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started",
@@ -13855,26 +13784,6 @@ h2 {
 ~~~
 `
                           ]
-                        }
-                      ]
-                    },
-                    handling_different_text_directions: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_different_text_directions",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    organizing: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
                         }
                       ]
                     },
@@ -14324,20 +14233,6 @@ body {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://convertingcolors.com/hex-color-86DEFA.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://convertingcolors.com/hex-color-86DEFA.html",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -26856,6 +26751,19 @@ textarea:focus {
                           data: []
                         }
                       ]
+                    },
+                    your_first_form: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.uxmatters.com/mt/archives/2010/03/pagination-in-web-forms-evaluating-the-effectiveness-of-web-forms.php",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Extensions/Forms",
@@ -26925,13 +26833,6 @@ textarea:focus {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -27513,23 +27414,6 @@ body {
             },
             getting_started: {
               children: {
-                environment_setup: {
-                  children: {
-                    installing_software: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Installing_software",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.samsung.com/us/support/owners/app/samsung-internet",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
@@ -27968,33 +27852,6 @@ body * {
                 },
                 tools_and_setup: {
                   children: {
-                    available_text_editors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -28018,15 +27875,15 @@ body * {
                         }
                       ]
                     },
-                    what_software_do_i_need: {
+                    how_much_does_it_cost: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
+                            "https://dotclear.org/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -29994,19 +29851,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "67": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/67",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://code.videolan.org/videolan/dav1d",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "1.5": {
                       children: {
                         changing_the_priority_of_http_requests: {
@@ -30178,7 +30022,17 @@ webextensions.manifest.options_ui`,
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/3.5",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/3.5/releasenotes/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
                     },
                     "3.6": {
                       children: {
@@ -30344,1032 +30198,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                             "24:30 - 24:34",
                             `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
 [alpha-value-notation] Expected "100%" to be "1" (alpha-value-notation)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by Lab representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-function-alias-notation",
-                            'Expected "rgba" to be "rgb" (color-function-alias-notation)',
-                            "color: rgba(255, 0, 255, 1);",
-                            "14:8 - 14:12",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-function-alias-notation] Expected "rgba" to be "rgb" (color-function-alias-notation)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by Lab representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-function-notation",
-                            "Expected modern color-function notation (color-function-notation)",
-                            "color: rgb(100%, 0%, 100%);",
-                            "13:8 - 13:27",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-function-notation] Expected modern color-function notation (color-function-notation)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by Lab representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-function-notation",
-                            "Expected modern color-function notation (color-function-notation)",
-                            "color: rgba(255, 0, 255, 1);",
-                            "14:8 - 14:28",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-function-notation] Expected modern color-function notation (color-function-notation)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by Lab representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#f0f" to be "#ff00ff" (color-hex-length)',
-                            "color: #f0f; /* #rgb, a shorthand for #rrggbb */",
-                            "17:8 - 17:12",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-hex-length] Expected "#f0f" to be "#ff00ff" (color-hex-length)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by Lab representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#f0ff" to be "#ff00ffff" (color-hex-length)',
-                            "color: #f0ff; /* #rgba */",
-                            "19:8 - 19:13",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-hex-length] Expected "#f0ff" to be "#ff00ffff" (color-hex-length)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by Lab representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(100% 0% 100%)" to be "fuchsia" (color-named)',
-                            "color: rgb(100% 0% 100%);",
-                            "5:8 - 5:25",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-named] Expected "rgb(100% 0% 100%)" to be "fuchsia" (color-named)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by Lab representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(100% 0% 100%/100%)" to be "fuchsia" (color-named)',
-                            "color: rgb(100% 0% 100% / 100%);",
-                            "6:8 - 6:32",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-named] Expected "rgb(100% 0% 100%/100%)" to be "fuchsia" (color-named)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by Lab representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(255 0 255)" to be "fuchsia" (color-named)',
-                            "color: rgb(255 0 255);",
-                            "9:8 - 9:22",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-named] Expected "rgb(255 0 255)" to be "fuchsia" (color-named)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by Lab representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(255 0 255/1)" to be "fuchsia" (color-named)',
-                            "color: rgb(255 0 255 / 1);",
-                            "10:8 - 10:26",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-named] Expected "rgb(255 0 255/1)" to be "fuchsia" (color-named)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by Lab representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(100%,0%,100%)" to be "fuchsia" (color-named)',
-                            "color: rgb(100%, 0%, 100%);",
-                            "13:8 - 13:27",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-named] Expected "rgb(100%,0%,100%)" to be "fuchsia" (color-named)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by Lab representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgba(255,0,255,1)" to be "fuchsia" (color-named)',
-                            "color: rgba(255, 0, 255, 1);",
-                            "14:8 - 14:28",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-named] Expected "rgba(255,0,255,1)" to be "fuchsia" (color-named)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by Lab representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#f0f" to be "fuchsia" (color-named)',
-                            "color: #f0f; /* #rgb, a shorthand for #rrggbb */",
-                            "17:8 - 17:12",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-named] Expected "#f0f" to be "fuchsia" (color-named)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by Lab representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#ff00ff" to be "fuchsia" (color-named)',
-                            "color: #ff00ff; /* #rrggbb */",
-                            "18:8 - 18:15",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-named] Expected "#ff00ff" to be "fuchsia" (color-named)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by Lab representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#f0ff" to be "fuchsia" (color-named)',
-                            "color: #f0ff; /* #rgba */",
-                            "19:8 - 19:13",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-named] Expected "#f0ff" to be "fuchsia" (color-named)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by Lab representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#ff00ffff" to be "fuchsia" (color-named)',
-                            "color: #ff00ffff; /* #rrggbbaa */",
-                            "20:8 - 20:17",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-named] Expected "#ff00ffff" to be "fuchsia" (color-named)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by Lab representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "hsl(300 100% 50%)" to be "fuchsia" (color-named)',
-                            "color: hsl(300 100% 50%);",
-                            "23:8 - 23:25",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-named] Expected "hsl(300 100% 50%)" to be "fuchsia" (color-named)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by Lab representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "hsl(300deg 100% 50%/100%)" to be "fuchsia" (color-named)',
-                            "color: hsl(300deg 100% 50% / 100%);",
-                            "24:8 - 24:35",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-named] Expected "hsl(300deg 100% 50%/100%)" to be "fuchsia" (color-named)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by Lab representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "hwb(300deg 0% 0%)" to be "fuchsia" (color-named)',
-                            "color: hwb(300deg 0% 0%);",
-                            "27:8 - 27:25",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-named] Expected "hwb(300deg 0% 0%)" to be "fuchsia" (color-named)
-~~~
-/* named color */
-color: magenta;
-
-/* sRGB value with percentage values */
-color: rgb(100% 0% 100%);
-color: rgb(100% 0% 100% / 100%);
-
-/* by sRGB numeric values */
-color: rgb(255 0 255);
-color: rgb(255 0 255 / 1);
-
-/* legacy rgb and rgba notation */
-color: rgb(100%, 0%, 100%);
-color: rgba(255, 0, 255, 1);
-
-/* by sRGB value in hex */
-color: #f0f; /* #rgb, a shorthand for #rrggbb */
-color: #ff00ff; /* #rrggbb */
-color: #f0ff; /* #rgba */
-color: #ff00ffff; /* #rrggbbaa */
-
-/* by HSL representation of the sRGB value */
-color: hsl(300 100% 50%);
-color: hsl(300deg 100% 50% / 100%);
-
-/* by HWB representation of the sRGB value */
-color: hwb(300deg 0% 0%);
-color: hwb(300 0% 0% / 1);
-
-/* by Lab representation of the sRGB value */
-color: lab(60 93.56 -60.5);
-color: lab(60 93.56 -60.5 / 1);
-
-/* representation in the CIELAB color spaces */
-color: oklch(0.7 0.32 328.37);
-color: oklch(0.7 0.32 328.37 / 1);
-
-/* color() function in the XYZ color space */
-color: color(xyz-d65 0.59 0.28 0.96);
-color: color(xyz-d65 0.59 0.28 0.96 / 1);
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "hwb(300 0% 0%/1)" to be "fuchsia" (color-named)',
-                            "color: hwb(300 0% 0% / 1);",
-                            "28:8 - 28:26",
-                            `/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance
-[color-named] Expected "hwb(300 0% 0%/1)" to be "fuchsia" (color-named)
 ~~~
 /* named color */
 color: magenta;
@@ -31795,94 +30623,6 @@ body {
   padding: 0;
   background-color: rgb(0 0 0 / 5%);
 }
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        basic_usage: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-elem",
-                                "Do not use the <style> element; use separate CSS blocks instead.",
-                                `    <style>
-      canvas {
-        border: 1px solid black;
-      }
-    </style>`,
-                                "5:4 - 9:12",
-                                `/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title>Canvas tutorial</title>
-    <style>
-      canvas {
-        border: 1px solid black;
-      }
-    </style>
-  </head>
-  <body>
-    <canvas id="canvas" width="150" height="150"></canvas>
-    <script>
-      function draw() {
-        const canvas = document.getElementById("canvas");
-        const ctx = canvas.getContext("2d");
-      }
-      draw();
-    </script>
-  </body>
-</html>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-inline-script",
-                                "Do not write JS within the <script> element; use separate JS blocks instead.",
-                                `    <script>
-      function draw() {
-        const canvas = document.getElementById("canvas");
-        const ctx = canvas.getContext("2d");
-      }
-      draw();
-    </script>`,
-                                "13:4 - 19:13",
-                                `/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title>Canvas tutorial</title>
-    <style>
-      canvas {
-        border: 1px solid black;
-      }
-    </style>
-  </head>
-  <body>
-    <canvas id="canvas" width="150" height="150"></canvas>
-    <script>
-      function draw() {
-        const canvas = document.getElementById("canvas");
-        const ctx = canvas.getContext("2d");
-      }
-      draw();
-    </script>
-  </body>
-</html>
 ~~~
 `
                               ]
@@ -33801,121 +32541,6 @@ article img {
   box-shadow: 0 0.5em 0.3em #888888;
   margin-bottom: 1.25em;
 }
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmlscriptelement: {
-                  children: {
-                    text: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLScriptElement/text",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/HTMLScriptElement/textContent"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/HTMLScriptElement/textContent"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/HTMLScriptElement/innerText"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/HTMLScriptElement/textContent"
-                          ]
-                        },
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/HTMLScriptElement/innerText"
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "object-shorthand",
-                            "Expected method shorthand.",
-                            `  createScript: (input) => {
-    // Here specify what scripts are safe to allow
-    if (input === "const num = 10;\\nconsole.log(num)") {
-      return input; // allow this exact script
-    }
-    throw new TypeError("Untrusted script blocked: " + input);
-  },`,
-                            "2:3 - 8:4",
-                            `/en-US/docs/Web/API/HTMLScriptElement/text
-[object-shorthand] Expected method shorthand.
-~~~
-const policy = trustedTypes.createPolicy("inline-script-policy", {
-  createScript: (input) => {
-    // Here specify what scripts are safe to allow
-    if (input === "const num = 10;\\nconsole.log(num)") {
-      return input; // allow this exact script
-    }
-    throw new TypeError("Untrusted script blocked: " + input);
-  },
-});
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-template",
-                            "Unexpected string concatenation.",
-                            '    throw new TypeError("Untrusted script blocked: " + input);',
-                            "7:25 - 7:61",
-                            `/en-US/docs/Web/API/HTMLScriptElement/text
-[prefer-template] Unexpected string concatenation.
-~~~
-const policy = trustedTypes.createPolicy("inline-script-policy", {
-  createScript: (input) => {
-    // Here specify what scripts are safe to allow
-    if (input === "const num = 10;\\nconsole.log(num)") {
-      return input; // allow this exact script
-    }
-    throw new TypeError("Untrusted script blocked: " + input);
-  },
-});
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: ',' expected.",
-                            'let el.text = "const num = 10;\\nconsole.log(num)";',
-                            "2:16",
-                            `/en-US/docs/Web/API/HTMLScriptElement/text
-[syntax] Parsing error: ',' expected.
-~~~
-// Set the text property
-let el.text = "const num = 10;\\nconsole.log(num)";
-console.log(el.text); // Output: "const num = 10;\\nconsole.log(num);"
-console.log(el.textContent); // Output: "const num = 10;\\nconsole.log(num);"
-
-// Set the textContent property
-el.textContent = "console.log(10);";
-console.log(el.text); // Output: "console.log(10);"
-console.log(el.textContent); // Output: "console.log(10);"
 ~~~
 `
                           ]
@@ -36998,13 +35623,6 @@ p {
                             "https://www.mathworks.com/help/dsphdl/ref/biquadfilter.html",
                             403
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.staff.ncl.ac.uk/oliver.hinton/eee305/Chapter5.pdf",
-                            "unknown certificate verification error"
-                          ]
                         }
                       ]
                     }
@@ -37378,6 +35996,18 @@ api.Window.sessionStorage`,
                           ]
                         }
                       }
+                    },
+                    signaling_and_video_calling: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebRTC_API/Signaling_and_video_calling",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/RTCPeerConnection/removetrack_event"
+                          ]
+                        }
+                      ]
                     },
                     using_encoded_transforms: {
                       children: {},
@@ -80361,76 +78991,6 @@ hue-rotate(0.5turn)
                         }
                       ]
                     },
-                    invert: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/filter-function/invert",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "syntax",
-                            'Unexpected closing tag ":svg:filter". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            "          </filter>",
-                            "35:10 - 35:19",
-                            `/en-US/docs/Web/CSS/filter-function/invert
-[syntax] Unexpected closing tag ":svg:filter". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<svg height="0">
-  <filter id="invert">
-    <feComponentTransfer>
-      <feFuncR type="table" tableValues="0.3 0" />
-      <feFuncG type="table" tableValues="0.3 0" />
-      <feFuncB type="table" tableValues="0.3 0" />
-    </feComponentTransfer>
-  </filter>
-</svg>
-
-<table cellpadding="5">
-  <thead>
-    <tr>
-      <th><code>invert()</code> filter</th>
-      <th>SVG filter equivalent</th>
-      <th>Original image</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <img
-          class="svgFilter"
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag" />
-      </td>
-      <td>
-        <svg id="svg" height="220" width="220" overflow="visible">
-          <filter id="svgInvert">
-            <feComponentTransfer>
-              <feFuncR type="table" tableValues="0.3 0"/>
-              <feFuncG type="table" tableValues="0.3 0"/>
-              <feFuncB type="table" tableValues="0.3 0"/>
-            </feComponentTransfer>
-          </filter>
-          </filter>
-          <image
-            href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-            xlink:href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-            filter="url('#svgInvert')" />
-        </svg>
-      </td>
-      <td>
-        <img
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag" />
-      </td>
-    </tr>
-  </tbody>
-</table>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     opacity: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/opacity",
@@ -98188,7 +96748,7 @@ http.headers.Use-As-Dictionary`,
                               message: "Broken external link",
                               data: [
                                 "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -98395,6 +96955,18 @@ h2 {
                         },
                         object: {
                           children: {}
+                        },
+                        set: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+                          messages: [
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "#using_the_map_object"
+                              ]
+                            }
+                          ]
                         }
                       }
                     },
@@ -98444,19 +97016,6 @@ h2 {
                   children: {
                     formats: {
                       children: {
-                        configuring_servers_for_ogg_media: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Configuring_servers_for_Ogg_media",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://gitlab.xiph.org/xiph/ffmpeg2theora",
-                                502
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -98710,12 +97269,6 @@ h2 {
                       children: {},
                       slug: "/en-US/docs/Web/Security/Attacks/Phishing",
                       messages: [
-                        {
-                          message: "Bad href",
-                          data: [
-                            "web_authentication_passkeys"
-                          ]
-                        },
                         {
                           message: "Broken link",
                           data: [
