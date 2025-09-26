@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-pxr2q2fb.js";
+} from "./chunk-v47pwrnm.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -2725,7 +2725,17 @@ li {
                         }
                       }
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Learn_web_development/Core/Accessibility",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://egghead.io/courses/start-building-accessible-web-applications-today",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 challenges: {
                   children: {},
@@ -4842,13 +4852,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/NullVoxPopuli/ember-todomvc-tutorial/tree/master/steps/00-finished-todomvc/todomvc",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -5056,6 +5059,13 @@ label + input[type="text"] {
 }
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cli.vuejs.org/guide/browser-compatibility.html",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -6947,13 +6957,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/sveltejs/template",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -8884,13 +8887,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/sveltejs/template",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -9908,17 +9904,7 @@ body {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/NullVoxPopuli/ember-todomvc-tutorial/tree/master/steps/00-finished-todomvc/todomvc",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 scripting: {
                   children: {
@@ -10062,39 +10048,6 @@ button {
                 },
                 structuring_content: {
                   children: {
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    html_table_basics: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/tables/basic/blank-template.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/blob/main/html/tables/basic/blank-template.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
                       children: {
                         advanced_html_text: {
@@ -13814,6 +13767,19 @@ h2 {
                         }
                       ]
                     },
+                    pseudo_classes_and_elements: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Pseudo_classes_and_elements",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cssarrowplease.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     tables: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Tables",
@@ -15716,13 +15682,6 @@ h1 {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/learning-area/tree/main/javascript/apis/drawing-graphics/threejs-video-cube",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -16371,23 +16330,6 @@ button:active {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "client-side_tools": {
-                  children: {
-                    overview: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://codeclimate.com/",
-                            503
                           ]
                         }
                       ]
@@ -26758,19 +26700,6 @@ option::checkmark {
                         }
                       ]
                     },
-                    sending_and_retrieving_form_data: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Sending_and_retrieving_form_data",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/web2py/web2py",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     sending_forms_through_javascript: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Sending_forms_through_JavaScript",
@@ -26813,6 +26742,19 @@ textarea:focus {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    },
+                    your_first_form: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2018/08/ux-html5-mobile-form-part-1/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
                         }
                       ]
                     }
@@ -26884,20 +26826,6 @@ textarea:focus {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/google/zopfli",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -26924,6 +26852,30 @@ textarea:focus {
                           data: []
                         }
                       ]
+                    },
+                    django: {
+                      children: {
+                        deployment: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://blogs.vultr.com/new-free-tier-plan",
+                                503
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://blogs.vultr.com/new-free-tier-plan",
+                                503
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     },
                     node_server_without_framework: {
                       children: {},
@@ -27917,33 +27869,6 @@ body * {
                 },
                 tools_and_setup: {
                   children: {
-                    available_text_editors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -27961,21 +27886,15 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/",
+                            "https://gaesamplesite.appspot.com/downloads.html",
                             503
                           ]
-                        }
-                      ]
-                    },
-                    what_software_do_i_need: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
-                      messages: [
+                        },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "The operation timed out."
+                            "https://gaesamplesite.appspot.com/",
+                            503
                           ]
                         }
                       ]
@@ -28195,48 +28114,8 @@ color: rgb(31 41 59 / 26%);
               children: {
                 webextensions: {
                   children: {
-                    add_a_button_to_the_toolbar: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Add_a_button_to_the_toolbar",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     api: {
                       children: {
-                        browseraction: {
-                          children: {
-                            onclicked: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/onClicked",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                                    "Cannot reach server and Bun hangs"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/browserAction",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         contentscripts: {
                           children: {
                             registeredcontentscript: {
@@ -28622,33 +28501,6 @@ color: rgb(31 41 59 / 26%);
                             }
                           }
                         },
-                        runtime: {
-                          children: {
-                            openoptionspage: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/openOptionsPage",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                                    "Cannot reach server and Bun hangs"
-                                  ]
-                                }
-                              ]
-                            }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         scripting: {
                           children: {
                             contentscriptfilter: {
@@ -28670,26 +28522,6 @@ color: rgb(31 41 59 / 26%);
                         },
                         storage: {
                           children: {
-                            managed: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/managed",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                                    "Cannot reach server and Bun hangs"
-                                  ]
-                                },
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                                    "Cannot reach server and Bun hangs"
-                                  ]
-                                }
-                              ]
-                            },
                             session: {
                               children: {
                                 quota_bytes: {
@@ -28787,31 +28619,8 @@ color: rgb(31 41 59 / 26%);
                                   ]
                                 }
                               }
-                            },
-                            sync: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage/sync",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                                    "Cannot reach server and Bun hangs"
-                                  ]
-                                }
-                              ]
                             }
-                          },
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/storage",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         types: {
                           children: {
@@ -29047,32 +28856,6 @@ color: rgb(31 41 59 / 26%);
                         }
                       ]
                     },
-                    examples: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Examples",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    implement_a_settings_page: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Implement_a_settings_page",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     interact_with_the_clipboard: {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard",
@@ -29118,19 +28901,6 @@ webextensions.api.clipboard`,
                             "webextensions.match_patterns.scheme",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    },
-                    native_manifests: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Native_manifests",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -29767,26 +29537,6 @@ webextensions.manifest.options_ui`,
                               ]
                             }
                           ]
-                        },
-                        options_pages: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Options_pages",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/webextensions-examples/tree/main/favourite-colour",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
                         }
                       }
                     }
@@ -30382,19 +30132,6 @@ webextensions.manifest.options_ui`,
                 },
                 guides: {
                   children: {
-                    browsing_safely: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Accessibility/Guides/Browsing_safely",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/0ui/gif-scrubber",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     colors_and_luminance: {
                       children: {},
                       slug: "/en-US/docs/Web/Accessibility/Guides/Colors_and_Luminance",
@@ -31730,19 +31467,6 @@ kbd {
                     }
                   }
                 },
-                extendableevent: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/ExtendableEvent",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/GoogleChrome/samples/blob/gh-pages/service-worker/prefetch/service-worker.js",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
-                },
                 fetchevent: {
                   children: {
                     replacesclientid: {
@@ -31753,19 +31477,6 @@ kbd {
                           message: "Not in BCD",
                           data: [
                             "api.FetchEvent.replacesClientId"
-                          ]
-                        }
-                      ]
-                    },
-                    request: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/FetchEvent/request",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/GoogleChrome/samples/blob/gh-pages/service-worker/prefetch/service-worker.js",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -32838,19 +32549,6 @@ article img {
                       ]
                     }
                   }
-                },
-                installevent: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/InstallEvent",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/GoogleChrome/samples/blob/gh-pages/service-worker/prefetch/service-worker.js",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
                 },
                 intersection_observer_api: {
                   children: {
@@ -34040,19 +33738,6 @@ aside {
                     }
                   }
                 },
-                ovr_multiview2: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/OVR_multiview2",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/KhronosGroup/WebGL/issues/2912",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
-                },
                 payment_request_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
@@ -34936,19 +34621,6 @@ html {
                     }
                   }
                 },
-                serviceworkerglobalscope: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/ServiceWorkerGlobalScope",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/GoogleChrome/samples/blob/gh-pages/service-worker/prefetch/service-worker.js",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
-                },
                 sharedstorageoperation: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SharedStorageOperation",
@@ -35033,164 +34705,6 @@ html {
                     }
                   ]
                 },
-                speechgrammar: {
-                  children: {
-                    src: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SpeechGrammar/src",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "deprecated",
-                              "non-standard"
-                            ],
-                            [
-                              "deprecated"
-                            ]
-                          ]
-                        }
-                      ]
-                    },
-                    weight: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SpeechGrammar/weight",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "deprecated",
-                              "non-standard"
-                            ],
-                            [
-                              "deprecated"
-                            ]
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/SpeechGrammar",
-                  messages: [
-                    {
-                      message: "Page status inconsistent with BCD",
-                      data: [
-                        [
-                          "deprecated",
-                          "non-standard"
-                        ],
-                        [
-                          "deprecated"
-                        ]
-                      ]
-                    }
-                  ]
-                },
-                speechgrammarlist: {
-                  children: {
-                    addfromstring: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SpeechGrammarList/addFromString",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental"
-                            ],
-                            [
-                              "deprecated"
-                            ]
-                          ]
-                        }
-                      ]
-                    },
-                    addfromuri: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SpeechGrammarList/addFromURI",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental"
-                            ],
-                            [
-                              "deprecated"
-                            ]
-                          ]
-                        }
-                      ]
-                    },
-                    item: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SpeechGrammarList/item",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental"
-                            ],
-                            [
-                              "deprecated"
-                            ]
-                          ]
-                        }
-                      ]
-                    },
-                    length: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SpeechGrammarList/length",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental"
-                            ],
-                            [
-                              "deprecated"
-                            ]
-                          ]
-                        }
-                      ]
-                    },
-                    speechgrammarlist: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SpeechGrammarList/SpeechGrammarList",
-                      messages: [
-                        {
-                          message: "Page status inconsistent with BCD",
-                          data: [
-                            [
-                              "experimental"
-                            ],
-                            [
-                              "deprecated"
-                            ]
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/SpeechGrammarList",
-                  messages: [
-                    {
-                      message: "Page status inconsistent with BCD",
-                      data: [
-                        [
-                          "experimental"
-                        ],
-                        [
-                          "deprecated"
-                        ]
-                      ]
-                    }
-                  ]
-                },
                 speechrecognitionevent: {
                   children: {
                     emma: {
@@ -35213,75 +34727,6 @@ html {
                           message: "Not in BCD",
                           data: [
                             "api.SpeechRecognitionEvent.interpretation"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                subtlecrypto: {
-                  children: {
-                    decrypt: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SubtleCrypto/decrypt",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/blob/main/web-crypto/encrypt-decrypt/aes-cbc.js",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    derivebits: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SubtleCrypto/deriveBits",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/blob/main/web-crypto/derive-bits/ecdh.js",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    encrypt: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SubtleCrypto/encrypt",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/blob/main/web-crypto/encrypt-decrypt/aes-cbc.js",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    exportkey: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SubtleCrypto/exportKey",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/blob/main/web-crypto/export-key/pkcs8.js",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    wrapkey: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SubtleCrypto/wrapKey",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/dom-examples/blob/main/web-crypto/wrap-key/pkcs8.js",
-                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -38469,17 +37914,7 @@ ul::scroll-marker-group {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/@counter-style",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://github.com/mdn/css-examples/tree/main/counter-style-demo",
-                        "Cannot reach server and Bun hangs"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 "@font-face": {
                   children: {
@@ -78542,23 +77977,6 @@ main {
                     }
                   }
                 },
-                css_values_and_units: {
-                  children: {
-                    using_css_math_functions: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_Values_and_Units/Using_CSS_math_functions",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/web-platform-tests/interop/blob/main/2023/README.md",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_writing_modes: {
                   children: {
                     vertical_controls: {
@@ -87785,13 +87203,6 @@ span {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/content/tree/main/files/en-us/web/css/layout_cookbook",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     },
@@ -97136,19 +96547,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       }
                     },
-                    messages: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTTP/Guides/Messages",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/nghttp2/nghttp2",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     network_error_logging: {
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/Network_Error_Logging",
@@ -97251,31 +96649,11 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         }
-                      },
-                      slug: "/en-US/docs/Web/HTTP/Reference/Headers",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/protocol-registries/http-fields?tab=readme-ov-file",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
+                      }
                     }
                   }
                 }
-              },
-              slug: "/en-US/docs/Web/HTTP",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://github.com/nghttp2/nghttp2",
-                    "Cannot reach server and Bun hangs"
-                  ]
-                }
-              ]
+              }
             },
             javascript: {
               children: {
@@ -97405,6 +96783,39 @@ h2 {
                             }
                           }
                         },
+                        map: {
+                          children: {
+                            getorinsert: {
+                              children: {},
+                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/getOrInsert",
+                              messages: [
+                                {
+                                  message: "JS code issue",
+                                  data: [
+                                    "no-else-return",
+                                    "Unnecessary 'else' after 'return'.",
+                                    `} else {
+  map.set(key, defaultValue);
+  return defaultValue;
+}`,
+                                    "3:8 - 6:2",
+                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/getOrInsert
+[no-else-return] Unnecessary 'else' after 'return'.
+~~~
+if (map.has(key)) {
+  return map.get(key);
+} else {
+  map.set(key, defaultValue);
+  return defaultValue;
+}
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
                         object: {
                           children: {}
                         },
@@ -97466,21 +96877,21 @@ h2 {
               children: {
                 guides: {
                   children: {
-                    audio_and_video_manipulation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_manipulation",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/chrisdavidmills/threejs-video-cube",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     formats: {
                       children: {
+                        configuring_servers_for_ogg_media: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Configuring_servers_for_Ogg_media",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://gitlab.xiph.org/xiph/ffmpeg2theora",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -97495,27 +96906,6 @@ h2 {
                           ]
                         }
                       }
-                    }
-                  }
-                }
-              }
-            },
-            performance: {
-              children: {
-                guides: {
-                  children: {
-                    css_javascript_animation_performance: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Performance/Guides/CSS_JavaScript_animation_performance",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/julianshapiro/velocity/wiki",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
@@ -97737,54 +97127,6 @@ h2 {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                },
-                tutorials: {
-                  children: {
-                    cycletracker: {
-                      children: {
-                        secure_connection: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/CycleTracker/Secure_connection",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/lwsjs/local-web-server/wiki/How-to-get-the-%22green-padlock%22-using-the-built-in-certificate",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/CycleTracker",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/pwa-examples/tree/main/cycletracker",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
-                    js13kgames: {
-                      children: {
-                        "re-engageable_notifications_push": {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Re-engageable_Notifications_Push",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://github.com/mdn/serviceworker-cookbook/blob/master/push-payload/service-worker.js",
-                                "Cannot reach server and Bun hangs"
                               ]
                             }
                           ]
