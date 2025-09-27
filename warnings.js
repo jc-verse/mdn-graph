@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-v47pwrnm.js";
+} from "./chunk-xdyz9zc1.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -2725,27 +2725,7 @@ li {
                         }
                       }
                     }
-                  },
-                  slug: "/en-US/docs/Learn_web_development/Core/Accessibility",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://egghead.io/courses/start-building-accessible-web-applications-today",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                challenges: {
-                  children: {},
-                  slug: "/en-US/docs/Learn_web_development/Core/Challenges",
-                  messages: [
-                    {
-                      message: "Unreachable via sidebar",
-                      data: []
-                    }
-                  ]
+                  }
                 },
                 css_layout: {
                   children: {
@@ -5059,13 +5039,6 @@ label + input[type="text"] {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cli.vuejs.org/guide/browser-compatibility.html",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -10048,6 +10021,32 @@ button {
                 },
                 structuring_content: {
                   children: {
+                    debugging_html: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Debugging_HTML",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://www.rust-lang.org/",
+                            "https://rust-lang.org/"
+                          ]
+                        }
+                      ]
+                    },
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {
                         advanced_html_text: {
@@ -13767,19 +13766,6 @@ h2 {
                         }
                       ]
                     },
-                    pseudo_classes_and_elements: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Pseudo_classes_and_elements",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cssarrowplease.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     tables: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Tables",
@@ -15584,16 +15570,7 @@ p {
                     }
                   }
                 }
-              },
-              slug: "/en-US/docs/Learn_web_development/Core",
-              messages: [
-                {
-                  message: "No link to child page",
-                  data: [
-                    "/en-US/docs/Learn_web_development/Core/Challenges"
-                  ]
-                }
-              ]
+              }
             },
             extensions: {
               children: {
@@ -26744,19 +26721,6 @@ textarea:focus {
                           data: []
                         }
                       ]
-                    },
-                    your_first_form: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2018/08/ux-html5-mobile-form-part-1/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Extensions/Forms",
@@ -26826,6 +26790,13 @@ textarea:focus {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "Cannot reach server and Bun hangs"
+                          ]
                         }
                       ]
                     }
@@ -26853,24 +26824,17 @@ textarea:focus {
                         }
                       ]
                     },
-                    django: {
+                    first_steps: {
                       children: {
-                        deployment: {
+                        web_frameworks: {
                           children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Deployment",
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
                           messages: [
                             {
-                              message: "Broken external link",
+                              message: "Redirected external link",
                               data: [
-                                "https://blogs.vultr.com/new-free-tier-plan",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://blogs.vultr.com/new-free-tier-plan",
-                                503
+                                "https://www.rust-lang.org/",
+                                "https://rust-lang.org/"
                               ]
                             }
                           ]
@@ -27869,6 +27833,33 @@ body * {
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "Cannot reach server and Bun hangs"
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -27886,15 +27877,21 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/downloads.html",
+                            "https://gaesamplesite.appspot.com/",
                             503
                           ]
-                        },
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
+                            "https://www.gnu.org/software/emacs/",
+                            "Cannot reach server and Bun hangs"
                           ]
                         }
                       ]
@@ -34287,6 +34284,19 @@ html {
                     }
                   }
                 },
+                presentation_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Presentation_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://developer.apple.com/documentation/technologyoverviews/streaming",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 profiler: {
                   children: {
                     samplebufferfull_event: {
@@ -34679,28 +34689,6 @@ html {
                       message: "Not in BCD",
                       data: [
                         "api.SharedStorageSelectURLOperation"
-                      ]
-                    }
-                  ]
-                },
-                speculation_rules_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Speculation_Rules_API",
-                  messages: [
-                    {
-                      message: "Mixed BCD status",
-                      data: [
-                        [
-                          "experimental",
-                          "non-standard"
-                        ],
-                        [
-                          "experimental"
-                        ],
-                        [
-                          "experimental",
-                          "non-standard"
-                        ]
                       ]
                     }
                   ]
@@ -96583,6 +96571,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "Cannot reach server and Bun hangs"
+                              ]
+                            }
+                          ]
+                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -96879,19 +96880,6 @@ if (map.has(key)) {
                   children: {
                     formats: {
                       children: {
-                        configuring_servers_for_ogg_media: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Configuring_servers_for_Ogg_media",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://gitlab.xiph.org/xiph/ffmpeg2theora",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -98487,6 +98475,27 @@ p {
               data: []
             }
           ]
+        },
+        webassembly: {
+          children: {
+            guides: {
+              children: {
+                rust_to_wasm: {
+                  children: {},
+                  slug: "/en-US/docs/WebAssembly/Guides/Rust_to_Wasm",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://www.rust-lang.org/tools/install",
+                        "https://rust-lang.org/tools/install/"
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
         }
       }
     }
