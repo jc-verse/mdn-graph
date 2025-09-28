@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-xdyz9zc1.js";
+} from "./chunk-m0e30dwh.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -10034,15 +10034,15 @@ button {
                         }
                       ]
                     },
-                    html_images: {
+                    general_embedding_technologies: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "Cannot reach server and Bun hangs"
+                            "https://wiki.creativecommons.org/wiki/Best_practices_for_attribution",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -26790,13 +26790,6 @@ textarea:focus {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "Cannot reach server and Bun hangs"
-                          ]
                         }
                       ]
                     }
@@ -27833,33 +27826,6 @@ body * {
                 },
                 tools_and_setup: {
                   children: {
-                    available_text_editors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "Cannot reach server and Bun hangs"
-                          ]
-                        }
-                      ]
-                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -27870,15 +27836,15 @@ body * {
                         }
                       ]
                     },
-                    how_do_you_host_your_website_on_google_app_engine: {
+                    how_much_does_it_cost: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
+                            "https://dotclear.org/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -27890,8 +27856,8 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "Cannot reach server and Bun hangs"
+                            "https://www.browsershots.at/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -27986,6 +27952,19 @@ body * {
                       data: []
                     }
                   ]
+                },
+                pull_requests: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Community/Pull_requests",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://phauer.com/2018/code-review-guidelines/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Community",
@@ -28000,6 +27979,19 @@ body * {
             },
             writing_guidelines: {
               children: {
+                attrib_copyright_license: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 changelog: {
                   children: {},
                   slug: "/en-US/docs/MDN/Writing_guidelines/Changelog",
@@ -34283,19 +34275,6 @@ html {
                       ]
                     }
                   }
-                },
-                presentation_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/Presentation_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://developer.apple.com/documentation/technologyoverviews/streaming",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 profiler: {
                   children: {
@@ -96571,19 +96550,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        accept: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.gnu.org/software/wget/",
-                                "Cannot reach server and Bun hangs"
-                              ]
-                            }
-                          ]
-                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
