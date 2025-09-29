@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-m0e30dwh.js";
+} from "./chunk-2dhrjepm.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -10030,19 +10030,6 @@ button {
                           data: [
                             "https://www.rust-lang.org/",
                             "https://rust-lang.org/"
-                          ]
-                        }
-                      ]
-                    },
-                    general_embedding_technologies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://wiki.creativecommons.org/wiki/Best_practices_for_attribution",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -27848,19 +27835,6 @@ body * {
                           ]
                         }
                       ]
-                    },
-                    what_software_do_i_need: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.browsershots.at/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup",
@@ -27952,19 +27926,6 @@ body * {
                       data: []
                     }
                   ]
-                },
-                pull_requests: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Pull_requests",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://phauer.com/2018/code-review-guidelines/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Community",
@@ -27979,19 +27940,6 @@ body * {
             },
             writing_guidelines: {
               children: {
-                attrib_copyright_license: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 changelog: {
                   children: {},
                   slug: "/en-US/docs/MDN/Writing_guidelines/Changelog",
