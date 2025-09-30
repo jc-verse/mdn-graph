@@ -29,6 +29,7 @@ export default [
       "no-promise-executor-return": "off",
       "no-undef": "off",
       "no-unused-private-class-members": "off",
+      "no-use-before-define": ["error", "nofunc"],
       "no-useless-assignment": "off",
       "require-atomic-updates": "off",
       "require-await": "off",
