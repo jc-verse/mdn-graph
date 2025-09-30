@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-2dhrjepm.js";
+} from "./chunk-0me9fsp1.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -290,6 +290,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            css_preprocessor: {
+              children: {},
+              slug: "/en-US/docs/Glossary/CSS_preprocessor",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://sass-lang.com/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -1346,6 +1359,19 @@ div.warning {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            source_map: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Source_map",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://sass-lang.com/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -2725,7 +2751,17 @@ li {
                         }
                       }
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Learn_web_development/Core/Accessibility",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://egghead.io/courses/start-building-accessible-web-applications-today",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 css_layout: {
                   children: {
@@ -3171,6 +3207,13 @@ span {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -5039,6 +5082,19 @@ label + input[type="text"] {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    main_features: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -8910,6 +8966,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -9881,6 +9944,304 @@ body {
                 },
                 scripting: {
                   children: {
+                    image_gallery: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Image_gallery",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#999" to be "#999999" (color-hex-length)',
+                            "  border: 1px solid #999;",
+                            "31:21 - 31:25",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Image_gallery
+[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
+~~~
+body {
+  font-family: sans-serif;
+  width: 640px;
+  margin: 0 auto;
+  background-color: lightgray;
+}
+
+h1 {
+  text-align: center;
+}
+
+.full-img {
+  position: relative;
+  display: block;
+  width: 640px;
+  height: 480px;
+  margin-bottom: 2px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 480px;
+}
+
+button {
+  border: 0;
+  background: rgb(150 150 150 / 0.6);
+  border: 1px solid #999;
+  position: absolute;
+  cursor: pointer;
+  top: 2px;
+  left: 2px;
+}
+
+button:hover,
+button:focus {
+  color: rgb(150 150 150 / 1);
+  background-color: black;
+}
+
+.thumb-bar {
+  display: flex;
+  gap: 2px;
+  cursor: pointer;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 100px;
+  flex: 1;
+}
+
+.thumb-bar img:hover,
+.thumb-bar img:focus {
+  outline: 2px solid blue;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "border" (declaration-block-no-duplicate-properties)',
+                            "  border: 0;",
+                            "29:3 - 29:9",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Image_gallery
+[declaration-block-no-duplicate-properties] Unexpected duplicate "border" (declaration-block-no-duplicate-properties)
+~~~
+body {
+  font-family: sans-serif;
+  width: 640px;
+  margin: 0 auto;
+  background-color: lightgray;
+}
+
+h1 {
+  text-align: center;
+}
+
+.full-img {
+  position: relative;
+  display: block;
+  width: 640px;
+  height: 480px;
+  margin-bottom: 2px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 480px;
+}
+
+button {
+  border: 0;
+  background: rgb(150 150 150 / 0.6);
+  border: 1px solid #999;
+  position: absolute;
+  cursor: pointer;
+  top: 2px;
+  left: 2px;
+}
+
+button:hover,
+button:focus {
+  color: rgb(150 150 150 / 1);
+  background-color: black;
+}
+
+.thumb-bar {
+  display: flex;
+  gap: 2px;
+  cursor: pointer;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 100px;
+  flex: 1;
+}
+
+.thumb-bar img:hover,
+.thumb-bar img:focus {
+  outline: 2px solid blue;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#999" to be "#999999" (color-hex-length)',
+                            "  border: 1px solid #999;",
+                            "31:21 - 31:25",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Image_gallery
+[color-hex-length] Expected "#999" to be "#999999" (color-hex-length)
+~~~
+body {
+  font-family: sans-serif;
+  width: 640px;
+  margin: 0 auto;
+  background-color: lightgray;
+}
+
+h1 {
+  text-align: center;
+}
+
+.full-img {
+  position: relative;
+  display: block;
+  width: 640px;
+  height: 480px;
+  margin-bottom: 2px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 480px;
+}
+
+button {
+  border: 0;
+  background: rgb(150 150 150 / 0.6);
+  border: 1px solid #999;
+  position: absolute;
+  cursor: pointer;
+  top: 2px;
+  left: 2px;
+}
+
+button:hover,
+button:focus {
+  color: rgb(150 150 150 / 1);
+  background-color: black;
+}
+
+.thumb-bar {
+  display: flex;
+  gap: 2px;
+  cursor: pointer;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 100px;
+  flex: 1;
+}
+
+.thumb-bar img:hover,
+.thumb-bar img:focus {
+  outline: 2px solid blue;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-block-no-duplicate-properties",
+                            'Unexpected duplicate "border" (declaration-block-no-duplicate-properties)',
+                            "  border: 0;",
+                            "29:3 - 29:9",
+                            `/en-US/docs/Learn_web_development/Core/Scripting/Image_gallery
+[declaration-block-no-duplicate-properties] Unexpected duplicate "border" (declaration-block-no-duplicate-properties)
+~~~
+body {
+  font-family: sans-serif;
+  width: 640px;
+  margin: 0 auto;
+  background-color: lightgray;
+}
+
+h1 {
+  text-align: center;
+}
+
+.full-img {
+  position: relative;
+  display: block;
+  width: 640px;
+  height: 480px;
+  margin-bottom: 2px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 480px;
+}
+
+button {
+  border: 0;
+  background: rgb(150 150 150 / 0.6);
+  border: 1px solid #999;
+  position: absolute;
+  cursor: pointer;
+  top: 2px;
+  left: 2px;
+}
+
+button:hover,
+button:focus {
+  color: rgb(150 150 150 / 1);
+  background-color: black;
+}
+
+.thumb-bar {
+  display: flex;
+  gap: 2px;
+  cursor: pointer;
+}
+
+.thumb-bar img {
+  display: block;
+  width: 100px;
+  flex: 1;
+}
+
+.thumb-bar img:hover,
+.thumb-bar img:focus {
+  outline: 2px solid blue;
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     what_is_javascript: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript",
@@ -13753,6 +14114,26 @@ h2 {
                         }
                       ]
                     },
+                    organizing: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/documentation/at-rules/use/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     tables: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Tables",
@@ -16294,6 +16675,36 @@ button:active {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "client-side_tools": {
+                  children: {
+                    introducing_complete_toolchain: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    overview: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -26804,12 +27215,36 @@ textarea:focus {
                         }
                       ]
                     },
+                    express_nodejs: {
+                      children: {
+                        skeleton_website: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://sass-lang.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     first_steps: {
                       children: {
                         web_frameworks: {
                           children: {},
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks",
                           messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.techuseful.com/drone-definitions-learning-the-drone-lingo/",
+                                "The operation timed out."
+                              ]
+                            },
                             {
                               message: "Redirected external link",
                               data: [
@@ -27375,6 +27810,23 @@ body {
             },
             getting_started: {
               children: {
+                soft_skills: {
+                  children: {
+                    workflows_and_processes: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
@@ -27822,19 +28274,6 @@ body * {
                           data: []
                         }
                       ]
-                    },
-                    how_much_does_it_cost: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://dotclear.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup",
@@ -27970,6 +28409,13 @@ color: rgb(31 41 59);
 color: rgb(31 41 59 / 26%);
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -31332,6 +31778,19 @@ p {
                 },
                 element: {
                   children: {
+                    innerhtml: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Element/innerHTML",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://research.securitum.com/dompurify-bypass-using-mxss/",
+                            "https://www.securitum.com/insights.html"
+                          ]
+                        }
+                      ]
+                    },
                     requestfullscreen: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Element/requestFullscreen",
@@ -31500,6 +31959,586 @@ api.Document.fullscreen`,
                       ]
                     }
                   }
+                },
+                gpubindgroup: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/GPUBindGroup",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://webgpu.github.io/webgpu-samples/",
+                        "http://webgpu.org/webgpu-samples/"
+                      ]
+                    }
+                  ]
+                },
+                gpubindgrouplayout: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/GPUBindGroupLayout",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://webgpu.github.io/webgpu-samples/",
+                        "http://webgpu.org/webgpu-samples/"
+                      ]
+                    }
+                  ]
+                },
+                gpucanvascontext: {
+                  children: {
+                    configure: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPUCanvasContext/configure",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/?sample=particles",
+                            "http://webgpu.org/webgpu-samples/?sample=particles"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                gpucommandbuffer: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/GPUCommandBuffer",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://webgpu.github.io/webgpu-samples/",
+                        "http://webgpu.org/webgpu-samples/"
+                      ]
+                    }
+                  ]
+                },
+                gpucommandencoder: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/GPUCommandEncoder",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://webgpu.github.io/webgpu-samples/",
+                        "http://webgpu.org/webgpu-samples/"
+                      ]
+                    }
+                  ]
+                },
+                gpucomputepipeline: {
+                  children: {
+                    getbindgrouplayout: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPUComputePipeline/getBindGroupLayout",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/",
+                            "http://webgpu.org/webgpu-samples/"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/GPUComputePipeline",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://webgpu.github.io/webgpu-samples/",
+                        "http://webgpu.org/webgpu-samples/"
+                      ]
+                    }
+                  ]
+                },
+                gpudevice: {
+                  children: {
+                    createbindgroup: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPUDevice/createBindGroup",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/",
+                            "http://webgpu.org/webgpu-samples/"
+                          ]
+                        }
+                      ]
+                    },
+                    createbindgrouplayout: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPUDevice/createBindGroupLayout",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/",
+                            "http://webgpu.org/webgpu-samples/"
+                          ]
+                        }
+                      ]
+                    },
+                    createcommandencoder: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPUDevice/createCommandEncoder",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/",
+                            "http://webgpu.org/webgpu-samples/"
+                          ]
+                        }
+                      ]
+                    },
+                    createcomputepipeline: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPUDevice/createComputePipeline",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/",
+                            "http://webgpu.org/webgpu-samples/"
+                          ]
+                        }
+                      ]
+                    },
+                    createcomputepipelineasync: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPUDevice/createComputePipelineAsync",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/",
+                            "http://webgpu.org/webgpu-samples/"
+                          ]
+                        }
+                      ]
+                    },
+                    createpipelinelayout: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPUDevice/createPipelineLayout",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/",
+                            "http://webgpu.org/webgpu-samples/"
+                          ]
+                        }
+                      ]
+                    },
+                    createrenderbundleencoder: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPUDevice/createRenderBundleEncoder",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/samples/animometer/",
+                            "http://webgpu.org/webgpu-samples/samples/animometer/"
+                          ]
+                        }
+                      ]
+                    },
+                    createrenderpipeline: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPUDevice/createRenderPipeline",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/",
+                            "http://webgpu.org/webgpu-samples/"
+                          ]
+                        }
+                      ]
+                    },
+                    createrenderpipelineasync: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPUDevice/createRenderPipelineAsync",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/",
+                            "http://webgpu.org/webgpu-samples/"
+                          ]
+                        }
+                      ]
+                    },
+                    createsampler: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPUDevice/createSampler",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/samples/shadowMapping/",
+                            "http://webgpu.org/webgpu-samples/samples/shadowMapping/"
+                          ]
+                        }
+                      ]
+                    },
+                    createtexture: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPUDevice/createTexture",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/samples/texturedCube/",
+                            "http://webgpu.org/webgpu-samples/samples/texturedCube/"
+                          ]
+                        }
+                      ]
+                    },
+                    importexternaltexture: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPUDevice/importExternalTexture",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/samples/videoUploading/",
+                            "http://webgpu.org/webgpu-samples/samples/videoUploading/"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/GPUDevice",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://webgpu.github.io/webgpu-samples/",
+                        "http://webgpu.org/webgpu-samples/"
+                      ]
+                    }
+                  ]
+                },
+                gpuexternaltexture: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/GPUExternalTexture",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://webgpu.github.io/webgpu-samples/samples/videoUploading/",
+                        "http://webgpu.org/webgpu-samples/samples/videoUploading/"
+                      ]
+                    }
+                  ]
+                },
+                gpupipelinelayout: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/GPUPipelineLayout",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://webgpu.github.io/webgpu-samples/",
+                        "http://webgpu.org/webgpu-samples/"
+                      ]
+                    }
+                  ]
+                },
+                gpuqueue: {
+                  children: {
+                    copyexternalimagetotexture: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPUQueue/copyExternalImageToTexture",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/samples/texturedCube/",
+                            "http://webgpu.org/webgpu-samples/samples/texturedCube/"
+                          ]
+                        }
+                      ]
+                    },
+                    submit: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPUQueue/submit",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/",
+                            "http://webgpu.org/webgpu-samples/"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/GPUQueue",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://webgpu.github.io/webgpu-samples/",
+                        "http://webgpu.org/webgpu-samples/"
+                      ]
+                    }
+                  ]
+                },
+                gpurenderbundle: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/GPURenderBundle",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://webgpu.github.io/webgpu-samples/samples/animometer/",
+                        "http://webgpu.org/webgpu-samples/samples/animometer/"
+                      ]
+                    }
+                  ]
+                },
+                gpurenderbundleencoder: {
+                  children: {
+                    draw: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPURenderBundleEncoder/draw",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/samples/animometer/",
+                            "http://webgpu.org/webgpu-samples/samples/animometer/"
+                          ]
+                        }
+                      ]
+                    },
+                    finish: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPURenderBundleEncoder/finish",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/samples/animometer/",
+                            "http://webgpu.org/webgpu-samples/samples/animometer/"
+                          ]
+                        }
+                      ]
+                    },
+                    setbindgroup: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPURenderBundleEncoder/setBindGroup",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/samples/animometer/",
+                            "http://webgpu.org/webgpu-samples/samples/animometer/"
+                          ]
+                        }
+                      ]
+                    },
+                    setpipeline: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPURenderBundleEncoder/setPipeline",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/samples/animometer/",
+                            "http://webgpu.org/webgpu-samples/samples/animometer/"
+                          ]
+                        }
+                      ]
+                    },
+                    setvertexbuffer: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPURenderBundleEncoder/setVertexBuffer",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/samples/animometer/",
+                            "http://webgpu.org/webgpu-samples/samples/animometer/"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/GPURenderBundleEncoder",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://webgpu.github.io/webgpu-samples/samples/animometer/",
+                        "http://webgpu.org/webgpu-samples/samples/animometer/"
+                      ]
+                    }
+                  ]
+                },
+                gpurenderpassencoder: {
+                  children: {
+                    drawindexed: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPURenderPassEncoder/drawIndexed",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/samples/shadowMapping/",
+                            "http://webgpu.org/webgpu-samples/samples/shadowMapping/"
+                          ]
+                        }
+                      ]
+                    },
+                    executebundles: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPURenderPassEncoder/executeBundles",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/samples/animometer/",
+                            "http://webgpu.org/webgpu-samples/samples/animometer/"
+                          ]
+                        }
+                      ]
+                    },
+                    setbindgroup: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPURenderPassEncoder/setBindGroup",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/samples/texturedCube/",
+                            "http://webgpu.org/webgpu-samples/samples/texturedCube/"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/",
+                            "http://webgpu.org/webgpu-samples/"
+                          ]
+                        }
+                      ]
+                    },
+                    setindexbuffer: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPURenderPassEncoder/setIndexBuffer",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/samples/shadowMapping/",
+                            "http://webgpu.org/webgpu-samples/samples/shadowMapping/"
+                          ]
+                        }
+                      ]
+                    },
+                    setviewport: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPURenderPassEncoder/setViewport",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/samples/reversedZ/",
+                            "http://webgpu.org/webgpu-samples/samples/reversedZ/"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                gpurenderpipeline: {
+                  children: {
+                    getbindgrouplayout: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPURenderPipeline/getBindGroupLayout",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/",
+                            "http://webgpu.org/webgpu-samples/"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/GPURenderPipeline",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://webgpu.github.io/webgpu-samples/",
+                        "http://webgpu.org/webgpu-samples/"
+                      ]
+                    }
+                  ]
+                },
+                gpusampler: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/GPUSampler",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://webgpu.github.io/webgpu-samples/samples/shadowMapping/",
+                        "http://webgpu.org/webgpu-samples/samples/shadowMapping/"
+                      ]
+                    }
+                  ]
+                },
+                gputexture: {
+                  children: {
+                    createview: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/GPUTexture/createView",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://webgpu.github.io/webgpu-samples/samples/cubemap/",
+                            "http://webgpu.org/webgpu-samples/samples/cubemap/"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/GPUTexture",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://webgpu.github.io/webgpu-samples/samples/texturedCube/",
+                        "http://webgpu.org/webgpu-samples/samples/texturedCube/"
+                      ]
+                    }
+                  ]
+                },
+                gputextureview: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/GPUTextureView",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://webgpu.github.io/webgpu-samples/samples/cubemap/",
+                        "http://webgpu.org/webgpu-samples/samples/cubemap/"
+                      ]
+                    }
+                  ]
                 },
                 highlightregistry: {
                   children: {
@@ -34620,6 +35659,22 @@ html {
                     }
                   ]
                 },
+                sourcebuffer: {
+                  children: {
+                    abort_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SourceBuffer/abort_event",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/SourceBuffer/removeSourceBuffer"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 speechrecognitionevent: {
                   children: {
                     emma: {
@@ -35709,6 +36764,19 @@ api.Window.sessionStorage`,
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm"
+                      ]
+                    }
+                  ]
+                },
+                webgpu_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WebGPU_API",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://webgpu.github.io/webgpu-samples/",
+                        "http://webgpu.org/webgpu-samples/"
                       ]
                     }
                   ]
@@ -56053,6 +57121,26 @@ div {
   );
 }
 
+@supports not (corner-shape: scoop) {
+  body {
+    all: unset !important;
+  }
+
+  body::before {
+    content: "Your browser does not support the 'corner-shape' property.";
+    color: black;
+    background-color: #ffcd33;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  body > * {
+    display: none;
+  }
+}
+
 div {
   height: 180px;
   box-shadow: 1px 1px 3px gray;
@@ -56091,6 +57179,26 @@ div {
   );
 }
 
+@supports not (corner-shape: scoop) {
+  body {
+    all: unset !important;
+  }
+
+  body::before {
+    content: "Your browser does not support the 'corner-shape' property.";
+    color: black;
+    background-color: #ffcd33;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  body > * {
+    display: none;
+  }
+}
+
 div {
   height: 180px;
   box-shadow: 1px 1px 3px gray;
@@ -56127,6 +57235,26 @@ body {
 div {
   width: 240px;
   height: 180px;
+}
+
+@supports not (corner-shape: scoop notch) {
+  body {
+    all: unset !important;
+  }
+
+  body::before {
+    content: "Your browser does not support the 'corner-shape' property.";
+    color: black;
+    background-color: #ffcd33;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  body > * {
+    display: none;
+  }
 }
 
 body {
@@ -56181,6 +57309,26 @@ div {
   height: 180px;
 }
 
+@supports not (corner-shape: scoop notch) {
+  body {
+    all: unset !important;
+  }
+
+  body::before {
+    content: "Your browser does not support the 'corner-shape' property.";
+    color: black;
+    background-color: #ffcd33;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  body > * {
+    display: none;
+  }
+}
+
 body {
   background: url("https://mdn.github.io/shared-assets/images/examples/leopard.jpg")
     no-repeat;
@@ -56243,12 +57391,32 @@ form div:nth-of-type(2) {
 section {
   width: 100%;
   height: 180px;
-  background-color: palegoldenrod;
+  background-color: gold;
   background-image: linear-gradient(
     to bottom,
     rgb(255 255 255 / 0),
     rgb(255 255 255 / 0.5)
   );
+}
+
+@supports not (corner-shape: scoop) {
+  body {
+    all: unset !important;
+  }
+
+  body::before {
+    content: "Your browser does not support the 'corner-shape' property.";
+    color: black;
+    background-color: #ffcd33;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  body > * {
+    display: none;
+  }
 }
 
 section {
@@ -56296,12 +57464,32 @@ form div:nth-of-type(2) {
 section {
   width: 100%;
   height: 180px;
-  background-color: palegoldenrod;
+  background-color: gold;
   background-image: linear-gradient(
     to bottom,
     rgb(255 255 255 / 0),
     rgb(255 255 255 / 0.5)
   );
+}
+
+@supports not (corner-shape: scoop) {
+  body {
+    all: unset !important;
+  }
+
+  body::before {
+    content: "Your browser does not support the 'corner-shape' property.";
+    color: black;
+    background-color: #ffcd33;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  body > * {
+    display: none;
+  }
 }
 
 section {
@@ -56353,6 +57541,26 @@ section {
   );
 }
 
+@supports not (corner-shape: superellipse(0)) {
+  body {
+    all: unset !important;
+  }
+
+  body::before {
+    content: "Your browser does not support the 'corner-shape' property.";
+    color: black;
+    background-color: #ffcd33;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  body > * {
+    display: none;
+  }
+}
+
 section {
   box-shadow: 1px 1px 3px gray;
 }
@@ -56402,8 +57610,174 @@ section {
   );
 }
 
+@supports not (corner-shape: superellipse(0)) {
+  body {
+    all: unset !important;
+  }
+
+  body::before {
+    content: "Your browser does not support the 'corner-shape' property.";
+    color: black;
+    background-color: #ffcd33;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  body > * {
+    display: none;
+  }
+}
+
 section {
   box-shadow: 1px 1px 3px gray;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "keyframe-selector-notation",
+                        'Expected "from" to be "0%" (keyframe-selector-notation)',
+                        "  from {",
+                        "42:3 - 42:7",
+                        `/en-US/docs/Web/CSS/corner-shape
+[keyframe-selector-notation] Expected "from" to be "0%" (keyframe-selector-notation)
+~~~
+body {
+  width: 200px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 200px;
+  background-color: green;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 50%;
+  corner-shape: square;
+  outline: none;
+}
+
+@supports not (corner-shape: square) {
+  body {
+    all: unset !important;
+  }
+
+  body::before {
+    content: "Your browser does not support the 'corner-shape' property.";
+    color: black;
+    background-color: #ffcd33;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  body > * {
+    display: none;
+  }
+}
+
+@keyframes corner-pulse {
+  from {
+    corner-shape: square;
+  }
+
+  /* To make the starting point apparent, let us keep
+  the shape the same for a small duration. */
+  20% {
+    corner-shape: square;
+  }
+
+  to {
+    corner-shape: notch;
+  }
+}
+
+div {
+  animation: corner-pulse infinite alternate 4s linear;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "keyframe-selector-notation",
+                        'Expected "to" to be "100%" (keyframe-selector-notation)',
+                        "  to {",
+                        "52:3 - 52:5",
+                        `/en-US/docs/Web/CSS/corner-shape
+[keyframe-selector-notation] Expected "to" to be "100%" (keyframe-selector-notation)
+~~~
+body {
+  width: 200px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 200px;
+  background-color: green;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 50%;
+  corner-shape: square;
+  outline: none;
+}
+
+@supports not (corner-shape: square) {
+  body {
+    all: unset !important;
+  }
+
+  body::before {
+    content: "Your browser does not support the 'corner-shape' property.";
+    color: black;
+    background-color: #ffcd33;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  body > * {
+    display: none;
+  }
+}
+
+@keyframes corner-pulse {
+  from {
+    corner-shape: square;
+  }
+
+  /* To make the starting point apparent, let us keep
+  the shape the same for a small duration. */
+  20% {
+    corner-shape: square;
+  }
+
+  to {
+    corner-shape: notch;
+  }
+}
+
+div {
+  animation: corner-pulse infinite alternate 4s linear;
 }
 ~~~
 `
@@ -73070,6 +74444,40 @@ blockquote p::after {
                     }
                   ]
                 },
+                css_nesting: {
+                  children: {
+                    using_css_nesting: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/CSS/CSS_nesting",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://sass-lang.com/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 css_overflow: {
                   children: {
                     css_carousels: {
@@ -75452,6 +76860,19 @@ article.snapDisabled ul {
 }
 ~~~
 `
+                      ]
+                    }
+                  ]
+                },
+                css_shapes: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/CSS_shapes",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webdesignerdepot.com/how-to-get-started-with-css-shapes/",
+                        520
                       ]
                     }
                   ]
@@ -96768,6 +98189,23 @@ if (map.has(key)) {
                         }
                       ]
                     },
+                    operators: {
+                      children: {
+                        await: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/await",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://typescript-eslint.io/rules/return-await/",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     statements: {
                       children: {
                         expression_statement: {
@@ -98242,6 +99680,31 @@ p {
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            uri: {
+              children: {
+                reference: {
+                  children: {
+                    schemes: {
+                      children: {
+                        urn: {
+                          children: {},
+                          slug: "/en-US/docs/Web/URI/Reference/Schemes/urn",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://isbnsearch.org/isbn/9780141036144",
+                                404
                               ]
                             }
                           ]
