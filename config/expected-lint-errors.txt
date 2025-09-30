@@ -119,29 +119,6 @@ This is the second subsection of my content. I think is more interesting than
 the last one.
 ~~~
 
-/en-US/docs/Learn_web_development/Core/Challenges
-[color-named] Expected "#ff0000" to be "red" (color-named)
-[color-named] Expected "#0000ff" to be "blue" (color-named)
-~~~
-strong {
-  color: #ff0000; /* red */
-  background-color: #ddddff; /* pale blue */
-  font: 200% serif;
-}
-
-.carrot {
-  color: #ffaa00; /* orange */
-}
-
-.spinach {
-  color: #008800; /* dark green */
-}
-
-p {
-  color: #0000ff; /* blue */
-}
-~~~
-
 /en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)
 ~~~

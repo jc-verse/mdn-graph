@@ -38,6 +38,11 @@ const webDocsBacklog = new Set(
           return `/en-US/docs/Web/HTTP/Headers/${member}`;
         }
         break;
+      case "svg":
+        if (interfac === "global_attributes") {
+          return `/en-US/docs/Web/SVG/Reference/Attribute/${member}`;
+        }
+        break;
       case "webdriver":
         if (interfac === "bidi" || interfac === "classic") {
           return `/en-US/docs/Web/WebDriver/Reference/Commands/${member}`;
