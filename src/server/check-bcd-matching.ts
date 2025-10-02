@@ -623,10 +623,7 @@ export function checkBCDMatching(
       (bcdStatusSingle.length !== status.length ||
         bcdStatusSingle.some((x, i) => x !== status[i])) &&
       !node.data.metadata.browserCompat.every(
-        (x) =>
-          // WebExt BCD doesn't document status so it's not actionable
-          x.startsWith("webextensions.") &&
-          !getBCD(bcdData, x)?.__compat?.status,
+        (x) => !getBCD(bcdData, x)?.__compat?.status,
       )
     ) {
       report(

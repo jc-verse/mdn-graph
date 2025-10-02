@@ -3,6 +3,7 @@
 
 AesCbcParams
 AesCtrParams
+AesDerivedKeyParams
 AesGcmParams
 AesKeyGenParams
 AudioParamDescriptor

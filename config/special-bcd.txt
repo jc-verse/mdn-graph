@@ -51,6 +51,7 @@
 
 /en-US/docs/Web/CSS/--*	css.properties.custom-property
 /en-US/docs/Web/CSS/:heading_function	css.selectors.headingfunction
+/en-US/docs/Web/CSS/@scope	css.at-rules.scope,css.selectors.nesting.at-scope
 /en-US/docs/Web/CSS/color-interpolation-method	css.types.color.color-mix
   Interesting case: css.selectors.column is `::column`, not the column combinator
 /en-US/docs/Web/CSS/Column_combinator	css.selectors.column

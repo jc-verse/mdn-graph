@@ -77,6 +77,16 @@ function foo() {
 }();
 ~~~
 
+/en-US/docs/Glossary/Hoisting
+[no-use-before-define] 'x' was used before it was defined.
+~~~
+const x = 1;
+{
+  console.log(x); // ReferenceError
+  const x = 2;
+}
+~~~
+
 /en-US/docs/Glossary/Semantics
 [no-style-attr] Do not use the style attribute.
 ~~~
@@ -426,10 +436,37 @@ const count = 1;
 count = 2;
 ~~~
 
+/en-US/docs/Learn_web_development/Core/Scripting/Variables
+[no-use-before-define] 'myName' was used before it was defined.
+~~~
+myName = "Chris";
+
+function logName() {
+  console.log(myName);
+}
+
+logName();
+
+var myName;
+~~~
+
 /en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
 [no-inline-event-handlers] Do not use inline event handler "onclick".
 ~~~
 <button onclick="createParagraph()">Click me!</button>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
+[no-use-before-define] 'button' was used before it was defined.
+~~~
+function updateName() {
+  const name = prompt("Enter a new name");
+  button.textContent = `Player 1: ${name}`;
+}
+
+const button = document.querySelector("button");
+
+button.addEventListener("click", updateName);
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong
@@ -1083,6 +1120,18 @@ console.log(helloChris;
 [syntax] Parsing error: Unterminated string literal.
 ~~~
 alert("hello!);
+~~~
+
+/en-US/docs/Learn_web_development/Howto/Web_mechanics/File_browser_bugs
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<style>
+  :autofill {
+    border: 3px solid darkorange;
+  }
+</style>
+<input id="name" name="name" type="text" autocomplete="name" />
+<input id="email" name="email" type="email" autocomplete="email" />
 ~~~
 
 /en-US/docs/MDN/Writing_guidelines/Code_style_guide/CSS
@@ -4127,6 +4176,15 @@ function Person() {
 }
 ~~~
 
+/en-US/docs/Web/JavaScript/Guide/Functions
+[no-use-before-define] 'square' was used before it was defined.
+~~~
+console.log(square(5)); // ReferenceError: Cannot access 'square' before initialization
+const square = function (n) {
+  return n * n;
+};
+~~~
+
 /en-US/docs/Web/JavaScript/Guide/Grammar_and_types
 [no-constant-condition] Unexpected constant condition.
 ~~~
@@ -4134,6 +4192,29 @@ if (true) {
   var x = 5;
 }
 console.log(x); // x is 5
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Grammar_and_types
+[no-use-before-define] 'x' was used before it was defined.
+~~~
+console.log(x === undefined); // true
+var x = 3;
+
+(function () {
+  console.log(x); // undefined
+  var x = "local value";
+})();
+~~~
+
+/en-US/docs/Web/JavaScript/Guide/Grammar_and_types
+[no-use-before-define] 'x' was used before it was defined.
+[no-use-before-define] 'y' was used before it was defined.
+~~~
+console.log(x); // ReferenceError
+const x = 3;
+
+console.log(y); // ReferenceError
+let y = 3;
 ~~~
 
 /en-US/docs/Web/JavaScript/Guide/Grammar_and_types
@@ -4257,9 +4338,24 @@ do {
 } while (inputIsNotValid(input));
 ~~~
 
+/en-US/docs/Web/JavaScript/Guide/Language_overview
+[no-use-before-define] 'x' was used before it was defined.
+~~~
+function foo(x, condition) {
+  if (condition) {
+    console.log(x);
+    const x = 2;
+    console.log(x);
+  }
+}
+
+foo(1, true);
+~~~
+
 /en-US/docs/Web/JavaScript/Guide/Modules
 [import/first] Import in body of module; reorder to top.
 [import/newline-after-import] Expected 1 empty line after import statement not followed by another import.
+[no-use-before-define] 'Canvas' was used before it was defined.
 ~~~
 // …
 const myCanvas = new Canvas("myCanvas", document.body, 480, 320);
@@ -4354,6 +4450,14 @@ const re = new RegExp("pattern", "flags");
 console.log(new Color().getRed === new Color().getRed); // false
 ~~~
 
+/en-US/docs/Web/JavaScript/Guide/Using_classes
+[no-use-before-define] 'MyClass' was used before it was defined.
+~~~
+new MyClass(); // ReferenceError: Cannot access 'MyClass' before initialization
+
+class MyClass {}
+~~~
+
 /en-US/docs/Web/JavaScript/Guide/Using_promises
 [arrow-body-style] Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`.
 ~~~
@@ -4446,6 +4550,7 @@ console.log(anotherFruit); // { name: "grape" }; not { name: "apple" }
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Classes/Static_initialization_blocks
+[no-use-before-define] 'y' was used before it was defined.
 [no-var] Unexpected var, use let or const instead.
 ~~~
 var y = "Outer y";
@@ -4534,6 +4639,18 @@ Number?.[parseMethod]`Hello, world!`;
 [prefer-regex-literals] Use a regular expression literal instead of the 'RegExp' constructor.
 ~~~
 const re = new RegExp("pattern", "flags");
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Errors/Cant_access_lexical_declaration_before_init
+[no-use-before-define] 'foo' was used before it was defined.
+~~~
+function test() {
+  // Accessing the 'const' variable foo before it's declared
+  console.log(foo); // ReferenceError: foo is not initialized
+  const foo = 33; // 'foo' is declared and initialized here using the 'const' keyword
+}
+
+test();
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Errors/Either_be_both_static_or_non-static
@@ -5081,6 +5198,28 @@ try {
 console.log(new Function("return new Error('Function failed')")().stack);
 console.log("====");
 console.log(eval("new Error('eval failed')").stack);
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/stackTraceLimit
+[no-use-before-define] 'b' was used before it was defined.
+[no-use-before-define] 'c' was used before it was defined.
+[no-use-before-define] 'd' was used before it was defined.
+[no-use-before-define] 'e' was used before it was defined.
+~~~
+Error.stackTraceLimit = 2;
+const a = () => b();
+const b = () => c();
+const c = () => d();
+const d = () => e();
+const e = () => {
+  throw new Error("My error");
+};
+try {
+  a();
+} catch (e) {
+  console.log(e.stack);
+}
+// Only two frames in supporting engines; all frames in others
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/toString
@@ -6304,6 +6443,20 @@ function example() {
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Operators/Destructuring
+[no-use-before-define] 'x' was used before it was defined.
+~~~
+const obj = { a, b, c };
+const { a, b, c } = obj;
+// Equivalent to:
+// const a = obj.a, b = obj.b, c = obj.c;
+
+const obj = { prop1: x, prop2: y, prop3: z };
+const { prop1: x, prop2: y, prop3: z } = obj;
+// Equivalent to:
+// const x = obj.prop1, y = obj.prop2, z = obj.prop3;
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring
 [syntax] Parsing error: ',' expected.
 ~~~
 const numbers = [];
@@ -6314,6 +6467,19 @@ const { a: numbers[0], b: numbers[1] } = obj;
 //   const numbers[0] = obj.a;
 //   const numbers[1] = obj.b;
 // Which definitely is not valid.
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/function
+[no-use-before-define] 'notHoisted' was used before it was defined.
+~~~
+console.log(notHoisted); // undefined
+// Even though the variable name is hoisted,
+// the definition isn't. so it's undefined.
+notHoisted(); // TypeError: notHoisted is not a function
+
+var notHoisted = function () {
+  console.log("bar");
+};
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Operators/function
@@ -6606,6 +6772,20 @@ typeof func; // "function"
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Operators/typeof
+[no-use-before-define] 'newLetVariable' was used before it was defined.
+[no-use-before-define] 'newConstVariable' was used before it was defined.
+[no-use-before-define] 'newClass' was used before it was defined.
+~~~
+typeof newLetVariable; // ReferenceError
+typeof newConstVariable; // ReferenceError
+typeof newClass; // ReferenceError
+
+let newLetVariable;
+const newConstVariable = "hello";
+class newClass {}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/typeof
 [prefer-template] Unexpected string concatenation.
 ~~~
 // Parentheses can be used for determining the data type of expressions.
@@ -6695,6 +6875,15 @@ do {
 [syntax] Parsing error: Declaration or statement expected.
 ~~~
 export DefaultExport from "bar.js"; // Invalid
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/export
+[no-use-before-define] 'x' was used before it was defined.
+~~~
+export { x };
+const x = 1;
+// This works, because `export` is only a declaration, but doesn't
+// utilize the value of `x`.
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Statements/Expression_statement
@@ -6794,6 +6983,7 @@ for (using of of []); // SyntaxError
 
 /en-US/docs/Web/JavaScript/Reference/Statements/function
 [func-style] Expected a function declaration.
+[no-use-before-define] 'notHoisted' was used before it was defined.
 ~~~
 notHoisted(); // TypeError: notHoisted is not a function
 
@@ -6874,6 +7064,7 @@ console.log(gen.next()); // { value: undefined, done: true }
 
 /en-US/docs/Web/JavaScript/Reference/Statements/import
 [import/first] Import in body of module; reorder to top.
+[no-use-before-define] 'myModule' was used before it was defined.
 ~~~
 myModule.doAllTheAmazingThings(); // myModule.doAllTheAmazingThings is imported by the next line
 
@@ -6964,6 +7155,7 @@ while ((currentNode = iterator.nextNode()) && currentNode) {
 /en-US/docs/Web/JavaScript/Reference/Strict_mode
 [func-style] Expected a function declaration.
 [no-new-func] The Function constructor is eval.
+[no-use-before-define] 'eval' was used before it was defined.
 ~~~
 "use strict";
 eval = 17;
@@ -6986,6 +7178,108 @@ var x = 17;
 var evalX = eval("'use strict'; var x = 42; x;");
 console.assert(x === 17);
 console.assert(evalX === 42);
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/let
+[no-use-before-define] 'bar' was used before it was defined.
+[no-use-before-define] 'foo' was used before it was defined.
+~~~
+{
+  // TDZ starts at beginning of scope
+  console.log(bar); // "undefined"
+  console.log(foo); // ReferenceError: Cannot access 'foo' before initialization
+  var bar = 1;
+  let foo = 2; // End of TDZ (for foo)
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/let
+[no-use-before-define] 'letVar' was used before it was defined.
+~~~
+{
+  // TDZ starts at beginning of scope
+  const func = () => console.log(letVar); // OK
+
+  // Within the TDZ letVar access throws `ReferenceError`
+
+  let letVar = 3; // End of TDZ (for letVar)
+  func(); // Called outside TDZ!
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/let
+[no-use-before-define] 'i' was used before it was defined.
+~~~
+{
+  typeof i; // ReferenceError: Cannot access 'i' before initialization
+  let i = 10;
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/let
+[no-use-before-define] 'foo' was used before it was defined.
+~~~
+function test() {
+  var foo = 33;
+  if (foo) {
+    let foo = foo + 55; // ReferenceError
+  }
+}
+test();
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/let
+[no-use-before-define] 'n' was used before it was defined.
+~~~
+function go(n) {
+  // n here is defined!
+  console.log(n); // { a: [1, 2, 3] }
+
+  for (let n of n.a) {
+    //          ^ ReferenceError
+    console.log(n);
+  }
+}
+
+go({ a: [1, 2, 3] });
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/using
+[no-use-before-define] 'resource' was used before it was defined.
+~~~
+let useResource;
+{
+  useResource = () => resource.getValue();
+  useResource(); // Error: Cannot access 'resource' before initialization
+  using resource = new Resource();
+  useResource(); // Valid
+}
+useResource(); // Error: Resource is disposed
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/var
+[no-use-before-define] 'bla' was used before it was defined.
+~~~
+bla = 2;
+var bla;
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/var
+[no-use-before-define] 'bar' was used before it was defined.
+~~~
+function doSomething() {
+  console.log(bar); // undefined
+  var bar = 111;
+  console.log(bar); // 111
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/var
+[no-use-before-define] 'y' was used before it was defined.
+~~~
+var x = y,
+  y = "A";
+console.log(x, y); // undefined A
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Strict_mode

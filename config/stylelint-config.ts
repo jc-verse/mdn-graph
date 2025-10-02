@@ -158,13 +158,19 @@ const languageOptions = {
       "command-end-point": "[ to <position> | by <coordinate-pair> ]",
       "move-command": "move <command-end-point>",
       "line-command": "line <command-end-point>",
-      "horizontal-line-command": "hline [ to [ <length-percentage> | left | center | right | x-start | x-end ] | by <length-percentage> ]",
-      "vertical-line-command": "vline [ to [ <length-percentage> | top | center | bottom | y-start | y-end ] | by <length-percentage> ]",
-      "curve-command": "curve [ [ to <position> with <control-point> [ / <control-point> ]? ] | [ by <coordinate-pair> with <relative-control-point> [ / <relative-control-point> ]? ] ]",
-      "smooth-command": "smooth [ [ to <position> [ with <control-point> ]? ] | [ by <coordinate-pair> [ with <relative-control-point> ]? ] ]",
+      "horizontal-line-command":
+        "hline [ to [ <length-percentage> | left | center | right | x-start | x-end ] | by <length-percentage> ]",
+      "vertical-line-command":
+        "vline [ to [ <length-percentage> | top | center | bottom | y-start | y-end ] | by <length-percentage> ]",
+      "curve-command":
+        "curve [ [ to <position> with <control-point> [ / <control-point> ]? ] | [ by <coordinate-pair> with <relative-control-point> [ / <relative-control-point> ]? ] ]",
+      "smooth-command":
+        "smooth [ [ to <position> [ with <control-point> ]? ] | [ by <coordinate-pair> [ with <relative-control-point> ]? ] ]",
       "control-point": "[ <position> | <relative-control-point> ]",
-      "relative-control-point": "<coordinate-pair> [ from [ start | end | origin ] ]?",
-      "arc-command": "arc <command-end-point> [ [ of <length-percentage>{1,2} ] && <arc-sweep>? && <arc-size>? && [rotate <angle>]? ]",
+      "relative-control-point":
+        "<coordinate-pair> [ from [ start | end | origin ] ]?",
+      "arc-command":
+        "arc <command-end-point> [ [ of <length-percentage>{1,2} ] && <arc-sweep>? && <arc-size>? && [rotate <angle>]? ]",
       "arc-sweep": "cw | ccw",
       "arc-size": "large | small",
       // TODO: https://github.com/w3c/webref/issues/625
@@ -176,7 +182,8 @@ const languageOptions = {
       "attr-unit":
         "string | color | url | integer | number | length | angle | time | frequency | cap | ch | em | ex | ic | lh | rlh | rem | vb | vi | vw | vh | vmin | vmax | mm | Q | cm | in | pt | pc | px | deg | grad | rad | turn | ms | s | Hz | kHz | %",
       // LEGACY
-      image: "| <-moz-element()> | <-moz-image-rect()> | <-webkit-cross-fade()>",
+      image:
+        "| <-moz-element()> | <-moz-image-rect()> | <-webkit-cross-fade()>",
       "-moz-element()": "-moz-element( <id-selector> )",
       "-moz-image-rect()":
         "-moz-image-rect( <url> , [ <integer> | <percentage> ]#{4} )",
