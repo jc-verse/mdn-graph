@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-z56mwp0a.js";
+} from "./chunk-zx24psdp.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -20,6 +20,27 @@ var warnings_processed_default = {
                   ]
                 }
               ]
+            },
+            techniques: {
+              children: {
+                "3d_on_the_web": {
+                  children: {
+                    glsl_shaders: {
+                      children: {},
+                      slug: "/en-US/docs/Games/Techniques/3D_on_the_web/GLSL_Shaders",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.shadertoy.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
             },
             tools: {
               children: {
@@ -7879,19 +7900,6 @@ label + input[type="text"] {
                         }
                       ]
                     },
-                    main_features: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/testing/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     react_getting_started: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
@@ -7899,8 +7907,8 @@ label + input[type="text"] {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vite.dev/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "https://vite.dev/guide/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -11772,20 +11780,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vuejs.org/guide/scaling-up/sfc.html",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -12897,6 +12891,19 @@ button {
                 },
                 structuring_content: {
                   children: {
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {
                         advanced_html_text: {
@@ -20702,8 +20709,8 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vite.dev/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "https://vite.dev/guide/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -20715,8 +20722,15 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vite.dev/",
+                            "https://babeljs.io/docs/plugins",
                             "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://codeclimate.com/",
+                            503
                           ]
                         },
                         {
@@ -20735,8 +20749,8 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vite.dev/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "https://vite.dev/guide/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -31125,6 +31139,19 @@ textarea:focus {
                 },
                 performance: {
                   children: {
+                    best_practices: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Best_practices",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     css: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/CSS",
@@ -31169,19 +31196,6 @@ textarea:focus {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    multimedia: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -32168,6 +32182,33 @@ body * {
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -32185,8 +32226,21 @@ body * {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://gaesamplesite.appspot.com/downloads.html",
+                            "https://gaesamplesite.appspot.com/",
                             503
+                          ]
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -32201,39 +32255,7 @@ body * {
                   ]
                 },
                 web_mechanics: {
-                  children: {
-                    file_browser_bugs: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics/File_browser_bugs",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `<style>
-  :autofill {
-    border: 3px solid darkorange;
-  }
-</style>`,
-                            "0:0 - 4:8",
-                            `/en-US/docs/Learn_web_development/Howto/Web_mechanics/File_browser_bugs
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<style>
-  :autofill {
-    border: 3px solid darkorange;
-  }
-</style>
-<input id="name" name="name" type="text" autocomplete="name" />
-<input id="email" name="email" type="email" autocomplete="email" />
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Learn_web_development/Howto/Web_mechanics",
                   messages: [
                     {
@@ -32323,19 +32345,6 @@ body * {
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/MDN/Community/Learn_forum"
-                  ]
-                }
-              ]
-            },
-            tutorials: {
-              children: {},
-              slug: "/en-US/docs/MDN/Tutorials",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://addyosmani.com/resources/essentialjsdesignpatterns/book/",
-                    "unknown certificate verification error"
                   ]
                 }
               ]
@@ -32537,6 +32546,20 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
                                     }
                                   ]
                                 },
@@ -32557,10 +32580,34 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
+                              messages: [
+                                {
+                                  message: "HTTP link",
+                                  data: [
+                                    "http://www.softwareishard.com/blog/har-12-spec/",
+                                    ""
+                                  ]
+                                }
+                              ]
                             },
                             panels: {
                               children: {
@@ -33840,6 +33887,26 @@ webextensions.manifest.options_ui`,
                           ]
                         }
                       }
+                    },
+                    your_second_webextension: {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iconbeast.com/free/",
+                            "certificate has expired"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.iconbeast.com/faq/",
+                            "certificate has expired"
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions",
@@ -34282,13 +34349,6 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via page",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://forums.mozillazine.org/viewtopic.php?t=263028",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         }
@@ -34305,13 +34365,6 @@ webextensions.manifest.options_ui`,
                           message: "No link to child page",
                           data: [
                             "/en-US/docs/Mozilla/Firefox/Releases/1.5/What_s_new_in_1.5_alpha"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://kb.mozillazine.org/Getting_started_with_extension_development",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -34345,13 +34398,6 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://forums.mozillazine.org/viewtopic.php?f=18&t=665138",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         }
@@ -34396,13 +34442,6 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://forums.mozillazine.org/viewtopic.php?f=18&t=975065",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         }
@@ -34683,19 +34722,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         }
                       ]
                     },
-                    seizure_disorders: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://colortutorial.design/hsb.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     understanding_wcag: {
                       children: {
                         perceivable: {
@@ -34730,18 +34756,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
             },
             api: {
               children: {
-                aesderivedkeyparams: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/AesDerivedKeyParams",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "api.AesDerivedKeyParams"
-                      ]
-                    }
-                  ]
-                },
                 animation: {
                   children: {
                     currenttime: {
@@ -44478,22 +44492,6 @@ p {
                       ]
                     }
                   }
-                },
-                "@scope": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/@scope",
-                  messages: [
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        `css.at-rules.scope
-css.selectors.nesting.at-scope`,
-                        "Expected:",
-                        "css.at-rules.scope"
-                      ]
-                    }
-                  ]
                 },
                 "@starting-style": {
                   children: {},
@@ -64236,6 +64234,19 @@ rgb(from red r g b / alpha)
                     }
                   ]
                 },
+                css_compositing_and_blending: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/CSS_compositing_and_blending",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.sarasoueidan.com/blog/compositing-and-blending-in-css/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 css_conditional_rules: {
                   children: {
                     "container_scroll-state_queries": {
@@ -78523,6 +78534,19 @@ article.snapDisabled ul {
 }
 ~~~
 `
+                      ]
+                    }
+                  ]
+                },
+                css_shapes: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/CSS_shapes",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webdesignerdepot.com/how-to-get-started-with-css-shapes/",
+                        404
                       ]
                     }
                   ]
@@ -93381,6 +93405,476 @@ body {
                     }
                   ]
                 },
+                progress: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/progress",
+                  messages: [
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/CSS_Values_and_Units/Using_CSS_typed_arithmetic"
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "progress(5, 0, 10)" for property "opacity" (declaration-property-value-no-unknown)',
+                        "opacity: progress(5, 0, 10);",
+                        "1:10 - 1:28",
+                        `/en-US/docs/Web/CSS/progress
+[declaration-property-value-no-unknown] Unexpected unknown value "progress(5, 0, 10)" for property "opacity" (declaration-property-value-no-unknown)
+~~~
+opacity: progress(5, 0, 10);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "progress" (function-no-unknown)',
+                        "opacity: progress(5, 0, 10);",
+                        "1:10 - 1:18",
+                        `/en-US/docs/Web/CSS/progress
+[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
+~~~
+opacity: progress(5, 0, 10);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word progress (CssSyntaxError)",
+                        "progress(5, 0, 10)",
+                        "1:1 - 1:9",
+                        `/en-US/docs/Web/CSS/progress
+[CssSyntaxError] Unknown word progress (CssSyntaxError)
+~~~
+progress(5, 0, 10)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word progress (CssSyntaxError)",
+                        "progress(3em, 0px, 100px)",
+                        "1:1 - 1:9",
+                        `/en-US/docs/Web/CSS/progress
+[CssSyntaxError] Unknown word progress (CssSyntaxError)
+~~~
+progress(3em, 0px, 100px)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "Stylelint backlog",
+                      data: [
+                        "CssSyntaxError",
+                        "Unknown word progress (CssSyntaxError)",
+                        "progress(3s, 0px, 100px)",
+                        "1:1 - 1:9",
+                        `/en-US/docs/Web/CSS/progress
+[CssSyntaxError] Unknown word progress (CssSyntaxError)
+~~~
+progress(3s, 0px, 100px)
+progress(3em, 0, 100)
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "progress" (function-no-unknown)',
+                        "width: calc(progress(100vw, 320px, 1200px) * 600px);",
+                        "1:13 - 1:21",
+                        `/en-US/docs/Web/CSS/progress
+[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
+~~~
+width: calc(progress(100vw, 320px, 1200px) * 600px);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "progress" (function-no-unknown)',
+                        "  progress(",
+                        "2:3 - 2:11",
+                        `/en-US/docs/Web/CSS/progress
+[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
+~~~
+width: calc(
+  progress(
+      var(--container-width),
+      var(--custom-minwidth),
+      var(--custom-maxwidth)
+    ) *
+    var(--custom-maxwidth)
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "progress" (function-no-unknown)',
+                        "        progress(",
+                        "4:9 - 4:17",
+                        `/en-US/docs/Web/CSS/progress
+[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
+~~~
+background-color: rgb(
+  calc(
+      255 *
+        progress(
+          var(--container-width),
+          var(--custom-minwidth),
+          var(--custom-maxwidth)
+        )
+    )
+    calc(
+      255 *
+        progress(
+          var(--container-width),
+          var(--custom-minwidth),
+          var(--custom-maxwidth)
+        )
+    )
+    255 / 0.5
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "progress" (function-no-unknown)',
+                        "        progress(",
+                        "12:9 - 12:17",
+                        `/en-US/docs/Web/CSS/progress
+[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
+~~~
+background-color: rgb(
+  calc(
+      255 *
+        progress(
+          var(--container-width),
+          var(--custom-minwidth),
+          var(--custom-maxwidth)
+        )
+    )
+    calc(
+      255 *
+        progress(
+          var(--container-width),
+          var(--custom-minwidth),
+          var(--custom-maxwidth)
+        )
+    )
+    255 / 0.5
+);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "progress" (function-no-unknown)',
+                        "    progress(",
+                        "3:5 - 3:13",
+                        `/en-US/docs/Web/CSS/progress
+[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
+~~~
+.progress {
+  width: calc(
+    progress(
+        var(--container-width),
+        var(--custom-minwidth),
+        var(--custom-maxwidth)
+      ) *
+      100%
+  );
+  height: 4px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "progress" (function-no-unknown)',
+                        "    progress(",
+                        "6:5 - 6:13",
+                        `/en-US/docs/Web/CSS/progress
+[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
+~~~
+.background {
+  position: absolute;
+  inset: 0;
+  background-image: url(https://mdn.github.io/shared-assets/images/examples/wide-background.jpg);
+  background-position-x: calc(
+    progress(
+        var(--container-width),
+        var(--custom-minwidth),
+        var(--custom-maxwidth)
+      ) *
+      100%
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-url-quotes",
+                        'Expected quotes around "url" function argument (function-url-quotes)',
+                        "  background-image: url(https://mdn.github.io/shared-assets/images/examples/wide-background.jpg);",
+                        "4:25 - 4:96",
+                        `/en-US/docs/Web/CSS/progress
+[function-url-quotes] Expected quotes around "url" function argument (function-url-quotes)
+~~~
+.background {
+  position: absolute;
+  inset: 0;
+  background-image: url(https://mdn.github.io/shared-assets/images/examples/wide-background.jpg);
+  background-position-x: calc(
+    progress(
+        var(--container-width),
+        var(--custom-minwidth),
+        var(--custom-maxwidth)
+      ) *
+      100%
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "progress" (function-no-unknown)',
+                        "          progress(",
+                        "8:11 - 8:19",
+                        `/en-US/docs/Web/CSS/progress
+[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
+~~~
+.content {
+  position: absolute;
+  inset: 0;
+  padding: 20px;
+  background-color: rgb(
+    calc(
+        255 *
+          progress(
+            var(--container-width),
+            var(--custom-minwidth),
+            var(--custom-maxwidth)
+          )
+      )
+      calc(
+        255 *
+          progress(
+            var(--container-width),
+            var(--custom-minwidth),
+            var(--custom-maxwidth)
+          )
+      )
+      255 / 0.5
+  );
+  opacity: calc(
+    (
+        progress(
+            var(--container-width),
+            var(--custom-minwidth),
+            var(--custom-maxwidth)
+          ) /
+          2
+      ) +
+      0.5
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "progress" (function-no-unknown)',
+                        "          progress(",
+                        "16:11 - 16:19",
+                        `/en-US/docs/Web/CSS/progress
+[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
+~~~
+.content {
+  position: absolute;
+  inset: 0;
+  padding: 20px;
+  background-color: rgb(
+    calc(
+        255 *
+          progress(
+            var(--container-width),
+            var(--custom-minwidth),
+            var(--custom-maxwidth)
+          )
+      )
+      calc(
+        255 *
+          progress(
+            var(--container-width),
+            var(--custom-minwidth),
+            var(--custom-maxwidth)
+          )
+      )
+      255 / 0.5
+  );
+  opacity: calc(
+    (
+        progress(
+            var(--container-width),
+            var(--custom-minwidth),
+            var(--custom-maxwidth)
+          ) /
+          2
+      ) +
+      0.5
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "progress" (function-no-unknown)',
+                        "        progress(",
+                        "26:9 - 26:17",
+                        `/en-US/docs/Web/CSS/progress
+[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
+~~~
+.content {
+  position: absolute;
+  inset: 0;
+  padding: 20px;
+  background-color: rgb(
+    calc(
+        255 *
+          progress(
+            var(--container-width),
+            var(--custom-minwidth),
+            var(--custom-maxwidth)
+          )
+      )
+      calc(
+        255 *
+          progress(
+            var(--container-width),
+            var(--custom-minwidth),
+            var(--custom-maxwidth)
+          )
+      )
+      255 / 0.5
+  );
+  opacity: calc(
+    (
+        progress(
+            var(--container-width),
+            var(--custom-minwidth),
+            var(--custom-maxwidth)
+          ) /
+          2
+      ) +
+      0.5
+  );
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "function-no-unknown",
+                        'Unexpected unknown function "progress" (function-no-unknown)',
+                        "    progress(",
+                        "28:5 - 28:13",
+                        `/en-US/docs/Web/CSS/progress
+[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
+~~~
+html {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body,
+section {
+  height: inherit;
+}
+
+section {
+  --custom-minwidth: 300px;
+  --custom-maxwidth: 700px;
+  --custom-width: 600px;
+
+  min-width: var(--custom-minwidth);
+  max-width: var(--custom-maxwidth);
+  width: var(--custom-width);
+
+  background-color: cyan;
+}
+
+.progress {
+  height: 4px;
+  background-color: red;
+
+  width: calc(
+    progress(
+        var(--custom-width),
+        var(--custom-minwidth),
+        var(--custom-maxwidth)
+      ) *
+      100%
+  );
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 properties: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/Properties",
@@ -99599,23 +100093,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
-                    content_negotiation: {
-                      children: {
-                        list_of_default_accept_values: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Guides/Content_negotiation/List_of_default_Accept_values",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://kb.mozillazine.org/Network.http.accept.default",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     cors: {
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/CORS",
@@ -99700,6 +100177,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -99833,31 +100323,6 @@ h2 {
                           ]
                         }
                       ]
-                    },
-                    grammar_and_types: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Grammar_and_types",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-use-before-define",
-                            "'y' was used before it was defined.",
-                            "console.log(y); // ReferenceError",
-                            "4:13 - 4:14",
-                            `/en-US/docs/Web/JavaScript/Guide/Grammar_and_types
-[no-use-before-define] 'y' was used before it was defined.
-~~~
-console.log(x); // ReferenceError
-const x = 3;
-
-console.log(y); // ReferenceError
-let y = 3;
-~~~
-`
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/JavaScript/Guide",
@@ -99887,128 +100352,6 @@ let y = 3;
                                   message: "Not in BCD",
                                   data: [
                                     "javascript.builtins.AsyncGeneratorFunction.prototype"
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        error: {
-                          children: {
-                            stacktracelimit: {
-                              children: {},
-                              slug: "/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/stackTraceLimit",
-                              messages: [
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "no-use-before-define",
-                                    "'b' was used before it was defined.",
-                                    "const a = () => b();",
-                                    "2:17 - 2:18",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/stackTraceLimit
-[no-use-before-define] 'b' was used before it was defined.
-~~~
-Error.stackTraceLimit = 2;
-const a = () => b();
-const b = () => c();
-const c = () => d();
-const d = () => e();
-const e = () => {
-  throw new Error("My error");
-};
-try {
-  a();
-} catch (e) {
-  console.log(e.stack);
-}
-// Only two frames in supporting engines; all frames in others
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "no-use-before-define",
-                                    "'c' was used before it was defined.",
-                                    "const b = () => c();",
-                                    "3:17 - 3:18",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/stackTraceLimit
-[no-use-before-define] 'c' was used before it was defined.
-~~~
-Error.stackTraceLimit = 2;
-const a = () => b();
-const b = () => c();
-const c = () => d();
-const d = () => e();
-const e = () => {
-  throw new Error("My error");
-};
-try {
-  a();
-} catch (e) {
-  console.log(e.stack);
-}
-// Only two frames in supporting engines; all frames in others
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "no-use-before-define",
-                                    "'d' was used before it was defined.",
-                                    "const c = () => d();",
-                                    "4:17 - 4:18",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/stackTraceLimit
-[no-use-before-define] 'd' was used before it was defined.
-~~~
-Error.stackTraceLimit = 2;
-const a = () => b();
-const b = () => c();
-const c = () => d();
-const d = () => e();
-const e = () => {
-  throw new Error("My error");
-};
-try {
-  a();
-} catch (e) {
-  console.log(e.stack);
-}
-// Only two frames in supporting engines; all frames in others
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "JS code issue",
-                                  data: [
-                                    "no-use-before-define",
-                                    "'e' was used before it was defined.",
-                                    "const d = () => e();",
-                                    "5:17 - 5:18",
-                                    `/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error/stackTraceLimit
-[no-use-before-define] 'e' was used before it was defined.
-~~~
-Error.stackTraceLimit = 2;
-const a = () => b();
-const b = () => c();
-const c = () => d();
-const d = () => e();
-const e = () => {
-  throw new Error("My error");
-};
-try {
-  a();
-} catch (e) {
-  console.log(e.stack);
-}
-// Only two frames in supporting engines; all frames in others
-~~~
-`
                                   ]
                                 }
                               ]
@@ -100151,29 +100494,6 @@ const { prop1: x, prop2: y, prop3: z } = obj;
                               message: "JS code issue",
                               data: [
                                 "no-use-before-define",
-                                "'x' was used before it was defined.",
-                                "const obj = { prop1: x, prop2: y, prop3: z };",
-                                "6:22 - 6:23",
-                                `/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring
-[no-use-before-define] 'x' was used before it was defined.
-~~~
-const obj = { a, b, c };
-const { a, b, c } = obj;
-// Equivalent to:
-// const a = obj.a, b = obj.b, c = obj.c;
-
-const obj = { prop1: x, prop2: y, prop3: z };
-const { prop1: x, prop2: y, prop3: z } = obj;
-// Equivalent to:
-// const x = obj.prop1, y = obj.prop2, z = obj.prop3;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
                                 "'y' was used before it was defined.",
                                 "const obj = { prop1: x, prop2: y, prop3: z };",
                                 "6:32 - 6:33",
@@ -100217,154 +100537,11 @@ const { prop1: x, prop2: y, prop3: z } = obj;
                               ]
                             }
                           ]
-                        },
-                        function: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/function",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'notHoisted' was used before it was defined.",
-                                "console.log(notHoisted); // undefined",
-                                "1:13 - 1:23",
-                                `/en-US/docs/Web/JavaScript/Reference/Operators/function
-[no-use-before-define] 'notHoisted' was used before it was defined.
-~~~
-console.log(notHoisted); // undefined
-// Even though the variable name is hoisted,
-// the definition isn't. so it's undefined.
-notHoisted(); // TypeError: notHoisted is not a function
-
-var notHoisted = function () {
-  console.log("bar");
-};
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'notHoisted' was used before it was defined.",
-                                "notHoisted(); // TypeError: notHoisted is not a function",
-                                "4:1 - 4:11",
-                                `/en-US/docs/Web/JavaScript/Reference/Operators/function
-[no-use-before-define] 'notHoisted' was used before it was defined.
-~~~
-console.log(notHoisted); // undefined
-// Even though the variable name is hoisted,
-// the definition isn't. so it's undefined.
-notHoisted(); // TypeError: notHoisted is not a function
-
-var notHoisted = function () {
-  console.log("bar");
-};
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        typeof: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/typeof",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'newLetVariable' was used before it was defined.",
-                                "typeof newLetVariable; // ReferenceError",
-                                "1:8 - 1:22",
-                                `/en-US/docs/Web/JavaScript/Reference/Operators/typeof
-[no-use-before-define] 'newLetVariable' was used before it was defined.
-~~~
-typeof newLetVariable; // ReferenceError
-typeof newConstVariable; // ReferenceError
-typeof newClass; // ReferenceError
-
-let newLetVariable;
-const newConstVariable = "hello";
-class newClass {}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'newConstVariable' was used before it was defined.",
-                                "typeof newConstVariable; // ReferenceError",
-                                "2:8 - 2:24",
-                                `/en-US/docs/Web/JavaScript/Reference/Operators/typeof
-[no-use-before-define] 'newConstVariable' was used before it was defined.
-~~~
-typeof newLetVariable; // ReferenceError
-typeof newConstVariable; // ReferenceError
-typeof newClass; // ReferenceError
-
-let newLetVariable;
-const newConstVariable = "hello";
-class newClass {}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'newClass' was used before it was defined.",
-                                "typeof newClass; // ReferenceError",
-                                "3:8 - 3:16",
-                                `/en-US/docs/Web/JavaScript/Reference/Operators/typeof
-[no-use-before-define] 'newClass' was used before it was defined.
-~~~
-typeof newLetVariable; // ReferenceError
-typeof newConstVariable; // ReferenceError
-typeof newClass; // ReferenceError
-
-let newLetVariable;
-const newConstVariable = "hello";
-class newClass {}
-~~~
-`
-                              ]
-                            }
-                          ]
                         }
                       }
                     },
                     statements: {
                       children: {
-                        export: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/export",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'x' was used before it was defined.",
-                                "export { x };",
-                                "1:10 - 1:11",
-                                `/en-US/docs/Web/JavaScript/Reference/Statements/export
-[no-use-before-define] 'x' was used before it was defined.
-~~~
-export { x };
-const x = 1;
-// This works, because \`export\` is only a declaration, but doesn't
-// utilize the value of \`x\`.
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         expression_statement: {
                           children: {},
                           slug: "/en-US/docs/Web/JavaScript/Reference/Statements/Expression_statement",
@@ -100376,335 +100553,8 @@ const x = 1;
                               ]
                             }
                           ]
-                        },
-                        function: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/function",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'notHoisted' was used before it was defined.",
-                                "notHoisted(); // TypeError: notHoisted is not a function",
-                                "1:1 - 1:11",
-                                `/en-US/docs/Web/JavaScript/Reference/Statements/function
-[no-use-before-define] 'notHoisted' was used before it was defined.
-~~~
-notHoisted(); // TypeError: notHoisted is not a function
-
-var notHoisted = function () {
-  console.log("bar");
-};
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        import: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/import",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'myModule' was used before it was defined.",
-                                "myModule.doAllTheAmazingThings(); // myModule.doAllTheAmazingThings is imported by the next line",
-                                "1:1 - 1:9",
-                                `/en-US/docs/Web/JavaScript/Reference/Statements/import
-[no-use-before-define] 'myModule' was used before it was defined.
-~~~
-myModule.doAllTheAmazingThings(); // myModule.doAllTheAmazingThings is imported by the next line
-
-import * as myModule from "/modules/my-module.js";
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        let: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/let",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'bar' was used before it was defined.",
-                                '  console.log(bar); // "undefined"',
-                                "3:15 - 3:18",
-                                `/en-US/docs/Web/JavaScript/Reference/Statements/let
-[no-use-before-define] 'bar' was used before it was defined.
-~~~
-{
-  // TDZ starts at beginning of scope
-  console.log(bar); // "undefined"
-  console.log(foo); // ReferenceError: Cannot access 'foo' before initialization
-  var bar = 1;
-  let foo = 2; // End of TDZ (for foo)
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'foo' was used before it was defined.",
-                                "  console.log(foo); // ReferenceError: Cannot access 'foo' before initialization",
-                                "4:15 - 4:18",
-                                `/en-US/docs/Web/JavaScript/Reference/Statements/let
-[no-use-before-define] 'foo' was used before it was defined.
-~~~
-{
-  // TDZ starts at beginning of scope
-  console.log(bar); // "undefined"
-  console.log(foo); // ReferenceError: Cannot access 'foo' before initialization
-  var bar = 1;
-  let foo = 2; // End of TDZ (for foo)
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'letVar' was used before it was defined.",
-                                "  const func = () => console.log(letVar); // OK",
-                                "3:34 - 3:40",
-                                `/en-US/docs/Web/JavaScript/Reference/Statements/let
-[no-use-before-define] 'letVar' was used before it was defined.
-~~~
-{
-  // TDZ starts at beginning of scope
-  const func = () => console.log(letVar); // OK
-
-  // Within the TDZ letVar access throws \`ReferenceError\`
-
-  let letVar = 3; // End of TDZ (for letVar)
-  func(); // Called outside TDZ!
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'i' was used before it was defined.",
-                                "  typeof i; // ReferenceError: Cannot access 'i' before initialization",
-                                "2:10 - 2:11",
-                                `/en-US/docs/Web/JavaScript/Reference/Statements/let
-[no-use-before-define] 'i' was used before it was defined.
-~~~
-{
-  typeof i; // ReferenceError: Cannot access 'i' before initialization
-  let i = 10;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'foo' was used before it was defined.",
-                                "    let foo = foo + 55; // ReferenceError",
-                                "4:15 - 4:18",
-                                `/en-US/docs/Web/JavaScript/Reference/Statements/let
-[no-use-before-define] 'foo' was used before it was defined.
-~~~
-function test() {
-  var foo = 33;
-  if (foo) {
-    let foo = foo + 55; // ReferenceError
-  }
-}
-test();
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'n' was used before it was defined.",
-                                "  for (let n of n.a) {",
-                                "5:17 - 5:18",
-                                `/en-US/docs/Web/JavaScript/Reference/Statements/let
-[no-use-before-define] 'n' was used before it was defined.
-~~~
-function go(n) {
-  // n here is defined!
-  console.log(n); // { a: [1, 2, 3] }
-
-  for (let n of n.a) {
-    //          ^ ReferenceError
-    console.log(n);
-  }
-}
-
-go({ a: [1, 2, 3] });
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        using: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/using",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'resource' was used before it was defined.",
-                                "  useResource = () => resource.getValue();",
-                                "3:23 - 3:31",
-                                `/en-US/docs/Web/JavaScript/Reference/Statements/using
-[no-use-before-define] 'resource' was used before it was defined.
-~~~
-let useResource;
-{
-  useResource = () => resource.getValue();
-  useResource(); // Error: Cannot access 'resource' before initialization
-  using resource = new Resource();
-  useResource(); // Valid
-}
-useResource(); // Error: Resource is disposed
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        var: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Statements/var",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'bla' was used before it was defined.",
-                                "bla = 2;",
-                                "1:1 - 1:4",
-                                `/en-US/docs/Web/JavaScript/Reference/Statements/var
-[no-use-before-define] 'bla' was used before it was defined.
-~~~
-bla = 2;
-var bla;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'bar' was used before it was defined.",
-                                "  console.log(bar); // undefined",
-                                "2:15 - 2:18",
-                                `/en-US/docs/Web/JavaScript/Reference/Statements/var
-[no-use-before-define] 'bar' was used before it was defined.
-~~~
-function doSomething() {
-  console.log(bar); // undefined
-  var bar = 111;
-  console.log(bar); // 111
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'y' was used before it was defined.",
-                                "var x = y,",
-                                "1:9 - 1:10",
-                                `/en-US/docs/Web/JavaScript/Reference/Statements/var
-[no-use-before-define] 'y' was used before it was defined.
-~~~
-var x = y,
-  y = "A";
-console.log(x, y); // undefined A
-~~~
-`
-                              ]
-                            }
-                          ]
                         }
                       }
-                    },
-                    strict_mode: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/Strict_mode",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-use-before-define",
-                            "'eval' was used before it was defined.",
-                            "eval = 17;",
-                            "2:1 - 2:5",
-                            `/en-US/docs/Web/JavaScript/Reference/Strict_mode
-[no-use-before-define] 'eval' was used before it was defined.
-~~~
-"use strict";
-eval = 17;
-arguments++;
-++eval;
-const obj = { set p(arguments) {} };
-let eval;
-try {
-} catch (arguments) {}
-function x(eval) {}
-function arguments() {}
-const y = function eval() {};
-const f = new Function("arguments", "'use strict'; return 17;");
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-use-before-define",
-                            "'eval' was used before it was defined.",
-                            "++eval;",
-                            "4:3 - 4:7",
-                            `/en-US/docs/Web/JavaScript/Reference/Strict_mode
-[no-use-before-define] 'eval' was used before it was defined.
-~~~
-"use strict";
-eval = 17;
-arguments++;
-++eval;
-const obj = { set p(arguments) {} };
-let eval;
-try {
-} catch (arguments) {}
-function x(eval) {}
-function arguments() {}
-const y = function eval() {};
-const f = new Function("arguments", "'use strict'; return 17;");
-~~~
-`
-                          ]
-                        }
-                      ]
                     }
                   }
                 }
@@ -100999,6 +100849,13 @@ const f = new Function("arguments", "'use strict'; return 17;");
                     {
                       message: "Unreachable via page",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://wiki.owasp.org/index.php/Secure_Coding_Principles",
+                        500
+                      ]
                     }
                   ]
                 },
