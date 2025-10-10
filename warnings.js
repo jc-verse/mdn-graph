@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-zx24psdp.js";
+} from "./chunk-p2mfa7cz.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -23,6 +23,19 @@ var warnings_processed_default = {
             },
             techniques: {
               children: {
+                "2d_collision_detection": {
+                  children: {},
+                  slug: "/en-US/docs/Games/Techniques/2D_collision_detection",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.sevenson.com.au/programming/sat/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 "3d_on_the_web": {
                   children: {
                     glsl_shaders: {
@@ -982,16 +995,6 @@ div.warning {
             idl: {
               children: {},
               slug: "/en-US/docs/Glossary/IDL",
-              messages: [
-                {
-                  message: "Unreachable via page",
-                  data: []
-                }
-              ]
-            },
-            inheritance: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Inheritance",
               messages: [
                 {
                   message: "Unreachable via page",
@@ -3622,2820 +3625,6 @@ article {
                         }
                       ]
                     },
-                    "mobile-first_challenge": {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Mobile-first_challenge",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  background-color: #fff;",
-                            "8:21 - 8:25",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Mobile-first_challenge
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-  color: #333;
-  margin: 0;
-  font: 1.2em / 1.6 sans-serif;
-  padding: 0 20px 20px 20px;
-}
-
-img {
-  display: block;
-  border: 1px solid black;
-}
-
-/* Mobile layout */
-
-header {
-  padding: 50px 0;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 200%;
-}
-
-button {
-  font-size: 250%;
-  border: 0;
-  background: none;
-  cursor: pointer;
-}
-
-button:hover,
-button:focus {
-  text-shadow: 0 0 2px black;
-}
-
-nav {
-  position: fixed;
-  inset: 10%;
-  background-color: #fff;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  height: 100%;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-
-nav li {
-  flex: 1;
-}
-
-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 150%;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover,
-nav a:focus {
-  font-weight: bold;
-}
-
-.photos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.feature {
-  width: 200px;
-  float: left;
-  margin: 8px 30px 20px 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  color: #333;",
-                            "9:10 - 9:14",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Mobile-first_challenge
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-  color: #333;
-  margin: 0;
-  font: 1.2em / 1.6 sans-serif;
-  padding: 0 20px 20px 20px;
-}
-
-img {
-  display: block;
-  border: 1px solid black;
-}
-
-/* Mobile layout */
-
-header {
-  padding: 50px 0;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 200%;
-}
-
-button {
-  font-size: 250%;
-  border: 0;
-  background: none;
-  cursor: pointer;
-}
-
-button:hover,
-button:focus {
-  text-shadow: 0 0 2px black;
-}
-
-nav {
-  position: fixed;
-  inset: 10%;
-  background-color: #fff;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  height: 100%;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-
-nav li {
-  flex: 1;
-}
-
-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 150%;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover,
-nav a:focus {
-  font-weight: bold;
-}
-
-.photos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.feature {
-  width: 200px;
-  float: left;
-  margin: 8px 30px 20px 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  background-color: #fff;",
-                            "49:21 - 49:25",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Mobile-first_challenge
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-  color: #333;
-  margin: 0;
-  font: 1.2em / 1.6 sans-serif;
-  padding: 0 20px 20px 20px;
-}
-
-img {
-  display: block;
-  border: 1px solid black;
-}
-
-/* Mobile layout */
-
-header {
-  padding: 50px 0;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 200%;
-}
-
-button {
-  font-size: 250%;
-  border: 0;
-  background: none;
-  cursor: pointer;
-}
-
-button:hover,
-button:focus {
-  text-shadow: 0 0 2px black;
-}
-
-nav {
-  position: fixed;
-  inset: 10%;
-  background-color: #fff;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  height: 100%;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-
-nav li {
-  flex: 1;
-}
-
-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 150%;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover,
-nav a:focus {
-  font-weight: bold;
-}
-
-.photos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.feature {
-  width: 200px;
-  float: left;
-  margin: 8px 30px 20px 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#000" to be "#000000" (color-hex-length)',
-                            "  background-color: #000;",
-                            "75:21 - 75:25",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Mobile-first_challenge
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-  color: #333;
-  margin: 0;
-  font: 1.2em / 1.6 sans-serif;
-  padding: 0 20px 20px 20px;
-}
-
-img {
-  display: block;
-  border: 1px solid black;
-}
-
-/* Mobile layout */
-
-header {
-  padding: 50px 0;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 200%;
-}
-
-button {
-  font-size: 250%;
-  border: 0;
-  background: none;
-  cursor: pointer;
-}
-
-button:hover,
-button:focus {
-  text-shadow: 0 0 2px black;
-}
-
-nav {
-  position: fixed;
-  inset: 10%;
-  background-color: #fff;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  height: 100%;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-
-nav li {
-  flex: 1;
-}
-
-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 150%;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover,
-nav a:focus {
-  font-weight: bold;
-}
-
-.photos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.feature {
-  width: 200px;
-  float: left;
-  margin: 8px 30px 20px 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "76:10 - 76:14",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Mobile-first_challenge
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-  color: #333;
-  margin: 0;
-  font: 1.2em / 1.6 sans-serif;
-  padding: 0 20px 20px 20px;
-}
-
-img {
-  display: block;
-  border: 1px solid black;
-}
-
-/* Mobile layout */
-
-header {
-  padding: 50px 0;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 200%;
-}
-
-button {
-  font-size: 250%;
-  border: 0;
-  background: none;
-  cursor: pointer;
-}
-
-button:hover,
-button:focus {
-  text-shadow: 0 0 2px black;
-}
-
-nav {
-  position: fixed;
-  inset: 10%;
-  background-color: #fff;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  height: 100%;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-
-nav li {
-  flex: 1;
-}
-
-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 150%;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover,
-nav a:focus {
-  font-weight: bold;
-}
-
-.photos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.feature {
-  width: 200px;
-  float: left;
-  margin: 8px 30px 20px 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  background-color: #fff;",
-                            "8:21 - 8:25",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Mobile-first_challenge
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-  color: #333;
-  margin: 0;
-  font: 1.2em / 1.6 sans-serif;
-  padding: 0 20px 20px 20px;
-}
-
-img {
-  display: block;
-  border: 1px solid black;
-}
-
-/* Mobile layout */
-
-header {
-  padding: 50px 0;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 200%;
-}
-
-button {
-  font-size: 250%;
-  border: 0;
-  background: none;
-  cursor: pointer;
-}
-
-button:hover,
-button:focus {
-  text-shadow: 0 0 2px black;
-}
-
-nav {
-  position: fixed;
-  inset: 10%;
-  background-color: #fff;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  height: 100%;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-
-nav li {
-  flex: 1;
-}
-
-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 150%;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover,
-nav a:focus {
-  font-weight: bold;
-}
-
-.photos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.feature {
-  width: 200px;
-  float: left;
-  margin: 8px 30px 20px 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  background-color: #fff;",
-                            "49:21 - 49:25",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Mobile-first_challenge
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-  color: #333;
-  margin: 0;
-  font: 1.2em / 1.6 sans-serif;
-  padding: 0 20px 20px 20px;
-}
-
-img {
-  display: block;
-  border: 1px solid black;
-}
-
-/* Mobile layout */
-
-header {
-  padding: 50px 0;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 200%;
-}
-
-button {
-  font-size: 250%;
-  border: 0;
-  background: none;
-  cursor: pointer;
-}
-
-button:hover,
-button:focus {
-  text-shadow: 0 0 2px black;
-}
-
-nav {
-  position: fixed;
-  inset: 10%;
-  background-color: #fff;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  height: 100%;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-
-nav li {
-  flex: 1;
-}
-
-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 150%;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover,
-nav a:focus {
-  font-weight: bold;
-}
-
-.photos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.feature {
-  width: 200px;
-  float: left;
-  margin: 8px 30px 20px 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#000" to be "black" (color-named)',
-                            "  background-color: #000;",
-                            "75:21 - 75:25",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Mobile-first_challenge
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-  color: #333;
-  margin: 0;
-  font: 1.2em / 1.6 sans-serif;
-  padding: 0 20px 20px 20px;
-}
-
-img {
-  display: block;
-  border: 1px solid black;
-}
-
-/* Mobile layout */
-
-header {
-  padding: 50px 0;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 200%;
-}
-
-button {
-  font-size: 250%;
-  border: 0;
-  background: none;
-  cursor: pointer;
-}
-
-button:hover,
-button:focus {
-  text-shadow: 0 0 2px black;
-}
-
-nav {
-  position: fixed;
-  inset: 10%;
-  background-color: #fff;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  height: 100%;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-
-nav li {
-  flex: 1;
-}
-
-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 150%;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover,
-nav a:focus {
-  font-weight: bold;
-}
-
-.photos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.feature {
-  width: 200px;
-  float: left;
-  margin: 8px 30px 20px 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "76:10 - 76:14",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Mobile-first_challenge
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-  color: #333;
-  margin: 0;
-  font: 1.2em / 1.6 sans-serif;
-  padding: 0 20px 20px 20px;
-}
-
-img {
-  display: block;
-  border: 1px solid black;
-}
-
-/* Mobile layout */
-
-header {
-  padding: 50px 0;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 200%;
-}
-
-button {
-  font-size: 250%;
-  border: 0;
-  background: none;
-  cursor: pointer;
-}
-
-button:hover,
-button:focus {
-  text-shadow: 0 0 2px black;
-}
-
-nav {
-  position: fixed;
-  inset: 10%;
-  background-color: #fff;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  height: 100%;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-
-nav li {
-  flex: 1;
-}
-
-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 150%;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover,
-nav a:focus {
-  font-weight: bold;
-}
-
-.photos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.feature {
-  width: 200px;
-  float: left;
-  margin: 8px 30px 20px 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  background-color: #fff;",
-                            "8:21 - 8:25",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Mobile-first_challenge
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-  color: #333;
-  margin: 0;
-  font: 1.2em / 1.6 sans-serif;
-  padding: 0 20px 20px 20px;
-}
-
-img {
-  display: block;
-  border: 1px solid black;
-  /* 1. Constrain the photograph images inside their containers */
-  max-width: 100%;
-}
-
-/* Mobile layout */
-
-header {
-  padding: 50px 0;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 200%;
-}
-
-button {
-  font-size: 250%;
-  border: 0;
-  background: none;
-  cursor: pointer;
-}
-
-button:hover,
-button:focus {
-  text-shadow: 0 0 2px black;
-}
-
-nav {
-  position: fixed;
-  inset: 10%;
-  background-color: #fff;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  height: 100%;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-
-nav li {
-  flex: 1;
-}
-
-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 150%;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover,
-nav a:focus {
-  font-weight: bold;
-}
-
-.photos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.feature {
-  width: 200px;
-  float: left;
-  margin: 8px 30px 20px 0;
-}
-
-/* 2. Middle breakpoint: 800px */
-
-@media (width > 800px) {
-  /* Sort out navigation styling for middle breakpoint */
-  button {
-    display: none;
-  }
-
-  nav {
-    display: block;
-    inset: unset;
-    position: sticky;
-    top: 0;
-  }
-
-  nav ul {
-    flex-direction: row;
-  }
-
-  nav a {
-    font-size: 100%;
-    padding: 10px 0;
-  }
-
-  /* Create grid layout for middle breakpoint */
-
-  nav {
-    grid-area: nav;
-  }
-
-  article {
-    grid-area: main;
-  }
-
-  aside {
-    grid-area: photos;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas:
-      "nav nav"
-      "main photos";
-    gap: 20px;
-  }
-}
-
-/* 3. Wide breakpoint: 1300px */
-
-@media (width > 1300px) {
-  .grid {
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-areas: "nav main photos";
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav li {
-    flex: unset;
-  }
-}
-
-/* 4. Responsive typography */
-
-h1 {
-  font-size: calc(1.3rem + 3vw);
-  margin: 0;
-}
-
-h2 {
-  font-size: calc(1rem + 2vw);
-  margin: 0;
-}
-
-/* 5. Remove navigation elements when printing */
-
-@media print {
-  nav,
-  button {
-    display: none;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#333" to be "#333333" (color-hex-length)',
-                            "  color: #333;",
-                            "9:10 - 9:14",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Mobile-first_challenge
-[color-hex-length] Expected "#333" to be "#333333" (color-hex-length)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-  color: #333;
-  margin: 0;
-  font: 1.2em / 1.6 sans-serif;
-  padding: 0 20px 20px 20px;
-}
-
-img {
-  display: block;
-  border: 1px solid black;
-  /* 1. Constrain the photograph images inside their containers */
-  max-width: 100%;
-}
-
-/* Mobile layout */
-
-header {
-  padding: 50px 0;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 200%;
-}
-
-button {
-  font-size: 250%;
-  border: 0;
-  background: none;
-  cursor: pointer;
-}
-
-button:hover,
-button:focus {
-  text-shadow: 0 0 2px black;
-}
-
-nav {
-  position: fixed;
-  inset: 10%;
-  background-color: #fff;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  height: 100%;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-
-nav li {
-  flex: 1;
-}
-
-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 150%;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover,
-nav a:focus {
-  font-weight: bold;
-}
-
-.photos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.feature {
-  width: 200px;
-  float: left;
-  margin: 8px 30px 20px 0;
-}
-
-/* 2. Middle breakpoint: 800px */
-
-@media (width > 800px) {
-  /* Sort out navigation styling for middle breakpoint */
-  button {
-    display: none;
-  }
-
-  nav {
-    display: block;
-    inset: unset;
-    position: sticky;
-    top: 0;
-  }
-
-  nav ul {
-    flex-direction: row;
-  }
-
-  nav a {
-    font-size: 100%;
-    padding: 10px 0;
-  }
-
-  /* Create grid layout for middle breakpoint */
-
-  nav {
-    grid-area: nav;
-  }
-
-  article {
-    grid-area: main;
-  }
-
-  aside {
-    grid-area: photos;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas:
-      "nav nav"
-      "main photos";
-    gap: 20px;
-  }
-}
-
-/* 3. Wide breakpoint: 1300px */
-
-@media (width > 1300px) {
-  .grid {
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-areas: "nav main photos";
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav li {
-    flex: unset;
-  }
-}
-
-/* 4. Responsive typography */
-
-h1 {
-  font-size: calc(1.3rem + 3vw);
-  margin: 0;
-}
-
-h2 {
-  font-size: calc(1rem + 2vw);
-  margin: 0;
-}
-
-/* 5. Remove navigation elements when printing */
-
-@media print {
-  nav,
-  button {
-    display: none;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  background-color: #fff;",
-                            "51:21 - 51:25",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Mobile-first_challenge
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-  color: #333;
-  margin: 0;
-  font: 1.2em / 1.6 sans-serif;
-  padding: 0 20px 20px 20px;
-}
-
-img {
-  display: block;
-  border: 1px solid black;
-  /* 1. Constrain the photograph images inside their containers */
-  max-width: 100%;
-}
-
-/* Mobile layout */
-
-header {
-  padding: 50px 0;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 200%;
-}
-
-button {
-  font-size: 250%;
-  border: 0;
-  background: none;
-  cursor: pointer;
-}
-
-button:hover,
-button:focus {
-  text-shadow: 0 0 2px black;
-}
-
-nav {
-  position: fixed;
-  inset: 10%;
-  background-color: #fff;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  height: 100%;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-
-nav li {
-  flex: 1;
-}
-
-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 150%;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover,
-nav a:focus {
-  font-weight: bold;
-}
-
-.photos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.feature {
-  width: 200px;
-  float: left;
-  margin: 8px 30px 20px 0;
-}
-
-/* 2. Middle breakpoint: 800px */
-
-@media (width > 800px) {
-  /* Sort out navigation styling for middle breakpoint */
-  button {
-    display: none;
-  }
-
-  nav {
-    display: block;
-    inset: unset;
-    position: sticky;
-    top: 0;
-  }
-
-  nav ul {
-    flex-direction: row;
-  }
-
-  nav a {
-    font-size: 100%;
-    padding: 10px 0;
-  }
-
-  /* Create grid layout for middle breakpoint */
-
-  nav {
-    grid-area: nav;
-  }
-
-  article {
-    grid-area: main;
-  }
-
-  aside {
-    grid-area: photos;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas:
-      "nav nav"
-      "main photos";
-    gap: 20px;
-  }
-}
-
-/* 3. Wide breakpoint: 1300px */
-
-@media (width > 1300px) {
-  .grid {
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-areas: "nav main photos";
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav li {
-    flex: unset;
-  }
-}
-
-/* 4. Responsive typography */
-
-h1 {
-  font-size: calc(1.3rem + 3vw);
-  margin: 0;
-}
-
-h2 {
-  font-size: calc(1rem + 2vw);
-  margin: 0;
-}
-
-/* 5. Remove navigation elements when printing */
-
-@media print {
-  nav,
-  button {
-    display: none;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#000" to be "#000000" (color-hex-length)',
-                            "  background-color: #000;",
-                            "77:21 - 77:25",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Mobile-first_challenge
-[color-hex-length] Expected "#000" to be "#000000" (color-hex-length)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-  color: #333;
-  margin: 0;
-  font: 1.2em / 1.6 sans-serif;
-  padding: 0 20px 20px 20px;
-}
-
-img {
-  display: block;
-  border: 1px solid black;
-  /* 1. Constrain the photograph images inside their containers */
-  max-width: 100%;
-}
-
-/* Mobile layout */
-
-header {
-  padding: 50px 0;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 200%;
-}
-
-button {
-  font-size: 250%;
-  border: 0;
-  background: none;
-  cursor: pointer;
-}
-
-button:hover,
-button:focus {
-  text-shadow: 0 0 2px black;
-}
-
-nav {
-  position: fixed;
-  inset: 10%;
-  background-color: #fff;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  height: 100%;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-
-nav li {
-  flex: 1;
-}
-
-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 150%;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover,
-nav a:focus {
-  font-weight: bold;
-}
-
-.photos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.feature {
-  width: 200px;
-  float: left;
-  margin: 8px 30px 20px 0;
-}
-
-/* 2. Middle breakpoint: 800px */
-
-@media (width > 800px) {
-  /* Sort out navigation styling for middle breakpoint */
-  button {
-    display: none;
-  }
-
-  nav {
-    display: block;
-    inset: unset;
-    position: sticky;
-    top: 0;
-  }
-
-  nav ul {
-    flex-direction: row;
-  }
-
-  nav a {
-    font-size: 100%;
-    padding: 10px 0;
-  }
-
-  /* Create grid layout for middle breakpoint */
-
-  nav {
-    grid-area: nav;
-  }
-
-  article {
-    grid-area: main;
-  }
-
-  aside {
-    grid-area: photos;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas:
-      "nav nav"
-      "main photos";
-    gap: 20px;
-  }
-}
-
-/* 3. Wide breakpoint: 1300px */
-
-@media (width > 1300px) {
-  .grid {
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-areas: "nav main photos";
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav li {
-    flex: unset;
-  }
-}
-
-/* 4. Responsive typography */
-
-h1 {
-  font-size: calc(1.3rem + 3vw);
-  margin: 0;
-}
-
-h2 {
-  font-size: calc(1rem + 2vw);
-  margin: 0;
-}
-
-/* 5. Remove navigation elements when printing */
-
-@media print {
-  nav,
-  button {
-    display: none;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#fff" to be "#ffffff" (color-hex-length)',
-                            "  color: #fff;",
-                            "78:10 - 78:14",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Mobile-first_challenge
-[color-hex-length] Expected "#fff" to be "#ffffff" (color-hex-length)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-  color: #333;
-  margin: 0;
-  font: 1.2em / 1.6 sans-serif;
-  padding: 0 20px 20px 20px;
-}
-
-img {
-  display: block;
-  border: 1px solid black;
-  /* 1. Constrain the photograph images inside their containers */
-  max-width: 100%;
-}
-
-/* Mobile layout */
-
-header {
-  padding: 50px 0;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 200%;
-}
-
-button {
-  font-size: 250%;
-  border: 0;
-  background: none;
-  cursor: pointer;
-}
-
-button:hover,
-button:focus {
-  text-shadow: 0 0 2px black;
-}
-
-nav {
-  position: fixed;
-  inset: 10%;
-  background-color: #fff;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  height: 100%;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-
-nav li {
-  flex: 1;
-}
-
-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 150%;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover,
-nav a:focus {
-  font-weight: bold;
-}
-
-.photos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.feature {
-  width: 200px;
-  float: left;
-  margin: 8px 30px 20px 0;
-}
-
-/* 2. Middle breakpoint: 800px */
-
-@media (width > 800px) {
-  /* Sort out navigation styling for middle breakpoint */
-  button {
-    display: none;
-  }
-
-  nav {
-    display: block;
-    inset: unset;
-    position: sticky;
-    top: 0;
-  }
-
-  nav ul {
-    flex-direction: row;
-  }
-
-  nav a {
-    font-size: 100%;
-    padding: 10px 0;
-  }
-
-  /* Create grid layout for middle breakpoint */
-
-  nav {
-    grid-area: nav;
-  }
-
-  article {
-    grid-area: main;
-  }
-
-  aside {
-    grid-area: photos;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas:
-      "nav nav"
-      "main photos";
-    gap: 20px;
-  }
-}
-
-/* 3. Wide breakpoint: 1300px */
-
-@media (width > 1300px) {
-  .grid {
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-areas: "nav main photos";
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav li {
-    flex: unset;
-  }
-}
-
-/* 4. Responsive typography */
-
-h1 {
-  font-size: calc(1.3rem + 3vw);
-  margin: 0;
-}
-
-h2 {
-  font-size: calc(1rem + 2vw);
-  margin: 0;
-}
-
-/* 5. Remove navigation elements when printing */
-
-@media print {
-  nav,
-  button {
-    display: none;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  background-color: #fff;",
-                            "8:21 - 8:25",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Mobile-first_challenge
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-  color: #333;
-  margin: 0;
-  font: 1.2em / 1.6 sans-serif;
-  padding: 0 20px 20px 20px;
-}
-
-img {
-  display: block;
-  border: 1px solid black;
-  /* 1. Constrain the photograph images inside their containers */
-  max-width: 100%;
-}
-
-/* Mobile layout */
-
-header {
-  padding: 50px 0;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 200%;
-}
-
-button {
-  font-size: 250%;
-  border: 0;
-  background: none;
-  cursor: pointer;
-}
-
-button:hover,
-button:focus {
-  text-shadow: 0 0 2px black;
-}
-
-nav {
-  position: fixed;
-  inset: 10%;
-  background-color: #fff;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  height: 100%;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-
-nav li {
-  flex: 1;
-}
-
-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 150%;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover,
-nav a:focus {
-  font-weight: bold;
-}
-
-.photos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.feature {
-  width: 200px;
-  float: left;
-  margin: 8px 30px 20px 0;
-}
-
-/* 2. Middle breakpoint: 800px */
-
-@media (width > 800px) {
-  /* Sort out navigation styling for middle breakpoint */
-  button {
-    display: none;
-  }
-
-  nav {
-    display: block;
-    inset: unset;
-    position: sticky;
-    top: 0;
-  }
-
-  nav ul {
-    flex-direction: row;
-  }
-
-  nav a {
-    font-size: 100%;
-    padding: 10px 0;
-  }
-
-  /* Create grid layout for middle breakpoint */
-
-  nav {
-    grid-area: nav;
-  }
-
-  article {
-    grid-area: main;
-  }
-
-  aside {
-    grid-area: photos;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas:
-      "nav nav"
-      "main photos";
-    gap: 20px;
-  }
-}
-
-/* 3. Wide breakpoint: 1300px */
-
-@media (width > 1300px) {
-  .grid {
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-areas: "nav main photos";
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav li {
-    flex: unset;
-  }
-}
-
-/* 4. Responsive typography */
-
-h1 {
-  font-size: calc(1.3rem + 3vw);
-  margin: 0;
-}
-
-h2 {
-  font-size: calc(1rem + 2vw);
-  margin: 0;
-}
-
-/* 5. Remove navigation elements when printing */
-
-@media print {
-  nav,
-  button {
-    display: none;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  background-color: #fff;",
-                            "51:21 - 51:25",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Mobile-first_challenge
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-  color: #333;
-  margin: 0;
-  font: 1.2em / 1.6 sans-serif;
-  padding: 0 20px 20px 20px;
-}
-
-img {
-  display: block;
-  border: 1px solid black;
-  /* 1. Constrain the photograph images inside their containers */
-  max-width: 100%;
-}
-
-/* Mobile layout */
-
-header {
-  padding: 50px 0;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 200%;
-}
-
-button {
-  font-size: 250%;
-  border: 0;
-  background: none;
-  cursor: pointer;
-}
-
-button:hover,
-button:focus {
-  text-shadow: 0 0 2px black;
-}
-
-nav {
-  position: fixed;
-  inset: 10%;
-  background-color: #fff;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  height: 100%;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-
-nav li {
-  flex: 1;
-}
-
-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 150%;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover,
-nav a:focus {
-  font-weight: bold;
-}
-
-.photos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.feature {
-  width: 200px;
-  float: left;
-  margin: 8px 30px 20px 0;
-}
-
-/* 2. Middle breakpoint: 800px */
-
-@media (width > 800px) {
-  /* Sort out navigation styling for middle breakpoint */
-  button {
-    display: none;
-  }
-
-  nav {
-    display: block;
-    inset: unset;
-    position: sticky;
-    top: 0;
-  }
-
-  nav ul {
-    flex-direction: row;
-  }
-
-  nav a {
-    font-size: 100%;
-    padding: 10px 0;
-  }
-
-  /* Create grid layout for middle breakpoint */
-
-  nav {
-    grid-area: nav;
-  }
-
-  article {
-    grid-area: main;
-  }
-
-  aside {
-    grid-area: photos;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas:
-      "nav nav"
-      "main photos";
-    gap: 20px;
-  }
-}
-
-/* 3. Wide breakpoint: 1300px */
-
-@media (width > 1300px) {
-  .grid {
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-areas: "nav main photos";
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav li {
-    flex: unset;
-  }
-}
-
-/* 4. Responsive typography */
-
-h1 {
-  font-size: calc(1.3rem + 3vw);
-  margin: 0;
-}
-
-h2 {
-  font-size: calc(1rem + 2vw);
-  margin: 0;
-}
-
-/* 5. Remove navigation elements when printing */
-
-@media print {
-  nav,
-  button {
-    display: none;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#000" to be "black" (color-named)',
-                            "  background-color: #000;",
-                            "77:21 - 77:25",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Mobile-first_challenge
-[color-named] Expected "#000" to be "black" (color-named)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-  color: #333;
-  margin: 0;
-  font: 1.2em / 1.6 sans-serif;
-  padding: 0 20px 20px 20px;
-}
-
-img {
-  display: block;
-  border: 1px solid black;
-  /* 1. Constrain the photograph images inside their containers */
-  max-width: 100%;
-}
-
-/* Mobile layout */
-
-header {
-  padding: 50px 0;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 200%;
-}
-
-button {
-  font-size: 250%;
-  border: 0;
-  background: none;
-  cursor: pointer;
-}
-
-button:hover,
-button:focus {
-  text-shadow: 0 0 2px black;
-}
-
-nav {
-  position: fixed;
-  inset: 10%;
-  background-color: #fff;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  height: 100%;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-
-nav li {
-  flex: 1;
-}
-
-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 150%;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover,
-nav a:focus {
-  font-weight: bold;
-}
-
-.photos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.feature {
-  width: 200px;
-  float: left;
-  margin: 8px 30px 20px 0;
-}
-
-/* 2. Middle breakpoint: 800px */
-
-@media (width > 800px) {
-  /* Sort out navigation styling for middle breakpoint */
-  button {
-    display: none;
-  }
-
-  nav {
-    display: block;
-    inset: unset;
-    position: sticky;
-    top: 0;
-  }
-
-  nav ul {
-    flex-direction: row;
-  }
-
-  nav a {
-    font-size: 100%;
-    padding: 10px 0;
-  }
-
-  /* Create grid layout for middle breakpoint */
-
-  nav {
-    grid-area: nav;
-  }
-
-  article {
-    grid-area: main;
-  }
-
-  aside {
-    grid-area: photos;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas:
-      "nav nav"
-      "main photos";
-    gap: 20px;
-  }
-}
-
-/* 3. Wide breakpoint: 1300px */
-
-@media (width > 1300px) {
-  .grid {
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-areas: "nav main photos";
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav li {
-    flex: unset;
-  }
-}
-
-/* 4. Responsive typography */
-
-h1 {
-  font-size: calc(1.3rem + 3vw);
-  margin: 0;
-}
-
-h2 {
-  font-size: calc(1rem + 2vw);
-  margin: 0;
-}
-
-/* 5. Remove navigation elements when printing */
-
-@media print {
-  nav,
-  button {
-    display: none;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "#fff" to be "white" (color-named)',
-                            "  color: #fff;",
-                            "78:10 - 78:14",
-                            `/en-US/docs/Learn_web_development/Core/CSS_layout/Mobile-first_challenge
-[color-named] Expected "#fff" to be "white" (color-named)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-  color: #333;
-  margin: 0;
-  font: 1.2em / 1.6 sans-serif;
-  padding: 0 20px 20px 20px;
-}
-
-img {
-  display: block;
-  border: 1px solid black;
-  /* 1. Constrain the photograph images inside their containers */
-  max-width: 100%;
-}
-
-/* Mobile layout */
-
-header {
-  padding: 50px 0;
-  display: flex;
-  gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 200%;
-}
-
-button {
-  font-size: 250%;
-  border: 0;
-  background: none;
-  cursor: pointer;
-}
-
-button:hover,
-button:focus {
-  text-shadow: 0 0 2px black;
-}
-
-nav {
-  position: fixed;
-  inset: 10%;
-  background-color: #fff;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-  height: 100%;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-
-nav li {
-  flex: 1;
-}
-
-nav a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 150%;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  color: #fff;
-  text-decoration: none;
-}
-
-nav a:hover,
-nav a:focus {
-  font-weight: bold;
-}
-
-.photos {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: 1fr 1fr;
-}
-
-.feature {
-  width: 200px;
-  float: left;
-  margin: 8px 30px 20px 0;
-}
-
-/* 2. Middle breakpoint: 800px */
-
-@media (width > 800px) {
-  /* Sort out navigation styling for middle breakpoint */
-  button {
-    display: none;
-  }
-
-  nav {
-    display: block;
-    inset: unset;
-    position: sticky;
-    top: 0;
-  }
-
-  nav ul {
-    flex-direction: row;
-  }
-
-  nav a {
-    font-size: 100%;
-    padding: 10px 0;
-  }
-
-  /* Create grid layout for middle breakpoint */
-
-  nav {
-    grid-area: nav;
-  }
-
-  article {
-    grid-area: main;
-  }
-
-  aside {
-    grid-area: photos;
-  }
-
-  .grid {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas:
-      "nav nav"
-      "main photos";
-    gap: 20px;
-  }
-}
-
-/* 3. Wide breakpoint: 1300px */
-
-@media (width > 1300px) {
-  .grid {
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-areas: "nav main photos";
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav li {
-    flex: unset;
-  }
-}
-
-/* 4. Responsive typography */
-
-h1 {
-  font-size: calc(1.3rem + 3vw);
-  margin: 0;
-}
-
-h2 {
-  font-size: calc(1rem + 2vw);
-  margin: 0;
-}
-
-/* 5. Remove navigation elements when printing */
-
-@media print {
-  nav,
-  button {
-    display: none;
-  }
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     "multiple-column_layout": {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Multiple-column_Layout",
@@ -7896,19 +5085,6 @@ label + input[type="text"] {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    react_getting_started: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12891,19 +10067,6 @@ button {
                 },
                 structuring_content: {
                   children: {
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
                       children: {
                         advanced_html_text: {
@@ -16623,156 +13786,16 @@ h2 {
                         }
                       ]
                     },
-                    size_decorate_content_panel: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Size_decorate_content_panel",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#eef" to be "#eeeeff" (color-hex-length)',
-                            "    no-repeat top 5px right 15px / 40px #eef;",
-                            "81:41 - 81:45",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Size_decorate_content_panel
-[color-hex-length] Expected "#eef" to be "#eeeeff" (color-hex-length)
-~~~
-/* Type and text */
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  height: inherit;
-  font: 1.2em / 1.5 system-ui;
-  margin: 0 auto;
-}
-
-h1 {
-  /* Responsive heading sizing, equal to vw value plus em value */
-  font-size: calc(2vw + 1em);
-}
-
-/* Add book emoji as generated content, with spacing between
-it and the heading content */
-h1::before {
-  content: "📖";
-  margin-right: 20px;
-}
-
-h2 {
-  /* Responsive heading sizing, equal to vw value plus em value */
-  font-size: calc(1.5vw + 0.75em);
-}
-
-a {
-  color: red;
-}
-
-a:hover,
-a:focus {
-  text-decoration: none;
-}
-
-/* Styling the pane */
-
-.pane {
-  height: 100%;
-  /* clamp() function allows you to set a percentage width plus a maximum and minimum absolute width */
-  width: clamp(480px, 60%, 1000px);
-  /* Center using auto margins */
-  margin: 0 auto;
-  /* Set vertical padding of 0 on both sides and horizontal padding
-  of 20px on both sides */
-  padding: 0 20px;
-  /* Apply linear gradient from top to bottom */
-  background: linear-gradient(to bottom, #9fb4c7, #7f7caf);
-}
-
-img {
-  /* Set 90% maximum width on the images */
-  max-width: 90%;
-  /* Center using auto margins */
-  margin: 0 auto;
-  display: block;
-  /* Set border on the images */
-  border: 1px solid #28587b;
-}
-
-h1,
-.controls {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* Set the h1 and controls div to each be 100px high */
-  height: 100px;
-}
-
-.content {
-  /* Set background color and image on the content div, and size the image */
-  background: url("https://mdn.github.io/shared-assets/images/examples/big-star.png")
-    no-repeat top 5px right 15px / 40px #eef;
-  /* Set vertical padding of 0 on both sides and horizontal padding
-  of 20px on both sides */
-  padding: 0 20px;
-  /* Set the content div to be 100% minus the h1 and
-  controls div combined height (200px) */
-  height: calc(100% - 200px);
-  /* Set border on the content div */
-  border: 2px solid #28587b;
-  /* Stop the content from overflowing its container; make it scroll instead */
-  overflow: auto;
-}
-
-.controls {
-  justify-content: space-around;
-  gap: 20px;
-  padding: 20px;
-}
-
-button {
-  flex: 1;
-  /* Set button height to 100% and font size to 1.2em */
-  height: 100%;
-  font-size: 1.2em;
-  /* Set white text color on the buttons */
-  color: white;
-  /* Set background color on the buttons */
-  background-color: rgb(40 88 123 / 0.8);
-}
-
-/* Set fully-opaque background color on the
-buttons on hover and focus */
-button:hover,
-button:focus {
-  background-color: rgb(40 88 123 / 1);
-}
-
-/* Set border radius on content div and buttons */
-.content,
-button {
-  border-radius: 10px;
-}
-
-.pane {
-  width: clamp(480px, 90%, 1000px);
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     tables: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Tables",
                       messages: [
+                        {
+                          message: "Self link",
+                          data: [
+                            "/en-US/docs/Learn_web_development/Core/Styling_basics/Tables#a_typical_html_table"
+                          ]
+                        },
                         {
                           message: "Stylelint backlog",
                           data: [
@@ -17035,6 +14058,140 @@ caption {
   caption-side: bottom;
   color: #666666;
   text-align: right;
+  letter-spacing: 1px;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "font-family-name-quotes",
+                            'Expected quotes around "Arial" (font-family-name-quotes)',
+                            "  font-family: Arial, Helvetica, sans-serif;",
+                            "2:16 - 2:21",
+                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Tables
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  table-layout: fixed;
+  width: 90%;
+  margin: 10px auto;
+  border-collapse: collapse;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+}
+
+th,
+td {
+  vertical-align: top;
+  padding: 0.6em;
+}
+
+tr :nth-child(2),
+tr :nth-child(3) {
+  text-align: right;
+  width: 15%;
+}
+
+tr :nth-child(1),
+tr :nth-child(4) {
+  text-align: left;
+  width: 35%;
+}
+
+tfoot tr :nth-child(1) {
+  text-align: right;
+}
+
+tfoot tr :nth-child(2) {
+  text-align: left;
+}
+
+tfoot {
+  border-top: 1px solid #999999;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+
+caption {
+  padding: 1em;
+  font-style: italic;
+  caption-side: bottom;
+  letter-spacing: 1px;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "font-family-name-quotes",
+                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                            "  font-family: Arial, Helvetica, sans-serif;",
+                            "2:23 - 2:32",
+                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Tables
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  table-layout: fixed;
+  width: 90%;
+  margin: 10px auto;
+  border-collapse: collapse;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+}
+
+th,
+td {
+  vertical-align: top;
+  padding: 0.6em;
+}
+
+tr :nth-child(2),
+tr :nth-child(3) {
+  text-align: right;
+  width: 15%;
+}
+
+tr :nth-child(1),
+tr :nth-child(4) {
+  text-align: left;
+  width: 35%;
+}
+
+tfoot tr :nth-child(1) {
+  text-align: right;
+}
+
+tfoot tr :nth-child(2) {
+  text-align: left;
+}
+
+tfoot {
+  border-top: 1px solid #999999;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+
+caption {
+  padding: 1em;
+  font-style: italic;
+  caption-side: bottom;
   letter-spacing: 1px;
 }
 ~~~
@@ -18538,1064 +15695,6 @@ dt {
                         {
                           message: "CSS code issue",
                           data: [
-                            "color-hex-length",
-                            'Expected "#a66" to be "#aa6666" (color-hex-length)',
-                            "  border-bottom: 5px solid #a66;",
-                            "26:28 - 26:32",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Typesetting_a_homepage
-[color-hex-length] Expected "#a66" to be "#aa6666" (color-hex-length)
-~~~
-/* General setup */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0 auto;
-  padding: 0 20px;
-  min-width: 980px;
-  max-width: 1400px;
-}
-
-/* Layout */
-
-main {
-  display: grid;
-  grid-template-columns: 5fr 2fr 2fr;
-  gap: 40px;
-  padding: 20px 0;
-}
-
-/* header and footer */
-
-header {
-  border-bottom: 5px solid #a66;
-}
-
-footer {
-  border-top: 5px solid #a66;
-}
-
-footer p {
-  text-align: center;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#a66" to be "#aa6666" (color-hex-length)',
-                            "  border-top: 5px solid #a66;",
-                            "30:25 - 30:29",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Typesetting_a_homepage
-[color-hex-length] Expected "#a66" to be "#aa6666" (color-hex-length)
-~~~
-/* General setup */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0 auto;
-  padding: 0 20px;
-  min-width: 980px;
-  max-width: 1400px;
-}
-
-/* Layout */
-
-main {
-  display: grid;
-  grid-template-columns: 5fr 2fr 2fr;
-  gap: 40px;
-  padding: 20px 0;
-}
-
-/* header and footer */
-
-header {
-  border-bottom: 5px solid #a66;
-}
-
-footer {
-  border-top: 5px solid #a66;
-}
-
-footer p {
-  text-align: center;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#a66" to be "#aa6666" (color-hex-length)',
-                            "  border-bottom: 5px solid #a66;",
-                            "30:28 - 30:32",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Typesetting_a_homepage
-[color-hex-length] Expected "#a66" to be "#aa6666" (color-hex-length)
-~~~
-/* 1. Apply fonts to page */
-
-@import url("https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
-
-/* General setup */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0 auto;
-  padding: 0 20px;
-  min-width: 980px;
-  max-width: 1400px;
-}
-
-/* Layout */
-
-main {
-  display: grid;
-  grid-template-columns: 5fr 2fr 2fr;
-  gap: 40px;
-  padding: 20px 0;
-}
-
-/* Header and footer */
-
-header {
-  border-bottom: 5px solid #a66;
-}
-
-footer {
-  border-top: 5px solid #a66;
-}
-
-footer p {
-  text-align: center;
-}
-
-/* 2. Text styling */
-
-html {
-  font-family: "IBM Plex Serif", serif;
-}
-
-h1,
-h2 {
-  font-family: "Bevan", serif;
-}
-
-h1 {
-  font-size: 3rem;
-  text-align: center;
-  letter-spacing: 3px;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-bottom: 0;
-  letter-spacing: 1px;
-}
-
-section h2 + p {
-  text-indent: 2rem;
-}
-
-p,
-li {
-  line-height: 1.6;
-  letter-spacing: 0.5px;
-}
-
-/* 3. Link styling */
-
-a {
-  outline: none;
-}
-
-a[href*="http"] {
-  padding-right: 16px;
-  background: url(external-link-52.png) no-repeat right center;
-  background-size: 14px 14px;
-}
-
-a:link,
-a:visited {
-  color: #a66;
-}
-
-a:focus,
-a:hover {
-  text-decoration: none;
-  color: #733;
-}
-
-/* 4. List styling */
-
-ul,
-ol {
-  margin: 1rem 0;
-}
-
-ul {
-  list-style-type: square;
-}
-
-ol {
-  list-style-type: lower-roman;
-}
-
-/* 5. Navigation menu */
-
-nav ul {
-  padding-left: 0;
-}
-
-nav li {
-  list-style-type: none;
-  margin-bottom: 1rem;
-}
-
-nav li a {
-  font-family: "Bevan", serif;
-  text-decoration: none;
-  display: inline-block;
-  width: 100%;
-  line-height: 3.5;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 1px;
-  font-size: 1.3rem;
-  font-weight: bold;
-  border: 1px solid #a66;
-}
-
-nav li a:focus,
-nav li a:hover {
-  color: white;
-  background: #a66;
-}
-
-nav li a:active {
-  color: white;
-  background: black;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#a66" to be "#aa6666" (color-hex-length)',
-                            "  border-top: 5px solid #a66;",
-                            "34:25 - 34:29",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Typesetting_a_homepage
-[color-hex-length] Expected "#a66" to be "#aa6666" (color-hex-length)
-~~~
-/* 1. Apply fonts to page */
-
-@import url("https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
-
-/* General setup */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0 auto;
-  padding: 0 20px;
-  min-width: 980px;
-  max-width: 1400px;
-}
-
-/* Layout */
-
-main {
-  display: grid;
-  grid-template-columns: 5fr 2fr 2fr;
-  gap: 40px;
-  padding: 20px 0;
-}
-
-/* Header and footer */
-
-header {
-  border-bottom: 5px solid #a66;
-}
-
-footer {
-  border-top: 5px solid #a66;
-}
-
-footer p {
-  text-align: center;
-}
-
-/* 2. Text styling */
-
-html {
-  font-family: "IBM Plex Serif", serif;
-}
-
-h1,
-h2 {
-  font-family: "Bevan", serif;
-}
-
-h1 {
-  font-size: 3rem;
-  text-align: center;
-  letter-spacing: 3px;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-bottom: 0;
-  letter-spacing: 1px;
-}
-
-section h2 + p {
-  text-indent: 2rem;
-}
-
-p,
-li {
-  line-height: 1.6;
-  letter-spacing: 0.5px;
-}
-
-/* 3. Link styling */
-
-a {
-  outline: none;
-}
-
-a[href*="http"] {
-  padding-right: 16px;
-  background: url(external-link-52.png) no-repeat right center;
-  background-size: 14px 14px;
-}
-
-a:link,
-a:visited {
-  color: #a66;
-}
-
-a:focus,
-a:hover {
-  text-decoration: none;
-  color: #733;
-}
-
-/* 4. List styling */
-
-ul,
-ol {
-  margin: 1rem 0;
-}
-
-ul {
-  list-style-type: square;
-}
-
-ol {
-  list-style-type: lower-roman;
-}
-
-/* 5. Navigation menu */
-
-nav ul {
-  padding-left: 0;
-}
-
-nav li {
-  list-style-type: none;
-  margin-bottom: 1rem;
-}
-
-nav li a {
-  font-family: "Bevan", serif;
-  text-decoration: none;
-  display: inline-block;
-  width: 100%;
-  line-height: 3.5;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 1px;
-  font-size: 1.3rem;
-  font-weight: bold;
-  border: 1px solid #a66;
-}
-
-nav li a:focus,
-nav li a:hover {
-  color: white;
-  background: #a66;
-}
-
-nav li a:active {
-  color: white;
-  background: black;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#a66" to be "#aa6666" (color-hex-length)',
-                            "  color: #a66;",
-                            "88:10 - 88:14",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Typesetting_a_homepage
-[color-hex-length] Expected "#a66" to be "#aa6666" (color-hex-length)
-~~~
-/* 1. Apply fonts to page */
-
-@import url("https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
-
-/* General setup */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0 auto;
-  padding: 0 20px;
-  min-width: 980px;
-  max-width: 1400px;
-}
-
-/* Layout */
-
-main {
-  display: grid;
-  grid-template-columns: 5fr 2fr 2fr;
-  gap: 40px;
-  padding: 20px 0;
-}
-
-/* Header and footer */
-
-header {
-  border-bottom: 5px solid #a66;
-}
-
-footer {
-  border-top: 5px solid #a66;
-}
-
-footer p {
-  text-align: center;
-}
-
-/* 2. Text styling */
-
-html {
-  font-family: "IBM Plex Serif", serif;
-}
-
-h1,
-h2 {
-  font-family: "Bevan", serif;
-}
-
-h1 {
-  font-size: 3rem;
-  text-align: center;
-  letter-spacing: 3px;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-bottom: 0;
-  letter-spacing: 1px;
-}
-
-section h2 + p {
-  text-indent: 2rem;
-}
-
-p,
-li {
-  line-height: 1.6;
-  letter-spacing: 0.5px;
-}
-
-/* 3. Link styling */
-
-a {
-  outline: none;
-}
-
-a[href*="http"] {
-  padding-right: 16px;
-  background: url(external-link-52.png) no-repeat right center;
-  background-size: 14px 14px;
-}
-
-a:link,
-a:visited {
-  color: #a66;
-}
-
-a:focus,
-a:hover {
-  text-decoration: none;
-  color: #733;
-}
-
-/* 4. List styling */
-
-ul,
-ol {
-  margin: 1rem 0;
-}
-
-ul {
-  list-style-type: square;
-}
-
-ol {
-  list-style-type: lower-roman;
-}
-
-/* 5. Navigation menu */
-
-nav ul {
-  padding-left: 0;
-}
-
-nav li {
-  list-style-type: none;
-  margin-bottom: 1rem;
-}
-
-nav li a {
-  font-family: "Bevan", serif;
-  text-decoration: none;
-  display: inline-block;
-  width: 100%;
-  line-height: 3.5;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 1px;
-  font-size: 1.3rem;
-  font-weight: bold;
-  border: 1px solid #a66;
-}
-
-nav li a:focus,
-nav li a:hover {
-  color: white;
-  background: #a66;
-}
-
-nav li a:active {
-  color: white;
-  background: black;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#733" to be "#773333" (color-hex-length)',
-                            "  color: #733;",
-                            "94:10 - 94:14",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Typesetting_a_homepage
-[color-hex-length] Expected "#733" to be "#773333" (color-hex-length)
-~~~
-/* 1. Apply fonts to page */
-
-@import url("https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
-
-/* General setup */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0 auto;
-  padding: 0 20px;
-  min-width: 980px;
-  max-width: 1400px;
-}
-
-/* Layout */
-
-main {
-  display: grid;
-  grid-template-columns: 5fr 2fr 2fr;
-  gap: 40px;
-  padding: 20px 0;
-}
-
-/* Header and footer */
-
-header {
-  border-bottom: 5px solid #a66;
-}
-
-footer {
-  border-top: 5px solid #a66;
-}
-
-footer p {
-  text-align: center;
-}
-
-/* 2. Text styling */
-
-html {
-  font-family: "IBM Plex Serif", serif;
-}
-
-h1,
-h2 {
-  font-family: "Bevan", serif;
-}
-
-h1 {
-  font-size: 3rem;
-  text-align: center;
-  letter-spacing: 3px;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-bottom: 0;
-  letter-spacing: 1px;
-}
-
-section h2 + p {
-  text-indent: 2rem;
-}
-
-p,
-li {
-  line-height: 1.6;
-  letter-spacing: 0.5px;
-}
-
-/* 3. Link styling */
-
-a {
-  outline: none;
-}
-
-a[href*="http"] {
-  padding-right: 16px;
-  background: url(external-link-52.png) no-repeat right center;
-  background-size: 14px 14px;
-}
-
-a:link,
-a:visited {
-  color: #a66;
-}
-
-a:focus,
-a:hover {
-  text-decoration: none;
-  color: #733;
-}
-
-/* 4. List styling */
-
-ul,
-ol {
-  margin: 1rem 0;
-}
-
-ul {
-  list-style-type: square;
-}
-
-ol {
-  list-style-type: lower-roman;
-}
-
-/* 5. Navigation menu */
-
-nav ul {
-  padding-left: 0;
-}
-
-nav li {
-  list-style-type: none;
-  margin-bottom: 1rem;
-}
-
-nav li a {
-  font-family: "Bevan", serif;
-  text-decoration: none;
-  display: inline-block;
-  width: 100%;
-  line-height: 3.5;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 1px;
-  font-size: 1.3rem;
-  font-weight: bold;
-  border: 1px solid #a66;
-}
-
-nav li a:focus,
-nav li a:hover {
-  color: white;
-  background: #a66;
-}
-
-nav li a:active {
-  color: white;
-  background: black;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#a66" to be "#aa6666" (color-hex-length)',
-                            "  border: 1px solid #a66;",
-                            "134:21 - 134:25",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Typesetting_a_homepage
-[color-hex-length] Expected "#a66" to be "#aa6666" (color-hex-length)
-~~~
-/* 1. Apply fonts to page */
-
-@import url("https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
-
-/* General setup */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0 auto;
-  padding: 0 20px;
-  min-width: 980px;
-  max-width: 1400px;
-}
-
-/* Layout */
-
-main {
-  display: grid;
-  grid-template-columns: 5fr 2fr 2fr;
-  gap: 40px;
-  padding: 20px 0;
-}
-
-/* Header and footer */
-
-header {
-  border-bottom: 5px solid #a66;
-}
-
-footer {
-  border-top: 5px solid #a66;
-}
-
-footer p {
-  text-align: center;
-}
-
-/* 2. Text styling */
-
-html {
-  font-family: "IBM Plex Serif", serif;
-}
-
-h1,
-h2 {
-  font-family: "Bevan", serif;
-}
-
-h1 {
-  font-size: 3rem;
-  text-align: center;
-  letter-spacing: 3px;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-bottom: 0;
-  letter-spacing: 1px;
-}
-
-section h2 + p {
-  text-indent: 2rem;
-}
-
-p,
-li {
-  line-height: 1.6;
-  letter-spacing: 0.5px;
-}
-
-/* 3. Link styling */
-
-a {
-  outline: none;
-}
-
-a[href*="http"] {
-  padding-right: 16px;
-  background: url(external-link-52.png) no-repeat right center;
-  background-size: 14px 14px;
-}
-
-a:link,
-a:visited {
-  color: #a66;
-}
-
-a:focus,
-a:hover {
-  text-decoration: none;
-  color: #733;
-}
-
-/* 4. List styling */
-
-ul,
-ol {
-  margin: 1rem 0;
-}
-
-ul {
-  list-style-type: square;
-}
-
-ol {
-  list-style-type: lower-roman;
-}
-
-/* 5. Navigation menu */
-
-nav ul {
-  padding-left: 0;
-}
-
-nav li {
-  list-style-type: none;
-  margin-bottom: 1rem;
-}
-
-nav li a {
-  font-family: "Bevan", serif;
-  text-decoration: none;
-  display: inline-block;
-  width: 100%;
-  line-height: 3.5;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 1px;
-  font-size: 1.3rem;
-  font-weight: bold;
-  border: 1px solid #a66;
-}
-
-nav li a:focus,
-nav li a:hover {
-  color: white;
-  background: #a66;
-}
-
-nav li a:active {
-  color: white;
-  background: black;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-hex-length",
-                            'Expected "#a66" to be "#aa6666" (color-hex-length)',
-                            "  background: #a66;",
-                            "140:15 - 140:19",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Typesetting_a_homepage
-[color-hex-length] Expected "#a66" to be "#aa6666" (color-hex-length)
-~~~
-/* 1. Apply fonts to page */
-
-@import url("https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
-
-/* General setup */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0 auto;
-  padding: 0 20px;
-  min-width: 980px;
-  max-width: 1400px;
-}
-
-/* Layout */
-
-main {
-  display: grid;
-  grid-template-columns: 5fr 2fr 2fr;
-  gap: 40px;
-  padding: 20px 0;
-}
-
-/* Header and footer */
-
-header {
-  border-bottom: 5px solid #a66;
-}
-
-footer {
-  border-top: 5px solid #a66;
-}
-
-footer p {
-  text-align: center;
-}
-
-/* 2. Text styling */
-
-html {
-  font-family: "IBM Plex Serif", serif;
-}
-
-h1,
-h2 {
-  font-family: "Bevan", serif;
-}
-
-h1 {
-  font-size: 3rem;
-  text-align: center;
-  letter-spacing: 3px;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-bottom: 0;
-  letter-spacing: 1px;
-}
-
-section h2 + p {
-  text-indent: 2rem;
-}
-
-p,
-li {
-  line-height: 1.6;
-  letter-spacing: 0.5px;
-}
-
-/* 3. Link styling */
-
-a {
-  outline: none;
-}
-
-a[href*="http"] {
-  padding-right: 16px;
-  background: url(external-link-52.png) no-repeat right center;
-  background-size: 14px 14px;
-}
-
-a:link,
-a:visited {
-  color: #a66;
-}
-
-a:focus,
-a:hover {
-  text-decoration: none;
-  color: #733;
-}
-
-/* 4. List styling */
-
-ul,
-ol {
-  margin: 1rem 0;
-}
-
-ul {
-  list-style-type: square;
-}
-
-ol {
-  list-style-type: lower-roman;
-}
-
-/* 5. Navigation menu */
-
-nav ul {
-  padding-left: 0;
-}
-
-nav li {
-  list-style-type: none;
-  margin-bottom: 1rem;
-}
-
-nav li a {
-  font-family: "Bevan", serif;
-  text-decoration: none;
-  display: inline-block;
-  width: 100%;
-  line-height: 3.5;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 1px;
-  font-size: 1.3rem;
-  font-weight: bold;
-  border: 1px solid #a66;
-}
-
-nav li a:focus,
-nav li a:hover {
-  color: white;
-  background: #a66;
-}
-
-nav li a:active {
-  color: white;
-  background: black;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
                             "function-url-quotes",
                             'Expected quotes around "url" function argument (function-url-quotes)',
                             "  background: url(external-link-52.png) no-repeat right center;",
@@ -19605,7 +15704,7 @@ nav li a:active {
 ~~~
 /* 1. Apply fonts to page */
 
-@import url("https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import "https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap";
 
 /* General setup */
 
@@ -19632,11 +15731,11 @@ main {
 /* Header and footer */
 
 header {
-  border-bottom: 5px solid #a66;
+  border-bottom: 5px solid #aa6666;
 }
 
 footer {
-  border-top: 5px solid #a66;
+  border-top: 5px solid #aa6666;
 }
 
 footer p {
@@ -19690,13 +15789,13 @@ a[href*="http"] {
 
 a:link,
 a:visited {
-  color: #a66;
+  color: #aa6666;
 }
 
 a:focus,
 a:hover {
   text-decoration: none;
-  color: #733;
+  color: #773333;
 }
 
 /* 4. List styling */
@@ -19736,173 +15835,13 @@ nav li a {
   letter-spacing: 1px;
   font-size: 1.3rem;
   font-weight: bold;
-  border: 1px solid #a66;
+  border: 1px solid #aa6666;
 }
 
 nav li a:focus,
 nav li a:hover {
   color: white;
-  background: #a66;
-}
-
-nav li a:active {
-  color: white;
-  background: black;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "import-notation",
-                            'Expected "url("https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"" (import-notation)',
-                            '@import url("https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");',
-                            "3:9 - 3:200",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Typesetting_a_homepage
-[import-notation] Expected "url("https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap")" to be ""https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"" (import-notation)
-~~~
-/* 1. Apply fonts to page */
-
-@import url("https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
-
-/* General setup */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0 auto;
-  padding: 0 20px;
-  min-width: 980px;
-  max-width: 1400px;
-}
-
-/* Layout */
-
-main {
-  display: grid;
-  grid-template-columns: 5fr 2fr 2fr;
-  gap: 40px;
-  padding: 20px 0;
-}
-
-/* Header and footer */
-
-header {
-  border-bottom: 5px solid #a66;
-}
-
-footer {
-  border-top: 5px solid #a66;
-}
-
-footer p {
-  text-align: center;
-}
-
-/* 2. Text styling */
-
-html {
-  font-family: "IBM Plex Serif", serif;
-}
-
-h1,
-h2 {
-  font-family: "Bevan", serif;
-}
-
-h1 {
-  font-size: 3rem;
-  text-align: center;
-  letter-spacing: 3px;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-bottom: 0;
-  letter-spacing: 1px;
-}
-
-section h2 + p {
-  text-indent: 2rem;
-}
-
-p,
-li {
-  line-height: 1.6;
-  letter-spacing: 0.5px;
-}
-
-/* 3. Link styling */
-
-a {
-  outline: none;
-}
-
-a[href*="http"] {
-  padding-right: 16px;
-  background: url(external-link-52.png) no-repeat right center;
-  background-size: 14px 14px;
-}
-
-a:link,
-a:visited {
-  color: #a66;
-}
-
-a:focus,
-a:hover {
-  text-decoration: none;
-  color: #733;
-}
-
-/* 4. List styling */
-
-ul,
-ol {
-  margin: 1rem 0;
-}
-
-ul {
-  list-style-type: square;
-}
-
-ol {
-  list-style-type: lower-roman;
-}
-
-/* 5. Navigation menu */
-
-nav ul {
-  padding-left: 0;
-}
-
-nav li {
-  list-style-type: none;
-  margin-bottom: 1rem;
-}
-
-nav li a {
-  font-family: "Bevan", serif;
-  text-decoration: none;
-  display: inline-block;
-  width: 100%;
-  line-height: 3.5;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 1px;
-  font-size: 1.3rem;
-  font-weight: bold;
-  border: 1px solid #a66;
-}
-
-nav li a:focus,
-nav li a:hover {
-  color: white;
-  background: #a66;
+  background: #aa6666;
 }
 
 nav li a:active {
@@ -20694,63 +16633,6 @@ button:active {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "client-side_tools": {
-                  children: {
-                    introducing_complete_toolchain: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    overview: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/docs/plugins",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://codeclimate.com/",
-                            503
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    package_management: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -31100,13 +26982,6 @@ option::checkmark {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -31139,19 +27014,6 @@ textarea:focus {
                 },
                 performance: {
                   children: {
-                    best_practices: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Best_practices",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     css: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/CSS",
@@ -31196,6 +27058,26 @@ textarea:focus {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    video: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/video",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.ffmpeg.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.ffmpeg.org/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -32182,33 +28064,6 @@ body * {
                 },
                 tools_and_setup: {
                   children: {
-                    available_text_editors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -32216,32 +28071,6 @@ body * {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    what_software_do_i_need: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -34990,78 +30819,6 @@ body {
                     }
                   }
                 },
-                canvasrenderingcontext2d: {
-                  children: {
-                    arcto: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CanvasRenderingContext2D/arcTo",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-use-before-define",
-                            "'radius' was used before it was defined.",
-                            "  controlOut.textContent = radius = control.value;",
-                            "6:28 - 6:34",
-                            `/en-US/docs/Web/API/CanvasRenderingContext2D/arcTo
-[no-use-before-define] 'radius' was used before it was defined.
-~~~
-const canvas = document.getElementById("canvas");
-const ctx = canvas.getContext("2d");
-const controlOut = document.getElementById("radius-output");
-const control = document.getElementById("radius");
-control.oninput = () => {
-  controlOut.textContent = radius = control.value;
-};
-
-const p1 = { x: 100, y: 100 };
-const p2 = { x: 150, y: 50 };
-const p3 = { x: 200, y: 100 };
-let radius = control.value; // match with init control value
-
-function labelPoint(p, offset, i = 0) {
-  const { x, y } = offset;
-  ctx.beginPath();
-  ctx.arc(p.x, p.y, 2, 0, Math.PI * 2);
-  ctx.fill();
-  ctx.fillText(\`\${i}:(\${p.x}, \${p.y})\`, p.x + x, p.y + y);
-}
-
-function drawPoints(points) {
-  points.forEach((p, i) => {
-    labelPoint(p, { x: 0, y: -20 }, \`p\${i}\`);
-  });
-}
-
-// Draw arc
-function drawArc([p0, p1, p2], r) {
-  ctx.beginPath();
-  ctx.moveTo(p0.x, p0.y);
-  ctx.arcTo(p1.x, p1.y, p2.x, p2.y, r);
-  ctx.lineTo(p2.x, p2.y);
-  ctx.stroke();
-}
-
-function loop(t) {
-  const angle = (t / 1000) % (2 * Math.PI);
-  const rr = Math.abs(Math.cos(angle) * radius);
-
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-  drawArc([p1, p2, p3], rr);
-  drawPoints([p1, p2, p3]);
-  requestAnimationFrame(loop);
-}
-
-loop(0);
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 channel_messaging_api: {
                   children: {
                     using_channel_messaging: {
@@ -36966,71 +32723,6 @@ article img {
                     }
                   }
                 },
-                idbtransaction: {
-                  children: {
-                    error_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/IDBTransaction/error_event",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-use-before-define",
-                            "'newItem' was used before it was defined.",
-                            "    console.log(`Error adding new item: ${newItem.taskTitle}`);",
-                            "27:43 - 27:50",
-                            `/en-US/docs/Web/API/IDBTransaction/error_event
-[no-use-before-define] 'newItem' was used before it was defined.
-~~~
-// Open the database
-const dBOpenRequest = window.indexedDB.open("toDoList", 4);
-
-dBOpenRequest.onupgradeneeded = (event) => {
-  const db = event.target.result;
-
-  // Create an objectStore for this database
-  const objectStore = db.createObjectStore("toDoList", {
-    keyPath: "taskTitle",
-  });
-
-  // define what data items the objectStore will contain
-  objectStore.createIndex("hours", "hours", { unique: false });
-  objectStore.createIndex("minutes", "minutes", { unique: false });
-  objectStore.createIndex("day", "day", { unique: false });
-  objectStore.createIndex("month", "month", { unique: false });
-  objectStore.createIndex("year", "year", { unique: false });
-};
-
-dBOpenRequest.onsuccess = (event) => {
-  const db = dBOpenRequest.result;
-
-  // open a read/write db transaction, ready for adding the data
-  const transaction = db.transaction(["toDoList"], "readwrite");
-
-  transaction.onerror = () => {
-    console.log(\`Error adding new item: \${newItem.taskTitle}\`);
-  };
-
-  const objectStore = transaction.objectStore("toDoList");
-  const newItem = {
-    taskTitle: "my task",
-    hours: 10,
-    minutes: 10,
-    day: 10,
-    month: "January",
-    year: 2020,
-  };
-
-  const objectStoreRequest = objectStore.add(newItem);
-};
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 intersection_observer_api: {
                   children: {
                     timing_element_visibility: {
@@ -38008,6 +33700,43 @@ code {
                     }
                   }
                 },
+                media_source_extensions_api: {
+                  children: {
+                    dash_adaptive_streaming: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Media_Source_Extensions_API/DASH_Adaptive_Streaming",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.ffmpeg.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    transcoding_assets_for_mse: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Media_Source_Extensions_API/Transcoding_assets_for_MSE",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://ffmpeg.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://ffmpeg.org/download.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 mediadevices: {
                   children: {
                     getsupportedconstraints: {
@@ -38153,30 +33882,6 @@ aside {
                             "api.MediaRecorder",
                             "Expected:",
                             "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                mediatrackconstraints: {
-                  children: {
-                    echocancellation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaTrackConstraints/echoCancellation",
-                      messages: [
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/API/MediaTrackConstraints",
-                            "#constrainbooleanofdomstring"
-                          ]
-                        },
-                        {
-                          message: "Broken anchor",
-                          data: [
-                            "/en-US/docs/Web/API/MediaTrackConstraints",
-                            "#constrainbooleanofdomstring"
                           ]
                         }
                       ]
@@ -64234,19 +59939,6 @@ rgb(from red r g b / alpha)
                     }
                   ]
                 },
-                css_compositing_and_blending: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/CSS_compositing_and_blending",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.sarasoueidan.com/blog/compositing-and-blending-in-css/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 css_conditional_rules: {
                   children: {
                     "container_scroll-state_queries": {
@@ -78534,19 +74226,6 @@ article.snapDisabled ul {
 }
 ~~~
 `
-                      ]
-                    }
-                  ]
-                },
-                css_shapes: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/CSS_shapes",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://webdesignerdepot.com/how-to-get-started-with-css-shapes/",
-                        404
                       ]
                     }
                   ]
@@ -100093,6 +95772,19 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
+                    content_negotiation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/Content_negotiation",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     cors: {
                       children: {},
                       slug: "/en-US/docs/Web/HTTP/Guides/CORS",
@@ -100177,14 +95869,21 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        accept: {
+                        dnt: {
                           children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://www.gnu.org/software/wget/",
+                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.eff.org/issues/do-not-track",
                                 "The operation timed out."
                               ]
                             }
@@ -100241,6 +95940,26 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           }
+                        },
+                        tk: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Tk",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.eff.org/issues/do-not-track",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         "user-agent": {
                           children: {
@@ -100560,6 +96279,39 @@ const { prop1: x, prop2: y, prop3: z } = obj;
                 }
               }
             },
+            mathml: {
+              children: {
+                reference: {
+                  children: {
+                    global_attributes: {
+                      children: {
+                        "data-_star_": {
+                          children: {},
+                          slug: "/en-US/docs/Web/MathML/Reference/Global_attributes/data-*",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "mathml.global_attributes.data-*"
+                              ]
+                            },
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "mathml.global_attributes.data_attributes",
+                                "Expected:",
+                                "mathml.global_attributes.data-*"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
             media: {
               children: {
                 guides: {
@@ -100569,16 +96321,29 @@ const { prop1: x, prop2: y, prop3: z } = obj;
                       slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery",
                       messages: [
                         {
-                          message: "Redirected external link",
+                          message: "Broken external link",
                           data: [
-                            "https://521dimensions.com/open-source/amplitudejs",
-                            "https://serversideup.net/open-source/amplitudejs/"
+                            "https://www.ffmpeg.org/",
+                            "The operation timed out."
                           ]
                         }
                       ]
                     },
                     formats: {
                       children: {
+                        audio_codecs: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://ffmpeg.org/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -100828,14 +96593,96 @@ const { prop1: x, prop2: y, prop3: z } = obj;
               children: {
                 attacks: {
                   children: {
-                    phishing: {
+                    supply_chain_attacks: {
                       children: {},
-                      slug: "/en-US/docs/Web/Security/Attacks/Phishing",
+                      slug: "/en-US/docs/Web/Security/Attacks/Supply_chain_attacks",
                       messages: [
                         {
-                          message: "Broken link",
+                          message: "JS code issue",
                           data: [
-                            "/en-US/docs/Glossary/multi-factor_authentication"
+                            "no-array-constructor",
+                            "The array literal notation [] is preferable.",
+                            "const myArray = new Array(1, 2, 3);",
+                            "1:17 - 1:35",
+                            `/en-US/docs/Web/Security/Attacks/Supply_chain_attacks
+[no-array-constructor] The array literal notation [] is preferable.
+~~~
+const myArray = new Array(1, 2, 3);
+// prototype chain:
+// myArray -> Array -> Object -> null
+
+myArray.length;
+// 3
+// length is defined on the prototype of \`myArray\`, which is \`Array.prototype\`
+
+myArray.toString();
+// "1,2,3"
+// toString() is defined on the prototype of \`Array.prototype\`, which is \`Object\`
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-array-constructor",
+                            "The array literal notation [] is preferable.",
+                            "const myArray = new Array(1, 2, 3);",
+                            "1:17 - 1:35",
+                            `/en-US/docs/Web/Security/Attacks/Supply_chain_attacks
+[no-array-constructor] The array literal notation [] is preferable.
+~~~
+const myArray = new Array(1, 2, 3);
+
+// modify the Object prototype at runtime
+Object.prototype.extra = "new property!";
+
+myArray.extra;
+// "new property!"
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-extend-native",
+                            "Object prototype is read only, properties should not be added.",
+                            'Object.prototype.extra = "new property!";',
+                            "4:1 - 4:41",
+                            `/en-US/docs/Web/Security/Attacks/Supply_chain_attacks
+[no-extend-native] Object prototype is read only, properties should not be added.
+~~~
+const myArray = new Array(1, 2, 3);
+
+// modify the Object prototype at runtime
+Object.prototype.extra = "new property!";
+
+myArray.extra;
+// "new property!"
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://docs.npmjs.com/cli/v10/configuring-npm/package-json?v=true",
+                            "https://docs.npmjs.com/cli/v10/configuring-npm/package-json/?v=true"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://docs.npmjs.com/cli/v10/commands/npm-ci",
+                            "https://docs.npmjs.com/cli/v10/commands/npm-ci/"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://docs.npmjs.com/cli/v11/commands/npm-sbom",
+                            "https://docs.npmjs.com/cli/v11/commands/npm-sbom/"
                           ]
                         }
                       ]
@@ -100849,13 +96696,6 @@ const { prop1: x, prop2: y, prop3: z } = obj;
                     {
                       message: "Unreachable via page",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://wiki.owasp.org/index.php/Secure_Coding_Principles",
-                        500
-                      ]
                     }
                   ]
                 },
@@ -102034,27 +97874,6 @@ p {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                },
-                tutorials: {
-                  children: {
-                    svg_from_scratch: {
-                      children: {
-                        tools_for_svg: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Tools_for_SVG",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://jsxgraph.uni-bayreuth.de/wp/",
-                                "https://jsxgraph.uni-bayreuth.de/home/"
                               ]
                             }
                           ]
