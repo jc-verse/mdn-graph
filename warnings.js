@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-8vr5j18y.js";
+} from "./chunk-n5xp28d7.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -301,6 +301,13 @@ var warnings_processed_default = {
                   message: "Broken external link",
                   data: [
                     "https://sass-lang.com/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://stylus-lang.com/",
                     "The operation timed out."
                   ]
                 }
@@ -1394,6 +1401,13 @@ div.warning {
                   data: [
                     "https://jamstack.org/generators/",
                     'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://jamstack.org/generators/". For more information, pass `verbose: true` in the second argument to fetch()'
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://astro.build/",
+                    "The operation timed out."
                   ]
                 }
               ]
@@ -5095,6 +5109,20 @@ label + input[type="text"] {
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://emberjs.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://astro.build/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -5119,6 +5147,19 @@ label + input[type="text"] {
                           message: "Broken external link",
                           data: [
                             "https://babeljs.io/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    react_resources: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vitest.dev/",
                             "The operation timed out."
                           ]
                         }
@@ -8998,6 +9039,13 @@ body {
                             "https://sass-lang.com/",
                             "The operation timed out."
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://stylus-lang.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -9018,6 +9066,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/guide/essentials/lifecycle.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -13859,12 +13914,6 @@ h2 {
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Tables",
                       messages: [
                         {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Learn_web_development/Core/Styling_basics/Tables#a_typical_html_table"
-                          ]
-                        },
-                        {
                           message: "Stylelint backlog",
                           data: [
                             "font-family-name-quotes",
@@ -15756,172 +15805,6 @@ dt {
                         }
                       ]
                     },
-                    typesetting_a_homepage: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Typesetting_a_homepage",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "function-url-quotes",
-                            'Expected quotes around "url" function argument (function-url-quotes)',
-                            "  background: url(external-link-52.png) no-repeat right center;",
-                            "82:19 - 82:39",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Typesetting_a_homepage
-[function-url-quotes] Expected quotes around "url" function argument (function-url-quotes)
-~~~
-/* 1. Apply fonts to page */
-
-@import "https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap";
-
-/* General setup */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0 auto;
-  padding: 0 20px;
-  min-width: 980px;
-  max-width: 1400px;
-}
-
-/* Layout */
-
-main {
-  display: grid;
-  grid-template-columns: 5fr 2fr 2fr;
-  gap: 40px;
-  padding: 20px 0;
-}
-
-/* Header and footer */
-
-header {
-  border-bottom: 5px solid #aa6666;
-}
-
-footer {
-  border-top: 5px solid #aa6666;
-}
-
-footer p {
-  text-align: center;
-}
-
-/* 2. Text styling */
-
-html {
-  font-family: "IBM Plex Serif", serif;
-}
-
-h1,
-h2 {
-  font-family: "Bevan", serif;
-}
-
-h1 {
-  font-size: 3rem;
-  text-align: center;
-  letter-spacing: 3px;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-bottom: 0;
-  letter-spacing: 1px;
-}
-
-section h2 + p {
-  text-indent: 2rem;
-}
-
-p,
-li {
-  line-height: 1.6;
-  letter-spacing: 0.5px;
-}
-
-/* 3. Link styling */
-
-a {
-  outline: none;
-}
-
-a[href*="http"] {
-  padding-right: 16px;
-  background: url(external-link-52.png) no-repeat right center;
-  background-size: 14px 14px;
-}
-
-a:link,
-a:visited {
-  color: #aa6666;
-}
-
-a:focus,
-a:hover {
-  text-decoration: none;
-  color: #773333;
-}
-
-/* 4. List styling */
-
-ul,
-ol {
-  margin: 1rem 0;
-}
-
-ul {
-  list-style-type: square;
-}
-
-ol {
-  list-style-type: lower-roman;
-}
-
-/* 5. Navigation menu */
-
-nav ul {
-  padding-left: 0;
-}
-
-nav li {
-  list-style-type: none;
-  margin-bottom: 1rem;
-}
-
-nav li a {
-  font-family: "Bevan", serif;
-  text-decoration: none;
-  display: inline-block;
-  width: 100%;
-  line-height: 3.5;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 1px;
-  font-size: 1.3rem;
-  font-weight: bold;
-  border: 1px solid #aa6666;
-}
-
-nav li a:focus,
-nav li a:hover {
-  color: white;
-  background: #aa6666;
-}
-
-nav li a:active {
-  color: white;
-  background: black;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     web_fonts: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
@@ -16736,7 +16619,21 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://babeljs.io/docs/plugins",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://emberjs.com/",
                             "The operation timed out."
                           ]
                         }
@@ -27179,6 +27076,26 @@ textarea:focus {
                           ]
                         }
                       ]
+                    },
+                    video: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/video",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.ffmpeg.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.ffmpeg.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -27194,6 +27111,13 @@ textarea:focus {
                               message: "Broken external link",
                               data: [
                                 "https://sass-lang.com/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://stylus-lang.com/",
                                 "The operation timed out."
                               ]
                             }
@@ -27745,6 +27669,37 @@ body {
             },
             getting_started: {
               children: {
+                environment_setup: {
+                  children: {
+                    browsing_the_web: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://duckduckgo.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://duckduckgo.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://duckduckgo.com/duckduckgo-help-pages/results/syntax",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 soft_skills: {
                   children: {
                     workflows_and_processes: {
@@ -28237,6 +28192,19 @@ body * {
                         }
                       ]
                     },
+                    how_do_you_host_your_website_on_google_app_engine: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://gaesamplesite.appspot.com/",
+                            503
+                          ]
+                        }
+                      ]
+                    },
                     what_software_do_i_need: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
@@ -28354,6 +28322,19 @@ body * {
                 }
               ]
             },
+            tutorials: {
+              children: {},
+              slug: "/en-US/docs/MDN/Tutorials",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://addyosmani.com/resources/essentialjsdesignpatterns/book/",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             writing_guidelines: {
               children: {
                 changelog: {
@@ -28394,6 +28375,13 @@ color: rgb(31 41 59 / 26%);
                             "https://sass-lang.com/",
                             "The operation timed out."
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://stylus-lang.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -28401,6 +28389,19 @@ color: rgb(31 41 59 / 26%);
                 },
                 howto: {
                   children: {
+                    research_technology: {
+                      children: {},
+                      slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Research_technology",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://webkit.org/downloads/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     write_an_api_reference: {
                       children: {
                         information_contained_in_a_webidl_file: {
@@ -30255,14 +30256,14 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "143": {
+                    "136": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/143",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/136",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://whattrainisitnow.com/release/?version=143",
+                            "https://whattrainisitnow.com/release/?version=136",
                             "The operation timed out."
                           ]
                         }
@@ -30762,6 +30763,19 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                     },
                     understanding_wcag: {
                       children: {
+                        keyboard: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Keyboard",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         perceivable: {
                           children: {
                             color_contrast: {
@@ -33903,6 +33917,36 @@ code {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                media_source_extensions_api: {
+                  children: {
+                    dash_adaptive_streaming: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Media_Source_Extensions_API/DASH_Adaptive_Streaming",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.ffmpeg.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    transcoding_assets_for_mse: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Media_Source_Extensions_API/Transcoding_assets_for_MSE",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://ffmpeg.org/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -60981,6 +61025,13 @@ p {
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://adrianroselli.com/2015/10/html-source-order-vs-css-display-order.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -63489,6 +63540,19 @@ div::before {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    grid_layout_and_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_and_accessibility",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -74440,6 +74504,13 @@ article.snapDisabled ul {
 ~~~
 `
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2022/06/keyboard-only-scrolling-areas.html",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -77041,48 +77112,6 @@ p {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://mdn.github.io/dom-examples/css-typed-arithmetic/responsive-background-opacity",
-                            "https://mdn.github.io/dom-examples/css-typed-arithmetic/responsive-background-opacity/"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://mdn.github.io/dom-examples/css-typed-arithmetic/responsive-background-opacity",
-                            "https://mdn.github.io/dom-examples/css-typed-arithmetic/responsive-background-opacity/"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://mdn.github.io/dom-examples/css-typed-arithmetic/different-type-variations",
-                            "https://mdn.github.io/dom-examples/css-typed-arithmetic/different-type-variations/"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://mdn.github.io/dom-examples/css-typed-arithmetic/different-type-variations",
-                            "https://mdn.github.io/dom-examples/css-typed-arithmetic/different-type-variations/"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://mdn.github.io/dom-examples/css-typed-arithmetic/animated-story-circle",
-                            "https://mdn.github.io/dom-examples/css-typed-arithmetic/animated-story-circle/"
-                          ]
-                        },
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://mdn.github.io/dom-examples/css-typed-arithmetic/animated-story-circle",
-                            "https://mdn.github.io/dom-examples/css-typed-arithmetic/animated-story-circle/"
-                          ]
                         }
                       ]
                     }
@@ -77271,6 +77300,33 @@ div {
 }
 ~~~
 `
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                "display-box": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/display-box",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -78427,6 +78483,19 @@ body * {
 }
 ~~~
 `
+                      ]
+                    }
+                  ]
+                },
+                "flex-direction": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/flex-direction",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2015/09/source-order-matters.html",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -87870,6 +87939,32 @@ img.opacity:hover {
                     }
                   ]
                 },
+                order: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/order",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2015/09/source-order-matters.html",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                overflow: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/overflow",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2022/06/keyboard-only-scrolling-areas.html",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 overlay: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/overlay",
@@ -90073,6 +90168,13 @@ pre {
                       data: [
                         "CSS info"
                       ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -90084,6 +90186,13 @@ pre {
                       message: "Missing data",
                       data: [
                         "CSS info"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -94686,19 +94795,6 @@ section {
                         }
                       ]
                     },
-                    "author_fast-loading_html_pages": {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://annevankesteren.nl/2005/05/http-304",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     define_terms_with_html: {
                       children: {},
                       slug: "/en-US/docs/Web/HTML/How_to/Define_terms_with_HTML",
@@ -94980,14 +95076,27 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
-                        canvas: {
+                        a: {
                           children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/canvas",
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://simon.html5.org/dump/html5-canvas-cheat-sheet.html",
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        button: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
                                 "The operation timed out."
                               ]
                             }
@@ -95161,6 +95270,19 @@ code {
                             }
                           ]
                         },
+                        del: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/del",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         details: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/details",
@@ -95277,6 +95399,39 @@ because the nesting selector cannot represent pseudo-elements. */
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        dl: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dl",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2020/09/voiceover-on-ios-14-supports-description-lists.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2022/12/brief-note-on-description-list-support.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        heading_elements: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2016/08/there-is-no-document-outline-algorithm.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -95570,7 +95725,17 @@ html.elements.input.colorspace`,
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/input",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         ins: {
                           children: {},
@@ -95623,6 +95788,13 @@ p {
 }
 ~~~
 `
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -95687,6 +95859,19 @@ header {
                             }
                           ]
                         },
+                        mark: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/mark",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         meta: {
                           children: {
                             name: {
@@ -95706,6 +95891,19 @@ header {
                               }
                             }
                           }
+                        },
+                        s: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/s",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         slot: {
                           children: {},
@@ -96172,6 +96370,19 @@ h2 {
                               ]
                             }
                           ]
+                        },
+                        tabindex: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/tabindex",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         }
                       }
                     }
@@ -96311,19 +96522,6 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         },
-                        dnt: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -96375,19 +96573,6 @@ http.headers.Use-As-Dictionary`,
                               ]
                             }
                           }
-                        },
-                        tk: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Tk",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
                         },
                         "user-agent": {
                           children: {
@@ -96771,8 +96956,34 @@ const { prop1: x, prop2: y, prop3: z } = obj;
               children: {
                 guides: {
                   children: {
+                    audio_and_video_delivery: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.ffmpeg.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     formats: {
                       children: {
+                        audio_codecs: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://ffmpeg.org/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -96911,6 +97122,23 @@ const { prop1: x, prop2: y, prop3: z } = obj;
             },
             progressive_web_apps: {
               children: {
+                guides: {
+                  children: {
+                    installing: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Progressive_web_apps/Guides/Installing",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.microsoft.com/en-us/topic/install-manage-or-uninstall-apps-in-microsoft-edge-0c156575-a94a-45e4-a54f-3a84846f6113",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 manifest: {
                   children: {
                     reference: {
@@ -97029,22 +97257,22 @@ const { prop1: x, prop2: y, prop3: z } = obj;
                         {
                           message: "Redirected external link",
                           data: [
-                            "https://docs.npmjs.com/cli/v10/configuring-npm/package-json?v=true",
-                            "https://docs.npmjs.com/cli/v10/configuring-npm/package-json/?v=true"
+                            "https://docs.npmjs.com/cli/configuring-npm/package-json",
+                            "https://docs.npmjs.com/cli/configuring-npm/package-json/"
                           ]
                         },
                         {
                           message: "Redirected external link",
                           data: [
-                            "https://docs.npmjs.com/cli/v10/commands/npm-ci",
-                            "https://docs.npmjs.com/cli/v10/commands/npm-ci/"
+                            "https://docs.npmjs.com/cli/commands/npm-ci",
+                            "https://docs.npmjs.com/cli/commands/npm-ci/"
                           ]
                         },
                         {
                           message: "Redirected external link",
                           data: [
-                            "https://docs.npmjs.com/cli/v11/commands/npm-sbom",
-                            "https://docs.npmjs.com/cli/v11/commands/npm-sbom/"
+                            "https://docs.npmjs.com/cli/commands/npm-sbom",
+                            "https://docs.npmjs.com/cli/commands/npm-sbom/"
                           ]
                         }
                       ]
