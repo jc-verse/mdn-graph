@@ -1090,7 +1090,7 @@ console.log(helloChris;
 ~~~
 #stockTicker {
   font-weight: bold;
-  font: 12px Verdana; /* font-weight is now set to normal */
+  font: 12px "Verdana"; /* font-weight is now set to normal */
 }
 ~~~
 
@@ -3664,6 +3664,20 @@ p {
 
 /en-US/docs/Web/CSS/font-family
 [color-no-invalid-hex] Unexpected invalid hex color "#POUND" (color-no-invalid-hex)
+[declaration-property-value-no-unknown] Unexpected unknown value "1911" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unexpected unknown value "/" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unexpected unknown value "Grande" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Cannot parse property value "Ahem!, sans-serif" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Cannot parse property value "test@foo, sans-serif" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unexpected unknown value "#POUND" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unexpected unknown value "5" for property "font-family" (declaration-property-value-no-unknown)
+[font-family-name-quotes] Expected quotes around "Goudy Bookletter sans-serif" (font-family-name-quotes)
+[font-family-name-quotes] Expected quotes around "Red/Black" (font-family-name-quotes)
+[font-family-name-quotes] Expected quotes around "Ahem!" (font-family-name-quotes)
+[font-family-name-quotes] Expected quotes around "test@foo" (font-family-name-quotes)
+[font-family-name-quotes] Expected quotes around "#POUND" (font-family-name-quotes)
+[font-family-name-quotes] Expected quotes around "Hawaii 5-0" (font-family-name-quotes)
+~~~
 [font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
 ~~~
 font-family: Goudy Bookletter 1911, sans-serif;
@@ -3676,21 +3690,11 @@ font-family: Hawaii 5-0, sans-serif;
 ~~~
 
 /en-US/docs/Web/CSS/font-family
-[declaration-property-value-no-unknown] Unexpected unknown value "1911" for property "font-family" (declaration-property-value-no-unknown)
-[declaration-property-value-no-unknown] Unexpected unknown value "/" for property "font-family" (declaration-property-value-no-unknown)
-[declaration-property-value-no-unknown] Unexpected unknown value "Grande" for property "font-family" (declaration-property-value-no-unknown)
-[declaration-property-value-no-unknown] Cannot parse property value "Ahem!, sans-serif" for property "font-family" (declaration-property-value-no-unknown)
-[declaration-property-value-no-unknown] Cannot parse property value "test@foo, sans-serif" for property "font-family" (declaration-property-value-no-unknown)
-[declaration-property-value-no-unknown] Unexpected unknown value "#POUND" for property "font-family" (declaration-property-value-no-unknown)
-[declaration-property-value-no-unknown] Unexpected unknown value "5" for property "font-family" (declaration-property-value-no-unknown)
+[font-family-name-quotes] Expected quotes around "Gill Sans Extrabold" (font-family-name-quotes)
 ~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
+font-family:
+  Gill Sans Extrabold,
+  sans-serif;
 ~~~
 
 /en-US/docs/Web/CSS/hex-color
@@ -6443,7 +6447,12 @@ function example() {
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Operators/Destructuring
+[no-use-before-define] 'a' was used before it was defined.
+[no-use-before-define] 'b' was used before it was defined.
+[no-use-before-define] 'c' was used before it was defined.
 [no-use-before-define] 'x' was used before it was defined.
+[no-use-before-define] 'y' was used before it was defined.
+[no-use-before-define] 'z' was used before it was defined.
 ~~~
 const obj = { a, b, c };
 const { a, b, c } = obj;

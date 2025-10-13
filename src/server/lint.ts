@@ -340,7 +340,6 @@ function reportIfUnexpected(
       "font-weight-notation",
       "hue-degree-notation",
       "lightness-notation",
-      "font-family-name-quotes",
       "declaration-block-no-redundant-longhand-properties",
 
       // Remaining ones are't valid issues; ignore for now

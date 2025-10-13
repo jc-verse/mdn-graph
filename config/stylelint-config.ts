@@ -233,6 +233,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
             // Web-safe fonts
             "Arial",
             "Courier",
+            "Courier New",
             "Georgia",
             "Times New Roman",
             "Verdana",
@@ -266,8 +267,10 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
           ignoreFunctions: [
             // NEW
             "contrast-color",
+            "dynamic-range-limit-mix",
             "if",
             "media",
+            "progress",
             "style",
             "supports",
             "superellipse",
