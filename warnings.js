@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-n5xp28d7.js";
+} from "./chunk-0ktyvs0n.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -20,6 +20,23 @@ var warnings_processed_default = {
                   ]
                 }
               ]
+            },
+            publishing_games: {
+              children: {
+                game_promotion: {
+                  children: {},
+                  slug: "/en-US/docs/Games/Publishing_games/Game_promotion",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://gamedevjs.com/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                }
+              }
             },
             tools: {
               children: {
@@ -293,32 +310,12 @@ var warnings_processed_default = {
                 }
               ]
             },
-            css_preprocessor: {
-              children: {},
-              slug: "/en-US/docs/Glossary/CSS_preprocessor",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://sass-lang.com/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://stylus-lang.com/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             css_selector: {
               children: {},
               slug: "/en-US/docs/Glossary/CSS_Selector",
               messages: [
                 {
-                  message: "Stylelint backlog",
+                  message: "CSS code issue",
                   data: [
                     "font-family-name-quotes",
                     'Expected quotes around "Lucida Grande" (font-family-name-quotes)',
@@ -351,7 +348,7 @@ div.warning {
                   ]
                 },
                 {
-                  message: "Stylelint backlog",
+                  message: "CSS code issue",
                   data: [
                     "font-family-name-quotes",
                     'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -384,7 +381,7 @@ div.warning {
                   ]
                 },
                 {
-                  message: "Stylelint backlog",
+                  message: "CSS code issue",
                   data: [
                     "font-family-name-quotes",
                     'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -1369,14 +1366,14 @@ div.warning {
                 }
               ]
             },
-            source_map: {
+            spa: {
               children: {},
-              slug: "/en-US/docs/Glossary/Source_map",
+              slug: "/en-US/docs/Glossary/SPA",
               messages: [
                 {
                   message: "Broken external link",
                   data: [
-                    "https://sass-lang.com/",
+                    "https://vuejs.org/",
                     "The operation timed out."
                   ]
                 }
@@ -1401,13 +1398,6 @@ div.warning {
                   data: [
                     "https://jamstack.org/generators/",
                     'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://jamstack.org/generators/". For more information, pass `verbose: true` in the second argument to fetch()'
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://astro.build/",
-                    "The operation timed out."
                   ]
                 }
               ]
@@ -1557,7 +1547,7 @@ div.warning {
                           slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/CSS_and_JavaScript",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -1596,7 +1586,7 @@ a {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -1635,7 +1625,7 @@ a {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -1674,7 +1664,7 @@ a {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -1728,7 +1718,7 @@ p {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -1782,7 +1772,7 @@ p {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -1836,7 +1826,7 @@ p {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -1874,7 +1864,7 @@ li {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -1912,7 +1902,7 @@ li {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -1956,7 +1946,7 @@ li {
                           slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/HTML",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -1994,7 +1984,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -2032,7 +2022,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -2070,7 +2060,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -2110,7 +2100,7 @@ li {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -2150,7 +2140,7 @@ li {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -2190,7 +2180,7 @@ li {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -2219,7 +2209,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -2248,7 +2238,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -2277,7 +2267,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -2325,7 +2315,7 @@ header {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -2373,7 +2363,7 @@ header {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -2427,7 +2417,7 @@ header {
                           slug: "/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/WAI-ARIA",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -2472,7 +2462,7 @@ div > div::before {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -2517,7 +2507,7 @@ div > div::before {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -2562,7 +2552,7 @@ div > div::before {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -2591,7 +2581,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -2620,7 +2610,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -2649,7 +2639,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -2691,7 +2681,7 @@ li {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -2733,7 +2723,7 @@ li {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -2787,7 +2777,7 @@ li {
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Floats",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -2818,7 +2808,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -2849,7 +2839,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -2888,7 +2878,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -2927,7 +2917,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -2974,7 +2964,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -3021,7 +3011,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -3061,7 +3051,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -3101,7 +3091,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -3142,7 +3132,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -3224,13 +3214,6 @@ span {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -3513,7 +3496,7 @@ article {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -3580,7 +3563,7 @@ article {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -3653,7 +3636,7 @@ article {
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Multiple-column_Layout",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -3680,7 +3663,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -3707,7 +3690,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -3734,7 +3717,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -3761,7 +3744,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -3790,7 +3773,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -3819,7 +3802,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -3853,7 +3836,7 @@ h2 {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -3887,7 +3870,7 @@ h2 {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -3922,7 +3905,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -3957,7 +3940,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -3993,7 +3976,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -4073,7 +4056,7 @@ body {
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -4126,7 +4109,7 @@ h1 {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -4430,7 +4413,7 @@ body {
                           data: []
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -4569,146 +4552,6 @@ Adapted from https://css-tricks.com/the-checkbox-hack/#custom-designed-radio-but
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "2:16 - 2:25",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Angular_styling
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-.btn-wrapper {
-  /* flexbox */
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
-
-.btn {
-  color: black;
-  background-color: white;
-  border: 2px solid #cecece;
-  padding: 0.35rem 1rem 0.25rem 1rem;
-  font-size: 1rem;
-}
-
-.btn:hover {
-  background-color: #ecf2fd;
-}
-
-.btn:active {
-  background-color: #d1e0fe;
-}
-
-.btn:focus {
-  outline: none;
-  border: black solid 2px;
-}
-
-.btn-primary {
-  color: white;
-  background-color: black;
-  width: 100%;
-  padding: 0.75rem;
-  font-size: 1.3rem;
-  border: black solid 2px;
-  margin: 1rem 0;
-}
-
-.btn-primary:hover {
-  background-color: #444242;
-}
-
-.btn-primary:focus {
-  color: black;
-  outline: none;
-  border: black solid 2px;
-  background-color: #d7ecff;
-}
-
-.btn-primary:active {
-  background-color: #212020;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "2:27 - 2:32",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Angular_styling
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-.btn-wrapper {
-  /* flexbox */
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
-
-.btn {
-  color: black;
-  background-color: white;
-  border: 2px solid #cecece;
-  padding: 0.35rem 1rem 0.25rem 1rem;
-  font-size: 1rem;
-}
-
-.btn:hover {
-  background-color: #ecf2fd;
-}
-
-.btn:active {
-  background-color: #d1e0fe;
-}
-
-.btn:focus {
-  outline: none;
-  border: black solid 2px;
-}
-
-.btn-primary {
-  color: white;
-  background-color: black;
-  width: 100%;
-  padding: 0.75rem;
-  font-size: 1.3rem;
-  border: black solid 2px;
-  margin: 1rem 0;
-}
-
-.btn-primary:hover {
-  background-color: #444242;
-}
-
-.btn-primary:focus {
-  color: black;
-  outline: none;
-  border: black solid 2px;
-  background-color: #d7ecff;
-}
-
-.btn-primary:active {
-  background-color: #212020;
-}
-~~~
-`
-                          ]
                         },
                         {
                           message: "Stylelint backlog",
@@ -4919,221 +4762,16 @@ ul li {
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction",
                       messages: [
                         {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Roboto" (font-family-name-quotes)',
-                            '    "Segoe UI Emoji", "Segoe UI Symbol", Roboto, Helvetica, Arial, sans-serif;',
-                            "14:42 - 14:48",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction
-[font-family-name-quotes] Expected quotes around "Roboto" (font-family-name-quotes)
-~~~
-* + * {
-  margin-top: 0.4rem;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 2rem;
-  line-height: 1.25;
-  font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", Roboto, Helvetica, Arial, sans-serif;
-  color: hsl(0 0 0.13);
-
-  width: 95%;
-  max-width: 30em;
-  padding-bottom: 2em;
-  margin: 0 auto;
-}
-
-button,
-input[type="text"] {
-  font-size: 100%;
-  line-height: 1.15;
-  font-family: inherit;
-  margin: 0;
-
-  padding: 0.5rem;
-  border: 1px solid #707070;
-  border-radius: 2px;
-}
-
-* + button {
-  margin-left: 0.4rem;
-}
-
-label {
-  display: table;
-}
-
-ul {
-  margin-top: 1.6rem;
-  padding-left: 2em;
-}
-
-label + input[type="text"] {
-  margin-top: 0.4rem;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            '    "Segoe UI Emoji", "Segoe UI Symbol", Roboto, Helvetica, Arial, sans-serif;',
-                            "14:50 - 14:59",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* + * {
-  margin-top: 0.4rem;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 2rem;
-  line-height: 1.25;
-  font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", Roboto, Helvetica, Arial, sans-serif;
-  color: hsl(0 0 0.13);
-
-  width: 95%;
-  max-width: 30em;
-  padding-bottom: 2em;
-  margin: 0 auto;
-}
-
-button,
-input[type="text"] {
-  font-size: 100%;
-  line-height: 1.15;
-  font-family: inherit;
-  margin: 0;
-
-  padding: 0.5rem;
-  border: 1px solid #707070;
-  border-radius: 2px;
-}
-
-* + button {
-  margin-left: 0.4rem;
-}
-
-label {
-  display: table;
-}
-
-ul {
-  margin-top: 1.6rem;
-  padding-left: 2em;
-}
-
-label + input[type="text"] {
-  margin-top: 0.4rem;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            '    "Segoe UI Emoji", "Segoe UI Symbol", Roboto, Helvetica, Arial, sans-serif;',
-                            "14:61 - 14:66",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* + * {
-  margin-top: 0.4rem;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 2rem;
-  line-height: 1.25;
-  font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", Roboto, Helvetica, Arial, sans-serif;
-  color: hsl(0 0 0.13);
-
-  width: 95%;
-  max-width: 30em;
-  padding-bottom: 2em;
-  margin: 0 auto;
-}
-
-button,
-input[type="text"] {
-  font-size: 100%;
-  line-height: 1.15;
-  font-family: inherit;
-  margin: 0;
-
-  padding: 0.5rem;
-  border: 1px solid #707070;
-  border-radius: 2px;
-}
-
-* + button {
-  margin-left: 0.4rem;
-}
-
-label {
-  display: table;
-}
-
-ul {
-  margin-top: 1.6rem;
-  padding-left: 2em;
-}
-
-label + input[type="text"] {
-  margin-top: 0.4rem;
-}
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Broken external link",
                           data: [
-                            "https://emberjs.com/",
+                            "https://vuejs.org/",
                             "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://astro.build/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    main_features: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
+                            "https://www.gatsbyjs.com/",
                             "The operation timed out."
                           ]
                         }
@@ -5146,20 +4784,7 @@ label + input[type="text"] {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://babeljs.io/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    react_resources: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vitest.dev/",
+                            "https://vite.dev/guide/",
                             "The operation timed out."
                           ]
                         }
@@ -5411,7 +5036,7 @@ body {
   box-sizing: border-box;
   clear: left;
   display: block;
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.25;
@@ -5720,7 +5345,7 @@ body {
   box-sizing: border-box;
   clear: left;
   display: block;
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.25;
@@ -6029,7 +5654,7 @@ body {
   box-sizing: border-box;
   clear: left;
   display: block;
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.25;
@@ -6097,7 +5722,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -6338,316 +5963,7 @@ body {
   box-sizing: border-box;
   clear: left;
   display: block;
-  font-family: Arial, sans-serif;
-  font-size: 1.6rem;
-  font-weight: 400;
-  line-height: 1.25;
-  min-height: 44px;
-  padding-left: 40px;
-  position: relative;
-}
-.c-cb > label::before,
-.c-cb > input[type="checkbox"] {
-  box-sizing: border-box;
-  height: 44px;
-  left: -2px;
-  top: -2px;
-  width: 44px;
-}
-.c-cb > input[type="checkbox"] {
-  -webkit-font-smoothing: antialiased;
-  cursor: pointer;
-  margin: 0;
-  opacity: 0;
-  position: absolute;
-  z-index: 1;
-}
-.c-cb > label {
-  cursor: pointer;
-  display: inline-block;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  margin-bottom: 0;
-  padding: 8px 15px 5px;
-  touch-action: manipulation;
-}
-.c-cb > label::before {
-  background: transparent;
-  border: 2px solid currentColor;
-  content: "";
-  position: absolute;
-}
-.c-cb > input[type="checkbox"]:focus-visible + label::before {
-  border-width: 4px;
-  outline: 3px dashed #228bec;
-}
-.c-cb > label::after {
-  background: transparent;
-  border: solid;
-  border-width: 0 0 5px 5px;
-  border-top-color: transparent;
-  box-sizing: content-box;
-  content: "";
-  height: 7px;
-  left: 9px;
-  opacity: 0;
-  position: absolute;
-  top: 11px;
-  transform: rotate(-45deg);
-  width: 18px;
-}
-.c-cb > input[type="checkbox"]:checked + label::after {
-  opacity: 1;
-}
-/* End checkbox styles */
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, sans-serif;",
-                            "233:16 - 233:21",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_todo_list_beginning
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-/* Resets */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-*:focus-visible {
-  outline: 3px dashed #228bec;
-  outline-offset: 0;
-}
-html {
-  font: 62.5% / 1.15 sans-serif;
-}
-h1,
-h2 {
-  margin-bottom: 0;
-}
-ul {
-  list-style: none;
-  padding: 0;
-}
-button {
-  -moz-osx-font-smoothing: inherit;
-  -webkit-font-smoothing: inherit;
-  appearance: none;
-  background: transparent;
-  border: none;
-  color: inherit;
-  font: inherit;
-  line-height: normal;
-  margin: 0;
-  overflow: visible;
-  padding: 0;
-  width: auto;
-}
-button::-moz-focus-inner {
-  border: 0;
-}
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-}
-button,
-input {
-  overflow: visible;
-}
-input[type="text"] {
-  border-radius: 0;
-}
-body {
-  background-color: whitesmoke;
-  color: #4d4d4d;
-  font:
-    1.6rem/1.25 Arial,
-    sans-serif;
-  margin: 0 auto;
-  max-width: 68rem;
-  width: 100%;
-}
-@media screen and (width >= 620px) {
-  body {
-    font-size: 1.9rem;
-    line-height: 1.31579;
-  }
-}
-/* End resets */
-/* Global styles */
-.form-group > input[type="text"] {
-  display: inline-block;
-  margin-top: 0.4rem;
-}
-.btn {
-  border: 0.2rem solid #4d4d4d;
-  cursor: pointer;
-  padding: 0.8rem 1rem 0.7rem;
-  text-transform: capitalize;
-}
-.btn.toggle-btn {
-  border-color: lightgray;
-  border-width: 1px;
-}
-.btn.toggle-btn[aria-pressed="true"] {
-  border-color: #4d4d4d;
-  text-decoration: underline;
-}
-.btn__danger {
-  background-color: #ca3c3c;
-  border-color: #bd2130;
-  color: white;
-}
-.btn__filter {
-  border-color: lightgrey;
-}
-.btn__primary {
-  background-color: black;
-  color: white;
-}
-.btn-group {
-  display: flex;
-  justify-content: space-between;
-}
-.btn-group > * {
-  flex: 1 1 49%;
-}
-.btn-group > * + * {
-  margin-left: 0.8rem;
-}
-.label-wrapper {
-  flex: 0 0 100%;
-  margin: 0;
-  text-align: center;
-}
-.visually-hidden {
-  clip: rect(1px, 1px, 1px, 1px);
-  height: 1px;
-  overflow: hidden;
-  position: absolute !important;
-  white-space: nowrap;
-  width: 1px;
-}
-[class*="stack"] > * {
-  margin-bottom: 0;
-  margin-top: 0;
-}
-.stack-small > * + * {
-  margin-top: 1.25rem;
-}
-.stack-large > * + * {
-  margin-top: 2.5rem;
-}
-@media screen and (width >= 550px) {
-  .stack-small > * + * {
-    margin-top: 1.4rem;
-  }
-  .stack-large > * + * {
-    margin-top: 2.8rem;
-  }
-}
-.stack-exception {
-  margin-top: 1.2rem;
-}
-/* End global styles */
-/* General app styles */
-.todoapp {
-  background: white;
-  box-shadow:
-    0 2px 4px 0 rgb(0 0 0 / 20%),
-    0 2.5rem 5rem 0 rgb(0 0 0 / 10%);
-  margin: 2rem 0 4rem 0;
-  padding: 1rem;
-  position: relative;
-}
-@media screen and (width >= 550px) {
-  .todoapp {
-    padding: 4rem;
-  }
-}
-.todoapp > * {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 50rem;
-}
-.todoapp > form {
-  max-width: 100%;
-}
-.todoapp > h1 {
-  display: block;
-  margin: 0;
-  margin-bottom: 1rem;
-  max-width: 100%;
-  text-align: center;
-}
-.label__lg {
-  line-height: 1.01567;
-  font-weight: 300;
-  margin-bottom: 1rem;
-  padding: 0.8rem;
-  text-align: center;
-}
-.input__lg {
-  border: 2px solid black;
-  padding: 2rem;
-}
-.input__lg:focus-visible {
-  border-color: #4d4d4d;
-  box-shadow: inset 0 0 0 2px;
-}
-[class*="__lg"] {
-  display: inline-block;
-  font-size: 1.9rem;
-  width: 100%;
-}
-[class*="__lg"]:not(:last-child) {
-  margin-bottom: 1rem;
-}
-@media screen and (width >= 620px) {
-  [class*="__lg"] {
-    font-size: 2.4rem;
-  }
-}
-/* End general app styles */
-/* Todo item styles */
-.todo {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.todo > * {
-  flex: 0 0 100%;
-}
-.todo-text {
-  border: 2px solid #565656;
-  min-height: 4.4rem;
-  padding: 0.4rem 0.8rem;
-  width: 100%;
-}
-.todo-text:focus-visible {
-  box-shadow: inset 0 0 0 2px;
-}
-/* End todo item styles */
-/* Checkbox styles */
-.c-cb {
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-  clear: left;
-  display: block;
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.25;
@@ -6956,7 +6272,7 @@ body {
   box-sizing: border-box;
   clear: left;
   display: block;
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.25;
@@ -7329,7 +6645,7 @@ body {
 /* CHECKBOX STYLES */
 .c-cb {
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
   font-size: 1.6rem;
@@ -7644,7 +6960,7 @@ body {
 /* CHECKBOX STYLES */
 .c-cb {
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
   font-size: 1.6rem;
@@ -7959,7 +7275,7 @@ body {
 /* CHECKBOX STYLES */
 .c-cb {
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
   font-size: 1.6rem;
@@ -8029,7 +7345,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -8274,322 +7590,7 @@ body {
 /* CHECKBOX STYLES */
 .c-cb {
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 1.25;
-  display: block;
-  position: relative;
-  min-height: 44px;
-  padding-left: 40px;
-  clear: left;
-}
-.c-cb > label::before,
-.c-cb > input[type="checkbox"] {
-  box-sizing: border-box;
-  top: -2px;
-  left: -2px;
-  width: 44px;
-  height: 44px;
-}
-.c-cb > input[type="checkbox"] {
-  -webkit-font-smoothing: antialiased;
-  cursor: pointer;
-  position: absolute;
-  z-index: 1;
-  margin: 0;
-  opacity: 0;
-}
-.c-cb > label {
-  font-size: inherit;
-  font-family: inherit;
-  line-height: inherit;
-  display: inline-block;
-  margin-bottom: 0;
-  padding: 8px 15px 5px;
-  cursor: pointer;
-  touch-action: manipulation;
-}
-.c-cb > label::before {
-  content: "";
-  position: absolute;
-  border: 2px solid currentColor;
-  background: transparent;
-}
-.c-cb > input[type="checkbox"]:focus + label::before {
-  border-width: 4px;
-  outline: 3px dashed #228bec;
-}
-.c-cb > label::after {
-  box-sizing: content-box;
-  content: "";
-  position: absolute;
-  top: 11px;
-  left: 9px;
-  width: 18px;
-  height: 7px;
-  transform: rotate(-45deg);
-  border: solid;
-  border-width: 0 0 5px 5px;
-  border-top-color: transparent;
-  opacity: 0;
-  background: transparent;
-}
-.c-cb > input[type="checkbox"]:checked + label::after {
-  opacity: 1;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, sans-serif;",
-                            "237:16 - 237:21",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Svelte_Todo_list_beginning
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-/* RESETS */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-*:focus {
-  outline: 3px dashed #228bec;
-  outline-offset: 0;
-}
-html {
-  font: 62.5% / 1.15 sans-serif;
-}
-h1,
-h2 {
-  margin-bottom: 0;
-}
-ul {
-  list-style: none;
-  padding: 0;
-}
-button {
-  border: none;
-  margin: 0;
-  padding: 0;
-  width: auto;
-  overflow: visible;
-  background: transparent;
-  color: inherit;
-  font: inherit;
-  line-height: normal;
-  -webkit-font-smoothing: inherit;
-  -moz-osx-font-smoothing: inherit;
-  appearance: none;
-}
-button::-moz-focus-inner {
-  border: 0;
-}
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-}
-button,
-input {
-  overflow: visible;
-}
-input[type="text"] {
-  border-radius: 0;
-}
-body {
-  width: 100%;
-  max-width: 68rem;
-  margin: 0 auto;
-  font:
-    1.6rem/1.25 Arial,
-    sans-serif;
-  background-color: whitesmoke;
-  color: #4d4d4d;
-}
-@media screen and (width >= 620px) {
-  body {
-    font-size: 1.9rem;
-    line-height: 1.31579;
-  }
-}
-/* END RESETS */
-
-/* GLOBAL STYLES */
-.form-group > input[type="text"] {
-  display: inline-block;
-  margin-top: 0.4rem;
-}
-.btn {
-  padding: 0.8rem 1rem 0.7rem;
-  border: 0.2rem solid #4d4d4d;
-  cursor: pointer;
-  text-transform: capitalize;
-}
-.btn.toggle-btn {
-  border-width: 1px;
-  border-color: lightgray;
-}
-.btn.toggle-btn[aria-pressed="true"] {
-  text-decoration: underline;
-  border-color: #4d4d4d;
-}
-.btn__danger {
-  color: white;
-  background-color: #ca3c3c;
-  border-color: #bd2130;
-}
-.btn__filter {
-  border-color: lightgrey;
-}
-.btn__primary {
-  color: white;
-  background-color: black;
-}
-.btn__primary:disabled {
-  color: darkgrey;
-  background-color: #565656;
-}
-.btn-group {
-  display: flex;
-  justify-content: space-between;
-}
-.btn-group > * {
-  flex: 1 1 49%;
-}
-.btn-group > * + * {
-  margin-left: 0.8rem;
-}
-.label-wrapper {
-  margin: 0;
-  flex: 0 0 100%;
-  text-align: center;
-}
-.visually-hidden {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px, 1px, 1px, 1px);
-  white-space: nowrap;
-}
-[class*="stack"] > * {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.stack-small > * + * {
-  margin-top: 1.25rem;
-}
-.stack-large > * + * {
-  margin-top: 2.5rem;
-}
-@media screen and (width >= 550px) {
-  .stack-small > * + * {
-    margin-top: 1.4rem;
-  }
-  .stack-large > * + * {
-    margin-top: 2.8rem;
-  }
-}
-.stack-exception {
-  margin-top: 1.2rem;
-}
-/* END GLOBAL STYLES */
-
-.todoapp {
-  background: white;
-  margin: 2rem 0 4rem 0;
-  padding: 1rem;
-  position: relative;
-  box-shadow:
-    0 2px 4px 0 rgb(0 0 0 / 20%),
-    0 2.5rem 5rem 0 rgb(0 0 0 / 10%);
-}
-@media screen and (width >= 550px) {
-  .todoapp {
-    padding: 4rem;
-  }
-}
-.todoapp > * {
-  max-width: 50rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-.todoapp > form {
-  max-width: 100%;
-}
-.todoapp > h1 {
-  display: block;
-  max-width: 100%;
-  text-align: center;
-  margin: 0;
-  margin-bottom: 1rem;
-}
-.label__lg {
-  line-height: 1.01567;
-  font-weight: 300;
-  padding: 0.8rem;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-.input__lg {
-  padding: 2rem;
-  border: 2px solid black;
-}
-.input__lg:focus {
-  border-color: #4d4d4d;
-  box-shadow: inset 0 0 0 2px;
-}
-[class*="__lg"] {
-  display: inline-block;
-  width: 100%;
-  font-size: 1.9rem;
-}
-[class*="__lg"]:not(:last-child) {
-  margin-bottom: 1rem;
-}
-@media screen and (width >= 620px) {
-  [class*="__lg"] {
-    font-size: 2.4rem;
-  }
-}
-.filters {
-  width: 100%;
-  margin: unset;
-}
-/* Todo item styles */
-.todo {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-.todo > * {
-  flex: 0 0 100%;
-}
-.todo-text {
-  width: 100%;
-  min-height: 4.4rem;
-  padding: 0.4rem 0.8rem;
-  border: 2px solid #565656;
-}
-.todo-text:focus {
-  box-shadow: inset 0 0 0 2px;
-}
-/* CHECKBOX STYLES */
-.c-cb {
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
   font-size: 1.6rem;
@@ -8904,7 +7905,7 @@ body {
 /* CHECKBOX STYLES */
 .c-cb {
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
   font-size: 1.6rem;
@@ -9032,20 +8033,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://stylus-lang.com/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -9070,7 +8057,7 @@ body {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vuejs.org/guide/essentials/lifecycle.html",
+                            "https://vuejs.org/guide/essentials/template-refs.html",
                             "The operation timed out."
                           ]
                         }
@@ -9093,6 +8080,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -9105,7 +8099,7 @@ body {
                           data: []
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -9196,7 +8190,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -9289,372 +8283,6 @@ body {
                         {
                           message: "Stylelint backlog",
                           data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, sans-serif;",
-                            "2:16 - 2:21",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_styling
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.custom-checkbox > .checkbox-label {
-  font-family: Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.25;
-  color: #0b0c0c;
-  display: block;
-  margin-bottom: 5px;
-}
-.custom-checkbox > .checkbox {
-  font-family: Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.25;
-  box-sizing: border-box;
-  width: 100%;
-  height: 2.5rem;
-  margin-top: 0;
-  padding: 5px;
-  border: 2px solid #0b0c0c;
-  border-radius: 0;
-  appearance: none;
-}
-.custom-checkbox > input:focus {
-  outline: 3px dashed #ffdd00;
-  outline-offset: 0;
-  box-shadow: inset 0 0 0 2px;
-}
-.custom-checkbox {
-  font-family: Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 1.25;
-  display: block;
-  position: relative;
-  min-height: 40px;
-  margin-bottom: 10px;
-  padding-left: 40px;
-  clear: left;
-}
-.custom-checkbox > input[type="checkbox"] {
-  -webkit-font-smoothing: antialiased;
-  cursor: pointer;
-  position: absolute;
-  z-index: 1;
-  top: -2px;
-  left: -2px;
-  width: 44px;
-  height: 44px;
-  margin: 0;
-  opacity: 0;
-}
-.custom-checkbox > .checkbox-label {
-  font-size: inherit;
-  font-family: inherit;
-  line-height: inherit;
-  display: inline-block;
-  margin-bottom: 0;
-  padding: 8px 15px 5px;
-  cursor: pointer;
-  touch-action: manipulation;
-}
-.custom-checkbox > label::before {
-  content: "";
-  box-sizing: border-box;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  border: 2px solid currentColor;
-  background: transparent;
-}
-.custom-checkbox > input[type="checkbox"]:focus + label::before {
-  border-width: 4px;
-  outline: 3px dashed #228bec;
-}
-.custom-checkbox > label::after {
-  box-sizing: content-box;
-  content: "";
-  position: absolute;
-  top: 11px;
-  left: 9px;
-  width: 18px;
-  height: 7px;
-  transform: rotate(-45deg);
-  border: solid;
-  border-width: 0 0 5px 5px;
-  border-top-color: transparent;
-  opacity: 0;
-  background: transparent;
-}
-.custom-checkbox > input[type="checkbox"]:checked + label::after {
-  opacity: 1;
-}
-@media only screen and (width >= 40rem) {
-  label,
-  input,
-  .custom-checkbox {
-    font-size: 1.9rem;
-    line-height: 1.31579;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, sans-serif;",
-                            "13:16 - 13:21",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_styling
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.custom-checkbox > .checkbox-label {
-  font-family: Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.25;
-  color: #0b0c0c;
-  display: block;
-  margin-bottom: 5px;
-}
-.custom-checkbox > .checkbox {
-  font-family: Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.25;
-  box-sizing: border-box;
-  width: 100%;
-  height: 2.5rem;
-  margin-top: 0;
-  padding: 5px;
-  border: 2px solid #0b0c0c;
-  border-radius: 0;
-  appearance: none;
-}
-.custom-checkbox > input:focus {
-  outline: 3px dashed #ffdd00;
-  outline-offset: 0;
-  box-shadow: inset 0 0 0 2px;
-}
-.custom-checkbox {
-  font-family: Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 1.25;
-  display: block;
-  position: relative;
-  min-height: 40px;
-  margin-bottom: 10px;
-  padding-left: 40px;
-  clear: left;
-}
-.custom-checkbox > input[type="checkbox"] {
-  -webkit-font-smoothing: antialiased;
-  cursor: pointer;
-  position: absolute;
-  z-index: 1;
-  top: -2px;
-  left: -2px;
-  width: 44px;
-  height: 44px;
-  margin: 0;
-  opacity: 0;
-}
-.custom-checkbox > .checkbox-label {
-  font-size: inherit;
-  font-family: inherit;
-  line-height: inherit;
-  display: inline-block;
-  margin-bottom: 0;
-  padding: 8px 15px 5px;
-  cursor: pointer;
-  touch-action: manipulation;
-}
-.custom-checkbox > label::before {
-  content: "";
-  box-sizing: border-box;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  border: 2px solid currentColor;
-  background: transparent;
-}
-.custom-checkbox > input[type="checkbox"]:focus + label::before {
-  border-width: 4px;
-  outline: 3px dashed #228bec;
-}
-.custom-checkbox > label::after {
-  box-sizing: content-box;
-  content: "";
-  position: absolute;
-  top: 11px;
-  left: 9px;
-  width: 18px;
-  height: 7px;
-  transform: rotate(-45deg);
-  border: solid;
-  border-width: 0 0 5px 5px;
-  border-top-color: transparent;
-  opacity: 0;
-  background: transparent;
-}
-.custom-checkbox > input[type="checkbox"]:checked + label::after {
-  opacity: 1;
-}
-@media only screen and (width >= 40rem) {
-  label,
-  input,
-  .custom-checkbox {
-    font-size: 1.9rem;
-    line-height: 1.31579;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, sans-serif;",
-                            "34:16 - 34:21",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_styling
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.custom-checkbox > .checkbox-label {
-  font-family: Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.25;
-  color: #0b0c0c;
-  display: block;
-  margin-bottom: 5px;
-}
-.custom-checkbox > .checkbox {
-  font-family: Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.25;
-  box-sizing: border-box;
-  width: 100%;
-  height: 2.5rem;
-  margin-top: 0;
-  padding: 5px;
-  border: 2px solid #0b0c0c;
-  border-radius: 0;
-  appearance: none;
-}
-.custom-checkbox > input:focus {
-  outline: 3px dashed #ffdd00;
-  outline-offset: 0;
-  box-shadow: inset 0 0 0 2px;
-}
-.custom-checkbox {
-  font-family: Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 1.25;
-  display: block;
-  position: relative;
-  min-height: 40px;
-  margin-bottom: 10px;
-  padding-left: 40px;
-  clear: left;
-}
-.custom-checkbox > input[type="checkbox"] {
-  -webkit-font-smoothing: antialiased;
-  cursor: pointer;
-  position: absolute;
-  z-index: 1;
-  top: -2px;
-  left: -2px;
-  width: 44px;
-  height: 44px;
-  margin: 0;
-  opacity: 0;
-}
-.custom-checkbox > .checkbox-label {
-  font-size: inherit;
-  font-family: inherit;
-  line-height: inherit;
-  display: inline-block;
-  margin-bottom: 0;
-  padding: 8px 15px 5px;
-  cursor: pointer;
-  touch-action: manipulation;
-}
-.custom-checkbox > label::before {
-  content: "";
-  box-sizing: border-box;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  border: 2px solid currentColor;
-  background: transparent;
-}
-.custom-checkbox > input[type="checkbox"]:focus + label::before {
-  border-width: 4px;
-  outline: 3px dashed #228bec;
-}
-.custom-checkbox > label::after {
-  box-sizing: content-box;
-  content: "";
-  position: absolute;
-  top: 11px;
-  left: 9px;
-  width: 18px;
-  height: 7px;
-  transform: rotate(-45deg);
-  border: solid;
-  border-width: 0 0 5px 5px;
-  border-top-color: transparent;
-  opacity: 0;
-  background: transparent;
-}
-.custom-checkbox > input[type="checkbox"]:checked + label::after {
-  opacity: 1;
-}
-@media only screen and (width >= 40rem) {
-  label,
-  input,
-  .custom-checkbox {
-    font-size: 1.9rem;
-    line-height: 1.31579;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
                             "font-weight-notation",
                             'Expected "400" to be "normal" (font-weight-notation)',
                             "  font-weight: 400;",
@@ -9663,7 +8291,7 @@ body {
 [font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
 ~~~
 .custom-checkbox > .checkbox-label {
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -9674,7 +8302,7 @@ body {
   margin-bottom: 5px;
 }
 .custom-checkbox > .checkbox {
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -9695,7 +8323,7 @@ body {
   box-shadow: inset 0 0 0 2px;
 }
 .custom-checkbox {
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
   font-size: 1.6rem;
@@ -9785,7 +8413,7 @@ body {
 [font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
 ~~~
 .custom-checkbox > .checkbox-label {
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -9796,7 +8424,7 @@ body {
   margin-bottom: 5px;
 }
 .custom-checkbox > .checkbox {
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -9817,7 +8445,7 @@ body {
   box-shadow: inset 0 0 0 2px;
 }
 .custom-checkbox {
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
   font-size: 1.6rem;
@@ -9907,7 +8535,7 @@ body {
 [font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
 ~~~
 .custom-checkbox > .checkbox-label {
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -9918,7 +8546,7 @@ body {
   margin-bottom: 5px;
 }
 .custom-checkbox > .checkbox {
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
@@ -9939,7 +8567,7 @@ body {
   box-shadow: inset 0 0 0 2px;
 }
 .custom-checkbox {
-  font-family: Arial, sans-serif;
+  font-family: "Arial", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
   font-size: 1.6rem;
@@ -10039,7 +8667,7 @@ body {
 [alpha-value-notation] Expected "60%" to be "0.6" (alpha-value-notation)
 ~~~
 button {
-  font-family: "helvetica neue", helvetica, sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
   border: 2px solid rgb(200 200 0 / 60%);
@@ -10065,7 +8693,7 @@ button {
 [alpha-value-notation] Expected "60%" to be "0.6" (alpha-value-notation)
 ~~~
 button {
-  font-family: "helvetica neue", helvetica, sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
   border: 2px solid rgb(200 200 0 / 60%);
@@ -10091,7 +8719,7 @@ button {
 [alpha-value-notation] Expected "100%" to be "1" (alpha-value-notation)
 ~~~
 button {
-  font-family: "helvetica neue", helvetica, sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
   border: 2px solid rgb(200 200 0 / 60%);
@@ -10117,33 +8745,7 @@ button {
 [alpha-value-notation] Expected "40%" to be "0.4" (alpha-value-notation)
 ~~~
 button {
-  font-family: "helvetica neue", helvetica, sans-serif;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  border: 2px solid rgb(200 200 0 / 60%);
-  background-color: rgb(0 217 217 / 60%);
-  color: rgb(100 0 0 / 100%);
-  box-shadow: 1px 1px 2px rgb(0 0 200 / 40%);
-  border-radius: 10px;
-  padding: 3px 10px;
-  cursor: pointer;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "helvetica" (font-family-name-quotes)',
-                            '  font-family: "helvetica neue", helvetica, sans-serif;',
-                            "2:17 - 2:26",
-                            `/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
-[font-family-name-quotes] Expected quotes around "helvetica" (font-family-name-quotes)
-~~~
-button {
-  font-family: "helvetica neue", helvetica, sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
   border: 2px solid rgb(200 200 0 / 60%);
@@ -10164,19 +8766,6 @@ button {
                 },
                 structuring_content: {
                   children: {
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
                       children: {
                         advanced_html_text: {
@@ -10184,7 +8773,7 @@ button {
                           slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Advanced_HTML_text",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -10224,7 +8813,7 @@ time {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -10264,7 +8853,7 @@ time {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -10310,7 +8899,7 @@ time {
                           slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Audio_and_video",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -10344,7 +8933,7 @@ video {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -10378,7 +8967,7 @@ video {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -10412,7 +9001,7 @@ video {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -10446,7 +9035,7 @@ video {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -10480,7 +9069,7 @@ video {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -10520,7 +9109,7 @@ video {
                           slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Forms_and_buttons",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -10549,7 +9138,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -10578,7 +9167,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -10607,7 +9196,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -10636,7 +9225,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -10665,7 +9254,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -10694,7 +9283,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -10723,7 +9312,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -10752,7 +9341,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -10781,7 +9370,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -10810,7 +9399,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -10839,7 +9428,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -10868,7 +9457,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -10897,7 +9486,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -10926,7 +9515,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -10955,7 +9544,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -10984,7 +9573,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -11013,7 +9602,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -11048,7 +9637,7 @@ body {
                           slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -11097,7 +9686,7 @@ p {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -11146,7 +9735,7 @@ p {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -11195,7 +9784,7 @@ p {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -11244,7 +9833,7 @@ p {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -11293,7 +9882,7 @@ p {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -11342,178 +9931,7 @@ p {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
-                                "    1em / 1.4 Helvetica Neue,",
-                                "5:15 - 5:29",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
-[font-family-name-quotes] Expected quotes around "Helvetica Neue" (font-family-name-quotes)
-~~~
-body {
-  background-color: white;
-  color: #333333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-h1 {
-  font-size: 2rem;
-  margin: 0;
-}
-
-h2 {
-  font-size: 1.6rem;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-p {
-  margin: 0.5em 0;
-}
-
-ol {
-  border: 2px solid purple;
-}
-
-ul {
-  border: 2px solid orange;
-}
-
-ol,
-ul {
-  padding: 5px 20px;
-  border-radius: 4px;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                                "    1em / 1.4 Helvetica Neue,",
-                                "5:15 - 5:24",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  background-color: white;
-  color: #333333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-h1 {
-  font-size: 2rem;
-  margin: 0;
-}
-
-h2 {
-  font-size: 1.6rem;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-p {
-  margin: 0.5em 0;
-}
-
-ol {
-  border: 2px solid purple;
-}
-
-ul {
-  border: 2px solid orange;
-}
-
-ol,
-ul {
-  padding: 5px 20px;
-  border-radius: 4px;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "    Arial,",
-                                "7:5 - 7:10",
-                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  background-color: white;
-  color: #333333;
-  font:
-    1em / 1.4 Helvetica Neue,
-    Helvetica,
-    Arial,
-    sans-serif;
-  padding: 1em;
-  margin: 0;
-}
-
-h1 {
-  font-size: 2rem;
-  margin: 0;
-}
-
-h2 {
-  font-size: 1.6rem;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-p {
-  margin: 0.5em 0;
-}
-
-ol {
-  border: 2px solid purple;
-}
-
-ul {
-  border: 2px solid orange;
-}
-
-ol,
-ul {
-  padding: 5px 20px;
-  border-radius: 4px;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -11570,7 +9988,7 @@ ul {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -11627,7 +10045,7 @@ ul {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -11684,7 +10102,178 @@ ul {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
+                                "    1em / 1.4 Helvetica Neue,",
+                                "5:15 - 5:29",
+                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
+[font-family-name-quotes] Expected quotes around "Helvetica Neue" (font-family-name-quotes)
+~~~
+body {
+  background-color: white;
+  color: #333333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+ol {
+  border: 2px solid purple;
+}
+
+ul {
+  border: 2px solid orange;
+}
+
+ol,
+ul {
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                                "    1em / 1.4 Helvetica Neue,",
+                                "5:15 - 5:24",
+                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+body {
+  background-color: white;
+  color: #333333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+ol {
+  border: 2px solid purple;
+}
+
+ul {
+  border: 2px solid orange;
+}
+
+ol,
+ul {
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Arial" (font-family-name-quotes)',
+                                "    Arial,",
+                                "7:5 - 7:10",
+                                `/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/HTML_text_basics
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+body {
+  background-color: white;
+  color: #333333;
+  font:
+    1em / 1.4 Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  padding: 1em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0.5em 0;
+}
+
+ol {
+  border: 2px solid purple;
+}
+
+ul {
+  border: 2px solid orange;
+}
+
+ol,
+ul {
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -11737,7 +10326,7 @@ dt {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -11790,7 +10379,7 @@ dt {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -11843,7 +10432,7 @@ dt {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -11896,7 +10485,7 @@ dt {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -11949,7 +10538,7 @@ dt {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -12002,7 +10591,7 @@ dt {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -12055,7 +10644,7 @@ em {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -12108,7 +10697,7 @@ em {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -12161,7 +10750,7 @@ em {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -12214,7 +10803,7 @@ em {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -12267,7 +10856,7 @@ em {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -12326,7 +10915,7 @@ em {
                           slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Images",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -12359,7 +10948,7 @@ img {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -12392,7 +10981,7 @@ img {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -12425,7 +11014,7 @@ img {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -12458,7 +11047,7 @@ img {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -12491,7 +11080,7 @@ img {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -12524,7 +11113,7 @@ img {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -12561,7 +11150,7 @@ figcaption {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -12598,7 +11187,7 @@ figcaption {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -12641,7 +11230,7 @@ figcaption {
                           slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Links",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -12681,7 +11270,7 @@ p {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -12721,7 +11310,7 @@ p {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -12761,7 +11350,7 @@ p {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -12801,7 +11390,7 @@ div {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -12841,7 +11430,7 @@ div {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -12881,7 +11470,7 @@ div {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -12915,7 +11504,7 @@ p {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -12949,7 +11538,7 @@ p {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -13308,42 +11897,6 @@ p {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "impact" (font-family-name-quotes)',
-                            "  font-family: impact, sans-serif;",
-                            "2:16 - 2:22",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Advanced_styling_effects
-[font-family-name-quotes] Expected quotes around "impact" (font-family-name-quotes)
-~~~
-body {
-  font-family: impact, sans-serif;
-}
-
-h2 {
-  width: 250px;
-  height: 250px;
-  text-align: center;
-  line-height: 250px;
-  font-size: 50px;
-}
-
-h2 {
-  color: white;
-  display: inline-block;
-  background: url("colorful-heart.png") no-repeat center;
-}
-
-.text-clip {
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -13629,7 +12182,7 @@ span {
                       slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -13682,7 +12235,7 @@ div p + p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -13735,7 +12288,7 @@ div p + p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -13768,7 +12321,7 @@ h1 {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -13801,7 +12354,7 @@ h1 {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -13818,7 +12371,7 @@ h1{font-size:1.5em;}
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -13830,487 +12383,6 @@ h1{font-size:1.5em;}
 body{font:1em/150% Helvetica,Arial,sans-serif;padding:1em;margin:0 auto;max-width:33em;}
 @media(width>=70em){body{font-size:130%;}}
 h1{font-size:1.5em;}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    handling_conflicts: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Georgia" (font-family-name-quotes)',
-                            '  font-family: Georgia, "Times New Roman", Times, serif;',
-                            "4:16 - 4:23",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts
-[font-family-name-quotes] Expected quotes around "Georgia" (font-family-name-quotes)
-~~~
-h2 {
-  font-size: 2em;
-  color: black;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-.small {
-  font-size: 1em;
-}
-
-.bright {
-  color: rebeccapurple;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Times" (font-family-name-quotes)',
-                            '  font-family: Georgia, "Times New Roman", Times, serif;',
-                            "4:26 - 4:31",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Handling_conflicts
-[font-family-name-quotes] Expected quotes around "Times" (font-family-name-quotes)
-~~~
-h2 {
-  font-size: 2em;
-  color: black;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-.small {
-  font-size: 1em;
-}
-
-.bright {
-  color: rebeccapurple;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    organizing: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    tables: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Tables",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "2:16 - 2:21",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Tables
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "2:23 - 2:32",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Tables
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "helvetica" (font-family-name-quotes)',
-                            '  font-family: "helvetica neue", helvetica, arial, sans-serif;',
-                            "39:17 - 39:26",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Tables
-[font-family-name-quotes] Expected quotes around "helvetica" (font-family-name-quotes)
-~~~
-/* font import */
-@import "https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap";
-
-/* spacing */
-table {
-  table-layout: fixed;
-  width: 100%;
-  border-collapse: collapse;
-  border: 3px solid purple;
-}
-
-thead th {
-  line-height: 1.5;
-}
-
-thead th:nth-child(1) {
-  width: 30%;
-}
-
-thead th:nth-child(2) {
-  width: 20%;
-}
-
-thead th:nth-child(3) {
-  width: 15%;
-}
-
-thead th:nth-child(4) {
-  width: 35%;
-}
-
-th,
-td {
-  padding: 20px;
-}
-
-/* typography */
-html {
-  font-family: "helvetica neue", helvetica, arial, sans-serif;
-}
-
-thead th,
-tfoot th {
-  font-family: "Rock Salt", cursive;
-}
-
-th {
-  letter-spacing: 2px;
-}
-
-td {
-  letter-spacing: 1px;
-}
-
-tbody td {
-  text-align: center;
-}
-
-tfoot th {
-  text-align: right;
-}
-
-/* graphics */
-thead,
-tfoot {
-  background: url("https://mdn.github.io/learning-area/css/styling-boxes/styling-tables/leopardskin.jpg");
-  color: white;
-}
-
-thead th,
-tfoot th,
-tfoot td {
-  background: linear-gradient(to bottom, rgb(0 0 0 / 0.1), rgb(0 0 0 / 0.5));
-  border: 3px solid purple;
-  text-shadow: 1px 1px 1px black;
-}
-
-tbody tr:nth-child(odd) {
-  background-color: #ff33cc;
-}
-
-tbody tr:nth-child(even) {
-  background-color: #e495e4;
-}
-
-tbody tr {
-  background-image: url("https://mdn.github.io/learning-area/css/styling-boxes/styling-tables/noise.png");
-}
-
-table {
-  background-color: #ff33cc;
-}
-
-/* caption */
-caption {
-  font-family: "Rock Salt", cursive;
-  padding: 20px;
-  font-style: italic;
-  caption-side: bottom;
-  color: #666666;
-  text-align: right;
-  letter-spacing: 1px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "arial" (font-family-name-quotes)',
-                            '  font-family: "helvetica neue", helvetica, arial, sans-serif;',
-                            "39:45 - 39:50",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Tables
-[font-family-name-quotes] Expected quotes around "arial" (font-family-name-quotes)
-~~~
-/* font import */
-@import "https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap";
-
-/* spacing */
-table {
-  table-layout: fixed;
-  width: 100%;
-  border-collapse: collapse;
-  border: 3px solid purple;
-}
-
-thead th {
-  line-height: 1.5;
-}
-
-thead th:nth-child(1) {
-  width: 30%;
-}
-
-thead th:nth-child(2) {
-  width: 20%;
-}
-
-thead th:nth-child(3) {
-  width: 15%;
-}
-
-thead th:nth-child(4) {
-  width: 35%;
-}
-
-th,
-td {
-  padding: 20px;
-}
-
-/* typography */
-html {
-  font-family: "helvetica neue", helvetica, arial, sans-serif;
-}
-
-thead th,
-tfoot th {
-  font-family: "Rock Salt", cursive;
-}
-
-th {
-  letter-spacing: 2px;
-}
-
-td {
-  letter-spacing: 1px;
-}
-
-tbody td {
-  text-align: center;
-}
-
-tfoot th {
-  text-align: right;
-}
-
-/* graphics */
-thead,
-tfoot {
-  background: url("https://mdn.github.io/learning-area/css/styling-boxes/styling-tables/leopardskin.jpg");
-  color: white;
-}
-
-thead th,
-tfoot th,
-tfoot td {
-  background: linear-gradient(to bottom, rgb(0 0 0 / 0.1), rgb(0 0 0 / 0.5));
-  border: 3px solid purple;
-  text-shadow: 1px 1px 1px black;
-}
-
-tbody tr:nth-child(odd) {
-  background-color: #ff33cc;
-}
-
-tbody tr:nth-child(even) {
-  background-color: #e495e4;
-}
-
-tbody tr {
-  background-image: url("https://mdn.github.io/learning-area/css/styling-boxes/styling-tables/noise.png");
-}
-
-table {
-  background-color: #ff33cc;
-}
-
-/* caption */
-caption {
-  font-family: "Rock Salt", cursive;
-  padding: 20px;
-  font-style: italic;
-  caption-side: bottom;
-  color: #666666;
-  text-align: right;
-  letter-spacing: 1px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "2:16 - 2:21",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Tables
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-table {
-  table-layout: fixed;
-  width: 90%;
-  margin: 10px auto;
-  border-collapse: collapse;
-  border-top: 1px solid #999999;
-  border-bottom: 1px solid #999999;
-}
-
-th,
-td {
-  vertical-align: top;
-  padding: 0.6em;
-}
-
-tr :nth-child(2),
-tr :nth-child(3) {
-  text-align: right;
-  width: 15%;
-}
-
-tr :nth-child(1),
-tr :nth-child(4) {
-  text-align: left;
-  width: 35%;
-}
-
-tfoot tr :nth-child(1) {
-  text-align: right;
-}
-
-tfoot tr :nth-child(2) {
-  text-align: left;
-}
-
-tfoot {
-  border-top: 1px solid #999999;
-}
-
-tbody tr:nth-child(odd) {
-  background-color: #eeeeee;
-}
-
-caption {
-  padding: 1em;
-  font-style: italic;
-  caption-side: bottom;
-  letter-spacing: 1px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "2:23 - 2:32",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Tables
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-table {
-  table-layout: fixed;
-  width: 90%;
-  margin: 10px auto;
-  border-collapse: collapse;
-  border-top: 1px solid #999999;
-  border-bottom: 1px solid #999999;
-}
-
-th,
-td {
-  vertical-align: top;
-  padding: 0.6em;
-}
-
-tr :nth-child(2),
-tr :nth-child(3) {
-  text-align: right;
-  width: 15%;
-}
-
-tr :nth-child(1),
-tr :nth-child(4) {
-  text-align: left;
-  width: 35%;
-}
-
-tfoot tr :nth-child(1) {
-  text-align: right;
-}
-
-tfoot tr :nth-child(2) {
-  text-align: left;
-}
-
-tfoot {
-  border-top: 1px solid #999999;
-}
-
-tbody tr:nth-child(odd) {
-  background-color: #eeeeee;
-}
-
-caption {
-  padding: 1em;
-  font-style: italic;
-  caption-side: bottom;
-  letter-spacing: 1px;
-}
 ~~~
 `
                           ]
@@ -14355,7 +12427,7 @@ h2 {
                           slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Test_your_skills/Images",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -14389,7 +12461,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -14423,7 +12495,7 @@ body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -14574,41 +12646,7 @@ body {
                       slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals",
                       messages: [
                         {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial;",
-                            "2:16 - 2:21",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-p {
-  font-family: Arial;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Verdana" (font-family-name-quotes)',
-                            '  font-family: "Trebuchet MS", Verdana, sans-serif;',
-                            "2:32 - 2:39",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-p {
-  font-family: "Trebuchet MS", Verdana, sans-serif;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -14626,7 +12664,7 @@ font:
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -14642,1206 +12680,6 @@ font:
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "7:16 - 7:25",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "7:27 - 7:32",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "7:16 - 7:25",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-}
-
-h1 + p {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.5rem;
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "7:27 - 7:32",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-}
-
-h1 + p {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.5rem;
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "26:16 - 26:25",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-}
-
-h1 + p {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.5rem;
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "26:27 - 26:32",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-}
-
-h1 + p {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.5rem;
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "7:16 - 7:25",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-}
-
-h1 + p {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.5rem;
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-h1 {
-  text-shadow:
-    1px 1px 1px red,
-    2px 2px 1px red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "7:27 - 7:32",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-}
-
-h1 + p {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.5rem;
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-h1 {
-  text-shadow:
-    1px 1px 1px red,
-    2px 2px 1px red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "26:16 - 26:25",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-}
-
-h1 + p {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.5rem;
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-h1 {
-  text-shadow:
-    1px 1px 1px red,
-    2px 2px 1px red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "26:27 - 26:32",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-}
-
-h1 + p {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.5rem;
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-h1 {
-  text-shadow:
-    1px 1px 1px red,
-    2px 2px 1px red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "7:16 - 7:25",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-}
-
-h1 + p {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.5rem;
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-h1 {
-  text-shadow:
-    1px 1px 1px red,
-    2px 2px 1px red;
-}
-
-h1 {
-  text-align: center;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "7:27 - 7:32",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-}
-
-h1 + p {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.5rem;
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-h1 {
-  text-shadow:
-    1px 1px 1px red,
-    2px 2px 1px red;
-}
-
-h1 {
-  text-align: center;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "26:16 - 26:25",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-}
-
-h1 + p {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.5rem;
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-h1 {
-  text-shadow:
-    1px 1px 1px red,
-    2px 2px 1px red;
-}
-
-h1 {
-  text-align: center;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "26:27 - 26:32",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-}
-
-h1 + p {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.5rem;
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-h1 {
-  text-shadow:
-    1px 1px 1px red,
-    2px 2px 1px red;
-}
-
-h1 {
-  text-align: center;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "7:16 - 7:25",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-}
-
-h1 + p {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.5rem;
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-h1 {
-  text-shadow:
-    1px 1px 1px red,
-    2px 2px 1px red;
-}
-
-h1 {
-  text-align: center;
-}
-
-p {
-  line-height: 1.6;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "7:27 - 7:32",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-}
-
-h1 + p {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.5rem;
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-h1 {
-  text-shadow:
-    1px 1px 1px red,
-    2px 2px 1px red;
-}
-
-h1 {
-  text-align: center;
-}
-
-p {
-  line-height: 1.6;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "26:16 - 26:25",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-}
-
-h1 + p {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.5rem;
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-h1 {
-  text-shadow:
-    1px 1px 1px red,
-    2px 2px 1px red;
-}
-
-h1 {
-  text-align: center;
-}
-
-p {
-  line-height: 1.6;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "26:27 - 26:32",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-}
-
-h1 + p {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.5rem;
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-h1 {
-  text-shadow:
-    1px 1px 1px red,
-    2px 2px 1px red;
-}
-
-h1 {
-  text-align: center;
-}
-
-p {
-  line-height: 1.6;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "7:16 - 7:25",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-}
-
-h1 + p {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.5rem;
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-h1 {
-  text-shadow:
-    1px 1px 1px red,
-    2px 2px 1px red;
-}
-
-h1 {
-  text-align: center;
-}
-
-p {
-  line-height: 1.6;
-}
-
-p::first-line {
-  letter-spacing: 4px;
-  word-spacing: 4px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "7:27 - 7:32",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-}
-
-h1 + p {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.5rem;
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-h1 {
-  text-shadow:
-    1px 1px 1px red,
-    2px 2px 1px red;
-}
-
-h1 {
-  text-align: center;
-}
-
-p {
-  line-height: 1.6;
-}
-
-p::first-line {
-  letter-spacing: 4px;
-  word-spacing: 4px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "26:16 - 26:25",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-}
-
-h1 + p {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.5rem;
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-h1 {
-  text-shadow:
-    1px 1px 1px red,
-    2px 2px 1px red;
-}
-
-h1 {
-  text-align: center;
-}
-
-p {
-  line-height: 1.6;
-}
-
-p::first-line {
-  letter-spacing: 4px;
-  word-spacing: 4px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "26:27 - 26:32",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Fundamentals
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-p {
-  color: red;
-}
-
-p {
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-html {
-  font-size: 10px;
-}
-
-h1 {
-  font-size: 5rem;
-  text-transform: capitalize;
-}
-
-h1 + p {
-  font-weight: bold;
-}
-
-p {
-  font-size: 1.5rem;
-  color: red;
-  font-family: Helvetica, Arial, sans-serif;
-}
-
-h1 {
-  text-shadow:
-    1px 1px 1px red,
-    2px 2px 1px red;
-}
-
-h1 {
-  text-align: center;
-}
-
-p {
-  line-height: 1.6;
-}
-
-p::first-line {
-  letter-spacing: 4px;
-  word-spacing: 4px;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    styling_lists: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Styling_lists",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "4:16 - 4:25",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Styling_lists
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-/* General styles */
-
-html {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 10px;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-ul,
-ol,
-dl,
-p {
-  font-size: 1.5rem;
-}
-
-li,
-p {
-  line-height: 1.5;
-}
-
-/* Description list styles */
-
-dd,
-dt {
-  line-height: 1.5;
-}
-
-dt {
-  font-weight: bold;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "4:27 - 4:32",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Styling_lists
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-/* General styles */
-
-html {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 10px;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-ul,
-ol,
-dl,
-p {
-  font-size: 1.5rem;
-}
-
-li,
-p {
-  line-height: 1.5;
-}
-
-/* Description list styles */
-
-dd,
-dt {
-  line-height: 1.5;
-}
-
-dt {
-  font-weight: bold;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    web_fonts: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            '  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;',
-                            "2:16 - 2:25",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-p {
-  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Verdana" (font-family-name-quotes)',
-                            '  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;',
-                            "2:43 - 2:50",
-                            `/en-US/docs/Learn_web_development/Core/Text_styling/Web_fonts
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-p {
-  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     }
@@ -15853,92 +12691,6 @@ p {
               children: {
                 "client-side_apis": {
                   children: {
-                    drawing_graphics: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Drawing_graphics",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            '  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;',
-                            "7:17 - 7:26",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Drawing_graphics
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-html,
-body {
-  margin: 0;
-}
-
-html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  height: 100%;
-}
-
-body {
-  overflow: hidden;
-  height: inherit;
-}
-
-h1 {
-  font-size: 2rem;
-  letter-spacing: -1px;
-  position: absolute;
-  margin: 0;
-  top: -4px;
-  right: 5px;
-
-  color: transparent;
-  text-shadow: 0 0 4px white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            '  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;',
-                            "7:45 - 7:50",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Drawing_graphics
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-html,
-body {
-  margin: 0;
-}
-
-html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  height: 100%;
-}
-
-body {
-  overflow: hidden;
-  height: inherit;
-}
-
-h1 {
-  font-size: 2rem;
-  letter-spacing: -1px;
-  position: absolute;
-  margin: 0;
-  top: -4px;
-  right: 5px;
-
-  color: transparent;
-  text-shadow: 0 0 4px white;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     video_and_audio_apis: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs",
@@ -16006,7 +12758,7 @@ button,
 }
 
 button::before {
-  font-family: HeydingsControlsRegular;
+  font-family: "HeydingsControlsRegular";
   font-size: 20px;
   position: relative;
   content: attr(data-icon);
@@ -16078,182 +12830,6 @@ button:active {
 
 .active::before {
   color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "HeydingsControlsRegular" (font-family-name-quotes)',
-                            "  font-family: HeydingsControlsRegular;",
-                            "54:16 - 54:39",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[font-family-name-quotes] Expected quotes around "HeydingsControlsRegular" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-video {
-  border: 1px solid black;
-}
-
-p {
-  position: absolute;
-  top: 310px;
-}
-
-.player {
-  position: absolute;
-}
-
-.controls {
-  visibility: hidden;
-  opacity: 0.5;
-  width: 400px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -200px;
-  background-color: black;
-  box-shadow: 3px 3px 5px black;
-  transition: 1s all;
-  display: flex;
-}
-
-.player:hover .controls,
-.player:focus-within .controls {
-  opacity: 1;
-}
-
-button,
-.controls {
-  background: linear-gradient(to bottom, #222222, #666666);
-}
-
-button::before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaaaaa;
-  text-shadow: 1px 1px 0px black;
-}
-
-.play::before {
-  font-size: 22px;
-}
-
-button,
-.timer {
-  height: 38px;
-  line-height: 19px;
-  box-shadow: inset 0 -5px 25px #0000004d;
-  border-right: 1px solid #333333;
-}
-
-button {
-  position: relative;
-  border: 0;
-  flex: 1;
-  outline: none;
-}
-
-.play {
-  border-radius: 10px 0 0 10px;
-}
-
-.fwd {
-  border-radius: 0 10px 10px 0;
-}
-
-.timer {
-  line-height: 38px;
-  font-size: 10px;
-  font-family: monospace;
-  text-shadow: 1px 1px 0px black;
-  color: white;
-  flex: 5;
-  position: relative;
-}
-
-.timer div {
-  position: absolute;
-  background-color: rgb(255 255 255 / 20%);
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 38px;
-  z-index: 2;
-}
-
-.timer span {
-  position: absolute;
-  z-index: 3;
-  left: 19px;
-}
-
-button:hover,
-button:focus {
-  box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-  box-shadow: inset 3px 3px 2px black;
-}
-
-.active::before {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "HeydingsControlsRegular" (font-family-name-quotes)',
-                            "  font-family: HeydingsControlsRegular;",
-                            "16:16 - 16:39",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[font-family-name-quotes] Expected quotes around "HeydingsControlsRegular" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-button::before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaaaaa;
-  text-shadow: 1px 1px 0px black;
 }
 ~~~
 `
@@ -16365,151 +12941,7 @@ button,
 }
 
 button::before {
-  font-family: HeydingsControlsRegular;
-  font-size: 20px;
-  position: relative;
-  content: attr(data-icon);
-  color: #aaaaaa;
-  text-shadow: 1px 1px 0px black;
-}
-
-.play::before {
-  font-size: 22px;
-}
-
-button,
-.timer {
-  height: 38px;
-  line-height: 19px;
-  box-shadow: inset 0 -5px 25px #0000004d;
-  border-right: 1px solid #333333;
-}
-
-button {
-  position: relative;
-  border: 0;
-  flex: 1;
-  outline: none;
-}
-
-.play {
-  border-radius: 10px 0 0 10px;
-}
-
-.fwd {
-  border-radius: 0 10px 10px 0;
-}
-
-.timer {
-  line-height: 38px;
-  font-size: 10px;
-  font-family: monospace;
-  text-shadow: 1px 1px 0px black;
-  color: white;
-  flex: 5;
-  position: relative;
-}
-
-.timer div {
-  position: absolute;
-  background-color: rgb(255 255 255 / 20%);
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 38px;
-  z-index: 2;
-}
-
-.timer span {
-  position: absolute;
-  z-index: 3;
-  left: 19px;
-}
-
-button:hover,
-button:focus {
-  box-shadow: inset 1px 1px 2px black;
-}
-
-button:active {
-  box-shadow: inset 3px 3px 2px black;
-}
-
-.active::before {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "HeydingsControlsRegular" (font-family-name-quotes)',
-                            "  font-family: HeydingsControlsRegular;",
-                            "58:16 - 58:39",
-                            `/en-US/docs/Learn_web_development/Extensions/Client-side_APIs/Video_and_audio_APIs
-[font-family-name-quotes] Expected quotes around "HeydingsControlsRegular" (font-family-name-quotes)
-~~~
-body {
-  overflow: hidden;
-}
-
-@font-face {
   font-family: "HeydingsControlsRegular";
-  src: url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot");
-  src:
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.woff")
-      format("woff"),
-    url("https://mdn.github.io/learning-area/javascript/apis/video-audio/finished/fonts/heydings_controls-webfont.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-video {
-  border: 1px solid black;
-}
-
-p {
-  position: absolute;
-  top: 310px;
-}
-
-.player {
-  position: absolute;
-}
-
-.controls {
-  visibility: hidden;
-  opacity: 0.5;
-  width: 400px;
-  border-radius: 10px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left: -200px;
-  background-color: black;
-  box-shadow: 3px 3px 5px black;
-  transition: 1s all;
-  display: flex;
-}
-
-.player:hover .controls,
-.player:focus-within .controls {
-  opacity: 1;
-}
-
-button,
-.controls {
-  background: linear-gradient(to bottom, #222222, #666666);
-}
-
-button::before {
-  font-family: HeydingsControlsRegular;
   font-size: 20px;
   position: relative;
   content: attr(data-icon);
@@ -16599,7 +13031,7 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
+                            "https://vite.dev/guide/",
                             "The operation timed out."
                           ]
                         }
@@ -16612,13 +13044,6 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://babeljs.io/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://babeljs.io/docs/plugins",
                             "The operation timed out."
                           ]
@@ -16626,14 +13051,20 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
+                            "https://vuejs.org/",
                             "The operation timed out."
                           ]
-                        },
+                        }
+                      ]
+                    },
+                    package_management: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
+                      messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://emberjs.com/",
+                            "https://vite.dev/guide/",
                             "The operation timed out."
                           ]
                         }
@@ -16643,1326 +13074,6 @@ button:active {
                 },
                 forms: {
                   children: {
-                    customizable_select: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "11:16 - 11:21",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #dddddd;
-  background: #eeeeee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #dddddd;
-}
-
-select::picker-icon {
-  color: #999999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #dddddd;
-  background: #eeeeee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-::picker(select) {
-  opacity: 0;
-  transition: all 0.4s allow-discrete;
-}
-
-::picker(select):popover-open {
-  opacity: 1;
-}
-
-@starting-style {
-  ::picker(select):popover-open {
-    opacity: 0;
-  }
-}
-
-::picker(select) {
-  top: calc(anchor(bottom) + 1px);
-  left: anchor(10%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "11:23 - 11:32",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #dddddd;
-  background: #eeeeee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #dddddd;
-}
-
-select::picker-icon {
-  color: #999999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #dddddd;
-  background: #eeeeee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-::picker(select) {
-  opacity: 0;
-  transition: all 0.4s allow-discrete;
-}
-
-::picker(select):popover-open {
-  opacity: 1;
-}
-
-@starting-style {
-  ::picker(select):popover-open {
-    opacity: 0;
-  }
-}
-
-::picker(select) {
-  top: calc(anchor(bottom) + 1px);
-  left: anchor(10%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "11:16 - 11:21",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "11:23 - 11:32",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "11:16 - 11:21",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #dddddd;
-  background: #eeeeee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #dddddd;
-}
-
-select::picker-icon {
-  color: #999999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "11:23 - 11:32",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #dddddd;
-  background: #eeeeee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #dddddd;
-}
-
-select::picker-icon {
-  color: #999999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "11:16 - 11:21",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #dddddd;
-  background: #eeeeee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #dddddd;
-}
-
-select::picker-icon {
-  color: #999999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #dddddd;
-  background: #eeeeee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "11:23 - 11:32",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #dddddd;
-  background: #eeeeee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #dddddd;
-}
-
-select::picker-icon {
-  color: #999999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #dddddd;
-  background: #eeeeee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "11:16 - 11:21",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #dddddd;
-  background: #eeeeee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #dddddd;
-}
-
-select::picker-icon {
-  color: #999999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #dddddd;
-  background: #eeeeee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "11:23 - 11:32",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #dddddd;
-  background: #eeeeee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #dddddd;
-}
-
-select::picker-icon {
-  color: #999999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #dddddd;
-  background: #eeeeee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "11:16 - 11:21",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #dddddd;
-  background: #eeeeee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #dddddd;
-}
-
-select::picker-icon {
-  color: #999999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #dddddd;
-  background: #eeeeee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-::picker(select) {
-  opacity: 0;
-  transition: all 0.4s allow-discrete;
-}
-
-::picker(select):popover-open {
-  opacity: 1;
-}
-
-@starting-style {
-  ::picker(select):popover-open {
-    opacity: 0;
-  }
-}
-
-::picker(select) {
-  top: calc(anchor(bottom) + 1px);
-  left: anchor(10%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "11:23 - 11:32",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/Customizable_select
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-select,
-::picker(select) {
-  appearance: base-select;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 100%;
-  padding: 0 10px;
-  max-width: 480px;
-  margin: 0 auto;
-}
-
-h2 {
-  font-size: 1.2rem;
-}
-
-p {
-  display: flex;
-  gap: 10px;
-}
-
-label {
-  width: fit-content;
-  align-self: center;
-}
-
-select {
-  flex: 1;
-}
-
-select {
-  border: 2px solid #dddddd;
-  background: #eeeeee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-select:hover,
-select:focus {
-  background: #dddddd;
-}
-
-select::picker-icon {
-  color: #999999;
-  transition: 0.4s rotate;
-}
-
-select:open::picker-icon {
-  rotate: 180deg;
-}
-
-::picker(select) {
-  border: none;
-}
-
-option {
-  display: flex;
-  justify-content: flex-start;
-  gap: 20px;
-
-  border: 2px solid #dddddd;
-  background: #eeeeee;
-  padding: 10px;
-  transition: 0.4s;
-}
-
-option:first-of-type {
-  border-radius: 8px 8px 0 0;
-}
-
-option:last-of-type {
-  border-radius: 0 0 8px 8px;
-}
-
-option:not(option:last-of-type) {
-  border-bottom: none;
-}
-
-option:nth-of-type(odd) {
-  background: white;
-}
-
-option:hover,
-option:focus {
-  background: plum;
-}
-
-option .icon {
-  font-size: 1.6rem;
-  text-box: trim-both cap alphabetic;
-}
-
-selectedcontent .icon {
-  display: none;
-}
-
-option:checked {
-  font-weight: bold;
-}
-
-option::checkmark {
-  order: 1;
-  margin-left: auto;
-  content: "☑️";
-}
-
-::picker(select) {
-  opacity: 0;
-  transition: all 0.4s allow-discrete;
-}
-
-::picker(select):popover-open {
-  opacity: 1;
-}
-
-@starting-style {
-  ::picker(select):popover-open {
-    opacity: 0;
-  }
-}
-
-::picker(select) {
-  top: calc(anchor(bottom) + 1px);
-  left: anchor(10%);
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     how_to_build_custom_form_controls: {
                       children: {
                         example_1: {
@@ -18011,7 +13122,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -18134,7 +13245,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -18257,253 +13368,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Verdana" (font-family-name-quotes)',
-                                "  font-family: Verdana, Arial, sans-serif;",
-                                "33:16 - 33:23",
-                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_1
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-/* --------------- */
-/* Required Styles */
-/* --------------- */
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-/* ------------ */
-/* Fancy Styles */
-/* ------------ */
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Verdana, Arial, sans-serif;",
-                                "33:25 - 33:30",
-                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_1
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-/* --------------- */
-/* Required Styles */
-/* --------------- */
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-/* ------------ */
-/* Fancy Styles */
-/* ------------ */
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -18626,7 +13491,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -18749,7 +13614,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -18872,253 +13737,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Verdana" (font-family-name-quotes)',
-                                "  font-family: Verdana, Arial, sans-serif;",
-                                "33:16 - 33:23",
-                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_1
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-/* --------------- */
-/* Required Styles */
-/* --------------- */
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-/* ------------ */
-/* Fancy Styles */
-/* ------------ */
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Verdana, Arial, sans-serif;",
-                                "33:25 - 33:30",
-                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_1
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-/* --------------- */
-/* Required Styles */
-/* --------------- */
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-/* ------------ */
-/* Fancy Styles */
-/* ------------ */
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -19241,7 +13860,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -19364,7 +13983,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -19487,253 +14106,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Verdana" (font-family-name-quotes)',
-                                "  font-family: Verdana, Arial, sans-serif;",
-                                "33:16 - 33:23",
-                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_1
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-/* --------------- */
-/* Required Styles */
-/* --------------- */
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-/* ------------ */
-/* Fancy Styles */
-/* ------------ */
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Verdana, Arial, sans-serif;",
-                                "33:25 - 33:30",
-                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_1
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-/* --------------- */
-/* Required Styles */
-/* --------------- */
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-/* ------------ */
-/* Fancy Styles */
-/* ------------ */
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -19870,7 +14243,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -20001,7 +14374,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -20132,269 +14505,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Verdana" (font-family-name-quotes)',
-                                "  font-family: Verdana, Arial, sans-serif;",
-                                "41:16 - 41:23",
-                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_2
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-.widget select,
-.no-widget .select {
-  position: absolute;
-  left: -5000em;
-  height: 0;
-  overflow: hidden;
-}
-
-/* --------------- */
-/* Required Styles */
-/* --------------- */
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline: none;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-/* ------------ */
-/* Fancy Styles */
-/* ------------ */
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Verdana, Arial, sans-serif;",
-                                "41:25 - 41:30",
-                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_2
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.widget select,
-.no-widget .select {
-  position: absolute;
-  left: -5000em;
-  height: 0;
-  overflow: hidden;
-}
-
-/* --------------- */
-/* Required Styles */
-/* --------------- */
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline: none;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-/* ------------ */
-/* Fancy Styles */
-/* ------------ */
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -20531,7 +14642,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -20662,7 +14773,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -20793,269 +14904,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Verdana" (font-family-name-quotes)',
-                                "  font-family: Verdana, Arial, sans-serif;",
-                                "41:16 - 41:23",
-                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_3
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-.widget select,
-.no-widget .select {
-  position: absolute;
-  left: -5000em;
-  height: 0;
-  overflow: hidden;
-}
-
-/* --------------- */
-/* Required Styles */
-/* --------------- */
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-/* ------------ */
-/* Fancy Styles */
-/* ------------ */
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Verdana, Arial, sans-serif;",
-                                "41:25 - 41:30",
-                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_3
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.widget select,
-.no-widget .select {
-  position: absolute;
-  left: -5000em;
-  height: 0;
-  overflow: hidden;
-}
-
-/* --------------- */
-/* Required Styles */
-/* --------------- */
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-/* ------------ */
-/* Fancy Styles */
-/* ------------ */
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -21192,7 +15041,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -21323,7 +15172,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -21454,269 +15303,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Verdana" (font-family-name-quotes)',
-                                "  font-family: Verdana, Arial, sans-serif;",
-                                "41:16 - 41:23",
-                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_4
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-.widget select,
-.no-widget .select {
-  position: absolute;
-  left: -5000em;
-  height: 0;
-  overflow: hidden;
-}
-
-/* --------------- */
-/* Required Styles */
-/* --------------- */
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-/* ------------ */
-/* Fancy Styles */
-/* ------------ */
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Verdana, Arial, sans-serif;",
-                                "41:25 - 41:30",
-                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_4
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.widget select,
-.no-widget .select {
-  position: absolute;
-  left: -5000em;
-  height: 0;
-  overflow: hidden;
-}
-
-/* --------------- */
-/* Required Styles */
-/* --------------- */
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-/* ------------ */
-/* Fancy Styles */
-/* ------------ */
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -21853,7 +15440,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -21984,7 +15571,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -22115,269 +15702,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Verdana" (font-family-name-quotes)',
-                                "  font-family: Verdana, Arial, sans-serif;",
-                                "41:16 - 41:23",
-                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_5
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-.widget select,
-.no-widget .select {
-  position: absolute;
-  left: -5000em;
-  height: 0;
-  overflow: hidden;
-}
-
-/* --------------- */
-/* Required Styles */
-/* --------------- */
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-/* ------------ */
-/* Fancy Styles */
-/* ------------ */
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Verdana, Arial, sans-serif;",
-                                "41:25 - 41:30",
-                                `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls/Example_5
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.widget select,
-.no-widget .select {
-  position: absolute;
-  left: -5000em;
-  height: 0;
-  overflow: hidden;
-}
-
-/* --------------- */
-/* Required Styles */
-/* --------------- */
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-/* ------------ */
-/* Fancy Styles */
-/* ------------ */
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -22477,93 +15802,7 @@ option::checkmark {
   /* The computations are made assuming 1em equals 16px which is the default value in most browsers.
      If you are lost with px to em conversion, try https://nekocalc.com/px-to-em-converter */
   font-size: 0.625em; /* this (10px) is the new font size context for em value in this context */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  /* We need extra room for the down arrow we will add */
-  padding: 0.1em 2.5em 0.2em 0.5em;
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black;
-  border-radius: 0.4em;
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%);
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  /* Because the value can be wider than our control, we have to make sure it will not
-     change the control's width. If the content overflows, we display an ellipsis */
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Verdana" (font-family-name-quotes)',
-                            "  font-family: Verdana, Arial, sans-serif;",
-                            "5:16 - 5:23",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-.select {
-  /* The computations are made assuming 1em equals 16px which is the default value in most browsers.
-     If you are lost with px to em conversion, try https://nekocalc.com/px-to-em-converter */
-  font-size: 0.625em; /* this (10px) is the new font size context for em value in this context */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  /* We need extra room for the down arrow we will add */
-  padding: 0.1em 2.5em 0.2em 0.5em;
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black;
-  border-radius: 0.4em;
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%);
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  /* Because the value can be wider than our control, we have to make sure it will not
-     change the control's width. If the content overflows, we display an ellipsis */
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Verdana, Arial, sans-serif;",
-                            "5:25 - 5:30",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.select {
-  /* The computations are made assuming 1em equals 16px which is the default value in most browsers.
-     If you are lost with px to em conversion, try https://nekocalc.com/px-to-em-converter */
-  font-size: 0.625em; /* this (10px) is the new font size context for em value in this context */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -22712,7 +15951,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -22827,7 +16066,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -22942,237 +16181,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Verdana" (font-family-name-quotes)',
-                            "  font-family: Verdana, Arial, sans-serif;",
-                            "25:16 - 25:23",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Verdana, Arial, sans-serif;",
-                            "25:25 - 25:30",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -23287,7 +16296,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -23402,7 +16411,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -23517,237 +16526,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Verdana" (font-family-name-quotes)',
-                            "  font-family: Verdana, Arial, sans-serif;",
-                            "25:16 - 25:23",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Verdana, Arial, sans-serif;",
-                            "25:25 - 25:30",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -23862,7 +16641,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -23977,7 +16756,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -24092,237 +16871,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Verdana" (font-family-name-quotes)',
-                            "  font-family: Verdana, Arial, sans-serif;",
-                            "25:16 - 25:23",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Verdana, Arial, sans-serif;",
-                            "25:25 - 25:30",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -24445,7 +16994,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -24568,7 +17117,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -24691,253 +17240,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Verdana" (font-family-name-quotes)',
-                            "  font-family: Verdana, Arial, sans-serif;",
-                            "33:16 - 33:23",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-.widget select,
-.no-widget .select {
-  position: absolute;
-  left: -5000em;
-  height: 0;
-  overflow: hidden;
-}
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Verdana, Arial, sans-serif;",
-                            "33:25 - 33:30",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.widget select,
-.no-widget .select {
-  position: absolute;
-  left: -5000em;
-  height: 0;
-  overflow: hidden;
-}
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -25060,7 +17363,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -25183,7 +17486,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -25306,253 +17609,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Verdana" (font-family-name-quotes)',
-                            "  font-family: Verdana, Arial, sans-serif;",
-                            "33:16 - 33:23",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-.widget select,
-.no-widget .select {
-  position: absolute;
-  left: -5000em;
-  height: 0;
-  overflow: hidden;
-}
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Verdana, Arial, sans-serif;",
-                            "33:25 - 33:30",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.widget select,
-.no-widget .select {
-  position: absolute;
-  left: -5000em;
-  height: 0;
-  overflow: hidden;
-}
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -25675,7 +17732,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -25798,7 +17855,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -25921,253 +17978,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Verdana" (font-family-name-quotes)',
-                            "  font-family: Verdana, Arial, sans-serif;",
-                            "33:16 - 33:23",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-.widget select,
-.no-widget .select {
-  position: absolute;
-  left: -5000em;
-  height: 0;
-  overflow: hidden;
-}
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Verdana, Arial, sans-serif;",
-                            "33:25 - 33:30",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.widget select,
-.no-widget .select {
-  position: absolute;
-  left: -5000em;
-  height: 0;
-  overflow: hidden;
-}
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -26290,7 +18101,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -26413,7 +18224,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -26536,253 +18347,7 @@ option::checkmark {
 
 .select {
   font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Verdana" (font-family-name-quotes)',
-                            "  font-family: Verdana, Arial, sans-serif;",
-                            "33:16 - 33:23",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-.widget select,
-.no-widget .select {
-  position: absolute;
-  left: -5000em;
-  height: 0;
-  overflow: hidden;
-}
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
-
-  box-sizing: border-box;
-
-  padding: 0.1em 2.5em 0.2em 0.5em; /* 1px 25px 2px 5px */
-  width: 10em; /* 100px */
-
-  border: 0.2em solid black; /* 2px */
-  border-radius: 0.4em; /* 4px */
-
-  box-shadow: 0 0.1em 0.2em rgb(0 0 0 / 45%); /* 0 1px 2px */
-
-  background: linear-gradient(0deg, #e3e3e3, #fcfcfc 50%, #f0f0f0);
-}
-
-.select .value {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  vertical-align: top;
-}
-
-.select::after {
-  content: "▼";
-  position: absolute;
-  z-index: 1;
-  height: 100%;
-  width: 2em; /* 20px */
-  top: 0;
-  right: 0;
-
-  padding-top: 0.1em;
-
-  box-sizing: border-box;
-
-  text-align: center;
-
-  border-left: 0.2em solid black;
-  border-radius: 0 0.1em 0.1em 0;
-
-  background-color: black;
-  color: white;
-}
-
-.select .optList {
-  z-index: 2;
-
-  list-style: none;
-  margin: 0;
-  padding: 0;
-
-  background: #f0f0f0;
-  border: 0.2em solid black;
-  border-top-width: 0.1em;
-  border-radius: 0 0 0.4em 0.4em;
-
-  box-shadow: 0 0.2em 0.4em rgb(0 0 0 / 40%);
-
-  box-sizing: border-box;
-
-  min-width: 100%;
-  max-height: 10em; /* 100px */
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.select .option {
-  padding: 0.2em 0.3em;
-}
-
-.select .highlight {
-  background: black;
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Verdana, Arial, sans-serif;",
-                            "33:25 - 33:30",
-                            `/en-US/docs/Learn_web_development/Extensions/Forms/How_to_build_custom_form_controls
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.widget select,
-.no-widget .select {
-  position: absolute;
-  left: -5000em;
-  height: 0;
-  overflow: hidden;
-}
-
-.select {
-  position: relative;
-  display: inline-block;
-}
-
-.select.active,
-.select:focus {
-  box-shadow: 0 0 3px 1px #227755;
-  outline-color: transparent;
-}
-
-.select .optList {
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-.select .optList.hidden {
-  max-height: 0;
-  visibility: hidden;
-}
-
-.select {
-  font-size: 0.625em; /* 10px */
-  font-family: Verdana, Arial, sans-serif;
+  font-family: "Verdana", "Arial", sans-serif;
 
   box-sizing: border-box;
 
@@ -27016,44 +18581,10 @@ textarea:focus {
                 },
                 performance: {
                   children: {
-                    best_practices: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Best_practices",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     css: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/CSS",
                       messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "someFont" (font-family-name-quotes)',
-                            "  font-family: someFont;",
-                            "2:16 - 2:24",
-                            `/en-US/docs/Learn_web_development/Extensions/Performance/CSS
-[font-family-name-quotes] Expected quotes around "someFont" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: someFont;
-  src: url("/path/to/fonts/someFont.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: fallback;
-}
-~~~
-`
-                          ]
-                        },
                         {
                           message: "Stylelint backlog",
                           data: [
@@ -27065,7 +18596,7 @@ textarea:focus {
 [font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
 ~~~
 @font-face {
-  font-family: someFont;
+  font-family: "someFont";
   src: url("/path/to/fonts/someFont.woff") format("woff");
   font-weight: 400;
   font-style: normal;
@@ -27074,56 +18605,15 @@ textarea:focus {
 ~~~
 `
                           ]
-                        }
-                      ]
-                    },
-                    video: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/video",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.ffmpeg.org/",
-                            "The operation timed out."
-                          ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.ffmpeg.org/",
+                            "https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/",
                             "The operation timed out."
                           ]
                         }
                       ]
-                    }
-                  }
-                },
-                "server-side": {
-                  children: {
-                    express_nodejs: {
-                      children: {
-                        skeleton_website: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://sass-lang.com/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://stylus-lang.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     }
                   }
                 },
@@ -27671,28 +19161,14 @@ body {
               children: {
                 environment_setup: {
                   children: {
-                    browsing_the_web: {
+                    code_editors: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web",
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Code_editors",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://duckduckgo.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://duckduckgo.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://duckduckgo.com/duckduckgo-help-pages/results/syntax",
+                            "https://code.visualstudio.com/docs/editing/codebasics",
                             "The operation timed out."
                           ]
                         }
@@ -27709,7 +19185,14 @@ body {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://sass-lang.com/",
+                            "https://asana.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://asana.com/",
                             "The operation timed out."
                           ]
                         }
@@ -27724,7 +19207,7 @@ body {
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "PLACEHOLDER" (font-family-name-quotes)',
@@ -27829,7 +19312,7 @@ html {
                       slug: "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/Create_fancy_boxes",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Georgia" (font-family-name-quotes)',
@@ -27892,7 +19375,7 @@ blockquote i {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Times" (font-family-name-quotes)',
@@ -27961,30 +19444,7 @@ blockquote i {
                       slug: "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ",
                       messages: [
                         {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Verdana" (font-family-name-quotes)',
-                            "  font-family: Verdana;",
-                            "3:16 - 3:23",
-                            `/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-#stockTicker {
-  font-size: 12px;
-  font-family: Verdana;
-  font-weight: bold;
-}
-.stockSymbol {
-  font: 14px Arial;
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -27995,7 +19455,7 @@ blockquote i {
 ~~~
 #stockTicker {
   font-size: 12px;
-  font-family: Verdana;
+  font-family: "Verdana";
   font-weight: bold;
 }
 .stockSymbol {
@@ -28007,7 +19467,7 @@ blockquote i {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Verdana" (font-family-name-quotes)',
@@ -28025,7 +19485,7 @@ blockquote i {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Verdana" (font-family-name-quotes)',
@@ -28155,33 +19615,6 @@ body * {
                 },
                 tools_and_setup: {
                   children: {
-                    available_text_editors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -28189,32 +19622,6 @@ body * {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    how_do_you_host_your_website_on_google_app_engine: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_do_you_host_your_website_on_Google_App_Engine",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://gaesamplesite.appspot.com/",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    what_software_do_i_need: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -28368,20 +19775,6 @@ color: rgb(31 41 59 / 26%);
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://stylus-lang.com/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -28389,19 +19782,6 @@ color: rgb(31 41 59 / 26%);
                 },
                 howto: {
                   children: {
-                    research_technology: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Research_technology",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://webkit.org/downloads/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     write_an_api_reference: {
                       children: {
                         information_contained_in_a_webidl_file: {
@@ -28411,6 +19791,13 @@ color: rgb(31 41 59 / 26%);
                             {
                               message: "Unreachable via sidebar",
                               data: []
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://trac.webkit.org/wiki/WebKitIDL",
+                                "The operation timed out."
+                              ]
                             }
                           ]
                         },
@@ -29273,7 +20660,7 @@ webextensions.api.clipboard`,
                           slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Browser_styles",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "caption" (font-family-name-quotes)',
@@ -29477,7 +20864,7 @@ html > body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "caption" (font-family-name-quotes)',
@@ -29681,7 +21068,7 @@ html > body {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "caption" (font-family-name-quotes)',
@@ -29900,26 +21287,6 @@ webextensions.manifest.options_ui`,
                           ]
                         }
                       }
-                    },
-                    your_second_webextension: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_second_WebExtension",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iconbeast.com/free/",
-                            "certificate has expired"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iconbeast.com/faq/",
-                            "certificate has expired"
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions",
@@ -30243,32 +21610,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "130": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/130",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=130",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "136": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/136",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=136",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "1.5": {
                       children: {
                         changing_the_priority_of_http_requests: {
@@ -30292,88 +21633,6 @@ webextensions.manifest.options_ui`,
                             {
                               message: "Unreachable via sidebar",
                               data: []
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Verdana" (font-family-name-quotes)',
-                                "        font-family: Verdana, sans-serif;",
-                                "4:22 - 4:29",
-                                `/en-US/docs/Mozilla/Firefox/Releases/1.5/Using_Firefox_1.5_caching
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-  <head>
-    <title>Order query Firefox 1.5 Example</title>
-    <style type="text/css">
-      body,
-      p {
-        font-family: Verdana, sans-serif;
-        font-size: 12px;
-      }
-    </style>
-    <script>
-      function onLoad() {
-        loadOnlyFirst();
-        onPageShow();
-      }
-
-      function onPageShow() {
-        // Calculate current time
-        var currentTime = new Date();
-        var year = currentTime.getFullYear();
-        var month = currentTime.getMonth() + 1;
-        var day = currentTime.getDate();
-        var hour = currentTime.getHours();
-        var min = currentTime.getMinutes();
-        var sec = currentTime.getSeconds();
-        var mil = currentTime.getMilliseconds();
-        var displayTime =
-          month +
-          "/" +
-          day +
-          "/" +
-          year +
-          " " +
-          hour +
-          ":" +
-          min +
-          ":" +
-          sec +
-          ":" +
-          mil;
-        document.getElementById("time-field").value = displayTime;
-      }
-
-      function loadOnlyFirst() {
-        document.zipForm.name.focus();
-      }
-    </script>
-  </head>
-  <body onload="onLoad();" onpageshow="if (event.persisted) onPageShow();">
-    <h2>Order query</h2>
-
-    <form
-      name="zipForm"
-      action="http://www.example.com/formresult.html"
-      method="get">
-      <label for="time-field">Date and time:</label>
-      <input type="text" id="time-field" /><br />
-      <label for="name">Name:</label>
-      <input type="text" id="name" /><br />
-      <label for="address">Email address:</label>
-      <input type="text" id="address" /><br />
-      <label for="order">Order number:</label>
-      <input type="text" id="order" /><br />
-      <input type="submit" name="submit" value="Submit Query" />
-    </form>
-  </body>
-</html>
-~~~
-`
-                              ]
                             }
                           ]
                         },
@@ -30763,19 +22022,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                     },
                     understanding_wcag: {
                       children: {
-                        keyboard: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Keyboard",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         perceivable: {
                           children: {
                             color_contrast: {
@@ -30830,92 +22076,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                           message: "External sandbox link",
                           data: [
                             "https://codepen.io/rachelnabors/pen/PNYGZQ?editors=0010"
-                          ]
-                        }
-                      ]
-                    },
-                    overallprogress: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Animation/overallProgress",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "6:16 - 6:21",
-                            `/en-US/docs/Web/API/Animation/overallProgress
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 500px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.progress {
-  font-weight: bold;
-}
-
-.box {
-  width: 100px;
-  height: 100px;
-  border-radius: 40px 20px;
-  border: 10px solid black;
-  background: lightseagreen;
-  margin: 0 auto;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "6:23 - 6:32",
-                            `/en-US/docs/Web/API/Animation/overallProgress
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: 500px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.progress {
-  font-weight: bold;
-}
-
-.box {
-  width: 100px;
-  height: 100px;
-  border-radius: 40px 20px;
-  border: 10px solid black;
-  background: lightseagreen;
-  margin: 0 auto;
-}
-~~~
-`
                           ]
                         }
                       ]
@@ -31457,61 +22617,6 @@ li:nth-of-type(3n + 1) {
                     }
                   }
                 },
-                cssfontfacerule: {
-                  children: {
-                    style: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSFontFaceRule/style",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "MyHelvetica" (font-family-name-quotes)',
-                            "  font-family: MyHelvetica;",
-                            "2:16 - 2:27",
-                            `/en-US/docs/Web/API/CSSFontFaceRule/style
-[font-family-name-quotes] Expected quotes around "MyHelvetica" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: MyHelvetica;
-  src:
-    local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"),
-    url("MgOpenModernaBold.ttf");
-  font-weight: bold;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/CSSFontFaceRule",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "MyHelvetica" (font-family-name-quotes)',
-                        "  font-family: MyHelvetica;",
-                        "2:16 - 2:27",
-                        `/en-US/docs/Web/API/CSSFontFaceRule
-[font-family-name-quotes] Expected quotes around "MyHelvetica" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: MyHelvetica;
-  src:
-    local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"),
-    url("MgOpenModernaBold.ttf");
-  font-weight: bold;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 cssfontpalettevaluesrule: {
                   children: {
                     overridecolors: {
@@ -31734,37 +22839,6 @@ api.DeviceOrientationEvent`,
                           ]
                         }
                       ]
-                    },
-                    examples: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Document_Object_Model/Examples",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial;",
-                            "5:16 - 5:21",
-                            `/en-US/docs/Web/API/Document_Object_Model/Examples
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  background-color: darkblue;
-}
-p {
-  font-family: Arial;
-  font-size: 10pt;
-  margin-left: 0.125in;
-}
-#lumpy {
-  display: none;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
                     }
                   },
                   slug: "/en-US/docs/Web/API/Document_Object_Model",
@@ -31800,80 +22874,6 @@ p {
                       ]
                     }
                   ]
-                },
-                element: {
-                  children: {
-                    requestfullscreen: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/requestFullscreen",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "helvetica" (font-family-name-quotes)',
-                            '  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;',
-                            "2:49 - 2:58",
-                            `/en-US/docs/Web/API/Element/requestFullscreen
-[font-family-name-quotes] Expected quotes around "helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 2em;
-}
-
-video::backdrop {
-  background-color: #444488;
-}
-button {
-  display: block;
-}
-kbd {
-  border: 2px solid #cdcdcd;
-  border-radius: 3px;
-  box-shadow: inset 0 -1px 0 0 #cdcdcd;
-  font-size: 0.825rem;
-  padding: 0.25rem;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "arial" (font-family-name-quotes)',
-                            '  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;',
-                            "2:60 - 2:65",
-                            `/en-US/docs/Web/API/Element/requestFullscreen
-[font-family-name-quotes] Expected quotes around "arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 2em;
-}
-
-video::backdrop {
-  background-color: #444488;
-}
-button {
-  display: block;
-}
-kbd {
-  border: 2px solid #cdcdcd;
-  border-radius: 3px;
-  box-shadow: inset 0 -1px 0 0 #cdcdcd;
-  font-size: 0.825rem;
-  padding: 0.25rem;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 fetchevent: {
                   children: {
@@ -31979,7 +22979,7 @@ api.Document.fullscreen`,
                       slug: "/en-US/docs/Web/API/HighlightRegistry/highlightsFromPoint",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -32039,7 +23039,7 @@ article {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -32099,7 +23099,7 @@ article {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -32216,7 +23216,7 @@ article {
                       slug: "/en-US/docs/Web/API/HTMLElement/hidden",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -32255,7 +23255,7 @@ h1 {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -32294,7 +23294,7 @@ h1 {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -32333,7 +23333,7 @@ h1 {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -32441,7 +23441,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -32500,7 +23500,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -32559,7 +23559,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -32611,7 +23611,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -32663,7 +23663,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Verdana" (font-family-name-quotes)',
@@ -32749,7 +23749,7 @@ img {
 
 output {
   background: rgb(100 100 100 / 100%);
-  font-family: Courier, monospace;
+  font-family: "Courier New", monospace;
   width: 95%;
 }
 ~~~
@@ -32757,7 +23757,7 @@ output {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -32785,43 +23785,7 @@ img {
 
 output {
   background: rgb(100 100 100 / 100%);
-  font-family: Courier, monospace;
-  width: 95%;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Courier" (font-family-name-quotes)',
-                            "  font-family: Courier, monospace;",
-                            "20:16 - 20:23",
-                            `/en-US/docs/Web/API/HTMLImageElement/crossOrigin
-[font-family-name-quotes] Expected quotes around "Courier" (font-family-name-quotes)
-~~~
-body {
-  font:
-    1.125rem/1.5 Helvetica,
-    sans-serif;
-}
-
-.container {
-  display: flow-root;
-  width: 37.5em;
-  border: 1px solid #d2d2d2;
-}
-
-img {
-  float: left;
-  padding-right: 1.5em;
-}
-
-output {
-  background: rgb(100 100 100 / 100%);
-  font-family: Courier, monospace;
+  font-family: "Courier New", monospace;
   width: 95%;
 }
 ~~~
@@ -32835,7 +23799,7 @@ output {
                       slug: "/en-US/docs/Web/API/HTMLImageElement/sizes",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Verdana" (font-family-name-quotes)',
@@ -32871,7 +23835,7 @@ article img {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -32907,7 +23871,7 @@ article img {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -32963,7 +23927,7 @@ article img {
 [alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
 ~~~
 body {
-  font-family: "Open Sans", "Arial", "Helvetica", sans-serif;
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
   background-color: aliceblue;
 }
 
@@ -33271,62 +24235,6 @@ article h2 {
                     }
                   ]
                 },
-                keyboardevent: {
-                  children: {
-                    code: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/KeyboardEvent/code",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "2:16 - 2:21",
-                            `/en-US/docs/Web/API/KeyboardEvent/code
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-#output {
-  font-family: Arial, Helvetica, sans-serif;
-  border: 1px solid black;
-  width: 95%;
-  margin: auto;
-}
-#output:focus-visible {
-  outline: 3px solid dodgerblue;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "2:23 - 2:32",
-                            `/en-US/docs/Web/API/KeyboardEvent/code
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-#output {
-  font-family: Arial, Helvetica, sans-serif;
-  border: 1px solid black;
-  width: 95%;
-  margin: auto;
-}
-#output:focus-visible {
-  outline: 3px solid dodgerblue;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 location: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Location",
@@ -33350,82 +24258,7 @@ body {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-  font-family: Georgia;
-  font-size: 200%;
-  line-height: 1em;
-  white-space: nowrap;
-}
-
-[title] {
-  position: relative;
-  display: inline-block;
-  box-sizing: border-box;
-  line-height: 2em;
-  cursor: pointer;
-  color: gray;
-}
-
-[title]::before {
-  content: attr(title);
-  font-family: monospace;
-  position: absolute;
-  top: 100%;
-  width: 100%;
-  left: 50%;
-  margin-left: -50%;
-  font-size: 50%;
-  line-height: 1.5;
-  background: black;
-}
-
-[title]:hover::before,
-:target::before {
-  background: black;
-  color: yellow;
-}
-
-[title] [title]::before {
-  margin-top: 1.5em;
-}
-
-[title] [title] [title]::before {
-  margin-top: 3em;
-}
-
-[title] [title] [title] [title]::before {
-  margin-top: 4.5em;
-}
-
-[title]:hover,
-:target {
-  position: relative;
-  z-index: 1;
-  outline: 50em solid rgb(255 255 255 / 80%);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Georgia" (font-family-name-quotes)',
-                        "  font-family: Georgia;",
-                        "10:16 - 10:23",
-                        `/en-US/docs/Web/API/Location
-[font-family-name-quotes] Expected quotes around "Georgia" (font-family-name-quotes)
-~~~
-html {
-  display: table;
-  width: 100%;
-}
-
-body {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  font-family: Georgia;
+  font-family: "Georgia";
   font-size: 200%;
   line-height: 1em;
   white-space: nowrap;
@@ -33923,36 +24756,6 @@ code {
                     }
                   }
                 },
-                media_source_extensions_api: {
-                  children: {
-                    dash_adaptive_streaming: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Media_Source_Extensions_API/DASH_Adaptive_Streaming",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.ffmpeg.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    transcoding_assets_for_mse: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Media_Source_Extensions_API/Transcoding_assets_for_MSE",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://ffmpeg.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 mediadevices: {
                   children: {
                     getsupportedconstraints: {
@@ -33960,7 +24763,7 @@ code {
                       slug: "/en-US/docs/Web/API/MediaDevices/getSupportedConstraints",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -33989,7 +24792,7 @@ body {
                       slug: "/en-US/docs/Web/API/MediaQueryList/media",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "arial" (font-family-name-quotes)',
@@ -34276,157 +25079,7 @@ aside {
 [alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
 ~~~
 html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Transition for the popover itself */
-
-[popover]:popover-open {
-  opacity: 1;
-  transform: scaleX(1);
-}
-
-[popover] {
-  font-size: 1.2rem;
-  padding: 10px;
-
-  /* Final state of the exit animation */
-  opacity: 0;
-  transform: scaleX(0);
-
-  transition:
-    opacity 0.7s,
-    transform 0.7s,
-    overlay 0.7s allow-discrete,
-    display 0.7s allow-discrete;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-}
-
-/* Needs to be after the previous [popover]:popover-open rule
-to take effect, as the specificity is the same */
-@starting-style {
-  [popover]:popover-open {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-}
-
-/* Transition for the popover's backdrop */
-
-[popover]::backdrop {
-  background-color: transparent;
-  transition:
-    display 0.7s allow-discrete,
-    overlay 0.7s allow-discrete,
-    background-color 0.7s;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-}
-
-[popover]:popover-open::backdrop {
-  background-color: rgb(0 0 0 / 25%);
-}
-
-/* The nesting selector (&) cannot represent pseudo-elements
-so this starting-style rule cannot be nested */
-
-@starting-style {
-  [popover]:popover-open::backdrop {
-    background-color: transparent;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "2:16 - 2:21",
-                            `/en-US/docs/Web/API/Popover_API/Using
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Transition for the popover itself */
-
-[popover]:popover-open {
-  opacity: 1;
-  transform: scaleX(1);
-}
-
-[popover] {
-  font-size: 1.2rem;
-  padding: 10px;
-
-  /* Final state of the exit animation */
-  opacity: 0;
-  transform: scaleX(0);
-
-  transition:
-    opacity 0.7s,
-    transform 0.7s,
-    overlay 0.7s allow-discrete,
-    display 0.7s allow-discrete;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-}
-
-/* Needs to be after the previous [popover]:popover-open rule
-to take effect, as the specificity is the same */
-@starting-style {
-  [popover]:popover-open {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-}
-
-/* Transition for the popover's backdrop */
-
-[popover]::backdrop {
-  background-color: transparent;
-  transition:
-    display 0.7s allow-discrete,
-    overlay 0.7s allow-discrete,
-    background-color 0.7s;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-}
-
-[popover]:popover-open::backdrop {
-  background-color: rgb(0 0 0 / 25%);
-}
-
-/* The nesting selector (&) cannot represent pseudo-elements
-so this starting-style rule cannot be nested */
-
-@starting-style {
-  [popover]:popover-open::backdrop {
-    background-color: transparent;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "2:23 - 2:32",
-                            `/en-US/docs/Web/API/Popover_API/Using
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 /* Transition for the popover itself */
@@ -34501,153 +25154,7 @@ so this starting-style rule cannot be nested */
 [alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
 ~~~
 html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-[popover] {
-  font-size: 1.2rem;
-  padding: 10px;
-  animation: fade-out 0.7s ease-out;
-}
-
-[popover]:popover-open {
-  animation: fade-in 0.7s ease-out;
-}
-
-[popover]:popover-open::backdrop {
-  animation: backdrop-fade-in 0.7s ease-out forwards;
-}
-
-/* Animation keyframes */
-
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  100% {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-
-@keyframes fade-out {
-  0% {
-    opacity: 1;
-    transform: scaleX(1);
-    /* display needed on the closing animation to keep the popover
-    visible until the animation ends */
-    display: block;
-  }
-
-  100% {
-    opacity: 0;
-    transform: scaleX(0);
-    /* display: none not required here because it is the default value
-    for a closed popover, but including it so the behavior is clear */
-    display: none;
-  }
-}
-
-@keyframes backdrop-fade-in {
-  0% {
-    background-color: transparent;
-  }
-
-  100% {
-    background-color: rgb(0 0 0 / 25%);
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "2:16 - 2:21",
-                            `/en-US/docs/Web/API/Popover_API/Using
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-[popover] {
-  font-size: 1.2rem;
-  padding: 10px;
-  animation: fade-out 0.7s ease-out;
-}
-
-[popover]:popover-open {
-  animation: fade-in 0.7s ease-out;
-}
-
-[popover]:popover-open::backdrop {
-  animation: backdrop-fade-in 0.7s ease-out forwards;
-}
-
-/* Animation keyframes */
-
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  100% {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-
-@keyframes fade-out {
-  0% {
-    opacity: 1;
-    transform: scaleX(1);
-    /* display needed on the closing animation to keep the popover
-    visible until the animation ends */
-    display: block;
-  }
-
-  100% {
-    opacity: 0;
-    transform: scaleX(0);
-    /* display: none not required here because it is the default value
-    for a closed popover, but including it so the behavior is clear */
-    display: none;
-  }
-}
-
-@keyframes backdrop-fade-in {
-  0% {
-    background-color: transparent;
-  }
-
-  100% {
-    background-color: rgb(0 0 0 / 25%);
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "2:23 - 2:32",
-                            `/en-US/docs/Web/API/Popover_API/Using
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 [popover] {
@@ -34954,80 +25461,6 @@ html {
                     }
                   }
                 },
-                scrolltimeline: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/ScrollTimeline",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "16:16 - 16:21",
-                        `/en-US/docs/Web/API/ScrollTimeline
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.content {
-  height: 2000px;
-}
-
-.box {
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
-  background-color: rebeccapurple;
-  position: fixed;
-  top: 20px;
-  left: 0%;
-}
-
-.output {
-  font-family: Arial, Helvetica, sans-serif;
-  position: fixed;
-  top: 5px;
-  right: 5px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "16:23 - 16:32",
-                        `/en-US/docs/Web/API/ScrollTimeline
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-.content {
-  height: 2000px;
-}
-
-.box {
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
-  background-color: rebeccapurple;
-  position: fixed;
-  top: 20px;
-  left: 0%;
-}
-
-.output {
-  font-family: Arial, Helvetica, sans-serif;
-  position: fixed;
-  top: 5px;
-  right: 5px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "server-sent_events": {
                   children: {
                     "using_server-sent_events": {
@@ -35109,116 +25542,6 @@ html {
                     }
                   ]
                 },
-                summarizer_api: {
-                  children: {
-                    using: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Summarizer_API/Using",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "6:16 - 6:21",
-                            `/en-US/docs/Web/API/Summarizer_API/Using
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-form div {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-select,
-textarea,
-.summary-output {
-  padding: 5px;
-}
-
-.summary-output {
-  min-height: 150px;
-  border: 1px solid black;
-  width: 100%;
-  display: block;
-}
-
-.error {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "6:23 - 6:32",
-                            `/en-US/docs/Web/API/Summarizer_API/Using
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-form div {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-select,
-textarea,
-.summary-output {
-  padding: 5px;
-}
-
-.summary-output {
-  min-height: 150px;
-  border: 1px solid black;
-  width: 100%;
-  display: block;
-}
-
-.error {
-  color: red;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 touch_events: {
                   children: {
                     "multi-touch_interaction": {
@@ -35257,116 +25580,6 @@ textarea,
                       ]
                     }
                   ]
-                },
-                translator_and_language_detector_apis: {
-                  children: {
-                    using: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Translator_and_Language_Detector_APIs/Using",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "6:16 - 6:21",
-                            `/en-US/docs/Web/API/Translator_and_Language_Detector_APIs/Using
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-form div {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-select,
-textarea,
-.translate-output {
-  padding: 5px;
-}
-
-.translate-output {
-  min-height: 150px;
-  border: 1px solid black;
-  width: 100%;
-  display: block;
-}
-
-.error {
-  color: red;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "6:23 - 6:32",
-                            `/en-US/docs/Web/API/Translator_and_Language_Detector_APIs/Using
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-form div {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-select,
-textarea,
-.translate-output {
-  padding: 5px;
-}
-
-.translate-output {
-  min-height: 150px;
-  border: 1px solid black;
-  width: 100%;
-  display: block;
-}
-
-.error {
-  color: red;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 ui_events: {
                   children: {},
@@ -35545,106 +25758,6 @@ env(viewport-segment-width 0 1)
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/API/Viewport_API"
-                      ]
-                    }
-                  ]
-                },
-                viewtimeline: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/ViewTimeline",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "23:16 - 23:21",
-                        `/en-US/docs/Web/API/ViewTimeline
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 75%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.output {
-  position: fixed;
-  top: 5px;
-  right: 5px;
-}
-
-p,
-h1,
-div {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "23:23 - 23:32",
-                        `/en-US/docs/Web/API/ViewTimeline
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 75%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.output {
-  position: fixed;
-  top: 5px;
-  right: 5px;
-}
-
-p,
-h1,
-div {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-~~~
-`
                       ]
                     }
                   ]
@@ -35896,21 +26009,21 @@ p {
                       slug: "/en-US/docs/Web/API/Web_components/Using_templates_and_slots",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Consolas" (font-family-name-quotes)',
-                            '  font-family: Consolas, "Liberation Mono", Courier;',
-                            "6:16 - 6:24",
+                            "font-family-no-missing-generic-family-keyword",
+                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                            '  font-family: "Consolas", "Liberation Mono", "Courier New";',
+                            "6:47 - 6:60",
                             `/en-US/docs/Web/API/Web_components/Using_templates_and_slots
-[font-family-name-quotes] Expected quotes around "Consolas" (font-family-name-quotes)
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
 ~~~
 dl {
   margin-left: 6px;
 }
 dt {
   color: #217ac0;
-  font-family: Consolas, "Liberation Mono", Courier;
+  font-family: "Consolas", "Liberation Mono", "Courier New";
   font-size: 110%;
   font-weight: bold;
 }
@@ -35921,208 +26034,6 @@ dd {
 body {
   margin-top: 47px;
 }
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Courier" (font-family-name-quotes)',
-                            '  font-family: Consolas, "Liberation Mono", Courier;',
-                            "6:45 - 6:52",
-                            `/en-US/docs/Web/API/Web_components/Using_templates_and_slots
-[font-family-name-quotes] Expected quotes around "Courier" (font-family-name-quotes)
-~~~
-dl {
-  margin-left: 6px;
-}
-dt {
-  color: #217ac0;
-  font-family: Consolas, "Liberation Mono", Courier;
-  font-size: 110%;
-  font-weight: bold;
-}
-dd {
-  margin-left: 16px;
-}
-
-body {
-  margin-top: 47px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            '      font-family: "Open Sans Light", Helvetica, Arial;',
-                            "3:39 - 3:48",
-                            `/en-US/docs/Web/API/Web_components/Using_templates_and_slots
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-<template id="element-details-template">
-  <style>
-    details {
-      font-family: "Open Sans Light", Helvetica, Arial;
-    }
-    .name {
-      font-weight: bold;
-      color: #217ac0;
-      font-size: 120%;
-    }
-    h4 {
-      margin: 10px 0 -8px 0;
-    }
-    h4 span {
-      background: #217ac0;
-      padding: 2px 6px;
-    }
-    h4 span {
-      border: 1px solid #cee9f9;
-      border-radius: 4px;
-    }
-    h4 span {
-      color: white;
-    }
-    .attributes {
-      margin-left: 22px;
-      font-size: 90%;
-    }
-    .attributes p {
-      margin-left: 16px;
-      font-style: italic;
-    }
-  </style>
-  <details>
-    <summary>
-      <span>
-        <code class="name"
-          >&lt;<slot name="element-name">NEED NAME</slot>&gt;</code
-        >
-        <span class="desc"
-          ><slot name="description">NEED DESCRIPTION</slot></span
-        >
-      </span>
-    </summary>
-    <div class="attributes">
-      <h4><span>Attributes</span></h4>
-      <slot name="attributes"><p>None</p></slot>
-    </div>
-  </details>
-  <hr />
-</template>
-
-<element-details>
-  <span slot="element-name">slot</span>
-  <span slot="description"
-    >A placeholder inside a web component that users can fill with their own
-    markup, with the effect of composing different DOM trees together.</span
-  >
-  <dl slot="attributes">
-    <dt>name</dt>
-    <dd>The name of the slot.</dd>
-  </dl>
-</element-details>
-
-<element-details>
-  <span slot="element-name">template</span>
-  <span slot="description"
-    >A mechanism for holding client- side content that is not to be rendered
-    when a page is loaded but may subsequently be instantiated during runtime
-    using JavaScript.</span
-  >
-</element-details>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            '      font-family: "Open Sans Light", Helvetica, Arial;',
-                            "3:50 - 3:55",
-                            `/en-US/docs/Web/API/Web_components/Using_templates_and_slots
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-<template id="element-details-template">
-  <style>
-    details {
-      font-family: "Open Sans Light", Helvetica, Arial;
-    }
-    .name {
-      font-weight: bold;
-      color: #217ac0;
-      font-size: 120%;
-    }
-    h4 {
-      margin: 10px 0 -8px 0;
-    }
-    h4 span {
-      background: #217ac0;
-      padding: 2px 6px;
-    }
-    h4 span {
-      border: 1px solid #cee9f9;
-      border-radius: 4px;
-    }
-    h4 span {
-      color: white;
-    }
-    .attributes {
-      margin-left: 22px;
-      font-size: 90%;
-    }
-    .attributes p {
-      margin-left: 16px;
-      font-style: italic;
-    }
-  </style>
-  <details>
-    <summary>
-      <span>
-        <code class="name"
-          >&lt;<slot name="element-name">NEED NAME</slot>&gt;</code
-        >
-        <span class="desc"
-          ><slot name="description">NEED DESCRIPTION</slot></span
-        >
-      </span>
-    </summary>
-    <div class="attributes">
-      <h4><span>Attributes</span></h4>
-      <slot name="attributes"><p>None</p></slot>
-    </div>
-  </details>
-  <hr />
-</template>
-
-<element-details>
-  <span slot="element-name">slot</span>
-  <span slot="description"
-    >A placeholder inside a web component that users can fill with their own
-    markup, with the effect of composing different DOM trees together.</span
-  >
-  <dl slot="attributes">
-    <dt>name</dt>
-    <dd>The name of the slot.</dd>
-  </dl>
-</element-details>
-
-<element-details>
-  <span slot="element-name">template</span>
-  <span slot="description"
-    >A mechanism for holding client- side content that is not to be rendered
-    when a page is loaded but may subsequently be instantiated during runtime
-    using JavaScript.</span
-  >
-</element-details>
 ~~~
 `
                           ]
@@ -36290,7 +26201,7 @@ api.Window.sessionStorage`,
                       slug: "/en-US/docs/Web/API/Window/devicePixelRatio",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "arial" (font-family-name-quotes)',
@@ -36322,7 +26233,7 @@ body {
                       slug: "/en-US/docs/Web/API/Window/matchMedia",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "arial" (font-family-name-quotes)',
@@ -36660,41 +26571,6 @@ body {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/:-moz-drag-over",
                   messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/:-moz-drag-over
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial;
-}
-div {
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  border: 2px dotted black;
-  background-color: aquamarine;
-  margin: 1rem;
-}
-p {
-  padding: 1rem;
-}
-
-#drop-target {
-  background-color: cornflowerblue;
-}
-#drop-target:-moz-drag-over {
-  background-color: red;
-}
-~~~
-`
-                      ]
-                    },
                     {
                       message: "Not in BCD",
                       data: [
@@ -37316,86 +27192,6 @@ css.selectors.-webkit-resizer`,
                     }
                   ]
                 },
-                _doublecolon_after: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::after",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "3:16 - 3:21",
-                        `/en-US/docs/Web/CSS/::after
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-ul {
-  font-size: 1.5rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-ul::before,
-ul::after {
-  display: list-item;
-  color: orange;
-}
-
-ul::before {
-  content: "Start";
-}
-
-ul::after {
-  content: "End";
-}
-
-ul::before::marker,
-ul::after::marker {
-  color: red;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "3:23 - 3:32",
-                        `/en-US/docs/Web/CSS/::after
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-ul {
-  font-size: 1.5rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-ul::before,
-ul::after {
-  display: list-item;
-  color: orange;
-}
-
-ul::before {
-  content: "Start";
-}
-
-ul::after {
-  content: "End";
-}
-
-ul::before::marker,
-ul::after::marker {
-  color: red;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 _doublecolon_backdrop: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/::backdrop",
@@ -37420,362 +27216,6 @@ dialog::backdrop {
                     }
                   ]
                 },
-                _doublecolon_before: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::before",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "3:16 - 3:21",
-                        `/en-US/docs/Web/CSS/::before
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-ul {
-  font-size: 1.5rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-ul::before,
-ul::after {
-  display: list-item;
-  color: orange;
-}
-
-ul::before {
-  content: "Start";
-}
-
-ul::after {
-  content: "End";
-}
-
-ul::before::marker,
-ul::after::marker {
-  color: red;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "3:23 - 3:32",
-                        `/en-US/docs/Web/CSS/::before
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-ul {
-  font-size: 1.5rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-ul::before,
-ul::after {
-  display: list-item;
-  color: orange;
-}
-
-ul::before {
-  content: "Start";
-}
-
-ul::after {
-  content: "End";
-}
-
-ul::before::marker,
-ul::after::marker {
-  color: red;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                _doublecolon_column: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::column",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "7:16 - 7:21",
-                        `/en-US/docs/Web/CSS/::column
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-ul {
-  width: 100vw;
-  height: 300px;
-  padding: 10px;
-
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-
-  columns: 1;
-  text-align: center;
-}
-
-li {
-  list-style-type: none;
-
-  display: inline-block;
-  height: 100%;
-  width: 200px;
-  text-align: left;
-
-  background-color: #eeeeee;
-  outline: 1px solid #dddddd;
-  padding: 0 20px;
-  margin: 0 10px;
-}
-
-li:nth-child(even) {
-  background-color: cyan;
-}
-
-ul::column {
-  scroll-snap-align: center;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "7:23 - 7:32",
-                        `/en-US/docs/Web/CSS/::column
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-ul {
-  width: 100vw;
-  height: 300px;
-  padding: 10px;
-
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-
-  columns: 1;
-  text-align: center;
-}
-
-li {
-  list-style-type: none;
-
-  display: inline-block;
-  height: 100%;
-  width: 200px;
-  text-align: left;
-
-  background-color: #eeeeee;
-  outline: 1px solid #dddddd;
-  padding: 0 20px;
-  margin: 0 10px;
-}
-
-li:nth-child(even) {
-  background-color: cyan;
-}
-
-ul::column {
-  scroll-snap-align: center;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "7:16 - 7:21",
-                        `/en-US/docs/Web/CSS/::column
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-ul {
-  width: 100vw;
-  height: 300px;
-  padding: 10px;
-
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-
-  columns: 1;
-  text-align: center;
-}
-
-li {
-  list-style-type: none;
-
-  display: inline-block;
-  height: 100%;
-  width: 200px;
-  text-align: left;
-
-  background-color: #eeeeee;
-  outline: 1px solid #dddddd;
-  padding: 0 20px;
-  margin: 0 10px;
-}
-
-li:nth-child(even) {
-  background-color: cyan;
-}
-
-ul::column {
-  scroll-snap-align: center;
-}
-
-ul {
-  scroll-marker-group: after;
-}
-
-::scroll-marker-group {
-  display: flex;
-  gap: 0.4em;
-  place-content: center;
-}
-
-ul::column::scroll-marker {
-  content: "";
-  width: 16px;
-  height: 16px;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 10px;
-}
-
-ul::column::scroll-marker:target-current {
-  background-color: black;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "7:23 - 7:32",
-                        `/en-US/docs/Web/CSS/::column
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-ul {
-  width: 100vw;
-  height: 300px;
-  padding: 10px;
-
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-
-  columns: 1;
-  text-align: center;
-}
-
-li {
-  list-style-type: none;
-
-  display: inline-block;
-  height: 100%;
-  width: 200px;
-  text-align: left;
-
-  background-color: #eeeeee;
-  outline: 1px solid #dddddd;
-  padding: 0 20px;
-  margin: 0 10px;
-}
-
-li:nth-child(even) {
-  background-color: cyan;
-}
-
-ul::column {
-  scroll-snap-align: center;
-}
-
-ul {
-  scroll-marker-group: after;
-}
-
-::scroll-marker-group {
-  display: flex;
-  gap: 0.4em;
-  place-content: center;
-}
-
-ul::column::scroll-marker {
-  content: "";
-  width: 16px;
-  height: 16px;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 10px;
-}
-
-ul::column::scroll-marker:target-current {
-  background-color: black;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 _doublecolon_cue: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/::cue",
@@ -37793,298 +27233,6 @@ ul::column::scroll-marker:target-current {
 ::cue {
   color: white;
   background-color: rgb(0 0 0 / 60%);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "_doublecolon_scroll-marker-group": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::scroll-marker-group",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "7:16 - 7:21",
-                        `/en-US/docs/Web/CSS/::scroll-marker-group
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-ul {
-  display: flex;
-  gap: 4vw;
-  padding-left: 0;
-  overflow-x: auto;
-  overscroll-behavior-x: contain;
-  scroll-snap-type: x mandatory;
-}
-
-li {
-  list-style-type: none;
-  background-color: #eeeeee;
-  flex: 0 0 100%;
-  height: 200px;
-  padding-top: 20px;
-  scroll-snap-align: start;
-  text-align: center;
-}
-
-ul {
-  scroll-marker-group: after;
-}
-
-ul::scroll-marker-group {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-li::scroll-marker {
-  width: 16px;
-  height: 16px;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 50%;
-  content: "";
-}
-
-li::scroll-marker:target-current {
-  background-color: black;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "7:23 - 7:32",
-                        `/en-US/docs/Web/CSS/::scroll-marker-group
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-ul {
-  display: flex;
-  gap: 4vw;
-  padding-left: 0;
-  overflow-x: auto;
-  overscroll-behavior-x: contain;
-  scroll-snap-type: x mandatory;
-}
-
-li {
-  list-style-type: none;
-  background-color: #eeeeee;
-  flex: 0 0 100%;
-  height: 200px;
-  padding-top: 20px;
-  scroll-snap-align: start;
-  text-align: center;
-}
-
-ul {
-  scroll-marker-group: after;
-}
-
-ul::scroll-marker-group {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-li::scroll-marker {
-  width: 16px;
-  height: 16px;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 50%;
-  content: "";
-}
-
-li::scroll-marker:target-current {
-  background-color: black;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "7:16 - 7:21",
-                        `/en-US/docs/Web/CSS/::scroll-marker-group
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-ul {
-  display: flex;
-  gap: 4vw;
-  padding-left: 0;
-  overflow-x: auto;
-  overscroll-behavior-x: contain;
-  scroll-snap-type: x mandatory;
-}
-
-li {
-  list-style-type: none;
-  background-color: #eeeeee;
-  flex: 0 0 100%;
-  height: 200px;
-  padding-top: 20px;
-  scroll-snap-align: start;
-  text-align: center;
-}
-
-ul {
-  scroll-marker-group: after;
-}
-
-ul::scroll-marker-group {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-li::scroll-marker {
-  width: 16px;
-  height: 16px;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 50%;
-  content: "";
-}
-
-li::scroll-marker:target-current {
-  background-color: black;
-}
-
-ul {
-  anchor-name: --my-carousel;
-}
-
-ul::scroll-marker-group {
-  /* From the previous example */
-  display: flex;
-  gap: 20px;
-
-  position: absolute;
-  position-anchor: --my-carousel;
-  top: calc(anchor(bottom) - 70px);
-  justify-self: anchor-center;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "7:23 - 7:32",
-                        `/en-US/docs/Web/CSS/::scroll-marker-group
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-ul {
-  display: flex;
-  gap: 4vw;
-  padding-left: 0;
-  overflow-x: auto;
-  overscroll-behavior-x: contain;
-  scroll-snap-type: x mandatory;
-}
-
-li {
-  list-style-type: none;
-  background-color: #eeeeee;
-  flex: 0 0 100%;
-  height: 200px;
-  padding-top: 20px;
-  scroll-snap-align: start;
-  text-align: center;
-}
-
-ul {
-  scroll-marker-group: after;
-}
-
-ul::scroll-marker-group {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-li::scroll-marker {
-  width: 16px;
-  height: 16px;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 50%;
-  content: "";
-}
-
-li::scroll-marker:target-current {
-  background-color: black;
-}
-
-ul {
-  anchor-name: --my-carousel;
-}
-
-ul::scroll-marker-group {
-  /* From the previous example */
-  display: flex;
-  gap: 20px;
-
-  position: absolute;
-  position-anchor: --my-carousel;
-  top: calc(anchor(bottom) - 70px);
-  justify-self: anchor-center;
 }
 ~~~
 `
@@ -38308,54 +27456,6 @@ ul::scroll-marker-group {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "web-font" (font-family-name-quotes)',
-                            "  font-family: web-font;",
-                            "2:16 - 2:24",
-                            `/en-US/docs/Web/CSS/@font-face/ascent-override
-[font-family-name-quotes] Expected quotes around "web-font" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: web-font;
-  src: url("https://example.com/font.woff");
-}
-
-@font-face {
-  font-family: local-font;
-  src: local("Local Font");
-  ascent-override: 125%;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "local-font" (font-family-name-quotes)',
-                            "  font-family: local-font;",
-                            "7:16 - 7:26",
-                            `/en-US/docs/Web/CSS/@font-face/ascent-override
-[font-family-name-quotes] Expected quotes around "local-font" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: web-font;
-  src: url("https://example.com/font.woff");
-}
-
-@font-face {
-  font-family: local-font;
-  src: local("Local Font");
-  ascent-override: 125%;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -38366,54 +27466,6 @@ ul::scroll-marker-group {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "web-font" (font-family-name-quotes)',
-                            "  font-family: web-font;",
-                            "2:16 - 2:24",
-                            `/en-US/docs/Web/CSS/@font-face/descent-override
-[font-family-name-quotes] Expected quotes around "web-font" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: web-font;
-  src: url("https://example.com/font.woff");
-}
-
-@font-face {
-  font-family: local-font;
-  src: local("Local Font");
-  descent-override: 125%;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "local-font" (font-family-name-quotes)',
-                            "  font-family: local-font;",
-                            "7:16 - 7:26",
-                            `/en-US/docs/Web/CSS/@font-face/descent-override
-[font-family-name-quotes] Expected quotes around "local-font" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: web-font;
-  src: url("https://example.com/font.woff");
-}
-
-@font-face {
-  font-family: local-font;
-  src: local("Local Font");
-  descent-override: 125%;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -38428,29 +27480,6 @@ ul::scroll-marker-group {
                         {
                           message: "Stylelint backlog",
                           data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "ExampleFont" (font-family-name-quotes)',
-                            "  font-family: ExampleFont;",
-                            "2:16 - 2:27",
-                            `/en-US/docs/Web/CSS/@font-face/font-display
-[font-family-name-quotes] Expected quotes around "ExampleFont" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: ExampleFont;
-  src:
-    url("/path/to/fonts/example-font.woff") format("woff"),
-    url("/path/to/fonts/example-font.eot") format("embedded-opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: fallback;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
                             "font-weight-notation",
                             'Expected "400" to be "normal" (font-weight-notation)',
                             "  font-weight: 400;",
@@ -38459,7 +27488,7 @@ ul::scroll-marker-group {
 [font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
 ~~~
 @font-face {
-  font-family: ExampleFont;
+  font-family: "ExampleFont";
   src:
     url("/path/to/fonts/example-font.woff") format("woff"),
     url("/path/to/fonts/example-font.eot") format("embedded-opentype");
@@ -38490,138 +27519,6 @@ ul::scroll-marker-group {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "MonteCarlo" (font-family-name-quotes)',
-                            "  font-family: MonteCarlo;",
-                            "2:16 - 2:26",
-                            `/en-US/docs/Web/CSS/@font-face/font-feature-settings
-[font-family-name-quotes] Expected quotes around "MonteCarlo" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: MonteCarlo;
-  src: url("/shared-assets/fonts/monte-carlo/monte-carlo-regular.woff2");
-}
-@font-face {
-  font-family: MonteCarlo2;
-  src: url("/shared-assets/fonts/monte-carlo/monte-carlo-regular.woff2");
-  font-feature-settings: "swsh" 1;
-}
-p {
-  font-size: 3rem;
-  margin: 0.7rem 3rem;
-}
-.swash-off {
-  font-family: MonteCarlo, cursive;
-}
-.swash-on {
-  font-family: MonteCarlo2, cursive;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "MonteCarlo2" (font-family-name-quotes)',
-                            "  font-family: MonteCarlo2;",
-                            "6:16 - 6:27",
-                            `/en-US/docs/Web/CSS/@font-face/font-feature-settings
-[font-family-name-quotes] Expected quotes around "MonteCarlo2" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: MonteCarlo;
-  src: url("/shared-assets/fonts/monte-carlo/monte-carlo-regular.woff2");
-}
-@font-face {
-  font-family: MonteCarlo2;
-  src: url("/shared-assets/fonts/monte-carlo/monte-carlo-regular.woff2");
-  font-feature-settings: "swsh" 1;
-}
-p {
-  font-size: 3rem;
-  margin: 0.7rem 3rem;
-}
-.swash-off {
-  font-family: MonteCarlo, cursive;
-}
-.swash-on {
-  font-family: MonteCarlo2, cursive;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "MonteCarlo" (font-family-name-quotes)',
-                            "  font-family: MonteCarlo, cursive;",
-                            "15:16 - 15:26",
-                            `/en-US/docs/Web/CSS/@font-face/font-feature-settings
-[font-family-name-quotes] Expected quotes around "MonteCarlo" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: MonteCarlo;
-  src: url("/shared-assets/fonts/monte-carlo/monte-carlo-regular.woff2");
-}
-@font-face {
-  font-family: MonteCarlo2;
-  src: url("/shared-assets/fonts/monte-carlo/monte-carlo-regular.woff2");
-  font-feature-settings: "swsh" 1;
-}
-p {
-  font-size: 3rem;
-  margin: 0.7rem 3rem;
-}
-.swash-off {
-  font-family: MonteCarlo, cursive;
-}
-.swash-on {
-  font-family: MonteCarlo2, cursive;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "MonteCarlo2" (font-family-name-quotes)',
-                            "  font-family: MonteCarlo2, cursive;",
-                            "18:16 - 18:27",
-                            `/en-US/docs/Web/CSS/@font-face/font-feature-settings
-[font-family-name-quotes] Expected quotes around "MonteCarlo2" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: MonteCarlo;
-  src: url("/shared-assets/fonts/monte-carlo/monte-carlo-regular.woff2");
-}
-@font-face {
-  font-family: MonteCarlo2;
-  src: url("/shared-assets/fonts/monte-carlo/monte-carlo-regular.woff2");
-  font-feature-settings: "swsh" 1;
-}
-p {
-  font-size: 3rem;
-  margin: 0.7rem 3rem;
-}
-.swash-off {
-  font-family: MonteCarlo, cursive;
-}
-.swash-on {
-  font-family: MonteCarlo2, cursive;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -38642,43 +27539,6 @@ p {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "garamond" (font-family-name-quotes)',
-                            "  font-family: garamond;",
-                            "2:16 - 2:24",
-                            `/en-US/docs/Web/CSS/@font-face/font-style
-[font-family-name-quotes] Expected quotes around "garamond" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: garamond;
-  src: url("garamond.ttf");
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "garamond" (font-family-name-quotes)',
-                            "  font-family: garamond;",
-                            "2:16 - 2:24",
-                            `/en-US/docs/Web/CSS/@font-face/font-style
-[font-family-name-quotes] Expected quotes around "garamond" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: garamond;
-  src: url("garamond-italic.ttf");
-  font-style: italic;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -38967,70 +27827,6 @@ p.nine {
                         {
                           message: "Stylelint backlog",
                           data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "LeagueMono" (font-family-name-quotes)',
-                            "  font-family: LeagueMono;",
-                            "2:16 - 2:26",
-                            `/en-US/docs/Web/CSS/@font-face/font-weight
-[font-family-name-quotes] Expected quotes around "LeagueMono" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: LeagueMono;
-  src: url("https://mdn.github.io/shared-assets/fonts/LeagueMono-VF.ttf");
-  font-weight: 300 700;
-}
-
-p {
-  font-family: LeagueMono, serif;
-  font-size: 1.5rem;
-}
-
-p:first-of-type {
-  font-weight: 300;
-}
-
-p:last-of-type {
-  font-weight: 700;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "LeagueMono" (font-family-name-quotes)',
-                            "  font-family: LeagueMono, serif;",
-                            "8:16 - 8:26",
-                            `/en-US/docs/Web/CSS/@font-face/font-weight
-[font-family-name-quotes] Expected quotes around "LeagueMono" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: LeagueMono;
-  src: url("https://mdn.github.io/shared-assets/fonts/LeagueMono-VF.ttf");
-  font-weight: 300 700;
-}
-
-p {
-  font-family: LeagueMono, serif;
-  font-size: 1.5rem;
-}
-
-p:first-of-type {
-  font-weight: 300;
-}
-
-p:last-of-type {
-  font-weight: 700;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
                             "font-weight-notation",
                             'Expected "700" to be "bold" (font-weight-notation)',
                             "  font-weight: 300 700;",
@@ -39039,13 +27835,13 @@ p:last-of-type {
 [font-weight-notation] Expected "700" to be "bold" (font-weight-notation)
 ~~~
 @font-face {
-  font-family: LeagueMono;
+  font-family: "LeagueMono";
   src: url("https://mdn.github.io/shared-assets/fonts/LeagueMono-VF.ttf");
   font-weight: 300 700;
 }
 
 p {
-  font-family: LeagueMono, serif;
+  font-family: "LeagueMono", serif;
   font-size: 1.5rem;
 }
 
@@ -39071,13 +27867,13 @@ p:last-of-type {
 [font-weight-notation] Expected "700" to be "bold" (font-weight-notation)
 ~~~
 @font-face {
-  font-family: LeagueMono;
+  font-family: "LeagueMono";
   src: url("https://mdn.github.io/shared-assets/fonts/LeagueMono-VF.ttf");
   font-weight: 300 700;
 }
 
 p {
-  font-family: LeagueMono, serif;
+  font-family: "LeagueMono", serif;
   font-size: 1.5rem;
 }
 
@@ -39101,54 +27897,6 @@ p:last-of-type {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "web-font" (font-family-name-quotes)',
-                            "  font-family: web-font;",
-                            "2:16 - 2:24",
-                            `/en-US/docs/Web/CSS/@font-face/line-gap-override
-[font-family-name-quotes] Expected quotes around "web-font" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: web-font;
-  src: url("https://example.com/font.woff");
-}
-
-@font-face {
-  font-family: local-font;
-  src: local("Local Font");
-  line-gap-override: 125%;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "local-font" (font-family-name-quotes)',
-                            "  font-family: local-font;",
-                            "7:16 - 7:26",
-                            `/en-US/docs/Web/CSS/@font-face/line-gap-override
-[font-family-name-quotes] Expected quotes around "local-font" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: web-font;
-  src: url("https://example.com/font.woff");
-}
-
-@font-face {
-  font-family: local-font;
-  src: local("Local Font");
-  line-gap-override: 125%;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -39159,54 +27907,6 @@ p:last-of-type {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "web-font" (font-family-name-quotes)',
-                            "  font-family: web-font;",
-                            "2:16 - 2:24",
-                            `/en-US/docs/Web/CSS/@font-face/size-adjust
-[font-family-name-quotes] Expected quotes around "web-font" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: web-font;
-  src: url("https://example.com/font.woff");
-}
-
-@font-face {
-  font-family: local-font;
-  src: local("Local Font");
-  size-adjust: 90%;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "local-font" (font-family-name-quotes)',
-                            "  font-family: local-font;",
-                            "7:16 - 7:26",
-                            `/en-US/docs/Web/CSS/@font-face/size-adjust
-[font-family-name-quotes] Expected quotes around "local-font" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: web-font;
-  src: url("https://example.com/font.woff");
-}
-
-@font-face {
-  font-family: local-font;
-  src: local("Local Font");
-  size-adjust: 90%;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -39217,138 +27917,6 @@ p:last-of-type {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "MainText" (font-family-name-quotes)',
-                            "  font-family: MainText;",
-                            "3:16 - 3:24",
-                            `/en-US/docs/Web/CSS/@font-face/src
-[font-family-name-quotes] Expected quotes around "MainText" (font-family-name-quotes)
-~~~
-/* Defining a regular font face */
-@font-face {
-  font-family: MainText;
-  src:
-    local("Futura-Medium"),
-    url("FuturaMedium.woff") format("woff"),
-    url("FuturaMedium.otf") format("opentype");
-}
-
-/* Defining a different bold font face for the same family */
-@font-face {
-  font-family: MainText;
-  src:
-    local("Gill Sans Bold") /* full font name */,
-    local("GillSans-Bold") /* postscript name */,
-    url("GillSansBold.woff") format("woff"),
-    url("GillSansBold.otf") format("opentype"),
-    url("GillSansBold.svg#MyFontBold"); /* Referencing an SVG font fragment by id */
-  font-weight: bold;
-}
-
-/* Using the regular font face */
-p {
-  font-family: MainText, sans-serif;
-}
-
-/* Font-family is inherited, but bold fonts are used */
-p.bold {
-  font-weight: bold;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "MainText" (font-family-name-quotes)',
-                            "  font-family: MainText;",
-                            "12:16 - 12:24",
-                            `/en-US/docs/Web/CSS/@font-face/src
-[font-family-name-quotes] Expected quotes around "MainText" (font-family-name-quotes)
-~~~
-/* Defining a regular font face */
-@font-face {
-  font-family: MainText;
-  src:
-    local("Futura-Medium"),
-    url("FuturaMedium.woff") format("woff"),
-    url("FuturaMedium.otf") format("opentype");
-}
-
-/* Defining a different bold font face for the same family */
-@font-face {
-  font-family: MainText;
-  src:
-    local("Gill Sans Bold") /* full font name */,
-    local("GillSans-Bold") /* postscript name */,
-    url("GillSansBold.woff") format("woff"),
-    url("GillSansBold.otf") format("opentype"),
-    url("GillSansBold.svg#MyFontBold"); /* Referencing an SVG font fragment by id */
-  font-weight: bold;
-}
-
-/* Using the regular font face */
-p {
-  font-family: MainText, sans-serif;
-}
-
-/* Font-family is inherited, but bold fonts are used */
-p.bold {
-  font-weight: bold;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "MainText" (font-family-name-quotes)',
-                            "  font-family: MainText, sans-serif;",
-                            "24:16 - 24:24",
-                            `/en-US/docs/Web/CSS/@font-face/src
-[font-family-name-quotes] Expected quotes around "MainText" (font-family-name-quotes)
-~~~
-/* Defining a regular font face */
-@font-face {
-  font-family: MainText;
-  src:
-    local("Futura-Medium"),
-    url("FuturaMedium.woff") format("woff"),
-    url("FuturaMedium.otf") format("opentype");
-}
-
-/* Defining a different bold font face for the same family */
-@font-face {
-  font-family: MainText;
-  src:
-    local("Gill Sans Bold") /* full font name */,
-    local("GillSans-Bold") /* postscript name */,
-    url("GillSansBold.woff") format("woff"),
-    url("GillSansBold.otf") format("opentype"),
-    url("GillSansBold.svg#MyFontBold"); /* Referencing an SVG font fragment by id */
-  font-weight: bold;
-}
-
-/* Using the regular font face */
-p {
-  font-family: MainText, sans-serif;
-}
-
-/* Font-family is inherited, but bold fonts are used */
-p.bold {
-  font-weight: bold;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -39359,54 +27927,6 @@ p.bold {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Ampersand" (font-family-name-quotes)',
-                            "  font-family: Ampersand, Helvetica, sans-serif;",
-                            "9:16 - 9:25",
-                            `/en-US/docs/Web/CSS/@font-face/unicode-range
-[font-family-name-quotes] Expected quotes around "Ampersand" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: "Ampersand";
-  src: local("Times New Roman");
-  unicode-range: U+26;
-}
-
-div {
-  font-size: 4em;
-  font-family: Ampersand, Helvetica, sans-serif;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Ampersand, Helvetica, sans-serif;",
-                            "9:27 - 9:36",
-                            `/en-US/docs/Web/CSS/@font-face/unicode-range
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: "Ampersand";
-  src: local("Times New Roman");
-  unicode-range: U+26;
-}
-
-div {
-  font-size: 4em;
-  font-family: Ampersand, Helvetica, sans-serif;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     }
@@ -39451,78 +27971,6 @@ div {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Bixa" (font-family-name-quotes)',
-                            "  font-family: Bixa;",
-                            "7:16 - 7:20",
-                            `/en-US/docs/Web/CSS/@font-palette-values/font-family
-[font-family-name-quotes] Expected quotes around "Bixa" (font-family-name-quotes)
-~~~
-@font-palette-values --Dark-Mode {
-  font-family: "Bungee Spice";
-  /* palette settings for Bungee Spice */
-}
-
-@font-palette-values --Dark-Mode {
-  font-family: Bixa;
-  /* palette settings for Bixa */
-}
-
-h1,
-h2 {
-  font-palette: --Dark-Mode;
-}
-
-h1 {
-  font-family: "Bungee Spice", fantasy;
-}
-
-h2 {
-  font-family: Bixa, fantasy;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Bixa" (font-family-name-quotes)',
-                            "  font-family: Bixa, fantasy;",
-                            "21:16 - 21:20",
-                            `/en-US/docs/Web/CSS/@font-palette-values/font-family
-[font-family-name-quotes] Expected quotes around "Bixa" (font-family-name-quotes)
-~~~
-@font-palette-values --Dark-Mode {
-  font-family: "Bungee Spice";
-  /* palette settings for Bungee Spice */
-}
-
-@font-palette-values --Dark-Mode {
-  font-family: Bixa;
-  /* palette settings for Bixa */
-}
-
-h1,
-h2 {
-  font-palette: --Dark-Mode;
-}
-
-h1 {
-  font-family: "Bungee Spice", fantasy;
-}
-
-h2 {
-  font-family: Bixa, fantasy;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -39905,241 +28353,6 @@ h2 {
                         {
                           message: "Stylelint backlog",
                           data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Montserrat" (font-family-name-quotes)',
-                            "    font-family: Montserrat;",
-                            "3:18 - 3:28",
-                            `/en-US/docs/Web/CSS/@media/prefers-reduced-data
-[font-family-name-quotes] Expected quotes around "Montserrat" (font-family-name-quotes)
-~~~
-@media (prefers-reduced-data: no-preference) {
-  @font-face {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    /* latin */
-    src:
-      local("Montserrat Regular"),
-      local("Montserrat-Regular"),
-      url("fonts/montserrat-regular.woff2") format("woff2");
-    unicode-range:
-      U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
-      U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-      U+FEFF, U+FFFD;
-  }
-}
-
-body {
-  font-family:
-    Montserrat,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Helvetica,
-    Arial,
-    "Microsoft YaHei",
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol";
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Montserrat" (font-family-name-quotes)',
-                            "    Montserrat,",
-                            "21:5 - 21:15",
-                            `/en-US/docs/Web/CSS/@media/prefers-reduced-data
-[font-family-name-quotes] Expected quotes around "Montserrat" (font-family-name-quotes)
-~~~
-@media (prefers-reduced-data: no-preference) {
-  @font-face {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    /* latin */
-    src:
-      local("Montserrat Regular"),
-      local("Montserrat-Regular"),
-      url("fonts/montserrat-regular.woff2") format("woff2");
-    unicode-range:
-      U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
-      U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-      U+FEFF, U+FFFD;
-  }
-}
-
-body {
-  font-family:
-    Montserrat,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Helvetica,
-    Arial,
-    "Microsoft YaHei",
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol";
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Roboto" (font-family-name-quotes)',
-                            "    Roboto,",
-                            "25:5 - 25:11",
-                            `/en-US/docs/Web/CSS/@media/prefers-reduced-data
-[font-family-name-quotes] Expected quotes around "Roboto" (font-family-name-quotes)
-~~~
-@media (prefers-reduced-data: no-preference) {
-  @font-face {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    /* latin */
-    src:
-      local("Montserrat Regular"),
-      local("Montserrat-Regular"),
-      url("fonts/montserrat-regular.woff2") format("woff2");
-    unicode-range:
-      U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
-      U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-      U+FEFF, U+FFFD;
-  }
-}
-
-body {
-  font-family:
-    Montserrat,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Helvetica,
-    Arial,
-    "Microsoft YaHei",
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol";
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "    Helvetica,",
-                            "26:5 - 26:14",
-                            `/en-US/docs/Web/CSS/@media/prefers-reduced-data
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-@media (prefers-reduced-data: no-preference) {
-  @font-face {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    /* latin */
-    src:
-      local("Montserrat Regular"),
-      local("Montserrat-Regular"),
-      url("fonts/montserrat-regular.woff2") format("woff2");
-    unicode-range:
-      U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
-      U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-      U+FEFF, U+FFFD;
-  }
-}
-
-body {
-  font-family:
-    Montserrat,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Helvetica,
-    Arial,
-    "Microsoft YaHei",
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol";
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "    Arial,",
-                            "27:5 - 27:10",
-                            `/en-US/docs/Web/CSS/@media/prefers-reduced-data
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-@media (prefers-reduced-data: no-preference) {
-  @font-face {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    /* latin */
-    src:
-      local("Montserrat Regular"),
-      local("Montserrat-Regular"),
-      url("fonts/montserrat-regular.woff2") format("woff2");
-    unicode-range:
-      U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
-      U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-      U+FEFF, U+FFFD;
-  }
-}
-
-body {
-  font-family:
-    Montserrat,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Helvetica,
-    Arial,
-    "Microsoft YaHei",
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol";
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
                             "font-weight-notation",
                             'Expected "400" to be "normal" (font-weight-notation)',
                             "    font-weight: 400;",
@@ -40149,7 +28362,7 @@ body {
 ~~~
 @media (prefers-reduced-data: no-preference) {
   @font-face {
-    font-family: Montserrat;
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -40167,18 +28380,14 @@ body {
 
 body {
   font-family:
-    Montserrat,
+    "Montserrat",
     -apple-system,
     BlinkMacSystemFont,
     "Segoe UI",
-    Roboto,
-    Helvetica,
-    Arial,
-    "Microsoft YaHei",
-    sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
-    "Segoe UI Symbol";
+    "Roboto",
+    "Helvetica",
+    "Arial",
+    sans-serif;
 }
 ~~~
 `
@@ -40312,66 +28521,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Roboto" (font-family-name-quotes)',
-                            "    font-family: Roboto, sans-serif;",
-                            "31:18 - 31:24",
-                            `/en-US/docs/Web/CSS/@page/page-orientation
-[font-family-name-quotes] Expected quotes around "Roboto" (font-family-name-quotes)
-~~~
-@page upright {
-  size: portrait;
-  page-orientation: upright;
-}
-
-@page left {
-  size: landscape;
-  page-orientation: rotate-left;
-}
-
-@page right {
-  size: landscape;
-  page-orientation: rotate-right;
-}
-
-fieldset {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 1rem;
-  width: fit-content;
-}
-p {
-  max-width: 60ch;
-}
-@media print {
-  fieldset {
-    display: none;
-  }
-  section {
-    font-family: Roboto, sans-serif;
-    font-size: 1.5rem;
-  }
-}
-
-@media print {
-  .upright {
-    page: upright;
-  }
-  .left {
-    page: left;
-  }
-  .right {
-    page: right;
-  }
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -40436,147 +28585,7 @@ p {
 [alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
 ~~~
 html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-[popover]:popover-open {
-  opacity: 1;
-  transform: scaleX(1);
-}
-
-[popover] {
-  font-size: 1.2rem;
-  padding: 10px;
-
-  /* Final state of the exit animation */
-  opacity: 0;
-  transform: scaleX(0);
-
-  transition:
-    opacity 0.7s,
-    transform 0.7s,
-    overlay 0.7s allow-discrete,
-    display 0.7s allow-discrete;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-}
-
-/* Include after the [popover]:popover-open rule */
-@starting-style {
-  [popover]:popover-open {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-}
-
-/* Transition for the popover's backdrop */
-[popover]::backdrop {
-  background-color: transparent;
-  transition:
-    display 0.7s allow-discrete,
-    overlay 0.7s allow-discrete,
-    background-color 0.7s;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-}
-
-[popover]:popover-open::backdrop {
-  background-color: rgb(0 0 0 / 25%);
-}
-
-/* Nesting (&) is not supported for pseudo-elements
-so specify a standalone starting-style block. */
-@starting-style {
-  [popover]:popover-open::backdrop {
-    background-color: transparent;
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/@starting-style
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-[popover]:popover-open {
-  opacity: 1;
-  transform: scaleX(1);
-}
-
-[popover] {
-  font-size: 1.2rem;
-  padding: 10px;
-
-  /* Final state of the exit animation */
-  opacity: 0;
-  transform: scaleX(0);
-
-  transition:
-    opacity 0.7s,
-    transform 0.7s,
-    overlay 0.7s allow-discrete,
-    display 0.7s allow-discrete;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-}
-
-/* Include after the [popover]:popover-open rule */
-@starting-style {
-  [popover]:popover-open {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-}
-
-/* Transition for the popover's backdrop */
-[popover]::backdrop {
-  background-color: transparent;
-  transition:
-    display 0.7s allow-discrete,
-    overlay 0.7s allow-discrete,
-    background-color 0.7s;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-}
-
-[popover]:popover-open::backdrop {
-  background-color: rgb(0 0 0 / 25%);
-}
-
-/* Nesting (&) is not supported for pseudo-elements
-so specify a standalone starting-style block. */
-@starting-style {
-  [popover]:popover-open::backdrop {
-    background-color: transparent;
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/@starting-style
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 [popover]:popover-open {
@@ -40789,644 +28798,6 @@ body {
   left: anchor(--my-anchor1 100%);
   bottom: anchor(--my-anchor2 0%);
   right: anchor(--my-anchor2 0%);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "animation-range": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-range",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "16:16 - 16:21",
-                        `/en-US/docs/Web/CSS/animation-range
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 75%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-p,
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.animation {
-  view-timeline: --subject-reveal block;
-  animation-timeline: --subject-reveal;
-
-  animation-name: appear;
-  animation-range: entry 10% contain 25%;
-  animation-fill-mode: both;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  to {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "16:23 - 16:32",
-                        `/en-US/docs/Web/CSS/animation-range
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 75%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-p,
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.animation {
-  view-timeline: --subject-reveal block;
-  animation-timeline: --subject-reveal;
-
-  animation-name: appear;
-  animation-range: entry 10% contain 25%;
-  animation-fill-mode: both;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  to {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "animation-range-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-range-end",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "16:16 - 16:21",
-                        `/en-US/docs/Web/CSS/animation-range-end
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 75%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-p,
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.animation {
-  view-timeline: --subject-reveal block;
-  animation-timeline: --subject-reveal;
-
-  animation-name: appear;
-  animation-range-end: contain 50%;
-  animation-fill-mode: both;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  to {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "16:23 - 16:32",
-                        `/en-US/docs/Web/CSS/animation-range-end
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 75%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-p,
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.animation {
-  view-timeline: --subject-reveal block;
-  animation-timeline: --subject-reveal;
-
-  animation-name: appear;
-  animation-range-end: contain 50%;
-  animation-fill-mode: both;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  to {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "animation-range-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-range-start",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "16:16 - 16:21",
-                        `/en-US/docs/Web/CSS/animation-range-start
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 75%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-p,
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.animation {
-  view-timeline: --subject-reveal block;
-  animation-timeline: --subject-reveal;
-
-  animation-name: appear;
-  animation-range-start: entry 25%;
-  animation-fill-mode: both;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  to {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "16:23 - 16:32",
-                        `/en-US/docs/Web/CSS/animation-range-start
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 75%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-p,
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.animation {
-  view-timeline: --subject-reveal block;
-  animation-timeline: --subject-reveal;
-
-  animation-name: appear;
-  animation-range-start: entry 25%;
-  animation-fill-mode: both;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  to {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "animation-timeline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/animation-timeline",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "16:16 - 16:21",
-                        `/en-US/docs/Web/CSS/animation-timeline
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 75%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-p,
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.animation {
-  view-timeline-name: --subject-reveal;
-  animation-timeline: --subject-reveal;
-
-  animation-name: appear;
-  animation-fill-mode: both;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  to {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "16:23 - 16:32",
-                        `/en-US/docs/Web/CSS/animation-timeline
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 75%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-p,
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.animation {
-  view-timeline-name: --subject-reveal;
-  animation-timeline: --subject-reveal;
-
-  animation-name: appear;
-  animation-fill-mode: both;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  to {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "16:16 - 16:21",
-                        `/en-US/docs/Web/CSS/animation-timeline
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 75%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-p,
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.animation {
-  animation-timeline: view();
-
-  animation-name: appear;
-  animation-fill-mode: both;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  to {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "16:23 - 16:32",
-                        `/en-US/docs/Web/CSS/animation-timeline
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 75%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-p,
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.animation {
-  animation-timeline: view();
-
-  animation-name: appear;
-  animation-fill-mode: both;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  to {
-    opacity: 1;
-    transform: scaleX(1);
-  }
 }
 ~~~
 `
@@ -42354,85 +29725,7 @@ p {
 [declaration-property-value-no-unknown] Unexpected unknown value "superellipse(0.5)" for property "corner-shape" (declaration-property-value-no-unknown)
 ~~~
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 0 20% 50px 30%;
-  corner-shape: superellipse(0.5) bevel notch squircle;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/border-radius
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 0 20% 50px 30%;
-  corner-shape: superellipse(0.5) bevel notch squircle;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/border-radius
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
   width: 240px;
   margin: 20px auto;
 }
@@ -42583,388 +29876,10 @@ blockquote {
                     }
                   ]
                 },
-                "break-after": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/break-after",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "helvetica" (font-family-name-quotes)',
-                        "  font-family: helvetica, arial, sans-serif;",
-                        "2:16 - 2:25",
-                        `/en-US/docs/Web/CSS/break-after
-[font-family-name-quotes] Expected quotes around "helvetica" (font-family-name-quotes)
-~~~
-html {
-  font-family: helvetica, arial, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-  letter-spacing: 2px;
-  column-span: all;
-}
-
-h2 {
-  font-size: 1.2rem;
-  color: red;
-  letter-spacing: 1px;
-}
-
-p {
-  line-height: 1.5;
-  break-after: column;
-}
-
-article {
-  column-width: 200px;
-  gap: 20px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "arial" (font-family-name-quotes)',
-                        "  font-family: helvetica, arial, sans-serif;",
-                        "2:27 - 2:32",
-                        `/en-US/docs/Web/CSS/break-after
-[font-family-name-quotes] Expected quotes around "arial" (font-family-name-quotes)
-~~~
-html {
-  font-family: helvetica, arial, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-  letter-spacing: 2px;
-  column-span: all;
-}
-
-h2 {
-  font-size: 1.2rem;
-  color: red;
-  letter-spacing: 1px;
-}
-
-p {
-  line-height: 1.5;
-  break-after: column;
-}
-
-article {
-  column-width: 200px;
-  gap: 20px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "break-before": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/break-before",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "helvetica" (font-family-name-quotes)',
-                        "  font-family: helvetica, arial, sans-serif;",
-                        "2:16 - 2:25",
-                        `/en-US/docs/Web/CSS/break-before
-[font-family-name-quotes] Expected quotes around "helvetica" (font-family-name-quotes)
-~~~
-html {
-  font-family: helvetica, arial, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-  letter-spacing: 2px;
-  column-span: all;
-}
-
-h2 {
-  font-size: 1.2rem;
-  color: red;
-  letter-spacing: 1px;
-  break-before: column;
-}
-
-p {
-  line-height: 1.5;
-}
-
-article {
-  column-width: 200px;
-  gap: 20px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "arial" (font-family-name-quotes)',
-                        "  font-family: helvetica, arial, sans-serif;",
-                        "2:27 - 2:32",
-                        `/en-US/docs/Web/CSS/break-before
-[font-family-name-quotes] Expected quotes around "arial" (font-family-name-quotes)
-~~~
-html {
-  font-family: helvetica, arial, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-  letter-spacing: 2px;
-  column-span: all;
-}
-
-h2 {
-  font-size: 1.2rem;
-  color: red;
-  letter-spacing: 1px;
-  break-before: column;
-}
-
-p {
-  line-height: 1.5;
-}
-
-article {
-  column-width: 200px;
-  gap: 20px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "break-inside": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/break-inside",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "helvetica" (font-family-name-quotes)',
-                        "  font-family: helvetica, arial, sans-serif;",
-                        "2:16 - 2:25",
-                        `/en-US/docs/Web/CSS/break-inside
-[font-family-name-quotes] Expected quotes around "helvetica" (font-family-name-quotes)
-~~~
-html {
-  font-family: helvetica, arial, sans-serif;
-}
-
-body {
-  width: 80%;
-  margin: 0 auto;
-}
-
-h1 {
-  font-size: 3rem;
-  letter-spacing: 2px;
-  column-span: all;
-}
-
-h1 + p {
-  margin-top: 0;
-}
-
-p {
-  line-height: 1.5;
-  break-after: column;
-}
-
-figure {
-  break-inside: avoid;
-}
-
-img {
-  max-width: 70%;
-  display: block;
-  margin: 0 auto;
-}
-
-figcaption {
-  font-style: italic;
-  font-size: 0.8rem;
-  width: 70%;
-}
-
-article {
-  column-width: 200px;
-  gap: 20px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "arial" (font-family-name-quotes)',
-                        "  font-family: helvetica, arial, sans-serif;",
-                        "2:27 - 2:32",
-                        `/en-US/docs/Web/CSS/break-inside
-[font-family-name-quotes] Expected quotes around "arial" (font-family-name-quotes)
-~~~
-html {
-  font-family: helvetica, arial, sans-serif;
-}
-
-body {
-  width: 80%;
-  margin: 0 auto;
-}
-
-h1 {
-  font-size: 3rem;
-  letter-spacing: 2px;
-  column-span: all;
-}
-
-h1 + p {
-  margin-top: 0;
-}
-
-p {
-  line-height: 1.5;
-  break-after: column;
-}
-
-figure {
-  break-inside: avoid;
-}
-
-img {
-  max-width: 70%;
-  display: block;
-  margin: 0 auto;
-}
-
-figcaption {
-  font-style: italic;
-  font-size: 0.8rem;
-  width: 70%;
-}
-
-article {
-  column-width: 200px;
-  gap: 20px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "calc-size": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/calc-size",
                   messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "6:16 - 6:21",
-                        `/en-US/docs/Web/CSS/calc-size
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-section {
-  font-family: Arial, Helvetica, sans-serif;
-  border: 1px solid black;
-}
-
-h2 {
-  margin: 0;
-  font-weight: 400;
-  font-size: 1.1rem;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
-p {
-  font-size: 0.8rem;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  width: calc-size(fit-content, size + 6rem);
-  height: calc-size(auto, size * 2);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "6:23 - 6:32",
-                        `/en-US/docs/Web/CSS/calc-size
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-section {
-  font-family: Arial, Helvetica, sans-serif;
-  border: 1px solid black;
-}
-
-h2 {
-  margin: 0;
-  font-weight: 400;
-  font-size: 1.1rem;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
-p {
-  font-size: 0.8rem;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  width: calc-size(fit-content, size + 6rem);
-  height: calc-size(auto, size * 2);
-}
-~~~
-`
-                      ]
-                    },
                     {
                       message: "Stylelint backlog",
                       data: [
@@ -42980,7 +29895,7 @@ section {
 }
 
 section {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
   border: 1px solid black;
 }
 
@@ -43004,136 +29919,6 @@ section {
 
   width: calc-size(fit-content, size + 6rem);
   height: calc-size(auto, size * 2);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "6:16 - 6:21",
-                        `/en-US/docs/Web/CSS/calc-size
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-section {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 175px;
-  border-radius: 5px;
-  background: #eeeeee;
-  box-shadow:
-    inset 1px 1px 4px rgb(255 255 255 / 0.5),
-    inset -1px -1px 4px rgb(0 0 0 / 0.5);
-}
-
-header {
-  padding: 10px;
-  border-bottom: 2px solid #cccccc;
-}
-
-main {
-  padding: 0.7rem;
-}
-
-h2 {
-  margin: 0;
-  font-weight: 400;
-  font-size: 1.1rem;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
-p,
-li {
-  font-size: 0.8rem;
-  line-height: 1.5;
-}
-
-p {
-  margin-top: 0;
-}
-
-section {
-  height: 2.5rem;
-  overflow: hidden;
-  transition: height ease 1s;
-}
-
-section:hover,
-section:focus {
-  height: calc-size(max-content, size + 2rem);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "6:23 - 6:32",
-                        `/en-US/docs/Web/CSS/calc-size
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-section {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 175px;
-  border-radius: 5px;
-  background: #eeeeee;
-  box-shadow:
-    inset 1px 1px 4px rgb(255 255 255 / 0.5),
-    inset -1px -1px 4px rgb(0 0 0 / 0.5);
-}
-
-header {
-  padding: 10px;
-  border-bottom: 2px solid #cccccc;
-}
-
-main {
-  padding: 0.7rem;
-}
-
-h2 {
-  margin: 0;
-  font-weight: 400;
-  font-size: 1.1rem;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
-p,
-li {
-  font-size: 0.8rem;
-  line-height: 1.5;
-}
-
-p {
-  margin-top: 0;
-}
-
-section {
-  height: 2.5rem;
-  overflow: hidden;
-  transition: height ease 1s;
-}
-
-section:hover,
-section:focus {
-  height: calc-size(max-content, size + 2rem);
 }
 ~~~
 `
@@ -43154,7 +29939,7 @@ section:focus {
 }
 
 section {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
   width: 175px;
   border-radius: 5px;
   background: #eeeeee;
@@ -43199,252 +29984,6 @@ section {
 section:hover,
 section:focus {
   height: calc-size(max-content, size + 2rem);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "12:16 - 12:21",
-                        `/en-US/docs/Web/CSS/calc-size
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  width: 600px;
-  margin: 0 auto;
-}
-
-section {
-  margin-top: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #eeeeee;
-  border: 2px solid #cccccc;
-  padding: 0 20px;
-  position: relative;
-}
-
-p,
-li {
-  font-size: 0.8rem;
-  line-height: 1.5;
-}
-
-button {
-  position: absolute;
-  top: 2px;
-  right: 2px;
-}
-
-section {
-  width: fit-content;
-}
-
-@keyframes narrower {
-  from {
-    width: fit-content;
-  }
-
-  to {
-    width: calc-size(fit-content, size * 0.7);
-  }
-}
-
-@keyframes wider {
-  from {
-    width: calc-size(fit-content, size * 0.7);
-  }
-
-  to {
-    width: fit-content;
-  }
-}
-
-.narrower {
-  animation: narrower 1s ease forwards;
-}
-
-.wider {
-  animation: wider 1s ease forwards;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "12:23 - 12:32",
-                        `/en-US/docs/Web/CSS/calc-size
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  width: 600px;
-  margin: 0 auto;
-}
-
-section {
-  margin-top: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #eeeeee;
-  border: 2px solid #cccccc;
-  padding: 0 20px;
-  position: relative;
-}
-
-p,
-li {
-  font-size: 0.8rem;
-  line-height: 1.5;
-}
-
-button {
-  position: absolute;
-  top: 2px;
-  right: 2px;
-}
-
-section {
-  width: fit-content;
-}
-
-@keyframes narrower {
-  from {
-    width: fit-content;
-  }
-
-  to {
-    width: calc-size(fit-content, size * 0.7);
-  }
-}
-
-@keyframes wider {
-  from {
-    width: calc-size(fit-content, size * 0.7);
-  }
-
-  to {
-    width: fit-content;
-  }
-}
-
-.narrower {
-  animation: narrower 1s ease forwards;
-}
-
-.wider {
-  animation: wider 1s ease forwards;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "13:16 - 13:21",
-                        `/en-US/docs/Web/CSS/calc-size
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  width: 600px;
-  margin: 0 auto;
-}
-
-form {
-  margin-top: 20px;
-  padding: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #eeeeee;
-  border: 2px solid #cccccc;
-}
-
-div {
-  display: flex;
-  align-items: center;
-}
-
-div:not(div:last-child) {
-  margin-bottom: 20px;
-}
-
-label {
-  width: 100px;
-}
-
-input {
-  field-sizing: content;
-  width: calc-size(fit-content, max(100px, size + 20px));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "13:23 - 13:32",
-                        `/en-US/docs/Web/CSS/calc-size
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  width: 600px;
-  margin: 0 auto;
-}
-
-form {
-  margin-top: 20px;
-  padding: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #eeeeee;
-  border: 2px solid #cccccc;
-}
-
-div {
-  display: flex;
-  align-items: center;
-}
-
-div:not(div:last-child) {
-  margin-bottom: 20px;
-}
-
-label {
-  width: 100px;
-}
-
-input {
-  field-sizing: content;
-  width: calc-size(fit-content, max(100px, size + 20px));
 }
 ~~~
 `
@@ -55486,84 +42025,6 @@ oklch(63.612% 0.1522 78.748)
                       data: [
                         "CSS info"
                       ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/corner-block-end-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: cyan;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 80px / 40px;
-  corner-block-end-shape: notch square;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/corner-block-end-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: cyan;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 80px / 40px;
-  corner-block-end-shape: notch square;
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -55575,84 +42036,6 @@ div {
                       message: "Missing data",
                       data: [
                         "CSS info"
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/corner-block-start-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: goldenrod;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 40px 60px;
-  corner-block-start-shape: scoop notch;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/corner-block-start-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: goldenrod;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 40px 60px;
-  corner-block-start-shape: scoop notch;
-}
-~~~
-`
                       ]
                     }
                   ]
@@ -55666,84 +42049,6 @@ div {
                       data: [
                         "CSS info"
                       ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/corner-bottom-left-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: goldenrod;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 80px 40% 60px 20%;
-  corner-bottom-left-shape: squircle;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/corner-bottom-left-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: goldenrod;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 80px 40% 60px 20%;
-  corner-bottom-left-shape: squircle;
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -55755,84 +42060,6 @@ div {
                       message: "Missing data",
                       data: [
                         "CSS info"
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/corner-bottom-right-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: cyan;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 30% / 20%;
-  corner-bottom-right-shape: notch;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/corner-bottom-right-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: cyan;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 30% / 20%;
-  corner-bottom-right-shape: notch;
-}
-~~~
-`
                       ]
                     }
                   ]
@@ -55846,84 +42073,6 @@ div {
                       data: [
                         "CSS info"
                       ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/corner-bottom-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: orange;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 60px 30px 20% 40%;
-  corner-bottom-shape: square squircle;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/corner-bottom-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: orange;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 60px 30px 20% 40%;
-  corner-bottom-shape: square squircle;
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -55935,84 +42084,6 @@ div {
                       message: "Missing data",
                       data: [
                         "CSS info"
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/corner-end-end-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 60px;
-  corner-end-end-shape: squircle;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/corner-end-end-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 60px;
-  corner-end-end-shape: squircle;
-}
-~~~
-`
                       ]
                     }
                   ]
@@ -56026,84 +42097,6 @@ div {
                       data: [
                         "CSS info"
                       ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/corner-end-start-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: orange;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 60px / 20%;
-  corner-end-start-shape: bevel;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/corner-end-start-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: orange;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 60px / 20%;
-  corner-end-start-shape: bevel;
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -56115,84 +42108,6 @@ div {
                       message: "Missing data",
                       data: [
                         "CSS info"
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/corner-inline-end-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 15% 30%;
-  corner-inline-end-shape: bevel squircle;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/corner-inline-end-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 15% 30%;
-  corner-inline-end-shape: bevel squircle;
-}
-~~~
-`
                       ]
                     }
                   ]
@@ -56206,84 +42121,6 @@ div {
                       data: [
                         "CSS info"
                       ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/corner-inline-start-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: orange;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 60px;
-  corner-inline-start-shape: square bevel;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/corner-inline-start-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: orange;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 60px;
-  corner-inline-start-shape: square bevel;
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -56295,84 +42132,6 @@ div {
                       message: "Missing data",
                       data: [
                         "CSS info"
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/corner-left-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 20px 40px / 60px 80px;
-  corner-left-shape: notch bevel;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/corner-left-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 20px 40px / 60px 80px;
-  corner-left-shape: notch bevel;
-}
-~~~
-`
                       ]
                     }
                   ]
@@ -56386,84 +42145,6 @@ div {
                       data: [
                         "CSS info"
                       ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/corner-right-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: cyan;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 20% 30% / 50% 40%;
-  corner-right-shape: square scoop;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/corner-right-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: cyan;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 20% 30% / 50% 40%;
-  corner-right-shape: square scoop;
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -56475,662 +42156,6 @@ div {
                       message: "Missing data",
                       data: [
                         "CSS info"
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/corner-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: cyan;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-@supports not (corner-shape: scoop) {
-  body {
-    all: unset !important;
-  }
-
-  body::before {
-    content: "Your browser does not support the 'corner-shape' property.";
-    color: black;
-    background-color: #ffcd33;
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding: 1rem 0;
-  }
-
-  body > * {
-    display: none;
-  }
-}
-
-div {
-  height: 180px;
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 30px;
-  corner-shape: scoop;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/corner-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: cyan;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-@supports not (corner-shape: scoop) {
-  body {
-    all: unset !important;
-  }
-
-  body::before {
-    content: "Your browser does not support the 'corner-shape' property.";
-    color: black;
-    background-color: #ffcd33;
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding: 1rem 0;
-  }
-
-  body > * {
-    display: none;
-  }
-}
-
-div {
-  height: 180px;
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 30px;
-  corner-shape: scoop;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "6:16 - 6:21",
-                        `/en-US/docs/Web/CSS/corner-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-html {
-  height: 100%;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  height: inherit;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-div {
-  width: 240px;
-  height: 180px;
-}
-
-@supports not (corner-shape: scoop notch) {
-  body {
-    all: unset !important;
-  }
-
-  body::before {
-    content: "Your browser does not support the 'corner-shape' property.";
-    color: black;
-    background-color: #ffcd33;
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding: 1rem 0;
-  }
-
-  body > * {
-    display: none;
-  }
-}
-
-body {
-  background: url("https://mdn.github.io/shared-assets/images/examples/leopard.jpg")
-    no-repeat;
-  background-size: cover;
-}
-
-div {
-  border-radius: 40px;
-  corner-shape: scoop notch;
-  background-color: rgb(255 255 255 / 0.2);
-  border-top: 3px solid blue;
-  border-left: 6px dashed red;
-  border-bottom: 9px solid yellow;
-  border-right: 12px double green;
-  backdrop-filter: invert(100%);
-}
-
-div:hover {
-  background-color: white;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "6:23 - 6:32",
-                        `/en-US/docs/Web/CSS/corner-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-html {
-  height: 100%;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  height: inherit;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-div {
-  width: 240px;
-  height: 180px;
-}
-
-@supports not (corner-shape: scoop notch) {
-  body {
-    all: unset !important;
-  }
-
-  body::before {
-    content: "Your browser does not support the 'corner-shape' property.";
-    color: black;
-    background-color: #ffcd33;
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding: 1rem 0;
-  }
-
-  body > * {
-    display: none;
-  }
-}
-
-body {
-  background: url("https://mdn.github.io/shared-assets/images/examples/leopard.jpg")
-    no-repeat;
-  background-size: cover;
-}
-
-div {
-  border-radius: 40px;
-  corner-shape: scoop notch;
-  background-color: rgb(255 255 255 / 0.2);
-  border-top: 3px solid blue;
-  border-left: 6px dashed red;
-  border-bottom: 9px solid yellow;
-  border-right: 12px double green;
-  backdrop-filter: invert(100%);
-}
-
-div:hover {
-  background-color: white;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/corner-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: fit-content;
-  margin: 20px auto;
-}
-
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-select {
-  padding: 3px 5px;
-}
-
-form div:nth-of-type(2) {
-  margin-top: 5px;
-  display: flex;
-}
-
-section {
-  width: 100%;
-  height: 180px;
-  background-color: gold;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-@supports not (corner-shape: scoop) {
-  body {
-    all: unset !important;
-  }
-
-  body::before {
-    content: "Your browser does not support the 'corner-shape' property.";
-    color: black;
-    background-color: #ffcd33;
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding: 1rem 0;
-  }
-
-  body > * {
-    display: none;
-  }
-}
-
-section {
-  box-shadow: 1px 1px 3px gray;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/corner-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: fit-content;
-  margin: 20px auto;
-}
-
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-select {
-  padding: 3px 5px;
-}
-
-form div:nth-of-type(2) {
-  margin-top: 5px;
-  display: flex;
-}
-
-section {
-  width: 100%;
-  height: 180px;
-  background-color: gold;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-@supports not (corner-shape: scoop) {
-  body {
-    all: unset !important;
-  }
-
-  body::before {
-    content: "Your browser does not support the 'corner-shape' property.";
-    color: black;
-    background-color: #ffcd33;
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding: 1rem 0;
-  }
-
-  body > * {
-    display: none;
-  }
-}
-
-section {
-  box-shadow: 1px 1px 3px gray;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/corner-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: fit-content;
-  margin: 20px auto;
-}
-
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-form div {
-  margin-top: 5px;
-  display: flex;
-}
-
-section {
-  width: 100%;
-  height: 180px;
-  background-color: orange;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-@supports not (corner-shape: superellipse(0)) {
-  body {
-    all: unset !important;
-  }
-
-  body::before {
-    content: "Your browser does not support the 'corner-shape' property.";
-    color: black;
-    background-color: #ffcd33;
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding: 1rem 0;
-  }
-
-  body > * {
-    display: none;
-  }
-}
-
-section {
-  box-shadow: 1px 1px 3px gray;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/corner-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: fit-content;
-  margin: 20px auto;
-}
-
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-form div {
-  margin-top: 5px;
-  display: flex;
-}
-
-section {
-  width: 100%;
-  height: 180px;
-  background-color: orange;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-@supports not (corner-shape: superellipse(0)) {
-  body {
-    all: unset !important;
-  }
-
-  body::before {
-    content: "Your browser does not support the 'corner-shape' property.";
-    color: black;
-    background-color: #ffcd33;
-    display: block;
-    width: 100%;
-    text-align: center;
-    padding: 1rem 0;
-  }
-
-  body > * {
-    display: none;
-  }
-}
-
-section {
-  box-shadow: 1px 1px 3px gray;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "corner-shape-value": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/corner-shape-value",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/corner-shape-value
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: fit-content;
-  margin: 20px auto;
-}
-
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-select {
-  padding: 3px 5px;
-}
-
-form div:nth-of-type(2) {
-  margin-top: 5px;
-  display: flex;
-}
-
-section {
-  width: 100%;
-  height: 180px;
-  background-color: orange;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-section {
-  box-shadow: 1px 1px 3px gray;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/corner-shape-value
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: fit-content;
-  margin: 20px auto;
-}
-
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-select {
-  padding: 3px 5px;
-}
-
-form div:nth-of-type(2) {
-  margin-top: 5px;
-  display: flex;
-}
-
-section {
-  width: 100%;
-  height: 180px;
-  background-color: orange;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-section {
-  box-shadow: 1px 1px 3px gray;
-}
-~~~
-`
                       ]
                     }
                   ]
@@ -57144,84 +42169,6 @@ section {
                       data: [
                         "CSS info"
                       ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/corner-start-end-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: cyan;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 20px 40px 60px 80px;
-  corner-start-end-shape: notch;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/corner-start-end-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: cyan;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 20px 40px 60px 80px;
-  corner-start-end-shape: notch;
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -57233,84 +42180,6 @@ div {
                       message: "Missing data",
                       data: [
                         "CSS info"
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/corner-start-start-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: goldenrod;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 40% 10px 10px;
-  corner-start-start-shape: scoop;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/corner-start-start-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: goldenrod;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 40% 10px 10px;
-  corner-start-start-shape: scoop;
-}
-~~~
-`
                       ]
                     }
                   ]
@@ -57324,84 +42193,6 @@ div {
                       data: [
                         "CSS info"
                       ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/corner-top-left-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: orange;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 25% 100px;
-  corner-top-left-shape: scoop;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/corner-top-left-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: orange;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 25% 100px;
-  corner-top-left-shape: scoop;
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -57414,84 +42205,6 @@ div {
                       data: [
                         "CSS info"
                       ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/corner-top-right-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 60px;
-  corner-top-right-shape: bevel;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/corner-top-right-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 60px;
-  corner-top-right-shape: bevel;
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -57503,84 +42216,6 @@ div {
                       message: "Missing data",
                       data: [
                         "CSS info"
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/corner-top-shape
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: goldenrod;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 60px;
-  corner-top-shape: scoop notch;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/corner-top-shape
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: goldenrod;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 60px;
-  corner-top-shape: scoop notch;
-}
-~~~
-`
                       ]
                     }
                   ]
@@ -57769,118 +42404,6 @@ cross-fade(url("white.png"), url("black.png"), 100%); /* fully white */
                     }
                   ]
                 },
-                css_borders_and_box_decorations: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/CSS_borders_and_box_decorations",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "    font-family: Arial, Helvetica, sans-serif;",
-                        "20:18 - 20:23",
-                        `/en-US/docs/Web/CSS/CSS_borders_and_box_decorations
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-div {
-  width: 100%;
-  height: 200px;
-  background-color: plum;
-  background-image:
-    repeating-linear-gradient(transparent 0 19px, #00000022 19px 20px),
-    repeating-linear-gradient(to left, transparent 0 19px, #00000022 19px 20px);
-}
-
-div {
-  box-shadow: 3px 3px 5px rgb(0 0 0 / 0.5);
-  border-radius: 30px;
-}
-body:has(input:checked) div {
-  box-shadow: none;
-}
-
-@layer pageSetUp {
-  html {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  body {
-    max-width: 600px;
-    min-width: fit-content;
-    margin: 20px auto;
-  }
-  div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-  }
-  select {
-    padding: 3px 5px;
-  }
-  code {
-    font-weight: bolder;
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "    font-family: Arial, Helvetica, sans-serif;",
-                        "20:25 - 20:34",
-                        `/en-US/docs/Web/CSS/CSS_borders_and_box_decorations
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-div {
-  width: 100%;
-  height: 200px;
-  background-color: plum;
-  background-image:
-    repeating-linear-gradient(transparent 0 19px, #00000022 19px 20px),
-    repeating-linear-gradient(to left, transparent 0 19px, #00000022 19px 20px);
-}
-
-div {
-  box-shadow: 3px 3px 5px rgb(0 0 0 / 0.5);
-  border-radius: 30px;
-}
-body:has(input:checked) div {
-  box-shadow: none;
-}
-
-@layer pageSetUp {
-  html {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  body {
-    max-width: 600px;
-    min-width: fit-content;
-    margin: 20px auto;
-  }
-  div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-  }
-  select {
-    padding: 3px 5px;
-  }
-  code {
-    font-weight: bolder;
-  }
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 css_box_alignment: {
                   children: {
                     box_alignment_in_flexbox: {
@@ -57936,52 +42459,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                css_cascade: {
-                  children: {
-                    shorthand_properties: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "font-family: Arial, sans-serif;",
-                            "5:14 - 5:19",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-font-style: italic;
-font-weight: bold;
-font-size: 0.8em;
-line-height: 1.2;
-font-family: Arial, sans-serif;
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  italic bold 0.8em/1.2 Arial,",
-                            "2:25 - 2:30",
-                            `/en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-font:
-  italic bold 0.8em/1.2 Arial,
-  sans-serif;
-~~~
-`
-                          ]
                         }
                       ]
                     }
@@ -58087,306 +42564,6 @@ div {
                         }
                       ]
                     },
-                    color_format_converter: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_colors/Color_format_converter",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "segue" (font-family-name-quotes)',
-                            "  font-family: segue, arial, helvetica, sans-serif;",
-                            "6:16 - 6:21",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_format_converter
-[font-family-name-quotes] Expected quotes around "segue" (font-family-name-quotes)
-~~~
-dialog {
-  border: 1px solid;
-  border-radius: 5px;
-  box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
-  background-color: white;
-  font-family: segue, arial, helvetica, sans-serif;
-  margin-top: 5vh;
-  width: 550px;
-}
-
-table {
-  width: 100%;
-}
-
-td,
-th {
-  padding: 3px 0;
-}
-
-th {
-  background-color: #ededed;
-}
-
-td {
-  background-color: #dedede;
-  font-family: monospace;
-}
-
-body {
-  background:
-    linear-gradient(
-      -90deg,
-      transparent 0 38%,
-      47%,
-      rgb(0 0 0 / 0.7) 50%,
-      white 50% 100%
-    ),
-    conic-gradient(
-      black 0 90deg,
-      transparent 90deg 180deg,
-      black 180deg 270deg,
-      transparent 270deg 360deg
-    );
-  background-size:
-    100% 100%,
-    20px 20px;
-  padding: 0;
-  margin: 0;
-}
-
-.container {
-  width: 100vw;
-  height: 100vh;
-}
-
-.color-inputs {
-  display: inline-flex;
-  margin-top: 0.6rem;
-  margin-bottom: 1.5rem;
-}
-
-button {
-  margin-right: 0.5rem;
-}
-
-input[type="text"] {
-  width: 300px;
-  margin-right: 0.5rem;
-}
-
-input[type="range"] {
-  width: 350px;
-}
-
-label {
-  user-select: none;
-}
-
-p {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  margin: 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "arial" (font-family-name-quotes)',
-                            "  font-family: segue, arial, helvetica, sans-serif;",
-                            "6:23 - 6:28",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_format_converter
-[font-family-name-quotes] Expected quotes around "arial" (font-family-name-quotes)
-~~~
-dialog {
-  border: 1px solid;
-  border-radius: 5px;
-  box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
-  background-color: white;
-  font-family: segue, arial, helvetica, sans-serif;
-  margin-top: 5vh;
-  width: 550px;
-}
-
-table {
-  width: 100%;
-}
-
-td,
-th {
-  padding: 3px 0;
-}
-
-th {
-  background-color: #ededed;
-}
-
-td {
-  background-color: #dedede;
-  font-family: monospace;
-}
-
-body {
-  background:
-    linear-gradient(
-      -90deg,
-      transparent 0 38%,
-      47%,
-      rgb(0 0 0 / 0.7) 50%,
-      white 50% 100%
-    ),
-    conic-gradient(
-      black 0 90deg,
-      transparent 90deg 180deg,
-      black 180deg 270deg,
-      transparent 270deg 360deg
-    );
-  background-size:
-    100% 100%,
-    20px 20px;
-  padding: 0;
-  margin: 0;
-}
-
-.container {
-  width: 100vw;
-  height: 100vh;
-}
-
-.color-inputs {
-  display: inline-flex;
-  margin-top: 0.6rem;
-  margin-bottom: 1.5rem;
-}
-
-button {
-  margin-right: 0.5rem;
-}
-
-input[type="text"] {
-  width: 300px;
-  margin-right: 0.5rem;
-}
-
-input[type="range"] {
-  width: 350px;
-}
-
-label {
-  user-select: none;
-}
-
-p {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  margin: 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "helvetica" (font-family-name-quotes)',
-                            "  font-family: segue, arial, helvetica, sans-serif;",
-                            "6:30 - 6:39",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_format_converter
-[font-family-name-quotes] Expected quotes around "helvetica" (font-family-name-quotes)
-~~~
-dialog {
-  border: 1px solid;
-  border-radius: 5px;
-  box-shadow: 3px 3px 10px rgb(0 0 0 / 0.2);
-  background-color: white;
-  font-family: segue, arial, helvetica, sans-serif;
-  margin-top: 5vh;
-  width: 550px;
-}
-
-table {
-  width: 100%;
-}
-
-td,
-th {
-  padding: 3px 0;
-}
-
-th {
-  background-color: #ededed;
-}
-
-td {
-  background-color: #dedede;
-  font-family: monospace;
-}
-
-body {
-  background:
-    linear-gradient(
-      -90deg,
-      transparent 0 38%,
-      47%,
-      rgb(0 0 0 / 0.7) 50%,
-      white 50% 100%
-    ),
-    conic-gradient(
-      black 0 90deg,
-      transparent 90deg 180deg,
-      black 180deg 270deg,
-      transparent 270deg 360deg
-    );
-  background-size:
-    100% 100%,
-    20px 20px;
-  padding: 0;
-  margin: 0;
-}
-
-.container {
-  width: 100vw;
-  height: 100vh;
-}
-
-.color-inputs {
-  display: inline-flex;
-  margin-top: 0.6rem;
-  margin-bottom: 1.5rem;
-}
-
-button {
-  margin-right: 0.5rem;
-}
-
-input[type="text"] {
-  width: 300px;
-  margin-right: 0.5rem;
-}
-
-input[type="range"] {
-  width: 350px;
-}
-
-label {
-  user-select: none;
-}
-
-p {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  margin: 0;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     color_mixer: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_colors/Color_mixer",
@@ -58426,7 +42603,7 @@ hwb(90 10% 10% / 50%)
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -58461,7 +42638,7 @@ th {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -58496,7 +42673,7 @@ th {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -58531,7 +42708,7 @@ th {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -60162,514 +44339,6 @@ rgb(from red r g b / alpha)
                     }
                   ]
                 },
-                css_conditional_rules: {
-                  children: {
-                    "container_scroll-state_queries": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_conditional_rules/Container_scroll-state_queries",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "8:16 - 8:21",
-                            `/en-US/docs/Web/CSS/CSS_conditional_rules/Container_scroll-state_queries
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-/* General styling */
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
-}
-
-body {
-  height: inherit;
-  width: 100%;
-  max-width: 540px;
-  padding: 20px;
-  margin: 0 auto;
-}
-
-p {
-  line-height: 1.5;
-}
-
-img {
-  display: block;
-  width: 90%;
-  margin: 30px auto;
-  padding: 20px;
-  border: 2px solid gray;
-  aspect-ratio: 3/2;
-}
-
-.back-to-top {
-  width: 64px;
-  height: 64px;
-  color: white;
-  text-align: center;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  translate: 80px 0;
-  transition:
-    0.4s translate,
-    0.2s background-color;
-}
-
-.back-to-top {
-  text-decoration: none;
-  border-radius: 50%;
-  border: 1px solid #00000077;
-  background-color: #00000077;
-  color: white;
-  font-size: 3rem;
-  text-shadow: 0 0 2px black;
-  padding-bottom: 10px;
-}
-
-.back-to-top:hover,
-.back-to-top:focus {
-  background: #00000099;
-}
-
-html {
-  container-type: scroll-state;
-  container-name: scroller;
-}
-
-@container scroller scroll-state(scrollable: top) {
-  .back-to-top {
-    translate: 0 0;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "8:23 - 8:32",
-                            `/en-US/docs/Web/CSS/CSS_conditional_rules/Container_scroll-state_queries
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-/* General styling */
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
-}
-
-body {
-  height: inherit;
-  width: 100%;
-  max-width: 540px;
-  padding: 20px;
-  margin: 0 auto;
-}
-
-p {
-  line-height: 1.5;
-}
-
-img {
-  display: block;
-  width: 90%;
-  margin: 30px auto;
-  padding: 20px;
-  border: 2px solid gray;
-  aspect-ratio: 3/2;
-}
-
-.back-to-top {
-  width: 64px;
-  height: 64px;
-  color: white;
-  text-align: center;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  translate: 80px 0;
-  transition:
-    0.4s translate,
-    0.2s background-color;
-}
-
-.back-to-top {
-  text-decoration: none;
-  border-radius: 50%;
-  border: 1px solid #00000077;
-  background-color: #00000077;
-  color: white;
-  font-size: 3rem;
-  text-shadow: 0 0 2px black;
-  padding-bottom: 10px;
-}
-
-.back-to-top:hover,
-.back-to-top:focus {
-  background: #00000099;
-}
-
-html {
-  container-type: scroll-state;
-  container-name: scroller;
-}
-
-@container scroller scroll-state(scrollable: top) {
-  .back-to-top {
-    translate: 0 0;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "31:16 - 31:21",
-                            `/en-US/docs/Web/CSS/CSS_conditional_rules/Container_scroll-state_queries
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-}
-
-/* body and main sizing */
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: inherit;
-}
-
-main {
-  gap: 50px;
-}
-
-main {
-  overflow: scroll;
-  scroll-snap-type: y mandatory;
-  height: 450px;
-  width: 250px;
-  border: 3px solid black;
-}
-
-section {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 150px;
-  height: 150px;
-  margin: 50px auto;
-
-  scroll-snap-align: center;
-}
-
-.wrapper {
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-  background: #eeeeee;
-  box-shadow:
-    inset 1px 1px 4px rgb(255 255 255 / 0.5),
-    inset -1px -1px 4px rgb(0 0 0 / 0.5);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  transition:
-    0.6s background,
-    0.6s color;
-}
-
-h2 {
-  font-size: 1rem;
-  letter-spacing: 1px;
-}
-
-section {
-  container-type: scroll-state;
-  container-name: snap-container;
-}
-
-@container snap-container scroll-state(snapped: y) {
-  .wrapper {
-    background: purple;
-    color: white;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "31:23 - 31:32",
-                            `/en-US/docs/Web/CSS/CSS_conditional_rules/Container_scroll-state_queries
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-}
-
-/* body and main sizing */
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: inherit;
-}
-
-main {
-  gap: 50px;
-}
-
-main {
-  overflow: scroll;
-  scroll-snap-type: y mandatory;
-  height: 450px;
-  width: 250px;
-  border: 3px solid black;
-}
-
-section {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 150px;
-  height: 150px;
-  margin: 50px auto;
-
-  scroll-snap-align: center;
-}
-
-.wrapper {
-  width: 100%;
-  height: 100%;
-  border-radius: 5px;
-  background: #eeeeee;
-  box-shadow:
-    inset 1px 1px 4px rgb(255 255 255 / 0.5),
-    inset -1px -1px 4px rgb(0 0 0 / 0.5);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  transition:
-    0.6s background,
-    0.6s color;
-}
-
-h2 {
-  font-size: 1rem;
-  letter-spacing: 1px;
-}
-
-section {
-  container-type: scroll-state;
-  container-name: snap-container;
-}
-
-@container snap-container scroll-state(snapped: y) {
-  .wrapper {
-    background: purple;
-    color: white;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "8:16 - 8:21",
-                            `/en-US/docs/Web/CSS/CSS_conditional_rules/Container_scroll-state_queries
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-/* General styling */
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
-}
-
-body {
-  height: inherit;
-  width: 100%;
-  max-width: 540px;
-  padding: 20px;
-  margin: 0 auto;
-}
-
-p {
-  line-height: 1.5;
-}
-
-img {
-  display: block;
-  width: 90%;
-  margin: 30px auto;
-  padding: 20px;
-  border: 2px solid gray;
-  aspect-ratio: 3/2;
-}
-
-header {
-  background: white;
-  position: sticky;
-  top: 0;
-  container-type: scroll-state;
-  container-name: sticky-heading;
-}
-
-h2,
-header p {
-  margin: 0;
-  transition: 0.4s background;
-}
-
-h2 {
-  padding: 20px 5px;
-  margin-bottom: 10px;
-}
-
-header p {
-  font-style: italic;
-  padding: 10px 5px;
-}
-
-@container sticky-heading scroll-state(stuck: top) {
-  h2,
-  p {
-    background: #cccccc;
-    box-shadow: 0 5px 2px #00000077;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "8:23 - 8:32",
-                            `/en-US/docs/Web/CSS/CSS_conditional_rules/Container_scroll-state_queries
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-/* General styling */
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
-}
-
-body {
-  height: inherit;
-  width: 100%;
-  max-width: 540px;
-  padding: 20px;
-  margin: 0 auto;
-}
-
-p {
-  line-height: 1.5;
-}
-
-img {
-  display: block;
-  width: 90%;
-  margin: 30px auto;
-  padding: 20px;
-  border: 2px solid gray;
-  aspect-ratio: 3/2;
-}
-
-header {
-  background: white;
-  position: sticky;
-  top: 0;
-  container-type: scroll-state;
-  container-name: sticky-heading;
-}
-
-h2,
-header p {
-  margin: 0;
-  transition: 0.4s background;
-}
-
-h2 {
-  padding: 20px 5px;
-  margin-bottom: 10px;
-}
-
-header p {
-  font-style: italic;
-  padding: 10px 5px;
-}
-
-@container sticky-heading scroll-state(stuck: top) {
-  h2,
-  p {
-    background: #cccccc;
-    box-shadow: 0 5px 2px #00000077;
-  }
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_containment: {
                   children: {
                     container_size_and_style_queries: {
@@ -61024,13 +44693,6 @@ p {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://adrianroselli.com/2015/10/html-source-order-vs-css-display-order.html",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -61529,7 +45191,7 @@ label {
                       slug: "/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "some-non-variable-font-family" (font-family-name-quotes)',
@@ -61552,7 +45214,7 @@ h1 {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "some-variable-font-family" (font-family-name-quotes)',
@@ -61575,7 +45237,7 @@ h1 {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Georgia" (font-family-name-quotes)',
@@ -61628,7 +45290,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Georgia" (font-family-name-quotes)',
@@ -61681,7 +45343,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -61741,7 +45403,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -61801,7 +45463,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Georgia" (font-family-name-quotes)',
@@ -61857,7 +45519,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Georgia" (font-family-name-quotes)',
@@ -61907,7 +45569,7 @@ p {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Georgia" (font-family-name-quotes)',
@@ -62019,196 +45681,6 @@ css.at-rules.font-face.WOFF_2`,
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/CSS/CSS_fonts/WOFF"
-                      ]
-                    }
-                  ]
-                },
-                css_generated_content: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/CSS_generated_content",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "comic-sans" (font-family-name-quotes)',
-                        "  font-family: comic-sans, papyrus, sans-serif;",
-                        "77:16 - 77:26",
-                        `/en-US/docs/Web/CSS/CSS_generated_content
-[font-family-name-quotes] Expected quotes around "comic-sans" (font-family-name-quotes)
-~~~
-body,
-div {
-  background-repeat: no-repeat;
-}
-body {
-  background-image: linear-gradient(#3a67ab, #e8f6ff 100%);
-}
-div {
-  position: relative;
-  width: 400px;
-  height: 400px;
-  background-image:
-    linear-gradient(
-      115deg,
-      transparent 48%,
-      brown,
-      #996600,
-      brown,
-      transparent 52%
-    ),
-    linear-gradient(
-      60deg,
-      transparent 48%,
-      brown,
-      #996600,
-      brown,
-      transparent 52%
-    ),
-    radial-gradient(
-      circle 10px at 50% 50%,
-      #333333 30%,
-      #999999 50%,
-      transparent 50%
-    ),
-    radial-gradient(
-      circle 10px at 50% 50%,
-      #333333 30%,
-      #999999 50%,
-      transparent 50%
-    ),
-    radial-gradient(circle at 50% 50%, white 30%, #eeeeee 50%, transparent 50%),
-    radial-gradient(circle at 50% 50%, white 30%, #eeeeee 50%, transparent 50%),
-    radial-gradient(circle at 50% 50%, white 30%, #eeeeee 50%, transparent 50%);
-  background-size:
-    100px 100px,
-    100px 100px,
-    15px 15px,
-    15px 15px,
-    200px 200px,
-    300px 300px,
-    400px 400px;
-  background-position:
-    95% 120px,
-    5% 120px,
-    46% 80px,
-    54% 80px,
-    50% 0,
-    50% 90px,
-    50% 220px;
-}
-div::after {
-  content: "";
-  border: transparent solid 4px;
-  border-left: orange 30px solid;
-  height: 1px;
-  width: 1px;
-  position: absolute;
-  left: 50%;
-  top: 100px;
-}
-
-div::before {
-  content: "Only one <div>";
-  font-size: min(6vh, 2rem);
-  justify-content: center;
-  display: flex;
-  font-family: comic-sans, papyrus, sans-serif;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "papyrus" (font-family-name-quotes)',
-                        "  font-family: comic-sans, papyrus, sans-serif;",
-                        "77:28 - 77:35",
-                        `/en-US/docs/Web/CSS/CSS_generated_content
-[font-family-name-quotes] Expected quotes around "papyrus" (font-family-name-quotes)
-~~~
-body,
-div {
-  background-repeat: no-repeat;
-}
-body {
-  background-image: linear-gradient(#3a67ab, #e8f6ff 100%);
-}
-div {
-  position: relative;
-  width: 400px;
-  height: 400px;
-  background-image:
-    linear-gradient(
-      115deg,
-      transparent 48%,
-      brown,
-      #996600,
-      brown,
-      transparent 52%
-    ),
-    linear-gradient(
-      60deg,
-      transparent 48%,
-      brown,
-      #996600,
-      brown,
-      transparent 52%
-    ),
-    radial-gradient(
-      circle 10px at 50% 50%,
-      #333333 30%,
-      #999999 50%,
-      transparent 50%
-    ),
-    radial-gradient(
-      circle 10px at 50% 50%,
-      #333333 30%,
-      #999999 50%,
-      transparent 50%
-    ),
-    radial-gradient(circle at 50% 50%, white 30%, #eeeeee 50%, transparent 50%),
-    radial-gradient(circle at 50% 50%, white 30%, #eeeeee 50%, transparent 50%),
-    radial-gradient(circle at 50% 50%, white 30%, #eeeeee 50%, transparent 50%);
-  background-size:
-    100px 100px,
-    100px 100px,
-    15px 15px,
-    15px 15px,
-    200px 200px,
-    300px 300px,
-    400px 400px;
-  background-position:
-    95% 120px,
-    5% 120px,
-    46% 80px,
-    54% 80px,
-    50% 0,
-    50% 90px,
-    50% 220px;
-}
-div::after {
-  content: "";
-  border: transparent solid 4px;
-  border-left: orange 30px solid;
-  height: 1px;
-  width: 1px;
-  position: absolute;
-  left: 50%;
-  top: 100px;
-}
-
-div::before {
-  content: "Only one <div>";
-  font-size: min(6vh, 2rem);
-  justify-content: center;
-  display: flex;
-  font-family: comic-sans, papyrus, sans-serif;
-}
-~~~
-`
                       ]
                     }
                   ]
@@ -63540,19 +47012,6 @@ div::before {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    grid_layout_and_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_and_accessibility",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -65977,7 +49436,7 @@ div::before {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -66013,7 +49472,7 @@ nav a {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -66248,7 +49707,7 @@ css.properties.grid-template-rows.masonry`,
                       slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Realizing_common_layouts_using_grids",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -66346,7 +49805,7 @@ nav ul {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "arial" (font-family-name-quotes)',
@@ -66444,7 +49903,7 @@ nav ul {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -66494,7 +49953,7 @@ nav ul {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "arial" (font-family-name-quotes)',
@@ -66544,7 +50003,7 @@ nav ul {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -66636,7 +50095,7 @@ nav ul {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "arial" (font-family-name-quotes)',
@@ -66728,7 +50187,7 @@ nav ul {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -66792,7 +50251,7 @@ h2 {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "arial" (font-family-name-quotes)',
@@ -66856,7 +50315,7 @@ h2 {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -66924,7 +50383,7 @@ h2 {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "arial" (font-family-name-quotes)',
@@ -72087,925 +55546,8 @@ blockquote p::after {
                     }
                   ]
                 },
-                css_nesting: {
-                  children: {
-                    using_css_nesting: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/CSS/CSS_nesting",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://sass-lang.com/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 css_overflow: {
-                  children: {
-                    css_carousels: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_overflow/CSS_carousels",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "7:16 - 7:21",
-                            `/en-US/docs/Web/CSS/CSS_overflow/CSS_carousels
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  text-align: center;
-  font-size: 1.7rem;
-}
-
-ul {
-  width: 100vw;
-  height: 300px;
-  padding: 20px;
-  display: flex;
-  gap: 4vw;
-}
-
-li {
-  list-style-type: none;
-  background-color: #eeeeee;
-  border: 1px solid #dddddd;
-  padding: 20px;
-
-  flex: 0 0 100%;
-}
-
-li:nth-child(even) {
-  background-color: cyan;
-}
-
-ul {
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-li {
-  scroll-snap-align: center;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "7:23 - 7:32",
-                            `/en-US/docs/Web/CSS/CSS_overflow/CSS_carousels
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  text-align: center;
-  font-size: 1.7rem;
-}
-
-ul {
-  width: 100vw;
-  height: 300px;
-  padding: 20px;
-  display: flex;
-  gap: 4vw;
-}
-
-li {
-  list-style-type: none;
-  background-color: #eeeeee;
-  border: 1px solid #dddddd;
-  padding: 20px;
-
-  flex: 0 0 100%;
-}
-
-li:nth-child(even) {
-  background-color: cyan;
-}
-
-ul {
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-li {
-  scroll-snap-align: center;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "7:16 - 7:21",
-                            `/en-US/docs/Web/CSS/CSS_overflow/CSS_carousels
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  text-align: center;
-  font-size: 1.7rem;
-}
-
-ul {
-  width: 100vw;
-  height: 300px;
-  padding: 20px;
-  display: flex;
-  gap: 4vw;
-}
-
-li {
-  list-style-type: none;
-  background-color: #eeeeee;
-  border: 1px solid #dddddd;
-  padding: 20px;
-
-  flex: 0 0 100%;
-}
-
-li:nth-child(even) {
-  background-color: cyan;
-}
-
-ul {
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-li {
-  scroll-snap-align: center;
-}
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: black;
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  opacity: 1;
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  opacity: 0.2;
-  cursor: unset;
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-ul {
-  anchor-name: --my-carousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --my-carousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  bottom: calc(anchor(top) + 13px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  bottom: calc(anchor(top) + 13px);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "7:23 - 7:32",
-                            `/en-US/docs/Web/CSS/CSS_overflow/CSS_carousels
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  text-align: center;
-  font-size: 1.7rem;
-}
-
-ul {
-  width: 100vw;
-  height: 300px;
-  padding: 20px;
-  display: flex;
-  gap: 4vw;
-}
-
-li {
-  list-style-type: none;
-  background-color: #eeeeee;
-  border: 1px solid #dddddd;
-  padding: 20px;
-
-  flex: 0 0 100%;
-}
-
-li:nth-child(even) {
-  background-color: cyan;
-}
-
-ul {
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-li {
-  scroll-snap-align: center;
-}
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: black;
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  opacity: 1;
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  opacity: 0.2;
-  cursor: unset;
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-ul {
-  anchor-name: --my-carousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --my-carousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  bottom: calc(anchor(top) + 13px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  bottom: calc(anchor(top) + 13px);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "7:16 - 7:21",
-                            `/en-US/docs/Web/CSS/CSS_overflow/CSS_carousels
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  text-align: center;
-  font-size: 1.7rem;
-}
-
-ul {
-  width: 100vw;
-  height: 300px;
-  padding: 20px;
-  display: flex;
-  gap: 4vw;
-}
-
-li {
-  list-style-type: none;
-  background-color: #eeeeee;
-  border: 1px solid #dddddd;
-  padding: 20px;
-
-  flex: 0 0 100%;
-}
-
-li:nth-child(even) {
-  background-color: cyan;
-}
-
-ul {
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-li {
-  scroll-snap-align: center;
-}
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: black;
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  opacity: 1;
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  opacity: 0.2;
-  cursor: unset;
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-ul {
-  anchor-name: --my-carousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --my-carousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  bottom: calc(anchor(top) + 13px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  bottom: calc(anchor(top) + 13px);
-}
-
-ul {
-  scroll-marker-group: after;
-}
-
-ul::scroll-marker-group {
-  position: absolute;
-  position-anchor: --my-carousel;
-  top: calc(anchor(bottom) - 70px);
-  justify-self: anchor-center;
-
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-li::scroll-marker {
-  content: "";
-  width: 16px;
-  height: 16px;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 50%;
-}
-
-li::scroll-marker:target-current {
-  background-color: black;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "7:23 - 7:32",
-                            `/en-US/docs/Web/CSS/CSS_overflow/CSS_carousels
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  text-align: center;
-  font-size: 1.7rem;
-}
-
-ul {
-  width: 100vw;
-  height: 300px;
-  padding: 20px;
-  display: flex;
-  gap: 4vw;
-}
-
-li {
-  list-style-type: none;
-  background-color: #eeeeee;
-  border: 1px solid #dddddd;
-  padding: 20px;
-
-  flex: 0 0 100%;
-}
-
-li:nth-child(even) {
-  background-color: cyan;
-}
-
-ul {
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-li {
-  scroll-snap-align: center;
-}
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: black;
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  opacity: 1;
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  opacity: 0.2;
-  cursor: unset;
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-ul {
-  anchor-name: --my-carousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --my-carousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  bottom: calc(anchor(top) + 13px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  bottom: calc(anchor(top) + 13px);
-}
-
-ul {
-  scroll-marker-group: after;
-}
-
-ul::scroll-marker-group {
-  position: absolute;
-  position-anchor: --my-carousel;
-  top: calc(anchor(bottom) - 70px);
-  justify-self: anchor-center;
-
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-li::scroll-marker {
-  content: "";
-  width: 16px;
-  height: 16px;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 50%;
-}
-
-li::scroll-marker:target-current {
-  background-color: black;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "7:16 - 7:21",
-                            `/en-US/docs/Web/CSS/CSS_overflow/CSS_carousels
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  text-align: center;
-  font-size: 1.7rem;
-}
-
-ul {
-  width: 100vw;
-  height: 300px;
-  padding: 10px;
-
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-
-  columns: 1;
-  text-align: center;
-}
-
-li {
-  list-style-type: none;
-
-  display: inline-block;
-  height: 100%;
-  width: 200px;
-
-  background-color: #eeeeee;
-  border: 1px solid #dddddd;
-  padding: 20px;
-  margin: 0 10px;
-
-  text-align: left;
-}
-
-li:nth-child(even) {
-  background-color: cyan;
-}
-
-ul::column {
-  scroll-snap-align: center;
-}
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: black;
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  opacity: 1;
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  opacity: 0.2;
-  cursor: unset;
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-ul {
-  anchor-name: --my-carousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --my-carousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  bottom: calc(anchor(top) + 13px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  bottom: calc(anchor(top) + 13px);
-}
-
-ul {
-  scroll-marker-group: after;
-}
-
-ul::scroll-marker-group {
-  position: absolute;
-  position-anchor: --my-carousel;
-  top: calc(anchor(bottom) - 70px);
-  justify-self: anchor-center;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-ul::column::scroll-marker {
-  content: "";
-  width: 16px;
-  height: 16px;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 10px;
-}
-
-ul::column::scroll-marker:target-current {
-  background-color: black;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "7:23 - 7:32",
-                            `/en-US/docs/Web/CSS/CSS_overflow/CSS_carousels
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  text-align: center;
-  font-size: 1.7rem;
-}
-
-ul {
-  width: 100vw;
-  height: 300px;
-  padding: 10px;
-
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-
-  columns: 1;
-  text-align: center;
-}
-
-li {
-  list-style-type: none;
-
-  display: inline-block;
-  height: 100%;
-  width: 200px;
-
-  background-color: #eeeeee;
-  border: 1px solid #dddddd;
-  padding: 20px;
-  margin: 0 10px;
-
-  text-align: left;
-}
-
-li:nth-child(even) {
-  background-color: cyan;
-}
-
-ul::column {
-  scroll-snap-align: center;
-}
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: black;
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  opacity: 1;
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  opacity: 0.2;
-  cursor: unset;
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-ul {
-  anchor-name: --my-carousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --my-carousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  bottom: calc(anchor(top) + 13px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  bottom: calc(anchor(top) + 13px);
-}
-
-ul {
-  scroll-marker-group: after;
-}
-
-ul::scroll-marker-group {
-  position: absolute;
-  position-anchor: --my-carousel;
-  top: calc(anchor(bottom) - 70px);
-  justify-self: anchor-center;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-ul::column::scroll-marker {
-  content: "";
-  width: 16px;
-  height: 16px;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 10px;
-}
-
-ul::column::scroll-marker:target-current {
-  background-color: black;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/CSS/CSS_overflow",
                   messages: [
                     {
@@ -73111,73 +55653,12 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                   children: {
                     stacking_context: {
                       children: {
-                        stacking_context_example_1: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context/Stacking_context_example_1",
-                          messages: [
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Arial;",
-                                "2:16 - 2:21",
-                                `/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context/Stacking_context_example_1
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.bold {
-  font-family: Arial;
-  font-size: 12px;
-  font-weight: bold;
-}
-
-#div1,
-#div3 {
-  height: 80px;
-  position: relative;
-  border: 1px dashed #669966;
-  background-color: #ccffcc;
-  padding-left: 5px;
-}
-
-#div2 {
-  opacity: 0.8;
-  z-index: 1;
-  position: absolute;
-  width: 150px;
-  height: 200px;
-  top: 20px;
-  left: 170px;
-  border: 1px dashed #990000;
-  background-color: #ffdddd;
-  text-align: center;
-}
-
-#div4 {
-  opacity: 0.8;
-  z-index: 2;
-  position: absolute;
-  width: 200px;
-  height: 80px;
-  top: 65px;
-  left: 50px;
-  border: 1px dashed #000099;
-  background-color: #ddddff;
-  text-align: left;
-  padding-left: 10px;
-}
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         stacking_context_example_2: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context/Stacking_context_example_2",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -73248,7 +55729,7 @@ span.bold {
                           slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context/Stacking_context_example_3",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -73319,7 +55800,7 @@ div {
                       slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -73410,464 +55891,6 @@ article {
                           ]
                         }
                       ]
-                    },
-                    "understanding_z-index": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "arial" (font-family-name-quotes)',
-                            "  font-family: arial, helvetica, sans-serif;",
-                            "8:16 - 8:21",
-                            `/en-US/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index
-[font-family-name-quotes] Expected quotes around "arial" (font-family-name-quotes)
-~~~
-div {
-  height: 100px;
-  width: 100px;
-  outline: 1px dotted;
-  line-height: 100px;
-  font-size: 40px;
-  text-align: center;
-  font-family: arial, helvetica, sans-serif;
-}
-
-#div1 {
-  background-color: lightpink;
-}
-
-#div2 {
-  background-color: lightyellow;
-}
-
-#div3 {
-  background-color: lightgreen;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "helvetica" (font-family-name-quotes)',
-                            "  font-family: arial, helvetica, sans-serif;",
-                            "8:23 - 8:32",
-                            `/en-US/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index
-[font-family-name-quotes] Expected quotes around "helvetica" (font-family-name-quotes)
-~~~
-div {
-  height: 100px;
-  width: 100px;
-  outline: 1px dotted;
-  line-height: 100px;
-  font-size: 40px;
-  text-align: center;
-  font-family: arial, helvetica, sans-serif;
-}
-
-#div1 {
-  background-color: lightpink;
-}
-
-#div2 {
-  background-color: lightyellow;
-}
-
-#div3 {
-  background-color: lightgreen;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "arial" (font-family-name-quotes)',
-                            "  font-family: arial, helvetica, sans-serif;",
-                            "8:16 - 8:21",
-                            `/en-US/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index
-[font-family-name-quotes] Expected quotes around "arial" (font-family-name-quotes)
-~~~
-div {
-  height: 100px;
-  width: 100px;
-  outline: 1px dotted;
-  line-height: 100px;
-  font-size: 40px;
-  text-align: center;
-  font-family: arial, helvetica, sans-serif;
-}
-
-#div1 {
-  background-color: lightpink;
-}
-
-#div2 {
-  background-color: lightyellow;
-}
-
-#div3 {
-  background-color: lightgreen;
-}
-
-div {
-  position: absolute;
-}
-
-#div1 {
-  top: 0;
-  left: 0;
-}
-
-#div2 {
-  top: 10px;
-  left: 10px;
-}
-
-#div3 {
-  top: 20px;
-  left: 20px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "helvetica" (font-family-name-quotes)',
-                            "  font-family: arial, helvetica, sans-serif;",
-                            "8:23 - 8:32",
-                            `/en-US/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index
-[font-family-name-quotes] Expected quotes around "helvetica" (font-family-name-quotes)
-~~~
-div {
-  height: 100px;
-  width: 100px;
-  outline: 1px dotted;
-  line-height: 100px;
-  font-size: 40px;
-  text-align: center;
-  font-family: arial, helvetica, sans-serif;
-}
-
-#div1 {
-  background-color: lightpink;
-}
-
-#div2 {
-  background-color: lightyellow;
-}
-
-#div3 {
-  background-color: lightgreen;
-}
-
-div {
-  position: absolute;
-}
-
-#div1 {
-  top: 0;
-  left: 0;
-}
-
-#div2 {
-  top: 10px;
-  left: 10px;
-}
-
-#div3 {
-  top: 20px;
-  left: 20px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "arial" (font-family-name-quotes)',
-                            "  font-family: arial, helvetica, sans-serif;",
-                            "8:16 - 8:21",
-                            `/en-US/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index
-[font-family-name-quotes] Expected quotes around "arial" (font-family-name-quotes)
-~~~
-div {
-  height: 100px;
-  width: 100px;
-  outline: 1px dotted;
-  line-height: 100px;
-  font-size: 40px;
-  text-align: center;
-  font-family: arial, helvetica, sans-serif;
-}
-
-#div1 {
-  background-color: lightpink;
-}
-
-#div2 {
-  background-color: lightyellow;
-}
-
-#div3 {
-  background-color: lightgreen;
-}
-
-div {
-  position: absolute;
-}
-
-#div1 {
-  top: 0;
-  left: 0;
-}
-
-#div2 {
-  top: 10px;
-  left: 10px;
-}
-
-#div3 {
-  top: 20px;
-  left: 20px;
-}
-
-#div1 {
-  z-index: 5;
-}
-
-#div2 {
-  z-index: -9;
-}
-
-#div3 {
-  z-index: 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "helvetica" (font-family-name-quotes)',
-                            "  font-family: arial, helvetica, sans-serif;",
-                            "8:23 - 8:32",
-                            `/en-US/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index
-[font-family-name-quotes] Expected quotes around "helvetica" (font-family-name-quotes)
-~~~
-div {
-  height: 100px;
-  width: 100px;
-  outline: 1px dotted;
-  line-height: 100px;
-  font-size: 40px;
-  text-align: center;
-  font-family: arial, helvetica, sans-serif;
-}
-
-#div1 {
-  background-color: lightpink;
-}
-
-#div2 {
-  background-color: lightyellow;
-}
-
-#div3 {
-  background-color: lightgreen;
-}
-
-div {
-  position: absolute;
-}
-
-#div1 {
-  top: 0;
-  left: 0;
-}
-
-#div2 {
-  top: 10px;
-  left: 10px;
-}
-
-#div3 {
-  top: 20px;
-  left: 20px;
-}
-
-#div1 {
-  z-index: 5;
-}
-
-#div2 {
-  z-index: -9;
-}
-
-#div3 {
-  z-index: 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "arial" (font-family-name-quotes)',
-                            "  font-family: arial, helvetica, sans-serif;",
-                            "8:16 - 8:21",
-                            `/en-US/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index
-[font-family-name-quotes] Expected quotes around "arial" (font-family-name-quotes)
-~~~
-div {
-  height: 100px;
-  width: 100px;
-  outline: 1px dotted;
-  line-height: 100px;
-  font-size: 40px;
-  text-align: center;
-  font-family: arial, helvetica, sans-serif;
-}
-
-#div1 {
-  background-color: lightpink;
-}
-
-#div2 {
-  background-color: lightyellow;
-}
-
-#div3 {
-  background-color: lightgreen;
-}
-
-div {
-  position: absolute;
-}
-
-#div1 {
-  top: 0;
-  left: 0;
-}
-
-#div2 {
-  top: 10px;
-  left: 10px;
-}
-
-#div3 {
-  top: 20px;
-  left: 20px;
-}
-
-#div1 {
-  z-index: 5;
-}
-
-#div2 {
-  z-index: -9;
-}
-
-#div3 {
-  z-index: 0;
-}
-
-section {
-  position: absolute;
-  z-index: 2;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "helvetica" (font-family-name-quotes)',
-                            "  font-family: arial, helvetica, sans-serif;",
-                            "8:23 - 8:32",
-                            `/en-US/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index
-[font-family-name-quotes] Expected quotes around "helvetica" (font-family-name-quotes)
-~~~
-div {
-  height: 100px;
-  width: 100px;
-  outline: 1px dotted;
-  line-height: 100px;
-  font-size: 40px;
-  text-align: center;
-  font-family: arial, helvetica, sans-serif;
-}
-
-#div1 {
-  background-color: lightpink;
-}
-
-#div2 {
-  background-color: lightyellow;
-}
-
-#div3 {
-  background-color: lightgreen;
-}
-
-div {
-  position: absolute;
-}
-
-#div1 {
-  top: 0;
-  left: 0;
-}
-
-#div2 {
-  top: 10px;
-  left: 10px;
-}
-
-#div3 {
-  top: 20px;
-  left: 20px;
-}
-
-#div1 {
-  z-index: 5;
-}
-
-#div2 {
-  z-index: -9;
-}
-
-#div3 {
-  z-index: 0;
-}
-
-section {
-  position: absolute;
-  z-index: 2;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
                     }
                   }
                 },
@@ -73905,512 +55928,7 @@ section {
                   }
                 },
                 css_scroll_snap: {
-                  children: {
-                    using_scroll_snap_events: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_scroll_snap/Using_scroll_snap_events",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "22:16 - 22:21",
-                            `/en-US/docs/Web/CSS/CSS_scroll_snap/Using_scroll_snap_events
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: inherit;
-}
-
-h2 {
-  font-size: 1rem;
-  letter-spacing: 1px;
-}
-
-section {
-  font-family: Arial, Helvetica, sans-serif;
-  border-radius: 5px;
-  background: #eeeeee;
-  box-shadow:
-    inset 1px 1px 4px rgb(255 255 255 / 0.5),
-    inset -1px -1px 4px rgb(0 0 0 / 0.5);
-  width: 150px;
-  height: 150px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-main {
-  border: 3px solid black;
-  width: 250px;
-  height: 450px;
-  overflow: scroll;
-  scroll-snap-type: block mandatory;
-}
-
-section {
-  margin: 50px auto;
-  scroll-snap-align: center;
-  transition: 0.5s ease;
-}
-
-.pending {
-  background-color: #cccccc;
-}
-
-.select-section {
-  background: purple;
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "22:23 - 22:32",
-                            `/en-US/docs/Web/CSS/CSS_scroll_snap/Using_scroll_snap_events
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: inherit;
-}
-
-h2 {
-  font-size: 1rem;
-  letter-spacing: 1px;
-}
-
-section {
-  font-family: Arial, Helvetica, sans-serif;
-  border-radius: 5px;
-  background: #eeeeee;
-  box-shadow:
-    inset 1px 1px 4px rgb(255 255 255 / 0.5),
-    inset -1px -1px 4px rgb(0 0 0 / 0.5);
-  width: 150px;
-  height: 150px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-main {
-  border: 3px solid black;
-  width: 250px;
-  height: 450px;
-  overflow: scroll;
-  scroll-snap-type: block mandatory;
-}
-
-section {
-  margin: 50px auto;
-  scroll-snap-align: center;
-  transition: 0.5s ease;
-}
-
-.pending {
-  background-color: #cccccc;
-}
-
-.select-section {
-  background: purple;
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "22:16 - 22:21",
-                            `/en-US/docs/Web/CSS/CSS_scroll_snap/Using_scroll_snap_events
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: inherit;
-}
-
-h2 {
-  font-size: 1rem;
-  letter-spacing: 1px;
-}
-
-section {
-  font-family: Arial, Helvetica, sans-serif;
-  border-radius: 5px;
-  background: #eeeeee;
-  box-shadow:
-    inset 1px 1px 4px rgb(255 255 255 / 0.5),
-    inset -1px -1px 4px rgb(0 0 0 / 0.5);
-  width: 150px;
-  height: 150px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-main {
-  border: 3px solid black;
-  width: 250px;
-  height: 450px;
-  overflow: scroll;
-  scroll-snap-type: block mandatory;
-}
-
-section {
-  margin: 50px auto;
-  scroll-snap-align: center;
-  transition: 0.5s ease;
-}
-
-.pending {
-  background-color: #cccccc;
-}
-
-.select-section {
-  background: purple;
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "22:23 - 22:32",
-                            `/en-US/docs/Web/CSS/CSS_scroll_snap/Using_scroll_snap_events
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: inherit;
-}
-
-h2 {
-  font-size: 1rem;
-  letter-spacing: 1px;
-}
-
-section {
-  font-family: Arial, Helvetica, sans-serif;
-  border-radius: 5px;
-  background: #eeeeee;
-  box-shadow:
-    inset 1px 1px 4px rgb(255 255 255 / 0.5),
-    inset -1px -1px 4px rgb(0 0 0 / 0.5);
-  width: 150px;
-  height: 150px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-main {
-  border: 3px solid black;
-  width: 250px;
-  height: 450px;
-  overflow: scroll;
-  scroll-snap-type: block mandatory;
-}
-
-section {
-  margin: 50px auto;
-  scroll-snap-align: center;
-  transition: 0.5s ease;
-}
-
-.pending {
-  background-color: #cccccc;
-}
-
-.select-section {
-  background: purple;
-  color: white;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "17:16 - 17:21",
-                            `/en-US/docs/Web/CSS/CSS_scroll_snap/Using_scroll_snap_events
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: inherit;
-}
-
-section {
-  font-family: Arial, Helvetica, sans-serif;
-  border-radius: 5px;
-  background: #eeeeee;
-  box-shadow:
-    inset 1px 1px 4px rgb(255 255 255 / 0.5),
-    inset -1px -1px 4px rgb(0 0 0 / 0.5);
-  width: 150px;
-  height: 150px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  scroll-snap-align: center;
-}
-
-h2 {
-  font-size: 1rem;
-  letter-spacing: 1px;
-}
-
-main {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  padding: 100px;
-  gap: 50px;
-  overflow: scroll;
-  border: 3px solid black;
-  width: 350px;
-  height: 350px;
-
-  scroll-snap-type: both mandatory;
-}
-
-.select-section {
-  animation: select 0.8s ease forwards;
-}
-
-.deselect-section {
-  animation: deselect 0.8s ease forwards;
-}
-
-.pending {
-  background-color: #cccccc;
-}
-
-@keyframes select {
-  from {
-    background: #eeeeee;
-    color: black;
-  }
-
-  to {
-    background: purple;
-    color: white;
-  }
-}
-
-@keyframes deselect {
-  0% {
-    background: purple;
-    color: white;
-    opacity: 1;
-  }
-
-  80% {
-    background: #eeeeee;
-    color: black;
-    opacity: 0.1;
-  }
-
-  100% {
-    background: #eeeeee;
-    color: black;
-    opacity: 1;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "17:23 - 17:32",
-                            `/en-US/docs/Web/CSS/CSS_scroll_snap/Using_scroll_snap_events
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: inherit;
-}
-
-section {
-  font-family: Arial, Helvetica, sans-serif;
-  border-radius: 5px;
-  background: #eeeeee;
-  box-shadow:
-    inset 1px 1px 4px rgb(255 255 255 / 0.5),
-    inset -1px -1px 4px rgb(0 0 0 / 0.5);
-  width: 150px;
-  height: 150px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  scroll-snap-align: center;
-}
-
-h2 {
-  font-size: 1rem;
-  letter-spacing: 1px;
-}
-
-main {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  padding: 100px;
-  gap: 50px;
-  overflow: scroll;
-  border: 3px solid black;
-  width: 350px;
-  height: 350px;
-
-  scroll-snap-type: both mandatory;
-}
-
-.select-section {
-  animation: select 0.8s ease forwards;
-}
-
-.deselect-section {
-  animation: deselect 0.8s ease forwards;
-}
-
-.pending {
-  background-color: #cccccc;
-}
-
-@keyframes select {
-  from {
-    background: #eeeeee;
-    color: black;
-  }
-
-  to {
-    background: purple;
-    color: white;
-  }
-}
-
-@keyframes deselect {
-  0% {
-    background: purple;
-    color: white;
-    opacity: 1;
-  }
-
-  80% {
-    background: #eeeeee;
-    color: black;
-    opacity: 0.1;
-  }
-
-  100% {
-    background: #eeeeee;
-    color: black;
-    opacity: 1;
-  }
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/CSS/CSS_scroll_snap",
                   messages: [
                     {
@@ -74503,13 +56021,6 @@ article.snapDisabled ul {
 }
 ~~~
 `
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2022/06/keyboard-only-scrolling-areas.html",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -75624,1168 +57135,7 @@ section {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/CSS_transforms",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Inter" (font-family-name-quotes)',
-                        '    Inter, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,',
-                        "7:5 - 7:10",
-                        `/en-US/docs/Web/CSS/CSS_transforms
-[font-family-name-quotes] Expected quotes around "Inter" (font-family-name-quotes)
-~~~
-#allTransformFieldset {
-  border: none;
-  padding: 0;
-  margin-bottom: 4px;
-  accent-color: blue; /* or any color */
-  font-family:
-    Inter, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-}
-
-#allTransformFieldset > legend {
-  margin-bottom: 4px;
-}
-
-fieldset {
-  margin: 0;
-}
-
-legend {
-  font-weight: bold;
-  padding: 0;
-}
-
-#fieldsetSection {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: start;
-  gap: 8px;
-}
-
-#outputSection {
-  width: 100%;
-  min-height: 400px;
-  background: linear-gradient(skyblue, khaki);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  overflow: clip;
-}
-
-#outputContainer {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  perspective: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform-style: preserve-3d;
-  pointer-events: none;
-}
-
-#z0 {
-  width: 50px;
-  height: 50px;
-  background: linear-gradient(
-    to right bottom,
-    rgb(223 223 223),
-    rgb(190 190 190)
-  );
-  transform: translateZ(0px);
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  color: black;
-  border-radius: 50%;
-  outline: 1px solid rgb(0 0 0 / 0.35);
-  pointer-events: all;
-}
-
-#perspectiveDot {
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background-color: rgb(240 0 0 / 0.5);
-  transform: translate3d(-2px, -2px, 0px);
-  position: absolute;
-}
-
-#cube {
-  width: 100px;
-  height: 100px;
-  transform-style: preserve-3d;
-  transition: all 0.075s ease-out;
-  position: absolute;
-  pointer-events: all;
-}
-
-.face {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: inherit;
-  font-size: 60px;
-  color: white;
-}
-
-.front {
-  background: rgb(90 90 90 / 0.7);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: rgb(0 210 0 / 0.7);
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(210 0 0 / 0.7);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 210 / 0.7);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(210 210 0 / 0.7);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(210 0 210 / 0.7);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-
-.transformFieldset {
-  margin: 0;
-}
-
-.controlsContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 4px;
-}
-
-.controlsContainer {
-  width: 100%;
-}
-
-.controlsContainer > div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 4px;
-}
-
-.controlsContainer > div > label {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 4px;
-}
-
-button {
-  font-size: 18px;
-  border-radius: 50%;
-  border: #cccccc solid 1px;
-  padding: 0;
-  width: 26px;
-  height: 26px;
-  margin-left: 4px;
-}
-
-input[type="range"] {
-  width: 172px;
-}
-
-output {
-  width: 3em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Unexpected quotes around "system-ui" (font-family-name-quotes)',
-                        '    Inter, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,',
-                        "7:12 - 7:23",
-                        `/en-US/docs/Web/CSS/CSS_transforms
-[font-family-name-quotes] Unexpected quotes around "system-ui" (font-family-name-quotes)
-~~~
-#allTransformFieldset {
-  border: none;
-  padding: 0;
-  margin-bottom: 4px;
-  accent-color: blue; /* or any color */
-  font-family:
-    Inter, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-}
-
-#allTransformFieldset > legend {
-  margin-bottom: 4px;
-}
-
-fieldset {
-  margin: 0;
-}
-
-legend {
-  font-weight: bold;
-  padding: 0;
-}
-
-#fieldsetSection {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: start;
-  gap: 8px;
-}
-
-#outputSection {
-  width: 100%;
-  min-height: 400px;
-  background: linear-gradient(skyblue, khaki);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  overflow: clip;
-}
-
-#outputContainer {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  perspective: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform-style: preserve-3d;
-  pointer-events: none;
-}
-
-#z0 {
-  width: 50px;
-  height: 50px;
-  background: linear-gradient(
-    to right bottom,
-    rgb(223 223 223),
-    rgb(190 190 190)
-  );
-  transform: translateZ(0px);
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  color: black;
-  border-radius: 50%;
-  outline: 1px solid rgb(0 0 0 / 0.35);
-  pointer-events: all;
-}
-
-#perspectiveDot {
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background-color: rgb(240 0 0 / 0.5);
-  transform: translate3d(-2px, -2px, 0px);
-  position: absolute;
-}
-
-#cube {
-  width: 100px;
-  height: 100px;
-  transform-style: preserve-3d;
-  transition: all 0.075s ease-out;
-  position: absolute;
-  pointer-events: all;
-}
-
-.face {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: inherit;
-  font-size: 60px;
-  color: white;
-}
-
-.front {
-  background: rgb(90 90 90 / 0.7);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: rgb(0 210 0 / 0.7);
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(210 0 0 / 0.7);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 210 / 0.7);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(210 210 0 / 0.7);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(210 0 210 / 0.7);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-
-.transformFieldset {
-  margin: 0;
-}
-
-.controlsContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 4px;
-}
-
-.controlsContainer {
-  width: 100%;
-}
-
-.controlsContainer > div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 4px;
-}
-
-.controlsContainer > div > label {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 4px;
-}
-
-button {
-  font-size: 18px;
-  border-radius: 50%;
-  border: #cccccc solid 1px;
-  padding: 0;
-  width: 26px;
-  height: 26px;
-  margin-left: 4px;
-}
-
-input[type="range"] {
-  width: 172px;
-}
-
-output {
-  width: 3em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Roboto" (font-family-name-quotes)',
-                        '    Inter, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,',
-                        "7:37 - 7:43",
-                        `/en-US/docs/Web/CSS/CSS_transforms
-[font-family-name-quotes] Expected quotes around "Roboto" (font-family-name-quotes)
-~~~
-#allTransformFieldset {
-  border: none;
-  padding: 0;
-  margin-bottom: 4px;
-  accent-color: blue; /* or any color */
-  font-family:
-    Inter, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-}
-
-#allTransformFieldset > legend {
-  margin-bottom: 4px;
-}
-
-fieldset {
-  margin: 0;
-}
-
-legend {
-  font-weight: bold;
-  padding: 0;
-}
-
-#fieldsetSection {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: start;
-  gap: 8px;
-}
-
-#outputSection {
-  width: 100%;
-  min-height: 400px;
-  background: linear-gradient(skyblue, khaki);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  overflow: clip;
-}
-
-#outputContainer {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  perspective: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform-style: preserve-3d;
-  pointer-events: none;
-}
-
-#z0 {
-  width: 50px;
-  height: 50px;
-  background: linear-gradient(
-    to right bottom,
-    rgb(223 223 223),
-    rgb(190 190 190)
-  );
-  transform: translateZ(0px);
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  color: black;
-  border-radius: 50%;
-  outline: 1px solid rgb(0 0 0 / 0.35);
-  pointer-events: all;
-}
-
-#perspectiveDot {
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background-color: rgb(240 0 0 / 0.5);
-  transform: translate3d(-2px, -2px, 0px);
-  position: absolute;
-}
-
-#cube {
-  width: 100px;
-  height: 100px;
-  transform-style: preserve-3d;
-  transition: all 0.075s ease-out;
-  position: absolute;
-  pointer-events: all;
-}
-
-.face {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: inherit;
-  font-size: 60px;
-  color: white;
-}
-
-.front {
-  background: rgb(90 90 90 / 0.7);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: rgb(0 210 0 / 0.7);
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(210 0 0 / 0.7);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 210 / 0.7);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(210 210 0 / 0.7);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(210 0 210 / 0.7);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-
-.transformFieldset {
-  margin: 0;
-}
-
-.controlsContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 4px;
-}
-
-.controlsContainer {
-  width: 100%;
-}
-
-.controlsContainer > div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 4px;
-}
-
-.controlsContainer > div > label {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 4px;
-}
-
-button {
-  font-size: 18px;
-  border-radius: 50%;
-  border: #cccccc solid 1px;
-  padding: 0;
-  width: 26px;
-  height: 26px;
-  margin-left: 4px;
-}
-
-input[type="range"] {
-  width: 172px;
-}
-
-output {
-  width: 3em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Oxygen" (font-family-name-quotes)',
-                        '    Inter, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,',
-                        "7:45 - 7:51",
-                        `/en-US/docs/Web/CSS/CSS_transforms
-[font-family-name-quotes] Expected quotes around "Oxygen" (font-family-name-quotes)
-~~~
-#allTransformFieldset {
-  border: none;
-  padding: 0;
-  margin-bottom: 4px;
-  accent-color: blue; /* or any color */
-  font-family:
-    Inter, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-}
-
-#allTransformFieldset > legend {
-  margin-bottom: 4px;
-}
-
-fieldset {
-  margin: 0;
-}
-
-legend {
-  font-weight: bold;
-  padding: 0;
-}
-
-#fieldsetSection {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: start;
-  gap: 8px;
-}
-
-#outputSection {
-  width: 100%;
-  min-height: 400px;
-  background: linear-gradient(skyblue, khaki);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  overflow: clip;
-}
-
-#outputContainer {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  perspective: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform-style: preserve-3d;
-  pointer-events: none;
-}
-
-#z0 {
-  width: 50px;
-  height: 50px;
-  background: linear-gradient(
-    to right bottom,
-    rgb(223 223 223),
-    rgb(190 190 190)
-  );
-  transform: translateZ(0px);
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  color: black;
-  border-radius: 50%;
-  outline: 1px solid rgb(0 0 0 / 0.35);
-  pointer-events: all;
-}
-
-#perspectiveDot {
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background-color: rgb(240 0 0 / 0.5);
-  transform: translate3d(-2px, -2px, 0px);
-  position: absolute;
-}
-
-#cube {
-  width: 100px;
-  height: 100px;
-  transform-style: preserve-3d;
-  transition: all 0.075s ease-out;
-  position: absolute;
-  pointer-events: all;
-}
-
-.face {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: inherit;
-  font-size: 60px;
-  color: white;
-}
-
-.front {
-  background: rgb(90 90 90 / 0.7);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: rgb(0 210 0 / 0.7);
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(210 0 0 / 0.7);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 210 / 0.7);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(210 210 0 / 0.7);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(210 0 210 / 0.7);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-
-.transformFieldset {
-  margin: 0;
-}
-
-.controlsContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 4px;
-}
-
-.controlsContainer {
-  width: 100%;
-}
-
-.controlsContainer > div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 4px;
-}
-
-.controlsContainer > div > label {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 4px;
-}
-
-button {
-  font-size: 18px;
-  border-radius: 50%;
-  border: #cccccc solid 1px;
-  padding: 0;
-  width: 26px;
-  height: 26px;
-  margin-left: 4px;
-}
-
-input[type="range"] {
-  width: 172px;
-}
-
-output {
-  width: 3em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Ubuntu" (font-family-name-quotes)',
-                        '    Inter, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,',
-                        "7:53 - 7:59",
-                        `/en-US/docs/Web/CSS/CSS_transforms
-[font-family-name-quotes] Expected quotes around "Ubuntu" (font-family-name-quotes)
-~~~
-#allTransformFieldset {
-  border: none;
-  padding: 0;
-  margin-bottom: 4px;
-  accent-color: blue; /* or any color */
-  font-family:
-    Inter, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-}
-
-#allTransformFieldset > legend {
-  margin-bottom: 4px;
-}
-
-fieldset {
-  margin: 0;
-}
-
-legend {
-  font-weight: bold;
-  padding: 0;
-}
-
-#fieldsetSection {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: start;
-  gap: 8px;
-}
-
-#outputSection {
-  width: 100%;
-  min-height: 400px;
-  background: linear-gradient(skyblue, khaki);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  overflow: clip;
-}
-
-#outputContainer {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  perspective: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform-style: preserve-3d;
-  pointer-events: none;
-}
-
-#z0 {
-  width: 50px;
-  height: 50px;
-  background: linear-gradient(
-    to right bottom,
-    rgb(223 223 223),
-    rgb(190 190 190)
-  );
-  transform: translateZ(0px);
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  color: black;
-  border-radius: 50%;
-  outline: 1px solid rgb(0 0 0 / 0.35);
-  pointer-events: all;
-}
-
-#perspectiveDot {
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background-color: rgb(240 0 0 / 0.5);
-  transform: translate3d(-2px, -2px, 0px);
-  position: absolute;
-}
-
-#cube {
-  width: 100px;
-  height: 100px;
-  transform-style: preserve-3d;
-  transition: all 0.075s ease-out;
-  position: absolute;
-  pointer-events: all;
-}
-
-.face {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: inherit;
-  font-size: 60px;
-  color: white;
-}
-
-.front {
-  background: rgb(90 90 90 / 0.7);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: rgb(0 210 0 / 0.7);
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(210 0 0 / 0.7);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 210 / 0.7);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(210 210 0 / 0.7);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(210 0 210 / 0.7);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-
-.transformFieldset {
-  margin: 0;
-}
-
-.controlsContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 4px;
-}
-
-.controlsContainer {
-  width: 100%;
-}
-
-.controlsContainer > div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 4px;
-}
-
-.controlsContainer > div > label {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 4px;
-}
-
-button {
-  font-size: 18px;
-  border-radius: 50%;
-  border: #cccccc solid 1px;
-  padding: 0;
-  width: 26px;
-  height: 26px;
-  margin-left: 4px;
-}
-
-input[type="range"] {
-  width: 172px;
-}
-
-output {
-  width: 3em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Cantarell" (font-family-name-quotes)',
-                        '    Inter, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,',
-                        "7:61 - 7:70",
-                        `/en-US/docs/Web/CSS/CSS_transforms
-[font-family-name-quotes] Expected quotes around "Cantarell" (font-family-name-quotes)
-~~~
-#allTransformFieldset {
-  border: none;
-  padding: 0;
-  margin-bottom: 4px;
-  accent-color: blue; /* or any color */
-  font-family:
-    Inter, "system-ui", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
-    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-}
-
-#allTransformFieldset > legend {
-  margin-bottom: 4px;
-}
-
-fieldset {
-  margin: 0;
-}
-
-legend {
-  font-weight: bold;
-  padding: 0;
-}
-
-#fieldsetSection {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: start;
-  gap: 8px;
-}
-
-#outputSection {
-  width: 100%;
-  min-height: 400px;
-  background: linear-gradient(skyblue, khaki);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  overflow: clip;
-}
-
-#outputContainer {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  perspective: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform-style: preserve-3d;
-  pointer-events: none;
-}
-
-#z0 {
-  width: 50px;
-  height: 50px;
-  background: linear-gradient(
-    to right bottom,
-    rgb(223 223 223),
-    rgb(190 190 190)
-  );
-  transform: translateZ(0px);
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  color: black;
-  border-radius: 50%;
-  outline: 1px solid rgb(0 0 0 / 0.35);
-  pointer-events: all;
-}
-
-#perspectiveDot {
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background-color: rgb(240 0 0 / 0.5);
-  transform: translate3d(-2px, -2px, 0px);
-  position: absolute;
-}
-
-#cube {
-  width: 100px;
-  height: 100px;
-  transform-style: preserve-3d;
-  transition: all 0.075s ease-out;
-  position: absolute;
-  pointer-events: all;
-}
-
-.face {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: inherit;
-  font-size: 60px;
-  color: white;
-}
-
-.front {
-  background: rgb(90 90 90 / 0.7);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: rgb(0 210 0 / 0.7);
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(210 0 0 / 0.7);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 210 / 0.7);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(210 210 0 / 0.7);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(210 0 210 / 0.7);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-
-.transformFieldset {
-  margin: 0;
-}
-
-.controlsContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 4px;
-}
-
-.controlsContainer {
-  width: 100%;
-}
-
-.controlsContainer > div {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 4px;
-}
-
-.controlsContainer > div > label {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 4px;
-}
-
-button {
-  font-size: 18px;
-  border-radius: 50%;
-  border: #cccccc solid 1px;
-  padding: 0;
-  width: 26px;
-  height: 26px;
-  margin-left: 4px;
-}
-
-input[type="range"] {
-  width: 172px;
-}
-
-output {
-  width: 3em;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
+                  }
                 },
                 css_transitions: {
                   children: {
@@ -76794,7 +57144,7 @@ output {
                       slug: "/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica Neue" (font-family-name-quotes)',
@@ -76845,7 +57195,7 @@ main {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -76896,7 +57246,7 @@ main {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -77188,145 +57538,6 @@ input[type="range"] {
 }
 ~~~
 `
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Bixa" (font-family-name-quotes)',
-                        "  font-family: Bixa;",
-                        "2:16 - 2:20",
-                        `/en-US/docs/Web/CSS/dashed-ident
-[font-family-name-quotes] Expected quotes around "Bixa" (font-family-name-quotes)
-~~~
-@font-palette-values --my-palette {
-  font-family: Bixa;
-  base-palette: 1;
-  override-colors: 0 red;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-palette: --my-palette;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                display: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/display",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "helvetica" (font-family-name-quotes)',
-                        "  font-family: helvetica, arial, sans-serif;",
-                        "2:16 - 2:25",
-                        `/en-US/docs/Web/CSS/display
-[font-family-name-quotes] Expected quotes around "helvetica" (font-family-name-quotes)
-~~~
-html {
-  font-family: helvetica, arial, sans-serif;
-  letter-spacing: 1px;
-  padding-top: 10px;
-}
-
-article {
-  background-color: red;
-}
-
-article span {
-  background-color: black;
-  color: white;
-  margin: 1px;
-}
-
-article,
-span {
-  padding: 10px;
-  border-radius: 7px;
-}
-
-article,
-div {
-  margin: 20px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "arial" (font-family-name-quotes)',
-                        "  font-family: helvetica, arial, sans-serif;",
-                        "2:27 - 2:32",
-                        `/en-US/docs/Web/CSS/display
-[font-family-name-quotes] Expected quotes around "arial" (font-family-name-quotes)
-~~~
-html {
-  font-family: helvetica, arial, sans-serif;
-  letter-spacing: 1px;
-  padding-top: 10px;
-}
-
-article {
-  background-color: red;
-}
-
-article span {
-  background-color: black;
-  color: white;
-  margin: 1px;
-}
-
-article,
-span {
-  padding: 10px;
-  border-radius: 7px;
-}
-
-article,
-div {
-  margin: 20px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                "display-box": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/display-box",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-                        "The operation timed out."
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -78293,78 +58504,6 @@ css.properties.width.fit-content_function`
 ~~~
 `
                       ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Consolas" (font-family-name-quotes)',
-                        "  font-family: Consolas, Arial, sans-serif;",
-                        "5:16 - 5:24",
-                        `/en-US/docs/Web/CSS/flex
-[font-family-name-quotes] Expected quotes around "Consolas" (font-family-name-quotes)
-~~~
-body * {
-  padding: 1rem;
-  user-select: none;
-  box-sizing: border-box;
-  font-family: Consolas, Arial, sans-serif;
-}
-
-#flex-container {
-  border: 2px dashed gray;
-  display: flex;
-}
-
-#flex-auto {
-  cursor: pointer;
-  background-color: wheat;
-
-  flex: auto;
-}
-
-#default {
-  background-color: lightblue;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Consolas, Arial, sans-serif;",
-                        "5:26 - 5:31",
-                        `/en-US/docs/Web/CSS/flex
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body * {
-  padding: 1rem;
-  user-select: none;
-  box-sizing: border-box;
-  font-family: Consolas, Arial, sans-serif;
-}
-
-#flex-container {
-  border: 2px dashed gray;
-  display: flex;
-}
-
-#flex-auto {
-  cursor: pointer;
-  background-color: wheat;
-
-  flex: auto;
-}
-
-#default {
-  background-color: lightblue;
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -78399,103 +58538,6 @@ body * {
 }
 ~~~
 `
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "arial" (font-family-name-quotes)',
-                        "  font-family: arial, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/flex-basis
-[font-family-name-quotes] Expected quotes around "arial" (font-family-name-quotes)
-~~~
-.container {
-  font-family: arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.flex {
-  background: #6ab6d8;
-  padding: 10px;
-  margin-bottom: 50px;
-  border: 3px solid #2e86bb;
-  color: white;
-  font-size: 14px;
-  text-align: center;
-  position: relative;
-}
-
-.flex::after {
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  top: 100%;
-  margin-top: 10px;
-  width: 100%;
-  color: #333333;
-  font-size: 12px;
-}
-
-.flex1 {
-  flex-basis: auto;
-}
-
-.flex1::after {
-  content: "auto";
-}
-
-.flex2 {
-  flex-basis: max-content;
-}
-
-.flex2::after {
-  content: "max-content";
-}
-
-.flex3 {
-  flex-basis: min-content;
-}
-
-.flex3::after {
-  content: "min-content";
-}
-
-.flex4 {
-  flex-basis: fit-content;
-}
-
-.flex4::after {
-  content: "fit-content";
-}
-
-.flex5 {
-  flex-basis: content;
-}
-
-.flex5::after {
-  content: "content";
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "flex-direction": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex-direction",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2015/09/source-order-matters.html",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -78724,7 +58766,7 @@ rect {
                   slug: "/en-US/docs/Web/CSS/font",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "caption" (font-family-name-quotes)',
@@ -78739,7 +58781,7 @@ font: caption;
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "status-bar" (font-family-name-quotes)',
@@ -78778,7 +58820,7 @@ p {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -78850,22 +58892,7 @@ input {
                   slug: "/en-US/docs/Web/CSS/font-family",
                   messages: [
                     {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Georgia" (font-family-name-quotes)',
-                        "font-family: Georgia, serif;",
-                        "1:14 - 1:21",
-                        `/en-US/docs/Web/CSS/font-family
-[font-family-name-quotes] Expected quotes around "Georgia" (font-family-name-quotes)
-~~~
-font-family: Georgia, serif;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "Goudy Bookletter sans-serif" (font-family-name-quotes)',
@@ -78886,7 +58913,7 @@ font-family: Hawaii 5-0, sans-serif;
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "Red/Black" (font-family-name-quotes)',
@@ -78907,7 +58934,7 @@ font-family: Hawaii 5-0, sans-serif;
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "Ahem!" (font-family-name-quotes)',
@@ -78928,7 +58955,7 @@ font-family: Hawaii 5-0, sans-serif;
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "test@foo" (font-family-name-quotes)',
@@ -78949,7 +58976,7 @@ font-family: Hawaii 5-0, sans-serif;
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "#POUND" (font-family-name-quotes)',
@@ -78970,7 +58997,7 @@ font-family: Hawaii 5-0, sans-serif;
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "Hawaii 5-0" (font-family-name-quotes)',
@@ -78991,7 +59018,7 @@ font-family: Hawaii 5-0, sans-serif;
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "Gill Sans Extrabold" (font-family-name-quotes)',
@@ -79003,415 +59030,6 @@ font-family: Hawaii 5-0, sans-serif;
 font-family:
   Gill Sans Extrabold,
   sans-serif;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Times" (font-family-name-quotes)',
-                        '  font-family: Times, "Times New Roman", Georgia, serif;',
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/font-family
-[font-family-name-quotes] Expected quotes around "Times" (font-family-name-quotes)
-~~~
-.serif {
-  font-family: Times, "Times New Roman", Georgia, serif;
-}
-
-.sansserif {
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-}
-
-.monospace {
-  font-family: "Lucida Console", Courier, monospace;
-}
-
-.cursive {
-  font-family: cursive;
-}
-
-.fantasy {
-  font-family: fantasy;
-}
-
-.math {
-  font-family: math;
-}
-
-.fangsong {
-  font-family: fangsong;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Georgia" (font-family-name-quotes)',
-                        '  font-family: Times, "Times New Roman", Georgia, serif;',
-                        "2:42 - 2:49",
-                        `/en-US/docs/Web/CSS/font-family
-[font-family-name-quotes] Expected quotes around "Georgia" (font-family-name-quotes)
-~~~
-.serif {
-  font-family: Times, "Times New Roman", Georgia, serif;
-}
-
-.sansserif {
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-}
-
-.monospace {
-  font-family: "Lucida Console", Courier, monospace;
-}
-
-.cursive {
-  font-family: cursive;
-}
-
-.fantasy {
-  font-family: fantasy;
-}
-
-.math {
-  font-family: math;
-}
-
-.fangsong {
-  font-family: fangsong;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Verdana" (font-family-name-quotes)',
-                        "  font-family: Verdana, Arial, Helvetica, sans-serif;",
-                        "6:16 - 6:23",
-                        `/en-US/docs/Web/CSS/font-family
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-.serif {
-  font-family: Times, "Times New Roman", Georgia, serif;
-}
-
-.sansserif {
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-}
-
-.monospace {
-  font-family: "Lucida Console", Courier, monospace;
-}
-
-.cursive {
-  font-family: cursive;
-}
-
-.fantasy {
-  font-family: fantasy;
-}
-
-.math {
-  font-family: math;
-}
-
-.fangsong {
-  font-family: fangsong;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Verdana, Arial, Helvetica, sans-serif;",
-                        "6:25 - 6:30",
-                        `/en-US/docs/Web/CSS/font-family
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.serif {
-  font-family: Times, "Times New Roman", Georgia, serif;
-}
-
-.sansserif {
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-}
-
-.monospace {
-  font-family: "Lucida Console", Courier, monospace;
-}
-
-.cursive {
-  font-family: cursive;
-}
-
-.fantasy {
-  font-family: fantasy;
-}
-
-.math {
-  font-family: math;
-}
-
-.fangsong {
-  font-family: fangsong;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Verdana, Arial, Helvetica, sans-serif;",
-                        "6:32 - 6:41",
-                        `/en-US/docs/Web/CSS/font-family
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-.serif {
-  font-family: Times, "Times New Roman", Georgia, serif;
-}
-
-.sansserif {
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-}
-
-.monospace {
-  font-family: "Lucida Console", Courier, monospace;
-}
-
-.cursive {
-  font-family: cursive;
-}
-
-.fantasy {
-  font-family: fantasy;
-}
-
-.math {
-  font-family: math;
-}
-
-.fangsong {
-  font-family: fangsong;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Courier" (font-family-name-quotes)',
-                        '  font-family: "Lucida Console", Courier, monospace;',
-                        "10:34 - 10:41",
-                        `/en-US/docs/Web/CSS/font-family
-[font-family-name-quotes] Expected quotes around "Courier" (font-family-name-quotes)
-~~~
-.serif {
-  font-family: Times, "Times New Roman", Georgia, serif;
-}
-
-.sansserif {
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-}
-
-.monospace {
-  font-family: "Lucida Console", Courier, monospace;
-}
-
-.cursive {
-  font-family: cursive;
-}
-
-.fantasy {
-  font-family: fantasy;
-}
-
-.math {
-  font-family: math;
-}
-
-.fangsong {
-  font-family: fangsong;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "font-feature-settings": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-feature-settings",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Gabriola" (font-family-name-quotes)',
-                        "  font-family: Gabriola, cursive;",
-                        "43:16 - 43:24",
-                        `/en-US/docs/Web/CSS/font-feature-settings
-[font-family-name-quotes] Expected quotes around "Gabriola" (font-family-name-quotes)
-~~~
-/* use small-cap alternate glyphs */
-.small-caps {
-  font-feature-settings: "smcp" on;
-}
-
-/* convert both upper and lowercase to small caps (affects punctuation also) */
-.all-small-caps {
-  font-feature-settings: "c2sc", "smcp";
-}
-
-/* use zeros with a slash through them to differentiate from "O" */
-.nice-zero {
-  font-feature-settings: "zero";
-}
-
-/* enable historical forms */
-.historical {
-  font-feature-settings: "hist";
-}
-
-/* disable common ligatures, usually on by default */
-.no-ligatures {
-  font-feature-settings: "liga" 0;
-}
-
-/* enable tabular (monospaced) figures */
-td.tabular {
-  font-feature-settings: "tnum";
-}
-
-/* enable automatic fractions */
-.fractions {
-  font-feature-settings: "frac";
-}
-
-/* use the second available swash character */
-.swash {
-  font-feature-settings: "swsh" 2;
-}
-
-/* enable stylistic set 7 */
-.fancy-style {
-  font-family: Gabriola, cursive;
-  font-feature-settings: "ss07";
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "font-optical-sizing": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-optical-sizing",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Amstelvar" (font-family-name-quotes)',
-                        "  font-family: Amstelvar;",
-                        "3:16 - 3:25",
-                        `/en-US/docs/Web/CSS/font-optical-sizing
-[font-family-name-quotes] Expected quotes around "Amstelvar" (font-family-name-quotes)
-~~~
-@font-face {
-  src: url("/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
-  font-family: Amstelvar;
-  font-style: normal;
-}
-
-#example-element {
-  font-family: Amstelvar, serif;
-  text-align: left;
-}
-
-#example-element h2 {
-  font-size: 36px;
-}
-
-#example-element p {
-  font-size: 12px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Amstelvar" (font-family-name-quotes)',
-                        "  font-family: Amstelvar, serif;",
-                        "8:16 - 8:25",
-                        `/en-US/docs/Web/CSS/font-optical-sizing
-[font-family-name-quotes] Expected quotes around "Amstelvar" (font-family-name-quotes)
-~~~
-@font-face {
-  src: url("/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
-  font-family: Amstelvar;
-  font-style: normal;
-}
-
-#example-element {
-  font-family: Amstelvar, serif;
-  text-align: left;
-}
-
-#example-element h2 {
-  font-size: 36px;
-}
-
-#example-element p {
-  font-size: 12px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Amstelvar" (font-family-name-quotes)',
-                        "  font-family: Amstelvar, serif;",
-                        "9:16 - 9:25",
-                        `/en-US/docs/Web/CSS/font-optical-sizing
-[font-family-name-quotes] Expected quotes around "Amstelvar" (font-family-name-quotes)
-~~~
-@font-face {
-  src: url("AmstelvarAlpha-VF.ttf");
-  font-family: "Amstelvar";
-  font-style: normal;
-}
-
-p {
-  font-size: 36px;
-  font-family: Amstelvar, serif;
-}
-
-.no-optical-sizing {
-  font-optical-sizing: none;
-}
 ~~~
 `
                       ]
@@ -79437,100 +59055,12 @@ p {
 @import "https://fonts.googleapis.com/css2?family=Nabla&display=swap";
 
 @font-palette-values --blue-nabla {
-  font-family: Nabla;
+  font-family: "Nabla";
   base-palette: 2; /* this is Nabla's blue palette */
 }
 
 @font-palette-values --yellow-nabla {
-  font-family: Nabla;
-  base-palette: 7; /* this is Nabla's yellow palette */
-}
-
-p {
-  font-family: "Nabla", fantasy;
-  font-size: 4rem;
-  text-align: center;
-  margin: 0;
-}
-
-.yellowPalette {
-  font-palette: --yellow-nabla;
-}
-
-.bluePalette {
-  font-palette: --blue-nabla;
-}
-
-.mixedPalette {
-  font-palette: palette-mix(in lch, --blue-nabla 55%, --yellow-nabla 45%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Nabla" (font-family-name-quotes)',
-                            "  font-family: Nabla;",
-                            "4:16 - 4:21",
-                            `/en-US/docs/Web/CSS/font-palette/palette-mix
-[font-family-name-quotes] Expected quotes around "Nabla" (font-family-name-quotes)
-~~~
-@import "https://fonts.googleapis.com/css2?family=Nabla&display=swap";
-
-@font-palette-values --blue-nabla {
-  font-family: Nabla;
-  base-palette: 2; /* this is Nabla's blue palette */
-}
-
-@font-palette-values --yellow-nabla {
-  font-family: Nabla;
-  base-palette: 7; /* this is Nabla's yellow palette */
-}
-
-p {
-  font-family: "Nabla", fantasy;
-  font-size: 4rem;
-  text-align: center;
-  margin: 0;
-}
-
-.yellowPalette {
-  font-palette: --yellow-nabla;
-}
-
-.bluePalette {
-  font-palette: --blue-nabla;
-}
-
-.mixedPalette {
-  font-palette: palette-mix(in lch, --blue-nabla 55%, --yellow-nabla 45%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Nabla" (font-family-name-quotes)',
-                            "  font-family: Nabla;",
-                            "9:16 - 9:21",
-                            `/en-US/docs/Web/CSS/font-palette/palette-mix
-[font-family-name-quotes] Expected quotes around "Nabla" (font-family-name-quotes)
-~~~
-@import "https://fonts.googleapis.com/css2?family=Nabla&display=swap";
-
-@font-palette-values --blue-nabla {
-  font-family: Nabla;
-  base-palette: 2; /* this is Nabla's blue palette */
-}
-
-@font-palette-values --yellow-nabla {
-  font-family: Nabla;
+  font-family: "Nabla";
   base-palette: 7; /* this is Nabla's yellow palette */
 }
 
@@ -79558,275 +59088,12 @@ p {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/font-palette",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Nabla" (font-family-name-quotes)',
-                        "  font-family: Nabla;",
-                        "4:16 - 4:21",
-                        `/en-US/docs/Web/CSS/font-palette
-[font-family-name-quotes] Expected quotes around "Nabla" (font-family-name-quotes)
-~~~
-@import "https://fonts.googleapis.com/css2?family=Nabla&display=swap";
-
-@font-palette-values --blue-nabla {
-  font-family: Nabla;
-  base-palette: 2; /* this is Nabla's blue palette */
-}
-
-@font-palette-values --grey-nabla {
-  font-family: Nabla;
-  base-palette: 3; /* this is Nabla's grey palette */
-}
-
-@keyframes animate-palette {
-  from {
-    font-palette: --grey-nabla;
-  }
-
-  to {
-    font-palette: --blue-nabla;
-  }
-}
-
-p {
-  font-family: "Nabla", fantasy;
-  font-size: 5rem;
-  margin: 0;
-  text-align: center;
-  animation: animate-palette 4s infinite alternate linear;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Nabla" (font-family-name-quotes)',
-                        "  font-family: Nabla;",
-                        "9:16 - 9:21",
-                        `/en-US/docs/Web/CSS/font-palette
-[font-family-name-quotes] Expected quotes around "Nabla" (font-family-name-quotes)
-~~~
-@import "https://fonts.googleapis.com/css2?family=Nabla&display=swap";
-
-@font-palette-values --blue-nabla {
-  font-family: Nabla;
-  base-palette: 2; /* this is Nabla's blue palette */
-}
-
-@font-palette-values --grey-nabla {
-  font-family: Nabla;
-  base-palette: 3; /* this is Nabla's grey palette */
-}
-
-@keyframes animate-palette {
-  from {
-    font-palette: --grey-nabla;
-  }
-
-  to {
-    font-palette: --blue-nabla;
-  }
-}
-
-p {
-  font-family: "Nabla", fantasy;
-  font-size: 5rem;
-  margin: 0;
-  text-align: center;
-  animation: animate-palette 4s infinite alternate linear;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "font-size-adjust": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-size-adjust",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Times" (font-family-name-quotes)',
-                        "  font-family: Times, serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/font-size-adjust
-[font-family-name-quotes] Expected quotes around "Times" (font-family-name-quotes)
-~~~
-.times {
-  font-family: Times, serif;
-  font-size: 14px;
-}
-
-.verdana {
-  font-family: Verdana, sans-serif;
-  font-size: 14px;
-}
-
-.adj-times-ex-height {
-  font-size-adjust: 0.545;
-}
-
-.adj-times-cap-height {
-  font-size-adjust: cap-height 0.73;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Verdana" (font-family-name-quotes)',
-                        "  font-family: Verdana, sans-serif;",
-                        "7:16 - 7:23",
-                        `/en-US/docs/Web/CSS/font-size-adjust
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-.times {
-  font-family: Times, serif;
-  font-size: 14px;
-}
-
-.verdana {
-  font-family: Verdana, sans-serif;
-  font-size: 14px;
-}
-
-.adj-times-ex-height {
-  font-size-adjust: 0.545;
-}
-
-.adj-times-cap-height {
-  font-size-adjust: cap-height 0.73;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Futura" (font-family-name-quotes)',
-                        "  font-family: Futura, sans-serif;",
-                        "22:16 - 22:22",
-                        `/en-US/docs/Web/CSS/font-size-adjust
-[font-family-name-quotes] Expected quotes around "Futura" (font-family-name-quotes)
-~~~
-body {
-  display: flex;
-}
-
-div {
-  text-align: center;
-}
-
-p {
-  margin: 0 30px 10px 30px;
-}
-
-body {
-  display: flex;
-}
-
-div {
-  text-align: center;
-}
-
-p {
-  font-family: Futura, sans-serif;
-  font-size: 50px;
-}
-
-span {
-  border: solid 1px red;
-}
-
-.adjust1 {
-  font-size-adjust: 0.6;
-}
-
-.adjust2 {
-  font-size-adjust: 0.5;
-}
-
-.adjust3 {
-  font-size-adjust: 0.482;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
+                  }
                 },
                 "font-stretch": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/font-stretch",
                   messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "League" (font-family-name-quotes)',
-                        "  font-family: League;",
-                        "3:16 - 3:22",
-                        `/en-US/docs/Web/CSS/font-stretch
-[font-family-name-quotes] Expected quotes around "League" (font-family-name-quotes)
-~~~
-@font-face {
-  src: url("/shared-assets/fonts/LeagueMono-VF.ttf") format("truetype");
-  font-family: League;
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: 50% 200%; /* Required by Chrome - allow 50% to 200% */
-}
-
-section {
-  font-size: 1.2em;
-  font-family: League, sans-serif;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "League" (font-family-name-quotes)',
-                        "  font-family: League, sans-serif;",
-                        "11:16 - 11:22",
-                        `/en-US/docs/Web/CSS/font-stretch
-[font-family-name-quotes] Expected quotes around "League" (font-family-name-quotes)
-~~~
-@font-face {
-  src: url("/shared-assets/fonts/LeagueMono-VF.ttf") format("truetype");
-  font-family: League;
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: 50% 200%; /* Required by Chrome - allow 50% to 200% */
-}
-
-section {
-  font-size: 1.2em;
-  font-family: League, sans-serif;
-}
-~~~
-`
-                      ]
-                    },
                     {
                       message: "Stylelint backlog",
                       data: [
@@ -79839,7 +59106,7 @@ section {
 ~~~
 @font-face {
   src: url("/shared-assets/fonts/LeagueMono-VF.ttf") format("truetype");
-  font-family: League;
+  font-family: "League";
   font-style: normal;
   font-weight: 400;
   font-stretch: 50% 200%; /* Required by Chrome - allow 50% to 200% */
@@ -79847,14 +59114,14 @@ section {
 
 section {
   font-size: 1.2em;
-  font-family: League, sans-serif;
+  font-family: "League", sans-serif;
 }
 ~~~
 `
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "Inconsolata" (font-family-name-quotes)',
@@ -79934,258 +59201,10 @@ td {
                     }
                   ]
                 },
-                "font-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-style",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Amstelvar" (font-family-name-quotes)',
-                        "  font-family: Amstelvar;",
-                        "3:16 - 3:25",
-                        `/en-US/docs/Web/CSS/font-style
-[font-family-name-quotes] Expected quotes around "Amstelvar" (font-family-name-quotes)
-~~~
-@font-face {
-  src: url("/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
-  font-family: Amstelvar;
-  font-style: normal;
-}
-
-section {
-  font-size: 1.2em;
-  font-family: Amstelvar, serif;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Amstelvar" (font-family-name-quotes)',
-                        "  font-family: Amstelvar, serif;",
-                        "9:16 - 9:25",
-                        `/en-US/docs/Web/CSS/font-style
-[font-family-name-quotes] Expected quotes around "Amstelvar" (font-family-name-quotes)
-~~~
-@font-face {
-  src: url("/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
-  font-family: Amstelvar;
-  font-style: normal;
-}
-
-section {
-  font-size: 1.2em;
-  font-family: Amstelvar, serif;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "font-synthesis": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/font-synthesis",
                   messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Oxygen" (font-family-name-quotes)',
-                        "  font-family: Oxygen;",
-                        "2:16 - 2:22",
-                        `/en-US/docs/Web/CSS/font-synthesis
-[font-family-name-quotes] Expected quotes around "Oxygen" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: Oxygen;
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.gstatic.com/s/oxygen/v14/2sDfZG1Wl4LcnbuKjk0m.woff2")
-    format("woff2");
-}
-
-/* [108] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.108.woff2")
-    format("woff2");
-}
-/* [110] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.110.woff2")
-    format("woff2");
-}
-/* [117] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.117.woff2")
-    format("woff2");
-}
-/* [118] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.118.woff2")
-    format("woff2");
-}
-/* [119] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.119.woff2")
-    format("woff2");
-}
-
-.english {
-  font-size: 1.2em;
-  font-family: Oxygen, sans-serif;
-}
-
-.chinese {
-  font-size: 1.2em;
-  font-family: "Ma Shan Zheng", cursive;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.small-caps {
-  font-variant: small-caps;
-}
-
-.sub {
-  font-variant: sub;
-}
-
-.sup {
-  font-variant: super;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Oxygen" (font-family-name-quotes)',
-                        "  font-family: Oxygen, sans-serif;",
-                        "57:16 - 57:22",
-                        `/en-US/docs/Web/CSS/font-synthesis
-[font-family-name-quotes] Expected quotes around "Oxygen" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: Oxygen;
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.gstatic.com/s/oxygen/v14/2sDfZG1Wl4LcnbuKjk0m.woff2")
-    format("woff2");
-}
-
-/* [108] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.108.woff2")
-    format("woff2");
-}
-/* [110] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.110.woff2")
-    format("woff2");
-}
-/* [117] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.117.woff2")
-    format("woff2");
-}
-/* [118] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.118.woff2")
-    format("woff2");
-}
-/* [119] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.119.woff2")
-    format("woff2");
-}
-
-.english {
-  font-size: 1.2em;
-  font-family: Oxygen, sans-serif;
-}
-
-.chinese {
-  font-size: 1.2em;
-  font-family: "Ma Shan Zheng", cursive;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.small-caps {
-  font-variant: small-caps;
-}
-
-.sub {
-  font-variant: sub;
-}
-
-.sup {
-  font-variant: super;
-}
-~~~
-`
-                      ]
-                    },
                     {
                       message: "Stylelint backlog",
                       data: [
@@ -80197,7 +59216,7 @@ section {
 [font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
 ~~~
 @font-face {
-  font-family: Oxygen;
+  font-family: "Oxygen";
   font-style: normal;
   font-weight: 400;
   src: url("https://fonts.gstatic.com/s/oxygen/v14/2sDfZG1Wl4LcnbuKjk0m.woff2")
@@ -80252,7 +59271,7 @@ section {
 
 .english {
   font-size: 1.2em;
-  font-family: Oxygen, sans-serif;
+  font-family: "Oxygen", sans-serif;
 }
 
 .chinese {
@@ -80294,7 +59313,7 @@ section {
 [font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
 ~~~
 @font-face {
-  font-family: Oxygen;
+  font-family: "Oxygen";
   font-style: normal;
   font-weight: 400;
   src: url("https://fonts.gstatic.com/s/oxygen/v14/2sDfZG1Wl4LcnbuKjk0m.woff2")
@@ -80349,7 +59368,7 @@ section {
 
 .english {
   font-size: 1.2em;
-  font-family: Oxygen, sans-serif;
+  font-family: "Oxygen", sans-serif;
 }
 
 .chinese {
@@ -80391,7 +59410,7 @@ section {
 [font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
 ~~~
 @font-face {
-  font-family: Oxygen;
+  font-family: "Oxygen";
   font-style: normal;
   font-weight: 400;
   src: url("https://fonts.gstatic.com/s/oxygen/v14/2sDfZG1Wl4LcnbuKjk0m.woff2")
@@ -80446,7 +59465,7 @@ section {
 
 .english {
   font-size: 1.2em;
-  font-family: Oxygen, sans-serif;
+  font-family: "Oxygen", sans-serif;
 }
 
 .chinese {
@@ -80488,7 +59507,7 @@ section {
 [font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
 ~~~
 @font-face {
-  font-family: Oxygen;
+  font-family: "Oxygen";
   font-style: normal;
   font-weight: 400;
   src: url("https://fonts.gstatic.com/s/oxygen/v14/2sDfZG1Wl4LcnbuKjk0m.woff2")
@@ -80543,7 +59562,7 @@ section {
 
 .english {
   font-size: 1.2em;
-  font-family: Oxygen, sans-serif;
+  font-family: "Oxygen", sans-serif;
 }
 
 .chinese {
@@ -80585,7 +59604,7 @@ section {
 [font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
 ~~~
 @font-face {
-  font-family: Oxygen;
+  font-family: "Oxygen";
   font-style: normal;
   font-weight: 400;
   src: url("https://fonts.gstatic.com/s/oxygen/v14/2sDfZG1Wl4LcnbuKjk0m.woff2")
@@ -80640,7 +59659,7 @@ section {
 
 .english {
   font-size: 1.2em;
-  font-family: Oxygen, sans-serif;
+  font-family: "Oxygen", sans-serif;
 }
 
 .chinese {
@@ -80682,7 +59701,7 @@ section {
 [font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
 ~~~
 @font-face {
-  font-family: Oxygen;
+  font-family: "Oxygen";
   font-style: normal;
   font-weight: 400;
   src: url("https://fonts.gstatic.com/s/oxygen/v14/2sDfZG1Wl4LcnbuKjk0m.woff2")
@@ -80737,7 +59756,7 @@ section {
 
 .english {
   font-size: 1.2em;
-  font-family: Oxygen, sans-serif;
+  font-family: "Oxygen", sans-serif;
 }
 
 .chinese {
@@ -80763,134 +59782,6 @@ section {
 
 .sup {
   font-variant: super;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "font-variant-alternates": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant-alternates",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "MonteCarlo" (font-family-name-quotes)',
-                        "  font-family: MonteCarlo;",
-                        "2:16 - 2:26",
-                        `/en-US/docs/Web/CSS/font-variant-alternates
-[font-family-name-quotes] Expected quotes around "MonteCarlo" (font-family-name-quotes)
-~~~
-@font-face {
-  font-family: MonteCarlo;
-  src: url("/shared-assets/fonts/monte-carlo/monte-carlo-regular.woff2");
-}
-
-@font-feature-values "MonteCarlo" {
-  @swash {
-    fancy: 1;
-  }
-}
-
-p {
-  font-family: "MonteCarlo", cursive;
-  font-size: 3rem;
-  margin: 0.7rem 3rem;
-}
-
-.variant {
-  font-variant-alternates: swash(fancy);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "font-variant-east-asian": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant-east-asian",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "YuGothic" (font-family-name-quotes)',
-                        '    "YuGothic Medium", YuGothic, "Yu Gothic Medium", "Yu Gothic", sans-serif;',
-                        "3:6 - 3:14",
-                        `/en-US/docs/Web/CSS/font-variant-east-asian
-[font-family-name-quotes] Expected quotes around "YuGothic" (font-family-name-quotes)
-~~~
-section {
-  font-family:
-    "YuGothic Medium", YuGothic, "Yu Gothic Medium", "Yu Gothic", sans-serif;
-  margin-top: 10px;
-  font-size: 1.5em;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "font-variant-ligatures": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant-ligatures",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Lora" (font-family-name-quotes)',
-                        "  font-family: Lora, serif;",
-                        "2:16 - 2:20",
-                        `/en-US/docs/Web/CSS/font-variant-ligatures
-[font-family-name-quotes] Expected quotes around "Lora" (font-family-name-quotes)
-~~~
-p {
-  font-family: Lora, serif;
-}
-.normal {
-  font-variant-ligatures: normal;
-}
-
-.none {
-  font-variant-ligatures: none;
-}
-
-.common-ligatures {
-  font-variant-ligatures: common-ligatures;
-}
-
-.no-common-ligatures {
-  font-variant-ligatures: no-common-ligatures;
-}
-
-.discretionary-ligatures {
-  font-variant-ligatures: discretionary-ligatures;
-}
-
-.no-discretionary-ligatures {
-  font-variant-ligatures: no-discretionary-ligatures;
-}
-
-.historical-ligatures {
-  font-variant-ligatures: historical-ligatures;
-}
-
-.no-historical-ligatures {
-  font-variant-ligatures: no-historical-ligatures;
-}
-
-.contextual {
-  font-variant-ligatures: contextual;
-}
-
-.no-contextual {
-  font-variant-ligatures: no-contextual;
 }
 ~~~
 `
@@ -80936,55 +59827,7 @@ p {
                   slug: "/en-US/docs/Web/CSS/font-variation-settings",
                   messages: [
                     {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Amstelvar" (font-family-name-quotes)',
-                        "  font-family: Amstelvar;",
-                        "3:16 - 3:25",
-                        `/en-US/docs/Web/CSS/font-variation-settings
-[font-family-name-quotes] Expected quotes around "Amstelvar" (font-family-name-quotes)
-~~~
-@font-face {
-  src: url("/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
-  font-family: Amstelvar;
-  font-style: normal;
-}
-
-p {
-  font-size: 1.5rem;
-  font-family: Amstelvar, serif;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Amstelvar" (font-family-name-quotes)',
-                        "  font-family: Amstelvar, serif;",
-                        "9:16 - 9:25",
-                        `/en-US/docs/Web/CSS/font-variation-settings
-[font-family-name-quotes] Expected quotes around "Amstelvar" (font-family-name-quotes)
-~~~
-@font-face {
-  src: url("/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
-  font-family: Amstelvar;
-  font-style: normal;
-}
-
-p {
-  font-size: 1.5rem;
-  font-family: Amstelvar, serif;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "Georgia" (font-family-name-quotes)',
@@ -81037,7 +59880,7 @@ p {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -84698,7 +63541,7 @@ h2 {
 }
 
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 p {
@@ -84794,7 +63637,7 @@ h1::before {
 }
 
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 p {
@@ -84890,7 +63733,7 @@ h1::before {
 }
 
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 p {
@@ -84986,7 +63829,7 @@ h1::before {
 }
 
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 p {
@@ -85082,7 +63925,7 @@ h1::before {
 }
 
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 p {
@@ -85178,7 +64021,7 @@ h1::before {
 }
 
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 p {
@@ -85283,7 +64126,7 @@ h1::before {
 }
 
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 p {
@@ -85388,7 +64231,7 @@ h1::before {
 }
 
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 p {
@@ -85496,199 +64339,7 @@ h1::before {
 }
 
 html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "6:16 - 6:21",
-                        `/en-US/docs/Web/CSS/if
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  line-height: 1.5;
-}
-
-form {
-  padding-left: 20px;
-  margin-top: 20px;
-}
-
-article h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-
-body {
-  max-width: 700px;
-  margin: if(
-    media(width < 700px): 0;
-    else: 20px;
-  ) auto 0;
-}
-
-.ice {
-  --scheme: ice;
-}
-
-.fire {
-  --scheme: fire;
-}
-
-article {
-  padding: 20px;
-  --color1: if(
-    style(--scheme: ice): #03045e;
-    style(--scheme: fire): #621708;
-    else: black;
-  );
-  --color2: if(
-    style(--scheme: ice): #caf0f8;
-    style(--scheme: fire): #ffc971;
-    else: white;
-  );
-
-  color: var(--color1);
-  border: 3px solid var(--color1);
-  background-image: linear-gradient(
-    to left,
-    var(--color2),
-    white,
-    var(--color2)
-  );
-}
-
-aside {
-  color: var(--color2);
-  background-color: var(--color1);
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-  font-size: if(
-    media(width > 700px): calc(3rem + 2vw);
-    else: 3rem;
-  );
-}
-
-h1::before {
-  content: if(
-    style(--scheme: ice): "❄️ ";
-    style(--scheme: fire): "🔥 ";
-    else: "";
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "6:23 - 6:32",
-                        `/en-US/docs/Web/CSS/if
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 p {
@@ -86057,144 +64708,6 @@ p {
                     {
                       message: "Stylelint backlog",
                       data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "6:16 - 6:21",
-                        `/en-US/docs/Web/CSS/interpolate-size
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-section {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 175px;
-  border-radius: 5px;
-  background: #eeeeee;
-  box-shadow:
-    inset 1px 1px 4px rgb(255 255 255 / 0.5),
-    inset -1px -1px 4px rgb(0 0 0 / 0.5);
-}
-
-header {
-  padding: 0.7rem;
-  border-bottom: 2px solid #cccccc;
-}
-
-main {
-  padding: 10px;
-}
-
-h2 {
-  margin: 0;
-  font-weight: 400;
-  font-size: 1.1rem;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
-p,
-li {
-  font-size: 0.8rem;
-  line-height: 1.5;
-}
-
-p {
-  margin-top: 0;
-}
-
-:root {
-  interpolate-size: allow-keywords;
-}
-
-section {
-  height: 2.5rem;
-  overflow: hidden;
-  transition: height ease 1s;
-}
-
-section:hover,
-section:focus {
-  height: max-content;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "6:23 - 6:32",
-                        `/en-US/docs/Web/CSS/interpolate-size
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-section {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 175px;
-  border-radius: 5px;
-  background: #eeeeee;
-  box-shadow:
-    inset 1px 1px 4px rgb(255 255 255 / 0.5),
-    inset -1px -1px 4px rgb(0 0 0 / 0.5);
-}
-
-header {
-  padding: 0.7rem;
-  border-bottom: 2px solid #cccccc;
-}
-
-main {
-  padding: 10px;
-}
-
-h2 {
-  margin: 0;
-  font-weight: 400;
-  font-size: 1.1rem;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
-p,
-li {
-  font-size: 0.8rem;
-  line-height: 1.5;
-}
-
-p {
-  margin-top: 0;
-}
-
-:root {
-  interpolate-size: allow-keywords;
-}
-
-section {
-  height: 2.5rem;
-  overflow: hidden;
-  transition: height ease 1s;
-}
-
-section:hover,
-section:focus {
-  height: max-content;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
                         "font-weight-notation",
                         'Expected "400" to be "normal" (font-weight-notation)',
                         "  font-weight: 400;",
@@ -86207,7 +64720,7 @@ section:focus {
 }
 
 section {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
   width: 175px;
   border-radius: 5px;
   background: #eeeeee;
@@ -86256,220 +64769,6 @@ section {
 section:hover,
 section:focus {
   height: max-content;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "justify-items": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/justify-items",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "helvetica" (font-family-name-quotes)',
-                        "  font-family: helvetica, arial, sans-serif;",
-                        "2:16 - 2:25",
-                        `/en-US/docs/Web/CSS/justify-items
-[font-family-name-quotes] Expected quotes around "helvetica" (font-family-name-quotes)
-~~~
-html {
-  font-family: helvetica, arial, sans-serif;
-  letter-spacing: 1px;
-}
-
-article {
-  background-color: red;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 40px;
-  grid-gap: 10px;
-  margin: 20px;
-  width: 300px;
-  justify-items: stretch;
-}
-
-article:hover,
-article:focus {
-  justify-items: center;
-}
-
-article span {
-  background-color: black;
-  color: white;
-  margin: 1px;
-  text-align: center;
-}
-
-article,
-span {
-  padding: 10px;
-  border-radius: 7px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "arial" (font-family-name-quotes)',
-                        "  font-family: helvetica, arial, sans-serif;",
-                        "2:27 - 2:32",
-                        `/en-US/docs/Web/CSS/justify-items
-[font-family-name-quotes] Expected quotes around "arial" (font-family-name-quotes)
-~~~
-html {
-  font-family: helvetica, arial, sans-serif;
-  letter-spacing: 1px;
-}
-
-article {
-  background-color: red;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 40px;
-  grid-gap: 10px;
-  margin: 20px;
-  width: 300px;
-  justify-items: stretch;
-}
-
-article:hover,
-article:focus {
-  justify-items: center;
-}
-
-article span {
-  background-color: black;
-  color: white;
-  margin: 1px;
-  text-align: center;
-}
-
-article,
-span {
-  padding: 10px;
-  border-radius: 7px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "justify-self": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/justify-self",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "helvetica" (font-family-name-quotes)',
-                        "  font-family: helvetica, arial, sans-serif;",
-                        "2:16 - 2:25",
-                        `/en-US/docs/Web/CSS/justify-self
-[font-family-name-quotes] Expected quotes around "helvetica" (font-family-name-quotes)
-~~~
-html {
-  font-family: helvetica, arial, sans-serif;
-  letter-spacing: 1px;
-}
-
-article {
-  background-color: red;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 40px;
-  grid-gap: 10px;
-  margin: 20px;
-  width: 300px;
-  justify-items: stretch;
-}
-
-span:nth-child(2) {
-  justify-self: start;
-}
-
-span:nth-child(3) {
-  justify-self: center;
-}
-
-span:nth-child(4) {
-  justify-self: end;
-}
-
-article span {
-  background-color: black;
-  color: white;
-  margin: 1px;
-  text-align: center;
-}
-
-article,
-span {
-  padding: 10px;
-  border-radius: 7px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "arial" (font-family-name-quotes)',
-                        "  font-family: helvetica, arial, sans-serif;",
-                        "2:27 - 2:32",
-                        `/en-US/docs/Web/CSS/justify-self
-[font-family-name-quotes] Expected quotes around "arial" (font-family-name-quotes)
-~~~
-html {
-  font-family: helvetica, arial, sans-serif;
-  letter-spacing: 1px;
-}
-
-article {
-  background-color: red;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 40px;
-  grid-gap: 10px;
-  margin: 20px;
-  width: 300px;
-  justify-items: stretch;
-}
-
-span:nth-child(2) {
-  justify-self: start;
-}
-
-span:nth-child(3) {
-  justify-self: center;
-}
-
-span:nth-child(4) {
-  justify-self: end;
-}
-
-article span {
-  background-color: black;
-  color: white;
-  margin: 1px;
-  text-align: center;
-}
-
-article,
-span {
-  padding: 10px;
-  border-radius: 7px;
 }
 ~~~
 `
@@ -86835,132 +65134,12 @@ label {
                     }
                   ]
                 },
-                "letter-spacing": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/letter-spacing",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Amstelvar" (font-family-name-quotes)',
-                        "  font-family: Amstelvar;",
-                        "3:16 - 3:25",
-                        `/en-US/docs/Web/CSS/letter-spacing
-[font-family-name-quotes] Expected quotes around "Amstelvar" (font-family-name-quotes)
-~~~
-@font-face {
-  src: url("/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
-  font-family: Amstelvar;
-  font-style: normal;
-}
-
-section {
-  font-size: 1.2em;
-  font-family: Amstelvar, serif;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Amstelvar" (font-family-name-quotes)',
-                        "  font-family: Amstelvar, serif;",
-                        "9:16 - 9:25",
-                        `/en-US/docs/Web/CSS/letter-spacing
-[font-family-name-quotes] Expected quotes around "Amstelvar" (font-family-name-quotes)
-~~~
-@font-face {
-  src: url("/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
-  font-family: Amstelvar;
-  font-style: normal;
-}
-
-section {
-  font-size: 1.2em;
-  font-family: Amstelvar, serif;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "line-break": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/line-break",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "YuGothic" (font-family-name-quotes)',
-                        '  font-family: "Yu Gothic", YuGothic, Meiryo, "ＭＳ ゴシック", sans-serif;',
-                        "2:29 - 2:37",
-                        `/en-US/docs/Web/CSS/line-break
-[font-family-name-quotes] Expected quotes around "YuGothic" (font-family-name-quotes)
-~~~
-#example-element {
-  font-family: "Yu Gothic", YuGothic, Meiryo, "ＭＳ ゴシック", sans-serif;
-  border: 2px dashed #999999;
-  text-align: left;
-  width: 240px;
-  font-size: 16px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Meiryo" (font-family-name-quotes)',
-                        '  font-family: "Yu Gothic", YuGothic, Meiryo, "ＭＳ ゴシック", sans-serif;',
-                        "2:39 - 2:45",
-                        `/en-US/docs/Web/CSS/line-break
-[font-family-name-quotes] Expected quotes around "Meiryo" (font-family-name-quotes)
-~~~
-#example-element {
-  font-family: "Yu Gothic", YuGothic, Meiryo, "ＭＳ ゴシック", sans-serif;
-  border: 2px dashed #999999;
-  text-align: left;
-  width: 240px;
-  font-size: 16px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "line-height": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/line-height",
                   messages: [
                     {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Georgia" (font-family-name-quotes)',
-                        "  font-family: Georgia, sans-serif;",
-                        "2:16 - 2:23",
-                        `/en-US/docs/Web/CSS/line-height
-[font-family-name-quotes] Expected quotes around "Georgia" (font-family-name-quotes)
-~~~
-#example-element {
-  font-family: Georgia, sans-serif;
-  max-width: 200px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "Georgia" (font-family-name-quotes)',
@@ -87744,65 +65923,6 @@ body {
                     }
                   ]
                 },
-                "object-fit": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/object-fit",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Courier New" (font-family-name-quotes)',
-                        "    Courier New,",
-                        "3:5 - 3:16",
-                        `/en-US/docs/Web/CSS/object-fit
-[font-family-name-quotes] Expected quotes around "Courier New" (font-family-name-quotes)
-~~~
-h2 {
-  font-family:
-    Courier New,
-    monospace;
-  font-size: 1em;
-  margin: 1em 0 0.3em;
-}
-
-img {
-  width: 150px;
-  height: 100px;
-  border: 1px solid black;
-  margin: 10px 0;
-}
-
-.narrow {
-  width: 100px;
-  height: 150px;
-}
-
-.fill {
-  object-fit: fill;
-}
-
-.contain {
-  object-fit: contain;
-}
-
-.cover {
-  object-fit: cover;
-}
-
-.none {
-  object-fit: none;
-}
-
-.scale-down {
-  object-fit: scale-down;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "offset-position": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/offset-position",
@@ -87939,32 +66059,6 @@ img.opacity:hover {
                     }
                   ]
                 },
-                order: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/order",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2015/09/source-order-matters.html",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
-                overflow: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overflow",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2022/06/keyboard-only-scrolling-areas.html",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 overlay: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/overlay",
@@ -87980,153 +66074,7 @@ img.opacity:hover {
 [alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
 ~~~
 html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-[popover]:popover-open {
-  opacity: 1;
-  transform: scaleX(1);
-}
-
-[popover] {
-  font-size: 1.2rem;
-  padding: 10px;
-
-  /* Final state of the exit animation */
-  opacity: 0;
-  transform: scaleX(0);
-
-  transition:
-    opacity 0.7s,
-    transform 0.7s,
-    overlay 0.7s allow-discrete,
-    display 0.7s allow-discrete;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-}
-
-/* Needs to be included after the previous [popover]:popover-open
-   rule to take effect, as the specificity is the same */
-@starting-style {
-  [popover]:popover-open {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-}
-
-/* Transition for the popover's backdrop */
-
-[popover]::backdrop {
-  background-color: transparent;
-  transition:
-    display 0.7s allow-discrete,
-    overlay 0.7s allow-discrete,
-    background-color 0.7s;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-}
-
-[popover]:popover-open::backdrop {
-  background-color: rgb(0 0 0 / 25%);
-}
-
-/* Nesting selectors (&) cannot represent pseudo-elements, so this 
-   starting-style rule cannot be nested. */
-
-@starting-style {
-  [popover]:popover-open::backdrop {
-    background-color: transparent;
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/overlay
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-[popover]:popover-open {
-  opacity: 1;
-  transform: scaleX(1);
-}
-
-[popover] {
-  font-size: 1.2rem;
-  padding: 10px;
-
-  /* Final state of the exit animation */
-  opacity: 0;
-  transform: scaleX(0);
-
-  transition:
-    opacity 0.7s,
-    transform 0.7s,
-    overlay 0.7s allow-discrete,
-    display 0.7s allow-discrete;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-}
-
-/* Needs to be included after the previous [popover]:popover-open
-   rule to take effect, as the specificity is the same */
-@starting-style {
-  [popover]:popover-open {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-}
-
-/* Transition for the popover's backdrop */
-
-[popover]::backdrop {
-  background-color: transparent;
-  transition:
-    display 0.7s allow-discrete,
-    overlay 0.7s allow-discrete,
-    background-color 0.7s;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-}
-
-[popover]:popover-open::backdrop {
-  background-color: rgb(0 0 0 / 25%);
-}
-
-/* Nesting selectors (&) cannot represent pseudo-elements, so this 
-   starting-style rule cannot be nested. */
-
-@starting-style {
-  [popover]:popover-open::backdrop {
-    background-color: transparent;
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/overlay
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 [popover]:popover-open {
@@ -88549,14 +66497,14 @@ p {
                   slug: "/en-US/docs/Web/CSS/page",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Roboto" (font-family-name-quotes)',
-                        "    font-family: Roboto, sans-serif;",
-                        "53:18 - 53:24",
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        '    font-family: "Courier New";',
+                        "61:18 - 61:31",
                         `/en-US/docs/Web/CSS/page
-[font-family-name-quotes] Expected quotes around "Roboto" (font-family-name-quotes)
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
 ~~~
 @page toc {
   size: a4 portrait;
@@ -88610,7 +66558,7 @@ body {
   }
   section {
     font-size: 2rem;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
   }
   .chapter {
     border: tomato 2px solid;
@@ -88618,22 +66566,22 @@ body {
   [data-print="grouped"] > #toc,
   [data-print="paged"] > #toc {
     page: toc;
-    font-family: Courier;
+    font-family: "Courier New";
   }
   [data-print="grouped"] > #foreword,
   [data-print="paged"] > #foreword {
     page: foreword;
-    font-family: Courier;
+    font-family: "Courier New";
   }
   [data-print="grouped"] > #introduction,
   [data-print="paged"] > #introduction {
     page: introduction;
-    font-family: Courier;
+    font-family: "Courier New";
   }
   [data-print="grouped"] > #conclusion,
   [data-print="paged"] > #conclusion {
     page: conclusion;
-    font-family: Courier;
+    font-family: "Courier New";
   }
   [data-print="grouped"] > .chapter,
   [data-print="paged"] > .chapter {
@@ -88652,14 +66600,14 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Courier" (font-family-name-quotes)',
-                        "    font-family: Courier;",
-                        "61:18 - 61:25",
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        '    font-family: "Courier New";',
+                        "66:18 - 66:31",
                         `/en-US/docs/Web/CSS/page
-[font-family-name-quotes] Expected quotes around "Courier" (font-family-name-quotes)
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
 ~~~
 @page toc {
   size: a4 portrait;
@@ -88713,7 +66661,7 @@ body {
   }
   section {
     font-size: 2rem;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
   }
   .chapter {
     border: tomato 2px solid;
@@ -88721,22 +66669,22 @@ body {
   [data-print="grouped"] > #toc,
   [data-print="paged"] > #toc {
     page: toc;
-    font-family: Courier;
+    font-family: "Courier New";
   }
   [data-print="grouped"] > #foreword,
   [data-print="paged"] > #foreword {
     page: foreword;
-    font-family: Courier;
+    font-family: "Courier New";
   }
   [data-print="grouped"] > #introduction,
   [data-print="paged"] > #introduction {
     page: introduction;
-    font-family: Courier;
+    font-family: "Courier New";
   }
   [data-print="grouped"] > #conclusion,
   [data-print="paged"] > #conclusion {
     page: conclusion;
-    font-family: Courier;
+    font-family: "Courier New";
   }
   [data-print="grouped"] > .chapter,
   [data-print="paged"] > .chapter {
@@ -88755,14 +66703,14 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Courier" (font-family-name-quotes)',
-                        "    font-family: Courier;",
-                        "66:18 - 66:25",
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        '    font-family: "Courier New";',
+                        "71:18 - 71:31",
                         `/en-US/docs/Web/CSS/page
-[font-family-name-quotes] Expected quotes around "Courier" (font-family-name-quotes)
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
 ~~~
 @page toc {
   size: a4 portrait;
@@ -88816,7 +66764,7 @@ body {
   }
   section {
     font-size: 2rem;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
   }
   .chapter {
     border: tomato 2px solid;
@@ -88824,22 +66772,22 @@ body {
   [data-print="grouped"] > #toc,
   [data-print="paged"] > #toc {
     page: toc;
-    font-family: Courier;
+    font-family: "Courier New";
   }
   [data-print="grouped"] > #foreword,
   [data-print="paged"] > #foreword {
     page: foreword;
-    font-family: Courier;
+    font-family: "Courier New";
   }
   [data-print="grouped"] > #introduction,
   [data-print="paged"] > #introduction {
     page: introduction;
-    font-family: Courier;
+    font-family: "Courier New";
   }
   [data-print="grouped"] > #conclusion,
   [data-print="paged"] > #conclusion {
     page: conclusion;
-    font-family: Courier;
+    font-family: "Courier New";
   }
   [data-print="grouped"] > .chapter,
   [data-print="paged"] > .chapter {
@@ -88858,14 +66806,14 @@ body {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Courier" (font-family-name-quotes)',
-                        "    font-family: Courier;",
-                        "71:18 - 71:25",
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        '    font-family: "Courier New";',
+                        "76:18 - 76:31",
                         `/en-US/docs/Web/CSS/page
-[font-family-name-quotes] Expected quotes around "Courier" (font-family-name-quotes)
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
 ~~~
 @page toc {
   size: a4 portrait;
@@ -88919,7 +66867,7 @@ body {
   }
   section {
     font-size: 2rem;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
   }
   .chapter {
     border: tomato 2px solid;
@@ -88927,22 +66875,22 @@ body {
   [data-print="grouped"] > #toc,
   [data-print="paged"] > #toc {
     page: toc;
-    font-family: Courier;
+    font-family: "Courier New";
   }
   [data-print="grouped"] > #foreword,
   [data-print="paged"] > #foreword {
     page: foreword;
-    font-family: Courier;
+    font-family: "Courier New";
   }
   [data-print="grouped"] > #introduction,
   [data-print="paged"] > #introduction {
     page: introduction;
-    font-family: Courier;
+    font-family: "Courier New";
   }
   [data-print="grouped"] > #conclusion,
   [data-print="paged"] > #conclusion {
     page: conclusion;
-    font-family: Courier;
+    font-family: "Courier New";
   }
   [data-print="grouped"] > .chapter,
   [data-print="paged"] > .chapter {
@@ -88955,221 +66903,6 @@ body {
   .chapter > ul {
     columns: 2;
   }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Courier" (font-family-name-quotes)',
-                        "    font-family: Courier;",
-                        "76:18 - 76:25",
-                        `/en-US/docs/Web/CSS/page
-[font-family-name-quotes] Expected quotes around "Courier" (font-family-name-quotes)
-~~~
-@page toc {
-  size: a4 portrait;
-  @top-center {
-    content: "Table of contents";
-  }
-}
-
-@page foreword {
-  size: a4 portrait;
-  @top-center {
-    content: "Foreword";
-  }
-}
-
-@page introduction {
-  size: a4 portrait;
-  @top-center {
-    content: "Introduction";
-  }
-}
-
-@page conclusion {
-  size: a4 portrait;
-  @top-center {
-    content: "Conclusion";
-  }
-}
-
-@page chapter {
-  size: a4 landscape;
-  @top-center {
-    content: "Chapter";
-  }
-}
-
-fieldset {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 1rem;
-  width: fit-content;
-}
-body {
-  font: 1.1em sans-serif;
-}
-
-@media print {
-  fieldset {
-    display: none;
-  }
-  section {
-    font-size: 2rem;
-    font-family: Roboto, sans-serif;
-  }
-  .chapter {
-    border: tomato 2px solid;
-  }
-  [data-print="grouped"] > #toc,
-  [data-print="paged"] > #toc {
-    page: toc;
-    font-family: Courier;
-  }
-  [data-print="grouped"] > #foreword,
-  [data-print="paged"] > #foreword {
-    page: foreword;
-    font-family: Courier;
-  }
-  [data-print="grouped"] > #introduction,
-  [data-print="paged"] > #introduction {
-    page: introduction;
-    font-family: Courier;
-  }
-  [data-print="grouped"] > #conclusion,
-  [data-print="paged"] > #conclusion {
-    page: conclusion;
-    font-family: Courier;
-  }
-  [data-print="grouped"] > .chapter,
-  [data-print="paged"] > .chapter {
-    page: chapter;
-  }
-  [data-print="paged"] > .chapter {
-    border: none;
-    break-after: page;
-  }
-  .chapter > ul {
-    columns: 2;
-  }
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "place-self": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/place-self",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "helvetica" (font-family-name-quotes)',
-                        "  font-family: helvetica, arial, sans-serif;",
-                        "2:16 - 2:25",
-                        `/en-US/docs/Web/CSS/place-self
-[font-family-name-quotes] Expected quotes around "helvetica" (font-family-name-quotes)
-~~~
-html {
-  font-family: helvetica, arial, sans-serif;
-  letter-spacing: 1px;
-}
-
-article {
-  background-color: red;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 80px;
-  grid-gap: 10px;
-  margin: 20px;
-  width: 300px;
-}
-
-span:nth-child(2) {
-  place-self: start center;
-}
-
-span:nth-child(3) {
-  place-self: center start;
-}
-
-span:nth-child(4) {
-  place-self: end;
-}
-
-article span {
-  background-color: black;
-  color: white;
-  margin: 1px;
-  text-align: center;
-}
-
-article,
-span {
-  padding: 10px;
-  border-radius: 7px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "arial" (font-family-name-quotes)',
-                        "  font-family: helvetica, arial, sans-serif;",
-                        "2:27 - 2:32",
-                        `/en-US/docs/Web/CSS/place-self
-[font-family-name-quotes] Expected quotes around "arial" (font-family-name-quotes)
-~~~
-html {
-  font-family: helvetica, arial, sans-serif;
-  letter-spacing: 1px;
-}
-
-article {
-  background-color: red;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 80px;
-  grid-gap: 10px;
-  margin: 20px;
-  width: 300px;
-}
-
-span:nth-child(2) {
-  place-self: start center;
-}
-
-span:nth-child(3) {
-  place-self: center start;
-}
-
-span:nth-child(4) {
-  place-self: end;
-}
-
-article span {
-  background-color: black;
-  color: white;
-  margin: 1px;
-  text-align: center;
-}
-
-article,
-span {
-  padding: 10px;
-  border-radius: 7px;
 }
 ~~~
 `
@@ -89182,7 +66915,7 @@ span {
                   slug: "/en-US/docs/Web/CSS/position",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -89234,7 +66967,7 @@ dd + dd {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -89286,7 +67019,7 @@ dd + dd {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -89338,7 +67071,7 @@ dd + dd {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -89384,47 +67117,6 @@ dd {
 
 dd + dd {
   border-top: 1px solid #cccccc;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Verdana" (font-family-name-quotes)',
-                        "  font-family: Verdana;",
-                        "7:16 - 7:23",
-                        `/en-US/docs/Web/CSS/position
-[font-family-name-quotes] Expected quotes around "Verdana" (font-family-name-quotes)
-~~~
-div {
-  width: 400px;
-  height: 200px;
-  overflow: scroll;
-  scrollbar-width: thin;
-  font-size: 16px;
-  font-family: Verdana;
-  border: 1px solid;
-}
-
-p {
-  width: 600px;
-  user-select: none;
-  margin: 0;
-  border: 110px solid transparent;
-}
-
-.bulb {
-  position: sticky;
-  inset: 50px 100px;
-}
-
-div {
-  /* mark area defined by the inset boundaries using gray color */
-  background: linear-gradient(#99999999, #99999999) 100px 50px / 192px 100px
-    no-repeat;
 }
 ~~~
 `
@@ -90168,13 +67860,6 @@ pre {
                       data: [
                         "CSS info"
                       ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
-                        "The operation timed out."
-                      ]
                     }
                   ]
                 },
@@ -90186,13 +67871,6 @@ pre {
                       message: "Missing data",
                       data: [
                         "CSS info"
-                      ]
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
-                        "The operation timed out."
                       ]
                     }
                   ]
@@ -90818,292 +68496,6 @@ css.properties.grid-template-rows.repeat`
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "9:16 - 9:21",
-                        `/en-US/docs/Web/CSS/scroll-target-group
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  text-align: center;
-}
-
-button {
-  background-color: white;
-}
-
-/* General styling of list as scrolling carousel */
-
-ul {
-  width: 100%;
-  height: 400px;
-  padding: 20px;
-  gap: 4%;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 100%;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-ul li {
-  list-style-type: none;
-  background-color: #eeeeee;
-  border: 1px solid #dddddd;
-  padding: 20px;
-
-  scroll-snap-align: center;
-}
-
-/* CSS scroll buttons */
-
-/* Style the scroll buttons */
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: rgb(0 0 0 / 0.7);
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  color: black;
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-/* Position the scroll buttons */
-
-ul {
-  anchor-name: --my-carousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --my-carousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ol {
-  position: absolute;
-  position-anchor: --my-carousel;
-  top: calc(anchor(bottom) - 90px);
-  justify-self: anchor-center;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-
-  list-style-type: none;
-  padding: 0;
-  scroll-target-group: auto;
-}
-
-ol a {
-  width: 28px;
-  height: 28px;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  padding-top: 4px;
-  color: black;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 50%;
-}
-
-ol a:hover,
-ol a:focus,
-:target-current {
-  background-color: black;
-  color: white;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "9:23 - 9:32",
-                        `/en-US/docs/Web/CSS/scroll-target-group
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  text-align: center;
-}
-
-button {
-  background-color: white;
-}
-
-/* General styling of list as scrolling carousel */
-
-ul {
-  width: 100%;
-  height: 400px;
-  padding: 20px;
-  gap: 4%;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 100%;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-ul li {
-  list-style-type: none;
-  background-color: #eeeeee;
-  border: 1px solid #dddddd;
-  padding: 20px;
-
-  scroll-snap-align: center;
-}
-
-/* CSS scroll buttons */
-
-/* Style the scroll buttons */
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: rgb(0 0 0 / 0.7);
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  color: black;
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-/* Position the scroll buttons */
-
-ul {
-  anchor-name: --my-carousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --my-carousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ol {
-  position: absolute;
-  position-anchor: --my-carousel;
-  top: calc(anchor(bottom) - 90px);
-  justify-self: anchor-center;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-
-  list-style-type: none;
-  padding: 0;
-  scroll-target-group: auto;
-}
-
-ol a {
-  width: 28px;
-  height: 28px;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  padding-top: 4px;
-  color: black;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 50%;
-}
-
-ol a:hover,
-ol a:focus,
-:target-current {
-  background-color: black;
-  color: white;
-}
-~~~
-`
-                      ]
-                    },
-                    {
                       message: "CSS code issue",
                       data: [
                         "selector-type-no-unknown",
@@ -91121,7 +68513,7 @@ ol a:focus,
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 h1 {
@@ -91264,7 +68656,7 @@ ol a:focus,
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 h1 {
@@ -91407,7 +68799,7 @@ ol a:focus,
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 h1 {
@@ -91550,7 +68942,7 @@ ol a:focus,
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
 h1 {
@@ -91670,46 +69062,6 @@ ol a:focus,
 :target-current {
   background-color: black;
   color: white;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                selector_list: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/Selector_list",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Helvetica, Arial;",
-                        "2:16 - 2:25",
-                        `/en-US/docs/Web/CSS/Selector_list
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, Arial;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Helvetica, Arial;",
-                        "2:27 - 2:32",
-                        `/en-US/docs/Web/CSS/Selector_list
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, Arial;
 }
 ~~~
 `
@@ -91934,112 +69286,6 @@ awesome string"
                     }
                   ]
                 },
-                superellipse: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/superellipse",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/superellipse
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: fit-content;
-  margin: 20px auto;
-}
-
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 100%;
-  margin-top: 20px;
-}
-
-form div {
-  margin-top: 5px;
-  display: flex;
-}
-
-section {
-  width: 100%;
-  height: 180px;
-  background-color: orange;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-section {
-  box-shadow: 1px 1px 3px gray;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/superellipse
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  width: fit-content;
-  margin: 20px auto;
-}
-
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 100%;
-  margin-top: 20px;
-}
-
-form div {
-  margin-top: 5px;
-  display: flex;
-}
-
-section {
-  width: 100%;
-  height: 180px;
-  background-color: orange;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-section {
-  box-shadow: 1px 1px 3px gray;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 symbols: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/symbols",
@@ -92073,7 +69319,7 @@ css.properties.list-style-type.symbols`
                   slug: "/en-US/docs/Web/CSS/text-decoration-skip-ink",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "Georgia" (font-family-name-quotes)',
@@ -92191,7 +69437,7 @@ em {
                   slug: "/en-US/docs/Web/CSS/text-shadow",
                   messages: [
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "Georgia" (font-family-name-quotes)',
@@ -92210,7 +69456,7 @@ p {
                       ]
                     },
                     {
-                      message: "Stylelint backlog",
+                      message: "CSS code issue",
                       data: [
                         "font-family-name-quotes",
                         'Expected quotes around "Georgia" (font-family-name-quotes)',
@@ -92228,60 +69474,6 @@ p {
   font:
     1.5em Georgia,
     serif;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "text-wrap-mode": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-wrap-mode",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/text-wrap-mode
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.box {
-  font-family: Arial, sans-serif;
-  font-weight: bold;
-  font-size: 64px;
-  box-sizing: border-box;
-  border: 4px solid black;
-  padding: 0px 3px;
-  width: 223px;
-  text-wrap-mode: wrap;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/text-wrap-mode
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.box {
-  font-family: Arial, sans-serif;
-  font-weight: bold;
-  font-size: 64px;
-  box-sizing: border-box;
-  border: 4px solid black;
-  padding: 0px 3px;
-  width: 223px;
-  text-wrap-mode: nowrap;
 }
 ~~~
 `
@@ -93750,124 +70942,6 @@ main {
                     }
                   ]
                 },
-                "transition-behavior": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transition-behavior",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:16 - 2:21",
-                        `/en-US/docs/Web/CSS/transition-behavior
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-[popover] {
-  font-size: 1.2rem;
-  padding: 10px;
-}
-
-[popover]:popover-open {
-  opacity: 1;
-  transform: scaleX(1);
-}
-
-[popover] {
-  /* Final state of the exit animation */
-  opacity: 0;
-  transform: scaleX(0);
-
-  transition-property: opacity, transform, overlay, display;
-  transition-duration: 0.7s;
-  transition-behavior: allow-discrete;
-  /* Using the shorthand transition property, we could write:
-    transition: 
-      opacity 0.7s,
-      transform 0.7s,
-      overlay 0.7s allow-discrete,
-      display 0.7s allow-discrete;
-
-    or even:
-    transition: all 0.7s allow-discrete;
-  */
-}
-
-/* Needs to be included after the previous [popover]:popover-open 
-   rule to take effect, as the specificity is the same */
-@starting-style {
-  [popover]:popover-open {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "2:23 - 2:32",
-                        `/en-US/docs/Web/CSS/transition-behavior
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-[popover] {
-  font-size: 1.2rem;
-  padding: 10px;
-}
-
-[popover]:popover-open {
-  opacity: 1;
-  transform: scaleX(1);
-}
-
-[popover] {
-  /* Final state of the exit animation */
-  opacity: 0;
-  transform: scaleX(0);
-
-  transition-property: opacity, transform, overlay, display;
-  transition-duration: 0.7s;
-  transition-behavior: allow-discrete;
-  /* Using the shorthand transition property, we could write:
-    transition: 
-      opacity 0.7s,
-      transform 0.7s,
-      overlay 0.7s allow-discrete,
-      display 0.7s allow-discrete;
-
-    or even:
-    transition: all 0.7s allow-discrete;
-  */
-}
-
-/* Needs to be included after the previous [popover]:popover-open 
-   rule to take effect, as the specificity is the same */
-@starting-style {
-  [popover]:popover-open {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 tutorials: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/Tutorials",
@@ -93907,814 +70981,6 @@ html {
                     }
                   ]
                 },
-                "view-timeline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/view-timeline",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "16:16 - 16:21",
-                        `/en-US/docs/Web/CSS/view-timeline
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 75%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-p,
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.animation {
-  view-timeline: --subject-reveal block;
-  animation-timeline: --subject-reveal;
-
-  animation-name: appear;
-  animation-fill-mode: both;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  to {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "16:23 - 16:32",
-                        `/en-US/docs/Web/CSS/view-timeline
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 75%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-p,
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.animation {
-  view-timeline: --subject-reveal block;
-  animation-timeline: --subject-reveal;
-
-  animation-name: appear;
-  animation-fill-mode: both;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  to {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "view-timeline-axis": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/view-timeline-axis",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "18:16 - 18:21",
-                        `/en-US/docs/Web/CSS/view-timeline-axis
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 50%;
-  height: 400px;
-  margin-top: 30px;
-  display: flex;
-  flex-flow: column wrap;
-  gap: 10px;
-}
-
-p {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  font-size: 1.3rem;
-  line-height: 1.4;
-}
-
-.animation {
-  view-timeline-name: --subject-reveal;
-  /* Chromium supports the new x/y syntax */
-  view-timeline-axis: x;
-  /* Firefox still supports the old horizontal/vertical syntax */
-  view-timeline-axis: horizontal;
-
-  animation-name: appear;
-  animation-fill-mode: both;
-  animation-timeline: --subject-reveal;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  to {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "18:23 - 18:32",
-                        `/en-US/docs/Web/CSS/view-timeline-axis
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 50%;
-  height: 400px;
-  margin-top: 30px;
-  display: flex;
-  flex-flow: column wrap;
-  gap: 10px;
-}
-
-p {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  font-size: 1.3rem;
-  line-height: 1.4;
-}
-
-.animation {
-  view-timeline-name: --subject-reveal;
-  /* Chromium supports the new x/y syntax */
-  view-timeline-axis: x;
-  /* Firefox still supports the old horizontal/vertical syntax */
-  view-timeline-axis: horizontal;
-
-  animation-name: appear;
-  animation-fill-mode: both;
-  animation-timeline: --subject-reveal;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  to {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "view-timeline-inset": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/view-timeline-inset",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "16:16 - 16:21",
-                        `/en-US/docs/Web/CSS/view-timeline-inset
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 75%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-p,
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.animation {
-  view-timeline: --subject-reveal block;
-  view-timeline-inset: 70% -100px;
-  animation-timeline: --subject-reveal;
-
-  animation-name: appear;
-  animation-fill-mode: both;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  to {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "16:23 - 16:32",
-                        `/en-US/docs/Web/CSS/view-timeline-inset
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 75%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-p,
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.animation {
-  view-timeline: --subject-reveal block;
-  view-timeline-inset: 70% -100px;
-  animation-timeline: --subject-reveal;
-
-  animation-name: appear;
-  animation-fill-mode: both;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  to {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "view-timeline-name": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/view-timeline-name",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "16:16 - 16:21",
-                        `/en-US/docs/Web/CSS/view-timeline-name
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 75%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-p,
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.animation {
-  view-timeline-name: --subject-reveal;
-  animation-timeline: --subject-reveal;
-
-  animation-name: appear;
-  animation-fill-mode: both;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  to {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "16:23 - 16:32",
-                        `/en-US/docs/Web/CSS/view-timeline-name
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 75%;
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-p,
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.5rem;
-  line-height: 1.5;
-}
-
-.animation {
-  view-timeline-name: --subject-reveal;
-  animation-timeline: --subject-reveal;
-
-  animation-name: appear;
-  animation-fill-mode: both;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  to {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "view-transition-name": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/view-transition-name",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Arial" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "8:16 - 8:21",
-                        `/en-US/docs/Web/CSS/view-transition-name
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-/* General styles and resets */
-* {
-  box-sizing: border-box;
-  font-size: 0.9rem;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  height: inherit;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-li h2 {
-  margin: 0;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-
-li {
-  overflow: hidden;
-  container-type: inline-size;
-}
-
-li p {
-  display: none;
-}
-
-li.active-item p {
-  display: block;
-}
-
-li:nth-child(1) {
-  background-color: #cbc0d3;
-  border: 20px solid #cbc0d3;
-}
-
-li:nth-child(2) {
-  background-color: #efd3d7;
-  border: 20px solid #efd3d7;
-}
-
-li:nth-child(3) {
-  background-color: #feeafa;
-  border: 20px solid #feeafa;
-}
-
-li:nth-child(4) {
-  background-color: #dee2ff;
-  border: 20px solid #dee2ff;
-}
-
-/* Links */
-
-a {
-  text-decoration: none;
-  color: rgb(0 0 255 / 0.8);
-}
-
-a:hover,
-a:focus {
-  color: rgb(100 100 255);
-}
-
-/* Form and checkbox styles */
-form {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: 2;
-  background-color: white;
-  padding: 10px;
-  border: 1px solid black;
-}
-
-main {
-  container-type: inline-size;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  gap: 2cqw;
-  position: relative;
-}
-
-ul {
-  width: 35cqw;
-  display: flex;
-  flex-direction: column;
-  gap: 1cqw;
-}
-
-article {
-  flex: 1;
-}
-
-li {
-  flex: 1;
-}
-
-.active-item {
-  position: absolute;
-  z-index: 1;
-  translate: 37cqw;
-  width: calc(100% - 37cqw);
-  height: 100%;
-}
-
-.match-element-applied li {
-  view-transition-name: match-element;
-}
-
-::view-transition-group(*) {
-  animation-duration: 0.5s;
-}
-
-html::view-transition-old(*),
-html::view-transition-new(*) {
-  height: 100%;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                        "  font-family: Arial, Helvetica, sans-serif;",
-                        "8:23 - 8:32",
-                        `/en-US/docs/Web/CSS/view-transition-name
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-/* General styles and resets */
-* {
-  box-sizing: border-box;
-  font-size: 0.9rem;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  height: inherit;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-li h2 {
-  margin: 0;
-}
-
-ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-
-li {
-  overflow: hidden;
-  container-type: inline-size;
-}
-
-li p {
-  display: none;
-}
-
-li.active-item p {
-  display: block;
-}
-
-li:nth-child(1) {
-  background-color: #cbc0d3;
-  border: 20px solid #cbc0d3;
-}
-
-li:nth-child(2) {
-  background-color: #efd3d7;
-  border: 20px solid #efd3d7;
-}
-
-li:nth-child(3) {
-  background-color: #feeafa;
-  border: 20px solid #feeafa;
-}
-
-li:nth-child(4) {
-  background-color: #dee2ff;
-  border: 20px solid #dee2ff;
-}
-
-/* Links */
-
-a {
-  text-decoration: none;
-  color: rgb(0 0 255 / 0.8);
-}
-
-a:hover,
-a:focus {
-  color: rgb(100 100 255);
-}
-
-/* Form and checkbox styles */
-form {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: 2;
-  background-color: white;
-  padding: 10px;
-  border: 1px solid black;
-}
-
-main {
-  container-type: inline-size;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  gap: 2cqw;
-  position: relative;
-}
-
-ul {
-  width: 35cqw;
-  display: flex;
-  flex-direction: column;
-  gap: 1cqw;
-}
-
-article {
-  flex: 1;
-}
-
-li {
-  flex: 1;
-}
-
-.active-item {
-  position: absolute;
-  z-index: 1;
-  translate: 37cqw;
-  width: calc(100% - 37cqw);
-  height: 100%;
-}
-
-.match-element-applied li {
-  view-transition-name: match-element;
-}
-
-::view-transition-group(*) {
-  animation-duration: 0.5s;
-}
-
-html::view-transition-old(*),
-html::view-transition-new(*) {
-  height: 100%;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 webkit_extensions: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/WebKit_Extensions",
@@ -94722,60 +70988,6 @@ html::view-transition-new(*) {
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    }
-                  ]
-                },
-                "word-spacing": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/word-spacing",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Amstelvar" (font-family-name-quotes)',
-                        "  font-family: Amstelvar;",
-                        "3:16 - 3:25",
-                        `/en-US/docs/Web/CSS/word-spacing
-[font-family-name-quotes] Expected quotes around "Amstelvar" (font-family-name-quotes)
-~~~
-@font-face {
-  src: url("/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
-  font-family: Amstelvar;
-  font-style: normal;
-}
-
-section {
-  font-size: 1.2em;
-  font-family: Amstelvar, serif;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Amstelvar" (font-family-name-quotes)',
-                        "  font-family: Amstelvar, serif;",
-                        "9:16 - 9:25",
-                        `/en-US/docs/Web/CSS/word-spacing
-[font-family-name-quotes] Expected quotes around "Amstelvar" (font-family-name-quotes)
-~~~
-@font-face {
-  src: url("/shared-assets/fonts/variable-fonts/AmstelvarAlpha-VF.ttf");
-  font-family: Amstelvar;
-  font-style: normal;
-}
-
-section {
-  font-size: 1.2em;
-  font-family: Amstelvar, serif;
-}
-~~~
-`
-                      ]
                     }
                   ]
                 }
@@ -95076,38 +71288,12 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
-                        a: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        button: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         caption: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/caption",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "molot" (font-family-name-quotes)',
@@ -95175,7 +71361,7 @@ tr:nth-child(odd) td {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "rapscallion" (font-family-name-quotes)',
@@ -95244,51 +71430,12 @@ tr:nth-child(odd) td {
                             }
                           ]
                         },
-                        code: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/code",
-                          messages: [
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "courier" (font-family-name-quotes)',
-                                "  font-family: courier, monospace;",
-                                "4:16 - 4:23",
-                                `/en-US/docs/Web/HTML/Reference/Elements/code
-[font-family-name-quotes] Expected quotes around "courier" (font-family-name-quotes)
-~~~
-code {
-  background-color: #eeeeee;
-  border-radius: 3px;
-  font-family: courier, monospace;
-  padding: 0 3px;
-}
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        del: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/del",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         details: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/details",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Calibri" (font-family-name-quotes)',
@@ -95399,39 +71546,6 @@ because the nesting selector cannot represent pseudo-elements. */
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        },
-                        dl: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dl",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2020/09/voiceover-on-ios-14-supports-description-lists.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2022/12/brief-note-on-description-list-support.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        heading_elements: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2016/08/there-is-no-document-outline-algorithm.html",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -95725,79 +71839,7 @@ html.elements.input.colorspace`,
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/input",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        ins: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/ins",
-                          messages: [
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Georgia" (font-family-name-quotes)',
-                                "  font-family: Georgia, serif;",
-                                "33:16 - 33:23",
-                                `/en-US/docs/Web/HTML/Reference/Elements/ins
-[font-family-name-quotes] Expected quotes around "Georgia" (font-family-name-quotes)
-~~~
-del,
-ins {
-  display: block;
-  text-decoration: none;
-  position: relative;
-}
-
-del {
-  background-color: #ffbbbb;
-}
-
-ins {
-  background-color: #d4fcbc;
-}
-
-del::before,
-ins::before {
-  position: absolute;
-  left: 0.5rem;
-  font-family: monospace;
-}
-
-del::before {
-  content: "−";
-}
-
-ins::before {
-  content: "+";
-}
-
-p {
-  margin: 0 1.8rem;
-  font-family: Georgia, serif;
-  font-size: 1rem;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
+                          }
                         },
                         kbd: {
                           children: {},
@@ -95839,7 +71881,7 @@ kbd {
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/main",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -95855,19 +71897,6 @@ header {
 }
 ~~~
 `
-                              ]
-                            }
-                          ]
-                        },
-                        mark: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/mark",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
-                                "The operation timed out."
                               ]
                             }
                           ]
@@ -95892,199 +71921,12 @@ header {
                             }
                           }
                         },
-                        s: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/s",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
-                        slot: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/slot",
-                          messages: [
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                                '      font-family: "Open Sans Light", Helvetica, Arial, sans-serif;',
-                                "3:39 - 3:48",
-                                `/en-US/docs/Web/HTML/Reference/Elements/slot
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-<template id="element-details-template">
-  <style>
-    details {
-      font-family: "Open Sans Light", Helvetica, Arial, sans-serif;
-    }
-    .name {
-      font-weight: bold;
-      color: #217ac0;
-      font-size: 120%;
-    }
-    h4 {
-      margin: 10px 0 -8px 0;
-      background: #217ac0;
-      color: white;
-      padding: 2px 6px;
-      border: 1px solid #cee9f9;
-      border-radius: 4px;
-    }
-    .attributes {
-      margin-left: 22px;
-      font-size: 90%;
-    }
-    .attributes p {
-      margin-left: 16px;
-      font-style: italic;
-    }
-  </style>
-  <details>
-    <summary>
-      <code class="name">
-        &lt;<slot name="element-name">NEED NAME</slot>&gt;
-      </code>
-      <span class="desc"><slot name="description">NEED DESCRIPTION</slot></span>
-    </summary>
-    <div class="attributes">
-      <h4>Attributes</h4>
-      <slot name="attributes"><p>None</p></slot>
-    </div>
-  </details>
-  <hr />
-</template>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                '      font-family: "Open Sans Light", Helvetica, Arial, sans-serif;',
-                                "3:50 - 3:55",
-                                `/en-US/docs/Web/HTML/Reference/Elements/slot
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-<template id="element-details-template">
-  <style>
-    details {
-      font-family: "Open Sans Light", Helvetica, Arial, sans-serif;
-    }
-    .name {
-      font-weight: bold;
-      color: #217ac0;
-      font-size: 120%;
-    }
-    h4 {
-      margin: 10px 0 -8px 0;
-      background: #217ac0;
-      color: white;
-      padding: 2px 6px;
-      border: 1px solid #cee9f9;
-      border-radius: 4px;
-    }
-    .attributes {
-      margin-left: 22px;
-      font-size: 90%;
-    }
-    .attributes p {
-      margin-left: 16px;
-      font-style: italic;
-    }
-  </style>
-  <details>
-    <summary>
-      <code class="name">
-        &lt;<slot name="element-name">NEED NAME</slot>&gt;
-      </code>
-      <span class="desc"><slot name="description">NEED DESCRIPTION</slot></span>
-    </summary>
-    <div class="attributes">
-      <h4>Attributes</h4>
-      <slot name="attributes"><p>None</p></slot>
-    </div>
-  </details>
-  <hr />
-</template>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        summary: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/summary",
-                          messages: [
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Calibri" (font-family-name-quotes)',
-                                '  font-family: "Open Sans", Calibri, sans-serif;',
-                                "3:29 - 3:36",
-                                `/en-US/docs/Web/HTML/Reference/Elements/summary
-[font-family-name-quotes] Expected quotes around "Calibri" (font-family-name-quotes)
-~~~
-details {
-  font-size: 1rem;
-  font-family: "Open Sans", Calibri, sans-serif;
-  border: solid;
-  padding: 2px 6px;
-  margin-bottom: 1em;
-}
-
-details:first-of-type summary::marker,
-:is(::-webkit-details-marker) {
-  content: "+ ";
-  font-family: monospace;
-  color: red;
-  font-weight: bold;
-}
-
-details[open]:first-of-type summary::marker {
-  content: "− ";
-}
-
-details:last-of-type summary {
-  list-style: none;
-  &::after {
-    content: "+";
-    color: white;
-    background-color: darkgreen;
-    border-radius: 1em;
-    font-weight: bold;
-    padding: 0 5px;
-    margin-inline-start: 5px;
-  }
-  [open] &::after {
-    content: "−";
-  }
-}
-details:last-of-type summary::-webkit-details-marker {
-  display: none;
-}
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         table: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/table",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -96116,7 +71958,7 @@ td {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -96148,7 +71990,7 @@ td {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -96228,7 +72070,7 @@ tfoot td {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -96310,81 +72152,6 @@ tfoot td {
                           ]
                         }
                       }
-                    },
-                    global_attributes: {
-                      children: {
-                        contenteditable: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/contenteditable",
-                          messages: [
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Georgia" (font-family-name-quotes)',
-                                "  font-family: Georgia, serif;",
-                                "5:16 - 5:23",
-                                `/en-US/docs/Web/HTML/Reference/Global_attributes/contenteditable
-[font-family-name-quotes] Expected quotes around "Georgia" (font-family-name-quotes)
-~~~
-h2 {
-  margin-bottom: 0;
-}
-.copying {
-  font-family: Georgia, serif;
-  margin: 1rem;
-  padding: 1rem;
-  border: solid black 1px;
-}
-.red {
-  color: red;
-}
-.pasting {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  width: 100%;
-  .wrapper {
-    flex: 1 1;
-    margin: 0;
-    padding: 0;
-  }
-  h3 {
-    font-family: monospace;
-  }
-  [contenteditable] {
-    min-height: 3rem;
-    border: solid 1px;
-    padding: 0.5rem;
-    background-color: whitesmoke;
-  }
-  [contenteditable="true"] {
-    caret-color: blue;
-  }
-  [contenteditable="plaintext-only"] {
-    caret-color: red;
-  }
-}
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        tabindex: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/tabindex",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     }
                   }
                 }
@@ -96421,6 +72188,19 @@ http.headers.Dictionary-ID
 http.headers.Use-As-Dictionary`,
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    },
+                    content_negotiation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/Content_negotiation",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -96509,14 +72289,14 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        accept: {
+                        dnt: {
                           children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
                           messages: [
                             {
                               message: "Broken external link",
                               data: [
-                                "https://www.gnu.org/software/wget/",
+                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
                                 "The operation timed out."
                               ]
                             }
@@ -96574,6 +72354,19 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         },
+                        tk: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Tk",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "user-agent": {
                           children: {
                             firefox: {
@@ -96597,79 +72390,7 @@ http.headers.Use-As-Dictionary`,
             javascript: {
               children: {
                 guide: {
-                  children: {
-                    closures: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Closures",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "2:16 - 2:25",
-                            `/en-US/docs/Web/JavaScript/Guide/Closures
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 12px;
-}
-
-h1 {
-  font-size: 1.5em;
-}
-
-h2 {
-  font-size: 1.2em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Helvetica, Arial, sans-serif;",
-                            "2:27 - 2:32",
-                            `/en-US/docs/Web/JavaScript/Guide/Closures
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 12px;
-}
-
-h1 {
-  font-size: 1.5em;
-}
-
-h2 {
-  font-size: 1.2em;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    modules: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Modules",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/JavaScript/Guide",
                   messages: [
                     {
@@ -96683,21 +72404,7 @@ h2 {
                 reference: {
                   children: {
                     classes: {
-                      children: {
-                        public_class_fields: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://babeljs.io/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
+                      children: {}
                     },
                     global_objects: {
                       children: {
@@ -96774,131 +72481,6 @@ h2 {
                         }
                       ]
                     },
-                    operators: {
-                      children: {
-                        destructuring: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'a' was used before it was defined.",
-                                "const obj = { a, b, c };",
-                                "1:15 - 1:16",
-                                `/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring
-[no-use-before-define] 'a' was used before it was defined.
-~~~
-const obj = { a, b, c };
-const { a, b, c } = obj;
-// Equivalent to:
-// const a = obj.a, b = obj.b, c = obj.c;
-
-const obj = { prop1: x, prop2: y, prop3: z };
-const { prop1: x, prop2: y, prop3: z } = obj;
-// Equivalent to:
-// const x = obj.prop1, y = obj.prop2, z = obj.prop3;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'b' was used before it was defined.",
-                                "const obj = { a, b, c };",
-                                "1:18 - 1:19",
-                                `/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring
-[no-use-before-define] 'b' was used before it was defined.
-~~~
-const obj = { a, b, c };
-const { a, b, c } = obj;
-// Equivalent to:
-// const a = obj.a, b = obj.b, c = obj.c;
-
-const obj = { prop1: x, prop2: y, prop3: z };
-const { prop1: x, prop2: y, prop3: z } = obj;
-// Equivalent to:
-// const x = obj.prop1, y = obj.prop2, z = obj.prop3;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'c' was used before it was defined.",
-                                "const obj = { a, b, c };",
-                                "1:21 - 1:22",
-                                `/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring
-[no-use-before-define] 'c' was used before it was defined.
-~~~
-const obj = { a, b, c };
-const { a, b, c } = obj;
-// Equivalent to:
-// const a = obj.a, b = obj.b, c = obj.c;
-
-const obj = { prop1: x, prop2: y, prop3: z };
-const { prop1: x, prop2: y, prop3: z } = obj;
-// Equivalent to:
-// const x = obj.prop1, y = obj.prop2, z = obj.prop3;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'y' was used before it was defined.",
-                                "const obj = { prop1: x, prop2: y, prop3: z };",
-                                "6:32 - 6:33",
-                                `/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring
-[no-use-before-define] 'y' was used before it was defined.
-~~~
-const obj = { a, b, c };
-const { a, b, c } = obj;
-// Equivalent to:
-// const a = obj.a, b = obj.b, c = obj.c;
-
-const obj = { prop1: x, prop2: y, prop3: z };
-const { prop1: x, prop2: y, prop3: z } = obj;
-// Equivalent to:
-// const x = obj.prop1, y = obj.prop2, z = obj.prop3;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-use-before-define",
-                                "'z' was used before it was defined.",
-                                "const obj = { prop1: x, prop2: y, prop3: z };",
-                                "6:42 - 6:43",
-                                `/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring
-[no-use-before-define] 'z' was used before it was defined.
-~~~
-const obj = { a, b, c };
-const { a, b, c } = obj;
-// Equivalent to:
-// const a = obj.a, b = obj.b, c = obj.c;
-
-const obj = { prop1: x, prop2: y, prop3: z };
-const { prop1: x, prop2: y, prop3: z } = obj;
-// Equivalent to:
-// const x = obj.prop1, y = obj.prop2, z = obj.prop3;
-~~~
-`
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     statements: {
                       children: {
                         expression_statement: {
@@ -96956,34 +72538,8 @@ const { prop1: x, prop2: y, prop3: z } = obj;
               children: {
                 guides: {
                   children: {
-                    audio_and_video_delivery: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.ffmpeg.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     formats: {
                       children: {
-                        audio_codecs: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://ffmpeg.org/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -97119,132 +72675,6 @@ const { prop1: x, prop2: y, prop3: z } = obj;
                   ]
                 }
               ]
-            },
-            progressive_web_apps: {
-              children: {
-                guides: {
-                  children: {
-                    installing: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/Guides/Installing",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://support.microsoft.com/en-us/topic/install-manage-or-uninstall-apps-in-microsoft-edge-0c156575-a94a-45e4-a54f-3a84846f6113",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                manifest: {
-                  children: {
-                    reference: {
-                      children: {
-                        orientation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/orientation",
-                          messages: [
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Arial, sans-serif;",
-                                "75:16 - 75:21",
-                                `/en-US/docs/Web/Progressive_web_apps/Manifest/Reference/orientation
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 40px;
-  padding: 20px;
-}
-
-.orientation {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.device {
-  width: 200px;
-  height: 300px;
-  border: 5px solid black;
-  border-radius: 20px;
-  position: relative;
-  background-color: white;
-  margin-bottom: 10px;
-}
-
-.screen {
-  width: 180px;
-  height: 280px;
-  border-radius: 15px;
-  background-color: lightgrey;
-  margin: 10px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-}
-
-.title-bar {
-  background-color: #4285f4;
-  color: white;
-  padding: 5px;
-  text-align: center;
-  font-weight: bold;
-}
-
-.content {
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  text-align: center;
-}
-
-.landscape-primary,
-.landscape-secondary {
-  width: 300px;
-  height: 200px;
-}
-
-.landscape-primary .screen,
-.landscape-secondary .screen {
-  width: 280px;
-  height: 180px;
-}
-
-.portrait-secondary {
-  transform: rotate(180deg);
-}
-
-.landscape-secondary {
-  transform: rotate(180deg);
-}
-
-.label {
-  margin-top: 10px;
-  font-family: Arial, sans-serif;
-  font-size: 15px;
-}
-~~~
-`
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                }
-              }
             },
             security: {
               children: {
@@ -97421,7 +72851,7 @@ html.elements.script.integrity`,
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/dominant-baseline",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Verdana" (font-family-name-quotes)',
@@ -97448,7 +72878,7 @@ text {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -97475,7 +72905,7 @@ text {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -97690,7 +73120,7 @@ svg.elements.feSpecularLighting.kernelUnitLength`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/operator",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -97713,7 +73143,7 @@ svg {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -97916,7 +73346,7 @@ svg.elements.rect.ry`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/side",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -97942,7 +73372,7 @@ text {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -98060,7 +73490,7 @@ svg.elements.use.systemLanguage`
                           slug: "/en-US/docs/Web/SVG/Reference/Attribute/target",
                           messages: [
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Arial" (font-family-name-quotes)',
@@ -98088,7 +73518,7 @@ text {
                               ]
                             },
                             {
-                              message: "Stylelint backlog",
+                              message: "CSS code issue",
                               data: [
                                 "font-family-name-quotes",
                                 'Expected quotes around "Helvetica" (font-family-name-quotes)',
@@ -98355,122 +73785,6 @@ svg.elements.use.y`
                                 "Expected:",
                                 `svg.elements.fePointLight.z
 svg.elements.feSpotLight.z`
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    element: {
-                      children: {
-                        femorphology: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Reference/Element/feMorphology",
-                          messages: [
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "2:16 - 2:21",
-                                `/en-US/docs/Web/SVG/Reference/Element/feMorphology
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-text {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 3em;
-}
-
-#thin {
-  filter: url("#erode");
-}
-
-#thick {
-  filter: url("#dilate");
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "2:23 - 2:32",
-                                `/en-US/docs/Web/SVG/Reference/Element/feMorphology
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-text {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 3em;
-}
-
-#thin {
-  filter: url("#erode");
-}
-
-#thick {
-  filter: url("#dilate");
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Arial" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "3:16 - 3:21",
-                                `/en-US/docs/Web/SVG/Reference/Element/feMorphology
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-p {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 3em;
-}
-
-#thin {
-  filter: url("#erode");
-}
-
-#thick {
-  filter: url("#dilate");
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                                "  font-family: Arial, Helvetica, sans-serif;",
-                                "3:23 - 3:32",
-                                `/en-US/docs/Web/SVG/Reference/Element/feMorphology
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-p {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 3em;
-}
-
-#thin {
-  filter: url("#erode");
-}
-
-#thick {
-  filter: url("#dilate");
-}
-~~~
-`
                               ]
                             }
                           ]
