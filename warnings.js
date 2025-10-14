@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-3zaq03er.js";
+} from "./chunk-wvpj4z7d.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -290,6 +290,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            css_preprocessor: {
+              children: {},
+              slug: "/en-US/docs/Glossary/CSS_preprocessor",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://sass-lang.com/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -1244,6 +1257,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            source_map: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Source_map",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://sass-lang.com/",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -1251,19 +1277,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            ssg: {
-              children: {},
-              slug: "/en-US/docs/Glossary/SSG",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://jamstack.org/generators/",
-                    'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://jamstack.org/generators/". For more information, pass `verbose: true` in the second argument to fetch()'
-                  ]
                 }
               ]
             },
@@ -1403,6 +1416,23 @@ var warnings_processed_default = {
           children: {
             core: {
               children: {
+                accessibility: {
+                  children: {
+                    what_is_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.aktion-mensch.de/inklusion/barrierefreiheit/barrierefreie-website",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 css_layout: {
                   children: {
                     introduction: {
@@ -1445,6 +1475,13 @@ span {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -2226,6 +2263,19 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    },
+                    main_features: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -4848,6 +4898,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -6072,6 +6129,19 @@ h1 {
                         }
                       ]
                     },
+                    organizing: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {
                         backgrounds_and_borders: {
@@ -6553,6 +6623,33 @@ button:active {
                 },
                 "client-side_tools": {
                   children: {
+                    introducing_complete_toolchain: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     overview: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
@@ -6560,7 +6657,7 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://babeljs.io/docs/plugins",
+                            "https://sass-lang.com/",
                             "The operation timed out."
                           ]
                         }
@@ -12116,6 +12213,40 @@ textarea:focus {
                           ]
                         }
                       ]
+                    },
+                    multimedia: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "server-side": {
+                  children: {
+                    express_nodejs: {
+                      children: {
+                        skeleton_website: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://sass-lang.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     }
                   }
                 },
@@ -12661,8 +12792,55 @@ body {
             },
             getting_started: {
               children: {
+                environment_setup: {
+                  children: {
+                    browsing_the_web: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.microsoft.com/en-us/topic/advanced-search-options-b92e25f1-0085-4271-bdf9-14aaea720930",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                soft_skills: {
+                  children: {
+                    workflows_and_processes: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 your_first_website: {
                   children: {
+                    adding_interactivity: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Adding_interactivity",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://codeload.github.com/mdn/beginner-html-site-styled/zip/refs/heads/gh-pages",
+                            404
+                          ]
+                        }
+                      ]
+                    },
                     styling_the_content: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
@@ -12685,6 +12863,13 @@ html {
 }
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://github.com/mdn/beginner-html-site-styled/blob/gh-pages/styles/style.css",
+                            404
                           ]
                         }
                       ]
@@ -12765,30 +12950,6 @@ html {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    css_faq: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-block-no-shorthand-property-overrides",
-                            'Unexpected shorthand "font" after "font-weight" (declaration-block-no-shorthand-property-overrides)',
-                            '  font: 12px "Verdana"; /* font-weight is now set to normal */',
-                            "3:3 - 3:7",
-                            `/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "font" after "font-weight" (declaration-block-no-shorthand-property-overrides)
-~~~
-#stockTicker {
-  font-weight: bold;
-  font: 12px "Verdana"; /* font-weight is now set to normal */
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -13082,6 +13243,13 @@ color: rgb(31 41 59 / 26%);
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -13246,6 +13414,20 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
                                     }
                                   ]
                                 },
@@ -13266,10 +13448,34 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
+                                    },
+                                    {
+                                      message: "HTTP link",
+                                      data: [
+                                        "http://www.softwareishard.com/blog/har-12-spec/",
+                                        ""
+                                      ]
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
+                              messages: [
+                                {
+                                  message: "HTTP link",
+                                  data: [
+                                    "http://www.softwareishard.com/blog/har-12-spec/",
+                                    ""
+                                  ]
+                                }
+                              ]
                             },
                             panels: {
                               children: {
@@ -14859,6 +15065,32 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
+                    "18": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/18",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/18.0beta/releasenotes/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    },
+                    "19": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/19",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/19.0beta/releasenotes/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     "22": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
@@ -15278,6 +15510,26 @@ color: color(xyz-d65 0.59 0.28 0.96);
 color: color(xyz-d65 0.59 0.28 0.96 / 1);
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.pbs.org/video/university-place-the-photosensitive-epilepsy-analysis-tool-ep-429/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    seizure_disorders: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.pbs.org/video/university-place-the-photosensitive-epilepsy-analysis-tool-ep-429/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -15933,6 +16185,141 @@ li:nth-of-type(3n + 1) {
                     }
                   }
                 },
+                cssstyleproperties: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/CSSStyleProperties",
+                  messages: [
+                    {
+                      message: "Self link",
+                      data: [
+                        "/en-US/docs/Web/API/CSSStyleProperties"
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '<div style="font-weight: bold;">',
+                        "0:5 - 0:31",
+                        `/en-US/docs/Web/API/CSSStyleProperties
+[no-style-attr] Do not use the style attribute.
+~~~
+<div style="font-weight: bold;">
+  <div style="border-top: 3px solid blue; color: red;margin:5px;" id="elt">
+    Div content.
+    <br />
+    Inner: "border-top: 3px solid blue; color: red;margin:5px;".
+    <br />
+    Outer: "font-weight: bold;"
+  </div>
+</div>
+
+<pre id="log"></pre>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '  <div style="border-top: 3px solid blue; color: red;margin:5px;" id="elt">',
+                        "1:7 - 1:65",
+                        `/en-US/docs/Web/API/CSSStyleProperties
+[no-style-attr] Do not use the style attribute.
+~~~
+<div style="font-weight: bold;">
+  <div style="border-top: 3px solid blue; color: red;margin:5px;" id="elt">
+    Div content.
+    <br />
+    Inner: "border-top: 3px solid blue; color: red;margin:5px;".
+    <br />
+    Outer: "font-weight: bold;"
+  </div>
+</div>
+
+<pre id="log"></pre>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '<div style="font-weight: bold;">',
+                        "0:5 - 0:31",
+                        `/en-US/docs/Web/API/CSSStyleProperties
+[no-style-attr] Do not use the style attribute.
+~~~
+<div style="font-weight: bold;">
+  <div style="border-top: 1px solid blue; color: red;" id="elt">
+    An example div
+  </div>
+</div>
+<button id="inline_style" type="button">Inline Style</button>
+<button id="computed_style" type="button">Computed Style</button>
+
+<button id="reset" type="button">Reset</button>
+<pre id="log"></pre>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '  <div style="border-top: 1px solid blue; color: red;" id="elt">',
+                        "1:7 - 1:54",
+                        `/en-US/docs/Web/API/CSSStyleProperties
+[no-style-attr] Do not use the style attribute.
+~~~
+<div style="font-weight: bold;">
+  <div style="border-top: 1px solid blue; color: red;" id="elt">
+    An example div
+  </div>
+</div>
+<button id="inline_style" type="button">Inline Style</button>
+<button id="computed_style" type="button">Computed Style</button>
+
+<button id="reset" type="button">Reset</button>
+<pre id="log"></pre>
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                cssstylerule: {
+                  children: {
+                    style: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSSStyleRule/style",
+                      messages: [
+                        {
+                          message: "Self link",
+                          data: [
+                            "/en-US/docs/Web/API/CSSStyleRule/style"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/CSSStyleRule",
+                  messages: [
+                    {
+                      message: "Self link",
+                      data: [
+                        "/en-US/docs/Web/API/CSSStyleRule"
+                      ]
+                    }
+                  ]
+                },
                 device_orientation_events: {
                   children: {
                     detecting_device_orientation: {
@@ -16106,6 +16493,12 @@ api.DeviceOrientationEvent`,
                   slug: "/en-US/docs/Web/API/Document_Object_Model",
                   messages: [
                     {
+                      message: "Self link",
+                      data: [
+                        "/en-US/docs/Web/API/Document_Object_Model"
+                      ]
+                    },
+                    {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Document_Object_Model/Events"
@@ -16130,12 +16523,101 @@ api.DeviceOrientationEvent`,
                       ]
                     },
                     {
-                      message: "No link to child page",
+                      message: "HTML code issue",
                       data: [
-                        "/en-US/docs/Web/API/Document_Object_Model/Using_the_Document_Object_Model"
+                        "no-inline-event-handlers",
+                        'Do not use inline event handler "onload".',
+                        `<body onload="console.log('Welcome to my home page!');">`,
+                        "0:6 - 0:55",
+                        `/en-US/docs/Web/API/Document_Object_Model
+[no-inline-event-handlers] Do not use inline event handler "onload".
+~~~
+<body onload="console.log('Welcome to my home page!');">
+  …
+</body>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-inline-script",
+                        "Do not write JS within the <script> element; use separate JS blocks instead.",
+                        `    <script>
+      // create a couple of elements in an otherwise empty HTML page
+      const heading = document.createElement("h1");
+      const headingText = document.createTextNode("Big Head!");
+      heading.appendChild(headingText);
+      document.body.appendChild(heading);
+    </script>`,
+                        "3:4 - 9:13",
+                        `/en-US/docs/Web/API/Document_Object_Model
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+~~~
+<html lang="en">
+  <head> </head>
+  <body>
+    <script>
+      // create a couple of elements in an otherwise empty HTML page
+      const heading = document.createElement("h1");
+      const headingText = document.createTextNode("Big Head!");
+      heading.appendChild(headingText);
+      document.body.appendChild(heading);
+    </script>
+  </body>
+</html>
+~~~
+`
                       ]
                     }
                   ]
+                },
+                domparser: {
+                  children: {
+                    parsefromstring: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/DOMParser/parseFromString",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "syntax",
+                            "Parsing error: Invalid character.",
+                            'console.log(doc\\32.contentType); // "text/html"',
+                            "13:16",
+                            `/en-US/docs/Web/API/DOMParser/parseFromString
+[syntax] Parsing error: Invalid character.
+~~~
+const parser = new DOMParser();
+
+const xmlString = "<warning>Beware of the tiger</warning>";
+const doc1 = parser.parseFromString(xmlString, "application/xml");
+console.log(doc1.contentType); // "application/xml"
+
+const svgString = '<circle cx="50" cy="50" r="50"/>';
+const doc2 = parser.parseFromString(svgString, "image/svg+xml");
+console.log(doc2.contentType); // "image/svg+xml"
+
+const htmlString = "<strong>Beware of the leopard</strong>";
+const doc3 = parser.parseFromString(htmlString, "text/html");
+console.log(doc\\32.contentType); // "text/html"
+
+console.log(doc1.documentElement.textContent);
+// "Beware of the tiger"
+
+console.log(doc2.firstChild.tagName);
+// "circle"
+
+console.log(doc3.body.firstChild.textContent);
+// "Beware of the leopard"
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 fetchevent: {
                   children: {
@@ -16391,7 +16873,47 @@ output {
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/API/HTMLImageElement",
+                  messages: [
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "no-style-attr",
+                        "Do not use the style attribute.",
+                        '    style="height: 50px; width: 500px;" />',
+                        "19:4 - 19:39",
+                        `/en-US/docs/Web/API/HTMLImageElement
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+  Image 1: no height, width, or style
+  <img id="image1" src="https://www.mozilla.org/images/mozilla-banner.gif" />
+</p>
+
+<p>
+  Image 2: height="50", width="500", but no style
+  <img
+    id="image2"
+    src="https://www.mozilla.org/images/mozilla-banner.gif"
+    height="50"
+    width="500" />
+</p>
+
+<p>
+  Image 3: no height, width, but style="height: 50px; width: 500px;"
+  <img
+    id="image3"
+    src="https://www.mozilla.org/images/mozilla-banner.gif"
+    style="height: 50px; width: 500px;" />
+</p>
+
+<div id="output"></div>
+~~~
+`
+                      ]
+                    }
+                  ]
                 },
                 intersection_observer_api: {
                   children: {
@@ -16798,6 +17320,41 @@ body {
                       ]
                     }
                   ]
+                },
+                mathmlelement: {
+                  children: {
+                    style: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MathMLElement/style",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-style-attr",
+                            "Do not use the style attribute.",
+                            '    <mi class="parameter" style="color: red; border-bottom: 1px solid">x</mi>',
+                            "4:26 - 4:70",
+                            `/en-US/docs/Web/API/MathMLElement/style
+[no-style-attr] Do not use the style attribute.
+~~~
+<math>
+  <mrow>
+    <mi>f</mi>
+    <mo stretchy="false">(</mo>
+    <mi class="parameter" style="color: red; border-bottom: 1px solid">x</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mi>x</mi>
+  </mrow>
+</math>
+<pre id="log"></pre>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 media_capabilities_api: {
                   children: {
@@ -18423,46 +18980,6 @@ env(viewport-segment-width 0 1)
                     }
                   ]
                 },
-                web_components: {
-                  children: {
-                    using_templates_and_slots: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_components/Using_templates_and_slots",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-no-missing-generic-family-keyword",
-                            "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                            '  font-family: "Consolas", "Liberation Mono", "Courier New";',
-                            "6:47 - 6:60",
-                            `/en-US/docs/Web/API/Web_components/Using_templates_and_slots
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-dl {
-  margin-left: 6px;
-}
-dt {
-  color: #217ac0;
-  font-family: "Consolas", "Liberation Mono", "Courier New";
-  font-size: 110%;
-  font-weight: bold;
-}
-dd {
-  margin-left: 16px;
-}
-
-body {
-  margin-top: 47px;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 web_crypto_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/Web_Crypto_API",
@@ -18496,7 +19013,21 @@ api.Window.sessionStorage`,
                   }
                 },
                 web_workers_api: {
-                  children: {},
+                  children: {
+                    using_web_workers: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Web_Workers_API/Using_web_workers",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/Web_Workers_API",
                   messages: [
                     {
@@ -18583,6 +19114,19 @@ api.Window.sessionStorage`,
                       ]
                     }
                   }
+                },
+                websockets_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WebSockets_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://dotnet.microsoft.com/en-us/apps/aspnet/signalr",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 webvtt_api: {
                   children: {
@@ -18702,6 +19246,23 @@ api.Window.sessionStorage`,
                           message: "Not in BCD",
                           data: [
                             "api.WorkerNavigator.setAppBadge"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                worker: {
+                  children: {
+                    worker: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Worker/Worker",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/features.html",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -22155,36 +22716,6 @@ div {
 ~~~
 `
                       ]
-                    }
-                  ]
-                },
-                "box-flex": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/box-flex",
-                  messages: [
-                    {
-                      message: "Unreachable via page",
-                      data: []
-                    }
-                  ]
-                },
-                "box-lines": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/box-lines",
-                  messages: [
-                    {
-                      message: "Unreachable via page",
-                      data: []
-                    }
-                  ]
-                },
-                "box-ordinal-group": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/box-ordinal-group",
-                  messages: [
-                    {
-                      message: "Unreachable via page",
-                      data: []
                     }
                   ]
                 },
@@ -46524,6 +47055,40 @@ blockquote p::after {
                     }
                   ]
                 },
+                css_nesting: {
+                  children: {
+                    using_css_nesting: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/CSS/CSS_nesting",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://sass-lang.com/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 css_overflow: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/CSS_overflow",
@@ -48331,23 +48896,6 @@ dynamic-range-limit-mix(standard 10%, constrained 40%, no-limit 50%)
 ~~~
 `
                       ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "dynamic-range-limit-mix" (function-no-unknown)',
-                        "  dynamic-range-limit: dynamic-range-limit-mix(standard 70%, no-limit 30%);",
-                        "2:24 - 2:47",
-                        `/en-US/docs/Web/CSS/dynamic-range-limit-mix
-[function-no-unknown] Unexpected unknown function "dynamic-range-limit-mix" (function-no-unknown)
-~~~
-img {
-  dynamic-range-limit: dynamic-range-limit-mix(standard 70%, no-limit 30%);
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -49499,6 +50047,174 @@ p {
                     {
                       message: "CSS code issue",
                       data: [
+                        "color-no-invalid-hex",
+                        'Unexpected invalid hex color "#POUND" (color-no-invalid-hex)',
+                        "font-family: #POUND, sans-serif;",
+                        "6:14 - 6:20",
+                        `/en-US/docs/Web/CSS/font-family
+[color-no-invalid-hex] Unexpected invalid hex color "#POUND" (color-no-invalid-hex)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "1911" for property "font-family" (declaration-property-value-no-unknown)',
+                        "font-family: Goudy Bookletter 1911, sans-serif;",
+                        "1:31 - 1:35",
+                        `/en-US/docs/Web/CSS/font-family
+[declaration-property-value-no-unknown] Unexpected unknown value "1911" for property "font-family" (declaration-property-value-no-unknown)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "/" for property "font-family" (declaration-property-value-no-unknown)',
+                        "font-family: Red/Black, sans-serif;",
+                        "2:17 - 2:18",
+                        `/en-US/docs/Web/CSS/font-family
+[declaration-property-value-no-unknown] Unexpected unknown value "/" for property "font-family" (declaration-property-value-no-unknown)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "Grande" for property "font-family" (declaration-property-value-no-unknown)',
+                        'font-family: "Lucida" Grande, sans-serif;',
+                        "3:23 - 3:29",
+                        `/en-US/docs/Web/CSS/font-family
+[declaration-property-value-no-unknown] Unexpected unknown value "Grande" for property "font-family" (declaration-property-value-no-unknown)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Cannot parse property value "Ahem!, sans-serif" for property "font-family" (declaration-property-value-no-unknown)',
+                        "font-family: Ahem!, sans-serif;",
+                        "4:14 - 4:31",
+                        `/en-US/docs/Web/CSS/font-family
+[declaration-property-value-no-unknown] Cannot parse property value "Ahem!, sans-serif" for property "font-family" (declaration-property-value-no-unknown)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Cannot parse property value "test@foo, sans-serif" for property "font-family" (declaration-property-value-no-unknown)',
+                        "font-family: test@foo, sans-serif;",
+                        "5:14 - 5:34",
+                        `/en-US/docs/Web/CSS/font-family
+[declaration-property-value-no-unknown] Cannot parse property value "test@foo, sans-serif" for property "font-family" (declaration-property-value-no-unknown)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "#POUND" for property "font-family" (declaration-property-value-no-unknown)',
+                        "font-family: #POUND, sans-serif;",
+                        "6:14 - 6:20",
+                        `/en-US/docs/Web/CSS/font-family
+[declaration-property-value-no-unknown] Unexpected unknown value "#POUND" for property "font-family" (declaration-property-value-no-unknown)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "5" for property "font-family" (declaration-property-value-no-unknown)',
+                        "font-family: Hawaii 5-0, sans-serif;",
+                        "7:21 - 7:22",
+                        `/en-US/docs/Web/CSS/font-family
+[declaration-property-value-no-unknown] Unexpected unknown value "5" for property "font-family" (declaration-property-value-no-unknown)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
                         "font-family-name-quotes",
                         'Expected quotes around "Goudy Bookletter sans-serif" (font-family-name-quotes)',
                         "font-family: Goudy Bookletter 1911, sans-serif;",
@@ -49625,16 +50341,20 @@ font-family: Hawaii 5-0, sans-serif;
                     {
                       message: "CSS code issue",
                       data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Gill Sans Extrabold" (font-family-name-quotes)',
-                        "  Gill Sans Extrabold,",
-                        "2:3 - 2:22",
+                        "font-family-no-missing-generic-family-keyword",
+                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                        "font-family: Goudy Bookletter 1911, sans-serif;",
+                        "1:14 - 1:19",
                         `/en-US/docs/Web/CSS/font-family
-[font-family-name-quotes] Expected quotes around "Gill Sans Extrabold" (font-family-name-quotes)
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
 ~~~
-font-family:
-  Gill Sans Extrabold,
-  sans-serif;
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
 ~~~
 `
                       ]
@@ -56859,424 +57579,6 @@ p {
                     }
                   ]
                 },
-                page: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/page",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        '    font-family: "Courier New";',
-                        "61:18 - 61:31",
-                        `/en-US/docs/Web/CSS/page
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@page toc {
-  size: a4 portrait;
-  @top-center {
-    content: "Table of contents";
-  }
-}
-
-@page foreword {
-  size: a4 portrait;
-  @top-center {
-    content: "Foreword";
-  }
-}
-
-@page introduction {
-  size: a4 portrait;
-  @top-center {
-    content: "Introduction";
-  }
-}
-
-@page conclusion {
-  size: a4 portrait;
-  @top-center {
-    content: "Conclusion";
-  }
-}
-
-@page chapter {
-  size: a4 landscape;
-  @top-center {
-    content: "Chapter";
-  }
-}
-
-fieldset {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 1rem;
-  width: fit-content;
-}
-body {
-  font: 1.1em sans-serif;
-}
-
-@media print {
-  fieldset {
-    display: none;
-  }
-  section {
-    font-size: 2rem;
-    font-family: "Roboto", sans-serif;
-  }
-  .chapter {
-    border: tomato 2px solid;
-  }
-  [data-print="grouped"] > #toc,
-  [data-print="paged"] > #toc {
-    page: toc;
-    font-family: "Courier New";
-  }
-  [data-print="grouped"] > #foreword,
-  [data-print="paged"] > #foreword {
-    page: foreword;
-    font-family: "Courier New";
-  }
-  [data-print="grouped"] > #introduction,
-  [data-print="paged"] > #introduction {
-    page: introduction;
-    font-family: "Courier New";
-  }
-  [data-print="grouped"] > #conclusion,
-  [data-print="paged"] > #conclusion {
-    page: conclusion;
-    font-family: "Courier New";
-  }
-  [data-print="grouped"] > .chapter,
-  [data-print="paged"] > .chapter {
-    page: chapter;
-  }
-  [data-print="paged"] > .chapter {
-    border: none;
-    break-after: page;
-  }
-  .chapter > ul {
-    columns: 2;
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        '    font-family: "Courier New";',
-                        "66:18 - 66:31",
-                        `/en-US/docs/Web/CSS/page
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@page toc {
-  size: a4 portrait;
-  @top-center {
-    content: "Table of contents";
-  }
-}
-
-@page foreword {
-  size: a4 portrait;
-  @top-center {
-    content: "Foreword";
-  }
-}
-
-@page introduction {
-  size: a4 portrait;
-  @top-center {
-    content: "Introduction";
-  }
-}
-
-@page conclusion {
-  size: a4 portrait;
-  @top-center {
-    content: "Conclusion";
-  }
-}
-
-@page chapter {
-  size: a4 landscape;
-  @top-center {
-    content: "Chapter";
-  }
-}
-
-fieldset {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 1rem;
-  width: fit-content;
-}
-body {
-  font: 1.1em sans-serif;
-}
-
-@media print {
-  fieldset {
-    display: none;
-  }
-  section {
-    font-size: 2rem;
-    font-family: "Roboto", sans-serif;
-  }
-  .chapter {
-    border: tomato 2px solid;
-  }
-  [data-print="grouped"] > #toc,
-  [data-print="paged"] > #toc {
-    page: toc;
-    font-family: "Courier New";
-  }
-  [data-print="grouped"] > #foreword,
-  [data-print="paged"] > #foreword {
-    page: foreword;
-    font-family: "Courier New";
-  }
-  [data-print="grouped"] > #introduction,
-  [data-print="paged"] > #introduction {
-    page: introduction;
-    font-family: "Courier New";
-  }
-  [data-print="grouped"] > #conclusion,
-  [data-print="paged"] > #conclusion {
-    page: conclusion;
-    font-family: "Courier New";
-  }
-  [data-print="grouped"] > .chapter,
-  [data-print="paged"] > .chapter {
-    page: chapter;
-  }
-  [data-print="paged"] > .chapter {
-    border: none;
-    break-after: page;
-  }
-  .chapter > ul {
-    columns: 2;
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        '    font-family: "Courier New";',
-                        "71:18 - 71:31",
-                        `/en-US/docs/Web/CSS/page
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@page toc {
-  size: a4 portrait;
-  @top-center {
-    content: "Table of contents";
-  }
-}
-
-@page foreword {
-  size: a4 portrait;
-  @top-center {
-    content: "Foreword";
-  }
-}
-
-@page introduction {
-  size: a4 portrait;
-  @top-center {
-    content: "Introduction";
-  }
-}
-
-@page conclusion {
-  size: a4 portrait;
-  @top-center {
-    content: "Conclusion";
-  }
-}
-
-@page chapter {
-  size: a4 landscape;
-  @top-center {
-    content: "Chapter";
-  }
-}
-
-fieldset {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 1rem;
-  width: fit-content;
-}
-body {
-  font: 1.1em sans-serif;
-}
-
-@media print {
-  fieldset {
-    display: none;
-  }
-  section {
-    font-size: 2rem;
-    font-family: "Roboto", sans-serif;
-  }
-  .chapter {
-    border: tomato 2px solid;
-  }
-  [data-print="grouped"] > #toc,
-  [data-print="paged"] > #toc {
-    page: toc;
-    font-family: "Courier New";
-  }
-  [data-print="grouped"] > #foreword,
-  [data-print="paged"] > #foreword {
-    page: foreword;
-    font-family: "Courier New";
-  }
-  [data-print="grouped"] > #introduction,
-  [data-print="paged"] > #introduction {
-    page: introduction;
-    font-family: "Courier New";
-  }
-  [data-print="grouped"] > #conclusion,
-  [data-print="paged"] > #conclusion {
-    page: conclusion;
-    font-family: "Courier New";
-  }
-  [data-print="grouped"] > .chapter,
-  [data-print="paged"] > .chapter {
-    page: chapter;
-  }
-  [data-print="paged"] > .chapter {
-    border: none;
-    break-after: page;
-  }
-  .chapter > ul {
-    columns: 2;
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        '    font-family: "Courier New";',
-                        "76:18 - 76:31",
-                        `/en-US/docs/Web/CSS/page
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-@page toc {
-  size: a4 portrait;
-  @top-center {
-    content: "Table of contents";
-  }
-}
-
-@page foreword {
-  size: a4 portrait;
-  @top-center {
-    content: "Foreword";
-  }
-}
-
-@page introduction {
-  size: a4 portrait;
-  @top-center {
-    content: "Introduction";
-  }
-}
-
-@page conclusion {
-  size: a4 portrait;
-  @top-center {
-    content: "Conclusion";
-  }
-}
-
-@page chapter {
-  size: a4 landscape;
-  @top-center {
-    content: "Chapter";
-  }
-}
-
-fieldset {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 1rem;
-  width: fit-content;
-}
-body {
-  font: 1.1em sans-serif;
-}
-
-@media print {
-  fieldset {
-    display: none;
-  }
-  section {
-    font-size: 2rem;
-    font-family: "Roboto", sans-serif;
-  }
-  .chapter {
-    border: tomato 2px solid;
-  }
-  [data-print="grouped"] > #toc,
-  [data-print="paged"] > #toc {
-    page: toc;
-    font-family: "Courier New";
-  }
-  [data-print="grouped"] > #foreword,
-  [data-print="paged"] > #foreword {
-    page: foreword;
-    font-family: "Courier New";
-  }
-  [data-print="grouped"] > #introduction,
-  [data-print="paged"] > #introduction {
-    page: introduction;
-    font-family: "Courier New";
-  }
-  [data-print="grouped"] > #conclusion,
-  [data-print="paged"] > #conclusion {
-    page: conclusion;
-    font-family: "Courier New";
-  }
-  [data-print="grouped"] > .chapter,
-  [data-print="paged"] > .chapter {
-    page: chapter;
-  }
-  [data-print="paged"] > .chapter {
-    border: none;
-    break-after: page;
-  }
-  .chapter > ul {
-    columns: 2;
-  }
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 position_value: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/position_value",
@@ -57466,21 +57768,6 @@ opacity: progress(5, 0, 10);
                       ]
                     },
                     {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "progress" (function-no-unknown)',
-                        "opacity: progress(5, 0, 10);",
-                        "1:10 - 1:18",
-                        `/en-US/docs/Web/CSS/progress
-[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
-~~~
-opacity: progress(5, 0, 10);
-~~~
-`
-                      ]
-                    },
-                    {
                       message: "Stylelint backlog",
                       data: [
                         "CssSyntaxError",
@@ -57525,371 +57812,6 @@ progress(3em, 0, 100)
 ~~~
 `
                       ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "progress" (function-no-unknown)',
-                        "width: calc(progress(100vw, 320px, 1200px) * 600px);",
-                        "1:13 - 1:21",
-                        `/en-US/docs/Web/CSS/progress
-[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
-~~~
-width: calc(progress(100vw, 320px, 1200px) * 600px);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "progress" (function-no-unknown)',
-                        "  progress(",
-                        "2:3 - 2:11",
-                        `/en-US/docs/Web/CSS/progress
-[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
-~~~
-width: calc(
-  progress(
-      var(--container-width),
-      var(--custom-min-width),
-      var(--custom-max-width)
-    ) *
-    var(--custom-max-width)
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "progress" (function-no-unknown)',
-                        "        progress(",
-                        "4:9 - 4:17",
-                        `/en-US/docs/Web/CSS/progress
-[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
-~~~
-background-color: rgb(
-  calc(
-      255 *
-        progress(
-          var(--container-width),
-          var(--custom-min-width),
-          var(--custom-max-width)
-        )
-    )
-    calc(
-      255 *
-        progress(
-          var(--container-width),
-          var(--custom-min-width),
-          var(--custom-max-width)
-        )
-    )
-    255 / 0.5
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "progress" (function-no-unknown)',
-                        "        progress(",
-                        "12:9 - 12:17",
-                        `/en-US/docs/Web/CSS/progress
-[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
-~~~
-background-color: rgb(
-  calc(
-      255 *
-        progress(
-          var(--container-width),
-          var(--custom-min-width),
-          var(--custom-max-width)
-        )
-    )
-    calc(
-      255 *
-        progress(
-          var(--container-width),
-          var(--custom-min-width),
-          var(--custom-max-width)
-        )
-    )
-    255 / 0.5
-);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "progress" (function-no-unknown)',
-                        "    progress(",
-                        "3:5 - 3:13",
-                        `/en-US/docs/Web/CSS/progress
-[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
-~~~
-.progress {
-  width: calc(
-    progress(
-        var(--container-width),
-        var(--custom-min-width),
-        var(--custom-max-width)
-      ) *
-      100%
-  );
-  height: 4px;
-  background-color: red;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "progress" (function-no-unknown)',
-                        "    progress(",
-                        "6:5 - 6:13",
-                        `/en-US/docs/Web/CSS/progress
-[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
-~~~
-.background {
-  position: absolute;
-  inset: 0;
-  background-image: url("https://mdn.github.io/shared-assets/images/examples/wide-background.jpg");
-  background-position-x: calc(
-    progress(
-        var(--container-width),
-        var(--custom-min-width),
-        var(--custom-max-width)
-      ) *
-      100%
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "progress" (function-no-unknown)',
-                        "          progress(",
-                        "8:11 - 8:19",
-                        `/en-US/docs/Web/CSS/progress
-[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
-~~~
-.content {
-  position: absolute;
-  inset: 0;
-  padding: 20px;
-  background-color: rgb(
-    calc(
-        255 *
-          progress(
-            var(--container-width),
-            var(--custom-min-width),
-            var(--custom-max-width)
-          )
-      )
-      calc(
-        255 *
-          progress(
-            var(--container-width),
-            var(--custom-min-width),
-            var(--custom-max-width)
-          )
-      )
-      255 / 0.5
-  );
-  opacity: calc(
-    (
-        progress(
-            var(--container-width),
-            var(--custom-min-width),
-            var(--custom-max-width)
-          ) /
-          2
-      ) +
-      0.5
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "progress" (function-no-unknown)',
-                        "          progress(",
-                        "16:11 - 16:19",
-                        `/en-US/docs/Web/CSS/progress
-[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
-~~~
-.content {
-  position: absolute;
-  inset: 0;
-  padding: 20px;
-  background-color: rgb(
-    calc(
-        255 *
-          progress(
-            var(--container-width),
-            var(--custom-min-width),
-            var(--custom-max-width)
-          )
-      )
-      calc(
-        255 *
-          progress(
-            var(--container-width),
-            var(--custom-min-width),
-            var(--custom-max-width)
-          )
-      )
-      255 / 0.5
-  );
-  opacity: calc(
-    (
-        progress(
-            var(--container-width),
-            var(--custom-min-width),
-            var(--custom-max-width)
-          ) /
-          2
-      ) +
-      0.5
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "progress" (function-no-unknown)',
-                        "        progress(",
-                        "26:9 - 26:17",
-                        `/en-US/docs/Web/CSS/progress
-[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
-~~~
-.content {
-  position: absolute;
-  inset: 0;
-  padding: 20px;
-  background-color: rgb(
-    calc(
-        255 *
-          progress(
-            var(--container-width),
-            var(--custom-min-width),
-            var(--custom-max-width)
-          )
-      )
-      calc(
-        255 *
-          progress(
-            var(--container-width),
-            var(--custom-min-width),
-            var(--custom-max-width)
-          )
-      )
-      255 / 0.5
-  );
-  opacity: calc(
-    (
-        progress(
-            var(--container-width),
-            var(--custom-min-width),
-            var(--custom-max-width)
-          ) /
-          2
-      ) +
-      0.5
-  );
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "function-no-unknown",
-                        'Unexpected unknown function "progress" (function-no-unknown)',
-                        "    progress(",
-                        "28:5 - 28:13",
-                        `/en-US/docs/Web/CSS/progress
-[function-no-unknown] Unexpected unknown function "progress" (function-no-unknown)
-~~~
-html {
-  height: 100%;
-  font-family: sans-serif;
-}
-
-body,
-section {
-  height: inherit;
-}
-
-section {
-  --custom-min-width: 300px;
-  --custom-max-width: 700px;
-  --custom-width: 600px;
-
-  min-width: var(--custom-min-width);
-  max-width: var(--custom-max-width);
-  width: var(--custom-width);
-
-  background-color: cyan;
-}
-
-.progress {
-  height: 4px;
-  background-color: red;
-
-  width: calc(
-    progress(
-        var(--custom-width),
-        var(--custom-min-width),
-        var(--custom-max-width)
-      ) *
-      100%
-  );
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                properties: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/Properties",
-                  messages: [
-                    {
-                      message: "Unreachable via page",
-                      data: []
                     }
                   ]
                 },
@@ -62265,6 +62187,13 @@ http.headers.Use-As-Dictionary`,
                     {
                       message: "Unreachable via page",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://wiki.owasp.org/index.php/Secure_Coding_Principles",
+                        500
+                      ]
                     }
                   ]
                 },
