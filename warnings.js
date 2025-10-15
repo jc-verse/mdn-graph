@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-wvpj4z7d.js";
+} from "./chunk-5f45twz2.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -290,19 +290,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            css_preprocessor: {
-              children: {},
-              slug: "/en-US/docs/Glossary/CSS_preprocessor",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://sass-lang.com/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -1257,19 +1244,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            source_map: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Source_map",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://sass-lang.com/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -1416,23 +1390,6 @@ var warnings_processed_default = {
           children: {
             core: {
               children: {
-                accessibility: {
-                  children: {
-                    what_is_accessibility: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/What_is_accessibility",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.aktion-mensch.de/inklusion/barrierefreiheit/barrierefreie-website",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_layout: {
                   children: {
                     introduction: {
@@ -1475,13 +1432,6 @@ span {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -2263,19 +2213,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        }
-                      ]
-                    },
-                    main_features: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -4898,13 +4835,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -5451,6 +5381,19 @@ button {
                           data: [
                             "https://www.gnu.org/licenses/gpl-3.0.en.html",
                             "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    html_video_and_audio: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vimeo.com/",
+                            403
                           ]
                         }
                       ]
@@ -6057,38 +6000,616 @@ span {
                         }
                       ]
                     },
-                    getting_started: {
+                    home_color_scheme_search: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started",
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Home_color_scheme_search",
                       messages: [
                         {
                           message: "CSS code issue",
                           data: [
                             "font-family-name-quotes",
+                            'Expected quotes around "Arial" (font-family-name-quotes)',
+                            "  font-family: Arial, Helvetica, sans-serif;",
+                            "6:16 - 6:21",
+                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Home_color_scheme_search
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0 10px;
+}
+
+hr {
+  margin: 3em 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Prev/next control layout */
+
+.controls {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Form and button styling */
+
+form div {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 1em;
+}
+
+label {
+  text-align: right;
+  flex: 1;
+}
+
+input {
+  flex: 3;
+}
+
+/* Table styling */
+
+table img {
+  width: 100%;
+  height: 150px;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "font-family-name-quotes",
                             'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "    1em/150% Helvetica,",
-                            "3:14 - 3:23",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
+                            "  font-family: Arial, Helvetica, sans-serif;",
+                            "6:23 - 6:32",
+                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Home_color_scheme_search
 [font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
 ~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-  font:
-    1em/150% Helvetica,
-    Arial,
-    sans-serif;
+  margin: 0 10px;
+}
+
+hr {
+  margin: 3em 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Prev/next control layout */
+
+.controls {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Form and button styling */
+
+form div {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 1em;
+}
+
+label {
+  text-align: right;
+  flex: 1;
+}
+
+input {
+  flex: 3;
+}
+
+/* Table styling */
+
+table img {
+  width: 100%;
+  height: 150px;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "rgb(255 192 203)" to be "pink" (color-named)',
+                            "  background-color: rgb(255 192 203);",
+                            "122:21 - 122:37",
+                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Home_color_scheme_search
+[color-named] Expected "rgb(255 192 203)" to be "pink" (color-named)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0 10px;
+}
+
+hr {
+  margin: 3em 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Prev/next control layout */
+
+.controls {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Form and button styling */
+
+form div {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 1em;
+}
+
+label {
+  text-align: right;
+  flex: 1;
+}
+
+/* Solution: Add a form reset */
+
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  flex: 3;
+  /* Solution: Style the form inputs */
+  border: 2px solid #999999;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Solution: Style the buttons */
+
+button {
+  background-color: black;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 2em;
+}
+
+button:hover,
+button:focus {
+  background-color: #666666;
+}
+
+button:disabled {
+  background-color: #aaaaaa;
+}
+
+/* Table styling */
+
+table img {
+  width: 100%;
+  height: 150px;
+  /* Solution: Fixing the image display */
+  object-fit: cover;
+  object-position: bottom;
+}
+
+/* Solution: Style the table */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+}
+
+th,
+td {
+  vertical-align: top;
+  padding: 0.6em;
+}
+
+th {
+  border-bottom: 1px solid #999999;
+}
+
+tr {
+  width: 20%;
+}
+
+tr :nth-of-type(4) {
+  width: 40%;
+}
+
+/* Solution: Provide background colors for the "Raw color" cells */
+
+tr:nth-of-type(1) td:nth-of-type(2) {
+  background-color: rgb(255 192 203);
+}
+
+tr:nth-of-type(2) td:nth-of-type(2) {
+  background-color: rgb(255 145 175);
+}
+
+tr:nth-of-type(3) td:nth-of-type(2) {
+  background-color: rgb(255 105 180);
+}
+
+tr:nth-of-type(4) td:nth-of-type(2) {
+  background-color: rgb(255 0 255);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+
+caption {
   padding: 1em;
-  margin: 0 auto;
-  max-width: 33em;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "rgb(255 105 180)" to be "hotpink" (color-named)',
+                            "  background-color: rgb(255 105 180);",
+                            "130:21 - 130:37",
+                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Home_color_scheme_search
+[color-named] Expected "rgb(255 105 180)" to be "hotpink" (color-named)
+~~~
+* {
+  box-sizing: border-box;
 }
 
-@media (width >= 70em) {
-  body {
-    font-size: 130%;
-  }
+html {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-  font-size: 1.5em;
+body {
+  margin: 0 10px;
+}
+
+hr {
+  margin: 3em 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Prev/next control layout */
+
+.controls {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Form and button styling */
+
+form div {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 1em;
+}
+
+label {
+  text-align: right;
+  flex: 1;
+}
+
+/* Solution: Add a form reset */
+
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  flex: 3;
+  /* Solution: Style the form inputs */
+  border: 2px solid #999999;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Solution: Style the buttons */
+
+button {
+  background-color: black;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 2em;
+}
+
+button:hover,
+button:focus {
+  background-color: #666666;
+}
+
+button:disabled {
+  background-color: #aaaaaa;
+}
+
+/* Table styling */
+
+table img {
+  width: 100%;
+  height: 150px;
+  /* Solution: Fixing the image display */
+  object-fit: cover;
+  object-position: bottom;
+}
+
+/* Solution: Style the table */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+}
+
+th,
+td {
+  vertical-align: top;
+  padding: 0.6em;
+}
+
+th {
+  border-bottom: 1px solid #999999;
+}
+
+tr {
+  width: 20%;
+}
+
+tr :nth-of-type(4) {
+  width: 40%;
+}
+
+/* Solution: Provide background colors for the "Raw color" cells */
+
+tr:nth-of-type(1) td:nth-of-type(2) {
+  background-color: rgb(255 192 203);
+}
+
+tr:nth-of-type(2) td:nth-of-type(2) {
+  background-color: rgb(255 145 175);
+}
+
+tr:nth-of-type(3) td:nth-of-type(2) {
+  background-color: rgb(255 105 180);
+}
+
+tr:nth-of-type(4) td:nth-of-type(2) {
+  background-color: rgb(255 0 255);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+
+caption {
+  padding: 1em;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "rgb(255 0 255)" to be "fuchsia" (color-named)',
+                            "  background-color: rgb(255 0 255);",
+                            "134:21 - 134:35",
+                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Home_color_scheme_search
+[color-named] Expected "rgb(255 0 255)" to be "fuchsia" (color-named)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0 10px;
+}
+
+hr {
+  margin: 3em 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Prev/next control layout */
+
+.controls {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Form and button styling */
+
+form div {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 1em;
+}
+
+label {
+  text-align: right;
+  flex: 1;
+}
+
+/* Solution: Add a form reset */
+
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  flex: 3;
+  /* Solution: Style the form inputs */
+  border: 2px solid #999999;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Solution: Style the buttons */
+
+button {
+  background-color: black;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 2em;
+}
+
+button:hover,
+button:focus {
+  background-color: #666666;
+}
+
+button:disabled {
+  background-color: #aaaaaa;
+}
+
+/* Table styling */
+
+table img {
+  width: 100%;
+  height: 150px;
+  /* Solution: Fixing the image display */
+  object-fit: cover;
+  object-position: bottom;
+}
+
+/* Solution: Style the table */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+}
+
+th,
+td {
+  vertical-align: top;
+  padding: 0.6em;
+}
+
+th {
+  border-bottom: 1px solid #999999;
+}
+
+tr {
+  width: 20%;
+}
+
+tr :nth-of-type(4) {
+  width: 40%;
+}
+
+/* Solution: Provide background colors for the "Raw color" cells */
+
+tr:nth-of-type(1) td:nth-of-type(2) {
+  background-color: rgb(255 192 203);
+}
+
+tr:nth-of-type(2) td:nth-of-type(2) {
+  background-color: rgb(255 145 175);
+}
+
+tr:nth-of-type(3) td:nth-of-type(2) {
+  background-color: rgb(255 105 180);
+}
+
+tr:nth-of-type(4) td:nth-of-type(2) {
+  background-color: rgb(255 0 255);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+
+caption {
+  padding: 1em;
+  font-style: italic;
+  letter-spacing: 1px;
 }
 ~~~
 `
@@ -6099,45 +6620,317 @@ h1 {
                           data: [
                             "font-family-name-quotes",
                             'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "    Arial,",
-                            "4:5 - 4:10",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
+                            "  font-family: Arial, Helvetica, sans-serif;",
+                            "6:16 - 6:21",
+                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Home_color_scheme_search
 [font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
 ~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-  font:
-    1em/150% Helvetica,
-    Arial,
-    sans-serif;
+  margin: 0 10px;
+}
+
+hr {
+  margin: 3em 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Prev/next control layout */
+
+.controls {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Form and button styling */
+
+form div {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 1em;
+}
+
+label {
+  text-align: right;
+  flex: 1;
+}
+
+/* Solution: Add a form reset */
+
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  flex: 3;
+  /* Solution: Style the form inputs */
+  border: 2px solid #999999;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Solution: Style the buttons */
+
+button {
+  background-color: black;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 2em;
+}
+
+button:hover,
+button:focus {
+  background-color: #666666;
+}
+
+button:disabled {
+  background-color: #aaaaaa;
+}
+
+/* Table styling */
+
+table img {
+  width: 100%;
+  height: 150px;
+  /* Solution: Fixing the image display */
+  object-fit: cover;
+  object-position: bottom;
+}
+
+/* Solution: Style the table */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+}
+
+th,
+td {
+  vertical-align: top;
+  padding: 0.6em;
+}
+
+th {
+  border-bottom: 1px solid #999999;
+}
+
+tr {
+  width: 20%;
+}
+
+tr :nth-of-type(4) {
+  width: 40%;
+}
+
+/* Solution: Provide background colors for the "Raw color" cells */
+
+tr:nth-of-type(1) td:nth-of-type(2) {
+  background-color: rgb(255 192 203);
+}
+
+tr:nth-of-type(2) td:nth-of-type(2) {
+  background-color: rgb(255 145 175);
+}
+
+tr:nth-of-type(3) td:nth-of-type(2) {
+  background-color: rgb(255 105 180);
+}
+
+tr:nth-of-type(4) td:nth-of-type(2) {
+  background-color: rgb(255 0 255);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+
+caption {
   padding: 1em;
-  margin: 0 auto;
-  max-width: 33em;
-}
-
-@media (width >= 70em) {
-  body {
-    font-size: 130%;
-  }
-}
-
-h1 {
-  font-size: 1.5em;
+  font-style: italic;
+  letter-spacing: 1px;
 }
 ~~~
 `
                           ]
-                        }
-                      ]
-                    },
-                    organizing: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
-                      messages: [
+                        },
                         {
-                          message: "Broken external link",
+                          message: "CSS code issue",
                           data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
+                            "font-family-name-quotes",
+                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                            "  font-family: Arial, Helvetica, sans-serif;",
+                            "6:23 - 6:32",
+                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Home_color_scheme_search
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0 10px;
+}
+
+hr {
+  margin: 3em 0;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Prev/next control layout */
+
+.controls {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Form and button styling */
+
+form div {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 1em;
+}
+
+label {
+  text-align: right;
+  flex: 1;
+}
+
+/* Solution: Add a form reset */
+
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  flex: 3;
+  /* Solution: Style the form inputs */
+  border: 2px solid #999999;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Solution: Style the buttons */
+
+button {
+  background-color: black;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 2em;
+}
+
+button:hover,
+button:focus {
+  background-color: #666666;
+}
+
+button:disabled {
+  background-color: #aaaaaa;
+}
+
+/* Table styling */
+
+table img {
+  width: 100%;
+  height: 150px;
+  /* Solution: Fixing the image display */
+  object-fit: cover;
+  object-position: bottom;
+}
+
+/* Solution: Style the table */
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+}
+
+th,
+td {
+  vertical-align: top;
+  padding: 0.6em;
+}
+
+th {
+  border-bottom: 1px solid #999999;
+}
+
+tr {
+  width: 20%;
+}
+
+tr :nth-of-type(4) {
+  width: 40%;
+}
+
+/* Solution: Provide background colors for the "Raw color" cells */
+
+tr:nth-of-type(1) td:nth-of-type(2) {
+  background-color: rgb(255 192 203);
+}
+
+tr:nth-of-type(2) td:nth-of-type(2) {
+  background-color: rgb(255 145 175);
+}
+
+tr:nth-of-type(3) td:nth-of-type(2) {
+  background-color: rgb(255 105 180);
+}
+
+tr:nth-of-type(4) td:nth-of-type(2) {
+  background-color: rgb(255 0 255);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+
+caption {
+  padding: 1em;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+~~~
+`
                           ]
                         }
                       ]
@@ -6282,7 +7075,16 @@ h2 {
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Learn_web_development/Core/Styling_basics",
+                  messages: [
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Learn_web_development/Core/Styling_basics/Home_color_scheme_search"
+                      ]
+                    }
+                  ]
                 }
               }
             },
@@ -6615,50 +7417,6 @@ button:active {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "client-side_tools": {
-                  children: {
-                    introducing_complete_toolchain: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/features.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/features.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    overview: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12213,40 +12971,6 @@ textarea:focus {
                           ]
                         }
                       ]
-                    },
-                    multimedia: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "server-side": {
-                  children: {
-                    express_nodejs: {
-                      children: {
-                        skeleton_website: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://sass-lang.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     }
                   }
                 },
@@ -12792,40 +13516,6 @@ body {
             },
             getting_started: {
               children: {
-                environment_setup: {
-                  children: {
-                    browsing_the_web: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Browsing_the_web",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://support.microsoft.com/en-us/topic/advanced-search-options-b92e25f1-0085-4271-bdf9-14aaea720930",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                soft_skills: {
-                  children: {
-                    workflows_and_processes: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 your_first_website: {
                   children: {
                     adding_interactivity: {
@@ -12833,10 +13523,10 @@ body {
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Adding_interactivity",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "Redirected external link",
                           data: [
-                            "https://codeload.github.com/mdn/beginner-html-site-styled/zip/refs/heads/gh-pages",
-                            404
+                            "https://github.com/mdn/beginner-html-site-styled/archive/refs/heads/main.zip",
+                            "https://codeload.github.com/mdn/beginner-html-site-styled/zip/refs/heads/main"
                           ]
                         }
                       ]
@@ -12863,13 +13553,6 @@ html {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://github.com/mdn/beginner-html-site-styled/blob/gh-pages/styles/style.css",
-                            404
                           ]
                         }
                       ]
@@ -13242,13 +13925,6 @@ color: rgb(31 41 59);
 color: rgb(31 41 59 / 26%);
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -15065,32 +15741,6 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
-                    "18": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/18",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/18.0beta/releasenotes/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
-                    "19": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/19",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://website-archive.mozilla.org/www.mozilla.org/firefox_releasenotes/en-us/firefox/19.0beta/releasenotes/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "22": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
@@ -15100,6 +15750,188 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://asmjs.org/spec/latest/",
                             ""
+                          ]
+                        }
+                      ]
+                    },
+                    "120": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/120",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=120",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "121": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/121",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=121",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "123": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/123",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=123",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "124": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/124",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=124",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "126": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/126",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=126",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "127": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/127",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=127",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "128": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/128",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=128",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "129": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/129",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=129",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "130": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/130",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=130",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "140": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/140",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=140",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "141": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/141",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=141",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "142": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/142",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=142",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "144": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/144",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=144",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "145": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/145",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=145",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -15511,26 +16343,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.pbs.org/video/university-place-the-photosensitive-epilepsy-analysis-tool-ep-429/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    seizure_disorders: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.pbs.org/video/university-place-the-photosensitive-epilepsy-analysis-tool-ep-429/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -15826,6 +16638,138 @@ api.MessagePort`,
   transition: margin-left 0.3s ease-in-out;
   background-color: green;
 }
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                commandevent: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/CommandEvent",
+                  messages: [
+                    {
+                      message: "Self link",
+                      data: [
+                        "/en-US/docs/Web/API/CommandEvent"
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "radix",
+                        "Missing radix parameter.",
+                        '  let rotate = parseInt(event.target.style.rotate || "0");',
+                        "4:16 - 4:58",
+                        `/en-US/docs/Web/API/CommandEvent
+[radix] Missing radix parameter.
+~~~
+const image = document.getElementById("the-image");
+
+image.addEventListener("command", (event) => {
+  let rotate = parseInt(event.target.style.rotate || "0");
+  if (event.command == "--reset") {
+    rotate = 0;
+    event.target.style.rotate = \`\${rotate}deg\`;
+  } else if (event.command === "--rotate-left") {
+    rotate === -270 ? (rotate = 0) : (rotate = rotate - 90);
+    event.target.style.rotate = \`\${rotate}deg\`;
+  } else if (event.command === "--rotate-right") {
+    rotate === 270 ? (rotate = 0) : (rotate = rotate + 90);
+    event.target.style.rotate = \`\${rotate}deg\`;
+  }
+  event.target.alt = \`dinosaur head rotated \${rotate} degrees\`;
+});
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "eqeqeq",
+                        "Expected '===' and instead saw '=='.",
+                        '  if (event.command == "--reset") {',
+                        "5:21 - 5:23",
+                        `/en-US/docs/Web/API/CommandEvent
+[eqeqeq] Expected '===' and instead saw '=='.
+~~~
+const image = document.getElementById("the-image");
+
+image.addEventListener("command", (event) => {
+  let rotate = parseInt(event.target.style.rotate || "0");
+  if (event.command == "--reset") {
+    rotate = 0;
+    event.target.style.rotate = \`\${rotate}deg\`;
+  } else if (event.command === "--rotate-left") {
+    rotate === -270 ? (rotate = 0) : (rotate = rotate - 90);
+    event.target.style.rotate = \`\${rotate}deg\`;
+  } else if (event.command === "--rotate-right") {
+    rotate === 270 ? (rotate = 0) : (rotate = rotate + 90);
+    event.target.style.rotate = \`\${rotate}deg\`;
+  }
+  event.target.alt = \`dinosaur head rotated \${rotate} degrees\`;
+});
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "operator-assignment",
+                        "Assignment (=) can be replaced with operator assignment (-=).",
+                        "    rotate === -270 ? (rotate = 0) : (rotate = rotate - 90);",
+                        "9:39 - 9:59",
+                        `/en-US/docs/Web/API/CommandEvent
+[operator-assignment] Assignment (=) can be replaced with operator assignment (-=).
+~~~
+const image = document.getElementById("the-image");
+
+image.addEventListener("command", (event) => {
+  let rotate = parseInt(event.target.style.rotate || "0");
+  if (event.command == "--reset") {
+    rotate = 0;
+    event.target.style.rotate = \`\${rotate}deg\`;
+  } else if (event.command === "--rotate-left") {
+    rotate === -270 ? (rotate = 0) : (rotate = rotate - 90);
+    event.target.style.rotate = \`\${rotate}deg\`;
+  } else if (event.command === "--rotate-right") {
+    rotate === 270 ? (rotate = 0) : (rotate = rotate + 90);
+    event.target.style.rotate = \`\${rotate}deg\`;
+  }
+  event.target.alt = \`dinosaur head rotated \${rotate} degrees\`;
+});
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "JS code issue",
+                      data: [
+                        "operator-assignment",
+                        "Assignment (=) can be replaced with operator assignment (+=).",
+                        "    rotate === 270 ? (rotate = 0) : (rotate = rotate + 90);",
+                        "12:38 - 12:58",
+                        `/en-US/docs/Web/API/CommandEvent
+[operator-assignment] Assignment (=) can be replaced with operator assignment (+=).
+~~~
+const image = document.getElementById("the-image");
+
+image.addEventListener("command", (event) => {
+  let rotate = parseInt(event.target.style.rotate || "0");
+  if (event.command == "--reset") {
+    rotate = 0;
+    event.target.style.rotate = \`\${rotate}deg\`;
+  } else if (event.command === "--rotate-left") {
+    rotate === -270 ? (rotate = 0) : (rotate = rotate - 90);
+    event.target.style.rotate = \`\${rotate}deg\`;
+  } else if (event.command === "--rotate-right") {
+    rotate === 270 ? (rotate = 0) : (rotate = rotate + 90);
+    event.target.style.rotate = \`\${rotate}deg\`;
+  }
+  event.target.alt = \`dinosaur head rotated \${rotate} degrees\`;
+});
 ~~~
 `
                       ]
@@ -16190,12 +17134,6 @@ li:nth-of-type(3n + 1) {
                   slug: "/en-US/docs/Web/API/CSSStyleProperties",
                   messages: [
                     {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/CSSStyleProperties"
-                      ]
-                    },
-                    {
                       message: "HTML code issue",
                       data: [
                         "no-style-attr",
@@ -16291,31 +17229,6 @@ li:nth-of-type(3n + 1) {
 <pre id="log"></pre>
 ~~~
 `
-                      ]
-                    }
-                  ]
-                },
-                cssstylerule: {
-                  children: {
-                    style: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSStyleRule/style",
-                      messages: [
-                        {
-                          message: "Self link",
-                          data: [
-                            "/en-US/docs/Web/API/CSSStyleRule/style"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/CSSStyleRule",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/CSSStyleRule"
                       ]
                     }
                   ]
@@ -16493,12 +17406,6 @@ api.DeviceOrientationEvent`,
                   slug: "/en-US/docs/Web/API/Document_Object_Model",
                   messages: [
                     {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/Document_Object_Model"
-                      ]
-                    },
-                    {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Document_Object_Model/Events"
@@ -16572,52 +17479,6 @@ api.DeviceOrientationEvent`,
                       ]
                     }
                   ]
-                },
-                domparser: {
-                  children: {
-                    parsefromstring: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/DOMParser/parseFromString",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "syntax",
-                            "Parsing error: Invalid character.",
-                            'console.log(doc\\32.contentType); // "text/html"',
-                            "13:16",
-                            `/en-US/docs/Web/API/DOMParser/parseFromString
-[syntax] Parsing error: Invalid character.
-~~~
-const parser = new DOMParser();
-
-const xmlString = "<warning>Beware of the tiger</warning>";
-const doc1 = parser.parseFromString(xmlString, "application/xml");
-console.log(doc1.contentType); // "application/xml"
-
-const svgString = '<circle cx="50" cy="50" r="50"/>';
-const doc2 = parser.parseFromString(svgString, "image/svg+xml");
-console.log(doc2.contentType); // "image/svg+xml"
-
-const htmlString = "<strong>Beware of the leopard</strong>";
-const doc3 = parser.parseFromString(htmlString, "text/html");
-console.log(doc\\32.contentType); // "text/html"
-
-console.log(doc1.documentElement.textContent);
-// "Beware of the tiger"
-
-console.log(doc2.firstChild.tagName);
-// "circle"
-
-console.log(doc3.body.firstChild.textContent);
-// "Beware of the leopard"
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 fetchevent: {
                   children: {
@@ -16762,6 +17623,136 @@ api.Document.fullscreen`,
                       ]
                     }
                   ]
+                },
+                htmlbuttonelement: {
+                  children: {
+                    command: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLButtonElement/command",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "radix",
+                            "Missing radix parameter.",
+                            '  let rotate = parseInt(event.target.style.rotate || "0");',
+                            "4:16 - 4:58",
+                            `/en-US/docs/Web/API/HTMLButtonElement/command
+[radix] Missing radix parameter.
+~~~
+const image = document.getElementById("the-image");
+
+image.addEventListener("command", (event) => {
+  let rotate = parseInt(event.target.style.rotate || "0");
+  if (event.command == "--reset") {
+    rotate = 0;
+    event.target.style.rotate = \`\${rotate}deg\`;
+  } else if (event.command === "--rotate-left") {
+    rotate === -270 ? (rotate = 0) : (rotate = rotate - 90);
+    event.target.style.rotate = \`\${rotate}deg\`;
+  } else if (event.command === "--rotate-right") {
+    rotate === 270 ? (rotate = 0) : (rotate = rotate + 90);
+    event.target.style.rotate = \`\${rotate}deg\`;
+  }
+  event.target.alt = \`dinosaur head rotated \${rotate} degrees\`;
+});
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "eqeqeq",
+                            "Expected '===' and instead saw '=='.",
+                            '  if (event.command == "--reset") {',
+                            "5:21 - 5:23",
+                            `/en-US/docs/Web/API/HTMLButtonElement/command
+[eqeqeq] Expected '===' and instead saw '=='.
+~~~
+const image = document.getElementById("the-image");
+
+image.addEventListener("command", (event) => {
+  let rotate = parseInt(event.target.style.rotate || "0");
+  if (event.command == "--reset") {
+    rotate = 0;
+    event.target.style.rotate = \`\${rotate}deg\`;
+  } else if (event.command === "--rotate-left") {
+    rotate === -270 ? (rotate = 0) : (rotate = rotate - 90);
+    event.target.style.rotate = \`\${rotate}deg\`;
+  } else if (event.command === "--rotate-right") {
+    rotate === 270 ? (rotate = 0) : (rotate = rotate + 90);
+    event.target.style.rotate = \`\${rotate}deg\`;
+  }
+  event.target.alt = \`dinosaur head rotated \${rotate} degrees\`;
+});
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "operator-assignment",
+                            "Assignment (=) can be replaced with operator assignment (-=).",
+                            "    rotate === -270 ? (rotate = 0) : (rotate = rotate - 90);",
+                            "9:39 - 9:59",
+                            `/en-US/docs/Web/API/HTMLButtonElement/command
+[operator-assignment] Assignment (=) can be replaced with operator assignment (-=).
+~~~
+const image = document.getElementById("the-image");
+
+image.addEventListener("command", (event) => {
+  let rotate = parseInt(event.target.style.rotate || "0");
+  if (event.command == "--reset") {
+    rotate = 0;
+    event.target.style.rotate = \`\${rotate}deg\`;
+  } else if (event.command === "--rotate-left") {
+    rotate === -270 ? (rotate = 0) : (rotate = rotate - 90);
+    event.target.style.rotate = \`\${rotate}deg\`;
+  } else if (event.command === "--rotate-right") {
+    rotate === 270 ? (rotate = 0) : (rotate = rotate + 90);
+    event.target.style.rotate = \`\${rotate}deg\`;
+  }
+  event.target.alt = \`dinosaur head rotated \${rotate} degrees\`;
+});
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "operator-assignment",
+                            "Assignment (=) can be replaced with operator assignment (+=).",
+                            "    rotate === 270 ? (rotate = 0) : (rotate = rotate + 90);",
+                            "12:38 - 12:58",
+                            `/en-US/docs/Web/API/HTMLButtonElement/command
+[operator-assignment] Assignment (=) can be replaced with operator assignment (+=).
+~~~
+const image = document.getElementById("the-image");
+
+image.addEventListener("command", (event) => {
+  let rotate = parseInt(event.target.style.rotate || "0");
+  if (event.command == "--reset") {
+    rotate = 0;
+    event.target.style.rotate = \`\${rotate}deg\`;
+  } else if (event.command === "--rotate-left") {
+    rotate === -270 ? (rotate = 0) : (rotate = rotate - 90);
+    event.target.style.rotate = \`\${rotate}deg\`;
+  } else if (event.command === "--rotate-right") {
+    rotate === 270 ? (rotate = 0) : (rotate = rotate + 90);
+    event.target.style.rotate = \`\${rotate}deg\`;
+  }
+  event.target.alt = \`dinosaur head rotated \${rotate} degrees\`;
+});
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 htmlimageelement: {
                   children: {
@@ -16911,6 +17902,18 @@ output {
 <div id="output"></div>
 ~~~
 `
+                      ]
+                    }
+                  ]
+                },
+                htmlmetaelement: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/HTMLMetaElement",
+                  messages: [
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Reference/Elements/meta/name/viewport"
                       ]
                     }
                   ]
@@ -19013,21 +20016,7 @@ api.Window.sessionStorage`,
                   }
                 },
                 web_workers_api: {
-                  children: {
-                    using_web_workers: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Web_Workers_API/Using_web_workers",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/features.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/Web_Workers_API",
                   messages: [
                     {
@@ -19122,7 +20111,7 @@ api.Window.sessionStorage`,
                     {
                       message: "Broken external link",
                       data: [
-                        "https://dotnet.microsoft.com/en-us/apps/aspnet/signalr",
+                        "https://www.asyncapi.com/blog/websocket-part1",
                         "The operation timed out."
                       ]
                     }
@@ -19246,23 +20235,6 @@ api.Window.sessionStorage`,
                           message: "Not in BCD",
                           data: [
                             "api.WorkerNavigator.setAppBadge"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                worker: {
-                  children: {
-                    worker: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Worker/Worker",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/features.html",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -23169,6 +24141,20 @@ color(from hsl(0 100% 50%) xyz calc(x - 0.3) calc(y + 0.3) calc(z + 0.3) / calc(
 /* Computed output color: color(xyz-d65 0.112426 0.512648 0.319317 / 0.9) */
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    "color-mix": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/color_value/color-mix",
+                      messages: [
+                        {
+                          message: "Text stuck to code/link",
+                          data: [
+                            "<polar-color-space>",
+                            "Text before code:",
+                            "The"
                           ]
                         }
                       ]
@@ -46229,8 +47215,56 @@ div {
                           ]
                         }
                       ]
+                    },
+                    "using_object-view-box": {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_images/Using_object-view-box",
+                      messages: [
+                        {
+                          message: "Bad href",
+                          data: [
+                            "Web/HTML/Reference/Elements/input/range"
+                          ]
+                        },
+                        {
+                          message: "Unreachable via sidebar",
+                          data: []
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "syntax",
+                            'Unexpected closing tag "p". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
+                            "  <output>",
+                            "7:0 - 7:4",
+                            `/en-US/docs/Web/CSS/CSS_images/Using_object-view-box
+[syntax] Unexpected closing tag "p". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
+~~~
+<img
+  src="https://mdn.github.io/shared-assets/images/examples/leopard.jpg"
+  alt="leopard" />
+<p>
+  <label for="position">Left offset: </label>
+  <input type="range" id="position" min="0" max="900" value="450" />
+  <output>
+</p>
+~~~
+`
+                          ]
+                        }
+                      ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/CSS/CSS_images",
+                  messages: [
+                    {
+                      message: "Broken anchor",
+                      data: [
+                        "/en-US/docs/Web/CSS/basic-shape",
+                        "#basic-shape-rect"
+                      ]
+                    }
+                  ]
                 },
                 css_inline_layout: {
                   children: {
@@ -47055,40 +48089,6 @@ blockquote p::after {
                     }
                   ]
                 },
-                css_nesting: {
-                  children: {
-                    using_css_nesting: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://sass-lang.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/CSS/CSS_nesting",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://sass-lang.com/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 css_overflow: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/CSS_overflow",
@@ -47191,107 +48191,6 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                       ]
                     }
                   ]
-                },
-                css_positioned_layout: {
-                  children: {
-                    stacking_context: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "    12px/20px Arial,",
-                            "7:15 - 7:20",
-                            `/en-US/docs/Web/CSS/CSS_positioned_layout/Stacking_context
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  margin: 0;
-}
-html {
-  padding: 20px;
-  font:
-    12px/20px Arial,
-    sans-serif;
-}
-h1 {
-  font-size: 1.25em;
-}
-#container1,
-#container2 {
-  border: 1px dashed #669966;
-  padding: 10px;
-  background-color: #ccffcc;
-}
-#container1 {
-  margin-bottom: 190px;
-}
-#container3 {
-  border: 1px dashed #990000;
-  background-color: #ffdddd;
-  padding: 40px 20px 20px;
-  width: 330px;
-}
-#container4 {
-  border: 1px dashed #999966;
-  background-color: #ffffcc;
-  padding: 25px 10px 5px;
-  margin-bottom: 15px;
-}
-#container5 {
-  border: 1px dashed #999966;
-  background-color: #ffffcc;
-  margin-top: 15px;
-  padding: 5px 10px;
-}
-#container6 {
-  background-color: #ddddff;
-  border: 1px dashed #000099;
-  padding-left: 20px;
-  padding-top: 125px;
-  width: 150px;
-  height: 125px;
-}
-
-section,
-article {
-  opacity: 0.85;
-  position: relative;
-}
-#container1 {
-  z-index: 5;
-}
-#container2 {
-  z-index: 2;
-}
-#container3 {
-  z-index: 4;
-  position: absolute;
-  top: 40px;
-  left: 180px;
-}
-#container4 {
-  z-index: 6;
-}
-#container5 {
-  z-index: 1;
-}
-#container6 {
-  z-index: 3;
-  position: absolute;
-  top: 20px;
-  left: 180px;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 css_properties_and_values_api: {
                   children: {
@@ -57010,6 +57909,55 @@ body {
                     }
                   ]
                 },
+                "object-view-box": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/object-view-box",
+                  messages: [
+                    {
+                      message: "Broken anchor",
+                      data: [
+                        "/en-US/docs/Web/CSS/basic-shape",
+                        "#basic-shape-rect"
+                      ]
+                    },
+                    {
+                      message: "Bad href",
+                      data: [
+                        "Web/HTML/Reference/Elements/input/range"
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-hex-length",
+                        'Expected "#888" to be "#888888" (color-hex-length)',
+                        "  border: 2px dotted #888;",
+                        "4:22 - 4:26",
+                        `/en-US/docs/Web/CSS/object-view-box
+[color-hex-length] Expected "#888" to be "#888888" (color-hex-length)
+~~~
+#example-element {
+  height: 100%;
+  width: 100%;
+  border: 2px dotted #888;
+}
+
+@supports not (object-view-box: none) {
+  body::before {
+    content: "Your browser does not support the 'object-view-box' property.";
+    color: black;
+    background-color: #ffcd33;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 "offset-position": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/offset-position",
@@ -61261,6 +62209,40 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
+                        button: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
+                          messages: [
+                            {
+                              message: "JS code issue",
+                              data: [
+                                "no-useless-return",
+                                "Unnecessary return statement.",
+                                "    return;",
+                                "12:5 - 12:12",
+                                `/en-US/docs/Web/HTML/Reference/Elements/button
+[no-useless-return] Unnecessary return statement.
+~~~
+const dialog = document.querySelector("dialog");
+const radio = document.querySelector("form").elements["close"];
+const warning = document.querySelector(".warning");
+
+dialog.addEventListener("cancel", (e) => {
+  if (!e.cancelable) return;
+  if (radio.value === "no") {
+    warning.hidden = false;
+    e.preventDefault();
+  } else {
+    warning.hidden = true;
+    return;
+  }
+});
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         dialog: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/dialog",
@@ -62187,13 +63169,6 @@ http.headers.Use-As-Dictionary`,
                     {
                       message: "Unreachable via page",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://wiki.owasp.org/index.php/Secure_Coding_Principles",
-                        500
-                      ]
                     }
                   ]
                 },
