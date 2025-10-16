@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-5f45twz2.js";
+} from "./chunk-5020p1y0.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -411,6 +411,26 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            gpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/GPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-faq.html",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/gpl-3.0.html",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -890,6 +910,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -2213,6 +2246,32 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    },
+                    introduction: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://v2.vuejs.org/v2/guide/comparison.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    react_resources: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2020/01/introduction-react-context-api/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
                         }
                       ]
                     },
@@ -5371,34 +5430,7 @@ button {
                   }
                 },
                 structuring_content: {
-                  children: {
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    html_video_and_audio: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_video_and_audio",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vimeo.com/",
-                            403
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Learn_web_development/Core/Structuring_content",
                   messages: [
                     {
@@ -7417,6 +7449,43 @@ button:active {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "client-side_tools": {
+                  children: {
+                    introducing_complete_toolchain: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://preset-env.cssdb.org/features/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    overview: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://stylelint.io/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12900,6 +12969,13 @@ button:active {
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -12927,24 +13003,24 @@ textarea:focus {
                           ]
                         }
                       ]
+                    },
+                    your_first_form: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Forms/Your_first_form",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2011/11/extensive-guide-web-form-usability/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
                 performance: {
                   children: {
-                    best_practices: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Best_practices",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     css: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/CSS",
@@ -13739,33 +13815,6 @@ html {
                 },
                 tools_and_setup: {
                   children: {
-                    available_text_editors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -13776,14 +13825,14 @@ html {
                         }
                       ]
                     },
-                    what_software_do_i_need: {
+                    what_are_browser_developer_tools: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.gnu.org/software/emacs/",
+                            "https://webkit.org/web-inspector/elements-tab/",
                             "The operation timed out."
                           ]
                         }
@@ -14090,20 +14139,6 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "HTTP link",
-                                      data: [
-                                        "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      message: "HTTP link",
-                                      data: [
-                                        "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
-                                      ]
                                     }
                                   ]
                                 },
@@ -14124,34 +14159,10 @@ color: rgb(31 41 59 / 26%);
                                     {
                                       message: "Unreachable via sidebar",
                                       data: []
-                                    },
-                                    {
-                                      message: "HTTP link",
-                                      data: [
-                                        "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
-                                      ]
-                                    },
-                                    {
-                                      message: "HTTP link",
-                                      data: [
-                                        "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
-                                      ]
                                     }
                                   ]
                                 }
-                              },
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
-                              messages: [
-                                {
-                                  message: "HTTP link",
-                                  data: [
-                                    "http://www.softwareishard.com/blog/har-12-spec/",
-                                    ""
-                                  ]
-                                }
-                              ]
+                              }
                             },
                             panels: {
                               children: {
@@ -15754,188 +15765,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "120": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/120",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=120",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "121": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/121",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=121",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "123": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/123",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=123",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "124": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/124",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=124",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "126": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/126",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=126",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "127": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/127",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=127",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "128": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/128",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=128",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "129": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/129",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=129",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "130": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/130",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=130",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "140": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/140",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=140",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "141": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/141",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=141",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "142": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/142",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=142",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "144": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/144",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=144",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "145": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/145",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=145",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "1.5": {
                       children: {
                         changing_the_priority_of_http_requests: {
@@ -16085,6 +15914,13 @@ webextensions.manifest.options_ui`,
             {
               message: "Unreachable via page",
               data: []
+            },
+            {
+              message: "Redirected external link",
+              data: [
+                "https://www.thunderbird.net/download/?utm_source=developer.mozilla.org&utm_medium=referral&utm_campaign=mdn-mozilla-products",
+                "https://www.thunderbird.net/en-US/download/?utm_source=developer.mozilla.org&utm_medium=referral&utm_campaign=mdn-mozilla-products"
+              ]
             }
           ]
         },
@@ -17129,6 +16965,101 @@ li:nth-of-type(3n + 1) {
                     }
                   }
                 },
+                cssfunctiondeclarations: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/CSSFunctionDeclarations",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-no-unknown",
+                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                        "@function --lighter(--color <color>, --lightness-adjust <number>: 0.2) returns",
+                        "1:1 - 1:10",
+                        `/en-US/docs/Web/API/CSSFunctionDeclarations
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --lighter(--color <color>, --lightness-adjust <number>: 0.2) returns
+  <color> {
+  --someVar: 100;
+  result: oklch(from var(--color) calc(l + var(--lightness-adjust)) c h);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-no-unknown",
+                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                        "@function --bar() {",
+                        "1:1 - 1:10",
+                        `/en-US/docs/Web/API/CSSFunctionDeclarations
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --bar() {
+  --x: 42;
+  result: var(--y);
+  @media (width > 1000px) {
+    /* ... */
+  }
+  --y: var(--x);
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                cssfunctiondescriptors: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/CSSFunctionDescriptors",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-no-unknown",
+                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                        "@function --lighter(--color <color>, --lightness-adjust <number>: 0.2) returns",
+                        "1:1 - 1:10",
+                        `/en-US/docs/Web/API/CSSFunctionDescriptors
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --lighter(--color <color>, --lightness-adjust <number>: 0.2) returns
+  <color> {
+  result: oklch(from var(--color) calc(l + var(--lightness-adjust)) c h);
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                cssfunctionrule: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/CSSFunctionRule",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-no-unknown",
+                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                        "@function --lighter(--color <color>, --lightness-adjust <number>: 0.2) returns",
+                        "1:1 - 1:10",
+                        `/en-US/docs/Web/API/CSSFunctionRule
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --lighter(--color <color>, --lightness-adjust <number>: 0.2) returns
+  <color> {
+  result: oklch(from var(--color) calc(l + var(--lightness-adjust)) c h);
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 cssstyleproperties: {
                   children: {},
                   slug: "/en-US/docs/Web/API/CSSStyleProperties",
@@ -17585,6 +17516,19 @@ api.Document.fullscreen`,
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/History_API/Working_with_the_History_API"
+                      ]
+                    }
+                  ]
+                },
+                houdini_apis: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Houdini_APIs",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.smashingmagazine.com/2020/03/practical-overview-css-houdini/",
+                        "unknown certificate verification error"
                       ]
                     }
                   ]
@@ -18888,6 +18832,22 @@ aside {
                     }
                   }
                 },
+                mediatrackconstraints: {
+                  children: {
+                    restrictownaudio: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaTrackConstraints/restrictOwnAudio",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.MediaStreamTrack.applyConstraints.restrictOwnAudio_constraint"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 mediatracksettings: {
                   children: {
                     cursor: {
@@ -18898,6 +18858,34 @@ aside {
                           message: "Not in BCD",
                           data: [
                             "api.MediaStreamTrack.applyConstraints.cursor_constraint"
+                          ]
+                        }
+                      ]
+                    },
+                    restrictownaudio: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaTrackSettings/restrictOwnAudio",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.MediaStreamTrack.applyConstraints.restrictOwnAudio_constraint"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                mediatracksupportedconstraints: {
+                  children: {
+                    restrictownaudio: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaTrackSupportedConstraints/restrictOwnAudio",
+                      messages: [
+                        {
+                          message: "Not in BCD",
+                          data: [
+                            "api.MediaStreamTrack.applyConstraints.restrictOwnAudio_constraint"
                           ]
                         }
                       ]
@@ -19933,13 +19921,6 @@ env(viewport-segment-width 0 1)
                         {
                           message: "Broken external link",
                           data: [
-                            "https://dspguru.com/dsp/faqs/iir/basics/",
-                            'ERR_TLS_CERT_ALTNAME_INVALID fetching "https://dspguru.com/dsp/faqs/iir/basics/". For more information, pass `verbose: true` in the second argument to fetch()'
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://www.mathworks.com/help/dsphdl/ref/biquadfilter.html",
                             403
                           ]
@@ -20103,19 +20084,6 @@ api.Window.sessionStorage`,
                       ]
                     }
                   }
-                },
-                websockets_api: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/WebSockets_API",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.asyncapi.com/blog/websocket-part1",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 webvtt_api: {
                   children: {
@@ -21923,6 +21891,378 @@ p:last-of-type {
                     }
                   }
                 },
+                "@function": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/@function",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-no-unknown",
+                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                        "@function --transparent(--color, --alpha) {",
+                        "1:1 - 1:10",
+                        `/en-US/docs/Web/CSS/@function
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --transparent(--color, --alpha) {
+  result: oklch(from var(--color) l c h / var(--alpha));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-no-unknown",
+                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                        "@function --transparent(--color <color>, --alpha <number>) returns <color> {",
+                        "1:1 - 1:10",
+                        `/en-US/docs/Web/CSS/@function
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --transparent(--color <color>, --alpha <number>) returns <color> {
+  result: oklch(from var(--color) l c h / var(--alpha));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-no-unknown",
+                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                        "@function --transparent(--color <color>, --alpha type(<number> | <percentage>))",
+                        "1:1 - 1:10",
+                        `/en-US/docs/Web/CSS/@function
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --transparent(--color <color>, --alpha type(<number> | <percentage>))
+  returns <color> {
+  result: oklch(from var(--color) l c h / var(--alpha));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-no-unknown",
+                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                        "@function --transparent(--color <color>, --alpha <number>: 0.8) returns <color> {",
+                        "1:1 - 1:10",
+                        `/en-US/docs/Web/CSS/@function
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --transparent(--color <color>, --alpha <number>: 0.8) returns <color> {
+  result: oklch(from var(--color) l c h / var(--alpha));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-no-unknown",
+                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                        "@function --max-plus-x(--list <length>#, --x <length>) {",
+                        "1:1 - 1:10",
+                        `/en-US/docs/Web/CSS/@function
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --max-plus-x(--list <length>#, --x <length>) {
+  result: calc(max(var(--list)) + var(--x));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-no-unknown",
+                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                        "@function --anim-1s(--animation, --count) {",
+                        "1:1 - 1:10",
+                        `/en-US/docs/Web/CSS/@function
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --anim-1s(--animation, --count) {
+  --duration: 1s;
+  --easing: linear;
+  result: var(--animation) var(--duration) var(--count) var(--easing);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "--anim-1s(bounce, 2)" for property "animation" (declaration-property-value-no-unknown)',
+                        "animation: --anim-1s(bounce, 2);",
+                        "1:12 - 1:32",
+                        `/en-US/docs/Web/CSS/@function
+[declaration-property-value-no-unknown] Unexpected unknown value "--anim-1s(bounce, 2)" for property "animation" (declaration-property-value-no-unknown)
+~~~
+animation: --anim-1s(bounce, 2);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-no-unknown",
+                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                        "@function --outer(--outer-arg) {",
+                        "1:1 - 1:10",
+                        `/en-US/docs/Web/CSS/@function
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --outer(--outer-arg) {
+  --outer-local: 2;
+  result: --inner();
+}
+
+@function --inner() returns <number> {
+  result: calc(var(--outer-arg) + var(--outer-local));
+}
+
+div {
+  z-index: --outer(1); /* 3 */
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-no-unknown",
+                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                        "@function --inner() returns <number> {",
+                        "6:1 - 6:10",
+                        `/en-US/docs/Web/CSS/@function
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --outer(--outer-arg) {
+  --outer-local: 2;
+  result: --inner();
+}
+
+@function --inner() returns <number> {
+  result: calc(var(--outer-arg) + var(--outer-local));
+}
+
+div {
+  z-index: --outer(1); /* 3 */
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "--outer(1)" for property "z-index" (declaration-property-value-no-unknown)',
+                        "  z-index: --outer(1); /* 3 */",
+                        "11:12 - 11:22",
+                        `/en-US/docs/Web/CSS/@function
+[declaration-property-value-no-unknown] Unexpected unknown value "--outer(1)" for property "z-index" (declaration-property-value-no-unknown)
+~~~
+@function --outer(--outer-arg) {
+  --outer-local: 2;
+  result: --inner();
+}
+
+@function --inner() returns <number> {
+  result: calc(var(--outer-arg) + var(--outer-local));
+}
+
+div {
+  z-index: --outer(1); /* 3 */
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-no-unknown",
+                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                        "@function --double-z() returns <number> {",
+                        "1:1 - 1:10",
+                        `/en-US/docs/Web/CSS/@function
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --double-z() returns <number> {
+  result: calc(var(--z) * 2);
+}
+
+div {
+  --z: 3;
+  z-index: --double-z(); /* 6 */
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "--double-z()" for property "z-index" (declaration-property-value-no-unknown)',
+                        "  z-index: --double-z(); /* 6 */",
+                        "7:12 - 7:24",
+                        `/en-US/docs/Web/CSS/@function
+[declaration-property-value-no-unknown] Unexpected unknown value "--double-z()" for property "z-index" (declaration-property-value-no-unknown)
+~~~
+@function --double-z() returns <number> {
+  result: calc(var(--z) * 2);
+}
+
+div {
+  --z: 3;
+  z-index: --double-z(); /* 6 */
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-no-unknown",
+                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                        "@function --add-a-b-c(--b, --c) {",
+                        "1:1 - 1:10",
+                        `/en-US/docs/Web/CSS/@function
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --add-a-b-c(--b, --c) {
+  --c: 300;
+  result: calc(var(--a) + var(--b) + var(--c));
+}
+
+div {
+  --a: 1;
+  --b: 2;
+  --c: 3;
+  z-index: --add-a-b-c(20, 30); /* 321 */
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "--add-a-b-c(20, 30)" for property "z-index" (declaration-property-value-no-unknown)',
+                        "  z-index: --add-a-b-c(20, 30); /* 321 */",
+                        "10:12 - 10:31",
+                        `/en-US/docs/Web/CSS/@function
+[declaration-property-value-no-unknown] Unexpected unknown value "--add-a-b-c(20, 30)" for property "z-index" (declaration-property-value-no-unknown)
+~~~
+@function --add-a-b-c(--b, --c) {
+  --c: 300;
+  result: calc(var(--a) + var(--b) + var(--c));
+}
+
+div {
+  --a: 1;
+  --b: 2;
+  --c: 3;
+  z-index: --add-a-b-c(20, 30); /* 321 */
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-no-unknown",
+                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                        "@function --narrow-wide(--narrow, --wide) {",
+                        "1:1 - 1:10",
+                        `/en-US/docs/Web/CSS/@function
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --narrow-wide(--narrow, --wide) {
+  result: var(--wide);
+  @media (width < 700px) {
+    result: var(--narrow);
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-no-unknown",
+                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                        "@function --narrow-wide(--narrow, --wide) {",
+                        "1:1 - 1:10",
+                        `/en-US/docs/Web/CSS/@function
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --narrow-wide(--narrow, --wide) {
+  result: if(media(width < 700px): var(--narrow) ; else: var(--wide));
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-no-unknown",
+                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                        "@function --double(--value) {",
+                        "1:1 - 1:10",
+                        `/en-US/docs/Web/CSS/@function
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --double(--value) {
+  result: calc(var(--value) * 2);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  font-family: system-ui;
+}
+
+p {
+  --base-spacing: 10px;
+  border-radius: var(--base-spacing);
+  padding: --double(var(--base-spacing));
+  width: 50%;
+  background-color: wheat;
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 "@media": {
                   children: {
                     "-moz-device-pixel-ratio": {
@@ -22713,52 +23053,6 @@ body {
 [CssSyntaxError] Unknown word attr (CssSyntaxError)
 ~~~
 attr(data-name raw-string, "stranger")
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "CssSyntaxError",
-                        "Unknown word attr (CssSyntaxError)",
-                        "attr(id type(<custom-ident>), none)",
-                        "1:1 - 1:5",
-                        `/en-US/docs/Web/CSS/attr
-[CssSyntaxError] Unknown word attr (CssSyntaxError)
-~~~
-attr(id type(<custom-ident>), none)
-attr(data-count type(<number>), 0)
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "CssSyntaxError",
-                        "Unknown word attr (CssSyntaxError)",
-                        "attr(data-size type(<length> | <percentage>), 0px)",
-                        "1:1 - 1:5",
-                        `/en-US/docs/Web/CSS/attr
-[CssSyntaxError] Unknown word attr (CssSyntaxError)
-~~~
-attr(data-size type(<length> | <percentage>), 0px)
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "CssSyntaxError",
-                        "Unknown word attr (CssSyntaxError)",
-                        "attr(data-content type(*))",
-                        "1:1 - 1:5",
-                        `/en-US/docs/Web/CSS/attr
-[CssSyntaxError] Unknown word attr (CssSyntaxError)
-~~~
-attr(data-content type(*))
 ~~~
 `
                       ]
@@ -38095,6 +38389,532 @@ rgb(from red r g b / alpha)
                     }
                   }
                 },
+                css_custom_functions_and_mixins: {
+                  children: {
+                    using_custom_functions: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions",
+                      messages: [
+                        {
+                          message: "Unreachable via sidebar",
+                          data: []
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-no-unknown",
+                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                            "@function --half-opacity() {",
+                            "1:1 - 1:10",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --half-opacity() {
+  result: 0.5;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "--half-opacity()" for property "opacity" (declaration-property-value-no-unknown)',
+                            "  opacity: --half-opacity();",
+                            "2:12 - 2:28",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[declaration-property-value-no-unknown] Unexpected unknown value "--half-opacity()" for property "opacity" (declaration-property-value-no-unknown)
+~~~
+h2 {
+  opacity: --half-opacity();
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-no-unknown",
+                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                            "@function --supports() {",
+                            "1:1 - 1:10",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --supports() {
+  result: none;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "--supports()" for property "display" (declaration-property-value-no-unknown)',
+                            "  display: --supports();",
+                            "3:12 - 3:24",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[declaration-property-value-no-unknown] Unexpected unknown value "--supports()" for property "display" (declaration-property-value-no-unknown)
+~~~
+.support {
+  /* ... */
+  display: --supports();
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-no-unknown",
+                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                            "@function --transparent(--color, --alpha) {",
+                            "1:1 - 1:10",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --transparent(--color, --alpha) {
+  result: oklch(from var(--color) l c h / var(--alpha));
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-no-unknown",
+                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                            "@function --transparent(--color type(<color>), --alpha type(<number>)) returns",
+                            "1:1 - 1:10",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --transparent(--color type(<color>), --alpha type(<number>)) returns
+  type(<color>) {
+  result: oklch(from var(--color) l c h / var(--alpha));
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-no-unknown",
+                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                            "@function --transparent(--color <color>, --alpha <number>) returns <color> {",
+                            "1:1 - 1:10",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --transparent(--color <color>, --alpha <number>) returns <color> {
+  result: oklch(from var(--color) l c h / var(--alpha));
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-no-unknown",
+                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                            "@function --transparent(--color <color>, --alpha type(<number> | <percentage>))",
+                            "1:1 - 1:10",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --transparent(--color <color>, --alpha type(<number> | <percentage>))
+  returns <color> {
+  result: oklch(from var(--color) l c h / var(--alpha));
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-no-unknown",
+                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                            "@function --transparent(--color <color>, --alpha <number>: 0.8) returns <color> {",
+                            "1:1 - 1:10",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --transparent(--color <color>, --alpha <number>: 0.8) returns <color> {
+  result: oklch(from var(--color) l c h / var(--alpha));
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-no-unknown",
+                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                            "@function --transparent(--color <color>, --alpha <number>: 0.8) returns <color> {",
+                            "1:1 - 1:10",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --transparent(--color <color>, --alpha <number>: 0.8) returns <color> {
+  result: oklch(from var(--color) l c h / var(--alpha));
+}
+
+@function --lighter(--color <color>, --lightness-adjust <number>: 0.2) returns
+  <color> {
+  result: oklch(from var(--color) calc(l + var(--lightness-adjust)) c h);
+}
+
+@function --darker(--color <color>, --lightness-adjust <number>: 0.2) returns
+  <color> {
+  result: oklch(from var(--color) calc(l - var(--lightness-adjust)) c h);
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-no-unknown",
+                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                            "@function --lighter(--color <color>, --lightness-adjust <number>: 0.2) returns",
+                            "5:1 - 5:10",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --transparent(--color <color>, --alpha <number>: 0.8) returns <color> {
+  result: oklch(from var(--color) l c h / var(--alpha));
+}
+
+@function --lighter(--color <color>, --lightness-adjust <number>: 0.2) returns
+  <color> {
+  result: oklch(from var(--color) calc(l + var(--lightness-adjust)) c h);
+}
+
+@function --darker(--color <color>, --lightness-adjust <number>: 0.2) returns
+  <color> {
+  result: oklch(from var(--color) calc(l - var(--lightness-adjust)) c h);
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-no-unknown",
+                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                            "@function --darker(--color <color>, --lightness-adjust <number>: 0.2) returns",
+                            "10:1 - 10:10",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --transparent(--color <color>, --alpha <number>: 0.8) returns <color> {
+  result: oklch(from var(--color) l c h / var(--alpha));
+}
+
+@function --lighter(--color <color>, --lightness-adjust <number>: 0.2) returns
+  <color> {
+  result: oklch(from var(--color) calc(l + var(--lightness-adjust)) c h);
+}
+
+@function --darker(--color <color>, --lightness-adjust <number>: 0.2) returns
+  <color> {
+  result: oklch(from var(--color) calc(l - var(--lightness-adjust)) c h);
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-no-unknown",
+                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                            "@function --narrow-wide(--narrow, --wide) {",
+                            "1:1 - 1:10",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --narrow-wide(--narrow, --wide) {
+  result: var(--wide);
+  @media (width < 700px) {
+    result: var(--narrow);
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "repeat(--narrow-wide(1, 3), 1fr)" for property "grid-template-columns" (declaration-property-value-no-unknown)',
+                            "  grid-template-columns: repeat(--narrow-wide(1, 3), 1fr);",
+                            "3:26 - 3:58",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[declaration-property-value-no-unknown] Unexpected unknown value "repeat(--narrow-wide(1, 3), 1fr)" for property "grid-template-columns" (declaration-property-value-no-unknown)
+~~~
+body {
+  display: grid;
+  grid-template-columns: repeat(--narrow-wide(1, 3), 1fr);
+  gap: --narrow-wide(0, 20px);
+  padding: 0 20px;
+}
+
+h2 {
+  font-size: --narrow-wide(2.5rem, 2rem);
+}
+
+p {
+  font-size: --narrow-wide(1.4rem, 1rem);
+  line-height: 1.5;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "--narrow-wide(0, 20px)" for property "gap" (declaration-property-value-no-unknown)',
+                            "  gap: --narrow-wide(0, 20px);",
+                            "4:8 - 4:30",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[declaration-property-value-no-unknown] Unexpected unknown value "--narrow-wide(0, 20px)" for property "gap" (declaration-property-value-no-unknown)
+~~~
+body {
+  display: grid;
+  grid-template-columns: repeat(--narrow-wide(1, 3), 1fr);
+  gap: --narrow-wide(0, 20px);
+  padding: 0 20px;
+}
+
+h2 {
+  font-size: --narrow-wide(2.5rem, 2rem);
+}
+
+p {
+  font-size: --narrow-wide(1.4rem, 1rem);
+  line-height: 1.5;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "--narrow-wide(2.5rem, 2rem)" for property "font-size" (declaration-property-value-no-unknown)',
+                            "  font-size: --narrow-wide(2.5rem, 2rem);",
+                            "9:14 - 9:41",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[declaration-property-value-no-unknown] Unexpected unknown value "--narrow-wide(2.5rem, 2rem)" for property "font-size" (declaration-property-value-no-unknown)
+~~~
+body {
+  display: grid;
+  grid-template-columns: repeat(--narrow-wide(1, 3), 1fr);
+  gap: --narrow-wide(0, 20px);
+  padding: 0 20px;
+}
+
+h2 {
+  font-size: --narrow-wide(2.5rem, 2rem);
+}
+
+p {
+  font-size: --narrow-wide(1.4rem, 1rem);
+  line-height: 1.5;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "--narrow-wide(1.4rem, 1rem)" for property "font-size" (declaration-property-value-no-unknown)',
+                            "  font-size: --narrow-wide(1.4rem, 1rem);",
+                            "13:14 - 13:41",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[declaration-property-value-no-unknown] Unexpected unknown value "--narrow-wide(1.4rem, 1rem)" for property "font-size" (declaration-property-value-no-unknown)
+~~~
+body {
+  display: grid;
+  grid-template-columns: repeat(--narrow-wide(1, 3), 1fr);
+  gap: --narrow-wide(0, 20px);
+  padding: 0 20px;
+}
+
+h2 {
+  font-size: --narrow-wide(2.5rem, 2rem);
+}
+
+p {
+  font-size: --narrow-wide(1.4rem, 1rem);
+  line-height: 1.5;
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-no-unknown",
+                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                            "@function --narrow-wide(--narrow, --wide) {",
+                            "1:1 - 1:10",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --narrow-wide(--narrow, --wide) {
+  result: if(media(width < 700px): var(--narrow) ; else: var(--wide));
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "at-rule-no-unknown",
+                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                            "@function --shippo-pattern(--size <length>, --tint <color>) {",
+                            "1:1 - 1:10",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --shippo-pattern(--size <length>, --tint <color>) {
+  result:
+    radial-gradient(closest-side, transparent 98%, rgb(0 0 0 / 0.3) 99%) 0 0 /
+      var(--size) var(--size),
+    radial-gradient(closest-side, transparent 98%, rgb(0 0 0 / 0.3) 99%)
+      calc(var(--size) / 2) calc(var(--size) / 2) / var(--size) var(--size)
+      var(--tint);
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-hex-length",
+                            'Expected "#def" to be "#ddeeff" (color-hex-length)',
+                            "  background: --shippo-pattern(100px, #def);",
+                            "2:39 - 2:43",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[color-hex-length] Expected "#def" to be "#ddeeff" (color-hex-length)
+~~~
+#one {
+  background: --shippo-pattern(100px, #def);
+}
+
+#two {
+  background: --shippo-pattern(3.5rem, lime);
+}
+
+#three {
+  background: --shippo-pattern(10vw, purple);
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "--shippo-pattern(100px, #def)" for property "background" (declaration-property-value-no-unknown)',
+                            "  background: --shippo-pattern(100px, #def);",
+                            "2:15 - 2:44",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[declaration-property-value-no-unknown] Unexpected unknown value "--shippo-pattern(100px, #def)" for property "background" (declaration-property-value-no-unknown)
+~~~
+#one {
+  background: --shippo-pattern(100px, #def);
+}
+
+#two {
+  background: --shippo-pattern(3.5rem, lime);
+}
+
+#three {
+  background: --shippo-pattern(10vw, purple);
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "--shippo-pattern(3.5rem, lime)" for property "background" (declaration-property-value-no-unknown)',
+                            "  background: --shippo-pattern(3.5rem, lime);",
+                            "6:15 - 6:45",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[declaration-property-value-no-unknown] Unexpected unknown value "--shippo-pattern(3.5rem, lime)" for property "background" (declaration-property-value-no-unknown)
+~~~
+#one {
+  background: --shippo-pattern(100px, #def);
+}
+
+#two {
+  background: --shippo-pattern(3.5rem, lime);
+}
+
+#three {
+  background: --shippo-pattern(10vw, purple);
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "--shippo-pattern(10vw, purple)" for property "background" (declaration-property-value-no-unknown)',
+                            "  background: --shippo-pattern(10vw, purple);",
+                            "10:15 - 10:45",
+                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+[declaration-property-value-no-unknown] Unexpected unknown value "--shippo-pattern(10vw, purple)" for property "background" (declaration-property-value-no-unknown)
+~~~
+#one {
+  background: --shippo-pattern(100px, #def);
+}
+
+#two {
+  background: --shippo-pattern(3.5rem, lime);
+}
+
+#three {
+  background: --shippo-pattern(10vw, purple);
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 css_display: {
                   children: {
                     block_formatting_context: {
@@ -48201,6 +49021,13 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2020/03/practical-overview-css-houdini/",
+                            "unknown certificate verification error"
+                          ]
                         }
                       ]
                     }
@@ -49649,6 +50476,58 @@ input[type="range"] {
                       ]
                     }
                   }
+                },
+                "dashed-function": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/dashed-function",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-no-unknown",
+                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                        "@function --transparent(--color <color>, --alpha <number>) {",
+                        "1:1 - 1:10",
+                        `/en-US/docs/Web/CSS/dashed-function
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --transparent(--color <color>, --alpha <number>) {
+  result: oklch(from var(--color) l c h / var(--alpha));
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  font-family: system-ui;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    transparent 0 20px,
+    lightgrey 20px 40px
+  );
+}
+
+:root {
+  --base-color: #faa6ff;
+}
+
+p {
+  width: 50%;
+  padding: 30px;
+  border-radius: 20px;
+  border: 3px solid var(--base-color);
+  background-color: --transparent(var(--base-color), 0.8);
+}
+~~~
+`
+                      ]
+                    }
+                  ]
                 },
                 "dashed-ident": {
                   children: {},
@@ -61877,6 +62756,101 @@ main {
                     }
                   ]
                 },
+                type: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/type",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Cannot parse property value "attr(data-background type(<color>), red)" for property "background-color" (declaration-property-value-no-unknown)',
+                        "background-color: attr(data-background type(<color>), red);",
+                        "1:19 - 1:59",
+                        `/en-US/docs/Web/CSS/type
+[declaration-property-value-no-unknown] Cannot parse property value "attr(data-background type(<color>), red)" for property "background-color" (declaration-property-value-no-unknown)
+~~~
+background-color: attr(data-background type(<color>), red);
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-no-unknown",
+                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                        "@function --color-choice(--color1 type(red | green), --color2 blue) {",
+                        "1:1 - 1:10",
+                        `/en-US/docs/Web/CSS/type
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --color-choice(--color1 type(red | green), --color2 blue) {
+  result: var(--color1);
+  @media (width < 700px) {
+    result: var(--color2);
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "at-rule-no-unknown",
+                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
+                        "@function --combine-strings(--strings type(<string>+)) {",
+                        "1:1 - 1:10",
+                        `/en-US/docs/Web/CSS/type
+[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
+~~~
+@function --combine-strings(--strings type(<string>+)) {
+  result: var(--strings) " ❤️";
+}
+
+section {
+  font-family: system-ui;
+  background-color: lime;
+  padding: 20px;
+}
+
+section::after {
+  content: --combine-strings("hello" "goodbye");
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "--combine-strings("hello" "goodbye")" for property "content" (declaration-property-value-no-unknown)',
+                        '  content: --combine-strings("hello" "goodbye");',
+                        "12:12 - 12:48",
+                        `/en-US/docs/Web/CSS/type
+[declaration-property-value-no-unknown] Unexpected unknown value "--combine-strings("hello" "goodbye")" for property "content" (declaration-property-value-no-unknown)
+~~~
+@function --combine-strings(--strings type(<string>+)) {
+  result: var(--strings) " ❤️";
+}
+
+section {
+  font-family: system-ui;
+  background-color: lime;
+  padding: 20px;
+}
+
+section::after {
+  content: --combine-strings("hello" "goodbye");
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 unset: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/unset",
@@ -63022,6 +63996,43 @@ http.headers.Use-As-Dictionary`,
               children: {
                 guides: {
                   children: {
+                    audio_and_video_delivery: {
+                      children: {
+                        live_streaming_web_audio_and_video: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Live_streaming_web_audio_and_video",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.streamingmediaglobal.com/Articles/Editorial/Featured-Articles/The-State-of-MPEG-DASH-Deployment-96144.aspx",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        setting_up_adaptive_streaming_media_sources: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery/Setting_up_adaptive_streaming_media_sources",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.streamingmedia.com/Articles/Editorial/Featured-Articles/Adaptive-Streaming-in-the-Field-73017.aspx",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.streamingmedia.com/Articles/Editorial/What-Is-.../What-is-HLS-(HTTP-Live-Streaming)-78221.aspx",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     formats: {
                       children: {
                         video_codecs: {
@@ -64046,7 +65057,21 @@ svg.elements.feSpotLight.z`
                   }
                 },
                 guides: {
-                  children: {},
+                  children: {
+                    opensearch: {
+                      children: {},
+                      slug: "/en-US/docs/Web/XML/Guides/OpenSearch",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/XML/Guides",
                   messages: [
                     {
