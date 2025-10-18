@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-5cw6m42z.js";
+} from "./chunk-edv83tjt.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -921,6 +921,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            lgpl: {
+              children: {},
+              slug: "/en-US/docs/Glossary/LGPL",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.gnu.org/licenses/lgpl-3.0.html",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -2221,6 +2234,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://api.emberjs.com/ember/3.16/classes/Ember.Templates.helpers",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2231,6 +2251,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cli.emberjs.com/release/advanced-use/asset-compilation/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2251,6 +2278,32 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        }
+                      ]
+                    },
+                    introduction: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2018/02/jquery-vue-javascript/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    react_getting_started: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/",
+                            "unknown certificate verification error"
+                          ]
                         }
                       ]
                     },
@@ -3186,7 +3239,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-weight-notation",
                             'Expected "400" to be "normal" (font-weight-notation)',
@@ -4500,7 +4553,7 @@ body {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-weight-notation",
                             'Expected "400" to be "normal" (font-weight-notation)',
@@ -4923,372 +4976,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "400" to be "normal" (font-weight-notation)',
-                            "  font-weight: 400;",
-                            "5:16 - 5:19",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_styling
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-.custom-checkbox > .checkbox-label {
-  font-family: "Arial", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.25;
-  color: #0b0c0c;
-  display: block;
-  margin-bottom: 5px;
-}
-.custom-checkbox > .checkbox {
-  font-family: "Arial", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.25;
-  box-sizing: border-box;
-  width: 100%;
-  height: 2.5rem;
-  margin-top: 0;
-  padding: 5px;
-  border: 2px solid #0b0c0c;
-  border-radius: 0;
-  appearance: none;
-}
-.custom-checkbox > input:focus {
-  outline: 3px dashed #ffdd00;
-  outline-offset: 0;
-  box-shadow: inset 0 0 0 2px;
-}
-.custom-checkbox {
-  font-family: "Arial", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 1.25;
-  display: block;
-  position: relative;
-  min-height: 40px;
-  margin-bottom: 10px;
-  padding-left: 40px;
-  clear: left;
-}
-.custom-checkbox > input[type="checkbox"] {
-  -webkit-font-smoothing: antialiased;
-  cursor: pointer;
-  position: absolute;
-  z-index: 1;
-  top: -2px;
-  left: -2px;
-  width: 44px;
-  height: 44px;
-  margin: 0;
-  opacity: 0;
-}
-.custom-checkbox > .checkbox-label {
-  font-size: inherit;
-  font-family: inherit;
-  line-height: inherit;
-  display: inline-block;
-  margin-bottom: 0;
-  padding: 8px 15px 5px;
-  cursor: pointer;
-  touch-action: manipulation;
-}
-.custom-checkbox > label::before {
-  content: "";
-  box-sizing: border-box;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  border: 2px solid currentColor;
-  background: transparent;
-}
-.custom-checkbox > input[type="checkbox"]:focus + label::before {
-  border-width: 4px;
-  outline: 3px dashed #228bec;
-}
-.custom-checkbox > label::after {
-  box-sizing: content-box;
-  content: "";
-  position: absolute;
-  top: 11px;
-  left: 9px;
-  width: 18px;
-  height: 7px;
-  transform: rotate(-45deg);
-  border: solid;
-  border-width: 0 0 5px 5px;
-  border-top-color: transparent;
-  opacity: 0;
-  background: transparent;
-}
-.custom-checkbox > input[type="checkbox"]:checked + label::after {
-  opacity: 1;
-}
-@media only screen and (width >= 40rem) {
-  label,
-  input,
-  .custom-checkbox {
-    font-size: 1.9rem;
-    line-height: 1.31579;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "400" to be "normal" (font-weight-notation)',
-                            "  font-weight: 400;",
-                            "16:16 - 16:19",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_styling
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-.custom-checkbox > .checkbox-label {
-  font-family: "Arial", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.25;
-  color: #0b0c0c;
-  display: block;
-  margin-bottom: 5px;
-}
-.custom-checkbox > .checkbox {
-  font-family: "Arial", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.25;
-  box-sizing: border-box;
-  width: 100%;
-  height: 2.5rem;
-  margin-top: 0;
-  padding: 5px;
-  border: 2px solid #0b0c0c;
-  border-radius: 0;
-  appearance: none;
-}
-.custom-checkbox > input:focus {
-  outline: 3px dashed #ffdd00;
-  outline-offset: 0;
-  box-shadow: inset 0 0 0 2px;
-}
-.custom-checkbox {
-  font-family: "Arial", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 1.25;
-  display: block;
-  position: relative;
-  min-height: 40px;
-  margin-bottom: 10px;
-  padding-left: 40px;
-  clear: left;
-}
-.custom-checkbox > input[type="checkbox"] {
-  -webkit-font-smoothing: antialiased;
-  cursor: pointer;
-  position: absolute;
-  z-index: 1;
-  top: -2px;
-  left: -2px;
-  width: 44px;
-  height: 44px;
-  margin: 0;
-  opacity: 0;
-}
-.custom-checkbox > .checkbox-label {
-  font-size: inherit;
-  font-family: inherit;
-  line-height: inherit;
-  display: inline-block;
-  margin-bottom: 0;
-  padding: 8px 15px 5px;
-  cursor: pointer;
-  touch-action: manipulation;
-}
-.custom-checkbox > label::before {
-  content: "";
-  box-sizing: border-box;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  border: 2px solid currentColor;
-  background: transparent;
-}
-.custom-checkbox > input[type="checkbox"]:focus + label::before {
-  border-width: 4px;
-  outline: 3px dashed #228bec;
-}
-.custom-checkbox > label::after {
-  box-sizing: content-box;
-  content: "";
-  position: absolute;
-  top: 11px;
-  left: 9px;
-  width: 18px;
-  height: 7px;
-  transform: rotate(-45deg);
-  border: solid;
-  border-width: 0 0 5px 5px;
-  border-top-color: transparent;
-  opacity: 0;
-  background: transparent;
-}
-.custom-checkbox > input[type="checkbox"]:checked + label::after {
-  opacity: 1;
-}
-@media only screen and (width >= 40rem) {
-  label,
-  input,
-  .custom-checkbox {
-    font-size: 1.9rem;
-    line-height: 1.31579;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "400" to be "normal" (font-weight-notation)',
-                            "  font-weight: 400;",
-                            "36:16 - 36:19",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_styling
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-.custom-checkbox > .checkbox-label {
-  font-family: "Arial", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.25;
-  color: #0b0c0c;
-  display: block;
-  margin-bottom: 5px;
-}
-.custom-checkbox > .checkbox {
-  font-family: "Arial", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.25;
-  box-sizing: border-box;
-  width: 100%;
-  height: 2.5rem;
-  margin-top: 0;
-  padding: 5px;
-  border: 2px solid #0b0c0c;
-  border-radius: 0;
-  appearance: none;
-}
-.custom-checkbox > input:focus {
-  outline: 3px dashed #ffdd00;
-  outline-offset: 0;
-  box-shadow: inset 0 0 0 2px;
-}
-.custom-checkbox {
-  font-family: "Arial", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 400;
-  font-size: 1.6rem;
-  line-height: 1.25;
-  display: block;
-  position: relative;
-  min-height: 40px;
-  margin-bottom: 10px;
-  padding-left: 40px;
-  clear: left;
-}
-.custom-checkbox > input[type="checkbox"] {
-  -webkit-font-smoothing: antialiased;
-  cursor: pointer;
-  position: absolute;
-  z-index: 1;
-  top: -2px;
-  left: -2px;
-  width: 44px;
-  height: 44px;
-  margin: 0;
-  opacity: 0;
-}
-.custom-checkbox > .checkbox-label {
-  font-size: inherit;
-  font-family: inherit;
-  line-height: inherit;
-  display: inline-block;
-  margin-bottom: 0;
-  padding: 8px 15px 5px;
-  cursor: pointer;
-  touch-action: manipulation;
-}
-.custom-checkbox > label::before {
-  content: "";
-  box-sizing: border-box;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  border: 2px solid currentColor;
-  background: transparent;
-}
-.custom-checkbox > input[type="checkbox"]:focus + label::before {
-  border-width: 4px;
-  outline: 3px dashed #228bec;
-}
-.custom-checkbox > label::after {
-  box-sizing: content-box;
-  content: "";
-  position: absolute;
-  top: 11px;
-  left: 9px;
-  width: 18px;
-  height: 7px;
-  transform: rotate(-45deg);
-  border: solid;
-  border-width: 0 0 5px 5px;
-  border-top-color: transparent;
-  opacity: 0;
-  background: transparent;
-}
-.custom-checkbox > input[type="checkbox"]:checked + label::after {
-  opacity: 1;
-}
-@media only screen and (width >= 40rem) {
-  label,
-  input,
-  .custom-checkbox {
-    font-size: 1.9rem;
-    line-height: 1.31579;
-  }
-}
-~~~
-`
-                          ]
                         }
                       ]
                     }
@@ -5414,6 +5101,13 @@ button {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/",
+                            "unknown certificate verification error"
+                          ]
+                        },
                         {
                           message: "Broken external link",
                           data: [
@@ -6507,6 +6201,36 @@ button:active {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "client-side_tools": {
+                  children: {
+                    introducing_complete_toolchain: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/",
+                            "unknown certificate verification error"
+                          ]
+                        }
+                      ]
+                    },
+                    package_management: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/",
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -12022,42 +11746,15 @@ textarea:focus {
                 },
                 performance: {
                   children: {
-                    css: {
+                    best_practices: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/CSS",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "400" to be "normal" (font-weight-notation)',
-                            "  font-weight: 400;",
-                            "4:16 - 4:19",
-                            `/en-US/docs/Learn_web_development/Extensions/Performance/CSS
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "someFont";
-  src: url("/path/to/fonts/someFont.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: fallback;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    video: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/video",
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Best_practices",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.smashingmagazine.com/2018/10/video-playback-on-the-web-part-2/",
-                            "unknown certificate verification error"
+                            "https://www.gnu.org/software/gzip/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12816,6 +12513,33 @@ html {
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -12823,6 +12547,19 @@ html {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -12916,19 +12653,6 @@ html {
                     {
                       message: "Unreachable via page",
                       data: []
-                    }
-                  ]
-                },
-                open_source_etiquette: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Open_source_etiquette",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/",
-                        "unknown certificate verification error"
-                      ]
                     }
                   ]
                 }
@@ -14953,13 +14677,6 @@ webextensions.manifest.options_ui`,
             {
               message: "Unreachable via page",
               data: []
-            },
-            {
-              message: "Redirected external link",
-              data: [
-                "https://www.thunderbird.net/download/?utm_source=developer.mozilla.org&utm_medium=referral&utm_campaign=mdn-mozilla-products",
-                "https://www.thunderbird.net/en-US/download/?utm_source=developer.mozilla.org&utm_medium=referral&utm_campaign=mdn-mozilla-products"
-              ]
             }
           ]
         },
@@ -15818,259 +15535,6 @@ li:nth-of-type(3n + 1) {
                     }
                   }
                 },
-                cssfontpalettevaluesrule: {
-                  children: {
-                    overridecolors: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSSFontPaletteValuesRule/overrideColors",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "400" to be "normal" (font-weight-notation)',
-                            "  font-weight: 400;",
-                            "4:16 - 4:19",
-                            `/en-US/docs/Web/API/CSSFontPaletteValuesRule/overrideColors
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Noto Color Emoji";
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.gstatic.com/l/font?kit=Yq6P-KqIXTD0t4D9z1ESnKM3-HpFabts6diywYkdG3gjD0U&skey=a373f7129eaba270&v=v24")
-    format("woff2");
-}
-
-.emoji {
-  font-family: "Noto Color Emoji", emoji;
-  font-size: 3rem;
-}
-
-@font-palette-values --blue {
-  font-family: "Noto Color Emoji";
-  override-colors:
-    3 rgb(1 28 193),
-    4 rgb(60 124 230);
-}
-
-@font-palette-values --green {
-  font-family: "Noto Color Emoji";
-  override-colors:
-    3 rgb(28 193 1),
-    4 rgb(34 230 1);
-}
-
-.colored-hat {
-  font-palette: --blue;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                cssfunctiondeclarations: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/CSSFunctionDeclarations",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "at-rule-no-unknown",
-                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                        "@function --lighter(--color <color>, --lightness-adjust <number>: 0.2) returns",
-                        "1:1 - 1:10",
-                        `/en-US/docs/Web/API/CSSFunctionDeclarations
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --lighter(--color <color>, --lightness-adjust <number>: 0.2) returns
-  <color> {
-  --someVar: 100;
-  result: oklch(from var(--color) calc(l + var(--lightness-adjust)) c h);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "at-rule-no-unknown",
-                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                        "@function --bar() {",
-                        "1:1 - 1:10",
-                        `/en-US/docs/Web/API/CSSFunctionDeclarations
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --bar() {
-  --x: 42;
-  result: var(--y);
-  @media (width > 1000px) {
-    /* ... */
-  }
-  --y: var(--x);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                cssfunctiondescriptors: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/CSSFunctionDescriptors",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "at-rule-no-unknown",
-                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                        "@function --lighter(--color <color>, --lightness-adjust <number>: 0.2) returns",
-                        "1:1 - 1:10",
-                        `/en-US/docs/Web/API/CSSFunctionDescriptors
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --lighter(--color <color>, --lightness-adjust <number>: 0.2) returns
-  <color> {
-  result: oklch(from var(--color) calc(l + var(--lightness-adjust)) c h);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                cssfunctionrule: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/CSSFunctionRule",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "at-rule-no-unknown",
-                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                        "@function --lighter(--color <color>, --lightness-adjust <number>: 0.2) returns",
-                        "1:1 - 1:10",
-                        `/en-US/docs/Web/API/CSSFunctionRule
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --lighter(--color <color>, --lightness-adjust <number>: 0.2) returns
-  <color> {
-  result: oklch(from var(--color) calc(l + var(--lightness-adjust)) c h);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                cssstyleproperties: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/CSSStyleProperties",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '<div style="font-weight: bold;">',
-                        "0:5 - 0:31",
-                        `/en-US/docs/Web/API/CSSStyleProperties
-[no-style-attr] Do not use the style attribute.
-~~~
-<div style="font-weight: bold;">
-  <div style="border-top: 3px solid blue; color: red;margin:5px;" id="elt">
-    Div content.
-    <br />
-    Inner: "border-top: 3px solid blue; color: red;margin:5px;".
-    <br />
-    Outer: "font-weight: bold;"
-  </div>
-</div>
-
-<pre id="log"></pre>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '  <div style="border-top: 3px solid blue; color: red;margin:5px;" id="elt">',
-                        "1:7 - 1:65",
-                        `/en-US/docs/Web/API/CSSStyleProperties
-[no-style-attr] Do not use the style attribute.
-~~~
-<div style="font-weight: bold;">
-  <div style="border-top: 3px solid blue; color: red;margin:5px;" id="elt">
-    Div content.
-    <br />
-    Inner: "border-top: 3px solid blue; color: red;margin:5px;".
-    <br />
-    Outer: "font-weight: bold;"
-  </div>
-</div>
-
-<pre id="log"></pre>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '<div style="font-weight: bold;">',
-                        "0:5 - 0:31",
-                        `/en-US/docs/Web/API/CSSStyleProperties
-[no-style-attr] Do not use the style attribute.
-~~~
-<div style="font-weight: bold;">
-  <div style="border-top: 1px solid blue; color: red;" id="elt">
-    An example div
-  </div>
-</div>
-<button id="inline_style" type="button">Inline Style</button>
-<button id="computed_style" type="button">Computed Style</button>
-
-<button id="reset" type="button">Reset</button>
-<pre id="log"></pre>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '  <div style="border-top: 1px solid blue; color: red;" id="elt">',
-                        "1:7 - 1:54",
-                        `/en-US/docs/Web/API/CSSStyleProperties
-[no-style-attr] Do not use the style attribute.
-~~~
-<div style="font-weight: bold;">
-  <div style="border-top: 1px solid blue; color: red;" id="elt">
-    An example div
-  </div>
-</div>
-<button id="inline_style" type="button">Inline Style</button>
-<button id="computed_style" type="button">Computed Style</button>
-
-<button id="reset" type="button">Reset</button>
-<pre id="log"></pre>
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 device_orientation_events: {
                   children: {
                     detecting_device_orientation: {
@@ -16265,55 +15729,6 @@ api.DeviceOrientationEvent`,
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Document_Object_Model/Events"
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-event-handlers",
-                        'Do not use inline event handler "onload".',
-                        `<body onload="console.log('Welcome to my home page!');">`,
-                        "0:6 - 0:55",
-                        `/en-US/docs/Web/API/Document_Object_Model
-[no-inline-event-handlers] Do not use inline event handler "onload".
-~~~
-<body onload="console.log('Welcome to my home page!');">
-  …
-</body>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-inline-script",
-                        "Do not write JS within the <script> element; use separate JS blocks instead.",
-                        `    <script>
-      // create a couple of elements in an otherwise empty HTML page
-      const heading = document.createElement("h1");
-      const headingText = document.createTextNode("Big Head!");
-      heading.appendChild(headingText);
-      document.body.appendChild(heading);
-    </script>`,
-                        "3:4 - 9:13",
-                        `/en-US/docs/Web/API/Document_Object_Model
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<html lang="en">
-  <head> </head>
-  <body>
-    <script>
-      // create a couple of elements in an otherwise empty HTML page
-      const heading = document.createElement("h1");
-      const headingText = document.createTextNode("Big Head!");
-      heading.appendChild(headingText);
-      document.body.appendChild(heading);
-    </script>
-  </body>
-</html>
-~~~
-`
                       ]
                     }
                   ]
@@ -16572,47 +15987,7 @@ output {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/API/HTMLImageElement",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "no-style-attr",
-                        "Do not use the style attribute.",
-                        '    style="height: 50px; width: 500px;" />',
-                        "19:4 - 19:39",
-                        `/en-US/docs/Web/API/HTMLImageElement
-[no-style-attr] Do not use the style attribute.
-~~~
-<p>
-  Image 1: no height, width, or style
-  <img id="image1" src="https://www.mozilla.org/images/mozilla-banner.gif" />
-</p>
-
-<p>
-  Image 2: height="50", width="500", but no style
-  <img
-    id="image2"
-    src="https://www.mozilla.org/images/mozilla-banner.gif"
-    height="50"
-    width="500" />
-</p>
-
-<p>
-  Image 3: no height, width, but style="height: 50px; width: 500px;"
-  <img
-    id="image3"
-    src="https://www.mozilla.org/images/mozilla-banner.gif"
-    style="height: 50px; width: 500px;" />
-</p>
-
-<div id="output"></div>
-~~~
-`
-                      ]
-                    }
-                  ]
+                  }
                 },
                 intersection_observer_api: {
                   children: {
@@ -17019,41 +16394,6 @@ body {
                       ]
                     }
                   ]
-                },
-                mathmlelement: {
-                  children: {
-                    style: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MathMLElement/style",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '    <mi class="parameter" style="color: red; border-bottom: 1px solid">x</mi>',
-                            "4:26 - 4:70",
-                            `/en-US/docs/Web/API/MathMLElement/style
-[no-style-attr] Do not use the style attribute.
-~~~
-<math>
-  <mrow>
-    <mi>f</mi>
-    <mo stretchy="false">(</mo>
-    <mi class="parameter" style="color: red; border-bottom: 1px solid">x</mi>
-    <mo stretchy="false">)</mo>
-    <mo>=</mo>
-    <mi>x</mi>
-  </mrow>
-</math>
-<pre id="log"></pre>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 media_capabilities_api: {
                   children: {
@@ -17489,23 +16829,6 @@ code {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                mediadevices: {
-                  children: {
-                    getdisplaymedia: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaDevices/getDisplayMedia",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://chrome.dev/screen-sharing-controls/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -20088,29 +19411,6 @@ dialog::backdrop {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "400" to be "normal" (font-weight-notation)',
-                            "  font-weight: 400;",
-                            "6:16 - 6:19",
-                            `/en-US/docs/Web/CSS/@font-face/font-display
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "ExampleFont";
-  src:
-    url("/path/to/fonts/example-font.woff") format("woff"),
-    url("/path/to/fonts/example-font.eot") format("embedded-opentype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: fallback;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -20173,7 +19473,7 @@ dialog::backdrop {
                           data: []
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-weight-notation",
                             'Expected "700" to be "bold" (font-weight-notation)',
@@ -20239,7 +19539,7 @@ p.nine {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-weight-notation",
                             'Expected "700" to be "bold" (font-weight-notation)',
@@ -20305,7 +19605,7 @@ p.nine {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-weight-notation",
                             'Expected "400" to be "normal" (font-weight-notation)',
@@ -20371,7 +19671,7 @@ p.nine {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-weight-notation",
                             'Expected "700" to be "bold" (font-weight-notation)',
@@ -20437,7 +19737,7 @@ p.nine {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-weight-notation",
                             'Expected "700" to be "bold" (font-weight-notation)',
@@ -20469,7 +19769,7 @@ p:last-of-type {
                           ]
                         },
                         {
-                          message: "Stylelint backlog",
+                          message: "CSS code issue",
                           data: [
                             "font-weight-notation",
                             'Expected "700" to be "bold" (font-weight-notation)',
@@ -20593,50 +19893,6 @@ p:last-of-type {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "400" to be "normal" (font-weight-notation)',
-                            "  font-weight: 400;",
-                            "10:16 - 10:19",
-                            `/en-US/docs/Web/CSS/@font-palette-values/override-colors
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-.hats {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-@font-face {
-  font-family: "Noto Color Emoji";
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.gstatic.com/l/font?kit=Yq6P-KqIXTD0t4D9z1ESnKM3-HpFabts6diywYkdG3gjD0U&skey=a373f7129eaba270&v=v24")
-    format("woff2");
-}
-
-.emoji {
-  font-family: "Noto Color Emoji", emoji;
-  font-size: 3rem;
-}
-@font-palette-values --red {
-  font-family: "Noto Color Emoji";
-  override-colors:
-    0 rgb(74 11 0),
-    1 rgb(149 22 1),
-    2 rgb(183 27 1),
-    3 rgb(193 28 1),
-    4 rgb(230 34 1);
-}
-.red-hat {
-  font-palette: --red;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     }
@@ -20649,111 +19905,6 @@ p:last-of-type {
                     {
                       message: "CSS code issue",
                       data: [
-                        "at-rule-no-unknown",
-                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                        "@function --transparent(--color, --alpha) {",
-                        "1:1 - 1:10",
-                        `/en-US/docs/Web/CSS/@function
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --transparent(--color, --alpha) {
-  result: oklch(from var(--color) l c h / var(--alpha));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "at-rule-no-unknown",
-                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                        "@function --transparent(--color <color>, --alpha <number>) returns <color> {",
-                        "1:1 - 1:10",
-                        `/en-US/docs/Web/CSS/@function
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --transparent(--color <color>, --alpha <number>) returns <color> {
-  result: oklch(from var(--color) l c h / var(--alpha));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "at-rule-no-unknown",
-                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                        "@function --transparent(--color <color>, --alpha type(<number> | <percentage>))",
-                        "1:1 - 1:10",
-                        `/en-US/docs/Web/CSS/@function
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --transparent(--color <color>, --alpha type(<number> | <percentage>))
-  returns <color> {
-  result: oklch(from var(--color) l c h / var(--alpha));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "at-rule-no-unknown",
-                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                        "@function --transparent(--color <color>, --alpha <number>: 0.8) returns <color> {",
-                        "1:1 - 1:10",
-                        `/en-US/docs/Web/CSS/@function
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --transparent(--color <color>, --alpha <number>: 0.8) returns <color> {
-  result: oklch(from var(--color) l c h / var(--alpha));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "at-rule-no-unknown",
-                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                        "@function --max-plus-x(--list <length>#, --x <length>) {",
-                        "1:1 - 1:10",
-                        `/en-US/docs/Web/CSS/@function
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --max-plus-x(--list <length>#, --x <length>) {
-  result: calc(max(var(--list)) + var(--x));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "at-rule-no-unknown",
-                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                        "@function --anim-1s(--animation, --count) {",
-                        "1:1 - 1:10",
-                        `/en-US/docs/Web/CSS/@function
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --anim-1s(--animation, --count) {
-  --duration: 1s;
-  --easing: linear;
-  result: var(--animation) var(--duration) var(--count) var(--easing);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
                         "declaration-property-value-no-unknown",
                         'Unexpected unknown value "--anim-1s(bounce, 2)" for property "animation" (declaration-property-value-no-unknown)',
                         "animation: --anim-1s(bounce, 2);",
@@ -20762,58 +19913,6 @@ p:last-of-type {
 [declaration-property-value-no-unknown] Unexpected unknown value "--anim-1s(bounce, 2)" for property "animation" (declaration-property-value-no-unknown)
 ~~~
 animation: --anim-1s(bounce, 2);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "at-rule-no-unknown",
-                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                        "@function --outer(--outer-arg) {",
-                        "1:1 - 1:10",
-                        `/en-US/docs/Web/CSS/@function
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --outer(--outer-arg) {
-  --outer-local: 2;
-  result: --inner();
-}
-
-@function --inner() returns <number> {
-  result: calc(var(--outer-arg) + var(--outer-local));
-}
-
-div {
-  z-index: --outer(1); /* 3 */
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "at-rule-no-unknown",
-                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                        "@function --inner() returns <number> {",
-                        "6:1 - 6:10",
-                        `/en-US/docs/Web/CSS/@function
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --outer(--outer-arg) {
-  --outer-local: 2;
-  result: --inner();
-}
-
-@function --inner() returns <number> {
-  result: calc(var(--outer-arg) + var(--outer-local));
-}
-
-div {
-  z-index: --outer(1); /* 3 */
-}
 ~~~
 `
                       ]
@@ -20847,28 +19946,6 @@ div {
                     {
                       message: "CSS code issue",
                       data: [
-                        "at-rule-no-unknown",
-                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                        "@function --double-z() returns <number> {",
-                        "1:1 - 1:10",
-                        `/en-US/docs/Web/CSS/@function
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --double-z() returns <number> {
-  result: calc(var(--z) * 2);
-}
-
-div {
-  --z: 3;
-  z-index: --double-z(); /* 6 */
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
                         "declaration-property-value-no-unknown",
                         'Unexpected unknown value "--double-z()" for property "z-index" (declaration-property-value-no-unknown)',
                         "  z-index: --double-z(); /* 6 */",
@@ -20883,31 +19960,6 @@ div {
 div {
   --z: 3;
   z-index: --double-z(); /* 6 */
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "at-rule-no-unknown",
-                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                        "@function --add-a-b-c(--b, --c) {",
-                        "1:1 - 1:10",
-                        `/en-US/docs/Web/CSS/@function
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --add-a-b-c(--b, --c) {
-  --c: 300;
-  result: calc(var(--a) + var(--b) + var(--c));
-}
-
-div {
-  --a: 1;
-  --b: 2;
-  --c: 3;
-  z-index: --add-a-b-c(20, 30); /* 321 */
 }
 ~~~
 `
@@ -20933,80 +19985,6 @@ div {
   --b: 2;
   --c: 3;
   z-index: --add-a-b-c(20, 30); /* 321 */
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "at-rule-no-unknown",
-                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                        "@function --narrow-wide(--narrow, --wide) {",
-                        "1:1 - 1:10",
-                        `/en-US/docs/Web/CSS/@function
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --narrow-wide(--narrow, --wide) {
-  result: var(--wide);
-  @media (width < 700px) {
-    result: var(--narrow);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "at-rule-no-unknown",
-                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                        "@function --narrow-wide(--narrow, --wide) {",
-                        "1:1 - 1:10",
-                        `/en-US/docs/Web/CSS/@function
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --narrow-wide(--narrow, --wide) {
-  result: if(media(width < 700px): var(--narrow) ; else: var(--wide));
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "at-rule-no-unknown",
-                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                        "@function --double(--value) {",
-                        "1:1 - 1:10",
-                        `/en-US/docs/Web/CSS/@function
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --double(--value) {
-  result: calc(var(--value) * 2);
-}
-
-html,
-body {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  display: grid;
-  place-items: center;
-  font-family: system-ui;
-}
-
-p {
-  --base-spacing: 10px;
-  border-radius: var(--base-spacing);
-  padding: --double(var(--base-spacing));
-  width: 50%;
-  background-color: wheat;
 }
 ~~~
 `
@@ -21333,49 +20311,6 @@ p {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "400" to be "normal" (font-weight-notation)',
-                            "    font-weight: 400;",
-                            "5:18 - 5:21",
-                            `/en-US/docs/Web/CSS/@media/prefers-reduced-data
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@media (prefers-reduced-data: no-preference) {
-  @font-face {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    /* latin */
-    src:
-      local("Montserrat Regular"),
-      local("Montserrat-Regular"),
-      url("fonts/montserrat-regular.woff2") format("woff2");
-    unicode-range:
-      U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
-      U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-      U+FEFF, U+FFFD;
-  }
-}
-
-body {
-  font-family:
-    "Montserrat",
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    "Roboto",
-    "Helvetica",
-    "Arial",
-    sans-serif;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -21796,8 +20731,8 @@ body {
                     {
                       message: "Broken external link",
                       data: [
-                        "https://www.smashingmagazine.com/2019/03/aspect-ratio-unit-css/",
-                        "The operation timed out."
+                        "https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/",
+                        "unknown certificate verification error"
                       ]
                     }
                   ]
@@ -22790,121 +21725,6 @@ blockquote {
     inset 0 -3em 3em rgb(0 200 0 / 30%),
     0 0 0 2px white,
     0.3em 0.3em 1em rgb(200 0 0 / 60%);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "calc-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/calc-size",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-weight-notation",
-                        'Expected "400" to be "normal" (font-weight-notation)',
-                        "  font-weight: 400;",
-                        "12:16 - 12:19",
-                        `/en-US/docs/Web/CSS/calc-size
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-section {
-  font-family: "Helvetica", "Arial", sans-serif;
-  border: 1px solid black;
-}
-
-h2 {
-  margin: 0;
-  font-weight: 400;
-  font-size: 1.1rem;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
-p {
-  font-size: 0.8rem;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  width: calc-size(fit-content, size + 6rem);
-  height: calc-size(auto, size * 2);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-weight-notation",
-                        'Expected "400" to be "normal" (font-weight-notation)',
-                        "  font-weight: 400;",
-                        "26:16 - 26:19",
-                        `/en-US/docs/Web/CSS/calc-size
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-section {
-  font-family: "Helvetica", "Arial", sans-serif;
-  width: 175px;
-  border-radius: 5px;
-  background: #eeeeee;
-  box-shadow:
-    inset 1px 1px 4px rgb(255 255 255 / 0.5),
-    inset -1px -1px 4px rgb(0 0 0 / 0.5);
-}
-
-header {
-  padding: 10px;
-  border-bottom: 2px solid #cccccc;
-}
-
-main {
-  padding: 0.7rem;
-}
-
-h2 {
-  margin: 0;
-  font-weight: 400;
-  font-size: 1.1rem;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
-p,
-li {
-  font-size: 0.8rem;
-  line-height: 1.5;
-}
-
-p {
-  margin-top: 0;
-}
-
-section {
-  height: 2.5rem;
-  overflow: hidden;
-  transition: height ease 1s;
-}
-
-section:hover,
-section:focus {
-  height: calc-size(max-content, size + 2rem);
 }
 ~~~
 `
@@ -37152,23 +35972,6 @@ rgb(from red r g b / alpha)
                         {
                           message: "CSS code issue",
                           data: [
-                            "at-rule-no-unknown",
-                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                            "@function --half-opacity() {",
-                            "1:1 - 1:10",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --half-opacity() {
-  result: 0.5;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
                             "declaration-property-value-no-unknown",
                             'Unexpected unknown value "--half-opacity()" for property "opacity" (declaration-property-value-no-unknown)',
                             "  opacity: --half-opacity();",
@@ -37178,23 +35981,6 @@ rgb(from red r g b / alpha)
 ~~~
 h2 {
   opacity: --half-opacity();
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-no-unknown",
-                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                            "@function --supports() {",
-                            "1:1 - 1:10",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --supports() {
-  result: none;
 }
 ~~~
 `
@@ -37213,194 +35999,6 @@ h2 {
 .support {
   /* ... */
   display: --supports();
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-no-unknown",
-                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                            "@function --transparent(--color, --alpha) {",
-                            "1:1 - 1:10",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --transparent(--color, --alpha) {
-  result: oklch(from var(--color) l c h / var(--alpha));
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-no-unknown",
-                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                            "@function --transparent(--color type(<color>), --alpha type(<number>)) returns",
-                            "1:1 - 1:10",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --transparent(--color type(<color>), --alpha type(<number>)) returns
-  type(<color>) {
-  result: oklch(from var(--color) l c h / var(--alpha));
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-no-unknown",
-                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                            "@function --transparent(--color <color>, --alpha <number>) returns <color> {",
-                            "1:1 - 1:10",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --transparent(--color <color>, --alpha <number>) returns <color> {
-  result: oklch(from var(--color) l c h / var(--alpha));
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-no-unknown",
-                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                            "@function --transparent(--color <color>, --alpha type(<number> | <percentage>))",
-                            "1:1 - 1:10",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --transparent(--color <color>, --alpha type(<number> | <percentage>))
-  returns <color> {
-  result: oklch(from var(--color) l c h / var(--alpha));
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-no-unknown",
-                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                            "@function --transparent(--color <color>, --alpha <number>: 0.8) returns <color> {",
-                            "1:1 - 1:10",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --transparent(--color <color>, --alpha <number>: 0.8) returns <color> {
-  result: oklch(from var(--color) l c h / var(--alpha));
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-no-unknown",
-                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                            "@function --transparent(--color <color>, --alpha <number>: 0.8) returns <color> {",
-                            "1:1 - 1:10",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --transparent(--color <color>, --alpha <number>: 0.8) returns <color> {
-  result: oklch(from var(--color) l c h / var(--alpha));
-}
-
-@function --lighter(--color <color>, --lightness-adjust <number>: 0.2) returns
-  <color> {
-  result: oklch(from var(--color) calc(l + var(--lightness-adjust)) c h);
-}
-
-@function --darker(--color <color>, --lightness-adjust <number>: 0.2) returns
-  <color> {
-  result: oklch(from var(--color) calc(l - var(--lightness-adjust)) c h);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-no-unknown",
-                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                            "@function --lighter(--color <color>, --lightness-adjust <number>: 0.2) returns",
-                            "5:1 - 5:10",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --transparent(--color <color>, --alpha <number>: 0.8) returns <color> {
-  result: oklch(from var(--color) l c h / var(--alpha));
-}
-
-@function --lighter(--color <color>, --lightness-adjust <number>: 0.2) returns
-  <color> {
-  result: oklch(from var(--color) calc(l + var(--lightness-adjust)) c h);
-}
-
-@function --darker(--color <color>, --lightness-adjust <number>: 0.2) returns
-  <color> {
-  result: oklch(from var(--color) calc(l - var(--lightness-adjust)) c h);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-no-unknown",
-                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                            "@function --darker(--color <color>, --lightness-adjust <number>: 0.2) returns",
-                            "10:1 - 10:10",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --transparent(--color <color>, --alpha <number>: 0.8) returns <color> {
-  result: oklch(from var(--color) l c h / var(--alpha));
-}
-
-@function --lighter(--color <color>, --lightness-adjust <number>: 0.2) returns
-  <color> {
-  result: oklch(from var(--color) calc(l + var(--lightness-adjust)) c h);
-}
-
-@function --darker(--color <color>, --lightness-adjust <number>: 0.2) returns
-  <color> {
-  result: oklch(from var(--color) calc(l - var(--lightness-adjust)) c h);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-no-unknown",
-                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                            "@function --narrow-wide(--narrow, --wide) {",
-                            "1:1 - 1:10",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --narrow-wide(--narrow, --wide) {
-  result: var(--wide);
-  @media (width < 700px) {
-    result: var(--narrow);
-  }
 }
 ~~~
 `
@@ -37517,45 +36115,6 @@ h2 {
 p {
   font-size: --narrow-wide(1.4rem, 1rem);
   line-height: 1.5;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-no-unknown",
-                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                            "@function --narrow-wide(--narrow, --wide) {",
-                            "1:1 - 1:10",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --narrow-wide(--narrow, --wide) {
-  result: if(media(width < 700px): var(--narrow) ; else: var(--wide));
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "at-rule-no-unknown",
-                            'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                            "@function --shippo-pattern(--size <length>, --tint <color>) {",
-                            "1:1 - 1:10",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --shippo-pattern(--size <length>, --tint <color>) {
-  result:
-    radial-gradient(closest-side, transparent 98%, rgb(0 0 0 / 0.3) 99%) 0 0 /
-      var(--size) var(--size),
-    radial-gradient(closest-side, transparent 98%, rgb(0 0 0 / 0.3) 99%)
-      calc(var(--size) / 2) calc(var(--size) / 2) / var(--size) var(--size)
-      var(--tint);
 }
 ~~~
 `
@@ -38008,491 +36567,6 @@ p {
                 },
                 css_fonts: {
                   children: {
-                    opentype_fonts_guide: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "400" to be "normal" (font-weight-notation)',
-                            "  font-weight: 400;",
-                            "3:16 - 3:19",
-                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Plex Serif";
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  src:
-    url("https://mdn.github.io/shared-assets/fonts/plex/IBMPlexSerif-Regular.woff")
-      format("woff"),
-    url("https://mdn.github.io/shared-assets/fonts/plex/IBMPlexSerif-Regular.woff2")
-      format("woff2");
-}
-
-body {
-  font:
-    1.2em "Plex Serif",
-    "Times New Roman",
-    serif;
-  margin: 1rem;
-}
-
-fieldset {
-  margin-bottom: 1rem;
-}
-
-label {
-  user-select: none;
-}
-
-.container > p {
-  font-size: 4rem;
-  margin: 1.5rem 0;
-}
-
-/* kerning: auto|normal|none */
-.container1 * {
-  font-kerning: normal;
-}
-.inactive.container1 * {
-  font-kerning: none;
-}
-
-/* 'kern' 1|0 (on or off) */
-.container2 * {
-  font-feature-settings: "kern" 1;
-}
-.inactive.container2 * {
-  font-feature-settings: "kern" 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "400" to be "normal" (font-weight-notation)',
-                            "  font-weight: 400;",
-                            "3:16 - 3:19",
-                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Playfair Display";
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  src:
-    url("https://mdn.github.io/shared-assets/fonts/playfair-display/playfair-display-regular.woff")
-      format("woff"),
-    url("https://mdn.github.io/shared-assets/fonts/playfair-display/playfair-display-regular.woff2")
-      format("woff2");
-}
-
-body {
-  font:
-    1.2em "Playfair Display",
-    "Times New Roman",
-    serif;
-  margin: 1rem;
-}
-
-fieldset {
-  margin-bottom: 1rem;
-}
-
-label {
-  user-select: none;
-}
-
-.container > p {
-  font-size: 4rem;
-  margin: 1.5rem 0;
-}
-
-.container1 * {
-  font-variant-ligatures: common-ligatures discretionary-ligatures contextual;
-}
-.inactive.container1 * {
-  font-variant-ligatures: none;
-}
-
-/* 'liga', 'dlig', 'hlig', 'calt' */
-.container2 * {
-  font-feature-settings: "dlig", "liga", "calt";
-}
-.inactive.container2 * {
-  font-feature-settings:
-    "dlig" 0,
-    "liga" 0,
-    "calt" 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "400" to be "normal" (font-weight-notation)',
-                            "  font-weight: 400;",
-                            "3:16 - 3:19",
-                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Playfair Display";
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  src:
-    url("https://mdn.github.io/shared-assets/fonts/playfair-display/playfair-display-regular.woff")
-      format("woff"),
-    url("https://mdn.github.io/shared-assets/fonts/playfair-display/playfair-display-regular.woff2")
-      format("woff2");
-}
-
-body {
-  font:
-    1.2em "Playfair Display",
-    "Times New Roman",
-    serif;
-  margin: 1rem;
-}
-
-fieldset {
-  margin-bottom: 1rem;
-}
-
-label {
-  user-select: none;
-}
-
-.container > p {
-  font-size: 4rem;
-  margin: 1.5rem 0;
-}
-
-/* position: normal|sub|super */
-.container1 .super {
-  font-variant-position: super;
-}
-.container1 .sub {
-  font-variant-position: sub;
-}
-.inactive.container1 * {
-  font-variant-position: normal;
-}
-
-/* 'subs', 'sups' */
-.container2 .super {
-  font-feature-settings: "sups";
-}
-.container2 .sub {
-  font-feature-settings: "subs";
-}
-.inactive.container2 * {
-  font-feature-settings:
-    "sups" 0,
-    "subs" 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "400" to be "normal" (font-weight-notation)',
-                            "  font-weight: 400;",
-                            "3:16 - 3:19",
-                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Playfair Display";
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  src:
-    url("https://mdn.github.io/shared-assets/fonts/playfair-display/playfair-display-regular.woff")
-      format("woff"),
-    url("https://mdn.github.io/shared-assets/fonts/playfair-display/playfair-display-regular.woff2")
-      format("woff2");
-}
-
-body {
-  font:
-    1.2em "Playfair Display",
-    "Times New Roman",
-    serif;
-  margin: 1rem;
-}
-
-fieldset {
-  margin-bottom: 1rem;
-}
-
-label {
-  user-select: none;
-}
-
-.container > p {
-  font-size: 4rem;
-  margin: 1.5rem 0;
-}
-
-/* position: normal | small-caps | all-small-caps | petite-caps | all-petite-caps | unicase | titling-caps */
-.container1 .small-caps {
-  font-variant-caps: small-caps;
-}
-.container1 .all-small-caps {
-  font-variant-caps: all-small-caps;
-}
-.inactive.container1 * {
-  font-variant-caps: normal;
-}
-
-/* 'smcp', 'c2sc' */
-.container2 .small-caps {
-  font-feature-settings: "smcp" 1;
-}
-.container2 .all-small-caps {
-  font-feature-settings:
-    "c2sc" 1,
-    "smcp" 1;
-}
-.inactive.container2 * {
-  font-feature-settings:
-    "smcp" 0,
-    "c2sc" 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "400" to be "normal" (font-weight-notation)',
-                            "  font-weight: 400;",
-                            "3:16 - 3:19",
-                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Source Serif";
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  src:
-    url("https://mdn.github.io/shared-assets/fonts/source-serif/SourceSerifPro-Regular.ttf.woff")
-      format("woff"),
-    url("https://mdn.github.io/shared-assets/fonts/source-serif/SourceSerifPro-Regular.ttf.woff2")
-      format("woff2");
-}
-
-body {
-  font:
-    1.2em "Source Serif",
-    "Times New Roman",
-    serif;
-  margin: 20px;
-  padding: 0;
-}
-
-fieldset {
-  margin-bottom: 1rem;
-}
-
-label {
-  user-select: none;
-}
-
-.container > p {
-  font-size: 4rem;
-  margin: 1.5rem 0;
-}
-
-.container1 .lining {
-  font-variant-numeric: lining-nums;
-}
-.container1 .oldstyle {
-  font-variant-numeric: oldstyle-nums;
-}
-.inactive.container1 * {
-  font-variant-numeric: normal;
-}
-
-.container2 .lining {
-  font-feature-settings: "lnum" 1;
-}
-.container2 .oldstyle {
-  font-feature-settings: "onum" 1;
-}
-.inactive.container2 * {
-  font-feature-settings:
-    "lnum" 0,
-    "onum" 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "400" to be "normal" (font-weight-notation)',
-                            "  font-weight: 400;",
-                            "3:16 - 3:19",
-                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Source Serif";
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  src:
-    url("https://mdn.github.io/shared-assets/fonts/source-serif/SourceSerifPro-Regular.ttf.woff")
-      format("woff"),
-    url("https://mdn.github.io/shared-assets/fonts/source-serif/SourceSerifPro-Regular.ttf.woff2")
-      format("woff2");
-}
-
-body {
-  font:
-    1.2em "Source Serif",
-    "Times New Roman",
-    serif;
-  margin: 20px;
-  padding: 0;
-}
-
-fieldset {
-  margin-bottom: 1rem;
-}
-
-label {
-  user-select: none;
-}
-
-.container > p {
-  font-size: 4rem;
-  margin: 1.5rem 0;
-}
-
-.container1 .diagonal-fractions {
-  font-variant-numeric: diagonal-fractions;
-}
-.container1 .ordinal {
-  font-variant-numeric: ordinal;
-}
-.container1 .zero {
-  font-variant-numeric: slashed-zero;
-}
-.inactive.container1 * {
-  font-variant-numeric: normal;
-}
-
-.container2 .diagonal-fractions {
-  font-feature-settings: "frac" 1;
-}
-.container2 .ordinal {
-  font-feature-settings: "ordn" 1;
-}
-.container2 .zero {
-  font-feature-settings: "zero" 1;
-}
-.inactive.container2 * {
-  font-feature-settings:
-    "frac" 0,
-    "ordn" 0,
-    "zero" 0;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "400" to be "normal" (font-weight-notation)',
-                            "  font-weight: 400;",
-                            "3:16 - 3:19",
-                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Playfair Display";
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  src:
-    url("https://mdn.github.io/shared-assets/fonts/playfair-display/playfair-display-regular.woff")
-      format("woff"),
-    url("https://mdn.github.io/shared-assets/fonts/playfair-display/playfair-display-regular.woff2")
-      format("woff2");
-}
-
-body {
-  font:
-    1.2em "Playfair Display",
-    "Times New Roman",
-    serif;
-  margin: 20px;
-  padding: 0;
-}
-
-fieldset {
-  margin-bottom: 1rem;
-}
-
-label {
-  user-select: none;
-}
-
-.container > p {
-  font-size: 4rem;
-  margin: 1.5rem 0;
-}
-
-.container1 * {
-  font-variant: common-ligatures discretionary-ligatures contextual
-    diagonal-fractions;
-}
-.inactive.container1 * {
-  font-variant: none;
-}
-
-.container2 * {
-  font-feature-settings: "dlig", "liga", "calt", "frac";
-}
-.inactive.container2 * {
-  font-feature-settings:
-    "dlig" 0,
-    "liga" 0,
-    "calt" 0,
-    "frac" 0;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     variable_fonts_guide: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide",
@@ -49192,58 +47266,6 @@ input[type="range"] {
                     }
                   }
                 },
-                "dashed-function": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/dashed-function",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "at-rule-no-unknown",
-                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                        "@function --transparent(--color <color>, --alpha <number>) {",
-                        "1:1 - 1:10",
-                        `/en-US/docs/Web/CSS/dashed-function
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --transparent(--color <color>, --alpha <number>) {
-  result: oklch(from var(--color) l c h / var(--alpha));
-}
-
-html,
-body {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  display: grid;
-  place-items: center;
-  font-family: system-ui;
-  background-image: repeating-linear-gradient(
-    -45deg,
-    transparent 0 20px,
-    lightgrey 20px 40px
-  );
-}
-
-:root {
-  --base-color: #faa6ff;
-}
-
-p {
-  width: 50%;
-  padding: 30px;
-  border-radius: 20px;
-  border: 3px solid var(--base-color);
-  background-color: --transparent(var(--base-color), 0.8);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "dashed-ident": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/dashed-ident",
@@ -50533,327 +48555,6 @@ p {
                     }
                   ]
                 },
-                "font-family": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-family",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-no-invalid-hex",
-                        'Unexpected invalid hex color "#POUND" (color-no-invalid-hex)',
-                        "font-family: #POUND, sans-serif;",
-                        "6:14 - 6:20",
-                        `/en-US/docs/Web/CSS/font-family
-[color-no-invalid-hex] Unexpected invalid hex color "#POUND" (color-no-invalid-hex)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "1911" for property "font-family" (declaration-property-value-no-unknown)',
-                        "font-family: Goudy Bookletter 1911, sans-serif;",
-                        "1:31 - 1:35",
-                        `/en-US/docs/Web/CSS/font-family
-[declaration-property-value-no-unknown] Unexpected unknown value "1911" for property "font-family" (declaration-property-value-no-unknown)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "/" for property "font-family" (declaration-property-value-no-unknown)',
-                        "font-family: Red/Black, sans-serif;",
-                        "2:17 - 2:18",
-                        `/en-US/docs/Web/CSS/font-family
-[declaration-property-value-no-unknown] Unexpected unknown value "/" for property "font-family" (declaration-property-value-no-unknown)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "Grande" for property "font-family" (declaration-property-value-no-unknown)',
-                        'font-family: "Lucida" Grande, sans-serif;',
-                        "3:23 - 3:29",
-                        `/en-US/docs/Web/CSS/font-family
-[declaration-property-value-no-unknown] Unexpected unknown value "Grande" for property "font-family" (declaration-property-value-no-unknown)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Cannot parse property value "Ahem!, sans-serif" for property "font-family" (declaration-property-value-no-unknown)',
-                        "font-family: Ahem!, sans-serif;",
-                        "4:14 - 4:31",
-                        `/en-US/docs/Web/CSS/font-family
-[declaration-property-value-no-unknown] Cannot parse property value "Ahem!, sans-serif" for property "font-family" (declaration-property-value-no-unknown)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Cannot parse property value "test@foo, sans-serif" for property "font-family" (declaration-property-value-no-unknown)',
-                        "font-family: test@foo, sans-serif;",
-                        "5:14 - 5:34",
-                        `/en-US/docs/Web/CSS/font-family
-[declaration-property-value-no-unknown] Cannot parse property value "test@foo, sans-serif" for property "font-family" (declaration-property-value-no-unknown)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "#POUND" for property "font-family" (declaration-property-value-no-unknown)',
-                        "font-family: #POUND, sans-serif;",
-                        "6:14 - 6:20",
-                        `/en-US/docs/Web/CSS/font-family
-[declaration-property-value-no-unknown] Unexpected unknown value "#POUND" for property "font-family" (declaration-property-value-no-unknown)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "5" for property "font-family" (declaration-property-value-no-unknown)',
-                        "font-family: Hawaii 5-0, sans-serif;",
-                        "7:21 - 7:22",
-                        `/en-US/docs/Web/CSS/font-family
-[declaration-property-value-no-unknown] Unexpected unknown value "5" for property "font-family" (declaration-property-value-no-unknown)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Goudy Bookletter sans-serif" (font-family-name-quotes)',
-                        "font-family: Goudy Bookletter 1911, sans-serif;",
-                        "1:1 - 1:48",
-                        `/en-US/docs/Web/CSS/font-family
-[font-family-name-quotes] Expected quotes around "Goudy Bookletter sans-serif" (font-family-name-quotes)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Red/Black" (font-family-name-quotes)',
-                        "font-family: Red/Black, sans-serif;",
-                        "2:14 - 2:23",
-                        `/en-US/docs/Web/CSS/font-family
-[font-family-name-quotes] Expected quotes around "Red/Black" (font-family-name-quotes)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Ahem!" (font-family-name-quotes)',
-                        "font-family: Ahem!, sans-serif;",
-                        "4:14 - 4:19",
-                        `/en-US/docs/Web/CSS/font-family
-[font-family-name-quotes] Expected quotes around "Ahem!" (font-family-name-quotes)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "test@foo" (font-family-name-quotes)',
-                        "font-family: test@foo, sans-serif;",
-                        "5:14 - 5:22",
-                        `/en-US/docs/Web/CSS/font-family
-[font-family-name-quotes] Expected quotes around "test@foo" (font-family-name-quotes)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "#POUND" (font-family-name-quotes)',
-                        "font-family: #POUND, sans-serif;",
-                        "6:14 - 6:20",
-                        `/en-US/docs/Web/CSS/font-family
-[font-family-name-quotes] Expected quotes around "#POUND" (font-family-name-quotes)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "Hawaii 5-0" (font-family-name-quotes)',
-                        "font-family: Hawaii 5-0, sans-serif;",
-                        "7:14 - 7:24",
-                        `/en-US/docs/Web/CSS/font-family
-[font-family-name-quotes] Expected quotes around "Hawaii 5-0" (font-family-name-quotes)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-no-missing-generic-family-keyword",
-                        "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                        "font-family: Goudy Bookletter 1911, sans-serif;",
-                        "1:14 - 1:19",
-                        `/en-US/docs/Web/CSS/font-family
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "font-palette": {
                   children: {
                     "palette-mix": {
@@ -50907,659 +48608,6 @@ p {
                       ]
                     }
                   }
-                },
-                "font-stretch": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-stretch",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-weight-notation",
-                        'Expected "400" to be "normal" (font-weight-notation)',
-                        "  font-weight: 400;",
-                        "5:16 - 5:19",
-                        `/en-US/docs/Web/CSS/font-stretch
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@font-face {
-  src: url("/shared-assets/fonts/LeagueMono-VF.ttf") format("truetype");
-  font-family: "League";
-  font-style: normal;
-  font-weight: 400;
-  font-stretch: 50% 200%; /* Required by Chrome - allow 50% to 200% */
-}
-
-section {
-  font-size: 1.2em;
-  font-family: "League", sans-serif;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "font-synthesis": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-synthesis",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-weight-notation",
-                        'Expected "400" to be "normal" (font-weight-notation)',
-                        "  font-weight: 400;",
-                        "4:16 - 4:19",
-                        `/en-US/docs/Web/CSS/font-synthesis
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Oxygen";
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.gstatic.com/s/oxygen/v14/2sDfZG1Wl4LcnbuKjk0m.woff2")
-    format("woff2");
-}
-
-/* [108] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.108.woff2")
-    format("woff2");
-}
-/* [110] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.110.woff2")
-    format("woff2");
-}
-/* [117] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.117.woff2")
-    format("woff2");
-}
-/* [118] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.118.woff2")
-    format("woff2");
-}
-/* [119] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.119.woff2")
-    format("woff2");
-}
-
-.english {
-  font-size: 1.2em;
-  font-family: "Oxygen", sans-serif;
-}
-
-.chinese {
-  font-size: 1.2em;
-  font-family: "Ma Shan Zheng", cursive;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.small-caps {
-  font-variant: small-caps;
-}
-
-.sub {
-  font-variant: sub;
-}
-
-.sup {
-  font-variant: super;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-weight-notation",
-                        'Expected "400" to be "normal" (font-weight-notation)',
-                        "  font-weight: 400;",
-                        "13:16 - 13:19",
-                        `/en-US/docs/Web/CSS/font-synthesis
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Oxygen";
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.gstatic.com/s/oxygen/v14/2sDfZG1Wl4LcnbuKjk0m.woff2")
-    format("woff2");
-}
-
-/* [108] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.108.woff2")
-    format("woff2");
-}
-/* [110] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.110.woff2")
-    format("woff2");
-}
-/* [117] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.117.woff2")
-    format("woff2");
-}
-/* [118] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.118.woff2")
-    format("woff2");
-}
-/* [119] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.119.woff2")
-    format("woff2");
-}
-
-.english {
-  font-size: 1.2em;
-  font-family: "Oxygen", sans-serif;
-}
-
-.chinese {
-  font-size: 1.2em;
-  font-family: "Ma Shan Zheng", cursive;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.small-caps {
-  font-variant: small-caps;
-}
-
-.sub {
-  font-variant: sub;
-}
-
-.sup {
-  font-variant: super;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-weight-notation",
-                        'Expected "400" to be "normal" (font-weight-notation)',
-                        "  font-weight: 400;",
-                        "22:16 - 22:19",
-                        `/en-US/docs/Web/CSS/font-synthesis
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Oxygen";
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.gstatic.com/s/oxygen/v14/2sDfZG1Wl4LcnbuKjk0m.woff2")
-    format("woff2");
-}
-
-/* [108] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.108.woff2")
-    format("woff2");
-}
-/* [110] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.110.woff2")
-    format("woff2");
-}
-/* [117] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.117.woff2")
-    format("woff2");
-}
-/* [118] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.118.woff2")
-    format("woff2");
-}
-/* [119] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.119.woff2")
-    format("woff2");
-}
-
-.english {
-  font-size: 1.2em;
-  font-family: "Oxygen", sans-serif;
-}
-
-.chinese {
-  font-size: 1.2em;
-  font-family: "Ma Shan Zheng", cursive;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.small-caps {
-  font-variant: small-caps;
-}
-
-.sub {
-  font-variant: sub;
-}
-
-.sup {
-  font-variant: super;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-weight-notation",
-                        'Expected "400" to be "normal" (font-weight-notation)',
-                        "  font-weight: 400;",
-                        "31:16 - 31:19",
-                        `/en-US/docs/Web/CSS/font-synthesis
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Oxygen";
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.gstatic.com/s/oxygen/v14/2sDfZG1Wl4LcnbuKjk0m.woff2")
-    format("woff2");
-}
-
-/* [108] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.108.woff2")
-    format("woff2");
-}
-/* [110] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.110.woff2")
-    format("woff2");
-}
-/* [117] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.117.woff2")
-    format("woff2");
-}
-/* [118] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.118.woff2")
-    format("woff2");
-}
-/* [119] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.119.woff2")
-    format("woff2");
-}
-
-.english {
-  font-size: 1.2em;
-  font-family: "Oxygen", sans-serif;
-}
-
-.chinese {
-  font-size: 1.2em;
-  font-family: "Ma Shan Zheng", cursive;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.small-caps {
-  font-variant: small-caps;
-}
-
-.sub {
-  font-variant: sub;
-}
-
-.sup {
-  font-variant: super;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-weight-notation",
-                        'Expected "400" to be "normal" (font-weight-notation)',
-                        "  font-weight: 400;",
-                        "40:16 - 40:19",
-                        `/en-US/docs/Web/CSS/font-synthesis
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Oxygen";
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.gstatic.com/s/oxygen/v14/2sDfZG1Wl4LcnbuKjk0m.woff2")
-    format("woff2");
-}
-
-/* [108] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.108.woff2")
-    format("woff2");
-}
-/* [110] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.110.woff2")
-    format("woff2");
-}
-/* [117] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.117.woff2")
-    format("woff2");
-}
-/* [118] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.118.woff2")
-    format("woff2");
-}
-/* [119] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.119.woff2")
-    format("woff2");
-}
-
-.english {
-  font-size: 1.2em;
-  font-family: "Oxygen", sans-serif;
-}
-
-.chinese {
-  font-size: 1.2em;
-  font-family: "Ma Shan Zheng", cursive;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.small-caps {
-  font-variant: small-caps;
-}
-
-.sub {
-  font-variant: sub;
-}
-
-.sup {
-  font-variant: super;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-weight-notation",
-                        'Expected "400" to be "normal" (font-weight-notation)',
-                        "  font-weight: 400;",
-                        "49:16 - 49:19",
-                        `/en-US/docs/Web/CSS/font-synthesis
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Oxygen";
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.gstatic.com/s/oxygen/v14/2sDfZG1Wl4LcnbuKjk0m.woff2")
-    format("woff2");
-}
-
-/* [108] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.108.woff2")
-    format("woff2");
-}
-/* [110] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.110.woff2")
-    format("woff2");
-}
-/* [117] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.117.woff2")
-    format("woff2");
-}
-/* [118] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.118.woff2")
-    format("woff2");
-}
-/* [119] */
-@font-face {
-  font-family: "Ma Shan Zheng";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("https://fonts.gstatic.com/s/mashanzheng/v10/NaPecZTRCLxvwo41b4gvzkXaRMGEFoZJFdX0wQ5Xo5Hr21L9zCcRFhbSe5Nk0pIMuUkHEA.119.woff2")
-    format("woff2");
-}
-
-.english {
-  font-size: 1.2em;
-  font-family: "Oxygen", sans-serif;
-}
-
-.chinese {
-  font-size: 1.2em;
-  font-family: "Ma Shan Zheng", cursive;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.small-caps {
-  font-variant: small-caps;
-}
-
-.sub {
-  font-variant: sub;
-}
-
-.sup {
-  font-variant: super;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "font-variant-numeric": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font-variant-numeric",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-weight-notation",
-                        'Expected "400" to be "normal" (font-weight-notation)',
-                        "  font-weight: 400;",
-                        "5:16 - 5:19",
-                        `/en-US/docs/Web/CSS/font-variant-numeric
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Source Sans Pro";
-  src: url("https://mdn.github.io/shared-assets/fonts/SourceSansPro-Regular.otf")
-    format("opentype");
-  font-weight: 400;
-  font-style: normal;
-}
-
-.ordinal {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 2rem;
-  font-variant-numeric: ordinal;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
                 },
                 frequency: {
                   children: {},
@@ -56325,81 +53373,6 @@ p {
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    }
-                  ]
-                },
-                "interpolate-size": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/interpolate-size",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "font-weight-notation",
-                        'Expected "400" to be "normal" (font-weight-notation)',
-                        "  font-weight: 400;",
-                        "26:16 - 26:19",
-                        `/en-US/docs/Web/CSS/interpolate-size
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-section {
-  font-family: "Helvetica", "Arial", sans-serif;
-  width: 175px;
-  border-radius: 5px;
-  background: #eeeeee;
-  box-shadow:
-    inset 1px 1px 4px rgb(255 255 255 / 0.5),
-    inset -1px -1px 4px rgb(0 0 0 / 0.5);
-}
-
-header {
-  padding: 0.7rem;
-  border-bottom: 2px solid #cccccc;
-}
-
-main {
-  padding: 10px;
-}
-
-h2 {
-  margin: 0;
-  font-weight: 400;
-  font-size: 1.1rem;
-  text-align: center;
-  letter-spacing: 1px;
-}
-
-p,
-li {
-  font-size: 0.8rem;
-  line-height: 1.5;
-}
-
-p {
-  margin-top: 0;
-}
-
-:root {
-  interpolate-size: allow-keywords;
-}
-
-section {
-  height: 2.5rem;
-  overflow: hidden;
-  transition: height ease 1s;
-}
-
-section:hover,
-section:focus {
-  height: max-content;
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -61444,53 +58417,6 @@ background-color: attr(data-background type(<color>), red);
                     {
                       message: "CSS code issue",
                       data: [
-                        "at-rule-no-unknown",
-                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                        "@function --color-choice(--color1 type(red | green), --color2 blue) {",
-                        "1:1 - 1:10",
-                        `/en-US/docs/Web/CSS/type
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --color-choice(--color1 type(red | green), --color2 blue) {
-  result: var(--color1);
-  @media (width < 700px) {
-    result: var(--color2);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "at-rule-no-unknown",
-                        'Unexpected unknown at-rule "@function" (at-rule-no-unknown)',
-                        "@function --combine-strings(--strings type(<string>+)) {",
-                        "1:1 - 1:10",
-                        `/en-US/docs/Web/CSS/type
-[at-rule-no-unknown] Unexpected unknown at-rule "@function" (at-rule-no-unknown)
-~~~
-@function --combine-strings(--strings type(<string>+)) {
-  result: var(--strings) " ❤️";
-}
-
-section {
-  font-family: system-ui;
-  background-color: lime;
-  padding: 20px;
-}
-
-section::after {
-  content: --combine-strings("hello" "goodbye");
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
                         "declaration-property-value-no-unknown",
                         'Unexpected unknown value "--combine-strings("hello" "goodbye")" for property "content" (declaration-property-value-no-unknown)',
                         '  content: --combine-strings("hello" "goodbye");',
@@ -62192,60 +59118,8 @@ because the nesting selector cannot represent pseudo-elements. */
                                   ]
                                 }
                               ]
-                            },
-                            color: {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTML/Reference/Elements/input/color",
-                              messages: [
-                                {
-                                  message: "Unexpected BCD keys",
-                                  data: [
-                                    "Actual:",
-                                    `html.elements.input.type_color
-html.elements.input.alpha
-html.elements.input.colorspace`,
-                                    "Expected:",
-                                    "html.elements.input.type_color"
-                                  ]
-                                }
-                              ]
                             }
                           }
-                        },
-                        kbd: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/kbd",
-                          messages: [
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "font-weight-notation",
-                                'Expected "700" to be "bold" (font-weight-notation)',
-                                "  font-weight: 700;",
-                                "11:16 - 11:19",
-                                `/en-US/docs/Web/HTML/Reference/Elements/kbd
-[font-weight-notation] Expected "700" to be "bold" (font-weight-notation)
-~~~
-kbd {
-  background-color: #eeeeee;
-  border-radius: 3px;
-  border: 1px solid #b4b4b4;
-  box-shadow:
-    0 1px 1px rgb(0 0 0 / 0.2),
-    0 2px 0 0 rgb(255 255 255 / 0.7) inset;
-  color: #333333;
-  display: inline-block;
-  font-size: 0.85em;
-  font-weight: 700;
-  line-height: 1;
-  padding: 2px 4px;
-  white-space: nowrap;
-}
-~~~
-`
-                              ]
-                            }
-                          ]
                         },
                         meta: {
                           children: {
@@ -62755,280 +59629,6 @@ http.headers.Use-As-Dictionary`,
             },
             security: {
               children: {
-                attacks: {
-                  children: {
-                    prototype_pollution: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Security/Attacks/Prototype_pollution",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-prototype-builtins",
-                            "Do not access Object.prototype method 'propertyIsEnumerable' from target object.",
-                            'mySet.propertyIsEnumerable("size");',
-                            "9:7 - 9:27",
-                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
-[no-prototype-builtins] Do not access Object.prototype method 'propertyIsEnumerable' from target object.
-~~~
-const mySet = new Set([1, 2, 3]);
-// prototype chain:
-// mySet -> Set.prototype -> Object.prototype -> null
-
-mySet.size;
-// 3
-// size is defined on the prototype of \`mySet\`, which is \`Set.prototype\`
-
-mySet.propertyIsEnumerable("size");
-// false
-// propertyIsEnumerable() is defined on the prototype
-// of \`Set.prototype\`, which is \`Object.prototype\`
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-extend-native",
-                            "Object prototype is read only, properties should not be added.",
-                            'Object.prototype.extra = "new property from the Object prototype!";',
-                            "4:1 - 4:67",
-                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
-[no-extend-native] Object prototype is read only, properties should not be added.
-~~~
-const mySet = new Set([1, 2, 3]);
-
-// modify the Object prototype at runtime
-Object.prototype.extra = "new property from the Object prototype!";
-
-// modify the Set prototype at runtime
-Set.prototype.other = "new property from the Set prototype!";
-
-mySet.extra;
-// "new property from the Object prototype!"
-
-mySet.other;
-// "new property from the Set prototype!"
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-extend-native",
-                            "Set prototype is read only, properties should not be added.",
-                            'Set.prototype.other = "new property from the Set prototype!";',
-                            "7:1 - 7:61",
-                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
-[no-extend-native] Set prototype is read only, properties should not be added.
-~~~
-const mySet = new Set([1, 2, 3]);
-
-// modify the Object prototype at runtime
-Object.prototype.extra = "new property from the Object prototype!";
-
-// modify the Set prototype at runtime
-Set.prototype.other = "new property from the Set prototype!";
-
-mySet.extra;
-// "new property from the Object prototype!"
-
-mySet.other;
-// "new property from the Set prototype!"
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "prefer-object-spread",
-                            "Use an object spread instead of `Object.assign` eg: `{ ...foo }`.",
-                            'const withDefaults = Object.assign({ mode: "cors" }, options);',
-                            "3:22 - 3:62",
-                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
-[prefer-object-spread] Use an object spread instead of \`Object.assign\` eg: \`{ ...foo }\`.
-~~~
-// Just an object with a property called \`__proto__\`
-const options = JSON.parse('{"__proto__": {"test": "value"}}');
-const withDefaults = Object.assign({ mode: "cors" }, options);
-// In the process of merging \`options\`, we indirectly executed
-// withDefaults.__proto__ = { test: "value" }, causing \`withDefaults\` to have
-// a different prototype
-console.log(withDefaults.test); // "value"
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-extend-native",
-                            "Object prototype is read only, properties should not be added.",
-                            'Object.prototype.body = "action=transfer&amount=1337&to=1337-1337-1337-1337";',
-                            "2:1 - 2:77",
-                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
-[no-extend-native] Object prototype is read only, properties should not be added.
-~~~
-// Attacker indirectly causes the following pollution
-Object.prototype.body = "action=transfer&amount=1337&to=1337-1337-1337-1337";
-Object.prototype.method = "POST";
-
-fetch("https://example.com", {
-  mode: "cors",
-});
-// Promise {status: "pending", body: "action=transfer&amount=1337&to=1337-1337-1337-1337", method: "POST"}
-
-// Any new object initialization is now modified to contain additional default properties
-console.log({}.method); // "POST"
-console.log({}.body); // "action=transfer&amount=1337&to=1337-1337-1337-1337"
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-extend-native",
-                            "Object prototype is read only, properties should not be added.",
-                            'Object.prototype.method = "POST";',
-                            "3:1 - 3:33",
-                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
-[no-extend-native] Object prototype is read only, properties should not be added.
-~~~
-// Attacker indirectly causes the following pollution
-Object.prototype.body = "action=transfer&amount=1337&to=1337-1337-1337-1337";
-Object.prototype.method = "POST";
-
-fetch("https://example.com", {
-  mode: "cors",
-});
-// Promise {status: "pending", body: "action=transfer&amount=1337&to=1337-1337-1337-1337", method: "POST"}
-
-// Any new object initialization is now modified to contain additional default properties
-console.log({}.method); // "POST"
-console.log({}.body); // "action=transfer&amount=1337&to=1337-1337-1337-1337"
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-extend-native",
-                            "Object prototype is read only, properties should not be added.",
-                            'Object.prototype.srcdoc = "<script>alert(1)<\\/script>";',
-                            "1:1 - 1:55",
-                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
-[no-extend-native] Object prototype is read only, properties should not be added.
-~~~
-Object.prototype.srcdoc = "<script>alert(1)<\\/script>";
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-useless-escape",
-                            "Unnecessary escape character: \\/.",
-                            'Object.prototype.srcdoc = "<script>alert(1)<\\/script>";',
-                            "1:45 - 1:46",
-                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
-[no-useless-escape] Unnecessary escape character: \\/.
-~~~
-Object.prototype.srcdoc = "<script>alert(1)<\\/script>";
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-useless-return",
-                            "Unnecessary return statement.",
-                            "    return;",
-                            "3:5 - 3:12",
-                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
-[no-useless-return] Unnecessary return statement.
-~~~
-function doDangerousAction(options = {}) {
-  if (!options.enableDangerousAction) {
-    return;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-useless-return",
-                            "Unnecessary return statement.",
-                            "    return;",
-                            "3:5 - 3:12",
-                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
-[no-useless-return] Unnecessary return statement.
-~~~
-function doDangerousAction(options = { enableDangerousAction: false }) {
-  if (!options.enableDangerousAction) {
-    return;
-  }
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-extend-native",
-                            "Object prototype is read only, properties should not be added.",
-                            'Object.prototype.method = "POST";',
-                            "1:1 - 1:33",
-                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
-[no-extend-native] Object prototype is read only, properties should not be added.
-~~~
-Object.prototype.method = "POST";
-
-// Still sends a GET request, because the object has no prototype
-fetch("https://example.com", {
-  __proto__: null,
-  mode: "cors",
-});
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-extend-native",
-                            "Object prototype is read only, properties should not be added.",
-                            "Object.prototype.admin = true;",
-                            "2:1 - 2:30",
-                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
-[no-extend-native] Object prototype is read only, properties should not be added.
-~~~
-// Assume Object got polluted somehow
-Object.prototype.admin = true;
-
-const config = new Map();
-config.set("admin", false);
-
-config.admin; // true
-config.get("admin"); // false
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 firefox_security_guidelines: {
                   children: {},
                   slug: "/en-US/docs/Web/Security/Firefox_Security_Guidelines",
