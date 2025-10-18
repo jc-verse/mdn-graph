@@ -1827,6 +1827,37 @@ for (let i = 0; i < keyframes.length; i++) {
   style="margin: 0 10px; background-color: #ccaa11; font-family: monospace"></div>
 ~~~
 
+/en-US/docs/Web/API/CSSStyleProperties
+[no-style-attr] Do not use the style attribute.
+~~~
+<div style="font-weight: bold;">
+  <div style="border-top: 3px solid blue; color: red;margin:5px;" id="elt">
+    Div content.
+    <br />
+    Inner: "border-top: 3px solid blue; color: red;margin:5px;".
+    <br />
+    Outer: "font-weight: bold;"
+  </div>
+</div>
+
+<pre id="log"></pre>
+~~~
+
+/en-US/docs/Web/API/CSSStyleProperties
+[no-style-attr] Do not use the style attribute.
+~~~
+<div style="font-weight: bold;">
+  <div style="border-top: 1px solid blue; color: red;" id="elt">
+    An example div
+  </div>
+</div>
+<button id="inline_style" type="button">Inline Style</button>
+<button id="computed_style" type="button">Computed Style</button>
+
+<button id="reset" type="button">Reset</button>
+<pre id="log"></pre>
+~~~
+
 /en-US/docs/Web/API/CSSStyleSheet/cssRules
 [@typescript-eslint/prefer-for-of] Expected a `for-of` loop instead of a `for` loop with this simple iteration.
 ~~~
@@ -1859,35 +1890,7 @@ worker.onmessage = (e) => {
 worker.postMessage({ cmd: "list" });
 ~~~
 
-/en-US/docs/Web/API/Document_Object_Model/Examples
-[no-style-attr] Do not use the style attribute.
-~~~
-<p>
-  Image 1: no height, width, or style
-  <img id="image1" src="https://www.mozilla.org/images/mozilla-banner.gif" />
-</p>
-
-<p>
-  Image 2: height="50", width="500", but no style
-  <img
-    id="image2"
-    src="https://www.mozilla.org/images/mozilla-banner.gif"
-    height="50"
-    width="500" />
-</p>
-
-<p>
-  Image 3: no height, width, but style="height: 50px; width: 500px;"
-  <img
-    id="image3"
-    src="https://www.mozilla.org/images/mozilla-banner.gif"
-    style="height: 50px; width: 500px;" />
-</p>
-
-<div id="output"></div>
-~~~
-
-/en-US/docs/Web/API/Document_Object_Model/Introduction
+/en-US/docs/Web/API/Document_Object_Model
 [no-inline-event-handlers] Do not use inline event handler "onload".
 ~~~
 <body onload="console.log('Welcome to my home page!');">
@@ -1895,7 +1898,7 @@ worker.postMessage({ cmd: "list" });
 </body>
 ~~~
 
-/en-US/docs/Web/API/Document_Object_Model/Introduction
+/en-US/docs/Web/API/Document_Object_Model
 [no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
 ~~~
 <html lang="en">
@@ -2129,6 +2132,34 @@ window.requestFileSystem(
 <textarea id="innerTextOutput" rows="6" cols="30" readonly>…</textarea>
 ~~~
 
+/en-US/docs/Web/API/HTMLImageElement
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+  Image 1: no height, width, or style
+  <img id="image1" src="https://www.mozilla.org/images/mozilla-banner.gif" />
+</p>
+
+<p>
+  Image 2: height="50", width="500", but no style
+  <img
+    id="image2"
+    src="https://www.mozilla.org/images/mozilla-banner.gif"
+    height="50"
+    width="500" />
+</p>
+
+<p>
+  Image 3: no height, width, but style="height: 50px; width: 500px;"
+  <img
+    id="image3"
+    src="https://www.mozilla.org/images/mozilla-banner.gif"
+    style="height: 50px; width: 500px;" />
+</p>
+
+<div id="output"></div>
+~~~
+
 /en-US/docs/Web/API/HTMLImageElement/border
 [no-style-attr] Do not use the style attribute.
 ~~~
@@ -2240,7 +2271,7 @@ await navigator.locks.request(
     <mi>x</mi>
   </mrow>
 </math>
-<pre id="out"></pre>
+<pre id="log"></pre>
 ~~~
 
 /en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element
@@ -3677,7 +3708,6 @@ p {
 [font-family-name-quotes] Expected quotes around "test@foo" (font-family-name-quotes)
 [font-family-name-quotes] Expected quotes around "#POUND" (font-family-name-quotes)
 [font-family-name-quotes] Expected quotes around "Hawaii 5-0" (font-family-name-quotes)
-~~~
 [font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
 ~~~
 font-family: Goudy Bookletter 1911, sans-serif;
@@ -6479,19 +6509,6 @@ const { a: numbers[0], b: numbers[1] } = obj;
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Operators/function
-[no-use-before-define] 'notHoisted' was used before it was defined.
-~~~
-console.log(notHoisted); // undefined
-// Even though the variable name is hoisted,
-// the definition isn't. so it's undefined.
-notHoisted(); // TypeError: notHoisted is not a function
-
-var notHoisted = function () {
-  console.log("bar");
-};
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Operators/function
 [no-func-assign] 'foo' is a function.
 ~~~
 "use strict";
@@ -6504,6 +6521,19 @@ console.log(foo); // 1
 (function foo() {
   foo = 1; // TypeError: Assignment to constant variable.
 })();
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Operators/function
+[no-use-before-define] 'notHoisted' was used before it was defined.
+~~~
+console.log(notHoisted); // undefined
+// Even though the variable name is hoisted,
+// the definition isn't. so it's undefined.
+notHoisted(); // TypeError: notHoisted is not a function
+
+var notHoisted = function () {
+  console.log("bar");
+};
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Operators/Grouping
@@ -6881,18 +6911,18 @@ do {
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Statements/export
-[syntax] Parsing error: Declaration or statement expected.
-~~~
-export DefaultExport from "bar.js"; // Invalid
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Statements/export
 [no-use-before-define] 'x' was used before it was defined.
 ~~~
 export { x };
 const x = 1;
 // This works, because `export` is only a declaration, but doesn't
 // utilize the value of `x`.
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/export
+[syntax] Parsing error: Declaration or statement expected.
+~~~
+export DefaultExport from "bar.js"; // Invalid
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Statements/Expression_statement
@@ -7099,6 +7129,70 @@ import * as myModule from "/modules/my-module.js";
 </html>
 ~~~
 
+/en-US/docs/Web/JavaScript/Reference/Statements/let
+[no-use-before-define] 'bar' was used before it was defined.
+[no-use-before-define] 'foo' was used before it was defined.
+~~~
+{
+  // TDZ starts at beginning of scope
+  console.log(bar); // "undefined"
+  console.log(foo); // ReferenceError: Cannot access 'foo' before initialization
+  var bar = 1;
+  let foo = 2; // End of TDZ (for foo)
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/let
+[no-use-before-define] 'foo' was used before it was defined.
+~~~
+function test() {
+  var foo = 33;
+  if (foo) {
+    let foo = foo + 55; // ReferenceError
+  }
+}
+test();
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/let
+[no-use-before-define] 'i' was used before it was defined.
+~~~
+{
+  typeof i; // ReferenceError: Cannot access 'i' before initialization
+  let i = 10;
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/let
+[no-use-before-define] 'letVar' was used before it was defined.
+~~~
+{
+  // TDZ starts at beginning of scope
+  const func = () => console.log(letVar); // OK
+
+  // Within the TDZ letVar access throws `ReferenceError`
+
+  let letVar = 3; // End of TDZ (for letVar)
+  func(); // Called outside TDZ!
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/let
+[no-use-before-define] 'n' was used before it was defined.
+~~~
+function go(n) {
+  // n here is defined!
+  console.log(n); // { a: [1, 2, 3] }
+
+  for (let n of n.a) {
+    //          ^ ReferenceError
+    console.log(n);
+  }
+}
+
+go({ a: [1, 2, 3] });
+~~~
+
 /en-US/docs/Web/JavaScript/Reference/Statements/throw
 [syntax] Parsing error: A throw statement must throw an expression.
 ~~~
@@ -7131,6 +7225,44 @@ try {
 ~~~
 try doSomething(); // SyntaxError
 catch (e) console.log(e);
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/using
+[no-use-before-define] 'resource' was used before it was defined.
+~~~
+let useResource;
+{
+  useResource = () => resource.getValue();
+  useResource(); // Error: Cannot access 'resource' before initialization
+  using resource = new Resource();
+  useResource(); // Valid
+}
+useResource(); // Error: Resource is disposed
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/var
+[no-use-before-define] 'bar' was used before it was defined.
+~~~
+function doSomething() {
+  console.log(bar); // undefined
+  var bar = 111;
+  console.log(bar); // 111
+}
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/var
+[no-use-before-define] 'bla' was used before it was defined.
+~~~
+bla = 2;
+var bla;
+~~~
+
+/en-US/docs/Web/JavaScript/Reference/Statements/var
+[no-use-before-define] 'y' was used before it was defined.
+~~~
+var x = y,
+  y = "A";
+console.log(x, y); // undefined A
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Statements/while
@@ -7187,108 +7319,6 @@ var x = 17;
 var evalX = eval("'use strict'; var x = 42; x;");
 console.assert(x === 17);
 console.assert(evalX === 42);
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Statements/let
-[no-use-before-define] 'bar' was used before it was defined.
-[no-use-before-define] 'foo' was used before it was defined.
-~~~
-{
-  // TDZ starts at beginning of scope
-  console.log(bar); // "undefined"
-  console.log(foo); // ReferenceError: Cannot access 'foo' before initialization
-  var bar = 1;
-  let foo = 2; // End of TDZ (for foo)
-}
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Statements/let
-[no-use-before-define] 'letVar' was used before it was defined.
-~~~
-{
-  // TDZ starts at beginning of scope
-  const func = () => console.log(letVar); // OK
-
-  // Within the TDZ letVar access throws `ReferenceError`
-
-  let letVar = 3; // End of TDZ (for letVar)
-  func(); // Called outside TDZ!
-}
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Statements/let
-[no-use-before-define] 'i' was used before it was defined.
-~~~
-{
-  typeof i; // ReferenceError: Cannot access 'i' before initialization
-  let i = 10;
-}
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Statements/let
-[no-use-before-define] 'foo' was used before it was defined.
-~~~
-function test() {
-  var foo = 33;
-  if (foo) {
-    let foo = foo + 55; // ReferenceError
-  }
-}
-test();
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Statements/let
-[no-use-before-define] 'n' was used before it was defined.
-~~~
-function go(n) {
-  // n here is defined!
-  console.log(n); // { a: [1, 2, 3] }
-
-  for (let n of n.a) {
-    //          ^ ReferenceError
-    console.log(n);
-  }
-}
-
-go({ a: [1, 2, 3] });
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Statements/using
-[no-use-before-define] 'resource' was used before it was defined.
-~~~
-let useResource;
-{
-  useResource = () => resource.getValue();
-  useResource(); // Error: Cannot access 'resource' before initialization
-  using resource = new Resource();
-  useResource(); // Valid
-}
-useResource(); // Error: Resource is disposed
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Statements/var
-[no-use-before-define] 'bla' was used before it was defined.
-~~~
-bla = 2;
-var bla;
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Statements/var
-[no-use-before-define] 'bar' was used before it was defined.
-~~~
-function doSomething() {
-  console.log(bar); // undefined
-  var bar = 111;
-  console.log(bar); // 111
-}
-~~~
-
-/en-US/docs/Web/JavaScript/Reference/Statements/var
-[no-use-before-define] 'y' was used before it was defined.
-~~~
-var x = y,
-  y = "A";
-console.log(x, y); // undefined A
 ~~~
 
 /en-US/docs/Web/JavaScript/Reference/Strict_mode
@@ -7394,6 +7424,61 @@ const bad = `bad escape sequence: \unicode`;
     navigator.serviceWorker.register("sw.js");
   }
 </script>
+~~~
+
+/en-US/docs/Web/Security/Attacks/Prototype_pollution
+[no-prototype-builtins] Do not access Object.prototype method 'propertyIsEnumerable' from target object.
+~~~
+const mySet = new Set([1, 2, 3]);
+// prototype chain:
+// mySet -> Set.prototype -> Object.prototype -> null
+
+mySet.size;
+// 3
+// size is defined on the prototype of `mySet`, which is `Set.prototype`
+
+mySet.propertyIsEnumerable("size");
+// false
+// propertyIsEnumerable() is defined on the prototype
+// of `Set.prototype`, which is `Object.prototype`
+~~~
+
+/en-US/docs/Web/Security/Attacks/Prototype_pollution
+[no-useless-escape] Unnecessary escape character: \/.
+~~~
+Object.prototype.srcdoc = "<script>alert(1)<\/script>";
+~~~
+
+/en-US/docs/Web/Security/Attacks/Prototype_pollution
+[no-useless-return] Unnecessary return statement.
+~~~
+function doDangerousAction(options = {}) {
+  if (!options.enableDangerousAction) {
+    return;
+  }
+}
+~~~
+
+/en-US/docs/Web/Security/Attacks/Prototype_pollution
+[no-useless-return] Unnecessary return statement.
+~~~
+function doDangerousAction(options = { enableDangerousAction: false }) {
+  if (!options.enableDangerousAction) {
+    return;
+  }
+}
+~~~
+
+/en-US/docs/Web/Security/Attacks/Prototype_pollution
+[prefer-object-spread] Use an object spread instead of `Object.assign` eg: `{ ...foo }`.
+~~~
+// Just an object with a property called `__proto__`
+const options = JSON.parse('{"__proto__": {"test": "value"}}');
+const withDefaults = Object.assign({ mode: "cors" }, options);
+// In the process of merging `options`, we indirectly executed
+// withDefaults.__proto__ = { test: "value" }, causing `withDefaults` to have
+// a different prototype
+console.log(withDefaults.test); // "value"
 ~~~
 
 /en-US/docs/Web/Security/Attacks/XSS

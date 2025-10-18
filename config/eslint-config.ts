@@ -481,7 +481,10 @@ export default [
     rules: { "no-shadow-restricted-names": "off" },
   },
   {
-    files: ["Web/JavaScript/Reference/Errors/BigInt_not_serializable/*"],
+    files: [
+      "Web/JavaScript/Reference/Errors/BigInt_not_serializable/*",
+      "Web/Security/Attacks/Prototype_pollution/*",
+    ],
     rules: { "no-extend-native": "off" },
   },
   {

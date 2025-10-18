@@ -122,7 +122,6 @@ browser_specific_settings.gecko.id
 storage.managed_schema
 
 dom.events.script_execute.enable
-dom.performance.event_timing.enable_interactionid
 dom.security.trusted_types.enabled
 image.avif.compliance_strictness
 javascript.options.atomics_wait_async

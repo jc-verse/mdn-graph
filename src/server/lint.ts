@@ -337,7 +337,6 @@ function reportIfUnexpected(
     path,
     [
       "alpha-value-notation",
-      "font-weight-notation",
       "hue-degree-notation",
       "lightness-notation",
       "declaration-block-no-redundant-longhand-properties",

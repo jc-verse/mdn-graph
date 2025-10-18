@@ -111,7 +111,6 @@
 
 /en-US/docs/Web/MathML/Reference/Global_attributes/autofocus
 /en-US/docs/Web/MathML/Reference/Global_attributes/class
-/en-US/docs/Web/MathML/Reference/Global_attributes/data-*
 /en-US/docs/Web/MathML/Reference/Global_attributes/id
 /en-US/docs/Web/MathML/Reference/Global_attributes/nonce
 /en-US/docs/Web/MathML/Reference/Global_attributes/style
@@ -123,7 +122,6 @@
 /en-US/docs/Web/SVG/Reference/Attribute/ping
 /en-US/docs/Web/SVG/Reference/Attribute/referrerPolicy
 /en-US/docs/Web/SVG/Reference/Attribute/rel
-/en-US/docs/Web/SVG/Reference/Attribute/requiredExtensions
 /en-US/docs/Web/SVG/Reference/Attribute/title
 
 /en-US/docs/Web/SVG/Reference/Attribute/xlink:actuate

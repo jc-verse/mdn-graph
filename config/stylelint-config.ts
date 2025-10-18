@@ -190,6 +190,7 @@ const languageOptions = {
       "cross-fade()": "| cross-fade( <image> , <image> , <percentage> )",
       "-webkit-cross-fade()":
         "-webkit-cross-fade( <image> , <image> , <percentage> )",
+      "generic-family": "| caption | status-bar",
     },
   },
 };
@@ -257,6 +258,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
           ignoreAtRules: [
             // NEW
             "color-profile",
+            "function",
           ],
         },
       ],

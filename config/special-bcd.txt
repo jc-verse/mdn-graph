@@ -72,6 +72,7 @@
 /en-US/docs/Web/CSS/system-color	css.types.color.system-color
 
 /en-US/docs/Web/HTML/Reference/Elements/Heading_Elements	html.elements.h1,html.elements.h2,html.elements.h3,html.elements.h4,html.elements.h5,html.elements.h6
+/en-US/docs/Web/HTML/Reference/Elements/input/color	html.elements.input.type_color,html.elements.input.alpha,html.elements.input.colorspace
 
 /en-US/docs/Web/JavaScript/Reference/Classes	javascript.classes
 /en-US/docs/Web/JavaScript/Reference/Functions	javascript.functions

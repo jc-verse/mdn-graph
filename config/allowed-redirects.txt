@@ -29,3 +29,4 @@ https://github.com/mdn/curriculum/releases/latest/download/MDN-Curriculum.pdf	ht
 https://github.com/{([^/]+)}/{([^/]+)}/archive/{(\w+)}.zip	https://codeload.github.com/$1/$2/zip/refs/heads/$3
 
 https://mdn.dev/discord	https://discord.com/invite/{[A-Za-z0-9]+}
+https://www.thunderbird.net/download/{(.*)}	https://www.thunderbird.net/en-US/download/$1
