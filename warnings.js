@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-cs0hqvbz.js";
+} from "./chunk-5cw6m42z.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -20,6 +20,27 @@ var warnings_processed_default = {
                   ]
                 }
               ]
+            },
+            techniques: {
+              children: {
+                control_mechanisms: {
+                  children: {
+                    other: {
+                      children: {},
+                      slug: "/en-US/docs/Games/Techniques/Control_mechanisms/Other",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cylonjs.com/documentation/drivers/makey-button/",
+                            "Unable to connect. Is the computer able to access the url?"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
             },
             tools: {
               children: {
@@ -46,13 +67,6 @@ var warnings_processed_default = {
               },
               slug: "/en-US/docs/Games/Tools",
               messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
                 {
                   message: "HTTP link",
                   data: [
@@ -297,19 +311,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            css_preprocessor: {
-              children: {},
-              slug: "/en-US/docs/Glossary/CSS_preprocessor",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://stylus-lang.com/",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -903,16 +904,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            inheritance: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Inheritance",
-              messages: [
-                {
-                  message: "Unreachable via page",
-                  data: []
-                }
-              ]
-            },
             instance: {
               children: {},
               slug: "/en-US/docs/Glossary/Instance",
@@ -930,19 +921,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            lgpl: {
-              children: {},
-              slug: "/en-US/docs/Glossary/LGPL",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.gnu.org/licenses/lgpl-3.0.html",
-                    "The operation timed out."
-                  ]
                 }
               ]
             },
@@ -2230,8 +2208,8 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://ember-service-worker.com/",
-                            502
+                            "https://empress-blog.netlify.app/welcome/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -2253,13 +2231,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/tutorial/part-1/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -4902,13 +4873,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://stylus-lang.com/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -6054,941 +6018,6 @@ span {
     url("https://mdn.github.io/shared-assets/images/examples/big-star.png")
       center no-repeat,
     rebeccapurple;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    home_color_scheme_search: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Home_color_scheme_search",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "6:16 - 6:21",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Home_color_scheme_search
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  margin: 0 10px;
-}
-
-hr {
-  margin: 3em 0;
-}
-
-h2 {
-  margin-top: 0;
-}
-
-/* Prev/next control layout */
-
-.controls {
-  display: flex;
-  padding: 10px 0;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* Form and button styling */
-
-form div {
-  display: flex;
-  align-items: center;
-  gap: 2em;
-  margin-bottom: 1em;
-}
-
-label {
-  text-align: right;
-  flex: 1;
-}
-
-input {
-  flex: 3;
-}
-
-/* Table styling */
-
-table img {
-  width: 100%;
-  height: 150px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "6:23 - 6:32",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Home_color_scheme_search
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  margin: 0 10px;
-}
-
-hr {
-  margin: 3em 0;
-}
-
-h2 {
-  margin-top: 0;
-}
-
-/* Prev/next control layout */
-
-.controls {
-  display: flex;
-  padding: 10px 0;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* Form and button styling */
-
-form div {
-  display: flex;
-  align-items: center;
-  gap: 2em;
-  margin-bottom: 1em;
-}
-
-label {
-  text-align: right;
-  flex: 1;
-}
-
-input {
-  flex: 3;
-}
-
-/* Table styling */
-
-table img {
-  width: 100%;
-  height: 150px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(255 192 203)" to be "pink" (color-named)',
-                            "  background-color: rgb(255 192 203);",
-                            "122:21 - 122:37",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Home_color_scheme_search
-[color-named] Expected "rgb(255 192 203)" to be "pink" (color-named)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  margin: 0 10px;
-}
-
-hr {
-  margin: 3em 0;
-}
-
-h2 {
-  margin-top: 0;
-}
-
-/* Prev/next control layout */
-
-.controls {
-  display: flex;
-  padding: 10px 0;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* Form and button styling */
-
-form div {
-  display: flex;
-  align-items: center;
-  gap: 2em;
-  margin-bottom: 1em;
-}
-
-label {
-  text-align: right;
-  flex: 1;
-}
-
-/* Solution: Add a form reset */
-
-button,
-input {
-  font-family: inherit;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-input {
-  flex: 3;
-  /* Solution: Style the form inputs */
-  border: 2px solid #999999;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-/* Solution: Style the buttons */
-
-button {
-  background-color: black;
-  border: none;
-  color: white;
-  border-radius: 5px;
-  padding: 10px 2em;
-}
-
-button:hover,
-button:focus {
-  background-color: #666666;
-}
-
-button:disabled {
-  background-color: #aaaaaa;
-}
-
-/* Table styling */
-
-table img {
-  width: 100%;
-  height: 150px;
-  /* Solution: Fixing the image display */
-  object-fit: cover;
-  object-position: bottom;
-}
-
-/* Solution: Style the table */
-
-table {
-  table-layout: fixed;
-  width: 100%;
-  border-collapse: collapse;
-  border-top: 1px solid #999999;
-  border-bottom: 1px solid #999999;
-}
-
-th,
-td {
-  vertical-align: top;
-  padding: 0.6em;
-}
-
-th {
-  border-bottom: 1px solid #999999;
-}
-
-tr {
-  width: 20%;
-}
-
-tr :nth-of-type(4) {
-  width: 40%;
-}
-
-/* Solution: Provide background colors for the "Raw color" cells */
-
-tr:nth-of-type(1) td:nth-of-type(2) {
-  background-color: rgb(255 192 203);
-}
-
-tr:nth-of-type(2) td:nth-of-type(2) {
-  background-color: rgb(255 145 175);
-}
-
-tr:nth-of-type(3) td:nth-of-type(2) {
-  background-color: rgb(255 105 180);
-}
-
-tr:nth-of-type(4) td:nth-of-type(2) {
-  background-color: rgb(255 0 255);
-}
-
-tbody tr:nth-child(odd) {
-  background-color: #eeeeee;
-}
-
-caption {
-  padding: 1em;
-  font-style: italic;
-  letter-spacing: 1px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(255 105 180)" to be "hotpink" (color-named)',
-                            "  background-color: rgb(255 105 180);",
-                            "130:21 - 130:37",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Home_color_scheme_search
-[color-named] Expected "rgb(255 105 180)" to be "hotpink" (color-named)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  margin: 0 10px;
-}
-
-hr {
-  margin: 3em 0;
-}
-
-h2 {
-  margin-top: 0;
-}
-
-/* Prev/next control layout */
-
-.controls {
-  display: flex;
-  padding: 10px 0;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* Form and button styling */
-
-form div {
-  display: flex;
-  align-items: center;
-  gap: 2em;
-  margin-bottom: 1em;
-}
-
-label {
-  text-align: right;
-  flex: 1;
-}
-
-/* Solution: Add a form reset */
-
-button,
-input {
-  font-family: inherit;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-input {
-  flex: 3;
-  /* Solution: Style the form inputs */
-  border: 2px solid #999999;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-/* Solution: Style the buttons */
-
-button {
-  background-color: black;
-  border: none;
-  color: white;
-  border-radius: 5px;
-  padding: 10px 2em;
-}
-
-button:hover,
-button:focus {
-  background-color: #666666;
-}
-
-button:disabled {
-  background-color: #aaaaaa;
-}
-
-/* Table styling */
-
-table img {
-  width: 100%;
-  height: 150px;
-  /* Solution: Fixing the image display */
-  object-fit: cover;
-  object-position: bottom;
-}
-
-/* Solution: Style the table */
-
-table {
-  table-layout: fixed;
-  width: 100%;
-  border-collapse: collapse;
-  border-top: 1px solid #999999;
-  border-bottom: 1px solid #999999;
-}
-
-th,
-td {
-  vertical-align: top;
-  padding: 0.6em;
-}
-
-th {
-  border-bottom: 1px solid #999999;
-}
-
-tr {
-  width: 20%;
-}
-
-tr :nth-of-type(4) {
-  width: 40%;
-}
-
-/* Solution: Provide background colors for the "Raw color" cells */
-
-tr:nth-of-type(1) td:nth-of-type(2) {
-  background-color: rgb(255 192 203);
-}
-
-tr:nth-of-type(2) td:nth-of-type(2) {
-  background-color: rgb(255 145 175);
-}
-
-tr:nth-of-type(3) td:nth-of-type(2) {
-  background-color: rgb(255 105 180);
-}
-
-tr:nth-of-type(4) td:nth-of-type(2) {
-  background-color: rgb(255 0 255);
-}
-
-tbody tr:nth-child(odd) {
-  background-color: #eeeeee;
-}
-
-caption {
-  padding: 1em;
-  font-style: italic;
-  letter-spacing: 1px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "color-named",
-                            'Expected "rgb(255 0 255)" to be "fuchsia" (color-named)',
-                            "  background-color: rgb(255 0 255);",
-                            "134:21 - 134:35",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Home_color_scheme_search
-[color-named] Expected "rgb(255 0 255)" to be "fuchsia" (color-named)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  margin: 0 10px;
-}
-
-hr {
-  margin: 3em 0;
-}
-
-h2 {
-  margin-top: 0;
-}
-
-/* Prev/next control layout */
-
-.controls {
-  display: flex;
-  padding: 10px 0;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* Form and button styling */
-
-form div {
-  display: flex;
-  align-items: center;
-  gap: 2em;
-  margin-bottom: 1em;
-}
-
-label {
-  text-align: right;
-  flex: 1;
-}
-
-/* Solution: Add a form reset */
-
-button,
-input {
-  font-family: inherit;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-input {
-  flex: 3;
-  /* Solution: Style the form inputs */
-  border: 2px solid #999999;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-/* Solution: Style the buttons */
-
-button {
-  background-color: black;
-  border: none;
-  color: white;
-  border-radius: 5px;
-  padding: 10px 2em;
-}
-
-button:hover,
-button:focus {
-  background-color: #666666;
-}
-
-button:disabled {
-  background-color: #aaaaaa;
-}
-
-/* Table styling */
-
-table img {
-  width: 100%;
-  height: 150px;
-  /* Solution: Fixing the image display */
-  object-fit: cover;
-  object-position: bottom;
-}
-
-/* Solution: Style the table */
-
-table {
-  table-layout: fixed;
-  width: 100%;
-  border-collapse: collapse;
-  border-top: 1px solid #999999;
-  border-bottom: 1px solid #999999;
-}
-
-th,
-td {
-  vertical-align: top;
-  padding: 0.6em;
-}
-
-th {
-  border-bottom: 1px solid #999999;
-}
-
-tr {
-  width: 20%;
-}
-
-tr :nth-of-type(4) {
-  width: 40%;
-}
-
-/* Solution: Provide background colors for the "Raw color" cells */
-
-tr:nth-of-type(1) td:nth-of-type(2) {
-  background-color: rgb(255 192 203);
-}
-
-tr:nth-of-type(2) td:nth-of-type(2) {
-  background-color: rgb(255 145 175);
-}
-
-tr:nth-of-type(3) td:nth-of-type(2) {
-  background-color: rgb(255 105 180);
-}
-
-tr:nth-of-type(4) td:nth-of-type(2) {
-  background-color: rgb(255 0 255);
-}
-
-tbody tr:nth-child(odd) {
-  background-color: #eeeeee;
-}
-
-caption {
-  padding: 1em;
-  font-style: italic;
-  letter-spacing: 1px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Arial" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "6:16 - 6:21",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Home_color_scheme_search
-[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  margin: 0 10px;
-}
-
-hr {
-  margin: 3em 0;
-}
-
-h2 {
-  margin-top: 0;
-}
-
-/* Prev/next control layout */
-
-.controls {
-  display: flex;
-  padding: 10px 0;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* Form and button styling */
-
-form div {
-  display: flex;
-  align-items: center;
-  gap: 2em;
-  margin-bottom: 1em;
-}
-
-label {
-  text-align: right;
-  flex: 1;
-}
-
-/* Solution: Add a form reset */
-
-button,
-input {
-  font-family: inherit;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-input {
-  flex: 3;
-  /* Solution: Style the form inputs */
-  border: 2px solid #999999;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-/* Solution: Style the buttons */
-
-button {
-  background-color: black;
-  border: none;
-  color: white;
-  border-radius: 5px;
-  padding: 10px 2em;
-}
-
-button:hover,
-button:focus {
-  background-color: #666666;
-}
-
-button:disabled {
-  background-color: #aaaaaa;
-}
-
-/* Table styling */
-
-table img {
-  width: 100%;
-  height: 150px;
-  /* Solution: Fixing the image display */
-  object-fit: cover;
-  object-position: bottom;
-}
-
-/* Solution: Style the table */
-
-table {
-  table-layout: fixed;
-  width: 100%;
-  border-collapse: collapse;
-  border-top: 1px solid #999999;
-  border-bottom: 1px solid #999999;
-}
-
-th,
-td {
-  vertical-align: top;
-  padding: 0.6em;
-}
-
-th {
-  border-bottom: 1px solid #999999;
-}
-
-tr {
-  width: 20%;
-}
-
-tr :nth-of-type(4) {
-  width: 40%;
-}
-
-/* Solution: Provide background colors for the "Raw color" cells */
-
-tr:nth-of-type(1) td:nth-of-type(2) {
-  background-color: rgb(255 192 203);
-}
-
-tr:nth-of-type(2) td:nth-of-type(2) {
-  background-color: rgb(255 145 175);
-}
-
-tr:nth-of-type(3) td:nth-of-type(2) {
-  background-color: rgb(255 105 180);
-}
-
-tr:nth-of-type(4) td:nth-of-type(2) {
-  background-color: rgb(255 0 255);
-}
-
-tbody tr:nth-child(odd) {
-  background-color: #eeeeee;
-}
-
-caption {
-  padding: 1em;
-  font-style: italic;
-  letter-spacing: 1px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "Helvetica" (font-family-name-quotes)',
-                            "  font-family: Arial, Helvetica, sans-serif;",
-                            "6:23 - 6:32",
-                            `/en-US/docs/Learn_web_development/Core/Styling_basics/Home_color_scheme_search
-[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  margin: 0 10px;
-}
-
-hr {
-  margin: 3em 0;
-}
-
-h2 {
-  margin-top: 0;
-}
-
-/* Prev/next control layout */
-
-.controls {
-  display: flex;
-  padding: 10px 0;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* Form and button styling */
-
-form div {
-  display: flex;
-  align-items: center;
-  gap: 2em;
-  margin-bottom: 1em;
-}
-
-label {
-  text-align: right;
-  flex: 1;
-}
-
-/* Solution: Add a form reset */
-
-button,
-input {
-  font-family: inherit;
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-}
-
-input {
-  flex: 3;
-  /* Solution: Style the form inputs */
-  border: 2px solid #999999;
-  padding: 10px;
-  border-radius: 5px;
-}
-
-/* Solution: Style the buttons */
-
-button {
-  background-color: black;
-  border: none;
-  color: white;
-  border-radius: 5px;
-  padding: 10px 2em;
-}
-
-button:hover,
-button:focus {
-  background-color: #666666;
-}
-
-button:disabled {
-  background-color: #aaaaaa;
-}
-
-/* Table styling */
-
-table img {
-  width: 100%;
-  height: 150px;
-  /* Solution: Fixing the image display */
-  object-fit: cover;
-  object-position: bottom;
-}
-
-/* Solution: Style the table */
-
-table {
-  table-layout: fixed;
-  width: 100%;
-  border-collapse: collapse;
-  border-top: 1px solid #999999;
-  border-bottom: 1px solid #999999;
-}
-
-th,
-td {
-  vertical-align: top;
-  padding: 0.6em;
-}
-
-th {
-  border-bottom: 1px solid #999999;
-}
-
-tr {
-  width: 20%;
-}
-
-tr :nth-of-type(4) {
-  width: 40%;
-}
-
-/* Solution: Provide background colors for the "Raw color" cells */
-
-tr:nth-of-type(1) td:nth-of-type(2) {
-  background-color: rgb(255 192 203);
-}
-
-tr:nth-of-type(2) td:nth-of-type(2) {
-  background-color: rgb(255 145 175);
-}
-
-tr:nth-of-type(3) td:nth-of-type(2) {
-  background-color: rgb(255 105 180);
-}
-
-tr:nth-of-type(4) td:nth-of-type(2) {
-  background-color: rgb(255 0 255);
-}
-
-tbody tr:nth-child(odd) {
-  background-color: #eeeeee;
-}
-
-caption {
-  padding: 1em;
-  font-style: italic;
-  letter-spacing: 1px;
 }
 ~~~
 `
@@ -12993,19 +12022,6 @@ textarea:focus {
                 },
                 performance: {
                   children: {
-                    best_practices: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Best_practices",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/gzip/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     css: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/CSS",
@@ -13032,44 +12048,19 @@ textarea:focus {
                           ]
                         }
                       ]
-                    }
-                  }
-                },
-                "server-side": {
-                  children: {
-                    express_nodejs: {
-                      children: {
-                        skeleton_website: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://stylus-lang.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     },
-                    first_steps: {
-                      children: {
-                        "client-server_overview": {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://websniffer.com/",
-                                "The operation timed out."
-                              ]
-                            }
+                    video: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/video",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2018/10/video-playback-on-the-web-part-2/",
+                            "unknown certificate verification error"
                           ]
                         }
-                      }
+                      ]
                     }
                   }
                 },
@@ -13617,19 +12608,6 @@ body {
               children: {
                 your_first_website: {
                   children: {
-                    adding_interactivity: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Adding_interactivity",
-                      messages: [
-                        {
-                          message: "Redirected external link",
-                          data: [
-                            "https://github.com/mdn/beginner-html-site-styled/archive/refs/heads/main.zip",
-                            "https://codeload.github.com/mdn/beginner-html-site-styled/zip/refs/heads/main"
-                          ]
-                        }
-                      ]
-                    },
                     styling_the_content: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
@@ -13838,33 +12816,6 @@ html {
                 },
                 tools_and_setup: {
                   children: {
-                    available_text_editors: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/efaq.html",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -13872,19 +12823,6 @@ html {
                         {
                           message: "Unreachable via page",
                           data: []
-                        }
-                      ]
-                    },
-                    what_software_do_i_need: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/software/emacs/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -13980,6 +12918,19 @@ html {
                       data: []
                     }
                   ]
+                },
+                open_source_etiquette: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Community/Open_source_etiquette",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://stackoverflow.blog/2020/08/03/getting-started-with-contributing-to-open-source/",
+                        "unknown certificate verification error"
+                      ]
+                    }
+                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Community",
@@ -14024,13 +12975,6 @@ color: rgb(31 41 59);
 color: rgb(31 41 59 / 26%);
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://stylus-lang.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -14198,17 +13142,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "The operation timed out."
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "The operation timed out."
                                       ]
                                     }
                                   ]
@@ -14232,17 +13176,17 @@ color: rgb(31 41 59 / 26%);
                                       data: []
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "The operation timed out."
                                       ]
                                     },
                                     {
-                                      message: "HTTP link",
+                                      message: "Broken external link",
                                       data: [
                                         "http://www.softwareishard.com/blog/har-12-spec/",
-                                        ""
+                                        "The operation timed out."
                                       ]
                                     }
                                   ]
@@ -14251,10 +13195,10 @@ color: rgb(31 41 59 / 26%);
                               slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/devtools/network",
                               messages: [
                                 {
-                                  message: "HTTP link",
+                                  message: "Broken external link",
                                   data: [
                                     "http://www.softwareishard.com/blog/har-12-spec/",
-                                    ""
+                                    "The operation timed out."
                                   ]
                                 }
                               ]
@@ -16575,151 +15519,6 @@ api.MessagePort`,
                     }
                   ]
                 },
-                commandevent: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/CommandEvent",
-                  messages: [
-                    {
-                      message: "Self link",
-                      data: [
-                        "/en-US/docs/Web/API/CommandEvent"
-                      ]
-                    },
-                    {
-                      message: "JS code issue",
-                      data: [
-                        "radix",
-                        "Missing radix parameter.",
-                        '  let rotate = parseInt(event.target.style.rotate || "0");',
-                        "4:16 - 4:58",
-                        `/en-US/docs/Web/API/CommandEvent
-[radix] Missing radix parameter.
-~~~
-const image = document.getElementById("the-image");
-
-image.addEventListener("command", (event) => {
-  let rotate = parseInt(event.target.style.rotate || "0");
-  if (event.command == "--reset") {
-    rotate = 0;
-    event.target.style.rotate = \`\${rotate}deg\`;
-  } else if (event.command === "--rotate-left") {
-    rotate === -270 ? (rotate = 0) : (rotate = rotate - 90);
-    event.target.style.rotate = \`\${rotate}deg\`;
-  } else if (event.command === "--rotate-right") {
-    rotate === 270 ? (rotate = 0) : (rotate = rotate + 90);
-    event.target.style.rotate = \`\${rotate}deg\`;
-  }
-  event.target.alt = \`dinosaur head rotated \${rotate} degrees\`;
-});
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "JS code issue",
-                      data: [
-                        "eqeqeq",
-                        "Expected '===' and instead saw '=='.",
-                        '  if (event.command == "--reset") {',
-                        "5:21 - 5:23",
-                        `/en-US/docs/Web/API/CommandEvent
-[eqeqeq] Expected '===' and instead saw '=='.
-~~~
-const image = document.getElementById("the-image");
-
-image.addEventListener("command", (event) => {
-  let rotate = parseInt(event.target.style.rotate || "0");
-  if (event.command == "--reset") {
-    rotate = 0;
-    event.target.style.rotate = \`\${rotate}deg\`;
-  } else if (event.command === "--rotate-left") {
-    rotate === -270 ? (rotate = 0) : (rotate = rotate - 90);
-    event.target.style.rotate = \`\${rotate}deg\`;
-  } else if (event.command === "--rotate-right") {
-    rotate === 270 ? (rotate = 0) : (rotate = rotate + 90);
-    event.target.style.rotate = \`\${rotate}deg\`;
-  }
-  event.target.alt = \`dinosaur head rotated \${rotate} degrees\`;
-});
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "JS code issue",
-                      data: [
-                        "operator-assignment",
-                        "Assignment (=) can be replaced with operator assignment (-=).",
-                        "    rotate === -270 ? (rotate = 0) : (rotate = rotate - 90);",
-                        "9:39 - 9:59",
-                        `/en-US/docs/Web/API/CommandEvent
-[operator-assignment] Assignment (=) can be replaced with operator assignment (-=).
-~~~
-const image = document.getElementById("the-image");
-
-image.addEventListener("command", (event) => {
-  let rotate = parseInt(event.target.style.rotate || "0");
-  if (event.command == "--reset") {
-    rotate = 0;
-    event.target.style.rotate = \`\${rotate}deg\`;
-  } else if (event.command === "--rotate-left") {
-    rotate === -270 ? (rotate = 0) : (rotate = rotate - 90);
-    event.target.style.rotate = \`\${rotate}deg\`;
-  } else if (event.command === "--rotate-right") {
-    rotate === 270 ? (rotate = 0) : (rotate = rotate + 90);
-    event.target.style.rotate = \`\${rotate}deg\`;
-  }
-  event.target.alt = \`dinosaur head rotated \${rotate} degrees\`;
-});
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "JS code issue",
-                      data: [
-                        "operator-assignment",
-                        "Assignment (=) can be replaced with operator assignment (+=).",
-                        "    rotate === 270 ? (rotate = 0) : (rotate = rotate + 90);",
-                        "12:38 - 12:58",
-                        `/en-US/docs/Web/API/CommandEvent
-[operator-assignment] Assignment (=) can be replaced with operator assignment (+=).
-~~~
-const image = document.getElementById("the-image");
-
-image.addEventListener("command", (event) => {
-  let rotate = parseInt(event.target.style.rotate || "0");
-  if (event.command == "--reset") {
-    rotate = 0;
-    event.target.style.rotate = \`\${rotate}deg\`;
-  } else if (event.command === "--rotate-left") {
-    rotate === -270 ? (rotate = 0) : (rotate = rotate - 90);
-    event.target.style.rotate = \`\${rotate}deg\`;
-  } else if (event.command === "--rotate-right") {
-    rotate === 270 ? (rotate = 0) : (rotate = rotate + 90);
-    event.target.style.rotate = \`\${rotate}deg\`;
-  }
-  event.target.alt = \`dinosaur head rotated \${rotate} degrees\`;
-});
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                console: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/console",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://profiler.firefox.com/docs/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
-                },
                 css_object_model: {
                   children: {},
                   slug: "/en-US/docs/Web/API/CSS_Object_Model",
@@ -17663,136 +16462,6 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
-                htmlbuttonelement: {
-                  children: {
-                    command: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLButtonElement/command",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "radix",
-                            "Missing radix parameter.",
-                            '  let rotate = parseInt(event.target.style.rotate || "0");',
-                            "4:16 - 4:58",
-                            `/en-US/docs/Web/API/HTMLButtonElement/command
-[radix] Missing radix parameter.
-~~~
-const image = document.getElementById("the-image");
-
-image.addEventListener("command", (event) => {
-  let rotate = parseInt(event.target.style.rotate || "0");
-  if (event.command == "--reset") {
-    rotate = 0;
-    event.target.style.rotate = \`\${rotate}deg\`;
-  } else if (event.command === "--rotate-left") {
-    rotate === -270 ? (rotate = 0) : (rotate = rotate - 90);
-    event.target.style.rotate = \`\${rotate}deg\`;
-  } else if (event.command === "--rotate-right") {
-    rotate === 270 ? (rotate = 0) : (rotate = rotate + 90);
-    event.target.style.rotate = \`\${rotate}deg\`;
-  }
-  event.target.alt = \`dinosaur head rotated \${rotate} degrees\`;
-});
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "eqeqeq",
-                            "Expected '===' and instead saw '=='.",
-                            '  if (event.command == "--reset") {',
-                            "5:21 - 5:23",
-                            `/en-US/docs/Web/API/HTMLButtonElement/command
-[eqeqeq] Expected '===' and instead saw '=='.
-~~~
-const image = document.getElementById("the-image");
-
-image.addEventListener("command", (event) => {
-  let rotate = parseInt(event.target.style.rotate || "0");
-  if (event.command == "--reset") {
-    rotate = 0;
-    event.target.style.rotate = \`\${rotate}deg\`;
-  } else if (event.command === "--rotate-left") {
-    rotate === -270 ? (rotate = 0) : (rotate = rotate - 90);
-    event.target.style.rotate = \`\${rotate}deg\`;
-  } else if (event.command === "--rotate-right") {
-    rotate === 270 ? (rotate = 0) : (rotate = rotate + 90);
-    event.target.style.rotate = \`\${rotate}deg\`;
-  }
-  event.target.alt = \`dinosaur head rotated \${rotate} degrees\`;
-});
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "operator-assignment",
-                            "Assignment (=) can be replaced with operator assignment (-=).",
-                            "    rotate === -270 ? (rotate = 0) : (rotate = rotate - 90);",
-                            "9:39 - 9:59",
-                            `/en-US/docs/Web/API/HTMLButtonElement/command
-[operator-assignment] Assignment (=) can be replaced with operator assignment (-=).
-~~~
-const image = document.getElementById("the-image");
-
-image.addEventListener("command", (event) => {
-  let rotate = parseInt(event.target.style.rotate || "0");
-  if (event.command == "--reset") {
-    rotate = 0;
-    event.target.style.rotate = \`\${rotate}deg\`;
-  } else if (event.command === "--rotate-left") {
-    rotate === -270 ? (rotate = 0) : (rotate = rotate - 90);
-    event.target.style.rotate = \`\${rotate}deg\`;
-  } else if (event.command === "--rotate-right") {
-    rotate === 270 ? (rotate = 0) : (rotate = rotate + 90);
-    event.target.style.rotate = \`\${rotate}deg\`;
-  }
-  event.target.alt = \`dinosaur head rotated \${rotate} degrees\`;
-});
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "operator-assignment",
-                            "Assignment (=) can be replaced with operator assignment (+=).",
-                            "    rotate === 270 ? (rotate = 0) : (rotate = rotate + 90);",
-                            "12:38 - 12:58",
-                            `/en-US/docs/Web/API/HTMLButtonElement/command
-[operator-assignment] Assignment (=) can be replaced with operator assignment (+=).
-~~~
-const image = document.getElementById("the-image");
-
-image.addEventListener("command", (event) => {
-  let rotate = parseInt(event.target.style.rotate || "0");
-  if (event.command == "--reset") {
-    rotate = 0;
-    event.target.style.rotate = \`\${rotate}deg\`;
-  } else if (event.command === "--rotate-left") {
-    rotate === -270 ? (rotate = 0) : (rotate = rotate - 90);
-    event.target.style.rotate = \`\${rotate}deg\`;
-  } else if (event.command === "--rotate-right") {
-    rotate === 270 ? (rotate = 0) : (rotate = rotate + 90);
-    event.target.style.rotate = \`\${rotate}deg\`;
-  }
-  event.target.alt = \`dinosaur head rotated \${rotate} degrees\`;
-});
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 htmlimageelement: {
                   children: {
                     alt: {
@@ -17941,18 +16610,6 @@ output {
 <div id="output"></div>
 ~~~
 `
-                      ]
-                    }
-                  ]
-                },
-                htmlmetaelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/HTMLMetaElement",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Reference/Elements/meta/name/viewport"
                       ]
                     }
                   ]
@@ -18838,6 +17495,23 @@ code {
                     }
                   }
                 },
+                mediadevices: {
+                  children: {
+                    getdisplaymedia: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/MediaDevices/getDisplayMedia",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://chrome.dev/screen-sharing-controls/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 mediastream_recording_api: {
                   children: {
                     using_the_mediastream_recording_api: {
@@ -18927,22 +17601,6 @@ aside {
                     }
                   }
                 },
-                mediatrackconstraints: {
-                  children: {
-                    restrictownaudio: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaTrackConstraints/restrictOwnAudio",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.MediaStreamTrack.applyConstraints.restrictOwnAudio_constraint"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 mediatracksettings: {
                   children: {
                     cursor: {
@@ -18953,34 +17611,6 @@ aside {
                           message: "Not in BCD",
                           data: [
                             "api.MediaStreamTrack.applyConstraints.cursor_constraint"
-                          ]
-                        }
-                      ]
-                    },
-                    restrictownaudio: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaTrackSettings/restrictOwnAudio",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.MediaStreamTrack.applyConstraints.restrictOwnAudio_constraint"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                mediatracksupportedconstraints: {
-                  children: {
-                    restrictownaudio: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/MediaTrackSupportedConstraints/restrictOwnAudio",
-                      messages: [
-                        {
-                          message: "Not in BCD",
-                          data: [
-                            "api.MediaStreamTrack.applyConstraints.restrictOwnAudio_constraint"
                           ]
                         }
                       ]
@@ -19606,6 +18236,25 @@ html {
                     }
                   ]
                 },
+                toggleevent: {
+                  children: {
+                    source: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/ToggleEvent/source",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "experimental"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 touch_events: {
                   children: {
                     "multi-touch_interaction": {
@@ -20055,6 +18704,13 @@ env(viewport-segment-width 0 1)
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions"
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://webauthn.io/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -23133,6 +21789,19 @@ body {
                     }
                   ]
                 },
+                "aspect-ratio": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/aspect-ratio",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.smashingmagazine.com/2019/03/aspect-ratio-unit-css/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 attr: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/attr",
@@ -24530,20 +23199,6 @@ color(from hsl(0 100% 50%) xyz calc(x - 0.3) calc(y + 0.3) calc(z + 0.3) / calc(
 /* Computed output color: color(xyz-d65 0.112426 0.512648 0.319317 / 0.9) */
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    "color-mix": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/color_value/color-mix",
-                      messages: [
-                        {
-                          message: "Text stuck to code/link",
-                          data: [
-                            "<polar-color-space>",
-                            "Text before code:",
-                            "The"
                           ]
                         }
                       ]
@@ -48136,50 +46791,12 @@ div {
                       slug: "/en-US/docs/Web/CSS/CSS_images/Using_object-view-box",
                       messages: [
                         {
-                          message: "Bad href",
-                          data: [
-                            "Web/HTML/Reference/Elements/input/range"
-                          ]
-                        },
-                        {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "syntax",
-                            'Unexpected closing tag "p". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags',
-                            "  <output>",
-                            "7:0 - 7:4",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_object-view-box
-[syntax] Unexpected closing tag "p". It may happen when the tag has already been closed by another tag. For more info see https://www.w3.org/TR/html5/syntax.html#closing-elements-that-have-implied-end-tags
-~~~
-<img
-  src="https://mdn.github.io/shared-assets/images/examples/leopard.jpg"
-  alt="leopard" />
-<p>
-  <label for="position">Left offset: </label>
-  <input type="range" id="position" min="0" max="900" value="450" />
-  <output>
-</p>
-~~~
-`
-                          ]
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/CSS_images",
-                  messages: [
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/basic-shape",
-                        "#basic-shape-rect"
-                      ]
-                    }
-                  ]
+                  }
                 },
                 css_inline_layout: {
                   children: {
@@ -50544,6 +49161,16 @@ input[type="range"] {
 ~~~
 `
                           ]
+                        }
+                      ]
+                    },
+                    writing_mode_systems: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_writing_modes/Writing_mode_systems",
+                      messages: [
+                        {
+                          message: "Unreachable via sidebar",
+                          data: []
                         }
                       ]
                     }
@@ -58876,55 +57503,6 @@ body {
                     }
                   ]
                 },
-                "object-view-box": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/object-view-box",
-                  messages: [
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "/en-US/docs/Web/CSS/basic-shape",
-                        "#basic-shape-rect"
-                      ]
-                    },
-                    {
-                      message: "Bad href",
-                      data: [
-                        "Web/HTML/Reference/Elements/input/range"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "color-hex-length",
-                        'Expected "#888" to be "#888888" (color-hex-length)',
-                        "  border: 2px dotted #888;",
-                        "4:22 - 4:26",
-                        `/en-US/docs/Web/CSS/object-view-box
-[color-hex-length] Expected "#888" to be "#888888" (color-hex-length)
-~~~
-#example-element {
-  height: 100%;
-  width: 100%;
-  border: 2px dotted #888;
-}
-
-@supports not (object-view-box: none) {
-  body::before {
-    content: "Your browser does not support the 'object-view-box' property.";
-    color: black;
-    background-color: #ffcd33;
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "offset-position": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/offset-position",
@@ -63271,40 +61849,6 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
-                        button: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "no-useless-return",
-                                "Unnecessary return statement.",
-                                "    return;",
-                                "12:5 - 12:12",
-                                `/en-US/docs/Web/HTML/Reference/Elements/button
-[no-useless-return] Unnecessary return statement.
-~~~
-const dialog = document.querySelector("dialog");
-const radio = document.querySelector("form").elements["close"];
-const warning = document.querySelector(".warning");
-
-dialog.addEventListener("cancel", (e) => {
-  if (!e.cancelable) return;
-  if (radio.value === "no") {
-    warning.hidden = false;
-    e.preventDefault();
-  } else {
-    warning.hidden = true;
-    return;
-  }
-});
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         dialog: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/dialog",
@@ -64092,68 +62636,6 @@ http.headers.Use-As-Dictionary`,
                 }
               }
             },
-            performance: {
-              children: {},
-              slug: "/en-US/docs/Web/Performance",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://profiler.firefox.com/docs/",
-                    "The operation timed out."
-                  ]
-                }
-              ]
-            },
             privacy: {
               children: {
                 guides: {
@@ -64273,6 +62755,280 @@ http.headers.Use-As-Dictionary`,
             },
             security: {
               children: {
+                attacks: {
+                  children: {
+                    prototype_pollution: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Security/Attacks/Prototype_pollution",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-prototype-builtins",
+                            "Do not access Object.prototype method 'propertyIsEnumerable' from target object.",
+                            'mySet.propertyIsEnumerable("size");',
+                            "9:7 - 9:27",
+                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
+[no-prototype-builtins] Do not access Object.prototype method 'propertyIsEnumerable' from target object.
+~~~
+const mySet = new Set([1, 2, 3]);
+// prototype chain:
+// mySet -> Set.prototype -> Object.prototype -> null
+
+mySet.size;
+// 3
+// size is defined on the prototype of \`mySet\`, which is \`Set.prototype\`
+
+mySet.propertyIsEnumerable("size");
+// false
+// propertyIsEnumerable() is defined on the prototype
+// of \`Set.prototype\`, which is \`Object.prototype\`
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-extend-native",
+                            "Object prototype is read only, properties should not be added.",
+                            'Object.prototype.extra = "new property from the Object prototype!";',
+                            "4:1 - 4:67",
+                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
+[no-extend-native] Object prototype is read only, properties should not be added.
+~~~
+const mySet = new Set([1, 2, 3]);
+
+// modify the Object prototype at runtime
+Object.prototype.extra = "new property from the Object prototype!";
+
+// modify the Set prototype at runtime
+Set.prototype.other = "new property from the Set prototype!";
+
+mySet.extra;
+// "new property from the Object prototype!"
+
+mySet.other;
+// "new property from the Set prototype!"
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-extend-native",
+                            "Set prototype is read only, properties should not be added.",
+                            'Set.prototype.other = "new property from the Set prototype!";',
+                            "7:1 - 7:61",
+                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
+[no-extend-native] Set prototype is read only, properties should not be added.
+~~~
+const mySet = new Set([1, 2, 3]);
+
+// modify the Object prototype at runtime
+Object.prototype.extra = "new property from the Object prototype!";
+
+// modify the Set prototype at runtime
+Set.prototype.other = "new property from the Set prototype!";
+
+mySet.extra;
+// "new property from the Object prototype!"
+
+mySet.other;
+// "new property from the Set prototype!"
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "prefer-object-spread",
+                            "Use an object spread instead of `Object.assign` eg: `{ ...foo }`.",
+                            'const withDefaults = Object.assign({ mode: "cors" }, options);',
+                            "3:22 - 3:62",
+                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
+[prefer-object-spread] Use an object spread instead of \`Object.assign\` eg: \`{ ...foo }\`.
+~~~
+// Just an object with a property called \`__proto__\`
+const options = JSON.parse('{"__proto__": {"test": "value"}}');
+const withDefaults = Object.assign({ mode: "cors" }, options);
+// In the process of merging \`options\`, we indirectly executed
+// withDefaults.__proto__ = { test: "value" }, causing \`withDefaults\` to have
+// a different prototype
+console.log(withDefaults.test); // "value"
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-extend-native",
+                            "Object prototype is read only, properties should not be added.",
+                            'Object.prototype.body = "action=transfer&amount=1337&to=1337-1337-1337-1337";',
+                            "2:1 - 2:77",
+                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
+[no-extend-native] Object prototype is read only, properties should not be added.
+~~~
+// Attacker indirectly causes the following pollution
+Object.prototype.body = "action=transfer&amount=1337&to=1337-1337-1337-1337";
+Object.prototype.method = "POST";
+
+fetch("https://example.com", {
+  mode: "cors",
+});
+// Promise {status: "pending", body: "action=transfer&amount=1337&to=1337-1337-1337-1337", method: "POST"}
+
+// Any new object initialization is now modified to contain additional default properties
+console.log({}.method); // "POST"
+console.log({}.body); // "action=transfer&amount=1337&to=1337-1337-1337-1337"
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-extend-native",
+                            "Object prototype is read only, properties should not be added.",
+                            'Object.prototype.method = "POST";',
+                            "3:1 - 3:33",
+                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
+[no-extend-native] Object prototype is read only, properties should not be added.
+~~~
+// Attacker indirectly causes the following pollution
+Object.prototype.body = "action=transfer&amount=1337&to=1337-1337-1337-1337";
+Object.prototype.method = "POST";
+
+fetch("https://example.com", {
+  mode: "cors",
+});
+// Promise {status: "pending", body: "action=transfer&amount=1337&to=1337-1337-1337-1337", method: "POST"}
+
+// Any new object initialization is now modified to contain additional default properties
+console.log({}.method); // "POST"
+console.log({}.body); // "action=transfer&amount=1337&to=1337-1337-1337-1337"
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-extend-native",
+                            "Object prototype is read only, properties should not be added.",
+                            'Object.prototype.srcdoc = "<script>alert(1)<\\/script>";',
+                            "1:1 - 1:55",
+                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
+[no-extend-native] Object prototype is read only, properties should not be added.
+~~~
+Object.prototype.srcdoc = "<script>alert(1)<\\/script>";
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-useless-escape",
+                            "Unnecessary escape character: \\/.",
+                            'Object.prototype.srcdoc = "<script>alert(1)<\\/script>";',
+                            "1:45 - 1:46",
+                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
+[no-useless-escape] Unnecessary escape character: \\/.
+~~~
+Object.prototype.srcdoc = "<script>alert(1)<\\/script>";
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-useless-return",
+                            "Unnecessary return statement.",
+                            "    return;",
+                            "3:5 - 3:12",
+                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
+[no-useless-return] Unnecessary return statement.
+~~~
+function doDangerousAction(options = {}) {
+  if (!options.enableDangerousAction) {
+    return;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-useless-return",
+                            "Unnecessary return statement.",
+                            "    return;",
+                            "3:5 - 3:12",
+                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
+[no-useless-return] Unnecessary return statement.
+~~~
+function doDangerousAction(options = { enableDangerousAction: false }) {
+  if (!options.enableDangerousAction) {
+    return;
+  }
+}
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-extend-native",
+                            "Object prototype is read only, properties should not be added.",
+                            'Object.prototype.method = "POST";',
+                            "1:1 - 1:33",
+                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
+[no-extend-native] Object prototype is read only, properties should not be added.
+~~~
+Object.prototype.method = "POST";
+
+// Still sends a GET request, because the object has no prototype
+fetch("https://example.com", {
+  __proto__: null,
+  mode: "cors",
+});
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-extend-native",
+                            "Object prototype is read only, properties should not be added.",
+                            "Object.prototype.admin = true;",
+                            "2:1 - 2:30",
+                            `/en-US/docs/Web/Security/Attacks/Prototype_pollution
+[no-extend-native] Object prototype is read only, properties should not be added.
+~~~
+// Assume Object got polluted somehow
+Object.prototype.admin = true;
+
+const config = new Map();
+config.set("admin", false);
+
+config.admin; // true
+config.get("admin"); // false
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 firefox_security_guidelines: {
                   children: {},
                   slug: "/en-US/docs/Web/Security/Firefox_Security_Guidelines",
@@ -65103,27 +63859,6 @@ svg.elements.feSpotLight.z`
                       }
                     }
                   }
-                },
-                tutorials: {
-                  children: {
-                    svg_from_scratch: {
-                      children: {
-                        getting_started: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Getting_started",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://websniffer.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
                 }
               }
             },
@@ -65264,35 +63999,6 @@ svg.elements.feSpotLight.z`
               data: []
             }
           ]
-        },
-        webassembly: {
-          children: {
-            reference: {
-              children: {
-                javascript_interface: {
-                  children: {
-                    table: {
-                      children: {
-                        table: {
-                          children: {},
-                          slug: "/en-US/docs/WebAssembly/Reference/JavaScript_interface/Table/Table",
-                          messages: [
-                            {
-                              message: "Redirected external link",
-                              data: [
-                                "https://github.com/mdn/webassembly-examples/raw/refs/heads/main/js-api-examples/table2.wasm",
-                                "https://raw.githubusercontent.com/mdn/webassembly-examples/refs/heads/main/js-api-examples/table2.wasm"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
         }
       }
     }
