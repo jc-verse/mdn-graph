@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-7x99gq85.js";
+} from "./chunk-battqvjk.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -318,6 +318,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            css_preprocessor: {
+              children: {},
+              slug: "/en-US/docs/Glossary/CSS_preprocessor",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://stylus-lang.com/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -2228,8 +2241,8 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/routing/controllers/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "https://guides.emberjs.com/release/routing/defining-your-routes/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -2254,6 +2267,19 @@ ul li {
                         }
                       ]
                     },
+                    main_features: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/testing/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     react_resources: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
@@ -2261,7 +2287,7 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vitest.dev/",
+                            "https://testing-library.com/docs/react-testing-library/intro/",
                             "The operation timed out."
                           ]
                         }
@@ -4269,6 +4295,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://stylus-lang.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -4439,7 +4472,86 @@ button {
                   }
                 },
                 structuring_content: {
-                  children: {},
+                  children: {
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    table_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "color-named",
+                            'Expected "rgb(245 245 245)" to be "whitesmoke" (color-named)',
+                            "  background-color: rgb(245 245 245);",
+                            "31:21 - 31:37",
+                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
+[color-named] Expected "rgb(245 245 245)" to be "whitesmoke" (color-named)
+~~~
+html {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200 200 200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td,
+th {
+  border: 1px solid rgb(190 190 190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235 235 235);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250 250 250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245 245 245);
+}
+
+caption {
+  padding: 10px;
+}
+
+tbody {
+  font-size: 95%;
+  font-style: italic;
+}
+
+tfoot {
+  font-weight: bold;
+}
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Learn_web_development/Core/Structuring_content",
                   messages: [
                     {
@@ -5041,6 +5153,19 @@ span {
                         }
                       ]
                     },
+                    organizing: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/guide/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {
                         backgrounds_and_borders: {
@@ -5201,29 +5326,8 @@ h2 {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.fontsquirrel.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.fontsquirrel.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://www.exljbris.com/",
                             "unable to verify the first certificate"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.fontsquirrel.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -5591,6 +5695,13 @@ button:active {
                           data: [
                             "https://git-scm.com/downloads",
                             "https://git-scm.com/downloads/"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://preset-env.cssdb.org/features/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -11112,11 +11223,21 @@ textarea:focus {
 ~~~
 `
                           ]
-                        },
+                        }
+                      ]
+                    }
+                  }
+                },
+                performance: {
+                  children: {
+                    best_practices: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Best_practices",
+                      messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.fontsquirrel.com/tools/webfont-generator",
+                            "https://www.gnu.org/software/gzip/",
                             "The operation timed out."
                           ]
                         }
@@ -11126,19 +11247,6 @@ textarea:focus {
                 },
                 "server-side": {
                   children: {
-                    apache_configuration_htaccess: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Apache_Configuration_htaccess",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://content-security-policy.com/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     django: {
                       children: {
                         development_environment: {
@@ -11167,6 +11275,19 @@ textarea:focus {
                               data: [
                                 "https://git-scm.com/downloads",
                                 "https://git-scm.com/downloads/"
+                              ]
+                            }
+                          ]
+                        },
+                        skeleton_website: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://stylus-lang.com/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -11927,6 +12048,33 @@ html {
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -11950,14 +12098,14 @@ html {
                         }
                       ]
                     },
-                    what_are_browser_developer_tools: {
+                    what_software_do_i_need: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools",
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://webkit.org/web-inspector/elements-tab/",
+                            "https://www.gnu.org/software/emacs/",
                             "The operation timed out."
                           ]
                         }
@@ -12062,19 +12210,6 @@ html {
                       data: []
                     }
                   ]
-                },
-                pull_requests: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Pull_requests",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://phauer.com/2018/code-review-guidelines/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Community",
@@ -12119,6 +12254,13 @@ color: rgb(31 41 59);
 color: rgb(31 41 59 / 26%);
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://stylus-lang.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -14392,19 +14534,6 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         }
                       ]
                     },
-                    seizure_disorders: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Accessibility/Guides/Seizure_disorders",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/retina-image",
-                            504
-                          ]
-                        }
-                      ]
-                    },
                     understanding_wcag: {
                       children: {
                         perceivable: {
@@ -15228,6 +15357,74 @@ api.DeviceOrientationEvent`,
                     }
                   ]
                 },
+                fedcm_api: {
+                  children: {
+                    idp_integration: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/FedCM_API/IDP_integration",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://privacysandbox.google.com/cookies/fedcm",
+                            "https://developer.chrome.com/docs/identity/fedcm/overview"
+                          ]
+                        }
+                      ]
+                    },
+                    "rp_sign-in": {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/FedCM_API/RP_sign-in",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://privacysandbox.google.com/cookies/fedcm",
+                            "https://developer.chrome.com/docs/identity/fedcm/overview"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://privacysandbox.google.com/cookies/fedcm/why",
+                            "https://developer.chrome.com/docs/identity/fedcm/overview"
+                          ]
+                        },
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://privacysandbox.google.com/cookies/fedcm",
+                            "https://developer.chrome.com/docs/identity/fedcm/overview"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/FedCM_API",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://privacysandbox.google.com/cookies/fedcm/implement/identity-provider",
+                        "https://developer.chrome.com/docs/identity/fedcm/implement/identity-provider"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://privacysandbox.google.com/cookies/fedcm/implement/relying-party",
+                        "https://developer.chrome.com/docs/identity/fedcm/implement/relying-party"
+                      ]
+                    },
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://privacysandbox.google.com/cookies/fedcm",
+                        "https://developer.chrome.com/docs/identity/fedcm/overview"
+                      ]
+                    }
+                  ]
+                },
                 fetchevent: {
                   children: {
                     replacesclientid: {
@@ -15372,6 +15569,23 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
+                htmlcanvaselement: {
+                  children: {
+                    getcontext: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLCanvasElement/getContext",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://registry.khronos.org/webgl/sdk/tests/CONFORMANCE_RULES.txt",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 htmlimageelement: {
                   children: {
                     alt: {
@@ -15483,6 +15697,127 @@ output {
                       ]
                     }
                   }
+                },
+                identitycredential: {
+                  children: {
+                    configurl: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/IdentityCredential/configURL",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://privacysandbox.google.com/cookies/fedcm",
+                            "https://developer.chrome.com/docs/identity/fedcm/overview"
+                          ]
+                        }
+                      ]
+                    },
+                    disconnect_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/IdentityCredential/disconnect_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://privacysandbox.google.com/cookies/fedcm",
+                            "https://developer.chrome.com/docs/identity/fedcm/overview"
+                          ]
+                        }
+                      ]
+                    },
+                    isautoselected: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/IdentityCredential/isAutoSelected",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://privacysandbox.google.com/cookies/fedcm",
+                            "https://developer.chrome.com/docs/identity/fedcm/overview"
+                          ]
+                        }
+                      ]
+                    },
+                    token: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/IdentityCredential/token",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://privacysandbox.google.com/cookies/fedcm",
+                            "https://developer.chrome.com/docs/identity/fedcm/overview"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/IdentityCredential",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://privacysandbox.google.com/cookies/fedcm",
+                        "https://developer.chrome.com/docs/identity/fedcm/overview"
+                      ]
+                    }
+                  ]
+                },
+                identityprovider: {
+                  children: {
+                    close_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/IdentityProvider/close_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://privacysandbox.google.com/cookies/fedcm",
+                            "https://developer.chrome.com/docs/identity/fedcm/overview"
+                          ]
+                        }
+                      ]
+                    },
+                    getuserinfo_static: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/IdentityProvider/getUserInfo_static",
+                      messages: [
+                        {
+                          message: "Redirected external link",
+                          data: [
+                            "https://privacysandbox.google.com/cookies/fedcm",
+                            "https://developer.chrome.com/docs/identity/fedcm/overview"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/IdentityProvider",
+                  messages: [
+                    {
+                      message: "Redirected external link",
+                      data: [
+                        "https://privacysandbox.google.com/cookies/fedcm",
+                        "https://developer.chrome.com/docs/identity/fedcm/overview"
+                      ]
+                    }
+                  ]
+                },
+                integrityviolationreportbody: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/IntegrityViolationReportBody",
+                  messages: [
+                    {
+                      message: "Page status inconsistent with BCD",
+                      data: [
+                        [
+                          "experimental"
+                        ],
+                        []
+                      ]
+                    }
+                  ]
                 },
                 intersection_observer_api: {
                   children: {
@@ -16478,6 +16813,49 @@ aside {
                       ]
                     }
                   }
+                },
+                oes_fbo_render_mipmap: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/OES_fbo_render_mipmap",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://registry.khronos.org/webgl/extensions/OES_fbo_render_mipmap/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
+                offscreencanvas: {
+                  children: {
+                    getcontext: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/OffscreenCanvas/getContext",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://registry.khronos.org/webgl/sdk/tests/CONFORMANCE_RULES.txt",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                ovr_multiview2: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/OVR_multiview2",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://registry.khronos.org/webgl/extensions/OVR_multiview2/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 },
                 payment_request_api: {
                   children: {},
@@ -17689,6 +18067,153 @@ api.Window.sessionStorage`,
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm"
+                      ]
+                    }
+                  ]
+                },
+                webgl_api: {
+                  children: {
+                    tutorial: {
+                      children: {
+                        adding_2d_content_to_a_webgl_context: {
+                          children: {},
+                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Adding_2D_content_to_a_WebGL_context",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://registry.khronos.org/OpenGL/specs/es/3.2/GLSL_ES_Specification_3.20.pdf",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        getting_started_with_webgl: {
+                          children: {},
+                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://duriansoftware.com/joe/an-intro-to-modern-opengl.-table-of-contents",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    using_extensions: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebGL_API/Using_Extensions",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://registry.khronos.org/webgl/extensions/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    webgl_best_practices: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebGL_API/WebGL_best_practices",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://registry.khronos.org/webgl/extensions/KHR_parallel_shader_compile/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://registry.khronos.org/OpenGL/specs/es/3.0/GLSL_ES_Specification_3.00.pdf",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://registry.khronos.org/webgl/extensions/WEBGL_provoking_vertex/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                webgl2renderingcontext: {
+                  children: {
+                    texstorage2d: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebGL2RenderingContext/texStorage2D",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://registry.khronos.org/webgl/specs/latest/2.0/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                webglrenderingcontext: {
+                  children: {
+                    drawarrays: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebGLRenderingContext/drawArrays",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://registry.khronos.org/OpenGL-Refpages/gl4/html/gl_PointSize.xhtml",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    getextension: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebGLRenderingContext/getExtension",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://registry.khronos.org/webgl/extensions/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    getsupportedextensions: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/WebGLRenderingContext/getSupportedExtensions",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://registry.khronos.org/webgl/extensions/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                webgpu_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WebGPU_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://registry.khronos.org/OpenGL-Refpages/es2.0/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -19447,17 +19972,7 @@ p:last-of-type {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/@font-face",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.fontsquirrel.com/tools/webfont-generator",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 },
                 "@font-feature-values": {
                   children: {
@@ -52978,6 +53493,432 @@ p {
                     }
                   ]
                 },
+                interactivity: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/interactivity",
+                  messages: [
+                    {
+                      message: "Missing data",
+                      data: [
+                        "CSS info"
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-hex-length",
+                        'Expected "#eee" to be "#eeeeee" (color-hex-length)',
+                        "  background-color: #eee;",
+                        "31:21 - 31:25",
+                        `/en-US/docs/Web/CSS/interactivity
+[color-hex-length] Expected "#eee" to be "#eeeeee" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+button {
+  background-color: white;
+}
+
+ul {
+  width: 100vw;
+  height: 250px;
+  padding: 1vw;
+  overflow-x: scroll;
+  display: flex;
+  gap: 1vw;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 20px;
+
+  flex: 0 0 98vw;
+
+  scroll-snap-align: center;
+
+  view-timeline: --inertChange inline;
+  animation-timeline: --inertChange;
+  animation-name: inert-change;
+  animation-fill-mode: both;
+}
+
+@keyframes inert-change {
+  entry 0%,
+  exit 100% {
+    interactivity: inert;
+  }
+
+  entry 1%,
+  exit 99% {
+    interactivity: auto;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-hex-length",
+                        'Expected "#ddd" to be "#dddddd" (color-hex-length)',
+                        "  border: 1px solid #ddd;",
+                        "32:21 - 32:25",
+                        `/en-US/docs/Web/CSS/interactivity
+[color-hex-length] Expected "#ddd" to be "#dddddd" (color-hex-length)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+button {
+  background-color: white;
+}
+
+ul {
+  width: 100vw;
+  height: 250px;
+  padding: 1vw;
+  overflow-x: scroll;
+  display: flex;
+  gap: 1vw;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 20px;
+
+  flex: 0 0 98vw;
+
+  scroll-snap-align: center;
+
+  view-timeline: --inertChange inline;
+  animation-timeline: --inertChange;
+  animation-name: inert-change;
+  animation-fill-mode: both;
+}
+
+@keyframes inert-change {
+  entry 0%,
+  exit 100% {
+    interactivity: inert;
+  }
+
+  entry 1%,
+  exit 99% {
+    interactivity: auto;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Arial" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "7:16 - 7:21",
+                        `/en-US/docs/Web/CSS/interactivity
+[font-family-name-quotes] Expected quotes around "Arial" (font-family-name-quotes)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+button {
+  background-color: white;
+}
+
+ul {
+  width: 100vw;
+  height: 250px;
+  padding: 1vw;
+  overflow-x: scroll;
+  display: flex;
+  gap: 1vw;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 20px;
+
+  flex: 0 0 98vw;
+
+  scroll-snap-align: center;
+
+  view-timeline: --inertChange inline;
+  animation-timeline: --inertChange;
+  animation-name: inert-change;
+  animation-fill-mode: both;
+}
+
+@keyframes inert-change {
+  entry 0%,
+  exit 100% {
+    interactivity: inert;
+  }
+
+  entry 1%,
+  exit 99% {
+    interactivity: auto;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "font-family-name-quotes",
+                        'Expected quotes around "Helvetica" (font-family-name-quotes)',
+                        "  font-family: Arial, Helvetica, sans-serif;",
+                        "7:23 - 7:32",
+                        `/en-US/docs/Web/CSS/interactivity
+[font-family-name-quotes] Expected quotes around "Helvetica" (font-family-name-quotes)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+button {
+  background-color: white;
+}
+
+ul {
+  width: 100vw;
+  height: 250px;
+  padding: 1vw;
+  overflow-x: scroll;
+  display: flex;
+  gap: 1vw;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 20px;
+
+  flex: 0 0 98vw;
+
+  scroll-snap-align: center;
+
+  view-timeline: --inertChange inline;
+  animation-timeline: --inertChange;
+  animation-name: inert-change;
+  animation-fill-mode: both;
+}
+
+@keyframes inert-change {
+  entry 0%,
+  exit 100% {
+    interactivity: inert;
+  }
+
+  entry 1%,
+  exit 99% {
+    interactivity: auto;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "value-keyword-case",
+                        'Expected "--inertChange" to be "--inertchange" (value-keyword-case)',
+                        "  view-timeline: --inertChange inline;",
+                        "39:18 - 39:31",
+                        `/en-US/docs/Web/CSS/interactivity
+[value-keyword-case] Expected "--inertChange" to be "--inertchange" (value-keyword-case)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+button {
+  background-color: white;
+}
+
+ul {
+  width: 100vw;
+  height: 250px;
+  padding: 1vw;
+  overflow-x: scroll;
+  display: flex;
+  gap: 1vw;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 20px;
+
+  flex: 0 0 98vw;
+
+  scroll-snap-align: center;
+
+  view-timeline: --inertChange inline;
+  animation-timeline: --inertChange;
+  animation-name: inert-change;
+  animation-fill-mode: both;
+}
+
+@keyframes inert-change {
+  entry 0%,
+  exit 100% {
+    interactivity: inert;
+  }
+
+  entry 1%,
+  exit 99% {
+    interactivity: auto;
+  }
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "value-keyword-case",
+                        'Expected "--inertChange" to be "--inertchange" (value-keyword-case)',
+                        "  animation-timeline: --inertChange;",
+                        "40:23 - 40:36",
+                        `/en-US/docs/Web/CSS/interactivity
+[value-keyword-case] Expected "--inertChange" to be "--inertchange" (value-keyword-case)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+button {
+  background-color: white;
+}
+
+ul {
+  width: 100vw;
+  height: 250px;
+  padding: 1vw;
+  overflow-x: scroll;
+  display: flex;
+  gap: 1vw;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  list-style-type: none;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 20px;
+
+  flex: 0 0 98vw;
+
+  scroll-snap-align: center;
+
+  view-timeline: --inertChange inline;
+  animation-timeline: --inertChange;
+  animation-name: inert-change;
+  animation-fill-mode: both;
+}
+
+@keyframes inert-change {
+  entry 0%,
+  exit 100% {
+    interactivity: inert;
+  }
+
+  entry 1%,
+  exit 99% {
+    interactivity: auto;
+  }
+}
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 layout_cookbook: {
                   children: {
                     contribute_a_recipe: {
@@ -58868,6 +59809,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         dnt: {
                           children: {},
                           slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
@@ -58877,6 +59831,36 @@ http.headers.Use-As-Dictionary`,
                               data: [
                                 "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
                                 "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        "integrity-policy": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Integrity-Policy",
+                          messages: [
+                            {
+                              message: "Page status inconsistent with BCD",
+                              data: [
+                                [
+                                  "experimental"
+                                ],
+                                []
+                              ]
+                            }
+                          ]
+                        },
+                        "integrity-policy-report-only": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Integrity-Policy-Report-Only",
+                          messages: [
+                            {
+                              message: "Page status inconsistent with BCD",
+                              data: [
+                                [
+                                  "experimental"
+                                ],
+                                []
                               ]
                             }
                           ]
@@ -60228,27 +61212,6 @@ svg.elements.feSpotLight.z`
                               data: [
                                 "/en-US/docs/Web/SVG/Reference/Attribute",
                                 "#filter_primitive_attributes"
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                },
-                tutorials: {
-                  children: {
-                    svg_from_scratch: {
-                      children: {
-                        tools_for_svg: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Tools_for_SVG",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://imagemagick.org/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                               ]
                             }
                           ]
