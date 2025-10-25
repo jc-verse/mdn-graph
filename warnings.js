@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-npfwshh4.js";
+} from "./chunk-f038vdj3.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -898,6 +898,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            itu: {
+              children: {},
+              slug: "/en-US/docs/Glossary/ITU",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://www.itu.int/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -2204,6 +2217,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://ember-service-worker.com/",
+                            502
+                          ]
                         }
                       ]
                     },
@@ -2236,13 +2256,13 @@ ul li {
                           message: "Broken external link",
                           data: [
                             "https://guides.emberjs.com/release/ember-inspector/",
-                            "The operation timed out."
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
+                            "https://guides.emberjs.com/release/routing/defining-your-routes/",
                             "The operation timed out."
                           ]
                         }
@@ -2255,13 +2275,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2285,6 +2298,13 @@ ul li {
                             "https://guides.emberjs.com/release/services/",
                             "The operation timed out."
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/testing/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2295,8 +2315,8 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vite.dev/guide/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "https://babeljs.io/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -5141,19 +5161,6 @@ span {
                         }
                       ]
                     },
-                    pseudo_classes_and_elements: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Pseudo_classes_and_elements",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://cssarrowplease.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     test_your_skills: {
                       children: {
                         backgrounds_and_borders: {
@@ -5684,13 +5691,6 @@ button:active {
                             "https://git-scm.com/downloads",
                             "https://git-scm.com/downloads/"
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
                         }
                       ]
                     },
@@ -5708,21 +5708,8 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://codeclimate.com/",
-                            503
-                          ]
-                        }
-                      ]
-                    },
-                    package_management: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "https://babeljs.io/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12148,6 +12135,19 @@ html {
                       data: []
                     }
                   ]
+                },
+                pull_requests: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Community/Pull_requests",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://phauer.com/2018/code-review-guidelines/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Community",
@@ -14036,17 +14036,7 @@ webextensions.manifest.options_ui`,
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/10",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://registry.khronos.org/webgl/extensions/OES_standard_derivatives/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
+                      }
                     },
                     "22": {
                       children: {},
@@ -15763,21 +15753,6 @@ output {
                       data: [
                         "https://privacysandbox.google.com/cookies/fedcm",
                         "https://developer.chrome.com/docs/identity/fedcm/overview"
-                      ]
-                    }
-                  ]
-                },
-                integrityviolationreportbody: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/IntegrityViolationReportBody",
-                  messages: [
-                    {
-                      message: "Page status inconsistent with BCD",
-                      data: [
-                        [
-                          "experimental"
-                        ],
-                        []
                       ]
                     }
                   ]
@@ -36021,25 +35996,6 @@ rgb(from red r g b / alpha)
                     }
                   ]
                 },
-                css_containment: {
-                  children: {
-                    container_size_and_style_queries: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries",
-                      messages: [
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "css.at-rules.container",
-                            "Expected:",
-                            "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_custom_functions_and_mixins: {
                   children: {
                     using_custom_functions: {
@@ -36640,6 +36596,13 @@ p {
 }
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://adrianroselli.com/2015/10/html-source-order-vs-css-display-order.html",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -55657,6 +55620,98 @@ body {
                     }
                   ]
                 },
+                "position-area_value": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/position-area_value",
+                  messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "self-y-end" for property "position-area" (declaration-property-value-no-unknown)',
+                        "position-area: center self-y-end;",
+                        "9:23 - 9:33",
+                        `/en-US/docs/Web/CSS/position-area_value
+[declaration-property-value-no-unknown] Unexpected unknown value "self-y-end" for property "position-area" (declaration-property-value-no-unknown)
+~~~
+/* Examples: Two keywords to place the element in a single specific tile */
+position-area: top left;
+position-area: bottom right;
+position-area: start end;
+position-area: center end;
+position-area: block-start center;
+position-area: inline-start block-end;
+position-area: x-start y-end;
+position-area: center self-y-end;
+
+/* Examples: Two keywords to span the element across two tiles */
+position-area: top span-left;
+position-area: span-bottom right;
+position-area: center span-start;
+position-area: inline-start span-block-end;
+position-area: y-start span-x-end;
+
+/* Examples: Two keywords to span the element across three tiles */
+position-area: top span-all;
+position-area: block-end span-all;
+position-area: self-x-start span-all;
+
+/* Examples: One keyword with an implicit second keyword  */
+position-area: top; /* equiv: top span-all */
+position-area: inline-start; /* equiv: inline-start span-all */
+position-area: center; /* equiv: center center */
+position-area: span-all; /* equiv: center center */
+position-area: start; /* equiv: start start */
+position-area: end; /* equiv: end end */
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "declaration-property-value-no-unknown",
+                        'Unexpected unknown value "self-x-start" for property "position-area" (declaration-property-value-no-unknown)',
+                        "position-area: self-x-start span-all;",
+                        "21:16 - 21:28",
+                        `/en-US/docs/Web/CSS/position-area_value
+[declaration-property-value-no-unknown] Unexpected unknown value "self-x-start" for property "position-area" (declaration-property-value-no-unknown)
+~~~
+/* Examples: Two keywords to place the element in a single specific tile */
+position-area: top left;
+position-area: bottom right;
+position-area: start end;
+position-area: center end;
+position-area: block-start center;
+position-area: inline-start block-end;
+position-area: x-start y-end;
+position-area: center self-y-end;
+
+/* Examples: Two keywords to span the element across two tiles */
+position-area: top span-left;
+position-area: span-bottom right;
+position-area: center span-start;
+position-area: inline-start span-block-end;
+position-area: y-start span-x-end;
+
+/* Examples: Two keywords to span the element across three tiles */
+position-area: top span-all;
+position-area: block-end span-all;
+position-area: self-x-start span-all;
+
+/* Examples: One keyword with an implicit second keyword  */
+position-area: top; /* equiv: top span-all */
+position-area: inline-start; /* equiv: inline-start span-all */
+position-area: center; /* equiv: center center */
+position-area: span-all; /* equiv: center center */
+position-area: start; /* equiv: start start */
+position-area: end; /* equiv: end end */
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 "print-color-adjust": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/print-color-adjust",
@@ -59292,6 +59347,32 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
+                        a: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        button: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         dialog: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/dialog",
@@ -59360,6 +59441,19 @@ because the nesting selector cannot represent pseudo-elements. */
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        heading_elements: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2016/08/there-is-no-document-outline-algorithm.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -59636,7 +59730,17 @@ because the nesting selector cannot represent pseudo-elements. */
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/input",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         meta: {
                           children: {
@@ -59708,6 +59812,19 @@ http.headers.Dictionary-ID
 http.headers.Use-As-Dictionary`,
                             "Expected:",
                             "[None]"
+                          ]
+                        }
+                      ]
+                    },
+                    content_negotiation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/Content_negotiation",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.eff.org/deeplinks/2010/01/primer-information-theory-and-privacy",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -59796,32 +59913,15 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        "integrity-policy": {
+                        dnt: {
                           children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Integrity-Policy",
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
                           messages: [
                             {
-                              message: "Page status inconsistent with BCD",
+                              message: "Broken external link",
                               data: [
-                                [
-                                  "experimental"
-                                ],
-                                []
-                              ]
-                            }
-                          ]
-                        },
-                        "integrity-policy-report-only": {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Integrity-Policy-Report-Only",
-                          messages: [
-                            {
-                              message: "Page status inconsistent with BCD",
-                              data: [
-                                [
-                                  "experimental"
-                                ],
-                                []
+                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -59878,6 +59978,19 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         },
+                        tk: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Tk",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "user-agent": {
                           children: {
                             firefox: {
@@ -59901,7 +60014,21 @@ http.headers.Use-As-Dictionary`,
             javascript: {
               children: {
                 guide: {
-                  children: {},
+                  children: {
+                    modules: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Guide/Modules",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://babeljs.io/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/JavaScript/Guide",
                   messages: [
                     {
@@ -59915,7 +60042,21 @@ http.headers.Use-As-Dictionary`,
                 reference: {
                   children: {
                     classes: {
-                      children: {}
+                      children: {
+                        public_class_fields: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://babeljs.io/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     },
                     global_objects: {
                       children: {
@@ -60005,6 +60146,23 @@ http.headers.Use-As-Dictionary`,
                         }
                       ]
                     },
+                    regular_expressions: {
+                      children: {
+                        named_capturing_group: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Named_capturing_group",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://eslint.org/docs/latest/rules/prefer-named-capture-group",
+                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     statements: {
                       children: {
                         expression_statement: {
@@ -60071,8 +60229,36 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Broken external link",
                               data: [
+                                "https://www.itu.int/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.itu.int/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.itu.int/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
                                 "https://about.att.com/innovation/ip/patents",
                                 403
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.itu.int/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -60209,6 +60395,52 @@ http.headers.Use-As-Dictionary`,
             },
             security: {
               children: {
+                authentication: {
+                  children: {},
+                  slug: "/en-US/docs/Web/Security/Authentication",
+                  messages: [
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/Security/Authentication/Passwords"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/Security/Authentication/OTP"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/Security/Authentication/Federated_identity"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/Security/Authentication/Passkeys"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Glossary/JWT"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/Security/Authentication/Session_management"
+                      ]
+                    },
+                    {
+                      message: "Unreachable via page",
+                      data: []
+                    }
+                  ]
+                },
                 firefox_security_guidelines: {
                   children: {},
                   slug: "/en-US/docs/Web/Security/Firefox_Security_Guidelines",
@@ -60216,6 +60448,13 @@ http.headers.Use-As-Dictionary`,
                     {
                       message: "Unreachable via page",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://wiki.owasp.org/index.php/Secure_Coding_Principles",
+                        500
+                      ]
                     }
                   ]
                 },
@@ -60257,6 +60496,12 @@ html.elements.script.integrity`,
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/Web/Security/Firefox_Security_Guidelines"
+                  ]
+                },
+                {
+                  message: "No link to child page",
+                  data: [
+                    "/en-US/docs/Web/Security/Authentication"
                   ]
                 },
                 {
