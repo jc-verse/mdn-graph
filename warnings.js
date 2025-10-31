@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-85psvm77.js";
+} from "./chunk-bsq3qwv1.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -56,18 +56,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                crisp_pixel_art_look: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Techniques/Crisp_pixel_art_look",
-                  messages: [
-                    {
-                      message: "Possibly unrendered Markdown",
-                      data: [
-                        ". So if you want to draw a 128x128 pixel image on a canvas that has been scaled by 0.8, you can only draw it at sizes like 160 (128 / 0.8 * 1), 320 (128 / 0.8 * 2), etc."
-                      ]
-                    }
-                  ]
                 }
               }
             },
@@ -340,6 +328,19 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            css_preprocessor: {
+              children: {},
+              slug: "/en-US/docs/Glossary/CSS_preprocessor",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://stylus-lang.com/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -2240,13 +2241,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/defining-your-routes/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2278,13 +2272,6 @@ ul li {
                           message: "Broken external link",
                           data: [
                             "https://guides.emberjs.com/release/services/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/testing/",
                             "The operation timed out."
                           ]
                         }
@@ -4285,6 +4272,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://stylus-lang.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -4456,6 +4450,19 @@ button {
                 },
                 structuring_content: {
                   children: {
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     table_accessibility: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility",
@@ -5188,20 +5195,6 @@ h2 {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://convertingcolors.com/hex-color-86DEFA.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://convertingcolors.com/hex-color-86DEFA.html",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         }
@@ -5644,19 +5637,6 @@ button:active {
                 },
                 "client-side_tools": {
                   children: {
-                    deployment: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Deployment",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vitest.dev/guide/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        }
-                      ]
-                    },
                     overview: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
@@ -5664,7 +5644,7 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://stylelint.io/",
+                            "https://babeljs.io/docs/plugins",
                             "The operation timed out."
                           ]
                         }
@@ -11196,6 +11176,27 @@ textarea:focus {
                     }
                   }
                 },
+                "server-side": {
+                  children: {
+                    express_nodejs: {
+                      children: {
+                        skeleton_website: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://stylus-lang.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                },
                 testing: {
                   children: {
                     html_and_css: {
@@ -11731,6 +11732,19 @@ body {
                           ]
                         }
                       ]
+                    },
+                    introduction: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Introduction",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://opera.atlassian.net/servicedesk/customer/portal/9",
+                            503
+                          ]
+                        }
+                      ]
                     }
                   }
                 }
@@ -11738,17 +11752,17 @@ body {
             },
             getting_started: {
               children: {
-                soft_skills: {
+                environment_setup: {
                   children: {
-                    workflows_and_processes: {
+                    installing_software: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Installing_software",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "Redirected external link",
                           data: [
-                            "https://www.mongodb.com/resources/basics/technology-stack",
-                            503
+                            "https://affinity.serif.com/en-us/",
+                            "https://www.affinity.studio/"
                           ]
                         }
                       ]
@@ -12007,6 +12021,41 @@ padding-left: 20px;
                             "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
                             "The operation timed out."
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.pspad.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.pspad.com/en/faq.htm",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://forum.pspad.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.pspad.com/en/helpfiles.htm",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.pspad.com/en/pspad-extensions.php",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -12176,6 +12225,13 @@ color: rgb(31 41 59);
 color: rgb(31 41 59 / 26%);
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://stylus-lang.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12644,23 +12700,6 @@ color: rgb(31 41 59 / 26%);
                             }
                           }
                         },
-                        runtime: {
-                          children: {
-                            oninstalled: {
-                              children: {},
-                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onInstalled",
-                              messages: [
-                                {
-                                  message: "Broken external link",
-                                  data: [
-                                    "https://example.com/",
-                                    "The operation timed out."
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
                         scripting: {
                           children: {
                             contentscriptfilter: {
@@ -13034,19 +13073,6 @@ webextensions.api.clipboard`,
                     },
                     "manifest.json": {
                       children: {
-                        content_security_policy: {
-                          children: {},
-                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_security_policy",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://example.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         version: {
                           children: {
                             format: {
@@ -14447,6 +14473,19 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                     },
                     understanding_wcag: {
                       children: {
+                        keyboard: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Keyboard",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         perceivable: {
                           children: {
                             color_contrast: {
@@ -15758,24 +15797,6 @@ output {
                     }
                   }
                 },
-                htmlscriptelement: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/HTMLScriptElement",
-                  messages: [
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "#textcontent"
-                      ]
-                    },
-                    {
-                      message: "Broken anchor",
-                      data: [
-                        "#text"
-                      ]
-                    }
-                  ]
-                },
                 intersection_observer_api: {
                   children: {
                     timing_element_visibility: {
@@ -16770,19 +16791,6 @@ aside {
                       ]
                     }
                   }
-                },
-                ovr_multiview2: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/OVR_multiview2",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://community.arm.com/arm-community-blogs/b/mobile-graphics-and-gaming-blog/posts/optimizing-virtual-reality-understanding-multiview",
-                        "https://developer.arm.com/community/arm-community-blogs/b/mobile-graphics-and-gaming-blog/posts/optimizing-virtual-reality-understanding-multiview"
-                      ]
-                    }
-                  ]
                 },
                 payment_request_api: {
                   children: {},
@@ -18219,6 +18227,19 @@ api.Window.sessionStorage`,
                     }
                   }
                 },
+                websockets_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WebSockets_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://zeromq.org/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 webvtt_api: {
                   children: {
                     web_video_text_tracks_format: {
@@ -19258,54 +19279,6 @@ dialog::backdrop {
                     }
                   ]
                 },
-                "-webkit-border-before": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/-webkit-border-before",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/-webkit-border-before-color"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/-webkit-border-before-style"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/-webkit-border-before-width"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/-webkit-border-after"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/-webkit-border-start"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/-webkit-border-end"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/CSS/-webkit-border-before-width"
-                      ]
-                    }
-                  ]
-                },
                 "@color-profile": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/@color-profile",
@@ -19931,6 +19904,12 @@ p:last-of-type {
                       slug: "/en-US/docs/Web/CSS/@font-palette-values/base-palette",
                       messages: [
                         {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/font-palette/"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -19941,6 +19920,12 @@ p:last-of-type {
                       slug: "/en-US/docs/Web/CSS/@font-palette-values/font-family",
                       messages: [
                         {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/font-palette/"
+                          ]
+                        },
+                        {
                           message: "Unreachable via sidebar",
                           data: []
                         }
@@ -19950,6 +19935,12 @@ p:last-of-type {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/@font-palette-values/override-colors",
                       messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/CSS/font-palette/"
+                          ]
+                        },
                         {
                           message: "Unreachable via sidebar",
                           data: []
@@ -20625,54 +20616,6 @@ so specify a standalone starting-style block. */
                     }
                   ]
                 },
-                "alignment-baseline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/alignment-baseline",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "hanging" for property "alignment-baseline" (declaration-property-value-no-unknown)',
-                        "  alignment-baseline: hanging;",
-                        "12:23 - 12:30",
-                        `/en-US/docs/Web/CSS/alignment-baseline
-[declaration-property-value-no-unknown] Unexpected unknown value "hanging" for property "alignment-baseline" (declaration-property-value-no-unknown)
-~~~
-text {
-  font-size: 20px;
-  alignment-baseline: baseline;
-}
-text:nth-of-type(1) {
-  alignment-baseline: alphabetic;
-}
-text:nth-of-type(2) {
-  alignment-baseline: central;
-}
-text:nth-of-type(3) {
-  alignment-baseline: hanging;
-}
-text:nth-of-type(4) {
-  alignment-baseline: ideographic;
-}
-text:nth-of-type(5) {
-  alignment-baseline: mathematical;
-}
-text:nth-of-type(6) {
-  alignment-baseline: middle;
-}
-text:nth-of-type(7) {
-  alignment-baseline: text-bottom;
-}
-text:nth-of-type(8) {
-  alignment-baseline: text-top;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "alpha-value": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/alpha-value",
@@ -20967,835 +20910,6 @@ div {
                     }
                   ]
                 },
-                "backdrop-filter": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/backdrop-filter",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "30%" to be "0.3" (alpha-value-notation)',
-                        "  background-color: rgb(255 255 255 / 30%);",
-                        "2:39 - 2:42",
-                        `/en-US/docs/Web/CSS/backdrop-filter
-[alpha-value-notation] Expected "30%" to be "0.3" (alpha-value-notation)
-~~~
-.box {
-  background-color: rgb(255 255 255 / 30%);
-  backdrop-filter: blur(10px);
-}
-
-body {
-  background-image: url("anemones.jpg");
-}
-
-html,
-body {
-  height: 100%;
-  width: 100%;
-}
-
-.container {
-  background-size: cover;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-}
-.box {
-  border-radius: 5px;
-  font-family: sans-serif;
-  text-align: center;
-  max-width: 50%;
-  max-height: 50%;
-  padding: 20px 40px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "backface-visibility": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/backface-visibility",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "30%" to be "0.3" (alpha-value-notation)',
-                        "  background: rgb(0 0 0 / 30%);",
-                        "42:27 - 42:30",
-                        `/en-US/docs/Web/CSS/backface-visibility
-[alpha-value-notation] Expected "30%" to be "0.3" (alpha-value-notation)
-~~~
-/* Classes that will show or hide the
-   three back faces of the "cube" */
-.show-bf div {
-  backface-visibility: visible;
-}
-
-.hide-bf div {
-  backface-visibility: hidden;
-}
-
-/* Define the container div, the cube div, and a generic face */
-.container {
-  width: 150px;
-  height: 150px;
-  margin: 75px 0 0 75px;
-  border: none;
-}
-
-.cube {
-  width: 100%;
-  height: 100%;
-  perspective: 550px;
-  perspective-origin: 150% 150%;
-  transform-style: preserve-3d;
-}
-
-.face {
-  display: block;
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border: none;
-  line-height: 100px;
-  font-family: sans-serif;
-  font-size: 60px;
-  color: white;
-  text-align: center;
-}
-
-/* Define each face based on direction */
-.front {
-  background: rgb(0 0 0 / 30%);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: lime;
-  color: black;
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(196 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 196 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(196 196 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(196 0 196 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-
-/* Make the table a little nicer */
-th,
-p,
-td {
-  background-color: #eeeeee;
-  margin: 0px;
-  padding: 6px;
-  font-family: sans-serif;
-  text-align: left;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "70%" to be "0.7" (alpha-value-notation)',
-                        "  background: rgb(196 0 0 / 70%);",
-                        "53:29 - 53:32",
-                        `/en-US/docs/Web/CSS/backface-visibility
-[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
-~~~
-/* Classes that will show or hide the
-   three back faces of the "cube" */
-.show-bf div {
-  backface-visibility: visible;
-}
-
-.hide-bf div {
-  backface-visibility: hidden;
-}
-
-/* Define the container div, the cube div, and a generic face */
-.container {
-  width: 150px;
-  height: 150px;
-  margin: 75px 0 0 75px;
-  border: none;
-}
-
-.cube {
-  width: 100%;
-  height: 100%;
-  perspective: 550px;
-  perspective-origin: 150% 150%;
-  transform-style: preserve-3d;
-}
-
-.face {
-  display: block;
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border: none;
-  line-height: 100px;
-  font-family: sans-serif;
-  font-size: 60px;
-  color: white;
-  text-align: center;
-}
-
-/* Define each face based on direction */
-.front {
-  background: rgb(0 0 0 / 30%);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: lime;
-  color: black;
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(196 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 196 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(196 196 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(196 0 196 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-
-/* Make the table a little nicer */
-th,
-p,
-td {
-  background-color: #eeeeee;
-  margin: 0px;
-  padding: 6px;
-  font-family: sans-serif;
-  text-align: left;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "70%" to be "0.7" (alpha-value-notation)',
-                        "  background: rgb(0 0 196 / 70%);",
-                        "58:29 - 58:32",
-                        `/en-US/docs/Web/CSS/backface-visibility
-[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
-~~~
-/* Classes that will show or hide the
-   three back faces of the "cube" */
-.show-bf div {
-  backface-visibility: visible;
-}
-
-.hide-bf div {
-  backface-visibility: hidden;
-}
-
-/* Define the container div, the cube div, and a generic face */
-.container {
-  width: 150px;
-  height: 150px;
-  margin: 75px 0 0 75px;
-  border: none;
-}
-
-.cube {
-  width: 100%;
-  height: 100%;
-  perspective: 550px;
-  perspective-origin: 150% 150%;
-  transform-style: preserve-3d;
-}
-
-.face {
-  display: block;
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border: none;
-  line-height: 100px;
-  font-family: sans-serif;
-  font-size: 60px;
-  color: white;
-  text-align: center;
-}
-
-/* Define each face based on direction */
-.front {
-  background: rgb(0 0 0 / 30%);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: lime;
-  color: black;
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(196 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 196 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(196 196 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(196 0 196 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-
-/* Make the table a little nicer */
-th,
-p,
-td {
-  background-color: #eeeeee;
-  margin: 0px;
-  padding: 6px;
-  font-family: sans-serif;
-  text-align: left;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "70%" to be "0.7" (alpha-value-notation)',
-                        "  background: rgb(196 196 0 / 70%);",
-                        "63:31 - 63:34",
-                        `/en-US/docs/Web/CSS/backface-visibility
-[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
-~~~
-/* Classes that will show or hide the
-   three back faces of the "cube" */
-.show-bf div {
-  backface-visibility: visible;
-}
-
-.hide-bf div {
-  backface-visibility: hidden;
-}
-
-/* Define the container div, the cube div, and a generic face */
-.container {
-  width: 150px;
-  height: 150px;
-  margin: 75px 0 0 75px;
-  border: none;
-}
-
-.cube {
-  width: 100%;
-  height: 100%;
-  perspective: 550px;
-  perspective-origin: 150% 150%;
-  transform-style: preserve-3d;
-}
-
-.face {
-  display: block;
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border: none;
-  line-height: 100px;
-  font-family: sans-serif;
-  font-size: 60px;
-  color: white;
-  text-align: center;
-}
-
-/* Define each face based on direction */
-.front {
-  background: rgb(0 0 0 / 30%);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: lime;
-  color: black;
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(196 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 196 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(196 196 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(196 0 196 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-
-/* Make the table a little nicer */
-th,
-p,
-td {
-  background-color: #eeeeee;
-  margin: 0px;
-  padding: 6px;
-  font-family: sans-serif;
-  text-align: left;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "70%" to be "0.7" (alpha-value-notation)',
-                        "  background: rgb(196 0 196 / 70%);",
-                        "68:31 - 68:34",
-                        `/en-US/docs/Web/CSS/backface-visibility
-[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
-~~~
-/* Classes that will show or hide the
-   three back faces of the "cube" */
-.show-bf div {
-  backface-visibility: visible;
-}
-
-.hide-bf div {
-  backface-visibility: hidden;
-}
-
-/* Define the container div, the cube div, and a generic face */
-.container {
-  width: 150px;
-  height: 150px;
-  margin: 75px 0 0 75px;
-  border: none;
-}
-
-.cube {
-  width: 100%;
-  height: 100%;
-  perspective: 550px;
-  perspective-origin: 150% 150%;
-  transform-style: preserve-3d;
-}
-
-.face {
-  display: block;
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border: none;
-  line-height: 100px;
-  font-family: sans-serif;
-  font-size: 60px;
-  color: white;
-  text-align: center;
-}
-
-/* Define each face based on direction */
-.front {
-  background: rgb(0 0 0 / 30%);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: lime;
-  color: black;
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(196 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 196 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(196 196 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(196 0 196 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-
-/* Make the table a little nicer */
-th,
-p,
-td {
-  background-color: #eeeeee;
-  margin: 0px;
-  padding: 6px;
-  font-family: sans-serif;
-  text-align: left;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "background-clip": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-clip",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "20%" to be "0.2" (alpha-value-notation)',
-                        "  color: rgb(0 0 0 / 20%);",
-                        "23:22 - 23:25",
-                        `/en-US/docs/Web/CSS/background-clip
-[alpha-value-notation] Expected "20%" to be "0.2" (alpha-value-notation)
-~~~
-p {
-  border: 0.8em darkviolet;
-  border-style: dotted double;
-  margin: 1em 0;
-  padding: 1.4em;
-  background: linear-gradient(60deg, red, yellow, red, yellow, red);
-  font: 900 1.2em sans-serif;
-  text-decoration: underline;
-}
-
-.border-box {
-  background-clip: border-box;
-}
-.padding-box {
-  background-clip: padding-box;
-}
-.content-box {
-  background-clip: content-box;
-}
-
-.text {
-  background-clip: text;
-  color: rgb(0 0 0 / 20%);
-}
-
-.border-area {
-  background-clip: border-area;
-  border-color: transparent;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "background-origin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/background-origin",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "100%" to be "1" (alpha-value-notation)',
-                        "      rgb(131 58 180 / 100%) 0%,",
-                        "7:24 - 7:28",
-                        `/en-US/docs/Web/CSS/background-origin
-[alpha-value-notation] Expected "100%" to be "1" (alpha-value-notation)
-~~~
-.box {
-  margin: 10px 0;
-  color: white;
-  background:
-    linear-gradient(
-      90deg,
-      rgb(131 58 180 / 100%) 0%,
-      rgb(253 29 29 / 60%) 60%,
-      rgb(252 176 69 / 100%) 100%
-    ),
-    radial-gradient(circle, white 0%, black 28%);
-  border: 20px dashed black;
-  padding: 20px;
-  width: 400px;
-  background-origin: padding-box, content-box;
-  background-repeat: no-repeat;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "60%" to be "0.6" (alpha-value-notation)',
-                        "      rgb(253 29 29 / 60%) 60%,",
-                        "8:23 - 8:26",
-                        `/en-US/docs/Web/CSS/background-origin
-[alpha-value-notation] Expected "60%" to be "0.6" (alpha-value-notation)
-~~~
-.box {
-  margin: 10px 0;
-  color: white;
-  background:
-    linear-gradient(
-      90deg,
-      rgb(131 58 180 / 100%) 0%,
-      rgb(253 29 29 / 60%) 60%,
-      rgb(252 176 69 / 100%) 100%
-    ),
-    radial-gradient(circle, white 0%, black 28%);
-  border: 20px dashed black;
-  padding: 20px;
-  width: 400px;
-  background-origin: padding-box, content-box;
-  background-repeat: no-repeat;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "100%" to be "1" (alpha-value-notation)',
-                        "      rgb(252 176 69 / 100%) 100%",
-                        "9:24 - 9:28",
-                        `/en-US/docs/Web/CSS/background-origin
-[alpha-value-notation] Expected "100%" to be "1" (alpha-value-notation)
-~~~
-.box {
-  margin: 10px 0;
-  color: white;
-  background:
-    linear-gradient(
-      90deg,
-      rgb(131 58 180 / 100%) 0%,
-      rgb(253 29 29 / 60%) 60%,
-      rgb(252 176 69 / 100%) 100%
-    ),
-    radial-gradient(circle, white 0%, black 28%);
-  border: 20px dashed black;
-  padding: 20px;
-  width: 400px;
-  background-origin: padding-box, content-box;
-  background-repeat: no-repeat;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "blend-mode": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/blend-mode",
-                  messages: [
-                    {
-                      message: "Redirected external link",
-                      data: [
-                        "https://helpx.adobe.com/photoshop/using/blending-modes.html",
-                        "https://helpx.adobe.com/photoshop/desktop/repair-retouch/adjust-light-tone/blending-mode-descriptions.html"
-                      ]
-                    }
-                  ]
-                },
-                "border-radius": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/border-radius",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "superellipse(0.5)" for property "corner-shape" (declaration-property-value-no-unknown)',
-                        "  corner-shape: superellipse(0.5) bevel notch squircle;",
-                        "24:17 - 24:34",
-                        `/en-US/docs/Web/CSS/border-radius
-[declaration-property-value-no-unknown] Unexpected unknown value "superellipse(0.5)" for property "corner-shape" (declaration-property-value-no-unknown)
-~~~
-body {
-  font-family: "Helvetica", "Arial", sans-serif;
-  width: 240px;
-  margin: 20px auto;
-}
-
-div {
-  width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255 255 255 / 0),
-    rgb(255 255 255 / 0.5)
-  );
-}
-
-div {
-  box-shadow: 1px 1px 3px gray;
-  border-radius: 0 20% 50px 30%;
-  corner-shape: superellipse(0.5) bevel notch squircle;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                bottom: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/bottom",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "20%" to be "0.2" (alpha-value-notation)',
-                        "  background: rgb(55 55 55 / 20%);",
-                        "9:30 - 9:33",
-                        `/en-US/docs/Web/CSS/bottom
-[alpha-value-notation] Expected "20%" to be "0.2" (alpha-value-notation)
-~~~
-p {
-  font-size: 30px;
-  line-height: 2em;
-}
-
-div {
-  width: 48%;
-  text-align: center;
-  background: rgb(55 55 55 / 20%);
-  border: 1px solid blue;
-}
-
-.absolute {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
-.fixed {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "box-shadow": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/box-shadow",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "30%" to be "0.3" (alpha-value-notation)',
-                        "    inset 0 -3em 3em rgb(0 200 0 / 30%),",
-                        "4:36 - 4:39",
-                        `/en-US/docs/Web/CSS/box-shadow
-[alpha-value-notation] Expected "30%" to be "0.3" (alpha-value-notation)
-~~~
-blockquote {
-  padding: 20px;
-  box-shadow:
-    inset 0 -3em 3em rgb(0 200 0 / 30%),
-    0 0 0 2px white,
-    0.3em 0.3em 1em rgb(200 0 0 / 60%);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "60%" to be "0.6" (alpha-value-notation)',
-                        "    0.3em 0.3em 1em rgb(200 0 0 / 60%);",
-                        "6:35 - 6:38",
-                        `/en-US/docs/Web/CSS/box-shadow
-[alpha-value-notation] Expected "60%" to be "0.6" (alpha-value-notation)
-~~~
-blockquote {
-  padding: 20px;
-  box-shadow:
-    inset 0 -3em 3em rgb(0 200 0 / 30%),
-    0 0 0 2px white,
-    0.3em 0.3em 1em rgb(200 0 0 / 60%);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "calc-sum": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/calc-sum",
@@ -21803,197 +20917,6 @@ blockquote {
                     {
                       message: "Broken browser compat anchor",
                       data: []
-                    }
-                  ]
-                },
-                caret: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/caret",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.properties.caret"
-                      ]
-                    }
-                  ]
-                },
-                "caret-animation": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/caret-animation",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                color: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/color",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "hue-degree-notation",
-                        'Expected "30deg" to be "30" (hue-degree-notation)',
-                        "color: hsl(30deg 82% 43%);",
-                        "1:12 - 1:17",
-                        `/en-US/docs/Web/CSS/color
-[hue-degree-notation] Expected "30deg" to be "30" (hue-degree-notation)
-~~~
-color: hsl(30deg 82% 43%);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "61%" to be "0.61" (alpha-value-notation)',
-                        "color: hsl(237deg 74% 33% / 61%);",
-                        "1:29 - 1:32",
-                        `/en-US/docs/Web/CSS/color
-[alpha-value-notation] Expected "61%" to be "0.61" (alpha-value-notation)
-~~~
-color: hsl(237deg 74% 33% / 61%);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "hue-degree-notation",
-                        'Expected "237deg" to be "237" (hue-degree-notation)',
-                        "color: hsl(237deg 74% 33% / 61%);",
-                        "1:12 - 1:18",
-                        `/en-US/docs/Web/CSS/color
-[hue-degree-notation] Expected "237deg" to be "237" (hue-degree-notation)
-~~~
-color: hsl(237deg 74% 33% / 61%);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "70%" to be "0.7" (alpha-value-notation)',
-                        "color: hwb(152deg 0% 58% / 70%);",
-                        "1:28 - 1:31",
-                        `/en-US/docs/Web/CSS/color
-[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
-~~~
-color: hwb(152deg 0% 58% / 70%);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "hue-degree-notation",
-                        'Expected "152deg" to be "152" (hue-degree-notation)',
-                        "color: hwb(152deg 0% 58% / 70%);",
-                        "1:12 - 1:18",
-                        `/en-US/docs/Web/CSS/color
-[hue-degree-notation] Expected "152deg" to be "152" (hue-degree-notation)
-~~~
-color: hwb(152deg 0% 58% / 70%);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "50%" to be "0.5" (alpha-value-notation)',
-                        "  color: rgb(255 0 0 / 50%);",
-                        "25:24 - 25:27",
-                        `/en-US/docs/Web/CSS/color
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-p {
-  color: red;
-}
-p {
-  color: #f00;
-}
-p {
-  color: #ff0000;
-}
-p {
-  color: rgb(255 0 0);
-}
-p {
-  color: rgb(100% 0% 0%);
-}
-p {
-  color: hsl(0 100% 50%);
-}
-
-/* 50% translucent */
-p {
-  color: #ff000080;
-}
-p {
-  color: rgb(255 0 0 / 50%);
-}
-p {
-  color: hsl(0 100% 50% / 50%);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "50%" to be "0.5" (alpha-value-notation)',
-                        "  color: hsl(0 100% 50% / 50%);",
-                        "28:27 - 28:30",
-                        `/en-US/docs/Web/CSS/color
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-p {
-  color: red;
-}
-p {
-  color: #f00;
-}
-p {
-  color: #ff0000;
-}
-p {
-  color: rgb(255 0 0);
-}
-p {
-  color: rgb(100% 0% 0%);
-}
-p {
-  color: hsl(0 100% 50%);
-}
-
-/* 50% translucent */
-p {
-  color: #ff000080;
-}
-p {
-  color: rgb(255 0 0 / 50%);
-}
-p {
-  color: hsl(0 100% 50% / 50%);
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -33831,253 +32754,6 @@ oklch(63.612% 0.1522 78.748)
                     }
                   ]
                 },
-                "corner-block-end-shape": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/corner-block-end-shape",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "corner-block-start-shape": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/corner-block-start-shape",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "corner-bottom-left-shape": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/corner-bottom-left-shape",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "corner-bottom-right-shape": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/corner-bottom-right-shape",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "corner-bottom-shape": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/corner-bottom-shape",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "corner-end-end-shape": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/corner-end-end-shape",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "corner-end-start-shape": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/corner-end-start-shape",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "corner-inline-end-shape": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/corner-inline-end-shape",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "corner-inline-start-shape": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/corner-inline-start-shape",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "corner-left-shape": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/corner-left-shape",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "corner-right-shape": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/corner-right-shape",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "corner-shape": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/corner-shape",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "corner-start-end-shape": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/corner-start-end-shape",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "corner-start-start-shape": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/corner-start-start-shape",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "corner-top-left-shape": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/corner-top-left-shape",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "corner-top-right-shape": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/corner-top-right-shape",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "corner-top-shape": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/corner-top-shape",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "counter-increment": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/counter-increment",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)',
-                        "  flex-wrap: wrap;",
-                        "17:3 - 17:12",
-                        `/en-US/docs/Web/CSS/counter-increment
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)
-~~~
-div {
-  counter-reset: sevens 100;
-}
-i {
-  counter-increment: sevens -7;
-}
-i:first-of-type {
-  counter-increment: none;
-}
-i::before {
-  content: counter(sevens);
-}
-
-div {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 300px;
-  width: 200px;
-}
-i {
-  flex: 0 0 2em;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "cross-fade": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/cross-fade",
@@ -38003,6 +36679,19 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    grid_layout_and_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_and_accessibility",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -47323,14 +46012,22 @@ input[type="range"] {
                     }
                   ]
                 },
-                "dynamic-range-limit": {
+                "display-box": {
                   children: {},
-                  slug: "/en-US/docs/Web/CSS/dynamic-range-limit",
+                  slug: "/en-US/docs/Web/CSS/display-box",
                   messages: [
                     {
-                      message: "Missing data",
+                      message: "Broken external link",
                       data: [
-                        "CSS info"
+                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -47780,223 +46477,6 @@ env(viewport-segment-width 1 0)
                     }
                   ]
                 },
-                fill: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/fill",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "60%" to be "0.6" (alpha-value-notation)',
-                        "  fill: hsl(0deg 100% 50% / 60%);",
-                        "11:29 - 11:32",
-                        `/en-US/docs/Web/CSS/fill
-[alpha-value-notation] Expected "60%" to be "0.6" (alpha-value-notation)
-~~~
-svg {
-  border: 1px solid;
-  height: calc(100vh - 20px);
-  margin-bottom: 10px;
-}
-
-path {
-  fill: red;
-}
-polygon {
-  fill: hsl(0deg 100% 50% / 60%);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "hue-degree-notation",
-                        'Expected "0deg" to be "0" (hue-degree-notation)',
-                        "  fill: hsl(0deg 100% 50% / 60%);",
-                        "11:13 - 11:17",
-                        `/en-US/docs/Web/CSS/fill
-[hue-degree-notation] Expected "0deg" to be "0" (hue-degree-notation)
-~~~
-svg {
-  border: 1px solid;
-  height: calc(100vh - 20px);
-  margin-bottom: 10px;
-}
-
-path {
-  fill: red;
-}
-polygon {
-  fill: hsl(0deg 100% 50% / 60%);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "fill-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/fill-opacity",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "40%" to be "0.4" (alpha-value-notation)',
-                        "  fill-opacity: 40%;",
-                        "21:17 - 21:20",
-                        `/en-US/docs/Web/CSS/fill-opacity
-[alpha-value-notation] Expected "40%" to be "0.4" (alpha-value-notation)
-~~~
-svg {
-  border: 1px solid;
-  height: calc(100vh - 20px);
-  background: repeating-linear-gradient(
-    to bottom right,
-    transparent 0 10px,
-    #cccccc 10px 11px
-  );
-}
-
-svg > * {
-  fill: black;
-}
-rect:last-of-type {
-  fill-opacity: 0.1;
-}
-circle {
-  fill-opacity: 0.6;
-}
-ellipse {
-  fill-opacity: 40%;
-}
-line {
-  fill-opacity: 10%;
-}
-polyline {
-  fill-opacity: 50%;
-}
-path {
-  fill-opacity: 0.5;
-}
-
-circle,
-ellipse {
-  stroke: black;
-  stroke-width: 3px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "10%" to be "0.1" (alpha-value-notation)',
-                        "  fill-opacity: 10%;",
-                        "24:17 - 24:20",
-                        `/en-US/docs/Web/CSS/fill-opacity
-[alpha-value-notation] Expected "10%" to be "0.1" (alpha-value-notation)
-~~~
-svg {
-  border: 1px solid;
-  height: calc(100vh - 20px);
-  background: repeating-linear-gradient(
-    to bottom right,
-    transparent 0 10px,
-    #cccccc 10px 11px
-  );
-}
-
-svg > * {
-  fill: black;
-}
-rect:last-of-type {
-  fill-opacity: 0.1;
-}
-circle {
-  fill-opacity: 0.6;
-}
-ellipse {
-  fill-opacity: 40%;
-}
-line {
-  fill-opacity: 10%;
-}
-polyline {
-  fill-opacity: 50%;
-}
-path {
-  fill-opacity: 0.5;
-}
-
-circle,
-ellipse {
-  stroke: black;
-  stroke-width: 3px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "50%" to be "0.5" (alpha-value-notation)',
-                        "  fill-opacity: 50%;",
-                        "27:17 - 27:20",
-                        `/en-US/docs/Web/CSS/fill-opacity
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-svg {
-  border: 1px solid;
-  height: calc(100vh - 20px);
-  background: repeating-linear-gradient(
-    to bottom right,
-    transparent 0 10px,
-    #cccccc 10px 11px
-  );
-}
-
-svg > * {
-  fill: black;
-}
-rect:last-of-type {
-  fill-opacity: 0.1;
-}
-circle {
-  fill-opacity: 0.6;
-}
-ellipse {
-  fill-opacity: 40%;
-}
-line {
-  fill-opacity: 10%;
-}
-polyline {
-  fill-opacity: 50%;
-}
-path {
-  fill-opacity: 0.5;
-}
-
-circle,
-ellipse {
-  stroke: black;
-  stroke-width: 3px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "filter-function": {
                   children: {
                     brightness: {
@@ -48231,414 +46711,6 @@ css.properties.width.fit-content_function`
                     }
                   ]
                 },
-                flex: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "flex" (declaration-block-no-redundant-longhand-properties)',
-                        "  flex-basis: 0;",
-                        "14:3 - 14:13",
-                        `/en-US/docs/Web/CSS/flex
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex" (declaration-block-no-redundant-longhand-properties)
-~~~
-.default-example {
-  border: 1px solid #c5c5c5;
-  width: auto;
-  max-height: 300px;
-  display: flex;
-}
-
-.default-example > div {
-  background-color: rgb(0 0 255 / 0.2);
-  border: 3px solid blue;
-  margin: 10px;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 0;
-}
-
-#example-element {
-  background-color: rgb(255 0 200 / 0.2);
-  border: 3px solid rebeccapurple;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "flex-basis": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex-basis",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "flex" (declaration-block-no-redundant-longhand-properties)',
-                        "  flex-basis: auto;",
-                        "14:3 - 14:13",
-                        `/en-US/docs/Web/CSS/flex-basis
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex" (declaration-block-no-redundant-longhand-properties)
-~~~
-.default-example {
-  border: 1px solid #c5c5c5;
-  width: auto;
-  max-height: 300px;
-  display: flex;
-}
-
-.default-example > div {
-  background-color: rgb(0 0 255 / 0.2);
-  border: 3px solid blue;
-  margin: 10px;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: auto;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "flex-grow": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex-grow",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "flex" (declaration-block-no-redundant-longhand-properties)',
-                        "  flex-basis: 0;",
-                        "14:3 - 14:13",
-                        `/en-US/docs/Web/CSS/flex-grow
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex" (declaration-block-no-redundant-longhand-properties)
-~~~
-.default-example {
-  border: 1px solid #c5c5c5;
-  width: auto;
-  max-height: 300px;
-  display: flex;
-}
-
-.default-example > div {
-  background-color: rgb(0 0 255 / 0.2);
-  border: 3px solid blue;
-  margin: 10px;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 0;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "20%" to be "0.2" (alpha-value-notation)',
-                        "  border: 3px solid rgb(0 0 0 / 20%);",
-                        "6:33 - 6:36",
-                        `/en-US/docs/Web/CSS/flex-grow
-[alpha-value-notation] Expected "20%" to be "0.2" (alpha-value-notation)
-~~~
-#content {
-  display: flex;
-}
-
-div > div {
-  border: 3px solid rgb(0 0 0 / 20%);
-}
-
-.box1,
-.box2,
-.box3,
-.box6 {
-  flex-grow: 1;
-}
-
-.box4,
-.box5 {
-  flex-grow: 2;
-  border: 3px solid rgb(0 0 0 / 20%);
-}
-
-.box1 {
-  background-color: red;
-}
-.box2 {
-  background-color: lightblue;
-}
-.box3 {
-  background-color: yellow;
-}
-.box4 {
-  background-color: brown;
-}
-.box5 {
-  background-color: lightgreen;
-}
-.box6 {
-  background-color: brown;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "20%" to be "0.2" (alpha-value-notation)',
-                        "  border: 3px solid rgb(0 0 0 / 20%);",
-                        "19:33 - 19:36",
-                        `/en-US/docs/Web/CSS/flex-grow
-[alpha-value-notation] Expected "20%" to be "0.2" (alpha-value-notation)
-~~~
-#content {
-  display: flex;
-}
-
-div > div {
-  border: 3px solid rgb(0 0 0 / 20%);
-}
-
-.box1,
-.box2,
-.box3,
-.box6 {
-  flex-grow: 1;
-}
-
-.box4,
-.box5 {
-  flex-grow: 2;
-  border: 3px solid rgb(0 0 0 / 20%);
-}
-
-.box1 {
-  background-color: red;
-}
-.box2 {
-  background-color: lightblue;
-}
-.box3 {
-  background-color: yellow;
-}
-.box4 {
-  background-color: brown;
-}
-.box5 {
-  background-color: lightgreen;
-}
-.box6 {
-  background-color: brown;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "flex-shrink": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flex-shrink",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "flex" (declaration-block-no-redundant-longhand-properties)',
-                        "  flex-basis: 300px;",
-                        "14:3 - 14:13",
-                        `/en-US/docs/Web/CSS/flex-shrink
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex" (declaration-block-no-redundant-longhand-properties)
-~~~
-.default-example {
-  border: 1px solid #c5c5c5;
-  width: auto;
-  max-height: 300px;
-  display: flex;
-}
-
-.default-example > div {
-  background-color: rgb(0 0 255 / 0.2);
-  border: 3px solid blue;
-  margin: 10px;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 300px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "flood-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/flood-opacity",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "90%" to be "0.9" (alpha-value-notation)',
-                        "  flood-opacity: 90%;",
-                        "22:18 - 22:21",
-                        `/en-US/docs/Web/CSS/flood-opacity
-[alpha-value-notation] Expected "90%" to be "0.9" (alpha-value-notation)
-~~~
-svg {
-  background-image: repeating-linear-gradient(
-    45deg,
-    transparent 0 9px,
-    #cccccc 0px 10px
-  );
-}
-rect {
-  width: 100px;
-  height: 100px;
-  x: 10px;
-  y: 10px;
-}
-#r2 {
-  x: 150px;
-}
-
-#flood1 feFlood {
-  flood-opacity: 0.5;
-}
-#flood2 feFlood {
-  flood-opacity: 90%;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                font: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/font",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "caption" (font-family-name-quotes)',
-                        "font: caption;",
-                        "1:7 - 1:14",
-                        `/en-US/docs/Web/CSS/font
-[font-family-name-quotes] Expected quotes around "caption" (font-family-name-quotes)
-~~~
-font: caption;
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "font-family-name-quotes",
-                        'Expected quotes around "status-bar" (font-family-name-quotes)',
-                        "  font: status-bar;",
-                        "24:9 - 24:19",
-                        `/en-US/docs/Web/CSS/font
-[font-family-name-quotes] Expected quotes around "status-bar" (font-family-name-quotes)
-~~~
-/* Set the font size to 12px and the line height to 14px.
-   Set the font family to sans-serif */
-p {
-  font: 12px/14px sans-serif;
-}
-
-/* Set the font size to 80% of the parent element
-   or default value (if no parent element present).
-   Set the font family to sans-serif */
-p {
-  font: 80% sans-serif;
-}
-
-/* Set the font weight to bold,
-   the font-style to italic,
-   the font size to large,
-   and the font family to serif. */
-p {
-  font: bold italic large serif;
-}
-
-/* Use the same font as the status bar of the window */
-p {
-  font: status-bar;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "font-palette": {
-                  children: {
-                    "palette-mix": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/font-palette/palette-mix",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "palette-mix(in lch, --blue-nabla 55%, --yellow-nabla 45%)" for property "font-palette" (declaration-property-value-no-unknown)',
-                            "  font-palette: palette-mix(in lch, --blue-nabla 55%, --yellow-nabla 45%);",
-                            "29:17 - 29:74",
-                            `/en-US/docs/Web/CSS/font-palette/palette-mix
-[declaration-property-value-no-unknown] Unexpected unknown value "palette-mix(in lch, --blue-nabla 55%, --yellow-nabla 45%)" for property "font-palette" (declaration-property-value-no-unknown)
-~~~
-@import "https://fonts.googleapis.com/css2?family=Nabla&display=swap";
-
-@font-palette-values --blue-nabla {
-  font-family: "Nabla";
-  base-palette: 2; /* this is Nabla's blue palette */
-}
-
-@font-palette-values --yellow-nabla {
-  font-family: "Nabla";
-  base-palette: 7; /* this is Nabla's yellow palette */
-}
-
-p {
-  font-family: "Nabla", fantasy;
-  font-size: 4rem;
-  text-align: center;
-  margin: 0;
-}
-
-.yellowPalette {
-  font-palette: --yellow-nabla;
-}
-
-.bluePalette {
-  font-palette: --blue-nabla;
-}
-
-.mixedPalette {
-  font-palette: palette-mix(in lch, --blue-nabla 55%, --yellow-nabla 45%);
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 frequency: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/frequency",
@@ -48863,1099 +46935,10 @@ repeating-conic-gradient(from -45deg, red 45deg, orange, yellow, green, blue 225
                     }
                   }
                 },
-                "grid-area": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-area",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)',
-                        "  grid-template-areas:",
-                        "6:3 - 6:22",
-                        `/en-US/docs/Web/CSS/grid-area
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)
-~~~
-.example-container {
-  border: 1px solid #c5c5c5;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(3, minmax(40px, auto));
-  grid-template-areas:
-    "a a a"
-    "b c c"
-    "b c c";
-  grid-gap: 10px;
-  width: 200px;
-}
-
-.example-container > div {
-  background-color: rgb(0 0 255 / 0.2);
-  border: 3px solid blue;
-}
-
-#example-element {
-  background-color: rgb(255 0 200 / 0.2);
-  border: 3px solid rebeccapurple;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "grid-column-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-column-end",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                        "  grid-column-end: 4;",
-                        "9:3 - 9:18",
-                        `/en-US/docs/Web/CSS/grid-column-end
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.nested {
-  border: 2px solid #ffec99;
-  border-radius: 5px;
-  background-color: #fff9db;
-  padding: 1em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
-                        "  grid-row-end: 3;",
-                        "11:3 - 11:15",
-                        `/en-US/docs/Web/CSS/grid-column-end
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.nested {
-  border: 2px solid #ffec99;
-  border-radius: 5px;
-  background-color: #fff9db;
-  padding: 1em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                        "  grid-row-end: 3;",
-                        "11:3 - 11:15",
-                        `/en-US/docs/Web/CSS/grid-column-end
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.nested {
-  border: 2px solid #ffec99;
-  border-radius: 5px;
-  background-color: #fff9db;
-  padding: 1em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                        "  grid-row-end: 5;",
-                        "17:3 - 17:15",
-                        `/en-US/docs/Web/CSS/grid-column-end
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.nested {
-  border: 2px solid #ffec99;
-  border-radius: 5px;
-  background-color: #fff9db;
-  padding: 1em;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "grid-column-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-column-start",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                        "  grid-column-end: 4;",
-                        "9:3 - 9:18",
-                        `/en-US/docs/Web/CSS/grid-column-start
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.nested {
-  border: 2px solid #ffec99;
-  border-radius: 5px;
-  background-color: #fff9db;
-  padding: 1em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
-                        "  grid-row-end: 3;",
-                        "11:3 - 11:15",
-                        `/en-US/docs/Web/CSS/grid-column-start
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.nested {
-  border: 2px solid #ffec99;
-  border-radius: 5px;
-  background-color: #fff9db;
-  padding: 1em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                        "  grid-row-end: 3;",
-                        "11:3 - 11:15",
-                        `/en-US/docs/Web/CSS/grid-column-start
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.nested {
-  border: 2px solid #ffec99;
-  border-radius: 5px;
-  background-color: #fff9db;
-  padding: 1em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                        "  grid-row-end: 5;",
-                        "17:3 - 17:15",
-                        `/en-US/docs/Web/CSS/grid-column-start
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.nested {
-  border: 2px solid #ffec99;
-  border-radius: 5px;
-  background-color: #fff9db;
-  padding: 1em;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "grid-row-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-row-end",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                        "  grid-column-end: 4;",
-                        "9:3 - 9:18",
-                        `/en-US/docs/Web/CSS/grid-row-end
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.nested {
-  border: 2px solid #ffec99;
-  border-radius: 5px;
-  background-color: #fff9db;
-  padding: 1em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
-                        "  grid-row-end: 3;",
-                        "11:3 - 11:15",
-                        `/en-US/docs/Web/CSS/grid-row-end
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.nested {
-  border: 2px solid #ffec99;
-  border-radius: 5px;
-  background-color: #fff9db;
-  padding: 1em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                        "  grid-row-end: 3;",
-                        "11:3 - 11:15",
-                        `/en-US/docs/Web/CSS/grid-row-end
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.nested {
-  border: 2px solid #ffec99;
-  border-radius: 5px;
-  background-color: #fff9db;
-  padding: 1em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                        "  grid-row-end: 5;",
-                        "17:3 - 17:15",
-                        `/en-US/docs/Web/CSS/grid-row-end
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.nested {
-  border: 2px solid #ffec99;
-  border-radius: 5px;
-  background-color: #fff9db;
-  padding: 1em;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "grid-row-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-row-start",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                        "  grid-column-end: 4;",
-                        "9:3 - 9:18",
-                        `/en-US/docs/Web/CSS/grid-row-start
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.nested {
-  border: 2px solid #ffec99;
-  border-radius: 5px;
-  background-color: #fff9db;
-  padding: 1em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
-                        "  grid-row-end: 3;",
-                        "11:3 - 11:15",
-                        `/en-US/docs/Web/CSS/grid-row-start
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.nested {
-  border: 2px solid #ffec99;
-  border-radius: 5px;
-  background-color: #fff9db;
-  padding: 1em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                        "  grid-row-end: 3;",
-                        "11:3 - 11:15",
-                        `/en-US/docs/Web/CSS/grid-row-start
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.nested {
-  border: 2px solid #ffec99;
-  border-radius: 5px;
-  background-color: #fff9db;
-  padding: 1em;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                        "  grid-row-end: 5;",
-                        "17:3 - 17:15",
-                        `/en-US/docs/Web/CSS/grid-row-start
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.nested {
-  border: 2px solid #ffec99;
-  border-radius: 5px;
-  background-color: #fff9db;
-  padding: 1em;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "grid-template-areas": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/grid-template-areas",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)',
-                        "  grid-template-columns: 150px 1fr;",
-                        "10:3 - 10:24",
-                        `/en-US/docs/Web/CSS/grid-template-areas
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)
-~~~
-#page {
-  display: grid;
-  width: 100%;
-  height: 250px;
-  grid-template-areas:
-    "head head"
-    "nav  main"
-    ".  foot";
-  grid-template-rows: 50px 1fr 30px;
-  grid-template-columns: 150px 1fr;
-}
-
-#page > header {
-  grid-area: head;
-  background-color: #8ca0ff;
-}
-
-#page > nav {
-  grid-area: nav;
-  background-color: #ffa08c;
-}
-
-#page > main {
-  grid-area: main;
-  background-color: #ffff64;
-}
-
-#page > footer {
-  grid-area: foot;
-  background-color: #8cffa0;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 how_to: {
                   children: {
                     layout_cookbook: {
                       children: {
-                        contribute_a_recipe: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Contribute_a_recipe",
-                          messages: [
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "#what-makes-a-good-recipe"
-                              ]
-                            },
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "#steps-to-publish-a-recipe"
-                              ]
-                            },
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "#1-build-a-pattern"
-                              ]
-                            },
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "#2-create-a-live-example"
-                              ]
-                            },
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "#useful-tips"
-                              ]
-                            },
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "#3-create-a-downloadable-version"
-                              ]
-                            },
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "#4-open-a-pull-request-with-your-example"
-                              ]
-                            },
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "#5-create-your-page"
-                              ]
-                            },
-                            {
-                              message: "Broken anchor",
-                              data: [
-                                "#see-also"
-                              ]
-                            }
-                          ]
-                        },
                         media_objects: {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/How_to/Layout_cookbook/Media_objects",
@@ -53474,18 +50457,6 @@ image-set("cat.jpg" 1x, "dog.jpg" 1x) /* every image in an image set must have a
                     }
                   ]
                 },
-                "image-resolution": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/image-resolution",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.properties.image-resolution"
-                      ]
-                    }
-                  ]
-                },
                 important: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/important",
@@ -53541,18 +50512,6 @@ p {
                     {
                       message: "Unreachable via sidebar",
                       data: []
-                    }
-                  ]
-                },
-                interactivity: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/interactivity",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
                     }
                   ]
                 },
@@ -53826,547 +50785,6 @@ label {
                     }
                   ]
                 },
-                "line-height-step": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/line-height-step",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.properties.line-height-step"
-                      ]
-                    }
-                  ]
-                },
-                margin: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
-                        "  justify-content: flex-start;",
-                        "7:3 - 7:18",
-                        `/en-US/docs/Web/CSS/margin
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
-~~~
-#container {
-  width: 300px;
-  height: 200px;
-  display: flex;
-  align-content: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.row {
-  height: 33.33%;
-  display: inline-block;
-  border: solid #ce7777 10px;
-  background-color: #2b3a55;
-  flex-shrink: 0;
-}
-
-#example-element {
-  border: solid 10px #ffbf00;
-  background-color: #2b3a55;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "margin-block": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-block",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
-                        "  justify-content: flex-start;",
-                        "7:3 - 7:18",
-                        `/en-US/docs/Web/CSS/margin-block
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
-~~~
-#container {
-  width: 300px;
-  height: 200px;
-  display: flex;
-  align-content: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.row {
-  height: 33.33%;
-  display: inline-block;
-  border: solid #ce7777 10px;
-  background-color: #2b3a55;
-  color: white;
-  flex-shrink: 0;
-}
-
-#example-element {
-  border: solid 10px #ffbf00;
-  background-color: #2b3a55;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "margin-block-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-block-end",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
-                        "  justify-content: flex-start;",
-                        "7:3 - 7:18",
-                        `/en-US/docs/Web/CSS/margin-block-end
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
-~~~
-#container {
-  width: 300px;
-  height: 200px;
-  display: flex;
-  align-content: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.row {
-  height: 33.33%;
-  display: inline-block;
-  border: solid #ce7777 10px;
-  background-color: #2b3a55;
-  color: white;
-  flex-shrink: 0;
-}
-
-#example-element {
-  border: solid 10px #ffbf00;
-  background-color: #2b3a55;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "margin-block-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-block-start",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
-                        "  justify-content: flex-start;",
-                        "7:3 - 7:18",
-                        `/en-US/docs/Web/CSS/margin-block-start
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
-~~~
-#container {
-  width: 300px;
-  height: 200px;
-  display: flex;
-  align-content: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.row {
-  height: 33.33%;
-  display: inline-block;
-  border: solid #ce7777 10px;
-  background-color: #2b3a55;
-  color: white;
-  flex-shrink: 0;
-}
-
-#example-element {
-  border: solid 10px #ffbf00;
-  background-color: #2b3a55;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "margin-bottom": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-bottom",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
-                        "  justify-content: flex-start;",
-                        "7:3 - 7:18",
-                        `/en-US/docs/Web/CSS/margin-bottom
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
-~~~
-#container {
-  width: 300px;
-  height: 200px;
-  display: flex;
-  align-content: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.row {
-  height: 33.33%;
-  display: inline-block;
-  border: solid #ce7777 10px;
-  background-color: #2b3a55;
-  flex-shrink: 0;
-}
-
-#example-element {
-  border: solid 10px #ffbf00;
-  background-color: #2b3a55;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "margin-inline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-inline",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
-                        "  justify-content: flex-start;",
-                        "6:3 - 6:18",
-                        `/en-US/docs/Web/CSS/margin-inline
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
-~~~
-#container {
-  width: 300px;
-  height: 200px;
-  display: flex;
-  align-content: flex-start;
-  justify-content: flex-start;
-}
-
-.col {
-  width: 33.33%;
-  border: solid #ce7777 10px;
-  background-color: #2b3a55;
-  color: white;
-  flex-shrink: 0;
-}
-
-#example-element {
-  border: solid 10px #ffbf00;
-  background-color: #2b3a55;
-  unicode-bidi: bidi-override;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "margin-inline-end": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-inline-end",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
-                        "  justify-content: flex-start;",
-                        "6:3 - 6:18",
-                        `/en-US/docs/Web/CSS/margin-inline-end
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
-~~~
-#container {
-  width: 300px;
-  height: 200px;
-  display: flex;
-  align-content: flex-start;
-  justify-content: flex-start;
-}
-
-.col {
-  width: 33.33%;
-  border: solid #ce7777 10px;
-  background-color: #2b3a55;
-  color: white;
-  flex-shrink: 0;
-}
-
-#example-element {
-  border: solid 10px #ffbf00;
-  background-color: #2b3a55;
-  unicode-bidi: bidi-override;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "margin-inline-start": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-inline-start",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
-                        "  justify-content: flex-start;",
-                        "6:3 - 6:18",
-                        `/en-US/docs/Web/CSS/margin-inline-start
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
-~~~
-#container {
-  width: 300px;
-  height: 200px;
-  display: flex;
-  align-content: flex-start;
-  justify-content: flex-start;
-}
-
-.col {
-  width: 33.33%;
-  border: solid #ce7777 10px;
-  background-color: #2b3a55;
-  color: white;
-  flex-shrink: 0;
-}
-
-#example-element {
-  border: solid 10px #ffbf00;
-  background-color: #2b3a55;
-  unicode-bidi: bidi-override;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "margin-left": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-left",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
-                        "  justify-content: flex-start;",
-                        "6:3 - 6:18",
-                        `/en-US/docs/Web/CSS/margin-left
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
-~~~
-#container {
-  width: 300px;
-  height: 200px;
-  display: flex;
-  align-content: flex-start;
-  justify-content: flex-start;
-}
-
-.col {
-  width: 33.33%;
-  border: solid #5b6dcd 10px;
-  background-color: rgb(229 232 252 / 0.6);
-  flex-shrink: 0;
-}
-
-#example-element {
-  border: solid 10px #ffc129;
-  background-color: rgb(255 244 219 / 0.6);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "margin-right": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-right",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
-                        "  justify-content: flex-start;",
-                        "6:3 - 6:18",
-                        `/en-US/docs/Web/CSS/margin-right
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
-~~~
-#container {
-  width: 300px;
-  height: 200px;
-  display: flex;
-  align-content: flex-start;
-  justify-content: flex-start;
-}
-
-.col {
-  width: 33.33%;
-  border: solid #5b6dcd 10px;
-  background-color: rgb(229 232 252 / 0.6);
-  flex-shrink: 0;
-}
-
-#example-element {
-  border: solid 10px #ffc129;
-  background-color: rgb(255 244 219 / 0.6);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "margin-top": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/margin-top",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
-                        "  justify-content: flex-start;",
-                        "7:3 - 7:18",
-                        `/en-US/docs/Web/CSS/margin-top
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
-~~~
-#container {
-  width: 300px;
-  height: 200px;
-  display: flex;
-  align-content: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.row {
-  height: 33.33%;
-  display: inline-block;
-  border: solid #ce7777 10px;
-  background-color: #2b3a55;
-  flex-shrink: 0;
-}
-
-#example-element {
-  border: solid 10px #ffbf00;
-  background-color: #2b3a55;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                mask: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "mask" (declaration-block-no-redundant-longhand-properties)',
-                        "mask-composite: add;",
-                        "8:1 - 8:15",
-                        `/en-US/docs/Web/CSS/mask
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "mask" (declaration-block-no-redundant-longhand-properties)
-~~~
-mask-image: none;
-mask-mode: match-source;
-mask-position: 0% 0%;
-mask-size: auto;
-mask-repeat: repeat;
-mask-origin: border-box;
-mask-clip: border-box;
-mask-composite: add;
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "mask-border": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "30" for property "-webkit-mask-box-image" (declaration-property-value-no-unknown)',
-                        "    30 fill /          /* slice */",
-                        "8:5 - 8:7",
-                        `/en-US/docs/Web/CSS/mask-border
-[declaration-property-value-no-unknown] Unexpected unknown value "30" for property "-webkit-mask-box-image" (declaration-property-value-no-unknown)
-~~~
-.masked {
-  width: 200px;
-  background-color: lavender;
-  border: 18px solid salmon;
-  padding: 10px;
-
-  -webkit-mask-box-image: url("https://mdn.github.io/shared-assets/images/examples/mask-border-diamonds.png")
-    30 fill /          /* slice */
-    20px /             /* width */
-    1px                /* outset */
-    round;             /* repeat */
-
-  mask-border:
-    url("https://mdn.github.io/shared-assets/images/examples/mask-border-diamonds.png")
-    30 fill /        /* slice */
-    20px /           /* width */
-    1px              /* outset */
-    round;           /* repeat */
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "mask-border-mode": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mask-border-mode",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.properties.mask-border-mode"
-                      ]
-                    }
-                  ]
-                },
                 "max-content": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/max-content",
@@ -54403,730 +50821,6 @@ css.properties.grid-template-rows.minmax`
                     }
                   ]
                 },
-                "mix-blend-mode": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/mix-blend-mode",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)',
-                        "  flex-wrap: wrap;",
-                        "18:3 - 18:12",
-                        `/en-US/docs/Web/CSS/mix-blend-mode
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)
-~~~
-html,
-body {
-  height: 100%;
-  box-sizing: border-box;
-  background: #eeeeee;
-}
-
-.grid {
-  width: 100%;
-  display: flex;
-  font: 1em monospace;
-}
-
-.row {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: auto;
-}
-
-.col {
-  display: flex;
-  flex: 1 auto;
-  flex-direction: column;
-  height: auto;
-}
-
-.cell {
-  margin: 0.5em;
-  padding: 0.5em;
-  background-color: white;
-  overflow: hidden;
-  text-align: center;
-}
-
-.note {
-  background: #fff3d4;
-  padding: 1em;
-  margin: 0.5em 0.5em 0;
-  font: 0.8em sans-serif;
-  text-align: left;
-  white-space: nowrap;
-}
-
-.note + .row .cell {
-  margin-top: 0;
-}
-
-.container {
-  position: relative;
-  background:
-    linear-gradient(to right, black 0%, transparent 50%, white 100%),
-    linear-gradient(to bottom, yellow 0%, magenta 50%, cyan 100%);
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-}
-
-.R {
-  transform-origin: center;
-  transform: rotate(-30deg);
-  fill: url("#red");
-}
-
-.G {
-  transform-origin: center;
-  transform: rotate(90deg);
-  fill: url("#green");
-}
-
-.B {
-  transform-origin: center;
-  transform: rotate(210deg);
-  fill: url("#blue");
-}
-
-.isolate .group {
-  isolation: isolate;
-}
-
-.normal .item {
-  mix-blend-mode: normal;
-}
-.multiply .item {
-  mix-blend-mode: multiply;
-}
-.screen .item {
-  mix-blend-mode: screen;
-}
-.overlay .item {
-  mix-blend-mode: overlay;
-}
-.darken .item {
-  mix-blend-mode: darken;
-}
-.lighten .item {
-  mix-blend-mode: lighten;
-}
-.color-dodge .item {
-  mix-blend-mode: color-dodge;
-}
-.color-burn .item {
-  mix-blend-mode: color-burn;
-}
-.hard-light .item {
-  mix-blend-mode: hard-light;
-}
-.soft-light .item {
-  mix-blend-mode: soft-light;
-}
-.difference .item {
-  mix-blend-mode: difference;
-}
-.exclusion .item {
-  mix-blend-mode: exclusion;
-}
-.hue .item {
-  mix-blend-mode: hue;
-}
-.saturation .item {
-  mix-blend-mode: saturation;
-}
-.color .item {
-  mix-blend-mode: color;
-}
-.luminosity .item {
-  mix-blend-mode: luminosity;
-}
-.plus-darker .item {
-  mix-blend-mode: plus-darker;
-}
-.plus-lighter .item {
-  mix-blend-mode: plus-lighter;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "offset-position": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/offset-position",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "20%" to be "0.2" (alpha-value-notation)',
-                        "  opacity: 20%;",
-                        "36:12 - 36:15",
-                        `/en-US/docs/Web/CSS/offset-position
-[alpha-value-notation] Expected "20%" to be "0.2" (alpha-value-notation)
-~~~
-.wrap {
-  position: relative;
-  width: 80vw;
-  height: 120px;
-  border: 1px solid black;
-  margin: 0 2em 4em 5em;
-  text-align: center;
-}
-
-pre {
-  font-size: 1em;
-  text-align: right;
-  padding-right: 10px;
-  line-height: 1em;
-}
-
-.box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 50px;
-}
-
-.box + .box {
-  opacity: 1;
-}
-
-.box {
-  background-color: green;
-  border-top: 6px dashed white;
-  background-clip: border-box;
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  opacity: 20%;
-  color: white;
-}
-
-.box0 {
-  offset-position: normal;
-}
-
-.box1 {
-  offset-position: normal;
-  offset-path: ray(0deg);
-}
-
-.box2 {
-  offset-position: auto;
-  offset-path: ray(0deg);
-}
-
-.box3 {
-  offset-position: left top;
-  offset-path: ray(0deg);
-}
-
-.box4 {
-  offset-position: 30% 70%;
-  offset-path: ray(120deg);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                opacity: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/opacity",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "40%" to be "0.4" (alpha-value-notation)',
-                        "background: rgb(0 0 0 / 40%);",
-                        "1:25 - 1:28",
-                        `/en-US/docs/Web/CSS/opacity
-[alpha-value-notation] Expected "40%" to be "0.4" (alpha-value-notation)
-~~~
-background: rgb(0 0 0 / 40%);
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "50%" to be "0.5" (alpha-value-notation)',
-                        "    rgb(255 255 255 / 50%) 50%",
-                        "16:23 - 16:26",
-                        `/en-US/docs/Web/CSS/opacity
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-img.opacity {
-  opacity: 1;
-}
-
-img.opacity:hover {
-  opacity: 0.5;
-}
-
-.wrapper {
-  width: 200px;
-  height: 160px;
-  background-color: #f03cc3;
-  background-image: linear-gradient(
-    90deg,
-    transparent 50%,
-    rgb(255 255 255 / 50%) 50%
-  );
-  background-size: 20px 20px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                overlay: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overlay",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "25%" to be "0.25" (alpha-value-notation)',
-                        "  background-color: rgb(0 0 0 / 25%);",
-                        "49:33 - 49:36",
-                        `/en-US/docs/Web/CSS/overlay
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-html {
-  font-family: "Helvetica", "Arial", sans-serif;
-}
-
-[popover]:popover-open {
-  opacity: 1;
-  transform: scaleX(1);
-}
-
-[popover] {
-  font-size: 1.2rem;
-  padding: 10px;
-
-  /* Final state of the exit animation */
-  opacity: 0;
-  transform: scaleX(0);
-
-  transition:
-    opacity 0.7s,
-    transform 0.7s,
-    overlay 0.7s allow-discrete,
-    display 0.7s allow-discrete;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-}
-
-/* Needs to be included after the previous [popover]:popover-open
-   rule to take effect, as the specificity is the same */
-@starting-style {
-  [popover]:popover-open {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-}
-
-/* Transition for the popover's backdrop */
-
-[popover]::backdrop {
-  background-color: transparent;
-  transition:
-    display 0.7s allow-discrete,
-    overlay 0.7s allow-discrete,
-    background-color 0.7s;
-  /* Equivalent to
-  transition: all 0.7s allow-discrete; */
-}
-
-[popover]:popover-open::backdrop {
-  background-color: rgb(0 0 0 / 25%);
-}
-
-/* Nesting selectors (&) cannot represent pseudo-elements, so this 
-   starting-style rule cannot be nested. */
-
-@starting-style {
-  [popover]:popover-open::backdrop {
-    background-color: transparent;
-  }
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "overscroll-behavior-block": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overscroll-behavior-block",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "50%" to be "0.5" (alpha-value-notation)',
-                        "    rgb(0 0 0 / 50%) 20px",
-                        "9:17 - 9:20",
-                        `/en-US/docs/Web/CSS/overscroll-behavior-block
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-main {
-  height: 3000px;
-  width: 500px;
-  background-color: white;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent 0px,
-    transparent 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-main > div {
-  height: 300px;
-  width: 400px;
-  overflow: auto;
-  position: relative;
-  top: 50px;
-  left: 50px;
-  overscroll-behavior-block: contain;
-}
-
-div > div {
-  height: 1500px;
-  width: 100%;
-  background-color: yellow;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent 0px,
-    transparent 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-p {
-  padding: 10px;
-  background-color: rgb(255 0 0 / 50%);
-  margin: 0;
-  width: 340px;
-  position: relative;
-  top: 10px;
-  left: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "50%" to be "0.5" (alpha-value-notation)',
-                        "    rgb(0 0 0 / 50%) 20px",
-                        "31:17 - 31:20",
-                        `/en-US/docs/Web/CSS/overscroll-behavior-block
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-main {
-  height: 3000px;
-  width: 500px;
-  background-color: white;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent 0px,
-    transparent 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-main > div {
-  height: 300px;
-  width: 400px;
-  overflow: auto;
-  position: relative;
-  top: 50px;
-  left: 50px;
-  overscroll-behavior-block: contain;
-}
-
-div > div {
-  height: 1500px;
-  width: 100%;
-  background-color: yellow;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent 0px,
-    transparent 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-p {
-  padding: 10px;
-  background-color: rgb(255 0 0 / 50%);
-  margin: 0;
-  width: 340px;
-  position: relative;
-  top: 10px;
-  left: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "50%" to be "0.5" (alpha-value-notation)',
-                        "  background-color: rgb(255 0 0 / 50%);",
-                        "37:35 - 37:38",
-                        `/en-US/docs/Web/CSS/overscroll-behavior-block
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-main {
-  height: 3000px;
-  width: 500px;
-  background-color: white;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent 0px,
-    transparent 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-main > div {
-  height: 300px;
-  width: 400px;
-  overflow: auto;
-  position: relative;
-  top: 50px;
-  left: 50px;
-  overscroll-behavior-block: contain;
-}
-
-div > div {
-  height: 1500px;
-  width: 100%;
-  background-color: yellow;
-  background-image: repeating-linear-gradient(
-    to bottom,
-    transparent 0px,
-    transparent 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-p {
-  padding: 10px;
-  background-color: rgb(255 0 0 / 50%);
-  margin: 0;
-  width: 340px;
-  position: relative;
-  top: 10px;
-  left: 10px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "overscroll-behavior-inline": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/overscroll-behavior-inline",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "50%" to be "0.5" (alpha-value-notation)',
-                        "    rgb(0 0 0 / 50%) 20px",
-                        "9:17 - 9:20",
-                        `/en-US/docs/Web/CSS/overscroll-behavior-inline
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-main {
-  height: 400px;
-  width: 3000px;
-  background-color: white;
-  background-image: repeating-linear-gradient(
-    to right,
-    transparent 0px,
-    transparent 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-main > div {
-  height: 300px;
-  width: 400px;
-  overflow: auto;
-  position: relative;
-  top: 50px;
-  left: 50px;
-  overscroll-behavior-inline: contain;
-}
-
-div > div {
-  height: 100%;
-  width: 1500px;
-  background-color: yellow;
-  background-image: repeating-linear-gradient(
-    to right,
-    transparent 0px,
-    transparent 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-p {
-  padding: 10px;
-  background-color: rgb(255 0 0 / 50%);
-  margin: 0;
-  width: 360px;
-  position: relative;
-  top: 10px;
-  left: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "50%" to be "0.5" (alpha-value-notation)',
-                        "    rgb(0 0 0 / 50%) 20px",
-                        "31:17 - 31:20",
-                        `/en-US/docs/Web/CSS/overscroll-behavior-inline
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-main {
-  height: 400px;
-  width: 3000px;
-  background-color: white;
-  background-image: repeating-linear-gradient(
-    to right,
-    transparent 0px,
-    transparent 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-main > div {
-  height: 300px;
-  width: 400px;
-  overflow: auto;
-  position: relative;
-  top: 50px;
-  left: 50px;
-  overscroll-behavior-inline: contain;
-}
-
-div > div {
-  height: 100%;
-  width: 1500px;
-  background-color: yellow;
-  background-image: repeating-linear-gradient(
-    to right,
-    transparent 0px,
-    transparent 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-p {
-  padding: 10px;
-  background-color: rgb(255 0 0 / 50%);
-  margin: 0;
-  width: 360px;
-  position: relative;
-  top: 10px;
-  left: 10px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "50%" to be "0.5" (alpha-value-notation)',
-                        "  background-color: rgb(255 0 0 / 50%);",
-                        "37:35 - 37:38",
-                        `/en-US/docs/Web/CSS/overscroll-behavior-inline
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-main {
-  height: 400px;
-  width: 3000px;
-  background-color: white;
-  background-image: repeating-linear-gradient(
-    to right,
-    transparent 0px,
-    transparent 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-main > div {
-  height: 300px;
-  width: 400px;
-  overflow: auto;
-  position: relative;
-  top: 50px;
-  left: 50px;
-  overscroll-behavior-inline: contain;
-}
-
-div > div {
-  height: 100%;
-  width: 1500px;
-  background-color: yellow;
-  background-image: repeating-linear-gradient(
-    to right,
-    transparent 0px,
-    transparent 19px,
-    rgb(0 0 0 / 50%) 20px
-  );
-}
-
-p {
-  padding: 10px;
-  background-color: rgb(255 0 0 / 50%);
-  margin: 0;
-  width: 360px;
-  position: relative;
-  top: 10px;
-  left: 10px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 position_value: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/position_value",
@@ -55153,79 +50847,6 @@ value value              /* A value for each direction (horizontal then vertical
 
 /* 4-value syntax */
 keyword value keyword value /* Each value is an offset from the keyword that precedes it */
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "position-anchor": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/position-anchor",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "place-items" (declaration-block-no-redundant-longhand-properties)',
-                        "  align-items: center;",
-                        "11:3 - 11:14",
-                        `/en-US/docs/Web/CSS/position-anchor
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-items" (declaration-block-no-redundant-longhand-properties)
-~~~
-body {
-  height: 100vh;
-}
-
-#anchor-container {
-  display: grid;
-  height: 100%;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: 1fr 1fr;
-  justify-items: center;
-  align-items: center;
-}
-
-.anchor {
-  font-size: 1.8rem;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  background-color: hsl(240 100% 75%);
-  width: fit-content;
-  border-radius: 10px;
-  border: 1px solid black;
-  padding: 3px;
-}
-
-#anchor1 {
-  anchor-name: --my-anchor1, --my-anchor2;
-}
-
-.infobox {
-  color: darkblue;
-  background-color: azure;
-  border: 1px solid #dddddd;
-  padding: 10px;
-  border-radius: 10px;
-  font-size: 1rem;
-  width: 120px;
-}
-
-#infobox1 {
-  position-anchor: --my-anchor1;
-  position: fixed;
-  left: anchor(right);
-  align-self: anchor-center;
-  margin-left: 10px;
-}
-
-#infobox2 {
-  position-anchor: --my-anchor2;
-  position: fixed;
-  bottom: anchor(top);
-  justify-self: anchor-center;
-  margin-bottom: 15px;
-}
 ~~~
 `
                       ]
@@ -55318,70 +50939,6 @@ position-area: center; /* equiv: center center */
 position-area: span-all; /* equiv: center center */
 position-area: start; /* equiv: start start */
 position-area: end; /* equiv: end end */
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "print-color-adjust": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/print-color-adjust",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "50%" to be "0.5" (alpha-value-notation)',
-                        "  background-image: linear-gradient(rgb(0 0 180 / 50%), rgb(70 140 220 / 50%));",
-                        "3:51 - 3:54",
-                        `/en-US/docs/Web/CSS/print-color-adjust
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-.my-box {
-  background-color: black;
-  background-image: linear-gradient(rgb(0 0 180 / 50%), rgb(70 140 220 / 50%));
-  color: #990000;
-  width: 15rem;
-  height: 6rem;
-  text-align: center;
-  font:
-    24px "Helvetica",
-    sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  print-color-adjust: exact;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "50%" to be "0.5" (alpha-value-notation)',
-                        "  background-image: linear-gradient(rgb(0 0 180 / 50%), rgb(70 140 220 / 50%));",
-                        "3:74 - 3:77",
-                        `/en-US/docs/Web/CSS/print-color-adjust
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-.my-box {
-  background-color: black;
-  background-image: linear-gradient(rgb(0 0 180 / 50%), rgb(70 140 220 / 50%));
-  color: #990000;
-  width: 15rem;
-  height: 6rem;
-  text-align: center;
-  font:
-    24px "Helvetica",
-    sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  print-color-adjust: exact;
-}
 ~~~
 `
                       ]
@@ -55539,30 +51096,6 @@ pre {
                     }
                   ]
                 },
-                "reading-flow": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/reading-flow",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "reading-order": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/reading-order",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
                 reference: {
                   children: {
                     mozilla_extensions: {
@@ -55576,6 +51109,14288 @@ pre {
                         {
                           message: "Page status not backed by BCD",
                           data: []
+                        }
+                      ]
+                    },
+                    properties: {
+                      children: {
+                        "--_star_": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/--*",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "-moz-float-edge": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-moz-float-edge",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "-moz-force-broken-image-icon": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-moz-force-broken-image-icon",
+                          messages: [
+                            {
+                              message: "Missing image",
+                              data: [
+                                "/broken/image/link.png"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "-moz-orient": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-moz-orient",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "-moz-user-focus": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-moz-user-focus",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "-moz-user-input": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-moz-user-input",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "-webkit-border-before": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-border-before",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/-webkit-border-before-color"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/-webkit-border-before-style"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/-webkit-border-before-width"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/-webkit-border-after"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/-webkit-border-start"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/-webkit-border-end"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/-webkit-border-before-width"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "-webkit-box-reflect": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-box-reflect",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "-webkit-mask-box-image": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-mask-box-image",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "-webkit-mask-composite": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-mask-composite",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "-webkit-mask-position-x": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-mask-position-x",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "-webkit-mask-position-y": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-mask-position-y",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "-webkit-mask-repeat-x": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-mask-repeat-x",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "-webkit-mask-repeat-y": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-mask-repeat-y",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "-webkit-tap-highlight-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-tap-highlight-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "-webkit-text-fill-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-fill-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "-webkit-text-security": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-security",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "-webkit-text-stroke": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-stroke",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "-webkit-text-stroke-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "-webkit-text-stroke-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "-webkit-touch-callout": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-touch-callout",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "accent-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/accent-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "align-content": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/align-content",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "align-items": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/align-items",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "align-self": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/align-self",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "alignment-baseline": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/alignment-baseline",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "hanging" for property "alignment-baseline" (declaration-property-value-no-unknown)',
+                                "  alignment-baseline: hanging;",
+                                "12:23 - 12:30",
+                                `/en-US/docs/Web/CSS/Reference/Properties/alignment-baseline
+[declaration-property-value-no-unknown] Unexpected unknown value "hanging" for property "alignment-baseline" (declaration-property-value-no-unknown)
+~~~
+text {
+  font-size: 20px;
+  alignment-baseline: baseline;
+}
+text:nth-of-type(1) {
+  alignment-baseline: alphabetic;
+}
+text:nth-of-type(2) {
+  alignment-baseline: central;
+}
+text:nth-of-type(3) {
+  alignment-baseline: hanging;
+}
+text:nth-of-type(4) {
+  alignment-baseline: ideographic;
+}
+text:nth-of-type(5) {
+  alignment-baseline: mathematical;
+}
+text:nth-of-type(6) {
+  alignment-baseline: middle;
+}
+text:nth-of-type(7) {
+  alignment-baseline: text-bottom;
+}
+text:nth-of-type(8) {
+  alignment-baseline: text-top;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        all: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/all",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "anchor-name": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/anchor-name",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        animation: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "animation-composition": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-composition",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "animation-delay": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-delay",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "animation-direction": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-direction",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "animation-duration": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-duration",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "animation-fill-mode": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-fill-mode",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "animation-iteration-count": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-iteration-count",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "animation-name": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-name",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "animation-play-state": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-play-state",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "animation-range": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-range",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "animation-range-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-range-end",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "animation-range-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-range-start",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "animation-timeline": {
+                          children: {
+                            scroll: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-timeline/scroll",
+                              messages: [
+                                {
+                                  message: "Unreachable via sidebar",
+                                  data: []
+                                },
+                                {
+                                  message: "Not in BCD",
+                                  data: [
+                                    "css.types.Reference.Properties/animation-timeline/scroll"
+                                  ]
+                                },
+                                {
+                                  message: "Unexpected BCD keys",
+                                  data: [
+                                    "Actual:",
+                                    "css.properties.animation-timeline.scroll",
+                                    "Expected:",
+                                    "css.types.Reference.Properties/animation-timeline/scroll"
+                                  ]
+                                }
+                              ]
+                            },
+                            view: {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-timeline/view",
+                              messages: [
+                                {
+                                  message: "Unreachable via sidebar",
+                                  data: []
+                                },
+                                {
+                                  message: "Not in BCD",
+                                  data: [
+                                    "css.types.Reference.Properties/animation-timeline/view"
+                                  ]
+                                },
+                                {
+                                  message: "Unexpected BCD keys",
+                                  data: [
+                                    "Actual:",
+                                    "css.properties.animation-timeline.view",
+                                    "Expected:",
+                                    "css.types.Reference.Properties/animation-timeline/view"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-timeline",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "animation-timing-function": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-timing-function",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        appearance: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/appearance",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "aspect-ratio": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/aspect-ratio",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "backdrop-filter": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/backdrop-filter",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "30%" to be "0.3" (alpha-value-notation)',
+                                "  background-color: rgb(255 255 255 / 30%);",
+                                "2:39 - 2:42",
+                                `/en-US/docs/Web/CSS/Reference/Properties/backdrop-filter
+[alpha-value-notation] Expected "30%" to be "0.3" (alpha-value-notation)
+~~~
+.box {
+  background-color: rgb(255 255 255 / 30%);
+  backdrop-filter: blur(10px);
+}
+
+body {
+  background-image: url("anemones.jpg");
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.box {
+  border-radius: 5px;
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 50%;
+  max-height: 50%;
+  padding: 20px 40px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "backface-visibility": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/backface-visibility",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "30%" to be "0.3" (alpha-value-notation)',
+                                "  background: rgb(0 0 0 / 30%);",
+                                "42:27 - 42:30",
+                                `/en-US/docs/Web/CSS/Reference/Properties/backface-visibility
+[alpha-value-notation] Expected "30%" to be "0.3" (alpha-value-notation)
+~~~
+/* Classes that will show or hide the
+   three back faces of the "cube" */
+.show-bf div {
+  backface-visibility: visible;
+}
+
+.hide-bf div {
+  backface-visibility: hidden;
+}
+
+/* Define the container div, the cube div, and a generic face */
+.container {
+  width: 150px;
+  height: 150px;
+  margin: 75px 0 0 75px;
+  border: none;
+}
+
+.cube {
+  width: 100%;
+  height: 100%;
+  perspective: 550px;
+  perspective-origin: 150% 150%;
+  transform-style: preserve-3d;
+}
+
+.face {
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: none;
+  line-height: 100px;
+  font-family: sans-serif;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+/* Define each face based on direction */
+.front {
+  background: rgb(0 0 0 / 30%);
+  transform: translateZ(50px);
+}
+
+.back {
+  background: lime;
+  color: black;
+  transform: rotateY(180deg) translateZ(50px);
+}
+
+.right {
+  background: rgb(196 0 0 / 70%);
+  transform: rotateY(90deg) translateZ(50px);
+}
+
+.left {
+  background: rgb(0 0 196 / 70%);
+  transform: rotateY(-90deg) translateZ(50px);
+}
+
+.top {
+  background: rgb(196 196 0 / 70%);
+  transform: rotateX(90deg) translateZ(50px);
+}
+
+.bottom {
+  background: rgb(196 0 196 / 70%);
+  transform: rotateX(-90deg) translateZ(50px);
+}
+
+/* Make the table a little nicer */
+th,
+p,
+td {
+  background-color: #eeeeee;
+  margin: 0px;
+  padding: 6px;
+  font-family: sans-serif;
+  text-align: left;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "  background: rgb(196 0 0 / 70%);",
+                                "53:29 - 53:32",
+                                `/en-US/docs/Web/CSS/Reference/Properties/backface-visibility
+[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
+~~~
+/* Classes that will show or hide the
+   three back faces of the "cube" */
+.show-bf div {
+  backface-visibility: visible;
+}
+
+.hide-bf div {
+  backface-visibility: hidden;
+}
+
+/* Define the container div, the cube div, and a generic face */
+.container {
+  width: 150px;
+  height: 150px;
+  margin: 75px 0 0 75px;
+  border: none;
+}
+
+.cube {
+  width: 100%;
+  height: 100%;
+  perspective: 550px;
+  perspective-origin: 150% 150%;
+  transform-style: preserve-3d;
+}
+
+.face {
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: none;
+  line-height: 100px;
+  font-family: sans-serif;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+/* Define each face based on direction */
+.front {
+  background: rgb(0 0 0 / 30%);
+  transform: translateZ(50px);
+}
+
+.back {
+  background: lime;
+  color: black;
+  transform: rotateY(180deg) translateZ(50px);
+}
+
+.right {
+  background: rgb(196 0 0 / 70%);
+  transform: rotateY(90deg) translateZ(50px);
+}
+
+.left {
+  background: rgb(0 0 196 / 70%);
+  transform: rotateY(-90deg) translateZ(50px);
+}
+
+.top {
+  background: rgb(196 196 0 / 70%);
+  transform: rotateX(90deg) translateZ(50px);
+}
+
+.bottom {
+  background: rgb(196 0 196 / 70%);
+  transform: rotateX(-90deg) translateZ(50px);
+}
+
+/* Make the table a little nicer */
+th,
+p,
+td {
+  background-color: #eeeeee;
+  margin: 0px;
+  padding: 6px;
+  font-family: sans-serif;
+  text-align: left;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "  background: rgb(0 0 196 / 70%);",
+                                "58:29 - 58:32",
+                                `/en-US/docs/Web/CSS/Reference/Properties/backface-visibility
+[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
+~~~
+/* Classes that will show or hide the
+   three back faces of the "cube" */
+.show-bf div {
+  backface-visibility: visible;
+}
+
+.hide-bf div {
+  backface-visibility: hidden;
+}
+
+/* Define the container div, the cube div, and a generic face */
+.container {
+  width: 150px;
+  height: 150px;
+  margin: 75px 0 0 75px;
+  border: none;
+}
+
+.cube {
+  width: 100%;
+  height: 100%;
+  perspective: 550px;
+  perspective-origin: 150% 150%;
+  transform-style: preserve-3d;
+}
+
+.face {
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: none;
+  line-height: 100px;
+  font-family: sans-serif;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+/* Define each face based on direction */
+.front {
+  background: rgb(0 0 0 / 30%);
+  transform: translateZ(50px);
+}
+
+.back {
+  background: lime;
+  color: black;
+  transform: rotateY(180deg) translateZ(50px);
+}
+
+.right {
+  background: rgb(196 0 0 / 70%);
+  transform: rotateY(90deg) translateZ(50px);
+}
+
+.left {
+  background: rgb(0 0 196 / 70%);
+  transform: rotateY(-90deg) translateZ(50px);
+}
+
+.top {
+  background: rgb(196 196 0 / 70%);
+  transform: rotateX(90deg) translateZ(50px);
+}
+
+.bottom {
+  background: rgb(196 0 196 / 70%);
+  transform: rotateX(-90deg) translateZ(50px);
+}
+
+/* Make the table a little nicer */
+th,
+p,
+td {
+  background-color: #eeeeee;
+  margin: 0px;
+  padding: 6px;
+  font-family: sans-serif;
+  text-align: left;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "  background: rgb(196 196 0 / 70%);",
+                                "63:31 - 63:34",
+                                `/en-US/docs/Web/CSS/Reference/Properties/backface-visibility
+[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
+~~~
+/* Classes that will show or hide the
+   three back faces of the "cube" */
+.show-bf div {
+  backface-visibility: visible;
+}
+
+.hide-bf div {
+  backface-visibility: hidden;
+}
+
+/* Define the container div, the cube div, and a generic face */
+.container {
+  width: 150px;
+  height: 150px;
+  margin: 75px 0 0 75px;
+  border: none;
+}
+
+.cube {
+  width: 100%;
+  height: 100%;
+  perspective: 550px;
+  perspective-origin: 150% 150%;
+  transform-style: preserve-3d;
+}
+
+.face {
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: none;
+  line-height: 100px;
+  font-family: sans-serif;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+/* Define each face based on direction */
+.front {
+  background: rgb(0 0 0 / 30%);
+  transform: translateZ(50px);
+}
+
+.back {
+  background: lime;
+  color: black;
+  transform: rotateY(180deg) translateZ(50px);
+}
+
+.right {
+  background: rgb(196 0 0 / 70%);
+  transform: rotateY(90deg) translateZ(50px);
+}
+
+.left {
+  background: rgb(0 0 196 / 70%);
+  transform: rotateY(-90deg) translateZ(50px);
+}
+
+.top {
+  background: rgb(196 196 0 / 70%);
+  transform: rotateX(90deg) translateZ(50px);
+}
+
+.bottom {
+  background: rgb(196 0 196 / 70%);
+  transform: rotateX(-90deg) translateZ(50px);
+}
+
+/* Make the table a little nicer */
+th,
+p,
+td {
+  background-color: #eeeeee;
+  margin: 0px;
+  padding: 6px;
+  font-family: sans-serif;
+  text-align: left;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "  background: rgb(196 0 196 / 70%);",
+                                "68:31 - 68:34",
+                                `/en-US/docs/Web/CSS/Reference/Properties/backface-visibility
+[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
+~~~
+/* Classes that will show or hide the
+   three back faces of the "cube" */
+.show-bf div {
+  backface-visibility: visible;
+}
+
+.hide-bf div {
+  backface-visibility: hidden;
+}
+
+/* Define the container div, the cube div, and a generic face */
+.container {
+  width: 150px;
+  height: 150px;
+  margin: 75px 0 0 75px;
+  border: none;
+}
+
+.cube {
+  width: 100%;
+  height: 100%;
+  perspective: 550px;
+  perspective-origin: 150% 150%;
+  transform-style: preserve-3d;
+}
+
+.face {
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: none;
+  line-height: 100px;
+  font-family: sans-serif;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+/* Define each face based on direction */
+.front {
+  background: rgb(0 0 0 / 30%);
+  transform: translateZ(50px);
+}
+
+.back {
+  background: lime;
+  color: black;
+  transform: rotateY(180deg) translateZ(50px);
+}
+
+.right {
+  background: rgb(196 0 0 / 70%);
+  transform: rotateY(90deg) translateZ(50px);
+}
+
+.left {
+  background: rgb(0 0 196 / 70%);
+  transform: rotateY(-90deg) translateZ(50px);
+}
+
+.top {
+  background: rgb(196 196 0 / 70%);
+  transform: rotateX(90deg) translateZ(50px);
+}
+
+.bottom {
+  background: rgb(196 0 196 / 70%);
+  transform: rotateX(-90deg) translateZ(50px);
+}
+
+/* Make the table a little nicer */
+th,
+p,
+td {
+  background-color: #eeeeee;
+  margin: 0px;
+  padding: 6px;
+  font-family: sans-serif;
+  text-align: left;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        background: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "background-attachment": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-attachment",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "background-blend-mode": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-blend-mode",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "background-clip": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-clip",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "20%" to be "0.2" (alpha-value-notation)',
+                                "  color: rgb(0 0 0 / 20%);",
+                                "23:22 - 23:25",
+                                `/en-US/docs/Web/CSS/Reference/Properties/background-clip
+[alpha-value-notation] Expected "20%" to be "0.2" (alpha-value-notation)
+~~~
+p {
+  border: 0.8em darkviolet;
+  border-style: dotted double;
+  margin: 1em 0;
+  padding: 1.4em;
+  background: linear-gradient(60deg, red, yellow, red, yellow, red);
+  font: 900 1.2em sans-serif;
+  text-decoration: underline;
+}
+
+.border-box {
+  background-clip: border-box;
+}
+.padding-box {
+  background-clip: padding-box;
+}
+.content-box {
+  background-clip: content-box;
+}
+
+.text {
+  background-clip: text;
+  color: rgb(0 0 0 / 20%);
+}
+
+.border-area {
+  background-clip: border-area;
+  border-color: transparent;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "background-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "background-image": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-image",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "background-origin": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-origin",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "100%" to be "1" (alpha-value-notation)',
+                                "      rgb(131 58 180 / 100%) 0%,",
+                                "7:24 - 7:28",
+                                `/en-US/docs/Web/CSS/Reference/Properties/background-origin
+[alpha-value-notation] Expected "100%" to be "1" (alpha-value-notation)
+~~~
+.box {
+  margin: 10px 0;
+  color: white;
+  background:
+    linear-gradient(
+      90deg,
+      rgb(131 58 180 / 100%) 0%,
+      rgb(253 29 29 / 60%) 60%,
+      rgb(252 176 69 / 100%) 100%
+    ),
+    radial-gradient(circle, white 0%, black 28%);
+  border: 20px dashed black;
+  padding: 20px;
+  width: 400px;
+  background-origin: padding-box, content-box;
+  background-repeat: no-repeat;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "60%" to be "0.6" (alpha-value-notation)',
+                                "      rgb(253 29 29 / 60%) 60%,",
+                                "8:23 - 8:26",
+                                `/en-US/docs/Web/CSS/Reference/Properties/background-origin
+[alpha-value-notation] Expected "60%" to be "0.6" (alpha-value-notation)
+~~~
+.box {
+  margin: 10px 0;
+  color: white;
+  background:
+    linear-gradient(
+      90deg,
+      rgb(131 58 180 / 100%) 0%,
+      rgb(253 29 29 / 60%) 60%,
+      rgb(252 176 69 / 100%) 100%
+    ),
+    radial-gradient(circle, white 0%, black 28%);
+  border: 20px dashed black;
+  padding: 20px;
+  width: 400px;
+  background-origin: padding-box, content-box;
+  background-repeat: no-repeat;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "100%" to be "1" (alpha-value-notation)',
+                                "      rgb(252 176 69 / 100%) 100%",
+                                "9:24 - 9:28",
+                                `/en-US/docs/Web/CSS/Reference/Properties/background-origin
+[alpha-value-notation] Expected "100%" to be "1" (alpha-value-notation)
+~~~
+.box {
+  margin: 10px 0;
+  color: white;
+  background:
+    linear-gradient(
+      90deg,
+      rgb(131 58 180 / 100%) 0%,
+      rgb(253 29 29 / 60%) 60%,
+      rgb(252 176 69 / 100%) 100%
+    ),
+    radial-gradient(circle, white 0%, black 28%);
+  border: 20px dashed black;
+  padding: 20px;
+  width: 400px;
+  background-origin: padding-box, content-box;
+  background-repeat: no-repeat;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "background-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-position",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "background-position-x": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-position-x",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "background-position-y": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-position-y",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "background-repeat": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-repeat",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "background-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-size",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "block-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/block-size",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        border: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-block": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-block-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-block-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-end",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-block-end-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-end-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-block-end-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-end-style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-block-end-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-end-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-block-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-start",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-block-start-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-start-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-block-start-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-start-style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-block-start-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-start-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-block-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-block-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-bottom": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-bottom",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-shorthand-property-overrides",
+                                'Unexpected shorthand "border-bottom" after "border-bottom-style" (declaration-block-no-shorthand-property-overrides)',
+                                "border-bottom: thick green;",
+                                "2:1 - 2:14",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-bottom
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-bottom" after "border-bottom-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-bottom-style: dotted;
+border-bottom: thick green;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-shorthand-property-overrides",
+                                'Unexpected shorthand "border-bottom" after "border-bottom-style" (declaration-block-no-shorthand-property-overrides)',
+                                "border-bottom: none thick green;",
+                                "2:1 - 2:14",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-bottom
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-bottom" after "border-bottom-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-bottom-style: dotted;
+border-bottom: none thick green;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-bottom-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-bottom-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-bottom-left-radius": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-bottom-left-radius",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-bottom-right-radius": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-bottom-right-radius",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-bottom-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-bottom-style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-bottom-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-bottom-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-collapse": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-collapse",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-end-end-radius": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-end-end-radius",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-end-start-radius": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-end-start-radius",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-image": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-image",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-image-outset": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-image-outset",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-image-repeat": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-image-repeat",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-image-slice": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-image-slice",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-image-source": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-image-source",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-image-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-image-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-inline": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-inline-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-inline-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-end",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-inline-end-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-inline-end-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-inline-end-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-inline-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-start",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-inline-start-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-inline-start-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-inline-start-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-inline-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-inline-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-left": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-left",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-shorthand-property-overrides",
+                                'Unexpected shorthand "border-left" after "border-left-style" (declaration-block-no-shorthand-property-overrides)',
+                                "border-left: thick green;",
+                                "2:1 - 2:12",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-left
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-left" after "border-left-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-left-style: dotted;
+border-left: thick green;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-shorthand-property-overrides",
+                                'Unexpected shorthand "border-left" after "border-left-style" (declaration-block-no-shorthand-property-overrides)',
+                                "border-left: none thick green;",
+                                "2:1 - 2:12",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-left
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-left" after "border-left-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-left-style: dotted;
+border-left: none thick green;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-left-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-left-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-left-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-left-style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-left-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-left-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-radius": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-radius",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "border-radius" (declaration-block-no-redundant-longhand-properties)',
+                                "border-bottom-left-radius: 1em 5em;",
+                                "7:1 - 7:26",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-radius
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "border-radius" (declaration-block-no-redundant-longhand-properties)
+~~~
+border-radius: 1em / 5em;
+
+/* It is equivalent to: */
+border-top-left-radius: 1em 5em;
+border-top-right-radius: 1em 5em;
+border-bottom-right-radius: 1em 5em;
+border-bottom-left-radius: 1em 5em;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "border-radius" (declaration-block-no-redundant-longhand-properties)',
+                                "border-bottom-left-radius: 3px 4px;",
+                                "7:1 - 7:26",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-radius
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "border-radius" (declaration-block-no-redundant-longhand-properties)
+~~~
+border-radius: 4px 3px 6px / 2px 4px;
+
+/* It is equivalent to: */
+border-top-left-radius: 4px 2px;
+border-top-right-radius: 3px 4px;
+border-bottom-right-radius: 6px 2px;
+border-bottom-left-radius: 3px 4px;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "superellipse(0.5)" for property "corner-shape" (declaration-property-value-no-unknown)',
+                                "  corner-shape: superellipse(0.5) bevel notch squircle;",
+                                "24:17 - 24:34",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-radius
+[declaration-property-value-no-unknown] Unexpected unknown value "superellipse(0.5)" for property "corner-shape" (declaration-property-value-no-unknown)
+~~~
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  width: 240px;
+  margin: 20px auto;
+}
+
+div {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0),
+    rgb(255 255 255 / 0.5)
+  );
+}
+
+div {
+  box-shadow: 1px 1px 3px gray;
+  border-radius: 0 20% 50px 30%;
+  corner-shape: superellipse(0.5) bevel notch squircle;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-right": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-right",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-shorthand-property-overrides",
+                                'Unexpected shorthand "border-right" after "border-right-style" (declaration-block-no-shorthand-property-overrides)',
+                                "border-right: thick green;",
+                                "2:1 - 2:13",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-right
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-right" after "border-right-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-right-style: dotted;
+border-right: thick green;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-shorthand-property-overrides",
+                                'Unexpected shorthand "border-right" after "border-right-style" (declaration-block-no-shorthand-property-overrides)',
+                                "border-right: none thick green;",
+                                "2:1 - 2:13",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-right
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-right" after "border-right-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-right-style: dotted;
+border-right: none thick green;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-right-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-right-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-right-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-right-style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-right-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-right-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-spacing": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-spacing",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-start-end-radius": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-start-end-radius",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-start-start-radius": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-start-start-radius",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-top": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-top",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-shorthand-property-overrides",
+                                'Unexpected shorthand "border-top" after "border-top-style" (declaration-block-no-shorthand-property-overrides)',
+                                "border-top: thick green;",
+                                "2:1 - 2:11",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-top
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-top" after "border-top-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-top-style: dotted;
+border-top: thick green;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-shorthand-property-overrides",
+                                'Unexpected shorthand "border-top" after "border-top-style" (declaration-block-no-shorthand-property-overrides)',
+                                "border-top: none thick green;",
+                                "2:1 - 2:11",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-top
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-top" after "border-top-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-top-style: dotted;
+border-top: none thick green;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-top-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-top-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-top-left-radius": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-top-left-radius",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-top-right-radius": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-top-right-radius",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-top-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-top-style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-top-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-top-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "border-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        bottom: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/bottom",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "20%" to be "0.2" (alpha-value-notation)',
+                                "  background: rgb(55 55 55 / 20%);",
+                                "9:30 - 9:33",
+                                `/en-US/docs/Web/CSS/Reference/Properties/bottom
+[alpha-value-notation] Expected "20%" to be "0.2" (alpha-value-notation)
+~~~
+p {
+  font-size: 30px;
+  line-height: 2em;
+}
+
+div {
+  width: 48%;
+  text-align: center;
+  background: rgb(55 55 55 / 20%);
+  border: 1px solid blue;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "box-align": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-align",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "display" (declaration-block-no-duplicate-properties)',
+                                "  display: box; /* As specified */",
+                                "2:3 - 2:10",
+                                `/en-US/docs/Web/CSS/Reference/Properties/box-align
+[declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
+~~~
+div.example {
+  display: box; /* As specified */
+  display: -moz-box; /* Mozilla */
+  display: -webkit-box; /* WebKit */
+
+  /* Make this box taller than the children,
+     so there is room for the box-pack */
+  height: 400px;
+
+  /* Make this box wider than the children
+     so there is room for the box-align */
+  width: 300px;
+
+  /* Children should be oriented vertically */
+  box-orient: vertical; /* As specified */
+  -moz-box-orient: vertical; /* Mozilla */
+  -webkit-box-orient: vertical; /* WebKit */
+
+  /* Align children to the horizontal center of this box */
+  box-align: center; /* As specified */
+  -moz-box-align: center; /* Mozilla */
+  -webkit-box-align: center; /* WebKit */
+
+  /* Pack children to the bottom of this box */
+  box-pack: end; /* As specified */
+  -moz-box-pack: end; /* Mozilla */
+  -webkit-box-pack: end; /* WebKit */
+}
+
+div.example > p {
+  /* Make children narrower than their parent,
+     so there is room for the box-align */
+  width: 200px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "display" (declaration-block-no-duplicate-properties)',
+                                "  display: -moz-box; /* Mozilla */",
+                                "3:3 - 3:10",
+                                `/en-US/docs/Web/CSS/Reference/Properties/box-align
+[declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
+~~~
+div.example {
+  display: box; /* As specified */
+  display: -moz-box; /* Mozilla */
+  display: -webkit-box; /* WebKit */
+
+  /* Make this box taller than the children,
+     so there is room for the box-pack */
+  height: 400px;
+
+  /* Make this box wider than the children
+     so there is room for the box-align */
+  width: 300px;
+
+  /* Children should be oriented vertically */
+  box-orient: vertical; /* As specified */
+  -moz-box-orient: vertical; /* Mozilla */
+  -webkit-box-orient: vertical; /* WebKit */
+
+  /* Align children to the horizontal center of this box */
+  box-align: center; /* As specified */
+  -moz-box-align: center; /* Mozilla */
+  -webkit-box-align: center; /* WebKit */
+
+  /* Pack children to the bottom of this box */
+  box-pack: end; /* As specified */
+  -moz-box-pack: end; /* Mozilla */
+  -webkit-box-pack: end; /* WebKit */
+}
+
+div.example > p {
+  /* Make children narrower than their parent,
+     so there is room for the box-align */
+  width: 200px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "box-decoration-break": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-decoration-break",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "box-direction": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-direction",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "box-flex": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-flex",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "display" (declaration-block-no-duplicate-properties)',
+                                "  display: -moz-box;",
+                                "2:3 - 2:10",
+                                `/en-US/docs/Web/CSS/Reference/Properties/box-flex
+[declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
+~~~
+div.example {
+  display: -moz-box;
+  display: -webkit-box;
+  border: 1px solid black;
+  width: 100%;
+}
+div.example > p:nth-child(1) {
+  -moz-box-flex: 1; /* Mozilla */
+  -webkit-box-flex: 1; /* WebKit */
+  border: 1px solid black;
+}
+div.example > p:nth-child(2) {
+  -moz-box-flex: 0; /* Mozilla */
+  -webkit-box-flex: 0; /* WebKit */
+  border: 1px solid black;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "box-flex-group": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-flex-group",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "box-lines": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-lines",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "box-ordinal-group": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-ordinal-group",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "box-orient": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-orient",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "display" (declaration-block-no-duplicate-properties)',
+                                "  display: -moz-box; /* Mozilla */",
+                                "2:3 - 2:10",
+                                `/en-US/docs/Web/CSS/Reference/Properties/box-orient
+[declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
+~~~
+div.example {
+  display: -moz-box; /* Mozilla */
+  display: -webkit-box; /* WebKit */
+  display: box; /* As specified */
+
+  /* Children should be oriented vertically */
+  -moz-box-orient: horizontal; /* Mozilla */
+  -webkit-box-orient: horizontal; /* WebKit */
+  box-orient: horizontal; /* As specified */
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "display" (declaration-block-no-duplicate-properties)',
+                                "  display: -webkit-box; /* WebKit */",
+                                "3:3 - 3:10",
+                                `/en-US/docs/Web/CSS/Reference/Properties/box-orient
+[declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
+~~~
+div.example {
+  display: -moz-box; /* Mozilla */
+  display: -webkit-box; /* WebKit */
+  display: box; /* As specified */
+
+  /* Children should be oriented vertically */
+  -moz-box-orient: horizontal; /* Mozilla */
+  -webkit-box-orient: horizontal; /* WebKit */
+  box-orient: horizontal; /* As specified */
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "box-pack": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-pack",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "display" (declaration-block-no-duplicate-properties)',
+                                "  display: -moz-box; /* Mozilla */",
+                                "4:3 - 4:10",
+                                `/en-US/docs/Web/CSS/Reference/Properties/box-pack
+[declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
+~~~
+div.example {
+  border-style: solid;
+
+  display: -moz-box; /* Mozilla */
+  display: -webkit-box; /* WebKit */
+
+  /* Make this box taller than the children,
+     so there is room for the box-pack */
+  height: 300px;
+  /* Make this box wide enough to show the contents
+     are centered horizontally */
+  width: 300px;
+
+  /* Children should be oriented vertically */
+  -moz-box-orient: vertical; /* Mozilla */
+  -webkit-box-orient: vertical; /* WebKit */
+
+  /* Align children to the horizontal center of this box */
+  -moz-box-align: center; /* Mozilla */
+  -webkit-box-align: center; /* WebKit */
+
+  /* Pack children to the bottom of this box */
+  -moz-box-pack: end; /* Mozilla */
+  -webkit-box-pack: end; /* WebKit */
+}
+
+div.example p {
+  /* Make children narrower than their parent,
+     so there is room for the box-align */
+  width: 200px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "box-shadow": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-shadow",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "30%" to be "0.3" (alpha-value-notation)',
+                                "    inset 0 -3em 3em rgb(0 200 0 / 30%),",
+                                "4:36 - 4:39",
+                                `/en-US/docs/Web/CSS/Reference/Properties/box-shadow
+[alpha-value-notation] Expected "30%" to be "0.3" (alpha-value-notation)
+~~~
+blockquote {
+  padding: 20px;
+  box-shadow:
+    inset 0 -3em 3em rgb(0 200 0 / 30%),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgb(200 0 0 / 60%);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "60%" to be "0.6" (alpha-value-notation)',
+                                "    0.3em 0.3em 1em rgb(200 0 0 / 60%);",
+                                "6:35 - 6:38",
+                                `/en-US/docs/Web/CSS/Reference/Properties/box-shadow
+[alpha-value-notation] Expected "60%" to be "0.6" (alpha-value-notation)
+~~~
+blockquote {
+  padding: 20px;
+  box-shadow:
+    inset 0 -3em 3em rgb(0 200 0 / 30%),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgb(200 0 0 / 60%);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "box-sizing": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-sizing",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "break-after": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/break-after",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "break-before": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/break-before",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "break-inside": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/break-inside",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "caption-side": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/caption-side",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        caret: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/caret",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            },
+                            {
+                              message: "Page status not backed by BCD",
+                              data: []
+                            }
+                          ]
+                        },
+                        "caret-animation": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/caret-animation",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "caret-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/caret-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "caret-shape": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/caret-shape",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        clear: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/clear",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        clip: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/clip",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "clip-path": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/clip-path",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "clip-rule": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/clip-rule",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        color: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/color",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "30deg" to be "30" (hue-degree-notation)',
+                                "color: hsl(30deg 82% 43%);",
+                                "1:12 - 1:17",
+                                `/en-US/docs/Web/CSS/Reference/Properties/color
+[hue-degree-notation] Expected "30deg" to be "30" (hue-degree-notation)
+~~~
+color: hsl(30deg 82% 43%);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "61%" to be "0.61" (alpha-value-notation)',
+                                "color: hsl(237deg 74% 33% / 61%);",
+                                "1:29 - 1:32",
+                                `/en-US/docs/Web/CSS/Reference/Properties/color
+[alpha-value-notation] Expected "61%" to be "0.61" (alpha-value-notation)
+~~~
+color: hsl(237deg 74% 33% / 61%);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "237deg" to be "237" (hue-degree-notation)',
+                                "color: hsl(237deg 74% 33% / 61%);",
+                                "1:12 - 1:18",
+                                `/en-US/docs/Web/CSS/Reference/Properties/color
+[hue-degree-notation] Expected "237deg" to be "237" (hue-degree-notation)
+~~~
+color: hsl(237deg 74% 33% / 61%);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "color: hwb(152deg 0% 58% / 70%);",
+                                "1:28 - 1:31",
+                                `/en-US/docs/Web/CSS/Reference/Properties/color
+[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
+~~~
+color: hwb(152deg 0% 58% / 70%);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "152deg" to be "152" (hue-degree-notation)',
+                                "color: hwb(152deg 0% 58% / 70%);",
+                                "1:12 - 1:18",
+                                `/en-US/docs/Web/CSS/Reference/Properties/color
+[hue-degree-notation] Expected "152deg" to be "152" (hue-degree-notation)
+~~~
+color: hwb(152deg 0% 58% / 70%);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "  color: rgb(255 0 0 / 50%);",
+                                "25:24 - 25:27",
+                                `/en-US/docs/Web/CSS/Reference/Properties/color
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+p {
+  color: red;
+}
+p {
+  color: #f00;
+}
+p {
+  color: #ff0000;
+}
+p {
+  color: rgb(255 0 0);
+}
+p {
+  color: rgb(100% 0% 0%);
+}
+p {
+  color: hsl(0 100% 50%);
+}
+
+/* 50% translucent */
+p {
+  color: #ff000080;
+}
+p {
+  color: rgb(255 0 0 / 50%);
+}
+p {
+  color: hsl(0 100% 50% / 50%);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "  color: hsl(0 100% 50% / 50%);",
+                                "28:27 - 28:30",
+                                `/en-US/docs/Web/CSS/Reference/Properties/color
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+p {
+  color: red;
+}
+p {
+  color: #f00;
+}
+p {
+  color: #ff0000;
+}
+p {
+  color: rgb(255 0 0);
+}
+p {
+  color: rgb(100% 0% 0%);
+}
+p {
+  color: hsl(0 100% 50%);
+}
+
+/* 50% translucent */
+p {
+  color: #ff000080;
+}
+p {
+  color: rgb(255 0 0 / 50%);
+}
+p {
+  color: hsl(0 100% 50% / 50%);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-hex-length",
+                                'Expected "#f00" to be "#ff0000" (color-hex-length)',
+                                "  color: #f00;",
+                                "5:10 - 5:14",
+                                `/en-US/docs/Web/CSS/Reference/Properties/color
+[color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
+~~~
+p {
+  color: red;
+}
+p {
+  color: #f00;
+}
+p {
+  color: #ff0000;
+}
+p {
+  color: rgb(255 0 0);
+}
+p {
+  color: rgb(100% 0% 0%);
+}
+p {
+  color: hsl(0 100% 50%);
+}
+
+/* 50% translucent */
+p {
+  color: #ff000080;
+}
+p {
+  color: rgb(255 0 0 / 50%);
+}
+p {
+  color: hsl(0 100% 50% / 50%);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-named",
+                                'Expected "#f00" to be "red" (color-named)',
+                                "  color: #f00;",
+                                "5:10 - 5:14",
+                                `/en-US/docs/Web/CSS/Reference/Properties/color
+[color-named] Expected "#f00" to be "red" (color-named)
+~~~
+p {
+  color: red;
+}
+p {
+  color: #f00;
+}
+p {
+  color: #ff0000;
+}
+p {
+  color: rgb(255 0 0);
+}
+p {
+  color: rgb(100% 0% 0%);
+}
+p {
+  color: hsl(0 100% 50%);
+}
+
+/* 50% translucent */
+p {
+  color: #ff000080;
+}
+p {
+  color: rgb(255 0 0 / 50%);
+}
+p {
+  color: hsl(0 100% 50% / 50%);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-named",
+                                'Expected "#ff0000" to be "red" (color-named)',
+                                "  color: #ff0000;",
+                                "8:10 - 8:17",
+                                `/en-US/docs/Web/CSS/Reference/Properties/color
+[color-named] Expected "#ff0000" to be "red" (color-named)
+~~~
+p {
+  color: red;
+}
+p {
+  color: #f00;
+}
+p {
+  color: #ff0000;
+}
+p {
+  color: rgb(255 0 0);
+}
+p {
+  color: rgb(100% 0% 0%);
+}
+p {
+  color: hsl(0 100% 50%);
+}
+
+/* 50% translucent */
+p {
+  color: #ff000080;
+}
+p {
+  color: rgb(255 0 0 / 50%);
+}
+p {
+  color: hsl(0 100% 50% / 50%);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-named",
+                                'Expected "rgb(255 0 0)" to be "red" (color-named)',
+                                "  color: rgb(255 0 0);",
+                                "11:10 - 11:22",
+                                `/en-US/docs/Web/CSS/Reference/Properties/color
+[color-named] Expected "rgb(255 0 0)" to be "red" (color-named)
+~~~
+p {
+  color: red;
+}
+p {
+  color: #f00;
+}
+p {
+  color: #ff0000;
+}
+p {
+  color: rgb(255 0 0);
+}
+p {
+  color: rgb(100% 0% 0%);
+}
+p {
+  color: hsl(0 100% 50%);
+}
+
+/* 50% translucent */
+p {
+  color: #ff000080;
+}
+p {
+  color: rgb(255 0 0 / 50%);
+}
+p {
+  color: hsl(0 100% 50% / 50%);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-named",
+                                'Expected "rgb(100% 0% 0%)" to be "red" (color-named)',
+                                "  color: rgb(100% 0% 0%);",
+                                "14:10 - 14:25",
+                                `/en-US/docs/Web/CSS/Reference/Properties/color
+[color-named] Expected "rgb(100% 0% 0%)" to be "red" (color-named)
+~~~
+p {
+  color: red;
+}
+p {
+  color: #f00;
+}
+p {
+  color: #ff0000;
+}
+p {
+  color: rgb(255 0 0);
+}
+p {
+  color: rgb(100% 0% 0%);
+}
+p {
+  color: hsl(0 100% 50%);
+}
+
+/* 50% translucent */
+p {
+  color: #ff000080;
+}
+p {
+  color: rgb(255 0 0 / 50%);
+}
+p {
+  color: hsl(0 100% 50% / 50%);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-named",
+                                'Expected "hsl(0 100% 50%)" to be "red" (color-named)',
+                                "  color: hsl(0 100% 50%);",
+                                "17:10 - 17:25",
+                                `/en-US/docs/Web/CSS/Reference/Properties/color
+[color-named] Expected "hsl(0 100% 50%)" to be "red" (color-named)
+~~~
+p {
+  color: red;
+}
+p {
+  color: #f00;
+}
+p {
+  color: #ff0000;
+}
+p {
+  color: rgb(255 0 0);
+}
+p {
+  color: rgb(100% 0% 0%);
+}
+p {
+  color: hsl(0 100% 50%);
+}
+
+/* 50% translucent */
+p {
+  color: #ff000080;
+}
+p {
+  color: rgb(255 0 0 / 50%);
+}
+p {
+  color: hsl(0 100% 50% / 50%);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "color-interpolation": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/color-interpolation",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "color-interpolation-filters": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/color-interpolation-filters",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "color-scheme": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/color-scheme",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "column-count": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-count",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "columns" (declaration-block-no-redundant-longhand-properties)',
+                                "column-width: 8rem;",
+                                "2:1 - 2:13",
+                                `/en-US/docs/Web/CSS/Reference/Properties/column-count
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "columns" (declaration-block-no-redundant-longhand-properties)
+~~~
+column-count: auto;
+column-width: 8rem;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "column-fill": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-fill",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "column-gap": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-gap",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "column-rule": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "column-rule-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "column-rule-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule-style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "column-rule-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "column-span": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-span",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "column-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        columns: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/columns",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        contain: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/contain",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "contain-intrinsic-block-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/contain-intrinsic-block-size",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "contain-intrinsic-height": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/contain-intrinsic-height",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "contain-intrinsic-inline-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/contain-intrinsic-inline-size",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "contain-intrinsic-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/contain-intrinsic-size",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "contain-intrinsic-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/contain-intrinsic-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        container: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/container",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "container-name": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/container-name",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "container-type": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/container-type",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        content: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/content",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "content-visibility": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/content-visibility",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "corner-block-end-shape": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-block-end-shape",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "corner-block-start-shape": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-block-start-shape",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "corner-bottom-left-shape": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-bottom-left-shape",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "corner-bottom-right-shape": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-bottom-right-shape",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "corner-bottom-shape": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-bottom-shape",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "corner-end-end-shape": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-end-end-shape",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "corner-end-start-shape": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-end-start-shape",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "corner-inline-end-shape": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-inline-end-shape",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "corner-inline-start-shape": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-inline-start-shape",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "corner-left-shape": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-left-shape",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "corner-right-shape": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-right-shape",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "corner-shape": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-shape",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "corner-start-end-shape": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-start-end-shape",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "corner-start-start-shape": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-start-start-shape",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "corner-top-left-shape": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-top-left-shape",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "corner-top-right-shape": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-top-right-shape",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "corner-top-shape": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/corner-top-shape",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "counter-increment": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/counter-increment",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)',
+                                "  flex-wrap: wrap;",
+                                "17:3 - 17:12",
+                                `/en-US/docs/Web/CSS/Reference/Properties/counter-increment
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)
+~~~
+div {
+  counter-reset: sevens 100;
+}
+i {
+  counter-increment: sevens -7;
+}
+i:first-of-type {
+  counter-increment: none;
+}
+i::before {
+  content: counter(sevens);
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 200px;
+}
+i {
+  flex: 0 0 2em;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "counter-reset": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/counter-reset",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "counter-set": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/counter-set",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        cursor: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/cursor",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        cx: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/cx",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        cy: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/cy",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        d: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/d",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        direction: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/direction",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        display: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/display",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "display" (declaration-block-no-duplicate-properties)',
+                                "  display: inline-flex;",
+                                "2:3 - 2:10",
+                                `/en-US/docs/Web/CSS/Reference/Properties/display
+[declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
+~~~
+.container {
+  display: inline-flex;
+  display: inline flex;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "dominant-baseline": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/dominant-baseline",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "dynamic-range-limit": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/dynamic-range-limit",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "empty-cells": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/empty-cells",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "field-sizing": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/field-sizing",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        fill: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/fill",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "60%" to be "0.6" (alpha-value-notation)',
+                                "  fill: hsl(0deg 100% 50% / 60%);",
+                                "11:29 - 11:32",
+                                `/en-US/docs/Web/CSS/Reference/Properties/fill
+[alpha-value-notation] Expected "60%" to be "0.6" (alpha-value-notation)
+~~~
+svg {
+  border: 1px solid;
+  height: calc(100vh - 20px);
+  margin-bottom: 10px;
+}
+
+path {
+  fill: red;
+}
+polygon {
+  fill: hsl(0deg 100% 50% / 60%);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "0deg" to be "0" (hue-degree-notation)',
+                                "  fill: hsl(0deg 100% 50% / 60%);",
+                                "11:13 - 11:17",
+                                `/en-US/docs/Web/CSS/Reference/Properties/fill
+[hue-degree-notation] Expected "0deg" to be "0" (hue-degree-notation)
+~~~
+svg {
+  border: 1px solid;
+  height: calc(100vh - 20px);
+  margin-bottom: 10px;
+}
+
+path {
+  fill: red;
+}
+polygon {
+  fill: hsl(0deg 100% 50% / 60%);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "fill-opacity": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/fill-opacity",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "40%" to be "0.4" (alpha-value-notation)',
+                                "  fill-opacity: 40%;",
+                                "21:17 - 21:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/fill-opacity
+[alpha-value-notation] Expected "40%" to be "0.4" (alpha-value-notation)
+~~~
+svg {
+  border: 1px solid;
+  height: calc(100vh - 20px);
+  background: repeating-linear-gradient(
+    to bottom right,
+    transparent 0 10px,
+    #cccccc 10px 11px
+  );
+}
+
+svg > * {
+  fill: black;
+}
+rect:last-of-type {
+  fill-opacity: 0.1;
+}
+circle {
+  fill-opacity: 0.6;
+}
+ellipse {
+  fill-opacity: 40%;
+}
+line {
+  fill-opacity: 10%;
+}
+polyline {
+  fill-opacity: 50%;
+}
+path {
+  fill-opacity: 0.5;
+}
+
+circle,
+ellipse {
+  stroke: black;
+  stroke-width: 3px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "10%" to be "0.1" (alpha-value-notation)',
+                                "  fill-opacity: 10%;",
+                                "24:17 - 24:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/fill-opacity
+[alpha-value-notation] Expected "10%" to be "0.1" (alpha-value-notation)
+~~~
+svg {
+  border: 1px solid;
+  height: calc(100vh - 20px);
+  background: repeating-linear-gradient(
+    to bottom right,
+    transparent 0 10px,
+    #cccccc 10px 11px
+  );
+}
+
+svg > * {
+  fill: black;
+}
+rect:last-of-type {
+  fill-opacity: 0.1;
+}
+circle {
+  fill-opacity: 0.6;
+}
+ellipse {
+  fill-opacity: 40%;
+}
+line {
+  fill-opacity: 10%;
+}
+polyline {
+  fill-opacity: 50%;
+}
+path {
+  fill-opacity: 0.5;
+}
+
+circle,
+ellipse {
+  stroke: black;
+  stroke-width: 3px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "  fill-opacity: 50%;",
+                                "27:17 - 27:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/fill-opacity
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+svg {
+  border: 1px solid;
+  height: calc(100vh - 20px);
+  background: repeating-linear-gradient(
+    to bottom right,
+    transparent 0 10px,
+    #cccccc 10px 11px
+  );
+}
+
+svg > * {
+  fill: black;
+}
+rect:last-of-type {
+  fill-opacity: 0.1;
+}
+circle {
+  fill-opacity: 0.6;
+}
+ellipse {
+  fill-opacity: 40%;
+}
+line {
+  fill-opacity: 10%;
+}
+polyline {
+  fill-opacity: 50%;
+}
+path {
+  fill-opacity: 0.5;
+}
+
+circle,
+ellipse {
+  stroke: black;
+  stroke-width: 3px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "fill-rule": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/fill-rule",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        filter: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/filter",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        flex: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/flex",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "flex" (declaration-block-no-redundant-longhand-properties)',
+                                "  flex-basis: 0;",
+                                "14:3 - 14:13",
+                                `/en-US/docs/Web/CSS/Reference/Properties/flex
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex" (declaration-block-no-redundant-longhand-properties)
+~~~
+.default-example {
+  border: 1px solid #c5c5c5;
+  width: auto;
+  max-height: 300px;
+  display: flex;
+}
+
+.default-example > div {
+  background-color: rgb(0 0 255 / 0.2);
+  border: 3px solid blue;
+  margin: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+#example-element {
+  background-color: rgb(255 0 200 / 0.2);
+  border: 3px solid rebeccapurple;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "flex-basis": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/flex-basis",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "flex" (declaration-block-no-redundant-longhand-properties)',
+                                "  flex-basis: auto;",
+                                "14:3 - 14:13",
+                                `/en-US/docs/Web/CSS/Reference/Properties/flex-basis
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex" (declaration-block-no-redundant-longhand-properties)
+~~~
+.default-example {
+  border: 1px solid #c5c5c5;
+  width: auto;
+  max-height: 300px;
+  display: flex;
+}
+
+.default-example > div {
+  background-color: rgb(0 0 255 / 0.2);
+  border: 3px solid blue;
+  margin: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "flex-direction": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/flex-direction",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2015/09/source-order-matters.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "flex-flow": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/flex-flow",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "flex-grow": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/flex-grow",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "flex" (declaration-block-no-redundant-longhand-properties)',
+                                "  flex-basis: 0;",
+                                "14:3 - 14:13",
+                                `/en-US/docs/Web/CSS/Reference/Properties/flex-grow
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex" (declaration-block-no-redundant-longhand-properties)
+~~~
+.default-example {
+  border: 1px solid #c5c5c5;
+  width: auto;
+  max-height: 300px;
+  display: flex;
+}
+
+.default-example > div {
+  background-color: rgb(0 0 255 / 0.2);
+  border: 3px solid blue;
+  margin: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "20%" to be "0.2" (alpha-value-notation)',
+                                "  border: 3px solid rgb(0 0 0 / 20%);",
+                                "6:33 - 6:36",
+                                `/en-US/docs/Web/CSS/Reference/Properties/flex-grow
+[alpha-value-notation] Expected "20%" to be "0.2" (alpha-value-notation)
+~~~
+#content {
+  display: flex;
+}
+
+div > div {
+  border: 3px solid rgb(0 0 0 / 20%);
+}
+
+.box1,
+.box2,
+.box3,
+.box6 {
+  flex-grow: 1;
+}
+
+.box4,
+.box5 {
+  flex-grow: 2;
+  border: 3px solid rgb(0 0 0 / 20%);
+}
+
+.box1 {
+  background-color: red;
+}
+.box2 {
+  background-color: lightblue;
+}
+.box3 {
+  background-color: yellow;
+}
+.box4 {
+  background-color: brown;
+}
+.box5 {
+  background-color: lightgreen;
+}
+.box6 {
+  background-color: brown;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "20%" to be "0.2" (alpha-value-notation)',
+                                "  border: 3px solid rgb(0 0 0 / 20%);",
+                                "19:33 - 19:36",
+                                `/en-US/docs/Web/CSS/Reference/Properties/flex-grow
+[alpha-value-notation] Expected "20%" to be "0.2" (alpha-value-notation)
+~~~
+#content {
+  display: flex;
+}
+
+div > div {
+  border: 3px solid rgb(0 0 0 / 20%);
+}
+
+.box1,
+.box2,
+.box3,
+.box6 {
+  flex-grow: 1;
+}
+
+.box4,
+.box5 {
+  flex-grow: 2;
+  border: 3px solid rgb(0 0 0 / 20%);
+}
+
+.box1 {
+  background-color: red;
+}
+.box2 {
+  background-color: lightblue;
+}
+.box3 {
+  background-color: yellow;
+}
+.box4 {
+  background-color: brown;
+}
+.box5 {
+  background-color: lightgreen;
+}
+.box6 {
+  background-color: brown;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "flex-shrink": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/flex-shrink",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "flex" (declaration-block-no-redundant-longhand-properties)',
+                                "  flex-basis: 300px;",
+                                "14:3 - 14:13",
+                                `/en-US/docs/Web/CSS/Reference/Properties/flex-shrink
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex" (declaration-block-no-redundant-longhand-properties)
+~~~
+.default-example {
+  border: 1px solid #c5c5c5;
+  width: auto;
+  max-height: 300px;
+  display: flex;
+}
+
+.default-example > div {
+  background-color: rgb(0 0 255 / 0.2);
+  border: 3px solid blue;
+  margin: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 300px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "flex-wrap": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/flex-wrap",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        float: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/float",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "flood-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/flood-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "flood-opacity": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/flood-opacity",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "90%" to be "0.9" (alpha-value-notation)',
+                                "  flood-opacity: 90%;",
+                                "22:18 - 22:21",
+                                `/en-US/docs/Web/CSS/Reference/Properties/flood-opacity
+[alpha-value-notation] Expected "90%" to be "0.9" (alpha-value-notation)
+~~~
+svg {
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent 0 9px,
+    #cccccc 0px 10px
+  );
+}
+rect {
+  width: 100px;
+  height: 100px;
+  x: 10px;
+  y: 10px;
+}
+#r2 {
+  x: 150px;
+}
+
+#flood1 feFlood {
+  flood-opacity: 0.5;
+}
+#flood2 feFlood {
+  flood-opacity: 90%;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        font: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "caption" (font-family-name-quotes)',
+                                "font: caption;",
+                                "1:7 - 1:14",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font
+[font-family-name-quotes] Expected quotes around "caption" (font-family-name-quotes)
+~~~
+font: caption;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "status-bar" (font-family-name-quotes)',
+                                "  font: status-bar;",
+                                "24:9 - 24:19",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font
+[font-family-name-quotes] Expected quotes around "status-bar" (font-family-name-quotes)
+~~~
+/* Set the font size to 12px and the line height to 14px.
+   Set the font family to sans-serif */
+p {
+  font: 12px/14px sans-serif;
+}
+
+/* Set the font size to 80% of the parent element
+   or default value (if no parent element present).
+   Set the font family to sans-serif */
+p {
+  font: 80% sans-serif;
+}
+
+/* Set the font weight to bold,
+   the font-style to italic,
+   the font size to large,
+   and the font family to serif. */
+p {
+  font: bold italic large serif;
+}
+
+/* Use the same font as the status bar of the window */
+p {
+  font: status-bar;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-family": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-family",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "color-no-invalid-hex",
+                                'Unexpected invalid hex color "#POUND" (color-no-invalid-hex)',
+                                "font-family: #POUND, sans-serif;",
+                                "6:14 - 6:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
+[color-no-invalid-hex] Unexpected invalid hex color "#POUND" (color-no-invalid-hex)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "1911" for property "font-family" (declaration-property-value-no-unknown)',
+                                "font-family: Goudy Bookletter 1911, sans-serif;",
+                                "1:31 - 1:35",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
+[declaration-property-value-no-unknown] Unexpected unknown value "1911" for property "font-family" (declaration-property-value-no-unknown)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "/" for property "font-family" (declaration-property-value-no-unknown)',
+                                "font-family: Red/Black, sans-serif;",
+                                "2:17 - 2:18",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
+[declaration-property-value-no-unknown] Unexpected unknown value "/" for property "font-family" (declaration-property-value-no-unknown)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "Grande" for property "font-family" (declaration-property-value-no-unknown)',
+                                'font-family: "Lucida" Grande, sans-serif;',
+                                "3:23 - 3:29",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
+[declaration-property-value-no-unknown] Unexpected unknown value "Grande" for property "font-family" (declaration-property-value-no-unknown)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Cannot parse property value "Ahem!, sans-serif" for property "font-family" (declaration-property-value-no-unknown)',
+                                "font-family: Ahem!, sans-serif;",
+                                "4:14 - 4:31",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
+[declaration-property-value-no-unknown] Cannot parse property value "Ahem!, sans-serif" for property "font-family" (declaration-property-value-no-unknown)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Cannot parse property value "test@foo, sans-serif" for property "font-family" (declaration-property-value-no-unknown)',
+                                "font-family: test@foo, sans-serif;",
+                                "5:14 - 5:34",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
+[declaration-property-value-no-unknown] Cannot parse property value "test@foo, sans-serif" for property "font-family" (declaration-property-value-no-unknown)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "#POUND" for property "font-family" (declaration-property-value-no-unknown)',
+                                "font-family: #POUND, sans-serif;",
+                                "6:14 - 6:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
+[declaration-property-value-no-unknown] Unexpected unknown value "#POUND" for property "font-family" (declaration-property-value-no-unknown)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "5" for property "font-family" (declaration-property-value-no-unknown)',
+                                "font-family: Hawaii 5-0, sans-serif;",
+                                "7:21 - 7:22",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
+[declaration-property-value-no-unknown] Unexpected unknown value "5" for property "font-family" (declaration-property-value-no-unknown)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Goudy Bookletter sans-serif" (font-family-name-quotes)',
+                                "font-family: Goudy Bookletter 1911, sans-serif;",
+                                "1:1 - 1:48",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
+[font-family-name-quotes] Expected quotes around "Goudy Bookletter sans-serif" (font-family-name-quotes)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Red/Black" (font-family-name-quotes)',
+                                "font-family: Red/Black, sans-serif;",
+                                "2:14 - 2:23",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
+[font-family-name-quotes] Expected quotes around "Red/Black" (font-family-name-quotes)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Ahem!" (font-family-name-quotes)',
+                                "font-family: Ahem!, sans-serif;",
+                                "4:14 - 4:19",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
+[font-family-name-quotes] Expected quotes around "Ahem!" (font-family-name-quotes)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "test@foo" (font-family-name-quotes)',
+                                "font-family: test@foo, sans-serif;",
+                                "5:14 - 5:22",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
+[font-family-name-quotes] Expected quotes around "test@foo" (font-family-name-quotes)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "#POUND" (font-family-name-quotes)',
+                                "font-family: #POUND, sans-serif;",
+                                "6:14 - 6:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
+[font-family-name-quotes] Expected quotes around "#POUND" (font-family-name-quotes)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Hawaii 5-0" (font-family-name-quotes)',
+                                "font-family: Hawaii 5-0, sans-serif;",
+                                "7:14 - 7:24",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
+[font-family-name-quotes] Expected quotes around "Hawaii 5-0" (font-family-name-quotes)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-no-missing-generic-family-keyword",
+                                "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
+                                "font-family: Goudy Bookletter 1911, sans-serif;",
+                                "1:14 - 1:19",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "font-family-name-quotes",
+                                'Expected quotes around "Gill Sans Extrabold" (font-family-name-quotes)',
+                                "  Gill Sans Extrabold,",
+                                "2:3 - 2:22",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
+[font-family-name-quotes] Expected quotes around "Gill Sans Extrabold" (font-family-name-quotes)
+~~~
+font-family:
+  Gill Sans Extrabold,
+  sans-serif;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-feature-settings": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-feature-settings",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-kerning": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-kerning",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-language-override": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-language-override",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-optical-sizing": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-optical-sizing",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-palette": {
+                          children: {
+                            "palette-mix": {
+                              children: {},
+                              slug: "/en-US/docs/Web/CSS/Reference/Properties/font-palette/palette-mix",
+                              messages: [
+                                {
+                                  message: "Unreachable via sidebar",
+                                  data: []
+                                },
+                                {
+                                  message: "CSS code issue",
+                                  data: [
+                                    "declaration-property-value-no-unknown",
+                                    'Unexpected unknown value "palette-mix(in lch, --blue-nabla 55%, --yellow-nabla 45%)" for property "font-palette" (declaration-property-value-no-unknown)',
+                                    "  font-palette: palette-mix(in lch, --blue-nabla 55%, --yellow-nabla 45%);",
+                                    "29:17 - 29:74",
+                                    `/en-US/docs/Web/CSS/Reference/Properties/font-palette/palette-mix
+[declaration-property-value-no-unknown] Unexpected unknown value "palette-mix(in lch, --blue-nabla 55%, --yellow-nabla 45%)" for property "font-palette" (declaration-property-value-no-unknown)
+~~~
+@import "https://fonts.googleapis.com/css2?family=Nabla&display=swap";
+
+@font-palette-values --blue-nabla {
+  font-family: "Nabla";
+  base-palette: 2; /* this is Nabla's blue palette */
+}
+
+@font-palette-values --yellow-nabla {
+  font-family: "Nabla";
+  base-palette: 7; /* this is Nabla's yellow palette */
+}
+
+p {
+  font-family: "Nabla", fantasy;
+  font-size: 4rem;
+  text-align: center;
+  margin: 0;
+}
+
+.yellowPalette {
+  font-palette: --yellow-nabla;
+}
+
+.bluePalette {
+  font-palette: --blue-nabla;
+}
+
+.mixedPalette {
+  font-palette: palette-mix(in lch, --blue-nabla 55%, --yellow-nabla 45%);
+}
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "Not in BCD",
+                                  data: [
+                                    "css.types.Reference.Properties/font-palette/palette-mix"
+                                  ]
+                                },
+                                {
+                                  message: "Unexpected BCD keys",
+                                  data: [
+                                    "Actual:",
+                                    "css.properties.font-palette.palette-mix_function",
+                                    "Expected:",
+                                    "css.types.Reference.Properties/font-palette/palette-mix"
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-palette",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-size",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-size-adjust": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-size-adjust",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-smooth": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-smooth",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-stretch": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-stretch",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-synthesis": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-synthesis",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-synthesis-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-position",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-synthesis-small-caps": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-small-caps",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-synthesis-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-synthesis-weight": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-weight",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-variant": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-variant-alternates": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-alternates",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-variant-caps": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-caps",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-variant-east-asian": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-east-asian",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-variant-emoji": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-emoji",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-variant-ligatures": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-ligatures",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-variant-numeric": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-numeric",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-variant-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-position",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-variation-settings": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variation-settings",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "font-weight": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-weight",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "forced-color-adjust": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/forced-color-adjust",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        gap: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/gap",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        grid: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "grid-area": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-area",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-template-areas:",
+                                "6:3 - 6:22",
+                                `/en-US/docs/Web/CSS/Reference/Properties/grid-area
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)
+~~~
+.example-container {
+  border: 1px solid #c5c5c5;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, minmax(40px, auto));
+  grid-template-areas:
+    "a a a"
+    "b c c"
+    "b c c";
+  grid-gap: 10px;
+  width: 200px;
+}
+
+.example-container > div {
+  background-color: rgb(0 0 255 / 0.2);
+  border: 3px solid blue;
+}
+
+#example-element {
+  background-color: rgb(255 0 200 / 0.2);
+  border: 3px solid rebeccapurple;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "grid-auto-columns": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-auto-columns",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "grid-auto-flow": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-auto-flow",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "grid-auto-rows": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-auto-rows",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "grid-column": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-column",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "grid-column-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-column-end",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: 4;",
+                                "9:3 - 9:18",
+                                `/en-US/docs/Web/CSS/Reference/Properties/grid-column-end
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.nested {
+  border: 2px solid #ffec99;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "11:3 - 11:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/grid-column-end
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.nested {
+  border: 2px solid #ffec99;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "11:3 - 11:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/grid-column-end
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.nested {
+  border: 2px solid #ffec99;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 5;",
+                                "17:3 - 17:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/grid-column-end
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.nested {
+  border: 2px solid #ffec99;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "grid-column-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-column-start",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: 4;",
+                                "9:3 - 9:18",
+                                `/en-US/docs/Web/CSS/Reference/Properties/grid-column-start
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.nested {
+  border: 2px solid #ffec99;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "11:3 - 11:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/grid-column-start
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.nested {
+  border: 2px solid #ffec99;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "11:3 - 11:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/grid-column-start
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.nested {
+  border: 2px solid #ffec99;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 5;",
+                                "17:3 - 17:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/grid-column-start
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.nested {
+  border: 2px solid #ffec99;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "grid-row": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-row",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "grid-row-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-row-end",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: 4;",
+                                "9:3 - 9:18",
+                                `/en-US/docs/Web/CSS/Reference/Properties/grid-row-end
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.nested {
+  border: 2px solid #ffec99;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "11:3 - 11:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/grid-row-end
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.nested {
+  border: 2px solid #ffec99;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "11:3 - 11:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/grid-row-end
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.nested {
+  border: 2px solid #ffec99;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 5;",
+                                "17:3 - 17:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/grid-row-end
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.nested {
+  border: 2px solid #ffec99;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "grid-row-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-row-start",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: 4;",
+                                "9:3 - 9:18",
+                                `/en-US/docs/Web/CSS/Reference/Properties/grid-row-start
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.nested {
+  border: 2px solid #ffec99;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "11:3 - 11:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/grid-row-start
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.nested {
+  border: 2px solid #ffec99;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "11:3 - 11:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/grid-row-start
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.nested {
+  border: 2px solid #ffec99;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 5;",
+                                "17:3 - 17:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/grid-row-start
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.nested {
+  border: 2px solid #ffec99;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "grid-template": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-template",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "grid-template-areas": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-template-areas",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-template-columns: 150px 1fr;",
+                                "10:3 - 10:24",
+                                `/en-US/docs/Web/CSS/Reference/Properties/grid-template-areas
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)
+~~~
+#page {
+  display: grid;
+  width: 100%;
+  height: 250px;
+  grid-template-areas:
+    "head head"
+    "nav  main"
+    ".  foot";
+  grid-template-rows: 50px 1fr 30px;
+  grid-template-columns: 150px 1fr;
+}
+
+#page > header {
+  grid-area: head;
+  background-color: #8ca0ff;
+}
+
+#page > nav {
+  grid-area: nav;
+  background-color: #ffa08c;
+}
+
+#page > main {
+  grid-area: main;
+  background-color: #ffff64;
+}
+
+#page > footer {
+  grid-area: foot;
+  background-color: #8cffa0;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "grid-template-columns": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-template-columns",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "grid-template-rows": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-template-rows",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "hanging-punctuation": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/hanging-punctuation",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        height: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/height",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "hyphenate-character": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/hyphenate-character",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "hyphenate-limit-chars": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/hyphenate-limit-chars",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        hyphens: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/hyphens",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "image-orientation": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/image-orientation",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "image-rendering": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/image-rendering",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "image-resolution": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/image-resolution",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            },
+                            {
+                              message: "Page status not backed by BCD",
+                              data: []
+                            }
+                          ]
+                        },
+                        "initial-letter": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/initial-letter",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "inline-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inline-size",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        inset: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "inset-block": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset-block",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "inset-block-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset-block-end",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "inset-block-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset-block-start",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "inset-inline": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset-inline",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "inset-inline-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset-inline-end",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "inset-inline-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset-inline-start",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        interactivity: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/interactivity",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "interpolate-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/interpolate-size",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        isolation: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/isolation",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "justify-content": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/justify-content",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "justify-items": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/justify-items",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "justify-self": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/justify-self",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        left: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/left",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "letter-spacing": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/letter-spacing",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "lighting-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/lighting-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "line-break": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/line-break",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "line-clamp": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/line-clamp",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "line-height": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/line-height",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "line-height-step": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/line-height-step",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            },
+                            {
+                              message: "Page status not backed by BCD",
+                              data: []
+                            }
+                          ]
+                        },
+                        "list-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/list-style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "list-style-image": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/list-style-image",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "list-style-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/list-style-position",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "list-style-type": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/list-style-type",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        margin: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/margin",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
+                                "  justify-content: flex-start;",
+                                "7:3 - 7:18",
+                                `/en-US/docs/Web/CSS/Reference/Properties/margin
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
+~~~
+#container {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.row {
+  height: 33.33%;
+  display: inline-block;
+  border: solid #ce7777 10px;
+  background-color: #2b3a55;
+  flex-shrink: 0;
+}
+
+#example-element {
+  border: solid 10px #ffbf00;
+  background-color: #2b3a55;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "margin-block": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-block",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
+                                "  justify-content: flex-start;",
+                                "7:3 - 7:18",
+                                `/en-US/docs/Web/CSS/Reference/Properties/margin-block
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
+~~~
+#container {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.row {
+  height: 33.33%;
+  display: inline-block;
+  border: solid #ce7777 10px;
+  background-color: #2b3a55;
+  color: white;
+  flex-shrink: 0;
+}
+
+#example-element {
+  border: solid 10px #ffbf00;
+  background-color: #2b3a55;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "margin-block-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-block-end",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
+                                "  justify-content: flex-start;",
+                                "7:3 - 7:18",
+                                `/en-US/docs/Web/CSS/Reference/Properties/margin-block-end
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
+~~~
+#container {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.row {
+  height: 33.33%;
+  display: inline-block;
+  border: solid #ce7777 10px;
+  background-color: #2b3a55;
+  color: white;
+  flex-shrink: 0;
+}
+
+#example-element {
+  border: solid 10px #ffbf00;
+  background-color: #2b3a55;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "margin-block-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-block-start",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
+                                "  justify-content: flex-start;",
+                                "7:3 - 7:18",
+                                `/en-US/docs/Web/CSS/Reference/Properties/margin-block-start
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
+~~~
+#container {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.row {
+  height: 33.33%;
+  display: inline-block;
+  border: solid #ce7777 10px;
+  background-color: #2b3a55;
+  color: white;
+  flex-shrink: 0;
+}
+
+#example-element {
+  border: solid 10px #ffbf00;
+  background-color: #2b3a55;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "margin-bottom": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-bottom",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
+                                "  justify-content: flex-start;",
+                                "7:3 - 7:18",
+                                `/en-US/docs/Web/CSS/Reference/Properties/margin-bottom
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
+~~~
+#container {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.row {
+  height: 33.33%;
+  display: inline-block;
+  border: solid #ce7777 10px;
+  background-color: #2b3a55;
+  flex-shrink: 0;
+}
+
+#example-element {
+  border: solid 10px #ffbf00;
+  background-color: #2b3a55;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "margin-inline": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-inline",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
+                                "  justify-content: flex-start;",
+                                "6:3 - 6:18",
+                                `/en-US/docs/Web/CSS/Reference/Properties/margin-inline
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
+~~~
+#container {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+.col {
+  width: 33.33%;
+  border: solid #ce7777 10px;
+  background-color: #2b3a55;
+  color: white;
+  flex-shrink: 0;
+}
+
+#example-element {
+  border: solid 10px #ffbf00;
+  background-color: #2b3a55;
+  unicode-bidi: bidi-override;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "margin-inline-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-inline-end",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
+                                "  justify-content: flex-start;",
+                                "6:3 - 6:18",
+                                `/en-US/docs/Web/CSS/Reference/Properties/margin-inline-end
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
+~~~
+#container {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+.col {
+  width: 33.33%;
+  border: solid #ce7777 10px;
+  background-color: #2b3a55;
+  color: white;
+  flex-shrink: 0;
+}
+
+#example-element {
+  border: solid 10px #ffbf00;
+  background-color: #2b3a55;
+  unicode-bidi: bidi-override;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "margin-inline-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-inline-start",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
+                                "  justify-content: flex-start;",
+                                "6:3 - 6:18",
+                                `/en-US/docs/Web/CSS/Reference/Properties/margin-inline-start
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
+~~~
+#container {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+.col {
+  width: 33.33%;
+  border: solid #ce7777 10px;
+  background-color: #2b3a55;
+  color: white;
+  flex-shrink: 0;
+}
+
+#example-element {
+  border: solid 10px #ffbf00;
+  background-color: #2b3a55;
+  unicode-bidi: bidi-override;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "margin-left": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-left",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
+                                "  justify-content: flex-start;",
+                                "6:3 - 6:18",
+                                `/en-US/docs/Web/CSS/Reference/Properties/margin-left
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
+~~~
+#container {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+.col {
+  width: 33.33%;
+  border: solid #5b6dcd 10px;
+  background-color: rgb(229 232 252 / 0.6);
+  flex-shrink: 0;
+}
+
+#example-element {
+  border: solid 10px #ffc129;
+  background-color: rgb(255 244 219 / 0.6);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "margin-right": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-right",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
+                                "  justify-content: flex-start;",
+                                "6:3 - 6:18",
+                                `/en-US/docs/Web/CSS/Reference/Properties/margin-right
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
+~~~
+#container {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+.col {
+  width: 33.33%;
+  border: solid #5b6dcd 10px;
+  background-color: rgb(229 232 252 / 0.6);
+  flex-shrink: 0;
+}
+
+#example-element {
+  border: solid 10px #ffc129;
+  background-color: rgb(255 244 219 / 0.6);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "margin-top": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-top",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
+                                "  justify-content: flex-start;",
+                                "7:3 - 7:18",
+                                `/en-US/docs/Web/CSS/Reference/Properties/margin-top
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
+~~~
+#container {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.row {
+  height: 33.33%;
+  display: inline-block;
+  border: solid #ce7777 10px;
+  background-color: #2b3a55;
+  flex-shrink: 0;
+}
+
+#example-element {
+  border: solid 10px #ffbf00;
+  background-color: #2b3a55;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "margin-trim": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-trim",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        marker: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/marker",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "marker-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/marker-end",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "marker-mid": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/marker-mid",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "marker-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/marker-start",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        mask: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "mask" (declaration-block-no-redundant-longhand-properties)',
+                                "mask-composite: add;",
+                                "8:1 - 8:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/mask
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "mask" (declaration-block-no-redundant-longhand-properties)
+~~~
+mask-image: none;
+mask-mode: match-source;
+mask-position: 0% 0%;
+mask-size: auto;
+mask-repeat: repeat;
+mask-origin: border-box;
+mask-clip: border-box;
+mask-composite: add;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "mask-border": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-border",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "30" for property "-webkit-mask-box-image" (declaration-property-value-no-unknown)',
+                                "    30 fill /          /* slice */",
+                                "8:5 - 8:7",
+                                `/en-US/docs/Web/CSS/Reference/Properties/mask-border
+[declaration-property-value-no-unknown] Unexpected unknown value "30" for property "-webkit-mask-box-image" (declaration-property-value-no-unknown)
+~~~
+.masked {
+  width: 200px;
+  background-color: lavender;
+  border: 18px solid salmon;
+  padding: 10px;
+
+  -webkit-mask-box-image: url("https://mdn.github.io/shared-assets/images/examples/mask-border-diamonds.png")
+    30 fill /          /* slice */
+    20px /             /* width */
+    1px                /* outset */
+    round;             /* repeat */
+
+  mask-border:
+    url("https://mdn.github.io/shared-assets/images/examples/mask-border-diamonds.png")
+    30 fill /        /* slice */
+    20px /           /* width */
+    1px              /* outset */
+    round;           /* repeat */
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "mask-border-mode": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-border-mode",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "mask-border-outset": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-border-outset",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "mask-border-repeat": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-border-repeat",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "mask-border-slice": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-border-slice",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "mask-border-source": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-border-source",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "mask-border-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-border-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "mask-clip": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-clip",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "mask-composite": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-composite",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "mask-image": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-image",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "mask-mode": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-mode",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "mask-origin": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-origin",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "mask-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-position",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "mask-repeat": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-repeat",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "mask-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-size",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "mask-type": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-type",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "math-depth": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/math-depth",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                '    <mrow style="math-style: normal">',
+                                "5:10 - 5:36",
+                                `/en-US/docs/Web/CSS/Reference/Properties/math-depth
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+  <math>
+    <mtext>0</mtext>
+
+    <!-- auto-add value has no effect when math-style is normal -->
+    <mrow style="math-style: normal">
+      <mrow style="math-depth: auto-add">
+        <mtext>0</mtext>
+      </mrow>
+    </mrow>
+
+    <!-- the inherited math-style is compact, so math-depth is set to 1 -->
+    <mrow style="math-depth: auto-add">
+      <mtext>1</mtext>
+    </mrow>
+
+    <mrow style="math-depth: add(2)">
+      <mtext>2</mtext>
+      <mrow style="math-depth: add(-1)">
+        <mtext>1</mtext>
+      </mrow>
+      <mrow style="math-depth: 0">
+        <mtext>0</mtext>
+      </mrow>
+    </mrow>
+  </math>
+</p>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                '      <mrow style="math-depth: auto-add">',
+                                "6:12 - 6:40",
+                                `/en-US/docs/Web/CSS/Reference/Properties/math-depth
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+  <math>
+    <mtext>0</mtext>
+
+    <!-- auto-add value has no effect when math-style is normal -->
+    <mrow style="math-style: normal">
+      <mrow style="math-depth: auto-add">
+        <mtext>0</mtext>
+      </mrow>
+    </mrow>
+
+    <!-- the inherited math-style is compact, so math-depth is set to 1 -->
+    <mrow style="math-depth: auto-add">
+      <mtext>1</mtext>
+    </mrow>
+
+    <mrow style="math-depth: add(2)">
+      <mtext>2</mtext>
+      <mrow style="math-depth: add(-1)">
+        <mtext>1</mtext>
+      </mrow>
+      <mrow style="math-depth: 0">
+        <mtext>0</mtext>
+      </mrow>
+    </mrow>
+  </math>
+</p>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                '    <mrow style="math-depth: auto-add">',
+                                "12:10 - 12:38",
+                                `/en-US/docs/Web/CSS/Reference/Properties/math-depth
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+  <math>
+    <mtext>0</mtext>
+
+    <!-- auto-add value has no effect when math-style is normal -->
+    <mrow style="math-style: normal">
+      <mrow style="math-depth: auto-add">
+        <mtext>0</mtext>
+      </mrow>
+    </mrow>
+
+    <!-- the inherited math-style is compact, so math-depth is set to 1 -->
+    <mrow style="math-depth: auto-add">
+      <mtext>1</mtext>
+    </mrow>
+
+    <mrow style="math-depth: add(2)">
+      <mtext>2</mtext>
+      <mrow style="math-depth: add(-1)">
+        <mtext>1</mtext>
+      </mrow>
+      <mrow style="math-depth: 0">
+        <mtext>0</mtext>
+      </mrow>
+    </mrow>
+  </math>
+</p>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                '    <mrow style="math-depth: add(2)">',
+                                "16:10 - 16:36",
+                                `/en-US/docs/Web/CSS/Reference/Properties/math-depth
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+  <math>
+    <mtext>0</mtext>
+
+    <!-- auto-add value has no effect when math-style is normal -->
+    <mrow style="math-style: normal">
+      <mrow style="math-depth: auto-add">
+        <mtext>0</mtext>
+      </mrow>
+    </mrow>
+
+    <!-- the inherited math-style is compact, so math-depth is set to 1 -->
+    <mrow style="math-depth: auto-add">
+      <mtext>1</mtext>
+    </mrow>
+
+    <mrow style="math-depth: add(2)">
+      <mtext>2</mtext>
+      <mrow style="math-depth: add(-1)">
+        <mtext>1</mtext>
+      </mrow>
+      <mrow style="math-depth: 0">
+        <mtext>0</mtext>
+      </mrow>
+    </mrow>
+  </math>
+</p>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                '      <mrow style="math-depth: add(-1)">',
+                                "18:12 - 18:39",
+                                `/en-US/docs/Web/CSS/Reference/Properties/math-depth
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+  <math>
+    <mtext>0</mtext>
+
+    <!-- auto-add value has no effect when math-style is normal -->
+    <mrow style="math-style: normal">
+      <mrow style="math-depth: auto-add">
+        <mtext>0</mtext>
+      </mrow>
+    </mrow>
+
+    <!-- the inherited math-style is compact, so math-depth is set to 1 -->
+    <mrow style="math-depth: auto-add">
+      <mtext>1</mtext>
+    </mrow>
+
+    <mrow style="math-depth: add(2)">
+      <mtext>2</mtext>
+      <mrow style="math-depth: add(-1)">
+        <mtext>1</mtext>
+      </mrow>
+      <mrow style="math-depth: 0">
+        <mtext>0</mtext>
+      </mrow>
+    </mrow>
+  </math>
+</p>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                '      <mrow style="math-depth: 0">',
+                                "21:12 - 21:33",
+                                `/en-US/docs/Web/CSS/Reference/Properties/math-depth
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+  <math>
+    <mtext>0</mtext>
+
+    <!-- auto-add value has no effect when math-style is normal -->
+    <mrow style="math-style: normal">
+      <mrow style="math-depth: auto-add">
+        <mtext>0</mtext>
+      </mrow>
+    </mrow>
+
+    <!-- the inherited math-style is compact, so math-depth is set to 1 -->
+    <mrow style="math-depth: auto-add">
+      <mtext>1</mtext>
+    </mrow>
+
+    <mrow style="math-depth: add(2)">
+      <mtext>2</mtext>
+      <mrow style="math-depth: add(-1)">
+        <mtext>1</mtext>
+      </mrow>
+      <mrow style="math-depth: 0">
+        <mtext>0</mtext>
+      </mrow>
+    </mrow>
+  </math>
+</p>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "math-shift": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/math-shift",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "math-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/math-style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "max-block-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/max-block-size",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "max-height": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/max-height",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "max-inline-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/max-inline-size",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "max-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/max-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "min-block-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/min-block-size",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "min-height": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/min-height",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "min-inline-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/min-inline-size",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "min-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/min-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "mix-blend-mode": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)',
+                                "  flex-wrap: wrap;",
+                                "18:3 - 18:12",
+                                `/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)
+~~~
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+  background: #eeeeee;
+}
+
+.grid {
+  width: 100%;
+  display: flex;
+  font: 1em monospace;
+}
+
+.row {
+  display: flex;
+  flex: 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.col {
+  display: flex;
+  flex: 1 auto;
+  flex-direction: column;
+  height: auto;
+}
+
+.cell {
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: white;
+  overflow: hidden;
+  text-align: center;
+}
+
+.note {
+  background: #fff3d4;
+  padding: 1em;
+  margin: 0.5em 0.5em 0;
+  font: 0.8em sans-serif;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.note + .row .cell {
+  margin-top: 0;
+}
+
+.container {
+  position: relative;
+  background:
+    linear-gradient(to right, black 0%, transparent 50%, white 100%),
+    linear-gradient(to bottom, yellow 0%, magenta 50%, cyan 100%);
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.R {
+  transform-origin: center;
+  transform: rotate(-30deg);
+  fill: url("#red");
+}
+
+.G {
+  transform-origin: center;
+  transform: rotate(90deg);
+  fill: url("#green");
+}
+
+.B {
+  transform-origin: center;
+  transform: rotate(210deg);
+  fill: url("#blue");
+}
+
+.isolate .group {
+  isolation: isolate;
+}
+
+.normal .item {
+  mix-blend-mode: normal;
+}
+.multiply .item {
+  mix-blend-mode: multiply;
+}
+.screen .item {
+  mix-blend-mode: screen;
+}
+.overlay .item {
+  mix-blend-mode: overlay;
+}
+.darken .item {
+  mix-blend-mode: darken;
+}
+.lighten .item {
+  mix-blend-mode: lighten;
+}
+.color-dodge .item {
+  mix-blend-mode: color-dodge;
+}
+.color-burn .item {
+  mix-blend-mode: color-burn;
+}
+.hard-light .item {
+  mix-blend-mode: hard-light;
+}
+.soft-light .item {
+  mix-blend-mode: soft-light;
+}
+.difference .item {
+  mix-blend-mode: difference;
+}
+.exclusion .item {
+  mix-blend-mode: exclusion;
+}
+.hue .item {
+  mix-blend-mode: hue;
+}
+.saturation .item {
+  mix-blend-mode: saturation;
+}
+.color .item {
+  mix-blend-mode: color;
+}
+.luminosity .item {
+  mix-blend-mode: luminosity;
+}
+.plus-darker .item {
+  mix-blend-mode: plus-darker;
+}
+.plus-lighter .item {
+  mix-blend-mode: plus-lighter;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "object-fit": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/object-fit",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "object-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/object-position",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "object-view-box": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/object-view-box",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        offset: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/offset",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "offset-anchor": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/offset-anchor",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "offset-distance": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/offset-distance",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "offset-path": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/offset-path",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "offset-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/offset-position",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "20%" to be "0.2" (alpha-value-notation)',
+                                "  opacity: 20%;",
+                                "36:12 - 36:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/offset-position
+[alpha-value-notation] Expected "20%" to be "0.2" (alpha-value-notation)
+~~~
+.wrap {
+  position: relative;
+  width: 80vw;
+  height: 120px;
+  border: 1px solid black;
+  margin: 0 2em 4em 5em;
+  text-align: center;
+}
+
+pre {
+  font-size: 1em;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 1em;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+.box + .box {
+  opacity: 1;
+}
+
+.box {
+  background-color: green;
+  border-top: 6px dashed white;
+  background-clip: border-box;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  opacity: 20%;
+  color: white;
+}
+
+.box0 {
+  offset-position: normal;
+}
+
+.box1 {
+  offset-position: normal;
+  offset-path: ray(0deg);
+}
+
+.box2 {
+  offset-position: auto;
+  offset-path: ray(0deg);
+}
+
+.box3 {
+  offset-position: left top;
+  offset-path: ray(0deg);
+}
+
+.box4 {
+  offset-position: 30% 70%;
+  offset-path: ray(120deg);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "offset-rotate": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/offset-rotate",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        opacity: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/opacity",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "40%" to be "0.4" (alpha-value-notation)',
+                                "background: rgb(0 0 0 / 40%);",
+                                "1:25 - 1:28",
+                                `/en-US/docs/Web/CSS/Reference/Properties/opacity
+[alpha-value-notation] Expected "40%" to be "0.4" (alpha-value-notation)
+~~~
+background: rgb(0 0 0 / 40%);
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "    rgb(255 255 255 / 50%) 50%",
+                                "16:23 - 16:26",
+                                `/en-US/docs/Web/CSS/Reference/Properties/opacity
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+img.opacity {
+  opacity: 1;
+}
+
+img.opacity:hover {
+  opacity: 0.5;
+}
+
+.wrapper {
+  width: 200px;
+  height: 160px;
+  background-color: #f03cc3;
+  background-image: linear-gradient(
+    90deg,
+    transparent 50%,
+    rgb(255 255 255 / 50%) 50%
+  );
+  background-size: 20px 20px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        order: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/order",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                '  <div style="order: 1">Box 2: <code>order: 1;</code></div>',
+                                "2:7 - 2:23",
+                                `/en-US/docs/Web/CSS/Reference/Properties/order
+[no-style-attr] Do not use the style attribute.
+~~~
+<section class="default-example" id="default-example">
+  <div class="transition-all" id="example-element">Box 1:</div>
+  <div style="order: 1">Box 2: <code>order: 1;</code></div>
+  <div style="order: 2">Box 3: <code>order: 2;</code></div>
+  <div style="order: 2">Box 4: <code>order: 2;</code></div>
+  <div style="order: 3">Box 5: <code>order: 3;</code></div>
+</section>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                '  <div style="order: 2">Box 3: <code>order: 2;</code></div>',
+                                "3:7 - 3:23",
+                                `/en-US/docs/Web/CSS/Reference/Properties/order
+[no-style-attr] Do not use the style attribute.
+~~~
+<section class="default-example" id="default-example">
+  <div class="transition-all" id="example-element">Box 1:</div>
+  <div style="order: 1">Box 2: <code>order: 1;</code></div>
+  <div style="order: 2">Box 3: <code>order: 2;</code></div>
+  <div style="order: 2">Box 4: <code>order: 2;</code></div>
+  <div style="order: 3">Box 5: <code>order: 3;</code></div>
+</section>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                '  <div style="order: 2">Box 4: <code>order: 2;</code></div>',
+                                "4:7 - 4:23",
+                                `/en-US/docs/Web/CSS/Reference/Properties/order
+[no-style-attr] Do not use the style attribute.
+~~~
+<section class="default-example" id="default-example">
+  <div class="transition-all" id="example-element">Box 1:</div>
+  <div style="order: 1">Box 2: <code>order: 1;</code></div>
+  <div style="order: 2">Box 3: <code>order: 2;</code></div>
+  <div style="order: 2">Box 4: <code>order: 2;</code></div>
+  <div style="order: 3">Box 5: <code>order: 3;</code></div>
+</section>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                '  <div style="order: 3">Box 5: <code>order: 3;</code></div>',
+                                "5:7 - 5:23",
+                                `/en-US/docs/Web/CSS/Reference/Properties/order
+[no-style-attr] Do not use the style attribute.
+~~~
+<section class="default-example" id="default-example">
+  <div class="transition-all" id="example-element">Box 1:</div>
+  <div style="order: 1">Box 2: <code>order: 1;</code></div>
+  <div style="order: 2">Box 3: <code>order: 2;</code></div>
+  <div style="order: 2">Box 4: <code>order: 2;</code></div>
+  <div style="order: 3">Box 5: <code>order: 3;</code></div>
+</section>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2015/09/source-order-matters.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        orphans: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/orphans",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        outline: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/outline",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "outline-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/outline-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "outline-offset": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/outline-offset",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "outline-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/outline-style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "outline-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/outline-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        overflow: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-keyword-no-deprecated",
+                                'Expected "overlay" to be "auto" (declaration-property-value-keyword-no-deprecated)',
+                                "  overflow: overlay;",
+                                "46:13 - 46:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/overflow
+[declaration-property-value-keyword-no-deprecated] Expected "overlay" to be "auto" (declaration-property-value-keyword-no-deprecated)
+~~~
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+div {
+  margin: 2em;
+  font-size: 1.2em;
+}
+
+p {
+  width: 5em;
+  height: 5em;
+  border: dotted;
+  margin-top: 0.5em;
+}
+
+div:nth-of-type(5),
+div:nth-of-type(6) {
+  margin-top: 200px;
+}
+
+p.visible {
+  overflow: visible;
+}
+
+p.hidden {
+  overflow: hidden;
+}
+
+p.clip {
+  overflow: clip;
+  overflow-clip-margin: 1em;
+}
+
+p.scroll {
+  overflow: scroll;
+}
+
+p.auto {
+  overflow: auto;
+}
+
+p.overlay {
+  overflow: overlay;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "overflow-anchor": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow-anchor",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "overflow-block": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow-block",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "overflow-clip-margin": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow-clip-margin",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "overflow-inline": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow-inline",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "overflow-wrap": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow-wrap",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "overflow-x": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow-x",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "overflow-y": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow-y",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        overlay: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overlay",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "  background-color: rgb(0 0 0 / 25%);",
+                                "49:33 - 49:36",
+                                `/en-US/docs/Web/CSS/Reference/Properties/overlay
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+html {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+[popover]:popover-open {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+[popover] {
+  font-size: 1.2rem;
+  padding: 10px;
+
+  /* Final state of the exit animation */
+  opacity: 0;
+  transform: scaleX(0);
+
+  transition:
+    opacity 0.7s,
+    transform 0.7s,
+    overlay 0.7s allow-discrete,
+    display 0.7s allow-discrete;
+  /* Equivalent to
+  transition: all 0.7s allow-discrete; */
+}
+
+/* Needs to be included after the previous [popover]:popover-open
+   rule to take effect, as the specificity is the same */
+@starting-style {
+  [popover]:popover-open {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+}
+
+/* Transition for the popover's backdrop */
+
+[popover]::backdrop {
+  background-color: transparent;
+  transition:
+    display 0.7s allow-discrete,
+    overlay 0.7s allow-discrete,
+    background-color 0.7s;
+  /* Equivalent to
+  transition: all 0.7s allow-discrete; */
+}
+
+[popover]:popover-open::backdrop {
+  background-color: rgb(0 0 0 / 25%);
+}
+
+/* Nesting selectors (&) cannot represent pseudo-elements, so this 
+   starting-style rule cannot be nested. */
+
+@starting-style {
+  [popover]:popover-open::backdrop {
+    background-color: transparent;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "overscroll-behavior": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "overscroll-behavior-block": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior-block",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "    rgb(0 0 0 / 50%) 20px",
+                                "9:17 - 9:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior-block
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+main {
+  height: 3000px;
+  width: 500px;
+  background-color: white;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 19px,
+    rgb(0 0 0 / 50%) 20px
+  );
+}
+
+main > div {
+  height: 300px;
+  width: 400px;
+  overflow: auto;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  overscroll-behavior-block: contain;
+}
+
+div > div {
+  height: 1500px;
+  width: 100%;
+  background-color: yellow;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 19px,
+    rgb(0 0 0 / 50%) 20px
+  );
+}
+
+p {
+  padding: 10px;
+  background-color: rgb(255 0 0 / 50%);
+  margin: 0;
+  width: 340px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "    rgb(0 0 0 / 50%) 20px",
+                                "31:17 - 31:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior-block
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+main {
+  height: 3000px;
+  width: 500px;
+  background-color: white;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 19px,
+    rgb(0 0 0 / 50%) 20px
+  );
+}
+
+main > div {
+  height: 300px;
+  width: 400px;
+  overflow: auto;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  overscroll-behavior-block: contain;
+}
+
+div > div {
+  height: 1500px;
+  width: 100%;
+  background-color: yellow;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 19px,
+    rgb(0 0 0 / 50%) 20px
+  );
+}
+
+p {
+  padding: 10px;
+  background-color: rgb(255 0 0 / 50%);
+  margin: 0;
+  width: 340px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "  background-color: rgb(255 0 0 / 50%);",
+                                "37:35 - 37:38",
+                                `/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior-block
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+main {
+  height: 3000px;
+  width: 500px;
+  background-color: white;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 19px,
+    rgb(0 0 0 / 50%) 20px
+  );
+}
+
+main > div {
+  height: 300px;
+  width: 400px;
+  overflow: auto;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  overscroll-behavior-block: contain;
+}
+
+div > div {
+  height: 1500px;
+  width: 100%;
+  background-color: yellow;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 19px,
+    rgb(0 0 0 / 50%) 20px
+  );
+}
+
+p {
+  padding: 10px;
+  background-color: rgb(255 0 0 / 50%);
+  margin: 0;
+  width: 340px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "overscroll-behavior-inline": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior-inline",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "    rgb(0 0 0 / 50%) 20px",
+                                "9:17 - 9:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior-inline
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+main {
+  height: 400px;
+  width: 3000px;
+  background-color: white;
+  background-image: repeating-linear-gradient(
+    to right,
+    transparent 0px,
+    transparent 19px,
+    rgb(0 0 0 / 50%) 20px
+  );
+}
+
+main > div {
+  height: 300px;
+  width: 400px;
+  overflow: auto;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  overscroll-behavior-inline: contain;
+}
+
+div > div {
+  height: 100%;
+  width: 1500px;
+  background-color: yellow;
+  background-image: repeating-linear-gradient(
+    to right,
+    transparent 0px,
+    transparent 19px,
+    rgb(0 0 0 / 50%) 20px
+  );
+}
+
+p {
+  padding: 10px;
+  background-color: rgb(255 0 0 / 50%);
+  margin: 0;
+  width: 360px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "    rgb(0 0 0 / 50%) 20px",
+                                "31:17 - 31:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior-inline
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+main {
+  height: 400px;
+  width: 3000px;
+  background-color: white;
+  background-image: repeating-linear-gradient(
+    to right,
+    transparent 0px,
+    transparent 19px,
+    rgb(0 0 0 / 50%) 20px
+  );
+}
+
+main > div {
+  height: 300px;
+  width: 400px;
+  overflow: auto;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  overscroll-behavior-inline: contain;
+}
+
+div > div {
+  height: 100%;
+  width: 1500px;
+  background-color: yellow;
+  background-image: repeating-linear-gradient(
+    to right,
+    transparent 0px,
+    transparent 19px,
+    rgb(0 0 0 / 50%) 20px
+  );
+}
+
+p {
+  padding: 10px;
+  background-color: rgb(255 0 0 / 50%);
+  margin: 0;
+  width: 360px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "  background-color: rgb(255 0 0 / 50%);",
+                                "37:35 - 37:38",
+                                `/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior-inline
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+main {
+  height: 400px;
+  width: 3000px;
+  background-color: white;
+  background-image: repeating-linear-gradient(
+    to right,
+    transparent 0px,
+    transparent 19px,
+    rgb(0 0 0 / 50%) 20px
+  );
+}
+
+main > div {
+  height: 300px;
+  width: 400px;
+  overflow: auto;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  overscroll-behavior-inline: contain;
+}
+
+div > div {
+  height: 100%;
+  width: 1500px;
+  background-color: yellow;
+  background-image: repeating-linear-gradient(
+    to right,
+    transparent 0px,
+    transparent 19px,
+    rgb(0 0 0 / 50%) 20px
+  );
+}
+
+p {
+  padding: 10px;
+  background-color: rgb(255 0 0 / 50%);
+  margin: 0;
+  width: 360px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "overscroll-behavior-x": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior-x",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "overscroll-behavior-y": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior-y",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        padding: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "padding-block": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-block",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "padding-block-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-block-end",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "padding-block-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-block-start",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "padding-bottom": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-bottom",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "padding-inline": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-inline",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "padding-inline-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-inline-end",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "padding-inline-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-inline-start",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "padding-left": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-left",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "padding-right": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-right",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "padding-top": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-top",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        page: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/page",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "page-break-after": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/page-break-after",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "page-break-before": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/page-break-before",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "page-break-inside": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/page-break-inside",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "paint-order": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/paint-order",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        perspective: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/perspective",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "perspective-origin": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/perspective-origin",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "place-content": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/place-content",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "place-items": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/place-items",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "place-self": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/place-self",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "pointer-events": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/pointer-events",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        position: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/position",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "position" (declaration-block-no-duplicate-properties)',
+                                "  position: -webkit-sticky;",
+                                "21:3 - 21:11",
+                                `/en-US/docs/Web/CSS/Reference/Properties/position
+[declaration-block-no-duplicate-properties] Unexpected duplicate "position" (declaration-block-no-duplicate-properties)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+dl > div {
+  background: white;
+  padding-top: 24px;
+}
+
+dt {
+  background: #b8c1c8;
+  border-bottom: 1px solid #989ea4;
+  border-top: 1px solid #717d85;
+  color: white;
+  font:
+    bold 18px/21px "Helvetica",
+    "Arial",
+    sans-serif;
+  margin: 0;
+  padding: 2px 0 0 12px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+}
+
+dd {
+  font:
+    bold 20px/45px "Helvetica",
+    "Arial",
+    sans-serif;
+  margin: 0;
+  padding-left: 12px;
+  white-space: nowrap;
+}
+
+dd + dd {
+  border-top: 1px solid #cccccc;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "position-anchor": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/position-anchor",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "place-items" (declaration-block-no-redundant-longhand-properties)',
+                                "  align-items: center;",
+                                "11:3 - 11:14",
+                                `/en-US/docs/Web/CSS/Reference/Properties/position-anchor
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-items" (declaration-block-no-redundant-longhand-properties)
+~~~
+body {
+  height: 100vh;
+}
+
+#anchor-container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.anchor {
+  font-size: 1.8rem;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: hsl(240 100% 75%);
+  width: fit-content;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 3px;
+}
+
+#anchor1 {
+  anchor-name: --my-anchor1, --my-anchor2;
+}
+
+.infobox {
+  color: darkblue;
+  background-color: azure;
+  border: 1px solid #dddddd;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  width: 120px;
+}
+
+#infobox1 {
+  position-anchor: --my-anchor1;
+  position: fixed;
+  left: anchor(right);
+  align-self: anchor-center;
+  margin-left: 10px;
+}
+
+#infobox2 {
+  position-anchor: --my-anchor2;
+  position: fixed;
+  bottom: anchor(top);
+  justify-self: anchor-center;
+  margin-bottom: 15px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "position-area": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/position-area",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-elem",
+                                "Do not use the <style> element; use separate CSS blocks instead.",
+                                `<style contenteditable="true">.positionedElement {
+    position-area: top center;
+  }
+</style>`,
+                                "4:0 - 7:8",
+                                `/en-US/docs/Web/CSS/Reference/Properties/position-area
+[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+~~~
+<div class="anchor" contenteditable="true">⚓︎</div>
+
+<p class="positionedElement" contenteditable="true">This can be edited.</p>
+
+<style contenteditable="true">.positionedElement {
+    position-area: top center;
+  }
+</style>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "position-try": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/position-try",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "position-try-fallbacks": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/position-try-fallbacks",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "position-try-order": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/position-try-order",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "position-visibility": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/position-visibility",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "print-color-adjust": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/print-color-adjust",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "  background-image: linear-gradient(rgb(0 0 180 / 50%), rgb(70 140 220 / 50%));",
+                                "3:51 - 3:54",
+                                `/en-US/docs/Web/CSS/Reference/Properties/print-color-adjust
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+.my-box {
+  background-color: black;
+  background-image: linear-gradient(rgb(0 0 180 / 50%), rgb(70 140 220 / 50%));
+  color: #990000;
+  width: 15rem;
+  height: 6rem;
+  text-align: center;
+  font:
+    24px "Helvetica",
+    sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  print-color-adjust: exact;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "  background-image: linear-gradient(rgb(0 0 180 / 50%), rgb(70 140 220 / 50%));",
+                                "3:74 - 3:77",
+                                `/en-US/docs/Web/CSS/Reference/Properties/print-color-adjust
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+.my-box {
+  background-color: black;
+  background-image: linear-gradient(rgb(0 0 180 / 50%), rgb(70 140 220 / 50%));
+  color: #990000;
+  width: 15rem;
+  height: 6rem;
+  text-align: center;
+  font:
+    24px "Helvetica",
+    sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  print-color-adjust: exact;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        quotes: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/quotes",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        r: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/r",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "reading-flow": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/reading-flow",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "reading-order": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/reading-order",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        resize: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/resize",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        right: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/right",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        rotate: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/rotate",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "row-gap": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/row-gap",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "ruby-align": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/ruby-align",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "ruby-overhang": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/ruby-overhang",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "ruby-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/ruby-position",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        rx: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/rx",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        ry: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/ry",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        scale: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scale",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-behavior": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-behavior",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "scroll-container" (selector-type-no-unknown)',
+                                "scroll-container {",
+                                "9:1 - 9:17",
+                                `/en-US/docs/Web/CSS/Reference/Properties/scroll-behavior
+[selector-type-no-unknown] Unexpected unknown type selector "scroll-container" (selector-type-no-unknown)
+~~~
+.container {
+  flex-direction: column;
+}
+
+.nav a {
+  color: #009e5f;
+}
+
+scroll-container {
+  border: 1px solid black;
+  display: block;
+  height: 200px;
+  overflow-y: scroll;
+  width: 200px;
+}
+
+scroll-page {
+  align-items: center;
+  display: flex;
+  font-size: 5em;
+  height: 100%;
+  justify-content: center;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "scroll-page" (selector-type-no-unknown)',
+                                "scroll-page {",
+                                "17:1 - 17:12",
+                                `/en-US/docs/Web/CSS/Reference/Properties/scroll-behavior
+[selector-type-no-unknown] Unexpected unknown type selector "scroll-page" (selector-type-no-unknown)
+~~~
+.container {
+  flex-direction: column;
+}
+
+.nav a {
+  color: #009e5f;
+}
+
+scroll-container {
+  border: 1px solid black;
+  display: block;
+  height: 200px;
+  overflow-y: scroll;
+  width: 200px;
+}
+
+scroll-page {
+  align-items: center;
+  display: flex;
+  font-size: 5em;
+  height: 100%;
+  justify-content: center;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-margin": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-margin-block": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-block",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-margin-block-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-block-end",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-margin-block-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-block-start",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-margin-bottom": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-bottom",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-margin-inline": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-inline",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-margin-inline-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-inline-end",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-margin-inline-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-inline-start",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-margin-left": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-left",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-margin-right": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-right",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-margin-top": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-top",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-marker-group": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-marker-group",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-padding": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-padding-block": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-block",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-padding-block-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-block-end",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-padding-block-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-block-start",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-padding-bottom": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-bottom",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-padding-inline": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-inline",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-padding-inline-end": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-inline-end",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-padding-inline-start": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-inline-start",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-padding-left": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-left",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-padding-right": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-right",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-padding-top": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-top",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-snap-align": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-snap-align",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-snap-stop": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-snap-stop",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-snap-type": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-snap-type",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-target-group": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-target-group",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "left" (selector-type-no-unknown)',
+                                "ul::scroll-button(left) {",
+                                "68:19 - 68:23",
+                                `/en-US/docs/Web/CSS/Reference/Properties/scroll-target-group
+[selector-type-no-unknown] Unexpected unknown type selector "left" (selector-type-no-unknown)
+~~~
+/* General styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+}
+
+/* General styling of list as scrolling carousel */
+
+ul {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  gap: 4%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  padding: 20px;
+
+  scroll-snap-align: center;
+}
+
+/* CSS scroll buttons */
+
+/* Style the scroll buttons */
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: rgb(0 0 0 / 0.7);
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  color: black;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  color: rgb(0 0 0 / 0.2);
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+/* Position the scroll buttons */
+
+ul {
+  anchor-name: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ol {
+  position: absolute;
+  position-anchor: --my-carousel;
+  top: calc(anchor(bottom) - 90px);
+  justify-self: anchor-center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  list-style-type: none;
+  padding: 0;
+  scroll-target-group: auto;
+}
+
+ol a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 4px;
+  color: black;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+ol a:hover,
+ol a:focus,
+:target-current {
+  background-color: black;
+  color: white;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "right" (selector-type-no-unknown)',
+                                "ul::scroll-button(right) {",
+                                "72:19 - 72:24",
+                                `/en-US/docs/Web/CSS/Reference/Properties/scroll-target-group
+[selector-type-no-unknown] Unexpected unknown type selector "right" (selector-type-no-unknown)
+~~~
+/* General styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+}
+
+/* General styling of list as scrolling carousel */
+
+ul {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  gap: 4%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  padding: 20px;
+
+  scroll-snap-align: center;
+}
+
+/* CSS scroll buttons */
+
+/* Style the scroll buttons */
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: rgb(0 0 0 / 0.7);
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  color: black;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  color: rgb(0 0 0 / 0.2);
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+/* Position the scroll buttons */
+
+ul {
+  anchor-name: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ol {
+  position: absolute;
+  position-anchor: --my-carousel;
+  top: calc(anchor(bottom) - 90px);
+  justify-self: anchor-center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  list-style-type: none;
+  padding: 0;
+  scroll-target-group: auto;
+}
+
+ol a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 4px;
+  color: black;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+ol a:hover,
+ol a:focus,
+:target-current {
+  background-color: black;
+  color: white;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "left" (selector-type-no-unknown)',
+                                "ul::scroll-button(left) {",
+                                "87:19 - 87:23",
+                                `/en-US/docs/Web/CSS/Reference/Properties/scroll-target-group
+[selector-type-no-unknown] Unexpected unknown type selector "left" (selector-type-no-unknown)
+~~~
+/* General styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+}
+
+/* General styling of list as scrolling carousel */
+
+ul {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  gap: 4%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  padding: 20px;
+
+  scroll-snap-align: center;
+}
+
+/* CSS scroll buttons */
+
+/* Style the scroll buttons */
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: rgb(0 0 0 / 0.7);
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  color: black;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  color: rgb(0 0 0 / 0.2);
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+/* Position the scroll buttons */
+
+ul {
+  anchor-name: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ol {
+  position: absolute;
+  position-anchor: --my-carousel;
+  top: calc(anchor(bottom) - 90px);
+  justify-self: anchor-center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  list-style-type: none;
+  padding: 0;
+  scroll-target-group: auto;
+}
+
+ol a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 4px;
+  color: black;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+ol a:hover,
+ol a:focus,
+:target-current {
+  background-color: black;
+  color: white;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "right" (selector-type-no-unknown)',
+                                "ul::scroll-button(right) {",
+                                "92:19 - 92:24",
+                                `/en-US/docs/Web/CSS/Reference/Properties/scroll-target-group
+[selector-type-no-unknown] Unexpected unknown type selector "right" (selector-type-no-unknown)
+~~~
+/* General styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+}
+
+/* General styling of list as scrolling carousel */
+
+ul {
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  gap: 4%;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  padding: 20px;
+
+  scroll-snap-align: center;
+}
+
+/* CSS scroll buttons */
+
+/* Style the scroll buttons */
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: rgb(0 0 0 / 0.7);
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  color: black;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  color: rgb(0 0 0 / 0.2);
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+/* Position the scroll buttons */
+
+ul {
+  anchor-name: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  top: calc(anchor(bottom) - 80px);
+}
+
+ol {
+  position: absolute;
+  position-anchor: --my-carousel;
+  top: calc(anchor(bottom) - 90px);
+  justify-self: anchor-center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  list-style-type: none;
+  padding: 0;
+  scroll-target-group: auto;
+}
+
+ol a {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 4px;
+  color: black;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+ol a:hover,
+ol a:focus,
+:target-current {
+  background-color: black;
+  color: white;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-timeline": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "scroll-timeline" (declaration-block-no-duplicate-properties)',
+                                "  scroll-timeline: --square-timeline y;",
+                                "4:3 - 4:18",
+                                `/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline
+[declaration-block-no-duplicate-properties] Unexpected duplicate "scroll-timeline" (declaration-block-no-duplicate-properties)
+~~~
+#container {
+  height: 300px;
+  overflow-y: scroll;
+  scroll-timeline: --square-timeline y;
+  /* Firefox supports the older "vertical" syntax */
+  scroll-timeline: --square-timeline vertical;
+  position: relative;
+}
+
+#square {
+  background-color: deeppink;
+  width: 100px;
+  height: 100px;
+  animation-name: rotateAnimation;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  animation-timeline: --square-timeline;
+  position: absolute;
+  bottom: 0;
+}
+
+#stretcher {
+  height: 600px;
+  background: #dedede;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-timeline-axis": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-axis",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "scroll-timeline-axis" (declaration-block-no-duplicate-properties)',
+                                "  scroll-timeline-axis: x;",
+                                "5:3 - 5:23",
+                                `/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-axis
+[declaration-block-no-duplicate-properties] Unexpected duplicate "scroll-timeline-axis" (declaration-block-no-duplicate-properties)
+~~~
+:root {
+  scroll-timeline-name: --my-scroller;
+
+  /* Chromium supports the new x/y syntax */
+  scroll-timeline-axis: x;
+  /* Firefox still supports the old horizontal/vertical syntax */
+  scroll-timeline-axis: horizontal;
+}
+
+body {
+  margin: 0;
+  overflow-y: hidden;
+}
+
+.content {
+  height: 100vh;
+  width: 2000px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: rebeccapurple;
+  position: fixed;
+  top: 25px;
+  left: 25px;
+}
+
+.animation {
+  animation: rotate-appear;
+  animation-timeline: --my-scroller;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+}
+
+@keyframes rotate-appear {
+  from {
+    rotate: 0deg;
+    top: 0%;
+  }
+
+  to {
+    rotate: 720deg;
+    top: 100%;
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scroll-timeline-name": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-name",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scrollbar-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scrollbar-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scrollbar-gutter": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scrollbar-gutter",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "scrollbar-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scrollbar-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "shape-image-threshold": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/shape-image-threshold",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "shape-margin": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/shape-margin",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "shape-outside": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/shape-outside",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "shape-rendering": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/shape-rendering",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "speak-as": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/speak-as",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "stop-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stop-color",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "0deg" to be "0" (hue-degree-notation)',
+                                "    stop-color: hsl(0deg 90% 50%);",
+                                "30:21 - 30:25",
+                                `/en-US/docs/Web/CSS/Reference/Properties/stop-color
+[hue-degree-notation] Expected "0deg" to be "0" (hue-degree-notation)
+~~~
+svg {
+  border: 1px solid;
+  height: calc(100vh - 20px);
+  margin-bottom: 10px;
+}
+
+rect {
+  stroke: #333333;
+  stroke-width: 1px;
+}
+
+#myGradient1 {
+  stop:first-of-type {
+    stop-color: #66ccff;
+  }
+  stop:last-of-type {
+    stop-color: #f4aab9;
+  }
+}
+#myGradient2 {
+  stop:first-of-type {
+    stop-color: yellow;
+  }
+  stop:last-of-type {
+    stop-color: purple;
+  }
+}
+#myGradient3 {
+  stop:first-of-type {
+    stop-color: hsl(0deg 90% 50%);
+  }
+  stop:last-of-type {
+    stop-color: hsl(20deg 60% 50%);
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "20deg" to be "20" (hue-degree-notation)',
+                                "    stop-color: hsl(20deg 60% 50%);",
+                                "33:21 - 33:26",
+                                `/en-US/docs/Web/CSS/Reference/Properties/stop-color
+[hue-degree-notation] Expected "20deg" to be "20" (hue-degree-notation)
+~~~
+svg {
+  border: 1px solid;
+  height: calc(100vh - 20px);
+  margin-bottom: 10px;
+}
+
+rect {
+  stroke: #333333;
+  stroke-width: 1px;
+}
+
+#myGradient1 {
+  stop:first-of-type {
+    stop-color: #66ccff;
+  }
+  stop:last-of-type {
+    stop-color: #f4aab9;
+  }
+}
+#myGradient2 {
+  stop:first-of-type {
+    stop-color: yellow;
+  }
+  stop:last-of-type {
+    stop-color: purple;
+  }
+}
+#myGradient3 {
+  stop:first-of-type {
+    stop-color: hsl(0deg 90% 50%);
+  }
+  stop:last-of-type {
+    stop-color: hsl(20deg 60% 50%);
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "stop-opacity": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stop-opacity",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "  stop-opacity: 25%;",
+                                "33:17 - 33:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/stop-opacity
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+svg {
+  border: 1px solid;
+  height: calc(100vh - 20px);
+  margin-bottom: 10px;
+  background: repeating-linear-gradient(
+    to top left,
+    white 0 9px,
+    black 9px 10px
+  );
+}
+
+polygon {
+  stroke: #333333;
+  stroke-width: 1px;
+}
+polygon:nth-of-type(1) {
+  fill: url("#myGradient1") magenta;
+}
+polygon:nth-of-type(2) {
+  fill: url("#myGradient2") magenta;
+}
+polygon:nth-of-type(3) {
+  fill: url("#myGradient3") magenta;
+}
+
+#myGradient1 stop {
+  stop-opacity: 1;
+}
+#myGradient2 stop {
+  stop-opacity: 0.8;
+}
+#myGradient3 stop {
+  stop-opacity: 25%;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        stroke: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "stroke-dasharray": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-dasharray",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "stroke-dashoffset": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-dashoffset",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "stroke-linecap": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-linecap",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "stroke-linejoin": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-linejoin",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "stroke-miterlimit": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-miterlimit",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "stroke-opacity": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-opacity",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "stroke-width": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "tab-size": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/tab-size",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "table-layout": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/table-layout",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-align": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-align",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-align-last": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-align-last",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-anchor": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-anchor",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-autospace": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-autospace",
+                          messages: [
+                            {
+                              message: "Missing data",
+                              data: [
+                                "CSS info"
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-box": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-box",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-box-edge": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-box-edge",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-box-trim": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-box-trim",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-combine-upright": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-combine-upright",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-decoration": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-keyword-no-deprecated",
+                                'Unexpected deprecated keyword "blink" for property "text-decoration" (declaration-property-value-keyword-no-deprecated)',
+                                "  text-decoration: blink;",
+                                "26:20 - 26:25",
+                                `/en-US/docs/Web/CSS/Reference/Properties/text-decoration
+[declaration-property-value-keyword-no-deprecated] Unexpected deprecated keyword "blink" for property "text-decoration" (declaration-property-value-keyword-no-deprecated)
+~~~
+.under {
+  text-decoration: underline red;
+}
+
+.over {
+  text-decoration: wavy overline lime;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.plain {
+  text-decoration: none;
+}
+
+.underover {
+  text-decoration: dashed underline overline;
+}
+
+.thick {
+  text-decoration: solid underline purple 4px;
+}
+
+.blink {
+  text-decoration: blink;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-decoration-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration-color",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-decoration-line": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration-line",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-decoration-skip": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration-skip",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-decoration-skip-ink": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration-skip-ink",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-decoration-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration-style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-decoration-thickness": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration-thickness",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "text-decoration" (declaration-block-no-redundant-longhand-properties)',
+                                "  text-decoration-thickness: 1px;",
+                                "5:3 - 5:28",
+                                `/en-US/docs/Web/CSS/Reference/Properties/text-decoration-thickness
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "text-decoration" (declaration-block-no-redundant-longhand-properties)
+~~~
+.thin {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: red;
+  text-decoration-thickness: 1px;
+}
+
+.thick {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: red;
+  text-decoration-thickness: 5px;
+}
+
+.shorthand {
+  text-decoration: underline solid red 5px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "text-decoration" (declaration-block-no-redundant-longhand-properties)',
+                                "  text-decoration-thickness: 5px;",
+                                "12:3 - 12:28",
+                                `/en-US/docs/Web/CSS/Reference/Properties/text-decoration-thickness
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "text-decoration" (declaration-block-no-redundant-longhand-properties)
+~~~
+.thin {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: red;
+  text-decoration-thickness: 1px;
+}
+
+.thick {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: red;
+  text-decoration-thickness: 5px;
+}
+
+.shorthand {
+  text-decoration: underline solid red 5px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-emphasis": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-emphasis",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-emphasis-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-emphasis-color",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "text-emphasis" (declaration-block-no-redundant-longhand-properties)',
+                                '  text-emphasis-style: "*";',
+                                "3:3 - 3:22",
+                                `/en-US/docs/Web/CSS/Reference/Properties/text-emphasis-color
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "text-emphasis" (declaration-block-no-redundant-longhand-properties)
+~~~
+em {
+  text-emphasis-color: green;
+  text-emphasis-style: "*";
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-emphasis-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-emphasis-position",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-emphasis-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-emphasis-style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-indent": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-indent",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-justify": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-justify",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-keyword-no-deprecated",
+                                'Expected "distribute" to be "inter-character" (declaration-property-value-keyword-no-deprecated)',
+                                "  text-justify: distribute;",
+                                "19:17 - 19:27",
+                                `/en-US/docs/Web/CSS/Reference/Properties/text-justify
+[declaration-property-value-keyword-no-deprecated] Expected "distribute" to be "inter-character" (declaration-property-value-keyword-no-deprecated)
+~~~
+p {
+  font-size: 1.5em;
+  border: 1px solid black;
+  padding: 10px;
+  width: 95%;
+  margin: 10px auto;
+  text-align: justify;
+}
+
+.none {
+  text-justify: none;
+}
+
+.auto {
+  text-justify: auto;
+}
+
+.dist {
+  text-justify: distribute;
+}
+
+.word {
+  text-justify: inter-word;
+}
+
+.char {
+  text-justify: inter-character;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-orientation": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-orientation",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-overflow": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-overflow",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-rendering": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-rendering",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-shadow": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-shadow",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-size-adjust": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-size-adjust",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-spacing-trim": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-spacing-trim",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-transform": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-transform",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-underline-offset": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-underline-offset",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-underline-position": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-underline-position",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-wrap": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-wrap",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-wrap-mode": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-wrap-mode",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "text-wrap-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-wrap-style",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "timeline-scope": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/timeline-scope",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        top: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/top",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "inset" (declaration-block-no-redundant-longhand-properties)',
+                                "  left: 15%;",
+                                "10:3 - 10:7",
+                                `/en-US/docs/Web/CSS/Reference/Properties/top
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "inset" (declaration-block-no-redundant-longhand-properties)
+~~~
+body {
+  background: beige;
+}
+
+div {
+  position: absolute;
+  top: 10%;
+  right: 40%;
+  bottom: 20%;
+  left: 15%;
+  background: gold;
+  border: 1px solid blue;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "touch-action": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/touch-action",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        transform: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transform",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "transform-box": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transform-box",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "transform-origin": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transform-origin",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "20%" to be "0.2" (alpha-value-notation)',
+                                "  opacity: 20%;",
+                                "23:12 - 23:15",
+                                `/en-US/docs/Web/CSS/Reference/Properties/transform-origin
+[alpha-value-notation] Expected "20%" to be "0.2" (alpha-value-notation)
+~~~
+.container {
+  display: grid;
+  grid-template-columns: 200px 100px;
+  gap: 20px;
+}
+
+.example {
+  position: relative;
+  margin: 0 2em 4em 5em;
+}
+
+.box {
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  border: solid 1px;
+  background-color: palegreen;
+}
+
+.original {
+  position: absolute;
+  left: 0;
+  opacity: 20%;
+}
+
+.box1 {
+  transform: none;
+}
+
+.box2 {
+  transform: rotate(30deg);
+}
+
+.box3 {
+  transform: rotate(30deg);
+  transform-origin: 0 0;
+}
+
+.box4 {
+  transform: rotate(30deg);
+  transform-origin: 100% 100%;
+}
+
+.box5 {
+  transform: rotate(30deg);
+  transform-origin: -1em -3em;
+}
+
+.box6 {
+  transform: scale(1.7);
+}
+
+.box7 {
+  transform: scale(1.7);
+  transform-origin: 0 0;
+}
+
+.box8 {
+  transform: scale(1.7);
+  transform-origin: 100% -30%;
+}
+
+.box9 {
+  transform: skewX(50deg);
+  transform-origin: 100% -30%;
+}
+
+.box10 {
+  transform: skewY(50deg);
+  transform-origin: 100% -30%;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "transform-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transform-style",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "  background: rgb(90 90 90 / 70%);",
+                                "22:30 - 22:33",
+                                `/en-US/docs/Web/CSS/Reference/Properties/transform-style
+[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
+~~~
+#example-element {
+  margin: 50px;
+  width: 100px;
+  height: 100px;
+  transform-style: preserve-3d;
+  transform: rotate3d(1, 1, 1, 30deg);
+}
+
+.face {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: inherit;
+  font-size: 60px;
+  color: white;
+}
+
+.front {
+  background: rgb(90 90 90 / 70%);
+  transform: translateZ(50px);
+}
+
+.back {
+  background: rgb(0 210 0 / 70%);
+  transform: rotateY(180deg) translateZ(50px);
+}
+
+.right {
+  background: rgb(210 0 0 / 70%);
+  transform: rotateY(90deg) translateZ(50px);
+}
+
+.left {
+  background: rgb(0 0 210 / 70%);
+  transform: rotateY(-90deg) translateZ(50px);
+}
+
+.top {
+  background: rgb(210 210 0 / 70%);
+  transform: rotateX(90deg) translateZ(50px);
+}
+
+.bottom {
+  background: rgb(210 0 210 / 70%);
+  transform: rotateX(-90deg) translateZ(50px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "  background: rgb(0 210 0 / 70%);",
+                                "27:29 - 27:32",
+                                `/en-US/docs/Web/CSS/Reference/Properties/transform-style
+[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
+~~~
+#example-element {
+  margin: 50px;
+  width: 100px;
+  height: 100px;
+  transform-style: preserve-3d;
+  transform: rotate3d(1, 1, 1, 30deg);
+}
+
+.face {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: inherit;
+  font-size: 60px;
+  color: white;
+}
+
+.front {
+  background: rgb(90 90 90 / 70%);
+  transform: translateZ(50px);
+}
+
+.back {
+  background: rgb(0 210 0 / 70%);
+  transform: rotateY(180deg) translateZ(50px);
+}
+
+.right {
+  background: rgb(210 0 0 / 70%);
+  transform: rotateY(90deg) translateZ(50px);
+}
+
+.left {
+  background: rgb(0 0 210 / 70%);
+  transform: rotateY(-90deg) translateZ(50px);
+}
+
+.top {
+  background: rgb(210 210 0 / 70%);
+  transform: rotateX(90deg) translateZ(50px);
+}
+
+.bottom {
+  background: rgb(210 0 210 / 70%);
+  transform: rotateX(-90deg) translateZ(50px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "  background: rgb(210 0 0 / 70%);",
+                                "32:29 - 32:32",
+                                `/en-US/docs/Web/CSS/Reference/Properties/transform-style
+[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
+~~~
+#example-element {
+  margin: 50px;
+  width: 100px;
+  height: 100px;
+  transform-style: preserve-3d;
+  transform: rotate3d(1, 1, 1, 30deg);
+}
+
+.face {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: inherit;
+  font-size: 60px;
+  color: white;
+}
+
+.front {
+  background: rgb(90 90 90 / 70%);
+  transform: translateZ(50px);
+}
+
+.back {
+  background: rgb(0 210 0 / 70%);
+  transform: rotateY(180deg) translateZ(50px);
+}
+
+.right {
+  background: rgb(210 0 0 / 70%);
+  transform: rotateY(90deg) translateZ(50px);
+}
+
+.left {
+  background: rgb(0 0 210 / 70%);
+  transform: rotateY(-90deg) translateZ(50px);
+}
+
+.top {
+  background: rgb(210 210 0 / 70%);
+  transform: rotateX(90deg) translateZ(50px);
+}
+
+.bottom {
+  background: rgb(210 0 210 / 70%);
+  transform: rotateX(-90deg) translateZ(50px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "  background: rgb(0 0 210 / 70%);",
+                                "37:29 - 37:32",
+                                `/en-US/docs/Web/CSS/Reference/Properties/transform-style
+[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
+~~~
+#example-element {
+  margin: 50px;
+  width: 100px;
+  height: 100px;
+  transform-style: preserve-3d;
+  transform: rotate3d(1, 1, 1, 30deg);
+}
+
+.face {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: inherit;
+  font-size: 60px;
+  color: white;
+}
+
+.front {
+  background: rgb(90 90 90 / 70%);
+  transform: translateZ(50px);
+}
+
+.back {
+  background: rgb(0 210 0 / 70%);
+  transform: rotateY(180deg) translateZ(50px);
+}
+
+.right {
+  background: rgb(210 0 0 / 70%);
+  transform: rotateY(90deg) translateZ(50px);
+}
+
+.left {
+  background: rgb(0 0 210 / 70%);
+  transform: rotateY(-90deg) translateZ(50px);
+}
+
+.top {
+  background: rgb(210 210 0 / 70%);
+  transform: rotateX(90deg) translateZ(50px);
+}
+
+.bottom {
+  background: rgb(210 0 210 / 70%);
+  transform: rotateX(-90deg) translateZ(50px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "  background: rgb(210 210 0 / 70%);",
+                                "42:31 - 42:34",
+                                `/en-US/docs/Web/CSS/Reference/Properties/transform-style
+[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
+~~~
+#example-element {
+  margin: 50px;
+  width: 100px;
+  height: 100px;
+  transform-style: preserve-3d;
+  transform: rotate3d(1, 1, 1, 30deg);
+}
+
+.face {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: inherit;
+  font-size: 60px;
+  color: white;
+}
+
+.front {
+  background: rgb(90 90 90 / 70%);
+  transform: translateZ(50px);
+}
+
+.back {
+  background: rgb(0 210 0 / 70%);
+  transform: rotateY(180deg) translateZ(50px);
+}
+
+.right {
+  background: rgb(210 0 0 / 70%);
+  transform: rotateY(90deg) translateZ(50px);
+}
+
+.left {
+  background: rgb(0 0 210 / 70%);
+  transform: rotateY(-90deg) translateZ(50px);
+}
+
+.top {
+  background: rgb(210 210 0 / 70%);
+  transform: rotateX(90deg) translateZ(50px);
+}
+
+.bottom {
+  background: rgb(210 0 210 / 70%);
+  transform: rotateX(-90deg) translateZ(50px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "  background: rgb(210 0 210 / 70%);",
+                                "47:31 - 47:34",
+                                `/en-US/docs/Web/CSS/Reference/Properties/transform-style
+[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
+~~~
+#example-element {
+  margin: 50px;
+  width: 100px;
+  height: 100px;
+  transform-style: preserve-3d;
+  transform: rotate3d(1, 1, 1, 30deg);
+}
+
+.face {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: inherit;
+  font-size: 60px;
+  color: white;
+}
+
+.front {
+  background: rgb(90 90 90 / 70%);
+  transform: translateZ(50px);
+}
+
+.back {
+  background: rgb(0 210 0 / 70%);
+  transform: rotateY(180deg) translateZ(50px);
+}
+
+.right {
+  background: rgb(210 0 0 / 70%);
+  transform: rotateY(90deg) translateZ(50px);
+}
+
+.left {
+  background: rgb(0 0 210 / 70%);
+  transform: rotateY(-90deg) translateZ(50px);
+}
+
+.top {
+  background: rgb(210 210 0 / 70%);
+  transform: rotateX(90deg) translateZ(50px);
+}
+
+.bottom {
+  background: rgb(210 0 210 / 70%);
+  transform: rotateX(-90deg) translateZ(50px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        transition: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transition",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "transition-behavior": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transition-behavior",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "transition" (declaration-block-no-duplicate-properties)',
+                                "  transition: all 0.25s;",
+                                "2:3 - 2:13",
+                                `/en-US/docs/Web/CSS/Reference/Properties/transition-behavior
+[declaration-block-no-duplicate-properties] Unexpected duplicate "transition" (declaration-block-no-duplicate-properties)
+~~~
+.card {
+  transition: all 0.25s;
+  transition: all 0.25s allow-discrete;
+}
+
+.card.fade-out {
+  opacity: 0;
+  display: none;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "transition-delay": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transition-delay",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "transition-duration": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transition-duration",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "transition-property": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transition-property",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "transition-timing-function": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transition-timing-function",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        translate: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/translate",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "unicode-bidi": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/unicode-bidi",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "user-modify": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/user-modify",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "user-select": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/user-select",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "vector-effect": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/vector-effect",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "vertical-align": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/vertical-align",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                'top:         <img style="vertical-align: top" src="star.png" alt="star"/>',
+                                "1:18 - 1:45",
+                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+top:         <img style="vertical-align: top" src="star.png" alt="star"/>
+middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
+bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
+super:       <img style="vertical-align: super" src="star.png" alt="star"/>
+sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
+</p>
+
+<p>
+text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
+text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
+0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
+-1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
+20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
+-100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
+</p>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                'middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>',
+                                "2:18 - 2:48",
+                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+top:         <img style="vertical-align: top" src="star.png" alt="star"/>
+middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
+bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
+super:       <img style="vertical-align: super" src="star.png" alt="star"/>
+sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
+</p>
+
+<p>
+text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
+text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
+0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
+-1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
+20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
+-100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
+</p>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                'bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>',
+                                "3:18 - 3:48",
+                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+top:         <img style="vertical-align: top" src="star.png" alt="star"/>
+middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
+bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
+super:       <img style="vertical-align: super" src="star.png" alt="star"/>
+sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
+</p>
+
+<p>
+text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
+text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
+0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
+-1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
+20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
+-100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
+</p>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                'super:       <img style="vertical-align: super" src="star.png" alt="star"/>',
+                                "4:18 - 4:47",
+                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+top:         <img style="vertical-align: top" src="star.png" alt="star"/>
+middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
+bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
+super:       <img style="vertical-align: super" src="star.png" alt="star"/>
+sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
+</p>
+
+<p>
+text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
+text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
+0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
+-1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
+20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
+-100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
+</p>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                'sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>',
+                                "5:18 - 5:45",
+                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+top:         <img style="vertical-align: top" src="star.png" alt="star"/>
+middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
+bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
+super:       <img style="vertical-align: super" src="star.png" alt="star"/>
+sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
+</p>
+
+<p>
+text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
+text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
+0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
+-1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
+20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
+-100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
+</p>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                'text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>',
+                                "9:18 - 9:50",
+                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+top:         <img style="vertical-align: top" src="star.png" alt="star"/>
+middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
+bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
+super:       <img style="vertical-align: super" src="star.png" alt="star"/>
+sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
+</p>
+
+<p>
+text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
+text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
+0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
+-1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
+20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
+-100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
+</p>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                'text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>',
+                                "10:18 - 10:53",
+                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+top:         <img style="vertical-align: top" src="star.png" alt="star"/>
+middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
+bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
+super:       <img style="vertical-align: super" src="star.png" alt="star"/>
+sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
+</p>
+
+<p>
+text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
+text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
+0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
+-1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
+20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
+-100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
+</p>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                '0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>',
+                                "11:18 - 11:47",
+                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+top:         <img style="vertical-align: top" src="star.png" alt="star"/>
+middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
+bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
+super:       <img style="vertical-align: super" src="star.png" alt="star"/>
+sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
+</p>
+
+<p>
+text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
+text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
+0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
+-1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
+20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
+-100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
+</p>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                '-1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>',
+                                "12:18 - 12:46",
+                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+top:         <img style="vertical-align: top" src="star.png" alt="star"/>
+middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
+bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
+super:       <img style="vertical-align: super" src="star.png" alt="star"/>
+sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
+</p>
+
+<p>
+text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
+text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
+0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
+-1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
+20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
+-100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
+</p>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                '20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>',
+                                "13:18 - 13:45",
+                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+top:         <img style="vertical-align: top" src="star.png" alt="star"/>
+middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
+bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
+super:       <img style="vertical-align: super" src="star.png" alt="star"/>
+sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
+</p>
+
+<p>
+text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
+text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
+0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
+-1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
+20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
+-100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
+</p>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-style-attr",
+                                "Do not use the style attribute.",
+                                '-100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>',
+                                "14:18 - 14:47",
+                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
+[no-style-attr] Do not use the style attribute.
+~~~
+<p>
+top:         <img style="vertical-align: top" src="star.png" alt="star"/>
+middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
+bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
+super:       <img style="vertical-align: super" src="star.png" alt="star"/>
+sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
+</p>
+
+<p>
+text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
+text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
+0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
+-1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
+20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
+-100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
+</p>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "view-timeline": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/view-timeline",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-shorthand-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "view-timeline-axis": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/view-timeline-axis",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "view-timeline-axis" (declaration-block-no-duplicate-properties)',
+                                "  view-timeline-axis: x;",
+                                "29:3 - 29:21",
+                                `/en-US/docs/Web/CSS/Reference/Properties/view-timeline-axis
+[declaration-block-no-duplicate-properties] Unexpected duplicate "view-timeline-axis" (declaration-block-no-duplicate-properties)
+~~~
+.subject {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: deeppink;
+}
+
+.content {
+  width: 50%;
+  height: 400px;
+  margin-top: 30px;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+}
+
+p {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+
+.animation {
+  view-timeline-name: --subject-reveal;
+  /* Chromium supports the new x/y syntax */
+  view-timeline-axis: x;
+  /* Firefox still supports the old horizontal/vertical syntax */
+  view-timeline-axis: horizontal;
+
+  animation-name: appear;
+  animation-fill-mode: both;
+  animation-timeline: --subject-reveal;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "horizontal" for property "view-timeline-axis" (declaration-property-value-no-unknown)',
+                                "  view-timeline-axis: horizontal;",
+                                "31:23 - 31:33",
+                                `/en-US/docs/Web/CSS/Reference/Properties/view-timeline-axis
+[declaration-property-value-no-unknown] Unexpected unknown value "horizontal" for property "view-timeline-axis" (declaration-property-value-no-unknown)
+~~~
+.subject {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: deeppink;
+}
+
+.content {
+  width: 50%;
+  height: 400px;
+  margin-top: 30px;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 10px;
+}
+
+p {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 1.4;
+}
+
+.animation {
+  view-timeline-name: --subject-reveal;
+  /* Chromium supports the new x/y syntax */
+  view-timeline-axis: x;
+  /* Firefox still supports the old horizontal/vertical syntax */
+  view-timeline-axis: horizontal;
+
+  animation-name: appear;
+  animation-fill-mode: both;
+  animation-timeline: --subject-reveal;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "view-timeline-inset": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/view-timeline-inset",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "view-timeline-name": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/view-timeline-name",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "view-transition-class": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/view-transition-class",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "view-transition-name": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/view-transition-name",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        visibility: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/visibility",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "white-space": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/white-space",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "white-space-collapse": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/white-space-collapse",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        widows: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/widows",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        width: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/width",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "will-change": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/will-change",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "word-break": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/word-break",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-keyword-no-deprecated",
+                                'Unexpected deprecated keyword "break-word" for property "word-break" (declaration-property-value-keyword-no-deprecated)',
+                                "word-break: break-word;",
+                                "1:13 - 1:23",
+                                `/en-US/docs/Web/CSS/Reference/Properties/word-break
+[declaration-property-value-keyword-no-deprecated] Unexpected deprecated keyword "break-word" for property "word-break" (declaration-property-value-keyword-no-deprecated)
+~~~
+word-break: break-word;
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-keyword-no-deprecated",
+                                'Unexpected deprecated keyword "break-word" for property "word-break" (declaration-property-value-keyword-no-deprecated)',
+                                "  word-break: break-word;",
+                                "32:15 - 32:25",
+                                `/en-US/docs/Web/CSS/Reference/Properties/word-break
+[declaration-property-value-keyword-no-deprecated] Unexpected deprecated keyword "break-word" for property "word-break" (declaration-property-value-keyword-no-deprecated)
+~~~
+.narrow {
+  padding: 10px;
+  border: 1px solid;
+  width: 500px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.normal {
+  word-break: normal;
+}
+
+.breakAll {
+  word-break: break-all;
+}
+
+.keepAll {
+  word-break: keep-all;
+}
+
+.manual {
+  word-break: manual;
+}
+
+.autoPhrase {
+  word-break: auto-phrase;
+}
+
+.breakWord {
+  word-break: break-word;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "word-spacing": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/word-spacing",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "writing-mode": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/writing-mode",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        x: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/x",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        y: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/y",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        "z-index": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/z-index",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        },
+                        zoom: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/zoom",
+                          messages: [
+                            {
+                              message: "Unexpected page type",
+                              data: [
+                                "css-property"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Reference/Properties",
+                      messages: [
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/corner-end-end-shape"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/caret-animation"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/corner-top-right-shape"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/corner-bottom-left-shape"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/caret"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/corner-top-shape"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/corner-inline-start-shape"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/corner-block-end-shape"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/scroll-target-group"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/object-view-box"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/corner-bottom-shape"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/corner-block-start-shape"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/corner-right-shape"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/caret-shape"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/corner-inline-end-shape"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/corner-end-start-shape"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/corner-start-end-shape"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/corner-start-start-shape"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/corner-top-left-shape"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/corner-left-shape"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/ruby-overhang"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/dynamic-range-limit"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/text-autospace"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/interactivity"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/corner-shape"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Properties/corner-bottom-right-shape"
+                          ]
                         }
                       ]
                     },
@@ -56085,6 +65900,12 @@ pre {
                       data: [
                         "/en-US/docs/Web/CSS/xywh"
                       ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/CSS/Reference/Properties"
+                      ]
                     }
                   ]
                 },
@@ -56190,602 +66011,6 @@ css.properties.grid-template-rows.repeat`
                     }
                   ]
                 },
-                "scroll-marker-group": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-marker-group",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "scroll-target-group": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/scroll-target-group",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-type-no-unknown",
-                        'Unexpected unknown type selector "left" (selector-type-no-unknown)',
-                        "ul::scroll-button(left) {",
-                        "68:19 - 68:23",
-                        `/en-US/docs/Web/CSS/scroll-target-group
-[selector-type-no-unknown] Unexpected unknown type selector "left" (selector-type-no-unknown)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: "Helvetica", "Arial", sans-serif;
-}
-
-h1 {
-  text-align: center;
-}
-
-button {
-  background-color: white;
-}
-
-/* General styling of list as scrolling carousel */
-
-ul {
-  width: 100%;
-  height: 400px;
-  padding: 20px;
-  gap: 4%;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 100%;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-ul li {
-  list-style-type: none;
-  background-color: #eeeeee;
-  border: 1px solid #dddddd;
-  padding: 20px;
-
-  scroll-snap-align: center;
-}
-
-/* CSS scroll buttons */
-
-/* Style the scroll buttons */
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: rgb(0 0 0 / 0.7);
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  color: black;
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-/* Position the scroll buttons */
-
-ul {
-  anchor-name: --my-carousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --my-carousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ol {
-  position: absolute;
-  position-anchor: --my-carousel;
-  top: calc(anchor(bottom) - 90px);
-  justify-self: anchor-center;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-
-  list-style-type: none;
-  padding: 0;
-  scroll-target-group: auto;
-}
-
-ol a {
-  width: 28px;
-  height: 28px;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  padding-top: 4px;
-  color: black;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 50%;
-}
-
-ol a:hover,
-ol a:focus,
-:target-current {
-  background-color: black;
-  color: white;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-type-no-unknown",
-                        'Unexpected unknown type selector "right" (selector-type-no-unknown)',
-                        "ul::scroll-button(right) {",
-                        "72:19 - 72:24",
-                        `/en-US/docs/Web/CSS/scroll-target-group
-[selector-type-no-unknown] Unexpected unknown type selector "right" (selector-type-no-unknown)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: "Helvetica", "Arial", sans-serif;
-}
-
-h1 {
-  text-align: center;
-}
-
-button {
-  background-color: white;
-}
-
-/* General styling of list as scrolling carousel */
-
-ul {
-  width: 100%;
-  height: 400px;
-  padding: 20px;
-  gap: 4%;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 100%;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-ul li {
-  list-style-type: none;
-  background-color: #eeeeee;
-  border: 1px solid #dddddd;
-  padding: 20px;
-
-  scroll-snap-align: center;
-}
-
-/* CSS scroll buttons */
-
-/* Style the scroll buttons */
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: rgb(0 0 0 / 0.7);
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  color: black;
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-/* Position the scroll buttons */
-
-ul {
-  anchor-name: --my-carousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --my-carousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ol {
-  position: absolute;
-  position-anchor: --my-carousel;
-  top: calc(anchor(bottom) - 90px);
-  justify-self: anchor-center;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-
-  list-style-type: none;
-  padding: 0;
-  scroll-target-group: auto;
-}
-
-ol a {
-  width: 28px;
-  height: 28px;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  padding-top: 4px;
-  color: black;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 50%;
-}
-
-ol a:hover,
-ol a:focus,
-:target-current {
-  background-color: black;
-  color: white;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-type-no-unknown",
-                        'Unexpected unknown type selector "left" (selector-type-no-unknown)',
-                        "ul::scroll-button(left) {",
-                        "87:19 - 87:23",
-                        `/en-US/docs/Web/CSS/scroll-target-group
-[selector-type-no-unknown] Unexpected unknown type selector "left" (selector-type-no-unknown)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: "Helvetica", "Arial", sans-serif;
-}
-
-h1 {
-  text-align: center;
-}
-
-button {
-  background-color: white;
-}
-
-/* General styling of list as scrolling carousel */
-
-ul {
-  width: 100%;
-  height: 400px;
-  padding: 20px;
-  gap: 4%;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 100%;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-ul li {
-  list-style-type: none;
-  background-color: #eeeeee;
-  border: 1px solid #dddddd;
-  padding: 20px;
-
-  scroll-snap-align: center;
-}
-
-/* CSS scroll buttons */
-
-/* Style the scroll buttons */
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: rgb(0 0 0 / 0.7);
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  color: black;
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-/* Position the scroll buttons */
-
-ul {
-  anchor-name: --my-carousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --my-carousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ol {
-  position: absolute;
-  position-anchor: --my-carousel;
-  top: calc(anchor(bottom) - 90px);
-  justify-self: anchor-center;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-
-  list-style-type: none;
-  padding: 0;
-  scroll-target-group: auto;
-}
-
-ol a {
-  width: 28px;
-  height: 28px;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  padding-top: 4px;
-  color: black;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 50%;
-}
-
-ol a:hover,
-ol a:focus,
-:target-current {
-  background-color: black;
-  color: white;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-type-no-unknown",
-                        'Unexpected unknown type selector "right" (selector-type-no-unknown)',
-                        "ul::scroll-button(right) {",
-                        "92:19 - 92:24",
-                        `/en-US/docs/Web/CSS/scroll-target-group
-[selector-type-no-unknown] Unexpected unknown type selector "right" (selector-type-no-unknown)
-~~~
-/* General styles */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: "Helvetica", "Arial", sans-serif;
-}
-
-h1 {
-  text-align: center;
-}
-
-button {
-  background-color: white;
-}
-
-/* General styling of list as scrolling carousel */
-
-ul {
-  width: 100%;
-  height: 400px;
-  padding: 20px;
-  gap: 4%;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 100%;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-}
-
-ul li {
-  list-style-type: none;
-  background-color: #eeeeee;
-  border: 1px solid #dddddd;
-  padding: 20px;
-
-  scroll-snap-align: center;
-}
-
-/* CSS scroll buttons */
-
-/* Style the scroll buttons */
-
-ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: rgb(0 0 0 / 0.7);
-  cursor: pointer;
-}
-
-ul::scroll-button(*):hover,
-ul::scroll-button(*):focus {
-  color: black;
-}
-
-ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-ul::scroll-button(*):disabled {
-  color: rgb(0 0 0 / 0.2);
-}
-
-ul::scroll-button(left) {
-  content: "◄";
-}
-
-ul::scroll-button(right) {
-  content: "►";
-}
-
-/* Position the scroll buttons */
-
-ul {
-  anchor-name: --my-carousel;
-}
-
-ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --my-carousel;
-}
-
-ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-  top: calc(anchor(bottom) - 80px);
-}
-
-ol {
-  position: absolute;
-  position-anchor: --my-carousel;
-  top: calc(anchor(bottom) - 90px);
-  justify-self: anchor-center;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-
-  list-style-type: none;
-  padding: 0;
-  scroll-target-group: auto;
-}
-
-ol a {
-  width: 28px;
-  height: 28px;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  padding-top: 4px;
-  color: black;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 50%;
-}
-
-ol a:hover,
-ol a:focus,
-:target-current {
-  background-color: black;
-  color: white;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 shape: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/shape",
@@ -56801,164 +66026,6 @@ ol a:focus,
 [CssSyntaxError] Unknown word rect (CssSyntaxError)
 ~~~
 rect(top, right, bottom, left)
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "stop-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stop-color",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "hue-degree-notation",
-                        'Expected "0deg" to be "0" (hue-degree-notation)',
-                        "    stop-color: hsl(0deg 90% 50%);",
-                        "30:21 - 30:25",
-                        `/en-US/docs/Web/CSS/stop-color
-[hue-degree-notation] Expected "0deg" to be "0" (hue-degree-notation)
-~~~
-svg {
-  border: 1px solid;
-  height: calc(100vh - 20px);
-  margin-bottom: 10px;
-}
-
-rect {
-  stroke: #333333;
-  stroke-width: 1px;
-}
-
-#myGradient1 {
-  stop:first-of-type {
-    stop-color: #66ccff;
-  }
-  stop:last-of-type {
-    stop-color: #f4aab9;
-  }
-}
-#myGradient2 {
-  stop:first-of-type {
-    stop-color: yellow;
-  }
-  stop:last-of-type {
-    stop-color: purple;
-  }
-}
-#myGradient3 {
-  stop:first-of-type {
-    stop-color: hsl(0deg 90% 50%);
-  }
-  stop:last-of-type {
-    stop-color: hsl(20deg 60% 50%);
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "hue-degree-notation",
-                        'Expected "20deg" to be "20" (hue-degree-notation)',
-                        "    stop-color: hsl(20deg 60% 50%);",
-                        "33:21 - 33:26",
-                        `/en-US/docs/Web/CSS/stop-color
-[hue-degree-notation] Expected "20deg" to be "20" (hue-degree-notation)
-~~~
-svg {
-  border: 1px solid;
-  height: calc(100vh - 20px);
-  margin-bottom: 10px;
-}
-
-rect {
-  stroke: #333333;
-  stroke-width: 1px;
-}
-
-#myGradient1 {
-  stop:first-of-type {
-    stop-color: #66ccff;
-  }
-  stop:last-of-type {
-    stop-color: #f4aab9;
-  }
-}
-#myGradient2 {
-  stop:first-of-type {
-    stop-color: yellow;
-  }
-  stop:last-of-type {
-    stop-color: purple;
-  }
-}
-#myGradient3 {
-  stop:first-of-type {
-    stop-color: hsl(0deg 90% 50%);
-  }
-  stop:last-of-type {
-    stop-color: hsl(20deg 60% 50%);
-  }
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "stop-opacity": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/stop-opacity",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "25%" to be "0.25" (alpha-value-notation)',
-                        "  stop-opacity: 25%;",
-                        "33:17 - 33:20",
-                        `/en-US/docs/Web/CSS/stop-opacity
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-svg {
-  border: 1px solid;
-  height: calc(100vh - 20px);
-  margin-bottom: 10px;
-  background: repeating-linear-gradient(
-    to top left,
-    white 0 9px,
-    black 9px 10px
-  );
-}
-
-polygon {
-  stroke: #333333;
-  stroke-width: 1px;
-}
-polygon:nth-of-type(1) {
-  fill: url("#myGradient1") magenta;
-}
-polygon:nth-of-type(2) {
-  fill: url("#myGradient2") magenta;
-}
-polygon:nth-of-type(3) {
-  fill: url("#myGradient3") magenta;
-}
-
-#myGradient1 stop {
-  stop-opacity: 1;
-}
-#myGradient2 stop {
-  stop-opacity: 0.8;
-}
-#myGradient3 stop {
-  stop-opacity: 25%;
-}
 ~~~
 `
                       ]
@@ -57019,110 +66086,6 @@ css.properties.list-style-type.symbols`
                     }
                   ]
                 },
-                "text-autospace": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-autospace",
-                  messages: [
-                    {
-                      message: "Missing data",
-                      data: [
-                        "CSS info"
-                      ]
-                    }
-                  ]
-                },
-                "text-decoration-thickness": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-decoration-thickness",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "text-decoration" (declaration-block-no-redundant-longhand-properties)',
-                        "  text-decoration-thickness: 1px;",
-                        "5:3 - 5:28",
-                        `/en-US/docs/Web/CSS/text-decoration-thickness
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "text-decoration" (declaration-block-no-redundant-longhand-properties)
-~~~
-.thin {
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-color: red;
-  text-decoration-thickness: 1px;
-}
-
-.thick {
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-color: red;
-  text-decoration-thickness: 5px;
-}
-
-.shorthand {
-  text-decoration: underline solid red 5px;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "text-decoration" (declaration-block-no-redundant-longhand-properties)',
-                        "  text-decoration-thickness: 5px;",
-                        "12:3 - 12:28",
-                        `/en-US/docs/Web/CSS/text-decoration-thickness
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "text-decoration" (declaration-block-no-redundant-longhand-properties)
-~~~
-.thin {
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-color: red;
-  text-decoration-thickness: 1px;
-}
-
-.thick {
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-color: red;
-  text-decoration-thickness: 5px;
-}
-
-.shorthand {
-  text-decoration: underline solid red 5px;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "text-emphasis-color": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/text-emphasis-color",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "text-emphasis" (declaration-block-no-redundant-longhand-properties)',
-                        '  text-emphasis-style: "*";',
-                        "3:3 - 3:22",
-                        `/en-US/docs/Web/CSS/text-emphasis-color
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "text-emphasis" (declaration-block-no-redundant-longhand-properties)
-~~~
-em {
-  text-emphasis-color: green;
-  text-emphasis-style: "*";
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "time-percentage": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/time-percentage",
@@ -57130,39 +66093,6 @@ em {
                     {
                       message: "Broken browser compat anchor",
                       data: []
-                    }
-                  ]
-                },
-                top: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/top",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "inset" (declaration-block-no-redundant-longhand-properties)',
-                        "  left: 15%;",
-                        "10:3 - 10:7",
-                        `/en-US/docs/Web/CSS/top
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "inset" (declaration-block-no-redundant-longhand-properties)
-~~~
-body {
-  background: beige;
-}
-
-div {
-  position: absolute;
-  top: 10%;
-  right: 40%;
-  bottom: 20%;
-  left: 15%;
-  background: gold;
-  border: 1px solid blue;
-}
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -58119,481 +67049,6 @@ main {
                     }
                   ]
                 },
-                "transform-origin": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transform-origin",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "20%" to be "0.2" (alpha-value-notation)',
-                        "  opacity: 20%;",
-                        "23:12 - 23:15",
-                        `/en-US/docs/Web/CSS/transform-origin
-[alpha-value-notation] Expected "20%" to be "0.2" (alpha-value-notation)
-~~~
-.container {
-  display: grid;
-  grid-template-columns: 200px 100px;
-  gap: 20px;
-}
-
-.example {
-  position: relative;
-  margin: 0 2em 4em 5em;
-}
-
-.box {
-  display: inline-block;
-  width: 3em;
-  height: 3em;
-  border: solid 1px;
-  background-color: palegreen;
-}
-
-.original {
-  position: absolute;
-  left: 0;
-  opacity: 20%;
-}
-
-.box1 {
-  transform: none;
-}
-
-.box2 {
-  transform: rotate(30deg);
-}
-
-.box3 {
-  transform: rotate(30deg);
-  transform-origin: 0 0;
-}
-
-.box4 {
-  transform: rotate(30deg);
-  transform-origin: 100% 100%;
-}
-
-.box5 {
-  transform: rotate(30deg);
-  transform-origin: -1em -3em;
-}
-
-.box6 {
-  transform: scale(1.7);
-}
-
-.box7 {
-  transform: scale(1.7);
-  transform-origin: 0 0;
-}
-
-.box8 {
-  transform: scale(1.7);
-  transform-origin: 100% -30%;
-}
-
-.box9 {
-  transform: skewX(50deg);
-  transform-origin: 100% -30%;
-}
-
-.box10 {
-  transform: skewY(50deg);
-  transform-origin: 100% -30%;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "transform-style": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/transform-style",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "70%" to be "0.7" (alpha-value-notation)',
-                        "  background: rgb(90 90 90 / 70%);",
-                        "22:30 - 22:33",
-                        `/en-US/docs/Web/CSS/transform-style
-[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
-~~~
-#example-element {
-  margin: 50px;
-  width: 100px;
-  height: 100px;
-  transform-style: preserve-3d;
-  transform: rotate3d(1, 1, 1, 30deg);
-}
-
-.face {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: inherit;
-  font-size: 60px;
-  color: white;
-}
-
-.front {
-  background: rgb(90 90 90 / 70%);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: rgb(0 210 0 / 70%);
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(210 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 210 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(210 210 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(210 0 210 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "70%" to be "0.7" (alpha-value-notation)',
-                        "  background: rgb(0 210 0 / 70%);",
-                        "27:29 - 27:32",
-                        `/en-US/docs/Web/CSS/transform-style
-[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
-~~~
-#example-element {
-  margin: 50px;
-  width: 100px;
-  height: 100px;
-  transform-style: preserve-3d;
-  transform: rotate3d(1, 1, 1, 30deg);
-}
-
-.face {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: inherit;
-  font-size: 60px;
-  color: white;
-}
-
-.front {
-  background: rgb(90 90 90 / 70%);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: rgb(0 210 0 / 70%);
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(210 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 210 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(210 210 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(210 0 210 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "70%" to be "0.7" (alpha-value-notation)',
-                        "  background: rgb(210 0 0 / 70%);",
-                        "32:29 - 32:32",
-                        `/en-US/docs/Web/CSS/transform-style
-[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
-~~~
-#example-element {
-  margin: 50px;
-  width: 100px;
-  height: 100px;
-  transform-style: preserve-3d;
-  transform: rotate3d(1, 1, 1, 30deg);
-}
-
-.face {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: inherit;
-  font-size: 60px;
-  color: white;
-}
-
-.front {
-  background: rgb(90 90 90 / 70%);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: rgb(0 210 0 / 70%);
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(210 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 210 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(210 210 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(210 0 210 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "70%" to be "0.7" (alpha-value-notation)',
-                        "  background: rgb(0 0 210 / 70%);",
-                        "37:29 - 37:32",
-                        `/en-US/docs/Web/CSS/transform-style
-[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
-~~~
-#example-element {
-  margin: 50px;
-  width: 100px;
-  height: 100px;
-  transform-style: preserve-3d;
-  transform: rotate3d(1, 1, 1, 30deg);
-}
-
-.face {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: inherit;
-  font-size: 60px;
-  color: white;
-}
-
-.front {
-  background: rgb(90 90 90 / 70%);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: rgb(0 210 0 / 70%);
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(210 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 210 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(210 210 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(210 0 210 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "70%" to be "0.7" (alpha-value-notation)',
-                        "  background: rgb(210 210 0 / 70%);",
-                        "42:31 - 42:34",
-                        `/en-US/docs/Web/CSS/transform-style
-[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
-~~~
-#example-element {
-  margin: 50px;
-  width: 100px;
-  height: 100px;
-  transform-style: preserve-3d;
-  transform: rotate3d(1, 1, 1, 30deg);
-}
-
-.face {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: inherit;
-  font-size: 60px;
-  color: white;
-}
-
-.front {
-  background: rgb(90 90 90 / 70%);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: rgb(0 210 0 / 70%);
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(210 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 210 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(210 210 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(210 0 210 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "70%" to be "0.7" (alpha-value-notation)',
-                        "  background: rgb(210 0 210 / 70%);",
-                        "47:31 - 47:34",
-                        `/en-US/docs/Web/CSS/transform-style
-[alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
-~~~
-#example-element {
-  margin: 50px;
-  width: 100px;
-  height: 100px;
-  transform-style: preserve-3d;
-  transform: rotate3d(1, 1, 1, 30deg);
-}
-
-.face {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: inherit;
-  font-size: 60px;
-  color: white;
-}
-
-.front {
-  background: rgb(90 90 90 / 70%);
-  transform: translateZ(50px);
-}
-
-.back {
-  background: rgb(0 210 0 / 70%);
-  transform: rotateY(180deg) translateZ(50px);
-}
-
-.right {
-  background: rgb(210 0 0 / 70%);
-  transform: rotateY(90deg) translateZ(50px);
-}
-
-.left {
-  background: rgb(0 0 210 / 70%);
-  transform: rotateY(-90deg) translateZ(50px);
-}
-
-.top {
-  background: rgb(210 210 0 / 70%);
-  transform: rotateX(90deg) translateZ(50px);
-}
-
-.bottom {
-  background: rgb(210 0 210 / 70%);
-  transform: rotateX(-90deg) translateZ(50px);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 tutorials: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/Tutorials",
@@ -58978,6 +67433,58 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
+                        a: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        blockquote: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/blockquote",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://heydonworks.com/article/the-blockquote-element/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        button: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        del: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/del",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         dialog: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/dialog",
@@ -59046,6 +67553,32 @@ because the nesting selector cannot represent pseudo-elements. */
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        dl: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dl",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2022/12/brief-note-on-description-list-support.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        heading_elements: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2016/08/there-is-no-document-outline-algorithm.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -59322,7 +67855,43 @@ because the nesting selector cannot represent pseudo-elements. */
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/input",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        ins: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/ins",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        mark: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/mark",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         meta: {
                           children: {
@@ -59343,6 +67912,36 @@ because the nesting selector cannot represent pseudo-elements. */
                               }
                             }
                           }
+                        },
+                        s: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/s",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    global_attributes: {
+                      children: {
+                        tabindex: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Global_attributes/tabindex",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2014/11/dont-use-tabindex-greater-than-0.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         }
                       }
                     }
@@ -59445,6 +68044,31 @@ http.headers.Use-As-Dictionary`,
                           }
                         }
                       }
+                    },
+                    evolution_of_http: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTTP/Guides/Evolution_of_HTTP",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "html-has-lang",
+                            "HTML element should have a lang attribute.",
+                            `<html>
+  A text-only web page
+</html>`,
+                            "0:0 - 2:7",
+                            `/en-US/docs/Web/HTTP/Guides/Evolution_of_HTTP
+[html-has-lang] HTML element should have a lang attribute.
+~~~
+<html>
+  A text-only web page
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
                     },
                     network_error_logging: {
                       children: {},
@@ -59570,21 +68194,7 @@ http.headers.Use-As-Dictionary`,
             javascript: {
               children: {
                 guide: {
-                  children: {
-                    resource_management: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Resource_management",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://typescript-eslint.io/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/JavaScript/Guide",
                   messages: [
                     {
@@ -59599,40 +68209,6 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     classes: {
                       children: {}
-                    },
-                    functions: {
-                      children: {
-                        get: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Functions/get",
-                          messages: [
-                            {
-                              message: "JS code issue",
-                              data: [
-                                "getter-return",
-                                "Expected to return a value in getter 'colorType'.",
-                                "    get colorType() {",
-                                "4:5 - 4:18",
-                                `/en-US/docs/Web/JavaScript/Reference/Functions/get
-[getter-return] Expected to return a value in getter 'colorType'.
-~~~
-function isColorTypeSupported() {
-  let supported = false;
-  const obj = {
-    get colorType() {
-      supported = true;
-    },
-  };
-  document.createElement("canvas").getContext("2d", obj);
-  return supported;
-}
-~~~
-`
-                              ]
-                            }
-                          ]
-                        }
-                      }
                     },
                     global_objects: {
                       children: {
@@ -59934,27 +68510,6 @@ function isColorTypeSupported() {
                 }
               ]
             },
-            progressive_web_apps: {
-              children: {
-                how_to: {
-                  children: {
-                    define_app_icons: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Progressive_web_apps/How_to/Define_app_icons",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://maskable.app/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
-            },
             security: {
               children: {
                 authentication: {
@@ -60010,13 +68565,6 @@ function isColorTypeSupported() {
                     {
                       message: "Unreachable via page",
                       data: []
-                    },
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://wiki.owasp.org/index.php/Secure_Coding_Principles",
-                        500
-                      ]
                     }
                   ]
                 },
@@ -60832,47 +69380,6 @@ svg.elements.use.y`
                                 "Expected:",
                                 `svg.elements.fePointLight.z
 svg.elements.feSpotLight.z`
-                              ]
-                            }
-                          ]
-                        }
-                      },
-                      slug: "/en-US/docs/Web/SVG/Reference/Attribute",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/Element/drag_event"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                }
-              }
-            },
-            uri: {
-              children: {
-                reference: {
-                  children: {
-                    fragment: {
-                      children: {
-                        text_fragments: {
-                          children: {},
-                          slug: "/en-US/docs/Web/URI/Reference/Fragment/Text_fragments",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://example.com/",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://example.com/",
-                                "The operation timed out."
                               ]
                             }
                           ]
