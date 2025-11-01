@@ -524,10 +524,10 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       },
       {
         files: [
-          "Web/CSS/box-align/*",
-          "Web/CSS/box-flex/*",
-          "Web/CSS/box-orient/*",
-          "Web/CSS/box-pack/*",
+          "Web/CSS/Reference/Properties/box-align/*",
+          "Web/CSS/Reference/Properties/box-flex/*",
+          "Web/CSS/Reference/Properties/box-orient/*",
+          "Web/CSS/Reference/Properties/box-pack/*",
         ],
         rules: {
           "declaration-block-no-duplicate-properties": [
@@ -540,7 +540,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         files: [
           "Web/CSS/color_value/**",
           "Web/CSS/hue/*",
-          "Web/CSS/hue-interpolation-method/*",
+          "Web/CSS/Reference/Properties/hue-interpolation-method/*",
         ],
         rules: { "color-named": null },
       },
@@ -585,7 +585,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       },
       {
-        files: ["Web/CSS/scroll-timeline/*"],
+        files: ["Web/CSS/Reference/Properties/scroll-timeline/*"],
         rules: {
           "declaration-block-no-duplicate-properties": [
             true,
@@ -598,7 +598,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       },
       {
-        files: ["Web/CSS/scroll-timeline-axis/*"],
+        files: ["Web/CSS/Reference/Properties/scroll-timeline-axis/*"],
         rules: {
           "declaration-block-no-duplicate-properties": [
             true,
@@ -611,7 +611,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       },
       {
-        files: ["Web/CSS/view-timeline-axis/*"],
+        files: ["Web/CSS/Reference/Properties/view-timeline-axis/*"],
         rules: {
           "declaration-block-no-duplicate-properties": [
             true,
@@ -626,7 +626,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       {
         files: [
           "Web/CSS/CSS_overflow/*",
-          "Web/CSS/overflow/*",
+          "Web/CSS/Reference/Properties/overflow/*",
           "Web/CSS/overflow_value/*",
         ],
         rules: {
@@ -641,7 +641,10 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       },
       {
-        files: ["Web/CSS/CSS_text_decoration/*", "Web/CSS/text-decoration/*"],
+        files: [
+          "Web/CSS/CSS_text_decoration/*",
+          "Web/CSS/Reference/Properties/text-decoration/*",
+        ],
         rules: {
           "declaration-property-value-keyword-no-deprecated": [
             true,
@@ -650,7 +653,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       },
       {
-        files: ["Web/CSS/scroll-behavior/*"],
+        files: ["Web/CSS/Reference/Properties/scroll-behavior/*"],
         rules: {
           "selector-type-no-unknown": [
             true,
@@ -659,7 +662,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       },
       {
-        files: ["Web/CSS/text-justify/*"],
+        files: ["Web/CSS/Reference/Properties/text-justify/*"],
         rules: {
           "declaration-property-value-keyword-no-deprecated": [
             true,
@@ -668,7 +671,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       },
       {
-        files: ["Web/CSS/position/*"],
+        files: ["Web/CSS/Reference/Properties/position/*"],
         rules: {
           "declaration-block-no-duplicate-properties": [
             true,
@@ -677,7 +680,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       },
       {
-        files: ["Web/CSS/word-break/*"],
+        files: ["Web/CSS/Reference/Properties/word-break/*"],
         rules: {
           "declaration-property-value-keyword-no-deprecated": [
             true,
@@ -686,7 +689,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       },
       {
-        files: ["Web/CSS/transition-behavior/*"],
+        files: ["Web/CSS/Reference/Properties/transition/*"],
         rules: {
           "declaration-block-no-duplicate-properties": [
             true,

@@ -332,7 +332,9 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     }
     case "css-shorthand-property":
     case "css-property": {
-      const match = node.id.match(/^\/en-US\/docs\/Web\/CSS\/([^/]+)$/);
+      const match = node.id.match(
+        /^\/en-US\/docs\/Web\/CSS\/Reference\/Properties\/([^/]+)$/,
+      );
       if (!match) return "Unexpected page type";
       const propertyName = match[1];
       return [`css.properties.${propertyName}`];

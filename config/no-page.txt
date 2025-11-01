@@ -40,16 +40,6 @@
 /en-US/docs/Web/API/RTCSentRtpStreamStats/framesEncoded
 /en-US/docs/Web/API/RTCSentRtpStreamStats/packetsSent
 
-/en-US/docs/Web/API/SVGAElement/hash
-/en-US/docs/Web/API/SVGAElement/host
-/en-US/docs/Web/API/SVGAElement/hostname
-/en-US/docs/Web/API/SVGAElement/origin
-/en-US/docs/Web/API/SVGAElement/pathname
-/en-US/docs/Web/API/SVGAElement/password
-/en-US/docs/Web/API/SVGAElement/port
-/en-US/docs/Web/API/SVGAElement/protocol
-/en-US/docs/Web/API/SVGAElement/search
-/en-US/docs/Web/API/SVGAElement/username
 /en-US/docs/Web/API/SVGAnimatedPathData/pathSegList
 /en-US/docs/Web/API/SVGElement/abort_event
 /en-US/docs/Web/API/SVGElement/createSVGAngle

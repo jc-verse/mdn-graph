@@ -1,5 +1,5 @@
 /en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Initialize_the_framework
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <!doctype html>
 <html lang="en-US">
@@ -20,7 +20,7 @@
 ~~~
 
 /en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Create_the_Canvas_and_draw_on_it
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <!doctype html>
 <html lang="en-US">
@@ -49,6 +49,12 @@
 </html>
 ~~~
 
+/en-US/docs/Glossary/blink_element
+[deprecated] <blink> is deprecated
+~~~
+<blink>In ancient browsers, I may have blinked</blink>
+~~~
+
 /en-US/docs/Glossary/Boolean
 [syntax] Parsing error: ')' expected.
 ~~~
@@ -67,6 +73,19 @@ if (boolean conditional) {
 for (control variable; boolean conditional; counter) {
   // code to execute repeatedly if the conditional is true
 }
+~~~
+
+/en-US/docs/Glossary/Boolean/HTML
+[attribute-boolean-style] Attribute "checked" should omit value
+~~~
+<!-- The following checkboxes will be checked on initial rendering -->
+<input type="checkbox" checked />
+<input type="checkbox" checked="" />
+<input type="checkbox" checked="checked" />
+<input type="checkbox" checked="Checked" />
+
+<!-- The following checkbox will not be checked on initial rendering -->
+<input type="checkbox" />
 ~~~
 
 /en-US/docs/Glossary/Function
@@ -88,7 +107,7 @@ const x = 1;
 ~~~
 
 /en-US/docs/Glossary/Semantics
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <span style="font-size: 32px; margin: 21px 0;">Not a top-level heading!</span>
 ~~~
@@ -105,7 +124,7 @@ window.requestAnimationFrame =
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Accessibility/HTML
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <span style="font-size: 3em">My heading</span> <br /><br />
 This is the first section of my document.
@@ -127,6 +146,86 @@ this content!
 <br /><br />
 This is the second subsection of my content. I think is more interesting than
 the last one.
+~~~
+
+/en-US/docs/Learn_web_development/Core/Accessibility/HTML
+[prefer-native-element] Prefer to use the native <button> element
+~~~
+<div data-message="This is from the first button" tabindex="0" role="button">
+  Click me!
+</div>
+<div data-message="This is from the second button" tabindex="0" role="button">
+  Click me too!
+</div>
+<div data-message="This is from the third button" tabindex="0" role="button">
+  And me!
+</div>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/HTML
+[deprecated] <font> is deprecated: use CSS instead
+~~~
+<font size="7">Need help?</font> <br /><br />
+If you have any problems with our products, our support center can offer you all
+the help you need, whether you want:
+<br /><br />
+1. Advice choosing a new product
+<br />
+2. Tech support on an existing product
+<br />
+3. Refund and cancellation assistance
+<br /><br />
+<font size="5">Contact us now</font>
+<br /><br />
+Our help center contains live chat, email addresses, and phone numbers.
+<br /><br />
+<div class="button">Find Contact Details</div>
+<br />
+<font size="5">Find out answers</font>
+<br /><br />
+Our Forums section contains a large knowledge base of searchable previously
+asked questions, and you can always ask a new question if you can't find the
+answer you're looking for.
+<br /><br />
+<div class="button">Access Forums</div>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/HTML
+[wcag/h37] <img> is missing required "alt" attribute
+~~~
+<header>
+  <img
+    src="https://mdn.github.io/shared-assets/images/examples/star-pink_32x32.png"
+    alt="A star that I use to decorate my page" />
+  <h1>Groovy images</h1>
+</header>
+<main>
+  <img
+    src="https://mdn.github.io/shared-assets/images/examples/ballon-portrait.jpg" />
+  <img
+    src="https://mdn.github.io/shared-assets/images/examples/grapefruit-slice.jpg" />
+</main>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/WAI-ARIA
+[prefer-native-element] Prefer to use the native <ul> element
+[prefer-native-element] Prefer to use the native <li> element
+~~~
+<div role="list">
+  <div role="listitem">Pig</div>
+  <div role="listitem">Gazelle</div>
+  <div role="listitem">Llama</div>
+  <div role="listitem">Majestic moose</div>
+  <div role="listitem">Hedgehog</div>
+</div>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics
+[prefer-native-element] Prefer to use the native <button> element
+~~~
+<div data-message="This is from the first button" tabindex="0" role="button">
+  Click me!
+</div>
 ~~~
 
 /en-US/docs/Learn_web_development/Core/CSS_layout/Flexbox
@@ -208,7 +307,7 @@ export let autofocus: boolean = false;
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Scripting/A_first_splash
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <!doctype html>
 <html lang="en-US">
@@ -302,16 +401,7 @@ condition ? run this code : run this code instead
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting
-[no-style-attr] Do not use the style attribute.
-~~~
-<p
-  style="color: white; background-color: black; padding: 10px; width: 250px; text-align: center;">
-  We hope you enjoyed the ride.
-</p>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <style>
   .highlight {
@@ -322,6 +412,15 @@ condition ? run this code : run this code instead
     text-align: center;
   }
 </style>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Scripting/DOM_scripting
+[no-inline-style] Inline style is not allowed
+~~~
+<p
+  style="color: white; background-color: black; padding: 10px; width: 250px; text-align: center;">
+  We hope you enjoyed the ride.
+</p>
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Scripting/Events
@@ -494,6 +593,40 @@ function checkGuess( {
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+[attr-quotes] Attribute "href" used ' instead of expected "
+~~~
+<a href='https://www.example.com'>A link to my example.</a>
+
+<a href="https://www.example.com">A link to my example.</a>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+[attribute-boolean-style] Attribute "disabled" should omit value
+~~~
+<input type="text" disabled="disabled" />
+
+<!-- using the disabled attribute prevents the end user from entering text into the input box -->
+<input type="text" disabled />
+
+<!-- text input is allowed, as it doesn't contain the disabled attribute -->
+<input type="text" />
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+[element-required-attributes] <img> is missing required "src" attribute
+~~~
+<img />
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
+[no-implicit-close] Element <p> is implicitly closed by sibling
+~~~
+<p>In HTML, you define a paragraph using the <p> element.</p>
+
+<p>In HTML, you define a paragraph using the &lt;p&gt; element.</p>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax
 [syntax] Opening tag "a" not terminated.
 ~~~
 <a href="https://www.example.com" title="An "interesting" reference">A link to my example.</a>
@@ -587,15 +720,21 @@ function checkGuess( {
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <span style="font-size: 32px; margin: 21px 0; display: block;">
   Is this a top level heading?
 </span>
 ~~~
 
+/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images
+[element-required-attributes] <img> is missing required "src" attribute
+~~~
+<img />
+~~~
+
 /en-US/docs/Learn_web_development/Core/Structuring_content/Marking_up_a_letter
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <!doctype html>
 <html lang="en-US">
@@ -759,7 +898,57 @@ function checkGuess( {
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
-[no-style-attr] Do not use the style attribute.
+[color-named] Expected "rgb(245 245 245)" to be "whitesmoke" (color-named)
+~~~
+html {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200 200 200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td,
+th {
+  border: 1px solid rgb(190 190 190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235 235 235);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250 250 250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245 245 245);
+}
+
+caption {
+  padding: 10px;
+}
+
+tbody {
+  font-size: 95%;
+  font-style: italic;
+}
+
+tfoot {
+  font-weight: bold;
+}
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
+[no-inline-style] Inline style is not allowed
 ~~~
 <table>
   <caption>
@@ -777,6 +966,56 @@ function checkGuess( {
     <!-- Rest of code omitted for brevity -->
   </tr>
 </table>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Images
+[element-required-attributes] <img> is missing required "src" attribute
+~~~
+<h1>Basic image embed</h1>
+
+<img />
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Links
+[attribute-misuse] "target" attribute cannot be used on <a> in this context: requires "href" attribute to be present
+~~~
+<h1>Information on Whales</h1>
+
+<p>
+  For more information on our conservation activities and which Whales we study,
+  see our <a target="_blank">Whales page</a>.
+</p>
+
+<p>
+  If you want to ask our team more questions, feel free to
+  <a target="_blank">email us</a>.
+</p>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Test_your_skills/Links
+[attribute-misuse] "target" attribute cannot be used on <a> in this context: requires "href" attribute to be present
+~~~
+<h1>List path tests</h1>
+
+<ul>
+  <li><a target="_blank">Link me to the blue whale image</a></li>
+  <li><a target="_blank">Link me to the narwhal image</a></li>
+  <li><a target="_blank">Link me to Google image search</a></li>
+  <li><a>Link me to the paragraph at the bottom of the page</a></li>
+</ul>
+
+<div></div>
+
+<p id="bottom">The bottom of the page!</p>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Structuring_content/Webpage_metadata
+[element-required-content] <html> element must have <head> as content
+[element-required-content] <html> element must have <body> as content
+~~~
+<html lang="en-US">
+  …
+</html>
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Styling_basics/Box_model
@@ -823,7 +1062,7 @@ body {
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Styling_basics/Cascade_layers
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <div>
   <h1 style="color: yellow; background-color: maroon !important;">
@@ -849,19 +1088,19 @@ padding-left: 5px;
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
-[no-style-attr] Do not use the style attribute.
-~~~
-<span style="color: purple; font-weight: bold">span element</span>
-~~~
-
-/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <style>
   p {
     color: purple;
   }
 </style>
+~~~
+
+/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
+[no-inline-style] Inline style is not allowed
+~~~
+<span style="color: purple; font-weight: bold">span element</span>
 ~~~
 
 /en-US/docs/Learn_web_development/Core/Text_styling/Styling_lists
@@ -880,8 +1119,38 @@ ul {
 layers: L.mapquest.tileLayer("map"),
 ~~~
 
+/en-US/docs/Learn_web_development/Extensions/Forms/Basic_native_form_controls
+[prefer-button] Prefer to use <button> instead of <input type="button"> when adding buttons
+~~~
+<button type="button">This is an <strong>anonymous button</strong></button>
+
+<input type="button" value="This is an anonymous button" />
+~~~
+
+/en-US/docs/Learn_web_development/Extensions/Forms/Basic_native_form_controls
+[prefer-button] Prefer to use <button> instead of <input type="image"> when adding buttons
+~~~
+<input type="image" alt="Click me!" src="my-img.png" width="80" height="30" />
+~~~
+
+/en-US/docs/Learn_web_development/Extensions/Forms/Basic_native_form_controls
+[prefer-button] Prefer to use <button> instead of <input type="reset"> when adding buttons
+~~~
+<button type="reset">This is a <strong>reset button</strong></button>
+
+<input type="reset" value="This is a reset button" />
+~~~
+
+/en-US/docs/Learn_web_development/Extensions/Forms/Basic_native_form_controls
+[prefer-button] Prefer to use <button> instead of <input type="submit"> when adding buttons
+~~~
+<button type="submit">This is a <strong>submit button</strong></button>
+
+<input type="submit" value="This is a submit button" />
+~~~
+
 /en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <!doctype html>
 <html lang="en-US">
@@ -908,6 +1177,39 @@ layers: L.mapquest.tileLayer("map"),
     </form>
   </body>
 </html>
+~~~
+
+/en-US/docs/Learn_web_development/Extensions/Performance/JavaScript
+[element-required-content] <head> element must have <title> as content
+~~~
+<head>
+  ...
+  <script src="main.js"></script>
+  ...
+</head>
+~~~
+
+/en-US/docs/Learn_web_development/Extensions/Performance/JavaScript
+[element-required-content] <head> element must have <title> as content
+~~~
+<head>
+  ...
+  <!-- Preload a JavaScript file -->
+  <link rel="preload" href="important-js.js" as="script" />
+  <!-- Preload a JavaScript module -->
+  <link rel="modulepreload" href="important-module.js" />
+  ...
+</head>
+~~~
+
+/en-US/docs/Learn_web_development/Extensions/Performance/JavaScript
+[element-required-content] <head> element must have <title> as content
+~~~
+<head>
+  ...
+  <script async src="main.js"></script>
+  ...
+</head>
 ~~~
 
 /en-US/docs/Learn_web_development/Extensions/Server-side/Django/web_application_security
@@ -1085,6 +1387,23 @@ const helloChris = createGreeting("Chris);
 console.log(helloChris;
 ~~~
 
+/en-US/docs/Learn_web_development/Howto/Design_and_accessibility/HTML_features_for_accessibility
+[no-redundant-role] Redundant role "img" on <img>
+~~~
+<!-- decorative image -->
+<img alt="" src="blueswish.png" role="presentation" />
+<img
+  alt="The Open Web Docs logo: Carle the book worm smiling"
+  src="carle.svg"
+  role="img" />
+~~~
+
+/en-US/docs/Learn_web_development/Howto/Design_and_accessibility/HTML_features_for_accessibility
+[no-redundant-role] Redundant role "img" on <img>
+~~~
+<img src="mdn.svg" alt="MDN logo" role="img" />
+~~~
+
 /en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ
 [declaration-block-no-shorthand-property-overrides] Unexpected shorthand "font" after "font-weight" (declaration-block-no-shorthand-property-overrides)
 ~~~
@@ -1095,13 +1414,7 @@ console.log(helloChris;
 ~~~
 
 /en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ
-[no-style-attr] Do not use the style attribute.
-~~~
-<div id="orange" class="green" style="color: red;">This is red</div>
-~~~
-
-/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <style>
   .news {
@@ -1116,6 +1429,12 @@ console.log(helloChris;
 <div class="news today">Content of today's news goes here.</div>
 ~~~
 
+/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems/CSS_FAQ
+[no-inline-style] Inline style is not allowed
+~~~
+<div id="orange" class="green" style="color: red;">This is red</div>
+~~~
+
 /en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools
 [syntax] Parsing error: Unterminated string literal.
 ~~~
@@ -1123,7 +1442,7 @@ alert("hello!);
 ~~~
 
 /en-US/docs/Learn_web_development/Howto/Web_mechanics/File_browser_bugs
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <style>
   :autofill {
@@ -1211,6 +1530,26 @@ input:not(:checked):not(:disabled) {
 ~~~
 margin: 1em 1em;
 margin: 1em 1em 1em 1em;
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/HTML
+[attr-case] Attribute "CLASS" should be camelCase
+[element-case] Element "P" should be camelCase
+~~~
+<P CLASS="WHOA-THERE">Why is my markup shouting?</P>
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/HTML
+[attribute-boolean-style] Attribute "required" should omit value
+~~~
+<input required="required" />
+~~~
+
+/en-US/docs/MDN/Writing_guidelines/Code_style_guide/HTML
+[element-required-content] <html> element must have <head> as content
+[element-required-content] <html> element must have <body> as content
+~~~
+<html lang="en-US"></html>
 ~~~
 
 /en-US/docs/MDN/Writing_guidelines/Code_style_guide/HTML
@@ -1551,6 +1890,7 @@ div#header {
 ~~~
 
 /en-US/docs/Mozilla/Firefox/Releases/3/Updating_web_applications
+[attr-case] Attribute "…" should be camelCase
 [empty-script] Script element should have non-empty text.
 [no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
 ~~~
@@ -1559,18 +1899,13 @@ div#header {
 
 /en-US/docs/Mozilla/Firefox/Releases/3/Updating_web_applications
 [syntax] Only void, custom and foreign elements can be self closed "script"
-~~~
-<script … />
-~~~
-
-/en-US/docs/Mozilla/Firefox/Releases/3/Updating_web_applications
 [syntax] Unexpected character "EOF"
 ~~~
 <script … />
 ~~~
 
 /en-US/docs/Mozilla/Firefox/Releases/65
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <div style="-webkit-user-select: all">
   All
@@ -1578,8 +1913,22 @@ div#header {
 </div>
 ~~~
 
+/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/main_role
+[unique-landmark] Landmarks must have a non-empty and unique accessible name (aria-label or aria-labelledby)
+~~~
+<main>
+  <h1>Active `main` element</h1>
+  <!-- content -->
+</main>
+
+<main hidden>
+  <h1>Hidden `main` element</h1>
+  <!-- content -->
+</main>
+~~~
+
 /en-US/docs/Web/Accessibility/ARIA/Reference/Roles/menu_role
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <div>
   <button
@@ -1617,7 +1966,7 @@ div#header {
 ~~~
 
 /en-US/docs/Web/Accessibility/ARIA/Reference/Roles/meter_role
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <div
   role="meter"
@@ -1631,8 +1980,26 @@ div#header {
 </div>
 ~~~
 
+/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/navigation_role
+[unique-landmark] Landmarks must have a non-empty and unique accessible name (aria-label or aria-labelledby)
+~~~
+<header>
+  <nav id="main-nav" aria-label="Main">
+    <!-- list of links to main website locations -->
+  </nav>
+</header>
+
+…
+
+<footer>
+  <nav id="footer-nav" aria-label="Main">
+    <!-- list of links to main website locations -->
+  </nav>
+</footer>
+~~~
+
 /en-US/docs/Web/Accessibility/ARIA/Reference/Roles/slider_role
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <div>
   <div id="temperatureLabel">Temperature</div>
@@ -1728,7 +2095,7 @@ function play() {
 ~~~
 
 /en-US/docs/Web/API/Canvas_API/Manipulating_video_using_canvas
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <!doctype html>
 <html lang="en-US">
@@ -1773,7 +2140,7 @@ function play() {
 
 /en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage
 [no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <!doctype html>
 <html lang="en-US">
@@ -1814,13 +2181,13 @@ for (let i = 0; i < keyframes.length; i++) {
 ~~~
 
 /en-US/docs/Web/API/CSSStyleDeclaration/cssText
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <span id="s1" style="color: red;">Some text</span>
 ~~~
 
 /en-US/docs/Web/API/CSSStyleDeclaration/length
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <div
   id="div1"
@@ -1828,7 +2195,7 @@ for (let i = 0; i < keyframes.length; i++) {
 ~~~
 
 /en-US/docs/Web/API/CSSStyleProperties
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <div style="font-weight: bold;">
   <div style="border-top: 3px solid blue; color: red;margin:5px;" id="elt">
@@ -1844,7 +2211,7 @@ for (let i = 0; i < keyframes.length; i++) {
 ~~~
 
 /en-US/docs/Web/API/CSSStyleProperties
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <div style="font-weight: bold;">
   <div style="border-top: 1px solid blue; color: red;" id="elt">
@@ -1915,6 +2282,28 @@ worker.postMessage({ cmd: "list" });
 </html>
 ~~~
 
+/en-US/docs/Web/API/Document/anchors
+[no-deprecated-attr] Attribute "name" is deprecated on <a> element
+~~~
+<h1>Title</h1>
+<h2><a name="contents">Contents</a></h2>
+<ul id="toc"></ul>
+
+<h2><a name="plants">Plants</a></h2>
+<ol>
+  <li>Apples</li>
+  <li>Oranges</li>
+  <li>Pears</li>
+</ol>
+
+<h2><a name="veggies">Veggies</a></h2>
+<ol>
+  <li>Carrots</li>
+  <li>Celery</li>
+  <li>Beats</li>
+</ol>
+~~~
+
 /en-US/docs/Web/API/Document/DOMContentLoaded_event
 [no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
 ~~~
@@ -1929,6 +2318,30 @@ worker.postMessage({ cmd: "list" });
 </script>
 ~~~
 
+/en-US/docs/Web/API/Document/querySelector
+[valid-id] element id "this?element" must only contain letters, digits, dash and underscore characters
+~~~
+<div id="this?element"></div>
+
+<button id="no-escape">No escape</button>
+<button id="css-escape">CSS.escape()</button>
+<button id="manual-escape">Manual escape</button>
+
+<pre id="log"></pre>
+~~~
+
+/en-US/docs/Web/API/Document/querySelectorAll
+[valid-id] element id "this?element" must only contain letters, digits, dash and underscore characters
+~~~
+<div id="this?element"></div>
+
+<button id="no-escape">No escape</button>
+<button id="css-escape">CSS.escape()</button>
+<button id="manual-escape">Manual escape</button>
+
+<pre id="log"></pre>
+~~~
+
 /en-US/docs/Web/API/Document/write
 [no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
 ~~~
@@ -1937,15 +2350,23 @@ worker.postMessage({ cmd: "list" });
 </script>
 ~~~
 
+/en-US/docs/Web/API/DocumentFragment/querySelector
+[valid-id] element id "foo\bar" must only contain letters, digits, dash and underscore characters
+[valid-id] element id "foo:bar" must only contain letters, digits, dash and underscore characters
+~~~
+<div id="foo\bar"></div>
+<div id="foo:bar"></div>
+~~~
+
 /en-US/docs/Web/API/DOMTokenList
-[no-duplicate-class] Duplicate class "d".
+[no-dup-class] Class "d" duplicated
 [unformatted-class] Element class should be a list of tokens separated by single spaces.
 ~~~
 <span class="    d   d e f"></span>
 ~~~
 
 /en-US/docs/Web/API/Element/currentCSSZoom
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <div id="parent">
   parent
@@ -1984,6 +2405,34 @@ eventTarget.addEventListener("keyup", (event) => {
   }
   // do something
 });
+~~~
+
+/en-US/docs/Web/API/Element/querySelector
+[valid-id] element id "this?element" must only contain letters, digits, dash and underscore characters
+~~~
+<div id="container">
+  <div id="this?element"></div>
+</div>
+
+<button id="no-escape">No escape</button>
+<button id="css-escape">CSS.escape()</button>
+<button id="manual-escape">Manual escape</button>
+
+<pre id="log"></pre>
+~~~
+
+/en-US/docs/Web/API/Element/querySelectorAll
+[valid-id] element id "this?element" must only contain letters, digits, dash and underscore characters
+~~~
+<div id="container">
+  <div id="this?element"></div>
+</div>
+
+<button id="no-escape">No escape</button>
+<button id="css-escape">CSS.escape()</button>
+<button id="manual-escape">Manual escape</button>
+
+<pre id="log"></pre>
 ~~~
 
 /en-US/docs/Web/API/EventTarget/addEventListener
@@ -2096,18 +2545,51 @@ window.requestFileSystem(
 );
 ~~~
 
-/en-US/docs/Web/API/HTMLElement/attributeStyleMap
-[no-style-attr] Do not use the style attribute.
+/en-US/docs/Web/API/FormData/FormData
+[form-dup-name] Duplicate form control name "intent"
 ~~~
-<div id="el" style="border-top: 1px solid blue; color: red;">
-  An example element
-</div>
-<div id="output"></div>
+<form id="form">
+  <input type="text" name="text1" value="foo" />
+  <input type="text" name="text2" value="bar" />
+  <input type="text" name="text3" value="baz" />
+  <input type="checkbox" name="check" checked disabled />
+  <button name="intent" value="save">Save</button>
+  <button name="intent" value="saveAsCopy">Save As Copy</button>
+</form>
+
+<output id="output"></output>
 ~~~
 
 /en-US/docs/Web/API/HTMLElement/innerText
-[no-style-attr] Do not use the style attribute.
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+[element-permitted-content] <style> element is not permitted as content under <p>
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
+~~~
+<h3>Source element:</h3>
+<p id="source">
+  <style>
+    #source {
+      color: red;
+    }
+    #text {
+      text-transform: uppercase;
+    }
+  </style>
+  <span id="text">
+    Take a look at<br />
+    how this text<br />
+    is interpreted below.
+  </span>
+  <span style="display:none">HIDDEN TEXT</span>
+</p>
+<h3>Result of textContent:</h3>
+<textarea id="textContentOutput" rows="18" cols="40" readonly>…</textarea>
+<h3>Result of innerText:</h3>
+<textarea id="innerTextOutput" rows="6" cols="40" readonly>…</textarea>
+~~~
+
+/en-US/docs/Web/API/HTMLElement/innerText
+[no-inline-style] Inline style is not allowed
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <h3>Source element:</h3>
 <p id="source">
@@ -2133,7 +2615,7 @@ window.requestFileSystem(
 ~~~
 
 /en-US/docs/Web/API/HTMLImageElement
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <p>
   Image 1: no height, width, or style
@@ -2161,13 +2643,13 @@ window.requestFileSystem(
 ~~~
 
 /en-US/docs/Web/API/HTMLImageElement/border
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <img src="image.png" style="border: 2px;" />
 ~~~
 
 /en-US/docs/Web/API/HTMLImageElement/border
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <img src="image.png" style="border: dashed 2px #333388;" />
 ~~~
@@ -2206,7 +2688,7 @@ function addData(e) {
 ~~~
 
 /en-US/docs/Web/API/InputEvent/dataTransfer
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <p><span style="font-weight: bold; color: blue">Whoa, bold blue text!</span></p>
 <p>
@@ -2240,38 +2722,6 @@ await navigator.locks.request(
     // the 'my_res_lock' lock until this returns.
   },
 );
-~~~
-
-/en-US/docs/Web/API/MathMLElement/attributeStyleMap
-[no-style-attr] Do not use the style attribute.
-~~~
-<math>
-  <mrow>
-    <mi>f</mi>
-    <mo stretchy="false">(</mo>
-    <mi id="el" style="border-top: 1px solid blue; color: red;">x</mi>
-    <mo stretchy="false">)</mo>
-    <mo>=</mo>
-    <mi>x</mi>
-  </mrow>
-</math>
-<div id="output"></div>
-~~~
-
-/en-US/docs/Web/API/MathMLElement/style
-[no-style-attr] Do not use the style attribute.
-~~~
-<math>
-  <mrow>
-    <mi>f</mi>
-    <mo stretchy="false">(</mo>
-    <mi class="parameter" style="color: red; border-bottom: 1px solid">x</mi>
-    <mo stretchy="false">)</mo>
-    <mo>=</mo>
-    <mi>x</mi>
-  </mrow>
-</math>
-<pre id="log"></pre>
 ~~~
 
 /en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element
@@ -2570,7 +3020,7 @@ if (done) {
 ~~~
 
 /en-US/docs/Web/API/StyleSheet/media
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <link rel="stylesheet" href="document.css" media="screen" />
 <style rel="stylesheet" media="screen, print">
@@ -2578,24 +3028,6 @@ if (done) {
     background-color: snow;
   }
 </style>
-~~~
-
-/en-US/docs/Web/API/SVGElement/attributeStyleMap
-[no-style-attr] Do not use the style attribute.
-~~~
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 250 250"
-  width="250"
-  height="250">
-  <circle
-    cx="100"
-    cy="100"
-    r="50"
-    id="el"
-    style="border-top: 1px solid blue; color: red;" />
-</svg>
-<div id="output"></div>
 ~~~
 
 /en-US/docs/Web/API/URL_Pattern_API
@@ -2617,6 +3049,37 @@ new URLPattern({ pathname: "([\\(\\)])" }); // ok
 
 new RegExp("[()]"); // ok
 new RegExp("[\\(\\)]"); // ok
+~~~
+
+/en-US/docs/Web/API/ValidityState/patternMismatch
+[multiple-labeled-controls] <label> is associated with multiple controls
+~~~
+<p>
+  <label
+    >Enter your phone number in the format (123)456-7890 (<input
+      name="tel1"
+      type="tel"
+      pattern="[0-9]{3}"
+      placeholder="###"
+      aria-label="3-digit area code"
+      size="2" />)-
+    <input
+      name="tel2"
+      type="tel"
+      pattern="[0-9]{3}"
+      placeholder="###"
+      aria-label="3-digit prefix"
+      size="2" />
+    -
+    <input
+      name="tel3"
+      type="tel"
+      pattern="[0-9]{4}"
+      placeholder="####"
+      aria-label="4-digit number"
+      size="3" />
+  </label>
+</p>
 ~~~
 
 /en-US/docs/Web/API/Web_Workers_API/Using_web_workers
@@ -2843,6 +3306,87 @@ h2 :not(span.foo) {
 }
 ~~~
 
+/en-US/docs/Web/CSS/@font-face/font-weight
+[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
+[font-weight-notation] Expected "700" to be "bold" (font-weight-notation)
+~~~
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 1 1000;
+  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Regular.woff2");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 1 300;
+  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Light.woff2");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 500 700;
+  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Bold.woff2");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 700 1000;
+  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-ExtraBold.woff2");
+}
+
+body {
+  font-family: "Fira Sans", serif;
+  font-size: 2rem;
+}
+
+p.one {
+  font-weight: 100;
+}
+
+p.three {
+  font-weight: 300;
+}
+
+p.four {
+  font-weight: 400;
+}
+
+p.five {
+  font-weight: 500;
+}
+
+p.seven {
+  font-weight: 700;
+}
+
+p.nine {
+  font-weight: 900;
+}
+~~~
+
+/en-US/docs/Web/CSS/@font-face/font-weight
+[font-weight-notation] Expected "700" to be "bold" (font-weight-notation)
+~~~
+@font-face {
+  font-family: "LeagueMono";
+  src: url("https://mdn.github.io/shared-assets/fonts/LeagueMono-VF.ttf");
+  font-weight: 300 700;
+}
+
+p {
+  font-family: "LeagueMono", serif;
+  font-size: 1.5rem;
+}
+
+p:first-of-type {
+  font-weight: 300;
+}
+
+p:last-of-type {
+  font-weight: 700;
+}
+~~~
+
 /en-US/docs/Web/CSS/@import
 [import-notation] Expected "url("chrome://communicator/skin/")" to be ""chrome://communicator/skin/"" (import-notation)
 ~~~
@@ -2921,7 +3465,7 @@ h2 :not(span.foo) {
 ~~~
 
 /en-US/docs/Web/CSS/@scope
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+[element-permitted-content] <style> element is not permitted as content under <section>
 ~~~
 <section class="article-body">
   <style>
@@ -2938,7 +3482,24 @@ h2 :not(span.foo) {
 ~~~
 
 /en-US/docs/Web/CSS/@scope
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
+~~~
+<section class="article-body">
+  <style>
+    @scope {
+      img {
+        border: 5px solid black;
+        background-color: goldenrod;
+      }
+    }
+  </style>
+
+  <!-- ... -->
+</section>
+~~~
+
+/en-US/docs/Web/CSS/@scope
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <parent-element>
   <style>
@@ -2966,125 +3527,6 @@ div::before {
 }
 div::before {
   content: attr(text) 1px;
-}
-~~~
-
-/en-US/docs/Web/CSS/border-bottom
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-bottom" after "border-bottom-style" (declaration-block-no-shorthand-property-overrides)
-~~~
-border-bottom-style: dotted;
-border-bottom: thick green;
-~~~
-
-/en-US/docs/Web/CSS/border-bottom
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-bottom" after "border-bottom-style" (declaration-block-no-shorthand-property-overrides)
-~~~
-border-bottom-style: dotted;
-border-bottom: none thick green;
-~~~
-
-/en-US/docs/Web/CSS/border-left
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-left" after "border-left-style" (declaration-block-no-shorthand-property-overrides)
-~~~
-border-left-style: dotted;
-border-left: thick green;
-~~~
-
-/en-US/docs/Web/CSS/border-left
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-left" after "border-left-style" (declaration-block-no-shorthand-property-overrides)
-~~~
-border-left-style: dotted;
-border-left: none thick green;
-~~~
-
-/en-US/docs/Web/CSS/border-radius
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "border-radius" (declaration-block-no-redundant-longhand-properties)
-~~~
-border-radius: 1em / 5em;
-
-/* It is equivalent to: */
-border-top-left-radius: 1em 5em;
-border-top-right-radius: 1em 5em;
-border-bottom-right-radius: 1em 5em;
-border-bottom-left-radius: 1em 5em;
-~~~
-
-/en-US/docs/Web/CSS/border-radius
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "border-radius" (declaration-block-no-redundant-longhand-properties)
-~~~
-border-radius: 4px 3px 6px / 2px 4px;
-
-/* It is equivalent to: */
-border-top-left-radius: 4px 2px;
-border-top-right-radius: 3px 4px;
-border-bottom-right-radius: 6px 2px;
-border-bottom-left-radius: 3px 4px;
-~~~
-
-/en-US/docs/Web/CSS/border-right
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-right" after "border-right-style" (declaration-block-no-shorthand-property-overrides)
-~~~
-border-right-style: dotted;
-border-right: thick green;
-~~~
-
-/en-US/docs/Web/CSS/border-right
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-right" after "border-right-style" (declaration-block-no-shorthand-property-overrides)
-~~~
-border-right-style: dotted;
-border-right: none thick green;
-~~~
-
-/en-US/docs/Web/CSS/border-top
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-top" after "border-top-style" (declaration-block-no-shorthand-property-overrides)
-~~~
-border-top-style: dotted;
-border-top: thick green;
-~~~
-
-/en-US/docs/Web/CSS/border-top
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-top" after "border-top-style" (declaration-block-no-shorthand-property-overrides)
-~~~
-border-top-style: dotted;
-border-top: none thick green;
-~~~
-
-/en-US/docs/Web/CSS/color
-[color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
-[color-named] Expected "#f00" to be "red" (color-named)
-[color-named] Expected "#ff0000" to be "red" (color-named)
-[color-named] Expected "rgb(255 0 0)" to be "red" (color-named)
-[color-named] Expected "rgb(100% 0% 0%)" to be "red" (color-named)
-[color-named] Expected "hsl(0 100% 50%)" to be "red" (color-named)
-~~~
-p {
-  color: red;
-}
-p {
-  color: #f00;
-}
-p {
-  color: #ff0000;
-}
-p {
-  color: rgb(255 0 0);
-}
-p {
-  color: rgb(100% 0% 0%);
-}
-p {
-  color: hsl(0 100% 50%);
-}
-
-/* 50% translucent */
-p {
-  color: #ff000080;
-}
-p {
-  color: rgb(255 0 0 / 50%);
-}
-p {
-  color: hsl(0 100% 50% / 50%);
 }
 ~~~
 
@@ -3162,21 +3604,8 @@ div.comma-separated {
 }
 ~~~
 
-/en-US/docs/Web/CSS/column-count
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "columns" (declaration-block-no-redundant-longhand-properties)
-~~~
-column-count: auto;
-column-width: 8rem;
-~~~
-
 /en-US/docs/Web/CSS/CSS_cascade/Cascade
-[no-style-attr] Do not use the style attribute.
-~~~
-<p style="line-height: 1.6em; text-decoration: overline !important;">Hello</p>
-~~~
-
-/en-US/docs/Web/CSS/CSS_cascade/Cascade
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <style>
   @import "unlayeredStyles.css";
@@ -3189,6 +3618,12 @@ column-width: 8rem;
     padding: 1em !important;
   }
 </style>
+~~~
+
+/en-US/docs/Web/CSS/CSS_cascade/Cascade
+[no-inline-style] Inline style is not allowed
+~~~
+<p style="line-height: 1.6em; text-decoration: overline !important;">Hello</p>
 ~~~
 
 /en-US/docs/Web/CSS/CSS_cascade/Shorthand_properties
@@ -3231,7 +3666,7 @@ margin: 10px 5px 10px 5px;
 ~~~
 
 /en-US/docs/Web/CSS/CSS_cascade/Specificity
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <p style="color: purple">…</p>
 ~~~
@@ -3498,6 +3933,13 @@ div {
 }
 ~~~
 
+/en-US/docs/Web/CSS/CSS_filter_effects/Using_filter_effects
+[no-redundant-role] Redundant role "img" on <img>
+~~~
+<img src="mandala.svg" alt="Colorful mandala" role="img" />
+<img src="mandala.svg" alt="Plain mandala" role="img" />
+~~~
+
 /en-US/docs/Web/CSS/CSS_masking/Multiple_masks
 [declaration-property-value-no-unknown] Unexpected unknown value "contain" for property "mask" (declaration-property-value-no-unknown)
 [declaration-property-value-no-unknown] Unexpected unknown value "cover" for property "mask" (declaration-property-value-no-unknown)
@@ -3634,15 +4076,6 @@ p {
 }
 ~~~
 
-/en-US/docs/Web/CSS/display
-[declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
-~~~
-.container {
-  display: inline-flex;
-  display: inline flex;
-}
-~~~
-
 /en-US/docs/Web/CSS/element
 [color-no-invalid-hex] Unexpected invalid hex color "#css" (color-no-invalid-hex)
 ~~~
@@ -3693,40 +4126,6 @@ p {
 }
 ~~~
 
-/en-US/docs/Web/CSS/font-family
-[color-no-invalid-hex] Unexpected invalid hex color "#POUND" (color-no-invalid-hex)
-[declaration-property-value-no-unknown] Unexpected unknown value "1911" for property "font-family" (declaration-property-value-no-unknown)
-[declaration-property-value-no-unknown] Unexpected unknown value "/" for property "font-family" (declaration-property-value-no-unknown)
-[declaration-property-value-no-unknown] Unexpected unknown value "Grande" for property "font-family" (declaration-property-value-no-unknown)
-[declaration-property-value-no-unknown] Cannot parse property value "Ahem!, sans-serif" for property "font-family" (declaration-property-value-no-unknown)
-[declaration-property-value-no-unknown] Cannot parse property value "test@foo, sans-serif" for property "font-family" (declaration-property-value-no-unknown)
-[declaration-property-value-no-unknown] Unexpected unknown value "#POUND" for property "font-family" (declaration-property-value-no-unknown)
-[declaration-property-value-no-unknown] Unexpected unknown value "5" for property "font-family" (declaration-property-value-no-unknown)
-[font-family-name-quotes] Expected quotes around "Goudy Bookletter sans-serif" (font-family-name-quotes)
-[font-family-name-quotes] Expected quotes around "Red/Black" (font-family-name-quotes)
-[font-family-name-quotes] Expected quotes around "Ahem!" (font-family-name-quotes)
-[font-family-name-quotes] Expected quotes around "test@foo" (font-family-name-quotes)
-[font-family-name-quotes] Expected quotes around "#POUND" (font-family-name-quotes)
-[font-family-name-quotes] Expected quotes around "Hawaii 5-0" (font-family-name-quotes)
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-
-/en-US/docs/Web/CSS/font-family
-[font-family-name-quotes] Expected quotes around "Gill Sans Extrabold" (font-family-name-quotes)
-~~~
-font-family:
-  Gill Sans Extrabold,
-  sans-serif;
-~~~
-
 /en-US/docs/Web/CSS/hex-color
 [color-hex-length] Expected "#f09" to be "#ff0099" (color-hex-length)
 [color-hex-length] Expected "#f09a" to be "#ff0099aa" (color-hex-length)
@@ -3761,8 +4160,22 @@ div {
 }
 ~~~
 
+/en-US/docs/Web/CSS/ID_selectors
+[valid-id] element id "item?one" must only contain letters, digits, dash and underscore characters
+[valid-id] element id "123item" must begin with a letter
+~~~
+<p id="blue">This paragraph has a blue background.</p>
+<p>This is just a regular paragraph.</p>
+
+<!-- The next two paragraphs have id attributes
+that contain characters which must be escaped in CSS -->
+
+<p id="item?one">This paragraph has a pink background.</p>
+<p id="123item">This paragraph has a yellow background.</p>
+~~~
+
 /en-US/docs/Web/CSS/if
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <section style="--show-apple:true">
   <article><h2>First article</h2></article>
@@ -3798,7 +4211,7 @@ selector {
 ~~~
 
 /en-US/docs/Web/CSS/log
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <div class="bar" style="--value: 50">50</div>
 <div class="bar" style="--value: 100">100</div>
@@ -3807,8 +4220,177 @@ selector {
 <div class="bar" style="--value: 2000000">2,000,000</div>
 ~~~
 
-/en-US/docs/Web/CSS/math-depth
-[no-style-attr] Do not use the style attribute.
+/en-US/docs/Web/CSS/Reference/Properties/border-bottom
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-bottom" after "border-bottom-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-bottom-style: dotted;
+border-bottom: thick green;
+~~~
+
+/en-US/docs/Web/CSS/Reference/Properties/border-bottom
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-bottom" after "border-bottom-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-bottom-style: dotted;
+border-bottom: none thick green;
+~~~
+
+/en-US/docs/Web/CSS/Reference/Properties/border-left
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-left" after "border-left-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-left-style: dotted;
+border-left: thick green;
+~~~
+
+/en-US/docs/Web/CSS/Reference/Properties/border-left
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-left" after "border-left-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-left-style: dotted;
+border-left: none thick green;
+~~~
+
+/en-US/docs/Web/CSS/Reference/Properties/border-radius
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "border-radius" (declaration-block-no-redundant-longhand-properties)
+~~~
+border-radius: 1em / 5em;
+
+/* It is equivalent to: */
+border-top-left-radius: 1em 5em;
+border-top-right-radius: 1em 5em;
+border-bottom-right-radius: 1em 5em;
+border-bottom-left-radius: 1em 5em;
+~~~
+
+/en-US/docs/Web/CSS/Reference/Properties/border-radius
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "border-radius" (declaration-block-no-redundant-longhand-properties)
+~~~
+border-radius: 4px 3px 6px / 2px 4px;
+
+/* It is equivalent to: */
+border-top-left-radius: 4px 2px;
+border-top-right-radius: 3px 4px;
+border-bottom-right-radius: 6px 2px;
+border-bottom-left-radius: 3px 4px;
+~~~
+
+/en-US/docs/Web/CSS/Reference/Properties/border-right
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-right" after "border-right-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-right-style: dotted;
+border-right: thick green;
+~~~
+
+/en-US/docs/Web/CSS/Reference/Properties/border-right
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-right" after "border-right-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-right-style: dotted;
+border-right: none thick green;
+~~~
+
+/en-US/docs/Web/CSS/Reference/Properties/border-top
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-top" after "border-top-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-top-style: dotted;
+border-top: thick green;
+~~~
+
+/en-US/docs/Web/CSS/Reference/Properties/border-top
+[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-top" after "border-top-style" (declaration-block-no-shorthand-property-overrides)
+~~~
+border-top-style: dotted;
+border-top: none thick green;
+~~~
+
+/en-US/docs/Web/CSS/Reference/Properties/color
+[color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
+[color-named] Expected "#f00" to be "red" (color-named)
+[color-named] Expected "#ff0000" to be "red" (color-named)
+[color-named] Expected "rgb(255 0 0)" to be "red" (color-named)
+[color-named] Expected "rgb(100% 0% 0%)" to be "red" (color-named)
+[color-named] Expected "hsl(0 100% 50%)" to be "red" (color-named)
+~~~
+p {
+  color: red;
+}
+p {
+  color: #f00;
+}
+p {
+  color: #ff0000;
+}
+p {
+  color: rgb(255 0 0);
+}
+p {
+  color: rgb(100% 0% 0%);
+}
+p {
+  color: hsl(0 100% 50%);
+}
+
+/* 50% translucent */
+p {
+  color: #ff000080;
+}
+p {
+  color: rgb(255 0 0 / 50%);
+}
+p {
+  color: hsl(0 100% 50% / 50%);
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/Properties/column-count
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "columns" (declaration-block-no-redundant-longhand-properties)
+~~~
+column-count: auto;
+column-width: 8rem;
+~~~
+
+/en-US/docs/Web/CSS/Reference/Properties/display
+[declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
+~~~
+.container {
+  display: inline-flex;
+  display: inline flex;
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/Properties/font-family
+[color-no-invalid-hex] Unexpected invalid hex color "#POUND" (color-no-invalid-hex)
+[declaration-property-value-no-unknown] Unexpected unknown value "1911" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unexpected unknown value "/" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unexpected unknown value "Grande" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Cannot parse property value "Ahem!, sans-serif" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Cannot parse property value "test@foo, sans-serif" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unexpected unknown value "#POUND" for property "font-family" (declaration-property-value-no-unknown)
+[declaration-property-value-no-unknown] Unexpected unknown value "5" for property "font-family" (declaration-property-value-no-unknown)
+[font-family-name-quotes] Expected quotes around "Goudy Bookletter sans-serif" (font-family-name-quotes)
+[font-family-name-quotes] Expected quotes around "Red/Black" (font-family-name-quotes)
+[font-family-name-quotes] Expected quotes around "Ahem!" (font-family-name-quotes)
+[font-family-name-quotes] Expected quotes around "test@foo" (font-family-name-quotes)
+[font-family-name-quotes] Expected quotes around "#POUND" (font-family-name-quotes)
+[font-family-name-quotes] Expected quotes around "Hawaii 5-0" (font-family-name-quotes)
+[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
+~~~
+font-family: Goudy Bookletter 1911, sans-serif;
+font-family: Red/Black, sans-serif;
+font-family: "Lucida" Grande, sans-serif;
+font-family: Ahem!, sans-serif;
+font-family: test@foo, sans-serif;
+font-family: #POUND, sans-serif;
+font-family: Hawaii 5-0, sans-serif;
+~~~
+
+/en-US/docs/Web/CSS/Reference/Properties/font-family
+[font-family-name-quotes] Expected quotes around "Gill Sans Extrabold" (font-family-name-quotes)
+~~~
+font-family:
+  Gill Sans Extrabold,
+  sans-serif;
+~~~
+
+/en-US/docs/Web/CSS/Reference/Properties/math-depth
+[no-inline-style] Inline style is not allowed
 ~~~
 <p>
   <math>
@@ -3839,8 +4421,8 @@ selector {
 </p>
 ~~~
 
-/en-US/docs/Web/CSS/order
-[no-style-attr] Do not use the style attribute.
+/en-US/docs/Web/CSS/Reference/Properties/order
+[no-inline-style] Inline style is not allowed
 ~~~
 <section class="default-example" id="default-example">
   <div class="transition-all" id="example-element">Box 1:</div>
@@ -3851,8 +4433,8 @@ selector {
 </section>
 ~~~
 
-/en-US/docs/Web/CSS/position-area
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+/en-US/docs/Web/CSS/Reference/Properties/position-area
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <div class="anchor" contenteditable="true">⚓︎</div>
 
@@ -3862,6 +4444,41 @@ selector {
     position-area: top center;
   }
 </style>
+~~~
+
+/en-US/docs/Web/CSS/Reference/Properties/transition-behavior
+[declaration-block-no-duplicate-properties] Unexpected duplicate "transition" (declaration-block-no-duplicate-properties)
+~~~
+.card {
+  transition: all 0.25s;
+  transition: all 0.25s allow-discrete;
+}
+
+.card.fade-out {
+  opacity: 0;
+  display: none;
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/Properties/vertical-align
+[no-inline-style] Inline style is not allowed
+~~~
+<p>
+top:         <img style="vertical-align: top" src="star.png" alt="star"/>
+middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
+bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
+super:       <img style="vertical-align: super" src="star.png" alt="star"/>
+sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
+</p>
+
+<p>
+text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
+text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
+0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
+-1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
+20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
+-100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
+</p>
 ~~~
 
 /en-US/docs/Web/CSS/repeat
@@ -3875,7 +4492,7 @@ selector {
 ~~~
 
 /en-US/docs/Web/CSS/revert
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <h3 style="font-weight: revert; color: revert;">
   This should have its original font-weight (bold) and color: black
@@ -3888,7 +4505,7 @@ selector {
 ~~~
 
 /en-US/docs/Web/CSS/revert
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <h3>This will have custom styles</h3>
 <p>Just some text</p>
@@ -3917,24 +4534,45 @@ p {
 }
 ~~~
 
-/en-US/docs/Web/CSS/vertical-align
-[no-style-attr] Do not use the style attribute.
+/en-US/docs/Web/HTML/Reference/Attributes
+[attr-quotes] Attribute "itemscope" using unquoted value
+~~~
+<div itemscope>This is valid HTML but invalid XML.</div>
+<div itemscope=itemscope>This is also valid HTML but invalid XML.</div>
+<div itemscope="">This is valid HTML and also valid XML.</div>
+<div itemscope="itemscope">
+  This is also valid HTML and XML, but perhaps a bit verbose.
+</div>
+~~~
+
+/en-US/docs/Web/HTML/Reference/Attributes/pattern
+[multiple-labeled-controls] <label> is associated with multiple controls
 ~~~
 <p>
-top:         <img style="vertical-align: top" src="star.png" alt="star"/>
-middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
-bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
-super:       <img style="vertical-align: super" src="star.png" alt="star"/>
-sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
-</p>
-
-<p>
-text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
-text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
-0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
--1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
-20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
--100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
+  <label>
+    Enter your phone number in the format (123) - 456 - 7890 (<input
+      name="tel1"
+      type="tel"
+      pattern="[0-9]{3}"
+      placeholder="###"
+      aria-label="3-digit area code"
+      size="2" />) -
+    <input
+      name="tel2"
+      type="tel"
+      pattern="[0-9]{3}"
+      placeholder="###"
+      aria-label="3-digit prefix"
+      size="2" />
+    -
+    <input
+      name="tel3"
+      type="tel"
+      pattern="[0-9]{4}"
+      placeholder="####"
+      aria-label="4-digit number"
+      size="3" />
+  </label>
 </p>
 ~~~
 
@@ -4008,8 +4646,81 @@ text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/
 </html>
 ~~~
 
+/en-US/docs/Web/HTML/Reference/Elements/img
+[no-redundant-role] Redundant role "img" on <img>
+~~~
+<img src="mdn.svg" alt="MDN" role="img" />
+~~~
+
+/en-US/docs/Web/HTML/Reference/Elements/input/month
+[input-attributes] Attribute "pattern" is not allowed on <input type="month">
+~~~
+<form>
+  <div>
+    <label for="month">
+      What month would you like to visit (June to Sept.)?
+    </label>
+    <input
+      id="month"
+      type="month"
+      name="month"
+      min="2022-06"
+      max="2022-09"
+      required
+      pattern="[0-9]{4}-[0-9]{2}" />
+    <span class="validity"></span>
+  </div>
+  <div>
+    <input type="submit" value="Submit form" />
+  </div>
+</form>
+~~~
+
+/en-US/docs/Web/HTML/Reference/Elements/input/week
+[form-dup-name] Duplicate form control name "week"
+~~~
+<form>
+  <div class="nativeWeekPicker">
+    <label for="week">What week would you like to start?</label>
+    <input
+      id="week"
+      type="week"
+      name="week"
+      min="2017-W01"
+      max="2018-W52"
+      required />
+    <span class="validity"></span>
+  </div>
+  <p class="fallbackLabel">What week would you like to start?</p>
+  <div class="fallbackWeekPicker">
+    <div>
+      <span>
+        <label for="week">Week:</label>
+        <select id="fallbackWeek" name="week"></select>
+      </span>
+      <span>
+        <label for="year">Year:</label>
+        <select id="year" name="year">
+          <option value="2017" selected>2017</option>
+          <option value="2018">2018</option>
+        </select>
+      </span>
+    </div>
+  </div>
+</form>
+~~~
+
+/en-US/docs/Web/HTML/Reference/Elements/label
+[element-permitted-content] <h3> element is not permitted as content under <label>
+~~~
+<label for="your-name">
+  <h3>Your name</h3>
+  <input id="your-name" name="your-name" type="text" />
+</label>
+~~~
+
 /en-US/docs/Web/HTML/Reference/Elements/link
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <link href="/shared-assets/misc/link-element-example.css" rel="stylesheet" />
 
@@ -4073,7 +4784,35 @@ text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/
 ~~~
 
 /en-US/docs/Web/HTML/Reference/Elements/template
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+[element-permitted-content] <style> element is not permitted as content under <article>
+~~~
+<p hidden>
+  ⛔ Your browser doesn't support <code>shadowrootmode</code> attribute yet.
+</p>
+<article>
+  <style>
+    p {
+      padding: 8px;
+      background-color: wheat;
+    }
+  </style>
+  <p>I'm in the DOM.</p>
+</article>
+<article>
+  <template shadowrootmode="open">
+    <style>
+      p {
+        padding: 8px;
+        background-color: plum;
+      }
+    </style>
+    <p>I'm in the shadow DOM.</p>
+  </template>
+</article>
+~~~
+
+/en-US/docs/Web/HTML/Reference/Elements/template
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <p hidden>
   ⛔ Your browser doesn't support <code>shadowrootmode</code> attribute yet.
@@ -4130,10 +4869,10 @@ console.log(splitUpString("jQWhy")); // ["jQ", "W", "hy"]
 ~~~
 
 /en-US/docs/Web/HTTP/Guides/Evolution_of_HTTP
-[html-has-lang] HTML element should have a lang attribute.
+[element-required-attributes] <html> is missing required "lang" attribute
 ~~~
 <html>
-  An text-only web page
+  A text-only web page
 </html>
 ~~~
 
@@ -4425,7 +5164,7 @@ import { default as randomSquare } from "./modules/square.js";
 <html lang="en-US">
   <head>
     <meta charset="UTF-8" />
-    <title></title>
+    <title>Example page</title>
     <link rel="stylesheet" href="" />
   </head>
   <body>
@@ -7415,6 +8154,16 @@ const a = console?.log
 const bad = `bad escape sequence: \unicode`;
 ~~~
 
+/en-US/docs/Web/Progressive_web_apps/Tutorials/CycleTracker/Manifest_file
+[no-redundant-role] Redundant role "img" on <img>
+~~~
+<div>
+  <img alt="a green circle" src="circle.svg" role="img" />
+  <img alt="a simple wheel" src="tire.svg" role="img" />
+  <img alt="a detailed wheel" src="wheel.svg" role="img" />
+</div>
+~~~
+
 /en-US/docs/Web/Progressive_web_apps/Tutorials/CycleTracker/Service_workers
 [no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
 ~~~
@@ -7494,7 +8243,7 @@ console.log(withDefaults.test); // "value"
 ~~~
 
 /en-US/docs/Web/SVG/Reference/Attribute/fill-opacity
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <svg viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
   <!-- Default fill opacity: 1 -->
@@ -7512,7 +8261,7 @@ console.log(withDefaults.test); // "value"
 ~~~
 
 /en-US/docs/Web/SVG/Reference/Attribute/stroke-opacity
-[no-style-attr] Do not use the style attribute.
+[no-inline-style] Inline style is not allowed
 ~~~
 <svg viewBox="0 0 40 10" xmlns="http://www.w3.org/2000/svg">
   <!-- Default stroke opacity: 1 -->
@@ -7530,7 +8279,7 @@ console.log(withDefaults.test); // "value"
 ~~~
 
 /en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/SVG_and_CSS
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <style>
   @import "style8.css";

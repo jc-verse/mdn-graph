@@ -1,9 +1,12 @@
 import { ESLint } from "eslint";
 import stylelint from "stylelint";
 import { parse as htmlParse } from "angular-html-parser";
+import { HtmlValidate } from "html-validate";
 import eslintConfig from "../../config/eslint-config.ts";
 import stylelintConfig from "../../config/stylelint-config.ts";
-import htmlLintConfig from "../../config/html-lint-config.ts";
+import htmlLintConfig, {
+  ignore as htmlIgnore,
+} from "../../config/html-lint-config.ts";
 import type { Visitor } from "angular-html-parser/lib/compiler/src/ml_parser/ast.js";
 
 const sanctionedLanguages = [
@@ -79,6 +82,8 @@ const eslint = new ESLint({
   fix: false,
 });
 
+const htmlvalidate = new HtmlValidate(htmlLintConfig);
+
 const htmlVisitor: Visitor = {
   visitAttribute(attr, ctx) {
     if (attr.name.startsWith("on")) {
@@ -88,60 +93,16 @@ const htmlVisitor: Visitor = {
         content: ctx.content,
         span: attr.sourceSpan,
       });
-    } else if (attr.name === "style") {
-      if (
-        // Not worth fixing
-        ctx.path === "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Paths" &&
-        attr.value === "display:none"
-      )
-        return;
-      ctx.messages.push({
-        ruleId: "no-style-attr",
-        message: `Do not use the style attribute.`,
-        content: ctx.content,
-        span: attr.sourceSpan,
-      });
-    } else if (["id", "class"].includes(attr.name)) {
-      if (attr.value.match(/[A-Z]/)) {
-        // TODO
-        // ctx.messages.push({
-        //   ruleId: "no-uppercase-id-class",
-        //   message: `Element ${attr.name} should consist entirely of lowercase letters.`,
-        //   content: ctx.content,
-        //   span: attr.sourceSpan,
-        // });
-      }
-      if (attr.name === "id" && attr.value.includes(" ")) {
+    }
+    if (attr.name === "class") {
+      if (!attr.value.match(/^(?:\S+)(?: \S+)*$/)) {
         ctx.messages.push({
-          ruleId: "no-spaces-in-id",
-          message: `Element id should not contain spaces.`,
+          ruleId: "unformatted-class",
+          message:
+            "Element class should be a list of tokens separated by single spaces.",
           content: ctx.content,
           span: attr.sourceSpan,
         });
-      }
-      if (attr.name === "class") {
-        if (!attr.value.match(/^(?:\S+)(?: \S+)*$/)) {
-          ctx.messages.push({
-            ruleId: "unformatted-class",
-            message:
-              "Element class should be a list of tokens separated by single spaces.",
-            content: ctx.content,
-            span: attr.sourceSpan,
-          });
-        }
-        const allClasses = attr.value.split(/\s+/).filter(Boolean);
-        const seen = new Set<string>();
-        for (const cls of allClasses) {
-          if (seen.has(cls)) {
-            ctx.messages.push({
-              ruleId: "no-duplicate-class",
-              message: `Duplicate class "${cls}".`,
-              content: ctx.content,
-              span: attr.sourceSpan,
-            });
-          }
-          seen.add(cls);
-        }
       }
     }
   },
@@ -200,29 +161,6 @@ const htmlVisitor: Visitor = {
         });
       }
     } else if (el.name === "style") {
-      if (
-        !(
-          el.children.length === 1 &&
-          el.children[0]!.type === "text" &&
-          (el.children[0]!.value.trim().match(
-            /^\/\* (?:…|Add styles here|Insert your CSS here|CSS goes here) \*\/$/,
-          ) ||
-            // Used by a few game articles
-            el.children[0]!.value.replace(/\s/g, "") ===
-              "html,body,canvas{margin:0;padding:0;width:100%;height:100%;font-size:0;}")
-        ) &&
-        !ctx.isTemplate &&
-        // If the style has an id, it is probably used by a script
-        !el.attrs.some((attr) => attr.name === "id")
-      ) {
-        ctx.messages.push({
-          ruleId: "no-style-elem",
-          message:
-            "Do not use the <style> element; use separate CSS blocks instead.",
-          content: ctx.content,
-          span: el.sourceSpan,
-        });
-      }
       if (el.children.length === 1 && el.children[0]!.type === "text") {
         ctx.otherPromises.push(
           checkCSS(
@@ -237,15 +175,6 @@ const htmlVisitor: Visitor = {
         ctx.messages.push({
           ruleId: "empty-style",
           message: "Style element should have non-empty text.",
-          content: ctx.content,
-          span: el.sourceSpan,
-        });
-      }
-    } else if (el.name === "html") {
-      if (!el.attrs.some((attr) => attr.name === "lang")) {
-        ctx.messages.push({
-          ruleId: "html-has-lang",
-          message: "HTML element should have a lang attribute.",
           content: ctx.content,
           span: el.sourceSpan,
         });
@@ -265,19 +194,6 @@ const htmlVisitor: Visitor = {
         span: el.children[0].sourceSpan,
       });
     }
-    const allAttrs = { __proto__: null } as never as Record<string, string>;
-    for (const a of el.attrs) {
-      if (a.name in allAttrs) {
-        ctx.messages.push({
-          ruleId: "no-duplicate-attribute",
-          message: `Duplicate attribute "${a.name}".`,
-          content: ctx.content,
-          span: el.startSourceSpan,
-        });
-      }
-      allAttrs[a.name] = a.value;
-    }
-    // TODO: validate allAttrs
     if (el.name === "template") {
       ctx.isTemplate++;
     } else if (el.name === ":svg:svg") {
@@ -326,12 +242,106 @@ function reportIfUnexpected(
       return;
     }
   }
-  if (
-    path.startsWith("/en-US/docs/Mozilla/Add-ons/WebExtensions") &&
-    language === "json" &&
-    ruleId === "syntax"
-  ) {
-    return;
+  if (language === "json") {
+    if (
+      path.startsWith("/en-US/docs/Mozilla/Add-ons/WebExtensions") &&
+      language === "json" &&
+      ruleId === "syntax"
+    )
+      return;
+  } else if (language === "js") {
+    if (
+      ruleId === "no-useless-escape" &&
+      message === "Unnecessary escape character: \\/." &&
+      content.includes("<\\/script>")
+    )
+      return;
+  } else if (language === "html") {
+    const filePath = path.replace("/en-US/docs/", "");
+    if (
+      htmlIgnore.some(
+        (ignore) =>
+          ignore.files.some((pattern) => {
+            if (pattern.endsWith("/**")) {
+              return filePath.startsWith(
+                pattern.slice(0, -3).replace(/\/$/, ""),
+              );
+            } else if (pattern.endsWith("*")) {
+              return (
+                filePath.startsWith(pattern.slice(0, -1).replace(/\/$/, "")) &&
+                !filePath.includes("/", pattern.slice(0, -1).length)
+              );
+            }
+            return filePath === pattern;
+          }) && ignore.rules[ruleId] === "off",
+      )
+    ) {
+      return;
+    }
+    // TODO
+    if (
+      ruleId === "element-required-attributes" &&
+      [
+        '<iframe> is missing required "title" attribute',
+        '<embed> is missing required "title" attribute',
+      ].includes(message)
+    )
+      return;
+    if (
+      ruleId === "element-required-content" &&
+      [
+        "<head> element must have <title> as content",
+        "<html> element must have <head> as content",
+        "<html> element must have <body> as content",
+      ].includes(message)
+    )
+      return;
+    if (
+      ruleId === "element-required-content" &&
+      [
+        "<head> element must have <title> as content",
+        "<html> element must have <head> as content",
+        "<html> element must have <body> as content",
+      ].includes(message)
+    )
+      return;
+    if (
+      ruleId === "attr-case" &&
+      message === 'Attribute "..." should be camelCase'
+    )
+      return;
+    // TODO: https://gitlab.com/html-validate/html-validate/-/issues/322
+    if (
+      ruleId === "attribute-boolean-style" &&
+      message === 'Attribute "hidden" should omit value'
+    )
+      return;
+    // TODO: https://gitlab.com/html-validate/html-validate/-/issues/328
+    if (
+      ruleId === "no-redundant-role" &&
+      message === 'Redundant role "list" on <ul>'
+    )
+      return;
+    // TODO: Ember docs are retiring
+    if (
+      path ===
+        "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Ember_structure_componentization" &&
+      ruleId === "element-case" &&
+      message === 'Element "Todo" should be camelCase'
+    )
+      return;
+  } else if (language === "css") {
+    if (
+      ruleId === "font-family-name-quotes" &&
+      [
+        'Expected quotes around "caption" (font-family-name-quotes)',
+        'Expected quotes around "status-bar" (font-family-name-quotes)',
+        'Expected quotes around "some-non-variable-font-family" (font-family-name-quotes)',
+        'Expected quotes around "some-variable-font-family" (font-family-name-quotes)',
+        'Expected quotes around "PLACEHOLDER" (font-family-name-quotes)',
+      ].includes(message)
+    )
+      return;
   }
   report(
     path,
@@ -580,19 +590,6 @@ async function checkHTML(
   await Promise.all(otherPromises);
   const filePath = path.replace("/en-US/docs/", "");
   for (const msg of messages) {
-    if (
-      htmlLintConfig.ignore.some(
-        (ignore) =>
-          ignore.files.some((file) => {
-            if (file.endsWith("/**")) {
-              return filePath.startsWith(file.slice(0, -3).replace(/\/$/, ""));
-            }
-            return filePath === file;
-          }) && ignore.rules[msg.ruleId] === "off",
-      )
-    ) {
-      continue;
-    }
     reportIfUnexpected(
       path,
       "html",
@@ -606,6 +603,21 @@ async function checkHTML(
         .join("\n"),
       report,
     );
+  }
+  const htmlValidateRes = await htmlvalidate.validateString(content, filePath);
+  for (const result of htmlValidateRes.results) {
+    for (const msg of result.messages) {
+      reportIfUnexpected(
+        path,
+        "html",
+        msg.ruleId,
+        msg.message,
+        content,
+        `${msg.line}:${msg.column}`,
+        content.substr(msg.offset, msg.size),
+        report,
+      );
+    }
   }
 }
 
