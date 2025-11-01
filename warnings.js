@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-b3hc2tc9.js";
+} from "./chunk-8seh85rk.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -102,17 +102,22 @@ var warnings_processed_default = {
                     {
                       message: "HTML code issue",
                       data: [
-                        "no-style-elem",
-                        "Do not use the <style> element; use separate CSS blocks instead.",
-                        `    <style>
-      body {
-        margin: 0;
-        background: #333333;
-      }
-    </style>`,
-                        "5:4 - 10:12",
+                        "no-inline-script",
+                        "Do not write JS within the <script> element; use separate JS blocks instead.",
+                        `    <script>
+      (() => {
+        const game = new Phaser.Game(320, 480, Phaser.CANVAS, "game");
+        game.state.add("Boot", Ball.Boot);
+        game.state.add("Preloader", Ball.Preloader);
+        game.state.add("MainMenu", Ball.MainMenu);
+        game.state.add("Howto", Ball.Howto);
+        game.state.add("Game", Ball.Game);
+        game.state.start("Boot");
+      })();
+    </script>`,
+                        "19:4 - 29:13",
                         `/en-US/docs/Games/Tutorials/HTML5_Gamedev_Phaser_Device_Orientation
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
 ~~~
 <!doctype html>
 <html lang="en-GB">
@@ -153,22 +158,12 @@ var warnings_processed_default = {
                     {
                       message: "HTML code issue",
                       data: [
-                        "no-inline-script",
-                        "Do not write JS within the <script> element; use separate JS blocks instead.",
-                        `    <script>
-      (() => {
-        const game = new Phaser.Game(320, 480, Phaser.CANVAS, "game");
-        game.state.add("Boot", Ball.Boot);
-        game.state.add("Preloader", Ball.Preloader);
-        game.state.add("MainMenu", Ball.MainMenu);
-        game.state.add("Howto", Ball.Howto);
-        game.state.add("Game", Ball.Game);
-        game.state.start("Boot");
-      })();
-    </script>`,
-                        "19:4 - 29:13",
+                        "mdn-graph/no-style-tag",
+                        "Use external stylesheet with <link> instead of <style> tag",
+                        "style",
+                        "6:6",
                         `/en-US/docs/Games/Tutorials/HTML5_Gamedev_Phaser_Device_Orientation
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
 ~~~
 <!doctype html>
 <html lang="en-GB">
@@ -338,7 +333,7 @@ var warnings_processed_default = {
                 {
                   message: "Broken external link",
                   data: [
-                    "https://stylus-lang.com/",
+                    "https://sass-lang.com/",
                     "The operation timed out."
                   ]
                 }
@@ -1285,6 +1280,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            source_map: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Source_map",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://sass-lang.com/",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -1473,6 +1481,13 @@ span {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -2241,20 +2256,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/ember-inspector/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
                         }
                       ]
                     },
@@ -2285,6 +2286,13 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://guides.emberjs.com/release/services/",
                             "The operation timed out."
                           ]
@@ -2294,6 +2302,19 @@ ul li {
                           data: [
                             "https://guides.emberjs.com/release/testing/",
                             "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    react_getting_started: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -4297,7 +4318,7 @@ body {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://stylus-lang.com/",
+                            "https://sass-lang.com/",
                             "The operation timed out."
                           ]
                         }
@@ -4350,6 +4371,23 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "aria-label-misuse",
+                            '"aria-labelledby" is strictly allowed but is not recommended to be used on this element',
+                            "aria-labelledby",
+                            "1:5",
+                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_styling
+[aria-label-misuse] "aria-labelledby" is strictly allowed but is not recommended to be used on this element
+~~~
+<ul aria-labelledby="list-summary" class="stack-large">
+  …
+</ul>
+~~~
+`
+                          ]
                         }
                       ]
                     }
@@ -4471,65 +4509,55 @@ button {
                 },
                 structuring_content: {
                   children: {
-                    table_accessibility: {
+                    general_embedding_technologies: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility",
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies",
                       messages: [
                         {
-                          message: "CSS code issue",
+                          message: "HTML code issue",
                           data: [
-                            "color-named",
-                            'Expected "rgb(245 245 245)" to be "whitesmoke" (color-named)',
-                            "  background-color: rgb(245 245 245);",
-                            "31:21 - 31:37",
-                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Table_accessibility
-[color-named] Expected "rgb(245 245 245)" to be "whitesmoke" (color-named)
+                            "element-permitted-content",
+                            "<p> element is not permitted as content under <iframe>",
+                            "p",
+                            "7:4",
+                            `/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies
+[element-permitted-content] <p> element is not permitted as content under <iframe>
 ~~~
-html {
-  font-family: sans-serif;
-}
-
-table {
-  border-collapse: collapse;
-  border: 2px solid rgb(200 200 200);
-  letter-spacing: 1px;
-  font-size: 0.8rem;
-}
-
-td,
-th {
-  border: 1px solid rgb(190 190 190);
-  padding: 10px 20px;
-}
-
-th {
-  background-color: rgb(235 235 235);
-}
-
-td {
-  text-align: center;
-}
-
-tr:nth-child(even) td {
-  background-color: rgb(250 250 250);
-}
-
-tr:nth-child(odd) td {
-  background-color: rgb(245 245 245);
-}
-
-caption {
-  padding: 10px;
-}
-
-tbody {
-  font-size: 95%;
-  font-style: italic;
-}
-
-tfoot {
-  font-weight: bold;
-}
+<iframe
+  src="https://developer.mozilla.org/en-US/docs/Glossary"
+  width="100%"
+  height="500"
+  allowfullscreen
+  sandbox>
+  <p>
+    <a href="/en-US/docs/Glossary">
+      Fallback link for browsers that don't support iframes
+    </a>
+  </p>
+</iframe>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    including_vector_graphics_in_html: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Including_vector_graphics_in_HTML",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<img> element is not permitted as content under <iframe>",
+                            "img",
+                            "2:4",
+                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Including_vector_graphics_in_HTML
+[element-permitted-content] <img> element is not permitted as content under <iframe>
+~~~
+<iframe src="triangle.svg" width="500" height="500" sandbox>
+  <img src="triangle.png" alt="Triangle with three unequal sides" />
+</iframe>
 ~~~
 `
                           ]
@@ -5138,6 +5166,19 @@ span {
                         }
                       ]
                     },
+                    organizing: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {
                         backgrounds_and_borders: {
@@ -5637,6 +5678,77 @@ button:active {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                "client-side_tools": {
+                  children: {
+                    introducing_complete_toolchain: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://eslint.org/docs/latest/rules/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    overview: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://babeljs.io/docs/plugins",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    package_management: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vite.dev/guide/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://classic.yarnpkg.com/en/docs/cli/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -11150,6 +11262,74 @@ textarea:focus {
                     }
                   }
                 },
+                performance: {
+                  children: {
+                    multimedia: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "attribute-misuse",
+                            '"src" attribute cannot be used on <source> in this context: requires <audio> or <video> as parent',
+                            "src",
+                            "2:28",
+                            `/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia
+[attribute-misuse] "src" attribute cannot be used on <source> in this context: requires <audio> or <video> as parent
+~~~
+<picture>
+  <source type="video/mp4" src="giphy.mp4" />
+  <source type="image/webp" src="giphy.webp" />
+  <img src="giphy.gif" alt="A GIF animation" />
+</picture>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "attribute-misuse",
+                            '"src" attribute cannot be used on <source> in this context: requires <audio> or <video> as parent',
+                            "src",
+                            "3:29",
+                            `/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia
+[attribute-misuse] "src" attribute cannot be used on <source> in this context: requires <audio> or <video> as parent
+~~~
+<picture>
+  <source type="video/mp4" src="giphy.mp4" />
+  <source type="image/webp" src="giphy.webp" />
+  <img src="giphy.gif" alt="A GIF animation" />
+</picture>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    video: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/video",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.ffmpeg.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.ffmpeg.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 "server-side": {
                   children: {
                     express_nodejs: {
@@ -11161,24 +11341,7 @@ textarea:focus {
                             {
                               message: "Broken external link",
                               data: [
-                                "https://stylus-lang.com/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
-                    first_steps: {
-                      children: {
-                        "client-server_overview": {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://websniffer.com/",
+                                "https://sass-lang.com/",
                                 "The operation timed out."
                               ]
                             }
@@ -11747,32 +11910,29 @@ body {
                     }
                   }
                 },
+                soft_skills: {
+                  children: {
+                    workflows_and_processes: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
                       messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "PLACEHOLDER" (font-family-name-quotes)',
-                            "  font-family: PLACEHOLDER;",
-                            "5:16 - 5:27",
-                            `/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content
-[font-family-name-quotes] Expected quotes around "PLACEHOLDER" (font-family-name-quotes)
-~~~
-html {
-  /* px means "pixels". The base font size is now 10 pixels high */
-  font-size: 10px;
-  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
-  font-family: PLACEHOLDER;
-}
-~~~
-`
-                          ]
-                        },
                         {
                           message: "Stylelint backlog",
                           data: [
@@ -12084,6 +12244,19 @@ padding-left: 20px;
                       data: []
                     }
                   ]
+                },
+                pull_requests: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Community/Pull_requests",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://product.voxmedia.com/2018/8/21/17549400/kindness-and-code-reviews-improving-the-way-we-give-feedback",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Community",
@@ -12133,7 +12306,7 @@ color: rgb(31 41 59 / 26%);
                         {
                           message: "Broken external link",
                           data: [
-                            "https://stylus-lang.com/",
+                            "https://sass-lang.com/",
                             "The operation timed out."
                           ]
                         }
@@ -13014,618 +13187,6 @@ webextensions.api.clipboard`,
                           slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Browser_styles",
                           messages: [
                             {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "caption" (font-family-name-quotes)',
-                                "  font: caption;",
-                                "10:9 - 10:16",
-                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Browser_styles
-[font-family-name-quotes] Expected quotes around "caption" (font-family-name-quotes)
-~~~
-/* Global */
-html,
-body {
-  background: white;
-  box-sizing: border-box;
-  color: #222426;
-  cursor: default;
-  display: flex;
-  flex-direction: column;
-  font: caption;
-  margin: 0;
-  padding: 0;
-  -moz-user-select: none;
-}
-
-body * {
-  box-sizing: border-box;
-  text-align: start;
-}
-
-button.panel-section-footer-button,
-button.panel-section-tabs-button {
-  color: inherit;
-  background-color: unset;
-  font: inherit;
-  text-shadow: inherit;
-  appearance: none;
-  border: none;
-}
-
-/* Panel Section */
-.panel-section {
-  display: flex;
-  flex-direction: row;
-}
-
-.panel-section-separator {
-  background-color: rgb(0 0 0 / 0.15);
-  min-height: 1px;
-}
-
-/* Panel Section - Header */
-.panel-section-header {
-  border-bottom: 1px solid rgb(0 0 0 / 0.15);
-  padding: 16px;
-}
-
-.panel-section-header > .icon-section-header {
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 32px;
-  margin-right: 16px;
-  position: relative;
-  width: 32px;
-}
-
-.panel-section-header > .text-section-header {
-  align-self: center;
-  font-size: 1.385em;
-  font-weight: lighter;
-}
-
-/* Panel Section - List */
-.panel-section-list {
-  flex-direction: column;
-  padding: 4px 0;
-}
-
-.panel-list-item {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  height: 24px;
-  padding: 0 16px;
-}
-
-.panel-list-item:not(.disabled):hover {
-  background-color: rgb(0 0 0 / 0.06);
-  border-bottom: 1px solid rgb(0 0 0 / 0.1);
-  border-top: 1px solid rgb(0 0 0 / 0.1);
-}
-
-.panel-list-item:not(.disabled):hover:active {
-  background-color: rgb(0 0 0 / 0.1);
-}
-
-.panel-list-item.disabled {
-  color: #999999;
-}
-
-.panel-list-item > .icon {
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-
-.panel-list-item > .text {
-  flex-grow: 10;
-}
-
-.panel-list-item > .text-shortcut {
-  color: gray;
-  font-family: "Lucida Grande", caption;
-  font-size: 0.847em;
-  justify-content: flex-end;
-}
-
-.panel-section-list .panel-section-separator {
-  margin: 4px 0;
-}
-
-/* Panel Section - Footer */
-.panel-section-footer {
-  background-color: rgb(0 0 0 / 0.06);
-  border-top: 1px solid rgb(0 0 0 / 0.15);
-  color: #1a1a1a;
-  display: flex;
-  flex-direction: row;
-  height: 41px;
-  margin-top: -1px;
-  padding: 0;
-}
-
-.panel-section-footer-button {
-  flex: 1 1 auto;
-  height: 100%;
-  margin: 0 -1px;
-  padding: 12px;
-  text-align: center;
-}
-
-.panel-section-footer-button > .text-shortcut {
-  color: gray;
-  font-family: "Lucida Grande", caption;
-  font-size: 0.847em;
-}
-
-.panel-section-footer-button:hover {
-  background-color: rgb(0 0 0 / 0.06);
-}
-
-.panel-section-footer-button:hover:active {
-  background-color: rgb(0 0 0 / 0.1);
-}
-
-.panel-section-footer-button.default {
-  background-color: #0996f8;
-  box-shadow: 0 1px 0 #0670cc inset;
-  color: white;
-}
-
-.panel-section-footer-button.default:hover {
-  background-color: #0670cc;
-  box-shadow: 0 1px 0 #005bab inset;
-}
-
-.panel-section-footer-button.default:hover:active {
-  background-color: #005bab;
-  box-shadow: 0 1px 0 #004480 inset;
-}
-
-.panel-section-footer-separator {
-  background-color: rgb(0 0 0 / 0.1);
-  width: 1px;
-  z-index: 99;
-}
-
-/* Example specific – not part of chrome://browser/content/extension.css */
-body {
-  background: #fcfcfc;
-  background-clip: padding-box;
-  border: 1px solid rgb(24 26 27 / 0.2);
-  box-shadow:
-    0 3px 5px rgb(24 26 27 / 0.1),
-    0 0 7px rgb(24 26 27 / 0.1);
-  box-sizing: content-box;
-  margin: 2em auto 0.5em;
-  width: 384px;
-}
-
-html {
-  min-height: 100vh;
-}
-
-html > body {
-  margin: auto;
-}
-
-.icon-section-header {
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48Y2lyY2xlIGZpbGw9IiMzNjM5NTkiIGN4PSIxNSIgY3k9IjE1IiByPSIxNSIvPjwvc3ZnPg==");
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "caption" (font-family-name-quotes)',
-                                '  font-family: "Lucida Grande", caption;',
-                                "102:33 - 102:40",
-                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Browser_styles
-[font-family-name-quotes] Expected quotes around "caption" (font-family-name-quotes)
-~~~
-/* Global */
-html,
-body {
-  background: white;
-  box-sizing: border-box;
-  color: #222426;
-  cursor: default;
-  display: flex;
-  flex-direction: column;
-  font: caption;
-  margin: 0;
-  padding: 0;
-  -moz-user-select: none;
-}
-
-body * {
-  box-sizing: border-box;
-  text-align: start;
-}
-
-button.panel-section-footer-button,
-button.panel-section-tabs-button {
-  color: inherit;
-  background-color: unset;
-  font: inherit;
-  text-shadow: inherit;
-  appearance: none;
-  border: none;
-}
-
-/* Panel Section */
-.panel-section {
-  display: flex;
-  flex-direction: row;
-}
-
-.panel-section-separator {
-  background-color: rgb(0 0 0 / 0.15);
-  min-height: 1px;
-}
-
-/* Panel Section - Header */
-.panel-section-header {
-  border-bottom: 1px solid rgb(0 0 0 / 0.15);
-  padding: 16px;
-}
-
-.panel-section-header > .icon-section-header {
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 32px;
-  margin-right: 16px;
-  position: relative;
-  width: 32px;
-}
-
-.panel-section-header > .text-section-header {
-  align-self: center;
-  font-size: 1.385em;
-  font-weight: lighter;
-}
-
-/* Panel Section - List */
-.panel-section-list {
-  flex-direction: column;
-  padding: 4px 0;
-}
-
-.panel-list-item {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  height: 24px;
-  padding: 0 16px;
-}
-
-.panel-list-item:not(.disabled):hover {
-  background-color: rgb(0 0 0 / 0.06);
-  border-bottom: 1px solid rgb(0 0 0 / 0.1);
-  border-top: 1px solid rgb(0 0 0 / 0.1);
-}
-
-.panel-list-item:not(.disabled):hover:active {
-  background-color: rgb(0 0 0 / 0.1);
-}
-
-.panel-list-item.disabled {
-  color: #999999;
-}
-
-.panel-list-item > .icon {
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-
-.panel-list-item > .text {
-  flex-grow: 10;
-}
-
-.panel-list-item > .text-shortcut {
-  color: gray;
-  font-family: "Lucida Grande", caption;
-  font-size: 0.847em;
-  justify-content: flex-end;
-}
-
-.panel-section-list .panel-section-separator {
-  margin: 4px 0;
-}
-
-/* Panel Section - Footer */
-.panel-section-footer {
-  background-color: rgb(0 0 0 / 0.06);
-  border-top: 1px solid rgb(0 0 0 / 0.15);
-  color: #1a1a1a;
-  display: flex;
-  flex-direction: row;
-  height: 41px;
-  margin-top: -1px;
-  padding: 0;
-}
-
-.panel-section-footer-button {
-  flex: 1 1 auto;
-  height: 100%;
-  margin: 0 -1px;
-  padding: 12px;
-  text-align: center;
-}
-
-.panel-section-footer-button > .text-shortcut {
-  color: gray;
-  font-family: "Lucida Grande", caption;
-  font-size: 0.847em;
-}
-
-.panel-section-footer-button:hover {
-  background-color: rgb(0 0 0 / 0.06);
-}
-
-.panel-section-footer-button:hover:active {
-  background-color: rgb(0 0 0 / 0.1);
-}
-
-.panel-section-footer-button.default {
-  background-color: #0996f8;
-  box-shadow: 0 1px 0 #0670cc inset;
-  color: white;
-}
-
-.panel-section-footer-button.default:hover {
-  background-color: #0670cc;
-  box-shadow: 0 1px 0 #005bab inset;
-}
-
-.panel-section-footer-button.default:hover:active {
-  background-color: #005bab;
-  box-shadow: 0 1px 0 #004480 inset;
-}
-
-.panel-section-footer-separator {
-  background-color: rgb(0 0 0 / 0.1);
-  width: 1px;
-  z-index: 99;
-}
-
-/* Example specific – not part of chrome://browser/content/extension.css */
-body {
-  background: #fcfcfc;
-  background-clip: padding-box;
-  border: 1px solid rgb(24 26 27 / 0.2);
-  box-shadow:
-    0 3px 5px rgb(24 26 27 / 0.1),
-    0 0 7px rgb(24 26 27 / 0.1);
-  box-sizing: content-box;
-  margin: 2em auto 0.5em;
-  width: 384px;
-}
-
-html {
-  min-height: 100vh;
-}
-
-html > body {
-  margin: auto;
-}
-
-.icon-section-header {
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48Y2lyY2xlIGZpbGw9IiMzNjM5NTkiIGN4PSIxNSIgY3k9IjE1IiByPSIxNSIvPjwvc3ZnPg==");
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "caption" (font-family-name-quotes)',
-                                '  font-family: "Lucida Grande", caption;',
-                                "133:33 - 133:40",
-                                `/en-US/docs/Mozilla/Add-ons/WebExtensions/user_interface/Browser_styles
-[font-family-name-quotes] Expected quotes around "caption" (font-family-name-quotes)
-~~~
-/* Global */
-html,
-body {
-  background: white;
-  box-sizing: border-box;
-  color: #222426;
-  cursor: default;
-  display: flex;
-  flex-direction: column;
-  font: caption;
-  margin: 0;
-  padding: 0;
-  -moz-user-select: none;
-}
-
-body * {
-  box-sizing: border-box;
-  text-align: start;
-}
-
-button.panel-section-footer-button,
-button.panel-section-tabs-button {
-  color: inherit;
-  background-color: unset;
-  font: inherit;
-  text-shadow: inherit;
-  appearance: none;
-  border: none;
-}
-
-/* Panel Section */
-.panel-section {
-  display: flex;
-  flex-direction: row;
-}
-
-.panel-section-separator {
-  background-color: rgb(0 0 0 / 0.15);
-  min-height: 1px;
-}
-
-/* Panel Section - Header */
-.panel-section-header {
-  border-bottom: 1px solid rgb(0 0 0 / 0.15);
-  padding: 16px;
-}
-
-.panel-section-header > .icon-section-header {
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 32px;
-  margin-right: 16px;
-  position: relative;
-  width: 32px;
-}
-
-.panel-section-header > .text-section-header {
-  align-self: center;
-  font-size: 1.385em;
-  font-weight: lighter;
-}
-
-/* Panel Section - List */
-.panel-section-list {
-  flex-direction: column;
-  padding: 4px 0;
-}
-
-.panel-list-item {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  height: 24px;
-  padding: 0 16px;
-}
-
-.panel-list-item:not(.disabled):hover {
-  background-color: rgb(0 0 0 / 0.06);
-  border-bottom: 1px solid rgb(0 0 0 / 0.1);
-  border-top: 1px solid rgb(0 0 0 / 0.1);
-}
-
-.panel-list-item:not(.disabled):hover:active {
-  background-color: rgb(0 0 0 / 0.1);
-}
-
-.panel-list-item.disabled {
-  color: #999999;
-}
-
-.panel-list-item > .icon {
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-
-.panel-list-item > .text {
-  flex-grow: 10;
-}
-
-.panel-list-item > .text-shortcut {
-  color: gray;
-  font-family: "Lucida Grande", caption;
-  font-size: 0.847em;
-  justify-content: flex-end;
-}
-
-.panel-section-list .panel-section-separator {
-  margin: 4px 0;
-}
-
-/* Panel Section - Footer */
-.panel-section-footer {
-  background-color: rgb(0 0 0 / 0.06);
-  border-top: 1px solid rgb(0 0 0 / 0.15);
-  color: #1a1a1a;
-  display: flex;
-  flex-direction: row;
-  height: 41px;
-  margin-top: -1px;
-  padding: 0;
-}
-
-.panel-section-footer-button {
-  flex: 1 1 auto;
-  height: 100%;
-  margin: 0 -1px;
-  padding: 12px;
-  text-align: center;
-}
-
-.panel-section-footer-button > .text-shortcut {
-  color: gray;
-  font-family: "Lucida Grande", caption;
-  font-size: 0.847em;
-}
-
-.panel-section-footer-button:hover {
-  background-color: rgb(0 0 0 / 0.06);
-}
-
-.panel-section-footer-button:hover:active {
-  background-color: rgb(0 0 0 / 0.1);
-}
-
-.panel-section-footer-button.default {
-  background-color: #0996f8;
-  box-shadow: 0 1px 0 #0670cc inset;
-  color: white;
-}
-
-.panel-section-footer-button.default:hover {
-  background-color: #0670cc;
-  box-shadow: 0 1px 0 #005bab inset;
-}
-
-.panel-section-footer-button.default:hover:active {
-  background-color: #005bab;
-  box-shadow: 0 1px 0 #004480 inset;
-}
-
-.panel-section-footer-separator {
-  background-color: rgb(0 0 0 / 0.1);
-  width: 1px;
-  z-index: 99;
-}
-
-/* Example specific – not part of chrome://browser/content/extension.css */
-body {
-  background: #fcfcfc;
-  background-clip: padding-box;
-  border: 1px solid rgb(24 26 27 / 0.2);
-  box-shadow:
-    0 3px 5px rgb(24 26 27 / 0.1),
-    0 0 7px rgb(24 26 27 / 0.1);
-  box-sizing: content-box;
-  margin: 2em auto 0.5em;
-  width: 384px;
-}
-
-html {
-  min-height: 100vh;
-}
-
-html > body {
-  margin: auto;
-}
-
-.icon-section-header {
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj48Y2lyY2xlIGZpbGw9IiMzNjM5NTkiIGN4PSIxNSIgY3k9IjE1IiByPSIxNSIvPjwvc3ZnPg==");
-}
-~~~
-`
-                              ]
-                            },
-                            {
                               message: "Unexpected BCD keys",
                               data: [
                                 "Actual:",
@@ -13964,45 +13525,6 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "136": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/136",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=136",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "143": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/143",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=143",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    "144": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/144",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://whattrainisitnow.com/release/?version=144",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     "1.5": {
                       children: {
                         changing_the_priority_of_http_requests: {
@@ -14184,6 +13706,23 @@ webextensions.manifest.options_ui`,
                               ]
                             }
                           ]
+                        },
+                        roles: {
+                          children: {
+                            alert_role: {
+                              children: {},
+                              slug: "/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/alert_role",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://www.a11yproject.com/posts/how-to-hide-content/",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            }
+                          }
                         }
                       }
                     }
@@ -14711,6 +14250,48 @@ api.MessagePort`,
                     }
                   ]
                 },
+                cspviolationreportbody: {
+                  children: {
+                    blockedurl: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/CSPViolationReportBody/blockedURL",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<script> element is not permitted as content under <html>",
+                            "script",
+                            "12:4",
+                            `/en-US/docs/Web/API/CSPViolationReportBody/blockedURL
+[element-permitted-content] <script> element is not permitted as content under <html>
+~~~
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self' 'report-sample' 'unsafe-inline'; trusted-types myPolicy" />
+    <script src="main.js"></script>
+  </head>
+
+  <body></body>
+
+  <script>
+    const policy = trustedTypes.createPolicy("somePolicy", {
+      // Some (insufficient) sanitization code
+      createHTML: (string) => string.replace(/</g, "&lt;"),
+    });
+  </script>
+</html>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 css_object_model: {
                   children: {},
                   slug: "/en-US/docs/Web/API/CSS_Object_Model",
@@ -15236,153 +14817,6 @@ api.DeviceOrientationEvent`,
                     }
                   ]
                 },
-                element: {
-                  children: {
-                    sethtml: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/setHTML",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-useless-escape",
-                            "Unnecessary escape character: \\/.",
-                            '    <script src="path/to/a/module.js" type="module"><\\/script>',
-                            "14:54 - 14:55",
-                            `/en-US/docs/Web/API/Element/setHTML
-[no-useless-escape] Unnecessary escape character: \\/.
-~~~
-const logElement = document.querySelector("#log");
-function log(text) {
-  logElement.textContent += text;
-}
-
-if ("Sanitizer" in window) {
-
-// Define unsafe string of HTML
-const unsanitizedString = \`
-  <div>
-    <p>Paragraph to inject into shadow DOM.
-      <button onclick="alert('You clicked the button!')">Click me</button>
-    </p>
-    <script src="path/to/a/module.js" type="module"><\\/script>
-    <p data-id="123">Para with <code>data-</code> attribute</p>
-  </div>
-\`;
-
-const reload = document.querySelector("#reload");
-reload.addEventListener("click", () => document.location.reload());
-
-const defaultSanitizerButton = document.querySelector("#buttonDefault");
-defaultSanitizerButton.addEventListener("click", () => {
-  // Set the content of the element using the default sanitizer
-  target.setHTML(unsanitizedString);
-
-  // Log HTML before sanitization and after being injected
-  logElement.textContent =
-    "Default sanitizer: remove script element, onclick attribute, data- attribute\\n\\n";
-  log(\`\\nunsanitized: \${unsanitizedString}\`);
-  log(\`\\n\\nsanitized: \${target.innerHTML}\`);
-});
-
-const allowScriptButton = document.querySelector("#buttonAllowScript");
-allowScriptButton.addEventListener("click", () => {
-  // Set the content of the element using a custom sanitizer
-  const sanitizer1 = new Sanitizer({
-    elements: ["div", "p", "script"],
-  });
-  target.setHTML(unsanitizedString, { sanitizer: sanitizer1 });
-
-  // Log HTML before sanitization and after being injected
-  logElement.textContent =
-    "Sanitizer: {elements: ['div', 'p', 'script']}\\n Script removed even though allowed\\n";
-  log(\`\\nunsanitized: \${unsanitizedString}\`);
-  log(\`\\n\\nsanitized: \${target.innerHTML}\`);
-});
-
-} else {
-  log("The HTML Sanitizer API is NOT supported in this browser.");
-  // Provide fallback or alternative behavior
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    sethtmlunsafe: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/setHTMLUnsafe",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-useless-escape",
-                            "Unnecessary escape character: \\/.",
-                            '    <script src="path/to/a/module.js" type="module"><\\/script>',
-                            "14:54 - 14:55",
-                            `/en-US/docs/Web/API/Element/setHTMLUnsafe
-[no-useless-escape] Unnecessary escape character: \\/.
-~~~
-const logElement = document.querySelector("#log");
-function log(text) {
-  logElement.textContent += text;
-}
-
-if ("Sanitizer" in window) {
-
-// Define unsafe string of HTML
-const unsanitizedString = \`
-  <div>
-    <p>Paragraph to inject into shadow DOM.
-      <button onclick="alert('You clicked the button!')">Click me</button>
-    </p>
-    <script src="path/to/a/module.js" type="module"><\\/script>
-    <p data-id="123">Para with <code>data-</code> attribute</p>
-  </div>
-\`;
-
-const reload = document.querySelector("#reload");
-reload.addEventListener("click", () => document.location.reload());
-
-const buttonNoSanitizer = document.querySelector("#buttonNoSanitizer");
-buttonNoSanitizer.addEventListener("click", () => {
-  // Set unsafe HTML without specifying a sanitizer
-  target.setHTMLUnsafe(unsanitizedString);
-
-  // Log HTML before sanitization and after being injected
-  logElement.textContent =
-    "No sanitizer: string should be injected without filtering\\n\\n";
-  log(\`\\nunsanitized: \${unsanitizedString}\`);
-  log(\`\\n\\nsanitized: \${target.innerHTML}\`);
-});
-
-const allowScriptButton = document.querySelector("#buttonAllowScript");
-allowScriptButton.addEventListener("click", () => {
-  // Set the content of the element using a custom sanitizer
-  const sanitizer1 = new Sanitizer({
-    elements: ["div", "p", "script"],
-  });
-  target.setHTMLUnsafe(unsanitizedString, { sanitizer: sanitizer1 });
-
-  // Log HTML before sanitization and after being injected
-  logElement.textContent = "Sanitizer: {elements: ['div', 'p', 'script']}\\n";
-  log(\`\\nunsanitized: \${unsanitizedString}\`);
-  log(\`\\n\\nsanitized: \${target.innerHTML}\`);
-});
-
-} else {
-  log("The HTML Sanitizer API is NOT supported in this browser.");
-  // Provide fallback or alternative behavior
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 fetchevent: {
                   children: {
                     replacesclientid: {
@@ -15420,7 +14854,21 @@ http.headers.Permissions-Policy.deferred-fetch-minimal`,
                   }
                 },
                 file_api: {
-                  children: {},
+                  children: {
+                    using_files_from_web_applications: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/File_API/Using_files_from_web_applications",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.a11yproject.com/posts/how-to-hide-content/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/API/File_API",
                   messages: [
                     {
@@ -15480,6 +14928,33 @@ api.Document.fullscreen`,
                     }
                   }
                 },
+                geolocation_api: {
+                  children: {
+                    using_the_geolocation_api: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Geolocation_API/Using_the_Geolocation_API",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "wcag/h30",
+                            "Anchor link must have a text describing its purpose",
+                            "a",
+                            "3:2",
+                            `/en-US/docs/Web/API/Geolocation_API/Using_the_Geolocation_API
+[wcag/h30] Anchor link must have a text describing its purpose
+~~~
+<button id="find-me">Show my location</button><br />
+<p id="status"></p>
+<a id="map-link" href="" target="_blank"></a>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 history_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/History_API",
@@ -15527,50 +15002,99 @@ api.Document.fullscreen`,
                     }
                   ]
                 },
-                htmlelement: {
+                htmlareaelement: {
                   children: {
-                    innertext: {
+                    ping: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/innerText",
+                      slug: "/en-US/docs/Web/API/HTMLAreaElement/ping",
                       messages: [
                         {
                           message: "HTML code issue",
                           data: [
-                            "no-style-elem",
-                            "Do not use the <style> element; use separate CSS blocks instead.",
-                            `  <style>
-    #source {
-      color: red;
-    }
-    #text {
-      text-transform: uppercase;
-    }
-  </style>`,
-                            "2:2 - 9:10",
-                            `/en-US/docs/Web/API/HTMLElement/innerText
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
+                            "element-required-attributes",
+                            '<map> is missing required "name" attribute',
+                            "map",
+                            "1:2",
+                            `/en-US/docs/Web/API/HTMLAreaElement/ping
+[element-required-attributes] <map> is missing required "name" attribute
 ~~~
-<h3>Source element:</h3>
-<p id="source">
-  <style>
-    #source {
-      color: red;
-    }
-    #text {
-      text-transform: uppercase;
-    }
-  </style>
-  <span id="text">
-    Take a look at<br />
-    how this text<br />
-    is interpreted below.
-  </span>
-  <span style="display:none">HIDDEN TEXT</span>
-</p>
-<h3>Result of textContent:</h3>
-<textarea id="textContentOutput" rows="18" cols="40" readonly>…</textarea>
-<h3>Result of innerText:</h3>
-<textarea id="innerTextOutput" rows="6" cols="40" readonly>…</textarea>
+<map>
+  <area
+    href="https://example.com"
+    ping="https://example-tracking.com https://example-analytics.com"
+    alt="example" />
+</map>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    referrerpolicy: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLAreaElement/referrerPolicy",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "map-id-name",
+                            '"id" and "name" attribute must be the same on <map> elements',
+                            "myMap",
+                            "2:10",
+                            `/en-US/docs/Web/API/HTMLAreaElement/referrerPolicy
+[map-id-name] "id" and "name" attribute must be the same on <map> elements
+~~~
+<img usemap="#mapAround" width="100" height="100" src="/img/logo@2x.png" />
+<map id="myMap" name="mapAround"></map>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                htmldialogelement: {
+                  children: {
+                    close: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLDialogElement/close",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<button> element is not permitted as content under <menu>",
+                            "button",
+                            "17:8",
+                            `/en-US/docs/Web/API/HTMLDialogElement/close
+[element-permitted-content] <button> element is not permitted as content under <menu>
+~~~
+<!-- Simple pop-up dialog box, containing a form -->
+<dialog id="favDialog">
+  <form method="dialog">
+    <button id="close" aria-label="close" formnovalidate>X</button>
+    <section>
+      <p>
+        <label for="favAnimal">Favorite animal:</label>
+        <select id="favAnimal" name="favAnimal">
+          <option></option>
+          <option>Brine shrimp</option>
+          <option>Red panda</option>
+          <option>Spider monkey</option>
+        </select>
+      </p>
+    </section>
+    <menu>
+      <button type="reset">Reset</button>
+      <button type="submit">Confirm</button>
+    </menu>
+  </form>
+</dialog>
+
+<menu>
+  <button id="updateDetails">Update details</button>
+</menu>
 ~~~
 `
                           ]
@@ -15578,34 +15102,661 @@ api.Document.fullscreen`,
                         {
                           message: "HTML code issue",
                           data: [
-                            "no-style-attr",
-                            "Do not use the style attribute.",
-                            '  <span style="display:none">HIDDEN TEXT</span>',
-                            "15:8 - 15:28",
-                            `/en-US/docs/Web/API/HTMLElement/innerText
-[no-style-attr] Do not use the style attribute.
+                            "element-permitted-content",
+                            "<button> element is not permitted as content under <menu>",
+                            "button",
+                            "18:8",
+                            `/en-US/docs/Web/API/HTMLDialogElement/close
+[element-permitted-content] <button> element is not permitted as content under <menu>
 ~~~
-<h3>Source element:</h3>
-<p id="source">
-  <style>
-    #source {
-      color: red;
-    }
-    #text {
-      text-transform: uppercase;
-    }
-  </style>
-  <span id="text">
-    Take a look at<br />
-    how this text<br />
-    is interpreted below.
-  </span>
-  <span style="display:none">HIDDEN TEXT</span>
-</p>
-<h3>Result of textContent:</h3>
-<textarea id="textContentOutput" rows="18" cols="40" readonly>…</textarea>
-<h3>Result of innerText:</h3>
-<textarea id="innerTextOutput" rows="6" cols="40" readonly>…</textarea>
+<!-- Simple pop-up dialog box, containing a form -->
+<dialog id="favDialog">
+  <form method="dialog">
+    <button id="close" aria-label="close" formnovalidate>X</button>
+    <section>
+      <p>
+        <label for="favAnimal">Favorite animal:</label>
+        <select id="favAnimal" name="favAnimal">
+          <option></option>
+          <option>Brine shrimp</option>
+          <option>Red panda</option>
+          <option>Spider monkey</option>
+        </select>
+      </p>
+    </section>
+    <menu>
+      <button type="reset">Reset</button>
+      <button type="submit">Confirm</button>
+    </menu>
+  </form>
+</dialog>
+
+<menu>
+  <button id="updateDetails">Update details</button>
+</menu>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<button> element is not permitted as content under <menu>",
+                            "button",
+                            "24:4",
+                            `/en-US/docs/Web/API/HTMLDialogElement/close
+[element-permitted-content] <button> element is not permitted as content under <menu>
+~~~
+<!-- Simple pop-up dialog box, containing a form -->
+<dialog id="favDialog">
+  <form method="dialog">
+    <button id="close" aria-label="close" formnovalidate>X</button>
+    <section>
+      <p>
+        <label for="favAnimal">Favorite animal:</label>
+        <select id="favAnimal" name="favAnimal">
+          <option></option>
+          <option>Brine shrimp</option>
+          <option>Red panda</option>
+          <option>Spider monkey</option>
+        </select>
+      </p>
+    </section>
+    <menu>
+      <button type="reset">Reset</button>
+      <button type="submit">Confirm</button>
+    </menu>
+  </form>
+</dialog>
+
+<menu>
+  <button id="updateDetails">Update details</button>
+</menu>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    requestclose: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLDialogElement/requestClose",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "attribute-misuse",
+                            '"formnovalidate" attribute cannot be used on <button> in this context: "type" attribute must be "submit"',
+                            "formnovalidate",
+                            "4:57",
+                            `/en-US/docs/Web/API/HTMLDialogElement/requestClose
+[attribute-misuse] "formnovalidate" attribute cannot be used on <button> in this context: "type" attribute must be "submit"
+~~~
+<!-- Simple pop-up dialog box, containing a form -->
+<dialog id="favDialog">
+  <form method="dialog">
+    <button type="button" id="close" aria-label="close" formnovalidate>
+      X
+    </button>
+    <section>
+      <p>
+        <label for="favAnimal">Favorite animal:</label>
+        <select id="favAnimal" name="favAnimal">
+          <option></option>
+          <option>Brine shrimp</option>
+          <option>Red panda</option>
+          <option>Spider monkey</option>
+        </select>
+      </p>
+    </section>
+    <menu>
+      <button type="reset">Reset</button>
+      <button type="submit">Confirm</button>
+    </menu>
+  </form>
+</dialog>
+
+<menu>
+  <button id="updateDetails">Update details</button>
+</menu>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<button> element is not permitted as content under <menu>",
+                            "button",
+                            "19:8",
+                            `/en-US/docs/Web/API/HTMLDialogElement/requestClose
+[element-permitted-content] <button> element is not permitted as content under <menu>
+~~~
+<!-- Simple pop-up dialog box, containing a form -->
+<dialog id="favDialog">
+  <form method="dialog">
+    <button type="button" id="close" aria-label="close" formnovalidate>
+      X
+    </button>
+    <section>
+      <p>
+        <label for="favAnimal">Favorite animal:</label>
+        <select id="favAnimal" name="favAnimal">
+          <option></option>
+          <option>Brine shrimp</option>
+          <option>Red panda</option>
+          <option>Spider monkey</option>
+        </select>
+      </p>
+    </section>
+    <menu>
+      <button type="reset">Reset</button>
+      <button type="submit">Confirm</button>
+    </menu>
+  </form>
+</dialog>
+
+<menu>
+  <button id="updateDetails">Update details</button>
+</menu>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<button> element is not permitted as content under <menu>",
+                            "button",
+                            "20:8",
+                            `/en-US/docs/Web/API/HTMLDialogElement/requestClose
+[element-permitted-content] <button> element is not permitted as content under <menu>
+~~~
+<!-- Simple pop-up dialog box, containing a form -->
+<dialog id="favDialog">
+  <form method="dialog">
+    <button type="button" id="close" aria-label="close" formnovalidate>
+      X
+    </button>
+    <section>
+      <p>
+        <label for="favAnimal">Favorite animal:</label>
+        <select id="favAnimal" name="favAnimal">
+          <option></option>
+          <option>Brine shrimp</option>
+          <option>Red panda</option>
+          <option>Spider monkey</option>
+        </select>
+      </p>
+    </section>
+    <menu>
+      <button type="reset">Reset</button>
+      <button type="submit">Confirm</button>
+    </menu>
+  </form>
+</dialog>
+
+<menu>
+  <button id="updateDetails">Update details</button>
+</menu>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<button> element is not permitted as content under <menu>",
+                            "button",
+                            "26:4",
+                            `/en-US/docs/Web/API/HTMLDialogElement/requestClose
+[element-permitted-content] <button> element is not permitted as content under <menu>
+~~~
+<!-- Simple pop-up dialog box, containing a form -->
+<dialog id="favDialog">
+  <form method="dialog">
+    <button type="button" id="close" aria-label="close" formnovalidate>
+      X
+    </button>
+    <section>
+      <p>
+        <label for="favAnimal">Favorite animal:</label>
+        <select id="favAnimal" name="favAnimal">
+          <option></option>
+          <option>Brine shrimp</option>
+          <option>Red panda</option>
+          <option>Spider monkey</option>
+        </select>
+      </p>
+    </section>
+    <menu>
+      <button type="reset">Reset</button>
+      <button type="submit">Confirm</button>
+    </menu>
+  </form>
+</dialog>
+
+<menu>
+  <button id="updateDetails">Update details</button>
+</menu>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    show: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLDialogElement/show",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<button> element is not permitted as content under <menu>",
+                            "button",
+                            "16:8",
+                            `/en-US/docs/Web/API/HTMLDialogElement/show
+[element-permitted-content] <button> element is not permitted as content under <menu>
+~~~
+<!-- Simple pop-up dialog box, containing a form -->
+<dialog id="favDialog">
+  <form method="dialog">
+    <section>
+      <p>
+        <label for="favAnimal">Favorite animal:</label>
+        <select id="favAnimal" name="favAnimal">
+          <option></option>
+          <option>Brine shrimp</option>
+          <option>Red panda</option>
+          <option>Spider monkey</option>
+        </select>
+      </p>
+    </section>
+    <menu>
+      <button id="cancel" type="reset">Cancel</button>
+      <button type="submit">Confirm</button>
+    </menu>
+  </form>
+</dialog>
+
+<menu>
+  <button id="updateDetails">Update details</button>
+</menu>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<button> element is not permitted as content under <menu>",
+                            "button",
+                            "17:8",
+                            `/en-US/docs/Web/API/HTMLDialogElement/show
+[element-permitted-content] <button> element is not permitted as content under <menu>
+~~~
+<!-- Simple pop-up dialog box, containing a form -->
+<dialog id="favDialog">
+  <form method="dialog">
+    <section>
+      <p>
+        <label for="favAnimal">Favorite animal:</label>
+        <select id="favAnimal" name="favAnimal">
+          <option></option>
+          <option>Brine shrimp</option>
+          <option>Red panda</option>
+          <option>Spider monkey</option>
+        </select>
+      </p>
+    </section>
+    <menu>
+      <button id="cancel" type="reset">Cancel</button>
+      <button type="submit">Confirm</button>
+    </menu>
+  </form>
+</dialog>
+
+<menu>
+  <button id="updateDetails">Update details</button>
+</menu>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<button> element is not permitted as content under <menu>",
+                            "button",
+                            "23:4",
+                            `/en-US/docs/Web/API/HTMLDialogElement/show
+[element-permitted-content] <button> element is not permitted as content under <menu>
+~~~
+<!-- Simple pop-up dialog box, containing a form -->
+<dialog id="favDialog">
+  <form method="dialog">
+    <section>
+      <p>
+        <label for="favAnimal">Favorite animal:</label>
+        <select id="favAnimal" name="favAnimal">
+          <option></option>
+          <option>Brine shrimp</option>
+          <option>Red panda</option>
+          <option>Spider monkey</option>
+        </select>
+      </p>
+    </section>
+    <menu>
+      <button id="cancel" type="reset">Cancel</button>
+      <button type="submit">Confirm</button>
+    </menu>
+  </form>
+</dialog>
+
+<menu>
+  <button id="updateDetails">Update details</button>
+</menu>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                htmlelement: {
+                  children: {
+                    autocorrect: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLElement/autocorrect",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "text-content",
+                            "<button> must have accessible text",
+                            "button",
+                            "1:2",
+                            `/en-US/docs/Web/API/HTMLElement/autocorrect
+[text-content] <button> must have accessible text
+~~~
+<button id="toggleAutocorrect"></button>
+<input type="search" id="searchinput" />
+
+<pre id="log"></pre>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    beforetoggle_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLElement/beforetoggle_event",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "text-content",
+                            "<button> must have accessible text",
+                            "button",
+                            "2:2",
+                            `/en-US/docs/Web/API/HTMLElement/beforetoggle_event
+[text-content] <button> must have accessible text
+~~~
+<button popovertarget="mypopover">Toggle the popover</button>
+<button id="allow_button"></button>
+<div id="mypopover" popover>Popover content</div>
+
+<pre id="log"></pre>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    error_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLElement/error_event",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-required-attributes",
+                            '<img> is missing required "src" attribute',
+                            "img",
+                            "3:4",
+                            `/en-US/docs/Web/API/HTMLElement/error_event
+[element-required-attributes] <img> is missing required "src" attribute
+~~~
+<div class="controls">
+  <button id="img-error" type="button">Generate image error</button>
+  <img class="bad-img" />
+</div>
+
+<div class="event-log">
+  <label for="eventLog">Event log:</label>
+  <textarea
+    readonly
+    class="event-log-contents"
+    rows="8"
+    cols="30"
+    id="eventLog"></textarea>
+</div>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    focus: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLElement/focus",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://blog.whatwg.org/focusing-on-focus",
+                            500
+                          ]
+                        }
+                      ]
+                    },
+                    showpopover: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLElement/showPopover",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<hr> element is not permitted as content under <ul>",
+                            "hr",
+                            "10:6",
+                            `/en-US/docs/Web/API/HTMLElement/showPopover
+[element-permitted-content] <hr> element is not permitted as content under <ul>
+~~~
+<div id="mypopover" popover>
+  <h2>Help!</h2>
+
+  <p>You can use the following commands to control the app</p>
+
+  <ul>
+    <li>Press <ins>C</ins> to order cheese</li>
+    <li>Press <ins>T</ins> to order tofu</li>
+    <li>Press <ins>B</ins> to order bacon</li>
+    <hr />
+    <li>Say "Service" to summon the robot waiter to take your order</li>
+    <li>Say "Escape" to engage the ejector seat</li>
+  </ul>
+</div>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                htmlembedelement: {
+                  children: {
+                    height: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLEmbedElement/height",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-required-attributes",
+                            '<embed> is missing required "src" attribute',
+                            "embed",
+                            "1:2",
+                            `/en-US/docs/Web/API/HTMLEmbedElement/height
+[element-required-attributes] <embed> is missing required "src" attribute
+~~~
+<embed id="el" width="800" height="600" />
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    width: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLEmbedElement/width",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-required-attributes",
+                            '<embed> is missing required "src" attribute',
+                            "embed",
+                            "1:2",
+                            `/en-US/docs/Web/API/HTMLEmbedElement/width
+[element-required-attributes] <embed> is missing required "src" attribute
+~~~
+<embed id="el" width="800" height="600" />
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                htmlformcontrolscollection: {
+                  children: {
+                    nameditem: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLFormControlsCollection/namedItem",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "form-dup-name",
+                            'Duplicate form control name "my-form-control"',
+                            "my-form-control",
+                            "6:27",
+                            `/en-US/docs/Web/API/HTMLFormControlsCollection/namedItem
+[form-dup-name] Duplicate form control name "my-form-control"
+~~~
+<form>
+  <label for="notes">Notes:</label>
+  <input id="notes" name="my-form-control" type="text" />
+
+  <label for="start">Start date:</label>
+  <input id="start" name="my-form-control" type="date" />
+</form>
+
+<div id="output"></div>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                htmlformelement: {
+                  children: {
+                    elements: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLFormElement/elements",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-required-attributes",
+                            '<object> is missing required "data" attribute',
+                            "object",
+                            "12:4",
+                            `/en-US/docs/Web/API/HTMLFormElement/elements
+[element-required-attributes] <object> is missing required "data" attribute
+~~~
+<form id="fullForm">
+  This form looks full, but it has no associated form controls
+  <fieldset form="sparseForm">
+    <legend>This is a legend</legend>
+    <label>A form control: <input form="sparseForm" /></label>
+    <label>Another form control: <input form="sparseForm" /></label>
+    <label>Yet another form control: <input form="sparseForm" /></label>
+  </fieldset>
+</form>
+
+<form id="sparseForm">
+  <object>Lone form control</object>
+</form>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                htmliframeelement: {
+                  children: {
+                    srcdoc: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLIFrameElement/srcdoc",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "deprecated",
+                            "<frame> is deprecated",
+                            "frame",
+                            "1:2",
+                            `/en-US/docs/Web/API/HTMLIFrameElement/srcdoc
+[deprecated] <frame> is deprecated
+~~~
+<frame
+  id="example"
+  srcdoc="<!doctype html><body><p>Hello World!</p></body>"></frame>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-required-attributes",
+                            '<frame> is missing required "title" attribute',
+                            "frame",
+                            "1:2",
+                            `/en-US/docs/Web/API/HTMLIFrameElement/srcdoc
+[element-required-attributes] <frame> is missing required "title" attribute
+~~~
+<frame
+  id="example"
+  srcdoc="<!doctype html><body><p>Hello World!</p></body>"></frame>
 ~~~
 `
                           ]
@@ -15620,6 +15771,118 @@ api.Document.fullscreen`,
                       children: {},
                       slug: "/en-US/docs/Web/API/HTMLImageElement/alt",
                       messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "prefer-native-element",
+                            "Prefer to use the native <button> element",
+                            'role="button"',
+                            "2:24",
+                            `/en-US/docs/Web/API/HTMLImageElement/alt
+[prefer-native-element] Prefer to use the native <button> element
+~~~
+<li class="toolbar" role="toolbar">
+  <a href="songs.html" role="button">
+    <img src="songicon.svg" alt="Songs" />
+  </a>
+  <a href="albums.html" role="button">
+    <img src="albumicon.svg" alt="Albums"
+  /></a>
+  <a href="artists.html" role="button">
+    <img src="artisticon.svg" alt="Artists" />
+  </a>
+  <a href="playlists.html" role="button">
+    <img src="playlisticon.svg" alt="Playlists" />
+  </a>
+</li>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "prefer-native-element",
+                            "Prefer to use the native <button> element",
+                            'role="button"',
+                            "5:25",
+                            `/en-US/docs/Web/API/HTMLImageElement/alt
+[prefer-native-element] Prefer to use the native <button> element
+~~~
+<li class="toolbar" role="toolbar">
+  <a href="songs.html" role="button">
+    <img src="songicon.svg" alt="Songs" />
+  </a>
+  <a href="albums.html" role="button">
+    <img src="albumicon.svg" alt="Albums"
+  /></a>
+  <a href="artists.html" role="button">
+    <img src="artisticon.svg" alt="Artists" />
+  </a>
+  <a href="playlists.html" role="button">
+    <img src="playlisticon.svg" alt="Playlists" />
+  </a>
+</li>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "prefer-native-element",
+                            "Prefer to use the native <button> element",
+                            'role="button"',
+                            "8:26",
+                            `/en-US/docs/Web/API/HTMLImageElement/alt
+[prefer-native-element] Prefer to use the native <button> element
+~~~
+<li class="toolbar" role="toolbar">
+  <a href="songs.html" role="button">
+    <img src="songicon.svg" alt="Songs" />
+  </a>
+  <a href="albums.html" role="button">
+    <img src="albumicon.svg" alt="Albums"
+  /></a>
+  <a href="artists.html" role="button">
+    <img src="artisticon.svg" alt="Artists" />
+  </a>
+  <a href="playlists.html" role="button">
+    <img src="playlisticon.svg" alt="Playlists" />
+  </a>
+</li>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "prefer-native-element",
+                            "Prefer to use the native <button> element",
+                            'role="button"',
+                            "11:28",
+                            `/en-US/docs/Web/API/HTMLImageElement/alt
+[prefer-native-element] Prefer to use the native <button> element
+~~~
+<li class="toolbar" role="toolbar">
+  <a href="songs.html" role="button">
+    <img src="songicon.svg" alt="Songs" />
+  </a>
+  <a href="albums.html" role="button">
+    <img src="albumicon.svg" alt="Albums"
+  /></a>
+  <a href="artists.html" role="button">
+    <img src="artisticon.svg" alt="Artists" />
+  </a>
+  <a href="playlists.html" role="button">
+    <img src="playlisticon.svg" alt="Playlists" />
+  </a>
+</li>
+~~~
+`
+                          ]
+                        },
                         {
                           message: "Stylelint backlog",
                           data: [
@@ -15681,6 +15944,27 @@ p {
                         }
                       ]
                     },
+                    border: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLImageElement/border",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-deprecated-attr",
+                            'Attribute "border" is deprecated on <img> element',
+                            "border",
+                            "1:22",
+                            `/en-US/docs/Web/API/HTMLImageElement/border
+[no-deprecated-attr] Attribute "border" is deprecated on <img> element
+~~~
+<img src="image.png" border="2" />
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     crossorigin: {
                       children: {},
                       slug: "/en-US/docs/Web/API/HTMLImageElement/crossOrigin",
@@ -15718,6 +16002,85 @@ output {
   font-family: "Courier New", monospace;
   width: 95%;
 }
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                htmlmapelement: {
+                  children: {
+                    areas: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLMapElement/areas",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-required-attributes",
+                            '<map> is missing required "name" attribute',
+                            "map",
+                            "1:2",
+                            `/en-US/docs/Web/API/HTMLMapElement/areas
+[element-required-attributes] <map> is missing required "name" attribute
+~~~
+<map id="image-map">
+  <area shape="circle" coords="50,50,35" alt="left arrow" />
+  <area shape="circle" coords="150,50,35" alt="right arrow" />
+</map>
+<img
+  usemap="#image-map"
+  src="left-right-arrow.png"
+  alt="left right arrow image" />
+<output></output>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "area-alt",
+                            '"alt" attribute cannot be used unless the "href" attribute is present',
+                            "alt",
+                            "2:42",
+                            `/en-US/docs/Web/API/HTMLMapElement/areas
+[area-alt] "alt" attribute cannot be used unless the "href" attribute is present
+~~~
+<map id="image-map">
+  <area shape="circle" coords="50,50,35" alt="left arrow" />
+  <area shape="circle" coords="150,50,35" alt="right arrow" />
+</map>
+<img
+  usemap="#image-map"
+  src="left-right-arrow.png"
+  alt="left right arrow image" />
+<output></output>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "area-alt",
+                            '"alt" attribute cannot be used unless the "href" attribute is present',
+                            "alt",
+                            "3:43",
+                            `/en-US/docs/Web/API/HTMLMapElement/areas
+[area-alt] "alt" attribute cannot be used unless the "href" attribute is present
+~~~
+<map id="image-map">
+  <area shape="circle" coords="50,50,35" alt="left arrow" />
+  <area shape="circle" coords="150,50,35" alt="right arrow" />
+</map>
+<img
+  usemap="#image-map"
+  src="left-right-arrow.png"
+  alt="left right arrow image" />
+<output></output>
 ~~~
 `
                           ]
@@ -16572,6 +16935,23 @@ code {
                     }
                   }
                 },
+                media_source_extensions_api: {
+                  children: {
+                    dash_adaptive_streaming: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Media_Source_Extensions_API/DASH_Adaptive_Streaming",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.ffmpeg.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 mediastream_recording_api: {
                   children: {
                     using_the_mediastream_recording_api: {
@@ -16716,6 +17096,61 @@ aside {
                         {
                           message: "Page status not backed by BCD",
                           data: []
+                        }
+                      ]
+                    }
+                  }
+                },
+                node: {
+                  children: {
+                    previoussibling: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Node/previousSibling",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-required-attributes",
+                            '<img> is missing required "src" attribute',
+                            "img",
+                            "1:2",
+                            `/en-US/docs/Web/API/Node/previousSibling
+[element-required-attributes] <img> is missing required "src" attribute
+~~~
+<img id="b0" /><img id="b1" /><img id="b2" />
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-required-attributes",
+                            '<img> is missing required "src" attribute',
+                            "img",
+                            "1:17",
+                            `/en-US/docs/Web/API/Node/previousSibling
+[element-required-attributes] <img> is missing required "src" attribute
+~~~
+<img id="b0" /><img id="b1" /><img id="b2" />
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-required-attributes",
+                            '<img> is missing required "src" attribute',
+                            "img",
+                            "1:32",
+                            `/en-US/docs/Web/API/Node/previousSibling
+[element-required-attributes] <img> is missing required "src" attribute
+~~~
+<img id="b0" /><img id="b1" /><img id="b2" />
+~~~
+`
+                          ]
                         }
                       ]
                     }
@@ -17234,156 +17669,6 @@ html {
                     }
                   }
                 },
-                shadowroot: {
-                  children: {
-                    sethtml: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ShadowRoot/setHTML",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-useless-escape",
-                            "Unnecessary escape character: \\/.",
-                            '    <script src="path/to/a/module.js" type="module"><\\/script>',
-                            "17:54 - 17:55",
-                            `/en-US/docs/Web/API/ShadowRoot/setHTML
-[no-useless-escape] Unnecessary escape character: \\/.
-~~~
-const logElement = document.querySelector("#log");
-function log(text) {
-  logElement.textContent += text;
-}
-
-if ("Sanitizer" in window) {
-
-const reload = document.querySelector("#reload");
-reload.addEventListener("click", () => document.location.reload());
-
-// Define unsafe string of HTML
-const unsanitizedString = \`
-  <div>
-    <p>Paragraph to inject into shadow DOM.
-      <button onclick="alert('You clicked the button!')">Click me</button>
-    </p>
-    <script src="path/to/a/module.js" type="module"><\\/script>
-    <p data-id="123">Para with <code>data-</code> attribute</p>
-  </div>
-\`;
-
-const shadow = document.querySelector("#host").shadowRoot;
-
-const defaultSanitizerButton = document.querySelector("#buttonDefault");
-defaultSanitizerButton.addEventListener("click", () => {
-  // Set the content of the element using the default sanitizer
-  shadow.setHTML(unsanitizedString);
-
-  // Log HTML before sanitization and after being injected
-  logElement.textContent =
-    "Default sanitizer: remove script element, onclick attribute, data- attribute\\n\\n";
-  log(\`\\nunsanitized: \${unsanitizedString}\`);
-  log(\`\\n\\nsanitized: \${shadow.innerHTML}\`);
-});
-
-const allowScriptButton = document.querySelector("#buttonAllowScript");
-allowScriptButton.addEventListener("click", () => {
-  // Set the content of the element using a custom sanitizer
-  const sanitizer1 = new Sanitizer({
-    elements: ["div", "p", "script"],
-  });
-  shadow.setHTML(unsanitizedString, { sanitizer: sanitizer1 });
-
-  // Log HTML before sanitization and after being injected
-  logElement.textContent =
-    "Sanitizer: {elements: ['div', 'p', 'script']}\\n Script removed even though allowed\\n";
-  log(\`\\nunsanitized: \${unsanitizedString}\`);
-  log(\`\\n\\nsanitized: \${shadow.innerHTML}\`);
-});
-
-} else {
-  log("The HTML Sanitizer API is NOT supported in this browser.");
-  // Provide fallback or alternative behavior
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    sethtmlunsafe: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/ShadowRoot/setHTMLUnsafe",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-useless-escape",
-                            "Unnecessary escape character: \\/.",
-                            '    <script src="path/to/a/module.js" type="module"><\\/script>',
-                            "17:54 - 17:55",
-                            `/en-US/docs/Web/API/ShadowRoot/setHTMLUnsafe
-[no-useless-escape] Unnecessary escape character: \\/.
-~~~
-const logElement = document.querySelector("#log");
-function log(text) {
-  logElement.textContent += text;
-}
-
-if ("Sanitizer" in window) {
-
-const reload = document.querySelector("#reload");
-reload.addEventListener("click", () => document.location.reload());
-
-// Define unsafe string of HTML
-const unsanitizedString = \`
-  <div>
-    <p>Paragraph to inject into shadow DOM.
-      <button onclick="alert('You clicked the button!')">Click me</button>
-    </p>
-    <script src="path/to/a/module.js" type="module"><\\/script>
-    <p data-id="123">Para with <code>data-</code> attribute</p>
-  </div>
-\`;
-
-const shadow = document.querySelector("#host").shadowRoot;
-
-const buttonNoSanitizer = document.querySelector("#buttonNoSanitizer");
-buttonNoSanitizer.addEventListener("click", () => {
-  // Set the content of the element with no sanitizer
-  shadow.setHTMLUnsafe(unsanitizedString);
-
-  // Log HTML before sanitization and after being injected
-  logElement.textContent = "No sanitizer\\n\\n";
-  log(\`\\nunsanitized: \${unsanitizedString}\`);
-  log(\`\\n\\nsanitized: \${shadow.innerHTML}\`);
-});
-
-const allowScriptButton = document.querySelector("#buttonAllowScript");
-allowScriptButton.addEventListener("click", () => {
-  // Set the content of the element using a custom sanitizer
-  const sanitizer1 = new Sanitizer({
-    elements: ["div", "p", "script"],
-  });
-  shadow.setHTMLUnsafe(unsanitizedString, { sanitizer: sanitizer1 });
-
-  // Log HTML before sanitization and after being injected
-  logElement.textContent = "Sanitizer: {elements: ['div', 'p', 'script']}\\n";
-  log(\`\\n\\nunsanitized: \${unsanitizedString}\`);
-  log(\`\\nsanitized: \${shadow.innerHTML}\`);
-});
-
-} else {
-  log("The HTML Sanitizer API is NOT supported in this browser.");
-  // Provide fallback or alternative behavior
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 sharedstorageoperation: {
                   children: {},
                   slug: "/en-US/docs/Web/API/SharedStorageOperation",
@@ -17576,6 +17861,36 @@ allowScriptButton.addEventListener("click", () => {
                           message: "Not in BCD",
                           data: [
                             "api.SVGAElement.username"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                svgstyleelement: {
+                  children: {
+                    media: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/SVGStyleElement/media",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "text-content",
+                            "<button> must have accessible text",
+                            "button",
+                            "1:2",
+                            `/en-US/docs/Web/API/SVGStyleElement/media
+[text-content] <button> must have accessible text
+~~~
+<button></button>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <circle cx="60" cy="60" r="50" />
+</svg>
+~~~
+`
                           ]
                         }
                       ]
@@ -17990,6 +18305,27 @@ env(viewport-segment-width 0 1)
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Using_IIR_filters",
                       messages: [
                         {
+                          message: "HTML code issue",
+                          data: [
+                            "text-content",
+                            "<button> must have accessible text",
+                            "button",
+                            "1:2",
+                            `/en-US/docs/Web/API/Web_Audio_API/Using_IIR_filters
+[text-content] <button> must have accessible text
+~~~
+<button
+  class="button-filter"
+  role="switch"
+  data-filteron="false"
+  aria-pressed="false"
+  aria-describedby="label"
+  disabled></button>
+~~~
+`
+                          ]
+                        },
+                        {
                           message: "Broken external link",
                           data: [
                             "https://www.mathworks.com/help/dsphdl/ref/biquadfilter.html",
@@ -18187,6 +18523,56 @@ api.Window.sessionStorage`,
                     }
                   ]
                 },
+                window: {
+                  children: {
+                    error_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/error_event",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-required-attributes",
+                            '<img> is missing required "src" attribute',
+                            "img",
+                            "3:4",
+                            `/en-US/docs/Web/API/Window/error_event
+[element-required-attributes] <img> is missing required "src" attribute
+~~~
+<div class="controls">
+  <button id="script-error" type="button">Generate script error</button>
+  <img class="bad-img" />
+</div>
+
+<div class="event-log">
+  <label for="eventLog">Event log:</label>
+  <textarea
+    readonly
+    class="event-log-contents"
+    rows="8"
+    cols="30"
+    id="eventLog"></textarea>
+</div>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    viewport: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/viewport",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/Viewport_API"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 windowsharedstorage: {
                   children: {
                     run: {
@@ -18235,22 +18621,6 @@ api.Window.sessionStorage`,
                       ]
                     }
                   ]
-                },
-                window: {
-                  children: {
-                    viewport: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/viewport",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/Viewport_API"
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 workernavigator: {
                   children: {
@@ -18901,6 +19271,108 @@ input:out-of-range + label::after {
                     }
                   ]
                 },
+                _colon_invalid: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/:invalid",
+                  messages: [
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "wcag/h71",
+                        "<fieldset> must have a <legend> as the first child",
+                        "fieldset",
+                        "2:4",
+                        `/en-US/docs/Web/CSS/:invalid
+[wcag/h71] <fieldset> must have a <legend> as the first child
+~~~
+<form>
+  <fieldset>
+    <label for="form-name">Name</label><br />
+    <input type="text" name="name" id="form-name" required />
+  </fieldset>
+
+  <fieldset>
+    <label for="form-email">Email Address</label><br />
+    <input type="email" name="email" id="form-email" required />
+  </fieldset>
+
+  <fieldset>
+    <label for="form-message">Message</label><br />
+    <textarea name="message" id="form-message" required></textarea>
+  </fieldset>
+
+  <button type="submit" name="send">Submit</button>
+</form>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "wcag/h71",
+                        "<fieldset> must have a <legend> as the first child",
+                        "fieldset",
+                        "7:4",
+                        `/en-US/docs/Web/CSS/:invalid
+[wcag/h71] <fieldset> must have a <legend> as the first child
+~~~
+<form>
+  <fieldset>
+    <label for="form-name">Name</label><br />
+    <input type="text" name="name" id="form-name" required />
+  </fieldset>
+
+  <fieldset>
+    <label for="form-email">Email Address</label><br />
+    <input type="email" name="email" id="form-email" required />
+  </fieldset>
+
+  <fieldset>
+    <label for="form-message">Message</label><br />
+    <textarea name="message" id="form-message" required></textarea>
+  </fieldset>
+
+  <button type="submit" name="send">Submit</button>
+</form>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "wcag/h71",
+                        "<fieldset> must have a <legend> as the first child",
+                        "fieldset",
+                        "12:4",
+                        `/en-US/docs/Web/CSS/:invalid
+[wcag/h71] <fieldset> must have a <legend> as the first child
+~~~
+<form>
+  <fieldset>
+    <label for="form-name">Name</label><br />
+    <input type="text" name="name" id="form-name" required />
+  </fieldset>
+
+  <fieldset>
+    <label for="form-email">Email Address</label><br />
+    <input type="email" name="email" id="form-email" required />
+  </fieldset>
+
+  <fieldset>
+    <label for="form-message">Message</label><br />
+    <textarea name="message" id="form-message" required></textarea>
+  </fieldset>
+
+  <button type="submit" name="send">Submit</button>
+</form>
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 "_colon_local-link": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/:local-link",
@@ -19016,6 +19488,134 @@ input:in-range + label::after {
 input:out-of-range + label::after {
   content: "out of range!";
 }
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                "_colon_placeholder-shown": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/:placeholder-shown",
+                  messages: [
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "input-attributes",
+                        'Attribute "pattern" is not allowed on <input type="number">',
+                        "pattern",
+                        "14:7",
+                        `/en-US/docs/Web/CSS/:placeholder-shown
+[input-attributes] Attribute "pattern" is not allowed on <input type="number">
+~~~
+<form id="test">
+  <p>
+    <label for="name">Enter Student Name:</label>
+    <input id="name" placeholder="Student Name" />
+  </p>
+  <p>
+    <label for="branch">Enter Student Branch:</label>
+    <input id="branch" placeholder="Student Branch" />
+  </p>
+  <p>
+    <label for="sid">Enter Student ID:</label>
+    <input
+      type="number"
+      pattern="[0-9]{8}"
+      title="8 digit ID"
+      id="sid"
+      class="student-id"
+      placeholder="8 digit id" />
+  </p>
+  <input type="submit" />
+</form>
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                _colon_scope: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/:scope",
+                  messages: [
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "valid-id",
+                        'element id "element-1.1" must only contain letters, digits, dash and underscore characters',
+                        "element-1.1",
+                        "3:14",
+                        `/en-US/docs/Web/CSS/:scope
+[valid-id] element id "element-1.1" must only contain letters, digits, dash and underscore characters
+~~~
+<div id="context">
+  <div id="element-1">
+    <div id="element-1.1"></div>
+    <div id="element-1.2"></div>
+  </div>
+  <div id="element-2">
+    <div id="element-2.1"></div>
+  </div>
+</div>
+<p>
+  Selected element ids :
+  <span id="results"></span>
+</p>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "valid-id",
+                        'element id "element-1.2" must only contain letters, digits, dash and underscore characters',
+                        "element-1.2",
+                        "4:14",
+                        `/en-US/docs/Web/CSS/:scope
+[valid-id] element id "element-1.2" must only contain letters, digits, dash and underscore characters
+~~~
+<div id="context">
+  <div id="element-1">
+    <div id="element-1.1"></div>
+    <div id="element-1.2"></div>
+  </div>
+  <div id="element-2">
+    <div id="element-2.1"></div>
+  </div>
+</div>
+<p>
+  Selected element ids :
+  <span id="results"></span>
+</p>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "valid-id",
+                        'element id "element-2.1" must only contain letters, digits, dash and underscore characters',
+                        "element-2.1",
+                        "7:14",
+                        `/en-US/docs/Web/CSS/:scope
+[valid-id] element id "element-2.1" must only contain letters, digits, dash and underscore characters
+~~~
+<div id="context">
+  <div id="element-1">
+    <div id="element-1.1"></div>
+    <div id="element-1.2"></div>
+  </div>
+  <div id="element-2">
+    <div id="element-2.1"></div>
+  </div>
+</div>
+<p>
+  Selected element ids :
+  <span id="results"></span>
+</p>
 ~~~
 `
                       ]
@@ -19326,6 +19926,29 @@ dialog::backdrop {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<ol> element is not permitted as content under <ol>",
+                            "ol",
+                            "8:4",
+                            `/en-US/docs/Web/CSS/@counter-style/system
+[element-permitted-content] <ol> element is not permitted as content under <ol>
+~~~
+<ol start="48">
+  <li>48</li>
+  <li>49</li>
+  <li>50</li>
+  <li>51</li>
+  <li value="109">109</li>
+  <li>110</li>
+  <ol></ol>
+</ol>
+~~~
+`
+                          ]
                         }
                       ]
                     }
@@ -19420,334 +20043,6 @@ dialog::backdrop {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "700" to be "bold" (font-weight-notation)',
-                            "  font-weight: 500 700;",
-                            "15:20 - 15:23",
-                            `/en-US/docs/Web/CSS/@font-face/font-weight
-[font-weight-notation] Expected "700" to be "bold" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 1 1000;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Regular.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 1 300;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Light.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 500 700;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Bold.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 700 1000;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-ExtraBold.woff2");
-}
-
-body {
-  font-family: "Fira Sans", serif;
-  font-size: 2rem;
-}
-
-p.one {
-  font-weight: 100;
-}
-
-p.three {
-  font-weight: 300;
-}
-
-p.four {
-  font-weight: 400;
-}
-
-p.five {
-  font-weight: 500;
-}
-
-p.seven {
-  font-weight: 700;
-}
-
-p.nine {
-  font-weight: 900;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "700" to be "bold" (font-weight-notation)',
-                            "  font-weight: 700 1000;",
-                            "21:16 - 21:19",
-                            `/en-US/docs/Web/CSS/@font-face/font-weight
-[font-weight-notation] Expected "700" to be "bold" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 1 1000;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Regular.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 1 300;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Light.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 500 700;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Bold.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 700 1000;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-ExtraBold.woff2");
-}
-
-body {
-  font-family: "Fira Sans", serif;
-  font-size: 2rem;
-}
-
-p.one {
-  font-weight: 100;
-}
-
-p.three {
-  font-weight: 300;
-}
-
-p.four {
-  font-weight: 400;
-}
-
-p.five {
-  font-weight: 500;
-}
-
-p.seven {
-  font-weight: 700;
-}
-
-p.nine {
-  font-weight: 900;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "400" to be "normal" (font-weight-notation)',
-                            "  font-weight: 400;",
-                            "39:16 - 39:19",
-                            `/en-US/docs/Web/CSS/@font-face/font-weight
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 1 1000;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Regular.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 1 300;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Light.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 500 700;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Bold.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 700 1000;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-ExtraBold.woff2");
-}
-
-body {
-  font-family: "Fira Sans", serif;
-  font-size: 2rem;
-}
-
-p.one {
-  font-weight: 100;
-}
-
-p.three {
-  font-weight: 300;
-}
-
-p.four {
-  font-weight: 400;
-}
-
-p.five {
-  font-weight: 500;
-}
-
-p.seven {
-  font-weight: 700;
-}
-
-p.nine {
-  font-weight: 900;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "700" to be "bold" (font-weight-notation)',
-                            "  font-weight: 700;",
-                            "47:16 - 47:19",
-                            `/en-US/docs/Web/CSS/@font-face/font-weight
-[font-weight-notation] Expected "700" to be "bold" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 1 1000;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Regular.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 1 300;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Light.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 500 700;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Bold.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 700 1000;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-ExtraBold.woff2");
-}
-
-body {
-  font-family: "Fira Sans", serif;
-  font-size: 2rem;
-}
-
-p.one {
-  font-weight: 100;
-}
-
-p.three {
-  font-weight: 300;
-}
-
-p.four {
-  font-weight: 400;
-}
-
-p.five {
-  font-weight: 500;
-}
-
-p.seven {
-  font-weight: 700;
-}
-
-p.nine {
-  font-weight: 900;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "700" to be "bold" (font-weight-notation)',
-                            "  font-weight: 300 700;",
-                            "4:20 - 4:23",
-                            `/en-US/docs/Web/CSS/@font-face/font-weight
-[font-weight-notation] Expected "700" to be "bold" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "LeagueMono";
-  src: url("https://mdn.github.io/shared-assets/fonts/LeagueMono-VF.ttf");
-  font-weight: 300 700;
-}
-
-p {
-  font-family: "LeagueMono", serif;
-  font-size: 1.5rem;
-}
-
-p:first-of-type {
-  font-weight: 300;
-}
-
-p:last-of-type {
-  font-weight: 700;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "font-weight-notation",
-                            'Expected "700" to be "bold" (font-weight-notation)',
-                            "  font-weight: 700;",
-                            "17:16 - 17:19",
-                            `/en-US/docs/Web/CSS/@font-face/font-weight
-[font-weight-notation] Expected "700" to be "bold" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "LeagueMono";
-  src: url("https://mdn.github.io/shared-assets/fonts/LeagueMono-VF.ttf");
-  font-weight: 300 700;
-}
-
-p {
-  font-family: "LeagueMono", serif;
-  font-size: 1.5rem;
-}
-
-p:first-of-type {
-  font-weight: 300;
-}
-
-p:last-of-type {
-  font-weight: 700;
-}
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -20048,6 +20343,25 @@ div {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<div> element is not permitted as content under <iframe>",
+                            "div",
+                            "2:4",
+                            `/en-US/docs/Web/CSS/@media/aspect-ratio
+[element-permitted-content] <div> element is not permitted as content under <iframe>
+~~~
+<iframe id="outer">
+  <div id="inner">
+    Watch this element as you resize iframe viewport's width and height.
+  </div>
+</iframe>
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -20258,6 +20572,75 @@ div {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-required-attributes",
+                            '<img> is missing required "src" attribute',
+                            "img",
+                            "2:4",
+                            `/en-US/docs/Web/CSS/@media/prefers-color-scheme
+[element-required-attributes] <img> is missing required "src" attribute
+~~~
+<div>
+  <img />
+</div>
+<div class="light">
+  <img />
+</div>
+<div class="dark">
+  <img />
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-required-attributes",
+                            '<img> is missing required "src" attribute',
+                            "img",
+                            "5:4",
+                            `/en-US/docs/Web/CSS/@media/prefers-color-scheme
+[element-required-attributes] <img> is missing required "src" attribute
+~~~
+<div>
+  <img />
+</div>
+<div class="light">
+  <img />
+</div>
+<div class="dark">
+  <img />
+</div>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-required-attributes",
+                            '<img> is missing required "src" attribute',
+                            "img",
+                            "8:4",
+                            `/en-US/docs/Web/CSS/@media/prefers-color-scheme
+[element-required-attributes] <img> is missing required "src" attribute
+~~~
+<div>
+  <img />
+</div>
+<div class="light">
+  <img />
+</div>
+<div class="dark">
+  <img />
+</div>
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -20455,6 +20838,188 @@ div {
                       ]
                     }
                   }
+                },
+                "@scope": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/@scope",
+                  messages: [
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "element-required-attributes",
+                        '<img> is missing required "src" attribute',
+                        "img",
+                        "4:6",
+                        `/en-US/docs/Web/CSS/@scope
+[element-required-attributes] <img> is missing required "src" attribute
+~~~
+<article class="feature">
+  <section class="article-hero">
+    <h2>Article heading</h2>
+    <img alt="image" />
+  </section>
+
+  <section class="article-body">
+    <h3>Article subheading</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod
+      consectetur leo, nec eleifend quam volutpat vitae. Duis quis felis at
+      augue imperdiet aliquam. Morbi at felis et massa mattis lacinia. Cras
+      pharetra velit nisi, ac efficitur magna luctus nec.
+    </p>
+
+    <img alt="image" />
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <figure>
+      <img alt="image" />
+      <figcaption>My infographic</figcaption>
+    </figure>
+  </section>
+
+  <footer>
+    <p>Written by Chris Mills.</p>
+    <img alt="image" />
+  </footer>
+</article>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "element-required-attributes",
+                        '<img> is missing required "src" attribute',
+                        "img",
+                        "16:6",
+                        `/en-US/docs/Web/CSS/@scope
+[element-required-attributes] <img> is missing required "src" attribute
+~~~
+<article class="feature">
+  <section class="article-hero">
+    <h2>Article heading</h2>
+    <img alt="image" />
+  </section>
+
+  <section class="article-body">
+    <h3>Article subheading</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod
+      consectetur leo, nec eleifend quam volutpat vitae. Duis quis felis at
+      augue imperdiet aliquam. Morbi at felis et massa mattis lacinia. Cras
+      pharetra velit nisi, ac efficitur magna luctus nec.
+    </p>
+
+    <img alt="image" />
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <figure>
+      <img alt="image" />
+      <figcaption>My infographic</figcaption>
+    </figure>
+  </section>
+
+  <footer>
+    <p>Written by Chris Mills.</p>
+    <img alt="image" />
+  </footer>
+</article>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "element-required-attributes",
+                        '<img> is missing required "src" attribute',
+                        "img",
+                        "21:8",
+                        `/en-US/docs/Web/CSS/@scope
+[element-required-attributes] <img> is missing required "src" attribute
+~~~
+<article class="feature">
+  <section class="article-hero">
+    <h2>Article heading</h2>
+    <img alt="image" />
+  </section>
+
+  <section class="article-body">
+    <h3>Article subheading</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod
+      consectetur leo, nec eleifend quam volutpat vitae. Duis quis felis at
+      augue imperdiet aliquam. Morbi at felis et massa mattis lacinia. Cras
+      pharetra velit nisi, ac efficitur magna luctus nec.
+    </p>
+
+    <img alt="image" />
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <figure>
+      <img alt="image" />
+      <figcaption>My infographic</figcaption>
+    </figure>
+  </section>
+
+  <footer>
+    <p>Written by Chris Mills.</p>
+    <img alt="image" />
+  </footer>
+</article>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "element-required-attributes",
+                        '<img> is missing required "src" attribute',
+                        "img",
+                        "28:6",
+                        `/en-US/docs/Web/CSS/@scope
+[element-required-attributes] <img> is missing required "src" attribute
+~~~
+<article class="feature">
+  <section class="article-hero">
+    <h2>Article heading</h2>
+    <img alt="image" />
+  </section>
+
+  <section class="article-body">
+    <h3>Article subheading</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod
+      consectetur leo, nec eleifend quam volutpat vitae. Duis quis felis at
+      augue imperdiet aliquam. Morbi at felis et massa mattis lacinia. Cras
+      pharetra velit nisi, ac efficitur magna luctus nec.
+    </p>
+
+    <img alt="image" />
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+    <figure>
+      <img alt="image" />
+      <figcaption>My infographic</figcaption>
+    </figure>
+  </section>
+
+  <footer>
+    <p>Written by Chris Mills.</p>
+    <img alt="image" />
+  </footer>
+</article>
+~~~
+`
+                      ]
+                    }
+                  ]
                 },
                 "@starting-style": {
                   children: {},
@@ -32655,6 +33220,21 @@ oklch(63.612% 0.1522 78.748)
                     }
                   ]
                 },
+                "color-interpolation-method": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/color-interpolation-method",
+                  messages: [
+                    {
+                      message: "Unexpected BCD keys",
+                      data: [
+                        "Actual:",
+                        "css.types.color.color-mix",
+                        "Expected:",
+                        "[None]"
+                      ]
+                    }
+                  ]
+                },
                 column_combinator: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/Column_combinator",
@@ -34606,6 +35186,212 @@ rgb(from red r g b / alpha)
                     }
                   ]
                 },
+                css_containment: {
+                  children: {
+                    container_size_and_style_queries: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "form-dup-name",
+                            'Duplicate form control name "selection"',
+                            "selection",
+                            "5:33",
+                            `/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries
+[form-dup-name] Duplicate form control name "selection"
+~~~
+<fieldset>
+  <legend>Change the value of <code>--theme</code></legend>
+  <ol>
+    <li>
+      <input type="radio" name="selection" value="red" id="red" />
+      <label for="red">--theme: red;</label>
+    </li>
+    <li>
+      <input type="radio" name="selection" value="green" id="green" />
+      <label for="green">--theme: green</label>
+    </li>
+    <li>
+      <input type="radio" name="selection" value="blue" id="blue" />
+      <label for="blue">--theme: blue</label>
+    </li>
+    <li>
+      <input type="radio" name="selection" value="currentColor" id="other" />
+      <label for="other">Other</label>
+      <label for="color">color:</label>
+      <input text="checkbox" name="selection" value="currentColor" id="color" />
+    </li>
+  </ol>
+</fieldset>
+<output>I change colors</output>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "form-dup-name",
+                            'Duplicate form control name "selection"',
+                            "selection",
+                            "9:33",
+                            `/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries
+[form-dup-name] Duplicate form control name "selection"
+~~~
+<fieldset>
+  <legend>Change the value of <code>--theme</code></legend>
+  <ol>
+    <li>
+      <input type="radio" name="selection" value="red" id="red" />
+      <label for="red">--theme: red;</label>
+    </li>
+    <li>
+      <input type="radio" name="selection" value="green" id="green" />
+      <label for="green">--theme: green</label>
+    </li>
+    <li>
+      <input type="radio" name="selection" value="blue" id="blue" />
+      <label for="blue">--theme: blue</label>
+    </li>
+    <li>
+      <input type="radio" name="selection" value="currentColor" id="other" />
+      <label for="other">Other</label>
+      <label for="color">color:</label>
+      <input text="checkbox" name="selection" value="currentColor" id="color" />
+    </li>
+  </ol>
+</fieldset>
+<output>I change colors</output>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "form-dup-name",
+                            'Duplicate form control name "selection"',
+                            "selection",
+                            "13:33",
+                            `/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries
+[form-dup-name] Duplicate form control name "selection"
+~~~
+<fieldset>
+  <legend>Change the value of <code>--theme</code></legend>
+  <ol>
+    <li>
+      <input type="radio" name="selection" value="red" id="red" />
+      <label for="red">--theme: red;</label>
+    </li>
+    <li>
+      <input type="radio" name="selection" value="green" id="green" />
+      <label for="green">--theme: green</label>
+    </li>
+    <li>
+      <input type="radio" name="selection" value="blue" id="blue" />
+      <label for="blue">--theme: blue</label>
+    </li>
+    <li>
+      <input type="radio" name="selection" value="currentColor" id="other" />
+      <label for="other">Other</label>
+      <label for="color">color:</label>
+      <input text="checkbox" name="selection" value="currentColor" id="color" />
+    </li>
+  </ol>
+</fieldset>
+<output>I change colors</output>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "form-dup-name",
+                            'Duplicate form control name "selection"',
+                            "selection",
+                            "17:33",
+                            `/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries
+[form-dup-name] Duplicate form control name "selection"
+~~~
+<fieldset>
+  <legend>Change the value of <code>--theme</code></legend>
+  <ol>
+    <li>
+      <input type="radio" name="selection" value="red" id="red" />
+      <label for="red">--theme: red;</label>
+    </li>
+    <li>
+      <input type="radio" name="selection" value="green" id="green" />
+      <label for="green">--theme: green</label>
+    </li>
+    <li>
+      <input type="radio" name="selection" value="blue" id="blue" />
+      <label for="blue">--theme: blue</label>
+    </li>
+    <li>
+      <input type="radio" name="selection" value="currentColor" id="other" />
+      <label for="other">Other</label>
+      <label for="color">color:</label>
+      <input text="checkbox" name="selection" value="currentColor" id="color" />
+    </li>
+  </ol>
+</fieldset>
+<output>I change colors</output>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                css_counter_styles: {
+                  children: {
+                    using_css_counters: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_counter_styles/Using_CSS_counters",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "wcag/h30",
+                            "Anchor link must have a text describing its purpose",
+                            "a",
+                            "1:9",
+                            `/en-US/docs/Web/CSS/CSS_counter_styles/Using_CSS_counters
+[wcag/h30] Anchor link must have a text describing its purpose
+~~~
+<p>See <a href="https://www.mozilla.org/"></a></p>
+<p>Do not forget to <a href="contact-me.html">leave a message</a>!</p>
+<p>See also <a href="https://developer.mozilla.org/"></a></p>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "wcag/h30",
+                            "Anchor link must have a text describing its purpose",
+                            "a",
+                            "3:14",
+                            `/en-US/docs/Web/CSS/CSS_counter_styles/Using_CSS_counters
+[wcag/h30] Anchor link must have a text describing its purpose
+~~~
+<p>See <a href="https://www.mozilla.org/"></a></p>
+<p>Do not forget to <a href="contact-me.html">leave a message</a>!</p>
+<p>See also <a href="https://developer.mozilla.org/"></a></p>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 css_custom_functions_and_mixins: {
                   children: {
                     using_custom_functions: {
@@ -35002,6 +35788,59 @@ p {
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-deprecated-attr",
+                            'Attribute "cellpadding" is deprecated on <table> element',
+                            "cellpadding",
+                            "1:8",
+                            `/en-US/docs/Web/CSS/CSS_filter_effects/Using_filter_effects
+[no-deprecated-attr] Attribute "cellpadding" is deprecated on <table> element
+~~~
+<table cellpadding="5">
+  <thead>
+    <tr>
+      <th>CSS example</th>
+      <th>SVG example</th>
+      <th>Original image</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img
+          class="filter"
+          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+          alt="Pride flag" />
+      </td>
+      <td>
+        <img
+          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+          alt="Pride flag"
+          class="svgFilter" />
+      </td>
+      <td>
+        <img
+          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+          alt="Pride flag" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<svg role="img" aria-label="Flag">
+  <filter id="blur">
+    <feGaussianBlur stdDeviation="3.5" edgeMode="duplicate" />
+  </filter>
+  <image
+    xlink:href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+    filter="url(#blur)" />
+</svg>
+~~~
+`
+                          ]
                         }
                       ]
                     }
@@ -35189,52 +36028,378 @@ p {
                 },
                 css_fonts: {
                   children: {
-                    variable_fonts_guide: {
+                    opentype_fonts_guide: {
                       children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide",
+                      slug: "/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide",
                       messages: [
                         {
-                          message: "CSS code issue",
+                          message: "HTML code issue",
                           data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "some-non-variable-font-family" (font-family-name-quotes)',
-                            "  font-family: some-non-variable-font-family;",
-                            "2:16 - 2:45",
-                            `/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide
-[font-family-name-quotes] Expected quotes around "some-non-variable-font-family" (font-family-name-quotes)
+                            "no-implicit-close",
+                            "Element <p> is implicitly closed by adjacent <#document>",
+                            "p",
+                            "4:6",
+                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
+[no-implicit-close] Element <p> is implicitly closed by adjacent <#document>
 ~~~
-h1 {
-  font-family: some-non-variable-font-family;
-}
+<fieldset>
+  <legend>Using <code>font-variant-ligatures</code> property</legend>
+  <div class="container container1">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
+  <label for="checkbox1">Ligatures active</label>
+</fieldset>
 
-@supports (font-variation-settings: "wdth" 115) {
-  h1 {
-    font-family: some-variable-font-family;
-  }
-}
+<fieldset>
+  <legend>Using <code>font-feature-settings</code> property</legend>
+  <div class="container container2">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
+  <label for="checkbox2">Ligatures active</label>
+</fieldset>
 ~~~
 `
                           ]
                         },
                         {
-                          message: "CSS code issue",
+                          message: "HTML code issue",
                           data: [
-                            "font-family-name-quotes",
-                            'Expected quotes around "some-variable-font-family" (font-family-name-quotes)',
-                            "    font-family: some-variable-font-family;",
-                            "7:18 - 7:43",
-                            `/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide
-[font-family-name-quotes] Expected quotes around "some-variable-font-family" (font-family-name-quotes)
+                            "element-case",
+                            'Element "-" should be camelCase',
+                            "-",
+                            "4:26",
+                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
+[element-case] Element "-" should be camelCase
 ~~~
-h1 {
-  font-family: some-non-variable-font-family;
-}
+<fieldset>
+  <legend>Using <code>font-variant-ligatures</code> property</legend>
+  <div class="container container1">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
+  <label for="checkbox1">Ligatures active</label>
+</fieldset>
 
-@supports (font-variation-settings: "wdth" 115) {
-  h1 {
-    font-family: some-variable-font-family;
-  }
-}
+<fieldset>
+  <legend>Using <code>font-feature-settings</code> property</legend>
+  <div class="container container2">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
+  <label for="checkbox2">Ligatures active</label>
+</fieldset>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "close-order",
+                            "Unclosed element '<->'",
+                            "-",
+                            "4:26",
+                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
+[close-order] Unclosed element '<->'
+~~~
+<fieldset>
+  <legend>Using <code>font-variant-ligatures</code> property</legend>
+  <div class="container container1">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
+  <label for="checkbox1">Ligatures active</label>
+</fieldset>
+
+<fieldset>
+  <legend>Using <code>font-feature-settings</code> property</legend>
+  <div class="container container2">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
+  <label for="checkbox2">Ligatures active</label>
+</fieldset>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "close-order",
+                            "End tag '</p>' seen but there were open elements",
+                            "/p",
+                            "4:29",
+                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
+[close-order] End tag '</p>' seen but there were open elements
+~~~
+<fieldset>
+  <legend>Using <code>font-variant-ligatures</code> property</legend>
+  <div class="container container1">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
+  <label for="checkbox1">Ligatures active</label>
+</fieldset>
+
+<fieldset>
+  <legend>Using <code>font-feature-settings</code> property</legend>
+  <div class="container container2">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
+  <label for="checkbox2">Ligatures active</label>
+</fieldset>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "close-order",
+                            "End tag '</div>' seen but there were open elements",
+                            "/div",
+                            "5:4",
+                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
+[close-order] End tag '</div>' seen but there were open elements
+~~~
+<fieldset>
+  <legend>Using <code>font-variant-ligatures</code> property</legend>
+  <div class="container container1">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
+  <label for="checkbox1">Ligatures active</label>
+</fieldset>
+
+<fieldset>
+  <legend>Using <code>font-feature-settings</code> property</legend>
+  <div class="container container2">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
+  <label for="checkbox2">Ligatures active</label>
+</fieldset>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "close-order",
+                            "End tag '</fieldset>' seen but there were open elements",
+                            "/fieldset",
+                            "8:2",
+                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
+[close-order] End tag '</fieldset>' seen but there were open elements
+~~~
+<fieldset>
+  <legend>Using <code>font-variant-ligatures</code> property</legend>
+  <div class="container container1">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
+  <label for="checkbox1">Ligatures active</label>
+</fieldset>
+
+<fieldset>
+  <legend>Using <code>font-feature-settings</code> property</legend>
+  <div class="container container2">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
+  <label for="checkbox2">Ligatures active</label>
+</fieldset>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-implicit-close",
+                            "Element <p> is implicitly closed by adjacent <#document>",
+                            "p",
+                            "13:6",
+                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
+[no-implicit-close] Element <p> is implicitly closed by adjacent <#document>
+~~~
+<fieldset>
+  <legend>Using <code>font-variant-ligatures</code> property</legend>
+  <div class="container container1">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
+  <label for="checkbox1">Ligatures active</label>
+</fieldset>
+
+<fieldset>
+  <legend>Using <code>font-feature-settings</code> property</legend>
+  <div class="container container2">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
+  <label for="checkbox2">Ligatures active</label>
+</fieldset>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-case",
+                            'Element "-" should be camelCase',
+                            "-",
+                            "13:26",
+                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
+[element-case] Element "-" should be camelCase
+~~~
+<fieldset>
+  <legend>Using <code>font-variant-ligatures</code> property</legend>
+  <div class="container container1">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
+  <label for="checkbox1">Ligatures active</label>
+</fieldset>
+
+<fieldset>
+  <legend>Using <code>font-feature-settings</code> property</legend>
+  <div class="container container2">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
+  <label for="checkbox2">Ligatures active</label>
+</fieldset>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "close-order",
+                            "Unclosed element '<->'",
+                            "-",
+                            "13:26",
+                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
+[close-order] Unclosed element '<->'
+~~~
+<fieldset>
+  <legend>Using <code>font-variant-ligatures</code> property</legend>
+  <div class="container container1">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
+  <label for="checkbox1">Ligatures active</label>
+</fieldset>
+
+<fieldset>
+  <legend>Using <code>font-feature-settings</code> property</legend>
+  <div class="container container2">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
+  <label for="checkbox2">Ligatures active</label>
+</fieldset>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "close-order",
+                            "End tag '</p>' seen but there were open elements",
+                            "/p",
+                            "13:29",
+                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
+[close-order] End tag '</p>' seen but there were open elements
+~~~
+<fieldset>
+  <legend>Using <code>font-variant-ligatures</code> property</legend>
+  <div class="container container1">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
+  <label for="checkbox1">Ligatures active</label>
+</fieldset>
+
+<fieldset>
+  <legend>Using <code>font-feature-settings</code> property</legend>
+  <div class="container container2">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
+  <label for="checkbox2">Ligatures active</label>
+</fieldset>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "close-order",
+                            "End tag '</div>' seen but there were open elements",
+                            "/div",
+                            "14:4",
+                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
+[close-order] End tag '</div>' seen but there were open elements
+~~~
+<fieldset>
+  <legend>Using <code>font-variant-ligatures</code> property</legend>
+  <div class="container container1">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
+  <label for="checkbox1">Ligatures active</label>
+</fieldset>
+
+<fieldset>
+  <legend>Using <code>font-feature-settings</code> property</legend>
+  <div class="container container2">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
+  <label for="checkbox2">Ligatures active</label>
+</fieldset>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "close-order",
+                            "End tag '</fieldset>' seen but there were open elements",
+                            "/fieldset",
+                            "17:2",
+                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
+[close-order] End tag '</fieldset>' seen but there were open elements
+~~~
+<fieldset>
+  <legend>Using <code>font-variant-ligatures</code> property</legend>
+  <div class="container container1">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
+  <label for="checkbox1">Ligatures active</label>
+</fieldset>
+
+<fieldset>
+  <legend>Using <code>font-feature-settings</code> property</legend>
+  <div class="container container2">
+    <p>Puffy Perfect -^ <-></p>
+  </div>
+  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
+  <label for="checkbox2">Ligatures active</label>
+</fieldset>
 ~~~
 `
                           ]
@@ -44314,6 +45479,155 @@ blockquote p::after {
 ~~~
 `
                       ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "prefer-native-element",
+                        "Prefer to use the native <button> element",
+                        'role="button"',
+                        "68:11",
+                        `/en-US/docs/Web/CSS/CSS_multicol_layout
+[prefer-native-element] Prefer to use the native <button> element
+~~~
+<article>
+  <div class="title">
+    <h1>A Lament for Confederation</h1>
+    <p>&mdash;Chief Dan George, 1967</p>
+  </div>
+  <p>
+    How long have I known you, Oh Canada? A hundred years? Yes, a hundred years.
+    And many, many tides more. And today, when you celebrate your hundred years,
+    Oh Canada, I am sad for all the Indian people throughout the land.
+  </p>
+  <p>
+    For I have known you when your forests were mine; when they gave me my meat
+    and my clothing. I have known you in your fruits and rivers where your fish
+    flashed and danced in the sun, where the waters said ‘come and eat of my
+    abundance.’ I have known you in the freedom of your winds. And my spirit,
+    like your winds, once roamed this good lands.
+  </p>
+  <blockquote>
+    <p>
+      But in long the hundred years since the white man came, I have seen that
+      freedom disappear just like the salmon going mysteriously out to sea.
+    </p>
+  </blockquote>
+  <p>
+    The white man’s strange customs I could not understand, pressed down upon me
+    until I could no longer breathe.
+  </p>
+  <p>
+    When I fought to protect my home and my land, I was called a savage. When I
+    neither understood nor welcomed this new way of life, I was called lazy.
+    When I tried to rule my people, I was stripped of my authority.
+  </p>
+  <p>
+    My nation was ignored in your history textbooks – we were less important in
+    the history of Canada than the buffalo that ranged the plains. I was
+    ridiculed in your plays and motion pictures, and when I drank your
+    fire-water, I got drunk – very, very drunk. And I forgot.
+  </p>
+  <p>
+    Oh Canada, how can I celebrate with you this centenary, this hundred years?
+    Shall I thank you for the reserves that are left me of my beautiful forests?
+    Shall I thank you for the canned fish of my rivers? Shall I thank you for
+    the loss of my pride and authority, even among my own people? For the lack
+    of my will to fight back? No! I must forget what is past and gone.
+  </p>
+  <p>
+    Oh God in heaven! Give me the courage of the olden chiefs. Let me wrestle
+    with my surroundings. Let me once again, as in the days of old, dominate my
+    environment. Let me humbly accept this new culture and through it rise up
+    and go on.
+  </p>
+  <p>
+    Oh god, like the thunderbird of old, I shall rise again out of the sea. I
+    shall grab the instruments of the white man’s success – his education, his
+    skills, and with these new tools I shall build my race into the proudest
+    segment of your society. And, before I follow the great chiefs who have gone
+    before us, I shall see these things come to pass.
+  </p>
+  <p>
+    I shall see our young braves and our chiefs sitting in the house of law and
+    government, ruling and being ruled by the knowledge and freedoms of our
+    great land. So shall we shatter the barriers of our isolation. So shall the
+    next hundred years be the greatest in the proud history of our tribes and
+    nations.
+  </p>
+</article>
+<fieldset id="options">
+  <legend role="button" aria-expanded="true" aria-controls="controls">
+    Column options
+  </legend>
+  <div id="controls">
+    <p>
+      <input type="range" min="0" max="5" value="5" id="colCount" />
+      <label for="colCount">Max # of columns:</label>
+    </p>
+    <p>
+      <input type="range" min="2" max="40" value="10" step="2" id="colWidth" />
+      <label for="colWidth">Min width of columns:</label>
+    </p>
+    <p>
+      <input type="range" min="0" max="10" value="1" step="0.5" id="gapSize" />
+      <label for="gapSize">Gap size:</label>
+    </p>
+    <p>
+      <input type="checkbox" checked id="colSpan" />
+      <label for="colSpan">Byline spans all columns</label>
+    </p>
+    <p>
+      <input type="checkbox" id="blockSpan" />
+      <label for="blockSpan">Blockquote spans all columns</label>
+    </p>
+    <p>
+      <input type="checkbox" id="colFill" />
+      <label for="colFill">Balance columns</label>
+    </p>
+    <p>
+      <input type="checkbox" id="break" />
+      <label for="break">Don't break paragraphs</label>
+    </p>
+  </div>
+</fieldset>
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
+                css_nesting: {
+                  children: {
+                    using_css_nesting: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/CSS/CSS_nesting",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://sass-lang.com/",
+                        "The operation timed out."
+                      ]
                     }
                   ]
                 },
@@ -44414,6 +45728,73 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
   opacity: 20%;
   pointer-events: none;
 }
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "input-attributes",
+                        'Attribute "size" is not allowed on <input type="number">',
+                        "size",
+                        "17:64",
+                        `/en-US/docs/Web/CSS/CSS_overflow
+[input-attributes] Attribute "size" is not allowed on <input type="number">
+~~~
+<article>
+  <fieldset>
+    <legend>Select options:</legend>
+    <label
+      ><code>overflow</code>:
+      <select id="overflowValue">
+        <option>hidden</option>
+        <option>clip</option>
+        <option>scroll</option>
+        <option>auto</option>
+        <option selected>visible</option>
+        <option>overlay</option>
+      </select>
+    </label>
+    <label>
+      <code>overflow-clip-margin</code>:
+      <input type="number" id="ocm" value="1" min="0" max="10" size="2" />
+      <code>em</code>
+    </label>
+    <label
+      ><input type="checkbox" id="wide" /> <code>width</code>:
+      <code>20em</code> or <code>40em</code></label
+    >
+    <fieldset>
+      <legend>Scroll programmatically:</legend>
+      <label
+        >ScrollLeft:
+        <input type="range" min="0" max="100" value="0" id="scrollL"
+      /></label>
+      <label
+        >ScrollTop:
+        <input type="range" min="0" max="100" value="0" id="scrollT"
+      /></label>
+    </fieldset>
+  </fieldset>
+  <pre class="visible">&nbsp;
+    Oh, Rubber Duckie, you're the one
+    You make bath time lots of fun
+    Rubber Duckie, I'm awfully fond of you
+
+    Rubber Duckie, joy of joys
+    When I squeeze you, you make noise
+    Rubber Duckie, you're my very best friend, it's true
+
+    Oh, every day when I make my way to the tubby
+    I find a little fella who's cute and yellow and chubby
+    Rub-a-dub-dubby
+
+    <a href="#">Rubber Duckie</a>, you're so fine
+    And I'm lucky that you're mine
+    Rubber Duckie, I'm awfully fond of you
+      </pre>
+</article>
 ~~~
 `
                       ]
@@ -44552,21 +45933,7 @@ article.snapDisabled ul {
                   ]
                 },
                 css_text: {
-                  children: {
-                    wrapping_breaking_text: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2019/09/overflow-data-loss-css/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/CSS/CSS_text",
                   messages: [
                     {
@@ -45675,7 +47042,358 @@ section {
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/CSS/CSS_transforms",
+                  messages: [
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "attribute-boolean-style",
+                        'Attribute "checked" should omit value',
+                        "checked",
+                        "311:17",
+                        `/en-US/docs/Web/CSS/CSS_transforms
+[attribute-boolean-style] Attribute "checked" should omit value
+~~~
+<article>
+  <fieldset id="allTransformFieldset">
+    <legend>
+      Transform settings
+      <button id="resetAllButton" aria-label="Reset">↻</button>
+    </legend>
+    <section id="fieldsetSection">
+      <fieldset class="transformFieldset">
+        <legend>
+          <label>
+            <span>Translation</span>
+          </label>
+          <button
+            id="translateSectionReset"
+            class="resetSectionButton"
+            aria-label="Reset">
+            ↻
+          </button>
+        </legend>
+        <div class="controlsContainer">
+          <div>
+            <label>
+              <span id="translateXLabel">X</span>
+              <input
+                type="range"
+                min="-100"
+                max="100"
+                value="0"
+                data-default="0"
+                id="translateXRange"
+                aria-labelledby="translateXLabel" />
+            </label>
+            <output id="translateXOutput" for="translateXRange"></output>
+          </div>
+          <div>
+            <label>
+              <span id="translateYLabel">Y</span>
+              <input
+                type="range"
+                min="-100"
+                max="100"
+                value="0"
+                data-default="0"
+                id="translateYRange"
+                aria-labelledby="translateYLabel" />
+            </label>
+            <output id="translateYOutput" for="translateYRange"></output>
+          </div>
+          <div>
+            <label>
+              <span id="translateZLabel">Z</span>
+              <input
+                type="range"
+                min="-100"
+                max="100"
+                value="0"
+                data-default="0"
+                id="translateZRange"
+                aria-labelledby="translateZLabel" />
+            </label>
+            <output id="translateZOutput" for="translateZRange"></output>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="transformFieldset">
+        <legend>
+          <label>
+            <span>Rotation</span>
+          </label>
+          <button
+            id="rotateSectionReset"
+            class="resetSectionButton"
+            aria-label="Reset">
+            ↻
+          </button>
+        </legend>
+        <div class="controlsContainer">
+          <div>
+            <label>
+              <span id="rotateXLabel">X</span>
+              <input
+                type="range"
+                min="-360"
+                max="360"
+                value="0"
+                data-default="0"
+                id="rotateXRange"
+                aria-labelledby="rotateXLabel" />
+            </label>
+            <output id="rotateXOutput" for="rotateXRange"></output>
+          </div>
+          <div>
+            <label>
+              <span id="rotateYLabel">Y</span>
+              <input
+                type="range"
+                min="-360"
+                max="360"
+                value="0"
+                data-default="0"
+                id="rotateYRange"
+                aria-labelledby="rotateYLabel" />
+            </label>
+            <output id="rotateYOutput" for="rotateYRange"></output>
+          </div>
+          <div>
+            <label>
+              <span id="rotateZLabel">Z</span>
+              <input
+                type="range"
+                min="-360"
+                max="360"
+                value="0"
+                data-default="0"
+                id="rotateZRange"
+                aria-labelledby="rotateZLabel" />
+            </label>
+            <output id="rotateZOutput" for="rotateZRange"></output>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="transformFieldset">
+        <legend>
+          <label>
+            <span>Scale</span>
+          </label>
+          <button
+            id="scaleSectionReset"
+            class="resetSectionButton"
+            aria-label="Reset">
+            ↻
+          </button>
+        </legend>
+        <div class="controlsContainer">
+          <div>
+            <label>
+              <span id="scaleXLabel">X</span>
+              <input
+                type="range"
+                min="0.1"
+                max="2.5"
+                value="1"
+                data-default="1"
+                step="0.1"
+                id="scaleXRange"
+                aria-labelledby="scaleXLabel" />
+            </label>
+            <output id="scaleXOutput" for="scaleXRange"></output>
+          </div>
+          <div>
+            <label id="scaleYLabel">
+              <span>Y</span>
+              <input
+                type="range"
+                min="0.1"
+                max="2.5"
+                value="1"
+                data-default="1"
+                step="0.1"
+                id="scaleYRange"
+                aria-labelledby="scaleYLabel" />
+            </label>
+            <output id="scaleYOutput" for="scaleYRange"></output>
+          </div>
+          <div>
+            <label id="scaleZLabel">
+              <span>Z</span>
+              <input
+                type="range"
+                min="0.1"
+                max="2.5"
+                value="1"
+                data-default="1"
+                step="0.1"
+                id="scaleZRange"
+                aria-labelledby="scaleZLabel" />
+            </label>
+            <output id="scaleZOutput" for="scaleZRange"></output>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="transformFieldset">
+        <legend>
+          <label>
+            <span>Skew</span>
+          </label>
+          <button
+            id="skewSectionReset"
+            class="resetSectionButton"
+            aria-label="Reset">
+            ↻
+          </button>
+        </legend>
+        <div class="controlsContainer">
+          <div>
+            <label>
+              <span id="skewXLabel">X</span>
+              <input
+                type="range"
+                min="-90"
+                max="90"
+                value="0"
+                data-default="0"
+                id="skewXRange"
+                aria-labelledby="skewXLabel" />
+            </label>
+            <output id="skewXOutput" for="skewXRange"></output>
+          </div>
+          <div>
+            <label>
+              <span id="skewYLabel">Y</span>
+              <input
+                type="range"
+                min="-90"
+                max="90"
+                value="0"
+                data-default="0"
+                id="skewYRange"
+                aria-labelledby="skewYLabel" />
+            </label>
+            <output id="skewYOutput" for="skewYRange"></output>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="transformFieldset">
+        <legend>
+          <label>
+            <span>Container Perspective</span>
+          </label>
+          <button
+            id="containerPerspectiveSectionReset"
+            class="resetSectionButton"
+            aria-label="Reset">
+            ↻
+          </button>
+        </legend>
+        <div class="controlsContainer">
+          <div>
+            <label>
+              <span id="perspectiveLabel"><code>perspective</code></span>
+              <input
+                type="range"
+                min="75"
+                max="500"
+                value="200"
+                data-default="200"
+                id="perspectiveRange"
+                aria-labelledby="perspectiveLabel" />
+            </label>
+            <output id="perspectiveOutput" for="perspectiveRange"></output>
+          </div>
+          <div>
+            <label>
+              <span id="perspectiveOriginXLabel"
+                ><code>perspective-origin</code> X (%)</span
+              >
+              <input
+                type="range"
+                min="0"
+                max="100"
+                value="50"
+                data-default="50"
+                id="perspectiveOriginXRange"
+                aria-labelledby="perspectiveOriginXLabel" />
+            </label>
+            <output
+              id="perspectiveOriginXOutput"
+              for="perspectiveOriginXRange"></output>
+          </div>
+          <div>
+            <label>
+              <span><code>perspective-origin</code> Y (%)</span>
+              <input
+                type="range"
+                min="0"
+                max="100"
+                value="50"
+                data-default="50"
+                id="perspectiveOriginYRange"
+                aria-labelledby="perspectiveOriginYLabel" />
+            </label>
+            <output
+              id="perspectiveOriginYOutput"
+              for="perspectiveOriginYRange"></output>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="transformFieldset">
+        <legend>
+          <label>
+            <span>Other Properties</span>
+          </label>
+          <button
+            id="otherSectionReset"
+            class="resetSectionButton"
+            aria-label="Reset">
+            ↻
+          </button>
+        </legend>
+        <div class="controlsContainer">
+          <div>
+            <label>
+              <span><code>backface-visibility</code></span>
+              <input
+                type="checkbox"
+                checked="checked"
+                data-default="checked"
+                id="backfaceVisibilityCheckbox" />
+            </label>
+          </div>
+        </div>
+      </fieldset>
+    </section>
+  </fieldset>
+  <section id="outputSection">
+    <div id="outputContainer">
+      <div id="cube">
+        <div class="face front">1</div>
+        <div class="face back">2</div>
+        <div class="face right">3</div>
+        <div class="face left">4</div>
+        <div class="face top">5</div>
+        <div class="face bottom">6</div>
+      </div>
+      <div id="z0"><code>z:0px</code></div>
+    </div>
+    <div id="perspectiveDot"></div>
+  </section>
+</article>
+~~~
+`
+                      ]
+                    }
+                  ]
                 },
                 css_values_and_units: {
                   children: {
@@ -45884,7 +47602,16 @@ input[type="range"] {
                         }
                       ]
                     }
-                  }
+                  },
+                  slug: "/en-US/docs/Web/CSS/CSS_writing_modes",
+                  messages: [
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/glyph-orientation-vertical"
+                      ]
+                    }
+                  ]
                 },
                 cssom_view: {
                   children: {
@@ -46376,6 +48103,71 @@ env(viewport-segment-width 1 0)
                 },
                 "filter-function": {
                   children: {
+                    blur: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/filter-function/blur",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-deprecated-attr",
+                            'Attribute "cellpadding" is deprecated on <table> element',
+                            "cellpadding",
+                            "11:8",
+                            `/en-US/docs/Web/CSS/filter-function/blur
+[no-deprecated-attr] Attribute "cellpadding" is deprecated on <table> element
+~~~
+<svg role="img" aria-label="Flag">
+  <filter id="blur">
+    <feGaussianBlur stdDeviation="3.5" edgeMode="duplicate" />
+  </filter>
+  <image
+    href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+    xlink:href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+    filter="url('#blur')" />
+</svg>
+
+<table cellpadding="5">
+  <thead>
+    <tr>
+      <th>Live example</th>
+      <th>SVG Equivalent</th>
+      <th>Original image</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img
+          class="filter"
+          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+          alt="Pride flag" />
+      </td>
+      <td>
+        <svg id="svg" height="220" width="220" overflow="visible">
+          <filter id="svgBlur">
+            <feGaussianBlur stdDeviation="3.5" />
+          </filter>
+          <image
+            href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+            xlink:href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+            filter="url('#svgBlur')" />
+        </svg>
+      </td>
+      <td>
+        <img
+          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+          alt="Pride flag" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     brightness: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/brightness",
@@ -46402,6 +48194,60 @@ brightness(100%)
 
 brightness(2)   /* Brightness of input is doubled */
 brightness(200%)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-deprecated-attr",
+                            'Attribute "cellpadding" is deprecated on <table> element',
+                            "cellpadding",
+                            "11:8",
+                            `/en-US/docs/Web/CSS/filter-function/brightness
+[no-deprecated-attr] Attribute "cellpadding" is deprecated on <table> element
+~~~
+<svg role="none">
+  <filter id="darken25" color-interpolation-filters="sRGB">
+    <feComponentTransfer>
+      <feFuncR type="linear" slope="0.75" />
+      <feFuncG type="linear" slope="0.75" />
+      <feFuncB type="linear" slope="0.75" />
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+<table cellpadding="5">
+  <thead>
+    <tr>
+      <th>Live example</th>
+      <th>SVG Equivalent</th>
+      <th>Original image</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img
+          class="css-filter"
+          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+          alt="darkened pride flag" />
+      </td>
+      <td>
+        <img
+          class="svg-filter"
+          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+          alt="darkened pride flag" />
+      </td>
+      <td>
+        <img
+          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+          alt="Pride flag" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 ~~~
 `
                           ]
@@ -46434,6 +48280,67 @@ contrast(100%)
 
 contrast(2)    /* Double contrast */
 contrast(200%)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-deprecated-attr",
+                            'Attribute "cellpadding" is deprecated on <table> element',
+                            "cellpadding",
+                            "18:8",
+                            `/en-US/docs/Web/CSS/filter-function/contrast
+[no-deprecated-attr] Attribute "cellpadding" is deprecated on <table> element
+~~~
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  id="svg"
+  viewBox="0 0 240 151"
+  height="0"
+  width="0"
+  overflow="visible"
+  color-interpolation-filters="sRGB">
+  <filter id="contrast">
+    <feComponentTransfer>
+      <feFuncR type="linear" slope="2" intercept="-0.5" />
+      <feFuncG type="linear" slope="2" intercept="-0.5" />
+      <feFuncB type="linear" slope="2" intercept="-0.5" />
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+<table cellpadding="5">
+  <thead>
+    <tr>
+      <th><code>contrast()</code></th>
+      <th><code>url()</code></th>
+      <th>Original image</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img
+          class="css-filter"
+          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+          alt="Pride flag" />
+      </td>
+      <td>
+        <img
+          class="svg-filter"
+          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+          alt="Pride flag" />
+      </td>
+      <td>
+        <img
+          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+          alt="Pride flag" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 ~~~
 `
                           ]
@@ -46485,6 +48392,130 @@ hue-rotate(540deg)
 hue-rotate(200grad)
 hue-rotate(3.14159rad)
 hue-rotate(0.5turn)
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-deprecated-attr",
+                            'Attribute "cellpadding" is deprecated on <table> element',
+                            "cellpadding",
+                            "12:8",
+                            `/en-US/docs/Web/CSS/filter-function/hue-rotate
+[no-deprecated-attr] Attribute "cellpadding" is deprecated on <table> element
+~~~
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 220 220"
+  color-interpolation-filters="sRGB"
+  height="220"
+  width="220">
+  <filter id="hue-rotate">
+    <feColorMatrix type="hueRotate" values="90" />
+  </filter>
+</svg>
+
+<table cellpadding="5">
+  <thead>
+    <tr>
+      <th><code>hue-rotate()</code></th>
+      <th><code>url()</code></th>
+      <th>Original image</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img
+          class="css-filter"
+          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+          alt="Pride flag with rotated colors" />
+      </td>
+      <td>
+        <img
+          class="svg-filter"
+          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+          alt="Pride flag with rotated colors" />
+      </td>
+      <td>
+        <img
+          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+          alt="Pride flag" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    invert: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/filter-function/invert",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "no-deprecated-attr",
+                            'Attribute "cellpadding" is deprecated on <table> element',
+                            "cellpadding",
+                            "11:8",
+                            `/en-US/docs/Web/CSS/filter-function/invert
+[no-deprecated-attr] Attribute "cellpadding" is deprecated on <table> element
+~~~
+<svg height="0">
+  <filter id="invert">
+    <feComponentTransfer>
+      <feFuncR type="table" tableValues="0.3 0" />
+      <feFuncG type="table" tableValues="0.3 0" />
+      <feFuncB type="table" tableValues="0.3 0" />
+    </feComponentTransfer>
+  </filter>
+</svg>
+
+<table cellpadding="5">
+  <thead>
+    <tr>
+      <th><code>invert()</code> filter</th>
+      <th>SVG filter equivalent</th>
+      <th>Original image</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img
+          class="svgFilter"
+          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+          alt="Pride flag" />
+      </td>
+      <td>
+        <svg id="svg" height="220" width="220" overflow="visible">
+          <filter id="svgInvert">
+            <feComponentTransfer>
+              <feFuncR type="table" tableValues="0.3 0" />
+              <feFuncG type="table" tableValues="0.3 0" />
+              <feFuncB type="table" tableValues="0.3 0" />
+            </feComponentTransfer>
+          </filter>
+          <image
+            href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+            xlink:href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+            filter="url('#svgInvert')" />
+        </svg>
+      </td>
+      <td>
+        <img
+          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
+          alt="Pride flag" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 ~~~
 `
                           ]
@@ -46956,6 +48987,918 @@ span {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/hue-interpolation-method",
                   messages: [
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-named",
+                        'Expected "hsl(60 100% 50%)" to be "yellow" (color-named)',
+                        "    hsl(60 100% 50%)",
+                        "21:5 - 21:21",
+                        `/en-US/docs/Web/CSS/hue-interpolation-method
+[color-named] Expected "hsl(60 100% 50%)" to be "yellow" (color-named)
+~~~
+div {
+  border: 1px solid black;
+  height: 50px;
+  margin: 10px;
+  width: 90%;
+}
+p {
+  color: white;
+  margin: 6px;
+}
+
+/* Fallback styles */
+.hsl,
+.hsl-shorter,
+.hsl-named {
+  background: linear-gradient(
+    to right,
+    hsl(39 100% 50%),
+    hsl(46 100% 50%),
+    hsl(53 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
+.hsl-increasing {
+  background: linear-gradient(
+    to right,
+    hsl(190 100% 50%),
+    hsl(225 100% 50%),
+    hsl(260 100% 50%),
+    hsl(295 100% 50%),
+    hsl(330 100% 50%),
+    hsl(365 100% 50%),
+    hsl(400 100% 50%),
+    hsl(435 100% 50%),
+    hsl(470 100% 50%),
+    hsl(505 100% 50%),
+    hsl(540 100% 50%)
+  );
+}
+.hsl-decreasing,
+.hsl-longer,
+.hsl-named-longer {
+  background: linear-gradient(
+    to right,
+    hsl(399 100% 50%),
+    hsl(368 100% 50%),
+    hsl(337 100% 50%),
+    hsl(307 100% 50%),
+    hsl(276 100% 50%),
+    hsl(245 100% 50%),
+    hsl(214 100% 50%),
+    hsl(183 100% 50%),
+    hsl(152 100% 50%),
+    hsl(122 100% 50%),
+    hsl(91 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
+
+.hsl {
+  background: linear-gradient(
+    to right in hsl,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-increasing {
+  background: linear-gradient(
+    to right in hsl increasing hue,
+    hsl(190deg 100% 50%),
+    hsl(180deg 100% 50%)
+  );
+}
+.hsl-decreasing {
+  background: linear-gradient(
+    to right in hsl decreasing hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-shorter {
+  background: linear-gradient(
+    to right in hsl shorter hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-longer {
+  background: linear-gradient(
+    to right in hsl longer hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-named {
+  background: linear-gradient(to right in hsl, orange, yellow);
+}
+.hsl-named-longer {
+  background: linear-gradient(to right in hsl longer hue, orange, yellow);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-named",
+                        'Expected "hsl(540 100% 50%)" to be "cyan" (color-named)',
+                        "    hsl(540 100% 50%)",
+                        "37:5 - 37:22",
+                        `/en-US/docs/Web/CSS/hue-interpolation-method
+[color-named] Expected "hsl(540 100% 50%)" to be "cyan" (color-named)
+~~~
+div {
+  border: 1px solid black;
+  height: 50px;
+  margin: 10px;
+  width: 90%;
+}
+p {
+  color: white;
+  margin: 6px;
+}
+
+/* Fallback styles */
+.hsl,
+.hsl-shorter,
+.hsl-named {
+  background: linear-gradient(
+    to right,
+    hsl(39 100% 50%),
+    hsl(46 100% 50%),
+    hsl(53 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
+.hsl-increasing {
+  background: linear-gradient(
+    to right,
+    hsl(190 100% 50%),
+    hsl(225 100% 50%),
+    hsl(260 100% 50%),
+    hsl(295 100% 50%),
+    hsl(330 100% 50%),
+    hsl(365 100% 50%),
+    hsl(400 100% 50%),
+    hsl(435 100% 50%),
+    hsl(470 100% 50%),
+    hsl(505 100% 50%),
+    hsl(540 100% 50%)
+  );
+}
+.hsl-decreasing,
+.hsl-longer,
+.hsl-named-longer {
+  background: linear-gradient(
+    to right,
+    hsl(399 100% 50%),
+    hsl(368 100% 50%),
+    hsl(337 100% 50%),
+    hsl(307 100% 50%),
+    hsl(276 100% 50%),
+    hsl(245 100% 50%),
+    hsl(214 100% 50%),
+    hsl(183 100% 50%),
+    hsl(152 100% 50%),
+    hsl(122 100% 50%),
+    hsl(91 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
+
+.hsl {
+  background: linear-gradient(
+    to right in hsl,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-increasing {
+  background: linear-gradient(
+    to right in hsl increasing hue,
+    hsl(190deg 100% 50%),
+    hsl(180deg 100% 50%)
+  );
+}
+.hsl-decreasing {
+  background: linear-gradient(
+    to right in hsl decreasing hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-shorter {
+  background: linear-gradient(
+    to right in hsl shorter hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-longer {
+  background: linear-gradient(
+    to right in hsl longer hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-named {
+  background: linear-gradient(to right in hsl, orange, yellow);
+}
+.hsl-named-longer {
+  background: linear-gradient(to right in hsl longer hue, orange, yellow);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-named",
+                        'Expected "hsl(60 100% 50%)" to be "yellow" (color-named)',
+                        "    hsl(60 100% 50%)",
+                        "56:5 - 56:21",
+                        `/en-US/docs/Web/CSS/hue-interpolation-method
+[color-named] Expected "hsl(60 100% 50%)" to be "yellow" (color-named)
+~~~
+div {
+  border: 1px solid black;
+  height: 50px;
+  margin: 10px;
+  width: 90%;
+}
+p {
+  color: white;
+  margin: 6px;
+}
+
+/* Fallback styles */
+.hsl,
+.hsl-shorter,
+.hsl-named {
+  background: linear-gradient(
+    to right,
+    hsl(39 100% 50%),
+    hsl(46 100% 50%),
+    hsl(53 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
+.hsl-increasing {
+  background: linear-gradient(
+    to right,
+    hsl(190 100% 50%),
+    hsl(225 100% 50%),
+    hsl(260 100% 50%),
+    hsl(295 100% 50%),
+    hsl(330 100% 50%),
+    hsl(365 100% 50%),
+    hsl(400 100% 50%),
+    hsl(435 100% 50%),
+    hsl(470 100% 50%),
+    hsl(505 100% 50%),
+    hsl(540 100% 50%)
+  );
+}
+.hsl-decreasing,
+.hsl-longer,
+.hsl-named-longer {
+  background: linear-gradient(
+    to right,
+    hsl(399 100% 50%),
+    hsl(368 100% 50%),
+    hsl(337 100% 50%),
+    hsl(307 100% 50%),
+    hsl(276 100% 50%),
+    hsl(245 100% 50%),
+    hsl(214 100% 50%),
+    hsl(183 100% 50%),
+    hsl(152 100% 50%),
+    hsl(122 100% 50%),
+    hsl(91 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
+
+.hsl {
+  background: linear-gradient(
+    to right in hsl,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-increasing {
+  background: linear-gradient(
+    to right in hsl increasing hue,
+    hsl(190deg 100% 50%),
+    hsl(180deg 100% 50%)
+  );
+}
+.hsl-decreasing {
+  background: linear-gradient(
+    to right in hsl decreasing hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-shorter {
+  background: linear-gradient(
+    to right in hsl shorter hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-longer {
+  background: linear-gradient(
+    to right in hsl longer hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-named {
+  background: linear-gradient(to right in hsl, orange, yellow);
+}
+.hsl-named-longer {
+  background: linear-gradient(to right in hsl longer hue, orange, yellow);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-named",
+                        'Expected "hsl(60deg 100% 50%)" to be "yellow" (color-named)',
+                        "    hsl(60deg 100% 50%)",
+                        "64:5 - 64:24",
+                        `/en-US/docs/Web/CSS/hue-interpolation-method
+[color-named] Expected "hsl(60deg 100% 50%)" to be "yellow" (color-named)
+~~~
+div {
+  border: 1px solid black;
+  height: 50px;
+  margin: 10px;
+  width: 90%;
+}
+p {
+  color: white;
+  margin: 6px;
+}
+
+/* Fallback styles */
+.hsl,
+.hsl-shorter,
+.hsl-named {
+  background: linear-gradient(
+    to right,
+    hsl(39 100% 50%),
+    hsl(46 100% 50%),
+    hsl(53 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
+.hsl-increasing {
+  background: linear-gradient(
+    to right,
+    hsl(190 100% 50%),
+    hsl(225 100% 50%),
+    hsl(260 100% 50%),
+    hsl(295 100% 50%),
+    hsl(330 100% 50%),
+    hsl(365 100% 50%),
+    hsl(400 100% 50%),
+    hsl(435 100% 50%),
+    hsl(470 100% 50%),
+    hsl(505 100% 50%),
+    hsl(540 100% 50%)
+  );
+}
+.hsl-decreasing,
+.hsl-longer,
+.hsl-named-longer {
+  background: linear-gradient(
+    to right,
+    hsl(399 100% 50%),
+    hsl(368 100% 50%),
+    hsl(337 100% 50%),
+    hsl(307 100% 50%),
+    hsl(276 100% 50%),
+    hsl(245 100% 50%),
+    hsl(214 100% 50%),
+    hsl(183 100% 50%),
+    hsl(152 100% 50%),
+    hsl(122 100% 50%),
+    hsl(91 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
+
+.hsl {
+  background: linear-gradient(
+    to right in hsl,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-increasing {
+  background: linear-gradient(
+    to right in hsl increasing hue,
+    hsl(190deg 100% 50%),
+    hsl(180deg 100% 50%)
+  );
+}
+.hsl-decreasing {
+  background: linear-gradient(
+    to right in hsl decreasing hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-shorter {
+  background: linear-gradient(
+    to right in hsl shorter hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-longer {
+  background: linear-gradient(
+    to right in hsl longer hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-named {
+  background: linear-gradient(to right in hsl, orange, yellow);
+}
+.hsl-named-longer {
+  background: linear-gradient(to right in hsl longer hue, orange, yellow);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-named",
+                        'Expected "hsl(180deg 100% 50%)" to be "cyan" (color-named)',
+                        "    hsl(180deg 100% 50%)",
+                        "71:5 - 71:25",
+                        `/en-US/docs/Web/CSS/hue-interpolation-method
+[color-named] Expected "hsl(180deg 100% 50%)" to be "cyan" (color-named)
+~~~
+div {
+  border: 1px solid black;
+  height: 50px;
+  margin: 10px;
+  width: 90%;
+}
+p {
+  color: white;
+  margin: 6px;
+}
+
+/* Fallback styles */
+.hsl,
+.hsl-shorter,
+.hsl-named {
+  background: linear-gradient(
+    to right,
+    hsl(39 100% 50%),
+    hsl(46 100% 50%),
+    hsl(53 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
+.hsl-increasing {
+  background: linear-gradient(
+    to right,
+    hsl(190 100% 50%),
+    hsl(225 100% 50%),
+    hsl(260 100% 50%),
+    hsl(295 100% 50%),
+    hsl(330 100% 50%),
+    hsl(365 100% 50%),
+    hsl(400 100% 50%),
+    hsl(435 100% 50%),
+    hsl(470 100% 50%),
+    hsl(505 100% 50%),
+    hsl(540 100% 50%)
+  );
+}
+.hsl-decreasing,
+.hsl-longer,
+.hsl-named-longer {
+  background: linear-gradient(
+    to right,
+    hsl(399 100% 50%),
+    hsl(368 100% 50%),
+    hsl(337 100% 50%),
+    hsl(307 100% 50%),
+    hsl(276 100% 50%),
+    hsl(245 100% 50%),
+    hsl(214 100% 50%),
+    hsl(183 100% 50%),
+    hsl(152 100% 50%),
+    hsl(122 100% 50%),
+    hsl(91 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
+
+.hsl {
+  background: linear-gradient(
+    to right in hsl,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-increasing {
+  background: linear-gradient(
+    to right in hsl increasing hue,
+    hsl(190deg 100% 50%),
+    hsl(180deg 100% 50%)
+  );
+}
+.hsl-decreasing {
+  background: linear-gradient(
+    to right in hsl decreasing hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-shorter {
+  background: linear-gradient(
+    to right in hsl shorter hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-longer {
+  background: linear-gradient(
+    to right in hsl longer hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-named {
+  background: linear-gradient(to right in hsl, orange, yellow);
+}
+.hsl-named-longer {
+  background: linear-gradient(to right in hsl longer hue, orange, yellow);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-named",
+                        'Expected "hsl(60deg 100% 50%)" to be "yellow" (color-named)',
+                        "    hsl(60deg 100% 50%)",
+                        "78:5 - 78:24",
+                        `/en-US/docs/Web/CSS/hue-interpolation-method
+[color-named] Expected "hsl(60deg 100% 50%)" to be "yellow" (color-named)
+~~~
+div {
+  border: 1px solid black;
+  height: 50px;
+  margin: 10px;
+  width: 90%;
+}
+p {
+  color: white;
+  margin: 6px;
+}
+
+/* Fallback styles */
+.hsl,
+.hsl-shorter,
+.hsl-named {
+  background: linear-gradient(
+    to right,
+    hsl(39 100% 50%),
+    hsl(46 100% 50%),
+    hsl(53 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
+.hsl-increasing {
+  background: linear-gradient(
+    to right,
+    hsl(190 100% 50%),
+    hsl(225 100% 50%),
+    hsl(260 100% 50%),
+    hsl(295 100% 50%),
+    hsl(330 100% 50%),
+    hsl(365 100% 50%),
+    hsl(400 100% 50%),
+    hsl(435 100% 50%),
+    hsl(470 100% 50%),
+    hsl(505 100% 50%),
+    hsl(540 100% 50%)
+  );
+}
+.hsl-decreasing,
+.hsl-longer,
+.hsl-named-longer {
+  background: linear-gradient(
+    to right,
+    hsl(399 100% 50%),
+    hsl(368 100% 50%),
+    hsl(337 100% 50%),
+    hsl(307 100% 50%),
+    hsl(276 100% 50%),
+    hsl(245 100% 50%),
+    hsl(214 100% 50%),
+    hsl(183 100% 50%),
+    hsl(152 100% 50%),
+    hsl(122 100% 50%),
+    hsl(91 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
+
+.hsl {
+  background: linear-gradient(
+    to right in hsl,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-increasing {
+  background: linear-gradient(
+    to right in hsl increasing hue,
+    hsl(190deg 100% 50%),
+    hsl(180deg 100% 50%)
+  );
+}
+.hsl-decreasing {
+  background: linear-gradient(
+    to right in hsl decreasing hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-shorter {
+  background: linear-gradient(
+    to right in hsl shorter hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-longer {
+  background: linear-gradient(
+    to right in hsl longer hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-named {
+  background: linear-gradient(to right in hsl, orange, yellow);
+}
+.hsl-named-longer {
+  background: linear-gradient(to right in hsl longer hue, orange, yellow);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-named",
+                        'Expected "hsl(60deg 100% 50%)" to be "yellow" (color-named)',
+                        "    hsl(60deg 100% 50%)",
+                        "85:5 - 85:24",
+                        `/en-US/docs/Web/CSS/hue-interpolation-method
+[color-named] Expected "hsl(60deg 100% 50%)" to be "yellow" (color-named)
+~~~
+div {
+  border: 1px solid black;
+  height: 50px;
+  margin: 10px;
+  width: 90%;
+}
+p {
+  color: white;
+  margin: 6px;
+}
+
+/* Fallback styles */
+.hsl,
+.hsl-shorter,
+.hsl-named {
+  background: linear-gradient(
+    to right,
+    hsl(39 100% 50%),
+    hsl(46 100% 50%),
+    hsl(53 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
+.hsl-increasing {
+  background: linear-gradient(
+    to right,
+    hsl(190 100% 50%),
+    hsl(225 100% 50%),
+    hsl(260 100% 50%),
+    hsl(295 100% 50%),
+    hsl(330 100% 50%),
+    hsl(365 100% 50%),
+    hsl(400 100% 50%),
+    hsl(435 100% 50%),
+    hsl(470 100% 50%),
+    hsl(505 100% 50%),
+    hsl(540 100% 50%)
+  );
+}
+.hsl-decreasing,
+.hsl-longer,
+.hsl-named-longer {
+  background: linear-gradient(
+    to right,
+    hsl(399 100% 50%),
+    hsl(368 100% 50%),
+    hsl(337 100% 50%),
+    hsl(307 100% 50%),
+    hsl(276 100% 50%),
+    hsl(245 100% 50%),
+    hsl(214 100% 50%),
+    hsl(183 100% 50%),
+    hsl(152 100% 50%),
+    hsl(122 100% 50%),
+    hsl(91 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
+
+.hsl {
+  background: linear-gradient(
+    to right in hsl,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-increasing {
+  background: linear-gradient(
+    to right in hsl increasing hue,
+    hsl(190deg 100% 50%),
+    hsl(180deg 100% 50%)
+  );
+}
+.hsl-decreasing {
+  background: linear-gradient(
+    to right in hsl decreasing hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-shorter {
+  background: linear-gradient(
+    to right in hsl shorter hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-longer {
+  background: linear-gradient(
+    to right in hsl longer hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-named {
+  background: linear-gradient(to right in hsl, orange, yellow);
+}
+.hsl-named-longer {
+  background: linear-gradient(to right in hsl longer hue, orange, yellow);
+}
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "CSS code issue",
+                      data: [
+                        "color-named",
+                        'Expected "hsl(60deg 100% 50%)" to be "yellow" (color-named)',
+                        "    hsl(60deg 100% 50%)",
+                        "92:5 - 92:24",
+                        `/en-US/docs/Web/CSS/hue-interpolation-method
+[color-named] Expected "hsl(60deg 100% 50%)" to be "yellow" (color-named)
+~~~
+div {
+  border: 1px solid black;
+  height: 50px;
+  margin: 10px;
+  width: 90%;
+}
+p {
+  color: white;
+  margin: 6px;
+}
+
+/* Fallback styles */
+.hsl,
+.hsl-shorter,
+.hsl-named {
+  background: linear-gradient(
+    to right,
+    hsl(39 100% 50%),
+    hsl(46 100% 50%),
+    hsl(53 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
+.hsl-increasing {
+  background: linear-gradient(
+    to right,
+    hsl(190 100% 50%),
+    hsl(225 100% 50%),
+    hsl(260 100% 50%),
+    hsl(295 100% 50%),
+    hsl(330 100% 50%),
+    hsl(365 100% 50%),
+    hsl(400 100% 50%),
+    hsl(435 100% 50%),
+    hsl(470 100% 50%),
+    hsl(505 100% 50%),
+    hsl(540 100% 50%)
+  );
+}
+.hsl-decreasing,
+.hsl-longer,
+.hsl-named-longer {
+  background: linear-gradient(
+    to right,
+    hsl(399 100% 50%),
+    hsl(368 100% 50%),
+    hsl(337 100% 50%),
+    hsl(307 100% 50%),
+    hsl(276 100% 50%),
+    hsl(245 100% 50%),
+    hsl(214 100% 50%),
+    hsl(183 100% 50%),
+    hsl(152 100% 50%),
+    hsl(122 100% 50%),
+    hsl(91 100% 50%),
+    hsl(60 100% 50%)
+  );
+}
+
+.hsl {
+  background: linear-gradient(
+    to right in hsl,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-increasing {
+  background: linear-gradient(
+    to right in hsl increasing hue,
+    hsl(190deg 100% 50%),
+    hsl(180deg 100% 50%)
+  );
+}
+.hsl-decreasing {
+  background: linear-gradient(
+    to right in hsl decreasing hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-shorter {
+  background: linear-gradient(
+    to right in hsl shorter hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-longer {
+  background: linear-gradient(
+    to right in hsl longer hue,
+    hsl(39deg 100% 50%),
+    hsl(60deg 100% 50%)
+  );
+}
+.hsl-named {
+  background: linear-gradient(to right in hsl, orange, yellow);
+}
+.hsl-named-longer {
+  background: linear-gradient(to right in hsl longer hue, orange, yellow);
+}
+~~~
+`
+                      ]
+                    },
                     {
                       message: "Stylelint backlog",
                       data: [
@@ -51003,93 +53946,11 @@ pre {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Page status not backed by BCD",
-                          data: []
                         }
                       ]
                     },
                     properties: {
                       children: {
-                        "--_star_": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/--*",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "-moz-float-edge": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-moz-float-edge",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "-moz-force-broken-image-icon": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-moz-force-broken-image-icon",
-                          messages: [
-                            {
-                              message: "Missing image",
-                              data: [
-                                "/broken/image/link.png"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "-moz-orient": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-moz-orient",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "-moz-user-focus": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-moz-user-focus",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "-moz-user-input": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-moz-user-input",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
                         "-webkit-border-before": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-border-before",
@@ -51135,180 +53996,6 @@ pre {
                               data: [
                                 "/en-US/docs/Web/CSS/-webkit-border-before-width"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "-webkit-box-reflect": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-box-reflect",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "-webkit-mask-box-image": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-mask-box-image",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "-webkit-mask-composite": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-mask-composite",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "-webkit-mask-position-x": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-mask-position-x",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "-webkit-mask-position-y": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-mask-position-y",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "-webkit-mask-repeat-x": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-mask-repeat-x",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "-webkit-mask-repeat-y": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-mask-repeat-y",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "-webkit-tap-highlight-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-tap-highlight-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "-webkit-text-fill-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-fill-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "-webkit-text-security": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-security",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "-webkit-text-stroke": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-stroke",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "-webkit-text-stroke-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "-webkit-text-stroke-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-stroke-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "-webkit-touch-callout": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/-webkit-touch-callout",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -51317,45 +54004,23 @@ pre {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/accent-color",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "HTML code issue",
                               data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "align-content": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/align-content",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "align-items": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/align-items",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "align-self": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/align-self",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
+                                "attribute-boolean-style",
+                                'Attribute "checked" should omit value',
+                                "checked",
+                                "3:12",
+                                `/en-US/docs/Web/CSS/Reference/Properties/accent-color
+[attribute-boolean-style] Attribute "checked" should omit value
+~~~
+<section class="default-example container" id="default-example">
+  <div>
+    <input checked="" id="example-element" type="checkbox" />
+    <label for="example-element" id="example-label">Example Label</label>
+  </div>
+</section>
+~~~
+`
                               ]
                             }
                           ]
@@ -51404,180 +54069,6 @@ text:nth-of-type(8) {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        all: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/all",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "anchor-name": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/anchor-name",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        animation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "animation-composition": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-composition",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "animation-delay": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-delay",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "animation-direction": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-direction",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "animation-duration": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-duration",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "animation-fill-mode": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-fill-mode",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "animation-iteration-count": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-iteration-count",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "animation-name": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-name",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "animation-play-state": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-play-state",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "animation-range": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-range",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "animation-range-end": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-range-end",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "animation-range-start": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-range-start",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -51634,52 +54125,7 @@ text:nth-of-type(8) {
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-timeline",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "animation-timing-function": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/animation-timing-function",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        appearance: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/appearance",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "aspect-ratio": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/aspect-ratio",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         "backdrop-filter": {
                           children: {},
@@ -51728,12 +54174,6 @@ body {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -52216,48 +54656,6 @@ td {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        background: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "background-attachment": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-attachment",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "background-blend-mode": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-blend-mode",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -52306,36 +54704,6 @@ p {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "background-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "background-image": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-image",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -52436,688 +54804,6 @@ p {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "background-position": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-position",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "background-position-x": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-position-x",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "background-position-y": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-position-y",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "background-repeat": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-repeat",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "background-size": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-size",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "block-size": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/block-size",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        border: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-block": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-block-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-block-end": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-end",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-block-end-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-end-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-block-end-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-end-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-block-end-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-end-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-block-start": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-start",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-block-start-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-start-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-block-start-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-start-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-block-start-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-start-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-block-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-block-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-block-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-bottom": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-bottom",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-shorthand-property-overrides",
-                                'Unexpected shorthand "border-bottom" after "border-bottom-style" (declaration-block-no-shorthand-property-overrides)',
-                                "border-bottom: thick green;",
-                                "2:1 - 2:14",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-bottom
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-bottom" after "border-bottom-style" (declaration-block-no-shorthand-property-overrides)
-~~~
-border-bottom-style: dotted;
-border-bottom: thick green;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-shorthand-property-overrides",
-                                'Unexpected shorthand "border-bottom" after "border-bottom-style" (declaration-block-no-shorthand-property-overrides)',
-                                "border-bottom: none thick green;",
-                                "2:1 - 2:14",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-bottom
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-bottom" after "border-bottom-style" (declaration-block-no-shorthand-property-overrides)
-~~~
-border-bottom-style: dotted;
-border-bottom: none thick green;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-bottom-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-bottom-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-bottom-left-radius": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-bottom-left-radius",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-bottom-right-radius": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-bottom-right-radius",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-bottom-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-bottom-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-bottom-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-bottom-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-collapse": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-collapse",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-end-end-radius": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-end-end-radius",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-end-start-radius": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-end-start-radius",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-image": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-image",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-image-outset": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-image-outset",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-image-repeat": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-image-repeat",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-image-slice": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-image-slice",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-image-source": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-image-source",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-image-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-image-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-inline": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-inline-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-inline-end": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-end",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-inline-end-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-inline-end-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-inline-end-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-end-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-inline-start": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-start",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-inline-start-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-inline-start-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-inline-start-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-start-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-inline-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-inline-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-inline-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-left": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-left",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-shorthand-property-overrides",
-                                'Unexpected shorthand "border-left" after "border-left-style" (declaration-block-no-shorthand-property-overrides)',
-                                "border-left: thick green;",
-                                "2:1 - 2:12",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-left
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-left" after "border-left-style" (declaration-block-no-shorthand-property-overrides)
-~~~
-border-left-style: dotted;
-border-left: thick green;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-shorthand-property-overrides",
-                                'Unexpected shorthand "border-left" after "border-left-style" (declaration-block-no-shorthand-property-overrides)',
-                                "border-left: none thick green;",
-                                "2:1 - 2:12",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-left
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-left" after "border-left-style" (declaration-block-no-shorthand-property-overrides)
-~~~
-border-left-style: dotted;
-border-left: none thick green;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-left-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-left-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-left-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-left-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-left-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-left-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -53125,48 +54811,6 @@ border-left: none thick green;
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/border-radius",
                           messages: [
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "declaration-block-no-redundant-longhand-properties",
-                                'Expected shorthand property "border-radius" (declaration-block-no-redundant-longhand-properties)',
-                                "border-bottom-left-radius: 1em 5em;",
-                                "7:1 - 7:26",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-radius
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "border-radius" (declaration-block-no-redundant-longhand-properties)
-~~~
-border-radius: 1em / 5em;
-
-/* It is equivalent to: */
-border-top-left-radius: 1em 5em;
-border-top-right-radius: 1em 5em;
-border-bottom-right-radius: 1em 5em;
-border-bottom-left-radius: 1em 5em;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "declaration-block-no-redundant-longhand-properties",
-                                'Expected shorthand property "border-radius" (declaration-block-no-redundant-longhand-properties)',
-                                "border-bottom-left-radius: 3px 4px;",
-                                "7:1 - 7:26",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-radius
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "border-radius" (declaration-block-no-redundant-longhand-properties)
-~~~
-border-radius: 4px 3px 6px / 2px 4px;
-
-/* It is equivalent to: */
-border-top-left-radius: 4px 2px;
-border-top-right-radius: 3px 4px;
-border-bottom-right-radius: 6px 2px;
-border-bottom-left-radius: 3px 4px;
-~~~
-`
-                              ]
-                            },
                             {
                               message: "CSS code issue",
                               data: [
@@ -53204,256 +54848,6 @@ div {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-right": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-right",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-shorthand-property-overrides",
-                                'Unexpected shorthand "border-right" after "border-right-style" (declaration-block-no-shorthand-property-overrides)',
-                                "border-right: thick green;",
-                                "2:1 - 2:13",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-right
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-right" after "border-right-style" (declaration-block-no-shorthand-property-overrides)
-~~~
-border-right-style: dotted;
-border-right: thick green;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-shorthand-property-overrides",
-                                'Unexpected shorthand "border-right" after "border-right-style" (declaration-block-no-shorthand-property-overrides)',
-                                "border-right: none thick green;",
-                                "2:1 - 2:13",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-right
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-right" after "border-right-style" (declaration-block-no-shorthand-property-overrides)
-~~~
-border-right-style: dotted;
-border-right: none thick green;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-right-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-right-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-right-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-right-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-right-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-right-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-spacing": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-spacing",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-start-end-radius": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-start-end-radius",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-start-start-radius": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-start-start-radius",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-top": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-top",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-shorthand-property-overrides",
-                                'Unexpected shorthand "border-top" after "border-top-style" (declaration-block-no-shorthand-property-overrides)',
-                                "border-top: thick green;",
-                                "2:1 - 2:11",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-top
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-top" after "border-top-style" (declaration-block-no-shorthand-property-overrides)
-~~~
-border-top-style: dotted;
-border-top: thick green;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-shorthand-property-overrides",
-                                'Unexpected shorthand "border-top" after "border-top-style" (declaration-block-no-shorthand-property-overrides)',
-                                "border-top: none thick green;",
-                                "2:1 - 2:11",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-top
-[declaration-block-no-shorthand-property-overrides] Unexpected shorthand "border-top" after "border-top-style" (declaration-block-no-shorthand-property-overrides)
-~~~
-border-top-style: dotted;
-border-top: none thick green;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-top-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-top-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-top-left-radius": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-top-left-radius",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-top-right-radius": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-top-right-radius",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-top-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-top-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-top-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-top-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "border-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
                               ]
                             }
                           ]
@@ -53497,339 +54891,6 @@ div {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "box-align": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-align",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-duplicate-properties",
-                                'Unexpected duplicate "display" (declaration-block-no-duplicate-properties)',
-                                "  display: box; /* As specified */",
-                                "2:3 - 2:10",
-                                `/en-US/docs/Web/CSS/Reference/Properties/box-align
-[declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
-~~~
-div.example {
-  display: box; /* As specified */
-  display: -moz-box; /* Mozilla */
-  display: -webkit-box; /* WebKit */
-
-  /* Make this box taller than the children,
-     so there is room for the box-pack */
-  height: 400px;
-
-  /* Make this box wider than the children
-     so there is room for the box-align */
-  width: 300px;
-
-  /* Children should be oriented vertically */
-  box-orient: vertical; /* As specified */
-  -moz-box-orient: vertical; /* Mozilla */
-  -webkit-box-orient: vertical; /* WebKit */
-
-  /* Align children to the horizontal center of this box */
-  box-align: center; /* As specified */
-  -moz-box-align: center; /* Mozilla */
-  -webkit-box-align: center; /* WebKit */
-
-  /* Pack children to the bottom of this box */
-  box-pack: end; /* As specified */
-  -moz-box-pack: end; /* Mozilla */
-  -webkit-box-pack: end; /* WebKit */
-}
-
-div.example > p {
-  /* Make children narrower than their parent,
-     so there is room for the box-align */
-  width: 200px;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-duplicate-properties",
-                                'Unexpected duplicate "display" (declaration-block-no-duplicate-properties)',
-                                "  display: -moz-box; /* Mozilla */",
-                                "3:3 - 3:10",
-                                `/en-US/docs/Web/CSS/Reference/Properties/box-align
-[declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
-~~~
-div.example {
-  display: box; /* As specified */
-  display: -moz-box; /* Mozilla */
-  display: -webkit-box; /* WebKit */
-
-  /* Make this box taller than the children,
-     so there is room for the box-pack */
-  height: 400px;
-
-  /* Make this box wider than the children
-     so there is room for the box-align */
-  width: 300px;
-
-  /* Children should be oriented vertically */
-  box-orient: vertical; /* As specified */
-  -moz-box-orient: vertical; /* Mozilla */
-  -webkit-box-orient: vertical; /* WebKit */
-
-  /* Align children to the horizontal center of this box */
-  box-align: center; /* As specified */
-  -moz-box-align: center; /* Mozilla */
-  -webkit-box-align: center; /* WebKit */
-
-  /* Pack children to the bottom of this box */
-  box-pack: end; /* As specified */
-  -moz-box-pack: end; /* Mozilla */
-  -webkit-box-pack: end; /* WebKit */
-}
-
-div.example > p {
-  /* Make children narrower than their parent,
-     so there is room for the box-align */
-  width: 200px;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "box-decoration-break": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-decoration-break",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "box-direction": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-direction",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "box-flex": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-flex",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-duplicate-properties",
-                                'Unexpected duplicate "display" (declaration-block-no-duplicate-properties)',
-                                "  display: -moz-box;",
-                                "2:3 - 2:10",
-                                `/en-US/docs/Web/CSS/Reference/Properties/box-flex
-[declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
-~~~
-div.example {
-  display: -moz-box;
-  display: -webkit-box;
-  border: 1px solid black;
-  width: 100%;
-}
-div.example > p:nth-child(1) {
-  -moz-box-flex: 1; /* Mozilla */
-  -webkit-box-flex: 1; /* WebKit */
-  border: 1px solid black;
-}
-div.example > p:nth-child(2) {
-  -moz-box-flex: 0; /* Mozilla */
-  -webkit-box-flex: 0; /* WebKit */
-  border: 1px solid black;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "box-flex-group": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-flex-group",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "box-lines": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-lines",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "box-ordinal-group": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-ordinal-group",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "box-orient": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-orient",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-duplicate-properties",
-                                'Unexpected duplicate "display" (declaration-block-no-duplicate-properties)',
-                                "  display: -moz-box; /* Mozilla */",
-                                "2:3 - 2:10",
-                                `/en-US/docs/Web/CSS/Reference/Properties/box-orient
-[declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
-~~~
-div.example {
-  display: -moz-box; /* Mozilla */
-  display: -webkit-box; /* WebKit */
-  display: box; /* As specified */
-
-  /* Children should be oriented vertically */
-  -moz-box-orient: horizontal; /* Mozilla */
-  -webkit-box-orient: horizontal; /* WebKit */
-  box-orient: horizontal; /* As specified */
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-duplicate-properties",
-                                'Unexpected duplicate "display" (declaration-block-no-duplicate-properties)',
-                                "  display: -webkit-box; /* WebKit */",
-                                "3:3 - 3:10",
-                                `/en-US/docs/Web/CSS/Reference/Properties/box-orient
-[declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
-~~~
-div.example {
-  display: -moz-box; /* Mozilla */
-  display: -webkit-box; /* WebKit */
-  display: box; /* As specified */
-
-  /* Children should be oriented vertically */
-  -moz-box-orient: horizontal; /* Mozilla */
-  -webkit-box-orient: horizontal; /* WebKit */
-  box-orient: horizontal; /* As specified */
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "box-pack": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-pack",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-duplicate-properties",
-                                'Unexpected duplicate "display" (declaration-block-no-duplicate-properties)',
-                                "  display: -moz-box; /* Mozilla */",
-                                "4:3 - 4:10",
-                                `/en-US/docs/Web/CSS/Reference/Properties/box-pack
-[declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
-~~~
-div.example {
-  border-style: solid;
-
-  display: -moz-box; /* Mozilla */
-  display: -webkit-box; /* WebKit */
-
-  /* Make this box taller than the children,
-     so there is room for the box-pack */
-  height: 300px;
-  /* Make this box wide enough to show the contents
-     are centered horizontally */
-  width: 300px;
-
-  /* Children should be oriented vertically */
-  -moz-box-orient: vertical; /* Mozilla */
-  -webkit-box-orient: vertical; /* WebKit */
-
-  /* Align children to the horizontal center of this box */
-  -moz-box-align: center; /* Mozilla */
-  -webkit-box-align: center; /* WebKit */
-
-  /* Pack children to the bottom of this box */
-  -moz-box-pack: end; /* Mozilla */
-  -webkit-box-pack: end; /* WebKit */
-}
-
-div.example p {
-  /* Make children narrower than their parent,
-     so there is room for the box-align */
-  width: 200px;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -53879,72 +54940,6 @@ blockquote {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "box-sizing": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/box-sizing",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "break-after": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/break-after",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "break-before": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/break-before",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "break-inside": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/break-inside",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "caption-side": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/caption-side",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -53953,14 +54948,10 @@ blockquote {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/caret",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "css-shorthand-property"
+                                "css.properties.caret"
                               ]
-                            },
-                            {
-                              message: "Page status not backed by BCD",
-                              data: []
                             }
                           ]
                         },
@@ -53972,84 +54963,6 @@ blockquote {
                               message: "Missing data",
                               data: [
                                 "CSS info"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "caret-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/caret-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "caret-shape": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/caret-shape",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        clear: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/clear",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        clip: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/clip",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "clip-path": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/clip-path",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "clip-rule": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/clip-rule",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -54218,574 +55131,6 @@ p {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-hex-length",
-                                'Expected "#f00" to be "#ff0000" (color-hex-length)',
-                                "  color: #f00;",
-                                "5:10 - 5:14",
-                                `/en-US/docs/Web/CSS/Reference/Properties/color
-[color-hex-length] Expected "#f00" to be "#ff0000" (color-hex-length)
-~~~
-p {
-  color: red;
-}
-p {
-  color: #f00;
-}
-p {
-  color: #ff0000;
-}
-p {
-  color: rgb(255 0 0);
-}
-p {
-  color: rgb(100% 0% 0%);
-}
-p {
-  color: hsl(0 100% 50%);
-}
-
-/* 50% translucent */
-p {
-  color: #ff000080;
-}
-p {
-  color: rgb(255 0 0 / 50%);
-}
-p {
-  color: hsl(0 100% 50% / 50%);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-named",
-                                'Expected "#f00" to be "red" (color-named)',
-                                "  color: #f00;",
-                                "5:10 - 5:14",
-                                `/en-US/docs/Web/CSS/Reference/Properties/color
-[color-named] Expected "#f00" to be "red" (color-named)
-~~~
-p {
-  color: red;
-}
-p {
-  color: #f00;
-}
-p {
-  color: #ff0000;
-}
-p {
-  color: rgb(255 0 0);
-}
-p {
-  color: rgb(100% 0% 0%);
-}
-p {
-  color: hsl(0 100% 50%);
-}
-
-/* 50% translucent */
-p {
-  color: #ff000080;
-}
-p {
-  color: rgb(255 0 0 / 50%);
-}
-p {
-  color: hsl(0 100% 50% / 50%);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-named",
-                                'Expected "#ff0000" to be "red" (color-named)',
-                                "  color: #ff0000;",
-                                "8:10 - 8:17",
-                                `/en-US/docs/Web/CSS/Reference/Properties/color
-[color-named] Expected "#ff0000" to be "red" (color-named)
-~~~
-p {
-  color: red;
-}
-p {
-  color: #f00;
-}
-p {
-  color: #ff0000;
-}
-p {
-  color: rgb(255 0 0);
-}
-p {
-  color: rgb(100% 0% 0%);
-}
-p {
-  color: hsl(0 100% 50%);
-}
-
-/* 50% translucent */
-p {
-  color: #ff000080;
-}
-p {
-  color: rgb(255 0 0 / 50%);
-}
-p {
-  color: hsl(0 100% 50% / 50%);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-named",
-                                'Expected "rgb(255 0 0)" to be "red" (color-named)',
-                                "  color: rgb(255 0 0);",
-                                "11:10 - 11:22",
-                                `/en-US/docs/Web/CSS/Reference/Properties/color
-[color-named] Expected "rgb(255 0 0)" to be "red" (color-named)
-~~~
-p {
-  color: red;
-}
-p {
-  color: #f00;
-}
-p {
-  color: #ff0000;
-}
-p {
-  color: rgb(255 0 0);
-}
-p {
-  color: rgb(100% 0% 0%);
-}
-p {
-  color: hsl(0 100% 50%);
-}
-
-/* 50% translucent */
-p {
-  color: #ff000080;
-}
-p {
-  color: rgb(255 0 0 / 50%);
-}
-p {
-  color: hsl(0 100% 50% / 50%);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-named",
-                                'Expected "rgb(100% 0% 0%)" to be "red" (color-named)',
-                                "  color: rgb(100% 0% 0%);",
-                                "14:10 - 14:25",
-                                `/en-US/docs/Web/CSS/Reference/Properties/color
-[color-named] Expected "rgb(100% 0% 0%)" to be "red" (color-named)
-~~~
-p {
-  color: red;
-}
-p {
-  color: #f00;
-}
-p {
-  color: #ff0000;
-}
-p {
-  color: rgb(255 0 0);
-}
-p {
-  color: rgb(100% 0% 0%);
-}
-p {
-  color: hsl(0 100% 50%);
-}
-
-/* 50% translucent */
-p {
-  color: #ff000080;
-}
-p {
-  color: rgb(255 0 0 / 50%);
-}
-p {
-  color: hsl(0 100% 50% / 50%);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-named",
-                                'Expected "hsl(0 100% 50%)" to be "red" (color-named)',
-                                "  color: hsl(0 100% 50%);",
-                                "17:10 - 17:25",
-                                `/en-US/docs/Web/CSS/Reference/Properties/color
-[color-named] Expected "hsl(0 100% 50%)" to be "red" (color-named)
-~~~
-p {
-  color: red;
-}
-p {
-  color: #f00;
-}
-p {
-  color: #ff0000;
-}
-p {
-  color: rgb(255 0 0);
-}
-p {
-  color: rgb(100% 0% 0%);
-}
-p {
-  color: hsl(0 100% 50%);
-}
-
-/* 50% translucent */
-p {
-  color: #ff000080;
-}
-p {
-  color: rgb(255 0 0 / 50%);
-}
-p {
-  color: hsl(0 100% 50% / 50%);
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "color-interpolation": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/color-interpolation",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "color-interpolation-filters": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/color-interpolation-filters",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "color-scheme": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/color-scheme",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "column-count": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-count",
-                          messages: [
-                            {
-                              message: "Stylelint backlog",
-                              data: [
-                                "declaration-block-no-redundant-longhand-properties",
-                                'Expected shorthand property "columns" (declaration-block-no-redundant-longhand-properties)',
-                                "column-width: 8rem;",
-                                "2:1 - 2:13",
-                                `/en-US/docs/Web/CSS/Reference/Properties/column-count
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "columns" (declaration-block-no-redundant-longhand-properties)
-~~~
-column-count: auto;
-column-width: 8rem;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "column-fill": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-fill",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "column-gap": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-gap",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "column-rule": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "column-rule-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "column-rule-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "column-rule-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-rule-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "column-span": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-span",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "column-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/column-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        columns: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/columns",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        contain: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/contain",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "contain-intrinsic-block-size": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/contain-intrinsic-block-size",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "contain-intrinsic-height": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/contain-intrinsic-height",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "contain-intrinsic-inline-size": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/contain-intrinsic-inline-size",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "contain-intrinsic-size": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/contain-intrinsic-size",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "contain-intrinsic-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/contain-intrinsic-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        container: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/container",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "container-name": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/container-name",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "container-type": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/container-type",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        content: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/content",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "content-visibility": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/content-visibility",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -54797,12 +55142,6 @@ column-width: 8rem;
                               message: "Missing data",
                               data: [
                                 "CSS info"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -54816,12 +55155,6 @@ column-width: 8rem;
                               data: [
                                 "CSS info"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -54833,12 +55166,6 @@ column-width: 8rem;
                               message: "Missing data",
                               data: [
                                 "CSS info"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -54852,12 +55179,6 @@ column-width: 8rem;
                               data: [
                                 "CSS info"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -54869,12 +55190,6 @@ column-width: 8rem;
                               message: "Missing data",
                               data: [
                                 "CSS info"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -54888,12 +55203,6 @@ column-width: 8rem;
                               data: [
                                 "CSS info"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -54905,12 +55214,6 @@ column-width: 8rem;
                               message: "Missing data",
                               data: [
                                 "CSS info"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -54924,12 +55227,6 @@ column-width: 8rem;
                               data: [
                                 "CSS info"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -54941,12 +55238,6 @@ column-width: 8rem;
                               message: "Missing data",
                               data: [
                                 "CSS info"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -54960,12 +55251,6 @@ column-width: 8rem;
                               data: [
                                 "CSS info"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -54977,12 +55262,6 @@ column-width: 8rem;
                               message: "Missing data",
                               data: [
                                 "CSS info"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -54996,12 +55275,6 @@ column-width: 8rem;
                               data: [
                                 "CSS info"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
                             }
                           ]
                         },
@@ -55013,12 +55286,6 @@ column-width: 8rem;
                               message: "Missing data",
                               data: [
                                 "CSS info"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -55032,12 +55299,6 @@ column-width: 8rem;
                               data: [
                                 "CSS info"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -55049,12 +55310,6 @@ column-width: 8rem;
                               message: "Missing data",
                               data: [
                                 "CSS info"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -55068,12 +55323,6 @@ column-width: 8rem;
                               data: [
                                 "CSS info"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -55085,12 +55334,6 @@ column-width: 8rem;
                               message: "Missing data",
                               data: [
                                 "CSS info"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -55135,138 +55378,6 @@ i {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "counter-reset": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/counter-reset",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "counter-set": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/counter-set",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        cursor: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/cursor",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        cx: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/cx",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        cy: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/cy",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        d: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/d",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        direction: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/direction",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        display: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/display",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-duplicate-properties",
-                                'Unexpected duplicate "display" (declaration-block-no-duplicate-properties)',
-                                "  display: inline-flex;",
-                                "2:3 - 2:10",
-                                `/en-US/docs/Web/CSS/Reference/Properties/display
-[declaration-block-no-duplicate-properties] Unexpected duplicate "display" (declaration-block-no-duplicate-properties)
-~~~
-.container {
-  display: inline-flex;
-  display: inline flex;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "dominant-baseline": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/dominant-baseline",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -55278,36 +55389,6 @@ i {
                               message: "Missing data",
                               data: [
                                 "CSS info"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "empty-cells": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/empty-cells",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "field-sizing": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/field-sizing",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -55366,12 +55447,6 @@ polygon {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -55532,36 +55607,6 @@ ellipse {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "fill-rule": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/fill-rule",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        filter: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/filter",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -55602,12 +55647,6 @@ ellipse {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
                             }
                           ]
                         },
@@ -55642,36 +55681,6 @@ ellipse {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "flex-direction": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/flex-direction",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "flex-flow": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/flex-flow",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
                               ]
                             }
                           ]
@@ -55814,12 +55823,6 @@ div > div {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -55854,48 +55857,6 @@ div > div {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "flex-wrap": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/flex-wrap",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        float: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/float",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "flood-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/flood-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -55940,12 +55901,6 @@ rect {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -55954,455 +55909,1522 @@ rect {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/font",
                           messages: [
                             {
-                              message: "CSS code issue",
+                              message: "HTML code issue",
                               data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "caption" (font-family-name-quotes)',
-                                "font: caption;",
-                                "1:7 - 1:14",
+                                "attribute-boolean-style",
+                                'Attribute "checked" should omit value',
+                                "checked",
+                                "12:9",
                                 `/en-US/docs/Web/CSS/Reference/Properties/font
-[font-family-name-quotes] Expected quotes around "caption" (font-family-name-quotes)
+[attribute-boolean-style] Attribute "checked" should omit value
 ~~~
-font: caption;
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value="" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" " />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input type="radio" id="font-weight-none" name="font_weight" value="" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input type="radio" id="font-size-12px" name="font_size" value="12px" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked="" />
+      <label for="font-size-16px">16px</label><br />
+      <input type="radio" id="font-size-24px" name="font_size" value="24px" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value="" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input type="radio" id="line-height-3" name="line_height" value="/3" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
 ~~~
 `
                               ]
                             },
                             {
-                              message: "CSS code issue",
+                              message: "HTML code issue",
                               data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "status-bar" (font-family-name-quotes)',
-                                "  font: status-bar;",
-                                "24:9 - 24:19",
+                                "attribute-boolean-style",
+                                'Attribute "checked" should omit value',
+                                "checked",
+                                "41:9",
                                 `/en-US/docs/Web/CSS/Reference/Properties/font
-[font-family-name-quotes] Expected quotes around "status-bar" (font-family-name-quotes)
+[attribute-boolean-style] Attribute "checked" should omit value
 ~~~
-/* Set the font size to 12px and the line height to 14px.
-   Set the font family to sans-serif */
-p {
-  font: 12px/14px sans-serif;
-}
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value="" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
 
-/* Set the font size to 80% of the parent element
-   or default value (if no parent element present).
-   Set the font family to sans-serif */
-p {
-  font: 80% sans-serif;
-}
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" " />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
 
-/* Set the font weight to bold,
-   the font-style to italic,
-   the font size to large,
-   and the font family to serif. */
-p {
-  font: bold italic large serif;
-}
+    <div class="setPropCont">
+      font-weight<br />
+      <input type="radio" id="font-weight-none" name="font_weight" value="" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700" />
+      <label for="font-weight-bold">bold</label>
+    </div>
 
-/* Use the same font as the status bar of the window */
-p {
-  font: status-bar;
-}
+    <div class="setPropCont">
+      font-size<br />
+      <input type="radio" id="font-size-12px" name="font_size" value="12px" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked="" />
+      <label for="font-size-16px">16px</label><br />
+      <input type="radio" id="font-size-24px" name="font_size" value="24px" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value="" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input type="radio" id="line-height-3" name="line_height" value="/3" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
 ~~~
 `
                               ]
                             },
                             {
-                              message: "Unexpected page type",
+                              message: "HTML code issue",
                               data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-family": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-family",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "color-no-invalid-hex",
-                                'Unexpected invalid hex color "#POUND" (color-no-invalid-hex)',
-                                "font-family: #POUND, sans-serif;",
-                                "6:14 - 6:20",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
-[color-no-invalid-hex] Unexpected invalid hex color "#POUND" (color-no-invalid-hex)
+                                "attribute-boolean-style",
+                                'Attribute "checked" should omit value',
+                                "checked",
+                                "65:9",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font
+[attribute-boolean-style] Attribute "checked" should omit value
 ~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value="" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" " />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input type="radio" id="font-weight-none" name="font_weight" value="" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input type="radio" id="font-size-12px" name="font_size" value="12px" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked="" />
+      <label for="font-size-16px">16px</label><br />
+      <input type="radio" id="font-size-24px" name="font_size" value="24px" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value="" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input type="radio" id="line-height-3" name="line_height" value="/3" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
 ~~~
 `
                               ]
                             },
                             {
-                              message: "CSS code issue",
+                              message: "HTML code issue",
                               data: [
-                                "declaration-property-value-no-unknown",
-                                'Unexpected unknown value "1911" for property "font-family" (declaration-property-value-no-unknown)',
-                                "font-family: Goudy Bookletter 1911, sans-serif;",
-                                "1:31 - 1:35",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
-[declaration-property-value-no-unknown] Unexpected unknown value "1911" for property "font-family" (declaration-property-value-no-unknown)
+                                "attribute-boolean-style",
+                                'Attribute "checked" should omit value',
+                                "checked",
+                                "86:9",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font
+[attribute-boolean-style] Attribute "checked" should omit value
 ~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value="" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" " />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input type="radio" id="font-weight-none" name="font_weight" value="" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input type="radio" id="font-size-12px" name="font_size" value="12px" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked="" />
+      <label for="font-size-16px">16px</label><br />
+      <input type="radio" id="font-size-24px" name="font_size" value="24px" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value="" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input type="radio" id="line-height-3" name="line_height" value="/3" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
 ~~~
 `
                               ]
                             },
                             {
-                              message: "CSS code issue",
+                              message: "HTML code issue",
                               data: [
-                                "declaration-property-value-no-unknown",
-                                'Unexpected unknown value "/" for property "font-family" (declaration-property-value-no-unknown)',
-                                "font-family: Red/Black, sans-serif;",
-                                "2:17 - 2:18",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
-[declaration-property-value-no-unknown] Unexpected unknown value "/" for property "font-family" (declaration-property-value-no-unknown)
+                                "attribute-boolean-style",
+                                'Attribute "checked" should omit value',
+                                "checked",
+                                "98:9",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font
+[attribute-boolean-style] Attribute "checked" should omit value
 ~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value="" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" " />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input type="radio" id="font-weight-none" name="font_weight" value="" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input type="radio" id="font-size-12px" name="font_size" value="12px" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked="" />
+      <label for="font-size-16px">16px</label><br />
+      <input type="radio" id="font-size-24px" name="font_size" value="24px" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value="" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input type="radio" id="line-height-3" name="line_height" value="/3" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
 ~~~
 `
                               ]
                             },
                             {
-                              message: "CSS code issue",
+                              message: "HTML code issue",
                               data: [
-                                "declaration-property-value-no-unknown",
-                                'Unexpected unknown value "Grande" for property "font-family" (declaration-property-value-no-unknown)',
-                                'font-family: "Lucida" Grande, sans-serif;',
-                                "3:23 - 3:29",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
-[declaration-property-value-no-unknown] Unexpected unknown value "Grande" for property "font-family" (declaration-property-value-no-unknown)
+                                "valid-id",
+                                'element id "line-height-1.2" must only contain letters, digits, dash and underscore characters',
+                                "line-height-1.2",
+                                "103:13",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font
+[valid-id] element id "line-height-1.2" must only contain letters, digits, dash and underscore characters
 ~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value="" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" " />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input type="radio" id="font-weight-none" name="font_weight" value="" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input type="radio" id="font-size-12px" name="font_size" value="12px" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked="" />
+      <label for="font-size-16px">16px</label><br />
+      <input type="radio" id="font-size-24px" name="font_size" value="24px" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value="" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input type="radio" id="line-height-3" name="line_height" value="/3" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
 ~~~
 `
                               ]
                             },
                             {
-                              message: "CSS code issue",
+                              message: "HTML code issue",
                               data: [
-                                "declaration-property-value-no-unknown",
-                                'Cannot parse property value "Ahem!, sans-serif" for property "font-family" (declaration-property-value-no-unknown)',
-                                "font-family: Ahem!, sans-serif;",
-                                "4:14 - 4:31",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
-[declaration-property-value-no-unknown] Cannot parse property value "Ahem!, sans-serif" for property "font-family" (declaration-property-value-no-unknown)
+                                "attribute-boolean-style",
+                                'Attribute "checked" should omit value',
+                                "checked",
+                                "118:9",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font
+[attribute-boolean-style] Attribute "checked" should omit value
 ~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
+<p>
+  Change the radio buttons below to see the generated shorthand and its effect.
+</p>
+<form action="createShortHand()">
+  <div class="cf">
+    <div class="setPropCont">
+      font-style<br />
+      <input
+        type="radio"
+        id="font-style-none"
+        name="font_style"
+        checked=""
+        value="" />
+      <label for="font-style-none">none</label><br />
+      <input
+        type="radio"
+        id="font-style-normal"
+        name="font_style"
+        value="normal" />
+      <label for="font-style-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-style-italic"
+        name="font_style"
+        value="italic" />
+      <label for="font-style-italic">italic</label><br />
+      <input
+        type="radio"
+        id="font-style-oblique"
+        name="font_style"
+        value="oblique" />
+      <label for="font-style-oblique">oblique</label>
+    </div>
+
+    <div class="setPropCont">
+      font-variant<br />
+      <input
+        type="radio"
+        id="font-variant-none"
+        name="font_variant"
+        checked=""
+        value=" " />
+      <label for="font-variant-none">none</label><br />
+      <input
+        type="radio"
+        id="font-variant-normal"
+        name="font_variant"
+        value="normal" />
+      <label for="font-variant-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-variant-small-caps"
+        name="font_variant"
+        value="small-caps" />
+      <label for="font-variant-small-caps">small-caps</label>
+    </div>
+
+    <div class="setPropCont">
+      font-weight<br />
+      <input type="radio" id="font-weight-none" name="font_weight" value="" />
+      <label for="font-weight-none">none</label><br />
+      <input
+        type="radio"
+        id="font-weight-normal"
+        checked=""
+        name="font_weight"
+        value="400" />
+      <label for="font-weight-normal">normal</label><br />
+      <input
+        type="radio"
+        id="font-weight-bold"
+        name="font_weight"
+        value="700" />
+      <label for="font-weight-bold">bold</label>
+    </div>
+
+    <div class="setPropCont">
+      font-size<br />
+      <input type="radio" id="font-size-12px" name="font_size" value="12px" />
+      <label for="font-size-12px">12px</label><br />
+      <input
+        type="radio"
+        id="font-size-16px"
+        name="font_size"
+        value="16px"
+        checked="" />
+      <label for="font-size-16px">16px</label><br />
+      <input type="radio" id="font-size-24px" name="font_size" value="24px" />
+      <label for="font-size-24px">24px</label>
+    </div>
+
+    <div class="setPropCont">
+      line-height<br />
+      <input
+        type="radio"
+        id="line-height-none"
+        name="line_height"
+        checked=""
+        value="" />
+      <label for="line-height-none">none</label><br />
+      <input
+        type="radio"
+        id="line-height-1.2"
+        name="line_height"
+        value="/1.2" />
+      <label for="line-height-1.2">1.2</label><br />
+      <input type="radio" id="line-height-3" name="line_height" value="/3" />
+      <label for="line-height-3">3</label>
+    </div>
+    <br />
+
+    <div class="setPropCont fontfamily">
+      font-family<br />
+      <input
+        type="radio"
+        id="font-family-courier"
+        name="font_family"
+        checked=""
+        value="courier" />
+      <label for="font-family-courier">courier</label><br />
+      <input
+        type="radio"
+        id="font-family-serif"
+        name="font_family"
+        value="serif" />
+      <label for="font-family-serif">serif</label><br />
+      <input
+        type="radio"
+        id="font-family-sans-serif"
+        name="font_family"
+        value="sans-serif" />
+      <label for="font-family-sans-serif">sans-serif</label><br />
+      <input
+        type="radio"
+        id="font-family-arial"
+        name="font_family"
+        value="arial" />
+      <label for="font-family-arial">Arial</label><br />
+      <input
+        type="radio"
+        id="font-family-monospace"
+        name="font_family"
+        value="monospace" />
+      <label for="font-family-monospace">monospace</label><br />
+      <input
+        type="radio"
+        id="font-family-cursive"
+        name="font_family"
+        value="cursive" />
+      <label for="font-family-cursive">cursive</label><br />
+      <input
+        type="radio"
+        id="font-family-fantasy"
+        name="font_family"
+        value="fantasy" />
+      <label for="font-family-fantasy">fantasy</label><br />
+      <input
+        type="radio"
+        id="font-family-system-ui"
+        name="font_family"
+        value="system-ui" />
+      <label for="font-family-system-ui">system-ui</label><br />
+    </div>
+  </div>
+
+  <div class="cf propInputs">
+    <div class="propInputCont tar">font :</div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_style" /><br />
+      font-style <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_variant" /> <br />
+      font-variant <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_font_weight" /> <br />
+      font-weight <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
+      font-size <br />
+      mandatory
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss" id="input_line_height" /> <br />
+      line-height <br />
+      optional
+    </div>
+    <div class="propInputCont">
+      <input type="text" class="curCss mandatory" id="input_font_family" />
+      <br />
+      font-family <br />
+      mandatory
+    </div>
+  </div>
+</form>
+
+<div class="fontShortHand">This is some sample text.</div>
+<br /><br /><br /><br /><br /><br />
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-property-value-no-unknown",
-                                'Cannot parse property value "test@foo, sans-serif" for property "font-family" (declaration-property-value-no-unknown)',
-                                "font-family: test@foo, sans-serif;",
-                                "5:14 - 5:34",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
-[declaration-property-value-no-unknown] Cannot parse property value "test@foo, sans-serif" for property "font-family" (declaration-property-value-no-unknown)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-property-value-no-unknown",
-                                'Unexpected unknown value "#POUND" for property "font-family" (declaration-property-value-no-unknown)',
-                                "font-family: #POUND, sans-serif;",
-                                "6:14 - 6:20",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
-[declaration-property-value-no-unknown] Unexpected unknown value "#POUND" for property "font-family" (declaration-property-value-no-unknown)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-property-value-no-unknown",
-                                'Unexpected unknown value "5" for property "font-family" (declaration-property-value-no-unknown)',
-                                "font-family: Hawaii 5-0, sans-serif;",
-                                "7:21 - 7:22",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
-[declaration-property-value-no-unknown] Unexpected unknown value "5" for property "font-family" (declaration-property-value-no-unknown)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Goudy Bookletter sans-serif" (font-family-name-quotes)',
-                                "font-family: Goudy Bookletter 1911, sans-serif;",
-                                "1:1 - 1:48",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
-[font-family-name-quotes] Expected quotes around "Goudy Bookletter sans-serif" (font-family-name-quotes)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Red/Black" (font-family-name-quotes)',
-                                "font-family: Red/Black, sans-serif;",
-                                "2:14 - 2:23",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
-[font-family-name-quotes] Expected quotes around "Red/Black" (font-family-name-quotes)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Ahem!" (font-family-name-quotes)',
-                                "font-family: Ahem!, sans-serif;",
-                                "4:14 - 4:19",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
-[font-family-name-quotes] Expected quotes around "Ahem!" (font-family-name-quotes)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "test@foo" (font-family-name-quotes)',
-                                "font-family: test@foo, sans-serif;",
-                                "5:14 - 5:22",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
-[font-family-name-quotes] Expected quotes around "test@foo" (font-family-name-quotes)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "#POUND" (font-family-name-quotes)',
-                                "font-family: #POUND, sans-serif;",
-                                "6:14 - 6:20",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
-[font-family-name-quotes] Expected quotes around "#POUND" (font-family-name-quotes)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Hawaii 5-0" (font-family-name-quotes)',
-                                "font-family: Hawaii 5-0, sans-serif;",
-                                "7:14 - 7:24",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
-[font-family-name-quotes] Expected quotes around "Hawaii 5-0" (font-family-name-quotes)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-no-missing-generic-family-keyword",
-                                "Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)",
-                                "font-family: Goudy Bookletter 1911, sans-serif;",
-                                "1:14 - 1:19",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
-[font-family-no-missing-generic-family-keyword] Unexpected missing generic font family (font-family-no-missing-generic-family-keyword)
-~~~
-font-family: Goudy Bookletter 1911, sans-serif;
-font-family: Red/Black, sans-serif;
-font-family: "Lucida" Grande, sans-serif;
-font-family: Ahem!, sans-serif;
-font-family: test@foo, sans-serif;
-font-family: #POUND, sans-serif;
-font-family: Hawaii 5-0, sans-serif;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "font-family-name-quotes",
-                                'Expected quotes around "Gill Sans Extrabold" (font-family-name-quotes)',
-                                "  Gill Sans Extrabold,",
-                                "2:3 - 2:22",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font-family
-[font-family-name-quotes] Expected quotes around "Gill Sans Extrabold" (font-family-name-quotes)
-~~~
-font-family:
-  Gill Sans Extrabold,
-  sans-serif;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-feature-settings": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-feature-settings",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-kerning": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-kerning",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-language-override": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-language-override",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-optical-sizing": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-optical-sizing",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -56478,292 +57500,7 @@ p {
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-palette",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-size": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-size",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-size-adjust": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-size-adjust",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-smooth": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-smooth",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-stretch": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-stretch",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-synthesis": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-synthesis",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-synthesis-position": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-position",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-synthesis-small-caps": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-small-caps",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-synthesis-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-synthesis-weight": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-synthesis-weight",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-variant": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-variant-alternates": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-alternates",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-variant-caps": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-caps",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-variant-east-asian": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-east-asian",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-variant-emoji": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-emoji",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-variant-ligatures": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-ligatures",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-variant-numeric": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-numeric",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-variant-position": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-position",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-variation-settings": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variation-settings",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "font-weight": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-weight",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "forced-color-adjust": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/forced-color-adjust",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        gap: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/gap",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        grid: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         "grid-area": {
                           children: {},
@@ -56803,60 +57540,6 @@ p {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "grid-auto-columns": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-auto-columns",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "grid-auto-flow": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-auto-flow",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "grid-auto-rows": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-auto-rows",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "grid-column": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-column",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
                               ]
                             }
                           ]
@@ -57092,12 +57775,6 @@ p {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -57331,24 +58008,6 @@ p {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "grid-row": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-row",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
                               ]
                             }
                           ]
@@ -57584,12 +58243,6 @@ p {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -57824,24 +58477,6 @@ p {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "grid-template": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-template",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
                             }
                           ]
                         },
@@ -57893,120 +58528,6 @@ p {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "grid-template-columns": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-template-columns",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "grid-template-rows": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/grid-template-rows",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "hanging-punctuation": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/hanging-punctuation",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        height: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/height",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "hyphenate-character": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/hyphenate-character",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "hyphenate-limit-chars": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/hyphenate-limit-chars",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        hyphens: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/hyphens",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "image-orientation": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/image-orientation",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "image-rendering": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/image-rendering",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -58015,121 +58536,9 @@ p {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/image-resolution",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "css-property"
-                              ]
-                            },
-                            {
-                              message: "Page status not backed by BCD",
-                              data: []
-                            }
-                          ]
-                        },
-                        "initial-letter": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/initial-letter",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "inline-size": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inline-size",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        inset: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "inset-block": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset-block",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "inset-block-end": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset-block-end",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "inset-block-start": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset-block-start",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "inset-inline": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset-inline",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "inset-inline-end": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset-inline-end",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "inset-inline-start": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/inset-inline-start",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
+                                "css.properties.image-resolution"
                               ]
                             }
                           ]
@@ -58143,144 +58552,6 @@ p {
                               data: [
                                 "CSS info"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "interpolate-size": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/interpolate-size",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        isolation: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/isolation",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "justify-content": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/justify-content",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "justify-items": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/justify-items",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "justify-self": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/justify-self",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        left: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/left",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "letter-spacing": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/letter-spacing",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "lighting-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/lighting-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "line-break": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/line-break",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "line-clamp": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/line-clamp",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "line-height": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/line-height",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -58289,49 +58560,9 @@ p {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/line-height-step",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "css-property"
-                              ]
-                            },
-                            {
-                              message: "Page status not backed by BCD",
-                              data: []
-                            }
-                          ]
-                        },
-                        "list-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/list-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "list-style-image": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/list-style-image",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "list-style-position": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/list-style-position",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
+                                "css.properties.line-height-step"
                               ]
                             }
                           ]
@@ -58341,9 +58572,3034 @@ p {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/list-style-type",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "HTML code issue",
                               data: [
-                                "css-property"
+                                "valid-id",
+                                'element id "-moz-ethiopic-halehame" must begin with a letter',
+                                "-moz-ethiopic-halehame",
+                                "339:11",
+                                `/en-US/docs/Web/CSS/Reference/Properties/list-style-type
+[valid-id] element id "-moz-ethiopic-halehame" must begin with a letter
+~~~
+<ol>
+  <li>Apollo</li>
+  <li>Hubble</li>
+  <li>Chandra</li>
+  <li>Cassini-Huygens</li>
+  <li>Spitzer</li>
+</ol>
+
+<h2>Choose a list style type:</h2>
+
+<div class="container">
+  <label for="disc">
+    <input type="radio" id="disc" name="type" value="disc" />disc
+  </label>
+
+  <label for="circle">
+    <input type="radio" id="circle" name="type" value="circle" />circle
+  </label>
+
+  <label for="square">
+    <input type="radio" id="square" name="type" value="square" />square
+  </label>
+
+  <label for="decimal">
+    <input type="radio" id="decimal" name="type" value="decimal" />decimal
+  </label>
+
+  <label for="cjk-decimal">
+    <input
+      type="radio"
+      id="cjk-decimal"
+      name="type"
+      value="cjk-decimal" />cjk-decimal
+  </label>
+
+  <label for="decimal-leading-zero">
+    <input
+      type="radio"
+      id="decimal-leading-zero"
+      name="type"
+      value="decimal-leading-zero" />decimal-leading-zero
+  </label>
+
+  <label for="lower-roman">
+    <input
+      type="radio"
+      id="lower-roman"
+      name="type"
+      value="lower-roman" />lower-roman
+  </label>
+
+  <label for="upper-roman">
+    <input
+      type="radio"
+      id="upper-roman"
+      name="type"
+      value="upper-roman" />upper-roman
+  </label>
+
+  <label for="lower-greek">
+    <input
+      type="radio"
+      id="lower-greek"
+      name="type"
+      value="lower-greek" />lower-greek
+  </label>
+
+  <label for="lower-alpha">
+    <input
+      type="radio"
+      id="lower-alpha"
+      name="type"
+      value="lower-alpha" />lower-alpha, lower-latin
+  </label>
+
+  <label for="upper-alpha">
+    <input
+      type="radio"
+      id="upper-alpha"
+      name="type"
+      value="upper-alpha" />upper-alpha, upper-latin
+  </label>
+
+  <label for="arabic-indic">
+    <input
+      type="radio"
+      id="arabic-indic"
+      name="type"
+      value="arabic-indic" />arabic-indic
+  </label>
+
+  <label for="armenian">
+    <input type="radio" id="armenian" name="type" value="armenian" />armenian
+  </label>
+
+  <label for="bengali">
+    <input type="radio" id="bengali" name="type" value="bengali" />bengali
+  </label>
+
+  <label for="cambodian">
+    <input type="radio" id="cambodian" name="type" value="cambodian" />cambodian
+  </label>
+
+  <label for="cjk-earthly-branch">
+    <input
+      type="radio"
+      id="cjk-earthly-branch"
+      name="type"
+      value="cjk-earthly-branch" />cjk-earthly-branch
+  </label>
+
+  <label for="cjk-heavenly-stem">
+    <input
+      type="radio"
+      id="cjk-heavenly-stem"
+      name="type"
+      value="cjk-heavenly-stem" />cjk-heavenly-stem
+  </label>
+
+  <label for="cjk-ideographic">
+    <input
+      type="radio"
+      id="cjk-ideographic"
+      name="type"
+      value="cjk-ideographic" />cjk-ideographic
+  </label>
+
+  <label for="devanagari">
+    <input
+      type="radio"
+      id="devanagari"
+      name="type"
+      value="devanagari" />devanagari
+  </label>
+
+  <label for="ethiopic-numeric">
+    <input
+      type="radio"
+      id="ethiopic-numeric"
+      name="type"
+      value="ethiopic-numeric" />ethiopic-numeric
+  </label>
+
+  <label for="georgian">
+    <input type="radio" id="georgian" name="type" value="georgian" />georgian
+  </label>
+
+  <label for="gujarati">
+    <input type="radio" id="gujarati" name="type" value="gujarati" />gujarati
+  </label>
+
+  <label for="gurmukhi">
+    <input type="radio" id="gurmukhi" name="type" value="gurmukhi" />gurmukhi
+  </label>
+
+  <label for="hebrew">
+    <input type="radio" id="hebrew" name="type" value="hebrew" />hebrew
+  </label>
+
+  <label for="hiragana">
+    <input type="radio" id="hiragana" name="type" value="hiragana" />hiragana
+  </label>
+
+  <label for="hiragana-iroha">
+    <input
+      type="radio"
+      id="hiragana-iroha"
+      name="type"
+      value="hiragana-iroha" />hiragana-iroha
+  </label>
+
+  <label for="japanese-formal">
+    <input
+      type="radio"
+      id="japanese-formal"
+      name="type"
+      value="japanese-formal" />japanese-formal
+  </label>
+
+  <label for="japanese-informal">
+    <input
+      type="radio"
+      id="japanese-informal"
+      name="type"
+      value="japanese-informal" />japanese-informal
+  </label>
+
+  <label for="kannada">
+    <input type="radio" id="kannada" name="type" value="kannada" />kannada
+  </label>
+
+  <label for="katakana">
+    <input type="radio" id="katakana" name="type" value="katakana" />katakana
+  </label>
+
+  <label for="katakana-iroha">
+    <input
+      type="radio"
+      id="katakana-iroha"
+      name="type"
+      value="katakana-iroha" />katakana-iroha
+  </label>
+
+  <label for="khmer">
+    <input type="radio" id="khmer" name="type" value="khmer" />khmer
+  </label>
+
+  <label for="korean-hangul-formal">
+    <input
+      type="radio"
+      id="korean-hangul-formal"
+      name="type"
+      value="korean-hangul-formal" />korean-hangul-formal
+  </label>
+
+  <label for="korean-hanja-formal">
+    <input
+      type="radio"
+      id="korean-hanja-formal"
+      name="type"
+      value="korean-hanja-formal" />korean-hanja-formal
+  </label>
+
+  <label for="korean-hanja-informal">
+    <input
+      type="radio"
+      id="korean-hanja-informal"
+      name="type"
+      value="korean-hanja-informal" />korean-hanja-informal
+  </label>
+
+  <label for="lao">
+    <input type="radio" id="lao" name="type" value="lao" />lao
+  </label>
+
+  <label for="lower-armenian">
+    <input
+      type="radio"
+      id="lower-armenian"
+      name="type"
+      value="lower-armenian" />lower-armenian
+  </label>
+
+  <label for="malayalam">
+    <input type="radio" id="malayalam" name="type" value="malayalam" />malayalam
+  </label>
+
+  <label for="mongolian">
+    <input type="radio" id="mongolian" name="type" value="mongolian" />mongolian
+  </label>
+
+  <label for="myanmar">
+    <input type="radio" id="myanmar" name="type" value="myanmar" />myanmar
+  </label>
+
+  <label for="oriya">
+    <input type="radio" id="oriya" name="type" value="oriya" />oriya
+  </label>
+
+  <label for="persian">
+    <input type="radio" id="persian" name="type" value="persian" />persian
+  </label>
+
+  <label for="simp-chinese-formal">
+    <input
+      type="radio"
+      id="simp-chinese-formal"
+      name="type"
+      value="simp-chinese-formal" />simp-chinese-formal
+  </label>
+
+  <label for="simp-chinese-informal">
+    <input
+      type="radio"
+      id="simp-chinese-informal"
+      name="type"
+      value="simp-chinese-informal" />simp-chinese-informal
+  </label>
+
+  <label for="tamil">
+    <input type="radio" id="tamil" name="type" value="tamil" />tamil
+  </label>
+
+  <label for="telugu">
+    <input type="radio" id="telugu" name="type" value="telugu" />telugu
+  </label>
+
+  <label for="thai">
+    <input type="radio" id="thai" name="type" value="thai" />thai
+  </label>
+
+  <label for="tibetan">
+    <input type="radio" id="tibetan" name="type" value="tibetan" />tibetan
+  </label>
+
+  <label for="trad-chinese-formal">
+    <input
+      type="radio"
+      id="trad-chinese-formal"
+      name="type"
+      value="trad-chinese-formal" />trad-chinese-formal
+  </label>
+
+  <label for="trad-chinese-informal">
+    <input
+      type="radio"
+      id="trad-chinese-informal"
+      name="type"
+      value="trad-chinese-informal" />trad-chinese-informal
+  </label>
+
+  <label for="upper-armenian">
+    <input
+      type="radio"
+      id="upper-armenian"
+      name="type"
+      value="upper-armenian" />upper-armenian
+  </label>
+
+  <label for="disclosure-open">
+    <input
+      type="radio"
+      id="disclosure-open"
+      name="type"
+      value="disclosure-open" />disclosure-open
+  </label>
+
+  <label for="disclosure-closed">
+    <input
+      type="radio"
+      id="disclosure-closed"
+      name="type"
+      value="disclosure-closed" />disclosure-closed
+  </label>
+
+  <label for="-moz-ethiopic-halehame">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame"
+      name="type"
+      value="-moz-ethiopic-halehame" />-moz-ethiopic-halehame
+  </label>
+
+  <label for="-moz-ethiopic-halehame-am">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-am"
+      name="type"
+      value="-moz-ethiopic-halehame-am" />-moz-ethiopic-halehame-am
+  </label>
+
+  <label for="ethiopic-halehame-ti-er">
+    <input
+      type="radio"
+      id="ethiopic-halehame-ti-er"
+      name="type"
+      value="ethiopic-halehame-ti-er" />ethiopic-halehame-ti-er
+  </label>
+
+  <label for="ethiopic-halehame-ti-et">
+    <input
+      type="radio"
+      id="ethiopic-halehame-ti-et"
+      name="type"
+      value="ethiopic-halehame-ti-et" />ethiopic-halehame-ti-et
+  </label>
+
+  <label for="hangul">
+    <input type="radio" id="hangul" name="type" value="hangul" />hangul
+  </label>
+
+  <label for="hangul-consonant">
+    <input
+      type="radio"
+      id="hangul-consonant"
+      name="type"
+      value="hangul-consonant" />hangul-consonant
+  </label>
+
+  <label for="urdu">
+    <input type="radio" id="urdu" name="type" value="urdu" />urdu
+  </label>
+
+  <label for="-moz-ethiopic-halehame-ti-er">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-ti-er"
+      name="type"
+      value="-moz-ethiopic-halehame-ti-er" />-moz-ethiopic-halehame-ti-er
+  </label>
+
+  <label for="-moz-ethiopic-halehame-ti-et">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-ti-et"
+      name="type"
+      value="-moz-ethiopic-halehame-ti-et" />-moz-ethiopic-halehame-ti-et
+  </label>
+
+  <label for="-moz-hangul">
+    <input
+      type="radio"
+      id="-moz-hangul"
+      name="type"
+      value="-moz-hangul" />-moz-hangul
+  </label>
+
+  <label for="-moz-hangul-consonant">
+    <input
+      type="radio"
+      id="-moz-hangul-consonant"
+      name="type"
+      value="-moz-hangul-consonant" />-moz-hangul-consonant
+  </label>
+
+  <label for="-moz-urdu">
+    <input type="radio" id="-moz-urdu" name="type" value="-moz-urdu" />-moz-urdu
+  </label>
+</div>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "valid-id",
+                                'element id "-moz-ethiopic-halehame-am" must begin with a letter',
+                                "-moz-ethiopic-halehame-am",
+                                "347:11",
+                                `/en-US/docs/Web/CSS/Reference/Properties/list-style-type
+[valid-id] element id "-moz-ethiopic-halehame-am" must begin with a letter
+~~~
+<ol>
+  <li>Apollo</li>
+  <li>Hubble</li>
+  <li>Chandra</li>
+  <li>Cassini-Huygens</li>
+  <li>Spitzer</li>
+</ol>
+
+<h2>Choose a list style type:</h2>
+
+<div class="container">
+  <label for="disc">
+    <input type="radio" id="disc" name="type" value="disc" />disc
+  </label>
+
+  <label for="circle">
+    <input type="radio" id="circle" name="type" value="circle" />circle
+  </label>
+
+  <label for="square">
+    <input type="radio" id="square" name="type" value="square" />square
+  </label>
+
+  <label for="decimal">
+    <input type="radio" id="decimal" name="type" value="decimal" />decimal
+  </label>
+
+  <label for="cjk-decimal">
+    <input
+      type="radio"
+      id="cjk-decimal"
+      name="type"
+      value="cjk-decimal" />cjk-decimal
+  </label>
+
+  <label for="decimal-leading-zero">
+    <input
+      type="radio"
+      id="decimal-leading-zero"
+      name="type"
+      value="decimal-leading-zero" />decimal-leading-zero
+  </label>
+
+  <label for="lower-roman">
+    <input
+      type="radio"
+      id="lower-roman"
+      name="type"
+      value="lower-roman" />lower-roman
+  </label>
+
+  <label for="upper-roman">
+    <input
+      type="radio"
+      id="upper-roman"
+      name="type"
+      value="upper-roman" />upper-roman
+  </label>
+
+  <label for="lower-greek">
+    <input
+      type="radio"
+      id="lower-greek"
+      name="type"
+      value="lower-greek" />lower-greek
+  </label>
+
+  <label for="lower-alpha">
+    <input
+      type="radio"
+      id="lower-alpha"
+      name="type"
+      value="lower-alpha" />lower-alpha, lower-latin
+  </label>
+
+  <label for="upper-alpha">
+    <input
+      type="radio"
+      id="upper-alpha"
+      name="type"
+      value="upper-alpha" />upper-alpha, upper-latin
+  </label>
+
+  <label for="arabic-indic">
+    <input
+      type="radio"
+      id="arabic-indic"
+      name="type"
+      value="arabic-indic" />arabic-indic
+  </label>
+
+  <label for="armenian">
+    <input type="radio" id="armenian" name="type" value="armenian" />armenian
+  </label>
+
+  <label for="bengali">
+    <input type="radio" id="bengali" name="type" value="bengali" />bengali
+  </label>
+
+  <label for="cambodian">
+    <input type="radio" id="cambodian" name="type" value="cambodian" />cambodian
+  </label>
+
+  <label for="cjk-earthly-branch">
+    <input
+      type="radio"
+      id="cjk-earthly-branch"
+      name="type"
+      value="cjk-earthly-branch" />cjk-earthly-branch
+  </label>
+
+  <label for="cjk-heavenly-stem">
+    <input
+      type="radio"
+      id="cjk-heavenly-stem"
+      name="type"
+      value="cjk-heavenly-stem" />cjk-heavenly-stem
+  </label>
+
+  <label for="cjk-ideographic">
+    <input
+      type="radio"
+      id="cjk-ideographic"
+      name="type"
+      value="cjk-ideographic" />cjk-ideographic
+  </label>
+
+  <label for="devanagari">
+    <input
+      type="radio"
+      id="devanagari"
+      name="type"
+      value="devanagari" />devanagari
+  </label>
+
+  <label for="ethiopic-numeric">
+    <input
+      type="radio"
+      id="ethiopic-numeric"
+      name="type"
+      value="ethiopic-numeric" />ethiopic-numeric
+  </label>
+
+  <label for="georgian">
+    <input type="radio" id="georgian" name="type" value="georgian" />georgian
+  </label>
+
+  <label for="gujarati">
+    <input type="radio" id="gujarati" name="type" value="gujarati" />gujarati
+  </label>
+
+  <label for="gurmukhi">
+    <input type="radio" id="gurmukhi" name="type" value="gurmukhi" />gurmukhi
+  </label>
+
+  <label for="hebrew">
+    <input type="radio" id="hebrew" name="type" value="hebrew" />hebrew
+  </label>
+
+  <label for="hiragana">
+    <input type="radio" id="hiragana" name="type" value="hiragana" />hiragana
+  </label>
+
+  <label for="hiragana-iroha">
+    <input
+      type="radio"
+      id="hiragana-iroha"
+      name="type"
+      value="hiragana-iroha" />hiragana-iroha
+  </label>
+
+  <label for="japanese-formal">
+    <input
+      type="radio"
+      id="japanese-formal"
+      name="type"
+      value="japanese-formal" />japanese-formal
+  </label>
+
+  <label for="japanese-informal">
+    <input
+      type="radio"
+      id="japanese-informal"
+      name="type"
+      value="japanese-informal" />japanese-informal
+  </label>
+
+  <label for="kannada">
+    <input type="radio" id="kannada" name="type" value="kannada" />kannada
+  </label>
+
+  <label for="katakana">
+    <input type="radio" id="katakana" name="type" value="katakana" />katakana
+  </label>
+
+  <label for="katakana-iroha">
+    <input
+      type="radio"
+      id="katakana-iroha"
+      name="type"
+      value="katakana-iroha" />katakana-iroha
+  </label>
+
+  <label for="khmer">
+    <input type="radio" id="khmer" name="type" value="khmer" />khmer
+  </label>
+
+  <label for="korean-hangul-formal">
+    <input
+      type="radio"
+      id="korean-hangul-formal"
+      name="type"
+      value="korean-hangul-formal" />korean-hangul-formal
+  </label>
+
+  <label for="korean-hanja-formal">
+    <input
+      type="radio"
+      id="korean-hanja-formal"
+      name="type"
+      value="korean-hanja-formal" />korean-hanja-formal
+  </label>
+
+  <label for="korean-hanja-informal">
+    <input
+      type="radio"
+      id="korean-hanja-informal"
+      name="type"
+      value="korean-hanja-informal" />korean-hanja-informal
+  </label>
+
+  <label for="lao">
+    <input type="radio" id="lao" name="type" value="lao" />lao
+  </label>
+
+  <label for="lower-armenian">
+    <input
+      type="radio"
+      id="lower-armenian"
+      name="type"
+      value="lower-armenian" />lower-armenian
+  </label>
+
+  <label for="malayalam">
+    <input type="radio" id="malayalam" name="type" value="malayalam" />malayalam
+  </label>
+
+  <label for="mongolian">
+    <input type="radio" id="mongolian" name="type" value="mongolian" />mongolian
+  </label>
+
+  <label for="myanmar">
+    <input type="radio" id="myanmar" name="type" value="myanmar" />myanmar
+  </label>
+
+  <label for="oriya">
+    <input type="radio" id="oriya" name="type" value="oriya" />oriya
+  </label>
+
+  <label for="persian">
+    <input type="radio" id="persian" name="type" value="persian" />persian
+  </label>
+
+  <label for="simp-chinese-formal">
+    <input
+      type="radio"
+      id="simp-chinese-formal"
+      name="type"
+      value="simp-chinese-formal" />simp-chinese-formal
+  </label>
+
+  <label for="simp-chinese-informal">
+    <input
+      type="radio"
+      id="simp-chinese-informal"
+      name="type"
+      value="simp-chinese-informal" />simp-chinese-informal
+  </label>
+
+  <label for="tamil">
+    <input type="radio" id="tamil" name="type" value="tamil" />tamil
+  </label>
+
+  <label for="telugu">
+    <input type="radio" id="telugu" name="type" value="telugu" />telugu
+  </label>
+
+  <label for="thai">
+    <input type="radio" id="thai" name="type" value="thai" />thai
+  </label>
+
+  <label for="tibetan">
+    <input type="radio" id="tibetan" name="type" value="tibetan" />tibetan
+  </label>
+
+  <label for="trad-chinese-formal">
+    <input
+      type="radio"
+      id="trad-chinese-formal"
+      name="type"
+      value="trad-chinese-formal" />trad-chinese-formal
+  </label>
+
+  <label for="trad-chinese-informal">
+    <input
+      type="radio"
+      id="trad-chinese-informal"
+      name="type"
+      value="trad-chinese-informal" />trad-chinese-informal
+  </label>
+
+  <label for="upper-armenian">
+    <input
+      type="radio"
+      id="upper-armenian"
+      name="type"
+      value="upper-armenian" />upper-armenian
+  </label>
+
+  <label for="disclosure-open">
+    <input
+      type="radio"
+      id="disclosure-open"
+      name="type"
+      value="disclosure-open" />disclosure-open
+  </label>
+
+  <label for="disclosure-closed">
+    <input
+      type="radio"
+      id="disclosure-closed"
+      name="type"
+      value="disclosure-closed" />disclosure-closed
+  </label>
+
+  <label for="-moz-ethiopic-halehame">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame"
+      name="type"
+      value="-moz-ethiopic-halehame" />-moz-ethiopic-halehame
+  </label>
+
+  <label for="-moz-ethiopic-halehame-am">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-am"
+      name="type"
+      value="-moz-ethiopic-halehame-am" />-moz-ethiopic-halehame-am
+  </label>
+
+  <label for="ethiopic-halehame-ti-er">
+    <input
+      type="radio"
+      id="ethiopic-halehame-ti-er"
+      name="type"
+      value="ethiopic-halehame-ti-er" />ethiopic-halehame-ti-er
+  </label>
+
+  <label for="ethiopic-halehame-ti-et">
+    <input
+      type="radio"
+      id="ethiopic-halehame-ti-et"
+      name="type"
+      value="ethiopic-halehame-ti-et" />ethiopic-halehame-ti-et
+  </label>
+
+  <label for="hangul">
+    <input type="radio" id="hangul" name="type" value="hangul" />hangul
+  </label>
+
+  <label for="hangul-consonant">
+    <input
+      type="radio"
+      id="hangul-consonant"
+      name="type"
+      value="hangul-consonant" />hangul-consonant
+  </label>
+
+  <label for="urdu">
+    <input type="radio" id="urdu" name="type" value="urdu" />urdu
+  </label>
+
+  <label for="-moz-ethiopic-halehame-ti-er">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-ti-er"
+      name="type"
+      value="-moz-ethiopic-halehame-ti-er" />-moz-ethiopic-halehame-ti-er
+  </label>
+
+  <label for="-moz-ethiopic-halehame-ti-et">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-ti-et"
+      name="type"
+      value="-moz-ethiopic-halehame-ti-et" />-moz-ethiopic-halehame-ti-et
+  </label>
+
+  <label for="-moz-hangul">
+    <input
+      type="radio"
+      id="-moz-hangul"
+      name="type"
+      value="-moz-hangul" />-moz-hangul
+  </label>
+
+  <label for="-moz-hangul-consonant">
+    <input
+      type="radio"
+      id="-moz-hangul-consonant"
+      name="type"
+      value="-moz-hangul-consonant" />-moz-hangul-consonant
+  </label>
+
+  <label for="-moz-urdu">
+    <input type="radio" id="-moz-urdu" name="type" value="-moz-urdu" />-moz-urdu
+  </label>
+</div>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "valid-id",
+                                'element id "-moz-ethiopic-halehame-ti-er" must begin with a letter',
+                                "-moz-ethiopic-halehame-ti-er",
+                                "387:11",
+                                `/en-US/docs/Web/CSS/Reference/Properties/list-style-type
+[valid-id] element id "-moz-ethiopic-halehame-ti-er" must begin with a letter
+~~~
+<ol>
+  <li>Apollo</li>
+  <li>Hubble</li>
+  <li>Chandra</li>
+  <li>Cassini-Huygens</li>
+  <li>Spitzer</li>
+</ol>
+
+<h2>Choose a list style type:</h2>
+
+<div class="container">
+  <label for="disc">
+    <input type="radio" id="disc" name="type" value="disc" />disc
+  </label>
+
+  <label for="circle">
+    <input type="radio" id="circle" name="type" value="circle" />circle
+  </label>
+
+  <label for="square">
+    <input type="radio" id="square" name="type" value="square" />square
+  </label>
+
+  <label for="decimal">
+    <input type="radio" id="decimal" name="type" value="decimal" />decimal
+  </label>
+
+  <label for="cjk-decimal">
+    <input
+      type="radio"
+      id="cjk-decimal"
+      name="type"
+      value="cjk-decimal" />cjk-decimal
+  </label>
+
+  <label for="decimal-leading-zero">
+    <input
+      type="radio"
+      id="decimal-leading-zero"
+      name="type"
+      value="decimal-leading-zero" />decimal-leading-zero
+  </label>
+
+  <label for="lower-roman">
+    <input
+      type="radio"
+      id="lower-roman"
+      name="type"
+      value="lower-roman" />lower-roman
+  </label>
+
+  <label for="upper-roman">
+    <input
+      type="radio"
+      id="upper-roman"
+      name="type"
+      value="upper-roman" />upper-roman
+  </label>
+
+  <label for="lower-greek">
+    <input
+      type="radio"
+      id="lower-greek"
+      name="type"
+      value="lower-greek" />lower-greek
+  </label>
+
+  <label for="lower-alpha">
+    <input
+      type="radio"
+      id="lower-alpha"
+      name="type"
+      value="lower-alpha" />lower-alpha, lower-latin
+  </label>
+
+  <label for="upper-alpha">
+    <input
+      type="radio"
+      id="upper-alpha"
+      name="type"
+      value="upper-alpha" />upper-alpha, upper-latin
+  </label>
+
+  <label for="arabic-indic">
+    <input
+      type="radio"
+      id="arabic-indic"
+      name="type"
+      value="arabic-indic" />arabic-indic
+  </label>
+
+  <label for="armenian">
+    <input type="radio" id="armenian" name="type" value="armenian" />armenian
+  </label>
+
+  <label for="bengali">
+    <input type="radio" id="bengali" name="type" value="bengali" />bengali
+  </label>
+
+  <label for="cambodian">
+    <input type="radio" id="cambodian" name="type" value="cambodian" />cambodian
+  </label>
+
+  <label for="cjk-earthly-branch">
+    <input
+      type="radio"
+      id="cjk-earthly-branch"
+      name="type"
+      value="cjk-earthly-branch" />cjk-earthly-branch
+  </label>
+
+  <label for="cjk-heavenly-stem">
+    <input
+      type="radio"
+      id="cjk-heavenly-stem"
+      name="type"
+      value="cjk-heavenly-stem" />cjk-heavenly-stem
+  </label>
+
+  <label for="cjk-ideographic">
+    <input
+      type="radio"
+      id="cjk-ideographic"
+      name="type"
+      value="cjk-ideographic" />cjk-ideographic
+  </label>
+
+  <label for="devanagari">
+    <input
+      type="radio"
+      id="devanagari"
+      name="type"
+      value="devanagari" />devanagari
+  </label>
+
+  <label for="ethiopic-numeric">
+    <input
+      type="radio"
+      id="ethiopic-numeric"
+      name="type"
+      value="ethiopic-numeric" />ethiopic-numeric
+  </label>
+
+  <label for="georgian">
+    <input type="radio" id="georgian" name="type" value="georgian" />georgian
+  </label>
+
+  <label for="gujarati">
+    <input type="radio" id="gujarati" name="type" value="gujarati" />gujarati
+  </label>
+
+  <label for="gurmukhi">
+    <input type="radio" id="gurmukhi" name="type" value="gurmukhi" />gurmukhi
+  </label>
+
+  <label for="hebrew">
+    <input type="radio" id="hebrew" name="type" value="hebrew" />hebrew
+  </label>
+
+  <label for="hiragana">
+    <input type="radio" id="hiragana" name="type" value="hiragana" />hiragana
+  </label>
+
+  <label for="hiragana-iroha">
+    <input
+      type="radio"
+      id="hiragana-iroha"
+      name="type"
+      value="hiragana-iroha" />hiragana-iroha
+  </label>
+
+  <label for="japanese-formal">
+    <input
+      type="radio"
+      id="japanese-formal"
+      name="type"
+      value="japanese-formal" />japanese-formal
+  </label>
+
+  <label for="japanese-informal">
+    <input
+      type="radio"
+      id="japanese-informal"
+      name="type"
+      value="japanese-informal" />japanese-informal
+  </label>
+
+  <label for="kannada">
+    <input type="radio" id="kannada" name="type" value="kannada" />kannada
+  </label>
+
+  <label for="katakana">
+    <input type="radio" id="katakana" name="type" value="katakana" />katakana
+  </label>
+
+  <label for="katakana-iroha">
+    <input
+      type="radio"
+      id="katakana-iroha"
+      name="type"
+      value="katakana-iroha" />katakana-iroha
+  </label>
+
+  <label for="khmer">
+    <input type="radio" id="khmer" name="type" value="khmer" />khmer
+  </label>
+
+  <label for="korean-hangul-formal">
+    <input
+      type="radio"
+      id="korean-hangul-formal"
+      name="type"
+      value="korean-hangul-formal" />korean-hangul-formal
+  </label>
+
+  <label for="korean-hanja-formal">
+    <input
+      type="radio"
+      id="korean-hanja-formal"
+      name="type"
+      value="korean-hanja-formal" />korean-hanja-formal
+  </label>
+
+  <label for="korean-hanja-informal">
+    <input
+      type="radio"
+      id="korean-hanja-informal"
+      name="type"
+      value="korean-hanja-informal" />korean-hanja-informal
+  </label>
+
+  <label for="lao">
+    <input type="radio" id="lao" name="type" value="lao" />lao
+  </label>
+
+  <label for="lower-armenian">
+    <input
+      type="radio"
+      id="lower-armenian"
+      name="type"
+      value="lower-armenian" />lower-armenian
+  </label>
+
+  <label for="malayalam">
+    <input type="radio" id="malayalam" name="type" value="malayalam" />malayalam
+  </label>
+
+  <label for="mongolian">
+    <input type="radio" id="mongolian" name="type" value="mongolian" />mongolian
+  </label>
+
+  <label for="myanmar">
+    <input type="radio" id="myanmar" name="type" value="myanmar" />myanmar
+  </label>
+
+  <label for="oriya">
+    <input type="radio" id="oriya" name="type" value="oriya" />oriya
+  </label>
+
+  <label for="persian">
+    <input type="radio" id="persian" name="type" value="persian" />persian
+  </label>
+
+  <label for="simp-chinese-formal">
+    <input
+      type="radio"
+      id="simp-chinese-formal"
+      name="type"
+      value="simp-chinese-formal" />simp-chinese-formal
+  </label>
+
+  <label for="simp-chinese-informal">
+    <input
+      type="radio"
+      id="simp-chinese-informal"
+      name="type"
+      value="simp-chinese-informal" />simp-chinese-informal
+  </label>
+
+  <label for="tamil">
+    <input type="radio" id="tamil" name="type" value="tamil" />tamil
+  </label>
+
+  <label for="telugu">
+    <input type="radio" id="telugu" name="type" value="telugu" />telugu
+  </label>
+
+  <label for="thai">
+    <input type="radio" id="thai" name="type" value="thai" />thai
+  </label>
+
+  <label for="tibetan">
+    <input type="radio" id="tibetan" name="type" value="tibetan" />tibetan
+  </label>
+
+  <label for="trad-chinese-formal">
+    <input
+      type="radio"
+      id="trad-chinese-formal"
+      name="type"
+      value="trad-chinese-formal" />trad-chinese-formal
+  </label>
+
+  <label for="trad-chinese-informal">
+    <input
+      type="radio"
+      id="trad-chinese-informal"
+      name="type"
+      value="trad-chinese-informal" />trad-chinese-informal
+  </label>
+
+  <label for="upper-armenian">
+    <input
+      type="radio"
+      id="upper-armenian"
+      name="type"
+      value="upper-armenian" />upper-armenian
+  </label>
+
+  <label for="disclosure-open">
+    <input
+      type="radio"
+      id="disclosure-open"
+      name="type"
+      value="disclosure-open" />disclosure-open
+  </label>
+
+  <label for="disclosure-closed">
+    <input
+      type="radio"
+      id="disclosure-closed"
+      name="type"
+      value="disclosure-closed" />disclosure-closed
+  </label>
+
+  <label for="-moz-ethiopic-halehame">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame"
+      name="type"
+      value="-moz-ethiopic-halehame" />-moz-ethiopic-halehame
+  </label>
+
+  <label for="-moz-ethiopic-halehame-am">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-am"
+      name="type"
+      value="-moz-ethiopic-halehame-am" />-moz-ethiopic-halehame-am
+  </label>
+
+  <label for="ethiopic-halehame-ti-er">
+    <input
+      type="radio"
+      id="ethiopic-halehame-ti-er"
+      name="type"
+      value="ethiopic-halehame-ti-er" />ethiopic-halehame-ti-er
+  </label>
+
+  <label for="ethiopic-halehame-ti-et">
+    <input
+      type="radio"
+      id="ethiopic-halehame-ti-et"
+      name="type"
+      value="ethiopic-halehame-ti-et" />ethiopic-halehame-ti-et
+  </label>
+
+  <label for="hangul">
+    <input type="radio" id="hangul" name="type" value="hangul" />hangul
+  </label>
+
+  <label for="hangul-consonant">
+    <input
+      type="radio"
+      id="hangul-consonant"
+      name="type"
+      value="hangul-consonant" />hangul-consonant
+  </label>
+
+  <label for="urdu">
+    <input type="radio" id="urdu" name="type" value="urdu" />urdu
+  </label>
+
+  <label for="-moz-ethiopic-halehame-ti-er">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-ti-er"
+      name="type"
+      value="-moz-ethiopic-halehame-ti-er" />-moz-ethiopic-halehame-ti-er
+  </label>
+
+  <label for="-moz-ethiopic-halehame-ti-et">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-ti-et"
+      name="type"
+      value="-moz-ethiopic-halehame-ti-et" />-moz-ethiopic-halehame-ti-et
+  </label>
+
+  <label for="-moz-hangul">
+    <input
+      type="radio"
+      id="-moz-hangul"
+      name="type"
+      value="-moz-hangul" />-moz-hangul
+  </label>
+
+  <label for="-moz-hangul-consonant">
+    <input
+      type="radio"
+      id="-moz-hangul-consonant"
+      name="type"
+      value="-moz-hangul-consonant" />-moz-hangul-consonant
+  </label>
+
+  <label for="-moz-urdu">
+    <input type="radio" id="-moz-urdu" name="type" value="-moz-urdu" />-moz-urdu
+  </label>
+</div>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "valid-id",
+                                'element id "-moz-ethiopic-halehame-ti-et" must begin with a letter',
+                                "-moz-ethiopic-halehame-ti-et",
+                                "395:11",
+                                `/en-US/docs/Web/CSS/Reference/Properties/list-style-type
+[valid-id] element id "-moz-ethiopic-halehame-ti-et" must begin with a letter
+~~~
+<ol>
+  <li>Apollo</li>
+  <li>Hubble</li>
+  <li>Chandra</li>
+  <li>Cassini-Huygens</li>
+  <li>Spitzer</li>
+</ol>
+
+<h2>Choose a list style type:</h2>
+
+<div class="container">
+  <label for="disc">
+    <input type="radio" id="disc" name="type" value="disc" />disc
+  </label>
+
+  <label for="circle">
+    <input type="radio" id="circle" name="type" value="circle" />circle
+  </label>
+
+  <label for="square">
+    <input type="radio" id="square" name="type" value="square" />square
+  </label>
+
+  <label for="decimal">
+    <input type="radio" id="decimal" name="type" value="decimal" />decimal
+  </label>
+
+  <label for="cjk-decimal">
+    <input
+      type="radio"
+      id="cjk-decimal"
+      name="type"
+      value="cjk-decimal" />cjk-decimal
+  </label>
+
+  <label for="decimal-leading-zero">
+    <input
+      type="radio"
+      id="decimal-leading-zero"
+      name="type"
+      value="decimal-leading-zero" />decimal-leading-zero
+  </label>
+
+  <label for="lower-roman">
+    <input
+      type="radio"
+      id="lower-roman"
+      name="type"
+      value="lower-roman" />lower-roman
+  </label>
+
+  <label for="upper-roman">
+    <input
+      type="radio"
+      id="upper-roman"
+      name="type"
+      value="upper-roman" />upper-roman
+  </label>
+
+  <label for="lower-greek">
+    <input
+      type="radio"
+      id="lower-greek"
+      name="type"
+      value="lower-greek" />lower-greek
+  </label>
+
+  <label for="lower-alpha">
+    <input
+      type="radio"
+      id="lower-alpha"
+      name="type"
+      value="lower-alpha" />lower-alpha, lower-latin
+  </label>
+
+  <label for="upper-alpha">
+    <input
+      type="radio"
+      id="upper-alpha"
+      name="type"
+      value="upper-alpha" />upper-alpha, upper-latin
+  </label>
+
+  <label for="arabic-indic">
+    <input
+      type="radio"
+      id="arabic-indic"
+      name="type"
+      value="arabic-indic" />arabic-indic
+  </label>
+
+  <label for="armenian">
+    <input type="radio" id="armenian" name="type" value="armenian" />armenian
+  </label>
+
+  <label for="bengali">
+    <input type="radio" id="bengali" name="type" value="bengali" />bengali
+  </label>
+
+  <label for="cambodian">
+    <input type="radio" id="cambodian" name="type" value="cambodian" />cambodian
+  </label>
+
+  <label for="cjk-earthly-branch">
+    <input
+      type="radio"
+      id="cjk-earthly-branch"
+      name="type"
+      value="cjk-earthly-branch" />cjk-earthly-branch
+  </label>
+
+  <label for="cjk-heavenly-stem">
+    <input
+      type="radio"
+      id="cjk-heavenly-stem"
+      name="type"
+      value="cjk-heavenly-stem" />cjk-heavenly-stem
+  </label>
+
+  <label for="cjk-ideographic">
+    <input
+      type="radio"
+      id="cjk-ideographic"
+      name="type"
+      value="cjk-ideographic" />cjk-ideographic
+  </label>
+
+  <label for="devanagari">
+    <input
+      type="radio"
+      id="devanagari"
+      name="type"
+      value="devanagari" />devanagari
+  </label>
+
+  <label for="ethiopic-numeric">
+    <input
+      type="radio"
+      id="ethiopic-numeric"
+      name="type"
+      value="ethiopic-numeric" />ethiopic-numeric
+  </label>
+
+  <label for="georgian">
+    <input type="radio" id="georgian" name="type" value="georgian" />georgian
+  </label>
+
+  <label for="gujarati">
+    <input type="radio" id="gujarati" name="type" value="gujarati" />gujarati
+  </label>
+
+  <label for="gurmukhi">
+    <input type="radio" id="gurmukhi" name="type" value="gurmukhi" />gurmukhi
+  </label>
+
+  <label for="hebrew">
+    <input type="radio" id="hebrew" name="type" value="hebrew" />hebrew
+  </label>
+
+  <label for="hiragana">
+    <input type="radio" id="hiragana" name="type" value="hiragana" />hiragana
+  </label>
+
+  <label for="hiragana-iroha">
+    <input
+      type="radio"
+      id="hiragana-iroha"
+      name="type"
+      value="hiragana-iroha" />hiragana-iroha
+  </label>
+
+  <label for="japanese-formal">
+    <input
+      type="radio"
+      id="japanese-formal"
+      name="type"
+      value="japanese-formal" />japanese-formal
+  </label>
+
+  <label for="japanese-informal">
+    <input
+      type="radio"
+      id="japanese-informal"
+      name="type"
+      value="japanese-informal" />japanese-informal
+  </label>
+
+  <label for="kannada">
+    <input type="radio" id="kannada" name="type" value="kannada" />kannada
+  </label>
+
+  <label for="katakana">
+    <input type="radio" id="katakana" name="type" value="katakana" />katakana
+  </label>
+
+  <label for="katakana-iroha">
+    <input
+      type="radio"
+      id="katakana-iroha"
+      name="type"
+      value="katakana-iroha" />katakana-iroha
+  </label>
+
+  <label for="khmer">
+    <input type="radio" id="khmer" name="type" value="khmer" />khmer
+  </label>
+
+  <label for="korean-hangul-formal">
+    <input
+      type="radio"
+      id="korean-hangul-formal"
+      name="type"
+      value="korean-hangul-formal" />korean-hangul-formal
+  </label>
+
+  <label for="korean-hanja-formal">
+    <input
+      type="radio"
+      id="korean-hanja-formal"
+      name="type"
+      value="korean-hanja-formal" />korean-hanja-formal
+  </label>
+
+  <label for="korean-hanja-informal">
+    <input
+      type="radio"
+      id="korean-hanja-informal"
+      name="type"
+      value="korean-hanja-informal" />korean-hanja-informal
+  </label>
+
+  <label for="lao">
+    <input type="radio" id="lao" name="type" value="lao" />lao
+  </label>
+
+  <label for="lower-armenian">
+    <input
+      type="radio"
+      id="lower-armenian"
+      name="type"
+      value="lower-armenian" />lower-armenian
+  </label>
+
+  <label for="malayalam">
+    <input type="radio" id="malayalam" name="type" value="malayalam" />malayalam
+  </label>
+
+  <label for="mongolian">
+    <input type="radio" id="mongolian" name="type" value="mongolian" />mongolian
+  </label>
+
+  <label for="myanmar">
+    <input type="radio" id="myanmar" name="type" value="myanmar" />myanmar
+  </label>
+
+  <label for="oriya">
+    <input type="radio" id="oriya" name="type" value="oriya" />oriya
+  </label>
+
+  <label for="persian">
+    <input type="radio" id="persian" name="type" value="persian" />persian
+  </label>
+
+  <label for="simp-chinese-formal">
+    <input
+      type="radio"
+      id="simp-chinese-formal"
+      name="type"
+      value="simp-chinese-formal" />simp-chinese-formal
+  </label>
+
+  <label for="simp-chinese-informal">
+    <input
+      type="radio"
+      id="simp-chinese-informal"
+      name="type"
+      value="simp-chinese-informal" />simp-chinese-informal
+  </label>
+
+  <label for="tamil">
+    <input type="radio" id="tamil" name="type" value="tamil" />tamil
+  </label>
+
+  <label for="telugu">
+    <input type="radio" id="telugu" name="type" value="telugu" />telugu
+  </label>
+
+  <label for="thai">
+    <input type="radio" id="thai" name="type" value="thai" />thai
+  </label>
+
+  <label for="tibetan">
+    <input type="radio" id="tibetan" name="type" value="tibetan" />tibetan
+  </label>
+
+  <label for="trad-chinese-formal">
+    <input
+      type="radio"
+      id="trad-chinese-formal"
+      name="type"
+      value="trad-chinese-formal" />trad-chinese-formal
+  </label>
+
+  <label for="trad-chinese-informal">
+    <input
+      type="radio"
+      id="trad-chinese-informal"
+      name="type"
+      value="trad-chinese-informal" />trad-chinese-informal
+  </label>
+
+  <label for="upper-armenian">
+    <input
+      type="radio"
+      id="upper-armenian"
+      name="type"
+      value="upper-armenian" />upper-armenian
+  </label>
+
+  <label for="disclosure-open">
+    <input
+      type="radio"
+      id="disclosure-open"
+      name="type"
+      value="disclosure-open" />disclosure-open
+  </label>
+
+  <label for="disclosure-closed">
+    <input
+      type="radio"
+      id="disclosure-closed"
+      name="type"
+      value="disclosure-closed" />disclosure-closed
+  </label>
+
+  <label for="-moz-ethiopic-halehame">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame"
+      name="type"
+      value="-moz-ethiopic-halehame" />-moz-ethiopic-halehame
+  </label>
+
+  <label for="-moz-ethiopic-halehame-am">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-am"
+      name="type"
+      value="-moz-ethiopic-halehame-am" />-moz-ethiopic-halehame-am
+  </label>
+
+  <label for="ethiopic-halehame-ti-er">
+    <input
+      type="radio"
+      id="ethiopic-halehame-ti-er"
+      name="type"
+      value="ethiopic-halehame-ti-er" />ethiopic-halehame-ti-er
+  </label>
+
+  <label for="ethiopic-halehame-ti-et">
+    <input
+      type="radio"
+      id="ethiopic-halehame-ti-et"
+      name="type"
+      value="ethiopic-halehame-ti-et" />ethiopic-halehame-ti-et
+  </label>
+
+  <label for="hangul">
+    <input type="radio" id="hangul" name="type" value="hangul" />hangul
+  </label>
+
+  <label for="hangul-consonant">
+    <input
+      type="radio"
+      id="hangul-consonant"
+      name="type"
+      value="hangul-consonant" />hangul-consonant
+  </label>
+
+  <label for="urdu">
+    <input type="radio" id="urdu" name="type" value="urdu" />urdu
+  </label>
+
+  <label for="-moz-ethiopic-halehame-ti-er">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-ti-er"
+      name="type"
+      value="-moz-ethiopic-halehame-ti-er" />-moz-ethiopic-halehame-ti-er
+  </label>
+
+  <label for="-moz-ethiopic-halehame-ti-et">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-ti-et"
+      name="type"
+      value="-moz-ethiopic-halehame-ti-et" />-moz-ethiopic-halehame-ti-et
+  </label>
+
+  <label for="-moz-hangul">
+    <input
+      type="radio"
+      id="-moz-hangul"
+      name="type"
+      value="-moz-hangul" />-moz-hangul
+  </label>
+
+  <label for="-moz-hangul-consonant">
+    <input
+      type="radio"
+      id="-moz-hangul-consonant"
+      name="type"
+      value="-moz-hangul-consonant" />-moz-hangul-consonant
+  </label>
+
+  <label for="-moz-urdu">
+    <input type="radio" id="-moz-urdu" name="type" value="-moz-urdu" />-moz-urdu
+  </label>
+</div>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "valid-id",
+                                'element id "-moz-hangul" must begin with a letter',
+                                "-moz-hangul",
+                                "403:11",
+                                `/en-US/docs/Web/CSS/Reference/Properties/list-style-type
+[valid-id] element id "-moz-hangul" must begin with a letter
+~~~
+<ol>
+  <li>Apollo</li>
+  <li>Hubble</li>
+  <li>Chandra</li>
+  <li>Cassini-Huygens</li>
+  <li>Spitzer</li>
+</ol>
+
+<h2>Choose a list style type:</h2>
+
+<div class="container">
+  <label for="disc">
+    <input type="radio" id="disc" name="type" value="disc" />disc
+  </label>
+
+  <label for="circle">
+    <input type="radio" id="circle" name="type" value="circle" />circle
+  </label>
+
+  <label for="square">
+    <input type="radio" id="square" name="type" value="square" />square
+  </label>
+
+  <label for="decimal">
+    <input type="radio" id="decimal" name="type" value="decimal" />decimal
+  </label>
+
+  <label for="cjk-decimal">
+    <input
+      type="radio"
+      id="cjk-decimal"
+      name="type"
+      value="cjk-decimal" />cjk-decimal
+  </label>
+
+  <label for="decimal-leading-zero">
+    <input
+      type="radio"
+      id="decimal-leading-zero"
+      name="type"
+      value="decimal-leading-zero" />decimal-leading-zero
+  </label>
+
+  <label for="lower-roman">
+    <input
+      type="radio"
+      id="lower-roman"
+      name="type"
+      value="lower-roman" />lower-roman
+  </label>
+
+  <label for="upper-roman">
+    <input
+      type="radio"
+      id="upper-roman"
+      name="type"
+      value="upper-roman" />upper-roman
+  </label>
+
+  <label for="lower-greek">
+    <input
+      type="radio"
+      id="lower-greek"
+      name="type"
+      value="lower-greek" />lower-greek
+  </label>
+
+  <label for="lower-alpha">
+    <input
+      type="radio"
+      id="lower-alpha"
+      name="type"
+      value="lower-alpha" />lower-alpha, lower-latin
+  </label>
+
+  <label for="upper-alpha">
+    <input
+      type="radio"
+      id="upper-alpha"
+      name="type"
+      value="upper-alpha" />upper-alpha, upper-latin
+  </label>
+
+  <label for="arabic-indic">
+    <input
+      type="radio"
+      id="arabic-indic"
+      name="type"
+      value="arabic-indic" />arabic-indic
+  </label>
+
+  <label for="armenian">
+    <input type="radio" id="armenian" name="type" value="armenian" />armenian
+  </label>
+
+  <label for="bengali">
+    <input type="radio" id="bengali" name="type" value="bengali" />bengali
+  </label>
+
+  <label for="cambodian">
+    <input type="radio" id="cambodian" name="type" value="cambodian" />cambodian
+  </label>
+
+  <label for="cjk-earthly-branch">
+    <input
+      type="radio"
+      id="cjk-earthly-branch"
+      name="type"
+      value="cjk-earthly-branch" />cjk-earthly-branch
+  </label>
+
+  <label for="cjk-heavenly-stem">
+    <input
+      type="radio"
+      id="cjk-heavenly-stem"
+      name="type"
+      value="cjk-heavenly-stem" />cjk-heavenly-stem
+  </label>
+
+  <label for="cjk-ideographic">
+    <input
+      type="radio"
+      id="cjk-ideographic"
+      name="type"
+      value="cjk-ideographic" />cjk-ideographic
+  </label>
+
+  <label for="devanagari">
+    <input
+      type="radio"
+      id="devanagari"
+      name="type"
+      value="devanagari" />devanagari
+  </label>
+
+  <label for="ethiopic-numeric">
+    <input
+      type="radio"
+      id="ethiopic-numeric"
+      name="type"
+      value="ethiopic-numeric" />ethiopic-numeric
+  </label>
+
+  <label for="georgian">
+    <input type="radio" id="georgian" name="type" value="georgian" />georgian
+  </label>
+
+  <label for="gujarati">
+    <input type="radio" id="gujarati" name="type" value="gujarati" />gujarati
+  </label>
+
+  <label for="gurmukhi">
+    <input type="radio" id="gurmukhi" name="type" value="gurmukhi" />gurmukhi
+  </label>
+
+  <label for="hebrew">
+    <input type="radio" id="hebrew" name="type" value="hebrew" />hebrew
+  </label>
+
+  <label for="hiragana">
+    <input type="radio" id="hiragana" name="type" value="hiragana" />hiragana
+  </label>
+
+  <label for="hiragana-iroha">
+    <input
+      type="radio"
+      id="hiragana-iroha"
+      name="type"
+      value="hiragana-iroha" />hiragana-iroha
+  </label>
+
+  <label for="japanese-formal">
+    <input
+      type="radio"
+      id="japanese-formal"
+      name="type"
+      value="japanese-formal" />japanese-formal
+  </label>
+
+  <label for="japanese-informal">
+    <input
+      type="radio"
+      id="japanese-informal"
+      name="type"
+      value="japanese-informal" />japanese-informal
+  </label>
+
+  <label for="kannada">
+    <input type="radio" id="kannada" name="type" value="kannada" />kannada
+  </label>
+
+  <label for="katakana">
+    <input type="radio" id="katakana" name="type" value="katakana" />katakana
+  </label>
+
+  <label for="katakana-iroha">
+    <input
+      type="radio"
+      id="katakana-iroha"
+      name="type"
+      value="katakana-iroha" />katakana-iroha
+  </label>
+
+  <label for="khmer">
+    <input type="radio" id="khmer" name="type" value="khmer" />khmer
+  </label>
+
+  <label for="korean-hangul-formal">
+    <input
+      type="radio"
+      id="korean-hangul-formal"
+      name="type"
+      value="korean-hangul-formal" />korean-hangul-formal
+  </label>
+
+  <label for="korean-hanja-formal">
+    <input
+      type="radio"
+      id="korean-hanja-formal"
+      name="type"
+      value="korean-hanja-formal" />korean-hanja-formal
+  </label>
+
+  <label for="korean-hanja-informal">
+    <input
+      type="radio"
+      id="korean-hanja-informal"
+      name="type"
+      value="korean-hanja-informal" />korean-hanja-informal
+  </label>
+
+  <label for="lao">
+    <input type="radio" id="lao" name="type" value="lao" />lao
+  </label>
+
+  <label for="lower-armenian">
+    <input
+      type="radio"
+      id="lower-armenian"
+      name="type"
+      value="lower-armenian" />lower-armenian
+  </label>
+
+  <label for="malayalam">
+    <input type="radio" id="malayalam" name="type" value="malayalam" />malayalam
+  </label>
+
+  <label for="mongolian">
+    <input type="radio" id="mongolian" name="type" value="mongolian" />mongolian
+  </label>
+
+  <label for="myanmar">
+    <input type="radio" id="myanmar" name="type" value="myanmar" />myanmar
+  </label>
+
+  <label for="oriya">
+    <input type="radio" id="oriya" name="type" value="oriya" />oriya
+  </label>
+
+  <label for="persian">
+    <input type="radio" id="persian" name="type" value="persian" />persian
+  </label>
+
+  <label for="simp-chinese-formal">
+    <input
+      type="radio"
+      id="simp-chinese-formal"
+      name="type"
+      value="simp-chinese-formal" />simp-chinese-formal
+  </label>
+
+  <label for="simp-chinese-informal">
+    <input
+      type="radio"
+      id="simp-chinese-informal"
+      name="type"
+      value="simp-chinese-informal" />simp-chinese-informal
+  </label>
+
+  <label for="tamil">
+    <input type="radio" id="tamil" name="type" value="tamil" />tamil
+  </label>
+
+  <label for="telugu">
+    <input type="radio" id="telugu" name="type" value="telugu" />telugu
+  </label>
+
+  <label for="thai">
+    <input type="radio" id="thai" name="type" value="thai" />thai
+  </label>
+
+  <label for="tibetan">
+    <input type="radio" id="tibetan" name="type" value="tibetan" />tibetan
+  </label>
+
+  <label for="trad-chinese-formal">
+    <input
+      type="radio"
+      id="trad-chinese-formal"
+      name="type"
+      value="trad-chinese-formal" />trad-chinese-formal
+  </label>
+
+  <label for="trad-chinese-informal">
+    <input
+      type="radio"
+      id="trad-chinese-informal"
+      name="type"
+      value="trad-chinese-informal" />trad-chinese-informal
+  </label>
+
+  <label for="upper-armenian">
+    <input
+      type="radio"
+      id="upper-armenian"
+      name="type"
+      value="upper-armenian" />upper-armenian
+  </label>
+
+  <label for="disclosure-open">
+    <input
+      type="radio"
+      id="disclosure-open"
+      name="type"
+      value="disclosure-open" />disclosure-open
+  </label>
+
+  <label for="disclosure-closed">
+    <input
+      type="radio"
+      id="disclosure-closed"
+      name="type"
+      value="disclosure-closed" />disclosure-closed
+  </label>
+
+  <label for="-moz-ethiopic-halehame">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame"
+      name="type"
+      value="-moz-ethiopic-halehame" />-moz-ethiopic-halehame
+  </label>
+
+  <label for="-moz-ethiopic-halehame-am">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-am"
+      name="type"
+      value="-moz-ethiopic-halehame-am" />-moz-ethiopic-halehame-am
+  </label>
+
+  <label for="ethiopic-halehame-ti-er">
+    <input
+      type="radio"
+      id="ethiopic-halehame-ti-er"
+      name="type"
+      value="ethiopic-halehame-ti-er" />ethiopic-halehame-ti-er
+  </label>
+
+  <label for="ethiopic-halehame-ti-et">
+    <input
+      type="radio"
+      id="ethiopic-halehame-ti-et"
+      name="type"
+      value="ethiopic-halehame-ti-et" />ethiopic-halehame-ti-et
+  </label>
+
+  <label for="hangul">
+    <input type="radio" id="hangul" name="type" value="hangul" />hangul
+  </label>
+
+  <label for="hangul-consonant">
+    <input
+      type="radio"
+      id="hangul-consonant"
+      name="type"
+      value="hangul-consonant" />hangul-consonant
+  </label>
+
+  <label for="urdu">
+    <input type="radio" id="urdu" name="type" value="urdu" />urdu
+  </label>
+
+  <label for="-moz-ethiopic-halehame-ti-er">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-ti-er"
+      name="type"
+      value="-moz-ethiopic-halehame-ti-er" />-moz-ethiopic-halehame-ti-er
+  </label>
+
+  <label for="-moz-ethiopic-halehame-ti-et">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-ti-et"
+      name="type"
+      value="-moz-ethiopic-halehame-ti-et" />-moz-ethiopic-halehame-ti-et
+  </label>
+
+  <label for="-moz-hangul">
+    <input
+      type="radio"
+      id="-moz-hangul"
+      name="type"
+      value="-moz-hangul" />-moz-hangul
+  </label>
+
+  <label for="-moz-hangul-consonant">
+    <input
+      type="radio"
+      id="-moz-hangul-consonant"
+      name="type"
+      value="-moz-hangul-consonant" />-moz-hangul-consonant
+  </label>
+
+  <label for="-moz-urdu">
+    <input type="radio" id="-moz-urdu" name="type" value="-moz-urdu" />-moz-urdu
+  </label>
+</div>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "valid-id",
+                                'element id "-moz-hangul-consonant" must begin with a letter',
+                                "-moz-hangul-consonant",
+                                "411:11",
+                                `/en-US/docs/Web/CSS/Reference/Properties/list-style-type
+[valid-id] element id "-moz-hangul-consonant" must begin with a letter
+~~~
+<ol>
+  <li>Apollo</li>
+  <li>Hubble</li>
+  <li>Chandra</li>
+  <li>Cassini-Huygens</li>
+  <li>Spitzer</li>
+</ol>
+
+<h2>Choose a list style type:</h2>
+
+<div class="container">
+  <label for="disc">
+    <input type="radio" id="disc" name="type" value="disc" />disc
+  </label>
+
+  <label for="circle">
+    <input type="radio" id="circle" name="type" value="circle" />circle
+  </label>
+
+  <label for="square">
+    <input type="radio" id="square" name="type" value="square" />square
+  </label>
+
+  <label for="decimal">
+    <input type="radio" id="decimal" name="type" value="decimal" />decimal
+  </label>
+
+  <label for="cjk-decimal">
+    <input
+      type="radio"
+      id="cjk-decimal"
+      name="type"
+      value="cjk-decimal" />cjk-decimal
+  </label>
+
+  <label for="decimal-leading-zero">
+    <input
+      type="radio"
+      id="decimal-leading-zero"
+      name="type"
+      value="decimal-leading-zero" />decimal-leading-zero
+  </label>
+
+  <label for="lower-roman">
+    <input
+      type="radio"
+      id="lower-roman"
+      name="type"
+      value="lower-roman" />lower-roman
+  </label>
+
+  <label for="upper-roman">
+    <input
+      type="radio"
+      id="upper-roman"
+      name="type"
+      value="upper-roman" />upper-roman
+  </label>
+
+  <label for="lower-greek">
+    <input
+      type="radio"
+      id="lower-greek"
+      name="type"
+      value="lower-greek" />lower-greek
+  </label>
+
+  <label for="lower-alpha">
+    <input
+      type="radio"
+      id="lower-alpha"
+      name="type"
+      value="lower-alpha" />lower-alpha, lower-latin
+  </label>
+
+  <label for="upper-alpha">
+    <input
+      type="radio"
+      id="upper-alpha"
+      name="type"
+      value="upper-alpha" />upper-alpha, upper-latin
+  </label>
+
+  <label for="arabic-indic">
+    <input
+      type="radio"
+      id="arabic-indic"
+      name="type"
+      value="arabic-indic" />arabic-indic
+  </label>
+
+  <label for="armenian">
+    <input type="radio" id="armenian" name="type" value="armenian" />armenian
+  </label>
+
+  <label for="bengali">
+    <input type="radio" id="bengali" name="type" value="bengali" />bengali
+  </label>
+
+  <label for="cambodian">
+    <input type="radio" id="cambodian" name="type" value="cambodian" />cambodian
+  </label>
+
+  <label for="cjk-earthly-branch">
+    <input
+      type="radio"
+      id="cjk-earthly-branch"
+      name="type"
+      value="cjk-earthly-branch" />cjk-earthly-branch
+  </label>
+
+  <label for="cjk-heavenly-stem">
+    <input
+      type="radio"
+      id="cjk-heavenly-stem"
+      name="type"
+      value="cjk-heavenly-stem" />cjk-heavenly-stem
+  </label>
+
+  <label for="cjk-ideographic">
+    <input
+      type="radio"
+      id="cjk-ideographic"
+      name="type"
+      value="cjk-ideographic" />cjk-ideographic
+  </label>
+
+  <label for="devanagari">
+    <input
+      type="radio"
+      id="devanagari"
+      name="type"
+      value="devanagari" />devanagari
+  </label>
+
+  <label for="ethiopic-numeric">
+    <input
+      type="radio"
+      id="ethiopic-numeric"
+      name="type"
+      value="ethiopic-numeric" />ethiopic-numeric
+  </label>
+
+  <label for="georgian">
+    <input type="radio" id="georgian" name="type" value="georgian" />georgian
+  </label>
+
+  <label for="gujarati">
+    <input type="radio" id="gujarati" name="type" value="gujarati" />gujarati
+  </label>
+
+  <label for="gurmukhi">
+    <input type="radio" id="gurmukhi" name="type" value="gurmukhi" />gurmukhi
+  </label>
+
+  <label for="hebrew">
+    <input type="radio" id="hebrew" name="type" value="hebrew" />hebrew
+  </label>
+
+  <label for="hiragana">
+    <input type="radio" id="hiragana" name="type" value="hiragana" />hiragana
+  </label>
+
+  <label for="hiragana-iroha">
+    <input
+      type="radio"
+      id="hiragana-iroha"
+      name="type"
+      value="hiragana-iroha" />hiragana-iroha
+  </label>
+
+  <label for="japanese-formal">
+    <input
+      type="radio"
+      id="japanese-formal"
+      name="type"
+      value="japanese-formal" />japanese-formal
+  </label>
+
+  <label for="japanese-informal">
+    <input
+      type="radio"
+      id="japanese-informal"
+      name="type"
+      value="japanese-informal" />japanese-informal
+  </label>
+
+  <label for="kannada">
+    <input type="radio" id="kannada" name="type" value="kannada" />kannada
+  </label>
+
+  <label for="katakana">
+    <input type="radio" id="katakana" name="type" value="katakana" />katakana
+  </label>
+
+  <label for="katakana-iroha">
+    <input
+      type="radio"
+      id="katakana-iroha"
+      name="type"
+      value="katakana-iroha" />katakana-iroha
+  </label>
+
+  <label for="khmer">
+    <input type="radio" id="khmer" name="type" value="khmer" />khmer
+  </label>
+
+  <label for="korean-hangul-formal">
+    <input
+      type="radio"
+      id="korean-hangul-formal"
+      name="type"
+      value="korean-hangul-formal" />korean-hangul-formal
+  </label>
+
+  <label for="korean-hanja-formal">
+    <input
+      type="radio"
+      id="korean-hanja-formal"
+      name="type"
+      value="korean-hanja-formal" />korean-hanja-formal
+  </label>
+
+  <label for="korean-hanja-informal">
+    <input
+      type="radio"
+      id="korean-hanja-informal"
+      name="type"
+      value="korean-hanja-informal" />korean-hanja-informal
+  </label>
+
+  <label for="lao">
+    <input type="radio" id="lao" name="type" value="lao" />lao
+  </label>
+
+  <label for="lower-armenian">
+    <input
+      type="radio"
+      id="lower-armenian"
+      name="type"
+      value="lower-armenian" />lower-armenian
+  </label>
+
+  <label for="malayalam">
+    <input type="radio" id="malayalam" name="type" value="malayalam" />malayalam
+  </label>
+
+  <label for="mongolian">
+    <input type="radio" id="mongolian" name="type" value="mongolian" />mongolian
+  </label>
+
+  <label for="myanmar">
+    <input type="radio" id="myanmar" name="type" value="myanmar" />myanmar
+  </label>
+
+  <label for="oriya">
+    <input type="radio" id="oriya" name="type" value="oriya" />oriya
+  </label>
+
+  <label for="persian">
+    <input type="radio" id="persian" name="type" value="persian" />persian
+  </label>
+
+  <label for="simp-chinese-formal">
+    <input
+      type="radio"
+      id="simp-chinese-formal"
+      name="type"
+      value="simp-chinese-formal" />simp-chinese-formal
+  </label>
+
+  <label for="simp-chinese-informal">
+    <input
+      type="radio"
+      id="simp-chinese-informal"
+      name="type"
+      value="simp-chinese-informal" />simp-chinese-informal
+  </label>
+
+  <label for="tamil">
+    <input type="radio" id="tamil" name="type" value="tamil" />tamil
+  </label>
+
+  <label for="telugu">
+    <input type="radio" id="telugu" name="type" value="telugu" />telugu
+  </label>
+
+  <label for="thai">
+    <input type="radio" id="thai" name="type" value="thai" />thai
+  </label>
+
+  <label for="tibetan">
+    <input type="radio" id="tibetan" name="type" value="tibetan" />tibetan
+  </label>
+
+  <label for="trad-chinese-formal">
+    <input
+      type="radio"
+      id="trad-chinese-formal"
+      name="type"
+      value="trad-chinese-formal" />trad-chinese-formal
+  </label>
+
+  <label for="trad-chinese-informal">
+    <input
+      type="radio"
+      id="trad-chinese-informal"
+      name="type"
+      value="trad-chinese-informal" />trad-chinese-informal
+  </label>
+
+  <label for="upper-armenian">
+    <input
+      type="radio"
+      id="upper-armenian"
+      name="type"
+      value="upper-armenian" />upper-armenian
+  </label>
+
+  <label for="disclosure-open">
+    <input
+      type="radio"
+      id="disclosure-open"
+      name="type"
+      value="disclosure-open" />disclosure-open
+  </label>
+
+  <label for="disclosure-closed">
+    <input
+      type="radio"
+      id="disclosure-closed"
+      name="type"
+      value="disclosure-closed" />disclosure-closed
+  </label>
+
+  <label for="-moz-ethiopic-halehame">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame"
+      name="type"
+      value="-moz-ethiopic-halehame" />-moz-ethiopic-halehame
+  </label>
+
+  <label for="-moz-ethiopic-halehame-am">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-am"
+      name="type"
+      value="-moz-ethiopic-halehame-am" />-moz-ethiopic-halehame-am
+  </label>
+
+  <label for="ethiopic-halehame-ti-er">
+    <input
+      type="radio"
+      id="ethiopic-halehame-ti-er"
+      name="type"
+      value="ethiopic-halehame-ti-er" />ethiopic-halehame-ti-er
+  </label>
+
+  <label for="ethiopic-halehame-ti-et">
+    <input
+      type="radio"
+      id="ethiopic-halehame-ti-et"
+      name="type"
+      value="ethiopic-halehame-ti-et" />ethiopic-halehame-ti-et
+  </label>
+
+  <label for="hangul">
+    <input type="radio" id="hangul" name="type" value="hangul" />hangul
+  </label>
+
+  <label for="hangul-consonant">
+    <input
+      type="radio"
+      id="hangul-consonant"
+      name="type"
+      value="hangul-consonant" />hangul-consonant
+  </label>
+
+  <label for="urdu">
+    <input type="radio" id="urdu" name="type" value="urdu" />urdu
+  </label>
+
+  <label for="-moz-ethiopic-halehame-ti-er">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-ti-er"
+      name="type"
+      value="-moz-ethiopic-halehame-ti-er" />-moz-ethiopic-halehame-ti-er
+  </label>
+
+  <label for="-moz-ethiopic-halehame-ti-et">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-ti-et"
+      name="type"
+      value="-moz-ethiopic-halehame-ti-et" />-moz-ethiopic-halehame-ti-et
+  </label>
+
+  <label for="-moz-hangul">
+    <input
+      type="radio"
+      id="-moz-hangul"
+      name="type"
+      value="-moz-hangul" />-moz-hangul
+  </label>
+
+  <label for="-moz-hangul-consonant">
+    <input
+      type="radio"
+      id="-moz-hangul-consonant"
+      name="type"
+      value="-moz-hangul-consonant" />-moz-hangul-consonant
+  </label>
+
+  <label for="-moz-urdu">
+    <input type="radio" id="-moz-urdu" name="type" value="-moz-urdu" />-moz-urdu
+  </label>
+</div>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "valid-id",
+                                'element id "-moz-urdu" must begin with a letter',
+                                "-moz-urdu",
+                                "417:29",
+                                `/en-US/docs/Web/CSS/Reference/Properties/list-style-type
+[valid-id] element id "-moz-urdu" must begin with a letter
+~~~
+<ol>
+  <li>Apollo</li>
+  <li>Hubble</li>
+  <li>Chandra</li>
+  <li>Cassini-Huygens</li>
+  <li>Spitzer</li>
+</ol>
+
+<h2>Choose a list style type:</h2>
+
+<div class="container">
+  <label for="disc">
+    <input type="radio" id="disc" name="type" value="disc" />disc
+  </label>
+
+  <label for="circle">
+    <input type="radio" id="circle" name="type" value="circle" />circle
+  </label>
+
+  <label for="square">
+    <input type="radio" id="square" name="type" value="square" />square
+  </label>
+
+  <label for="decimal">
+    <input type="radio" id="decimal" name="type" value="decimal" />decimal
+  </label>
+
+  <label for="cjk-decimal">
+    <input
+      type="radio"
+      id="cjk-decimal"
+      name="type"
+      value="cjk-decimal" />cjk-decimal
+  </label>
+
+  <label for="decimal-leading-zero">
+    <input
+      type="radio"
+      id="decimal-leading-zero"
+      name="type"
+      value="decimal-leading-zero" />decimal-leading-zero
+  </label>
+
+  <label for="lower-roman">
+    <input
+      type="radio"
+      id="lower-roman"
+      name="type"
+      value="lower-roman" />lower-roman
+  </label>
+
+  <label for="upper-roman">
+    <input
+      type="radio"
+      id="upper-roman"
+      name="type"
+      value="upper-roman" />upper-roman
+  </label>
+
+  <label for="lower-greek">
+    <input
+      type="radio"
+      id="lower-greek"
+      name="type"
+      value="lower-greek" />lower-greek
+  </label>
+
+  <label for="lower-alpha">
+    <input
+      type="radio"
+      id="lower-alpha"
+      name="type"
+      value="lower-alpha" />lower-alpha, lower-latin
+  </label>
+
+  <label for="upper-alpha">
+    <input
+      type="radio"
+      id="upper-alpha"
+      name="type"
+      value="upper-alpha" />upper-alpha, upper-latin
+  </label>
+
+  <label for="arabic-indic">
+    <input
+      type="radio"
+      id="arabic-indic"
+      name="type"
+      value="arabic-indic" />arabic-indic
+  </label>
+
+  <label for="armenian">
+    <input type="radio" id="armenian" name="type" value="armenian" />armenian
+  </label>
+
+  <label for="bengali">
+    <input type="radio" id="bengali" name="type" value="bengali" />bengali
+  </label>
+
+  <label for="cambodian">
+    <input type="radio" id="cambodian" name="type" value="cambodian" />cambodian
+  </label>
+
+  <label for="cjk-earthly-branch">
+    <input
+      type="radio"
+      id="cjk-earthly-branch"
+      name="type"
+      value="cjk-earthly-branch" />cjk-earthly-branch
+  </label>
+
+  <label for="cjk-heavenly-stem">
+    <input
+      type="radio"
+      id="cjk-heavenly-stem"
+      name="type"
+      value="cjk-heavenly-stem" />cjk-heavenly-stem
+  </label>
+
+  <label for="cjk-ideographic">
+    <input
+      type="radio"
+      id="cjk-ideographic"
+      name="type"
+      value="cjk-ideographic" />cjk-ideographic
+  </label>
+
+  <label for="devanagari">
+    <input
+      type="radio"
+      id="devanagari"
+      name="type"
+      value="devanagari" />devanagari
+  </label>
+
+  <label for="ethiopic-numeric">
+    <input
+      type="radio"
+      id="ethiopic-numeric"
+      name="type"
+      value="ethiopic-numeric" />ethiopic-numeric
+  </label>
+
+  <label for="georgian">
+    <input type="radio" id="georgian" name="type" value="georgian" />georgian
+  </label>
+
+  <label for="gujarati">
+    <input type="radio" id="gujarati" name="type" value="gujarati" />gujarati
+  </label>
+
+  <label for="gurmukhi">
+    <input type="radio" id="gurmukhi" name="type" value="gurmukhi" />gurmukhi
+  </label>
+
+  <label for="hebrew">
+    <input type="radio" id="hebrew" name="type" value="hebrew" />hebrew
+  </label>
+
+  <label for="hiragana">
+    <input type="radio" id="hiragana" name="type" value="hiragana" />hiragana
+  </label>
+
+  <label for="hiragana-iroha">
+    <input
+      type="radio"
+      id="hiragana-iroha"
+      name="type"
+      value="hiragana-iroha" />hiragana-iroha
+  </label>
+
+  <label for="japanese-formal">
+    <input
+      type="radio"
+      id="japanese-formal"
+      name="type"
+      value="japanese-formal" />japanese-formal
+  </label>
+
+  <label for="japanese-informal">
+    <input
+      type="radio"
+      id="japanese-informal"
+      name="type"
+      value="japanese-informal" />japanese-informal
+  </label>
+
+  <label for="kannada">
+    <input type="radio" id="kannada" name="type" value="kannada" />kannada
+  </label>
+
+  <label for="katakana">
+    <input type="radio" id="katakana" name="type" value="katakana" />katakana
+  </label>
+
+  <label for="katakana-iroha">
+    <input
+      type="radio"
+      id="katakana-iroha"
+      name="type"
+      value="katakana-iroha" />katakana-iroha
+  </label>
+
+  <label for="khmer">
+    <input type="radio" id="khmer" name="type" value="khmer" />khmer
+  </label>
+
+  <label for="korean-hangul-formal">
+    <input
+      type="radio"
+      id="korean-hangul-formal"
+      name="type"
+      value="korean-hangul-formal" />korean-hangul-formal
+  </label>
+
+  <label for="korean-hanja-formal">
+    <input
+      type="radio"
+      id="korean-hanja-formal"
+      name="type"
+      value="korean-hanja-formal" />korean-hanja-formal
+  </label>
+
+  <label for="korean-hanja-informal">
+    <input
+      type="radio"
+      id="korean-hanja-informal"
+      name="type"
+      value="korean-hanja-informal" />korean-hanja-informal
+  </label>
+
+  <label for="lao">
+    <input type="radio" id="lao" name="type" value="lao" />lao
+  </label>
+
+  <label for="lower-armenian">
+    <input
+      type="radio"
+      id="lower-armenian"
+      name="type"
+      value="lower-armenian" />lower-armenian
+  </label>
+
+  <label for="malayalam">
+    <input type="radio" id="malayalam" name="type" value="malayalam" />malayalam
+  </label>
+
+  <label for="mongolian">
+    <input type="radio" id="mongolian" name="type" value="mongolian" />mongolian
+  </label>
+
+  <label for="myanmar">
+    <input type="radio" id="myanmar" name="type" value="myanmar" />myanmar
+  </label>
+
+  <label for="oriya">
+    <input type="radio" id="oriya" name="type" value="oriya" />oriya
+  </label>
+
+  <label for="persian">
+    <input type="radio" id="persian" name="type" value="persian" />persian
+  </label>
+
+  <label for="simp-chinese-formal">
+    <input
+      type="radio"
+      id="simp-chinese-formal"
+      name="type"
+      value="simp-chinese-formal" />simp-chinese-formal
+  </label>
+
+  <label for="simp-chinese-informal">
+    <input
+      type="radio"
+      id="simp-chinese-informal"
+      name="type"
+      value="simp-chinese-informal" />simp-chinese-informal
+  </label>
+
+  <label for="tamil">
+    <input type="radio" id="tamil" name="type" value="tamil" />tamil
+  </label>
+
+  <label for="telugu">
+    <input type="radio" id="telugu" name="type" value="telugu" />telugu
+  </label>
+
+  <label for="thai">
+    <input type="radio" id="thai" name="type" value="thai" />thai
+  </label>
+
+  <label for="tibetan">
+    <input type="radio" id="tibetan" name="type" value="tibetan" />tibetan
+  </label>
+
+  <label for="trad-chinese-formal">
+    <input
+      type="radio"
+      id="trad-chinese-formal"
+      name="type"
+      value="trad-chinese-formal" />trad-chinese-formal
+  </label>
+
+  <label for="trad-chinese-informal">
+    <input
+      type="radio"
+      id="trad-chinese-informal"
+      name="type"
+      value="trad-chinese-informal" />trad-chinese-informal
+  </label>
+
+  <label for="upper-armenian">
+    <input
+      type="radio"
+      id="upper-armenian"
+      name="type"
+      value="upper-armenian" />upper-armenian
+  </label>
+
+  <label for="disclosure-open">
+    <input
+      type="radio"
+      id="disclosure-open"
+      name="type"
+      value="disclosure-open" />disclosure-open
+  </label>
+
+  <label for="disclosure-closed">
+    <input
+      type="radio"
+      id="disclosure-closed"
+      name="type"
+      value="disclosure-closed" />disclosure-closed
+  </label>
+
+  <label for="-moz-ethiopic-halehame">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame"
+      name="type"
+      value="-moz-ethiopic-halehame" />-moz-ethiopic-halehame
+  </label>
+
+  <label for="-moz-ethiopic-halehame-am">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-am"
+      name="type"
+      value="-moz-ethiopic-halehame-am" />-moz-ethiopic-halehame-am
+  </label>
+
+  <label for="ethiopic-halehame-ti-er">
+    <input
+      type="radio"
+      id="ethiopic-halehame-ti-er"
+      name="type"
+      value="ethiopic-halehame-ti-er" />ethiopic-halehame-ti-er
+  </label>
+
+  <label for="ethiopic-halehame-ti-et">
+    <input
+      type="radio"
+      id="ethiopic-halehame-ti-et"
+      name="type"
+      value="ethiopic-halehame-ti-et" />ethiopic-halehame-ti-et
+  </label>
+
+  <label for="hangul">
+    <input type="radio" id="hangul" name="type" value="hangul" />hangul
+  </label>
+
+  <label for="hangul-consonant">
+    <input
+      type="radio"
+      id="hangul-consonant"
+      name="type"
+      value="hangul-consonant" />hangul-consonant
+  </label>
+
+  <label for="urdu">
+    <input type="radio" id="urdu" name="type" value="urdu" />urdu
+  </label>
+
+  <label for="-moz-ethiopic-halehame-ti-er">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-ti-er"
+      name="type"
+      value="-moz-ethiopic-halehame-ti-er" />-moz-ethiopic-halehame-ti-er
+  </label>
+
+  <label for="-moz-ethiopic-halehame-ti-et">
+    <input
+      type="radio"
+      id="-moz-ethiopic-halehame-ti-et"
+      name="type"
+      value="-moz-ethiopic-halehame-ti-et" />-moz-ethiopic-halehame-ti-et
+  </label>
+
+  <label for="-moz-hangul">
+    <input
+      type="radio"
+      id="-moz-hangul"
+      name="type"
+      value="-moz-hangul" />-moz-hangul
+  </label>
+
+  <label for="-moz-hangul-consonant">
+    <input
+      type="radio"
+      id="-moz-hangul-consonant"
+      name="type"
+      value="-moz-hangul-consonant" />-moz-hangul-consonant
+  </label>
+
+  <label for="-moz-urdu">
+    <input type="radio" id="-moz-urdu" name="type" value="-moz-urdu" />-moz-urdu
+  </label>
+</div>
+~~~
+`
                               ]
                             }
                           ]
@@ -58385,12 +61641,6 @@ p {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
                               ]
                             }
                           ]
@@ -58434,12 +61684,6 @@ p {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
                             }
                           ]
                         },
@@ -58481,12 +61725,6 @@ p {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -58530,12 +61768,6 @@ p {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -58576,12 +61808,6 @@ p {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -58624,12 +61850,6 @@ p {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
                             }
                           ]
                         },
@@ -58670,12 +61890,6 @@ p {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -58718,12 +61932,6 @@ p {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -58763,12 +61971,6 @@ p {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -58807,12 +62009,6 @@ p {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -58855,72 +62051,6 @@ p {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "margin-trim": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/margin-trim",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        marker: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/marker",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "marker-end": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/marker-end",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "marker-mid": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/marker-mid",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "marker-start": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/marker-start",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -58948,12 +62078,6 @@ mask-clip: border-box;
 mask-composite: add;
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
                               ]
                             }
                           ]
@@ -58994,12 +62118,6 @@ mask-composite: add;
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
                             }
                           ]
                         },
@@ -59008,141 +62126,9 @@ mask-composite: add;
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-border-mode",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "mask-border-outset": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-border-outset",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "mask-border-repeat": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-border-repeat",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "mask-border-slice": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-border-slice",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "mask-border-source": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-border-source",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "mask-border-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-border-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "mask-clip": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-clip",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "mask-composite": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-composite",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "mask-image": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-image",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "mask-mode": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-mode",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "mask-origin": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-origin",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "mask-position": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-position",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
+                                "css.properties.mask-border-mode"
                               ]
                             }
                           ]
@@ -59152,411 +62138,22 @@ mask-composite: add;
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-repeat",
                           messages: [
                             {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "mask-size": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-size",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "mask-type": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-type",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "math-depth": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/math-depth",
-                          messages: [
-                            {
                               message: "HTML code issue",
                               data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    <mrow style="math-style: normal">',
-                                "5:10 - 5:36",
-                                `/en-US/docs/Web/CSS/Reference/Properties/math-depth
-[no-style-attr] Do not use the style attribute.
+                                "multiple-labeled-controls",
+                                "<label> is associated with multiple controls",
+                                "label",
+                                "2:2",
+                                `/en-US/docs/Web/CSS/Reference/Properties/mask-repeat
+[multiple-labeled-controls] <label> is associated with multiple controls
 ~~~
-<p>
-  <math>
-    <mtext>0</mtext>
-
-    <!-- auto-add value has no effect when math-style is normal -->
-    <mrow style="math-style: normal">
-      <mrow style="math-depth: auto-add">
-        <mtext>0</mtext>
-      </mrow>
-    </mrow>
-
-    <!-- the inherited math-style is compact, so math-depth is set to 1 -->
-    <mrow style="math-depth: auto-add">
-      <mtext>1</mtext>
-    </mrow>
-
-    <mrow style="math-depth: add(2)">
-      <mtext>2</mtext>
-      <mrow style="math-depth: add(-1)">
-        <mtext>1</mtext>
-      </mrow>
-      <mrow style="math-depth: 0">
-        <mtext>0</mtext>
-      </mrow>
-    </mrow>
-  </math>
-</p>
+<div></div>
+<label
+  >width: <output></output><br />
+  <input type="range" min="0" max="400" value="250" id="width" />
+</label>
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '      <mrow style="math-depth: auto-add">',
-                                "6:12 - 6:40",
-                                `/en-US/docs/Web/CSS/Reference/Properties/math-depth
-[no-style-attr] Do not use the style attribute.
-~~~
-<p>
-  <math>
-    <mtext>0</mtext>
-
-    <!-- auto-add value has no effect when math-style is normal -->
-    <mrow style="math-style: normal">
-      <mrow style="math-depth: auto-add">
-        <mtext>0</mtext>
-      </mrow>
-    </mrow>
-
-    <!-- the inherited math-style is compact, so math-depth is set to 1 -->
-    <mrow style="math-depth: auto-add">
-      <mtext>1</mtext>
-    </mrow>
-
-    <mrow style="math-depth: add(2)">
-      <mtext>2</mtext>
-      <mrow style="math-depth: add(-1)">
-        <mtext>1</mtext>
-      </mrow>
-      <mrow style="math-depth: 0">
-        <mtext>0</mtext>
-      </mrow>
-    </mrow>
-  </math>
-</p>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    <mrow style="math-depth: auto-add">',
-                                "12:10 - 12:38",
-                                `/en-US/docs/Web/CSS/Reference/Properties/math-depth
-[no-style-attr] Do not use the style attribute.
-~~~
-<p>
-  <math>
-    <mtext>0</mtext>
-
-    <!-- auto-add value has no effect when math-style is normal -->
-    <mrow style="math-style: normal">
-      <mrow style="math-depth: auto-add">
-        <mtext>0</mtext>
-      </mrow>
-    </mrow>
-
-    <!-- the inherited math-style is compact, so math-depth is set to 1 -->
-    <mrow style="math-depth: auto-add">
-      <mtext>1</mtext>
-    </mrow>
-
-    <mrow style="math-depth: add(2)">
-      <mtext>2</mtext>
-      <mrow style="math-depth: add(-1)">
-        <mtext>1</mtext>
-      </mrow>
-      <mrow style="math-depth: 0">
-        <mtext>0</mtext>
-      </mrow>
-    </mrow>
-  </math>
-</p>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '    <mrow style="math-depth: add(2)">',
-                                "16:10 - 16:36",
-                                `/en-US/docs/Web/CSS/Reference/Properties/math-depth
-[no-style-attr] Do not use the style attribute.
-~~~
-<p>
-  <math>
-    <mtext>0</mtext>
-
-    <!-- auto-add value has no effect when math-style is normal -->
-    <mrow style="math-style: normal">
-      <mrow style="math-depth: auto-add">
-        <mtext>0</mtext>
-      </mrow>
-    </mrow>
-
-    <!-- the inherited math-style is compact, so math-depth is set to 1 -->
-    <mrow style="math-depth: auto-add">
-      <mtext>1</mtext>
-    </mrow>
-
-    <mrow style="math-depth: add(2)">
-      <mtext>2</mtext>
-      <mrow style="math-depth: add(-1)">
-        <mtext>1</mtext>
-      </mrow>
-      <mrow style="math-depth: 0">
-        <mtext>0</mtext>
-      </mrow>
-    </mrow>
-  </math>
-</p>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '      <mrow style="math-depth: add(-1)">',
-                                "18:12 - 18:39",
-                                `/en-US/docs/Web/CSS/Reference/Properties/math-depth
-[no-style-attr] Do not use the style attribute.
-~~~
-<p>
-  <math>
-    <mtext>0</mtext>
-
-    <!-- auto-add value has no effect when math-style is normal -->
-    <mrow style="math-style: normal">
-      <mrow style="math-depth: auto-add">
-        <mtext>0</mtext>
-      </mrow>
-    </mrow>
-
-    <!-- the inherited math-style is compact, so math-depth is set to 1 -->
-    <mrow style="math-depth: auto-add">
-      <mtext>1</mtext>
-    </mrow>
-
-    <mrow style="math-depth: add(2)">
-      <mtext>2</mtext>
-      <mrow style="math-depth: add(-1)">
-        <mtext>1</mtext>
-      </mrow>
-      <mrow style="math-depth: 0">
-        <mtext>0</mtext>
-      </mrow>
-    </mrow>
-  </math>
-</p>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '      <mrow style="math-depth: 0">',
-                                "21:12 - 21:33",
-                                `/en-US/docs/Web/CSS/Reference/Properties/math-depth
-[no-style-attr] Do not use the style attribute.
-~~~
-<p>
-  <math>
-    <mtext>0</mtext>
-
-    <!-- auto-add value has no effect when math-style is normal -->
-    <mrow style="math-style: normal">
-      <mrow style="math-depth: auto-add">
-        <mtext>0</mtext>
-      </mrow>
-    </mrow>
-
-    <!-- the inherited math-style is compact, so math-depth is set to 1 -->
-    <mrow style="math-depth: auto-add">
-      <mtext>1</mtext>
-    </mrow>
-
-    <mrow style="math-depth: add(2)">
-      <mtext>2</mtext>
-      <mrow style="math-depth: add(-1)">
-        <mtext>1</mtext>
-      </mrow>
-      <mrow style="math-depth: 0">
-        <mtext>0</mtext>
-      </mrow>
-    </mrow>
-  </math>
-</p>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "math-shift": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/math-shift",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "math-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/math-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "max-block-size": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/max-block-size",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "max-height": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/max-height",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "max-inline-size": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/max-inline-size",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "max-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/max-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "min-block-size": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/min-block-size",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "min-height": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/min-height",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "min-inline-size": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/min-inline-size",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "min-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/min-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -59713,96 +62310,6 @@ body {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "object-fit": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/object-fit",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "object-position": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/object-position",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "object-view-box": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/object-view-box",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        offset: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/offset",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "offset-anchor": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/offset-anchor",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "offset-distance": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/offset-distance",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "offset-path": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/offset-path",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -59885,24 +62392,6 @@ pre {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "offset-rotate": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/offset-rotate",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -59956,337 +62445,6 @@ img.opacity:hover {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        order: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/order",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <div style="order: 1">Box 2: <code>order: 1;</code></div>',
-                                "2:7 - 2:23",
-                                `/en-US/docs/Web/CSS/Reference/Properties/order
-[no-style-attr] Do not use the style attribute.
-~~~
-<section class="default-example" id="default-example">
-  <div class="transition-all" id="example-element">Box 1:</div>
-  <div style="order: 1">Box 2: <code>order: 1;</code></div>
-  <div style="order: 2">Box 3: <code>order: 2;</code></div>
-  <div style="order: 2">Box 4: <code>order: 2;</code></div>
-  <div style="order: 3">Box 5: <code>order: 3;</code></div>
-</section>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <div style="order: 2">Box 3: <code>order: 2;</code></div>',
-                                "3:7 - 3:23",
-                                `/en-US/docs/Web/CSS/Reference/Properties/order
-[no-style-attr] Do not use the style attribute.
-~~~
-<section class="default-example" id="default-example">
-  <div class="transition-all" id="example-element">Box 1:</div>
-  <div style="order: 1">Box 2: <code>order: 1;</code></div>
-  <div style="order: 2">Box 3: <code>order: 2;</code></div>
-  <div style="order: 2">Box 4: <code>order: 2;</code></div>
-  <div style="order: 3">Box 5: <code>order: 3;</code></div>
-</section>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <div style="order: 2">Box 4: <code>order: 2;</code></div>',
-                                "4:7 - 4:23",
-                                `/en-US/docs/Web/CSS/Reference/Properties/order
-[no-style-attr] Do not use the style attribute.
-~~~
-<section class="default-example" id="default-example">
-  <div class="transition-all" id="example-element">Box 1:</div>
-  <div style="order: 1">Box 2: <code>order: 1;</code></div>
-  <div style="order: 2">Box 3: <code>order: 2;</code></div>
-  <div style="order: 2">Box 4: <code>order: 2;</code></div>
-  <div style="order: 3">Box 5: <code>order: 3;</code></div>
-</section>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '  <div style="order: 3">Box 5: <code>order: 3;</code></div>',
-                                "5:7 - 5:23",
-                                `/en-US/docs/Web/CSS/Reference/Properties/order
-[no-style-attr] Do not use the style attribute.
-~~~
-<section class="default-example" id="default-example">
-  <div class="transition-all" id="example-element">Box 1:</div>
-  <div style="order: 1">Box 2: <code>order: 1;</code></div>
-  <div style="order: 2">Box 3: <code>order: 2;</code></div>
-  <div style="order: 2">Box 4: <code>order: 2;</code></div>
-  <div style="order: 3">Box 5: <code>order: 3;</code></div>
-</section>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        orphans: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/orphans",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        outline: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/outline",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "outline-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/outline-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "outline-offset": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/outline-offset",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "outline-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/outline-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "outline-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/outline-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        overflow: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-property-value-keyword-no-deprecated",
-                                'Expected "overlay" to be "auto" (declaration-property-value-keyword-no-deprecated)',
-                                "  overflow: overlay;",
-                                "46:13 - 46:20",
-                                `/en-US/docs/Web/CSS/Reference/Properties/overflow
-[declaration-property-value-keyword-no-deprecated] Expected "overlay" to be "auto" (declaration-property-value-keyword-no-deprecated)
-~~~
-body {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: start;
-}
-
-div {
-  margin: 2em;
-  font-size: 1.2em;
-}
-
-p {
-  width: 5em;
-  height: 5em;
-  border: dotted;
-  margin-top: 0.5em;
-}
-
-div:nth-of-type(5),
-div:nth-of-type(6) {
-  margin-top: 200px;
-}
-
-p.visible {
-  overflow: visible;
-}
-
-p.hidden {
-  overflow: hidden;
-}
-
-p.clip {
-  overflow: clip;
-  overflow-clip-margin: 1em;
-}
-
-p.scroll {
-  overflow: scroll;
-}
-
-p.auto {
-  overflow: auto;
-}
-
-p.overlay {
-  overflow: overlay;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "overflow-anchor": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow-anchor",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "overflow-block": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow-block",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "overflow-clip-margin": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow-clip-margin",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "overflow-inline": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow-inline",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "overflow-wrap": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow-wrap",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "overflow-x": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow-x",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "overflow-y": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow-y",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -60366,24 +62524,6 @@ html {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "overscroll-behavior": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
                               ]
                             }
                           ]
@@ -60562,12 +62702,6 @@ p {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -60745,364 +62879,6 @@ p {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "overscroll-behavior-x": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior-x",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "overscroll-behavior-y": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior-y",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        padding: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "padding-block": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-block",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "padding-block-end": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-block-end",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "padding-block-start": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-block-start",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "padding-bottom": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-bottom",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "padding-inline": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-inline",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "padding-inline-end": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-inline-end",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "padding-inline-start": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-inline-start",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "padding-left": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-left",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "padding-right": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-right",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "padding-top": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/padding-top",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        page: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/page",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "page-break-after": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/page-break-after",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "page-break-before": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/page-break-before",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "page-break-inside": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/page-break-inside",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "paint-order": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/paint-order",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        perspective: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/perspective",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "perspective-origin": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/perspective-origin",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "place-content": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/place-content",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "place-items": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/place-items",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "place-self": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/place-self",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "pointer-events": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/pointer-events",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        position: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/position",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-duplicate-properties",
-                                'Unexpected duplicate "position" (declaration-block-no-duplicate-properties)',
-                                "  position: -webkit-sticky;",
-                                "21:3 - 21:11",
-                                `/en-US/docs/Web/CSS/Reference/Properties/position
-[declaration-block-no-duplicate-properties] Unexpected duplicate "position" (declaration-block-no-duplicate-properties)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-dl > div {
-  background: white;
-  padding-top: 24px;
-}
-
-dt {
-  background: #b8c1c8;
-  border-bottom: 1px solid #989ea4;
-  border-top: 1px solid #717d85;
-  color: white;
-  font:
-    bold 18px/21px "Helvetica",
-    "Arial",
-    sans-serif;
-  margin: 0;
-  padding: 2px 0 0 12px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: -1px;
-}
-
-dd {
-  font:
-    bold 20px/45px "Helvetica",
-    "Arial",
-    sans-serif;
-  margin: 0;
-  padding-left: 12px;
-  white-space: nowrap;
-}
-
-dd + dd {
-  border-top: 1px solid #cccccc;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -61176,97 +62952,6 @@ body {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "position-area": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/position-area",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-elem",
-                                "Do not use the <style> element; use separate CSS blocks instead.",
-                                `<style contenteditable="true">.positionedElement {
-    position-area: top center;
-  }
-</style>`,
-                                "4:0 - 7:8",
-                                `/en-US/docs/Web/CSS/Reference/Properties/position-area
-[no-style-elem] Do not use the <style> element; use separate CSS blocks instead.
-~~~
-<div class="anchor" contenteditable="true">⚓︎</div>
-
-<p class="positionedElement" contenteditable="true">This can be edited.</p>
-
-<style contenteditable="true">.positionedElement {
-    position-area: top center;
-  }
-</style>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "position-try": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/position-try",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "position-try-fallbacks": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/position-try-fallbacks",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "position-try-order": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/position-try-order",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "position-visibility": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/position-visibility",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -61331,12 +63016,6 @@ body {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -61345,21 +63024,40 @@ body {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/quotes",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "HTML code issue",
                               data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        r: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/r",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
+                                "element-permitted-content",
+                                "<ul> element is not permitted as content under <ul>",
+                                "ul",
+                                "22:4",
+                                `/en-US/docs/Web/CSS/Reference/Properties/quotes
+[element-permitted-content] <ul> element is not permitted as content under <ul>
+~~~
+<ul>
+  <li>
+    Default quotes:
+    <p lang="ru">
+      <q
+        >Митч Макконнелл - это человек, который знает о России и ее влиянии
+        меньше, чем даже Дональд Трамп, и <q>я ничего не знаю</q>, сказал
+        Трамп</q
+      >, - писал Раджу.
+    </p>
+  </li>
+  <li class="specialQuotes">
+    Defined by <code>quotes</code> property :
+    <p lang="ru">
+      <q
+        >Митч Макконнелл - это человек, который знает о России и ее влиянии
+        меньше, чем даже Дональд Трамп, и <q>я ничего не знаю</q>, сказал
+        Трамп</q
+      >, - писал Раджу.
+    </p>
+  </li>
+  <ul></ul>
+</ul>
+~~~
+`
                               ]
                             }
                           ]
@@ -61373,12 +63071,6 @@ body {
                               data: [
                                 "CSS info"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -61391,350 +63083,6 @@ body {
                               data: [
                                 "CSS info"
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        resize: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/resize",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        right: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/right",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        rotate: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/rotate",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "row-gap": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/row-gap",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "ruby-align": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/ruby-align",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "ruby-overhang": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/ruby-overhang",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "ruby-position": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/ruby-position",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        rx: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/rx",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        ry: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/ry",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        scale: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scale",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-behavior": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-behavior",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "selector-type-no-unknown",
-                                'Unexpected unknown type selector "scroll-container" (selector-type-no-unknown)',
-                                "scroll-container {",
-                                "9:1 - 9:17",
-                                `/en-US/docs/Web/CSS/Reference/Properties/scroll-behavior
-[selector-type-no-unknown] Unexpected unknown type selector "scroll-container" (selector-type-no-unknown)
-~~~
-.container {
-  flex-direction: column;
-}
-
-.nav a {
-  color: #009e5f;
-}
-
-scroll-container {
-  border: 1px solid black;
-  display: block;
-  height: 200px;
-  overflow-y: scroll;
-  width: 200px;
-}
-
-scroll-page {
-  align-items: center;
-  display: flex;
-  font-size: 5em;
-  height: 100%;
-  justify-content: center;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "selector-type-no-unknown",
-                                'Unexpected unknown type selector "scroll-page" (selector-type-no-unknown)',
-                                "scroll-page {",
-                                "17:1 - 17:12",
-                                `/en-US/docs/Web/CSS/Reference/Properties/scroll-behavior
-[selector-type-no-unknown] Unexpected unknown type selector "scroll-page" (selector-type-no-unknown)
-~~~
-.container {
-  flex-direction: column;
-}
-
-.nav a {
-  color: #009e5f;
-}
-
-scroll-container {
-  border: 1px solid black;
-  display: block;
-  height: 200px;
-  overflow-y: scroll;
-  width: 200px;
-}
-
-scroll-page {
-  align-items: center;
-  display: flex;
-  font-size: 5em;
-  height: 100%;
-  justify-content: center;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-margin": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-margin-block": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-block",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-margin-block-end": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-block-end",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-margin-block-start": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-block-start",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-margin-bottom": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-bottom",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-margin-inline": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-inline",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-margin-inline-end": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-inline-end",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-margin-inline-start": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-inline-start",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-margin-left": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-left",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-margin-right": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-right",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-margin-top": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-margin-top",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -61746,180 +63094,6 @@ scroll-page {
                               message: "Missing data",
                               data: [
                                 "CSS info"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-padding": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-padding-block": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-block",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-padding-block-end": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-block-end",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-padding-block-start": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-block-start",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-padding-bottom": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-bottom",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-padding-inline": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-inline",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-padding-inline-end": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-inline-end",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-padding-inline-start": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-inline-start",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-padding-left": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-left",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-padding-right": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-right",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-padding-top": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-padding-top",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-snap-align": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-snap-align",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-snap-stop": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-snap-stop",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-snap-type": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-snap-type",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -62505,252 +63679,6 @@ ol a:focus,
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-timeline": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-duplicate-properties",
-                                'Unexpected duplicate "scroll-timeline" (declaration-block-no-duplicate-properties)',
-                                "  scroll-timeline: --square-timeline y;",
-                                "4:3 - 4:18",
-                                `/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline
-[declaration-block-no-duplicate-properties] Unexpected duplicate "scroll-timeline" (declaration-block-no-duplicate-properties)
-~~~
-#container {
-  height: 300px;
-  overflow-y: scroll;
-  scroll-timeline: --square-timeline y;
-  /* Firefox supports the older "vertical" syntax */
-  scroll-timeline: --square-timeline vertical;
-  position: relative;
-}
-
-#square {
-  background-color: deeppink;
-  width: 100px;
-  height: 100px;
-  animation-name: rotateAnimation;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-  animation-timeline: --square-timeline;
-  position: absolute;
-  bottom: 0;
-}
-
-#stretcher {
-  height: 600px;
-  background: #dedede;
-}
-
-@keyframes rotateAnimation {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-timeline-axis": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-axis",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-duplicate-properties",
-                                'Unexpected duplicate "scroll-timeline-axis" (declaration-block-no-duplicate-properties)',
-                                "  scroll-timeline-axis: x;",
-                                "5:3 - 5:23",
-                                `/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-axis
-[declaration-block-no-duplicate-properties] Unexpected duplicate "scroll-timeline-axis" (declaration-block-no-duplicate-properties)
-~~~
-:root {
-  scroll-timeline-name: --my-scroller;
-
-  /* Chromium supports the new x/y syntax */
-  scroll-timeline-axis: x;
-  /* Firefox still supports the old horizontal/vertical syntax */
-  scroll-timeline-axis: horizontal;
-}
-
-body {
-  margin: 0;
-  overflow-y: hidden;
-}
-
-.content {
-  height: 100vh;
-  width: 2000px;
-}
-
-.box {
-  width: 100px;
-  height: 100px;
-  border-radius: 10px;
-  background-color: rebeccapurple;
-  position: fixed;
-  top: 25px;
-  left: 25px;
-}
-
-.animation {
-  animation: rotate-appear;
-  animation-timeline: --my-scroller;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes rotate-appear {
-  from {
-    rotate: 0deg;
-    top: 0%;
-  }
-
-  to {
-    rotate: 720deg;
-    top: 100%;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scroll-timeline-name": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scroll-timeline-name",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scrollbar-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scrollbar-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scrollbar-gutter": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scrollbar-gutter",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "scrollbar-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/scrollbar-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "shape-image-threshold": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/shape-image-threshold",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "shape-margin": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/shape-margin",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "shape-outside": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/shape-outside",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "shape-rendering": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/shape-rendering",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "speak-as": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/speak-as",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -62855,12 +63783,6 @@ rect {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -62914,341 +63836,6 @@ polygon:nth-of-type(3) {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        stroke: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "stroke-dasharray": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-dasharray",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "stroke-dashoffset": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-dashoffset",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "stroke-linecap": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-linecap",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "stroke-linejoin": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-linejoin",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "stroke-miterlimit": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-miterlimit",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "stroke-opacity": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-opacity",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "stroke-width": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/stroke-width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "tab-size": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/tab-size",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "table-layout": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/table-layout",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-align": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-align",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-align-last": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-align-last",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-anchor": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-anchor",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-autospace": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-autospace",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-box": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-box",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-box-edge": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-box-edge",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-box-trim": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-box-trim",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-combine-upright": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-combine-upright",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-decoration": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-property-value-keyword-no-deprecated",
-                                'Unexpected deprecated keyword "blink" for property "text-decoration" (declaration-property-value-keyword-no-deprecated)',
-                                "  text-decoration: blink;",
-                                "26:20 - 26:25",
-                                `/en-US/docs/Web/CSS/Reference/Properties/text-decoration
-[declaration-property-value-keyword-no-deprecated] Unexpected deprecated keyword "blink" for property "text-decoration" (declaration-property-value-keyword-no-deprecated)
-~~~
-.under {
-  text-decoration: underline red;
-}
-
-.over {
-  text-decoration: wavy overline lime;
-}
-
-.line {
-  text-decoration: line-through;
-}
-
-.plain {
-  text-decoration: none;
-}
-
-.underover {
-  text-decoration: dashed underline overline;
-}
-
-.thick {
-  text-decoration: solid underline purple 4px;
-}
-
-.blink {
-  text-decoration: blink;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-decoration-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration-color",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-decoration-line": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration-line",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-decoration-skip": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration-skip",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-decoration-skip-ink": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration-skip-ink",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-decoration-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -63318,24 +63905,6 @@ polygon:nth-of-type(3) {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-emphasis": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-emphasis",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
                             }
                           ]
                         },
@@ -63360,174 +63929,6 @@ em {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-emphasis-position": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-emphasis-position",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-emphasis-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-emphasis-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-indent": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-indent",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-justify": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-justify",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-property-value-keyword-no-deprecated",
-                                'Expected "distribute" to be "inter-character" (declaration-property-value-keyword-no-deprecated)',
-                                "  text-justify: distribute;",
-                                "19:17 - 19:27",
-                                `/en-US/docs/Web/CSS/Reference/Properties/text-justify
-[declaration-property-value-keyword-no-deprecated] Expected "distribute" to be "inter-character" (declaration-property-value-keyword-no-deprecated)
-~~~
-p {
-  font-size: 1.5em;
-  border: 1px solid black;
-  padding: 10px;
-  width: 95%;
-  margin: 10px auto;
-  text-align: justify;
-}
-
-.none {
-  text-justify: none;
-}
-
-.auto {
-  text-justify: auto;
-}
-
-.dist {
-  text-justify: distribute;
-}
-
-.word {
-  text-justify: inter-word;
-}
-
-.char {
-  text-justify: inter-character;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-orientation": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-orientation",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-overflow": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-overflow",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-rendering": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-rendering",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-shadow": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-shadow",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-size-adjust": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-size-adjust",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-spacing-trim": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-spacing-trim",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         },
@@ -63536,81 +63937,31 @@ p {
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/text-transform",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "HTML code issue",
                               data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-underline-offset": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-underline-offset",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-underline-position": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-underline-position",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-wrap": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-wrap",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-wrap-mode": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-wrap-mode",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "text-wrap-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-wrap-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "timeline-scope": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/timeline-scope",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
+                                "parser-error",
+                                'failed to tokenize "<=>?@{|}~<...", state TEXT failed to consume data or change state.',
+                                "<",
+                                "4:84",
+                                `/en-US/docs/Web/CSS/Reference/Properties/text-transform
+[parser-error] failed to tokenize "<=>?@{|}~<...", state TEXT failed to consume data or change state.
+~~~
+<p>
+  Initial String
+  <strong
+    >0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&()*+,-./:;<=>?@{|}~</strong
+  >
+</p>
+<p>
+  text-transform: full-width
+  <strong
+    ><span
+      >0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&()*+,-./:;<=>?@{|}~</span
+    ></strong
+  >
+</p>
+~~~
+`
                               ]
                             }
                           ]
@@ -63644,48 +63995,6 @@ div {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "touch-action": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/touch-action",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        transform: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transform",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "transform-box": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transform-box",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -63777,12 +64086,6 @@ div {
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
                               ]
                             }
                           ]
@@ -64168,925 +64471,6 @@ div {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        transition: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transition",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "transition-behavior": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transition-behavior",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-duplicate-properties",
-                                'Unexpected duplicate "transition" (declaration-block-no-duplicate-properties)',
-                                "  transition: all 0.25s;",
-                                "2:3 - 2:13",
-                                `/en-US/docs/Web/CSS/Reference/Properties/transition-behavior
-[declaration-block-no-duplicate-properties] Unexpected duplicate "transition" (declaration-block-no-duplicate-properties)
-~~~
-.card {
-  transition: all 0.25s;
-  transition: all 0.25s allow-discrete;
-}
-
-.card.fade-out {
-  opacity: 0;
-  display: none;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "transition-delay": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transition-delay",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "transition-duration": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transition-duration",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "transition-property": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transition-property",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "transition-timing-function": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/transition-timing-function",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        translate: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/translate",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "unicode-bidi": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/unicode-bidi",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "user-modify": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/user-modify",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "user-select": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/user-select",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "vector-effect": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/vector-effect",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "vertical-align": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/vertical-align",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                'top:         <img style="vertical-align: top" src="star.png" alt="star"/>',
-                                "1:18 - 1:45",
-                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
-[no-style-attr] Do not use the style attribute.
-~~~
-<p>
-top:         <img style="vertical-align: top" src="star.png" alt="star"/>
-middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
-bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
-super:       <img style="vertical-align: super" src="star.png" alt="star"/>
-sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
-</p>
-
-<p>
-text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
-text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
-0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
--1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
-20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
--100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
-</p>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                'middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>',
-                                "2:18 - 2:48",
-                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
-[no-style-attr] Do not use the style attribute.
-~~~
-<p>
-top:         <img style="vertical-align: top" src="star.png" alt="star"/>
-middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
-bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
-super:       <img style="vertical-align: super" src="star.png" alt="star"/>
-sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
-</p>
-
-<p>
-text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
-text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
-0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
--1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
-20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
--100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
-</p>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                'bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>',
-                                "3:18 - 3:48",
-                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
-[no-style-attr] Do not use the style attribute.
-~~~
-<p>
-top:         <img style="vertical-align: top" src="star.png" alt="star"/>
-middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
-bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
-super:       <img style="vertical-align: super" src="star.png" alt="star"/>
-sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
-</p>
-
-<p>
-text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
-text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
-0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
--1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
-20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
--100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
-</p>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                'super:       <img style="vertical-align: super" src="star.png" alt="star"/>',
-                                "4:18 - 4:47",
-                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
-[no-style-attr] Do not use the style attribute.
-~~~
-<p>
-top:         <img style="vertical-align: top" src="star.png" alt="star"/>
-middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
-bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
-super:       <img style="vertical-align: super" src="star.png" alt="star"/>
-sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
-</p>
-
-<p>
-text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
-text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
-0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
--1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
-20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
--100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
-</p>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                'sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>',
-                                "5:18 - 5:45",
-                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
-[no-style-attr] Do not use the style attribute.
-~~~
-<p>
-top:         <img style="vertical-align: top" src="star.png" alt="star"/>
-middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
-bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
-super:       <img style="vertical-align: super" src="star.png" alt="star"/>
-sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
-</p>
-
-<p>
-text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
-text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
-0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
--1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
-20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
--100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
-</p>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                'text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>',
-                                "9:18 - 9:50",
-                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
-[no-style-attr] Do not use the style attribute.
-~~~
-<p>
-top:         <img style="vertical-align: top" src="star.png" alt="star"/>
-middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
-bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
-super:       <img style="vertical-align: super" src="star.png" alt="star"/>
-sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
-</p>
-
-<p>
-text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
-text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
-0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
--1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
-20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
--100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
-</p>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                'text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>',
-                                "10:18 - 10:53",
-                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
-[no-style-attr] Do not use the style attribute.
-~~~
-<p>
-top:         <img style="vertical-align: top" src="star.png" alt="star"/>
-middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
-bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
-super:       <img style="vertical-align: super" src="star.png" alt="star"/>
-sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
-</p>
-
-<p>
-text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
-text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
-0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
--1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
-20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
--100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
-</p>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>',
-                                "11:18 - 11:47",
-                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
-[no-style-attr] Do not use the style attribute.
-~~~
-<p>
-top:         <img style="vertical-align: top" src="star.png" alt="star"/>
-middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
-bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
-super:       <img style="vertical-align: super" src="star.png" alt="star"/>
-sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
-</p>
-
-<p>
-text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
-text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
-0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
--1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
-20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
--100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
-</p>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '-1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>',
-                                "12:18 - 12:46",
-                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
-[no-style-attr] Do not use the style attribute.
-~~~
-<p>
-top:         <img style="vertical-align: top" src="star.png" alt="star"/>
-middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
-bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
-super:       <img style="vertical-align: super" src="star.png" alt="star"/>
-sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
-</p>
-
-<p>
-text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
-text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
-0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
--1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
-20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
--100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
-</p>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>',
-                                "13:18 - 13:45",
-                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
-[no-style-attr] Do not use the style attribute.
-~~~
-<p>
-top:         <img style="vertical-align: top" src="star.png" alt="star"/>
-middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
-bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
-super:       <img style="vertical-align: super" src="star.png" alt="star"/>
-sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
-</p>
-
-<p>
-text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
-text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
-0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
--1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
-20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
--100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
-</p>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-style-attr",
-                                "Do not use the style attribute.",
-                                '-100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>',
-                                "14:18 - 14:47",
-                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
-[no-style-attr] Do not use the style attribute.
-~~~
-<p>
-top:         <img style="vertical-align: top" src="star.png" alt="star"/>
-middle:      <img style="vertical-align: middle" src="star.png" alt="star"/>
-bottom:      <img style="vertical-align: bottom" src="star.png" alt="star"/>
-super:       <img style="vertical-align: super" src="star.png" alt="star"/>
-sub:         <img style="vertical-align: sub" src="star.png" alt="star"/>
-</p>
-
-<p>
-text-top:    <img style="vertical-align: text-top" src="star.png" alt="star"/>
-text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/>
-0.2em:       <img style="vertical-align: 0.2em" src="star.png" alt="star"/>
--1em:        <img style="vertical-align: -1em" src="star.png" alt="star"/>
-20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
--100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
-</p>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "view-timeline": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/view-timeline",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-shorthand-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "view-timeline-axis": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/view-timeline-axis",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-block-no-duplicate-properties",
-                                'Unexpected duplicate "view-timeline-axis" (declaration-block-no-duplicate-properties)',
-                                "  view-timeline-axis: x;",
-                                "29:3 - 29:21",
-                                `/en-US/docs/Web/CSS/Reference/Properties/view-timeline-axis
-[declaration-block-no-duplicate-properties] Unexpected duplicate "view-timeline-axis" (declaration-block-no-duplicate-properties)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 50%;
-  height: 400px;
-  margin-top: 30px;
-  display: flex;
-  flex-flow: column wrap;
-  gap: 10px;
-}
-
-p {
-  font-family: "Helvetica", "Arial", sans-serif;
-}
-
-p {
-  font-size: 1.3rem;
-  line-height: 1.4;
-}
-
-.animation {
-  view-timeline-name: --subject-reveal;
-  /* Chromium supports the new x/y syntax */
-  view-timeline-axis: x;
-  /* Firefox still supports the old horizontal/vertical syntax */
-  view-timeline-axis: horizontal;
-
-  animation-name: appear;
-  animation-fill-mode: both;
-  animation-timeline: --subject-reveal;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  to {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-property-value-no-unknown",
-                                'Unexpected unknown value "horizontal" for property "view-timeline-axis" (declaration-property-value-no-unknown)',
-                                "  view-timeline-axis: horizontal;",
-                                "31:23 - 31:33",
-                                `/en-US/docs/Web/CSS/Reference/Properties/view-timeline-axis
-[declaration-property-value-no-unknown] Unexpected unknown value "horizontal" for property "view-timeline-axis" (declaration-property-value-no-unknown)
-~~~
-.subject {
-  width: 300px;
-  height: 200px;
-  margin: 0 auto;
-  background-color: deeppink;
-}
-
-.content {
-  width: 50%;
-  height: 400px;
-  margin-top: 30px;
-  display: flex;
-  flex-flow: column wrap;
-  gap: 10px;
-}
-
-p {
-  font-family: "Helvetica", "Arial", sans-serif;
-}
-
-p {
-  font-size: 1.3rem;
-  line-height: 1.4;
-}
-
-.animation {
-  view-timeline-name: --subject-reveal;
-  /* Chromium supports the new x/y syntax */
-  view-timeline-axis: x;
-  /* Firefox still supports the old horizontal/vertical syntax */
-  view-timeline-axis: horizontal;
-
-  animation-name: appear;
-  animation-fill-mode: both;
-  animation-timeline: --subject-reveal;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
-}
-
-@keyframes appear {
-  from {
-    opacity: 0;
-    transform: scaleX(0);
-  }
-
-  to {
-    opacity: 1;
-    transform: scaleX(1);
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "view-timeline-inset": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/view-timeline-inset",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "view-timeline-name": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/view-timeline-name",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "view-transition-class": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/view-transition-class",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "view-transition-name": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/view-transition-name",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        visibility: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/visibility",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "white-space": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/white-space",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "white-space-collapse": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/white-space-collapse",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        widows: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/widows",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        width: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/width",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "will-change": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/will-change",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "word-break": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/word-break",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-property-value-keyword-no-deprecated",
-                                'Unexpected deprecated keyword "break-word" for property "word-break" (declaration-property-value-keyword-no-deprecated)',
-                                "word-break: break-word;",
-                                "1:13 - 1:23",
-                                `/en-US/docs/Web/CSS/Reference/Properties/word-break
-[declaration-property-value-keyword-no-deprecated] Unexpected deprecated keyword "break-word" for property "word-break" (declaration-property-value-keyword-no-deprecated)
-~~~
-word-break: break-word;
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-property-value-keyword-no-deprecated",
-                                'Unexpected deprecated keyword "break-word" for property "word-break" (declaration-property-value-keyword-no-deprecated)',
-                                "  word-break: break-word;",
-                                "32:15 - 32:25",
-                                `/en-US/docs/Web/CSS/Reference/Properties/word-break
-[declaration-property-value-keyword-no-deprecated] Unexpected deprecated keyword "break-word" for property "word-break" (declaration-property-value-keyword-no-deprecated)
-~~~
-.narrow {
-  padding: 10px;
-  border: 1px solid;
-  width: 500px;
-  margin: 0 auto;
-  font-size: 20px;
-  line-height: 1.5;
-  letter-spacing: 1px;
-}
-
-.normal {
-  word-break: normal;
-}
-
-.breakAll {
-  word-break: break-all;
-}
-
-.keepAll {
-  word-break: keep-all;
-}
-
-.manual {
-  word-break: manual;
-}
-
-.autoPhrase {
-  word-break: auto-phrase;
-}
-
-.breakWord {
-  word-break: break-word;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "word-spacing": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/word-spacing",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "writing-mode": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/writing-mode",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        x: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/x",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        y: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/y",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        "z-index": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/z-index",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
-                            }
-                          ]
-                        },
-                        zoom: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/zoom",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-property"
-                              ]
                             }
                           ]
                         }
@@ -65277,6 +64661,18 @@ word-break: break-word;
                     {
                       message: "Broken link",
                       data: [
+                        "/en-US/docs/Web/CSS/anchor-scope"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/baseline-shift"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
                         "/en-US/docs/Web/CSS/@page/bleed"
                       ]
                     },
@@ -65378,6 +64774,12 @@ word-break: break-word;
                       message: "Broken link",
                       data: [
                         "/en-US/docs/Web/CSS/ex"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/font-width"
                       ]
                     },
                     {
@@ -65614,6 +65016,12 @@ word-break: break-word;
                     {
                       message: "Broken link",
                       data: [
+                        "/en-US/docs/Web/CSS/scroll-initial-target"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
                         "/en-US/docs/Web/CSS/scroll-state"
                       ]
                     },
@@ -65640,6 +65048,12 @@ word-break: break-word;
                       data: [
                         "/en-US/docs/Web/CSS/easing-function",
                         "#steps_easing_function"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/stroke-color"
                       ]
                     },
                     {
@@ -66999,6 +66413,165 @@ section::after {
             },
             html: {
               children: {
+                guides: {
+                  children: {
+                    cheatsheet: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Guides/Cheatsheet",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "void-style",
+                            "Expected self-closing element <br/> instead of omitted end-tag <br>",
+                            ">",
+                            "1:10",
+                            `/en-US/docs/Web/HTML/Guides/Cheatsheet
+[void-style] Expected self-closing element <br/> instead of omitted end-tag <br>
+~~~
+Line 1<br>Line 2~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "void-style",
+                            "Expected self-closing element <wbr/> instead of omitted end-tag <wbr>",
+                            ">",
+                            "2:15",
+                            `/en-US/docs/Web/HTML/Guides/Cheatsheet
+[void-style] Expected self-closing element <wbr/> instead of omitted end-tag <wbr>
+~~~
+<div style="width: 200px">
+  Llanfair<wbr>pwllgwyngyll<wbr>gogerychwyrndrobwllllantysiliogogogoch.
+</div>~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "void-style",
+                            "Expected self-closing element <wbr/> instead of omitted end-tag <wbr>",
+                            ">",
+                            "2:32",
+                            `/en-US/docs/Web/HTML/Guides/Cheatsheet
+[void-style] Expected self-closing element <wbr/> instead of omitted end-tag <wbr>
+~~~
+<div style="width: 200px">
+  Llanfair<wbr>pwllgwyngyll<wbr>gogerychwyrndrobwllllantysiliogogogoch.
+</div>~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "void-style",
+                            "Expected self-closing element <source/> instead of omitted end-tag <source>",
+                            ">",
+                            "2:70",
+                            `/en-US/docs/Web/HTML/Guides/Cheatsheet
+[void-style] Expected self-closing element <source/> instead of omitted end-tag <source>
+~~~
+<audio controls>
+  <source src="/shared-assets/audio/t-rex-roar.mp3" type="audio/mpeg">
+</audio>
+        ~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "void-style",
+                            "Expected self-closing element <hr/> instead of omitted end-tag <hr>",
+                            ">",
+                            "1:10",
+                            `/en-US/docs/Web/HTML/Guides/Cheatsheet
+[void-style] Expected self-closing element <hr/> instead of omitted end-tag <hr>
+~~~
+before<hr>after~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    content_categories: {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/Guides/Content_categories",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<del> element is not permitted as content under <ul>",
+                            "del",
+                            "3:4",
+                            `/en-US/docs/Web/HTML/Guides/Content_categories
+[element-permitted-content] <del> element is not permitted as content under <ul>
+~~~
+<p><del>Shopping</del> <ins>Returns</ins> list</p>
+<ul>
+  <del>
+    <li>Oranges</li>
+    <li>Toilet paper</li>
+  </del>
+  <li>Toothpaste</li>
+</ul>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-parent",
+                            "<li> element requires a <ul>, <ol>, <menu> or <template> element as parent",
+                            "li",
+                            "4:6",
+                            `/en-US/docs/Web/HTML/Guides/Content_categories
+[element-permitted-parent] <li> element requires a <ul>, <ol>, <menu> or <template> element as parent
+~~~
+<p><del>Shopping</del> <ins>Returns</ins> list</p>
+<ul>
+  <del>
+    <li>Oranges</li>
+    <li>Toilet paper</li>
+  </del>
+  <li>Toothpaste</li>
+</ul>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-parent",
+                            "<li> element requires a <ul>, <ol>, <menu> or <template> element as parent",
+                            "li",
+                            "5:6",
+                            `/en-US/docs/Web/HTML/Guides/Content_categories
+[element-permitted-parent] <li> element requires a <ul>, <ol>, <menu> or <template> element as parent
+~~~
+<p><del>Shopping</del> <ins>Returns</ins> list</p>
+<ul>
+  <del>
+    <li>Oranges</li>
+    <li>Toilet paper</li>
+  </del>
+  <li>Toothpaste</li>
+</ul>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 how_to: {
                   children: {
                     add_javascript_to_your_web_page: {
@@ -67008,6 +66581,54 @@ section::after {
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    "author_fast-loading_html_pages": {
+                      children: {},
+                      slug: "/en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<table> element is not permitted as content under <table>",
+                            "table",
+                            "2:4",
+                            `/en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages
+[element-permitted-content] <table> element is not permitted as content under <table>
+~~~
+<table>
+  <table>
+    <table>
+      …
+    </table>
+  </table>
+</table>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<table> element is not permitted as content under <table>",
+                            "table",
+                            "3:6",
+                            `/en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages
+[element-permitted-content] <table> element is not permitted as content under <table>
+~~~
+<table>
+  <table>
+    <table>
+      …
+    </table>
+  </table>
+</table>
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -67034,6 +66655,30 @@ section::after {
                   children: {
                     attributes: {
                       children: {
+                        autocomplete: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/autocomplete",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "valid-autocomplete",
+                                '"street-address" cannot be used on <input type="text">',
+                                "street-address",
+                                "3:31",
+                                `/en-US/docs/Web/HTML/Reference/Attributes/autocomplete
+[valid-autocomplete] "street-address" cannot be used on <input type="text">
+~~~
+<input autocomplete="off" />
+<input autocomplete="on" />
+<input autocomplete="shipping street-address" />
+<input autocomplete="section-user1 billing postal-code" />
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         disabled: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Attributes/disabled",
@@ -67061,6 +66706,246 @@ html.elements.textarea.disabled`
                               ]
                             }
                           ]
+                        },
+                        readonly: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/readonly",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "attribute-boolean-style",
+                                'Attribute "readonly" should omit value',
+                                "readonly",
+                                "2:41",
+                                `/en-US/docs/Web/HTML/Reference/Attributes/readonly
+[attribute-boolean-style] Attribute "readonly" should omit value
+~~~
+<div class="group">
+  <input type="text" value="Some value" readonly="readonly" id="text" />
+  <label for="text">Text box</label>
+</div>
+<div class="group">
+  <input type="date" value="2020-01-01" readonly="readonly" id="date" />
+  <label for="date">Date</label>
+</div>
+<div class="group">
+  <input type="email" value="Some value" readonly="readonly" id="email" />
+  <label for="email">Email</label>
+</div>
+<div class="group">
+  <input type="password" value="Some value" readonly="readonly" id="pwd" />
+  <label for="pwd">Password</label>
+</div>
+<div class="group">
+  <textarea readonly="readonly" id="ta">Some value</textarea>
+  <label for="ta">Message</label>
+</div>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "attribute-boolean-style",
+                                'Attribute "readonly" should omit value',
+                                "readonly",
+                                "6:41",
+                                `/en-US/docs/Web/HTML/Reference/Attributes/readonly
+[attribute-boolean-style] Attribute "readonly" should omit value
+~~~
+<div class="group">
+  <input type="text" value="Some value" readonly="readonly" id="text" />
+  <label for="text">Text box</label>
+</div>
+<div class="group">
+  <input type="date" value="2020-01-01" readonly="readonly" id="date" />
+  <label for="date">Date</label>
+</div>
+<div class="group">
+  <input type="email" value="Some value" readonly="readonly" id="email" />
+  <label for="email">Email</label>
+</div>
+<div class="group">
+  <input type="password" value="Some value" readonly="readonly" id="pwd" />
+  <label for="pwd">Password</label>
+</div>
+<div class="group">
+  <textarea readonly="readonly" id="ta">Some value</textarea>
+  <label for="ta">Message</label>
+</div>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "attribute-boolean-style",
+                                'Attribute "readonly" should omit value',
+                                "readonly",
+                                "10:42",
+                                `/en-US/docs/Web/HTML/Reference/Attributes/readonly
+[attribute-boolean-style] Attribute "readonly" should omit value
+~~~
+<div class="group">
+  <input type="text" value="Some value" readonly="readonly" id="text" />
+  <label for="text">Text box</label>
+</div>
+<div class="group">
+  <input type="date" value="2020-01-01" readonly="readonly" id="date" />
+  <label for="date">Date</label>
+</div>
+<div class="group">
+  <input type="email" value="Some value" readonly="readonly" id="email" />
+  <label for="email">Email</label>
+</div>
+<div class="group">
+  <input type="password" value="Some value" readonly="readonly" id="pwd" />
+  <label for="pwd">Password</label>
+</div>
+<div class="group">
+  <textarea readonly="readonly" id="ta">Some value</textarea>
+  <label for="ta">Message</label>
+</div>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "attribute-boolean-style",
+                                'Attribute "readonly" should omit value',
+                                "readonly",
+                                "14:45",
+                                `/en-US/docs/Web/HTML/Reference/Attributes/readonly
+[attribute-boolean-style] Attribute "readonly" should omit value
+~~~
+<div class="group">
+  <input type="text" value="Some value" readonly="readonly" id="text" />
+  <label for="text">Text box</label>
+</div>
+<div class="group">
+  <input type="date" value="2020-01-01" readonly="readonly" id="date" />
+  <label for="date">Date</label>
+</div>
+<div class="group">
+  <input type="email" value="Some value" readonly="readonly" id="email" />
+  <label for="email">Email</label>
+</div>
+<div class="group">
+  <input type="password" value="Some value" readonly="readonly" id="pwd" />
+  <label for="pwd">Password</label>
+</div>
+<div class="group">
+  <textarea readonly="readonly" id="ta">Some value</textarea>
+  <label for="ta">Message</label>
+</div>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "attribute-boolean-style",
+                                'Attribute "readonly" should omit value',
+                                "readonly",
+                                "18:13",
+                                `/en-US/docs/Web/HTML/Reference/Attributes/readonly
+[attribute-boolean-style] Attribute "readonly" should omit value
+~~~
+<div class="group">
+  <input type="text" value="Some value" readonly="readonly" id="text" />
+  <label for="text">Text box</label>
+</div>
+<div class="group">
+  <input type="date" value="2020-01-01" readonly="readonly" id="date" />
+  <label for="date">Date</label>
+</div>
+<div class="group">
+  <input type="email" value="Some value" readonly="readonly" id="email" />
+  <label for="email">Email</label>
+</div>
+<div class="group">
+  <input type="password" value="Some value" readonly="readonly" id="pwd" />
+  <label for="pwd">Password</label>
+</div>
+<div class="group">
+  <textarea readonly="readonly" id="ta">Some value</textarea>
+  <label for="ta">Message</label>
+</div>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        rel: {
+                          children: {
+                            preload: {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTML/Reference/Attributes/rel/preload",
+                              messages: [
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "attribute-misuse",
+                                    '"src" attribute cannot be used on <source> in this context: requires <audio> or <video> as parent',
+                                    "src",
+                                    "9:13",
+                                    `/en-US/docs/Web/HTML/Reference/Attributes/rel/preload
+[attribute-misuse] "src" attribute cannot be used on <source> in this context: requires <audio> or <video> as parent
+~~~
+<head>
+  <meta charset="utf-8" />
+  <title>Image preload example</title>
+
+  <link rel="preload" href="flower.avif" as="image" type="image/avif" />
+</head>
+<body>
+  <picture>
+    <source src="flower.avif" type="image/avif" />
+    <source src="flower.webp" type="image/webp" />
+    <img src="flower.jpg" />
+  </picture>
+</body>
+~~~
+`
+                                  ]
+                                },
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "attribute-misuse",
+                                    '"src" attribute cannot be used on <source> in this context: requires <audio> or <video> as parent',
+                                    "src",
+                                    "10:13",
+                                    `/en-US/docs/Web/HTML/Reference/Attributes/rel/preload
+[attribute-misuse] "src" attribute cannot be used on <source> in this context: requires <audio> or <video> as parent
+~~~
+<head>
+  <meta charset="utf-8" />
+  <title>Image preload example</title>
+
+  <link rel="preload" href="flower.avif" as="image" type="image/avif" />
+</head>
+<body>
+  <picture>
+    <source src="flower.avif" type="image/avif" />
+    <source src="flower.webp" type="image/webp" />
+    <img src="flower.jpg" />
+  </picture>
+</body>
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            }
+                          }
                         },
                         size: {
                           children: {},
@@ -67292,6 +67177,19 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
+                        button: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.a11yproject.com/posts/how-to-hide-content/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         dialog: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/dialog",
@@ -67636,12 +67534,42 @@ because the nesting selector cannot represent pseudo-elements. */
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/input",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "void-style",
+                                "Expected self-closing element <input/> instead of omitted end-tag <input>",
+                                ">",
+                                "1:62",
+                                `/en-US/docs/Web/HTML/Reference/Elements/input
+[void-style] Expected self-closing element <input/> instead of omitted end-tag <input>
+~~~
+<input id="userId" name="userId" type="hidden" value="abc123">~~~
+`
+                              ]
+                            }
+                          ]
                         },
                         meta: {
                           children: {
                             name: {
                               children: {
+                                robots: {
+                                  children: {},
+                                  slug: "/en-US/docs/Web/HTML/Reference/Elements/meta/name/robots",
+                                  messages: [
+                                    {
+                                      message: "Broken external link",
+                                      data: [
+                                        "https://wiki.whatwg.org/wiki/MetaExtensions",
+                                        500
+                                      ]
+                                    }
+                                  ]
+                                },
                                 viewport: {
                                   children: {},
                                   slug: "/en-US/docs/Web/HTML/Reference/Elements/meta/name/viewport",
@@ -67654,7 +67582,17 @@ because the nesting selector cannot represent pseudo-elements. */
                                     }
                                   ]
                                 }
-                              }
+                              },
+                              slug: "/en-US/docs/Web/HTML/Reference/Elements/meta/name",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://wiki.whatwg.org/wiki/MetaExtensions",
+                                    500
+                                  ]
+                                }
+                              ]
                             }
                           }
                         }
@@ -67758,27 +67696,35 @@ http.headers.Use-As-Dictionary`,
                             }
                           }
                         }
-                      }
-                    },
-                    evolution_of_http: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTTP/Guides/Evolution_of_HTTP",
+                      },
+                      slug: "/en-US/docs/Web/HTTP/Guides/CSP",
                       messages: [
                         {
                           message: "HTML code issue",
                           data: [
-                            "html-has-lang",
-                            "HTML element should have a lang attribute.",
-                            `<html>
-  A text-only web page
-</html>`,
-                            "0:0 - 2:7",
-                            `/en-US/docs/Web/HTTP/Guides/Evolution_of_HTTP
-[html-has-lang] HTML element should have a lang attribute.
+                            "element-required-attributes",
+                            '<img> is missing required "src" attribute',
+                            "img",
+                            "1:2",
+                            `/en-US/docs/Web/HTTP/Guides/CSP
+[element-required-attributes] <img> is missing required "src" attribute
 ~~~
-<html>
-  A text-only web page
-</html>
+<img onmouseover="console.log(\`You've been hacked!\`)" />
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "wcag/h30",
+                            "Anchor link must have a text describing its purpose",
+                            "a",
+                            "1:2",
+                            `/en-US/docs/Web/HTTP/Guides/CSP
+[wcag/h30] Anchor link must have a text describing its purpose
+~~~
+<a href="javascript:console.log('Hello from a javascript: URL')"></a>
 ~~~
 `
                           ]
@@ -67805,6 +67751,23 @@ http.headers.Use-As-Dictionary`,
                       slug: "/en-US/docs/Web/HTTP/Guides/Permissions_Policy",
                       messages: [
                         {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-content",
+                            "<iframe> element is not permitted as content under <iframe>",
+                            "iframe",
+                            "2:4",
+                            `/en-US/docs/Web/HTTP/Guides/Permissions_Policy
+[element-permitted-content] <iframe> element is not permitted as content under <iframe>
+~~~
+<iframe src="https://example.com" allow="geolocation 'src'">
+  <iframe src="https://example.com" allow="geolocation"></iframe
+></iframe>
+~~~
+`
+                          ]
+                        },
+                        {
                           message: "Unexpected BCD keys",
                           data: [
                             "Actual:",
@@ -67821,6 +67784,89 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        "content-security-policy": {
+                          children: {
+                            "connect-src": {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/connect-src",
+                              messages: [
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "attribute-misuse",
+                                    '"ping" attribute cannot be used on <a> in this context: requires "href" attribute to be present',
+                                    "ping",
+                                    "1:4",
+                                    `/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/connect-src
+[attribute-misuse] "ping" attribute cannot be used on <a> in this context: requires "href" attribute to be present
+~~~
+<a ping="https://not-example.com">
+  <script>
+    const response = fetch("https://not-example.com/");
+
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", "https://not-example.com/");
+    xhr.send();
+
+    const ws = new WebSocket("wss://not-example.com/");
+
+    const es = new EventSource("https://not-example.com/");
+
+    navigator.sendBeacon("https://not-example.com/", {
+      /* … */
+    });
+  </script></a
+>
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            },
+                            "script-src": {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src",
+                              messages: [
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "text-content",
+                                    "<button> must have accessible text",
+                                    "button",
+                                    "1:2",
+                                    `/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src
+[text-content] <button> must have accessible text
+~~~
+<button id="btn" onclick="doSomething()"></button>
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            },
+                            "script-src-attr": {
+                              children: {},
+                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src-attr",
+                              messages: [
+                                {
+                                  message: "HTML code issue",
+                                  data: [
+                                    "text-content",
+                                    "<button> must have accessible text",
+                                    "button",
+                                    "1:2",
+                                    `/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src-attr
+[text-content] <button> must have accessible text
+~~~
+<button id="btn" onclick="doSomething()"></button>
+~~~
+`
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -67871,7 +67917,27 @@ http.headers.Use-As-Dictionary`,
                                 }
                               ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "element-permitted-content",
+                                "<iframe> element is not permitted as content under <iframe>",
+                                "iframe",
+                                "2:4",
+                                `/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy
+[element-permitted-content] <iframe> element is not permitted as content under <iframe>
+~~~
+<iframe src="https://example.com" allow="geolocation 'src'">
+  <iframe src="https://example.com" allow="geolocation"></iframe
+></iframe>
+~~~
+`
+                              ]
+                            }
+                          ]
                         },
                         "user-agent": {
                           children: {
@@ -67897,15 +67963,102 @@ http.headers.Use-As-Dictionary`,
               children: {
                 guide: {
                   children: {
-                    using_promises: {
+                    loops_and_iteration: {
                       children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Using_promises",
+                      slug: "/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "HTML code issue",
                           data: [
-                            "https://blog.izs.me/2013/08/designing-apis-for-asynchrony/",
-                            "The operation timed out."
+                            "unrecognized-char-ref",
+                            'Unrecognized character reference "&B"',
+                            "&B",
+                            "6:23",
+                            `/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
+[unrecognized-char-ref] Unrecognized character reference "&B"
+~~~
+<form name="selectForm">
+  <label for="musicTypes"
+    >Choose some music types, then click the button below:</label
+  >
+  <select id="musicTypes" name="musicTypes" multiple>
+    <option selected>R&B</option>
+    <option>Jazz</option>
+    <option>Blues</option>
+    <option>New Age</option>
+    <option>Classical</option>
+    <option>Opera</option>
+  </select>
+  <button id="btn" type="button">How many are selected?</button>
+</form>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    modules: {
+                      children: {},
+                      slug: "/en-US/docs/Web/JavaScript/Guide/Modules",
+                      messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-var",
+                            "Unexpected var, use let or const instead.",
+                            '      var text = "Hello";',
+                            "3:7 - 3:26",
+                            `/en-US/docs/Web/JavaScript/Guide/Modules
+[no-var] Unexpected var, use let or const instead.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <div id="main"></div>
+    <script>
+      // A var statement creates a global variable.
+      var text = "Hello";
+    </script>
+    <script type="module" src="./render.js"></script>
+  </body>
+</html>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "empty-title",
+                            "<title> cannot be empty, must have text content",
+                            "title",
+                            "5:6",
+                            `/en-US/docs/Web/JavaScript/Guide/Modules
+[empty-title] <title> cannot be empty, must have text content
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <div id="main"></div>
+    <script>
+      // A var statement creates a global variable.
+      var text = "Hello";
+    </script>
+    <script type="module" src="./render.js"></script>
+  </body>
+</html>
+~~~
+`
                           ]
                         }
                       ]
@@ -68064,6 +68217,71 @@ http.headers.Use-As-Dictionary`,
                       }
                     }
                   }
+                },
+                tutorials: {
+                  children: {
+                    for_beginners: {
+                      children: {
+                        getting_started: {
+                          children: {},
+                          slug: "/en-US/docs/Web/MathML/Tutorials/For_beginners/Getting_started",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "parser-error",
+                                'failed to tokenize "<!doctype ...", state TEXT failed to consume data or change state.',
+                                "<",
+                                "20:1",
+                                `/en-US/docs/Web/MathML/Tutorials/For_beginners/Getting_started
+[parser-error] failed to tokenize "<!doctype ...", state TEXT failed to consume data or change state.
+~~~
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>My first math page</title>
+  </head>
+  <body>
+    <p>
+      The fraction
+      <math>
+        <mfrac>
+          <mn>1</mn>
+          <mn>3</mn>
+        </mfrac>
+      </math>
+      is not a decimal number.
+    </p>
+  </body>
+</html>
+
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>My first math page</title>
+  </head>
+  <body>
+    <p>
+      The fraction
+      <math display="block">
+        <mfrac>
+          <mn>1</mn>
+          <mn>3</mn>
+        </mfrac>
+      </math>
+      is not a decimal number.
+    </p>
+  </body>
+</html>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
                 }
               }
             },
@@ -68086,7 +68304,90 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "valid-id",
+                            'element id "3gp_src" must begin with a letter',
+                            "3gp_src",
+                            "7:9",
+                            `/en-US/docs/Web/Media/Guides/Audio_and_video_delivery
+[valid-id] element id "3gp_src" must begin with a letter
+~~~
+<video>
+  <source
+    id="mp4_src"
+    src="video.mp4"
+    type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+  <source
+    id="3gp_src"
+    src="video.3gp"
+    type='video/3gpp; codecs="mp4v.20.8, samr"' />
+  <source
+    id="ogg_src"
+    src="video.ogv"
+    type='video/ogv; codecs="theora, vorbis"' />
+</video>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.ffmpeg.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    audio_and_video_manipulation: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_manipulation",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "multiple-labeled-controls",
+                            "<label> is associated with multiple controls",
+                            "label",
+                            "5:2",
+                            `/en-US/docs/Web/Media/Guides/Audio_and_video_manipulation
+[multiple-labeled-controls] <label> is associated with multiple controls
+~~~
+<video id="my-video" controls loop>
+  <source src="/shared-assets/videos/flower.mp4" type="video/mp4" />
+  <source src="/shared-assets/videos/flower.webm" type="video/webm" />
+</video>
+<label for="rate">Playback rate <output id="rate-value">1.0</output></label>
+<input type="range" id="rate" name="rate" min="0" max="4" value="1" step=".2" />
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "multiple-labeled-controls",
+                            "<label> is associated with multiple controls",
+                            "label",
+                            "4:2",
+                            `/en-US/docs/Web/Media/Guides/Audio_and_video_manipulation
+[multiple-labeled-controls] <label> is associated with multiple controls
+~~~
+<video id="my-video" controls loop>
+  <source src="/shared-assets/videos/friday.mp4" type="video/mp4" />
+</video>
+<label for="freq">Filter freq. <output id="freq-value">1.0</output>hz</label>
+<input type="range" id="freq" name="freq" max="20000" value="1000" step="100" />
+~~~
+`
+                          ]
+                        }
+                      ]
                     },
                     formats: {
                       children: {
@@ -68281,6 +68582,13 @@ http.headers.Use-As-Dictionary`,
                     {
                       message: "Unreachable via page",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://wiki.owasp.org/index.php/Secure_Coding_Principles",
+                        500
+                      ]
                     }
                   ]
                 },
@@ -68361,6 +68669,18 @@ html.elements.script.integrity`,
                                 "[None]",
                                 "Expected:",
                                 "svg.elements.animate.attributeName"
+                              ]
+                            }
+                          ]
+                        },
+                        "baseline-shift": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/baseline-shift",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/baseline-shift"
                               ]
                             }
                           ]
@@ -68474,6 +68794,18 @@ svg.elements.feGaussianBlur.edgeMode`
                                 "Expected:",
                                 `svg.elements.animate.from
 svg.elements.animateTransform.from`
+                              ]
+                            }
+                          ]
+                        },
+                        "glyph-orientation-vertical": {
+                          children: {},
+                          slug: "/en-US/docs/Web/SVG/Reference/Attribute/glyph-orientation-vertical",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/glyph-orientation-vertical"
                               ]
                             }
                           ]
@@ -69096,27 +69428,6 @@ svg.elements.use.y`
                                 "Expected:",
                                 `svg.elements.fePointLight.z
 svg.elements.feSpotLight.z`
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
-                },
-                tutorials: {
-                  children: {
-                    svg_from_scratch: {
-                      children: {
-                        getting_started: {
-                          children: {},
-                          slug: "/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Getting_started",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://websniffer.com/",
-                                "The operation timed out."
                               ]
                             }
                           ]
