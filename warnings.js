@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-hygcb7mt.js";
+} from "./chunk-bfvkvn7t.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -323,6 +323,26 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
+                }
+              ]
+            },
+            css_preprocessor: {
+              children: {},
+              slug: "/en-US/docs/Glossary/CSS_preprocessor",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://sass-lang.com/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://stylus-lang.com/",
+                    "The operation timed out."
+                  ]
                 }
               ]
             },
@@ -1267,6 +1287,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            source_map: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Source_map",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://sass-lang.com/",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -1455,6 +1488,13 @@ span {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -2220,14 +2260,7 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://api.emberjs.com/ember/release/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/ember-inspector/",
+                            "https://guides.emberjs.com/release/",
                             "The operation timed out."
                           ]
                         }
@@ -2253,6 +2286,19 @@ ul li {
                         }
                       ]
                     },
+                    introduction: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Introduction",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://cli.vuejs.org/guide/browser-compatibility.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     main_features: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
@@ -2260,27 +2306,20 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://testing-library.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/testing/",
+                            "https://sass-lang.com/",
                             "The operation timed out."
                           ]
                         }
                       ]
                     },
-                    react_getting_started: {
+                    react_components: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_components",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://babeljs.io/",
+                            "https://eslint.org/",
                             "The operation timed out."
                           ]
                         }
@@ -4281,6 +4320,20 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://stylus-lang.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -5139,6 +5192,19 @@ span {
                         }
                       ]
                     },
+                    organizing: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {
                         backgrounds_and_borders: {
@@ -5646,6 +5712,33 @@ button:active {
                 },
                 "client-side_tools": {
                   children: {
+                    introducing_complete_toolchain: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://eslint.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://eslint.org/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     overview: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Overview",
@@ -5653,8 +5746,35 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://babeljs.io/",
+                            "https://eslint.org/",
                             "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mochajs.org/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
+                    },
+                    package_management: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://classic.yarnpkg.com/en/docs/cli/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -11183,6 +11303,19 @@ textarea:focus {
                         }
                       ]
                     },
+                    css: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/CSS",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     multimedia: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
@@ -11231,6 +11364,185 @@ textarea:focus {
                 },
                 "server-side": {
                   children: {
+                    django: {
+                      children: {
+                        web_application_security: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/web_application_security",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "no-inline-event-handlers",
+                                'Do not use inline event handler "onload".',
+                                '  <body onload="document.EvilForm.submit()">',
+                                "1:8 - 1:43",
+                                `/en-US/docs/Learn_web_development/Extensions/Server-side/Django/web_application_security
+[no-inline-event-handlers] Do not use inline event handler "onload".
+~~~
+<html lang="en">
+  <body onload="document.EvilForm.submit()">
+    <form
+      action="http://127.0.0.1:8000/catalog/author/create/"
+      method="post"
+      name="EvilForm">
+      <table>
+        <tr>
+          <th><label for="id_first_name">First name:</label></th>
+          <td>
+            <input
+              id="id_first_name"
+              maxlength="100"
+              name="first_name"
+              type="text"
+              value="Mad"
+              required />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="id_last_name">Last name:</label></th>
+          <td>
+            <input
+              id="id_last_name"
+              maxlength="100"
+              name="last_name"
+              type="text"
+              value="Man"
+              required />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="id_date_of_birth">Date of birth:</label></th>
+          <td>
+            <input id="id_date_of_birth" name="date_of_birth" type="text" />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="id_date_of_death">Died:</label></th>
+          <td>
+            <input
+              id="id_date_of_death"
+              name="date_of_death"
+              type="text"
+              value="12/10/2016" />
+          </td>
+        </tr>
+      </table>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "8:10",
+                                `/en-US/docs/Learn_web_development/Extensions/Server-side/Django/web_application_security
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<html lang="en">
+  <body onload="document.EvilForm.submit()">
+    <form
+      action="http://127.0.0.1:8000/catalog/author/create/"
+      method="post"
+      name="EvilForm">
+      <table>
+        <tr>
+          <th><label for="id_first_name">First name:</label></th>
+          <td>
+            <input
+              id="id_first_name"
+              maxlength="100"
+              name="first_name"
+              type="text"
+              value="Mad"
+              required />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="id_last_name">Last name:</label></th>
+          <td>
+            <input
+              id="id_last_name"
+              maxlength="100"
+              name="last_name"
+              type="text"
+              value="Man"
+              required />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="id_date_of_birth">Date of birth:</label></th>
+          <td>
+            <input id="id_date_of_birth" name="date_of_birth" type="text" />
+          </td>
+        </tr>
+        <tr>
+          <th><label for="id_date_of_death">Died:</label></th>
+          <td>
+            <input
+              id="id_date_of_death"
+              name="date_of_death"
+              type="text"
+              value="12/10/2016" />
+          </td>
+        </tr>
+      </table>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    express_nodejs: {
+                      children: {
+                        development_environment: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/development_environment",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://eslint.org/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        skeleton_website: {
+                          children: {},
+                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://sass-lang.com/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://stylus-lang.com/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
                     first_steps: {
                       children: {
                         web_frameworks: {
@@ -11240,7 +11552,7 @@ textarea:focus {
                             {
                               message: "Broken external link",
                               data: [
-                                "https://itemsapi.com/",
+                                "https://tokio.rs/",
                                 "The operation timed out."
                               ]
                             }
@@ -11785,6 +12097,19 @@ body {
                           ]
                         }
                       ]
+                    },
+                    your_own_automation_environment: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Testing/Your_own_automation_environment",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://mochajs.org/",
+                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                          ]
+                        }
+                      ]
                     }
                   }
                 }
@@ -11803,6 +12128,23 @@ body {
                           data: [
                             "https://affinity.serif.com/en-us/",
                             "https://www.affinity.studio/"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                soft_skills: {
+                  children: {
+                    workflows_and_processes: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -12175,7 +12517,7 @@ padding-left: 20px;
                       message: "Broken external link",
                       data: [
                         "https://phauer.com/2018/code-review-guidelines/",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -12187,6 +12529,19 @@ padding-left: 20px;
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/MDN/Community/Learn_forum"
+                  ]
+                }
+              ]
+            },
+            tutorials: {
+              children: {},
+              slug: "/en-US/docs/MDN/Tutorials",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://addyosmani.com/resources/essentialjsdesignpatterns/book/",
+                    "The operation timed out."
                   ]
                 }
               ]
@@ -12224,6 +12579,20 @@ color: rgb(31 41 59 / 26%);
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://stylus-lang.com/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -12231,6 +12600,52 @@ color: rgb(31 41 59 / 26%);
                 },
                 howto: {
                   children: {
+                    markdown_in_mdn: {
+                      children: {},
+                      slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "prefer-tbody",
+                            "Prefer to wrap <tr> elements in <tbody>",
+                            "tr",
+                            "2:4",
+                            `/en-US/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <th>A heading 1</th>
+    <th>A heading 2</th>
+    <th>A heading 3</th>
+    <th>A heading 4</th>
+    <th>A heading 5</th>
+    <th>A heading 6</th>
+  </tr>
+  <tr>
+    <td>Something shortish</td>
+    <td>
+      Something much longer that really goes into a lot of detail about
+      something, so much so that the table formatting starts to look bad in GFM
+      format.
+    </td>
+    <td>Something shortish</td>
+    <td>
+      Another cell with lots of text in it, that also really goes into a lot of
+      detail about something, so much so that the table formatting starts to
+      look bad in GFM format.
+    </td>
+    <td>Something shortish</td>
+    <td>Something shortish</td>
+  </tr>
+</table>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
                     write_an_api_reference: {
                       children: {
                         information_contained_in_a_webidl_file: {
@@ -14027,6 +14442,41 @@ body {
                               ]
                             }
                           ]
+                        },
+                        using_images: {
+                          children: {},
+                          slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Using_images",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "2:4",
+                                `/en-US/docs/Web/API/Canvas_API/Tutorial/Using_images
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <td><img src="gallery_1.jpg" /></td>
+    <td><img src="gallery_2.jpg" /></td>
+    <td><img src="gallery_3.jpg" /></td>
+    <td><img src="gallery_4.jpg" /></td>
+  </tr>
+  <tr>
+    <td><img src="gallery_5.jpg" /></td>
+    <td><img src="gallery_6.jpg" /></td>
+    <td><img src="gallery_7.jpg" /></td>
+    <td><img src="gallery_8.jpg" /></td>
+  </tr>
+</table>
+<img id="frame" src="canvas_picture_frame.png" width="132" height="150" />
+~~~
+`
+                              ]
+                            }
+                          ]
                         }
                       }
                     }
@@ -14489,6 +14939,195 @@ li:nth-of-type(3n + 1) {
                     }
                   }
                 },
+                datatransfer: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/DataTransfer",
+                  messages: [
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "prefer-tbody",
+                        "Prefer to wrap <tr> elements in <tbody>",
+                        "tr",
+                        "6:8",
+                        `/en-US/docs/Web/API/DataTransfer
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<form>
+  <fieldset>
+    <legend>&lt;input /></legend>
+    <input type="text" />
+    <table class="center">
+      <tr>
+        <th scope="row">Operation type</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">Content type</th>
+        <td></td>
+      </tr>
+    </table>
+  </fieldset>
+  <fieldset>
+    <legend>&lt;textarea /></legend>
+    <textarea></textarea>
+    <table class="center">
+      <tr>
+        <th scope="row">Operation type</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">Content type</th>
+        <td></td>
+      </tr>
+    </table>
+  </fieldset>
+  <fieldset>
+    <legend>&lt;div contenteditable /></legend>
+    <div contenteditable></div>
+    <table class="center">
+      <tr>
+        <th scope="row">Operation type</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">Content type</th>
+        <td></td>
+      </tr>
+    </table>
+  </fieldset>
+  <p class="center">
+    <input type="reset" />
+  </p>
+</form>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "prefer-tbody",
+                        "Prefer to wrap <tr> elements in <tbody>",
+                        "tr",
+                        "20:8",
+                        `/en-US/docs/Web/API/DataTransfer
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<form>
+  <fieldset>
+    <legend>&lt;input /></legend>
+    <input type="text" />
+    <table class="center">
+      <tr>
+        <th scope="row">Operation type</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">Content type</th>
+        <td></td>
+      </tr>
+    </table>
+  </fieldset>
+  <fieldset>
+    <legend>&lt;textarea /></legend>
+    <textarea></textarea>
+    <table class="center">
+      <tr>
+        <th scope="row">Operation type</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">Content type</th>
+        <td></td>
+      </tr>
+    </table>
+  </fieldset>
+  <fieldset>
+    <legend>&lt;div contenteditable /></legend>
+    <div contenteditable></div>
+    <table class="center">
+      <tr>
+        <th scope="row">Operation type</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">Content type</th>
+        <td></td>
+      </tr>
+    </table>
+  </fieldset>
+  <p class="center">
+    <input type="reset" />
+  </p>
+</form>
+~~~
+`
+                      ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "prefer-tbody",
+                        "Prefer to wrap <tr> elements in <tbody>",
+                        "tr",
+                        "34:8",
+                        `/en-US/docs/Web/API/DataTransfer
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<form>
+  <fieldset>
+    <legend>&lt;input /></legend>
+    <input type="text" />
+    <table class="center">
+      <tr>
+        <th scope="row">Operation type</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">Content type</th>
+        <td></td>
+      </tr>
+    </table>
+  </fieldset>
+  <fieldset>
+    <legend>&lt;textarea /></legend>
+    <textarea></textarea>
+    <table class="center">
+      <tr>
+        <th scope="row">Operation type</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">Content type</th>
+        <td></td>
+      </tr>
+    </table>
+  </fieldset>
+  <fieldset>
+    <legend>&lt;div contenteditable /></legend>
+    <div contenteditable></div>
+    <table class="center">
+      <tr>
+        <th scope="row">Operation type</th>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">Content type</th>
+        <td></td>
+      </tr>
+    </table>
+  </fieldset>
+  <p class="center">
+    <input type="reset" />
+  </p>
+</form>
+~~~
+`
+                      ]
+                    }
+                  ]
+                },
                 device_orientation_events: {
                   children: {
                     detecting_device_orientation: {
@@ -14712,8 +15351,195 @@ api.DeviceOrientationEvent`,
                       data: [
                         "/en-US/docs/Web/API/Document_Object_Model/Selection_and_traversal_on_the_DOM_tree"
                       ]
+                    },
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "prefer-tbody",
+                        "Prefer to wrap <tr> elements in <tbody>",
+                        "tr",
+                        "2:4",
+                        `/en-US/docs/Web/API/Document_Object_Model
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table id="t-daddy">
+  <tr id="tbl1">
+    <td id="c1">one</td>
+  </tr>
+  <tr>
+    <td id="c2">two</td>
+  </tr>
+</table>
+~~~
+`
+                      ]
                     }
                   ]
+                },
+                element: {
+                  children: {
+                    ariacolspan: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Element/ariaColSpan",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "prefer-tbody",
+                            "Prefer to wrap <tr> elements in <tbody>",
+                            "tr",
+                            "2:4",
+                            `/en-US/docs/Web/API/Element/ariaColSpan
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <th>Heading 1</th>
+    <th>Heading 2</th>
+    <th>Heading 3</th>
+  </tr>
+  <tr>
+    <td colspan="2" aria-colspan="2" id="spanning-column">Spanning</td>
+    <td>One</td>
+  </tr>
+</table>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    ariarowspan: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Element/ariaRowSpan",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "prefer-tbody",
+                            "Prefer to wrap <tr> elements in <tbody>",
+                            "tr",
+                            "2:4",
+                            `/en-US/docs/Web/API/Element/ariaRowSpan
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <th id="spanning-heading" rowspan="3" aria-rowspan="3">Spanning heading</th>
+    <th>Heading</th>
+  </tr>
+  <tr>
+    <td>One</td>
+  </tr>
+  <tr>
+    <td>Two</td>
+  </tr>
+</table>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                eventtarget: {
+                  children: {
+                    addeventlistener: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/EventTarget/addEventListener",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "prefer-tbody",
+                            "Prefer to wrap <tr> elements in <tbody>",
+                            "tr",
+                            "2:4",
+                            `/en-US/docs/Web/API/EventTarget/addEventListener
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table id="outside">
+  <tr>
+    <td id="t1">one</td>
+  </tr>
+  <tr>
+    <td id="t2">two</td>
+  </tr>
+</table>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "prefer-tbody",
+                            "Prefer to wrap <tr> elements in <tbody>",
+                            "tr",
+                            "2:4",
+                            `/en-US/docs/Web/API/EventTarget/addEventListener
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table id="outside">
+  <tr>
+    <td id="t1">one</td>
+  </tr>
+  <tr>
+    <td id="t2">two</td>
+  </tr>
+</table>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "prefer-tbody",
+                            "Prefer to wrap <tr> elements in <tbody>",
+                            "tr",
+                            "2:4",
+                            `/en-US/docs/Web/API/EventTarget/addEventListener
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table id="outside">
+  <tr>
+    <td id="t1">one</td>
+  </tr>
+  <tr>
+    <td id="t2">two</td>
+  </tr>
+</table>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "prefer-tbody",
+                            "Prefer to wrap <tr> elements in <tbody>",
+                            "tr",
+                            "2:4",
+                            `/en-US/docs/Web/API/EventTarget/addEventListener
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table id="outside">
+  <tr>
+    <td id="t1">one</td>
+  </tr>
+  <tr>
+    <td id="t2">two</td>
+  </tr>
+</table>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 fetchevent: {
                   children: {
@@ -14847,6 +15673,19 @@ api.Document.fullscreen`,
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/History_API/Working_with_the_History_API"
+                      ]
+                    }
+                  ]
+                },
+                houdini_apis: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Houdini_APIs",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://www.smashingmagazine.com/2020/03/practical-overview-css-houdini/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -15878,6 +16717,45 @@ output {
                           ]
                         }
                       ]
+                    },
+                    x: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLImageElement/x",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "prefer-tbody",
+                            "Prefer to wrap <tr> elements in <tbody>",
+                            "tr",
+                            "6:4",
+                            `/en-US/docs/Web/API/HTMLImageElement/x
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table id="userinfo">
+  <colgroup>
+    <col span="2" class="group1" />
+    <col />
+  </colgroup>
+  <tr>
+    <th>UserID</th>
+    <th>Name</th>
+    <th>Avatar</th>
+  </tr>
+  <tr>
+    <td>12345678</td>
+    <td>Johnny Rocket</td>
+    <td>
+      <img src="/shared-assets/images/examples/grapefruit-slice.jpg" />
+    </td>
+  </tr>
+</table>
+<pre id="log"></pre>
+~~~
+`
+                          ]
+                        }
+                      ]
                     }
                   }
                 },
@@ -15959,6 +16837,288 @@ output {
                       ]
                     }
                   }
+                },
+                htmltablecellelement: {
+                  children: {
+                    headers: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLTableCellElement/headers",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "prefer-tbody",
+                            "Prefer to wrap <tr> elements in <tbody>",
+                            "tr",
+                            "2:4",
+                            `/en-US/docs/Web/API/HTMLTableCellElement/headers
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <th rowspan="2" id="h">Homework (ID = h)</th>
+    <th colspan="3" id="e">Exams (ID = e)</th>
+    <th colspan="3" id="p">Projects (ID = p)</th>
+  </tr>
+  <tr>
+    <th id="e1" headers="e">1 (ID = e1)</th>
+    <th id="e2" headers="e">2 (ID = e2)</th>
+    <th id="ef" headers="e">Final (ID = ef)</th>
+    <th id="p1" headers="p">1 (ID = p1)</th>
+    <th id="p2" headers="p">2 (ID = p2)</th>
+    <th id="pf" headers="p">Final (ID = pf)</th>
+  </tr>
+  <tr>
+    <td headers="h">15%</td>
+    <td headers="e e1">15%</td>
+    <td headers="e e2">15%</td>
+    <td headers="e ef">20%</td>
+    <td headers="p p1">10%</td>
+    <td headers="p p2">10%</td>
+    <td headers="p pf">15%</td>
+  </tr>
+</table>
+IDs of headers of the last clicked cell: <output>none</output>.
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    scope: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLTableCellElement/scope",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "prefer-tbody",
+                            "Prefer to wrap <tr> elements in <tbody>",
+                            "tr",
+                            "5:4",
+                            `/en-US/docs/Web/API/HTMLTableCellElement/scope
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <caption>
+    Tallest Dams
+  </caption>
+  <tr>
+    <td></td>
+    <th scope="col">Dam</th>
+    <th scope="col">Country</th>
+    <th scope="col">Height</th>
+  </tr>
+  <tr>
+    <td>1.</td>
+    <th scope="row">Jinping-I Dam</th>
+    <td>China</td>
+    <td>305 m</td>
+  </tr>
+  <tr>
+    <td>2.</td>
+    <th scope="row">Nurek Dam</th>
+    <td>Tajikistan</td>
+    <td>300 m</td>
+  </tr>
+  <tr>
+    <td>3.</td>
+    <th scope="row">Lianghekou Dam</th>
+    <td>China</td>
+    <td>295 m</td>
+  </tr>
+  <tr>
+    <td>4.</td>
+    <th scope="row">Xiowan Dam</th>
+    <td>China</td>
+    <td>292 m</td>
+  </tr>
+  <tr>
+    <td>5.</td>
+    <th scope="row">Balhetan Dam</th>
+    <td>China</td>
+    <td>289 m</td>
+  </tr>
+  <tr>
+    <td>6.</td>
+    <th scope="row">Xiluodu Dam</th>
+    <td>China</td>
+    <td>285.5 m</td>
+  </tr>
+  <tr>
+    <td>7.</td>
+    <th scope="row">Grande-Dixence Dam</th>
+    <td>Switzerland</td>
+    <td>285 m</td>
+  </tr>
+</table>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                htmltableelement: {
+                  children: {
+                    createcaption: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLTableElement/createCaption",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "prefer-tbody",
+                            "Prefer to wrap <tr> elements in <tbody>",
+                            "tr",
+                            "2:4",
+                            `/en-US/docs/Web/API/HTMLTableElement/createCaption
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <td>Cell 1.1</td>
+    <td>Cell 1.2</td>
+    <td>Cell 1.3</td>
+  </tr>
+  <tr>
+    <td>Cell 2.1</td>
+    <td>Cell 2.2</td>
+    <td>Cell 2.3</td>
+  </tr>
+</table>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    deletecaption: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLTableElement/deleteCaption",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "prefer-tbody",
+                            "Prefer to wrap <tr> elements in <tbody>",
+                            "tr",
+                            "5:4",
+                            `/en-US/docs/Web/API/HTMLTableElement/deleteCaption
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <caption>
+    This caption will be deleted!
+  </caption>
+  <tr>
+    <td>Cell 1.1</td>
+    <td>Cell 1.2</td>
+  </tr>
+  <tr>
+    <td>Cell 2.1</td>
+    <td>Cell 2.2</td>
+  </tr>
+</table>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    deleterow: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLTableElement/deleteRow",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "prefer-tbody",
+                            "Prefer to wrap <tr> elements in <tbody>",
+                            "tr",
+                            "2:4",
+                            `/en-US/docs/Web/API/HTMLTableElement/deleteRow
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <td>Cell 1.1</td>
+    <td>Cell 1.2</td>
+    <td>Cell 1.3</td>
+  </tr>
+  <tr>
+    <td>Cell 2.1</td>
+    <td>Cell 2.2</td>
+    <td>Cell 2.3</td>
+  </tr>
+  <tr>
+    <td>Cell 3.1</td>
+    <td>Cell 3.2</td>
+    <td>Cell 3.3</td>
+  </tr>
+</table>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    },
+                    insertrow: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/HTMLTableElement/insertRow",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "prefer-tbody",
+                            "Prefer to wrap <tr> elements in <tbody>",
+                            "tr",
+                            "2:4",
+                            `/en-US/docs/Web/API/HTMLTableElement/insertRow
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table id="my-table">
+  <tr>
+    <td>Row 1</td>
+  </tr>
+  <tr>
+    <td>Row 2</td>
+  </tr>
+  <tr>
+    <td>Row 3</td>
+  </tr>
+</table>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/API/HTMLTableElement",
+                  messages: [
+                    {
+                      message: "HTML code issue",
+                      data: [
+                        "prefer-tbody",
+                        "Prefer to wrap <tr> elements in <tbody>",
+                        "tr",
+                        "2:4",
+                        `/en-US/docs/Web/API/HTMLTableElement
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table id="table0">
+  <tr>
+    <td>Row 0 Cell 0</td>
+    <td>Row 0 Cell 1</td>
+  </tr>
+</table>
+~~~
+`
+                      ]
+                    }
+                  ]
                 },
                 intersection_observer_api: {
                   children: {
@@ -17504,6 +18664,44 @@ html {
                     }
                   }
                 },
+                selection: {
+                  children: {
+                    rangecount: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Selection/rangeCount",
+                      messages: [
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "prefer-tbody",
+                            "Prefer to wrap <tr> elements in <tbody>",
+                            "tr",
+                            "2:4",
+                            `/en-US/docs/Web/API/Selection/rangeCount
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <td>a.1</td>
+    <td>a.2</td>
+  </tr>
+  <tr>
+    <td>b.1</td>
+    <td>b.2</td>
+  </tr>
+  <tr>
+    <td>c.1</td>
+    <td>c.2</td>
+  </tr>
+</table>
+~~~
+`
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 "server-sent_events": {
                   children: {
                     "using_server-sent_events": {
@@ -18383,6 +19581,32 @@ api.Window.sessionStorage`,
                       children: {},
                       slug: "/en-US/docs/Web/API/Window/error_event",
                       messages: [
+                        {
+                          message: "JS code issue",
+                          data: [
+                            "no-eval",
+                            "eval can be harmful.",
+                            "  eval(badCode);",
+                            "11:3 - 11:7",
+                            `/en-US/docs/Web/API/Window/error_event
+[no-eval] eval can be harmful.
+~~~
+const log = document.querySelector(".event-log-contents");
+
+window.addEventListener("error", (event) => {
+  log.textContent = \`\${log.textContent}\${event.type}: \${event.message}\\n\`;
+  console.log(event);
+});
+
+const scriptError = document.querySelector("#script-error");
+scriptError.addEventListener("click", () => {
+  const badCode = "const s;";
+  eval(badCode);
+});
+~~~
+`
+                          ]
+                        },
                         {
                           message: "HTML code issue",
                           data: [
@@ -33412,6 +34636,226 @@ div {
                         {
                           message: "Unreachable via page",
                           data: []
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "prefer-tbody",
+                            "Prefer to wrap <tr> elements in <tbody>",
+                            "tr",
+                            "65:8",
+                            `/en-US/docs/Web/CSS/CSS_colors/Color_mixer
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<div id="color-mixer">
+  <div>color-one</div>
+  <div>mixed-color</div>
+  <div>color-two</div>
+
+  <div id="color-background">
+    <button
+      id="color-one"
+      type="button"
+      class="color-one"
+      aria-label="Open the color one picker dialog"></button>
+    <div id="mixed-color"></div>
+    <button
+      id="color-two"
+      type="button"
+      class="color-two"
+      aria-label="Open the color two picker dialog"></button>
+  </div>
+  <div>
+    <label
+      id="percentage-one-label"
+      for="percentage-one"
+      aria-label="color one percentage">
+      50%
+    </label>
+    <input id="percentage-one" type="range" name="percent1" step="0.01" />
+  </div>
+  <div>
+    <label
+      id="percentage-two-label"
+      for="percentage-two"
+      aria-label="color two percentage">
+      50%
+    </label>
+    <input id="percentage-two" type="range" name="percent2" step="0.01" />
+  </div>
+
+  <label for="color-space">Color space: </label>
+  <select id="color-space">
+    <option value="srgb">sRGB</option>
+    <option value="srgb-linear">sRGB-linear</option>
+    <option value="hsl">HSL</option>
+    <option value="hwb">HWB</option>
+    <option value="lab">Lab</option>
+    <option value="lch">LCH</option>
+    <option value="oklab" selected>Oklab</option>
+    <option value="oklch">OkLCh</option>
+    <option value="xyz-d50">XYZ-D50</option>
+    <option value="xyz-d65">XYZ-D65</option>
+  </select>
+
+  <label id="interpolation-method-label" for="interpolation-method">
+    Hue interpolation method:
+  </label>
+  <select id="interpolation-method">
+    <option value="shorter hue" selected>shorter hue</option>
+    <option value="longer hue">longer hue</option>
+    <option value="increasing hue">increasing hue</option>
+    <option value="decreasing hue">decreasing hue</option>
+  </select>
+  <div id="mix-output-text"></div>
+  <dialog id="picker-dialog">
+    <div>Pick a color</div>
+    <table>
+      <tr>
+        <td><label for="color-text">Enter color:</label></td>
+        <td><input type="text" id="color-text" value="#bada55" /></td>
+      </tr>
+      <tr>
+        <td><label for="color-input">Pick color:</label></td>
+        <td><input type="color" id="color-input" value="#bada55" /></td>
+      </tr>
+      <tr>
+        <td><label for="color-opacity">Select an opacity:</label></td>
+        <td>
+          <input
+            type="range"
+            id="color-opacity"
+            value="1"
+            min="0"
+            max="1"
+            step="0.01" />
+        </td>
+      </tr>
+    </table>
+    <div><button id="picker-ok-button">Ok</button></div>
+  </dialog>
+</div>
+<hr />
+<table id="output-colors">
+  <caption>
+    Mixed color in different formats:
+  </caption>
+  <tbody>
+    <tr id="rgb-function">
+      <th>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/rgb"
+          target="_blank">
+          RGB
+        </a>
+      </th>
+      <td><button id="copy-rgb-button">Copy</button><span></span></td>
+    </tr>
+    <tr id="hex">
+      <th>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/CSS/hex-color"
+          target="_blank"
+          >HEX</a
+        >
+      </th>
+      <td><button id="copy-hex-button">Copy</button><span></span></td>
+    </tr>
+    <tr id="hsl-function">
+      <th>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl"
+          target="_blank">
+          HSL
+        </a>
+      </th>
+      <td><button id="copy-hsl-button">Copy</button><span></span></td>
+    </tr>
+    <tr id="hwb-function">
+      <th>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hwb"
+          target="_blank">
+          HWB
+        </a>
+      </th>
+      <td><button id="copy-hwb-button">Copy</button><span></span></td>
+    </tr>
+    <tr id="color-function">
+      <th>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color"
+          target="_blank">
+          color()
+        </a>
+      </th>
+      <td><button id="copy-color-button">Copy</button><span></span></td>
+    </tr>
+    <tr id="lab-function">
+      <th>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/lab"
+          target="_blank">
+          Lab
+        </a>
+      </th>
+      <td><button id="copy-lab-button">Copy</button><span></span></td>
+    </tr>
+    <tr id="lch-function">
+      <th>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/lch"
+          target="_blank">
+          LCH
+        </a>
+      </th>
+      <td><button id="copy-lch-button">Copy</button><span></span></td>
+    </tr>
+    <tr id="oklab-function">
+      <th>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/oklab"
+          target="_blank">
+          Oklab
+        </a>
+      </th>
+      <td><button id="copy-oklab-button">Copy</button><span></span></td>
+    </tr>
+    <tr id="oklch-function">
+      <th>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/oklch"
+          target="_blank">
+          OkLCh
+        </a>
+      </th>
+      <td><button id="copy-oklch-button">Copy</button><span></span></td>
+    </tr>
+    <tr id="xyz-d50-function">
+      <th>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Glossary/Color_space#xyz-d50"
+          target="_blank">
+          XYZ D50
+        </a>
+      </th>
+      <td><button id="copy-xyz-d50-button">Copy</button><span></span></td>
+    </tr>
+    <tr id="xyz-d65-function">
+      <th>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Glossary/Color_space#xyz"
+          target="_blank">
+          XYZ D65
+        </a>
+      </th>
+      <td><button id="copy-xyz-d65-button">Copy</button><span></span></td>
+    </tr>
+  </tbody>
+</table>
+~~~
+`
+                          ]
                         }
                       ]
                     },
@@ -35567,6 +37011,19 @@ section {
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    flow_layout_and_writing_modes: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_display/Flow_layout_and_writing_modes",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2019/08/writing-modes-layout/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -45451,6 +46908,40 @@ blockquote p::after {
                     }
                   ]
                 },
+                css_nesting: {
+                  children: {
+                    using_css_nesting: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/CSS/CSS_nesting",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://sass-lang.com/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 css_overflow: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/CSS_overflow",
@@ -45630,6 +47121,13 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.smashingmagazine.com/2020/03/practical-overview-css-houdini/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -54476,6 +55974,57 @@ td {
 ~~~
 `
                               ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "2:4",
+                                `/en-US/docs/Web/CSS/Reference/Properties/backface-visibility
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <th><code>backface-visibility: visible;</code></th>
+    <th><code>backface-visibility: hidden;</code></th>
+  </tr>
+  <tr>
+    <td>
+      <div class="container">
+        <div class="cube show-bf">
+          <div class="face front">1</div>
+          <div class="face back">2</div>
+          <div class="face right">3</div>
+          <div class="face left">4</div>
+          <div class="face top">5</div>
+          <div class="face bottom">6</div>
+        </div>
+      </div>
+      <p>
+        Since all faces are partially transparent, the back faces (2, 4, 5) are
+        visible through the front faces (1, 3, 6).
+      </p>
+    </td>
+    <td>
+      <div class="container">
+        <div class="cube hide-bf">
+          <div class="face front">1</div>
+          <div class="face back">2</div>
+          <div class="face right">3</div>
+          <div class="face left">4</div>
+          <div class="face top">5</div>
+          <div class="face bottom">6</div>
+        </div>
+      </div>
+      <p>The three back faces (2, 4, 5) are hidden.</p>
+    </td>
+  </tr>
+</table>
+~~~
+`
+                              ]
                             }
                           ]
                         },
@@ -54522,6 +56071,43 @@ p {
   background-clip: border-area;
   border-color: transparent;
 }
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "background-color": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-color",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "2:4",
+                                `/en-US/docs/Web/CSS/Reference/Properties/background-color
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr id="r1">
+    <td id="c11">11</td>
+    <td id="c12">12</td>
+    <td id="c13">13</td>
+  </tr>
+  <tr id="r2">
+    <td id="c21">21</td>
+    <td id="c22">22</td>
+    <td id="c23">23</td>
+  </tr>
+  <tr id="r3">
+    <td id="c31">31</td>
+    <td id="c32">32</td>
+    <td id="c33">33</td>
+  </tr>
+</table>
 ~~~
 `
                               ]
@@ -54627,6 +56213,118 @@ p {
                             }
                           ]
                         },
+                        "border-bottom-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-bottom-style",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "2:4",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-bottom-style
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <td class="b1">none</td>
+    <td class="b2">hidden</td>
+    <td class="b3">dotted</td>
+    <td class="b4">dashed</td>
+  </tr>
+  <tr>
+    <td class="b5">solid</td>
+    <td class="b6">double</td>
+    <td class="b7">groove</td>
+    <td class="b8">ridge</td>
+  </tr>
+  <tr>
+    <td class="b9">inset</td>
+    <td class="b10">outset</td>
+  </tr>
+</table>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "border-collapse": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-collapse",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "3:6",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-collapse
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<section class="default-example" id="default-example">
+  <table class="transition-all" id="example-element">
+    <tr>
+      <td>Cell 1.1</td>
+      <td>Cell 1.2</td>
+    </tr>
+    <tr>
+      <td>Cell 2.1</td>
+      <td>Cell 2.2</td>
+    </tr>
+    <tr>
+      <td>Cell 3.1</td>
+      <td>Cell 3.2</td>
+    </tr>
+  </table>
+</section>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "border-left-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-left-style",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "2:4",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-left-style
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <td class="b1">none</td>
+    <td class="b2">hidden</td>
+    <td class="b3">dotted</td>
+    <td class="b4">dashed</td>
+  </tr>
+  <tr>
+    <td class="b5">solid</td>
+    <td class="b6">double</td>
+    <td class="b7">groove</td>
+    <td class="b8">ridge</td>
+  </tr>
+  <tr>
+    <td class="b9">inset</td>
+    <td class="b10">outset</td>
+  </tr>
+</table>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         "border-radius": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/border-radius",
@@ -54666,6 +56364,149 @@ div {
   border-radius: 0 20% 50px 30%;
   corner-shape: superellipse(0.5) bevel notch squircle;
 }
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "border-right-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-right-style",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "2:4",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-right-style
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <td class="b1">none</td>
+    <td class="b2">hidden</td>
+    <td class="b3">dotted</td>
+    <td class="b4">dashed</td>
+  </tr>
+  <tr>
+    <td class="b5">solid</td>
+    <td class="b6">double</td>
+    <td class="b7">groove</td>
+    <td class="b8">ridge</td>
+  </tr>
+  <tr>
+    <td class="b9">inset</td>
+    <td class="b10">outset</td>
+  </tr>
+</table>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "border-spacing": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-spacing",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "3:6",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-spacing
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<section class="default-example" id="default-example">
+  <table class="transition-all" id="example-element">
+    <tr>
+      <td>Cell 1.1</td>
+      <td>Cell 1.2</td>
+    </tr>
+    <tr>
+      <td>Cell 2.1</td>
+      <td>Cell 2.2</td>
+    </tr>
+    <tr>
+      <td>Cell 3.1</td>
+      <td>Cell 3.2</td>
+    </tr>
+  </table>
+</section>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "2:4",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-spacing
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+  </tr>
+</table>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "border-top-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-top-style",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "2:4",
+                                `/en-US/docs/Web/CSS/Reference/Properties/border-top-style
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <td class="b1">none</td>
+    <td class="b2">hidden</td>
+    <td class="b3">dotted</td>
+    <td class="b4">dashed</td>
+  </tr>
+  <tr>
+    <td class="b5">solid</td>
+    <td class="b6">double</td>
+    <td class="b7">groove</td>
+    <td class="b8">ridge</td>
+  </tr>
+  <tr>
+    <td class="b9">inset</td>
+    <td class="b10">outset</td>
+  </tr>
+</table>
 ~~~
 `
                               ]
@@ -54757,6 +56598,123 @@ blockquote {
     0 0 0 2px white,
     0.3em 0.3em 1em rgb(200 0 0 / 60%);
 }
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "caption-side": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/caption-side",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "6:6",
+                                `/en-US/docs/Web/CSS/Reference/Properties/caption-side
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<section class="default-example" id="default-example">
+  <table class="transition-all" id="example-element">
+    <caption>
+      Famous animals
+    </caption>
+    <tr>
+      <th>Name</th>
+      <th>Location</th>
+    </tr>
+    <tr>
+      <td>Giraffe</td>
+      <td>Africa</td>
+    </tr>
+    <tr>
+      <td>Penguin</td>
+      <td>Antarctica</td>
+    </tr>
+    <tr>
+      <td>Sloth</td>
+      <td>South America</td>
+    </tr>
+    <tr>
+      <td>Tiger</td>
+      <td>Asia</td>
+    </tr>
+  </table>
+</section>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "5:4",
+                                `/en-US/docs/Web/CSS/Reference/Properties/caption-side
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table class="top">
+  <caption>
+    Caption ABOVE the table
+  </caption>
+  <tr>
+    <td>Some data</td>
+    <td>Some more data</td>
+  </tr>
+</table>
+
+<br />
+
+<table class="bottom">
+  <caption>
+    Caption BELOW the table
+  </caption>
+  <tr>
+    <td>Some data</td>
+    <td>Some more data</td>
+  </tr>
+</table>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "17:4",
+                                `/en-US/docs/Web/CSS/Reference/Properties/caption-side
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table class="top">
+  <caption>
+    Caption ABOVE the table
+  </caption>
+  <tr>
+    <td>Some data</td>
+    <td>Some more data</td>
+  </tr>
+</table>
+
+<br />
+
+<table class="bottom">
+  <caption>
+    Caption BELOW the table
+  </caption>
+  <tr>
+    <td>Some data</td>
+    <td>Some more data</td>
+  </tr>
+</table>
 ~~~
 `
                               ]
@@ -55209,6 +57167,120 @@ i {
                               message: "Missing data",
                               data: [
                                 "CSS info"
+                              ]
+                            }
+                          ]
+                        },
+                        "empty-cells": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/empty-cells",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "3:6",
+                                `/en-US/docs/Web/CSS/Reference/Properties/empty-cells
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<section class="default-example" id="default-example">
+  <table class="transition-all" id="example-element">
+    <tr>
+      <th>Client Name</th>
+      <th>Age</th>
+    </tr>
+    <tr>
+      <td></td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Louise Q.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Owen B.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Stan L.</td>
+      <td>71</td>
+    </tr>
+  </table>
+</section>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "2:4",
+                                `/en-US/docs/Web/CSS/Reference/Properties/empty-cells
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table class="table_1">
+  <tr>
+    <td>Moe</td>
+    <td>Larry</td>
+  </tr>
+  <tr>
+    <td>Curly</td>
+    <td></td>
+  </tr>
+</table>
+<br />
+<table class="table_2">
+  <tr>
+    <td>Moe</td>
+    <td>Larry</td>
+  </tr>
+  <tr>
+    <td>Curly</td>
+    <td></td>
+  </tr>
+</table>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "13:4",
+                                `/en-US/docs/Web/CSS/Reference/Properties/empty-cells
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table class="table_1">
+  <tr>
+    <td>Moe</td>
+    <td>Larry</td>
+  </tr>
+  <tr>
+    <td>Curly</td>
+    <td></td>
+  </tr>
+</table>
+<br />
+<table class="table_2">
+  <tr>
+    <td>Moe</td>
+    <td>Larry</td>
+  </tr>
+  <tr>
+    <td>Curly</td>
+    <td></td>
+  </tr>
+</table>
+~~~
+`
                               ]
                             }
                           ]
@@ -57249,6 +59321,42 @@ rect {
                             }
                           ]
                         },
+                        "font-feature-settings": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-feature-settings",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "5:8",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font-feature-settings
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<section id="default-example">
+  <div id="example-element">
+    <p>Difficult waffles</p>
+    <table>
+      <tr>
+        <td><span class="tabular">0O</span></td>
+      </tr>
+      <tr>
+        <td><span class="tabular">3.14</span></td>
+      </tr>
+      <tr>
+        <td><span class="tabular">2.71</span></td>
+      </tr>
+    </table>
+  </div>
+</section>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         "font-palette": {
                           children: {
                             "palette-mix": {
@@ -57321,6 +59429,83 @@ p {
                               ]
                             }
                           }
+                        },
+                        "font-variant": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "5:8",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font-variant
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<section id="default-example">
+  <div id="example-element">
+    <p>Difficult waffles</p>
+    <table>
+      <tr>
+        <td><span class="tabular">0O</span></td>
+      </tr>
+      <tr>
+        <td><span class="tabular">3.14</span></td>
+      </tr>
+      <tr>
+        <td><span class="tabular">2.71</span></td>
+      </tr>
+    </table>
+  </div>
+</section>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "font-variant-numeric": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-numeric",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "4:8",
+                                `/en-US/docs/Web/CSS/Reference/Properties/font-variant-numeric
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<section id="default-example">
+  <div id="example-element">
+    <table>
+      <tr>
+        <td><span class="tabular">0</span></td>
+      </tr>
+      <tr>
+        <td><span class="tabular">3.54</span></td>
+      </tr>
+      <tr>
+        <td><span class="tabular">1.71</span></td>
+      </tr>
+      <tr>
+        <td><span class="tabular">1st</span></td>
+      </tr>
+      <tr>
+        <td><span class="tabular">3/4</span></td>
+      </tr>
+    </table>
+  </div>
+</section>
+~~~
+`
+                              ]
+                            }
+                          ]
                         },
                         "grid-area": {
                           children: {},
@@ -58371,6 +60556,88 @@ p {
                               message: "Missing data",
                               data: [
                                 "CSS info"
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "attribute-empty-style",
+                                'Attribute "contenteditable" should omit value',
+                                "contenteditable",
+                                "10:9",
+                                `/en-US/docs/Web/CSS/Reference/Properties/interactivity
+[attribute-empty-style] Attribute "contenteditable" should omit value
+~~~
+<p>
+  This paragraph is not
+  <a
+    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/inert"
+    >inert</a
+  >. You should be able to select the text content, search for it using
+  in-browser search features, and focus and click the link. There is a
+  <code>click</code> event handler set on the paragraph that changes the border
+  color for a second when it is clicked anywhere.
+  <span contenteditable="">This sentence has <code>contenteditable</code> set on
+  it, so it is editable</span>.
+</p>
+
+<p class="inert">
+  This paragraph is
+  <a
+    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/inert"
+    >inert</a
+  >. You won't be able to select the text content, search for it using
+  in-browser search features, focus and click the link, or issue
+  <code>click</code> events on it (the border color won't change when it is
+  clicked).
+  <span contenteditable=""
+    >This sentence has <code>contenteditable</code> set on it, but it is not
+    editable because it is inert</span
+  >.
+</p>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "attribute-empty-style",
+                                'Attribute "contenteditable" should omit value',
+                                "contenteditable",
+                                "23:9",
+                                `/en-US/docs/Web/CSS/Reference/Properties/interactivity
+[attribute-empty-style] Attribute "contenteditable" should omit value
+~~~
+<p>
+  This paragraph is not
+  <a
+    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/inert"
+    >inert</a
+  >. You should be able to select the text content, search for it using
+  in-browser search features, and focus and click the link. There is a
+  <code>click</code> event handler set on the paragraph that changes the border
+  color for a second when it is clicked anywhere.
+  <span contenteditable="">This sentence has <code>contenteditable</code> set on
+  it, so it is editable</span>.
+</p>
+
+<p class="inert">
+  This paragraph is
+  <a
+    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/inert"
+    >inert</a
+  >. You won't be able to select the text content, search for it using
+  in-browser search features, focus and click the link, or issue
+  <code>click</code> events on it (the border color won't change when it is
+  clicked).
+  <span contenteditable=""
+    >This sentence has <code>contenteditable</code> set on it, but it is not
+    editable because it is inert</span
+  >.
+</p>
+~~~
+`
                               ]
                             }
                           ]
@@ -63660,6 +65927,137 @@ polygon:nth-of-type(3) {
                             }
                           ]
                         },
+                        "table-layout": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/table-layout",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "3:6",
+                                `/en-US/docs/Web/CSS/Reference/Properties/table-layout
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<section class="default-example" id="default-example">
+  <table class="transition-all" id="example-element">
+    <tr>
+      <th>Name</th>
+      <th>Location</th>
+    </tr>
+    <tr>
+      <td>Lion</td>
+      <td>Africa</td>
+    </tr>
+    <tr>
+      <td>Norwegian Lemming</td>
+      <td>Europe</td>
+    </tr>
+    <tr>
+      <td>Seal</td>
+      <td>Antarctica</td>
+    </tr>
+    <tr>
+      <td>Tiger</td>
+      <td>Asia</td>
+    </tr>
+  </table>
+</section>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "2:4",
+                                `/en-US/docs/Web/CSS/Reference/Properties/table-layout
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <td>Ed</td>
+    <td>Wood</td>
+  </tr>
+  <tr>
+    <td>Albert</td>
+    <td>Schweitzer</td>
+  </tr>
+  <tr>
+    <td>Jane</td>
+    <td>Fonda</td>
+  </tr>
+  <tr>
+    <td>William</td>
+    <td>Shakespeare</td>
+  </tr>
+</table>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "text-box-trim": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-box-trim",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "attribute-empty-style",
+                                'Attribute "contenteditable" should omit value',
+                                "contenteditable",
+                                "25:20",
+                                `/en-US/docs/Web/CSS/Reference/Properties/text-box-trim
+[attribute-empty-style] Attribute "contenteditable" should omit value
+~~~
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+  rel="stylesheet" />
+<section>
+  <div>
+    <label for="box-trim">Select edge(s) to trim:</label>
+    <select id="box-trim">
+      <option>none</option>
+      <option>trim-start</option>
+      <option>trim-end</option>
+      <option selected>trim-both</option>
+    </select>
+  </div>
+  <div>
+    <label for="trim-over">Select trim over (start) value:</label>
+    <select id="trim-over">
+      <option>text</option>
+      <option selected>cap</option>
+      <option>ex</option>
+    </select>
+  </div>
+</section>
+<p class="display" contenteditable="">Holly Golightly</p>
+<section>
+  <div>
+    <label for="trim-under">Select trim under (end) value:</label>
+    <select id="trim-under">
+      <option>text</option>
+      <option selected>alphabetic</option>
+    </select>
+  </div>
+</section>
+<output></output>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         "text-decoration-thickness": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration-thickness",
@@ -63780,6 +66178,99 @@ em {
     ></strong
   >
 </p>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "text-wrap": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-wrap",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "attribute-empty-style",
+                                'Attribute "contenteditable" should omit value',
+                                "contenteditable",
+                                "5:10",
+                                `/en-US/docs/Web/CSS/Reference/Properties/text-wrap
+[attribute-empty-style] Attribute "contenteditable" should omit value
+~~~
+<section class="default-example" id="default-example">
+  <div class="whole-content-wrapper">
+    <p>Edit the text in the box:</p>
+    <div class="transition-all" id="example-element">
+      <p contenteditable="">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aut
+        cum eum id quos est.
+      </p>
+    </div>
+  </div>
+</section>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "text-wrap-mode": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-wrap-mode",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "attribute-empty-style",
+                                'Attribute "contenteditable" should omit value',
+                                "contenteditable",
+                                "5:10",
+                                `/en-US/docs/Web/CSS/Reference/Properties/text-wrap-mode
+[attribute-empty-style] Attribute "contenteditable" should omit value
+~~~
+<section class="default-example" id="default-example">
+  <div class="whole-content-wrapper">
+    <p>Edit the text in the box:</p>
+    <div class="transition-all" id="example-element">
+      <p contenteditable="">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aut
+        cum eum id quos est.
+      </p>
+    </div>
+  </div>
+</section>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "text-wrap-style": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-wrap-style",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "attribute-empty-style",
+                                'Attribute "contenteditable" should omit value',
+                                "contenteditable",
+                                "5:10",
+                                `/en-US/docs/Web/CSS/Reference/Properties/text-wrap-style
+[attribute-empty-style] Attribute "contenteditable" should omit value
+~~~
+<section class="default-example" id="default-example">
+  <div class="whole-content-wrapper">
+    <p>Edit the text in the box:</p>
+    <div class="transition-all" id="example-element">
+      <p contenteditable="">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aut
+        cum eum id quos est.
+      </p>
+    </div>
+  </div>
+</section>
 ~~~
 `
                               ]
@@ -64288,6 +66779,179 @@ div {
   background: rgb(210 0 210 / 70%);
   transform: rotateX(-90deg) translateZ(50px);
 }
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "vertical-align": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/vertical-align",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "2:4",
+                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr class="bottom">
+    <td class="baseline">baseline</td>
+    <td class="top">top</td>
+    <td class="middle">middle</td>
+    <td>bottom</td>
+    <td>Row's style</td>
+    <td>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+      pretium felis eu sem mattis vulputate.
+    </td>
+  </tr>
+</table>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        visibility: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/visibility",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "2:4",
+                                `/en-US/docs/Web/CSS/Reference/Properties/visibility
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <td>1.1</td>
+    <td class="collapse">1.2</td>
+    <td>1.3</td>
+  </tr>
+  <tr class="collapse">
+    <td>2.1</td>
+    <td>2.2</td>
+    <td>2.3</td>
+  </tr>
+  <tr>
+    <td>3.1</td>
+    <td>3.2</td>
+    <td>3.3</td>
+  </tr>
+</table>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "white-space": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/white-space",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "2:4",
+                                `/en-US/docs/Web/CSS/Reference/Properties/white-space
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <td></td>
+    <td>Very long content that splits</td>
+    <td class="nw">Very long content that don't split</td>
+  </tr>
+  <tr>
+    <td class="nw">white-space:</td>
+    <td>normal</td>
+    <td>nowrap</td>
+  </tr>
+</table>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "writing-mode": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/writing-mode",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "5:4",
+                                `/en-US/docs/Web/CSS/Reference/Properties/writing-mode
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <caption>
+    Using multiple writing modes
+  </caption>
+  <tr>
+    <th>Value</th>
+    <th>Vertical script</th>
+    <th>Horizontal (LTR) script</th>
+    <th>Horizontal (RTL) script</th>
+    <th>Mixed script</th>
+  </tr>
+  <tr class="text1">
+    <th>horizontal-tb</th>
+    <td>我家没有电脑。</td>
+    <td>Example text</td>
+    <td>מלל ארוך לדוגמא</td>
+    <td>1994年に至っては</td>
+  </tr>
+  <tr class="text2">
+    <th>vertical-lr</th>
+    <td>我家没有电脑。</td>
+    <td>Example text</td>
+    <td>מלל ארוך לדוגמא</td>
+    <td>1994年に至っては</td>
+  </tr>
+  <tr class="text3">
+    <th>vertical-rl</th>
+    <td>我家没有电脑。</td>
+    <td>Example text</td>
+    <td>מלל ארוך לדוגמא</td>
+    <td>1994年に至っては</td>
+  </tr>
+  <tr class="experimental text4">
+    <th>sideways-lr</th>
+    <td>我家没有电脑。</td>
+    <td>Example text</td>
+    <td>מלל ארוך לדוגמא</td>
+    <td>1994年に至っては</td>
+  </tr>
+  <tr class="experimental text5">
+    <th>sideways-rl</th>
+    <td>我家没有电脑。</td>
+    <td>Example text</td>
+    <td>מלל ארוך לדוגמא</td>
+    <td>1994年に至っては</td>
+  </tr>
+</table>
+<p class="notice">
+  Your browser does not support the <code>sideways-lr</code> or
+  <code>sideways-rl</code> values.
+</p>
 ~~~
 `
                               ]
@@ -66389,115 +69053,8 @@ before<hr>after~~~
                           ]
                         }
                       ]
-                    },
-                    microformats: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Guides/Microformats",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/Main_Page",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-feed",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/value-class-pattern",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-card",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-feed",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/h-entry",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/rel-values",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/Main_Page",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://microformats.org/wiki/search_engines",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/HTML/Guides",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://microformats.org/wiki/Main_Page",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
+                  }
                 },
                 how_to: {
                   children: {
@@ -67104,6 +69661,272 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
+                        caption: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/caption",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "5:4",
+                                `/en-US/docs/Web/HTML/Reference/Elements/caption
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <caption>
+    He-Man and Skeletor facts
+  </caption>
+  <tr>
+    <td></td>
+    <th scope="col" class="heman">He-Man</th>
+    <th scope="col" class="skeletor">Skeletor</th>
+  </tr>
+  <tr>
+    <th scope="row">Role</th>
+    <td>Hero</td>
+    <td>Villain</td>
+  </tr>
+  <tr>
+    <th scope="row">Weapon</th>
+    <td>Power Sword</td>
+    <td>Havoc Staff</td>
+  </tr>
+  <tr>
+    <th scope="row">Dark secret</th>
+    <td>Expert florist</td>
+    <td>Cries at romcoms</td>
+  </tr>
+</table>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "5:4",
+                                `/en-US/docs/Web/HTML/Reference/Elements/caption
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <caption>
+    User login email addresses
+  </caption>
+  <tr>
+    <th>Login</th>
+    <th>Email</th>
+  </tr>
+  <tr>
+    <td>user1</td>
+    <td>user1@example.com</td>
+  </tr>
+  <tr>
+    <td>user2</td>
+    <td>user2@example.com</td>
+  </tr>
+</table>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        col: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/col",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "10:4",
+                                `/en-US/docs/Web/HTML/Reference/Elements/col
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <caption>
+    Superheros and sidekicks
+  </caption>
+  <colgroup>
+    <col />
+    <col span="2" class="batman" />
+    <col span="2" class="flash" />
+  </colgroup>
+  <tr>
+    <td></td>
+    <th scope="col">Batman</th>
+    <th scope="col">Robin</th>
+    <th scope="col">The Flash</th>
+    <th scope="col">Kid Flash</th>
+  </tr>
+  <tr>
+    <th scope="row">Skill</th>
+    <td>Smarts, strong</td>
+    <td>Dex, acrobat</td>
+    <td>Super speed</td>
+    <td>Super speed</td>
+  </tr>
+</table>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "10:4",
+                                `/en-US/docs/Web/HTML/Reference/Elements/col
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <caption>
+    Personal weekly activities
+  </caption>
+  <colgroup>
+    <col />
+    <col span="5" class="weekdays" />
+    <col span="2" class="weekend" />
+  </colgroup>
+  <tr>
+    <th>Period</th>
+    <th>Mon</th>
+    <th>Tue</th>
+    <th>Wed</th>
+    <th>Thu</th>
+    <th>Fri</th>
+    <th>Sat</th>
+    <th>Sun</th>
+  </tr>
+  <tr>
+    <th>a.m.</th>
+    <td>Clean room</td>
+    <td>Football training</td>
+    <td>Dance Course</td>
+    <td>History Class</td>
+    <td>Buy drinks</td>
+    <td>Study hour</td>
+    <td>Free time</td>
+  </tr>
+  <tr>
+    <th>p.m.</th>
+    <td>Yoga</td>
+    <td>Chess Club</td>
+    <td>Meet friends</td>
+    <td>Gymnastics</td>
+    <td>Birthday party</td>
+    <td>Fishing trip</td>
+    <td>Free time</td>
+  </tr>
+</table>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        colgroup: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/colgroup",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "10:4",
+                                `/en-US/docs/Web/HTML/Reference/Elements/colgroup
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <caption>
+    Superheros and sidekicks
+  </caption>
+  <colgroup>
+    <col />
+    <col span="2" class="batman" />
+    <col span="2" class="flash" />
+  </colgroup>
+  <tr>
+    <td></td>
+    <th scope="col">Batman</th>
+    <th scope="col">Robin</th>
+    <th scope="col">The Flash</th>
+    <th scope="col">Kid Flash</th>
+  </tr>
+  <tr>
+    <th scope="row">Skill</th>
+    <td>Smarts, strong</td>
+    <td>Dex, acrobat</td>
+    <td>Super speed</td>
+    <td>Super speed</td>
+  </tr>
+</table>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "7:4",
+                                `/en-US/docs/Web/HTML/Reference/Elements/colgroup
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <caption>
+    Personal weekly activities
+  </caption>
+  <colgroup span="5" class="weekdays"></colgroup>
+  <colgroup span="2" class="weekend"></colgroup>
+  <tr>
+    <th>Mon</th>
+    <th>Tue</th>
+    <th>Wed</th>
+    <th>Thu</th>
+    <th>Fri</th>
+    <th>Sat</th>
+    <th>Sun</th>
+  </tr>
+  <tr>
+    <td>Clean room</td>
+    <td>Football training</td>
+    <td>Dance Course</td>
+    <td>History Class</td>
+    <td>Buy drinks</td>
+    <td>Study hour</td>
+    <td>Free time</td>
+  </tr>
+  <tr>
+    <td>Yoga</td>
+    <td>Chess Club</td>
+    <td>Meet friends</td>
+    <td>Gymnastics</td>
+    <td>Birthday party</td>
+    <td>Fishing trip</td>
+    <td>Free time</td>
+  </tr>
+</table>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
                         dialog: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/dialog",
@@ -67486,6 +70309,192 @@ because the nesting selector cannot represent pseudo-elements. */
                               }
                             }
                           }
+                        },
+                        select: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/select",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "element-permitted-content",
+                                "<hr> element is not permitted as content under <select>",
+                                "hr",
+                                "5:4",
+                                `/en-US/docs/Web/HTML/Reference/Elements/select
+[element-permitted-content] <hr> element is not permitted as content under <select>
+~~~
+<label for="hr-select">Your favorite food</label> <br />
+
+<select name="foods" id="hr-select">
+  <option value="">Choose a food</option>
+  <hr />
+  <optgroup label="Fruit">
+    <option value="apple">Apples</option>
+    <option value="banana">Bananas</option>
+    <option value="cherry">Cherries</option>
+    <option value="damson">Damsons</option>
+  </optgroup>
+  <hr />
+  <optgroup label="Vegetables">
+    <option value="artichoke">Artichokes</option>
+    <option value="broccoli">Broccoli</option>
+    <option value="cabbage">Cabbages</option>
+  </optgroup>
+  <hr />
+  <optgroup label="Meat">
+    <option value="beef">Beef</option>
+    <option value="chicken">Chicken</option>
+    <option value="pork">Pork</option>
+  </optgroup>
+  <hr />
+  <optgroup label="Fish">
+    <option value="cod">Cod</option>
+    <option value="haddock">Haddock</option>
+    <option value="salmon">Salmon</option>
+    <option value="turbot">Turbot</option>
+  </optgroup>
+</select>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "element-permitted-content",
+                                "<hr> element is not permitted as content under <select>",
+                                "hr",
+                                "12:4",
+                                `/en-US/docs/Web/HTML/Reference/Elements/select
+[element-permitted-content] <hr> element is not permitted as content under <select>
+~~~
+<label for="hr-select">Your favorite food</label> <br />
+
+<select name="foods" id="hr-select">
+  <option value="">Choose a food</option>
+  <hr />
+  <optgroup label="Fruit">
+    <option value="apple">Apples</option>
+    <option value="banana">Bananas</option>
+    <option value="cherry">Cherries</option>
+    <option value="damson">Damsons</option>
+  </optgroup>
+  <hr />
+  <optgroup label="Vegetables">
+    <option value="artichoke">Artichokes</option>
+    <option value="broccoli">Broccoli</option>
+    <option value="cabbage">Cabbages</option>
+  </optgroup>
+  <hr />
+  <optgroup label="Meat">
+    <option value="beef">Beef</option>
+    <option value="chicken">Chicken</option>
+    <option value="pork">Pork</option>
+  </optgroup>
+  <hr />
+  <optgroup label="Fish">
+    <option value="cod">Cod</option>
+    <option value="haddock">Haddock</option>
+    <option value="salmon">Salmon</option>
+    <option value="turbot">Turbot</option>
+  </optgroup>
+</select>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "element-permitted-content",
+                                "<hr> element is not permitted as content under <select>",
+                                "hr",
+                                "18:4",
+                                `/en-US/docs/Web/HTML/Reference/Elements/select
+[element-permitted-content] <hr> element is not permitted as content under <select>
+~~~
+<label for="hr-select">Your favorite food</label> <br />
+
+<select name="foods" id="hr-select">
+  <option value="">Choose a food</option>
+  <hr />
+  <optgroup label="Fruit">
+    <option value="apple">Apples</option>
+    <option value="banana">Bananas</option>
+    <option value="cherry">Cherries</option>
+    <option value="damson">Damsons</option>
+  </optgroup>
+  <hr />
+  <optgroup label="Vegetables">
+    <option value="artichoke">Artichokes</option>
+    <option value="broccoli">Broccoli</option>
+    <option value="cabbage">Cabbages</option>
+  </optgroup>
+  <hr />
+  <optgroup label="Meat">
+    <option value="beef">Beef</option>
+    <option value="chicken">Chicken</option>
+    <option value="pork">Pork</option>
+  </optgroup>
+  <hr />
+  <optgroup label="Fish">
+    <option value="cod">Cod</option>
+    <option value="haddock">Haddock</option>
+    <option value="salmon">Salmon</option>
+    <option value="turbot">Turbot</option>
+  </optgroup>
+</select>
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "element-permitted-content",
+                                "<hr> element is not permitted as content under <select>",
+                                "hr",
+                                "24:4",
+                                `/en-US/docs/Web/HTML/Reference/Elements/select
+[element-permitted-content] <hr> element is not permitted as content under <select>
+~~~
+<label for="hr-select">Your favorite food</label> <br />
+
+<select name="foods" id="hr-select">
+  <option value="">Choose a food</option>
+  <hr />
+  <optgroup label="Fruit">
+    <option value="apple">Apples</option>
+    <option value="banana">Bananas</option>
+    <option value="cherry">Cherries</option>
+    <option value="damson">Damsons</option>
+  </optgroup>
+  <hr />
+  <optgroup label="Vegetables">
+    <option value="artichoke">Artichokes</option>
+    <option value="broccoli">Broccoli</option>
+    <option value="cabbage">Cabbages</option>
+  </optgroup>
+  <hr />
+  <optgroup label="Meat">
+    <option value="beef">Beef</option>
+    <option value="chicken">Chicken</option>
+    <option value="pork">Pork</option>
+  </optgroup>
+  <hr />
+  <optgroup label="Fish">
+    <option value="cod">Cod</option>
+    <option value="haddock">Haddock</option>
+    <option value="salmon">Salmon</option>
+    <option value="turbot">Turbot</option>
+  </optgroup>
+</select>
+~~~
+`
+                              ]
+                            }
+                          ]
                         }
                       }
                     }
@@ -67964,13 +70973,6 @@ http.headers.Use-As-Dictionary`,
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     }
@@ -67988,21 +70990,7 @@ http.headers.Use-As-Dictionary`,
                 reference: {
                   children: {
                     classes: {
-                      children: {
-                        public_class_fields: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://babeljs.io/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
+                      children: {}
                     },
                     global_objects: {
                       children: {
@@ -68091,6 +71079,22 @@ http.headers.Use-As-Dictionary`,
                           ]
                         }
                       ]
+                    },
+                    operators: {
+                      children: {
+                        import: {
+                          children: {},
+                          slug: "/en-US/docs/Web/JavaScript/Reference/Operators/import",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/Node.js/vm/Module"
+                              ]
+                            }
+                          ]
+                        }
+                      }
                     },
                     statements: {
                       children: {
@@ -68198,6 +71202,56 @@ http.headers.Use-As-Dictionary`,
     </p>
   </body>
 </html>
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        text_containers: {
+                          children: {},
+                          slug: "/en-US/docs/Web/MathML/Tutorials/For_beginners/Text_containers",
+                          messages: [
+                            {
+                              message: "HTML code issue",
+                              data: [
+                                "prefer-tbody",
+                                "Prefer to wrap <tr> elements in <tbody>",
+                                "tr",
+                                "2:4",
+                                `/en-US/docs/Web/MathML/Tutorials/For_beginners/Text_containers
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <td>Prefix plus</td>
+    <td>
+      <math>
+        <mo>+</mo>
+        <mi>i</mi>
+      </math>
+    </td>
+  </tr>
+  <tr>
+    <td>Infix plus</td>
+    <td>
+      <math>
+        <mi>j</mi>
+        <mo>+</mo>
+        <mi>i</mi>
+      </math>
+    </td>
+  </tr>
+  <tr>
+    <td>Prefix sum</td>
+    <td>
+      <math>
+        <mo>∑</mo>
+        <mi>i</mi>
+      </math>
+    </td>
+  </tr>
+</table>
 ~~~
 `
                               ]
