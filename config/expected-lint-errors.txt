@@ -162,6 +162,33 @@ the last one.
 </div>
 ~~~
 
+/en-US/docs/Learn_web_development/Core/Accessibility/HTML
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <td>Name</td>
+    <td>Age</td>
+    <td>Pronouns</td>
+  </tr>
+  <tr>
+    <td>Gabriel</td>
+    <td>13</td>
+    <td>he/him</td>
+  </tr>
+  <tr>
+    <td>Elva</td>
+    <td>8</td>
+    <td>she/her</td>
+  </tr>
+  <tr>
+    <td>Freida</td>
+    <td>5</td>
+    <td>she/her</td>
+  </tr>
+</table>
+~~~
+
 /en-US/docs/Learn_web_development/Core/Accessibility/Test_your_skills/HTML
 [deprecated] <font> is deprecated: use CSS instead
 ~~~
@@ -1221,48 +1248,30 @@ layers: L.mapquest.tileLayer("map"),
       action="http://127.0.0.1:8000/catalog/author/create/"
       method="post"
       name="EvilForm">
-      <table>
-        <tr>
-          <th><label for="id_first_name">First name:</label></th>
-          <td>
-            <input
-              id="id_first_name"
-              maxlength="100"
-              name="first_name"
-              type="text"
-              value="Mad"
-              required />
-          </td>
-        </tr>
-        <tr>
-          <th><label for="id_last_name">Last name:</label></th>
-          <td>
-            <input
-              id="id_last_name"
-              maxlength="100"
-              name="last_name"
-              type="text"
-              value="Man"
-              required />
-          </td>
-        </tr>
-        <tr>
-          <th><label for="id_date_of_birth">Date of birth:</label></th>
-          <td>
-            <input id="id_date_of_birth" name="date_of_birth" type="text" />
-          </td>
-        </tr>
-        <tr>
-          <th><label for="id_date_of_death">Died:</label></th>
-          <td>
-            <input
-              id="id_date_of_death"
-              name="date_of_death"
-              type="text"
-              value="12/10/2016" />
-          </td>
-        </tr>
-      </table>
+      <label for="id_first_name">First name:</label>
+      <input
+        id="id_first_name"
+        maxlength="100"
+        name="first_name"
+        type="text"
+        value="Mad"
+        required />
+      <label for="id_last_name">Last name:</label>
+      <input
+        id="id_last_name"
+        maxlength="100"
+        name="last_name"
+        type="text"
+        value="Man"
+        required />
+      <label for="id_date_of_birth">Date of birth:</label>
+      <input id="id_date_of_birth" name="date_of_birth" type="text" />
+      <label for="id_date_of_death">Died:</label>
+      <input
+        id="id_date_of_death"
+        name="date_of_death"
+        type="text"
+        value="12/10/2016" />
       <input type="submit" value="Submit" />
     </form>
   </body>
@@ -2652,6 +2661,16 @@ window.requestFileSystem(
 [no-inline-style] Inline style is not allowed
 ~~~
 <img src="image.png" style="border: dashed 2px #333388;" />
+~~~
+
+/en-US/docs/Web/API/HTMLTableElement/tBodies
+[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
+~~~
+<table>
+  <tr>
+    <td>cell one</td>
+  </tr>
+</table>
 ~~~
 
 /en-US/docs/Web/API/IdleDetector/requestPermission_static
@@ -4837,6 +4856,15 @@ p {
     <p>I'm in the shadow DOM.</p>
   </template>
 </article>
+~~~
+
+/en-US/docs/Web/HTML/Reference/Global_attributes/hidden
+[attribute-empty-style] Attribute "hidden" should omit value
+~~~
+<span hidden>I'm hidden</span>
+<span hidden="">I'm also hidden</span>
+<span hidden="hidden">I'm hidden too!</span>
+<span hidden="bananas">I'm equally as hidden!</span>
 ~~~
 
 /en-US/docs/Web/HTML/Reference/Global_attributes/hidden

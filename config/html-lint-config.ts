@@ -5,17 +5,7 @@ export default {
   elements: [
     "html5",
     {
-      // NEW
-      select: {
-        permittedContent: ["button", "option", "optgroup", "hr", "div"],
-      },
-      selectedcontent: {},
-      option: {
-        permittedContent: ["@phrasing"],
-      },
-      button: {
-        permittedContent: ["@phrasing", "selectedcontent"],
-      },
+      // LEGACY
       acronym: {
         phrasing: true,
       },
@@ -102,7 +92,7 @@ export default {
     "attr-pattern": "off",
     "attr-quotes": "error",
     "attribute-boolean-style": "error",
-    "attribute-empty-style": ["off", { style: "empty" }], // TODO
+    "attribute-empty-style": ["error", { style: "omit" }],
     "class-pattern": ["off", { pattern: "kebabcase" }], // TODO
     "doctype-style": ["error", { style: "lowercase" }],
     "element-case": ["error", { style: "camelcase" }],
@@ -114,7 +104,7 @@ export default {
     "no-self-closing": ["off", { ignoreXML: true, ignoreForeign: true }], // TODO
     "no-trailing-whitespace": "error",
     "prefer-button": "off", // TODO
-    "prefer-tbody": "off", // TODO
+    "prefer-tbody": "error",
     "void-style": ["error", { style: "selfclosing" }],
 
     "mdn-graph/no-style-tag": "error",
@@ -230,16 +220,6 @@ export const ignore = [
     ],
     rules: { "prefer-native-element": "off" },
   },
-  // TODO: https://gitlab.com/html-validate/html-validate/-/issues/327
-  {
-    files: ["Web/API/View_Transition_API/Using"],
-    rules: { "attribute-misuse": "off" },
-  },
-  // TODO: https://gitlab.com/html-validate/html-validate/-/issues/326
-  {
-    files: ["Web/API/HTMLTitleElement/text"],
-    rules: { "element-permitted-content": "off" },
-  },
   // TODO: https://gitlab.com/html-validate/html-validate/-/issues/330
   {
     files: [
@@ -255,12 +235,16 @@ export const ignore = [
     ],
     rules: { "meta-refresh": "off" },
   },
-  // TODO: https://gitlab.com/html-validate/html-validate/-/issues/321
   {
     files: [
-      "Learn_web_development/Extensions/Forms/Customizable_select",
-      "Web/HTML/Reference/Elements/selectedcontent",
+      "Learn_web_development/Core/Structuring_content/HTML_table_basics",
+      "Learn_web_development/Core/Structuring_content/Table_accessibility",
+      "Web/HTML/Reference/Elements/table",
+      "Web/HTML/Reference/Elements/tbody",
+      "Web/HTML/Reference/Elements/td",
+      "Web/HTML/Reference/Elements/th",
+      "Web/HTML/Reference/Elements/tr",
     ],
-    rules: { "text-content": "off" },
-  },
+    rules: { "prefer-tbody": "off" },
+  }
 ];

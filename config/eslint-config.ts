@@ -125,14 +125,9 @@ export default [
   },
   {
     files: [
-      // TODO: the playground should use the live sample system
-      "Learn_web_development/Core/Scripting/Arrays/*",
-      "Learn_web_development/Core/Scripting/Loops/*",
-      "Learn_web_development/Core/Scripting/Useful_string_methods/*",
       "Mozilla/Add-ons/WebExtensions/Content_scripts/*",
       "Mozilla/Add-ons/WebExtensions/Content_Security_Policy/*",
       "Web/API/TrustedTypePolicyFactory/emptyScript/*",
-      "Web/API/Window/error_event/*",
       "Web/HTTP/Guides/CSP/*",
       "Web/JavaScript/Reference/Global_Objects/eval/*",
     ],

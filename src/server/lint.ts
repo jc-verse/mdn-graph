@@ -310,12 +310,6 @@ function reportIfUnexpected(
       message === 'Attribute "..." should be camelCase'
     )
       return;
-    // TODO: https://gitlab.com/html-validate/html-validate/-/issues/322
-    if (
-      ruleId === "attribute-boolean-style" &&
-      message === 'Attribute "hidden" should omit value'
-    )
-      return;
     // TODO: https://gitlab.com/html-validate/html-validate/-/issues/328
     if (
       ruleId === "no-redundant-role" &&

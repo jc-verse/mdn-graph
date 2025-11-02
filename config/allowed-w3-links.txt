@@ -72,7 +72,7 @@ xslt	/en-US/docs/Web/XML/XSLT/Guides/Transforming_XML_with_XSLT
 2015/CR-mixed-content-20150317	/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/block-all-mixed-content
 2018/SPSD-html32-20180315	/en-US/docs/Glossary/html_color_codes
 
-  TODO: remove
+  TODO: remove: https://github.com/mdn/content/issues/4025
 presentation-api
 
   TODO: possible to remove these?
