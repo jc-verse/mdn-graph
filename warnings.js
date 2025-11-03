@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-5gfe4n0e.js";
+} from "./chunk-j4rmvgwc.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -916,26 +916,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            itu: {
-              children: {},
-              slug: "/en-US/docs/Glossary/ITU",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.itu.int/",
-                    503
-                  ]
-                },
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.itu.int/en/history/Pages/ITUsHistory.aspx",
-                    503
-                  ]
                 }
               ]
             },
@@ -2269,27 +2249,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/tutorial/part-1/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/controllers/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2300,13 +2259,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2330,13 +2282,6 @@ ul li {
                             "https://sass-lang.com/",
                             "The operation timed out."
                           ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/testing/",
-                            "The operation timed out."
-                          ]
                         }
                       ]
                     },
@@ -2348,19 +2293,19 @@ ul li {
                           message: "Broken external link",
                           data: [
                             "https://eslint.org/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "The operation timed out."
                           ]
                         }
                       ]
                     },
-                    react_getting_started: {
+                    react_resources: {
                       children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
+                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
                       messages: [
                         {
                           message: "Broken external link",
                           data: [
-                            "https://babeljs.io/",
+                            "https://vitest.dev/",
                             "The operation timed out."
                           ]
                         }
@@ -4388,6 +4333,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/guide/essentials/template-refs.html",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -4418,23 +4370,6 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "aria-label-misuse",
-                            '"aria-labelledby" is strictly allowed but is not recommended to be used on this element',
-                            "aria-labelledby",
-                            "1:5",
-                            `/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Vue_styling
-[aria-label-misuse] "aria-labelledby" is strictly allowed but is not recommended to be used on this element
-~~~
-<ul aria-labelledby="list-summary" class="stack-large">
-  …
-</ul>
-~~~
-`
-                          ]
                         }
                       ]
                     }
@@ -4442,19 +4377,6 @@ body {
                 },
                 scripting: {
                   children: {
-                    build_your_own_function: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Build_your_own_function",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iconfinder.com/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     what_is_javascript: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript",
@@ -4568,76 +4490,7 @@ button {
                   }
                 },
                 structuring_content: {
-                  children: {
-                    general_embedding_technologies: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-content",
-                            "<p> element is not permitted as content under <iframe>",
-                            "p",
-                            "7:4",
-                            `/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies
-[element-permitted-content] <p> element is not permitted as content under <iframe>
-~~~
-<iframe
-  src="https://developer.mozilla.org/en-US/docs/Glossary"
-  width="100%"
-  height="500"
-  allowfullscreen
-  sandbox>
-  <p>
-    <a href="/en-US/docs/Glossary">
-      Fallback link for browsers that don't support iframes
-    </a>
-  </p>
-</iframe>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    html_images: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    including_vector_graphics_in_html: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/Including_vector_graphics_in_HTML",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-content",
-                            "<img> element is not permitted as content under <iframe>",
-                            "img",
-                            "2:4",
-                            `/en-US/docs/Learn_web_development/Core/Structuring_content/Including_vector_graphics_in_HTML
-[element-permitted-content] <img> element is not permitted as content under <iframe>
-~~~
-<iframe src="triangle.svg" width="500" height="500" sandbox>
-  <img src="triangle.png" alt="Triangle with three unequal sides" />
-</iframe>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Learn_web_development/Core/Structuring_content",
                   messages: [
                     {
@@ -5759,19 +5612,6 @@ button:active {
                 },
                 "client-side_tools": {
                   children: {
-                    deployment: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Deployment",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vitest.dev/guide/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     introducing_complete_toolchain: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
@@ -5780,20 +5620,27 @@ button:active {
                           message: "Broken external link",
                           data: [
                             "https://eslint.org/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
                             "https://eslint.org/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
                             "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://preset-env.cssdb.org/features/",
                             "The operation timed out."
                           ]
                         }
@@ -5807,13 +5654,13 @@ button:active {
                           message: "Broken external link",
                           data: [
                             "https://eslint.org/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://babeljs.io/",
+                            "https://babeljs.io/docs/plugins",
                             "The operation timed out."
                           ]
                         },
@@ -5822,19 +5669,6 @@ button:active {
                           data: [
                             "https://sass-lang.com/",
                             "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    package_management: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://classic.yarnpkg.com/en/docs/cli/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -11354,7 +11188,7 @@ textarea:focus {
                           message: "Broken external link",
                           data: [
                             "https://www.smashingmagazine.com/2011/11/extensive-guide-web-form-usability/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -11363,19 +11197,6 @@ textarea:focus {
                 },
                 performance: {
                   children: {
-                    css: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/CSS",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2016/12/gpu-animation-doing-it-right/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
                     multimedia: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
@@ -11424,148 +11245,6 @@ textarea:focus {
                 },
                 "server-side": {
                   children: {
-                    django: {
-                      children: {
-                        web_application_security: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Django/web_application_security",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "no-inline-event-handlers",
-                                'Do not use inline event handler "onload".',
-                                '  <body onload="document.EvilForm.submit()">',
-                                "1:8 - 1:43",
-                                `/en-US/docs/Learn_web_development/Extensions/Server-side/Django/web_application_security
-[no-inline-event-handlers] Do not use inline event handler "onload".
-~~~
-<html lang="en">
-  <body onload="document.EvilForm.submit()">
-    <form
-      action="http://127.0.0.1:8000/catalog/author/create/"
-      method="post"
-      name="EvilForm">
-      <table>
-        <tr>
-          <th><label for="id_first_name">First name:</label></th>
-          <td>
-            <input
-              id="id_first_name"
-              maxlength="100"
-              name="first_name"
-              type="text"
-              value="Mad"
-              required />
-          </td>
-        </tr>
-        <tr>
-          <th><label for="id_last_name">Last name:</label></th>
-          <td>
-            <input
-              id="id_last_name"
-              maxlength="100"
-              name="last_name"
-              type="text"
-              value="Man"
-              required />
-          </td>
-        </tr>
-        <tr>
-          <th><label for="id_date_of_birth">Date of birth:</label></th>
-          <td>
-            <input id="id_date_of_birth" name="date_of_birth" type="text" />
-          </td>
-        </tr>
-        <tr>
-          <th><label for="id_date_of_death">Died:</label></th>
-          <td>
-            <input
-              id="id_date_of_death"
-              name="date_of_death"
-              type="text"
-              value="12/10/2016" />
-          </td>
-        </tr>
-      </table>
-      <input type="submit" value="Submit" />
-    </form>
-  </body>
-</html>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "8:10",
-                                `/en-US/docs/Learn_web_development/Extensions/Server-side/Django/web_application_security
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<html lang="en">
-  <body onload="document.EvilForm.submit()">
-    <form
-      action="http://127.0.0.1:8000/catalog/author/create/"
-      method="post"
-      name="EvilForm">
-      <table>
-        <tr>
-          <th><label for="id_first_name">First name:</label></th>
-          <td>
-            <input
-              id="id_first_name"
-              maxlength="100"
-              name="first_name"
-              type="text"
-              value="Mad"
-              required />
-          </td>
-        </tr>
-        <tr>
-          <th><label for="id_last_name">Last name:</label></th>
-          <td>
-            <input
-              id="id_last_name"
-              maxlength="100"
-              name="last_name"
-              type="text"
-              value="Man"
-              required />
-          </td>
-        </tr>
-        <tr>
-          <th><label for="id_date_of_birth">Date of birth:</label></th>
-          <td>
-            <input id="id_date_of_birth" name="date_of_birth" type="text" />
-          </td>
-        </tr>
-        <tr>
-          <th><label for="id_date_of_death">Died:</label></th>
-          <td>
-            <input
-              id="id_date_of_death"
-              name="date_of_death"
-              type="text"
-              value="12/10/2016" />
-          </td>
-        </tr>
-      </table>
-      <input type="submit" value="Submit" />
-    </form>
-  </body>
-</html>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    },
                     express_nodejs: {
                       children: {
                         development_environment: {
@@ -11576,7 +11255,7 @@ textarea:focus {
                               message: "Broken external link",
                               data: [
                                 "https://eslint.org/",
-                                "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -12374,6 +12053,19 @@ padding-left: 20px;
                           data: []
                         }
                       ]
+                    },
+                    how_much_does_it_cost: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://dotclear.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup",
@@ -12474,6 +12166,19 @@ padding-left: 20px;
                       data: []
                     }
                   ]
+                },
+                pull_requests: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Community/Pull_requests",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://phauer.com/2018/code-review-guidelines/",
+                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
+                      ]
+                    }
+                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Community",
@@ -12482,6 +12187,19 @@ padding-left: 20px;
                   message: "No link to child page",
                   data: [
                     "/en-US/docs/MDN/Community/Learn_forum"
+                  ]
+                }
+              ]
+            },
+            tutorials: {
+              children: {},
+              slug: "/en-US/docs/MDN/Tutorials",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://addyosmani.com/resources/essentialjsdesignpatterns/book/",
+                    "unknown certificate verification error"
                   ]
                 }
               ]
@@ -12533,52 +12251,6 @@ color: rgb(31 41 59 / 26%);
                 },
                 howto: {
                   children: {
-                    markdown_in_mdn: {
-                      children: {},
-                      slug: "/en-US/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "prefer-tbody",
-                            "Prefer to wrap <tr> elements in <tbody>",
-                            "tr",
-                            "2:4",
-                            `/en-US/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr>
-    <th>A heading 1</th>
-    <th>A heading 2</th>
-    <th>A heading 3</th>
-    <th>A heading 4</th>
-    <th>A heading 5</th>
-    <th>A heading 6</th>
-  </tr>
-  <tr>
-    <td>Something shortish</td>
-    <td>
-      Something much longer that really goes into a lot of detail about
-      something, so much so that the table formatting starts to look bad in GFM
-      format.
-    </td>
-    <td>Something shortish</td>
-    <td>
-      Another cell with lots of text in it, that also really goes into a lot of
-      detail about something, so much so that the table formatting starts to
-      look bad in GFM format.
-    </td>
-    <td>Something shortish</td>
-    <td>Something shortish</td>
-  </tr>
-</table>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     write_an_api_reference: {
                       children: {
                         information_contained_in_a_webidl_file: {
@@ -12632,6 +12304,19 @@ color: rgb(31 41 59 / 26%);
                       }
                     }
                   }
+                },
+                writing_style_guide: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Writing_guidelines/Writing_style_guide",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://websites.umich.edu/~jlawler/aue.html",
+                        500
+                      ]
+                    }
+                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Writing_guidelines",
@@ -12652,19 +12337,6 @@ color: rgb(31 41 59 / 26%);
               children: {
                 webextensions: {
                   children: {
-                    add_a_button_to_the_toolbar: {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/Add_a_button_to_the_toolbar",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.iconfinder.com/iconsets/bitsies",
-                            502
-                          ]
-                        }
-                      ]
-                    },
                     api: {
                       children: {
                         contentscripts: {
@@ -13501,6 +13173,19 @@ webextensions.manifest.options_ui`,
             },
             firefox: {
               children: {
+                experimental_features: {
+                  children: {},
+                  slug: "/en-US/docs/Mozilla/Firefox/Experimental_features",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://support.mozilla.org/en-US/kb/privacy-preserving-attribution",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 releases: {
                   children: {
                     "2": {
@@ -13797,6 +13482,45 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://asmjs.org/spec/latest/",
                             ""
+                          ]
+                        }
+                      ]
+                    },
+                    "128": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/128",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://support.mozilla.org/en-US/kb/privacy-preserving-attribution",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "136": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/136",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=136",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "144": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/144",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=144",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -14401,41 +14125,6 @@ body {
                               ]
                             }
                           ]
-                        },
-                        using_images: {
-                          children: {},
-                          slug: "/en-US/docs/Web/API/Canvas_API/Tutorial/Using_images",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "2:4",
-                                `/en-US/docs/Web/API/Canvas_API/Tutorial/Using_images
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr>
-    <td><img src="gallery_1.jpg" /></td>
-    <td><img src="gallery_2.jpg" /></td>
-    <td><img src="gallery_3.jpg" /></td>
-    <td><img src="gallery_4.jpg" /></td>
-  </tr>
-  <tr>
-    <td><img src="gallery_5.jpg" /></td>
-    <td><img src="gallery_6.jpg" /></td>
-    <td><img src="gallery_7.jpg" /></td>
-    <td><img src="gallery_8.jpg" /></td>
-  </tr>
-</table>
-<img id="frame" src="canvas_picture_frame.png" width="132" height="150" />
-~~~
-`
-                              ]
-                            }
-                          ]
                         }
                       }
                     }
@@ -14556,48 +14245,6 @@ api.MessagePort`,
                       ]
                     }
                   ]
-                },
-                cspviolationreportbody: {
-                  children: {
-                    blockedurl: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/CSPViolationReportBody/blockedURL",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-content",
-                            "<script> element is not permitted as content under <html>",
-                            "script",
-                            "12:4",
-                            `/en-US/docs/Web/API/CSPViolationReportBody/blockedURL
-[element-permitted-content] <script> element is not permitted as content under <html>
-~~~
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self' 'report-sample' 'unsafe-inline'; trusted-types myPolicy" />
-    <script src="main.js"></script>
-  </head>
-
-  <body></body>
-
-  <script>
-    const policy = trustedTypes.createPolicy("somePolicy", {
-      // Some (insufficient) sanitization code
-      createHTML: (string) => string.replace(/</g, "&lt;"),
-    });
-  </script>
-</html>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 css_object_model: {
                   children: {},
@@ -14898,195 +14545,6 @@ li:nth-of-type(3n + 1) {
                     }
                   }
                 },
-                datatransfer: {
-                  children: {},
-                  slug: "/en-US/docs/Web/API/DataTransfer",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "prefer-tbody",
-                        "Prefer to wrap <tr> elements in <tbody>",
-                        "tr",
-                        "6:8",
-                        `/en-US/docs/Web/API/DataTransfer
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<form>
-  <fieldset>
-    <legend>&lt;input /></legend>
-    <input type="text" />
-    <table class="center">
-      <tr>
-        <th scope="row">Operation type</th>
-        <td></td>
-      </tr>
-      <tr>
-        <th scope="row">Content type</th>
-        <td></td>
-      </tr>
-    </table>
-  </fieldset>
-  <fieldset>
-    <legend>&lt;textarea /></legend>
-    <textarea></textarea>
-    <table class="center">
-      <tr>
-        <th scope="row">Operation type</th>
-        <td></td>
-      </tr>
-      <tr>
-        <th scope="row">Content type</th>
-        <td></td>
-      </tr>
-    </table>
-  </fieldset>
-  <fieldset>
-    <legend>&lt;div contenteditable /></legend>
-    <div contenteditable></div>
-    <table class="center">
-      <tr>
-        <th scope="row">Operation type</th>
-        <td></td>
-      </tr>
-      <tr>
-        <th scope="row">Content type</th>
-        <td></td>
-      </tr>
-    </table>
-  </fieldset>
-  <p class="center">
-    <input type="reset" />
-  </p>
-</form>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "prefer-tbody",
-                        "Prefer to wrap <tr> elements in <tbody>",
-                        "tr",
-                        "20:8",
-                        `/en-US/docs/Web/API/DataTransfer
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<form>
-  <fieldset>
-    <legend>&lt;input /></legend>
-    <input type="text" />
-    <table class="center">
-      <tr>
-        <th scope="row">Operation type</th>
-        <td></td>
-      </tr>
-      <tr>
-        <th scope="row">Content type</th>
-        <td></td>
-      </tr>
-    </table>
-  </fieldset>
-  <fieldset>
-    <legend>&lt;textarea /></legend>
-    <textarea></textarea>
-    <table class="center">
-      <tr>
-        <th scope="row">Operation type</th>
-        <td></td>
-      </tr>
-      <tr>
-        <th scope="row">Content type</th>
-        <td></td>
-      </tr>
-    </table>
-  </fieldset>
-  <fieldset>
-    <legend>&lt;div contenteditable /></legend>
-    <div contenteditable></div>
-    <table class="center">
-      <tr>
-        <th scope="row">Operation type</th>
-        <td></td>
-      </tr>
-      <tr>
-        <th scope="row">Content type</th>
-        <td></td>
-      </tr>
-    </table>
-  </fieldset>
-  <p class="center">
-    <input type="reset" />
-  </p>
-</form>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "prefer-tbody",
-                        "Prefer to wrap <tr> elements in <tbody>",
-                        "tr",
-                        "34:8",
-                        `/en-US/docs/Web/API/DataTransfer
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<form>
-  <fieldset>
-    <legend>&lt;input /></legend>
-    <input type="text" />
-    <table class="center">
-      <tr>
-        <th scope="row">Operation type</th>
-        <td></td>
-      </tr>
-      <tr>
-        <th scope="row">Content type</th>
-        <td></td>
-      </tr>
-    </table>
-  </fieldset>
-  <fieldset>
-    <legend>&lt;textarea /></legend>
-    <textarea></textarea>
-    <table class="center">
-      <tr>
-        <th scope="row">Operation type</th>
-        <td></td>
-      </tr>
-      <tr>
-        <th scope="row">Content type</th>
-        <td></td>
-      </tr>
-    </table>
-  </fieldset>
-  <fieldset>
-    <legend>&lt;div contenteditable /></legend>
-    <div contenteditable></div>
-    <table class="center">
-      <tr>
-        <th scope="row">Operation type</th>
-        <td></td>
-      </tr>
-      <tr>
-        <th scope="row">Content type</th>
-        <td></td>
-      </tr>
-    </table>
-  </fieldset>
-  <p class="center">
-    <input type="reset" />
-  </p>
-</form>
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 device_orientation_events: {
                   children: {
                     detecting_device_orientation: {
@@ -15310,195 +14768,37 @@ api.DeviceOrientationEvent`,
                       data: [
                         "/en-US/docs/Web/API/Document_Object_Model/Selection_and_traversal_on_the_DOM_tree"
                       ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "prefer-tbody",
-                        "Prefer to wrap <tr> elements in <tbody>",
-                        "tr",
-                        "2:4",
-                        `/en-US/docs/Web/API/Document_Object_Model
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table id="t-daddy">
-  <tr id="tbl1">
-    <td id="c1">one</td>
-  </tr>
-  <tr>
-    <td id="c2">two</td>
-  </tr>
-</table>
-~~~
-`
-                      ]
                     }
                   ]
                 },
-                element: {
+                document: {
                   children: {
-                    ariacolspan: {
+                    startviewtransition: {
                       children: {},
-                      slug: "/en-US/docs/Web/API/Element/ariaColSpan",
+                      slug: "/en-US/docs/Web/API/Document/startViewTransition",
                       messages: [
                         {
-                          message: "HTML code issue",
+                          message: "Broken link",
                           data: [
-                            "prefer-tbody",
-                            "Prefer to wrap <tr> elements in <tbody>",
-                            "tr",
-                            "2:4",
-                            `/en-US/docs/Web/API/Element/ariaColSpan
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr>
-    <th>Heading 1</th>
-    <th>Heading 2</th>
-    <th>Heading 3</th>
-  </tr>
-  <tr>
-    <td colspan="2" aria-colspan="2" id="spanning-column">Spanning</td>
-    <td>One</td>
-  </tr>
-</table>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    ariarowspan: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Element/ariaRowSpan",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "prefer-tbody",
-                            "Prefer to wrap <tr> elements in <tbody>",
-                            "tr",
-                            "2:4",
-                            `/en-US/docs/Web/API/Element/ariaRowSpan
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr>
-    <th id="spanning-heading" rowspan="3" aria-rowspan="3">Spanning heading</th>
-    <th>Heading</th>
-  </tr>
-  <tr>
-    <td>One</td>
-  </tr>
-  <tr>
-    <td>Two</td>
-  </tr>
-</table>
-~~~
-`
+                            "/en-US/docs/Web/CSS/:active-view-transition-type"
                           ]
                         }
                       ]
                     }
                   }
                 },
-                eventtarget: {
-                  children: {
-                    addeventlistener: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/EventTarget/addEventListener",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "prefer-tbody",
-                            "Prefer to wrap <tr> elements in <tbody>",
-                            "tr",
-                            "2:4",
-                            `/en-US/docs/Web/API/EventTarget/addEventListener
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table id="outside">
-  <tr>
-    <td id="t1">one</td>
-  </tr>
-  <tr>
-    <td id="t2">two</td>
-  </tr>
-</table>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "prefer-tbody",
-                            "Prefer to wrap <tr> elements in <tbody>",
-                            "tr",
-                            "2:4",
-                            `/en-US/docs/Web/API/EventTarget/addEventListener
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table id="outside">
-  <tr>
-    <td id="t1">one</td>
-  </tr>
-  <tr>
-    <td id="t2">two</td>
-  </tr>
-</table>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "prefer-tbody",
-                            "Prefer to wrap <tr> elements in <tbody>",
-                            "tr",
-                            "2:4",
-                            `/en-US/docs/Web/API/EventTarget/addEventListener
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table id="outside">
-  <tr>
-    <td id="t1">one</td>
-  </tr>
-  <tr>
-    <td id="t2">two</td>
-  </tr>
-</table>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "prefer-tbody",
-                            "Prefer to wrap <tr> elements in <tbody>",
-                            "tr",
-                            "2:4",
-                            `/en-US/docs/Web/API/EventTarget/addEventListener
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table id="outside">
-  <tr>
-    <td id="t1">one</td>
-  </tr>
-  <tr>
-    <td id="t2">two</td>
-  </tr>
-</table>
-~~~
-`
-                          ]
-                        }
+                fedcm_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/FedCM_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://developers.google.com/identity/gsi/web/guides/fedcm-migration",
+                        "The operation timed out."
                       ]
                     }
-                  }
+                  ]
                 },
                 fetchevent: {
                   children: {
@@ -15597,33 +14897,6 @@ api.Document.fullscreen`,
                     }
                   }
                 },
-                geolocation_api: {
-                  children: {
-                    using_the_geolocation_api: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Geolocation_API/Using_the_Geolocation_API",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "wcag/h30",
-                            "Anchor link must have a text describing its purpose",
-                            "a",
-                            "3:2",
-                            `/en-US/docs/Web/API/Geolocation_API/Using_the_Geolocation_API
-[wcag/h30] Anchor link must have a text describing its purpose
-~~~
-<button id="find-me">Show my location</button><br />
-<p id="status"></p>
-<a id="map-link" href="" target="_blank"></a>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 history_api: {
                   children: {},
                   slug: "/en-US/docs/Web/API/History_API",
@@ -15670,756 +14943,6 @@ api.Document.fullscreen`,
                       ]
                     }
                   ]
-                },
-                htmlareaelement: {
-                  children: {
-                    ping: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLAreaElement/ping",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-required-attributes",
-                            '<map> is missing required "name" attribute',
-                            "map",
-                            "1:2",
-                            `/en-US/docs/Web/API/HTMLAreaElement/ping
-[element-required-attributes] <map> is missing required "name" attribute
-~~~
-<map>
-  <area
-    href="https://example.com"
-    ping="https://example-tracking.com https://example-analytics.com"
-    alt="example" />
-</map>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    referrerpolicy: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLAreaElement/referrerPolicy",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "map-id-name",
-                            '"id" and "name" attribute must be the same on <map> elements',
-                            "myMap",
-                            "2:10",
-                            `/en-US/docs/Web/API/HTMLAreaElement/referrerPolicy
-[map-id-name] "id" and "name" attribute must be the same on <map> elements
-~~~
-<img usemap="#mapAround" width="100" height="100" src="/img/logo@2x.png" />
-<map id="myMap" name="mapAround"></map>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmldialogelement: {
-                  children: {
-                    close: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLDialogElement/close",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-content",
-                            "<button> element is not permitted as content under <menu>",
-                            "button",
-                            "17:8",
-                            `/en-US/docs/Web/API/HTMLDialogElement/close
-[element-permitted-content] <button> element is not permitted as content under <menu>
-~~~
-<!-- Simple pop-up dialog box, containing a form -->
-<dialog id="favDialog">
-  <form method="dialog">
-    <button id="close" aria-label="close" formnovalidate>X</button>
-    <section>
-      <p>
-        <label for="favAnimal">Favorite animal:</label>
-        <select id="favAnimal" name="favAnimal">
-          <option></option>
-          <option>Brine shrimp</option>
-          <option>Red panda</option>
-          <option>Spider monkey</option>
-        </select>
-      </p>
-    </section>
-    <menu>
-      <button type="reset">Reset</button>
-      <button type="submit">Confirm</button>
-    </menu>
-  </form>
-</dialog>
-
-<menu>
-  <button id="updateDetails">Update details</button>
-</menu>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-content",
-                            "<button> element is not permitted as content under <menu>",
-                            "button",
-                            "18:8",
-                            `/en-US/docs/Web/API/HTMLDialogElement/close
-[element-permitted-content] <button> element is not permitted as content under <menu>
-~~~
-<!-- Simple pop-up dialog box, containing a form -->
-<dialog id="favDialog">
-  <form method="dialog">
-    <button id="close" aria-label="close" formnovalidate>X</button>
-    <section>
-      <p>
-        <label for="favAnimal">Favorite animal:</label>
-        <select id="favAnimal" name="favAnimal">
-          <option></option>
-          <option>Brine shrimp</option>
-          <option>Red panda</option>
-          <option>Spider monkey</option>
-        </select>
-      </p>
-    </section>
-    <menu>
-      <button type="reset">Reset</button>
-      <button type="submit">Confirm</button>
-    </menu>
-  </form>
-</dialog>
-
-<menu>
-  <button id="updateDetails">Update details</button>
-</menu>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-content",
-                            "<button> element is not permitted as content under <menu>",
-                            "button",
-                            "24:4",
-                            `/en-US/docs/Web/API/HTMLDialogElement/close
-[element-permitted-content] <button> element is not permitted as content under <menu>
-~~~
-<!-- Simple pop-up dialog box, containing a form -->
-<dialog id="favDialog">
-  <form method="dialog">
-    <button id="close" aria-label="close" formnovalidate>X</button>
-    <section>
-      <p>
-        <label for="favAnimal">Favorite animal:</label>
-        <select id="favAnimal" name="favAnimal">
-          <option></option>
-          <option>Brine shrimp</option>
-          <option>Red panda</option>
-          <option>Spider monkey</option>
-        </select>
-      </p>
-    </section>
-    <menu>
-      <button type="reset">Reset</button>
-      <button type="submit">Confirm</button>
-    </menu>
-  </form>
-</dialog>
-
-<menu>
-  <button id="updateDetails">Update details</button>
-</menu>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    requestclose: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLDialogElement/requestClose",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "attribute-misuse",
-                            '"formnovalidate" attribute cannot be used on <button> in this context: "type" attribute must be "submit"',
-                            "formnovalidate",
-                            "4:57",
-                            `/en-US/docs/Web/API/HTMLDialogElement/requestClose
-[attribute-misuse] "formnovalidate" attribute cannot be used on <button> in this context: "type" attribute must be "submit"
-~~~
-<!-- Simple pop-up dialog box, containing a form -->
-<dialog id="favDialog">
-  <form method="dialog">
-    <button type="button" id="close" aria-label="close" formnovalidate>
-      X
-    </button>
-    <section>
-      <p>
-        <label for="favAnimal">Favorite animal:</label>
-        <select id="favAnimal" name="favAnimal">
-          <option></option>
-          <option>Brine shrimp</option>
-          <option>Red panda</option>
-          <option>Spider monkey</option>
-        </select>
-      </p>
-    </section>
-    <menu>
-      <button type="reset">Reset</button>
-      <button type="submit">Confirm</button>
-    </menu>
-  </form>
-</dialog>
-
-<menu>
-  <button id="updateDetails">Update details</button>
-</menu>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-content",
-                            "<button> element is not permitted as content under <menu>",
-                            "button",
-                            "19:8",
-                            `/en-US/docs/Web/API/HTMLDialogElement/requestClose
-[element-permitted-content] <button> element is not permitted as content under <menu>
-~~~
-<!-- Simple pop-up dialog box, containing a form -->
-<dialog id="favDialog">
-  <form method="dialog">
-    <button type="button" id="close" aria-label="close" formnovalidate>
-      X
-    </button>
-    <section>
-      <p>
-        <label for="favAnimal">Favorite animal:</label>
-        <select id="favAnimal" name="favAnimal">
-          <option></option>
-          <option>Brine shrimp</option>
-          <option>Red panda</option>
-          <option>Spider monkey</option>
-        </select>
-      </p>
-    </section>
-    <menu>
-      <button type="reset">Reset</button>
-      <button type="submit">Confirm</button>
-    </menu>
-  </form>
-</dialog>
-
-<menu>
-  <button id="updateDetails">Update details</button>
-</menu>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-content",
-                            "<button> element is not permitted as content under <menu>",
-                            "button",
-                            "20:8",
-                            `/en-US/docs/Web/API/HTMLDialogElement/requestClose
-[element-permitted-content] <button> element is not permitted as content under <menu>
-~~~
-<!-- Simple pop-up dialog box, containing a form -->
-<dialog id="favDialog">
-  <form method="dialog">
-    <button type="button" id="close" aria-label="close" formnovalidate>
-      X
-    </button>
-    <section>
-      <p>
-        <label for="favAnimal">Favorite animal:</label>
-        <select id="favAnimal" name="favAnimal">
-          <option></option>
-          <option>Brine shrimp</option>
-          <option>Red panda</option>
-          <option>Spider monkey</option>
-        </select>
-      </p>
-    </section>
-    <menu>
-      <button type="reset">Reset</button>
-      <button type="submit">Confirm</button>
-    </menu>
-  </form>
-</dialog>
-
-<menu>
-  <button id="updateDetails">Update details</button>
-</menu>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-content",
-                            "<button> element is not permitted as content under <menu>",
-                            "button",
-                            "26:4",
-                            `/en-US/docs/Web/API/HTMLDialogElement/requestClose
-[element-permitted-content] <button> element is not permitted as content under <menu>
-~~~
-<!-- Simple pop-up dialog box, containing a form -->
-<dialog id="favDialog">
-  <form method="dialog">
-    <button type="button" id="close" aria-label="close" formnovalidate>
-      X
-    </button>
-    <section>
-      <p>
-        <label for="favAnimal">Favorite animal:</label>
-        <select id="favAnimal" name="favAnimal">
-          <option></option>
-          <option>Brine shrimp</option>
-          <option>Red panda</option>
-          <option>Spider monkey</option>
-        </select>
-      </p>
-    </section>
-    <menu>
-      <button type="reset">Reset</button>
-      <button type="submit">Confirm</button>
-    </menu>
-  </form>
-</dialog>
-
-<menu>
-  <button id="updateDetails">Update details</button>
-</menu>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    show: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLDialogElement/show",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-content",
-                            "<button> element is not permitted as content under <menu>",
-                            "button",
-                            "16:8",
-                            `/en-US/docs/Web/API/HTMLDialogElement/show
-[element-permitted-content] <button> element is not permitted as content under <menu>
-~~~
-<!-- Simple pop-up dialog box, containing a form -->
-<dialog id="favDialog">
-  <form method="dialog">
-    <section>
-      <p>
-        <label for="favAnimal">Favorite animal:</label>
-        <select id="favAnimal" name="favAnimal">
-          <option></option>
-          <option>Brine shrimp</option>
-          <option>Red panda</option>
-          <option>Spider monkey</option>
-        </select>
-      </p>
-    </section>
-    <menu>
-      <button id="cancel" type="reset">Cancel</button>
-      <button type="submit">Confirm</button>
-    </menu>
-  </form>
-</dialog>
-
-<menu>
-  <button id="updateDetails">Update details</button>
-</menu>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-content",
-                            "<button> element is not permitted as content under <menu>",
-                            "button",
-                            "17:8",
-                            `/en-US/docs/Web/API/HTMLDialogElement/show
-[element-permitted-content] <button> element is not permitted as content under <menu>
-~~~
-<!-- Simple pop-up dialog box, containing a form -->
-<dialog id="favDialog">
-  <form method="dialog">
-    <section>
-      <p>
-        <label for="favAnimal">Favorite animal:</label>
-        <select id="favAnimal" name="favAnimal">
-          <option></option>
-          <option>Brine shrimp</option>
-          <option>Red panda</option>
-          <option>Spider monkey</option>
-        </select>
-      </p>
-    </section>
-    <menu>
-      <button id="cancel" type="reset">Cancel</button>
-      <button type="submit">Confirm</button>
-    </menu>
-  </form>
-</dialog>
-
-<menu>
-  <button id="updateDetails">Update details</button>
-</menu>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-content",
-                            "<button> element is not permitted as content under <menu>",
-                            "button",
-                            "23:4",
-                            `/en-US/docs/Web/API/HTMLDialogElement/show
-[element-permitted-content] <button> element is not permitted as content under <menu>
-~~~
-<!-- Simple pop-up dialog box, containing a form -->
-<dialog id="favDialog">
-  <form method="dialog">
-    <section>
-      <p>
-        <label for="favAnimal">Favorite animal:</label>
-        <select id="favAnimal" name="favAnimal">
-          <option></option>
-          <option>Brine shrimp</option>
-          <option>Red panda</option>
-          <option>Spider monkey</option>
-        </select>
-      </p>
-    </section>
-    <menu>
-      <button id="cancel" type="reset">Cancel</button>
-      <button type="submit">Confirm</button>
-    </menu>
-  </form>
-</dialog>
-
-<menu>
-  <button id="updateDetails">Update details</button>
-</menu>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmlelement: {
-                  children: {
-                    autocorrect: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/autocorrect",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "text-content",
-                            "<button> must have accessible text",
-                            "button",
-                            "1:2",
-                            `/en-US/docs/Web/API/HTMLElement/autocorrect
-[text-content] <button> must have accessible text
-~~~
-<button id="toggleAutocorrect"></button>
-<input type="search" id="searchinput" />
-
-<pre id="log"></pre>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    beforetoggle_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/beforetoggle_event",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "text-content",
-                            "<button> must have accessible text",
-                            "button",
-                            "2:2",
-                            `/en-US/docs/Web/API/HTMLElement/beforetoggle_event
-[text-content] <button> must have accessible text
-~~~
-<button popovertarget="mypopover">Toggle the popover</button>
-<button id="allow_button"></button>
-<div id="mypopover" popover>Popover content</div>
-
-<pre id="log"></pre>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    error_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/error_event",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-required-attributes",
-                            '<img> is missing required "src" attribute',
-                            "img",
-                            "3:4",
-                            `/en-US/docs/Web/API/HTMLElement/error_event
-[element-required-attributes] <img> is missing required "src" attribute
-~~~
-<div class="controls">
-  <button id="img-error" type="button">Generate image error</button>
-  <img class="bad-img" />
-</div>
-
-<div class="event-log">
-  <label for="eventLog">Event log:</label>
-  <textarea
-    readonly
-    class="event-log-contents"
-    rows="8"
-    cols="30"
-    id="eventLog"></textarea>
-</div>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    showpopover: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLElement/showPopover",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-content",
-                            "<hr> element is not permitted as content under <ul>",
-                            "hr",
-                            "10:6",
-                            `/en-US/docs/Web/API/HTMLElement/showPopover
-[element-permitted-content] <hr> element is not permitted as content under <ul>
-~~~
-<div id="mypopover" popover>
-  <h2>Help!</h2>
-
-  <p>You can use the following commands to control the app</p>
-
-  <ul>
-    <li>Press <ins>C</ins> to order cheese</li>
-    <li>Press <ins>T</ins> to order tofu</li>
-    <li>Press <ins>B</ins> to order bacon</li>
-    <hr />
-    <li>Say "Service" to summon the robot waiter to take your order</li>
-    <li>Say "Escape" to engage the ejector seat</li>
-  </ul>
-</div>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmlembedelement: {
-                  children: {
-                    height: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLEmbedElement/height",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-required-attributes",
-                            '<embed> is missing required "src" attribute',
-                            "embed",
-                            "1:2",
-                            `/en-US/docs/Web/API/HTMLEmbedElement/height
-[element-required-attributes] <embed> is missing required "src" attribute
-~~~
-<embed id="el" width="800" height="600" />
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    width: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLEmbedElement/width",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-required-attributes",
-                            '<embed> is missing required "src" attribute',
-                            "embed",
-                            "1:2",
-                            `/en-US/docs/Web/API/HTMLEmbedElement/width
-[element-required-attributes] <embed> is missing required "src" attribute
-~~~
-<embed id="el" width="800" height="600" />
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmlformcontrolscollection: {
-                  children: {
-                    nameditem: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLFormControlsCollection/namedItem",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "form-dup-name",
-                            'Duplicate form control name "my-form-control"',
-                            "my-form-control",
-                            "6:27",
-                            `/en-US/docs/Web/API/HTMLFormControlsCollection/namedItem
-[form-dup-name] Duplicate form control name "my-form-control"
-~~~
-<form>
-  <label for="notes">Notes:</label>
-  <input id="notes" name="my-form-control" type="text" />
-
-  <label for="start">Start date:</label>
-  <input id="start" name="my-form-control" type="date" />
-</form>
-
-<div id="output"></div>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmlformelement: {
-                  children: {
-                    elements: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLFormElement/elements",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-required-attributes",
-                            '<object> is missing required "data" attribute',
-                            "object",
-                            "12:4",
-                            `/en-US/docs/Web/API/HTMLFormElement/elements
-[element-required-attributes] <object> is missing required "data" attribute
-~~~
-<form id="fullForm">
-  This form looks full, but it has no associated form controls
-  <fieldset form="sparseForm">
-    <legend>This is a legend</legend>
-    <label>A form control: <input form="sparseForm" /></label>
-    <label>Another form control: <input form="sparseForm" /></label>
-    <label>Yet another form control: <input form="sparseForm" /></label>
-  </fieldset>
-</form>
-
-<form id="sparseForm">
-  <object>Lone form control</object>
-</form>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmliframeelement: {
-                  children: {
-                    srcdoc: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLIFrameElement/srcdoc",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "deprecated",
-                            "<frame> is deprecated",
-                            "frame",
-                            "1:2",
-                            `/en-US/docs/Web/API/HTMLIFrameElement/srcdoc
-[deprecated] <frame> is deprecated
-~~~
-<frame
-  id="example"
-  srcdoc="<!doctype html><body><p>Hello World!</p></body>"></frame>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-required-attributes",
-                            '<frame> is missing required "title" attribute',
-                            "frame",
-                            "1:2",
-                            `/en-US/docs/Web/API/HTMLIFrameElement/srcdoc
-[element-required-attributes] <frame> is missing required "title" attribute
-~~~
-<frame
-  id="example"
-  srcdoc="<!doctype html><body><p>Hello World!</p></body>"></frame>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
                 },
                 htmlimageelement: {
                   children: {
@@ -16704,367 +15227,6 @@ output {
                       ]
                     }
                   }
-                },
-                htmlmapelement: {
-                  children: {
-                    areas: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLMapElement/areas",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-required-attributes",
-                            '<map> is missing required "name" attribute',
-                            "map",
-                            "1:2",
-                            `/en-US/docs/Web/API/HTMLMapElement/areas
-[element-required-attributes] <map> is missing required "name" attribute
-~~~
-<map id="image-map">
-  <area shape="circle" coords="50,50,35" alt="left arrow" />
-  <area shape="circle" coords="150,50,35" alt="right arrow" />
-</map>
-<img
-  usemap="#image-map"
-  src="left-right-arrow.png"
-  alt="left right arrow image" />
-<output></output>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "area-alt",
-                            '"alt" attribute cannot be used unless the "href" attribute is present',
-                            "alt",
-                            "2:42",
-                            `/en-US/docs/Web/API/HTMLMapElement/areas
-[area-alt] "alt" attribute cannot be used unless the "href" attribute is present
-~~~
-<map id="image-map">
-  <area shape="circle" coords="50,50,35" alt="left arrow" />
-  <area shape="circle" coords="150,50,35" alt="right arrow" />
-</map>
-<img
-  usemap="#image-map"
-  src="left-right-arrow.png"
-  alt="left right arrow image" />
-<output></output>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "area-alt",
-                            '"alt" attribute cannot be used unless the "href" attribute is present',
-                            "alt",
-                            "3:43",
-                            `/en-US/docs/Web/API/HTMLMapElement/areas
-[area-alt] "alt" attribute cannot be used unless the "href" attribute is present
-~~~
-<map id="image-map">
-  <area shape="circle" coords="50,50,35" alt="left arrow" />
-  <area shape="circle" coords="150,50,35" alt="right arrow" />
-</map>
-<img
-  usemap="#image-map"
-  src="left-right-arrow.png"
-  alt="left right arrow image" />
-<output></output>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmltablecellelement: {
-                  children: {
-                    headers: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLTableCellElement/headers",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "prefer-tbody",
-                            "Prefer to wrap <tr> elements in <tbody>",
-                            "tr",
-                            "2:4",
-                            `/en-US/docs/Web/API/HTMLTableCellElement/headers
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr>
-    <th rowspan="2" id="h">Homework (ID = h)</th>
-    <th colspan="3" id="e">Exams (ID = e)</th>
-    <th colspan="3" id="p">Projects (ID = p)</th>
-  </tr>
-  <tr>
-    <th id="e1" headers="e">1 (ID = e1)</th>
-    <th id="e2" headers="e">2 (ID = e2)</th>
-    <th id="ef" headers="e">Final (ID = ef)</th>
-    <th id="p1" headers="p">1 (ID = p1)</th>
-    <th id="p2" headers="p">2 (ID = p2)</th>
-    <th id="pf" headers="p">Final (ID = pf)</th>
-  </tr>
-  <tr>
-    <td headers="h">15%</td>
-    <td headers="e e1">15%</td>
-    <td headers="e e2">15%</td>
-    <td headers="e ef">20%</td>
-    <td headers="p p1">10%</td>
-    <td headers="p p2">10%</td>
-    <td headers="p pf">15%</td>
-  </tr>
-</table>
-IDs of headers of the last clicked cell: <output>none</output>.
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    scope: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLTableCellElement/scope",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "prefer-tbody",
-                            "Prefer to wrap <tr> elements in <tbody>",
-                            "tr",
-                            "5:4",
-                            `/en-US/docs/Web/API/HTMLTableCellElement/scope
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <caption>
-    Tallest Dams
-  </caption>
-  <tr>
-    <td></td>
-    <th scope="col">Dam</th>
-    <th scope="col">Country</th>
-    <th scope="col">Height</th>
-  </tr>
-  <tr>
-    <td>1.</td>
-    <th scope="row">Jinping-I Dam</th>
-    <td>China</td>
-    <td>305 m</td>
-  </tr>
-  <tr>
-    <td>2.</td>
-    <th scope="row">Nurek Dam</th>
-    <td>Tajikistan</td>
-    <td>300 m</td>
-  </tr>
-  <tr>
-    <td>3.</td>
-    <th scope="row">Lianghekou Dam</th>
-    <td>China</td>
-    <td>295 m</td>
-  </tr>
-  <tr>
-    <td>4.</td>
-    <th scope="row">Xiowan Dam</th>
-    <td>China</td>
-    <td>292 m</td>
-  </tr>
-  <tr>
-    <td>5.</td>
-    <th scope="row">Balhetan Dam</th>
-    <td>China</td>
-    <td>289 m</td>
-  </tr>
-  <tr>
-    <td>6.</td>
-    <th scope="row">Xiluodu Dam</th>
-    <td>China</td>
-    <td>285.5 m</td>
-  </tr>
-  <tr>
-    <td>7.</td>
-    <th scope="row">Grande-Dixence Dam</th>
-    <td>Switzerland</td>
-    <td>285 m</td>
-  </tr>
-</table>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                htmltableelement: {
-                  children: {
-                    createcaption: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLTableElement/createCaption",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "prefer-tbody",
-                            "Prefer to wrap <tr> elements in <tbody>",
-                            "tr",
-                            "2:4",
-                            `/en-US/docs/Web/API/HTMLTableElement/createCaption
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr>
-    <td>Cell 1.1</td>
-    <td>Cell 1.2</td>
-    <td>Cell 1.3</td>
-  </tr>
-  <tr>
-    <td>Cell 2.1</td>
-    <td>Cell 2.2</td>
-    <td>Cell 2.3</td>
-  </tr>
-</table>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    deletecaption: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLTableElement/deleteCaption",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "prefer-tbody",
-                            "Prefer to wrap <tr> elements in <tbody>",
-                            "tr",
-                            "5:4",
-                            `/en-US/docs/Web/API/HTMLTableElement/deleteCaption
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <caption>
-    This caption will be deleted!
-  </caption>
-  <tr>
-    <td>Cell 1.1</td>
-    <td>Cell 1.2</td>
-  </tr>
-  <tr>
-    <td>Cell 2.1</td>
-    <td>Cell 2.2</td>
-  </tr>
-</table>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    deleterow: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLTableElement/deleteRow",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "prefer-tbody",
-                            "Prefer to wrap <tr> elements in <tbody>",
-                            "tr",
-                            "2:4",
-                            `/en-US/docs/Web/API/HTMLTableElement/deleteRow
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr>
-    <td>Cell 1.1</td>
-    <td>Cell 1.2</td>
-    <td>Cell 1.3</td>
-  </tr>
-  <tr>
-    <td>Cell 2.1</td>
-    <td>Cell 2.2</td>
-    <td>Cell 2.3</td>
-  </tr>
-  <tr>
-    <td>Cell 3.1</td>
-    <td>Cell 3.2</td>
-    <td>Cell 3.3</td>
-  </tr>
-</table>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    insertrow: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLTableElement/insertRow",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "prefer-tbody",
-                            "Prefer to wrap <tr> elements in <tbody>",
-                            "tr",
-                            "2:4",
-                            `/en-US/docs/Web/API/HTMLTableElement/insertRow
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table id="my-table">
-  <tr>
-    <td>Row 1</td>
-  </tr>
-  <tr>
-    <td>Row 2</td>
-  </tr>
-  <tr>
-    <td>Row 3</td>
-  </tr>
-</table>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/API/HTMLTableElement",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "prefer-tbody",
-                        "Prefer to wrap <tr> elements in <tbody>",
-                        "tr",
-                        "2:4",
-                        `/en-US/docs/Web/API/HTMLTableElement
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table id="table0">
-  <tr>
-    <td>Row 0 Cell 0</td>
-    <td>Row 0 Cell 1</td>
-  </tr>
-</table>
-~~~
-`
-                      ]
-                    }
-                  ]
                 },
                 intersection_observer_api: {
                   children: {
@@ -18061,84 +16223,8 @@ aside {
                     }
                   }
                 },
-                node: {
-                  children: {
-                    previoussibling: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Node/previousSibling",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-required-attributes",
-                            '<img> is missing required "src" attribute',
-                            "img",
-                            "1:2",
-                            `/en-US/docs/Web/API/Node/previousSibling
-[element-required-attributes] <img> is missing required "src" attribute
-~~~
-<img id="b0" /><img id="b1" /><img id="b2" />
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-required-attributes",
-                            '<img> is missing required "src" attribute',
-                            "img",
-                            "1:17",
-                            `/en-US/docs/Web/API/Node/previousSibling
-[element-required-attributes] <img> is missing required "src" attribute
-~~~
-<img id="b0" /><img id="b1" /><img id="b2" />
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-required-attributes",
-                            '<img> is missing required "src" attribute',
-                            "img",
-                            "1:32",
-                            `/en-US/docs/Web/API/Node/previousSibling
-[element-required-attributes] <img> is missing required "src" attribute
-~~~
-<img id="b0" /><img id="b1" /><img id="b2" />
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 payment_request_api: {
-                  children: {
-                    using_secure_payment_confirmation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Payment_Request_API/Using_secure_payment_confirmation",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.emvco.com/emv-technologies/3-d-secure/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.emvco.com/emv-technologies/secure-remote-commerce/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/API/Payment_Request_API",
                   messages: [
                     {
@@ -18631,44 +16717,6 @@ html {
                     }
                   }
                 },
-                selection: {
-                  children: {
-                    rangecount: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Selection/rangeCount",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "prefer-tbody",
-                            "Prefer to wrap <tr> elements in <tbody>",
-                            "tr",
-                            "2:4",
-                            `/en-US/docs/Web/API/Selection/rangeCount
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr>
-    <td>a.1</td>
-    <td>a.2</td>
-  </tr>
-  <tr>
-    <td>b.1</td>
-    <td>b.2</td>
-  </tr>
-  <tr>
-    <td>c.1</td>
-    <td>c.2</td>
-  </tr>
-</table>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 "server-sent_events": {
                   children: {
                     "using_server-sent_events": {
@@ -18886,36 +16934,6 @@ html {
                     }
                   }
                 },
-                svgstyleelement: {
-                  children: {
-                    media: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/SVGStyleElement/media",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "text-content",
-                            "<button> must have accessible text",
-                            "button",
-                            "1:2",
-                            `/en-US/docs/Web/API/SVGStyleElement/media
-[text-content] <button> must have accessible text
-~~~
-<button></button>
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <circle cx="60" cy="60" r="50" />
-</svg>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 touch_events: {
                   children: {
                     "multi-touch_interaction": {
@@ -19017,6 +17035,18 @@ html {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/API/URL_API/Resolving_relative_references"
+                      ]
+                    }
+                  ]
+                },
+                view_transition_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/View_Transition_API",
+                  messages: [
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/:active-view-transition-type"
                       ]
                     }
                   ]
@@ -19360,27 +17390,6 @@ env(viewport-segment-width 0 1)
                       slug: "/en-US/docs/Web/API/Web_Audio_API/Using_IIR_filters",
                       messages: [
                         {
-                          message: "HTML code issue",
-                          data: [
-                            "text-content",
-                            "<button> must have accessible text",
-                            "button",
-                            "1:2",
-                            `/en-US/docs/Web/API/Web_Audio_API/Using_IIR_filters
-[text-content] <button> must have accessible text
-~~~
-<button
-  class="button-filter"
-  role="switch"
-  data-filteron="false"
-  aria-pressed="false"
-  aria-describedby="label"
-  disabled></button>
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Broken external link",
                           data: [
                             "https://www.mathworks.com/help/dsphdl/ref/biquadfilter.html",
@@ -19578,82 +17587,6 @@ api.Window.sessionStorage`,
                     }
                   ]
                 },
-                window: {
-                  children: {
-                    error_event: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/error_event",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-eval",
-                            "eval can be harmful.",
-                            "  eval(badCode);",
-                            "11:3 - 11:7",
-                            `/en-US/docs/Web/API/Window/error_event
-[no-eval] eval can be harmful.
-~~~
-const log = document.querySelector(".event-log-contents");
-
-window.addEventListener("error", (event) => {
-  log.textContent = \`\${log.textContent}\${event.type}: \${event.message}\\n\`;
-  console.log(event);
-});
-
-const scriptError = document.querySelector("#script-error");
-scriptError.addEventListener("click", () => {
-  const badCode = "const s;";
-  eval(badCode);
-});
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-required-attributes",
-                            '<img> is missing required "src" attribute',
-                            "img",
-                            "3:4",
-                            `/en-US/docs/Web/API/Window/error_event
-[element-required-attributes] <img> is missing required "src" attribute
-~~~
-<div class="controls">
-  <button id="script-error" type="button">Generate script error</button>
-  <img class="bad-img" />
-</div>
-
-<div class="event-log">
-  <label for="eventLog">Event log:</label>
-  <textarea
-    readonly
-    class="event-log-contents"
-    rows="8"
-    cols="30"
-    id="eventLog"></textarea>
-</div>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    viewport: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/Window/viewport",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/Viewport_API"
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 windowsharedstorage: {
                   children: {
                     run: {
@@ -19702,6 +17635,22 @@ scriptError.addEventListener("click", () => {
                       ]
                     }
                   ]
+                },
+                window: {
+                  children: {
+                    viewport: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/viewport",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/API/Viewport_API"
+                          ]
+                        }
+                      ]
+                    }
+                  }
                 },
                 workernavigator: {
                   children: {
@@ -19950,932 +17899,6 @@ scriptError.addEventListener("click", () => {
             },
             css: {
               children: {
-                "_colon_-moz-drag-over": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:-moz-drag-over",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.selectors.-moz-drag-over"
-                      ]
-                    }
-                  ]
-                },
-                "_colon_-moz-handler-blocked": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:-moz-handler-blocked",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.selectors.-moz-handler-blocked"
-                      ]
-                    }
-                  ]
-                },
-                "_colon_-moz-handler-crashed": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:-moz-handler-crashed",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.selectors.-moz-handler-crashed"
-                      ]
-                    }
-                  ]
-                },
-                "_colon_-moz-handler-disabled": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:-moz-handler-disabled",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.selectors.-moz-handler-disabled"
-                      ]
-                    }
-                  ]
-                },
-                "_colon_-moz-loading": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:-moz-loading",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.selectors.-moz-loading"
-                      ]
-                    }
-                  ]
-                },
-                "_colon_-moz-locale-dir_ltr": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:-moz-locale-dir_ltr",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.selectors.-moz-locale-dir_ltr"
-                      ]
-                    }
-                  ]
-                },
-                "_colon_-moz-locale-dir_rtl": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:-moz-locale-dir_rtl",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.selectors.-moz-locale-dir_rtl"
-                      ]
-                    }
-                  ]
-                },
-                "_colon_-moz-suppressed": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:-moz-suppressed",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.selectors.-moz-suppressed"
-                      ]
-                    }
-                  ]
-                },
-                "_colon_-moz-user-disabled": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:-moz-user-disabled",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.selectors.-moz-user-disabled"
-                      ]
-                    }
-                  ]
-                },
-                _colon_blank: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:blank",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.selectors.blank"
-                      ]
-                    }
-                  ]
-                },
-                _colon_current: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:current",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.selectors.current"
-                      ]
-                    }
-                  ]
-                },
-                _colon_heading_function: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:heading_function",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-type-no-unknown",
-                        'Unexpected unknown type selector "odd" (selector-type-no-unknown)',
-                        ":heading(odd) {",
-                        "1:10 - 1:13",
-                        `/en-US/docs/Web/CSS/:heading_function
-[selector-type-no-unknown] Unexpected unknown type selector "odd" (selector-type-no-unknown)
-~~~
-:heading(odd) {
-  color: tomato;
-}
-:heading(even) {
-  color: slateblue;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-type-no-unknown",
-                        'Unexpected unknown type selector "even" (selector-type-no-unknown)',
-                        ":heading(even) {",
-                        "4:10 - 4:14",
-                        `/en-US/docs/Web/CSS/:heading_function
-[selector-type-no-unknown] Unexpected unknown type selector "even" (selector-type-no-unknown)
-~~~
-:heading(odd) {
-  color: tomato;
-}
-:heading(even) {
-  color: slateblue;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-type-no-unknown",
-                        'Unexpected unknown type selector "3n" (selector-type-no-unknown)',
-                        ":heading(3n + 1) {",
-                        "15:10 - 15:12",
-                        `/en-US/docs/Web/CSS/:heading_function
-[selector-type-no-unknown] Unexpected unknown type selector "3n" (selector-type-no-unknown)
-~~~
-main {
-  display: flex;
-  justify-content: space-around;
-}
-
-/* Targets headings <h3> and <h4> */
-:heading(3, 4) {
-  font-weight: 100;
-}
-/* Targets headings in reverse starting from <h3> */
-:heading(-n + 3) {
-  color: tomato;
-}
-/* Targets every third heading starting from <h1> */
-:heading(3n + 1) {
-  font-style: italic;
-}
-/* Targets headings after level 5 */
-:heading(n + 5) {
-  color: slateblue;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-type-no-unknown",
-                        'Unexpected unknown type selector "1" (selector-type-no-unknown)',
-                        ":heading(3n + 1) {",
-                        "15:15 - 15:16",
-                        `/en-US/docs/Web/CSS/:heading_function
-[selector-type-no-unknown] Unexpected unknown type selector "1" (selector-type-no-unknown)
-~~~
-main {
-  display: flex;
-  justify-content: space-around;
-}
-
-/* Targets headings <h3> and <h4> */
-:heading(3, 4) {
-  font-weight: 100;
-}
-/* Targets headings in reverse starting from <h3> */
-:heading(-n + 3) {
-  color: tomato;
-}
-/* Targets every third heading starting from <h1> */
-:heading(3n + 1) {
-  font-style: italic;
-}
-/* Targets headings after level 5 */
-:heading(n + 5) {
-  color: slateblue;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-type-no-unknown",
-                        'Unexpected unknown type selector "n" (selector-type-no-unknown)',
-                        ":heading(n + 5) {",
-                        "19:10 - 19:11",
-                        `/en-US/docs/Web/CSS/:heading_function
-[selector-type-no-unknown] Unexpected unknown type selector "n" (selector-type-no-unknown)
-~~~
-main {
-  display: flex;
-  justify-content: space-around;
-}
-
-/* Targets headings <h3> and <h4> */
-:heading(3, 4) {
-  font-weight: 100;
-}
-/* Targets headings in reverse starting from <h3> */
-:heading(-n + 3) {
-  color: tomato;
-}
-/* Targets every third heading starting from <h1> */
-:heading(3n + 1) {
-  font-style: italic;
-}
-/* Targets headings after level 5 */
-:heading(n + 5) {
-  color: slateblue;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "selector-type-no-unknown",
-                        'Unexpected unknown type selector "5" (selector-type-no-unknown)',
-                        ":heading(n + 5) {",
-                        "19:14 - 19:15",
-                        `/en-US/docs/Web/CSS/:heading_function
-[selector-type-no-unknown] Unexpected unknown type selector "5" (selector-type-no-unknown)
-~~~
-main {
-  display: flex;
-  justify-content: space-around;
-}
-
-/* Targets headings <h3> and <h4> */
-:heading(3, 4) {
-  font-weight: 100;
-}
-/* Targets headings in reverse starting from <h3> */
-:heading(-n + 3) {
-  color: tomato;
-}
-/* Targets every third heading starting from <h1> */
-:heading(3n + 1) {
-  font-style: italic;
-}
-/* Targets headings after level 5 */
-:heading(n + 5) {
-  color: slateblue;
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "_colon_in-range": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:in-range",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "25%" to be "0.25" (alpha-value-notation)',
-                        "  background-color: rgb(0 255 0 / 25%);",
-                        "11:35 - 11:38",
-                        `/en-US/docs/Web/CSS/:in-range
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-li {
-  list-style: none;
-  margin-bottom: 1em;
-}
-
-input {
-  border: 1px solid black;
-}
-
-input:in-range {
-  background-color: rgb(0 255 0 / 25%);
-}
-
-input:out-of-range {
-  background-color: rgb(255 0 0 / 25%);
-  border: 2px solid red;
-}
-
-input:in-range + label::after {
-  content: "okay.";
-}
-
-input:out-of-range + label::after {
-  content: "out of range!";
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "25%" to be "0.25" (alpha-value-notation)',
-                        "  background-color: rgb(255 0 0 / 25%);",
-                        "15:35 - 15:38",
-                        `/en-US/docs/Web/CSS/:in-range
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-li {
-  list-style: none;
-  margin-bottom: 1em;
-}
-
-input {
-  border: 1px solid black;
-}
-
-input:in-range {
-  background-color: rgb(0 255 0 / 25%);
-}
-
-input:out-of-range {
-  background-color: rgb(255 0 0 / 25%);
-  border: 2px solid red;
-}
-
-input:in-range + label::after {
-  content: "okay.";
-}
-
-input:out-of-range + label::after {
-  content: "out of range!";
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                _colon_invalid: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:invalid",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "wcag/h71",
-                        "<fieldset> must have a <legend> as the first child",
-                        "fieldset",
-                        "2:4",
-                        `/en-US/docs/Web/CSS/:invalid
-[wcag/h71] <fieldset> must have a <legend> as the first child
-~~~
-<form>
-  <fieldset>
-    <label for="form-name">Name</label><br />
-    <input type="text" name="name" id="form-name" required />
-  </fieldset>
-
-  <fieldset>
-    <label for="form-email">Email Address</label><br />
-    <input type="email" name="email" id="form-email" required />
-  </fieldset>
-
-  <fieldset>
-    <label for="form-message">Message</label><br />
-    <textarea name="message" id="form-message" required></textarea>
-  </fieldset>
-
-  <button type="submit" name="send">Submit</button>
-</form>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "wcag/h71",
-                        "<fieldset> must have a <legend> as the first child",
-                        "fieldset",
-                        "7:4",
-                        `/en-US/docs/Web/CSS/:invalid
-[wcag/h71] <fieldset> must have a <legend> as the first child
-~~~
-<form>
-  <fieldset>
-    <label for="form-name">Name</label><br />
-    <input type="text" name="name" id="form-name" required />
-  </fieldset>
-
-  <fieldset>
-    <label for="form-email">Email Address</label><br />
-    <input type="email" name="email" id="form-email" required />
-  </fieldset>
-
-  <fieldset>
-    <label for="form-message">Message</label><br />
-    <textarea name="message" id="form-message" required></textarea>
-  </fieldset>
-
-  <button type="submit" name="send">Submit</button>
-</form>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "wcag/h71",
-                        "<fieldset> must have a <legend> as the first child",
-                        "fieldset",
-                        "12:4",
-                        `/en-US/docs/Web/CSS/:invalid
-[wcag/h71] <fieldset> must have a <legend> as the first child
-~~~
-<form>
-  <fieldset>
-    <label for="form-name">Name</label><br />
-    <input type="text" name="name" id="form-name" required />
-  </fieldset>
-
-  <fieldset>
-    <label for="form-email">Email Address</label><br />
-    <input type="email" name="email" id="form-email" required />
-  </fieldset>
-
-  <fieldset>
-    <label for="form-message">Message</label><br />
-    <textarea name="message" id="form-message" required></textarea>
-  </fieldset>
-
-  <button type="submit" name="send">Submit</button>
-</form>
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "_colon_local-link": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:local-link",
-                  messages: [
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.selectors.local-link"
-                      ]
-                    }
-                  ]
-                },
-                _colon_modal: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:modal",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "50%" to be "0.5" (alpha-value-notation)',
-                        "  box-shadow: 3px 3px 10px rgb(0 0 0 / 50%);",
-                        "4:40 - 4:43",
-                        `/en-US/docs/Web/CSS/:modal
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-:modal {
-  border: 5px solid red;
-  background-color: yellow;
-  box-shadow: 3px 3px 10px rgb(0 0 0 / 50%);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "_colon_out-of-range": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:out-of-range",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "25%" to be "0.25" (alpha-value-notation)',
-                        "  background-color: rgb(0 255 0 / 25%);",
-                        "11:35 - 11:38",
-                        `/en-US/docs/Web/CSS/:out-of-range
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-li {
-  list-style: none;
-  margin-bottom: 1em;
-}
-
-input {
-  border: 1px solid black;
-}
-
-input:in-range {
-  background-color: rgb(0 255 0 / 25%);
-}
-
-input:out-of-range {
-  background-color: rgb(255 0 0 / 25%);
-  border: 2px solid red;
-}
-
-input:in-range + label::after {
-  content: "okay.";
-}
-
-input:out-of-range + label::after {
-  content: "out of range!";
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "25%" to be "0.25" (alpha-value-notation)',
-                        "  background-color: rgb(255 0 0 / 25%);",
-                        "15:35 - 15:38",
-                        `/en-US/docs/Web/CSS/:out-of-range
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-li {
-  list-style: none;
-  margin-bottom: 1em;
-}
-
-input {
-  border: 1px solid black;
-}
-
-input:in-range {
-  background-color: rgb(0 255 0 / 25%);
-}
-
-input:out-of-range {
-  background-color: rgb(255 0 0 / 25%);
-  border: 2px solid red;
-}
-
-input:in-range + label::after {
-  content: "okay.";
-}
-
-input:out-of-range + label::after {
-  content: "out of range!";
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "_colon_placeholder-shown": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:placeholder-shown",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "input-attributes",
-                        'Attribute "pattern" is not allowed on <input type="number">',
-                        "pattern",
-                        "14:7",
-                        `/en-US/docs/Web/CSS/:placeholder-shown
-[input-attributes] Attribute "pattern" is not allowed on <input type="number">
-~~~
-<form id="test">
-  <p>
-    <label for="name">Enter Student Name:</label>
-    <input id="name" placeholder="Student Name" />
-  </p>
-  <p>
-    <label for="branch">Enter Student Branch:</label>
-    <input id="branch" placeholder="Student Branch" />
-  </p>
-  <p>
-    <label for="sid">Enter Student ID:</label>
-    <input
-      type="number"
-      pattern="[0-9]{8}"
-      title="8 digit ID"
-      id="sid"
-      class="student-id"
-      placeholder="8 digit id" />
-  </p>
-  <input type="submit" />
-</form>
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                _colon_scope: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/:scope",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "valid-id",
-                        'element id "element-1.1" must only contain letters, digits, dash and underscore characters',
-                        "element-1.1",
-                        "3:14",
-                        `/en-US/docs/Web/CSS/:scope
-[valid-id] element id "element-1.1" must only contain letters, digits, dash and underscore characters
-~~~
-<div id="context">
-  <div id="element-1">
-    <div id="element-1.1"></div>
-    <div id="element-1.2"></div>
-  </div>
-  <div id="element-2">
-    <div id="element-2.1"></div>
-  </div>
-</div>
-<p>
-  Selected element ids :
-  <span id="results"></span>
-</p>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "valid-id",
-                        'element id "element-1.2" must only contain letters, digits, dash and underscore characters',
-                        "element-1.2",
-                        "4:14",
-                        `/en-US/docs/Web/CSS/:scope
-[valid-id] element id "element-1.2" must only contain letters, digits, dash and underscore characters
-~~~
-<div id="context">
-  <div id="element-1">
-    <div id="element-1.1"></div>
-    <div id="element-1.2"></div>
-  </div>
-  <div id="element-2">
-    <div id="element-2.1"></div>
-  </div>
-</div>
-<p>
-  Selected element ids :
-  <span id="results"></span>
-</p>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "valid-id",
-                        'element id "element-2.1" must only contain letters, digits, dash and underscore characters',
-                        "element-2.1",
-                        "7:14",
-                        `/en-US/docs/Web/CSS/:scope
-[valid-id] element id "element-2.1" must only contain letters, digits, dash and underscore characters
-~~~
-<div id="context">
-  <div id="element-1">
-    <div id="element-1.1"></div>
-    <div id="element-1.2"></div>
-  </div>
-  <div id="element-2">
-    <div id="element-2.1"></div>
-  </div>
-</div>
-<p>
-  Selected element ids :
-  <span id="results"></span>
-</p>
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "_doublecolon_-moz-focus-inner": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-moz-focus-inner",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "padding-block" (declaration-block-no-redundant-longhand-properties)',
-                        "  padding-block-end: 0px;",
-                        "8:3 - 8:20",
-                        `/en-US/docs/Web/CSS/::-moz-focus-inner
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "padding-block" (declaration-block-no-redundant-longhand-properties)
-~~~
-button::-moz-focus-inner,
-input[type="color"]::-moz-focus-inner,
-input[type="reset"]::-moz-focus-inner,
-input[type="button"]::-moz-focus-inner,
-input[type="submit"]::-moz-focus-inner {
-  padding-block-start: 0px;
-  padding-inline-end: 2px;
-  padding-block-end: 0px;
-  padding-inline-start: 2px;
-  border: 2px dotted red;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "padding-inline" (declaration-block-no-redundant-longhand-properties)',
-                        "  padding-inline-start: 2px;",
-                        "9:3 - 9:23",
-                        `/en-US/docs/Web/CSS/::-moz-focus-inner
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "padding-inline" (declaration-block-no-redundant-longhand-properties)
-~~~
-button::-moz-focus-inner,
-input[type="color"]::-moz-focus-inner,
-input[type="reset"]::-moz-focus-inner,
-input[type="button"]::-moz-focus-inner,
-input[type="submit"]::-moz-focus-inner {
-  padding-block-start: 0px;
-  padding-inline-end: 2px;
-  padding-block-end: 0px;
-  padding-inline-start: 2px;
-  border: 2px dotted red;
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "Not in BCD",
-                      data: [
-                        "css.selectors.-moz-focus-inner"
-                      ]
-                    }
-                  ]
-                },
-                "_doublecolon_-moz-meter-bar": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-moz-meter-bar",
-                  messages: [
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "css.selectors.-moz-meter-bar",
-                        "Expected:",
-                        "[None]"
-                      ]
-                    },
-                    {
-                      message: "Page status not backed by BCD",
-                      data: []
-                    }
-                  ]
-                },
-                "_doublecolon_-webkit-scrollbar": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::-webkit-scrollbar",
-                  messages: [
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        `css.selectors.-webkit-scrollbar
-css.selectors.-webkit-scrollbar-button
-css.selectors.-webkit-scrollbar-thumb
-css.selectors.-webkit-scrollbar-track
-css.selectors.-webkit-scrollbar-track-piece
-css.selectors.-webkit-scrollbar-corner
-css.selectors.-webkit-resizer`,
-                        "Expected:",
-                        "css.selectors.-webkit-scrollbar"
-                      ]
-                    }
-                  ]
-                },
-                _doublecolon_backdrop: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::backdrop",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "25%" to be "0.25" (alpha-value-notation)',
-                        "  background: rgb(255 0 0 / 25%);",
-                        "3:29 - 3:32",
-                        `/en-US/docs/Web/CSS/::backdrop
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-/* Backdrop is only displayed when dialog is opened with dialog.showModal() */
-dialog::backdrop {
-  background: rgb(255 0 0 / 25%);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                _doublecolon_cue: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::cue",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "60%" to be "0.6" (alpha-value-notation)',
-                        "  background-color: rgb(0 0 0 / 60%);",
-                        "3:33 - 3:36",
-                        `/en-US/docs/Web/CSS/::cue
-[alpha-value-notation] Expected "60%" to be "0.6" (alpha-value-notation)
-~~~
-::cue {
-  color: white;
-  background-color: rgb(0 0 0 / 60%);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                "_doublecolon_view-transition": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/::view-transition",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "25%" to be "0.25" (alpha-value-notation)',
-                        "  background-color: rgb(0 0 0 / 25%);",
-                        "2:33 - 2:36",
-                        `/en-US/docs/Web/CSS/::view-transition
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-::view-transition {
-  background-color: rgb(0 0 0 / 25%);
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
                 "@color-profile": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/@color-profile",
@@ -21007,29 +18030,6 @@ dialog::backdrop {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-content",
-                            "<ol> element is not permitted as content under <ol>",
-                            "ol",
-                            "8:4",
-                            `/en-US/docs/Web/CSS/@counter-style/system
-[element-permitted-content] <ol> element is not permitted as content under <ol>
-~~~
-<ol start="48">
-  <li>48</li>
-  <li>49</li>
-  <li>50</li>
-  <li>51</li>
-  <li value="109">109</li>
-  <li>110</li>
-  <ol></ol>
-</ol>
-~~~
-`
-                          ]
                         }
                       ]
                     }
@@ -21406,25 +18406,6 @@ div {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-content",
-                            "<div> element is not permitted as content under <iframe>",
-                            "div",
-                            "2:4",
-                            `/en-US/docs/Web/CSS/@media/aspect-ratio
-[element-permitted-content] <div> element is not permitted as content under <iframe>
-~~~
-<iframe id="outer">
-  <div id="inner">
-    Watch this element as you resize iframe viewport's width and height.
-  </div>
-</iframe>
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -21635,75 +18616,6 @@ div {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-required-attributes",
-                            '<img> is missing required "src" attribute',
-                            "img",
-                            "2:4",
-                            `/en-US/docs/Web/CSS/@media/prefers-color-scheme
-[element-required-attributes] <img> is missing required "src" attribute
-~~~
-<div>
-  <img />
-</div>
-<div class="light">
-  <img />
-</div>
-<div class="dark">
-  <img />
-</div>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-required-attributes",
-                            '<img> is missing required "src" attribute',
-                            "img",
-                            "5:4",
-                            `/en-US/docs/Web/CSS/@media/prefers-color-scheme
-[element-required-attributes] <img> is missing required "src" attribute
-~~~
-<div>
-  <img />
-</div>
-<div class="light">
-  <img />
-</div>
-<div class="dark">
-  <img />
-</div>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-required-attributes",
-                            '<img> is missing required "src" attribute',
-                            "img",
-                            "8:4",
-                            `/en-US/docs/Web/CSS/@media/prefers-color-scheme
-[element-required-attributes] <img> is missing required "src" attribute
-~~~
-<div>
-  <img />
-</div>
-<div class="light">
-  <img />
-</div>
-<div class="dark">
-  <img />
-</div>
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -21901,188 +18813,6 @@ div {
                       ]
                     }
                   }
-                },
-                "@scope": {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/@scope",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "element-required-attributes",
-                        '<img> is missing required "src" attribute',
-                        "img",
-                        "4:6",
-                        `/en-US/docs/Web/CSS/@scope
-[element-required-attributes] <img> is missing required "src" attribute
-~~~
-<article class="feature">
-  <section class="article-hero">
-    <h2>Article heading</h2>
-    <img alt="image" />
-  </section>
-
-  <section class="article-body">
-    <h3>Article subheading</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod
-      consectetur leo, nec eleifend quam volutpat vitae. Duis quis felis at
-      augue imperdiet aliquam. Morbi at felis et massa mattis lacinia. Cras
-      pharetra velit nisi, ac efficitur magna luctus nec.
-    </p>
-
-    <img alt="image" />
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-    <figure>
-      <img alt="image" />
-      <figcaption>My infographic</figcaption>
-    </figure>
-  </section>
-
-  <footer>
-    <p>Written by Chris Mills.</p>
-    <img alt="image" />
-  </footer>
-</article>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "element-required-attributes",
-                        '<img> is missing required "src" attribute',
-                        "img",
-                        "16:6",
-                        `/en-US/docs/Web/CSS/@scope
-[element-required-attributes] <img> is missing required "src" attribute
-~~~
-<article class="feature">
-  <section class="article-hero">
-    <h2>Article heading</h2>
-    <img alt="image" />
-  </section>
-
-  <section class="article-body">
-    <h3>Article subheading</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod
-      consectetur leo, nec eleifend quam volutpat vitae. Duis quis felis at
-      augue imperdiet aliquam. Morbi at felis et massa mattis lacinia. Cras
-      pharetra velit nisi, ac efficitur magna luctus nec.
-    </p>
-
-    <img alt="image" />
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-    <figure>
-      <img alt="image" />
-      <figcaption>My infographic</figcaption>
-    </figure>
-  </section>
-
-  <footer>
-    <p>Written by Chris Mills.</p>
-    <img alt="image" />
-  </footer>
-</article>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "element-required-attributes",
-                        '<img> is missing required "src" attribute',
-                        "img",
-                        "21:8",
-                        `/en-US/docs/Web/CSS/@scope
-[element-required-attributes] <img> is missing required "src" attribute
-~~~
-<article class="feature">
-  <section class="article-hero">
-    <h2>Article heading</h2>
-    <img alt="image" />
-  </section>
-
-  <section class="article-body">
-    <h3>Article subheading</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod
-      consectetur leo, nec eleifend quam volutpat vitae. Duis quis felis at
-      augue imperdiet aliquam. Morbi at felis et massa mattis lacinia. Cras
-      pharetra velit nisi, ac efficitur magna luctus nec.
-    </p>
-
-    <img alt="image" />
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-    <figure>
-      <img alt="image" />
-      <figcaption>My infographic</figcaption>
-    </figure>
-  </section>
-
-  <footer>
-    <p>Written by Chris Mills.</p>
-    <img alt="image" />
-  </footer>
-</article>
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "element-required-attributes",
-                        '<img> is missing required "src" attribute',
-                        "img",
-                        "28:6",
-                        `/en-US/docs/Web/CSS/@scope
-[element-required-attributes] <img> is missing required "src" attribute
-~~~
-<article class="feature">
-  <section class="article-hero">
-    <h2>Article heading</h2>
-    <img alt="image" />
-  </section>
-
-  <section class="article-body">
-    <h3>Article subheading</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod
-      consectetur leo, nec eleifend quam volutpat vitae. Duis quis felis at
-      augue imperdiet aliquam. Morbi at felis et massa mattis lacinia. Cras
-      pharetra velit nisi, ac efficitur magna luctus nec.
-    </p>
-
-    <img alt="image" />
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-    <figure>
-      <img alt="image" />
-      <figcaption>My infographic</figcaption>
-    </figure>
-  </section>
-
-  <footer>
-    <p>Written by Chris Mills.</p>
-    <img alt="image" />
-  </footer>
-</article>
-~~~
-`
-                      ]
-                    }
-                  ]
                 },
                 "@starting-style": {
                   children: {},
@@ -34298,21 +31028,6 @@ oklch(63.612% 0.1522 78.748)
                     }
                   ]
                 },
-                column_combinator: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/Column_combinator",
-                  messages: [
-                    {
-                      message: "Unexpected BCD keys",
-                      data: [
-                        "Actual:",
-                        "[None]",
-                        "Expected:",
-                        "css.selectors.column"
-                      ]
-                    }
-                  ]
-                },
                 "cross-fade": {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/cross-fade",
@@ -34621,226 +31336,6 @@ div {
                         {
                           message: "Unreachable via page",
                           data: []
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "prefer-tbody",
-                            "Prefer to wrap <tr> elements in <tbody>",
-                            "tr",
-                            "65:8",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_mixer
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<div id="color-mixer">
-  <div>color-one</div>
-  <div>mixed-color</div>
-  <div>color-two</div>
-
-  <div id="color-background">
-    <button
-      id="color-one"
-      type="button"
-      class="color-one"
-      aria-label="Open the color one picker dialog"></button>
-    <div id="mixed-color"></div>
-    <button
-      id="color-two"
-      type="button"
-      class="color-two"
-      aria-label="Open the color two picker dialog"></button>
-  </div>
-  <div>
-    <label
-      id="percentage-one-label"
-      for="percentage-one"
-      aria-label="color one percentage">
-      50%
-    </label>
-    <input id="percentage-one" type="range" name="percent1" step="0.01" />
-  </div>
-  <div>
-    <label
-      id="percentage-two-label"
-      for="percentage-two"
-      aria-label="color two percentage">
-      50%
-    </label>
-    <input id="percentage-two" type="range" name="percent2" step="0.01" />
-  </div>
-
-  <label for="color-space">Color space: </label>
-  <select id="color-space">
-    <option value="srgb">sRGB</option>
-    <option value="srgb-linear">sRGB-linear</option>
-    <option value="hsl">HSL</option>
-    <option value="hwb">HWB</option>
-    <option value="lab">Lab</option>
-    <option value="lch">LCH</option>
-    <option value="oklab" selected>Oklab</option>
-    <option value="oklch">OkLCh</option>
-    <option value="xyz-d50">XYZ-D50</option>
-    <option value="xyz-d65">XYZ-D65</option>
-  </select>
-
-  <label id="interpolation-method-label" for="interpolation-method">
-    Hue interpolation method:
-  </label>
-  <select id="interpolation-method">
-    <option value="shorter hue" selected>shorter hue</option>
-    <option value="longer hue">longer hue</option>
-    <option value="increasing hue">increasing hue</option>
-    <option value="decreasing hue">decreasing hue</option>
-  </select>
-  <div id="mix-output-text"></div>
-  <dialog id="picker-dialog">
-    <div>Pick a color</div>
-    <table>
-      <tr>
-        <td><label for="color-text">Enter color:</label></td>
-        <td><input type="text" id="color-text" value="#bada55" /></td>
-      </tr>
-      <tr>
-        <td><label for="color-input">Pick color:</label></td>
-        <td><input type="color" id="color-input" value="#bada55" /></td>
-      </tr>
-      <tr>
-        <td><label for="color-opacity">Select an opacity:</label></td>
-        <td>
-          <input
-            type="range"
-            id="color-opacity"
-            value="1"
-            min="0"
-            max="1"
-            step="0.01" />
-        </td>
-      </tr>
-    </table>
-    <div><button id="picker-ok-button">Ok</button></div>
-  </dialog>
-</div>
-<hr />
-<table id="output-colors">
-  <caption>
-    Mixed color in different formats:
-  </caption>
-  <tbody>
-    <tr id="rgb-function">
-      <th>
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/rgb"
-          target="_blank">
-          RGB
-        </a>
-      </th>
-      <td><button id="copy-rgb-button">Copy</button><span></span></td>
-    </tr>
-    <tr id="hex">
-      <th>
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/CSS/hex-color"
-          target="_blank"
-          >HEX</a
-        >
-      </th>
-      <td><button id="copy-hex-button">Copy</button><span></span></td>
-    </tr>
-    <tr id="hsl-function">
-      <th>
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsl"
-          target="_blank">
-          HSL
-        </a>
-      </th>
-      <td><button id="copy-hsl-button">Copy</button><span></span></td>
-    </tr>
-    <tr id="hwb-function">
-      <th>
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hwb"
-          target="_blank">
-          HWB
-        </a>
-      </th>
-      <td><button id="copy-hwb-button">Copy</button><span></span></td>
-    </tr>
-    <tr id="color-function">
-      <th>
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color"
-          target="_blank">
-          color()
-        </a>
-      </th>
-      <td><button id="copy-color-button">Copy</button><span></span></td>
-    </tr>
-    <tr id="lab-function">
-      <th>
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/lab"
-          target="_blank">
-          Lab
-        </a>
-      </th>
-      <td><button id="copy-lab-button">Copy</button><span></span></td>
-    </tr>
-    <tr id="lch-function">
-      <th>
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/lch"
-          target="_blank">
-          LCH
-        </a>
-      </th>
-      <td><button id="copy-lch-button">Copy</button><span></span></td>
-    </tr>
-    <tr id="oklab-function">
-      <th>
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/oklab"
-          target="_blank">
-          Oklab
-        </a>
-      </th>
-      <td><button id="copy-oklab-button">Copy</button><span></span></td>
-    </tr>
-    <tr id="oklch-function">
-      <th>
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/oklch"
-          target="_blank">
-          OkLCh
-        </a>
-      </th>
-      <td><button id="copy-oklch-button">Copy</button><span></span></td>
-    </tr>
-    <tr id="xyz-d50-function">
-      <th>
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Glossary/Color_space#xyz-d50"
-          target="_blank">
-          XYZ D50
-        </a>
-      </th>
-      <td><button id="copy-xyz-d50-button">Copy</button><span></span></td>
-    </tr>
-    <tr id="xyz-d65-function">
-      <th>
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Glossary/Color_space#xyz"
-          target="_blank">
-          XYZ D65
-        </a>
-      </th>
-      <td><button id="copy-xyz-d65-button">Copy</button><span></span></td>
-    </tr>
-  </tbody>
-</table>
-~~~
-`
-                          ]
                         }
                       ]
                     },
@@ -36469,212 +32964,6 @@ rgb(from red r g b / alpha)
                     }
                   ]
                 },
-                css_containment: {
-                  children: {
-                    container_size_and_style_queries: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "form-dup-name",
-                            'Duplicate form control name "selection"',
-                            "selection",
-                            "5:33",
-                            `/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries
-[form-dup-name] Duplicate form control name "selection"
-~~~
-<fieldset>
-  <legend>Change the value of <code>--theme</code></legend>
-  <ol>
-    <li>
-      <input type="radio" name="selection" value="red" id="red" />
-      <label for="red">--theme: red;</label>
-    </li>
-    <li>
-      <input type="radio" name="selection" value="green" id="green" />
-      <label for="green">--theme: green</label>
-    </li>
-    <li>
-      <input type="radio" name="selection" value="blue" id="blue" />
-      <label for="blue">--theme: blue</label>
-    </li>
-    <li>
-      <input type="radio" name="selection" value="currentColor" id="other" />
-      <label for="other">Other</label>
-      <label for="color">color:</label>
-      <input text="checkbox" name="selection" value="currentColor" id="color" />
-    </li>
-  </ol>
-</fieldset>
-<output>I change colors</output>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "form-dup-name",
-                            'Duplicate form control name "selection"',
-                            "selection",
-                            "9:33",
-                            `/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries
-[form-dup-name] Duplicate form control name "selection"
-~~~
-<fieldset>
-  <legend>Change the value of <code>--theme</code></legend>
-  <ol>
-    <li>
-      <input type="radio" name="selection" value="red" id="red" />
-      <label for="red">--theme: red;</label>
-    </li>
-    <li>
-      <input type="radio" name="selection" value="green" id="green" />
-      <label for="green">--theme: green</label>
-    </li>
-    <li>
-      <input type="radio" name="selection" value="blue" id="blue" />
-      <label for="blue">--theme: blue</label>
-    </li>
-    <li>
-      <input type="radio" name="selection" value="currentColor" id="other" />
-      <label for="other">Other</label>
-      <label for="color">color:</label>
-      <input text="checkbox" name="selection" value="currentColor" id="color" />
-    </li>
-  </ol>
-</fieldset>
-<output>I change colors</output>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "form-dup-name",
-                            'Duplicate form control name "selection"',
-                            "selection",
-                            "13:33",
-                            `/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries
-[form-dup-name] Duplicate form control name "selection"
-~~~
-<fieldset>
-  <legend>Change the value of <code>--theme</code></legend>
-  <ol>
-    <li>
-      <input type="radio" name="selection" value="red" id="red" />
-      <label for="red">--theme: red;</label>
-    </li>
-    <li>
-      <input type="radio" name="selection" value="green" id="green" />
-      <label for="green">--theme: green</label>
-    </li>
-    <li>
-      <input type="radio" name="selection" value="blue" id="blue" />
-      <label for="blue">--theme: blue</label>
-    </li>
-    <li>
-      <input type="radio" name="selection" value="currentColor" id="other" />
-      <label for="other">Other</label>
-      <label for="color">color:</label>
-      <input text="checkbox" name="selection" value="currentColor" id="color" />
-    </li>
-  </ol>
-</fieldset>
-<output>I change colors</output>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "form-dup-name",
-                            'Duplicate form control name "selection"',
-                            "selection",
-                            "17:33",
-                            `/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries
-[form-dup-name] Duplicate form control name "selection"
-~~~
-<fieldset>
-  <legend>Change the value of <code>--theme</code></legend>
-  <ol>
-    <li>
-      <input type="radio" name="selection" value="red" id="red" />
-      <label for="red">--theme: red;</label>
-    </li>
-    <li>
-      <input type="radio" name="selection" value="green" id="green" />
-      <label for="green">--theme: green</label>
-    </li>
-    <li>
-      <input type="radio" name="selection" value="blue" id="blue" />
-      <label for="blue">--theme: blue</label>
-    </li>
-    <li>
-      <input type="radio" name="selection" value="currentColor" id="other" />
-      <label for="other">Other</label>
-      <label for="color">color:</label>
-      <input text="checkbox" name="selection" value="currentColor" id="color" />
-    </li>
-  </ol>
-</fieldset>
-<output>I change colors</output>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                css_counter_styles: {
-                  children: {
-                    using_css_counters: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_counter_styles/Using_CSS_counters",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "wcag/h30",
-                            "Anchor link must have a text describing its purpose",
-                            "a",
-                            "1:9",
-                            `/en-US/docs/Web/CSS/CSS_counter_styles/Using_CSS_counters
-[wcag/h30] Anchor link must have a text describing its purpose
-~~~
-<p>See <a href="https://www.mozilla.org/"></a></p>
-<p>Do not forget to <a href="contact-me.html">leave a message</a>!</p>
-<p>See also <a href="https://developer.mozilla.org/"></a></p>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "wcag/h30",
-                            "Anchor link must have a text describing its purpose",
-                            "a",
-                            "3:14",
-                            `/en-US/docs/Web/CSS/CSS_counter_styles/Using_CSS_counters
-[wcag/h30] Anchor link must have a text describing its purpose
-~~~
-<p>See <a href="https://www.mozilla.org/"></a></p>
-<p>Do not forget to <a href="contact-me.html">leave a message</a>!</p>
-<p>See also <a href="https://developer.mozilla.org/"></a></p>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
                 css_custom_functions_and_mixins: {
                   children: {
                     using_custom_functions: {
@@ -37071,59 +33360,6 @@ p {
 ~~~
 `
                           ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-deprecated-attr",
-                            'Attribute "cellpadding" is deprecated on <table> element',
-                            "cellpadding",
-                            "1:8",
-                            `/en-US/docs/Web/CSS/CSS_filter_effects/Using_filter_effects
-[no-deprecated-attr] Attribute "cellpadding" is deprecated on <table> element
-~~~
-<table cellpadding="5">
-  <thead>
-    <tr>
-      <th>CSS example</th>
-      <th>SVG example</th>
-      <th>Original image</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <img
-          class="filter"
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag" />
-      </td>
-      <td>
-        <img
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag"
-          class="svgFilter" />
-      </td>
-      <td>
-        <img
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag" />
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<svg role="img" aria-label="Flag">
-  <filter id="blur">
-    <feGaussianBlur stdDeviation="3.5" edgeMode="duplicate" />
-  </filter>
-  <image
-    xlink:href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-    filter="url(#blur)" />
-</svg>
-~~~
-`
-                          ]
                         }
                       ]
                     }
@@ -37304,6 +33540,26 @@ p {
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://adrianroselli.com/2015/10/html-source-order-vs-css-display-order.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    relationship_of_flexbox_to_other_layout_methods: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_flexible_box_layout/Relationship_of_flexbox_to_other_layout_methods",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://ericwbailey.design/published/display-contents-considered-harmful/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -37311,380 +33567,15 @@ p {
                 },
                 css_fonts: {
                   children: {
-                    opentype_fonts_guide: {
+                    variable_fonts_guide: {
                       children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide",
+                      slug: "/en-US/docs/Web/CSS/CSS_fonts/Variable_fonts_guide",
                       messages: [
                         {
-                          message: "HTML code issue",
+                          message: "Broken external link",
                           data: [
-                            "no-implicit-close",
-                            "Element <p> is implicitly closed by adjacent <#document>",
-                            "p",
-                            "4:6",
-                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
-[no-implicit-close] Element <p> is implicitly closed by adjacent <#document>
-~~~
-<fieldset>
-  <legend>Using <code>font-variant-ligatures</code> property</legend>
-  <div class="container container1">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
-  <label for="checkbox1">Ligatures active</label>
-</fieldset>
-
-<fieldset>
-  <legend>Using <code>font-feature-settings</code> property</legend>
-  <div class="container container2">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
-  <label for="checkbox2">Ligatures active</label>
-</fieldset>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-case",
-                            'Element "-" should be camelCase',
-                            "-",
-                            "4:26",
-                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
-[element-case] Element "-" should be camelCase
-~~~
-<fieldset>
-  <legend>Using <code>font-variant-ligatures</code> property</legend>
-  <div class="container container1">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
-  <label for="checkbox1">Ligatures active</label>
-</fieldset>
-
-<fieldset>
-  <legend>Using <code>font-feature-settings</code> property</legend>
-  <div class="container container2">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
-  <label for="checkbox2">Ligatures active</label>
-</fieldset>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "close-order",
-                            "Unclosed element '<->'",
-                            "-",
-                            "4:26",
-                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
-[close-order] Unclosed element '<->'
-~~~
-<fieldset>
-  <legend>Using <code>font-variant-ligatures</code> property</legend>
-  <div class="container container1">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
-  <label for="checkbox1">Ligatures active</label>
-</fieldset>
-
-<fieldset>
-  <legend>Using <code>font-feature-settings</code> property</legend>
-  <div class="container container2">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
-  <label for="checkbox2">Ligatures active</label>
-</fieldset>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "close-order",
-                            "End tag '</p>' seen but there were open elements",
-                            "/p",
-                            "4:29",
-                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
-[close-order] End tag '</p>' seen but there were open elements
-~~~
-<fieldset>
-  <legend>Using <code>font-variant-ligatures</code> property</legend>
-  <div class="container container1">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
-  <label for="checkbox1">Ligatures active</label>
-</fieldset>
-
-<fieldset>
-  <legend>Using <code>font-feature-settings</code> property</legend>
-  <div class="container container2">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
-  <label for="checkbox2">Ligatures active</label>
-</fieldset>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "close-order",
-                            "End tag '</div>' seen but there were open elements",
-                            "/div",
-                            "5:4",
-                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
-[close-order] End tag '</div>' seen but there were open elements
-~~~
-<fieldset>
-  <legend>Using <code>font-variant-ligatures</code> property</legend>
-  <div class="container container1">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
-  <label for="checkbox1">Ligatures active</label>
-</fieldset>
-
-<fieldset>
-  <legend>Using <code>font-feature-settings</code> property</legend>
-  <div class="container container2">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
-  <label for="checkbox2">Ligatures active</label>
-</fieldset>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "close-order",
-                            "End tag '</fieldset>' seen but there were open elements",
-                            "/fieldset",
-                            "8:2",
-                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
-[close-order] End tag '</fieldset>' seen but there were open elements
-~~~
-<fieldset>
-  <legend>Using <code>font-variant-ligatures</code> property</legend>
-  <div class="container container1">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
-  <label for="checkbox1">Ligatures active</label>
-</fieldset>
-
-<fieldset>
-  <legend>Using <code>font-feature-settings</code> property</legend>
-  <div class="container container2">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
-  <label for="checkbox2">Ligatures active</label>
-</fieldset>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-implicit-close",
-                            "Element <p> is implicitly closed by adjacent <#document>",
-                            "p",
-                            "13:6",
-                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
-[no-implicit-close] Element <p> is implicitly closed by adjacent <#document>
-~~~
-<fieldset>
-  <legend>Using <code>font-variant-ligatures</code> property</legend>
-  <div class="container container1">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
-  <label for="checkbox1">Ligatures active</label>
-</fieldset>
-
-<fieldset>
-  <legend>Using <code>font-feature-settings</code> property</legend>
-  <div class="container container2">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
-  <label for="checkbox2">Ligatures active</label>
-</fieldset>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-case",
-                            'Element "-" should be camelCase',
-                            "-",
-                            "13:26",
-                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
-[element-case] Element "-" should be camelCase
-~~~
-<fieldset>
-  <legend>Using <code>font-variant-ligatures</code> property</legend>
-  <div class="container container1">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
-  <label for="checkbox1">Ligatures active</label>
-</fieldset>
-
-<fieldset>
-  <legend>Using <code>font-feature-settings</code> property</legend>
-  <div class="container container2">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
-  <label for="checkbox2">Ligatures active</label>
-</fieldset>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "close-order",
-                            "Unclosed element '<->'",
-                            "-",
-                            "13:26",
-                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
-[close-order] Unclosed element '<->'
-~~~
-<fieldset>
-  <legend>Using <code>font-variant-ligatures</code> property</legend>
-  <div class="container container1">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
-  <label for="checkbox1">Ligatures active</label>
-</fieldset>
-
-<fieldset>
-  <legend>Using <code>font-feature-settings</code> property</legend>
-  <div class="container container2">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
-  <label for="checkbox2">Ligatures active</label>
-</fieldset>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "close-order",
-                            "End tag '</p>' seen but there were open elements",
-                            "/p",
-                            "13:29",
-                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
-[close-order] End tag '</p>' seen but there were open elements
-~~~
-<fieldset>
-  <legend>Using <code>font-variant-ligatures</code> property</legend>
-  <div class="container container1">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
-  <label for="checkbox1">Ligatures active</label>
-</fieldset>
-
-<fieldset>
-  <legend>Using <code>font-feature-settings</code> property</legend>
-  <div class="container container2">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
-  <label for="checkbox2">Ligatures active</label>
-</fieldset>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "close-order",
-                            "End tag '</div>' seen but there were open elements",
-                            "/div",
-                            "14:4",
-                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
-[close-order] End tag '</div>' seen but there were open elements
-~~~
-<fieldset>
-  <legend>Using <code>font-variant-ligatures</code> property</legend>
-  <div class="container container1">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
-  <label for="checkbox1">Ligatures active</label>
-</fieldset>
-
-<fieldset>
-  <legend>Using <code>font-feature-settings</code> property</legend>
-  <div class="container container2">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
-  <label for="checkbox2">Ligatures active</label>
-</fieldset>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "close-order",
-                            "End tag '</fieldset>' seen but there were open elements",
-                            "/fieldset",
-                            "17:2",
-                            `/en-US/docs/Web/CSS/CSS_fonts/OpenType_fonts_guide
-[close-order] End tag '</fieldset>' seen but there were open elements
-~~~
-<fieldset>
-  <legend>Using <code>font-variant-ligatures</code> property</legend>
-  <div class="container container1">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox1" id="checkbox1" value="on" checked />
-  <label for="checkbox1">Ligatures active</label>
-</fieldset>
-
-<fieldset>
-  <legend>Using <code>font-feature-settings</code> property</legend>
-  <div class="container container2">
-    <p>Puffy Perfect -^ <-></p>
-  </div>
-  <input type="checkbox" name="checkbox2" id="checkbox2" value="on" checked />
-  <label for="checkbox2">Ligatures active</label>
-</fieldset>
-~~~
-`
+                            "https://v-fonts.com/",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -39043,6 +34934,19 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
+                          ]
+                        }
+                      ]
+                    },
+                    grid_layout_and_accessibility: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_and_accessibility",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -46726,22 +42630,26 @@ p {
 fieldset p {
   margin-bottom: 0.25em;
 }
-[aria-expanded] {
+legend {
   position: relative;
   top: 0;
   transition: 200ms;
 }
-[aria-expanded="false"] {
+legend.closed {
   top: 0.75em;
 }
-[aria-expanded="false"] + #controls {
+legend.closed + #controls {
   display: none;
 }
 legend {
   background-color: #dedede;
   padding: 0.5em;
 }
-[aria-expanded="false"] {
+legend > button {
+  all: unset;
+  cursor: pointer;
+}
+legend.closed {
   margin: -1em;
   display: inline-block;
 }
@@ -46759,121 +42667,6 @@ blockquote p::after {
   vertical-align: baseline;
   color: red;
 }
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "prefer-native-element",
-                        "Prefer to use the native <button> element",
-                        'role="button"',
-                        "68:11",
-                        `/en-US/docs/Web/CSS/CSS_multicol_layout
-[prefer-native-element] Prefer to use the native <button> element
-~~~
-<article>
-  <div class="title">
-    <h1>A Lament for Confederation</h1>
-    <p>&mdash;Chief Dan George, 1967</p>
-  </div>
-  <p>
-    How long have I known you, Oh Canada? A hundred years? Yes, a hundred years.
-    And many, many tides more. And today, when you celebrate your hundred years,
-    Oh Canada, I am sad for all the Indian people throughout the land.
-  </p>
-  <p>
-    For I have known you when your forests were mine; when they gave me my meat
-    and my clothing. I have known you in your fruits and rivers where your fish
-    flashed and danced in the sun, where the waters said ‘come and eat of my
-    abundance.’ I have known you in the freedom of your winds. And my spirit,
-    like your winds, once roamed this good lands.
-  </p>
-  <blockquote>
-    <p>
-      But in long the hundred years since the white man came, I have seen that
-      freedom disappear just like the salmon going mysteriously out to sea.
-    </p>
-  </blockquote>
-  <p>
-    The white man’s strange customs I could not understand, pressed down upon me
-    until I could no longer breathe.
-  </p>
-  <p>
-    When I fought to protect my home and my land, I was called a savage. When I
-    neither understood nor welcomed this new way of life, I was called lazy.
-    When I tried to rule my people, I was stripped of my authority.
-  </p>
-  <p>
-    My nation was ignored in your history textbooks – we were less important in
-    the history of Canada than the buffalo that ranged the plains. I was
-    ridiculed in your plays and motion pictures, and when I drank your
-    fire-water, I got drunk – very, very drunk. And I forgot.
-  </p>
-  <p>
-    Oh Canada, how can I celebrate with you this centenary, this hundred years?
-    Shall I thank you for the reserves that are left me of my beautiful forests?
-    Shall I thank you for the canned fish of my rivers? Shall I thank you for
-    the loss of my pride and authority, even among my own people? For the lack
-    of my will to fight back? No! I must forget what is past and gone.
-  </p>
-  <p>
-    Oh God in heaven! Give me the courage of the olden chiefs. Let me wrestle
-    with my surroundings. Let me once again, as in the days of old, dominate my
-    environment. Let me humbly accept this new culture and through it rise up
-    and go on.
-  </p>
-  <p>
-    Oh god, like the thunderbird of old, I shall rise again out of the sea. I
-    shall grab the instruments of the white man’s success – his education, his
-    skills, and with these new tools I shall build my race into the proudest
-    segment of your society. And, before I follow the great chiefs who have gone
-    before us, I shall see these things come to pass.
-  </p>
-  <p>
-    I shall see our young braves and our chiefs sitting in the house of law and
-    government, ruling and being ruled by the knowledge and freedoms of our
-    great land. So shall we shatter the barriers of our isolation. So shall the
-    next hundred years be the greatest in the proud history of our tribes and
-    nations.
-  </p>
-</article>
-<fieldset id="options">
-  <legend role="button" aria-expanded="true" aria-controls="controls">
-    Column options
-  </legend>
-  <div id="controls">
-    <p>
-      <input type="range" min="0" max="5" value="5" id="colCount" />
-      <label for="colCount">Max # of columns:</label>
-    </p>
-    <p>
-      <input type="range" min="2" max="40" value="10" step="2" id="colWidth" />
-      <label for="colWidth">Min width of columns:</label>
-    </p>
-    <p>
-      <input type="range" min="0" max="10" value="1" step="0.5" id="gapSize" />
-      <label for="gapSize">Gap size:</label>
-    </p>
-    <p>
-      <input type="checkbox" checked id="colSpan" />
-      <label for="colSpan">Byline spans all columns</label>
-    </p>
-    <p>
-      <input type="checkbox" id="blockSpan" />
-      <label for="blockSpan">Blockquote spans all columns</label>
-    </p>
-    <p>
-      <input type="checkbox" id="colFill" />
-      <label for="colFill">Balance columns</label>
-    </p>
-    <p>
-      <input type="checkbox" id="break" />
-      <label for="break">Don't break paragraphs</label>
-    </p>
-  </div>
-</fieldset>
 ~~~
 `
                       ]
@@ -47014,73 +42807,6 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
 ~~~
 `
                       ]
-                    },
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "input-attributes",
-                        'Attribute "size" is not allowed on <input type="number">',
-                        "size",
-                        "17:64",
-                        `/en-US/docs/Web/CSS/CSS_overflow
-[input-attributes] Attribute "size" is not allowed on <input type="number">
-~~~
-<article>
-  <fieldset>
-    <legend>Select options:</legend>
-    <label
-      ><code>overflow</code>:
-      <select id="overflowValue">
-        <option>hidden</option>
-        <option>clip</option>
-        <option>scroll</option>
-        <option>auto</option>
-        <option selected>visible</option>
-        <option>overlay</option>
-      </select>
-    </label>
-    <label>
-      <code>overflow-clip-margin</code>:
-      <input type="number" id="ocm" value="1" min="0" max="10" size="2" />
-      <code>em</code>
-    </label>
-    <label
-      ><input type="checkbox" id="wide" /> <code>width</code>:
-      <code>20em</code> or <code>40em</code></label
-    >
-    <fieldset>
-      <legend>Scroll programmatically:</legend>
-      <label
-        >ScrollLeft:
-        <input type="range" min="0" max="100" value="0" id="scrollL"
-      /></label>
-      <label
-        >ScrollTop:
-        <input type="range" min="0" max="100" value="0" id="scrollT"
-      /></label>
-    </fieldset>
-  </fieldset>
-  <pre class="visible">&nbsp;
-    Oh, Rubber Duckie, you're the one
-    You make bath time lots of fun
-    Rubber Duckie, I'm awfully fond of you
-
-    Rubber Duckie, joy of joys
-    When I squeeze you, you make noise
-    Rubber Duckie, you're my very best friend, it's true
-
-    Oh, every day when I make my way to the tubby
-    I find a little fella who's cute and yellow and chubby
-    Rub-a-dub-dubby
-
-    <a href="#">Rubber Duckie</a>, you're so fine
-    And I'm lucky that you're mine
-    Rubber Duckie, I'm awfully fond of you
-      </pre>
-</article>
-~~~
-`
-                      ]
                     }
                   ]
                 },
@@ -47211,6 +42937,13 @@ article.snapDisabled ul {
 }
 ~~~
 `
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2022/06/keyboard-only-scrolling-areas.html",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -48325,358 +44058,7 @@ section {
                         }
                       ]
                     }
-                  },
-                  slug: "/en-US/docs/Web/CSS/CSS_transforms",
-                  messages: [
-                    {
-                      message: "HTML code issue",
-                      data: [
-                        "attribute-boolean-style",
-                        'Attribute "checked" should omit value',
-                        "checked",
-                        "311:17",
-                        `/en-US/docs/Web/CSS/CSS_transforms
-[attribute-boolean-style] Attribute "checked" should omit value
-~~~
-<article>
-  <fieldset id="allTransformFieldset">
-    <legend>
-      Transform settings
-      <button id="resetAllButton" aria-label="Reset">↻</button>
-    </legend>
-    <section id="fieldsetSection">
-      <fieldset class="transformFieldset">
-        <legend>
-          <label>
-            <span>Translation</span>
-          </label>
-          <button
-            id="translateSectionReset"
-            class="resetSectionButton"
-            aria-label="Reset">
-            ↻
-          </button>
-        </legend>
-        <div class="controlsContainer">
-          <div>
-            <label>
-              <span id="translateXLabel">X</span>
-              <input
-                type="range"
-                min="-100"
-                max="100"
-                value="0"
-                data-default="0"
-                id="translateXRange"
-                aria-labelledby="translateXLabel" />
-            </label>
-            <output id="translateXOutput" for="translateXRange"></output>
-          </div>
-          <div>
-            <label>
-              <span id="translateYLabel">Y</span>
-              <input
-                type="range"
-                min="-100"
-                max="100"
-                value="0"
-                data-default="0"
-                id="translateYRange"
-                aria-labelledby="translateYLabel" />
-            </label>
-            <output id="translateYOutput" for="translateYRange"></output>
-          </div>
-          <div>
-            <label>
-              <span id="translateZLabel">Z</span>
-              <input
-                type="range"
-                min="-100"
-                max="100"
-                value="0"
-                data-default="0"
-                id="translateZRange"
-                aria-labelledby="translateZLabel" />
-            </label>
-            <output id="translateZOutput" for="translateZRange"></output>
-          </div>
-        </div>
-      </fieldset>
-
-      <fieldset class="transformFieldset">
-        <legend>
-          <label>
-            <span>Rotation</span>
-          </label>
-          <button
-            id="rotateSectionReset"
-            class="resetSectionButton"
-            aria-label="Reset">
-            ↻
-          </button>
-        </legend>
-        <div class="controlsContainer">
-          <div>
-            <label>
-              <span id="rotateXLabel">X</span>
-              <input
-                type="range"
-                min="-360"
-                max="360"
-                value="0"
-                data-default="0"
-                id="rotateXRange"
-                aria-labelledby="rotateXLabel" />
-            </label>
-            <output id="rotateXOutput" for="rotateXRange"></output>
-          </div>
-          <div>
-            <label>
-              <span id="rotateYLabel">Y</span>
-              <input
-                type="range"
-                min="-360"
-                max="360"
-                value="0"
-                data-default="0"
-                id="rotateYRange"
-                aria-labelledby="rotateYLabel" />
-            </label>
-            <output id="rotateYOutput" for="rotateYRange"></output>
-          </div>
-          <div>
-            <label>
-              <span id="rotateZLabel">Z</span>
-              <input
-                type="range"
-                min="-360"
-                max="360"
-                value="0"
-                data-default="0"
-                id="rotateZRange"
-                aria-labelledby="rotateZLabel" />
-            </label>
-            <output id="rotateZOutput" for="rotateZRange"></output>
-          </div>
-        </div>
-      </fieldset>
-
-      <fieldset class="transformFieldset">
-        <legend>
-          <label>
-            <span>Scale</span>
-          </label>
-          <button
-            id="scaleSectionReset"
-            class="resetSectionButton"
-            aria-label="Reset">
-            ↻
-          </button>
-        </legend>
-        <div class="controlsContainer">
-          <div>
-            <label>
-              <span id="scaleXLabel">X</span>
-              <input
-                type="range"
-                min="0.1"
-                max="2.5"
-                value="1"
-                data-default="1"
-                step="0.1"
-                id="scaleXRange"
-                aria-labelledby="scaleXLabel" />
-            </label>
-            <output id="scaleXOutput" for="scaleXRange"></output>
-          </div>
-          <div>
-            <label id="scaleYLabel">
-              <span>Y</span>
-              <input
-                type="range"
-                min="0.1"
-                max="2.5"
-                value="1"
-                data-default="1"
-                step="0.1"
-                id="scaleYRange"
-                aria-labelledby="scaleYLabel" />
-            </label>
-            <output id="scaleYOutput" for="scaleYRange"></output>
-          </div>
-          <div>
-            <label id="scaleZLabel">
-              <span>Z</span>
-              <input
-                type="range"
-                min="0.1"
-                max="2.5"
-                value="1"
-                data-default="1"
-                step="0.1"
-                id="scaleZRange"
-                aria-labelledby="scaleZLabel" />
-            </label>
-            <output id="scaleZOutput" for="scaleZRange"></output>
-          </div>
-        </div>
-      </fieldset>
-
-      <fieldset class="transformFieldset">
-        <legend>
-          <label>
-            <span>Skew</span>
-          </label>
-          <button
-            id="skewSectionReset"
-            class="resetSectionButton"
-            aria-label="Reset">
-            ↻
-          </button>
-        </legend>
-        <div class="controlsContainer">
-          <div>
-            <label>
-              <span id="skewXLabel">X</span>
-              <input
-                type="range"
-                min="-90"
-                max="90"
-                value="0"
-                data-default="0"
-                id="skewXRange"
-                aria-labelledby="skewXLabel" />
-            </label>
-            <output id="skewXOutput" for="skewXRange"></output>
-          </div>
-          <div>
-            <label>
-              <span id="skewYLabel">Y</span>
-              <input
-                type="range"
-                min="-90"
-                max="90"
-                value="0"
-                data-default="0"
-                id="skewYRange"
-                aria-labelledby="skewYLabel" />
-            </label>
-            <output id="skewYOutput" for="skewYRange"></output>
-          </div>
-        </div>
-      </fieldset>
-
-      <fieldset class="transformFieldset">
-        <legend>
-          <label>
-            <span>Container Perspective</span>
-          </label>
-          <button
-            id="containerPerspectiveSectionReset"
-            class="resetSectionButton"
-            aria-label="Reset">
-            ↻
-          </button>
-        </legend>
-        <div class="controlsContainer">
-          <div>
-            <label>
-              <span id="perspectiveLabel"><code>perspective</code></span>
-              <input
-                type="range"
-                min="75"
-                max="500"
-                value="200"
-                data-default="200"
-                id="perspectiveRange"
-                aria-labelledby="perspectiveLabel" />
-            </label>
-            <output id="perspectiveOutput" for="perspectiveRange"></output>
-          </div>
-          <div>
-            <label>
-              <span id="perspectiveOriginXLabel"
-                ><code>perspective-origin</code> X (%)</span
-              >
-              <input
-                type="range"
-                min="0"
-                max="100"
-                value="50"
-                data-default="50"
-                id="perspectiveOriginXRange"
-                aria-labelledby="perspectiveOriginXLabel" />
-            </label>
-            <output
-              id="perspectiveOriginXOutput"
-              for="perspectiveOriginXRange"></output>
-          </div>
-          <div>
-            <label>
-              <span><code>perspective-origin</code> Y (%)</span>
-              <input
-                type="range"
-                min="0"
-                max="100"
-                value="50"
-                data-default="50"
-                id="perspectiveOriginYRange"
-                aria-labelledby="perspectiveOriginYLabel" />
-            </label>
-            <output
-              id="perspectiveOriginYOutput"
-              for="perspectiveOriginYRange"></output>
-          </div>
-        </div>
-      </fieldset>
-
-      <fieldset class="transformFieldset">
-        <legend>
-          <label>
-            <span>Other Properties</span>
-          </label>
-          <button
-            id="otherSectionReset"
-            class="resetSectionButton"
-            aria-label="Reset">
-            ↻
-          </button>
-        </legend>
-        <div class="controlsContainer">
-          <div>
-            <label>
-              <span><code>backface-visibility</code></span>
-              <input
-                type="checkbox"
-                checked="checked"
-                data-default="checked"
-                id="backfaceVisibilityCheckbox" />
-            </label>
-          </div>
-        </div>
-      </fieldset>
-    </section>
-  </fieldset>
-  <section id="outputSection">
-    <div id="outputContainer">
-      <div id="cube">
-        <div class="face front">1</div>
-        <div class="face back">2</div>
-        <div class="face right">3</div>
-        <div class="face left">4</div>
-        <div class="face top">5</div>
-        <div class="face bottom">6</div>
-      </div>
-      <div id="z0"><code>z:0px</code></div>
-    </div>
-    <div id="perspectiveDot"></div>
-  </section>
-</article>
-~~~
-`
-                      ]
-                    }
-                  ]
+                  }
                 },
                 css_values_and_units: {
                   children: {
@@ -48845,6 +44227,18 @@ p {
                     }
                   }
                 },
+                css_view_transitions: {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/CSS_view_transitions",
+                  messages: [
+                    {
+                      message: "Broken link",
+                      data: [
+                        "/en-US/docs/Web/CSS/:active-view-transition-type"
+                      ]
+                    }
+                  ]
+                },
                 css_writing_modes: {
                   children: {
                     vertical_controls: {
@@ -48935,6 +44329,26 @@ input[type="range"] {
 }
 ~~~
 `
+                      ]
+                    }
+                  ]
+                },
+                "display-box": {
+                  children: {},
+                  slug: "/en-US/docs/Web/CSS/display-box",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                        "The operation timed out."
+                      ]
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -49386,71 +44800,6 @@ env(viewport-segment-width 1 0)
                 },
                 "filter-function": {
                   children: {
-                    blur: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/filter-function/blur",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-deprecated-attr",
-                            'Attribute "cellpadding" is deprecated on <table> element',
-                            "cellpadding",
-                            "11:8",
-                            `/en-US/docs/Web/CSS/filter-function/blur
-[no-deprecated-attr] Attribute "cellpadding" is deprecated on <table> element
-~~~
-<svg role="img" aria-label="Flag">
-  <filter id="blur">
-    <feGaussianBlur stdDeviation="3.5" edgeMode="duplicate" />
-  </filter>
-  <image
-    href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-    xlink:href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-    filter="url('#blur')" />
-</svg>
-
-<table cellpadding="5">
-  <thead>
-    <tr>
-      <th>Live example</th>
-      <th>SVG Equivalent</th>
-      <th>Original image</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <img
-          class="filter"
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag" />
-      </td>
-      <td>
-        <svg id="svg" height="220" width="220" overflow="visible">
-          <filter id="svgBlur">
-            <feGaussianBlur stdDeviation="3.5" />
-          </filter>
-          <image
-            href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-            xlink:href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-            filter="url('#svgBlur')" />
-        </svg>
-      </td>
-      <td>
-        <img
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag" />
-      </td>
-    </tr>
-  </tbody>
-</table>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     brightness: {
                       children: {},
                       slug: "/en-US/docs/Web/CSS/filter-function/brightness",
@@ -49477,60 +44826,6 @@ brightness(100%)
 
 brightness(2)   /* Brightness of input is doubled */
 brightness(200%)
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-deprecated-attr",
-                            'Attribute "cellpadding" is deprecated on <table> element',
-                            "cellpadding",
-                            "11:8",
-                            `/en-US/docs/Web/CSS/filter-function/brightness
-[no-deprecated-attr] Attribute "cellpadding" is deprecated on <table> element
-~~~
-<svg role="none">
-  <filter id="darken25" color-interpolation-filters="sRGB">
-    <feComponentTransfer>
-      <feFuncR type="linear" slope="0.75" />
-      <feFuncG type="linear" slope="0.75" />
-      <feFuncB type="linear" slope="0.75" />
-    </feComponentTransfer>
-  </filter>
-</svg>
-
-<table cellpadding="5">
-  <thead>
-    <tr>
-      <th>Live example</th>
-      <th>SVG Equivalent</th>
-      <th>Original image</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <img
-          class="css-filter"
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="darkened pride flag" />
-      </td>
-      <td>
-        <img
-          class="svg-filter"
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="darkened pride flag" />
-      </td>
-      <td>
-        <img
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag" />
-      </td>
-    </tr>
-  </tbody>
-</table>
 ~~~
 `
                           ]
@@ -49563,67 +44858,6 @@ contrast(100%)
 
 contrast(2)    /* Double contrast */
 contrast(200%)
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-deprecated-attr",
-                            'Attribute "cellpadding" is deprecated on <table> element',
-                            "cellpadding",
-                            "18:8",
-                            `/en-US/docs/Web/CSS/filter-function/contrast
-[no-deprecated-attr] Attribute "cellpadding" is deprecated on <table> element
-~~~
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  id="svg"
-  viewBox="0 0 240 151"
-  height="0"
-  width="0"
-  overflow="visible"
-  color-interpolation-filters="sRGB">
-  <filter id="contrast">
-    <feComponentTransfer>
-      <feFuncR type="linear" slope="2" intercept="-0.5" />
-      <feFuncG type="linear" slope="2" intercept="-0.5" />
-      <feFuncB type="linear" slope="2" intercept="-0.5" />
-    </feComponentTransfer>
-  </filter>
-</svg>
-
-<table cellpadding="5">
-  <thead>
-    <tr>
-      <th><code>contrast()</code></th>
-      <th><code>url()</code></th>
-      <th>Original image</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <img
-          class="css-filter"
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag" />
-      </td>
-      <td>
-        <img
-          class="svg-filter"
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag" />
-      </td>
-      <td>
-        <img
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag" />
-      </td>
-    </tr>
-  </tbody>
-</table>
 ~~~
 `
                           ]
@@ -49675,130 +44909,6 @@ hue-rotate(540deg)
 hue-rotate(200grad)
 hue-rotate(3.14159rad)
 hue-rotate(0.5turn)
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-deprecated-attr",
-                            'Attribute "cellpadding" is deprecated on <table> element',
-                            "cellpadding",
-                            "12:8",
-                            `/en-US/docs/Web/CSS/filter-function/hue-rotate
-[no-deprecated-attr] Attribute "cellpadding" is deprecated on <table> element
-~~~
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 220 220"
-  color-interpolation-filters="sRGB"
-  height="220"
-  width="220">
-  <filter id="hue-rotate">
-    <feColorMatrix type="hueRotate" values="90" />
-  </filter>
-</svg>
-
-<table cellpadding="5">
-  <thead>
-    <tr>
-      <th><code>hue-rotate()</code></th>
-      <th><code>url()</code></th>
-      <th>Original image</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <img
-          class="css-filter"
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag with rotated colors" />
-      </td>
-      <td>
-        <img
-          class="svg-filter"
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag with rotated colors" />
-      </td>
-      <td>
-        <img
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag" />
-      </td>
-    </tr>
-  </tbody>
-</table>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    invert: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/filter-function/invert",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-deprecated-attr",
-                            'Attribute "cellpadding" is deprecated on <table> element',
-                            "cellpadding",
-                            "11:8",
-                            `/en-US/docs/Web/CSS/filter-function/invert
-[no-deprecated-attr] Attribute "cellpadding" is deprecated on <table> element
-~~~
-<svg height="0">
-  <filter id="invert">
-    <feComponentTransfer>
-      <feFuncR type="table" tableValues="0.3 0" />
-      <feFuncG type="table" tableValues="0.3 0" />
-      <feFuncB type="table" tableValues="0.3 0" />
-    </feComponentTransfer>
-  </filter>
-</svg>
-
-<table cellpadding="5">
-  <thead>
-    <tr>
-      <th><code>invert()</code> filter</th>
-      <th>SVG filter equivalent</th>
-      <th>Original image</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <img
-          class="svgFilter"
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag" />
-      </td>
-      <td>
-        <svg id="svg" height="220" width="220" overflow="visible">
-          <filter id="svgInvert">
-            <feComponentTransfer>
-              <feFuncR type="table" tableValues="0.3 0" />
-              <feFuncG type="table" tableValues="0.3 0" />
-              <feFuncB type="table" tableValues="0.3 0" />
-            </feComponentTransfer>
-          </filter>
-          <image
-            href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-            xlink:href="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-            filter="url('#svgInvert')" />
-        </svg>
-      </td>
-      <td>
-        <img
-          src="https://mdn.github.io/shared-assets/images/examples/progress-pride-flag.jpg"
-          alt="Pride flag" />
-      </td>
-    </tr>
-  </tbody>
-</table>
 ~~~
 `
                           ]
@@ -55282,32 +50392,6 @@ pre {
                             }
                           ]
                         },
-                        "accent-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/accent-color",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "attribute-boolean-style",
-                                'Attribute "checked" should omit value',
-                                "checked",
-                                "3:12",
-                                `/en-US/docs/Web/CSS/Reference/Properties/accent-color
-[attribute-boolean-style] Attribute "checked" should omit value
-~~~
-<section class="default-example container" id="default-example">
-  <div>
-    <input checked="" id="example-element" type="checkbox" />
-    <label for="example-element" id="example-label">Example Label</label>
-  </div>
-</section>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         "alignment-baseline": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/alignment-baseline",
@@ -55939,57 +51023,6 @@ td {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "2:4",
-                                `/en-US/docs/Web/CSS/Reference/Properties/backface-visibility
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr>
-    <th><code>backface-visibility: visible;</code></th>
-    <th><code>backface-visibility: hidden;</code></th>
-  </tr>
-  <tr>
-    <td>
-      <div class="container">
-        <div class="cube show-bf">
-          <div class="face front">1</div>
-          <div class="face back">2</div>
-          <div class="face right">3</div>
-          <div class="face left">4</div>
-          <div class="face top">5</div>
-          <div class="face bottom">6</div>
-        </div>
-      </div>
-      <p>
-        Since all faces are partially transparent, the back faces (2, 4, 5) are
-        visible through the front faces (1, 3, 6).
-      </p>
-    </td>
-    <td>
-      <div class="container">
-        <div class="cube hide-bf">
-          <div class="face front">1</div>
-          <div class="face back">2</div>
-          <div class="face right">3</div>
-          <div class="face left">4</div>
-          <div class="face top">5</div>
-          <div class="face bottom">6</div>
-        </div>
-      </div>
-      <p>The three back faces (2, 4, 5) are hidden.</p>
-    </td>
-  </tr>
-</table>
-~~~
-`
-                              ]
                             }
                           ]
                         },
@@ -56036,43 +51069,6 @@ p {
   background-clip: border-area;
   border-color: transparent;
 }
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        "background-color": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/background-color",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "2:4",
-                                `/en-US/docs/Web/CSS/Reference/Properties/background-color
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr id="r1">
-    <td id="c11">11</td>
-    <td id="c12">12</td>
-    <td id="c13">13</td>
-  </tr>
-  <tr id="r2">
-    <td id="c21">21</td>
-    <td id="c22">22</td>
-    <td id="c23">23</td>
-  </tr>
-  <tr id="r3">
-    <td id="c31">31</td>
-    <td id="c32">32</td>
-    <td id="c33">33</td>
-  </tr>
-</table>
 ~~~
 `
                               ]
@@ -56178,118 +51174,6 @@ p {
                             }
                           ]
                         },
-                        "border-bottom-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-bottom-style",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "2:4",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-bottom-style
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr>
-    <td class="b1">none</td>
-    <td class="b2">hidden</td>
-    <td class="b3">dotted</td>
-    <td class="b4">dashed</td>
-  </tr>
-  <tr>
-    <td class="b5">solid</td>
-    <td class="b6">double</td>
-    <td class="b7">groove</td>
-    <td class="b8">ridge</td>
-  </tr>
-  <tr>
-    <td class="b9">inset</td>
-    <td class="b10">outset</td>
-  </tr>
-</table>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        "border-collapse": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-collapse",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "3:6",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-collapse
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<section class="default-example" id="default-example">
-  <table class="transition-all" id="example-element">
-    <tr>
-      <td>Cell 1.1</td>
-      <td>Cell 1.2</td>
-    </tr>
-    <tr>
-      <td>Cell 2.1</td>
-      <td>Cell 2.2</td>
-    </tr>
-    <tr>
-      <td>Cell 3.1</td>
-      <td>Cell 3.2</td>
-    </tr>
-  </table>
-</section>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        "border-left-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-left-style",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "2:4",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-left-style
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr>
-    <td class="b1">none</td>
-    <td class="b2">hidden</td>
-    <td class="b3">dotted</td>
-    <td class="b4">dashed</td>
-  </tr>
-  <tr>
-    <td class="b5">solid</td>
-    <td class="b6">double</td>
-    <td class="b7">groove</td>
-    <td class="b8">ridge</td>
-  </tr>
-  <tr>
-    <td class="b9">inset</td>
-    <td class="b10">outset</td>
-  </tr>
-</table>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         "border-radius": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/border-radius",
@@ -56329,149 +51213,6 @@ div {
   border-radius: 0 20% 50px 30%;
   corner-shape: superellipse(0.5) bevel notch squircle;
 }
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        "border-right-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-right-style",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "2:4",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-right-style
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr>
-    <td class="b1">none</td>
-    <td class="b2">hidden</td>
-    <td class="b3">dotted</td>
-    <td class="b4">dashed</td>
-  </tr>
-  <tr>
-    <td class="b5">solid</td>
-    <td class="b6">double</td>
-    <td class="b7">groove</td>
-    <td class="b8">ridge</td>
-  </tr>
-  <tr>
-    <td class="b9">inset</td>
-    <td class="b10">outset</td>
-  </tr>
-</table>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        "border-spacing": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-spacing",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "3:6",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-spacing
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<section class="default-example" id="default-example">
-  <table class="transition-all" id="example-element">
-    <tr>
-      <td>Cell 1.1</td>
-      <td>Cell 1.2</td>
-    </tr>
-    <tr>
-      <td>Cell 2.1</td>
-      <td>Cell 2.2</td>
-    </tr>
-    <tr>
-      <td>Cell 3.1</td>
-      <td>Cell 3.2</td>
-    </tr>
-  </table>
-</section>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "2:4",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-spacing
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr>
-    <td>1</td>
-    <td>2</td>
-    <td>3</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>5</td>
-    <td>6</td>
-  </tr>
-  <tr>
-    <td>7</td>
-    <td>8</td>
-    <td>9</td>
-  </tr>
-</table>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        "border-top-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/border-top-style",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "2:4",
-                                `/en-US/docs/Web/CSS/Reference/Properties/border-top-style
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr>
-    <td class="b1">none</td>
-    <td class="b2">hidden</td>
-    <td class="b3">dotted</td>
-    <td class="b4">dashed</td>
-  </tr>
-  <tr>
-    <td class="b5">solid</td>
-    <td class="b6">double</td>
-    <td class="b7">groove</td>
-    <td class="b8">ridge</td>
-  </tr>
-  <tr>
-    <td class="b9">inset</td>
-    <td class="b10">outset</td>
-  </tr>
-</table>
 ~~~
 `
                               ]
@@ -56563,123 +51304,6 @@ blockquote {
     0 0 0 2px white,
     0.3em 0.3em 1em rgb(200 0 0 / 60%);
 }
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        "caption-side": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/caption-side",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "6:6",
-                                `/en-US/docs/Web/CSS/Reference/Properties/caption-side
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<section class="default-example" id="default-example">
-  <table class="transition-all" id="example-element">
-    <caption>
-      Famous animals
-    </caption>
-    <tr>
-      <th>Name</th>
-      <th>Location</th>
-    </tr>
-    <tr>
-      <td>Giraffe</td>
-      <td>Africa</td>
-    </tr>
-    <tr>
-      <td>Penguin</td>
-      <td>Antarctica</td>
-    </tr>
-    <tr>
-      <td>Sloth</td>
-      <td>South America</td>
-    </tr>
-    <tr>
-      <td>Tiger</td>
-      <td>Asia</td>
-    </tr>
-  </table>
-</section>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "5:4",
-                                `/en-US/docs/Web/CSS/Reference/Properties/caption-side
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table class="top">
-  <caption>
-    Caption ABOVE the table
-  </caption>
-  <tr>
-    <td>Some data</td>
-    <td>Some more data</td>
-  </tr>
-</table>
-
-<br />
-
-<table class="bottom">
-  <caption>
-    Caption BELOW the table
-  </caption>
-  <tr>
-    <td>Some data</td>
-    <td>Some more data</td>
-  </tr>
-</table>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "17:4",
-                                `/en-US/docs/Web/CSS/Reference/Properties/caption-side
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table class="top">
-  <caption>
-    Caption ABOVE the table
-  </caption>
-  <tr>
-    <td>Some data</td>
-    <td>Some more data</td>
-  </tr>
-</table>
-
-<br />
-
-<table class="bottom">
-  <caption>
-    Caption BELOW the table
-  </caption>
-  <tr>
-    <td>Some data</td>
-    <td>Some more data</td>
-  </tr>
-</table>
 ~~~
 `
                               ]
@@ -57124,6 +51748,19 @@ i {
                             }
                           ]
                         },
+                        display: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/display",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2018/05/display-contents-is-not-a-css-reset.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "dynamic-range-limit": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/dynamic-range-limit",
@@ -57132,120 +51769,6 @@ i {
                               message: "Missing data",
                               data: [
                                 "CSS info"
-                              ]
-                            }
-                          ]
-                        },
-                        "empty-cells": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/empty-cells",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "3:6",
-                                `/en-US/docs/Web/CSS/Reference/Properties/empty-cells
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<section class="default-example" id="default-example">
-  <table class="transition-all" id="example-element">
-    <tr>
-      <th>Client Name</th>
-      <th>Age</th>
-    </tr>
-    <tr>
-      <td></td>
-      <td>25</td>
-    </tr>
-    <tr>
-      <td>Louise Q.</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Owen B.</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Stan L.</td>
-      <td>71</td>
-    </tr>
-  </table>
-</section>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "2:4",
-                                `/en-US/docs/Web/CSS/Reference/Properties/empty-cells
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table class="table_1">
-  <tr>
-    <td>Moe</td>
-    <td>Larry</td>
-  </tr>
-  <tr>
-    <td>Curly</td>
-    <td></td>
-  </tr>
-</table>
-<br />
-<table class="table_2">
-  <tr>
-    <td>Moe</td>
-    <td>Larry</td>
-  </tr>
-  <tr>
-    <td>Curly</td>
-    <td></td>
-  </tr>
-</table>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "13:4",
-                                `/en-US/docs/Web/CSS/Reference/Properties/empty-cells
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table class="table_1">
-  <tr>
-    <td>Moe</td>
-    <td>Larry</td>
-  </tr>
-  <tr>
-    <td>Curly</td>
-    <td></td>
-  </tr>
-</table>
-<br />
-<table class="table_2">
-  <tr>
-    <td>Moe</td>
-    <td>Larry</td>
-  </tr>
-  <tr>
-    <td>Curly</td>
-    <td></td>
-  </tr>
-</table>
-~~~
-`
                               ]
                             }
                           ]
@@ -57542,6 +52065,19 @@ ellipse {
                             }
                           ]
                         },
+                        "flex-direction": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/flex-direction",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2015/09/source-order-matters.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "flex-grow": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/flex-grow",
@@ -57761,1567 +52297,6 @@ rect {
                             }
                           ]
                         },
-                        font: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "attribute-boolean-style",
-                                'Attribute "checked" should omit value',
-                                "checked",
-                                "12:9",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font
-[attribute-boolean-style] Attribute "checked" should omit value
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value="" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" " />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input type="radio" id="font-weight-none" name="font_weight" value="" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input type="radio" id="font-size-12px" name="font_size" value="12px" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked="" />
-      <label for="font-size-16px">16px</label><br />
-      <input type="radio" id="font-size-24px" name="font_size" value="24px" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value="" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input type="radio" id="line-height-3" name="line_height" value="/3" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "attribute-boolean-style",
-                                'Attribute "checked" should omit value',
-                                "checked",
-                                "41:9",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font
-[attribute-boolean-style] Attribute "checked" should omit value
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value="" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" " />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input type="radio" id="font-weight-none" name="font_weight" value="" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input type="radio" id="font-size-12px" name="font_size" value="12px" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked="" />
-      <label for="font-size-16px">16px</label><br />
-      <input type="radio" id="font-size-24px" name="font_size" value="24px" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value="" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input type="radio" id="line-height-3" name="line_height" value="/3" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "attribute-boolean-style",
-                                'Attribute "checked" should omit value',
-                                "checked",
-                                "65:9",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font
-[attribute-boolean-style] Attribute "checked" should omit value
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value="" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" " />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input type="radio" id="font-weight-none" name="font_weight" value="" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input type="radio" id="font-size-12px" name="font_size" value="12px" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked="" />
-      <label for="font-size-16px">16px</label><br />
-      <input type="radio" id="font-size-24px" name="font_size" value="24px" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value="" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input type="radio" id="line-height-3" name="line_height" value="/3" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "attribute-boolean-style",
-                                'Attribute "checked" should omit value',
-                                "checked",
-                                "86:9",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font
-[attribute-boolean-style] Attribute "checked" should omit value
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value="" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" " />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input type="radio" id="font-weight-none" name="font_weight" value="" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input type="radio" id="font-size-12px" name="font_size" value="12px" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked="" />
-      <label for="font-size-16px">16px</label><br />
-      <input type="radio" id="font-size-24px" name="font_size" value="24px" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value="" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input type="radio" id="line-height-3" name="line_height" value="/3" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "attribute-boolean-style",
-                                'Attribute "checked" should omit value',
-                                "checked",
-                                "98:9",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font
-[attribute-boolean-style] Attribute "checked" should omit value
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value="" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" " />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input type="radio" id="font-weight-none" name="font_weight" value="" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input type="radio" id="font-size-12px" name="font_size" value="12px" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked="" />
-      <label for="font-size-16px">16px</label><br />
-      <input type="radio" id="font-size-24px" name="font_size" value="24px" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value="" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input type="radio" id="line-height-3" name="line_height" value="/3" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "valid-id",
-                                'element id "line-height-1.2" must only contain letters, digits, dash and underscore characters',
-                                "line-height-1.2",
-                                "103:13",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font
-[valid-id] element id "line-height-1.2" must only contain letters, digits, dash and underscore characters
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value="" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" " />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input type="radio" id="font-weight-none" name="font_weight" value="" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input type="radio" id="font-size-12px" name="font_size" value="12px" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked="" />
-      <label for="font-size-16px">16px</label><br />
-      <input type="radio" id="font-size-24px" name="font_size" value="24px" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value="" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input type="radio" id="line-height-3" name="line_height" value="/3" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "attribute-boolean-style",
-                                'Attribute "checked" should omit value',
-                                "checked",
-                                "118:9",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font
-[attribute-boolean-style] Attribute "checked" should omit value
-~~~
-<p>
-  Change the radio buttons below to see the generated shorthand and its effect.
-</p>
-<form action="createShortHand()">
-  <div class="cf">
-    <div class="setPropCont">
-      font-style<br />
-      <input
-        type="radio"
-        id="font-style-none"
-        name="font_style"
-        checked=""
-        value="" />
-      <label for="font-style-none">none</label><br />
-      <input
-        type="radio"
-        id="font-style-normal"
-        name="font_style"
-        value="normal" />
-      <label for="font-style-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-style-italic"
-        name="font_style"
-        value="italic" />
-      <label for="font-style-italic">italic</label><br />
-      <input
-        type="radio"
-        id="font-style-oblique"
-        name="font_style"
-        value="oblique" />
-      <label for="font-style-oblique">oblique</label>
-    </div>
-
-    <div class="setPropCont">
-      font-variant<br />
-      <input
-        type="radio"
-        id="font-variant-none"
-        name="font_variant"
-        checked=""
-        value=" " />
-      <label for="font-variant-none">none</label><br />
-      <input
-        type="radio"
-        id="font-variant-normal"
-        name="font_variant"
-        value="normal" />
-      <label for="font-variant-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-variant-small-caps"
-        name="font_variant"
-        value="small-caps" />
-      <label for="font-variant-small-caps">small-caps</label>
-    </div>
-
-    <div class="setPropCont">
-      font-weight<br />
-      <input type="radio" id="font-weight-none" name="font_weight" value="" />
-      <label for="font-weight-none">none</label><br />
-      <input
-        type="radio"
-        id="font-weight-normal"
-        checked=""
-        name="font_weight"
-        value="400" />
-      <label for="font-weight-normal">normal</label><br />
-      <input
-        type="radio"
-        id="font-weight-bold"
-        name="font_weight"
-        value="700" />
-      <label for="font-weight-bold">bold</label>
-    </div>
-
-    <div class="setPropCont">
-      font-size<br />
-      <input type="radio" id="font-size-12px" name="font_size" value="12px" />
-      <label for="font-size-12px">12px</label><br />
-      <input
-        type="radio"
-        id="font-size-16px"
-        name="font_size"
-        value="16px"
-        checked="" />
-      <label for="font-size-16px">16px</label><br />
-      <input type="radio" id="font-size-24px" name="font_size" value="24px" />
-      <label for="font-size-24px">24px</label>
-    </div>
-
-    <div class="setPropCont">
-      line-height<br />
-      <input
-        type="radio"
-        id="line-height-none"
-        name="line_height"
-        checked=""
-        value="" />
-      <label for="line-height-none">none</label><br />
-      <input
-        type="radio"
-        id="line-height-1.2"
-        name="line_height"
-        value="/1.2" />
-      <label for="line-height-1.2">1.2</label><br />
-      <input type="radio" id="line-height-3" name="line_height" value="/3" />
-      <label for="line-height-3">3</label>
-    </div>
-    <br />
-
-    <div class="setPropCont fontfamily">
-      font-family<br />
-      <input
-        type="radio"
-        id="font-family-courier"
-        name="font_family"
-        checked=""
-        value="courier" />
-      <label for="font-family-courier">courier</label><br />
-      <input
-        type="radio"
-        id="font-family-serif"
-        name="font_family"
-        value="serif" />
-      <label for="font-family-serif">serif</label><br />
-      <input
-        type="radio"
-        id="font-family-sans-serif"
-        name="font_family"
-        value="sans-serif" />
-      <label for="font-family-sans-serif">sans-serif</label><br />
-      <input
-        type="radio"
-        id="font-family-arial"
-        name="font_family"
-        value="arial" />
-      <label for="font-family-arial">Arial</label><br />
-      <input
-        type="radio"
-        id="font-family-monospace"
-        name="font_family"
-        value="monospace" />
-      <label for="font-family-monospace">monospace</label><br />
-      <input
-        type="radio"
-        id="font-family-cursive"
-        name="font_family"
-        value="cursive" />
-      <label for="font-family-cursive">cursive</label><br />
-      <input
-        type="radio"
-        id="font-family-fantasy"
-        name="font_family"
-        value="fantasy" />
-      <label for="font-family-fantasy">fantasy</label><br />
-      <input
-        type="radio"
-        id="font-family-system-ui"
-        name="font_family"
-        value="system-ui" />
-      <label for="font-family-system-ui">system-ui</label><br />
-    </div>
-  </div>
-
-  <div class="cf propInputs">
-    <div class="propInputCont tar">font :</div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_style" /><br />
-      font-style <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_variant" /> <br />
-      font-variant <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_font_weight" /> <br />
-      font-weight <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_size" /> <br />
-      font-size <br />
-      mandatory
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss" id="input_line_height" /> <br />
-      line-height <br />
-      optional
-    </div>
-    <div class="propInputCont">
-      <input type="text" class="curCss mandatory" id="input_font_family" />
-      <br />
-      font-family <br />
-      mandatory
-    </div>
-  </div>
-</form>
-
-<div class="fontShortHand">This is some sample text.</div>
-<br /><br /><br /><br /><br /><br />
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        "font-feature-settings": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-feature-settings",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "5:8",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font-feature-settings
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<section id="default-example">
-  <div id="example-element">
-    <p>Difficult waffles</p>
-    <table>
-      <tr>
-        <td><span class="tabular">0O</span></td>
-      </tr>
-      <tr>
-        <td><span class="tabular">3.14</span></td>
-      </tr>
-      <tr>
-        <td><span class="tabular">2.71</span></td>
-      </tr>
-    </table>
-  </div>
-</section>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         "font-palette": {
                           children: {
                             "palette-mix": {
@@ -59395,79 +52370,15 @@ p {
                             }
                           }
                         },
-                        "font-variant": {
+                        "font-variation-settings": {
                           children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant",
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variation-settings",
                           messages: [
                             {
-                              message: "HTML code issue",
+                              message: "Broken external link",
                               data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "5:8",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font-variant
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<section id="default-example">
-  <div id="example-element">
-    <p>Difficult waffles</p>
-    <table>
-      <tr>
-        <td><span class="tabular">0O</span></td>
-      </tr>
-      <tr>
-        <td><span class="tabular">3.14</span></td>
-      </tr>
-      <tr>
-        <td><span class="tabular">2.71</span></td>
-      </tr>
-    </table>
-  </div>
-</section>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        "font-variant-numeric": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/font-variant-numeric",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "4:8",
-                                `/en-US/docs/Web/CSS/Reference/Properties/font-variant-numeric
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<section id="default-example">
-  <div id="example-element">
-    <table>
-      <tr>
-        <td><span class="tabular">0</span></td>
-      </tr>
-      <tr>
-        <td><span class="tabular">3.54</span></td>
-      </tr>
-      <tr>
-        <td><span class="tabular">1.71</span></td>
-      </tr>
-      <tr>
-        <td><span class="tabular">1st</span></td>
-      </tr>
-      <tr>
-        <td><span class="tabular">3/4</span></td>
-      </tr>
-    </table>
-  </div>
-</section>
-~~~
-`
+                                "https://v-fonts.com/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -60522,88 +53433,6 @@ p {
                               data: [
                                 "CSS info"
                               ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "attribute-empty-style",
-                                'Attribute "contenteditable" should omit value',
-                                "contenteditable",
-                                "10:9",
-                                `/en-US/docs/Web/CSS/Reference/Properties/interactivity
-[attribute-empty-style] Attribute "contenteditable" should omit value
-~~~
-<p>
-  This paragraph is not
-  <a
-    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/inert"
-    >inert</a
-  >. You should be able to select the text content, search for it using
-  in-browser search features, and focus and click the link. There is a
-  <code>click</code> event handler set on the paragraph that changes the border
-  color for a second when it is clicked anywhere.
-  <span contenteditable="">This sentence has <code>contenteditable</code> set on
-  it, so it is editable</span>.
-</p>
-
-<p class="inert">
-  This paragraph is
-  <a
-    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/inert"
-    >inert</a
-  >. You won't be able to select the text content, search for it using
-  in-browser search features, focus and click the link, or issue
-  <code>click</code> events on it (the border color won't change when it is
-  clicked).
-  <span contenteditable=""
-    >This sentence has <code>contenteditable</code> set on it, but it is not
-    editable because it is inert</span
-  >.
-</p>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "attribute-empty-style",
-                                'Attribute "contenteditable" should omit value',
-                                "contenteditable",
-                                "23:9",
-                                `/en-US/docs/Web/CSS/Reference/Properties/interactivity
-[attribute-empty-style] Attribute "contenteditable" should omit value
-~~~
-<p>
-  This paragraph is not
-  <a
-    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/inert"
-    >inert</a
-  >. You should be able to select the text content, search for it using
-  in-browser search features, and focus and click the link. There is a
-  <code>click</code> event handler set on the paragraph that changes the border
-  color for a second when it is clicked anywhere.
-  <span contenteditable="">This sentence has <code>contenteditable</code> set on
-  it, so it is editable</span>.
-</p>
-
-<p class="inert">
-  This paragraph is
-  <a
-    href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/inert"
-    >inert</a
-  >. You won't be able to select the text content, search for it using
-  in-browser search features, focus and click the link, or issue
-  <code>click</code> events on it (the border color won't change when it is
-  clicked).
-  <span contenteditable=""
-    >This sentence has <code>contenteditable</code> set on it, but it is not
-    editable because it is inert</span
-  >.
-</p>
-~~~
-`
-                              ]
                             }
                           ]
                         },
@@ -60615,3043 +53444,6 @@ p {
                               message: "Not in BCD",
                               data: [
                                 "css.properties.line-height-step"
-                              ]
-                            }
-                          ]
-                        },
-                        "list-style-type": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/list-style-type",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "valid-id",
-                                'element id "-moz-ethiopic-halehame" must begin with a letter',
-                                "-moz-ethiopic-halehame",
-                                "339:11",
-                                `/en-US/docs/Web/CSS/Reference/Properties/list-style-type
-[valid-id] element id "-moz-ethiopic-halehame" must begin with a letter
-~~~
-<ol>
-  <li>Apollo</li>
-  <li>Hubble</li>
-  <li>Chandra</li>
-  <li>Cassini-Huygens</li>
-  <li>Spitzer</li>
-</ol>
-
-<h2>Choose a list style type:</h2>
-
-<div class="container">
-  <label for="disc">
-    <input type="radio" id="disc" name="type" value="disc" />disc
-  </label>
-
-  <label for="circle">
-    <input type="radio" id="circle" name="type" value="circle" />circle
-  </label>
-
-  <label for="square">
-    <input type="radio" id="square" name="type" value="square" />square
-  </label>
-
-  <label for="decimal">
-    <input type="radio" id="decimal" name="type" value="decimal" />decimal
-  </label>
-
-  <label for="cjk-decimal">
-    <input
-      type="radio"
-      id="cjk-decimal"
-      name="type"
-      value="cjk-decimal" />cjk-decimal
-  </label>
-
-  <label for="decimal-leading-zero">
-    <input
-      type="radio"
-      id="decimal-leading-zero"
-      name="type"
-      value="decimal-leading-zero" />decimal-leading-zero
-  </label>
-
-  <label for="lower-roman">
-    <input
-      type="radio"
-      id="lower-roman"
-      name="type"
-      value="lower-roman" />lower-roman
-  </label>
-
-  <label for="upper-roman">
-    <input
-      type="radio"
-      id="upper-roman"
-      name="type"
-      value="upper-roman" />upper-roman
-  </label>
-
-  <label for="lower-greek">
-    <input
-      type="radio"
-      id="lower-greek"
-      name="type"
-      value="lower-greek" />lower-greek
-  </label>
-
-  <label for="lower-alpha">
-    <input
-      type="radio"
-      id="lower-alpha"
-      name="type"
-      value="lower-alpha" />lower-alpha, lower-latin
-  </label>
-
-  <label for="upper-alpha">
-    <input
-      type="radio"
-      id="upper-alpha"
-      name="type"
-      value="upper-alpha" />upper-alpha, upper-latin
-  </label>
-
-  <label for="arabic-indic">
-    <input
-      type="radio"
-      id="arabic-indic"
-      name="type"
-      value="arabic-indic" />arabic-indic
-  </label>
-
-  <label for="armenian">
-    <input type="radio" id="armenian" name="type" value="armenian" />armenian
-  </label>
-
-  <label for="bengali">
-    <input type="radio" id="bengali" name="type" value="bengali" />bengali
-  </label>
-
-  <label for="cambodian">
-    <input type="radio" id="cambodian" name="type" value="cambodian" />cambodian
-  </label>
-
-  <label for="cjk-earthly-branch">
-    <input
-      type="radio"
-      id="cjk-earthly-branch"
-      name="type"
-      value="cjk-earthly-branch" />cjk-earthly-branch
-  </label>
-
-  <label for="cjk-heavenly-stem">
-    <input
-      type="radio"
-      id="cjk-heavenly-stem"
-      name="type"
-      value="cjk-heavenly-stem" />cjk-heavenly-stem
-  </label>
-
-  <label for="cjk-ideographic">
-    <input
-      type="radio"
-      id="cjk-ideographic"
-      name="type"
-      value="cjk-ideographic" />cjk-ideographic
-  </label>
-
-  <label for="devanagari">
-    <input
-      type="radio"
-      id="devanagari"
-      name="type"
-      value="devanagari" />devanagari
-  </label>
-
-  <label for="ethiopic-numeric">
-    <input
-      type="radio"
-      id="ethiopic-numeric"
-      name="type"
-      value="ethiopic-numeric" />ethiopic-numeric
-  </label>
-
-  <label for="georgian">
-    <input type="radio" id="georgian" name="type" value="georgian" />georgian
-  </label>
-
-  <label for="gujarati">
-    <input type="radio" id="gujarati" name="type" value="gujarati" />gujarati
-  </label>
-
-  <label for="gurmukhi">
-    <input type="radio" id="gurmukhi" name="type" value="gurmukhi" />gurmukhi
-  </label>
-
-  <label for="hebrew">
-    <input type="radio" id="hebrew" name="type" value="hebrew" />hebrew
-  </label>
-
-  <label for="hiragana">
-    <input type="radio" id="hiragana" name="type" value="hiragana" />hiragana
-  </label>
-
-  <label for="hiragana-iroha">
-    <input
-      type="radio"
-      id="hiragana-iroha"
-      name="type"
-      value="hiragana-iroha" />hiragana-iroha
-  </label>
-
-  <label for="japanese-formal">
-    <input
-      type="radio"
-      id="japanese-formal"
-      name="type"
-      value="japanese-formal" />japanese-formal
-  </label>
-
-  <label for="japanese-informal">
-    <input
-      type="radio"
-      id="japanese-informal"
-      name="type"
-      value="japanese-informal" />japanese-informal
-  </label>
-
-  <label for="kannada">
-    <input type="radio" id="kannada" name="type" value="kannada" />kannada
-  </label>
-
-  <label for="katakana">
-    <input type="radio" id="katakana" name="type" value="katakana" />katakana
-  </label>
-
-  <label for="katakana-iroha">
-    <input
-      type="radio"
-      id="katakana-iroha"
-      name="type"
-      value="katakana-iroha" />katakana-iroha
-  </label>
-
-  <label for="khmer">
-    <input type="radio" id="khmer" name="type" value="khmer" />khmer
-  </label>
-
-  <label for="korean-hangul-formal">
-    <input
-      type="radio"
-      id="korean-hangul-formal"
-      name="type"
-      value="korean-hangul-formal" />korean-hangul-formal
-  </label>
-
-  <label for="korean-hanja-formal">
-    <input
-      type="radio"
-      id="korean-hanja-formal"
-      name="type"
-      value="korean-hanja-formal" />korean-hanja-formal
-  </label>
-
-  <label for="korean-hanja-informal">
-    <input
-      type="radio"
-      id="korean-hanja-informal"
-      name="type"
-      value="korean-hanja-informal" />korean-hanja-informal
-  </label>
-
-  <label for="lao">
-    <input type="radio" id="lao" name="type" value="lao" />lao
-  </label>
-
-  <label for="lower-armenian">
-    <input
-      type="radio"
-      id="lower-armenian"
-      name="type"
-      value="lower-armenian" />lower-armenian
-  </label>
-
-  <label for="malayalam">
-    <input type="radio" id="malayalam" name="type" value="malayalam" />malayalam
-  </label>
-
-  <label for="mongolian">
-    <input type="radio" id="mongolian" name="type" value="mongolian" />mongolian
-  </label>
-
-  <label for="myanmar">
-    <input type="radio" id="myanmar" name="type" value="myanmar" />myanmar
-  </label>
-
-  <label for="oriya">
-    <input type="radio" id="oriya" name="type" value="oriya" />oriya
-  </label>
-
-  <label for="persian">
-    <input type="radio" id="persian" name="type" value="persian" />persian
-  </label>
-
-  <label for="simp-chinese-formal">
-    <input
-      type="radio"
-      id="simp-chinese-formal"
-      name="type"
-      value="simp-chinese-formal" />simp-chinese-formal
-  </label>
-
-  <label for="simp-chinese-informal">
-    <input
-      type="radio"
-      id="simp-chinese-informal"
-      name="type"
-      value="simp-chinese-informal" />simp-chinese-informal
-  </label>
-
-  <label for="tamil">
-    <input type="radio" id="tamil" name="type" value="tamil" />tamil
-  </label>
-
-  <label for="telugu">
-    <input type="radio" id="telugu" name="type" value="telugu" />telugu
-  </label>
-
-  <label for="thai">
-    <input type="radio" id="thai" name="type" value="thai" />thai
-  </label>
-
-  <label for="tibetan">
-    <input type="radio" id="tibetan" name="type" value="tibetan" />tibetan
-  </label>
-
-  <label for="trad-chinese-formal">
-    <input
-      type="radio"
-      id="trad-chinese-formal"
-      name="type"
-      value="trad-chinese-formal" />trad-chinese-formal
-  </label>
-
-  <label for="trad-chinese-informal">
-    <input
-      type="radio"
-      id="trad-chinese-informal"
-      name="type"
-      value="trad-chinese-informal" />trad-chinese-informal
-  </label>
-
-  <label for="upper-armenian">
-    <input
-      type="radio"
-      id="upper-armenian"
-      name="type"
-      value="upper-armenian" />upper-armenian
-  </label>
-
-  <label for="disclosure-open">
-    <input
-      type="radio"
-      id="disclosure-open"
-      name="type"
-      value="disclosure-open" />disclosure-open
-  </label>
-
-  <label for="disclosure-closed">
-    <input
-      type="radio"
-      id="disclosure-closed"
-      name="type"
-      value="disclosure-closed" />disclosure-closed
-  </label>
-
-  <label for="-moz-ethiopic-halehame">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame"
-      name="type"
-      value="-moz-ethiopic-halehame" />-moz-ethiopic-halehame
-  </label>
-
-  <label for="-moz-ethiopic-halehame-am">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-am"
-      name="type"
-      value="-moz-ethiopic-halehame-am" />-moz-ethiopic-halehame-am
-  </label>
-
-  <label for="ethiopic-halehame-ti-er">
-    <input
-      type="radio"
-      id="ethiopic-halehame-ti-er"
-      name="type"
-      value="ethiopic-halehame-ti-er" />ethiopic-halehame-ti-er
-  </label>
-
-  <label for="ethiopic-halehame-ti-et">
-    <input
-      type="radio"
-      id="ethiopic-halehame-ti-et"
-      name="type"
-      value="ethiopic-halehame-ti-et" />ethiopic-halehame-ti-et
-  </label>
-
-  <label for="hangul">
-    <input type="radio" id="hangul" name="type" value="hangul" />hangul
-  </label>
-
-  <label for="hangul-consonant">
-    <input
-      type="radio"
-      id="hangul-consonant"
-      name="type"
-      value="hangul-consonant" />hangul-consonant
-  </label>
-
-  <label for="urdu">
-    <input type="radio" id="urdu" name="type" value="urdu" />urdu
-  </label>
-
-  <label for="-moz-ethiopic-halehame-ti-er">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-ti-er"
-      name="type"
-      value="-moz-ethiopic-halehame-ti-er" />-moz-ethiopic-halehame-ti-er
-  </label>
-
-  <label for="-moz-ethiopic-halehame-ti-et">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-ti-et"
-      name="type"
-      value="-moz-ethiopic-halehame-ti-et" />-moz-ethiopic-halehame-ti-et
-  </label>
-
-  <label for="-moz-hangul">
-    <input
-      type="radio"
-      id="-moz-hangul"
-      name="type"
-      value="-moz-hangul" />-moz-hangul
-  </label>
-
-  <label for="-moz-hangul-consonant">
-    <input
-      type="radio"
-      id="-moz-hangul-consonant"
-      name="type"
-      value="-moz-hangul-consonant" />-moz-hangul-consonant
-  </label>
-
-  <label for="-moz-urdu">
-    <input type="radio" id="-moz-urdu" name="type" value="-moz-urdu" />-moz-urdu
-  </label>
-</div>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "valid-id",
-                                'element id "-moz-ethiopic-halehame-am" must begin with a letter',
-                                "-moz-ethiopic-halehame-am",
-                                "347:11",
-                                `/en-US/docs/Web/CSS/Reference/Properties/list-style-type
-[valid-id] element id "-moz-ethiopic-halehame-am" must begin with a letter
-~~~
-<ol>
-  <li>Apollo</li>
-  <li>Hubble</li>
-  <li>Chandra</li>
-  <li>Cassini-Huygens</li>
-  <li>Spitzer</li>
-</ol>
-
-<h2>Choose a list style type:</h2>
-
-<div class="container">
-  <label for="disc">
-    <input type="radio" id="disc" name="type" value="disc" />disc
-  </label>
-
-  <label for="circle">
-    <input type="radio" id="circle" name="type" value="circle" />circle
-  </label>
-
-  <label for="square">
-    <input type="radio" id="square" name="type" value="square" />square
-  </label>
-
-  <label for="decimal">
-    <input type="radio" id="decimal" name="type" value="decimal" />decimal
-  </label>
-
-  <label for="cjk-decimal">
-    <input
-      type="radio"
-      id="cjk-decimal"
-      name="type"
-      value="cjk-decimal" />cjk-decimal
-  </label>
-
-  <label for="decimal-leading-zero">
-    <input
-      type="radio"
-      id="decimal-leading-zero"
-      name="type"
-      value="decimal-leading-zero" />decimal-leading-zero
-  </label>
-
-  <label for="lower-roman">
-    <input
-      type="radio"
-      id="lower-roman"
-      name="type"
-      value="lower-roman" />lower-roman
-  </label>
-
-  <label for="upper-roman">
-    <input
-      type="radio"
-      id="upper-roman"
-      name="type"
-      value="upper-roman" />upper-roman
-  </label>
-
-  <label for="lower-greek">
-    <input
-      type="radio"
-      id="lower-greek"
-      name="type"
-      value="lower-greek" />lower-greek
-  </label>
-
-  <label for="lower-alpha">
-    <input
-      type="radio"
-      id="lower-alpha"
-      name="type"
-      value="lower-alpha" />lower-alpha, lower-latin
-  </label>
-
-  <label for="upper-alpha">
-    <input
-      type="radio"
-      id="upper-alpha"
-      name="type"
-      value="upper-alpha" />upper-alpha, upper-latin
-  </label>
-
-  <label for="arabic-indic">
-    <input
-      type="radio"
-      id="arabic-indic"
-      name="type"
-      value="arabic-indic" />arabic-indic
-  </label>
-
-  <label for="armenian">
-    <input type="radio" id="armenian" name="type" value="armenian" />armenian
-  </label>
-
-  <label for="bengali">
-    <input type="radio" id="bengali" name="type" value="bengali" />bengali
-  </label>
-
-  <label for="cambodian">
-    <input type="radio" id="cambodian" name="type" value="cambodian" />cambodian
-  </label>
-
-  <label for="cjk-earthly-branch">
-    <input
-      type="radio"
-      id="cjk-earthly-branch"
-      name="type"
-      value="cjk-earthly-branch" />cjk-earthly-branch
-  </label>
-
-  <label for="cjk-heavenly-stem">
-    <input
-      type="radio"
-      id="cjk-heavenly-stem"
-      name="type"
-      value="cjk-heavenly-stem" />cjk-heavenly-stem
-  </label>
-
-  <label for="cjk-ideographic">
-    <input
-      type="radio"
-      id="cjk-ideographic"
-      name="type"
-      value="cjk-ideographic" />cjk-ideographic
-  </label>
-
-  <label for="devanagari">
-    <input
-      type="radio"
-      id="devanagari"
-      name="type"
-      value="devanagari" />devanagari
-  </label>
-
-  <label for="ethiopic-numeric">
-    <input
-      type="radio"
-      id="ethiopic-numeric"
-      name="type"
-      value="ethiopic-numeric" />ethiopic-numeric
-  </label>
-
-  <label for="georgian">
-    <input type="radio" id="georgian" name="type" value="georgian" />georgian
-  </label>
-
-  <label for="gujarati">
-    <input type="radio" id="gujarati" name="type" value="gujarati" />gujarati
-  </label>
-
-  <label for="gurmukhi">
-    <input type="radio" id="gurmukhi" name="type" value="gurmukhi" />gurmukhi
-  </label>
-
-  <label for="hebrew">
-    <input type="radio" id="hebrew" name="type" value="hebrew" />hebrew
-  </label>
-
-  <label for="hiragana">
-    <input type="radio" id="hiragana" name="type" value="hiragana" />hiragana
-  </label>
-
-  <label for="hiragana-iroha">
-    <input
-      type="radio"
-      id="hiragana-iroha"
-      name="type"
-      value="hiragana-iroha" />hiragana-iroha
-  </label>
-
-  <label for="japanese-formal">
-    <input
-      type="radio"
-      id="japanese-formal"
-      name="type"
-      value="japanese-formal" />japanese-formal
-  </label>
-
-  <label for="japanese-informal">
-    <input
-      type="radio"
-      id="japanese-informal"
-      name="type"
-      value="japanese-informal" />japanese-informal
-  </label>
-
-  <label for="kannada">
-    <input type="radio" id="kannada" name="type" value="kannada" />kannada
-  </label>
-
-  <label for="katakana">
-    <input type="radio" id="katakana" name="type" value="katakana" />katakana
-  </label>
-
-  <label for="katakana-iroha">
-    <input
-      type="radio"
-      id="katakana-iroha"
-      name="type"
-      value="katakana-iroha" />katakana-iroha
-  </label>
-
-  <label for="khmer">
-    <input type="radio" id="khmer" name="type" value="khmer" />khmer
-  </label>
-
-  <label for="korean-hangul-formal">
-    <input
-      type="radio"
-      id="korean-hangul-formal"
-      name="type"
-      value="korean-hangul-formal" />korean-hangul-formal
-  </label>
-
-  <label for="korean-hanja-formal">
-    <input
-      type="radio"
-      id="korean-hanja-formal"
-      name="type"
-      value="korean-hanja-formal" />korean-hanja-formal
-  </label>
-
-  <label for="korean-hanja-informal">
-    <input
-      type="radio"
-      id="korean-hanja-informal"
-      name="type"
-      value="korean-hanja-informal" />korean-hanja-informal
-  </label>
-
-  <label for="lao">
-    <input type="radio" id="lao" name="type" value="lao" />lao
-  </label>
-
-  <label for="lower-armenian">
-    <input
-      type="radio"
-      id="lower-armenian"
-      name="type"
-      value="lower-armenian" />lower-armenian
-  </label>
-
-  <label for="malayalam">
-    <input type="radio" id="malayalam" name="type" value="malayalam" />malayalam
-  </label>
-
-  <label for="mongolian">
-    <input type="radio" id="mongolian" name="type" value="mongolian" />mongolian
-  </label>
-
-  <label for="myanmar">
-    <input type="radio" id="myanmar" name="type" value="myanmar" />myanmar
-  </label>
-
-  <label for="oriya">
-    <input type="radio" id="oriya" name="type" value="oriya" />oriya
-  </label>
-
-  <label for="persian">
-    <input type="radio" id="persian" name="type" value="persian" />persian
-  </label>
-
-  <label for="simp-chinese-formal">
-    <input
-      type="radio"
-      id="simp-chinese-formal"
-      name="type"
-      value="simp-chinese-formal" />simp-chinese-formal
-  </label>
-
-  <label for="simp-chinese-informal">
-    <input
-      type="radio"
-      id="simp-chinese-informal"
-      name="type"
-      value="simp-chinese-informal" />simp-chinese-informal
-  </label>
-
-  <label for="tamil">
-    <input type="radio" id="tamil" name="type" value="tamil" />tamil
-  </label>
-
-  <label for="telugu">
-    <input type="radio" id="telugu" name="type" value="telugu" />telugu
-  </label>
-
-  <label for="thai">
-    <input type="radio" id="thai" name="type" value="thai" />thai
-  </label>
-
-  <label for="tibetan">
-    <input type="radio" id="tibetan" name="type" value="tibetan" />tibetan
-  </label>
-
-  <label for="trad-chinese-formal">
-    <input
-      type="radio"
-      id="trad-chinese-formal"
-      name="type"
-      value="trad-chinese-formal" />trad-chinese-formal
-  </label>
-
-  <label for="trad-chinese-informal">
-    <input
-      type="radio"
-      id="trad-chinese-informal"
-      name="type"
-      value="trad-chinese-informal" />trad-chinese-informal
-  </label>
-
-  <label for="upper-armenian">
-    <input
-      type="radio"
-      id="upper-armenian"
-      name="type"
-      value="upper-armenian" />upper-armenian
-  </label>
-
-  <label for="disclosure-open">
-    <input
-      type="radio"
-      id="disclosure-open"
-      name="type"
-      value="disclosure-open" />disclosure-open
-  </label>
-
-  <label for="disclosure-closed">
-    <input
-      type="radio"
-      id="disclosure-closed"
-      name="type"
-      value="disclosure-closed" />disclosure-closed
-  </label>
-
-  <label for="-moz-ethiopic-halehame">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame"
-      name="type"
-      value="-moz-ethiopic-halehame" />-moz-ethiopic-halehame
-  </label>
-
-  <label for="-moz-ethiopic-halehame-am">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-am"
-      name="type"
-      value="-moz-ethiopic-halehame-am" />-moz-ethiopic-halehame-am
-  </label>
-
-  <label for="ethiopic-halehame-ti-er">
-    <input
-      type="radio"
-      id="ethiopic-halehame-ti-er"
-      name="type"
-      value="ethiopic-halehame-ti-er" />ethiopic-halehame-ti-er
-  </label>
-
-  <label for="ethiopic-halehame-ti-et">
-    <input
-      type="radio"
-      id="ethiopic-halehame-ti-et"
-      name="type"
-      value="ethiopic-halehame-ti-et" />ethiopic-halehame-ti-et
-  </label>
-
-  <label for="hangul">
-    <input type="radio" id="hangul" name="type" value="hangul" />hangul
-  </label>
-
-  <label for="hangul-consonant">
-    <input
-      type="radio"
-      id="hangul-consonant"
-      name="type"
-      value="hangul-consonant" />hangul-consonant
-  </label>
-
-  <label for="urdu">
-    <input type="radio" id="urdu" name="type" value="urdu" />urdu
-  </label>
-
-  <label for="-moz-ethiopic-halehame-ti-er">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-ti-er"
-      name="type"
-      value="-moz-ethiopic-halehame-ti-er" />-moz-ethiopic-halehame-ti-er
-  </label>
-
-  <label for="-moz-ethiopic-halehame-ti-et">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-ti-et"
-      name="type"
-      value="-moz-ethiopic-halehame-ti-et" />-moz-ethiopic-halehame-ti-et
-  </label>
-
-  <label for="-moz-hangul">
-    <input
-      type="radio"
-      id="-moz-hangul"
-      name="type"
-      value="-moz-hangul" />-moz-hangul
-  </label>
-
-  <label for="-moz-hangul-consonant">
-    <input
-      type="radio"
-      id="-moz-hangul-consonant"
-      name="type"
-      value="-moz-hangul-consonant" />-moz-hangul-consonant
-  </label>
-
-  <label for="-moz-urdu">
-    <input type="radio" id="-moz-urdu" name="type" value="-moz-urdu" />-moz-urdu
-  </label>
-</div>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "valid-id",
-                                'element id "-moz-ethiopic-halehame-ti-er" must begin with a letter',
-                                "-moz-ethiopic-halehame-ti-er",
-                                "387:11",
-                                `/en-US/docs/Web/CSS/Reference/Properties/list-style-type
-[valid-id] element id "-moz-ethiopic-halehame-ti-er" must begin with a letter
-~~~
-<ol>
-  <li>Apollo</li>
-  <li>Hubble</li>
-  <li>Chandra</li>
-  <li>Cassini-Huygens</li>
-  <li>Spitzer</li>
-</ol>
-
-<h2>Choose a list style type:</h2>
-
-<div class="container">
-  <label for="disc">
-    <input type="radio" id="disc" name="type" value="disc" />disc
-  </label>
-
-  <label for="circle">
-    <input type="radio" id="circle" name="type" value="circle" />circle
-  </label>
-
-  <label for="square">
-    <input type="radio" id="square" name="type" value="square" />square
-  </label>
-
-  <label for="decimal">
-    <input type="radio" id="decimal" name="type" value="decimal" />decimal
-  </label>
-
-  <label for="cjk-decimal">
-    <input
-      type="radio"
-      id="cjk-decimal"
-      name="type"
-      value="cjk-decimal" />cjk-decimal
-  </label>
-
-  <label for="decimal-leading-zero">
-    <input
-      type="radio"
-      id="decimal-leading-zero"
-      name="type"
-      value="decimal-leading-zero" />decimal-leading-zero
-  </label>
-
-  <label for="lower-roman">
-    <input
-      type="radio"
-      id="lower-roman"
-      name="type"
-      value="lower-roman" />lower-roman
-  </label>
-
-  <label for="upper-roman">
-    <input
-      type="radio"
-      id="upper-roman"
-      name="type"
-      value="upper-roman" />upper-roman
-  </label>
-
-  <label for="lower-greek">
-    <input
-      type="radio"
-      id="lower-greek"
-      name="type"
-      value="lower-greek" />lower-greek
-  </label>
-
-  <label for="lower-alpha">
-    <input
-      type="radio"
-      id="lower-alpha"
-      name="type"
-      value="lower-alpha" />lower-alpha, lower-latin
-  </label>
-
-  <label for="upper-alpha">
-    <input
-      type="radio"
-      id="upper-alpha"
-      name="type"
-      value="upper-alpha" />upper-alpha, upper-latin
-  </label>
-
-  <label for="arabic-indic">
-    <input
-      type="radio"
-      id="arabic-indic"
-      name="type"
-      value="arabic-indic" />arabic-indic
-  </label>
-
-  <label for="armenian">
-    <input type="radio" id="armenian" name="type" value="armenian" />armenian
-  </label>
-
-  <label for="bengali">
-    <input type="radio" id="bengali" name="type" value="bengali" />bengali
-  </label>
-
-  <label for="cambodian">
-    <input type="radio" id="cambodian" name="type" value="cambodian" />cambodian
-  </label>
-
-  <label for="cjk-earthly-branch">
-    <input
-      type="radio"
-      id="cjk-earthly-branch"
-      name="type"
-      value="cjk-earthly-branch" />cjk-earthly-branch
-  </label>
-
-  <label for="cjk-heavenly-stem">
-    <input
-      type="radio"
-      id="cjk-heavenly-stem"
-      name="type"
-      value="cjk-heavenly-stem" />cjk-heavenly-stem
-  </label>
-
-  <label for="cjk-ideographic">
-    <input
-      type="radio"
-      id="cjk-ideographic"
-      name="type"
-      value="cjk-ideographic" />cjk-ideographic
-  </label>
-
-  <label for="devanagari">
-    <input
-      type="radio"
-      id="devanagari"
-      name="type"
-      value="devanagari" />devanagari
-  </label>
-
-  <label for="ethiopic-numeric">
-    <input
-      type="radio"
-      id="ethiopic-numeric"
-      name="type"
-      value="ethiopic-numeric" />ethiopic-numeric
-  </label>
-
-  <label for="georgian">
-    <input type="radio" id="georgian" name="type" value="georgian" />georgian
-  </label>
-
-  <label for="gujarati">
-    <input type="radio" id="gujarati" name="type" value="gujarati" />gujarati
-  </label>
-
-  <label for="gurmukhi">
-    <input type="radio" id="gurmukhi" name="type" value="gurmukhi" />gurmukhi
-  </label>
-
-  <label for="hebrew">
-    <input type="radio" id="hebrew" name="type" value="hebrew" />hebrew
-  </label>
-
-  <label for="hiragana">
-    <input type="radio" id="hiragana" name="type" value="hiragana" />hiragana
-  </label>
-
-  <label for="hiragana-iroha">
-    <input
-      type="radio"
-      id="hiragana-iroha"
-      name="type"
-      value="hiragana-iroha" />hiragana-iroha
-  </label>
-
-  <label for="japanese-formal">
-    <input
-      type="radio"
-      id="japanese-formal"
-      name="type"
-      value="japanese-formal" />japanese-formal
-  </label>
-
-  <label for="japanese-informal">
-    <input
-      type="radio"
-      id="japanese-informal"
-      name="type"
-      value="japanese-informal" />japanese-informal
-  </label>
-
-  <label for="kannada">
-    <input type="radio" id="kannada" name="type" value="kannada" />kannada
-  </label>
-
-  <label for="katakana">
-    <input type="radio" id="katakana" name="type" value="katakana" />katakana
-  </label>
-
-  <label for="katakana-iroha">
-    <input
-      type="radio"
-      id="katakana-iroha"
-      name="type"
-      value="katakana-iroha" />katakana-iroha
-  </label>
-
-  <label for="khmer">
-    <input type="radio" id="khmer" name="type" value="khmer" />khmer
-  </label>
-
-  <label for="korean-hangul-formal">
-    <input
-      type="radio"
-      id="korean-hangul-formal"
-      name="type"
-      value="korean-hangul-formal" />korean-hangul-formal
-  </label>
-
-  <label for="korean-hanja-formal">
-    <input
-      type="radio"
-      id="korean-hanja-formal"
-      name="type"
-      value="korean-hanja-formal" />korean-hanja-formal
-  </label>
-
-  <label for="korean-hanja-informal">
-    <input
-      type="radio"
-      id="korean-hanja-informal"
-      name="type"
-      value="korean-hanja-informal" />korean-hanja-informal
-  </label>
-
-  <label for="lao">
-    <input type="radio" id="lao" name="type" value="lao" />lao
-  </label>
-
-  <label for="lower-armenian">
-    <input
-      type="radio"
-      id="lower-armenian"
-      name="type"
-      value="lower-armenian" />lower-armenian
-  </label>
-
-  <label for="malayalam">
-    <input type="radio" id="malayalam" name="type" value="malayalam" />malayalam
-  </label>
-
-  <label for="mongolian">
-    <input type="radio" id="mongolian" name="type" value="mongolian" />mongolian
-  </label>
-
-  <label for="myanmar">
-    <input type="radio" id="myanmar" name="type" value="myanmar" />myanmar
-  </label>
-
-  <label for="oriya">
-    <input type="radio" id="oriya" name="type" value="oriya" />oriya
-  </label>
-
-  <label for="persian">
-    <input type="radio" id="persian" name="type" value="persian" />persian
-  </label>
-
-  <label for="simp-chinese-formal">
-    <input
-      type="radio"
-      id="simp-chinese-formal"
-      name="type"
-      value="simp-chinese-formal" />simp-chinese-formal
-  </label>
-
-  <label for="simp-chinese-informal">
-    <input
-      type="radio"
-      id="simp-chinese-informal"
-      name="type"
-      value="simp-chinese-informal" />simp-chinese-informal
-  </label>
-
-  <label for="tamil">
-    <input type="radio" id="tamil" name="type" value="tamil" />tamil
-  </label>
-
-  <label for="telugu">
-    <input type="radio" id="telugu" name="type" value="telugu" />telugu
-  </label>
-
-  <label for="thai">
-    <input type="radio" id="thai" name="type" value="thai" />thai
-  </label>
-
-  <label for="tibetan">
-    <input type="radio" id="tibetan" name="type" value="tibetan" />tibetan
-  </label>
-
-  <label for="trad-chinese-formal">
-    <input
-      type="radio"
-      id="trad-chinese-formal"
-      name="type"
-      value="trad-chinese-formal" />trad-chinese-formal
-  </label>
-
-  <label for="trad-chinese-informal">
-    <input
-      type="radio"
-      id="trad-chinese-informal"
-      name="type"
-      value="trad-chinese-informal" />trad-chinese-informal
-  </label>
-
-  <label for="upper-armenian">
-    <input
-      type="radio"
-      id="upper-armenian"
-      name="type"
-      value="upper-armenian" />upper-armenian
-  </label>
-
-  <label for="disclosure-open">
-    <input
-      type="radio"
-      id="disclosure-open"
-      name="type"
-      value="disclosure-open" />disclosure-open
-  </label>
-
-  <label for="disclosure-closed">
-    <input
-      type="radio"
-      id="disclosure-closed"
-      name="type"
-      value="disclosure-closed" />disclosure-closed
-  </label>
-
-  <label for="-moz-ethiopic-halehame">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame"
-      name="type"
-      value="-moz-ethiopic-halehame" />-moz-ethiopic-halehame
-  </label>
-
-  <label for="-moz-ethiopic-halehame-am">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-am"
-      name="type"
-      value="-moz-ethiopic-halehame-am" />-moz-ethiopic-halehame-am
-  </label>
-
-  <label for="ethiopic-halehame-ti-er">
-    <input
-      type="radio"
-      id="ethiopic-halehame-ti-er"
-      name="type"
-      value="ethiopic-halehame-ti-er" />ethiopic-halehame-ti-er
-  </label>
-
-  <label for="ethiopic-halehame-ti-et">
-    <input
-      type="radio"
-      id="ethiopic-halehame-ti-et"
-      name="type"
-      value="ethiopic-halehame-ti-et" />ethiopic-halehame-ti-et
-  </label>
-
-  <label for="hangul">
-    <input type="radio" id="hangul" name="type" value="hangul" />hangul
-  </label>
-
-  <label for="hangul-consonant">
-    <input
-      type="radio"
-      id="hangul-consonant"
-      name="type"
-      value="hangul-consonant" />hangul-consonant
-  </label>
-
-  <label for="urdu">
-    <input type="radio" id="urdu" name="type" value="urdu" />urdu
-  </label>
-
-  <label for="-moz-ethiopic-halehame-ti-er">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-ti-er"
-      name="type"
-      value="-moz-ethiopic-halehame-ti-er" />-moz-ethiopic-halehame-ti-er
-  </label>
-
-  <label for="-moz-ethiopic-halehame-ti-et">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-ti-et"
-      name="type"
-      value="-moz-ethiopic-halehame-ti-et" />-moz-ethiopic-halehame-ti-et
-  </label>
-
-  <label for="-moz-hangul">
-    <input
-      type="radio"
-      id="-moz-hangul"
-      name="type"
-      value="-moz-hangul" />-moz-hangul
-  </label>
-
-  <label for="-moz-hangul-consonant">
-    <input
-      type="radio"
-      id="-moz-hangul-consonant"
-      name="type"
-      value="-moz-hangul-consonant" />-moz-hangul-consonant
-  </label>
-
-  <label for="-moz-urdu">
-    <input type="radio" id="-moz-urdu" name="type" value="-moz-urdu" />-moz-urdu
-  </label>
-</div>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "valid-id",
-                                'element id "-moz-ethiopic-halehame-ti-et" must begin with a letter',
-                                "-moz-ethiopic-halehame-ti-et",
-                                "395:11",
-                                `/en-US/docs/Web/CSS/Reference/Properties/list-style-type
-[valid-id] element id "-moz-ethiopic-halehame-ti-et" must begin with a letter
-~~~
-<ol>
-  <li>Apollo</li>
-  <li>Hubble</li>
-  <li>Chandra</li>
-  <li>Cassini-Huygens</li>
-  <li>Spitzer</li>
-</ol>
-
-<h2>Choose a list style type:</h2>
-
-<div class="container">
-  <label for="disc">
-    <input type="radio" id="disc" name="type" value="disc" />disc
-  </label>
-
-  <label for="circle">
-    <input type="radio" id="circle" name="type" value="circle" />circle
-  </label>
-
-  <label for="square">
-    <input type="radio" id="square" name="type" value="square" />square
-  </label>
-
-  <label for="decimal">
-    <input type="radio" id="decimal" name="type" value="decimal" />decimal
-  </label>
-
-  <label for="cjk-decimal">
-    <input
-      type="radio"
-      id="cjk-decimal"
-      name="type"
-      value="cjk-decimal" />cjk-decimal
-  </label>
-
-  <label for="decimal-leading-zero">
-    <input
-      type="radio"
-      id="decimal-leading-zero"
-      name="type"
-      value="decimal-leading-zero" />decimal-leading-zero
-  </label>
-
-  <label for="lower-roman">
-    <input
-      type="radio"
-      id="lower-roman"
-      name="type"
-      value="lower-roman" />lower-roman
-  </label>
-
-  <label for="upper-roman">
-    <input
-      type="radio"
-      id="upper-roman"
-      name="type"
-      value="upper-roman" />upper-roman
-  </label>
-
-  <label for="lower-greek">
-    <input
-      type="radio"
-      id="lower-greek"
-      name="type"
-      value="lower-greek" />lower-greek
-  </label>
-
-  <label for="lower-alpha">
-    <input
-      type="radio"
-      id="lower-alpha"
-      name="type"
-      value="lower-alpha" />lower-alpha, lower-latin
-  </label>
-
-  <label for="upper-alpha">
-    <input
-      type="radio"
-      id="upper-alpha"
-      name="type"
-      value="upper-alpha" />upper-alpha, upper-latin
-  </label>
-
-  <label for="arabic-indic">
-    <input
-      type="radio"
-      id="arabic-indic"
-      name="type"
-      value="arabic-indic" />arabic-indic
-  </label>
-
-  <label for="armenian">
-    <input type="radio" id="armenian" name="type" value="armenian" />armenian
-  </label>
-
-  <label for="bengali">
-    <input type="radio" id="bengali" name="type" value="bengali" />bengali
-  </label>
-
-  <label for="cambodian">
-    <input type="radio" id="cambodian" name="type" value="cambodian" />cambodian
-  </label>
-
-  <label for="cjk-earthly-branch">
-    <input
-      type="radio"
-      id="cjk-earthly-branch"
-      name="type"
-      value="cjk-earthly-branch" />cjk-earthly-branch
-  </label>
-
-  <label for="cjk-heavenly-stem">
-    <input
-      type="radio"
-      id="cjk-heavenly-stem"
-      name="type"
-      value="cjk-heavenly-stem" />cjk-heavenly-stem
-  </label>
-
-  <label for="cjk-ideographic">
-    <input
-      type="radio"
-      id="cjk-ideographic"
-      name="type"
-      value="cjk-ideographic" />cjk-ideographic
-  </label>
-
-  <label for="devanagari">
-    <input
-      type="radio"
-      id="devanagari"
-      name="type"
-      value="devanagari" />devanagari
-  </label>
-
-  <label for="ethiopic-numeric">
-    <input
-      type="radio"
-      id="ethiopic-numeric"
-      name="type"
-      value="ethiopic-numeric" />ethiopic-numeric
-  </label>
-
-  <label for="georgian">
-    <input type="radio" id="georgian" name="type" value="georgian" />georgian
-  </label>
-
-  <label for="gujarati">
-    <input type="radio" id="gujarati" name="type" value="gujarati" />gujarati
-  </label>
-
-  <label for="gurmukhi">
-    <input type="radio" id="gurmukhi" name="type" value="gurmukhi" />gurmukhi
-  </label>
-
-  <label for="hebrew">
-    <input type="radio" id="hebrew" name="type" value="hebrew" />hebrew
-  </label>
-
-  <label for="hiragana">
-    <input type="radio" id="hiragana" name="type" value="hiragana" />hiragana
-  </label>
-
-  <label for="hiragana-iroha">
-    <input
-      type="radio"
-      id="hiragana-iroha"
-      name="type"
-      value="hiragana-iroha" />hiragana-iroha
-  </label>
-
-  <label for="japanese-formal">
-    <input
-      type="radio"
-      id="japanese-formal"
-      name="type"
-      value="japanese-formal" />japanese-formal
-  </label>
-
-  <label for="japanese-informal">
-    <input
-      type="radio"
-      id="japanese-informal"
-      name="type"
-      value="japanese-informal" />japanese-informal
-  </label>
-
-  <label for="kannada">
-    <input type="radio" id="kannada" name="type" value="kannada" />kannada
-  </label>
-
-  <label for="katakana">
-    <input type="radio" id="katakana" name="type" value="katakana" />katakana
-  </label>
-
-  <label for="katakana-iroha">
-    <input
-      type="radio"
-      id="katakana-iroha"
-      name="type"
-      value="katakana-iroha" />katakana-iroha
-  </label>
-
-  <label for="khmer">
-    <input type="radio" id="khmer" name="type" value="khmer" />khmer
-  </label>
-
-  <label for="korean-hangul-formal">
-    <input
-      type="radio"
-      id="korean-hangul-formal"
-      name="type"
-      value="korean-hangul-formal" />korean-hangul-formal
-  </label>
-
-  <label for="korean-hanja-formal">
-    <input
-      type="radio"
-      id="korean-hanja-formal"
-      name="type"
-      value="korean-hanja-formal" />korean-hanja-formal
-  </label>
-
-  <label for="korean-hanja-informal">
-    <input
-      type="radio"
-      id="korean-hanja-informal"
-      name="type"
-      value="korean-hanja-informal" />korean-hanja-informal
-  </label>
-
-  <label for="lao">
-    <input type="radio" id="lao" name="type" value="lao" />lao
-  </label>
-
-  <label for="lower-armenian">
-    <input
-      type="radio"
-      id="lower-armenian"
-      name="type"
-      value="lower-armenian" />lower-armenian
-  </label>
-
-  <label for="malayalam">
-    <input type="radio" id="malayalam" name="type" value="malayalam" />malayalam
-  </label>
-
-  <label for="mongolian">
-    <input type="radio" id="mongolian" name="type" value="mongolian" />mongolian
-  </label>
-
-  <label for="myanmar">
-    <input type="radio" id="myanmar" name="type" value="myanmar" />myanmar
-  </label>
-
-  <label for="oriya">
-    <input type="radio" id="oriya" name="type" value="oriya" />oriya
-  </label>
-
-  <label for="persian">
-    <input type="radio" id="persian" name="type" value="persian" />persian
-  </label>
-
-  <label for="simp-chinese-formal">
-    <input
-      type="radio"
-      id="simp-chinese-formal"
-      name="type"
-      value="simp-chinese-formal" />simp-chinese-formal
-  </label>
-
-  <label for="simp-chinese-informal">
-    <input
-      type="radio"
-      id="simp-chinese-informal"
-      name="type"
-      value="simp-chinese-informal" />simp-chinese-informal
-  </label>
-
-  <label for="tamil">
-    <input type="radio" id="tamil" name="type" value="tamil" />tamil
-  </label>
-
-  <label for="telugu">
-    <input type="radio" id="telugu" name="type" value="telugu" />telugu
-  </label>
-
-  <label for="thai">
-    <input type="radio" id="thai" name="type" value="thai" />thai
-  </label>
-
-  <label for="tibetan">
-    <input type="radio" id="tibetan" name="type" value="tibetan" />tibetan
-  </label>
-
-  <label for="trad-chinese-formal">
-    <input
-      type="radio"
-      id="trad-chinese-formal"
-      name="type"
-      value="trad-chinese-formal" />trad-chinese-formal
-  </label>
-
-  <label for="trad-chinese-informal">
-    <input
-      type="radio"
-      id="trad-chinese-informal"
-      name="type"
-      value="trad-chinese-informal" />trad-chinese-informal
-  </label>
-
-  <label for="upper-armenian">
-    <input
-      type="radio"
-      id="upper-armenian"
-      name="type"
-      value="upper-armenian" />upper-armenian
-  </label>
-
-  <label for="disclosure-open">
-    <input
-      type="radio"
-      id="disclosure-open"
-      name="type"
-      value="disclosure-open" />disclosure-open
-  </label>
-
-  <label for="disclosure-closed">
-    <input
-      type="radio"
-      id="disclosure-closed"
-      name="type"
-      value="disclosure-closed" />disclosure-closed
-  </label>
-
-  <label for="-moz-ethiopic-halehame">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame"
-      name="type"
-      value="-moz-ethiopic-halehame" />-moz-ethiopic-halehame
-  </label>
-
-  <label for="-moz-ethiopic-halehame-am">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-am"
-      name="type"
-      value="-moz-ethiopic-halehame-am" />-moz-ethiopic-halehame-am
-  </label>
-
-  <label for="ethiopic-halehame-ti-er">
-    <input
-      type="radio"
-      id="ethiopic-halehame-ti-er"
-      name="type"
-      value="ethiopic-halehame-ti-er" />ethiopic-halehame-ti-er
-  </label>
-
-  <label for="ethiopic-halehame-ti-et">
-    <input
-      type="radio"
-      id="ethiopic-halehame-ti-et"
-      name="type"
-      value="ethiopic-halehame-ti-et" />ethiopic-halehame-ti-et
-  </label>
-
-  <label for="hangul">
-    <input type="radio" id="hangul" name="type" value="hangul" />hangul
-  </label>
-
-  <label for="hangul-consonant">
-    <input
-      type="radio"
-      id="hangul-consonant"
-      name="type"
-      value="hangul-consonant" />hangul-consonant
-  </label>
-
-  <label for="urdu">
-    <input type="radio" id="urdu" name="type" value="urdu" />urdu
-  </label>
-
-  <label for="-moz-ethiopic-halehame-ti-er">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-ti-er"
-      name="type"
-      value="-moz-ethiopic-halehame-ti-er" />-moz-ethiopic-halehame-ti-er
-  </label>
-
-  <label for="-moz-ethiopic-halehame-ti-et">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-ti-et"
-      name="type"
-      value="-moz-ethiopic-halehame-ti-et" />-moz-ethiopic-halehame-ti-et
-  </label>
-
-  <label for="-moz-hangul">
-    <input
-      type="radio"
-      id="-moz-hangul"
-      name="type"
-      value="-moz-hangul" />-moz-hangul
-  </label>
-
-  <label for="-moz-hangul-consonant">
-    <input
-      type="radio"
-      id="-moz-hangul-consonant"
-      name="type"
-      value="-moz-hangul-consonant" />-moz-hangul-consonant
-  </label>
-
-  <label for="-moz-urdu">
-    <input type="radio" id="-moz-urdu" name="type" value="-moz-urdu" />-moz-urdu
-  </label>
-</div>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "valid-id",
-                                'element id "-moz-hangul" must begin with a letter',
-                                "-moz-hangul",
-                                "403:11",
-                                `/en-US/docs/Web/CSS/Reference/Properties/list-style-type
-[valid-id] element id "-moz-hangul" must begin with a letter
-~~~
-<ol>
-  <li>Apollo</li>
-  <li>Hubble</li>
-  <li>Chandra</li>
-  <li>Cassini-Huygens</li>
-  <li>Spitzer</li>
-</ol>
-
-<h2>Choose a list style type:</h2>
-
-<div class="container">
-  <label for="disc">
-    <input type="radio" id="disc" name="type" value="disc" />disc
-  </label>
-
-  <label for="circle">
-    <input type="radio" id="circle" name="type" value="circle" />circle
-  </label>
-
-  <label for="square">
-    <input type="radio" id="square" name="type" value="square" />square
-  </label>
-
-  <label for="decimal">
-    <input type="radio" id="decimal" name="type" value="decimal" />decimal
-  </label>
-
-  <label for="cjk-decimal">
-    <input
-      type="radio"
-      id="cjk-decimal"
-      name="type"
-      value="cjk-decimal" />cjk-decimal
-  </label>
-
-  <label for="decimal-leading-zero">
-    <input
-      type="radio"
-      id="decimal-leading-zero"
-      name="type"
-      value="decimal-leading-zero" />decimal-leading-zero
-  </label>
-
-  <label for="lower-roman">
-    <input
-      type="radio"
-      id="lower-roman"
-      name="type"
-      value="lower-roman" />lower-roman
-  </label>
-
-  <label for="upper-roman">
-    <input
-      type="radio"
-      id="upper-roman"
-      name="type"
-      value="upper-roman" />upper-roman
-  </label>
-
-  <label for="lower-greek">
-    <input
-      type="radio"
-      id="lower-greek"
-      name="type"
-      value="lower-greek" />lower-greek
-  </label>
-
-  <label for="lower-alpha">
-    <input
-      type="radio"
-      id="lower-alpha"
-      name="type"
-      value="lower-alpha" />lower-alpha, lower-latin
-  </label>
-
-  <label for="upper-alpha">
-    <input
-      type="radio"
-      id="upper-alpha"
-      name="type"
-      value="upper-alpha" />upper-alpha, upper-latin
-  </label>
-
-  <label for="arabic-indic">
-    <input
-      type="radio"
-      id="arabic-indic"
-      name="type"
-      value="arabic-indic" />arabic-indic
-  </label>
-
-  <label for="armenian">
-    <input type="radio" id="armenian" name="type" value="armenian" />armenian
-  </label>
-
-  <label for="bengali">
-    <input type="radio" id="bengali" name="type" value="bengali" />bengali
-  </label>
-
-  <label for="cambodian">
-    <input type="radio" id="cambodian" name="type" value="cambodian" />cambodian
-  </label>
-
-  <label for="cjk-earthly-branch">
-    <input
-      type="radio"
-      id="cjk-earthly-branch"
-      name="type"
-      value="cjk-earthly-branch" />cjk-earthly-branch
-  </label>
-
-  <label for="cjk-heavenly-stem">
-    <input
-      type="radio"
-      id="cjk-heavenly-stem"
-      name="type"
-      value="cjk-heavenly-stem" />cjk-heavenly-stem
-  </label>
-
-  <label for="cjk-ideographic">
-    <input
-      type="radio"
-      id="cjk-ideographic"
-      name="type"
-      value="cjk-ideographic" />cjk-ideographic
-  </label>
-
-  <label for="devanagari">
-    <input
-      type="radio"
-      id="devanagari"
-      name="type"
-      value="devanagari" />devanagari
-  </label>
-
-  <label for="ethiopic-numeric">
-    <input
-      type="radio"
-      id="ethiopic-numeric"
-      name="type"
-      value="ethiopic-numeric" />ethiopic-numeric
-  </label>
-
-  <label for="georgian">
-    <input type="radio" id="georgian" name="type" value="georgian" />georgian
-  </label>
-
-  <label for="gujarati">
-    <input type="radio" id="gujarati" name="type" value="gujarati" />gujarati
-  </label>
-
-  <label for="gurmukhi">
-    <input type="radio" id="gurmukhi" name="type" value="gurmukhi" />gurmukhi
-  </label>
-
-  <label for="hebrew">
-    <input type="radio" id="hebrew" name="type" value="hebrew" />hebrew
-  </label>
-
-  <label for="hiragana">
-    <input type="radio" id="hiragana" name="type" value="hiragana" />hiragana
-  </label>
-
-  <label for="hiragana-iroha">
-    <input
-      type="radio"
-      id="hiragana-iroha"
-      name="type"
-      value="hiragana-iroha" />hiragana-iroha
-  </label>
-
-  <label for="japanese-formal">
-    <input
-      type="radio"
-      id="japanese-formal"
-      name="type"
-      value="japanese-formal" />japanese-formal
-  </label>
-
-  <label for="japanese-informal">
-    <input
-      type="radio"
-      id="japanese-informal"
-      name="type"
-      value="japanese-informal" />japanese-informal
-  </label>
-
-  <label for="kannada">
-    <input type="radio" id="kannada" name="type" value="kannada" />kannada
-  </label>
-
-  <label for="katakana">
-    <input type="radio" id="katakana" name="type" value="katakana" />katakana
-  </label>
-
-  <label for="katakana-iroha">
-    <input
-      type="radio"
-      id="katakana-iroha"
-      name="type"
-      value="katakana-iroha" />katakana-iroha
-  </label>
-
-  <label for="khmer">
-    <input type="radio" id="khmer" name="type" value="khmer" />khmer
-  </label>
-
-  <label for="korean-hangul-formal">
-    <input
-      type="radio"
-      id="korean-hangul-formal"
-      name="type"
-      value="korean-hangul-formal" />korean-hangul-formal
-  </label>
-
-  <label for="korean-hanja-formal">
-    <input
-      type="radio"
-      id="korean-hanja-formal"
-      name="type"
-      value="korean-hanja-formal" />korean-hanja-formal
-  </label>
-
-  <label for="korean-hanja-informal">
-    <input
-      type="radio"
-      id="korean-hanja-informal"
-      name="type"
-      value="korean-hanja-informal" />korean-hanja-informal
-  </label>
-
-  <label for="lao">
-    <input type="radio" id="lao" name="type" value="lao" />lao
-  </label>
-
-  <label for="lower-armenian">
-    <input
-      type="radio"
-      id="lower-armenian"
-      name="type"
-      value="lower-armenian" />lower-armenian
-  </label>
-
-  <label for="malayalam">
-    <input type="radio" id="malayalam" name="type" value="malayalam" />malayalam
-  </label>
-
-  <label for="mongolian">
-    <input type="radio" id="mongolian" name="type" value="mongolian" />mongolian
-  </label>
-
-  <label for="myanmar">
-    <input type="radio" id="myanmar" name="type" value="myanmar" />myanmar
-  </label>
-
-  <label for="oriya">
-    <input type="radio" id="oriya" name="type" value="oriya" />oriya
-  </label>
-
-  <label for="persian">
-    <input type="radio" id="persian" name="type" value="persian" />persian
-  </label>
-
-  <label for="simp-chinese-formal">
-    <input
-      type="radio"
-      id="simp-chinese-formal"
-      name="type"
-      value="simp-chinese-formal" />simp-chinese-formal
-  </label>
-
-  <label for="simp-chinese-informal">
-    <input
-      type="radio"
-      id="simp-chinese-informal"
-      name="type"
-      value="simp-chinese-informal" />simp-chinese-informal
-  </label>
-
-  <label for="tamil">
-    <input type="radio" id="tamil" name="type" value="tamil" />tamil
-  </label>
-
-  <label for="telugu">
-    <input type="radio" id="telugu" name="type" value="telugu" />telugu
-  </label>
-
-  <label for="thai">
-    <input type="radio" id="thai" name="type" value="thai" />thai
-  </label>
-
-  <label for="tibetan">
-    <input type="radio" id="tibetan" name="type" value="tibetan" />tibetan
-  </label>
-
-  <label for="trad-chinese-formal">
-    <input
-      type="radio"
-      id="trad-chinese-formal"
-      name="type"
-      value="trad-chinese-formal" />trad-chinese-formal
-  </label>
-
-  <label for="trad-chinese-informal">
-    <input
-      type="radio"
-      id="trad-chinese-informal"
-      name="type"
-      value="trad-chinese-informal" />trad-chinese-informal
-  </label>
-
-  <label for="upper-armenian">
-    <input
-      type="radio"
-      id="upper-armenian"
-      name="type"
-      value="upper-armenian" />upper-armenian
-  </label>
-
-  <label for="disclosure-open">
-    <input
-      type="radio"
-      id="disclosure-open"
-      name="type"
-      value="disclosure-open" />disclosure-open
-  </label>
-
-  <label for="disclosure-closed">
-    <input
-      type="radio"
-      id="disclosure-closed"
-      name="type"
-      value="disclosure-closed" />disclosure-closed
-  </label>
-
-  <label for="-moz-ethiopic-halehame">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame"
-      name="type"
-      value="-moz-ethiopic-halehame" />-moz-ethiopic-halehame
-  </label>
-
-  <label for="-moz-ethiopic-halehame-am">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-am"
-      name="type"
-      value="-moz-ethiopic-halehame-am" />-moz-ethiopic-halehame-am
-  </label>
-
-  <label for="ethiopic-halehame-ti-er">
-    <input
-      type="radio"
-      id="ethiopic-halehame-ti-er"
-      name="type"
-      value="ethiopic-halehame-ti-er" />ethiopic-halehame-ti-er
-  </label>
-
-  <label for="ethiopic-halehame-ti-et">
-    <input
-      type="radio"
-      id="ethiopic-halehame-ti-et"
-      name="type"
-      value="ethiopic-halehame-ti-et" />ethiopic-halehame-ti-et
-  </label>
-
-  <label for="hangul">
-    <input type="radio" id="hangul" name="type" value="hangul" />hangul
-  </label>
-
-  <label for="hangul-consonant">
-    <input
-      type="radio"
-      id="hangul-consonant"
-      name="type"
-      value="hangul-consonant" />hangul-consonant
-  </label>
-
-  <label for="urdu">
-    <input type="radio" id="urdu" name="type" value="urdu" />urdu
-  </label>
-
-  <label for="-moz-ethiopic-halehame-ti-er">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-ti-er"
-      name="type"
-      value="-moz-ethiopic-halehame-ti-er" />-moz-ethiopic-halehame-ti-er
-  </label>
-
-  <label for="-moz-ethiopic-halehame-ti-et">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-ti-et"
-      name="type"
-      value="-moz-ethiopic-halehame-ti-et" />-moz-ethiopic-halehame-ti-et
-  </label>
-
-  <label for="-moz-hangul">
-    <input
-      type="radio"
-      id="-moz-hangul"
-      name="type"
-      value="-moz-hangul" />-moz-hangul
-  </label>
-
-  <label for="-moz-hangul-consonant">
-    <input
-      type="radio"
-      id="-moz-hangul-consonant"
-      name="type"
-      value="-moz-hangul-consonant" />-moz-hangul-consonant
-  </label>
-
-  <label for="-moz-urdu">
-    <input type="radio" id="-moz-urdu" name="type" value="-moz-urdu" />-moz-urdu
-  </label>
-</div>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "valid-id",
-                                'element id "-moz-hangul-consonant" must begin with a letter',
-                                "-moz-hangul-consonant",
-                                "411:11",
-                                `/en-US/docs/Web/CSS/Reference/Properties/list-style-type
-[valid-id] element id "-moz-hangul-consonant" must begin with a letter
-~~~
-<ol>
-  <li>Apollo</li>
-  <li>Hubble</li>
-  <li>Chandra</li>
-  <li>Cassini-Huygens</li>
-  <li>Spitzer</li>
-</ol>
-
-<h2>Choose a list style type:</h2>
-
-<div class="container">
-  <label for="disc">
-    <input type="radio" id="disc" name="type" value="disc" />disc
-  </label>
-
-  <label for="circle">
-    <input type="radio" id="circle" name="type" value="circle" />circle
-  </label>
-
-  <label for="square">
-    <input type="radio" id="square" name="type" value="square" />square
-  </label>
-
-  <label for="decimal">
-    <input type="radio" id="decimal" name="type" value="decimal" />decimal
-  </label>
-
-  <label for="cjk-decimal">
-    <input
-      type="radio"
-      id="cjk-decimal"
-      name="type"
-      value="cjk-decimal" />cjk-decimal
-  </label>
-
-  <label for="decimal-leading-zero">
-    <input
-      type="radio"
-      id="decimal-leading-zero"
-      name="type"
-      value="decimal-leading-zero" />decimal-leading-zero
-  </label>
-
-  <label for="lower-roman">
-    <input
-      type="radio"
-      id="lower-roman"
-      name="type"
-      value="lower-roman" />lower-roman
-  </label>
-
-  <label for="upper-roman">
-    <input
-      type="radio"
-      id="upper-roman"
-      name="type"
-      value="upper-roman" />upper-roman
-  </label>
-
-  <label for="lower-greek">
-    <input
-      type="radio"
-      id="lower-greek"
-      name="type"
-      value="lower-greek" />lower-greek
-  </label>
-
-  <label for="lower-alpha">
-    <input
-      type="radio"
-      id="lower-alpha"
-      name="type"
-      value="lower-alpha" />lower-alpha, lower-latin
-  </label>
-
-  <label for="upper-alpha">
-    <input
-      type="radio"
-      id="upper-alpha"
-      name="type"
-      value="upper-alpha" />upper-alpha, upper-latin
-  </label>
-
-  <label for="arabic-indic">
-    <input
-      type="radio"
-      id="arabic-indic"
-      name="type"
-      value="arabic-indic" />arabic-indic
-  </label>
-
-  <label for="armenian">
-    <input type="radio" id="armenian" name="type" value="armenian" />armenian
-  </label>
-
-  <label for="bengali">
-    <input type="radio" id="bengali" name="type" value="bengali" />bengali
-  </label>
-
-  <label for="cambodian">
-    <input type="radio" id="cambodian" name="type" value="cambodian" />cambodian
-  </label>
-
-  <label for="cjk-earthly-branch">
-    <input
-      type="radio"
-      id="cjk-earthly-branch"
-      name="type"
-      value="cjk-earthly-branch" />cjk-earthly-branch
-  </label>
-
-  <label for="cjk-heavenly-stem">
-    <input
-      type="radio"
-      id="cjk-heavenly-stem"
-      name="type"
-      value="cjk-heavenly-stem" />cjk-heavenly-stem
-  </label>
-
-  <label for="cjk-ideographic">
-    <input
-      type="radio"
-      id="cjk-ideographic"
-      name="type"
-      value="cjk-ideographic" />cjk-ideographic
-  </label>
-
-  <label for="devanagari">
-    <input
-      type="radio"
-      id="devanagari"
-      name="type"
-      value="devanagari" />devanagari
-  </label>
-
-  <label for="ethiopic-numeric">
-    <input
-      type="radio"
-      id="ethiopic-numeric"
-      name="type"
-      value="ethiopic-numeric" />ethiopic-numeric
-  </label>
-
-  <label for="georgian">
-    <input type="radio" id="georgian" name="type" value="georgian" />georgian
-  </label>
-
-  <label for="gujarati">
-    <input type="radio" id="gujarati" name="type" value="gujarati" />gujarati
-  </label>
-
-  <label for="gurmukhi">
-    <input type="radio" id="gurmukhi" name="type" value="gurmukhi" />gurmukhi
-  </label>
-
-  <label for="hebrew">
-    <input type="radio" id="hebrew" name="type" value="hebrew" />hebrew
-  </label>
-
-  <label for="hiragana">
-    <input type="radio" id="hiragana" name="type" value="hiragana" />hiragana
-  </label>
-
-  <label for="hiragana-iroha">
-    <input
-      type="radio"
-      id="hiragana-iroha"
-      name="type"
-      value="hiragana-iroha" />hiragana-iroha
-  </label>
-
-  <label for="japanese-formal">
-    <input
-      type="radio"
-      id="japanese-formal"
-      name="type"
-      value="japanese-formal" />japanese-formal
-  </label>
-
-  <label for="japanese-informal">
-    <input
-      type="radio"
-      id="japanese-informal"
-      name="type"
-      value="japanese-informal" />japanese-informal
-  </label>
-
-  <label for="kannada">
-    <input type="radio" id="kannada" name="type" value="kannada" />kannada
-  </label>
-
-  <label for="katakana">
-    <input type="radio" id="katakana" name="type" value="katakana" />katakana
-  </label>
-
-  <label for="katakana-iroha">
-    <input
-      type="radio"
-      id="katakana-iroha"
-      name="type"
-      value="katakana-iroha" />katakana-iroha
-  </label>
-
-  <label for="khmer">
-    <input type="radio" id="khmer" name="type" value="khmer" />khmer
-  </label>
-
-  <label for="korean-hangul-formal">
-    <input
-      type="radio"
-      id="korean-hangul-formal"
-      name="type"
-      value="korean-hangul-formal" />korean-hangul-formal
-  </label>
-
-  <label for="korean-hanja-formal">
-    <input
-      type="radio"
-      id="korean-hanja-formal"
-      name="type"
-      value="korean-hanja-formal" />korean-hanja-formal
-  </label>
-
-  <label for="korean-hanja-informal">
-    <input
-      type="radio"
-      id="korean-hanja-informal"
-      name="type"
-      value="korean-hanja-informal" />korean-hanja-informal
-  </label>
-
-  <label for="lao">
-    <input type="radio" id="lao" name="type" value="lao" />lao
-  </label>
-
-  <label for="lower-armenian">
-    <input
-      type="radio"
-      id="lower-armenian"
-      name="type"
-      value="lower-armenian" />lower-armenian
-  </label>
-
-  <label for="malayalam">
-    <input type="radio" id="malayalam" name="type" value="malayalam" />malayalam
-  </label>
-
-  <label for="mongolian">
-    <input type="radio" id="mongolian" name="type" value="mongolian" />mongolian
-  </label>
-
-  <label for="myanmar">
-    <input type="radio" id="myanmar" name="type" value="myanmar" />myanmar
-  </label>
-
-  <label for="oriya">
-    <input type="radio" id="oriya" name="type" value="oriya" />oriya
-  </label>
-
-  <label for="persian">
-    <input type="radio" id="persian" name="type" value="persian" />persian
-  </label>
-
-  <label for="simp-chinese-formal">
-    <input
-      type="radio"
-      id="simp-chinese-formal"
-      name="type"
-      value="simp-chinese-formal" />simp-chinese-formal
-  </label>
-
-  <label for="simp-chinese-informal">
-    <input
-      type="radio"
-      id="simp-chinese-informal"
-      name="type"
-      value="simp-chinese-informal" />simp-chinese-informal
-  </label>
-
-  <label for="tamil">
-    <input type="radio" id="tamil" name="type" value="tamil" />tamil
-  </label>
-
-  <label for="telugu">
-    <input type="radio" id="telugu" name="type" value="telugu" />telugu
-  </label>
-
-  <label for="thai">
-    <input type="radio" id="thai" name="type" value="thai" />thai
-  </label>
-
-  <label for="tibetan">
-    <input type="radio" id="tibetan" name="type" value="tibetan" />tibetan
-  </label>
-
-  <label for="trad-chinese-formal">
-    <input
-      type="radio"
-      id="trad-chinese-formal"
-      name="type"
-      value="trad-chinese-formal" />trad-chinese-formal
-  </label>
-
-  <label for="trad-chinese-informal">
-    <input
-      type="radio"
-      id="trad-chinese-informal"
-      name="type"
-      value="trad-chinese-informal" />trad-chinese-informal
-  </label>
-
-  <label for="upper-armenian">
-    <input
-      type="radio"
-      id="upper-armenian"
-      name="type"
-      value="upper-armenian" />upper-armenian
-  </label>
-
-  <label for="disclosure-open">
-    <input
-      type="radio"
-      id="disclosure-open"
-      name="type"
-      value="disclosure-open" />disclosure-open
-  </label>
-
-  <label for="disclosure-closed">
-    <input
-      type="radio"
-      id="disclosure-closed"
-      name="type"
-      value="disclosure-closed" />disclosure-closed
-  </label>
-
-  <label for="-moz-ethiopic-halehame">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame"
-      name="type"
-      value="-moz-ethiopic-halehame" />-moz-ethiopic-halehame
-  </label>
-
-  <label for="-moz-ethiopic-halehame-am">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-am"
-      name="type"
-      value="-moz-ethiopic-halehame-am" />-moz-ethiopic-halehame-am
-  </label>
-
-  <label for="ethiopic-halehame-ti-er">
-    <input
-      type="radio"
-      id="ethiopic-halehame-ti-er"
-      name="type"
-      value="ethiopic-halehame-ti-er" />ethiopic-halehame-ti-er
-  </label>
-
-  <label for="ethiopic-halehame-ti-et">
-    <input
-      type="radio"
-      id="ethiopic-halehame-ti-et"
-      name="type"
-      value="ethiopic-halehame-ti-et" />ethiopic-halehame-ti-et
-  </label>
-
-  <label for="hangul">
-    <input type="radio" id="hangul" name="type" value="hangul" />hangul
-  </label>
-
-  <label for="hangul-consonant">
-    <input
-      type="radio"
-      id="hangul-consonant"
-      name="type"
-      value="hangul-consonant" />hangul-consonant
-  </label>
-
-  <label for="urdu">
-    <input type="radio" id="urdu" name="type" value="urdu" />urdu
-  </label>
-
-  <label for="-moz-ethiopic-halehame-ti-er">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-ti-er"
-      name="type"
-      value="-moz-ethiopic-halehame-ti-er" />-moz-ethiopic-halehame-ti-er
-  </label>
-
-  <label for="-moz-ethiopic-halehame-ti-et">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-ti-et"
-      name="type"
-      value="-moz-ethiopic-halehame-ti-et" />-moz-ethiopic-halehame-ti-et
-  </label>
-
-  <label for="-moz-hangul">
-    <input
-      type="radio"
-      id="-moz-hangul"
-      name="type"
-      value="-moz-hangul" />-moz-hangul
-  </label>
-
-  <label for="-moz-hangul-consonant">
-    <input
-      type="radio"
-      id="-moz-hangul-consonant"
-      name="type"
-      value="-moz-hangul-consonant" />-moz-hangul-consonant
-  </label>
-
-  <label for="-moz-urdu">
-    <input type="radio" id="-moz-urdu" name="type" value="-moz-urdu" />-moz-urdu
-  </label>
-</div>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "valid-id",
-                                'element id "-moz-urdu" must begin with a letter',
-                                "-moz-urdu",
-                                "417:29",
-                                `/en-US/docs/Web/CSS/Reference/Properties/list-style-type
-[valid-id] element id "-moz-urdu" must begin with a letter
-~~~
-<ol>
-  <li>Apollo</li>
-  <li>Hubble</li>
-  <li>Chandra</li>
-  <li>Cassini-Huygens</li>
-  <li>Spitzer</li>
-</ol>
-
-<h2>Choose a list style type:</h2>
-
-<div class="container">
-  <label for="disc">
-    <input type="radio" id="disc" name="type" value="disc" />disc
-  </label>
-
-  <label for="circle">
-    <input type="radio" id="circle" name="type" value="circle" />circle
-  </label>
-
-  <label for="square">
-    <input type="radio" id="square" name="type" value="square" />square
-  </label>
-
-  <label for="decimal">
-    <input type="radio" id="decimal" name="type" value="decimal" />decimal
-  </label>
-
-  <label for="cjk-decimal">
-    <input
-      type="radio"
-      id="cjk-decimal"
-      name="type"
-      value="cjk-decimal" />cjk-decimal
-  </label>
-
-  <label for="decimal-leading-zero">
-    <input
-      type="radio"
-      id="decimal-leading-zero"
-      name="type"
-      value="decimal-leading-zero" />decimal-leading-zero
-  </label>
-
-  <label for="lower-roman">
-    <input
-      type="radio"
-      id="lower-roman"
-      name="type"
-      value="lower-roman" />lower-roman
-  </label>
-
-  <label for="upper-roman">
-    <input
-      type="radio"
-      id="upper-roman"
-      name="type"
-      value="upper-roman" />upper-roman
-  </label>
-
-  <label for="lower-greek">
-    <input
-      type="radio"
-      id="lower-greek"
-      name="type"
-      value="lower-greek" />lower-greek
-  </label>
-
-  <label for="lower-alpha">
-    <input
-      type="radio"
-      id="lower-alpha"
-      name="type"
-      value="lower-alpha" />lower-alpha, lower-latin
-  </label>
-
-  <label for="upper-alpha">
-    <input
-      type="radio"
-      id="upper-alpha"
-      name="type"
-      value="upper-alpha" />upper-alpha, upper-latin
-  </label>
-
-  <label for="arabic-indic">
-    <input
-      type="radio"
-      id="arabic-indic"
-      name="type"
-      value="arabic-indic" />arabic-indic
-  </label>
-
-  <label for="armenian">
-    <input type="radio" id="armenian" name="type" value="armenian" />armenian
-  </label>
-
-  <label for="bengali">
-    <input type="radio" id="bengali" name="type" value="bengali" />bengali
-  </label>
-
-  <label for="cambodian">
-    <input type="radio" id="cambodian" name="type" value="cambodian" />cambodian
-  </label>
-
-  <label for="cjk-earthly-branch">
-    <input
-      type="radio"
-      id="cjk-earthly-branch"
-      name="type"
-      value="cjk-earthly-branch" />cjk-earthly-branch
-  </label>
-
-  <label for="cjk-heavenly-stem">
-    <input
-      type="radio"
-      id="cjk-heavenly-stem"
-      name="type"
-      value="cjk-heavenly-stem" />cjk-heavenly-stem
-  </label>
-
-  <label for="cjk-ideographic">
-    <input
-      type="radio"
-      id="cjk-ideographic"
-      name="type"
-      value="cjk-ideographic" />cjk-ideographic
-  </label>
-
-  <label for="devanagari">
-    <input
-      type="radio"
-      id="devanagari"
-      name="type"
-      value="devanagari" />devanagari
-  </label>
-
-  <label for="ethiopic-numeric">
-    <input
-      type="radio"
-      id="ethiopic-numeric"
-      name="type"
-      value="ethiopic-numeric" />ethiopic-numeric
-  </label>
-
-  <label for="georgian">
-    <input type="radio" id="georgian" name="type" value="georgian" />georgian
-  </label>
-
-  <label for="gujarati">
-    <input type="radio" id="gujarati" name="type" value="gujarati" />gujarati
-  </label>
-
-  <label for="gurmukhi">
-    <input type="radio" id="gurmukhi" name="type" value="gurmukhi" />gurmukhi
-  </label>
-
-  <label for="hebrew">
-    <input type="radio" id="hebrew" name="type" value="hebrew" />hebrew
-  </label>
-
-  <label for="hiragana">
-    <input type="radio" id="hiragana" name="type" value="hiragana" />hiragana
-  </label>
-
-  <label for="hiragana-iroha">
-    <input
-      type="radio"
-      id="hiragana-iroha"
-      name="type"
-      value="hiragana-iroha" />hiragana-iroha
-  </label>
-
-  <label for="japanese-formal">
-    <input
-      type="radio"
-      id="japanese-formal"
-      name="type"
-      value="japanese-formal" />japanese-formal
-  </label>
-
-  <label for="japanese-informal">
-    <input
-      type="radio"
-      id="japanese-informal"
-      name="type"
-      value="japanese-informal" />japanese-informal
-  </label>
-
-  <label for="kannada">
-    <input type="radio" id="kannada" name="type" value="kannada" />kannada
-  </label>
-
-  <label for="katakana">
-    <input type="radio" id="katakana" name="type" value="katakana" />katakana
-  </label>
-
-  <label for="katakana-iroha">
-    <input
-      type="radio"
-      id="katakana-iroha"
-      name="type"
-      value="katakana-iroha" />katakana-iroha
-  </label>
-
-  <label for="khmer">
-    <input type="radio" id="khmer" name="type" value="khmer" />khmer
-  </label>
-
-  <label for="korean-hangul-formal">
-    <input
-      type="radio"
-      id="korean-hangul-formal"
-      name="type"
-      value="korean-hangul-formal" />korean-hangul-formal
-  </label>
-
-  <label for="korean-hanja-formal">
-    <input
-      type="radio"
-      id="korean-hanja-formal"
-      name="type"
-      value="korean-hanja-formal" />korean-hanja-formal
-  </label>
-
-  <label for="korean-hanja-informal">
-    <input
-      type="radio"
-      id="korean-hanja-informal"
-      name="type"
-      value="korean-hanja-informal" />korean-hanja-informal
-  </label>
-
-  <label for="lao">
-    <input type="radio" id="lao" name="type" value="lao" />lao
-  </label>
-
-  <label for="lower-armenian">
-    <input
-      type="radio"
-      id="lower-armenian"
-      name="type"
-      value="lower-armenian" />lower-armenian
-  </label>
-
-  <label for="malayalam">
-    <input type="radio" id="malayalam" name="type" value="malayalam" />malayalam
-  </label>
-
-  <label for="mongolian">
-    <input type="radio" id="mongolian" name="type" value="mongolian" />mongolian
-  </label>
-
-  <label for="myanmar">
-    <input type="radio" id="myanmar" name="type" value="myanmar" />myanmar
-  </label>
-
-  <label for="oriya">
-    <input type="radio" id="oriya" name="type" value="oriya" />oriya
-  </label>
-
-  <label for="persian">
-    <input type="radio" id="persian" name="type" value="persian" />persian
-  </label>
-
-  <label for="simp-chinese-formal">
-    <input
-      type="radio"
-      id="simp-chinese-formal"
-      name="type"
-      value="simp-chinese-formal" />simp-chinese-formal
-  </label>
-
-  <label for="simp-chinese-informal">
-    <input
-      type="radio"
-      id="simp-chinese-informal"
-      name="type"
-      value="simp-chinese-informal" />simp-chinese-informal
-  </label>
-
-  <label for="tamil">
-    <input type="radio" id="tamil" name="type" value="tamil" />tamil
-  </label>
-
-  <label for="telugu">
-    <input type="radio" id="telugu" name="type" value="telugu" />telugu
-  </label>
-
-  <label for="thai">
-    <input type="radio" id="thai" name="type" value="thai" />thai
-  </label>
-
-  <label for="tibetan">
-    <input type="radio" id="tibetan" name="type" value="tibetan" />tibetan
-  </label>
-
-  <label for="trad-chinese-formal">
-    <input
-      type="radio"
-      id="trad-chinese-formal"
-      name="type"
-      value="trad-chinese-formal" />trad-chinese-formal
-  </label>
-
-  <label for="trad-chinese-informal">
-    <input
-      type="radio"
-      id="trad-chinese-informal"
-      name="type"
-      value="trad-chinese-informal" />trad-chinese-informal
-  </label>
-
-  <label for="upper-armenian">
-    <input
-      type="radio"
-      id="upper-armenian"
-      name="type"
-      value="upper-armenian" />upper-armenian
-  </label>
-
-  <label for="disclosure-open">
-    <input
-      type="radio"
-      id="disclosure-open"
-      name="type"
-      value="disclosure-open" />disclosure-open
-  </label>
-
-  <label for="disclosure-closed">
-    <input
-      type="radio"
-      id="disclosure-closed"
-      name="type"
-      value="disclosure-closed" />disclosure-closed
-  </label>
-
-  <label for="-moz-ethiopic-halehame">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame"
-      name="type"
-      value="-moz-ethiopic-halehame" />-moz-ethiopic-halehame
-  </label>
-
-  <label for="-moz-ethiopic-halehame-am">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-am"
-      name="type"
-      value="-moz-ethiopic-halehame-am" />-moz-ethiopic-halehame-am
-  </label>
-
-  <label for="ethiopic-halehame-ti-er">
-    <input
-      type="radio"
-      id="ethiopic-halehame-ti-er"
-      name="type"
-      value="ethiopic-halehame-ti-er" />ethiopic-halehame-ti-er
-  </label>
-
-  <label for="ethiopic-halehame-ti-et">
-    <input
-      type="radio"
-      id="ethiopic-halehame-ti-et"
-      name="type"
-      value="ethiopic-halehame-ti-et" />ethiopic-halehame-ti-et
-  </label>
-
-  <label for="hangul">
-    <input type="radio" id="hangul" name="type" value="hangul" />hangul
-  </label>
-
-  <label for="hangul-consonant">
-    <input
-      type="radio"
-      id="hangul-consonant"
-      name="type"
-      value="hangul-consonant" />hangul-consonant
-  </label>
-
-  <label for="urdu">
-    <input type="radio" id="urdu" name="type" value="urdu" />urdu
-  </label>
-
-  <label for="-moz-ethiopic-halehame-ti-er">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-ti-er"
-      name="type"
-      value="-moz-ethiopic-halehame-ti-er" />-moz-ethiopic-halehame-ti-er
-  </label>
-
-  <label for="-moz-ethiopic-halehame-ti-et">
-    <input
-      type="radio"
-      id="-moz-ethiopic-halehame-ti-et"
-      name="type"
-      value="-moz-ethiopic-halehame-ti-et" />-moz-ethiopic-halehame-ti-et
-  </label>
-
-  <label for="-moz-hangul">
-    <input
-      type="radio"
-      id="-moz-hangul"
-      name="type"
-      value="-moz-hangul" />-moz-hangul
-  </label>
-
-  <label for="-moz-hangul-consonant">
-    <input
-      type="radio"
-      id="-moz-hangul-consonant"
-      name="type"
-      value="-moz-hangul-consonant" />-moz-hangul-consonant
-  </label>
-
-  <label for="-moz-urdu">
-    <input type="radio" id="-moz-urdu" name="type" value="-moz-urdu" />-moz-urdu
-  </label>
-</div>
-~~~
-`
                               ]
                             }
                           ]
@@ -64185,31 +53977,6 @@ mask-composite: add;
                             }
                           ]
                         },
-                        "mask-repeat": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/mask-repeat",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "multiple-labeled-controls",
-                                "<label> is associated with multiple controls",
-                                "label",
-                                "2:2",
-                                `/en-US/docs/Web/CSS/Reference/Properties/mask-repeat
-[multiple-labeled-controls] <label> is associated with multiple controls
-~~~
-<div></div>
-<label
-  >width: <output></output><br />
-  <input type="range" min="0" max="400" value="250" id="width" />
-</label>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         "mix-blend-mode": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode",
@@ -64497,6 +54264,32 @@ img.opacity:hover {
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        order: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/order",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2015/09/source-order-matters.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        overflow: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Properties/overflow",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2022/06/keyboard-only-scrolling-areas.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -65065,49 +54858,6 @@ body {
   justify-content: center;
   print-color-adjust: exact;
 }
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        quotes: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/quotes",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "element-permitted-content",
-                                "<ul> element is not permitted as content under <ul>",
-                                "ul",
-                                "22:4",
-                                `/en-US/docs/Web/CSS/Reference/Properties/quotes
-[element-permitted-content] <ul> element is not permitted as content under <ul>
-~~~
-<ul>
-  <li>
-    Default quotes:
-    <p lang="ru">
-      <q
-        >Митч Макконнелл - это человек, который знает о России и ее влиянии
-        меньше, чем даже Дональд Трамп, и <q>я ничего не знаю</q>, сказал
-        Трамп</q
-      >, - писал Раджу.
-    </p>
-  </li>
-  <li class="specialQuotes">
-    Defined by <code>quotes</code> property :
-    <p lang="ru">
-      <q
-        >Митч Макконнелл - это человек, который знает о России и ее влиянии
-        меньше, чем даже Дональд Трамп, и <q>я ничего не знаю</q>, сказал
-        Трамп</q
-      >, - писал Раджу.
-    </p>
-  </li>
-  <ul></ul>
-</ul>
 ~~~
 `
                               ]
@@ -65892,137 +55642,6 @@ polygon:nth-of-type(3) {
                             }
                           ]
                         },
-                        "table-layout": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/table-layout",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "3:6",
-                                `/en-US/docs/Web/CSS/Reference/Properties/table-layout
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<section class="default-example" id="default-example">
-  <table class="transition-all" id="example-element">
-    <tr>
-      <th>Name</th>
-      <th>Location</th>
-    </tr>
-    <tr>
-      <td>Lion</td>
-      <td>Africa</td>
-    </tr>
-    <tr>
-      <td>Norwegian Lemming</td>
-      <td>Europe</td>
-    </tr>
-    <tr>
-      <td>Seal</td>
-      <td>Antarctica</td>
-    </tr>
-    <tr>
-      <td>Tiger</td>
-      <td>Asia</td>
-    </tr>
-  </table>
-</section>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "2:4",
-                                `/en-US/docs/Web/CSS/Reference/Properties/table-layout
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr>
-    <td>Ed</td>
-    <td>Wood</td>
-  </tr>
-  <tr>
-    <td>Albert</td>
-    <td>Schweitzer</td>
-  </tr>
-  <tr>
-    <td>Jane</td>
-    <td>Fonda</td>
-  </tr>
-  <tr>
-    <td>William</td>
-    <td>Shakespeare</td>
-  </tr>
-</table>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        "text-box-trim": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-box-trim",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "attribute-empty-style",
-                                'Attribute "contenteditable" should omit value',
-                                "contenteditable",
-                                "25:20",
-                                `/en-US/docs/Web/CSS/Reference/Properties/text-box-trim
-[attribute-empty-style] Attribute "contenteditable" should omit value
-~~~
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-  href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-  rel="stylesheet" />
-<section>
-  <div>
-    <label for="box-trim">Select edge(s) to trim:</label>
-    <select id="box-trim">
-      <option>none</option>
-      <option>trim-start</option>
-      <option>trim-end</option>
-      <option selected>trim-both</option>
-    </select>
-  </div>
-  <div>
-    <label for="trim-over">Select trim over (start) value:</label>
-    <select id="trim-over">
-      <option>text</option>
-      <option selected>cap</option>
-      <option>ex</option>
-    </select>
-  </div>
-</section>
-<p class="display" contenteditable="">Holly Golightly</p>
-<section>
-  <div>
-    <label for="trim-under">Select trim under (end) value:</label>
-    <select id="trim-under">
-      <option>text</option>
-      <option selected>alphabetic</option>
-    </select>
-  </div>
-</section>
-<output></output>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         "text-decoration-thickness": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/Properties/text-decoration-thickness",
@@ -66109,133 +55728,6 @@ em {
   text-emphasis-color: green;
   text-emphasis-style: "*";
 }
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        "text-transform": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-transform",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "parser-error",
-                                'failed to tokenize "<=>?@{|}~<...", state TEXT failed to consume data or change state.',
-                                "<",
-                                "4:84",
-                                `/en-US/docs/Web/CSS/Reference/Properties/text-transform
-[parser-error] failed to tokenize "<=>?@{|}~<...", state TEXT failed to consume data or change state.
-~~~
-<p>
-  Initial String
-  <strong
-    >0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&()*+,-./:;<=>?@{|}~</strong
-  >
-</p>
-<p>
-  text-transform: full-width
-  <strong
-    ><span
-      >0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&()*+,-./:;<=>?@{|}~</span
-    ></strong
-  >
-</p>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        "text-wrap": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-wrap",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "attribute-empty-style",
-                                'Attribute "contenteditable" should omit value',
-                                "contenteditable",
-                                "5:10",
-                                `/en-US/docs/Web/CSS/Reference/Properties/text-wrap
-[attribute-empty-style] Attribute "contenteditable" should omit value
-~~~
-<section class="default-example" id="default-example">
-  <div class="whole-content-wrapper">
-    <p>Edit the text in the box:</p>
-    <div class="transition-all" id="example-element">
-      <p contenteditable="">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aut
-        cum eum id quos est.
-      </p>
-    </div>
-  </div>
-</section>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        "text-wrap-mode": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-wrap-mode",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "attribute-empty-style",
-                                'Attribute "contenteditable" should omit value',
-                                "contenteditable",
-                                "5:10",
-                                `/en-US/docs/Web/CSS/Reference/Properties/text-wrap-mode
-[attribute-empty-style] Attribute "contenteditable" should omit value
-~~~
-<section class="default-example" id="default-example">
-  <div class="whole-content-wrapper">
-    <p>Edit the text in the box:</p>
-    <div class="transition-all" id="example-element">
-      <p contenteditable="">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aut
-        cum eum id quos est.
-      </p>
-    </div>
-  </div>
-</section>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        "text-wrap-style": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/text-wrap-style",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "attribute-empty-style",
-                                'Attribute "contenteditable" should omit value',
-                                "contenteditable",
-                                "5:10",
-                                `/en-US/docs/Web/CSS/Reference/Properties/text-wrap-style
-[attribute-empty-style] Attribute "contenteditable" should omit value
-~~~
-<section class="default-example" id="default-example">
-  <div class="whole-content-wrapper">
-    <p>Edit the text in the box:</p>
-    <div class="transition-all" id="example-element">
-      <p contenteditable="">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aut
-        cum eum id quos est.
-      </p>
-    </div>
-  </div>
-</section>
 ~~~
 `
                               ]
@@ -66749,179 +56241,6 @@ div {
                               ]
                             }
                           ]
-                        },
-                        "vertical-align": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/vertical-align",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "2:4",
-                                `/en-US/docs/Web/CSS/Reference/Properties/vertical-align
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr class="bottom">
-    <td class="baseline">baseline</td>
-    <td class="top">top</td>
-    <td class="middle">middle</td>
-    <td>bottom</td>
-    <td>Row's style</td>
-    <td>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-      pretium felis eu sem mattis vulputate.
-    </td>
-  </tr>
-</table>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        visibility: {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/visibility",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "2:4",
-                                `/en-US/docs/Web/CSS/Reference/Properties/visibility
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr>
-    <td>1.1</td>
-    <td class="collapse">1.2</td>
-    <td>1.3</td>
-  </tr>
-  <tr class="collapse">
-    <td>2.1</td>
-    <td>2.2</td>
-    <td>2.3</td>
-  </tr>
-  <tr>
-    <td>3.1</td>
-    <td>3.2</td>
-    <td>3.3</td>
-  </tr>
-</table>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        "white-space": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/white-space",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "2:4",
-                                `/en-US/docs/Web/CSS/Reference/Properties/white-space
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr>
-    <td></td>
-    <td>Very long content that splits</td>
-    <td class="nw">Very long content that don't split</td>
-  </tr>
-  <tr>
-    <td class="nw">white-space:</td>
-    <td>normal</td>
-    <td>nowrap</td>
-  </tr>
-</table>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        "writing-mode": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/Properties/writing-mode",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "5:4",
-                                `/en-US/docs/Web/CSS/Reference/Properties/writing-mode
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <caption>
-    Using multiple writing modes
-  </caption>
-  <tr>
-    <th>Value</th>
-    <th>Vertical script</th>
-    <th>Horizontal (LTR) script</th>
-    <th>Horizontal (RTL) script</th>
-    <th>Mixed script</th>
-  </tr>
-  <tr class="text1">
-    <th>horizontal-tb</th>
-    <td>我家没有电脑。</td>
-    <td>Example text</td>
-    <td>מלל ארוך לדוגמא</td>
-    <td>1994年に至っては</td>
-  </tr>
-  <tr class="text2">
-    <th>vertical-lr</th>
-    <td>我家没有电脑。</td>
-    <td>Example text</td>
-    <td>מלל ארוך לדוגמא</td>
-    <td>1994年に至っては</td>
-  </tr>
-  <tr class="text3">
-    <th>vertical-rl</th>
-    <td>我家没有电脑。</td>
-    <td>Example text</td>
-    <td>מלל ארוך לדוגמא</td>
-    <td>1994年に至っては</td>
-  </tr>
-  <tr class="experimental text4">
-    <th>sideways-lr</th>
-    <td>我家没有电脑。</td>
-    <td>Example text</td>
-    <td>מלל ארוך לדוגמא</td>
-    <td>1994年に至っては</td>
-  </tr>
-  <tr class="experimental text5">
-    <th>sideways-rl</th>
-    <td>我家没有电脑。</td>
-    <td>Example text</td>
-    <td>מלל ארוך לדוגמא</td>
-    <td>1994年に至っては</td>
-  </tr>
-</table>
-<p class="notice">
-  Your browser does not support the <code>sideways-lr</code> or
-  <code>sideways-rl</code> values.
-</p>
-~~~
-`
-                              ]
-                            }
-                          ]
                         }
                       },
                       slug: "/en-US/docs/Web/CSS/Reference/Properties",
@@ -67081,6 +56400,2124 @@ div {
                           data: [
                             "/en-US/docs/Web/CSS/Reference/Properties/corner-bottom-right-shape"
                           ]
+                        }
+                      ]
+                    },
+                    selectors: {
+                      children: {
+                        "_colon_-moz-drag-over": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-drag-over",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "css.selectors.-moz-drag-over"
+                              ]
+                            }
+                          ]
+                        },
+                        "_colon_-moz-handler-blocked": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-handler-blocked",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "css.selectors.-moz-handler-blocked"
+                              ]
+                            }
+                          ]
+                        },
+                        "_colon_-moz-handler-crashed": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-handler-crashed",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "css.selectors.-moz-handler-crashed"
+                              ]
+                            }
+                          ]
+                        },
+                        "_colon_-moz-handler-disabled": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-handler-disabled",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "css.selectors.-moz-handler-disabled"
+                              ]
+                            }
+                          ]
+                        },
+                        "_colon_-moz-loading": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-loading",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "css.selectors.-moz-loading"
+                              ]
+                            }
+                          ]
+                        },
+                        "_colon_-moz-locale-dir_ltr": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-locale-dir_ltr",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "css.selectors.-moz-locale-dir_ltr"
+                              ]
+                            }
+                          ]
+                        },
+                        "_colon_-moz-locale-dir_rtl": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-locale-dir_rtl",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "css.selectors.-moz-locale-dir_rtl"
+                              ]
+                            }
+                          ]
+                        },
+                        "_colon_-moz-suppressed": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-suppressed",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "css.selectors.-moz-suppressed"
+                              ]
+                            }
+                          ]
+                        },
+                        "_colon_-moz-user-disabled": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-user-disabled",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "css.selectors.-moz-user-disabled"
+                              ]
+                            }
+                          ]
+                        },
+                        "_colon_active-view-transition": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:active-view-transition",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/:active-view-transition-type"
+                              ]
+                            }
+                          ]
+                        },
+                        _colon_blank: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:blank",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "css.selectors.blank"
+                              ]
+                            }
+                          ]
+                        },
+                        _colon_current: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:current",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "css.selectors.current"
+                              ]
+                            }
+                          ]
+                        },
+                        _colon_heading_function: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:heading_function",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "odd" (selector-type-no-unknown)',
+                                ":heading(odd) {",
+                                "1:10 - 1:13",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/:heading_function
+[selector-type-no-unknown] Unexpected unknown type selector "odd" (selector-type-no-unknown)
+~~~
+:heading(odd) {
+  color: tomato;
+}
+:heading(even) {
+  color: slateblue;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "even" (selector-type-no-unknown)',
+                                ":heading(even) {",
+                                "4:10 - 4:14",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/:heading_function
+[selector-type-no-unknown] Unexpected unknown type selector "even" (selector-type-no-unknown)
+~~~
+:heading(odd) {
+  color: tomato;
+}
+:heading(even) {
+  color: slateblue;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "3n" (selector-type-no-unknown)',
+                                ":heading(3n + 1) {",
+                                "15:10 - 15:12",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/:heading_function
+[selector-type-no-unknown] Unexpected unknown type selector "3n" (selector-type-no-unknown)
+~~~
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Targets headings <h3> and <h4> */
+:heading(3, 4) {
+  font-weight: 100;
+}
+/* Targets headings in reverse starting from <h3> */
+:heading(-n + 3) {
+  color: tomato;
+}
+/* Targets every third heading starting from <h1> */
+:heading(3n + 1) {
+  font-style: italic;
+}
+/* Targets headings after level 5 */
+:heading(n + 5) {
+  color: slateblue;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "1" (selector-type-no-unknown)',
+                                ":heading(3n + 1) {",
+                                "15:15 - 15:16",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/:heading_function
+[selector-type-no-unknown] Unexpected unknown type selector "1" (selector-type-no-unknown)
+~~~
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Targets headings <h3> and <h4> */
+:heading(3, 4) {
+  font-weight: 100;
+}
+/* Targets headings in reverse starting from <h3> */
+:heading(-n + 3) {
+  color: tomato;
+}
+/* Targets every third heading starting from <h1> */
+:heading(3n + 1) {
+  font-style: italic;
+}
+/* Targets headings after level 5 */
+:heading(n + 5) {
+  color: slateblue;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "n" (selector-type-no-unknown)',
+                                ":heading(n + 5) {",
+                                "19:10 - 19:11",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/:heading_function
+[selector-type-no-unknown] Unexpected unknown type selector "n" (selector-type-no-unknown)
+~~~
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Targets headings <h3> and <h4> */
+:heading(3, 4) {
+  font-weight: 100;
+}
+/* Targets headings in reverse starting from <h3> */
+:heading(-n + 3) {
+  color: tomato;
+}
+/* Targets every third heading starting from <h1> */
+:heading(3n + 1) {
+  font-style: italic;
+}
+/* Targets headings after level 5 */
+:heading(n + 5) {
+  color: slateblue;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "5" (selector-type-no-unknown)',
+                                ":heading(n + 5) {",
+                                "19:14 - 19:15",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/:heading_function
+[selector-type-no-unknown] Unexpected unknown type selector "5" (selector-type-no-unknown)
+~~~
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Targets headings <h3> and <h4> */
+:heading(3, 4) {
+  font-weight: 100;
+}
+/* Targets headings in reverse starting from <h3> */
+:heading(-n + 3) {
+  color: tomato;
+}
+/* Targets every third heading starting from <h1> */
+:heading(3n + 1) {
+  font-style: italic;
+}
+/* Targets headings after level 5 */
+:heading(n + 5) {
+  color: slateblue;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "_colon_in-range": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:in-range",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "  background-color: rgb(0 255 0 / 25%);",
+                                "11:35 - 11:38",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/:in-range
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+input {
+  border: 1px solid black;
+}
+
+input:in-range {
+  background-color: rgb(0 255 0 / 25%);
+}
+
+input:out-of-range {
+  background-color: rgb(255 0 0 / 25%);
+  border: 2px solid red;
+}
+
+input:in-range + label::after {
+  content: "okay.";
+}
+
+input:out-of-range + label::after {
+  content: "out of range!";
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "  background-color: rgb(255 0 0 / 25%);",
+                                "15:35 - 15:38",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/:in-range
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+input {
+  border: 1px solid black;
+}
+
+input:in-range {
+  background-color: rgb(0 255 0 / 25%);
+}
+
+input:out-of-range {
+  background-color: rgb(255 0 0 / 25%);
+  border: 2px solid red;
+}
+
+input:in-range + label::after {
+  content: "okay.";
+}
+
+input:out-of-range + label::after {
+  content: "out of range!";
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "_colon_local-link": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:local-link",
+                          messages: [
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "css.selectors.local-link"
+                              ]
+                            }
+                          ]
+                        },
+                        _colon_modal: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:modal",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "  box-shadow: 3px 3px 10px rgb(0 0 0 / 50%);",
+                                "4:40 - 4:43",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/:modal
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+:modal {
+  border: 5px solid red;
+  background-color: yellow;
+  box-shadow: 3px 3px 10px rgb(0 0 0 / 50%);
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "_colon_out-of-range": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/:out-of-range",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "  background-color: rgb(0 255 0 / 25%);",
+                                "11:35 - 11:38",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/:out-of-range
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+input {
+  border: 1px solid black;
+}
+
+input:in-range {
+  background-color: rgb(0 255 0 / 25%);
+}
+
+input:out-of-range {
+  background-color: rgb(255 0 0 / 25%);
+  border: 2px solid red;
+}
+
+input:in-range + label::after {
+  content: "okay.";
+}
+
+input:out-of-range + label::after {
+  content: "out of range!";
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "  background-color: rgb(255 0 0 / 25%);",
+                                "15:35 - 15:38",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/:out-of-range
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+input {
+  border: 1px solid black;
+}
+
+input:in-range {
+  background-color: rgb(0 255 0 / 25%);
+}
+
+input:out-of-range {
+  background-color: rgb(255 0 0 / 25%);
+  border: 2px solid red;
+}
+
+input:in-range + label::after {
+  content: "okay.";
+}
+
+input:out-of-range + label::after {
+  content: "out of range!";
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "_doublecolon_-moz-focus-inner": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-focus-inner",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "padding-block" (declaration-block-no-redundant-longhand-properties)',
+                                "  padding-block-end: 0px;",
+                                "8:3 - 8:20",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/::-moz-focus-inner
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "padding-block" (declaration-block-no-redundant-longhand-properties)
+~~~
+button::-moz-focus-inner,
+input[type="color"]::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner {
+  padding-block-start: 0px;
+  padding-inline-end: 2px;
+  padding-block-end: 0px;
+  padding-inline-start: 2px;
+  border: 2px dotted red;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "padding-inline" (declaration-block-no-redundant-longhand-properties)',
+                                "  padding-inline-start: 2px;",
+                                "9:3 - 9:23",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/::-moz-focus-inner
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "padding-inline" (declaration-block-no-redundant-longhand-properties)
+~~~
+button::-moz-focus-inner,
+input[type="color"]::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner {
+  padding-block-start: 0px;
+  padding-inline-end: 2px;
+  padding-block-end: 0px;
+  padding-inline-start: 2px;
+  border: 2px dotted red;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Not in BCD",
+                              data: [
+                                "css.selectors.-moz-focus-inner"
+                              ]
+                            }
+                          ]
+                        },
+                        "_doublecolon_-moz-meter-bar": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-meter-bar",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "css.selectors.-moz-meter-bar",
+                                "Expected:",
+                                "[None]"
+                              ]
+                            },
+                            {
+                              message: "Page status not backed by BCD",
+                              data: []
+                            }
+                          ]
+                        },
+                        "_doublecolon_-webkit-scrollbar": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-scrollbar",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                `css.selectors.-webkit-scrollbar
+css.selectors.-webkit-scrollbar-button
+css.selectors.-webkit-scrollbar-thumb
+css.selectors.-webkit-scrollbar-track
+css.selectors.-webkit-scrollbar-track-piece
+css.selectors.-webkit-scrollbar-corner
+css.selectors.-webkit-resizer`,
+                                "Expected:",
+                                "css.selectors.-webkit-scrollbar"
+                              ]
+                            }
+                          ]
+                        },
+                        _doublecolon_backdrop: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::backdrop",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "  background: rgb(255 0 0 / 25%);",
+                                "3:29 - 3:32",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/::backdrop
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+/* Backdrop is only displayed when dialog is opened with dialog.showModal() */
+dialog::backdrop {
+  background: rgb(255 0 0 / 25%);
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        _doublecolon_cue: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::cue",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "60%" to be "0.6" (alpha-value-notation)',
+                                "  background-color: rgb(0 0 0 / 60%);",
+                                "3:33 - 3:36",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/::cue
+[alpha-value-notation] Expected "60%" to be "0.6" (alpha-value-notation)
+~~~
+::cue {
+  color: white;
+  background-color: rgb(0 0 0 / 60%);
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "_doublecolon_scroll-button": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::scroll-button",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "left" (selector-type-no-unknown)',
+                                "ul::scroll-button(left) {",
+                                "43:19 - 43:23",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/::scroll-button
+[selector-type-no-unknown] Unexpected unknown type selector "left" (selector-type-no-unknown)
+~~~
+ul {
+  display: flex;
+  gap: 4vw;
+  padding-left: 0;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  list-style-type: none;
+  background-color: #eeeeee;
+  flex: 0 0 100%;
+  height: 100px;
+  padding-top: 20px;
+  scroll-snap-align: start;
+  text-align: center;
+}
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "right" (selector-type-no-unknown)',
+                                "ul::scroll-button(right) {",
+                                "47:19 - 47:24",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/::scroll-button
+[selector-type-no-unknown] Unexpected unknown type selector "right" (selector-type-no-unknown)
+~~~
+ul {
+  display: flex;
+  gap: 4vw;
+  padding-left: 0;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  list-style-type: none;
+  background-color: #eeeeee;
+  flex: 0 0 100%;
+  height: 100px;
+  padding-top: 20px;
+  scroll-snap-align: start;
+  text-align: center;
+}
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "left" (selector-type-no-unknown)',
+                                "ul::scroll-button(left) {",
+                                "43:19 - 43:23",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/::scroll-button
+[selector-type-no-unknown] Unexpected unknown type selector "left" (selector-type-no-unknown)
+~~~
+ul {
+  display: flex;
+  gap: 4vw;
+  padding-left: 0;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  list-style-type: none;
+  background-color: #eeeeee;
+  flex: 0 0 100%;
+  height: 100px;
+  padding-top: 20px;
+  scroll-snap-align: start;
+  text-align: center;
+}
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+ul {
+  anchor-name: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  align-self: anchor-center;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 45px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 45px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "right" (selector-type-no-unknown)',
+                                "ul::scroll-button(right) {",
+                                "47:19 - 47:24",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/::scroll-button
+[selector-type-no-unknown] Unexpected unknown type selector "right" (selector-type-no-unknown)
+~~~
+ul {
+  display: flex;
+  gap: 4vw;
+  padding-left: 0;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  list-style-type: none;
+  background-color: #eeeeee;
+  flex: 0 0 100%;
+  height: 100px;
+  padding-top: 20px;
+  scroll-snap-align: start;
+  text-align: center;
+}
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+ul {
+  anchor-name: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  align-self: anchor-center;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 45px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 45px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "left" (selector-type-no-unknown)',
+                                "ul::scroll-button(left) {",
+                                "64:19 - 64:23",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/::scroll-button
+[selector-type-no-unknown] Unexpected unknown type selector "left" (selector-type-no-unknown)
+~~~
+ul {
+  display: flex;
+  gap: 4vw;
+  padding-left: 0;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  list-style-type: none;
+  background-color: #eeeeee;
+  flex: 0 0 100%;
+  height: 100px;
+  padding-top: 20px;
+  scroll-snap-align: start;
+  text-align: center;
+}
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+ul {
+  anchor-name: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  align-self: anchor-center;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 45px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 45px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "right" (selector-type-no-unknown)',
+                                "ul::scroll-button(right) {",
+                                "68:19 - 68:24",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/::scroll-button
+[selector-type-no-unknown] Unexpected unknown type selector "right" (selector-type-no-unknown)
+~~~
+ul {
+  display: flex;
+  gap: 4vw;
+  padding-left: 0;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  list-style-type: none;
+  background-color: #eeeeee;
+  flex: 0 0 100%;
+  height: 100px;
+  padding-top: 20px;
+  scroll-snap-align: start;
+  text-align: center;
+}
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+ul {
+  anchor-name: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  align-self: anchor-center;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 45px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 45px);
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        "_doublecolon_view-transition": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/::view-transition",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "  background-color: rgb(0 0 0 / 25%);",
+                                "2:33 - 2:36",
+                                `/en-US/docs/Web/CSS/Reference/Selectors/::view-transition
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+::view-transition {
+  background-color: rgb(0 0 0 / 25%);
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        column_combinator: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/Column_combinator",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "[None]",
+                                "Expected:",
+                                "css.selectors.column"
+                              ]
+                            }
+                          ]
+                        },
+                        combinators: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/Combinators",
+                          messages: [
+                            {
+                              message: "Unreachable via page",
+                              data: []
+                            }
+                          ]
+                        },
+                        "pseudo-classes": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/:active-view-transition-type"
+                              ]
+                            },
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/CSS/:active-view-transition-type"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Reference/Selectors",
+                      messages: [
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-progress-bar"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:muted"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::scroll-marker-group"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:enabled"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:empty"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-meter-bar"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:read-only"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-window-inactive"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:user-invalid"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:nth-last-child"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:checked"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:future"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::view-transition-old"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-drag-over"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:open"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:last-of-type"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:picture-in-picture"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:out-of-range"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-suppressed"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-list-number"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/Child_combinator"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:volume-locked"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:focus-visible"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::spelling-error"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:active-view-transition"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:nth-last-of-type"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-locale-dir_rtl"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-color-swatch"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:indeterminate"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:paused"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:dir"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:valid"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:left"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/Next-sibling_combinator"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:first-of-type"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-search-results-button"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/Subsequent-sibling_combinator"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-meter-suboptimum-value"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-inner-spin-button"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-handler-disabled"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-slider-runnable-track"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:only-child"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::view-transition"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-handler-crashed"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::marker"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-broken"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-search-cancel-button"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-locale-dir_ltr"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:blank"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-first-node"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-handler-blocked"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-only-whitespace"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:link"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:default"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:fullscreen"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:disabled"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:first-child"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:host_function"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/Column_combinator"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::view-transition-image-pair"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:target-current"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::picker-icon"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:stalled"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:not"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:focus"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-submit-invalid"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::placeholder"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-progress-value"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:right"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:defined"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::column"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:invalid"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::first-letter"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:scope"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-range-track"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:in-range"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:hover"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-range-progress"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::view-transition-new"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::file-selector-button"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::details-content"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:user-valid"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-meter-inner-element"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-scrollbar"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-progress-inner-element"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:active"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-meter-optimum-value"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:playing"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::backdrop"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::highlight"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:required"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:host"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-list-bullet"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::grammar-error"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::picker"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:autofill"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:last-child"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-progress-bar"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:current"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::checkmark"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:nth-child"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-range-thumb"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/Namespace_separator"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::view-transition-group"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:root"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-meter-bar"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:local-link"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-last-node"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::before"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:target"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::scroll-button"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:read-write"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:nth-of-type"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:is"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:visited"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:placeholder-shown"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:where"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:heading"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-slider-thumb"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:popover-open"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:state"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::part"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::selection"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-loading"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:focus-within"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:modal"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:host-context"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:first"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::target-text"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:seeking"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::after"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:past"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:buffering"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:lang"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::first-line"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:heading_function"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::cue"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:optional"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::scroll-marker"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-moz-focus-inner"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::slotted"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:any-link"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:-moz-user-disabled"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/Descendant_combinator"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/::-webkit-meter-even-less-good-value"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:has"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:has-slotted"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Reference/Selectors/:only-of-type"
+                          ]
+                        },
+                        {
+                          message: "Unreachable via page",
+                          data: []
                         }
                       ]
                     },
@@ -67618,6 +59055,12 @@ div {
                     {
                       message: "Broken link",
                       data: [
+                        "/en-US/docs/Web/CSS/:xr-overlay"
+                      ]
+                    },
+                    {
+                      message: "Broken link",
+                      data: [
                         "/en-US/docs/Web/CSS/xywh"
                       ]
                     },
@@ -67625,6 +59068,12 @@ div {
                       message: "No link to child page",
                       data: [
                         "/en-US/docs/Web/CSS/Reference/Properties"
+                      ]
+                    },
+                    {
+                      message: "No link to child page",
+                      data: [
+                        "/en-US/docs/Web/CSS/Reference/Selectors"
                       ]
                     }
                   ]
@@ -68864,89 +60313,6 @@ section::after {
               children: {
                 guides: {
                   children: {
-                    cheatsheet: {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/Guides/Cheatsheet",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "void-style",
-                            "Expected self-closing element <br/> instead of omitted end-tag <br>",
-                            ">",
-                            "1:10",
-                            `/en-US/docs/Web/HTML/Guides/Cheatsheet
-[void-style] Expected self-closing element <br/> instead of omitted end-tag <br>
-~~~
-Line 1<br>Line 2~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "void-style",
-                            "Expected self-closing element <wbr/> instead of omitted end-tag <wbr>",
-                            ">",
-                            "2:15",
-                            `/en-US/docs/Web/HTML/Guides/Cheatsheet
-[void-style] Expected self-closing element <wbr/> instead of omitted end-tag <wbr>
-~~~
-<div style="width: 200px">
-  Llanfair<wbr>pwllgwyngyll<wbr>gogerychwyrndrobwllllantysiliogogogoch.
-</div>~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "void-style",
-                            "Expected self-closing element <wbr/> instead of omitted end-tag <wbr>",
-                            ">",
-                            "2:32",
-                            `/en-US/docs/Web/HTML/Guides/Cheatsheet
-[void-style] Expected self-closing element <wbr/> instead of omitted end-tag <wbr>
-~~~
-<div style="width: 200px">
-  Llanfair<wbr>pwllgwyngyll<wbr>gogerychwyrndrobwllllantysiliogogogoch.
-</div>~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "void-style",
-                            "Expected self-closing element <source/> instead of omitted end-tag <source>",
-                            ">",
-                            "2:70",
-                            `/en-US/docs/Web/HTML/Guides/Cheatsheet
-[void-style] Expected self-closing element <source/> instead of omitted end-tag <source>
-~~~
-<audio controls>
-  <source src="/shared-assets/audio/t-rex-roar.mp3" type="audio/mpeg">
-</audio>
-        ~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "void-style",
-                            "Expected self-closing element <hr/> instead of omitted end-tag <hr>",
-                            ">",
-                            "1:10",
-                            `/en-US/docs/Web/HTML/Guides/Cheatsheet
-[void-style] Expected self-closing element <hr/> instead of omitted end-tag <hr>
-~~~
-before<hr>after~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     content_categories: {
                       children: {},
                       slug: "/en-US/docs/Web/HTML/Guides/Content_categories",
@@ -69033,54 +60399,6 @@ before<hr>after~~~
                         }
                       ]
                     },
-                    "author_fast-loading_html_pages": {
-                      children: {},
-                      slug: "/en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-content",
-                            "<table> element is not permitted as content under <table>",
-                            "table",
-                            "2:4",
-                            `/en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages
-[element-permitted-content] <table> element is not permitted as content under <table>
-~~~
-<table>
-  <table>
-    <table>
-      …
-    </table>
-  </table>
-</table>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-content",
-                            "<table> element is not permitted as content under <table>",
-                            "table",
-                            "3:6",
-                            `/en-US/docs/Web/HTML/How_to/Author_fast-loading_HTML_pages
-[element-permitted-content] <table> element is not permitted as content under <table>
-~~~
-<table>
-  <table>
-    <table>
-      …
-    </table>
-  </table>
-</table>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     define_terms_with_html: {
                       children: {},
                       slug: "/en-US/docs/Web/HTML/How_to/Define_terms_with_HTML",
@@ -69104,30 +60422,6 @@ before<hr>after~~~
                   children: {
                     attributes: {
                       children: {
-                        autocomplete: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/autocomplete",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "valid-autocomplete",
-                                '"street-address" cannot be used on <input type="text">',
-                                "street-address",
-                                "3:31",
-                                `/en-US/docs/Web/HTML/Reference/Attributes/autocomplete
-[valid-autocomplete] "street-address" cannot be used on <input type="text">
-~~~
-<input autocomplete="off" />
-<input autocomplete="on" />
-<input autocomplete="shipping street-address" />
-<input autocomplete="section-user1 billing postal-code" />
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
                         disabled: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Attributes/disabled",
@@ -69152,182 +60446,6 @@ html.elements.optgroup.disabled
 html.elements.option.disabled
 html.elements.select.disabled
 html.elements.textarea.disabled`
-                              ]
-                            }
-                          ]
-                        },
-                        readonly: {
-                          children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/readonly",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "attribute-boolean-style",
-                                'Attribute "readonly" should omit value',
-                                "readonly",
-                                "2:41",
-                                `/en-US/docs/Web/HTML/Reference/Attributes/readonly
-[attribute-boolean-style] Attribute "readonly" should omit value
-~~~
-<div class="group">
-  <input type="text" value="Some value" readonly="readonly" id="text" />
-  <label for="text">Text box</label>
-</div>
-<div class="group">
-  <input type="date" value="2020-01-01" readonly="readonly" id="date" />
-  <label for="date">Date</label>
-</div>
-<div class="group">
-  <input type="email" value="Some value" readonly="readonly" id="email" />
-  <label for="email">Email</label>
-</div>
-<div class="group">
-  <input type="password" value="Some value" readonly="readonly" id="pwd" />
-  <label for="pwd">Password</label>
-</div>
-<div class="group">
-  <textarea readonly="readonly" id="ta">Some value</textarea>
-  <label for="ta">Message</label>
-</div>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "attribute-boolean-style",
-                                'Attribute "readonly" should omit value',
-                                "readonly",
-                                "6:41",
-                                `/en-US/docs/Web/HTML/Reference/Attributes/readonly
-[attribute-boolean-style] Attribute "readonly" should omit value
-~~~
-<div class="group">
-  <input type="text" value="Some value" readonly="readonly" id="text" />
-  <label for="text">Text box</label>
-</div>
-<div class="group">
-  <input type="date" value="2020-01-01" readonly="readonly" id="date" />
-  <label for="date">Date</label>
-</div>
-<div class="group">
-  <input type="email" value="Some value" readonly="readonly" id="email" />
-  <label for="email">Email</label>
-</div>
-<div class="group">
-  <input type="password" value="Some value" readonly="readonly" id="pwd" />
-  <label for="pwd">Password</label>
-</div>
-<div class="group">
-  <textarea readonly="readonly" id="ta">Some value</textarea>
-  <label for="ta">Message</label>
-</div>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "attribute-boolean-style",
-                                'Attribute "readonly" should omit value',
-                                "readonly",
-                                "10:42",
-                                `/en-US/docs/Web/HTML/Reference/Attributes/readonly
-[attribute-boolean-style] Attribute "readonly" should omit value
-~~~
-<div class="group">
-  <input type="text" value="Some value" readonly="readonly" id="text" />
-  <label for="text">Text box</label>
-</div>
-<div class="group">
-  <input type="date" value="2020-01-01" readonly="readonly" id="date" />
-  <label for="date">Date</label>
-</div>
-<div class="group">
-  <input type="email" value="Some value" readonly="readonly" id="email" />
-  <label for="email">Email</label>
-</div>
-<div class="group">
-  <input type="password" value="Some value" readonly="readonly" id="pwd" />
-  <label for="pwd">Password</label>
-</div>
-<div class="group">
-  <textarea readonly="readonly" id="ta">Some value</textarea>
-  <label for="ta">Message</label>
-</div>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "attribute-boolean-style",
-                                'Attribute "readonly" should omit value',
-                                "readonly",
-                                "14:45",
-                                `/en-US/docs/Web/HTML/Reference/Attributes/readonly
-[attribute-boolean-style] Attribute "readonly" should omit value
-~~~
-<div class="group">
-  <input type="text" value="Some value" readonly="readonly" id="text" />
-  <label for="text">Text box</label>
-</div>
-<div class="group">
-  <input type="date" value="2020-01-01" readonly="readonly" id="date" />
-  <label for="date">Date</label>
-</div>
-<div class="group">
-  <input type="email" value="Some value" readonly="readonly" id="email" />
-  <label for="email">Email</label>
-</div>
-<div class="group">
-  <input type="password" value="Some value" readonly="readonly" id="pwd" />
-  <label for="pwd">Password</label>
-</div>
-<div class="group">
-  <textarea readonly="readonly" id="ta">Some value</textarea>
-  <label for="ta">Message</label>
-</div>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "attribute-boolean-style",
-                                'Attribute "readonly" should omit value',
-                                "readonly",
-                                "18:13",
-                                `/en-US/docs/Web/HTML/Reference/Attributes/readonly
-[attribute-boolean-style] Attribute "readonly" should omit value
-~~~
-<div class="group">
-  <input type="text" value="Some value" readonly="readonly" id="text" />
-  <label for="text">Text box</label>
-</div>
-<div class="group">
-  <input type="date" value="2020-01-01" readonly="readonly" id="date" />
-  <label for="date">Date</label>
-</div>
-<div class="group">
-  <input type="email" value="Some value" readonly="readonly" id="email" />
-  <label for="email">Email</label>
-</div>
-<div class="group">
-  <input type="password" value="Some value" readonly="readonly" id="pwd" />
-  <label for="pwd">Password</label>
-</div>
-<div class="group">
-  <textarea readonly="readonly" id="ta">Some value</textarea>
-  <label for="ta">Message</label>
-</div>
-~~~
-`
                               ]
                             }
                           ]
@@ -69626,268 +60744,41 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
-                        caption: {
+                        a: {
                           children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/caption",
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
                           messages: [
                             {
-                              message: "HTML code issue",
+                              message: "Broken external link",
                               data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "5:4",
-                                `/en-US/docs/Web/HTML/Reference/Elements/caption
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <caption>
-    He-Man and Skeletor facts
-  </caption>
-  <tr>
-    <td></td>
-    <th scope="col" class="heman">He-Man</th>
-    <th scope="col" class="skeletor">Skeletor</th>
-  </tr>
-  <tr>
-    <th scope="row">Role</th>
-    <td>Hero</td>
-    <td>Villain</td>
-  </tr>
-  <tr>
-    <th scope="row">Weapon</th>
-    <td>Power Sword</td>
-    <td>Havoc Staff</td>
-  </tr>
-  <tr>
-    <th scope="row">Dark secret</th>
-    <td>Expert florist</td>
-    <td>Cries at romcoms</td>
-  </tr>
-</table>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "5:4",
-                                `/en-US/docs/Web/HTML/Reference/Elements/caption
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <caption>
-    User login email addresses
-  </caption>
-  <tr>
-    <th>Login</th>
-    <th>Email</th>
-  </tr>
-  <tr>
-    <td>user1</td>
-    <td>user1@example.com</td>
-  </tr>
-  <tr>
-    <td>user2</td>
-    <td>user2@example.com</td>
-  </tr>
-</table>
-~~~
-`
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
                         },
-                        col: {
+                        button: {
                           children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/col",
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/button",
                           messages: [
                             {
-                              message: "HTML code issue",
+                              message: "Broken external link",
                               data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "10:4",
-                                `/en-US/docs/Web/HTML/Reference/Elements/col
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <caption>
-    Superheros and sidekicks
-  </caption>
-  <colgroup>
-    <col />
-    <col span="2" class="batman" />
-    <col span="2" class="flash" />
-  </colgroup>
-  <tr>
-    <td></td>
-    <th scope="col">Batman</th>
-    <th scope="col">Robin</th>
-    <th scope="col">The Flash</th>
-    <th scope="col">Kid Flash</th>
-  </tr>
-  <tr>
-    <th scope="row">Skill</th>
-    <td>Smarts, strong</td>
-    <td>Dex, acrobat</td>
-    <td>Super speed</td>
-    <td>Super speed</td>
-  </tr>
-</table>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "10:4",
-                                `/en-US/docs/Web/HTML/Reference/Elements/col
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <caption>
-    Personal weekly activities
-  </caption>
-  <colgroup>
-    <col />
-    <col span="5" class="weekdays" />
-    <col span="2" class="weekend" />
-  </colgroup>
-  <tr>
-    <th>Period</th>
-    <th>Mon</th>
-    <th>Tue</th>
-    <th>Wed</th>
-    <th>Thu</th>
-    <th>Fri</th>
-    <th>Sat</th>
-    <th>Sun</th>
-  </tr>
-  <tr>
-    <th>a.m.</th>
-    <td>Clean room</td>
-    <td>Football training</td>
-    <td>Dance Course</td>
-    <td>History Class</td>
-    <td>Buy drinks</td>
-    <td>Study hour</td>
-    <td>Free time</td>
-  </tr>
-  <tr>
-    <th>p.m.</th>
-    <td>Yoga</td>
-    <td>Chess Club</td>
-    <td>Meet friends</td>
-    <td>Gymnastics</td>
-    <td>Birthday party</td>
-    <td>Fishing trip</td>
-    <td>Free time</td>
-  </tr>
-</table>
-~~~
-`
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
                         },
-                        colgroup: {
+                        del: {
                           children: {},
-                          slug: "/en-US/docs/Web/HTML/Reference/Elements/colgroup",
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/del",
                           messages: [
                             {
-                              message: "HTML code issue",
+                              message: "Broken external link",
                               data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "10:4",
-                                `/en-US/docs/Web/HTML/Reference/Elements/colgroup
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <caption>
-    Superheros and sidekicks
-  </caption>
-  <colgroup>
-    <col />
-    <col span="2" class="batman" />
-    <col span="2" class="flash" />
-  </colgroup>
-  <tr>
-    <td></td>
-    <th scope="col">Batman</th>
-    <th scope="col">Robin</th>
-    <th scope="col">The Flash</th>
-    <th scope="col">Kid Flash</th>
-  </tr>
-  <tr>
-    <th scope="row">Skill</th>
-    <td>Smarts, strong</td>
-    <td>Dex, acrobat</td>
-    <td>Super speed</td>
-    <td>Super speed</td>
-  </tr>
-</table>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "7:4",
-                                `/en-US/docs/Web/HTML/Reference/Elements/colgroup
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <caption>
-    Personal weekly activities
-  </caption>
-  <colgroup span="5" class="weekdays"></colgroup>
-  <colgroup span="2" class="weekend"></colgroup>
-  <tr>
-    <th>Mon</th>
-    <th>Tue</th>
-    <th>Wed</th>
-    <th>Thu</th>
-    <th>Fri</th>
-    <th>Sat</th>
-    <th>Sun</th>
-  </tr>
-  <tr>
-    <td>Clean room</td>
-    <td>Football training</td>
-    <td>Dance Course</td>
-    <td>History Class</td>
-    <td>Buy drinks</td>
-    <td>Study hour</td>
-    <td>Free time</td>
-  </tr>
-  <tr>
-    <td>Yoga</td>
-    <td>Chess Club</td>
-    <td>Meet friends</td>
-    <td>Gymnastics</td>
-    <td>Birthday party</td>
-    <td>Fishing trip</td>
-    <td>Free time</td>
-  </tr>
-</table>
-~~~
-`
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -69960,6 +60851,39 @@ because the nesting selector cannot represent pseudo-elements. */
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        dl: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/dl",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2020/09/voiceover-on-ios-14-supports-description-lists.html",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2022/12/brief-note-on-description-list-support.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        heading_elements: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/Heading_Elements",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2016/08/there-is-no-document-outline-algorithm.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -70240,17 +61164,36 @@ because the nesting selector cannot represent pseudo-elements. */
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/input",
                           messages: [
                             {
-                              message: "HTML code issue",
+                              message: "Broken external link",
                               data: [
-                                "void-style",
-                                "Expected self-closing element <input/> instead of omitted end-tag <input>",
-                                ">",
-                                "1:62",
-                                `/en-US/docs/Web/HTML/Reference/Elements/input
-[void-style] Expected self-closing element <input/> instead of omitted end-tag <input>
-~~~
-<input id="userId" name="userId" type="hidden" value="abc123">~~~
-`
+                                "https://adrianroselli.com/2019/06/target-size-and-2-5-5.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        ins: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/ins",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
+                        mark: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/mark",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -70274,6 +61217,19 @@ because the nesting selector cannot represent pseudo-elements. */
                               }
                             }
                           }
+                        },
+                        s: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/s",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://adrianroselli.com/2017/12/tweaking-text-level-styles.html",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         },
                         select: {
                           children: {},
@@ -70565,33 +61521,10 @@ http.headers.Use-As-Dictionary`,
                       slug: "/en-US/docs/Web/HTTP/Guides/CSP",
                       messages: [
                         {
-                          message: "HTML code issue",
+                          message: "Broken external link",
                           data: [
-                            "element-required-attributes",
-                            '<img> is missing required "src" attribute',
-                            "img",
-                            "1:2",
-                            `/en-US/docs/Web/HTTP/Guides/CSP
-[element-required-attributes] <img> is missing required "src" attribute
-~~~
-<img onmouseover="console.log(\`You've been hacked!\`)" />
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "wcag/h30",
-                            "Anchor link must have a text describing its purpose",
-                            "a",
-                            "1:2",
-                            `/en-US/docs/Web/HTTP/Guides/CSP
-[wcag/h30] Anchor link must have a text describing its purpose
-~~~
-<a href="javascript:console.log('Hello from a javascript: URL')"></a>
-~~~
-`
+                            "https://www.netlify.com/blog/general-availability-content-security-policy-csp-nonce-integration/",
+                            "unknown certificate verification error"
                           ]
                         }
                       ]
@@ -70616,23 +61549,6 @@ http.headers.Use-As-Dictionary`,
                       slug: "/en-US/docs/Web/HTTP/Guides/Permissions_Policy",
                       messages: [
                         {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-content",
-                            "<iframe> element is not permitted as content under <iframe>",
-                            "iframe",
-                            "2:4",
-                            `/en-US/docs/Web/HTTP/Guides/Permissions_Policy
-[element-permitted-content] <iframe> element is not permitted as content under <iframe>
-~~~
-<iframe src="https://example.com" allow="geolocation 'src'">
-  <iframe src="https://example.com" allow="geolocation"></iframe
-></iframe>
-~~~
-`
-                          ]
-                        },
-                        {
                           message: "Unexpected BCD keys",
                           data: [
                             "Actual:",
@@ -70649,88 +61565,18 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
-                        "content-security-policy": {
-                          children: {
-                            "connect-src": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/connect-src",
-                              messages: [
-                                {
-                                  message: "HTML code issue",
-                                  data: [
-                                    "attribute-misuse",
-                                    '"ping" attribute cannot be used on <a> in this context: requires "href" attribute to be present',
-                                    "ping",
-                                    "1:4",
-                                    `/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/connect-src
-[attribute-misuse] "ping" attribute cannot be used on <a> in this context: requires "href" attribute to be present
-~~~
-<a ping="https://not-example.com">
-  <script>
-    const response = fetch("https://not-example.com/");
-
-    const xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://not-example.com/");
-    xhr.send();
-
-    const ws = new WebSocket("wss://not-example.com/");
-
-    const es = new EventSource("https://not-example.com/");
-
-    navigator.sendBeacon("https://not-example.com/", {
-      /* … */
-    });
-  </script></a
->
-~~~
-`
-                                  ]
-                                }
-                              ]
-                            },
-                            "script-src": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src",
-                              messages: [
-                                {
-                                  message: "HTML code issue",
-                                  data: [
-                                    "text-content",
-                                    "<button> must have accessible text",
-                                    "button",
-                                    "1:2",
-                                    `/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src
-[text-content] <button> must have accessible text
-~~~
-<button id="btn" onclick="doSomething()"></button>
-~~~
-`
-                                  ]
-                                }
-                              ]
-                            },
-                            "script-src-attr": {
-                              children: {},
-                              slug: "/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src-attr",
-                              messages: [
-                                {
-                                  message: "HTML code issue",
-                                  data: [
-                                    "text-content",
-                                    "<button> must have accessible text",
-                                    "button",
-                                    "1:2",
-                                    `/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src-attr
-[text-content] <button> must have accessible text
-~~~
-<button id="btn" onclick="doSomething()"></button>
-~~~
-`
-                                  ]
-                                }
+                        dnt: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/DNT",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
+                                "The operation timed out."
                               ]
                             }
-                          }
+                          ]
                         },
                         "permissions-policy": {
                           children: {
@@ -70782,24 +61628,17 @@ http.headers.Use-As-Dictionary`,
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy",
+                          }
+                        },
+                        tk: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Tk",
                           messages: [
                             {
-                              message: "HTML code issue",
+                              message: "Broken external link",
                               data: [
-                                "element-permitted-content",
-                                "<iframe> element is not permitted as content under <iframe>",
-                                "iframe",
-                                "2:4",
-                                `/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy
-[element-permitted-content] <iframe> element is not permitted as content under <iframe>
-~~~
-<iframe src="https://example.com" allow="geolocation 'src'">
-  <iframe src="https://example.com" allow="geolocation"></iframe
-></iframe>
-~~~
-`
+                                "https://www.eff.org/deeplinks/2011/02/what-does-track-do-not-track-mean",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -70827,115 +61666,7 @@ http.headers.Use-As-Dictionary`,
             javascript: {
               children: {
                 guide: {
-                  children: {
-                    loops_and_iteration: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "unrecognized-char-ref",
-                            'Unrecognized character reference "&B"',
-                            "&B",
-                            "6:23",
-                            `/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
-[unrecognized-char-ref] Unrecognized character reference "&B"
-~~~
-<form name="selectForm">
-  <label for="musicTypes"
-    >Choose some music types, then click the button below:</label
-  >
-  <select id="musicTypes" name="musicTypes" multiple>
-    <option selected>R&B</option>
-    <option>Jazz</option>
-    <option>Blues</option>
-    <option>New Age</option>
-    <option>Classical</option>
-    <option>Opera</option>
-  </select>
-  <button id="btn" type="button">How many are selected?</button>
-</form>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    modules: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Guide/Modules",
-                      messages: [
-                        {
-                          message: "JS code issue",
-                          data: [
-                            "no-var",
-                            "Unexpected var, use let or const instead.",
-                            '      var text = "Hello";',
-                            "3:7 - 3:26",
-                            `/en-US/docs/Web/JavaScript/Guide/Modules
-[no-var] Unexpected var, use let or const instead.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <title></title>
-    <link rel="stylesheet" href="" />
-  </head>
-  <body>
-    <div id="main"></div>
-    <script>
-      // A var statement creates a global variable.
-      var text = "Hello";
-    </script>
-    <script type="module" src="./render.js"></script>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "empty-title",
-                            "<title> cannot be empty, must have text content",
-                            "title",
-                            "5:6",
-                            `/en-US/docs/Web/JavaScript/Guide/Modules
-[empty-title] <title> cannot be empty, must have text content
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <title></title>
-    <link rel="stylesheet" href="" />
-  </head>
-  <body>
-    <div id="main"></div>
-    <script>
-      // A var statement creates a global variable.
-      var text = "Hello";
-    </script>
-    <script type="module" src="./render.js"></script>
-  </body>
-</html>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    }
-                  },
+                  children: {},
                   slug: "/en-US/docs/Web/JavaScript/Guide",
                   messages: [
                     {
@@ -70949,21 +61680,7 @@ http.headers.Use-As-Dictionary`,
                 reference: {
                   children: {
                     classes: {
-                      children: {
-                        public_class_fields: {
-                          children: {},
-                          slug: "/en-US/docs/Web/JavaScript/Reference/Classes/Public_class_fields",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://babeljs.io/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        }
-                      }
+                      children: {}
                     },
                     global_objects: {
                       children: {
@@ -71103,121 +61820,6 @@ http.headers.Use-As-Dictionary`,
                       }
                     }
                   }
-                },
-                tutorials: {
-                  children: {
-                    for_beginners: {
-                      children: {
-                        getting_started: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Tutorials/For_beginners/Getting_started",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "parser-error",
-                                'failed to tokenize "<!doctype ...", state TEXT failed to consume data or change state.',
-                                "<",
-                                "20:1",
-                                `/en-US/docs/Web/MathML/Tutorials/For_beginners/Getting_started
-[parser-error] failed to tokenize "<!doctype ...", state TEXT failed to consume data or change state.
-~~~
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <title>My first math page</title>
-  </head>
-  <body>
-    <p>
-      The fraction
-      <math>
-        <mfrac>
-          <mn>1</mn>
-          <mn>3</mn>
-        </mfrac>
-      </math>
-      is not a decimal number.
-    </p>
-  </body>
-</html>
-
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <title>My first math page</title>
-  </head>
-  <body>
-    <p>
-      The fraction
-      <math display="block">
-        <mfrac>
-          <mn>1</mn>
-          <mn>3</mn>
-        </mfrac>
-      </math>
-      is not a decimal number.
-    </p>
-  </body>
-</html>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        },
-                        text_containers: {
-                          children: {},
-                          slug: "/en-US/docs/Web/MathML/Tutorials/For_beginners/Text_containers",
-                          messages: [
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "prefer-tbody",
-                                "Prefer to wrap <tr> elements in <tbody>",
-                                "tr",
-                                "2:4",
-                                `/en-US/docs/Web/MathML/Tutorials/For_beginners/Text_containers
-[prefer-tbody] Prefer to wrap <tr> elements in <tbody>
-~~~
-<table>
-  <tr>
-    <td>Prefix plus</td>
-    <td>
-      <math>
-        <mo>+</mo>
-        <mi>i</mi>
-      </math>
-    </td>
-  </tr>
-  <tr>
-    <td>Infix plus</td>
-    <td>
-      <math>
-        <mi>j</mi>
-        <mo>+</mo>
-        <mi>i</mi>
-      </math>
-    </td>
-  </tr>
-  <tr>
-    <td>Prefix sum</td>
-    <td>
-      <math>
-        <mo>∑</mo>
-        <mi>i</mi>
-      </math>
-    </td>
-  </tr>
-</table>
-~~~
-`
-                              ]
-                            }
-                          ]
-                        }
-                      }
-                    }
-                  }
                 }
               }
             },
@@ -71240,83 +61842,7 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         }
-                      },
-                      slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "valid-id",
-                            'element id "3gp_src" must begin with a letter',
-                            "3gp_src",
-                            "7:9",
-                            `/en-US/docs/Web/Media/Guides/Audio_and_video_delivery
-[valid-id] element id "3gp_src" must begin with a letter
-~~~
-<video>
-  <source
-    id="mp4_src"
-    src="video.mp4"
-    type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
-  <source
-    id="3gp_src"
-    src="video.3gp"
-    type='video/3gpp; codecs="mp4v.20.8, samr"' />
-  <source
-    id="ogg_src"
-    src="video.ogv"
-    type='video/ogv; codecs="theora, vorbis"' />
-</video>
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    audio_and_video_manipulation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_manipulation",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "multiple-labeled-controls",
-                            "<label> is associated with multiple controls",
-                            "label",
-                            "5:2",
-                            `/en-US/docs/Web/Media/Guides/Audio_and_video_manipulation
-[multiple-labeled-controls] <label> is associated with multiple controls
-~~~
-<video id="my-video" controls loop>
-  <source src="/shared-assets/videos/flower.mp4" type="video/mp4" />
-  <source src="/shared-assets/videos/flower.webm" type="video/webm" />
-</video>
-<label for="rate">Playback rate <output id="rate-value">1.0</output></label>
-<input type="range" id="rate" name="rate" min="0" max="4" value="1" step=".2" />
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "multiple-labeled-controls",
-                            "<label> is associated with multiple controls",
-                            "label",
-                            "4:2",
-                            `/en-US/docs/Web/Media/Guides/Audio_and_video_manipulation
-[multiple-labeled-controls] <label> is associated with multiple controls
-~~~
-<video id="my-video" controls loop>
-  <source src="/shared-assets/videos/friday.mp4" type="video/mp4" />
-</video>
-<label for="freq">Filter freq. <output id="freq-value">1.0</output>hz</label>
-<input type="range" id="freq" name="freq" max="20000" value="1000" step="100" />
-~~~
-`
-                          ]
-                        }
-                      ]
+                      }
                     },
                     formats: {
                       children: {
@@ -71327,36 +61853,8 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Broken external link",
                               data: [
-                                "https://www.itu.int/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.itu.int/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.itu.int/",
-                                503
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
                                 "https://about.att.com/innovation/ip/patents",
                                 403
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://www.itu.int/",
-                                503
                               ]
                             }
                           ]
@@ -71487,15 +61985,32 @@ http.headers.Use-As-Dictionary`,
             security: {
               children: {
                 authentication: {
-                  children: {},
+                  children: {
+                    passwords: {
+                      children: {},
+                      slug: "/en-US/docs/Web/Security/Authentication/Passwords",
+                      messages: [
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/Security/Authentication/OTP"
+                          ]
+                        },
+                        {
+                          message: "Broken link",
+                          data: [
+                            "/en-US/docs/Web/Security/Authentication/Passkeys"
+                          ]
+                        },
+                        {
+                          message: "Unreachable via page",
+                          data: []
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Web/Security/Authentication",
                   messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/Security/Authentication/Passwords"
-                      ]
-                    },
                     {
                       message: "Broken link",
                       data: [
@@ -71539,6 +62054,13 @@ http.headers.Use-As-Dictionary`,
                     {
                       message: "Unreachable via page",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://wiki.owasp.org/index.php/Secure_Coding_Principles",
+                        500
+                      ]
                     }
                   ]
                 },
@@ -71569,19 +62091,6 @@ http.headers.Use-As-Dictionary`,
 html.elements.script.integrity`,
                         "Expected:",
                         "[None]"
-                      ]
-                    }
-                  ]
-                },
-                transport_layer_security: {
-                  children: {},
-                  slug: "/en-US/docs/Web/Security/Transport_Layer_Security",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://www.ssllabs.com/ssltest/",
-                        "The operation timed out."
                       ]
                     }
                   ]
