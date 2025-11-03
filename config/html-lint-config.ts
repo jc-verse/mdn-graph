@@ -246,5 +246,5 @@ export const ignore = [
       "Web/HTML/Reference/Elements/tr",
     ],
     rules: { "prefer-tbody": "off" },
-  }
+  },
 ];

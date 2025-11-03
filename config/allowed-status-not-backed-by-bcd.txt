@@ -10,7 +10,7 @@
 
 /en-US/docs/Web/API/Storage_Access_API/Related_website_sets	non-standard
 
-/en-US/docs/Web/CSS/Column_combinator	experimental
+/en-US/docs/Web/CSS/Reference/Selectors/Column_combinator	experimental
 /en-US/docs/Web/CSS/Reference/Mozilla_extensions	non-standard
 /en-US/docs/Web/CSS/Reference/WebKit_extensions	non-standard
 

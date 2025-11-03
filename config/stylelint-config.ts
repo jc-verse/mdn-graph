@@ -409,7 +409,10 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       },
       {
-        files: ["Web/API/CustomStateSet/*", "Web/CSS/:state/*"],
+        files: [
+          "Web/API/CustomStateSet/*",
+          "Web/CSS/Reference/Selectors/:state/*",
+        ],
         rules: {
           "selector-type-no-unknown": [
             true,
@@ -500,7 +503,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       },
       {
-        files: ["Web/CSS/:local-link/*"],
+        files: ["Web/CSS/Reference/Selectors/:local-link/*"],
         rules: {
           "selector-pseudo-class-no-unknown": [
             true,

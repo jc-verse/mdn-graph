@@ -246,8 +246,6 @@ api.HTMLPreElement.width
 api.HTMLScriptElement.charset
 api.HTMLScriptElement.event
 api.HTMLScriptElement.htmlFor
-api.HTMLScriptElement.innerText
-api.HTMLScriptElement.textContent
 api.HTMLTableCellElement.axis
 api.HTMLTableCellElement.height
 api.HTMLTableCellElement.width
@@ -486,6 +484,7 @@ api.Performance.interactionCount
 api.PerformancePaintTiming.paintTime
 api.PerformancePaintTiming.presentationTime
 api.PerformancePaintTiming.toJSON
+api.PerformanceResourceTiming.contentEncoding
 api.Permissions.request
 api.Permissions.requestAll
 api.Plugin.description
@@ -714,6 +713,7 @@ api.WebSocketError
 api.WebSocketError.WebSocketError
 api.WebSocketError.closeCode
 api.WebSocketError.reason
+api.WebTransport.protocol
 api.WebTransportSendStream.getWriter
 api.WheelEvent.wheelDelta
 api.WheelEvent.wheelDeltaX
@@ -805,9 +805,10 @@ javascript.builtins.DisposableStack.@@dispose
 javascript.builtins.Iterator.@@dispose
 javascript.builtins.RegExp.source.escaping
 javascript.builtins.RegExp.toString.escaping
+http.headers.Activate-Storage-Access
 http.headers.Attribution-Reporting-Support
 http.headers.Feature-Policy
-http.headers.Idempotency-Key
+http.headers.Sec-Fetch-Storage-Access
 http.headers.Snapshot-Content-Location
 svg.global_attributes.font-width
 webassembly.BigInt-to-i64-integration

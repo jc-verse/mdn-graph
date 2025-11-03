@@ -683,6 +683,11 @@ export default async function createContentGraph() {
     ) {
       return;
     }
+    if (node.data.metadata.pageType === "css-pseudo-class") {
+      parentId = "/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes";
+    } else if (node.data.metadata.pageType === "css-pseudo-element") {
+      parentId = "/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-elements";
+    }
     if (parentId && parentId !== id && !graph.hasLink(parentId, id)) {
       report(graph.getNode(parentId), "No link to child page", node.id);
     }

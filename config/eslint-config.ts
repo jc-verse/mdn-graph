@@ -59,7 +59,6 @@ export default [
       "no-restricted-globals": "off", // 642
       "max-len": "off", // 576
       "regexp/require-unicode-regexp": "off", // 404
-      camelcase: "off", // 322
       "no-restricted-syntax": "off", // 321
       "no-alert": "off", // 185
       "multiline-comment-style": "off", // 173
@@ -706,5 +705,13 @@ export default [
   {
     files: ["Web/URI/Reference/Schemes/javascript/*"],
     rules: { "no-script-url": "off" },
+  },
+  // TODO: fix
+  {
+    files: [
+      "Learn_web_development/Extensions/Server-side/Express_Nodejs/**",
+      "WebAssembly/Reference/**",
+    ],
+    rules: { camelcase: "off" },
   },
 ];

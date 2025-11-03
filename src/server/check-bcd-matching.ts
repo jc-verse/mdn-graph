@@ -275,7 +275,9 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     }
     case "css-combinator":
     case "css-selector": {
-      const match = node.id.match(/^\/en-US\/docs\/Web\/CSS\/([^/]+)$/);
+      const match = node.id.match(
+        /^\/en-US\/docs\/Web\/CSS\/Reference\/Selectors\/([^/]+)$/,
+      );
       if (!match) return "Unexpected page type";
       const combinatorName = match[1]
         .replace(/_combinator$/, "")
@@ -285,7 +287,7 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
       return [`css.selectors.${combinatorName.toLowerCase()}`];
     }
     case "css-function": {
-      const match = node.id.match(/^\/en-US\/docs\/Web\/CSS\/(.+)$/);
+      const match = node.id.match(/^\/en-US\/docs\/Web\/CSS\/(?:Reference\/(?:Properties)\/)?(.+)$/);
       if (!match) return "Unexpected page type";
       const functionName = match[1]
         .replace("/", ".")
@@ -341,7 +343,9 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     }
     case "css-pseudo-class":
     case "css-pseudo-element": {
-      const match = node.id.match(/^\/en-US\/docs\/Web\/CSS\/::?([^/]+)$/);
+      const match = node.id.match(
+        /^\/en-US\/docs\/Web\/CSS\/Reference\/Selectors\/::?([^/]+)$/,
+      );
       if (!match) return "Unexpected page type";
       const pseudoName = match[1].replaceAll(":", "").replace(/_function$/, "");
       if (node.id.endsWith("host_function")) {

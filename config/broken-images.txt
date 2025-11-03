@@ -3,6 +3,6 @@
 
 /en-US/docs/Web/API/HTMLElement/error_event	bad-image.jpg
 /en-US/docs/Web/API/Window/error_event	bad-image.jpg
-/en-US/docs/Web/CSS/:-moz-broken	broken.jpg
+/en-US/docs/Web/CSS/Reference/Selectors/:-moz-broken	broken.jpg
 /en-US/docs/Web/CSS/Reference/Properties/-moz-force-broken-image-icon	/broken/image/link.png
 /en-US/docs/Web/HTML/Reference/Elements/a	missing-icon.svg

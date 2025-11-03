@@ -2383,9 +2383,9 @@ worker.postMessage({ cmd: "list" });
     child1 (zoom: 2)
     <div style="zoom: 3" id="child2">
       child2 (zoom: 3)
-      <div id="child3_rendered">child3_rendered</div>
-      <div style="display: none" id="child3_not-rendered">
-        child3_not-rendered
+      <div id="child3-rendered">child3-rendered</div>
+      <div style="display: none" id="child3-not-rendered">
+        child3-not-rendered
       </div>
     </div>
   </div>
@@ -2447,13 +2447,14 @@ eventTarget.addEventListener("keyup", (event) => {
 /en-US/docs/Web/API/EventTarget/addEventListener
 [no-inline-event-handlers] Do not use inline event handler "onclick".
 ~~~
-<table id="my_table" onclick="console.log(this.id);">
-  <!-- `this` refers to the table; logs 'my_table' -->
+<table id="my-table" onclick="console.log(this.id);">
+  <!-- `this` refers to the table; logs 'my-table' -->
   …
 </table>
 ~~~
 
 /en-US/docs/Web/API/EventTarget/addEventListener
+[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
 [no-inline-event-handlers] Do not use inline event handler "onclick".
 ~~~
 <script>
@@ -2461,21 +2462,7 @@ eventTarget.addEventListener("keyup", (event) => {
     console.log(this.id);
   }
 </script>
-<table id="my_table" onclick="logID();">
-  <!-- when called, `this` will refer to the global object -->
-  …
-</table>
-~~~
-
-/en-US/docs/Web/API/EventTarget/addEventListener
-[no-inline-script] Do not write JS within the <script> element; use separate JS blocks instead.
-~~~
-<script>
-  function logID() {
-    console.log(this.id);
-  }
-</script>
-<table id="my_table" onclick="logID();">
+<table id="my-table" onclick="logID();">
   <!-- when called, `this` will refer to the global object -->
   …
 </table>
@@ -2572,6 +2559,7 @@ window.requestFileSystem(
 /en-US/docs/Web/API/HTMLElement/innerText
 [element-permitted-content] <style> element is not permitted as content under <p>
 [mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
+[no-inline-style] Inline style is not allowed
 ~~~
 <h3>Source element:</h3>
 <p id="source">
@@ -2594,33 +2582,6 @@ window.requestFileSystem(
 <textarea id="textContentOutput" rows="18" cols="40" readonly>…</textarea>
 <h3>Result of innerText:</h3>
 <textarea id="innerTextOutput" rows="6" cols="40" readonly>…</textarea>
-~~~
-
-/en-US/docs/Web/API/HTMLElement/innerText
-[no-inline-style] Inline style is not allowed
-[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
-~~~
-<h3>Source element:</h3>
-<p id="source">
-  <style>
-    #source {
-      color: red;
-    }
-    #text {
-      text-transform: uppercase;
-    }
-  </style>
-  <span id="text">
-    Take a look at<br />
-    how this text<br />
-    is interpreted below.
-  </span>
-  <span style="display:none">HIDDEN TEXT</span>
-</p>
-<h3>Result of textContent:</h3>
-<textarea id="textContentOutput" rows="6" cols="30" readonly>…</textarea>
-<h3>Result of innerText:</h3>
-<textarea id="innerTextOutput" rows="6" cols="30" readonly>…</textarea>
 ~~~
 
 /en-US/docs/Web/API/HTMLImageElement
@@ -3281,48 +3242,6 @@ setTimeout(function () {
 ~~~
 var global = { data: 0 };
 alert(global === window.global); // displays "true"
-~~~
-
-/en-US/docs/Web/CSS/:autofill
-[declaration-property-value-no-unknown] Unexpected unknown value "-internal-light-dark(black, white)" for property "color" (declaration-property-value-no-unknown)
-[function-no-unknown] Unexpected unknown function "-internal-light-dark" (function-no-unknown)
-~~~
-background-color: rgb(232 240 254) !important;
-background-image: none !important;
-color: -internal-light-dark(black, white) !important;
-~~~
-
-/en-US/docs/Web/CSS/:not
-[selector-not-notation] Expected complex :not() pseudo-class notation (selector-not-notation)
-~~~
-.fancy {
-  text-shadow: 2px 2px 3px gold;
-}
-
-/* <p> elements that don't have a class `.fancy` */
-p:not(.fancy) {
-  color: green;
-}
-
-/* Elements that are not <p> elements */
-body :not(p) {
-  text-decoration: underline;
-}
-
-/* Elements that are not <div>s or `.fancy` */
-body :not(div):not(.fancy) {
-  font-weight: bold;
-}
-
-/* Elements that are not <div>s or `.fancy` */
-body :not(div, .fancy) {
-  text-decoration: overline underline;
-}
-
-/* Elements inside an <h2> that aren't a <span> with a class of `.foo` */
-h2 :not(span.foo) {
-  color: red;
-}
 ~~~
 
 /en-US/docs/Web/CSS/@font-face/font-weight
@@ -4179,20 +4098,6 @@ div {
 }
 ~~~
 
-/en-US/docs/Web/CSS/ID_selectors
-[valid-id] element id "item?one" must only contain letters, digits, dash and underscore characters
-[valid-id] element id "123item" must begin with a letter
-~~~
-<p id="blue">This paragraph has a blue background.</p>
-<p>This is just a regular paragraph.</p>
-
-<!-- The next two paragraphs have id attributes
-that contain characters which must be escaped in CSS -->
-
-<p id="item?one">This paragraph has a pink background.</p>
-<p id="123item">This paragraph has a yellow background.</p>
-~~~
-
 /en-US/docs/Web/CSS/if
 [no-inline-style] Inline style is not allowed
 ~~~
@@ -4498,6 +4403,62 @@ text-bottom: <img style="vertical-align: text-bottom" src="star.png" alt="star"/
 20%:         <img style="vertical-align: 20%" src="star.png" alt="star"/>
 -100%:       <img style="vertical-align: -100%" src="star.png" alt="star"/>
 </p>
+~~~
+
+/en-US/docs/Web/CSS/Reference/Selectors/:autofill
+[declaration-property-value-no-unknown] Unexpected unknown value "-internal-light-dark(black, white)" for property "color" (declaration-property-value-no-unknown)
+[function-no-unknown] Unexpected unknown function "-internal-light-dark" (function-no-unknown)
+~~~
+background-color: rgb(232 240 254) !important;
+background-image: none !important;
+color: -internal-light-dark(black, white) !important;
+~~~
+
+/en-US/docs/Web/CSS/Reference/Selectors/:not
+[selector-not-notation] Expected complex :not() pseudo-class notation (selector-not-notation)
+~~~
+.fancy {
+  text-shadow: 2px 2px 3px gold;
+}
+
+/* <p> elements that don't have a class `.fancy` */
+p:not(.fancy) {
+  color: green;
+}
+
+/* Elements that are not <p> elements */
+body :not(p) {
+  text-decoration: underline;
+}
+
+/* Elements that are not <div>s or `.fancy` */
+body :not(div):not(.fancy) {
+  font-weight: bold;
+}
+
+/* Elements that are not <div>s or `.fancy` */
+body :not(div, .fancy) {
+  text-decoration: overline underline;
+}
+
+/* Elements inside an <h2> that aren't a <span> with a class of `.foo` */
+h2 :not(span.foo) {
+  color: red;
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/Selectors/ID_selectors
+[valid-id] element id "item?one" must only contain letters, digits, dash and underscore characters
+[valid-id] element id "123item" must begin with a letter
+~~~
+<p id="blue">This paragraph has a blue background.</p>
+<p>This is just a regular paragraph.</p>
+
+<!-- The next two paragraphs have id attributes
+that contain characters which must be escaped in CSS -->
+
+<p id="item?one">This paragraph has a pink background.</p>
+<p id="123item">This paragraph has a yellow background.</p>
 ~~~
 
 /en-US/docs/Web/CSS/repeat
