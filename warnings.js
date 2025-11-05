@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-041g8q19.js";
+} from "./chunk-t588hyyv.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -333,6 +333,13 @@ var warnings_processed_default = {
                 {
                   message: "Broken external link",
                   data: [
+                    "https://sass-lang.com/",
+                    "The operation timed out."
+                  ]
+                },
+                {
+                  message: "Broken external link",
+                  data: [
                     "https://stylus-lang.com/",
                     "The operation timed out."
                   ]
@@ -356,19 +363,6 @@ var warnings_processed_default = {
                 {
                   message: "Unreachable via page",
                   data: []
-                }
-              ]
-            },
-            developer_tools: {
-              children: {},
-              slug: "/en-US/docs/Glossary/Developer_Tools",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://getfirebug.com/",
-                    "unknown certificate verification error"
-                  ]
                 }
               ]
             },
@@ -1293,6 +1287,19 @@ var warnings_processed_default = {
                 }
               ]
             },
+            source_map: {
+              children: {},
+              slug: "/en-US/docs/Glossary/Source_map",
+              messages: [
+                {
+                  message: "Broken external link",
+                  data: [
+                    "https://sass-lang.com/",
+                    "The operation timed out."
+                  ]
+                }
+              ]
+            },
             sql_injection: {
               children: {},
               slug: "/en-US/docs/Glossary/SQL_Injection",
@@ -1439,6 +1446,23 @@ var warnings_processed_default = {
           children: {
             core: {
               children: {
+                accessibility: {
+                  children: {
+                    html: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Accessibility/HTML",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.a11yproject.com/posts/skip-nav-links/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 css_layout: {
                   children: {
                     introduction: {
@@ -1481,6 +1505,13 @@ span {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
                       messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -2236,7 +2267,7 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/services/",
+                            "https://api.emberjs.com/ember/3.15/functions/@glimmer%2Ftracking/tracked",
                             "The operation timed out."
                           ]
                         }
@@ -2249,6 +2280,27 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/tutorial/part-1/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/ember-inspector/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2259,6 +2311,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/routing/specifying-a-routes-model/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2279,47 +2338,8 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/services/",
+                            "https://sass-lang.com/",
                             "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    react_components: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_components",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    react_getting_started: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    react_resources: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_resources",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.smashingmagazine.com/2020/05/styling-components-react/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                           ]
                         }
                       ]
@@ -4323,6 +4343,13 @@ body {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://stylus-lang.com/",
                             "The operation timed out."
                           ]
@@ -4496,7 +4523,34 @@ button {
                   }
                 },
                 structuring_content: {
-                  children: {},
+                  children: {
+                    general_embedding_technologies: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/General_embedding_technologies",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://wiki.creativecommons.org/wiki/Best_practices_for_attribution",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    html_images: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_images",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/licenses/gpl-3.0.en.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
                   slug: "/en-US/docs/Learn_web_development/Core/Structuring_content",
                   messages: [
                     {
@@ -5098,6 +5152,19 @@ span {
                         }
                       ]
                     },
+                    organizing: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Core/Styling_basics/Organizing",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     test_your_skills: {
                       children: {
                         backgrounds_and_borders: {
@@ -5258,8 +5325,29 @@ h2 {
                         {
                           message: "Broken external link",
                           data: [
+                            "https://www.fontsquirrel.com/",
+                            502
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.fontsquirrel.com/",
+                            502
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
                             "https://www.exljbris.com/",
                             "unable to verify the first certificate"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.fontsquirrel.com/",
+                            502
                           ]
                         }
                       ]
@@ -5612,28 +5700,14 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://eslint.org/",
+                            "https://sass-lang.com/",
                             "The operation timed out."
                           ]
                         },
                         {
                           message: "Broken external link",
                           data: [
-                            "https://eslint.org/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/docs/latest/rules/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://vite.dev/guide/",
+                            "https://preset-env.cssdb.org/features/",
                             "The operation timed out."
                           ]
                         }
@@ -5646,14 +5720,7 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://eslint.org/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://babeljs.io/docs/plugins",
+                            "https://sass-lang.com/",
                             "The operation timed out."
                           ]
                         }
@@ -5666,7 +5733,7 @@ button:active {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://vite.dev/guide/",
+                            "https://classic.yarnpkg.com/en/docs/cli/",
                             "The operation timed out."
                           ]
                         }
@@ -11176,6 +11243,13 @@ textarea:focus {
 ~~~
 `
                           ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.fontsquirrel.com/tools/webfont-generator",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -11183,6 +11257,19 @@ textarea:focus {
                 },
                 performance: {
                   children: {
+                    best_practices: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Best_practices",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/gzip/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     multimedia: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Extensions/Performance/Multimedia",
@@ -11233,23 +11320,17 @@ textarea:focus {
                   children: {
                     express_nodejs: {
                       children: {
-                        development_environment: {
-                          children: {},
-                          slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/development_environment",
-                          messages: [
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://eslint.org/",
-                                "The operation timed out."
-                              ]
-                            }
-                          ]
-                        },
                         skeleton_website: {
                           children: {},
                           slug: "/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/skeleton_website",
                           messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://sass-lang.com/",
+                                "The operation timed out."
+                              ]
+                            },
                             {
                               message: "Broken external link",
                               data: [
@@ -11805,6 +11886,23 @@ body {
             },
             getting_started: {
               children: {
+                soft_skills: {
+                  children: {
+                    workflows_and_processes: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
                 your_first_website: {
                   children: {
                     styling_the_content: {
@@ -12013,6 +12111,33 @@ padding-left: 20px;
                 },
                 tools_and_setup: {
                   children: {
+                    available_text_editors: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Available_text_editors",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/efaq.html",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     checking_that_your_web_site_is_working_properly: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/Checking_that_your_web_site_is_working_properly",
@@ -12020,6 +12145,19 @@ padding-left: 20px;
                         {
                           message: "Unreachable via page",
                           data: []
+                        }
+                      ]
+                    },
+                    what_software_do_i_need: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/What_software_do_I_need",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://www.gnu.org/software/emacs/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     }
@@ -12122,19 +12260,6 @@ padding-left: 20px;
                       data: []
                     }
                   ]
-                },
-                pull_requests: {
-                  children: {},
-                  slug: "/en-US/docs/MDN/Community/Pull_requests",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://phauer.com/2018/code-review-guidelines/",
-                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                      ]
-                    }
-                  ]
                 }
               },
               slug: "/en-US/docs/MDN/Community",
@@ -12149,6 +12274,19 @@ padding-left: 20px;
             },
             writing_guidelines: {
               children: {
+                attrib_copyright_license: {
+                  children: {},
+                  slug: "/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 changelog: {
                   children: {},
                   slug: "/en-US/docs/MDN/Writing_guidelines/Changelog",
@@ -12179,6 +12317,13 @@ color: rgb(31 41 59);
 color: rgb(31 41 59 / 26%);
 ~~~
 `
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
                           ]
                         },
                         {
@@ -13297,12 +13442,6 @@ webextensions.api.clipboard`,
                           slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_specific_settings",
                           messages: [
                             {
-                              message: "Code with underscore",
-                              data: [
-                                "browser_specific_settings.gecko.data_collection_permissions"
-                              ]
-                            },
-                            {
                               message: "Bad DL",
                               data: [
                                 `
@@ -13391,12 +13530,6 @@ webextensions.manifest.options_ui`,
                   children: {},
                   slug: "/en-US/docs/Mozilla/Firefox/Experimental_features",
                   messages: [
-                    {
-                      message: "Code with underscore",
-                      data: [
-                        "dom.storage_access.headers.enabled"
-                      ]
-                    },
                     {
                       message: "Broken link",
                       data: [
@@ -13698,19 +13831,6 @@ webextensions.manifest.options_ui`,
                         }
                       }
                     },
-                    "12": {
-                      children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/12",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://getfirebug.com/",
-                            "unknown certificate verification error"
-                          ]
-                        }
-                      ]
-                    },
                     "22": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/22",
@@ -13720,6 +13840,84 @@ webextensions.manifest.options_ui`,
                           data: [
                             "http://asmjs.org/spec/latest/",
                             ""
+                          ]
+                        }
+                      ]
+                    },
+                    "121": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/121",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=121",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "125": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/125",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=125",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "128": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/128",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=128",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "130": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/130",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=130",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "133": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/133",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=133",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
+                    "136": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/136",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=136",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -13757,6 +13955,19 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
+                    "143": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/143",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=143",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    },
                     "145": {
                       children: {},
                       slug: "/en-US/docs/Mozilla/Firefox/Releases/145",
@@ -13771,6 +13982,13 @@ webextensions.manifest.options_ui`,
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/HTTP/Reference/Headers/Activate-Storage-Access"
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://whattrainisitnow.com/release/?version=145",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -14325,6 +14543,19 @@ color: color(xyz-d65 0.59 0.28 0.96 / 1);
                         ],
                         [],
                         []
+                      ]
+                    }
+                  ]
+                },
+                beacon_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Beacon_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://ehsanakhgari.org/blog/2015-04-08/intercepting-beacons-through-service-workers/",
+                        "The operation timed out."
                       ]
                     }
                   ]
@@ -17744,6 +17975,19 @@ api.Window.sessionStorage`,
                     }
                   }
                 },
+                websockets_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/WebSockets_API",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://zeromq.org/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 webvtt_api: {
                   children: {
                     web_video_text_tracks_format: {
@@ -17826,6 +18070,21 @@ api.Window.sessionStorage`,
                 },
                 window: {
                   children: {
+                    unload_event: {
+                      children: {},
+                      slug: "/en-US/docs/Web/API/Window/unload_event",
+                      messages: [
+                        {
+                          message: "Page status inconsistent with BCD",
+                          data: [
+                            [
+                              "deprecated"
+                            ],
+                            []
+                          ]
+                        }
+                      ]
+                    },
                     viewport: {
                       children: {},
                       slug: "/en-US/docs/Web/API/Window/viewport",
@@ -41824,6 +42083,40 @@ blockquote p::after {
                     }
                   ]
                 },
+                css_nesting: {
+                  children: {
+                    using_css_nesting: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://sass-lang.com/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  slug: "/en-US/docs/Web/CSS/CSS_nesting",
+                  messages: [
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://sass-lang.com/",
+                        "The operation timed out."
+                      ]
+                    }
+                  ]
+                },
                 css_overflow: {
                   children: {},
                   slug: "/en-US/docs/Web/CSS/CSS_overflow",
@@ -49469,18 +49762,6 @@ pre {
                   children: {
                     "at-rules": {
                       children: {
-                        "@charset": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@charset",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-at-rule"
-                              ]
-                            }
-                          ]
-                        },
                         "@color-profile": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/At-rules/@color-profile",
@@ -49506,79 +49787,9 @@ pre {
                               ]
                             },
                             {
-                              message: "Unexpected page type",
+                              message: "Not in BCD",
                               data: [
-                                "css-at-rule"
-                              ]
-                            }
-                          ]
-                        },
-                        "@container": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@container",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "at-rule-prelude-no-invalid",
-                                `Unexpected invalid prelude "style(<style-feature>),
-    not style(<style-feature>),
-    style(<style-feature>) and style(<style-feature>),
-    style(<style-feature>) or style(<style-feature>)" for at-rule "@container" (at-rule-prelude-no-invalid)`,
-                                `@container style(<style-feature>),
-    not style(<style-feature>),
-    style(<style-feature>) and style(<style-feature>),
-    style(<style-feature>) or style(<style-feature>) {`,
-                                "1:12 - 4:53",
-                                `/en-US/docs/Web/CSS/Reference/At-rules/@container
-[at-rule-prelude-no-invalid] Unexpected invalid prelude "style(<style-feature>),
-    not style(<style-feature>),
-    style(<style-feature>) and style(<style-feature>),
-    style(<style-feature>) or style(<style-feature>)" for at-rule "@container" (at-rule-prelude-no-invalid)
-~~~
-@container style(<style-feature>),
-    not style(<style-feature>),
-    style(<style-feature>) and style(<style-feature>),
-    style(<style-feature>) or style(<style-feature>) {
-  /* <stylesheet> */
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "at-rule-prelude-no-invalid",
-                                `Unexpected invalid prelude "style(--themeBackground),
-    not style(background-color: red),
-    style(color: green) and style(background-color: transparent),
-    style(--themeColor: blue) or style(--themeColor: purple)" for at-rule "@container" (at-rule-prelude-no-invalid)`,
-                                `@container style(--themeBackground),
-    not style(background-color: red),
-    style(color: green) and style(background-color: transparent),
-    style(--themeColor: blue) or style(--themeColor: purple) {`,
-                                "1:12 - 4:61",
-                                `/en-US/docs/Web/CSS/Reference/At-rules/@container
-[at-rule-prelude-no-invalid] Unexpected invalid prelude "style(--themeBackground),
-    not style(background-color: red),
-    style(color: green) and style(background-color: transparent),
-    style(--themeColor: blue) or style(--themeColor: purple)" for at-rule "@container" (at-rule-prelude-no-invalid)
-~~~
-@container style(--themeBackground),
-    not style(background-color: red),
-    style(color: green) and style(background-color: transparent),
-    style(--themeColor: blue) or style(--themeColor: purple) {
-  /* <stylesheet> */
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-at-rule"
+                                "css.at-rules.color-profile"
                               ]
                             }
                           ]
@@ -49598,12 +49809,6 @@ pre {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -49620,12 +49825,6 @@ pre {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -49642,12 +49841,6 @@ pre {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -49664,12 +49857,6 @@ pre {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -49686,12 +49873,6 @@ pre {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -49708,12 +49889,6 @@ pre {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -49724,12 +49899,6 @@ pre {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -49746,12 +49915,6 @@ pre {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -49768,12 +49931,6 @@ pre {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -49790,82 +49947,10 @@ pre {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@counter-style",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-at-rule"
-                              ]
-                            }
-                          ]
-                        },
-                        "@document": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@document",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "at-rule-no-deprecated",
-                                'Unexpected deprecated at-rule "@document" (at-rule-no-deprecated)',
-                                '@document url("http://www.w3.org/"),',
-                                "1:1 - 1:10",
-                                `/en-US/docs/Web/CSS/Reference/At-rules/@document
-[at-rule-no-deprecated] Unexpected deprecated at-rule "@document" (at-rule-no-deprecated)
-~~~
-@document url("http://www.w3.org/"),
-          url-prefix("http://www.w3.org/Style/"),
-          domain("mozilla.org"),
-          media-document("video"),
-          regexp("https:.*") {
-  /* CSS rules here apply to:
-     - The page "http://www.w3.org/"
-     - Any page whose URL begins with "http://www.w3.org/Style/"
-     - Any page whose URL's host is "mozilla.org"
-       or ends with ".mozilla.org"
-     - Any standalone video
-     - Any page whose URL starts with "https:" */
-
-  /* Make the above-mentioned pages really ugly */
-  body {
-    color: purple;
-    background: yellow;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "w3.org/TR link",
-                              data: [
-                                "https://www.w3.org/TR/2012/WD-css3-conditional-20120911/#at-document"
-                              ]
-                            },
-                            {
-                              message: "w3.org/TR link",
-                              data: [
-                                "https://www.w3.org/TR/2012/WD-css3-conditional-20121213/#changes"
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-at-rule"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         "@font-face": {
                           children: {
@@ -49882,12 +49967,6 @@ pre {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -49904,12 +49983,6 @@ pre {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -49926,12 +49999,6 @@ pre {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -49942,12 +50009,6 @@ pre {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -49958,12 +50019,6 @@ pre {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -49974,36 +50029,6 @@ pre {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "at-rule-descriptor-value-no-unknown",
-                                    `Unexpected unknown value "local("Open Sans") format("woff2"),
-    url("/fonts/OpenSans-Regular-webfont.woff") format("woff")" for descriptor "src" (at-rule-descriptor-value-no-unknown)`,
-                                    `    local("Open Sans") format("woff2"),
-    url("/fonts/OpenSans-Regular-webfont.woff") format("woff");`,
-                                    "4:5 - 5:63",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-stretch
-[at-rule-descriptor-value-no-unknown] Unexpected unknown value "local("Open Sans") format("woff2"),
-    url("/fonts/OpenSans-Regular-webfont.woff") format("woff")" for descriptor "src" (at-rule-descriptor-value-no-unknown)
-~~~
-@font-face {
-  font-family: "Open Sans";
-  src:
-    local("Open Sans") format("woff2"),
-    url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
-  font-stretch: 87.5% 112.5%;
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -50014,12 +50039,6 @@ pre {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -50030,12 +50049,6 @@ pre {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -50046,340 +50059,6 @@ pre {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "font-weight-notation",
-                                    'Expected "700" to be "bold" (font-weight-notation)',
-                                    "  font-weight: 500 700;",
-                                    "15:20 - 15:23",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-weight
-[font-weight-notation] Expected "700" to be "bold" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 1 1000;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Regular.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 1 300;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Light.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 500 700;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Bold.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 700 1000;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-ExtraBold.woff2");
-}
-
-body {
-  font-family: "Fira Sans", serif;
-  font-size: 2rem;
-}
-
-p.one {
-  font-weight: 100;
-}
-
-p.three {
-  font-weight: 300;
-}
-
-p.four {
-  font-weight: 400;
-}
-
-p.five {
-  font-weight: 500;
-}
-
-p.seven {
-  font-weight: 700;
-}
-
-p.nine {
-  font-weight: 900;
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "font-weight-notation",
-                                    'Expected "700" to be "bold" (font-weight-notation)',
-                                    "  font-weight: 700 1000;",
-                                    "21:16 - 21:19",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-weight
-[font-weight-notation] Expected "700" to be "bold" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 1 1000;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Regular.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 1 300;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Light.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 500 700;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Bold.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 700 1000;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-ExtraBold.woff2");
-}
-
-body {
-  font-family: "Fira Sans", serif;
-  font-size: 2rem;
-}
-
-p.one {
-  font-weight: 100;
-}
-
-p.three {
-  font-weight: 300;
-}
-
-p.four {
-  font-weight: 400;
-}
-
-p.five {
-  font-weight: 500;
-}
-
-p.seven {
-  font-weight: 700;
-}
-
-p.nine {
-  font-weight: 900;
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "font-weight-notation",
-                                    'Expected "400" to be "normal" (font-weight-notation)',
-                                    "  font-weight: 400;",
-                                    "39:16 - 39:19",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-weight
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 1 1000;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Regular.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 1 300;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Light.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 500 700;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Bold.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 700 1000;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-ExtraBold.woff2");
-}
-
-body {
-  font-family: "Fira Sans", serif;
-  font-size: 2rem;
-}
-
-p.one {
-  font-weight: 100;
-}
-
-p.three {
-  font-weight: 300;
-}
-
-p.four {
-  font-weight: 400;
-}
-
-p.five {
-  font-weight: 500;
-}
-
-p.seven {
-  font-weight: 700;
-}
-
-p.nine {
-  font-weight: 900;
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "font-weight-notation",
-                                    'Expected "700" to be "bold" (font-weight-notation)',
-                                    "  font-weight: 700;",
-                                    "47:16 - 47:19",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-weight
-[font-weight-notation] Expected "700" to be "bold" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 1 1000;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Regular.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 1 300;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Light.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 500 700;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Bold.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 700 1000;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-ExtraBold.woff2");
-}
-
-body {
-  font-family: "Fira Sans", serif;
-  font-size: 2rem;
-}
-
-p.one {
-  font-weight: 100;
-}
-
-p.three {
-  font-weight: 300;
-}
-
-p.four {
-  font-weight: 400;
-}
-
-p.five {
-  font-weight: 500;
-}
-
-p.seven {
-  font-weight: 700;
-}
-
-p.nine {
-  font-weight: 900;
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "font-weight-notation",
-                                    'Expected "700" to be "bold" (font-weight-notation)',
-                                    "  font-weight: 300 700;",
-                                    "4:20 - 4:23",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-weight
-[font-weight-notation] Expected "700" to be "bold" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "LeagueMono";
-  src: url("https://mdn.github.io/shared-assets/fonts/LeagueMono-VF.ttf");
-  font-weight: 300 700;
-}
-
-p {
-  font-family: "LeagueMono", serif;
-  font-size: 1.5rem;
-}
-
-p:first-of-type {
-  font-weight: 300;
-}
-
-p:last-of-type {
-  font-weight: 700;
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "font-weight-notation",
-                                    'Expected "700" to be "bold" (font-weight-notation)',
-                                    "  font-weight: 700;",
-                                    "17:16 - 17:19",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-weight
-[font-weight-notation] Expected "700" to be "bold" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "LeagueMono";
-  src: url("https://mdn.github.io/shared-assets/fonts/LeagueMono-VF.ttf");
-  font-weight: 300 700;
-}
-
-p {
-  font-family: "LeagueMono", serif;
-  font-size: 1.5rem;
-}
-
-p:first-of-type {
-  font-weight: 300;
-}
-
-p:last-of-type {
-  font-weight: 700;
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -50396,12 +50075,6 @@ p:last-of-type {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -50418,12 +50091,6 @@ p:last-of-type {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -50440,269 +50107,6 @@ p:last-of-type {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "at-rule-descriptor-value-no-unknown",
-                                    `Unexpected unknown value "url("trickster-COLRv1.otf") format(opentype) tech(color-COLRv1),
-    url("trickster-outline.otf") format(opentype)" for descriptor "src" (at-rule-descriptor-value-no-unknown)`,
-                                    `    url("trickster-COLRv1.otf") format(opentype) tech(color-COLRv1),
-    url("trickster-outline.otf") format(opentype);`,
-                                    "4:5 - 5:50",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@font-face/src
-[at-rule-descriptor-value-no-unknown] Unexpected unknown value "url("trickster-COLRv1.otf") format(opentype) tech(color-COLRv1),
-    url("trickster-outline.otf") format(opentype)" for descriptor "src" (at-rule-descriptor-value-no-unknown)
-~~~
-@font-face {
-  font-family: "Trickster";
-  src:
-    url("trickster-COLRv1.otf") format(opentype) tech(color-COLRv1),
-    url("trickster-outline.otf") format(opentype);
-}
-
-/* Using the font face */
-p {
-  font-family: "Trickster", fantasy;
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "function-no-unknown",
-                                    'Unexpected unknown function "tech" (function-no-unknown)',
-                                    '    url("trickster-COLRv1.otf") format(opentype) tech(color-COLRv1),',
-                                    "4:50 - 4:54",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@font-face/src
-[function-no-unknown] Unexpected unknown function "tech" (function-no-unknown)
-~~~
-@font-face {
-  font-family: "Trickster";
-  src:
-    url("trickster-COLRv1.otf") format(opentype) tech(color-COLRv1),
-    url("trickster-outline.otf") format(opentype);
-}
-
-/* Using the font face */
-p {
-  font-family: "Trickster", fantasy;
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "at-rule-descriptor-value-no-unknown",
-                                    `Unexpected unknown value "url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental),
-    url("MgOpenModernaBold.otf") format(opentype)" for descriptor "src" (at-rule-descriptor-value-no-unknown)`,
-                                    `    url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental),
-    url("MgOpenModernaBold.otf") format(opentype);`,
-                                    "4:5 - 5:50",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@font-face/src
-[at-rule-descriptor-value-no-unknown] Unexpected unknown value "url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental),
-    url("MgOpenModernaBold.otf") format(opentype)" for descriptor "src" (at-rule-descriptor-value-no-unknown)
-~~~
-@font-face {
-  font-family: "MgOpenModernaBold";
-  src:
-    url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental),
-    url("MgOpenModernaBold.otf") format(opentype);
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "function-no-unknown",
-                                    'Unexpected unknown function "tech" (function-no-unknown)',
-                                    '    url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental),',
-                                    "4:57 - 4:61",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@font-face/src
-[function-no-unknown] Unexpected unknown function "tech" (function-no-unknown)
-~~~
-@font-face {
-  font-family: "MgOpenModernaBold";
-  src:
-    url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental),
-    url("MgOpenModernaBold.otf") format(opentype);
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "at-rule-descriptor-value-no-unknown",
-                                    'Unexpected unknown value "url("MgOpenModernaBold.otf") format(opentype)" for descriptor "src" (at-rule-descriptor-value-no-unknown)',
-                                    '  src: url("MgOpenModernaBold.otf") format(opentype);',
-                                    "3:8 - 3:53",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@font-face/src
-[at-rule-descriptor-value-no-unknown] Unexpected unknown value "url("MgOpenModernaBold.otf") format(opentype)" for descriptor "src" (at-rule-descriptor-value-no-unknown)
-~~~
-@font-face {
-  font-family: "MgOpenModernaBold";
-  src: url("MgOpenModernaBold.otf") format(opentype);
-  src: url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental);
-  src:
-    url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental),
-    url("MgOpenModernaBold.otf") format(opentype);
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "at-rule-descriptor-value-no-unknown",
-                                    'Unexpected unknown value "url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental)" for descriptor "src" (at-rule-descriptor-value-no-unknown)',
-                                    '  src: url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental);',
-                                    "4:8 - 4:77",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@font-face/src
-[at-rule-descriptor-value-no-unknown] Unexpected unknown value "url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental)" for descriptor "src" (at-rule-descriptor-value-no-unknown)
-~~~
-@font-face {
-  font-family: "MgOpenModernaBold";
-  src: url("MgOpenModernaBold.otf") format(opentype);
-  src: url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental);
-  src:
-    url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental),
-    url("MgOpenModernaBold.otf") format(opentype);
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "at-rule-descriptor-value-no-unknown",
-                                    `Unexpected unknown value "url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental),
-    url("MgOpenModernaBold.otf") format(opentype)" for descriptor "src" (at-rule-descriptor-value-no-unknown)`,
-                                    `    url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental),
-    url("MgOpenModernaBold.otf") format(opentype);`,
-                                    "6:5 - 7:50",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@font-face/src
-[at-rule-descriptor-value-no-unknown] Unexpected unknown value "url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental),
-    url("MgOpenModernaBold.otf") format(opentype)" for descriptor "src" (at-rule-descriptor-value-no-unknown)
-~~~
-@font-face {
-  font-family: "MgOpenModernaBold";
-  src: url("MgOpenModernaBold.otf") format(opentype);
-  src: url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental);
-  src:
-    url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental),
-    url("MgOpenModernaBold.otf") format(opentype);
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "function-no-unknown",
-                                    'Unexpected unknown function "tech" (function-no-unknown)',
-                                    '  src: url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental);',
-                                    "4:60 - 4:64",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@font-face/src
-[function-no-unknown] Unexpected unknown function "tech" (function-no-unknown)
-~~~
-@font-face {
-  font-family: "MgOpenModernaBold";
-  src: url("MgOpenModernaBold.otf") format(opentype);
-  src: url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental);
-  src:
-    url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental),
-    url("MgOpenModernaBold.otf") format(opentype);
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "function-no-unknown",
-                                    'Unexpected unknown function "tech" (function-no-unknown)',
-                                    '    url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental),',
-                                    "6:57 - 6:61",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@font-face/src
-[function-no-unknown] Unexpected unknown function "tech" (function-no-unknown)
-~~~
-@font-face {
-  font-family: "MgOpenModernaBold";
-  src: url("MgOpenModernaBold.otf") format(opentype);
-  src: url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental);
-  src:
-    url("MgOpenModernaBoldIncr.otf") format("opentype") tech(incremental),
-    url("MgOpenModernaBold.otf") format(opentype);
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "at-rule-descriptor-value-no-unknown",
-                                    'Unexpected unknown value "url("trickster-COLRv1.otf") format(opentype) tech(color-COLRv1)" for descriptor "src" (at-rule-descriptor-value-no-unknown)',
-                                    '    src: url("trickster-COLRv1.otf") format(opentype) tech(color-COLRv1);',
-                                    "4:10 - 4:73",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@font-face/src
-[at-rule-descriptor-value-no-unknown] Unexpected unknown value "url("trickster-COLRv1.otf") format(opentype) tech(color-COLRv1)" for descriptor "src" (at-rule-descriptor-value-no-unknown)
-~~~
-@supports font-tech(color-COLRv1) {
-  @font-face {
-    font-family: "Trickster";
-    src: url("trickster-COLRv1.otf") format(opentype) tech(color-COLRv1);
-  }
-
-  .colored_text {
-    font-family: "Trickster", fantasy;
-  }
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "function-no-unknown",
-                                    'Unexpected unknown function "tech" (function-no-unknown)',
-                                    '    src: url("trickster-COLRv1.otf") format(opentype) tech(color-COLRv1);',
-                                    "4:55 - 4:59",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@font-face/src
-[function-no-unknown] Unexpected unknown function "tech" (function-no-unknown)
-~~~
-@supports font-tech(color-COLRv1) {
-  @font-face {
-    font-family: "Trickster";
-    src: url("trickster-COLRv1.otf") format(opentype) tech(color-COLRv1);
-  }
-
-  .colored_text {
-    font-family: "Trickster", fantasy;
-  }
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -50719,12 +50123,6 @@ p {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             }
@@ -50732,9 +50130,10 @@ p {
                           slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-face",
                           messages: [
                             {
-                              message: "Unexpected page type",
+                              message: "Broken external link",
                               data: [
-                                "css-at-rule"
+                                "https://www.fontsquirrel.com/tools/webfont-generator",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -50750,23 +50149,14 @@ p {
                                   data: []
                                 },
                                 {
-                                  message: "Unexpected page type",
+                                  message: "Not in BCD",
                                   data: [
-                                    "css-at-rule-descriptor"
+                                    "css.at-rules.font-feature-values.font-display"
                                   ]
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-feature-values",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-at-rule"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         "@font-palette-values": {
                           children: {
@@ -50789,12 +50179,6 @@ p {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -50811,12 +50195,6 @@ p {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -50839,25 +50217,10 @@ p {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@font-palette-values",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-at-rule"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         "@function": {
                           children: {},
@@ -50950,12 +50313,6 @@ div {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-at-rule"
-                              ]
                             }
                           ]
                         },
@@ -50986,177 +50343,7 @@ div {
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@import",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "no-invalid-position-at-import-rule",
-                                "Unexpected invalid position @import rule (no-invalid-position-at-import-rule)",
-                                '@import "my-imported-styles.css";',
-                                "6:1 - 6:33",
-                                `/en-US/docs/Web/CSS/Reference/At-rules/@import
-[no-invalid-position-at-import-rule] Unexpected invalid position @import rule (no-invalid-position-at-import-rule)
-~~~
-* {
-  margin: 0;
-  padding: 0;
-}
-/* more styles */
-@import "my-imported-styles.css";
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "import-notation",
-                                'Expected "url("chrome://communicator/skin/")" to be ""chrome://communicator/skin/"" (import-notation)',
-                                '@import url("chrome://communicator/skin/");',
-                                "2:9 - 2:43",
-                                `/en-US/docs/Web/CSS/Reference/At-rules/@import
-[import-notation] Expected "url("chrome://communicator/skin/")" to be ""chrome://communicator/skin/"" (import-notation)
-~~~
-@import "custom.css";
-@import url("chrome://communicator/skin/");
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-at-rule"
-                              ]
-                            }
-                          ]
-                        },
-                        "@keyframes": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@keyframes",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "keyframe-block-no-duplicate-selectors",
-                                'Unexpected duplicate "50%" (keyframe-block-no-duplicate-selectors)',
-                                "  50% {",
-                                "9:3 - 9:6",
-                                `/en-US/docs/Web/CSS/Reference/At-rules/@keyframes
-[keyframe-block-no-duplicate-selectors] Unexpected duplicate "50%" (keyframe-block-no-duplicate-selectors)
-~~~
-@keyframes identifier {
-  0% {
-    top: 0;
-  }
-  50% {
-    top: 30px;
-    left: 20px;
-  }
-  50% {
-    top: 10px;
-  }
-  100% {
-    top: 0;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "keyframe-declaration-no-important",
-                                "Unexpected !important (keyframe-declaration-no-important)",
-                                "    margin-top: 150px !important; /* ignored */",
-                                "6:23 - 6:33",
-                                `/en-US/docs/Web/CSS/Reference/At-rules/@keyframes
-[keyframe-declaration-no-important] Unexpected !important (keyframe-declaration-no-important)
-~~~
-@keyframes important1 {
-  0% {
-    margin-top: 50px;
-  }
-  50% {
-    margin-top: 150px !important; /* ignored */
-  }
-  100% {
-    margin-top: 100px;
-  }
-}
-
-@keyframes important2 {
-  from {
-    margin-top: 50px;
-    margin-bottom: 100px;
-  }
-  to {
-    margin-top: 150px !important; /* ignored */
-    margin-bottom: 50px;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "keyframe-declaration-no-important",
-                                "Unexpected !important (keyframe-declaration-no-important)",
-                                "    margin-top: 150px !important; /* ignored */",
-                                "19:23 - 19:33",
-                                `/en-US/docs/Web/CSS/Reference/At-rules/@keyframes
-[keyframe-declaration-no-important] Unexpected !important (keyframe-declaration-no-important)
-~~~
-@keyframes important1 {
-  0% {
-    margin-top: 50px;
-  }
-  50% {
-    margin-top: 150px !important; /* ignored */
-  }
-  100% {
-    margin-top: 100px;
-  }
-}
-
-@keyframes important2 {
-  from {
-    margin-top: 50px;
-    margin-bottom: 100px;
-  }
-  to {
-    margin-top: 150px !important; /* ignored */
-    margin-bottom: 50px;
-  }
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-at-rule"
-                              ]
-                            }
-                          ]
-                        },
-                        "@layer": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@layer",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-at-rule"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         "@media": {
                           children: {
@@ -51167,69 +50354,6 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "media-feature-name-no-unknown",
-                                    'Unexpected unknown media feature name "min--moz-device-pixel-ratio" (media-feature-name-no-unknown)',
-                                    "  (min--moz-device-pixel-ratio: 2) /* Older Firefox browsers (prior to firefox 16) */,",
-                                    "3:4 - 3:31",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@media/-moz-device-pixel-ratio
-[media-feature-name-no-unknown] Unexpected unknown media feature name "min--moz-device-pixel-ratio" (media-feature-name-no-unknown)
-~~~
-/* First, set for WebKit-based browsers */
-@media (-webkit-min-device-pixel-ratio: 2),
-  (min--moz-device-pixel-ratio: 2) /* Older Firefox browsers (prior to firefox 16) */,
-  (min-resolution: 2dppx) /* The standard way */,
-  (min-resolution: 192dpi); /* dppx fallback */
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "media-feature-range-notation",
-                                    'Expected "context" media feature range notation (media-feature-range-notation)',
-                                    "  (min-resolution: 2dppx) /* The standard way */,",
-                                    "4:3 - 4:26",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@media/-moz-device-pixel-ratio
-[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
-~~~
-/* First, set for WebKit-based browsers */
-@media (-webkit-min-device-pixel-ratio: 2),
-  (min--moz-device-pixel-ratio: 2) /* Older Firefox browsers (prior to firefox 16) */,
-  (min-resolution: 2dppx) /* The standard way */,
-  (min-resolution: 192dpi); /* dppx fallback */
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "media-feature-range-notation",
-                                    'Expected "context" media feature range notation (media-feature-range-notation)',
-                                    "  (min-resolution: 192dpi); /* dppx fallback */",
-                                    "5:3 - 5:27",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@media/-moz-device-pixel-ratio
-[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
-~~~
-/* First, set for WebKit-based browsers */
-@media (-webkit-min-device-pixel-ratio: 2),
-  (min--moz-device-pixel-ratio: 2) /* Older Firefox browsers (prior to firefox 16) */,
-  (min-resolution: 2dppx) /* The standard way */,
-  (min-resolution: 192dpi); /* dppx fallback */
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51240,12 +50364,6 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51256,74 +50374,6 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "media-feature-range-notation",
-                                    'Expected "context" media feature range notation (media-feature-range-notation)',
-                                    "@media (min-resolution: 2dppx) {",
-                                    "6:8 - 6:31",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@media/-webkit-device-pixel-ratio
-[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
-~~~
-/* A unit of "dppx" is implied: */
-@media (-webkit-min-device-pixel-ratio: 2) {
-  /* … */
-}
-/* It is equivalent to: */
-@media (min-resolution: 2dppx) {
-  /* … */
-}
-
-/* Similarly: */
-@media (-webkit-max-device-pixel-ratio: 2) {
-  /* … */
-}
-/* It is equivalent to: */
-@media (max-resolution: 2dppx) {
-  /* … */
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "media-feature-range-notation",
-                                    'Expected "context" media feature range notation (media-feature-range-notation)',
-                                    "@media (max-resolution: 2dppx) {",
-                                    "15:8 - 15:31",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@media/-webkit-device-pixel-ratio
-[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
-~~~
-/* A unit of "dppx" is implied: */
-@media (-webkit-min-device-pixel-ratio: 2) {
-  /* … */
-}
-/* It is equivalent to: */
-@media (min-resolution: 2dppx) {
-  /* … */
-}
-
-/* Similarly: */
-@media (-webkit-max-device-pixel-ratio: 2) {
-  /* … */
-}
-/* It is equivalent to: */
-@media (max-resolution: 2dppx) {
-  /* … */
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51334,12 +50384,6 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51350,12 +50394,6 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51366,12 +50404,6 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51382,12 +50414,6 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51398,12 +50424,6 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51414,84 +50434,6 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "media-feature-range-notation",
-                                    'Expected "context" media feature range notation (media-feature-range-notation)',
-                                    "@media (min-aspect-ratio: 8/5) {",
-                                    "3:8 - 3:31",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@media/aspect-ratio
-[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
-~~~
-/* Minimum allowed aspect ratio */
-/* Select aspect ratios 8/5 = 1.6 and above */
-@media (min-aspect-ratio: 8/5) {
-  div {
-    background: #9999ff; /* blue */
-  }
-}
-
-/* Maximum allowed aspect ratio */
-/* Select aspect ratios 3/2 = 1.5 and below */
-@media (max-aspect-ratio: 3/2) {
-  div {
-    background: #99ff99; /* green */
-  }
-}
-
-/* Exact aspect ratio, put it at the bottom to avoid override */
-@media (aspect-ratio: 1/1) {
-  div {
-    background: #ff9999; /* red */
-  }
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "media-feature-range-notation",
-                                    'Expected "context" media feature range notation (media-feature-range-notation)',
-                                    "@media (max-aspect-ratio: 3/2) {",
-                                    "11:8 - 11:31",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@media/aspect-ratio
-[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
-~~~
-/* Minimum allowed aspect ratio */
-/* Select aspect ratios 8/5 = 1.6 and above */
-@media (min-aspect-ratio: 8/5) {
-  div {
-    background: #9999ff; /* blue */
-  }
-}
-
-/* Maximum allowed aspect ratio */
-/* Select aspect ratios 3/2 = 1.5 and below */
-@media (max-aspect-ratio: 3/2) {
-  div {
-    background: #99ff99; /* green */
-  }
-}
-
-/* Exact aspect ratio, put it at the bottom to avoid override */
-@media (aspect-ratio: 1/1) {
-  div {
-    background: #ff9999; /* red */
-  }
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51502,43 +50444,6 @@ div {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "media-feature-range-notation",
-                                    'Expected "context" media feature range notation (media-feature-range-notation)',
-                                    "@media (min-color: 8) {",
-                                    "13:8 - 13:22",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@media/color
-[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
-~~~
-p {
-  color: black;
-}
-
-/* Any color device */
-@media (color) {
-  p {
-    color: red;
-  }
-}
-
-/* Any color device with at least 8 bits per color component */
-@media (min-color: 8) {
-  p {
-    color: #24ba13;
-  }
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51549,12 +50454,6 @@ p {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51565,41 +50464,6 @@ p {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "media-feature-range-notation",
-                                    'Expected "context" media feature range notation (media-feature-range-notation)',
-                                    "@media (min-color-index: 15000) {",
-                                    "11:8 - 11:32",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@media/color-index
-[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
-~~~
-p {
-  color: black;
-}
-
-@media (color-index) {
-  p {
-    color: red;
-  }
-}
-
-@media (min-color-index: 15000) {
-  p {
-    color: #1475ef;
-  }
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51610,35 +50474,6 @@ p {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "media-feature-range-notation",
-                                    'Expected "context" media feature range notation (media-feature-range-notation)',
-                                    "@media screen and (min-device-aspect-ratio: 16/9) {",
-                                    "5:19 - 5:50",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@media/device-aspect-ratio
-[media-feature-range-notation] Expected "context" media feature range notation (media-feature-range-notation)
-~~~
-article {
-  padding: 1rem;
-}
-
-@media screen and (min-device-aspect-ratio: 16/9) {
-  article {
-    padding: 1rem 5vw;
-  }
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51649,12 +50484,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51665,62 +50494,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "media-feature-name-no-unknown",
-                                    'Unexpected unknown media feature name "device-posture" (media-feature-name-no-unknown)',
-                                    "@media (device-posture: folded) and (orientation: landscape) {",
-                                    "1:9 - 1:23",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@media/device-posture
-[media-feature-name-no-unknown] Unexpected unknown media feature name "device-posture" (media-feature-name-no-unknown)
-~~~
-@media (device-posture: folded) and (orientation: landscape) {
-  .list-view {
-    margin-inline-end: 60px;
-  }
-}
-
-@media (device-posture: folded) and (orientation: portrait) {
-  .list-view {
-    margin-block-end: 60px;
-  }
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "media-feature-name-no-unknown",
-                                    'Unexpected unknown media feature name "device-posture" (media-feature-name-no-unknown)',
-                                    "@media (device-posture: folded) and (orientation: portrait) {",
-                                    "7:9 - 7:23",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@media/device-posture
-[media-feature-name-no-unknown] Unexpected unknown media feature name "device-posture" (media-feature-name-no-unknown)
-~~~
-@media (device-posture: folded) and (orientation: landscape) {
-  .list-view {
-    margin-inline-end: 60px;
-  }
-}
-
-@media (device-posture: folded) and (orientation: portrait) {
-  .list-view {
-    margin-block-end: 60px;
-  }
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51731,12 +50504,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51747,12 +50514,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51763,12 +50524,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51779,12 +50534,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51795,12 +50544,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51811,12 +50554,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51827,12 +50564,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51843,12 +50574,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51859,12 +50584,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51875,12 +50594,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51891,12 +50604,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51907,12 +50614,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51923,12 +50624,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51939,12 +50634,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51955,12 +50644,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51971,12 +50654,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -51987,12 +50664,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -52005,9 +50676,10 @@ article {
                                   data: []
                                 },
                                 {
-                                  message: "Unexpected page type",
+                                  message: "Broken external link",
                                   data: [
-                                    "css-media-feature"
+                                    "https://www.a11yproject.com/posts/understanding-vestibular-disorders/",
+                                    "The operation timed out."
                                   ]
                                 }
                               ]
@@ -52019,12 +50691,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -52035,12 +50701,6 @@ article {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -52053,48 +50713,12 @@ article {
                                   data: []
                                 },
                                 {
-                                  message: "CSS code issue",
+                                  message: "Unexpected BCD keys",
                                   data: [
-                                    "media-feature-name-value-no-unknown",
-                                    'Unexpected unknown media feature value "interlaced" for name "scan" (media-feature-name-value-no-unknown)',
-                                    "@media not screen and (scan: interlaced) {",
-                                    "21:30 - 21:40",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@media/scan
-[media-feature-name-value-no-unknown] Unexpected unknown media feature value "interlaced" for name "scan" (media-feature-name-value-no-unknown)
-~~~
-p {
-  padding: 10px;
-  border: solid;
-}
-
-@media screen and (scan: interlace) {
-  p {
-    background: #f4ae8a;
-  }
-}
-@media screen and (scan: progressive) {
-  p {
-    text-decoration: underline;
-  }
-}
-@media not screen and (scan: progressive) {
-  p {
-    border-style: dashed;
-  }
-}
-@media not screen and (scan: interlaced) {
-  p {
-    color: purple;
-  }
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
+                                    "Actual:",
+                                    "css.at-rules.media.scan",
+                                    "Expected:",
+                                    "[None]"
                                   ]
                                 }
                               ]
@@ -52106,12 +50730,6 @@ p {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -52124,72 +50742,10 @@ p {
                                   data: []
                                 },
                                 {
-                                  message: "CSS code issue",
+                                  message: "Not in BCD",
                                   data: [
-                                    "media-feature-name-no-unknown",
-                                    'Unexpected unknown media feature name "shape" (media-feature-name-no-unknown)',
-                                    "@media (shape: rect) {",
-                                    "5:9 - 5:14",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@media/shape
-[media-feature-name-no-unknown] Unexpected unknown media feature name "shape" (media-feature-name-no-unknown)
-~~~
-h1 {
-  text-align: left;
-}
-
-@media (shape: rect) {
-  h1 {
-    text-align: left;
-  }
-}
-
-@media (shape: round) {
-  h1 {
-    text-align: center;
-  }
-}
-~~~
-`
+                                    "css.at-rules.media.shape"
                                   ]
-                                },
-                                {
-                                  message: "CSS code issue",
-                                  data: [
-                                    "media-feature-name-no-unknown",
-                                    'Unexpected unknown media feature name "shape" (media-feature-name-no-unknown)',
-                                    "@media (shape: round) {",
-                                    "11:9 - 11:14",
-                                    `/en-US/docs/Web/CSS/Reference/At-rules/@media/shape
-[media-feature-name-no-unknown] Unexpected unknown media feature name "shape" (media-feature-name-no-unknown)
-~~~
-h1 {
-  text-align: left;
-}
-
-@media (shape: rect) {
-  h1 {
-    text-align: left;
-  }
-}
-
-@media (shape: round) {
-  h1 {
-    text-align: center;
-  }
-}
-~~~
-`
-                                  ]
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
-                                },
-                                {
-                                  message: "Page status not backed by BCD",
-                                  data: []
                                 }
                               ]
                             },
@@ -52200,12 +50756,6 @@ h1 {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -52216,12 +50766,6 @@ h1 {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -52232,12 +50776,6 @@ h1 {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             },
@@ -52248,37 +50786,10 @@ h1 {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-media-feature"
-                                  ]
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@media",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-at-rule"
-                              ]
-                            }
-                          ]
-                        },
-                        "@namespace": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@namespace",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-at-rule"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         "@page": {
                           children: {
@@ -52295,12 +50806,6 @@ h1 {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -52317,37 +50822,10 @@ h1 {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@page",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-at-rule"
-                              ]
-                            }
-                          ]
-                        },
-                        "@position-try": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@position-try",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-at-rule"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         "@property": {
                           children: {
@@ -52364,12 +50842,6 @@ h1 {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -52386,12 +50858,6 @@ h1 {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             },
@@ -52408,171 +50874,15 @@ h1 {
                                 {
                                   message: "Unreachable via sidebar",
                                   data: []
-                                },
-                                {
-                                  message: "Unexpected page type",
-                                  data: [
-                                    "css-at-rule-descriptor"
-                                  ]
                                 }
                               ]
                             }
-                          },
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@property",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "declaration-property-value-no-unknown",
-                                'Unexpected unknown value "1000px" for property "--item-size" (declaration-property-value-no-unknown)',
-                                "  --item-size: 1000px;",
-                                "32:16 - 32:22",
-                                `/en-US/docs/Web/CSS/Reference/At-rules/@property
-[declaration-property-value-no-unknown] Unexpected unknown value "1000px" for property "--item-size" (declaration-property-value-no-unknown)
-~~~
-@property --item-size {
-  syntax: "<percentage>";
-  inherits: true;
-  initial-value: 40%;
-}
-
-.container {
-  display: flex;
-  height: 200px;
-  border: 1px dashed black;
-
-  /* set custom property values on parent */
-  --item-size: 20%;
-  --item-color: orange;
-}
-
-/* use custom properties to set item size and background color */
-.item {
-  width: var(--item-size);
-  height: var(--item-size);
-  background-color: var(--item-color);
-}
-
-/* set custom property values on element itself */
-.two {
-  --item-size: initial;
-  --item-color: inherit;
-}
-
-.three {
-  /* invalid values */
-  --item-size: 1000px;
-  --item-color: xyz;
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-at-rule"
-                              ]
-                            }
-                          ]
-                        },
-                        "@scope": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@scope",
-                          messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "mdn-graph/no-style-tag",
-                                "Use external stylesheet with <link> instead of <style> tag",
-                                "style",
-                                "2:4",
-                                `/en-US/docs/Web/CSS/Reference/At-rules/@scope
-[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
-~~~
-<parent-element>
-  <style>
-    @scope {
-      /* rulesets */
-    }
-  </style>
-</parent-element>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "element-permitted-content",
-                                "<style> element is not permitted as content under <section>",
-                                "style",
-                                "2:4",
-                                `/en-US/docs/Web/CSS/Reference/At-rules/@scope
-[element-permitted-content] <style> element is not permitted as content under <section>
-~~~
-<section class="article-body">
-  <style>
-    @scope {
-      img {
-        border: 5px solid black;
-        background-color: goldenrod;
-      }
-    }
-  </style>
-
-  <!-- ... -->
-</section>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "HTML code issue",
-                              data: [
-                                "mdn-graph/no-style-tag",
-                                "Use external stylesheet with <link> instead of <style> tag",
-                                "style",
-                                "2:4",
-                                `/en-US/docs/Web/CSS/Reference/At-rules/@scope
-[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
-~~~
-<section class="article-body">
-  <style>
-    @scope {
-      img {
-        border: 5px solid black;
-        background-color: goldenrod;
-      }
-    }
-  </style>
-
-  <!-- ... -->
-</section>
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-at-rule"
-                              ]
-                            }
-                          ]
+                          }
                         },
                         "@starting-style": {
                           children: {},
                           slug: "/en-US/docs/Web/CSS/Reference/At-rules/@starting-style",
                           messages: [
-                            {
-                              message: "Missing syntax code block",
-                              data: []
-                            },
                             {
                               message: "Stylelint backlog",
                               data: [
@@ -52641,79 +50951,6 @@ so specify a standalone starting-style block. */
 }
 ~~~
 `
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-at-rule"
-                              ]
-                            }
-                          ]
-                        },
-                        "@supports": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@supports",
-                          messages: [
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "at-rule-descriptor-value-no-unknown",
-                                `Unexpected unknown value "url("bungee-spice.woff2") tech(color-COLRv1) format("woff2"),
-    url("bungee.woff2") format("woff2")" for descriptor "src" (at-rule-descriptor-value-no-unknown)`,
-                                `    url("bungee-spice.woff2") tech(color-COLRv1) format("woff2"),
-    url("bungee.woff2") format("woff2");`,
-                                "4:5 - 5:40",
-                                `/en-US/docs/Web/CSS/Reference/At-rules/@supports
-[at-rule-descriptor-value-no-unknown] Unexpected unknown value "url("bungee-spice.woff2") tech(color-COLRv1) format("woff2"),
-    url("bungee.woff2") format("woff2")" for descriptor "src" (at-rule-descriptor-value-no-unknown)
-~~~
-@font-face {
-  font-family: "Bungee Spice";
-  src:
-    url("bungee-spice.woff2") tech(color-COLRv1) format("woff2"),
-    url("bungee.woff2") format("woff2");
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "CSS code issue",
-                              data: [
-                                "function-no-unknown",
-                                'Unexpected unknown function "tech" (function-no-unknown)',
-                                '    url("bungee-spice.woff2") tech(color-COLRv1) format("woff2"),',
-                                "4:31 - 4:35",
-                                `/en-US/docs/Web/CSS/Reference/At-rules/@supports
-[function-no-unknown] Unexpected unknown function "tech" (function-no-unknown)
-~~~
-@font-face {
-  font-family: "Bungee Spice";
-  src:
-    url("bungee-spice.woff2") tech(color-COLRv1) format("woff2"),
-    url("bungee.woff2") format("woff2");
-}
-~~~
-`
-                              ]
-                            },
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-at-rule"
-                              ]
-                            }
-                          ]
-                        },
-                        "@view-transition": {
-                          children: {},
-                          slug: "/en-US/docs/Web/CSS/Reference/At-rules/@view-transition",
-                          messages: [
-                            {
-                              message: "Unexpected page type",
-                              data: [
-                                "css-at-rule"
                               ]
                             }
                           ]
@@ -61822,11 +60059,31 @@ section::after {
                             "element-permitted-content",
                             "<del> element is not permitted as content under <ul>",
                             "del",
-                            "3:4",
+                            "2:4",
                             `/en-US/docs/Web/HTML/Guides/Content_categories
 [element-permitted-content] <del> element is not permitted as content under <ul>
 ~~~
-<p><del>Shopping</del> <ins>Returns</ins> list</p>
+<ul>
+  <del>
+    <li>Oranges</li>
+    <li>Toilet paper</li>
+  </del>
+  <li>Toothpaste</li>
+</ul>
+~~~
+`
+                          ]
+                        },
+                        {
+                          message: "HTML code issue",
+                          data: [
+                            "element-permitted-parent",
+                            "<li> element requires a <ul>, <ol>, <menu> or <template> element as parent",
+                            "li",
+                            "3:6",
+                            `/en-US/docs/Web/HTML/Guides/Content_categories
+[element-permitted-parent] <li> element requires a <ul>, <ol>, <menu> or <template> element as parent
+~~~
 <ul>
   <del>
     <li>Oranges</li>
@@ -61848,29 +60105,6 @@ section::after {
                             `/en-US/docs/Web/HTML/Guides/Content_categories
 [element-permitted-parent] <li> element requires a <ul>, <ol>, <menu> or <template> element as parent
 ~~~
-<p><del>Shopping</del> <ins>Returns</ins> list</p>
-<ul>
-  <del>
-    <li>Oranges</li>
-    <li>Toilet paper</li>
-  </del>
-  <li>Toothpaste</li>
-</ul>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "element-permitted-parent",
-                            "<li> element requires a <ul>, <ol>, <menu> or <template> element as parent",
-                            "li",
-                            "5:6",
-                            `/en-US/docs/Web/HTML/Guides/Content_categories
-[element-permitted-parent] <li> element requires a <ul>, <ol>, <menu> or <template> element as parent
-~~~
-<p><del>Shopping</del> <ins>Returns</ins> list</p>
 <ul>
   <del>
     <li>Oranges</li>
@@ -62243,6 +60477,19 @@ html.elements.select.size`
                     },
                     elements: {
                       children: {
+                        a: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Elements/a",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.a11yproject.com/posts/skip-nav-links/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         dialog: {
                           children: {},
                           slug: "/en-US/docs/Web/HTML/Reference/Elements/dialog",
@@ -62933,6 +61180,19 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        accept: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Accept",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.gnu.org/software/wget/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -63092,19 +61352,6 @@ http.headers.Use-As-Dictionary`,
                         }
                       }
                     },
-                    javascript_technologies_overview: {
-                      children: {},
-                      slug: "/en-US/docs/Web/JavaScript/Reference/JavaScript_technologies_overview",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://runjs.app/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     lexical_grammar: {
                       children: {},
                       slug: "/en-US/docs/Web/JavaScript/Reference/Lexical_grammar",
@@ -63201,6 +61448,19 @@ http.headers.Use-As-Dictionary`,
                     },
                     formats: {
                       children: {
+                        audio_codecs: {
+                          children: {},
+                          slug: "/en-US/docs/Web/Media/Guides/Formats/Audio_codecs",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/licensing-2/aac/",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        },
                         video_codecs: {
                           children: {},
                           slug: "/en-US/docs/Web/Media/Guides/Formats/Video_codecs",
@@ -63208,8 +61468,57 @@ http.headers.Use-As-Dictionary`,
                             {
                               message: "Broken external link",
                               data: [
+                                "https://www.via-la.com/licensing-2/avc-h-264/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/licensing-2/avc-h-264/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/licensing-2/hevc-vvc/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/licensing-2/hevc-vvc/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/licensing-2/mpeg-4-visual/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/",
+                                "The operation timed out."
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
                                 "https://about.att.com/innovation/ip/patents",
                                 403
+                              ]
+                            },
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://www.via-la.com/licensing-2/mpeg-2/",
+                                "The operation timed out."
                               ]
                             }
                           ]
@@ -63409,6 +61718,13 @@ http.headers.Use-As-Dictionary`,
                     {
                       message: "Unreachable via page",
                       data: []
+                    },
+                    {
+                      message: "Broken external link",
+                      data: [
+                        "https://wiki.owasp.org/index.php/Secure_Coding_Principles",
+                        500
+                      ]
                     }
                   ]
                 },
