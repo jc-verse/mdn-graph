@@ -66,8 +66,8 @@ xslt	/en-US/docs/Web/XML/XSLT/Guides/Transforming_XML_with_XSLT
 2009/WD-css3-2d-transforms-20090320	/en-US/docs/Web/API/Window/webkitConvertPointFromNodeToPage
 2009/WD-css3-2d-transforms-20090320	/en-US/docs/Web/API/Window/webkitConvertPointFromPageToNode
 2009/WD-DOM-Level-3-Events-20090908	/en-US/docs/Web/API/KeyboardEvent/keyIdentifier
-2012/WD-css3-conditional-20120911	/en-US/docs/Web/CSS/@document
-2012/WD-css3-conditional-20121213	/en-US/docs/Web/CSS/@document
+2012/WD-css3-conditional-20120911	/en-US/docs/Web/CSS/Reference/At-rules/@document
+2012/WD-css3-conditional-20121213	/en-US/docs/Web/CSS/Reference/At-rules/@document
 2014/REC-cors-20140116	/en-US/docs/Web/HTTP/Guides/CORS
 2015/CR-mixed-content-20150317	/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/block-all-mixed-content
 2018/SPSD-html32-20180315	/en-US/docs/Glossary/html_color_codes

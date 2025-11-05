@@ -3244,210 +3244,6 @@ var global = { data: 0 };
 alert(global === window.global); // displays "true"
 ~~~
 
-/en-US/docs/Web/CSS/@font-face/font-weight
-[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
-[font-weight-notation] Expected "700" to be "bold" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 1 1000;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Regular.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 1 300;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Light.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 500 700;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Bold.woff2");
-}
-
-@font-face {
-  font-family: "Fira Sans";
-  font-weight: 700 1000;
-  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-ExtraBold.woff2");
-}
-
-body {
-  font-family: "Fira Sans", serif;
-  font-size: 2rem;
-}
-
-p.one {
-  font-weight: 100;
-}
-
-p.three {
-  font-weight: 300;
-}
-
-p.four {
-  font-weight: 400;
-}
-
-p.five {
-  font-weight: 500;
-}
-
-p.seven {
-  font-weight: 700;
-}
-
-p.nine {
-  font-weight: 900;
-}
-~~~
-
-/en-US/docs/Web/CSS/@font-face/font-weight
-[font-weight-notation] Expected "700" to be "bold" (font-weight-notation)
-~~~
-@font-face {
-  font-family: "LeagueMono";
-  src: url("https://mdn.github.io/shared-assets/fonts/LeagueMono-VF.ttf");
-  font-weight: 300 700;
-}
-
-p {
-  font-family: "LeagueMono", serif;
-  font-size: 1.5rem;
-}
-
-p:first-of-type {
-  font-weight: 300;
-}
-
-p:last-of-type {
-  font-weight: 700;
-}
-~~~
-
-/en-US/docs/Web/CSS/@import
-[import-notation] Expected "url("chrome://communicator/skin/")" to be ""chrome://communicator/skin/"" (import-notation)
-~~~
-@import "custom.css";
-@import url("chrome://communicator/skin/");
-~~~
-
-/en-US/docs/Web/CSS/@import
-[no-invalid-position-at-import-rule] Unexpected invalid position @import rule (no-invalid-position-at-import-rule)
-~~~
-* {
-  margin: 0;
-  padding: 0;
-}
-/* more styles */
-@import "my-imported-styles.css";
-~~~
-
-/en-US/docs/Web/CSS/@keyframes
-[keyframe-block-no-duplicate-selectors] Unexpected duplicate "50%" (keyframe-block-no-duplicate-selectors)
-~~~
-@keyframes identifier {
-  0% {
-    top: 0;
-  }
-  50% {
-    top: 30px;
-    left: 20px;
-  }
-  50% {
-    top: 10px;
-  }
-  100% {
-    top: 0;
-  }
-}
-~~~
-
-/en-US/docs/Web/CSS/@property
-[declaration-property-value-no-unknown] Unexpected unknown value "1000px" for property "--item-size" (declaration-property-value-no-unknown)
-~~~
-@property --item-size {
-  syntax: "<percentage>";
-  inherits: true;
-  initial-value: 40%;
-}
-
-.container {
-  display: flex;
-  height: 200px;
-  border: 1px dashed black;
-
-  /* set custom property values on parent */
-  --item-size: 20%;
-  --item-color: orange;
-}
-
-/* use custom properties to set item size and background color */
-.item {
-  width: var(--item-size);
-  height: var(--item-size);
-  background-color: var(--item-color);
-}
-
-/* set custom property values on element itself */
-.two {
-  --item-size: initial;
-  --item-color: inherit;
-}
-
-.three {
-  /* invalid values */
-  --item-size: 1000px;
-  --item-color: xyz;
-}
-~~~
-
-/en-US/docs/Web/CSS/@scope
-[element-permitted-content] <style> element is not permitted as content under <section>
-~~~
-<section class="article-body">
-  <style>
-    @scope {
-      img {
-        border: 5px solid black;
-        background-color: goldenrod;
-      }
-    }
-  </style>
-
-  <!-- ... -->
-</section>
-~~~
-
-/en-US/docs/Web/CSS/@scope
-[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
-~~~
-<section class="article-body">
-  <style>
-    @scope {
-      img {
-        border: 5px solid black;
-        background-color: goldenrod;
-      }
-    }
-  </style>
-
-  <!-- ... -->
-</section>
-~~~
-
-/en-US/docs/Web/CSS/@scope
-[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
-~~~
-<parent-element>
-  <style>
-    @scope {
-      /* rulesets */
-    }
-  </style>
-</parent-element>
-~~~
-
 /en-US/docs/Web/CSS/attr
 [declaration-property-value-no-unknown] Cannot parse property value "url(attr(data-icon))" for property "background-image" (declaration-property-value-no-unknown)
 [function-url-quotes] Expected quotes around "url" function argument (function-url-quotes)
@@ -4142,6 +3938,210 @@ selector {
 <div class="bar" style="--value: 500">500</div>
 <div class="bar" style="--value: 10000">10,000</div>
 <div class="bar" style="--value: 2000000">2,000,000</div>
+~~~
+
+/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-weight
+[font-weight-notation] Expected "400" to be "normal" (font-weight-notation)
+[font-weight-notation] Expected "700" to be "bold" (font-weight-notation)
+~~~
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 1 1000;
+  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Regular.woff2");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 1 300;
+  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Light.woff2");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 500 700;
+  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-Bold.woff2");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-weight: 700 1000;
+  src: url("https://mdn.github.io/shared-assets/fonts/FiraSans-ExtraBold.woff2");
+}
+
+body {
+  font-family: "Fira Sans", serif;
+  font-size: 2rem;
+}
+
+p.one {
+  font-weight: 100;
+}
+
+p.three {
+  font-weight: 300;
+}
+
+p.four {
+  font-weight: 400;
+}
+
+p.five {
+  font-weight: 500;
+}
+
+p.seven {
+  font-weight: 700;
+}
+
+p.nine {
+  font-weight: 900;
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/At-rules/@font-face/font-weight
+[font-weight-notation] Expected "700" to be "bold" (font-weight-notation)
+~~~
+@font-face {
+  font-family: "LeagueMono";
+  src: url("https://mdn.github.io/shared-assets/fonts/LeagueMono-VF.ttf");
+  font-weight: 300 700;
+}
+
+p {
+  font-family: "LeagueMono", serif;
+  font-size: 1.5rem;
+}
+
+p:first-of-type {
+  font-weight: 300;
+}
+
+p:last-of-type {
+  font-weight: 700;
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/At-rules/@import
+[import-notation] Expected "url("chrome://communicator/skin/")" to be ""chrome://communicator/skin/"" (import-notation)
+~~~
+@import "custom.css";
+@import url("chrome://communicator/skin/");
+~~~
+
+/en-US/docs/Web/CSS/Reference/At-rules/@import
+[no-invalid-position-at-import-rule] Unexpected invalid position @import rule (no-invalid-position-at-import-rule)
+~~~
+* {
+  margin: 0;
+  padding: 0;
+}
+/* more styles */
+@import "my-imported-styles.css";
+~~~
+
+/en-US/docs/Web/CSS/Reference/At-rules/@keyframes
+[keyframe-block-no-duplicate-selectors] Unexpected duplicate "50%" (keyframe-block-no-duplicate-selectors)
+~~~
+@keyframes identifier {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 30px;
+    left: 20px;
+  }
+  50% {
+    top: 10px;
+  }
+  100% {
+    top: 0;
+  }
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/At-rules/@property
+[declaration-property-value-no-unknown] Unexpected unknown value "1000px" for property "--item-size" (declaration-property-value-no-unknown)
+~~~
+@property --item-size {
+  syntax: "<percentage>";
+  inherits: true;
+  initial-value: 40%;
+}
+
+.container {
+  display: flex;
+  height: 200px;
+  border: 1px dashed black;
+
+  /* set custom property values on parent */
+  --item-size: 20%;
+  --item-color: orange;
+}
+
+/* use custom properties to set item size and background color */
+.item {
+  width: var(--item-size);
+  height: var(--item-size);
+  background-color: var(--item-color);
+}
+
+/* set custom property values on element itself */
+.two {
+  --item-size: initial;
+  --item-color: inherit;
+}
+
+.three {
+  /* invalid values */
+  --item-size: 1000px;
+  --item-color: xyz;
+}
+~~~
+
+/en-US/docs/Web/CSS/Reference/At-rules/@scope
+[element-permitted-content] <style> element is not permitted as content under <section>
+~~~
+<section class="article-body">
+  <style>
+    @scope {
+      img {
+        border: 5px solid black;
+        background-color: goldenrod;
+      }
+    }
+  </style>
+
+  <!-- ... -->
+</section>
+~~~
+
+/en-US/docs/Web/CSS/Reference/At-rules/@scope
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
+~~~
+<section class="article-body">
+  <style>
+    @scope {
+      img {
+        border: 5px solid black;
+        background-color: goldenrod;
+      }
+    }
+  </style>
+
+  <!-- ... -->
+</section>
+~~~
+
+/en-US/docs/Web/CSS/Reference/At-rules/@scope
+[mdn-graph/no-style-tag] Use external stylesheet with <link> instead of <style> tag
+~~~
+<parent-element>
+  <style>
+    @scope {
+      /* rulesets */
+    }
+  </style>
+</parent-element>
 ~~~
 
 /en-US/docs/Web/CSS/Reference/Properties/border-bottom

@@ -49,10 +49,10 @@
 /en-US/docs/Web/API/Web_Authentication_API/WebAuthn_extensions	api.CredentialsContainer.create.publicKey_option.extensions,api.CredentialsContainer.get.publicKey_option.extensions
 /en-US/docs/Web/Security/Mixed_content	http.mixed-content
 
+/en-US/docs/Web/CSS/Reference/At-rules/@scope	css.at-rules.scope,css.selectors.nesting.at-scope
+/en-US/docs/Web/CSS/Reference/Properties/color-interpolation-method	css.types.color.color-mix
 /en-US/docs/Web/CSS/Reference/Properties/--*	css.properties.custom-property
 /en-US/docs/Web/CSS/Reference/Selectors/:heading_function	css.selectors.headingfunction
-/en-US/docs/Web/CSS/@scope	css.at-rules.scope,css.selectors.nesting.at-scope
-/en-US/docs/Web/CSS/Reference/Properties/color-interpolation-method	css.types.color.color-mix
   Interesting case: css.selectors.column is `::column`, not the column combinator
 /en-US/docs/Web/CSS/Reference/Selectors/Column_combinator	css.selectors.column
 /en-US/docs/Web/CSS/display-box	css.properties.display.contents

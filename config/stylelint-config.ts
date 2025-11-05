@@ -443,20 +443,20 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
       },
       {
         files: [
-          "Web/CSS/@container/*",
+          "Web/CSS/Reference/At-rules/@container/*",
           "Web/CSS/CSS_containment/Container_size_and_style_queries/*",
         ],
         rules: { "at-rule-prelude-no-invalid": null },
       },
       {
-        files: ["Web/CSS/@document/*"],
+        files: ["Web/CSS/Reference/At-rules/@document/*"],
         rules: { "at-rule-no-deprecated": null },
       },
       {
         files: [
-          "Web/CSS/@font-face/font-stretch/*",
-          "Web/CSS/@font-face/src/*",
-          "Web/CSS/@supports/*",
+          "Web/CSS/Reference/At-rules/@font-face/font-stretch/*",
+          "Web/CSS/Reference/At-rules/@font-face/src/*",
+          "Web/CSS/Reference/At-rules/@supports/*",
         ],
         rules: {
           "at-rule-descriptor-value-no-unknown": null,
@@ -464,15 +464,15 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       },
       {
-        files: ["Web/CSS/@keyframes/*"],
+        files: ["Web/CSS/Reference/At-rules/@keyframes/*"],
         rules: { "keyframe-declaration-no-important": null },
       },
       {
-        files: ["Web/CSS/@media/**"],
+        files: ["Web/CSS/Reference/At-rules/@media/**"],
         rules: { "media-feature-range-notation": null },
       },
       {
-        files: ["Web/CSS/@media/-moz-device-pixel-ratio/*"],
+        files: ["Web/CSS/Reference/At-rules/@media/-moz-device-pixel-ratio/*"],
         rules: {
           "media-feature-name-no-unknown": [
             true,
@@ -481,7 +481,7 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       },
       {
-        files: ["Web/CSS/@media/device-posture/*"],
+        files: ["Web/CSS/Reference/At-rules/@media/device-posture/*"],
         rules: {
           "media-feature-name-no-unknown": [
             true,
@@ -490,11 +490,11 @@ export default function stylelintConfig(isPropertyOnly: boolean) {
         },
       },
       {
-        files: ["Web/CSS/@media/scan/*"],
+        files: ["Web/CSS/Reference/At-rules/@media/scan/*"],
         rules: { "media-feature-name-value-no-unknown": null },
       },
       {
-        files: ["Web/CSS/@media/shape/*"],
+        files: ["Web/CSS/Reference/At-rules/@media/shape/*"],
         rules: {
           "media-feature-name-no-unknown": [
             true,

@@ -121,8 +121,10 @@ declarative_net_request.rule_resources
 browser_specific_settings.gecko.id
 storage.managed_schema
 
+browser_specific_settings.gecko.data_collection_permissions
 dom.events.script_execute.enable
 dom.security.trusted_types.enabled
+dom.storage_access.headers.enabled
 image.avif.compliance_strictness
 network.cors_preflight.authorization_covered_by_wildcard
 security.insecure_connection_text.enabled

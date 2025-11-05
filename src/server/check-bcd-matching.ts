@@ -259,14 +259,14 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     }
     // Web/CSS/
     case "css-at-rule": {
-      const match = node.id.match(/^\/en-US\/docs\/Web\/CSS\/@([^/]+)$/);
+      const match = node.id.match(/^\/en-US\/docs\/Web\/CSS\/Reference\/At-rules\/@([^/]+)$/);
       if (!match) return "Unexpected page type";
       const ruleName = match[1];
       return [`css.at-rules.${ruleName}`];
     }
     case "css-at-rule-descriptor": {
       const match = node.id.match(
-        /^\/en-US\/docs\/Web\/CSS\/@([^/]+)\/([^/]+)$/,
+        /^\/en-US\/docs\/Web\/CSS\/Reference\/At-rules\/@([^/]+)\/([^/]+)$/,
       );
       if (!match) return "Unexpected page type";
       const ruleName = match[1];
@@ -287,7 +287,9 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
       return [`css.selectors.${combinatorName.toLowerCase()}`];
     }
     case "css-function": {
-      const match = node.id.match(/^\/en-US\/docs\/Web\/CSS\/(?:Reference\/(?:Properties)\/)?(.+)$/);
+      const match = node.id.match(
+        /^\/en-US\/docs\/Web\/CSS\/(?:Reference\/(?:Properties)\/)?(.+)$/,
+      );
       if (!match) return "Unexpected page type";
       const functionName = match[1]
         .replace("/", ".")
@@ -327,7 +329,7 @@ function expectedBCD(node: any): "Unexpected page type" | "ignore" | string[] {
     case "css-keyword":
       return "ignore";
     case "css-media-feature": {
-      const match = node.id.match(/^\/en-US\/docs\/Web\/CSS\/@media\/([^/]+)$/);
+      const match = node.id.match(/^\/en-US\/docs\/Web\/CSS\/Reference\/At-rules\/@media\/([^/]+)$/);
       if (!match) return "Unexpected page type";
       const featureName = match[1];
       return [`css.at-rules.media.${featureName}`];
