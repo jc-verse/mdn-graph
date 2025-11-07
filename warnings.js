@@ -1,6 +1,6 @@
 import {
   last_update_default
-} from "./chunk-dhekbjme.js";
+} from "./chunk-e41k45rp.js";
 // data/warnings-processed.json
 var warnings_processed_default = {
   children: {
@@ -39,19 +39,6 @@ var warnings_processed_default = {
                       ]
                     }
                   }
-                },
-                audio_for_web_games: {
-                  children: {},
-                  slug: "/en-US/docs/Games/Techniques/Audio_for_Web_Games",
-                  messages: [
-                    {
-                      message: "Broken external link",
-                      data: [
-                        "https://pupunzi.open-lab.com/2013/03/13/making-html5-audio-actually-work-on-mobile/",
-                        "The operation timed out."
-                      ]
-                    }
-                  ]
                 },
                 control_mechanisms: {
                   children: {
@@ -919,19 +906,6 @@ var warnings_processed_default = {
                 }
               ]
             },
-            itu: {
-              children: {},
-              slug: "/en-US/docs/Glossary/ITU",
-              messages: [
-                {
-                  message: "Broken external link",
-                  data: [
-                    "https://www.itu.int/en/history/Pages/ITUsHistory.aspx",
-                    401
-                  ]
-                }
-              ]
-            },
             khronos: {
               children: {},
               slug: "/en-US/docs/Glossary/Khronos",
@@ -1481,13 +1455,6 @@ span {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/CSS_layout/Legacy_Layout_Methods",
                       messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://get.foundation/",
-                            "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
-                          ]
-                        },
                         {
                           message: "HTTP link",
                           data: [
@@ -2239,6 +2206,13 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://guides.emberjs.com/release/services/",
+                            "The operation timed out."
+                          ]
                         }
                       ]
                     },
@@ -2249,20 +2223,6 @@ ul li {
                         {
                           message: "Unreachable via sidebar",
                           data: []
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://guides.emberjs.com/release/tutorial/part-1/",
-                            "The operation timed out."
-                          ]
                         },
                         {
                           message: "Broken external link",
@@ -2300,7 +2260,7 @@ ul li {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://guides.emberjs.com/release/testing/",
+                            "https://guides.emberjs.com/release/services/",
                             "The operation timed out."
                           ]
                         }
@@ -4281,6 +4241,13 @@ body {
                         {
                           message: "Unreachable via sidebar",
                           data: []
+                        },
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://vuejs.org/guide/essentials/reactivity-fundamentals.html",
+                            "unknown certificate verification error"
+                          ]
                         }
                       ]
                     },
@@ -4358,19 +4325,6 @@ body {
                 },
                 scripting: {
                   children: {
-                    debugging_javascript: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://eslint.org/play/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
                     what_is_javascript: {
                       children: {},
                       slug: "/en-US/docs/Learn_web_development/Core/Scripting/What_is_JavaScript",
@@ -5151,20 +5105,6 @@ h2 {
 ~~~
 `
                               ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://convertingcolors.com/hex-color-86DEFA.html",
-                                "The operation timed out."
-                              ]
-                            },
-                            {
-                              message: "Broken external link",
-                              data: [
-                                "https://convertingcolors.com/hex-color-86DEFA.html",
-                                "The operation timed out."
-                              ]
                             }
                           ]
                         }
@@ -5260,29 +5200,8 @@ h2 {
                         {
                           message: "Broken external link",
                           data: [
-                            "https://www.fontsquirrel.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.fontsquirrel.com/",
-                            "The operation timed out."
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
                             "https://www.exljbris.com/",
                             "unable to verify the first certificate"
-                          ]
-                        },
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://www.fontsquirrel.com/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -5620,36 +5539,6 @@ button:active {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    }
-                  }
-                },
-                "client-side_tools": {
-                  children: {
-                    introducing_complete_toolchain: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Introducing_complete_toolchain",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://preset-env.cssdb.org/features/",
-                            "The operation timed out."
-                          ]
-                        }
-                      ]
-                    },
-                    package_management: {
-                      children: {},
-                      slug: "/en-US/docs/Learn_web_development/Extensions/Client-side_tools/Package_management",
-                      messages: [
-                        {
-                          message: "Broken external link",
-                          data: [
-                            "https://classic.yarnpkg.com/en/docs/cli/",
-                            "The operation timed out."
                           ]
                         }
                       ]
@@ -11970,6 +11859,19 @@ padding-left: 20px;
                           data: []
                         }
                       ]
+                    },
+                    how_much_does_it_cost: {
+                      children: {},
+                      slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup/How_much_does_it_cost",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://dotclear.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     }
                   },
                   slug: "/en-US/docs/Learn_web_development/Howto/Tools_and_setup",
@@ -12079,7 +11981,7 @@ padding-left: 20px;
                       message: "Broken external link",
                       data: [
                         "https://phauer.com/2018/code-review-guidelines/",
-                        "The operation timed out."
+                        "The socket connection was closed unexpectedly. For more information, pass `verbose: true` in the second argument to fetch()"
                       ]
                     }
                   ]
@@ -12807,6 +12709,201 @@ color: rgb(31 41 59 / 26%);
                         },
                         webrequest: {
                           children: {
+                            blockingresponse: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/BlockingResponse",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            handlerbehaviorchanged: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/handlerBehaviorChanged",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            httpheaders: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/HttpHeaders",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            max_handler_behavior_changed_calls_per_10_minutes: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/MAX_HANDLER_BEHAVIOR_CHANGED_CALLS_PER_10_MINUTES",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            onauthrequired: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onAuthRequired",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            onbeforeredirect: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeRedirect",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            onbeforerequest: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeRequest",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            onbeforesendheaders: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onBeforeSendHeaders",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            oncompleted: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onCompleted",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            onerroroccurred: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onErrorOccurred",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            onheadersreceived: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onHeadersReceived",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            onresponsestarted: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onResponseStarted",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            onsendheaders: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/onSendHeaders",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            requestfilter: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/RequestFilter",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
+                            resourcetype: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/ResourceType",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
+                            },
                             streamfilter: {
                               children: {
                                 close: {
@@ -12920,8 +13017,31 @@ color: rgb(31 41 59 / 26%);
                                   ]
                                 }
                               }
+                            },
+                            uploaddata: {
+                              children: {},
+                              slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest/UploadData",
+                              messages: [
+                                {
+                                  message: "Broken external link",
+                                  data: [
+                                    "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
+                                    "The operation timed out."
+                                  ]
+                                }
+                              ]
                             }
-                          }
+                          },
+                          slug: "/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://developer.chrome.com/docs/extensions/reference/api/webRequest",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
                         }
                       }
                     },
@@ -13057,24 +13177,6 @@ webextensions.manifest.options_ui`,
             },
             firefox: {
               children: {
-                experimental_features: {
-                  children: {},
-                  slug: "/en-US/docs/Mozilla/Firefox/Experimental_features",
-                  messages: [
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Storage-Access"
-                      ]
-                    },
-                    {
-                      message: "Broken link",
-                      data: [
-                        "/en-US/docs/Web/HTTP/Reference/Headers/Activate-Storage-Access"
-                      ]
-                    }
-                  ]
-                },
                 releases: {
                   children: {
                     "2": {
@@ -13375,20 +13477,28 @@ webextensions.manifest.options_ui`,
                         }
                       ]
                     },
-                    "145": {
+                    "136": {
                       children: {},
-                      slug: "/en-US/docs/Mozilla/Firefox/Releases/145",
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/136",
                       messages: [
                         {
-                          message: "Broken link",
+                          message: "Broken external link",
                           data: [
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Sec-Fetch-Storage-Access"
+                            "https://whattrainisitnow.com/release/?version=136",
+                            "The operation timed out."
                           ]
-                        },
+                        }
+                      ]
+                    },
+                    "144": {
+                      children: {},
+                      slug: "/en-US/docs/Mozilla/Firefox/Releases/144",
+                      messages: [
                         {
-                          message: "Broken link",
+                          message: "Broken external link",
                           data: [
-                            "/en-US/docs/Web/HTTP/Reference/Headers/Activate-Storage-Access"
+                            "https://whattrainisitnow.com/release/?version=144",
+                            "The operation timed out."
                           ]
                         }
                       ]
@@ -14772,204 +14882,6 @@ api.Document.fullscreen`,
                 },
                 htmlimageelement: {
                   children: {
-                    alt: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLImageElement/alt",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "prefer-native-element",
-                            "Prefer to use the native <button> element",
-                            'role="button"',
-                            "2:24",
-                            `/en-US/docs/Web/API/HTMLImageElement/alt
-[prefer-native-element] Prefer to use the native <button> element
-~~~
-<li class="toolbar" role="toolbar">
-  <a href="songs.html" role="button">
-    <img src="songicon.svg" alt="Songs" />
-  </a>
-  <a href="albums.html" role="button">
-    <img src="albumicon.svg" alt="Albums"
-  /></a>
-  <a href="artists.html" role="button">
-    <img src="artisticon.svg" alt="Artists" />
-  </a>
-  <a href="playlists.html" role="button">
-    <img src="playlisticon.svg" alt="Playlists" />
-  </a>
-</li>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "prefer-native-element",
-                            "Prefer to use the native <button> element",
-                            'role="button"',
-                            "5:25",
-                            `/en-US/docs/Web/API/HTMLImageElement/alt
-[prefer-native-element] Prefer to use the native <button> element
-~~~
-<li class="toolbar" role="toolbar">
-  <a href="songs.html" role="button">
-    <img src="songicon.svg" alt="Songs" />
-  </a>
-  <a href="albums.html" role="button">
-    <img src="albumicon.svg" alt="Albums"
-  /></a>
-  <a href="artists.html" role="button">
-    <img src="artisticon.svg" alt="Artists" />
-  </a>
-  <a href="playlists.html" role="button">
-    <img src="playlisticon.svg" alt="Playlists" />
-  </a>
-</li>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "prefer-native-element",
-                            "Prefer to use the native <button> element",
-                            'role="button"',
-                            "8:26",
-                            `/en-US/docs/Web/API/HTMLImageElement/alt
-[prefer-native-element] Prefer to use the native <button> element
-~~~
-<li class="toolbar" role="toolbar">
-  <a href="songs.html" role="button">
-    <img src="songicon.svg" alt="Songs" />
-  </a>
-  <a href="albums.html" role="button">
-    <img src="albumicon.svg" alt="Albums"
-  /></a>
-  <a href="artists.html" role="button">
-    <img src="artisticon.svg" alt="Artists" />
-  </a>
-  <a href="playlists.html" role="button">
-    <img src="playlisticon.svg" alt="Playlists" />
-  </a>
-</li>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "prefer-native-element",
-                            "Prefer to use the native <button> element",
-                            'role="button"',
-                            "11:28",
-                            `/en-US/docs/Web/API/HTMLImageElement/alt
-[prefer-native-element] Prefer to use the native <button> element
-~~~
-<li class="toolbar" role="toolbar">
-  <a href="songs.html" role="button">
-    <img src="songicon.svg" alt="Songs" />
-  </a>
-  <a href="albums.html" role="button">
-    <img src="albumicon.svg" alt="Albums"
-  /></a>
-  <a href="artists.html" role="button">
-    <img src="artisticon.svg" alt="Artists" />
-  </a>
-  <a href="playlists.html" role="button">
-    <img src="playlisticon.svg" alt="Playlists" />
-  </a>
-</li>
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "margin-block" (declaration-block-no-redundant-longhand-properties)',
-                            "  margin-block-end: 1em;",
-                            "8:3 - 8:19",
-                            `/en-US/docs/Web/API/HTMLImageElement/alt
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "margin-block" (declaration-block-no-redundant-longhand-properties)
-~~~
-body {
-  margin: 0;
-  padding: 0;
-}
-
-p {
-  margin-block-start: 0;
-  margin-block-end: 1em;
-  margin-top: 0;
-  margin-bottom: 1em;
-}
-
-.container {
-  width: 100vh;
-  height: 95vh;
-  font:
-    16px "Helvetica",
-    "Arial",
-    sans-serif;
-}
-
-.left-margin {
-  background-color: rgb(241 240 237);
-  width: 9em;
-  height: 100%;
-  float: left;
-  margin-right: 5px;
-  padding-right: 1em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.left-margin img {
-  width: 6em;
-}
-
-.contents {
-  background-color: rgb(241 240 235);
-  height: 100%;
-  margin-left: 2em;
-  padding-top: 1em;
-  padding-left: 2em;
-  padding-right: 1em;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    border: {
-                      children: {},
-                      slug: "/en-US/docs/Web/API/HTMLImageElement/border",
-                      messages: [
-                        {
-                          message: "HTML code issue",
-                          data: [
-                            "no-deprecated-attr",
-                            'Attribute "border" is deprecated on <img> element',
-                            "border",
-                            "1:22",
-                            `/en-US/docs/Web/API/HTMLImageElement/border
-[no-deprecated-attr] Attribute "border" is deprecated on <img> element
-~~~
-<img src="image.png" border="2" />
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
                     crossorigin: {
                       children: {},
                       slug: "/en-US/docs/Web/API/HTMLImageElement/crossOrigin",
@@ -16624,6 +16536,18 @@ html {
                     }
                   ]
                 },
+                storage_access_api: {
+                  children: {},
+                  slug: "/en-US/docs/Web/API/Storage_Access_API",
+                  messages: [
+                    {
+                      message: "Self link",
+                      data: [
+                        "/en-US/docs/Web/API/Storage_Access_API#storage_access_headers"
+                      ]
+                    }
+                  ]
+                },
                 svgaelement: {
                   children: {
                     hash: {
@@ -17263,6 +17187,27 @@ api.Window.sessionStorage`,
                     }
                   ]
                 },
+                webgl_api: {
+                  children: {
+                    tutorial: {
+                      children: {
+                        getting_started_with_webgl: {
+                          children: {},
+                          slug: "/en-US/docs/Web/API/WebGL_API/Tutorial/Getting_started_with_WebGL",
+                          messages: [
+                            {
+                              message: "Broken external link",
+                              data: [
+                                "https://duriansoftware.com/joe/an-intro-to-modern-opengl.-table-of-contents",
+                                "The operation timed out."
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                },
                 webrtc_api: {
                   children: {
                     build_a_phone_with_peerjs: {
@@ -17677,20 +17622,34 @@ api.Window.sessionStorage`,
             },
             css: {
               children: {
-                css_backgrounds_and_borders: {
+                guides: {
                   children: {
-                    using_multiple_backgrounds: {
+                    animations: {
                       children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Using_multiple_backgrounds",
+                      slug: "/en-US/docs/Web/CSS/Guides/Animations",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "No link to child page",
                           data: [
-                            "alpha-value-notation",
-                            'Expected "100%" to be "1" (alpha-value-notation)',
-                            "    linear-gradient(to right, rgb(30 75 115 / 100%), transparent);",
-                            "6:47 - 6:51",
-                            `/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Using_multiple_backgrounds
+                            "/en-US/docs/Web/CSS/Guides/Animations/Animatable_properties"
+                          ]
+                        }
+                      ]
+                    },
+                    backgrounds_and_borders: {
+                      children: {
+                        using_multiple_backgrounds: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Using_multiple_backgrounds",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "100%" to be "1" (alpha-value-notation)',
+                                "    linear-gradient(to right, rgb(30 75 115 / 100%), transparent);",
+                                "6:47 - 6:51",
+                                `/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Using_multiple_backgrounds
 [alpha-value-notation] Expected "100%" to be "1" (alpha-value-notation)
 ~~~
 .multi-bg-example {
@@ -17707,35 +17666,35 @@ api.Window.sessionStorage`,
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders",
+                      messages: [
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Guides/Backgrounds_and_borders/Box-shadow_generator"
                           ]
                         }
                       ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/CSS/CSS_backgrounds_and_borders",
-                  messages: [
-                    {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/Web/CSS/CSS_backgrounds_and_borders/Box-shadow_generator"
-                      ]
-                    }
-                  ]
-                },
-                css_box_alignment: {
-                  children: {
-                    box_alignment_in_flexbox: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_box_alignment/Box_alignment_in_flexbox",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "gap" (declaration-block-no-redundant-longhand-properties)',
-                            "  column-gap: 2em;",
-                            "16:3 - 16:13",
-                            `/en-US/docs/Web/CSS/CSS_box_alignment/Box_alignment_in_flexbox
+                    },
+                    box_alignment: {
+                      children: {
+                        in_flexbox: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Box_alignment/In_flexbox",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "gap" (declaration-block-no-redundant-longhand-properties)',
+                                "  column-gap: 2em;",
+                                "16:3 - 16:13",
+                                `/en-US/docs/Web/CSS/Guides/Box_alignment/In_flexbox
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "gap" (declaration-block-no-redundant-longhand-properties)
 ~~~
 body {
@@ -17762,40 +17721,26 @@ body {
 }
 ~~~
 `
+                              ]
+                            }
                           ]
                         }
-                      ]
-                    }
-                  }
-                },
-                css_box_sizing: {
-                  children: {
-                    "understanding_aspect-ratio": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_box_sizing/Understanding_aspect-ratio",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                css_colors: {
-                  children: {
-                    applying_color: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_colors/Applying_color",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "270deg" to be "270" (hue-degree-notation)',
-                            "  background-color: hwb(270deg 63% 13%);",
-                            "24:25 - 24:31",
-                            `/en-US/docs/Web/CSS/CSS_colors/Applying_color
+                      }
+                    },
+                    colors: {
+                      children: {
+                        applying_color: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Colors/Applying_color",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "270deg" to be "270" (hue-degree-notation)',
+                                "  background-color: hwb(270deg 63% 13%);",
+                                "24:25 - 24:31",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Applying_color
 [hue-degree-notation] Expected "270deg" to be "270" (hue-degree-notation)
 ~~~
 .wrapper {
@@ -17832,16 +17777,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "0deg" to be "0" (hue-degree-notation)',
-                            "  color: hsl(0deg 95% 95%);",
-                            "26:14 - 26:18",
-                            `/en-US/docs/Web/CSS/CSS_colors/Applying_color
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "0deg" to be "0" (hue-degree-notation)',
+                                "  color: hsl(0deg 95% 95%);",
+                                "26:14 - 26:18",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Applying_color
 [hue-degree-notation] Expected "0deg" to be "0" (hue-degree-notation)
 ~~~
 .wrapper {
@@ -17878,32 +17823,32 @@ div {
 }
 ~~~
 `
+                              ]
+                            }
                           ]
-                        }
-                      ]
-                    },
-                    color_mixer: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_colors/Color_mixer",
-                      messages: [
-                        {
-                          message: "Unreachable via page",
-                          data: []
-                        }
-                      ]
-                    },
-                    color_values: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_colors/Color_values",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word hwb (CssSyntaxError)",
-                            "hwb(90 10% 10%)",
-                            "2:1 - 2:4",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                        },
+                        color_mixer: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Colors/Color_mixer",
+                          messages: [
+                            {
+                              message: "Unreachable via page",
+                              data: []
+                            }
+                          ]
+                        },
+                        color_values: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Colors/Color_values",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "CssSyntaxError",
+                                "Unknown word hwb (CssSyntaxError)",
+                                "hwb(90 10% 10%)",
+                                "2:1 - 2:4",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [CssSyntaxError] Unknown word hwb (CssSyntaxError)
 ~~~
 /* These examples all specify varying shades of a lime green. */
@@ -17918,16 +17863,16 @@ hwb(90 10% 10% / 0.5)
 hwb(90 10% 10% / 50%)
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "0deg" to be "0" (hue-degree-notation)',
-                            "    hsl(0deg 100% 50%),",
-                            "14:9 - 14:13",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "0deg" to be "0" (hue-degree-notation)',
+                                "    hsl(0deg 100% 50%),",
+                                "14:9 - 14:13",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [hue-degree-notation] Expected "0deg" to be "0" (hue-degree-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -17972,16 +17917,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "90deg" to be "90" (hue-degree-notation)',
-                            "    hsl(90deg 100% 50%),",
-                            "15:9 - 15:14",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "90deg" to be "90" (hue-degree-notation)',
+                                "    hsl(90deg 100% 50%),",
+                                "15:9 - 15:14",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [hue-degree-notation] Expected "90deg" to be "90" (hue-degree-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -18026,16 +17971,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "180deg" to be "180" (hue-degree-notation)',
-                            "    hsl(180deg 100% 50%),",
-                            "16:9 - 16:15",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "180deg" to be "180" (hue-degree-notation)',
+                                "    hsl(180deg 100% 50%),",
+                                "16:9 - 16:15",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [hue-degree-notation] Expected "180deg" to be "180" (hue-degree-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -18080,16 +18025,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "270deg" to be "270" (hue-degree-notation)',
-                            "    hsl(270deg 100% 50%),",
-                            "17:9 - 17:15",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "270deg" to be "270" (hue-degree-notation)',
+                                "    hsl(270deg 100% 50%),",
+                                "17:9 - 17:15",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [hue-degree-notation] Expected "270deg" to be "270" (hue-degree-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -18134,16 +18079,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "360deg" to be "360" (hue-degree-notation)',
-                            "    hsl(360deg 100% 50%)",
-                            "18:9 - 18:15",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "360deg" to be "360" (hue-degree-notation)',
+                                "    hsl(360deg 100% 50%)",
+                                "18:9 - 18:15",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [hue-degree-notation] Expected "360deg" to be "360" (hue-degree-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -18188,16 +18133,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "0deg" to be "0" (hue-degree-notation)',
-                            "    lch(50% 100% 0deg),",
-                            "24:18 - 24:22",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "0deg" to be "0" (hue-degree-notation)',
+                                "    lch(50% 100% 0deg),",
+                                "24:18 - 24:22",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [hue-degree-notation] Expected "0deg" to be "0" (hue-degree-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -18242,16 +18187,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "90deg" to be "90" (hue-degree-notation)',
-                            "    lch(50% 100% 90deg),",
-                            "25:18 - 25:23",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "90deg" to be "90" (hue-degree-notation)',
+                                "    lch(50% 100% 90deg),",
+                                "25:18 - 25:23",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [hue-degree-notation] Expected "90deg" to be "90" (hue-degree-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -18296,16 +18241,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "180deg" to be "180" (hue-degree-notation)',
-                            "    lch(50% 100% 180deg),",
-                            "26:18 - 26:24",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "180deg" to be "180" (hue-degree-notation)',
+                                "    lch(50% 100% 180deg),",
+                                "26:18 - 26:24",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [hue-degree-notation] Expected "180deg" to be "180" (hue-degree-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -18350,16 +18295,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "270deg" to be "270" (hue-degree-notation)',
-                            "    lch(50% 100% 270deg),",
-                            "27:18 - 27:24",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "270deg" to be "270" (hue-degree-notation)',
+                                "    lch(50% 100% 270deg),",
+                                "27:18 - 27:24",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [hue-degree-notation] Expected "270deg" to be "270" (hue-degree-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -18404,16 +18349,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "360deg" to be "360" (hue-degree-notation)',
-                            "    lch(50% 100% 360deg)",
-                            "28:18 - 28:24",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "360deg" to be "360" (hue-degree-notation)',
+                                "    lch(50% 100% 360deg)",
+                                "28:18 - 28:24",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [hue-degree-notation] Expected "360deg" to be "360" (hue-degree-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -18458,16 +18403,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "0deg" to be "0" (hue-degree-notation)',
-                            "    oklch(50% 100% 0deg),",
-                            "34:20 - 34:24",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "0deg" to be "0" (hue-degree-notation)',
+                                "    oklch(50% 100% 0deg),",
+                                "34:20 - 34:24",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [hue-degree-notation] Expected "0deg" to be "0" (hue-degree-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -18512,16 +18457,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "90deg" to be "90" (hue-degree-notation)',
-                            "    oklch(50% 100% 90deg),",
-                            "35:20 - 35:25",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "90deg" to be "90" (hue-degree-notation)',
+                                "    oklch(50% 100% 90deg),",
+                                "35:20 - 35:25",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [hue-degree-notation] Expected "90deg" to be "90" (hue-degree-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -18566,16 +18511,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "180deg" to be "180" (hue-degree-notation)',
-                            "    oklch(50% 100% 180deg),",
-                            "36:20 - 36:26",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "180deg" to be "180" (hue-degree-notation)',
+                                "    oklch(50% 100% 180deg),",
+                                "36:20 - 36:26",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [hue-degree-notation] Expected "180deg" to be "180" (hue-degree-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -18620,16 +18565,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "270deg" to be "270" (hue-degree-notation)',
-                            "    oklch(50% 100% 270deg),",
-                            "37:20 - 37:26",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "270deg" to be "270" (hue-degree-notation)',
+                                "    oklch(50% 100% 270deg),",
+                                "37:20 - 37:26",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [hue-degree-notation] Expected "270deg" to be "270" (hue-degree-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -18674,16 +18619,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "360deg" to be "360" (hue-degree-notation)',
-                            "    oklch(50% 100% 360deg)",
-                            "38:20 - 38:26",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "360deg" to be "360" (hue-degree-notation)',
+                                "    oklch(50% 100% 360deg)",
+                                "38:20 - 38:26",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [hue-degree-notation] Expected "360deg" to be "360" (hue-degree-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -18728,16 +18673,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "lightness-notation",
-                            'Expected "50%" to be "50" (lightness-notation)',
-                            "    lch(50% 100% 0deg),",
-                            "24:9 - 24:12",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "lightness-notation",
+                                'Expected "50%" to be "50" (lightness-notation)',
+                                "    lch(50% 100% 0deg),",
+                                "24:9 - 24:12",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [lightness-notation] Expected "50%" to be "50" (lightness-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -18782,16 +18727,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "lightness-notation",
-                            'Expected "50%" to be "50" (lightness-notation)',
-                            "    lch(50% 100% 90deg),",
-                            "25:9 - 25:12",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "lightness-notation",
+                                'Expected "50%" to be "50" (lightness-notation)',
+                                "    lch(50% 100% 90deg),",
+                                "25:9 - 25:12",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [lightness-notation] Expected "50%" to be "50" (lightness-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -18836,16 +18781,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "lightness-notation",
-                            'Expected "50%" to be "50" (lightness-notation)',
-                            "    lch(50% 100% 180deg),",
-                            "26:9 - 26:12",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "lightness-notation",
+                                'Expected "50%" to be "50" (lightness-notation)',
+                                "    lch(50% 100% 180deg),",
+                                "26:9 - 26:12",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [lightness-notation] Expected "50%" to be "50" (lightness-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -18890,16 +18835,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "lightness-notation",
-                            'Expected "50%" to be "50" (lightness-notation)',
-                            "    lch(50% 100% 270deg),",
-                            "27:9 - 27:12",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "lightness-notation",
+                                'Expected "50%" to be "50" (lightness-notation)',
+                                "    lch(50% 100% 270deg),",
+                                "27:9 - 27:12",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [lightness-notation] Expected "50%" to be "50" (lightness-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -18944,16 +18889,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "lightness-notation",
-                            'Expected "50%" to be "50" (lightness-notation)',
-                            "    lch(50% 100% 360deg)",
-                            "28:9 - 28:12",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "lightness-notation",
+                                'Expected "50%" to be "50" (lightness-notation)',
+                                "    lch(50% 100% 360deg)",
+                                "28:9 - 28:12",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [lightness-notation] Expected "50%" to be "50" (lightness-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -18998,16 +18943,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "lightness-notation",
-                            'Expected "50%" to be "0.5" (lightness-notation)',
-                            "    oklch(50% 100% 0deg),",
-                            "34:11 - 34:14",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "lightness-notation",
+                                'Expected "50%" to be "0.5" (lightness-notation)',
+                                "    oklch(50% 100% 0deg),",
+                                "34:11 - 34:14",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [lightness-notation] Expected "50%" to be "0.5" (lightness-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -19052,16 +18997,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "lightness-notation",
-                            'Expected "50%" to be "0.5" (lightness-notation)',
-                            "    oklch(50% 100% 90deg),",
-                            "35:11 - 35:14",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "lightness-notation",
+                                'Expected "50%" to be "0.5" (lightness-notation)',
+                                "    oklch(50% 100% 90deg),",
+                                "35:11 - 35:14",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [lightness-notation] Expected "50%" to be "0.5" (lightness-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -19106,16 +19051,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "lightness-notation",
-                            'Expected "50%" to be "0.5" (lightness-notation)',
-                            "    oklch(50% 100% 180deg),",
-                            "36:11 - 36:14",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "lightness-notation",
+                                'Expected "50%" to be "0.5" (lightness-notation)',
+                                "    oklch(50% 100% 180deg),",
+                                "36:11 - 36:14",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [lightness-notation] Expected "50%" to be "0.5" (lightness-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -19160,16 +19105,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "lightness-notation",
-                            'Expected "50%" to be "0.5" (lightness-notation)',
-                            "    oklch(50% 100% 270deg),",
-                            "37:11 - 37:14",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "lightness-notation",
+                                'Expected "50%" to be "0.5" (lightness-notation)',
+                                "    oklch(50% 100% 270deg),",
+                                "37:11 - 37:14",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [lightness-notation] Expected "50%" to be "0.5" (lightness-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -19214,16 +19159,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "lightness-notation",
-                            'Expected "50%" to be "0.5" (lightness-notation)',
-                            "    oklch(50% 100% 360deg)",
-                            "38:11 - 38:14",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "lightness-notation",
+                                'Expected "50%" to be "0.5" (lightness-notation)',
+                                "    oklch(50% 100% 360deg)",
+                                "38:11 - 38:14",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [lightness-notation] Expected "50%" to be "0.5" (lightness-notation)
 ~~~
 div:has(~ p input:checked) {
@@ -19268,16 +19213,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "hue-degree-notation",
-                            'Expected "0deg" to be "0" (hue-degree-notation)',
-                            "  color: lch(1% 40 0deg);",
-                            "12:20 - 12:24",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "hue-degree-notation",
+                                'Expected "0deg" to be "0" (hue-degree-notation)',
+                                "  color: lch(1% 40 0deg);",
+                                "12:20 - 12:24",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [hue-degree-notation] Expected "0deg" to be "0" (hue-degree-notation)
 ~~~
 /* Varying shades of pink */
@@ -19300,16 +19245,16 @@ div {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "lightness-notation",
-                            'Expected "1%" to be "1" (lightness-notation)',
-                            "  color: lch(1% 40 0deg);",
-                            "12:14 - 12:16",
-                            `/en-US/docs/Web/CSS/CSS_colors/Color_values
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "lightness-notation",
+                                'Expected "1%" to be "1" (lightness-notation)',
+                                "  color: lch(1% 40 0deg);",
+                                "12:14 - 12:16",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Color_values
 [lightness-notation] Expected "1%" to be "1" (lightness-notation)
 ~~~
 /* Varying shades of pink */
@@ -19332,22 +19277,22 @@ div {
 }
 ~~~
 `
+                              ]
+                            }
                           ]
-                        }
-                      ]
-                    },
-                    relative_colors: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_colors/Relative_colors",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word color-function (CssSyntaxError)",
-                            "color-function(from origin-color channel1 channel2 channel3)",
-                            "1:1 - 1:15",
-                            `/en-US/docs/Web/CSS/CSS_colors/Relative_colors
+                        },
+                        using_relative_colors: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "CssSyntaxError",
+                                "Unknown word color-function (CssSyntaxError)",
+                                "color-function(from origin-color channel1 channel2 channel3)",
+                                "1:1 - 1:15",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors
 [CssSyntaxError] Unknown word color-function (CssSyntaxError)
 ~~~
 color-function(from origin-color channel1 channel2 channel3)
@@ -19358,16 +19303,16 @@ color(from origin-color colorspace channel1 channel2 channel3)
 color(from origin-color colorspace channel1 channel2 channel3 / alpha)
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word red (CssSyntaxError)",
-                            "red",
-                            "1:1 - 1:4",
-                            `/en-US/docs/Web/CSS/CSS_colors/Relative_colors
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "CssSyntaxError",
+                                "Unknown word red (CssSyntaxError)",
+                                "red",
+                                "1:1 - 1:4",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors
 [CssSyntaxError] Unknown word red (CssSyntaxError)
 ~~~
 red
@@ -19391,79 +19336,79 @@ rgb(from red 255 g g)
 rgb(from red 255 b b)
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word rgb (CssSyntaxError)",
-                            "rgb(from red r g b)",
-                            "1:1 - 1:4",
-                            `/en-US/docs/Web/CSS/CSS_colors/Relative_colors
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "CssSyntaxError",
+                                "Unknown word rgb (CssSyntaxError)",
+                                "rgb(from red r g b)",
+                                "1:1 - 1:4",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors
 [CssSyntaxError] Unknown word rgb (CssSyntaxError)
 ~~~
 rgb(from red r g b)
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word rgb (CssSyntaxError)",
-                            "rgb(from red 0 0 255)",
-                            "1:1 - 1:4",
-                            `/en-US/docs/Web/CSS/CSS_colors/Relative_colors
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "CssSyntaxError",
+                                "Unknown word rgb (CssSyntaxError)",
+                                "rgb(from red 0 0 255)",
+                                "1:1 - 1:4",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors
 [CssSyntaxError] Unknown word rgb (CssSyntaxError)
 ~~~
 rgb(from red 0 0 255)
 /* output color is equivalent to rgb(0 0 255), full blue */
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word rgb (CssSyntaxError)",
-                            "rgb(from rgb(200 0 0) r r r)",
-                            "1:1 - 1:4",
-                            `/en-US/docs/Web/CSS/CSS_colors/Relative_colors
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "CssSyntaxError",
+                                "Unknown word rgb (CssSyntaxError)",
+                                "rgb(from rgb(200 0 0) r r r)",
+                                "1:1 - 1:4",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors
 [CssSyntaxError] Unknown word rgb (CssSyntaxError)
 ~~~
 rgb(from rgb(200 0 0) r r r)
 /* output color is equivalent to rgb(200 200 200), light gray */
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word rgb (CssSyntaxError)",
-                            "rgb(from rgb(200 170 0) b g r)",
-                            "1:1 - 1:4",
-                            `/en-US/docs/Web/CSS/CSS_colors/Relative_colors
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "CssSyntaxError",
+                                "Unknown word rgb (CssSyntaxError)",
+                                "rgb(from rgb(200 170 0) b g r)",
+                                "1:1 - 1:4",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors
 [CssSyntaxError] Unknown word rgb (CssSyntaxError)
 ~~~
 rgb(from rgb(200 170 0) b g r)
 /* output color is equivalent to rgb(0 170 200) */
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word color (CssSyntaxError)",
-                            "color(from red a98-rgb r g b)",
-                            "2:1 - 2:6",
-                            `/en-US/docs/Web/CSS/CSS_colors/Relative_colors
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "CssSyntaxError",
+                                "Unknown word color (CssSyntaxError)",
+                                "color(from red a98-rgb r g b)",
+                                "2:1 - 2:6",
+                                `/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors
 [CssSyntaxError] Unknown word color (CssSyntaxError)
 ~~~
 /* color() with and without alpha channel */
@@ -19502,39 +19447,55 @@ rgb(from red r g b)
 rgb(from red r g b / alpha)
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Colors",
+                      messages: [
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/CSS/Guides/Colors/Color_mixer"
                           ]
                         }
                       ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/CSS/CSS_colors",
-                  messages: [
-                    {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/Web/CSS/CSS_colors/Color_mixer"
-                      ]
-                    }
-                  ]
-                },
-                css_custom_functions_and_mixins: {
-                  children: {
-                    using_custom_functions: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "--half-opacity()" for property "opacity" (declaration-property-value-no-unknown)',
-                            "  opacity: --half-opacity();",
-                            "2:12 - 2:28",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+                    },
+                    cssom_view: {
+                      children: {
+                        viewport_concepts: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/CSSOM_view/Viewport_concepts",
+                          messages: [
+                            {
+                              message: "Broken link",
+                              data: [
+                                "/en-US/docs/Web/API/Viewport_API"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    custom_functions_and_mixins: {
+                      children: {
+                        using_custom_functions: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Custom_functions_and_mixins/Using_custom_functions",
+                          messages: [
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "--half-opacity()" for property "opacity" (declaration-property-value-no-unknown)',
+                                "  opacity: --half-opacity();",
+                                "2:12 - 2:28",
+                                `/en-US/docs/Web/CSS/Guides/Custom_functions_and_mixins/Using_custom_functions
 [declaration-property-value-no-unknown] Unexpected unknown value "--half-opacity()" for property "opacity" (declaration-property-value-no-unknown)
 ~~~
 h2 {
@@ -19542,16 +19503,16 @@ h2 {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "--supports()" for property "display" (declaration-property-value-no-unknown)',
-                            "  display: --supports();",
-                            "3:12 - 3:24",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "--supports()" for property "display" (declaration-property-value-no-unknown)',
+                                "  display: --supports();",
+                                "3:12 - 3:24",
+                                `/en-US/docs/Web/CSS/Guides/Custom_functions_and_mixins/Using_custom_functions
 [declaration-property-value-no-unknown] Unexpected unknown value "--supports()" for property "display" (declaration-property-value-no-unknown)
 ~~~
 .support {
@@ -19560,16 +19521,16 @@ h2 {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "repeat(--narrow-wide(1, 3), 1fr)" for property "grid-template-columns" (declaration-property-value-no-unknown)',
-                            "  grid-template-columns: repeat(--narrow-wide(1, 3), 1fr);",
-                            "3:26 - 3:58",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "repeat(--narrow-wide(1, 3), 1fr)" for property "grid-template-columns" (declaration-property-value-no-unknown)',
+                                "  grid-template-columns: repeat(--narrow-wide(1, 3), 1fr);",
+                                "3:26 - 3:58",
+                                `/en-US/docs/Web/CSS/Guides/Custom_functions_and_mixins/Using_custom_functions
 [declaration-property-value-no-unknown] Unexpected unknown value "repeat(--narrow-wide(1, 3), 1fr)" for property "grid-template-columns" (declaration-property-value-no-unknown)
 ~~~
 body {
@@ -19589,16 +19550,16 @@ p {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "--narrow-wide(0, 20px)" for property "gap" (declaration-property-value-no-unknown)',
-                            "  gap: --narrow-wide(0, 20px);",
-                            "4:8 - 4:30",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "--narrow-wide(0, 20px)" for property "gap" (declaration-property-value-no-unknown)',
+                                "  gap: --narrow-wide(0, 20px);",
+                                "4:8 - 4:30",
+                                `/en-US/docs/Web/CSS/Guides/Custom_functions_and_mixins/Using_custom_functions
 [declaration-property-value-no-unknown] Unexpected unknown value "--narrow-wide(0, 20px)" for property "gap" (declaration-property-value-no-unknown)
 ~~~
 body {
@@ -19618,16 +19579,16 @@ p {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "--narrow-wide(2.5rem, 2rem)" for property "font-size" (declaration-property-value-no-unknown)',
-                            "  font-size: --narrow-wide(2.5rem, 2rem);",
-                            "9:14 - 9:41",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "--narrow-wide(2.5rem, 2rem)" for property "font-size" (declaration-property-value-no-unknown)',
+                                "  font-size: --narrow-wide(2.5rem, 2rem);",
+                                "9:14 - 9:41",
+                                `/en-US/docs/Web/CSS/Guides/Custom_functions_and_mixins/Using_custom_functions
 [declaration-property-value-no-unknown] Unexpected unknown value "--narrow-wide(2.5rem, 2rem)" for property "font-size" (declaration-property-value-no-unknown)
 ~~~
 body {
@@ -19647,16 +19608,16 @@ p {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "--narrow-wide(1.4rem, 1rem)" for property "font-size" (declaration-property-value-no-unknown)',
-                            "  font-size: --narrow-wide(1.4rem, 1rem);",
-                            "13:14 - 13:41",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "--narrow-wide(1.4rem, 1rem)" for property "font-size" (declaration-property-value-no-unknown)',
+                                "  font-size: --narrow-wide(1.4rem, 1rem);",
+                                "13:14 - 13:41",
+                                `/en-US/docs/Web/CSS/Guides/Custom_functions_and_mixins/Using_custom_functions
 [declaration-property-value-no-unknown] Unexpected unknown value "--narrow-wide(1.4rem, 1rem)" for property "font-size" (declaration-property-value-no-unknown)
 ~~~
 body {
@@ -19676,16 +19637,16 @@ p {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "--shippo-pattern(100px, #ddeeff)" for property "background" (declaration-property-value-no-unknown)',
-                            "  background: --shippo-pattern(100px, #ddeeff);",
-                            "2:15 - 2:47",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "--shippo-pattern(100px, #ddeeff)" for property "background" (declaration-property-value-no-unknown)',
+                                "  background: --shippo-pattern(100px, #ddeeff);",
+                                "2:15 - 2:47",
+                                `/en-US/docs/Web/CSS/Guides/Custom_functions_and_mixins/Using_custom_functions
 [declaration-property-value-no-unknown] Unexpected unknown value "--shippo-pattern(100px, #ddeeff)" for property "background" (declaration-property-value-no-unknown)
 ~~~
 #one {
@@ -19701,16 +19662,16 @@ p {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "--shippo-pattern(3.5rem, lime)" for property "background" (declaration-property-value-no-unknown)',
-                            "  background: --shippo-pattern(3.5rem, lime);",
-                            "6:15 - 6:45",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "--shippo-pattern(3.5rem, lime)" for property "background" (declaration-property-value-no-unknown)',
+                                "  background: --shippo-pattern(3.5rem, lime);",
+                                "6:15 - 6:45",
+                                `/en-US/docs/Web/CSS/Guides/Custom_functions_and_mixins/Using_custom_functions
 [declaration-property-value-no-unknown] Unexpected unknown value "--shippo-pattern(3.5rem, lime)" for property "background" (declaration-property-value-no-unknown)
 ~~~
 #one {
@@ -19726,16 +19687,16 @@ p {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "--shippo-pattern(10vw, purple)" for property "background" (declaration-property-value-no-unknown)',
-                            "  background: --shippo-pattern(10vw, purple);",
-                            "10:15 - 10:45",
-                            `/en-US/docs/Web/CSS/CSS_custom_functions_and_mixins/Using_custom_functions
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "--shippo-pattern(10vw, purple)" for property "background" (declaration-property-value-no-unknown)',
+                                "  background: --shippo-pattern(10vw, purple);",
+                                "10:15 - 10:45",
+                                `/en-US/docs/Web/CSS/Guides/Custom_functions_and_mixins/Using_custom_functions
 [declaration-property-value-no-unknown] Unexpected unknown value "--shippo-pattern(10vw, purple)" for property "background" (declaration-property-value-no-unknown)
 ~~~
 #one {
@@ -19751,26 +19712,26 @@ p {
 }
 ~~~
 `
+                              ]
+                            }
                           ]
                         }
-                      ]
-                    }
-                  }
-                },
-                css_display: {
-                  children: {
-                    block_formatting_context: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_display/Block_formatting_context",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "  background-color: rgb(255 255 255 / 50%);",
-                            "23:39 - 23:42",
-                            `/en-US/docs/Web/CSS/CSS_display/Block_formatting_context
+                      }
+                    },
+                    display: {
+                      children: {
+                        block_formatting_context: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "  background-color: rgb(255 255 255 / 50%);",
+                                "23:39 - 23:42",
+                                `/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context
 [alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
 ~~~
 section {
@@ -19801,16 +19762,16 @@ section {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "75%" to be "0.75" (alpha-value-notation)',
-                            "  background-color: rgb(255 255 255 / 75%);",
-                            "20:39 - 20:42",
-                            `/en-US/docs/Web/CSS/CSS_display/Block_formatting_context
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "75%" to be "0.75" (alpha-value-notation)',
+                                "  background-color: rgb(255 255 255 / 75%);",
+                                "20:39 - 20:42",
+                                `/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context
 [alpha-value-notation] Expected "75%" to be "0.75" (alpha-value-notation)
 ~~~
 section {
@@ -19838,56 +19799,56 @@ section {
 }
 ~~~
 `
+                              ]
+                            }
                           ]
                         }
-                      ]
-                    }
-                  }
-                },
-                css_environment_variables: {
-                  children: {
-                    using_environment_variables: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_environment_variables/Using_environment_variables",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word env (CssSyntaxError)",
-                            "env( <environment-variable-name> )",
-                            "1:1 - 1:4",
-                            `/en-US/docs/Web/CSS/CSS_environment_variables/Using_environment_variables
+                      }
+                    },
+                    environment_variables: {
+                      children: {
+                        using: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Environment_variables/Using",
+                          messages: [
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "CssSyntaxError",
+                                "Unknown word env (CssSyntaxError)",
+                                "env( <environment-variable-name> )",
+                                "1:1 - 1:4",
+                                `/en-US/docs/Web/CSS/Guides/Environment_variables/Using
 [CssSyntaxError] Unknown word env (CssSyntaxError)
 ~~~
 env( <environment-variable-name> )
 env( <environment-variable-name>, <fallback-value> )
 ~~~
 `
+                              ]
+                            }
                           ]
                         }
-                      ]
-                    }
-                  }
-                },
-                css_filter_effects: {
-                  children: {
-                    using_filter_effects: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_filter_effects/Using_filter_effects",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "10%" to be "0.1" (alpha-value-notation)',
-                            "  background-color: rgb(255 255 255 / 10%);",
-                            "7:39 - 7:42",
-                            `/en-US/docs/Web/CSS/CSS_filter_effects/Using_filter_effects
+                      }
+                    },
+                    filter_effects: {
+                      children: {
+                        using: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Filter_effects/Using",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "10%" to be "0.1" (alpha-value-notation)',
+                                "  background-color: rgb(255 255 255 / 10%);",
+                                "7:39 - 7:42",
+                                `/en-US/docs/Web/CSS/Guides/Filter_effects/Using
 [alpha-value-notation] Expected "10%" to be "0.1" (alpha-value-notation)
 ~~~
 .container {
@@ -19912,26 +19873,26 @@ p {
 }
 ~~~
 `
+                              ]
+                            }
                           ]
                         }
-                      ]
-                    }
-                  }
-                },
-                css_flexible_box_layout: {
-                  children: {
-                    aligning_items_in_a_flex_container: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_flexible_box_layout/Aligning_items_in_a_flex_container",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)',
-                            "  flex-direction: column;",
-                            "4:3 - 4:17",
-                            `/en-US/docs/Web/CSS/CSS_flexible_box_layout/Aligning_items_in_a_flex_container
+                      }
+                    },
+                    flexible_box_layout: {
+                      children: {
+                        aligning_items: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Aligning_items",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)',
+                                "  flex-direction: column;",
+                                "4:3 - 4:17",
+                                `/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Aligning_items
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .box {
@@ -19960,16 +19921,16 @@ p {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "gap" (declaration-block-no-redundant-longhand-properties)',
-                            "  column-gap: 2em;",
-                            "5:3 - 5:13",
-                            `/en-US/docs/Web/CSS/CSS_flexible_box_layout/Aligning_items_in_a_flex_container
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "gap" (declaration-block-no-redundant-longhand-properties)',
+                                "  column-gap: 2em;",
+                                "5:3 - 5:13",
+                                `/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Aligning_items
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "gap" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .box {
@@ -19989,82 +19950,22 @@ p {
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    mastering_wrapping_of_flex_items: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_flexible_box_layout/Mastering_wrapping_of_flex_items",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)',
-                            "  flex-wrap: wrap;",
-                            "6:3 - 6:12",
-                            `/en-US/docs/Web/CSS/CSS_flexible_box_layout/Mastering_wrapping_of_flex_items
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)
-~~~
-.box {
-  border: 2px dotted rgb(96 139 168);
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-.box > * {
-  border: 2px solid rgb(96 139 168);
-  border-radius: 5px;
-  background-color: rgb(96 139 168 / 0.2);
-  flex: 1 1 80px;
-}
-~~~
-`
+                              ]
+                            }
                           ]
                         },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)',
-                            "  flex-direction: row-reverse;",
-                            "5:3 - 5:17",
-                            `/en-US/docs/Web/CSS/CSS_flexible_box_layout/Mastering_wrapping_of_flex_items
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)
-~~~
-.box {
-  border: 2px dotted rgb(96 139 168);
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
-  width: 500px;
-}
-.box > * {
-  border: 2px solid rgb(96 139 168);
-  border-radius: 5px;
-  background-color: rgb(96 139 168 / 0.2);
-  flex: 1 1 160px;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    ordering_flex_items: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_flexible_box_layout/Ordering_flex_items",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)',
-                            "  flex-direction: row;",
-                            "17:3 - 17:17",
-                            `/en-US/docs/Web/CSS/CSS_flexible_box_layout/Ordering_flex_items
+                        ordering_items: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Ordering_items",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)',
+                                "  flex-direction: row;",
+                                "17:3 - 17:17",
+                                `/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Ordering_items
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -20092,977 +19993,1037 @@ p {
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        wrapping_items: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Wrapping_items",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)',
+                                "  flex-wrap: wrap;",
+                                "6:3 - 6:12",
+                                `/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Wrapping_items
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)
+~~~
+.box {
+  border: 2px dotted rgb(96 139 168);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.box > * {
+  border: 2px solid rgb(96 139 168);
+  border-radius: 5px;
+  background-color: rgb(96 139 168 / 0.2);
+  flex: 1 1 80px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)',
+                                "  flex-direction: row-reverse;",
+                                "5:3 - 5:17",
+                                `/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Wrapping_items
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "flex-flow" (declaration-block-no-redundant-longhand-properties)
+~~~
+.box {
+  border: 2px dotted rgb(96 139 168);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  width: 500px;
+}
+.box > * {
+  border: 2px solid rgb(96 139 168);
+  border-radius: 5px;
+  background-color: rgb(96 139 168 / 0.2);
+  flex: 1 1 160px;
+}
+~~~
+`
+                              ]
+                            }
                           ]
                         }
-                      ]
-                    }
-                  }
-                },
-                css_fonts: {
-                  children: {
-                    woff: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_fonts/WOFF",
-                      messages: [
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            `css.at-rules.font-face.WOFF
+                      }
+                    },
+                    fonts: {
+                      children: {
+                        woff: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Fonts/WOFF",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                `css.at-rules.font-face.WOFF
 css.at-rules.font-face.WOFF_2`,
-                            "Expected:",
-                            "[None]"
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
                           ]
                         }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/CSS/CSS_fonts",
-                  messages: [
-                    {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/Web/CSS/CSS_fonts/WOFF"
-                      ]
-                    }
-                  ]
-                },
-                css_grid_layout: {
-                  children: {
-                    basic_concepts_of_grid_layout: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout",
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Fonts",
                       messages: [
                         {
-                          message: "Stylelint backlog",
+                          message: "No link to child page",
                           data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-column-end: 4;",
-                            "3:3 - 3:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
-~~~
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  display: grid;
-  grid-template-columns: subgrid;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 3;",
-                            "5:3 - 5:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
-~~~
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  display: grid;
-  grid-template-columns: subgrid;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 3;",
-                            "5:3 - 5:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
-~~~
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  display: grid;
-  grid-template-columns: subgrid;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-column-end: 4;",
-                            "9:3 - 9:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 3;",
-                            "11:3 - 11:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 3;",
-                            "11:3 - 11:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 5;",
-                            "17:3 - 17:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "gap" (declaration-block-no-redundant-longhand-properties)',
-                            "  row-gap: 1em;",
-                            "5:3 - 5:10",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "gap" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 10px;
-  row-gap: 1em;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  column-gap: 10px;
-  row-gap: 1em;
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "gap" (declaration-block-no-redundant-longhand-properties)',
-                            "  row-gap: 1em;",
-                            "14:3 - 14:10",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "gap" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 10px;
-  row-gap: 1em;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  column-gap: 10px;
-  row-gap: 1em;
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-column-end: 4;",
-                            "3:3 - 3:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
-~~~
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  gap: 3px;
-  background-color: #fff4e6;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.box {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.box1 {
-  grid-column: 1 / 4;
-}
-
-.nested {
-  border: 2px solid #ffec99;
-  border-radius: 5px;
-  background-color: #fff9db;
-  padding: 1em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 3;",
-                            "5:3 - 5:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
-~~~
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  gap: 3px;
-  background-color: #fff4e6;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.box {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.box1 {
-  grid-column: 1 / 4;
-}
-
-.nested {
-  border: 2px solid #ffec99;
-  border-radius: 5px;
-  background-color: #fff9db;
-  padding: 1em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 3;",
-                            "5:3 - 5:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
-~~~
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  gap: 3px;
-  background-color: #fff4e6;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.box {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.box1 {
-  grid-column: 1 / 4;
-}
-
-.nested {
-  border: 2px solid #ffec99;
-  border-radius: 5px;
-  background-color: #fff9db;
-  padding: 1em;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-column-end: 4;",
-                            "9:3 - 9:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 2;
-  grid-row-end: 4;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.box {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 3;",
-                            "11:3 - 11:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 2;
-  grid-row-end: 4;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.box {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 3;",
-                            "11:3 - 11:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 2;
-  grid-row-end: 4;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.box {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 4;",
-                            "17:3 - 17:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 2;
-  grid-row-end: 4;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.box {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-column-end: 4;",
-                            "9:3 - 9:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  z-index: 2;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 2;
-  grid-row-end: 4;
-  z-index: 1;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.box {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 3;",
-                            "11:3 - 11:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  z-index: 2;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 2;
-  grid-row-end: 4;
-  z-index: 1;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.box {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 3;",
-                            "11:3 - 11:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  z-index: 2;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 2;
-  grid-row-end: 4;
-  z-index: 1;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.box {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 4;",
-                            "18:3 - 18:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Basic_concepts_of_grid_layout
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
-~~~
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 100px;
-}
-
-.box1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  z-index: 2;
-}
-
-.box2 {
-  grid-column-start: 1;
-  grid-row-start: 2;
-  grid-row-end: 4;
-  z-index: 1;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.box {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-~~~
-`
+                            "/en-US/docs/Web/CSS/Guides/Fonts/WOFF"
                           ]
                         }
                       ]
                     },
-                    box_alignment_in_grid_layout: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Box_alignment_in_grid_layout",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "place-self" (declaration-block-no-redundant-longhand-properties)',
-                            "  justify-self: center;",
-                            "31:3 - 31:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Box_alignment_in_grid_layout
+                    grid_layout: {
+                      children: {
+                        basic_concepts: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: 4;",
+                                "3:3 - 3:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
+~~~
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns: subgrid;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "5:3 - 5:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
+~~~
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns: subgrid;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "5:3 - 5:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
+~~~
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns: subgrid;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: 4;",
+                                "9:3 - 9:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "11:3 - 11:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "11:3 - 11:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 5;",
+                                "17:3 - 17:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "gap" (declaration-block-no-redundant-longhand-properties)',
+                                "  row-gap: 1em;",
+                                "5:3 - 5:10",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "gap" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 1em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  column-gap: 10px;
+  row-gap: 1em;
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "gap" (declaration-block-no-redundant-longhand-properties)',
+                                "  row-gap: 1em;",
+                                "14:3 - 14:10",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "gap" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 1em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  column-gap: 10px;
+  row-gap: 1em;
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: 4;",
+                                "3:3 - 3:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
+~~~
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  gap: 3px;
+  background-color: #fff4e6;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.box1 {
+  grid-column: 1 / 4;
+}
+
+.nested {
+  border: 2px solid #ffec99;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "5:3 - 5:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
+~~~
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  gap: 3px;
+  background-color: #fff4e6;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.box1 {
+  grid-column: 1 / 4;
+}
+
+.nested {
+  border: 2px solid #ffec99;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "5:3 - 5:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
+~~~
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  gap: 3px;
+  background-color: #fff4e6;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.box1 {
+  grid-column: 1 / 4;
+}
+
+.nested {
+  border: 2px solid #ffec99;
+  border-radius: 5px;
+  background-color: #fff9db;
+  padding: 1em;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: 4;",
+                                "9:3 - 9:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.box {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "11:3 - 11:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.box {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "11:3 - 11:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.box {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 4;",
+                                "17:3 - 17:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.box {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: 4;",
+                                "9:3 - 9:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  z-index: 2;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  z-index: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.box {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "11:3 - 11:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  z-index: 2;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  z-index: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.box {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "11:3 - 11:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  z-index: 2;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  z-index: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.box {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 4;",
+                                "18:3 - 18:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
+~~~
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  z-index: 2;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  z-index: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.box {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        box_alignment: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Box_alignment",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "place-self" (declaration-block-no-redundant-longhand-properties)',
+                                "  justify-self: center;",
+                                "31:3 - 31:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Box_alignment
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-self" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -21099,16 +21060,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-template-areas:",
-                            "26:3 - 26:22",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Box_alignment_in_grid_layout
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-template-areas:",
+                                "26:3 - 26:22",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Box_alignment
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -21155,16 +21116,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-template-areas:",
-                            "30:3 - 30:22",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Box_alignment_in_grid_layout
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-template-areas:",
+                                "30:3 - 30:22",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Box_alignment
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .wrapper {
@@ -21215,16 +21176,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-template-areas:",
-                            "30:3 - 30:22",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Box_alignment_in_grid_layout
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-template-areas:",
+                                "30:3 - 30:22",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Box_alignment
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .wrapper {
@@ -21275,16 +21236,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
-                            "  justify-content: space-around;",
-                            "3:3 - 3:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Box_alignment_in_grid_layout
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)',
+                                "  justify-content: space-around;",
+                                "3:3 - 3:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Box_alignment
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-content" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .wrapper {
@@ -21336,16 +21297,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-template-areas:",
-                            "31:3 - 31:22",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Box_alignment_in_grid_layout
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-template-areas:",
+                                "31:3 - 31:22",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Box_alignment
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .wrapper {
@@ -21397,16 +21358,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-template-areas:",
-                            "26:3 - 26:22",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Box_alignment_in_grid_layout
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-template-areas:",
+                                "26:3 - 26:22",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Box_alignment
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-template" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -21454,22 +21415,22 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
+                              ]
+                            }
                           ]
-                        }
-                      ]
-                    },
-                    "grid_layout_using_line-based_placement": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-column-end: 2;",
-                            "3:3 - 3:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                        },
+                        "line-based_placement": {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: 2;",
+                                "3:3 - 3:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .box1 {
@@ -21526,16 +21487,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 4;",
-                            "5:3 - 5:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 4;",
+                                "5:3 - 5:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .box1 {
@@ -21592,16 +21553,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 4;",
-                            "5:3 - 5:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 4;",
+                                "5:3 - 5:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .box1 {
@@ -21658,16 +21619,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-column-end: 2;",
-                            "31:3 - 31:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: 2;",
+                                "31:3 - 31:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .box1 {
@@ -21724,16 +21685,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 4;",
-                            "33:3 - 33:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 4;",
+                                "33:3 - 33:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .box1 {
@@ -21790,16 +21751,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 4;",
-                            "33:3 - 33:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 4;",
+                                "33:3 - 33:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .box1 {
@@ -21856,16 +21817,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-column-end: 4;",
-                            "37:3 - 37:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: 4;",
+                                "37:3 - 37:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .box1 {
@@ -21922,16 +21883,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 3;",
-                            "39:3 - 39:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "39:3 - 39:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .box1 {
@@ -21988,16 +21949,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 3;",
-                            "39:3 - 39:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "39:3 - 39:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .box1 {
@@ -22054,16 +22015,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-column-end: 3;",
-                            "43:3 - 43:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: 3;",
+                                "43:3 - 43:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .box1 {
@@ -22120,16 +22081,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 2;",
-                            "45:3 - 45:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 2;",
+                                "45:3 - 45:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .box1 {
@@ -22186,16 +22147,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 2;",
-                            "45:3 - 45:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 2;",
+                                "45:3 - 45:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .box1 {
@@ -22252,16 +22213,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-column-end: 4;",
-                            "49:3 - 49:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: 4;",
+                                "49:3 - 49:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .box1 {
@@ -22318,16 +22279,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 4;",
-                            "51:3 - 51:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 4;",
+                                "51:3 - 51:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .box1 {
@@ -22384,16 +22345,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 4;",
-                            "51:3 - 51:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 4;",
+                                "51:3 - 51:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .box1 {
@@ -22450,16 +22411,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 4;",
-                            "25:3 - 25:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 4;",
+                                "25:3 - 25:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -22504,16 +22465,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 3;",
-                            "30:3 - 30:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "30:3 - 30:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -22558,16 +22519,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-column-end: 4;",
-                            "38:3 - 38:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: 4;",
+                                "38:3 - 38:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -22612,16 +22573,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-column-end: -2;",
-                            "24:3 - 24:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: -2;",
+                                "24:3 - 24:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -22675,16 +22636,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: -4;",
-                            "26:3 - 26:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: -4;",
+                                "26:3 - 26:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -22738,16 +22699,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: -4;",
-                            "26:3 - 26:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: -4;",
+                                "26:3 - 26:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -22801,16 +22762,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-column-end: -4;",
-                            "30:3 - 30:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: -4;",
+                                "30:3 - 30:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -22864,16 +22825,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: -3;",
-                            "32:3 - 32:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: -3;",
+                                "32:3 - 32:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -22927,16 +22888,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: -3;",
-                            "32:3 - 32:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: -3;",
+                                "32:3 - 32:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -22990,16 +22951,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-column-end: -3;",
-                            "36:3 - 36:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: -3;",
+                                "36:3 - 36:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -23053,16 +23014,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: -2;",
-                            "38:3 - 38:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: -2;",
+                                "38:3 - 38:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -23116,16 +23077,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: -2;",
-                            "38:3 - 38:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: -2;",
+                                "38:3 - 38:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -23179,16 +23140,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-column-end: -4;",
-                            "42:3 - 42:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: -4;",
+                                "42:3 - 42:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -23242,16 +23203,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: -4;",
-                            "44:3 - 44:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: -4;",
+                                "44:3 - 44:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -23305,16 +23266,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: -4;",
-                            "44:3 - 44:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: -4;",
+                                "44:3 - 44:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -23368,16 +23329,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "gap" (declaration-block-no-redundant-longhand-properties)',
-                            "  row-gap: 1em;",
-                            "43:3 - 43:10",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "gap" (declaration-block-no-redundant-longhand-properties)',
+                                "  row-gap: 1em;",
+                                "43:3 - 43:10",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "gap" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -23433,16 +23394,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: span 3;",
-                            "42:3 - 42:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: span 3;",
+                                "42:3 - 42:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -23496,16 +23457,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 4;",
-                            "48:3 - 48:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 4;",
+                                "48:3 - 48:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -23559,22 +23520,278 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
+                              ]
+                            }
                           ]
-                        }
-                      ]
-                    },
-                    grid_layout_using_named_grid_lines: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_named_grid_lines",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: main-end;",
-                            "28:3 - 28:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_named_grid_lines
+                        },
+                        logical_values_and_writing_modes: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Logical_values_and_writing_modes",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "place-self" (declaration-block-no-redundant-longhand-properties)',
+                                "  justify-self: end;",
+                                "42:3 - 42:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Logical_values_and_writing_modes
+[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-self" (declaration-block-no-redundant-longhand-properties)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.wrapper > div {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  color: #d9480f;
+}
+
+.wrapper {
+  writing-mode: vertical-lr;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+}
+
+.item1 {
+  grid-column: 1 / 4;
+  align-self: start;
+}
+
+.item2 {
+  grid-column: 1 / 3;
+  grid-row: 2 / 4;
+  align-self: start;
+}
+
+.item3 {
+  grid-column: 3;
+  grid-row: 2 / 4;
+  align-self: end;
+  justify-self: end;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        },
+                        masonry_layout: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Masonry_layout",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "masonry" for property "grid-template-rows" (declaration-property-value-no-unknown)',
+                                "  grid-template-rows: masonry;",
+                                "27:23 - 27:30",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Masonry_layout
+[declaration-property-value-no-unknown] Unexpected unknown value "masonry" for property "grid-template-rows" (declaration-property-value-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 1.2em sans-serif;
+}
+
+.grid {
+  padding: 10px;
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.item {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  color: #d9480f;
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-template-rows: masonry;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "masonry" for property "grid-template-columns" (declaration-property-value-no-unknown)',
+                                "  grid-template-columns: masonry;",
+                                "26:26 - 26:33",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Masonry_layout
+[declaration-property-value-no-unknown] Unexpected unknown value "masonry" for property "grid-template-columns" (declaration-property-value-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 1.2em sans-serif;
+}
+
+.grid {
+  padding: 10px;
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.item {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  color: #d9480f;
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: masonry;
+  grid-template-rows: repeat(3, 100px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "masonry" for property "grid-template-rows" (declaration-property-value-no-unknown)',
+                                "  grid-template-rows: masonry;",
+                                "27:23 - 27:30",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Masonry_layout
+[declaration-property-value-no-unknown] Unexpected unknown value "masonry" for property "grid-template-rows" (declaration-property-value-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 1.2em sans-serif;
+}
+
+.grid {
+  padding: 10px;
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.item {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  color: #d9480f;
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-template-rows: masonry;
+}
+
+.span-2 {
+  grid-column-end: span 2;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "masonry" for property "grid-template-rows" (declaration-property-value-no-unknown)',
+                                "  grid-template-rows: masonry;",
+                                "27:23 - 27:30",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Masonry_layout
+[declaration-property-value-no-unknown] Unexpected unknown value "masonry" for property "grid-template-rows" (declaration-property-value-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 1.2em sans-serif;
+}
+
+.grid {
+  padding: 10px;
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+}
+
+.item {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  color: #d9480f;
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  grid-template-rows: masonry;
+}
+
+.positioned {
+  padding: 1em;
+  grid-column: 2 / 4;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                `css.properties.grid-template-columns.masonry
+css.properties.grid-template-rows.masonry`,
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        },
+                        named_grid_lines: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Named_grid_lines",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: main-end;",
+                                "28:3 - 28:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Named_grid_lines
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -23625,16 +23842,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: content-end;",
-                            "34:3 - 34:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_named_grid_lines
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: content-end;",
+                                "34:3 - 34:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Named_grid_lines
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -23685,16 +23902,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-column-end: main-end;",
-                            "44:3 - 44:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_named_grid_lines
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: main-end;",
+                                "44:3 - 44:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Named_grid_lines
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -23745,16 +23962,16 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "40%" to be "0.4" (alpha-value-notation)',
-                            "  background-color: rgb(92 148 13 / 40%);",
-                            "50:37 - 50:40",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_named_grid_lines
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "40%" to be "0.4" (alpha-value-notation)',
+                                "  background-color: rgb(92 148 13 / 40%);",
+                                "50:37 - 50:40",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Named_grid_lines
 [alpha-value-notation] Expected "40%" to be "0.4" (alpha-value-notation)
 ~~~
 * {
@@ -23812,278 +24029,22 @@ css.at-rules.font-face.WOFF_2`,
 }
 ~~~
 `
-                          ]
-                        }
-                      ]
-                    },
-                    grids_logical_values_and_writing_modes: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Grids_logical_values_and_writing_modes",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "place-self" (declaration-block-no-redundant-longhand-properties)',
-                            "  justify-self: end;",
-                            "42:3 - 42:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Grids_logical_values_and_writing_modes
-[declaration-block-no-redundant-longhand-properties] Expected shorthand property "place-self" (declaration-block-no-redundant-longhand-properties)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.wrapper > div {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  padding: 1em;
-  color: #d9480f;
-}
-
-.wrapper {
-  writing-mode: vertical-lr;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 100px);
-  gap: 10px;
-}
-
-.item1 {
-  grid-column: 1 / 4;
-  align-self: start;
-}
-
-.item2 {
-  grid-column: 1 / 3;
-  grid-row: 2 / 4;
-  align-self: start;
-}
-
-.item3 {
-  grid-column: 3;
-  grid-row: 2 / 4;
-  align-self: end;
-  justify-self: end;
-}
-~~~
-`
-                          ]
-                        }
-                      ]
-                    },
-                    masonry_layout: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout",
-                      messages: [
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "masonry" for property "grid-template-rows" (declaration-property-value-no-unknown)',
-                            "  grid-template-rows: masonry;",
-                            "27:23 - 27:30",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout
-[declaration-property-value-no-unknown] Unexpected unknown value "masonry" for property "grid-template-rows" (declaration-property-value-no-unknown)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font: 1.2em sans-serif;
-}
-
-.grid {
-  padding: 10px;
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.item {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  color: #d9480f;
-}
-
-.grid {
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  grid-template-rows: masonry;
-}
-~~~
-`
+                              ]
+                            }
                           ]
                         },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "masonry" for property "grid-template-columns" (declaration-property-value-no-unknown)',
-                            "  grid-template-columns: masonry;",
-                            "26:26 - 26:33",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout
-[declaration-property-value-no-unknown] Unexpected unknown value "masonry" for property "grid-template-columns" (declaration-property-value-no-unknown)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font: 1.2em sans-serif;
-}
-
-.grid {
-  padding: 10px;
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.item {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  color: #d9480f;
-}
-
-.grid {
-  display: grid;
-  gap: 10px;
-  grid-template-columns: masonry;
-  grid-template-rows: repeat(3, 100px);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "masonry" for property "grid-template-rows" (declaration-property-value-no-unknown)',
-                            "  grid-template-rows: masonry;",
-                            "27:23 - 27:30",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout
-[declaration-property-value-no-unknown] Unexpected unknown value "masonry" for property "grid-template-rows" (declaration-property-value-no-unknown)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font: 1.2em sans-serif;
-}
-
-.grid {
-  padding: 10px;
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.item {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  color: #d9480f;
-}
-
-.grid {
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  grid-template-rows: masonry;
-}
-
-.span-2 {
-  grid-column-end: span 2;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "masonry" for property "grid-template-rows" (declaration-property-value-no-unknown)',
-                            "  grid-template-rows: masonry;",
-                            "27:23 - 27:30",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Masonry_layout
-[declaration-property-value-no-unknown] Unexpected unknown value "masonry" for property "grid-template-rows" (declaration-property-value-no-unknown)
-~~~
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font: 1.2em sans-serif;
-}
-
-.grid {
-  padding: 10px;
-  border: 2px solid #f76707;
-  border-radius: 5px;
-  background-color: #fff4e6;
-}
-
-.item {
-  border: 2px solid #ffa94d;
-  border-radius: 5px;
-  background-color: #ffd8a8;
-  color: #d9480f;
-}
-
-.grid {
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  grid-template-rows: masonry;
-}
-
-.positioned {
-  padding: 1em;
-  grid-column: 2 / 4;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            `css.properties.grid-template-columns.masonry
-css.properties.grid-template-rows.masonry`,
-                            "Expected:",
-                            "[None]"
-                          ]
-                        }
-                      ]
-                    },
-                    relationship_of_grid_layout_with_other_layout_methods: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-column-end: 4;",
-                            "28:3 - 28:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods
+                        relationship_with_other_layout_methods: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: 4;",
+                                "28:3 - 28:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -24122,16 +24083,16 @@ css.properties.grid-template-rows.masonry`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 3;",
-                            "30:3 - 30:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "30:3 - 30:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -24170,16 +24131,16 @@ css.properties.grid-template-rows.masonry`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 3;",
-                            "30:3 - 30:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "30:3 - 30:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -24218,16 +24179,16 @@ css.properties.grid-template-rows.masonry`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "  background-color: rgb(255 255 255 / 50%);",
-                            "36:39 - 36:42",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "  background-color: rgb(255 255 255 / 50%);",
+                                "36:39 - 36:42",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods
 [alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
 ~~~
 * {
@@ -24272,16 +24233,16 @@ css.properties.grid-template-rows.masonry`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "  border: 1px solid rgb(0 0 0 / 50%);",
-                            "37:33 - 37:36",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "  border: 1px solid rgb(0 0 0 / 50%);",
+                                "37:33 - 37:36",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods
 [alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
 ~~~
 * {
@@ -24326,16 +24287,16 @@ css.properties.grid-template-rows.masonry`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-column-end: 4;",
-                            "27:3 - 27:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: 4;",
+                                "27:3 - 27:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -24380,16 +24341,16 @@ css.properties.grid-template-rows.masonry`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 3;",
-                            "29:3 - 29:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "29:3 - 29:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-area" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -24434,16 +24395,16 @@ css.properties.grid-template-rows.masonry`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-row-end: 3;",
-                            "29:3 - 29:15",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-row-end: 3;",
+                                "29:3 - 29:15",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-row" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -24488,16 +24449,16 @@ css.properties.grid-template-rows.masonry`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-column-end: 4;",
-                            "32:3 - 32:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: 4;",
+                                "32:3 - 32:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -24535,16 +24496,16 @@ css.properties.grid-template-rows.masonry`,
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
-                            "  grid-column-end: 4;",
-                            "32:3 - 32:18",
-                            `/en-US/docs/Web/CSS/CSS_grid_layout/Relationship_of_grid_layout_with_other_layout_methods
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)',
+                                "  grid-column-end: 4;",
+                                "32:3 - 32:18",
+                                `/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "grid-column" (declaration-block-no-redundant-longhand-properties)
 ~~~
 * {
@@ -24583,36 +24544,36 @@ css.properties.grid-template-rows.masonry`,
 }
 ~~~
 `
+                              ]
+                            }
+                          ]
+                        },
+                        subgrid: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Grid_layout/Subgrid",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "css.properties.grid-template-columns.subgrid",
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
                           ]
                         }
-                      ]
-                    },
-                    subgrid: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid",
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Grid_layout",
                       messages: [
                         {
-                          message: "Unexpected BCD keys",
+                          message: "Stylelint backlog",
                           data: [
-                            "Actual:",
-                            "css.properties.grid-template-columns.subgrid",
-                            "Expected:",
-                            "[None]"
-                          ]
-                        }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/CSS/CSS_grid_layout",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "50%" to be "0.5" (alpha-value-notation)',
-                        "  background-color: rgb(233 171 88 / 50%);",
-                        "11:38 - 11:41",
-                        `/en-US/docs/Web/CSS/CSS_grid_layout
+                            "alpha-value-notation",
+                            'Expected "50%" to be "0.5" (alpha-value-notation)',
+                            "  background-color: rgb(233 171 88 / 50%);",
+                            "11:38 - 11:41",
+                            `/en-US/docs/Web/CSS/Guides/Grid_layout
 [alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
 ~~~
 * {
@@ -24661,3712 +24622,3914 @@ css.properties.grid-template-rows.masonry`,
 }
 ~~~
 `
-                      ]
-                    }
-                  ]
-                },
-                css_images: {
-                  children: {
-                    using_css_gradients: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "80%" to be "0.8" (alpha-value-notation)',
-                            "    linear-gradient(217deg, rgb(255 0 0 / 80%), transparent 70.71%),",
-                            "8:43 - 8:46",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "80%" to be "0.8" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.stacked-linear {
-  background:
-    linear-gradient(217deg, rgb(255 0 0 / 80%), transparent 70.71%),
-    linear-gradient(127deg, rgb(0 255 0 / 80%), transparent 70.71%),
-    linear-gradient(336deg, rgb(0 0 255 / 80%), transparent 70.71%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "80%" to be "0.8" (alpha-value-notation)',
-                            "    linear-gradient(127deg, rgb(0 255 0 / 80%), transparent 70.71%),",
-                            "9:43 - 9:46",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "80%" to be "0.8" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.stacked-linear {
-  background:
-    linear-gradient(217deg, rgb(255 0 0 / 80%), transparent 70.71%),
-    linear-gradient(127deg, rgb(0 255 0 / 80%), transparent 70.71%),
-    linear-gradient(336deg, rgb(0 0 255 / 80%), transparent 70.71%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "80%" to be "0.8" (alpha-value-notation)',
-                            "    linear-gradient(336deg, rgb(0 0 255 / 80%), transparent 70.71%);",
-                            "10:43 - 10:46",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "80%" to be "0.8" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.stacked-linear {
-  background:
-    linear-gradient(217deg, rgb(255 0 0 / 80%), transparent 70.71%),
-    linear-gradient(127deg, rgb(0 255 0 / 80%), transparent 70.71%),
-    linear-gradient(336deg, rgb(0 0 255 / 80%), transparent 70.71%);
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "    radial-gradient(circle at 50% 0, rgb(255 0 0 / 50%), transparent 70.71%),",
-                            "8:52 - 8:55",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.stacked-radial {
-  background:
-    radial-gradient(circle at 50% 0, rgb(255 0 0 / 50%), transparent 70.71%),
-    radial-gradient(circle at 6.7% 75%, rgb(0 0 255 / 50%), transparent 70.71%),
-    radial-gradient(circle at 93.3% 75%, rgb(0 255 0 / 50%), transparent 70.71%)
-      beige;
-  border-radius: 50%;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "    radial-gradient(circle at 6.7% 75%, rgb(0 0 255 / 50%), transparent 70.71%),",
-                            "9:55 - 9:58",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.stacked-radial {
-  background:
-    radial-gradient(circle at 50% 0, rgb(255 0 0 / 50%), transparent 70.71%),
-    radial-gradient(circle at 6.7% 75%, rgb(0 0 255 / 50%), transparent 70.71%),
-    radial-gradient(circle at 93.3% 75%, rgb(0 255 0 / 50%), transparent 70.71%)
-      beige;
-  border-radius: 50%;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "    radial-gradient(circle at 93.3% 75%, rgb(0 255 0 / 50%), transparent 70.71%)",
-                            "10:56 - 10:59",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.stacked-radial {
-  background:
-    radial-gradient(circle at 50% 0, rgb(255 0 0 / 50%), transparent 70.71%),
-    radial-gradient(circle at 6.7% 75%, rgb(0 0 255 / 50%), transparent 70.71%),
-    radial-gradient(circle at 93.3% 75%, rgb(0 255 0 / 50%), transparent 70.71%)
-      beige;
-  border-radius: 50%;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "      rgb(255 0 0 / 50%) 40px,",
-                            "10:21 - 10:24",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 600px;
-  height: 400px;
-}
-
-.multi-repeating-linear {
-  background:
-    repeating-linear-gradient(
-      190deg,
-      rgb(255 0 0 / 50%) 40px,
-      rgb(255 153 0 / 50%) 80px,
-      rgb(255 255 0 / 50%) 120px,
-      rgb(0 255 0 / 50%) 160px,
-      rgb(0 0 255 / 50%) 200px,
-      rgb(75 0 130 / 50%) 240px,
-      rgb(238 130 238 / 50%) 280px,
-      rgb(255 0 0 / 50%) 300px
-    ),
-    repeating-linear-gradient(
-      -190deg,
-      rgb(255 0 0 / 50%) 30px,
-      rgb(255 153 0 / 50%) 60px,
-      rgb(255 255 0 / 50%) 90px,
-      rgb(0 255 0 / 50%) 120px,
-      rgb(0 0 255 / 50%) 150px,
-      rgb(75 0 130 / 50%) 180px,
-      rgb(238 130 238 / 50%) 210px,
-      rgb(255 0 0 / 50%) 230px
-    ),
-    repeating-linear-gradient(
-      23deg,
-      red 50px,
-      orange 100px,
-      yellow 150px,
-      green 200px,
-      blue 250px,
-      indigo 300px,
-      violet 350px,
-      red 370px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "      rgb(255 153 0 / 50%) 80px,",
-                            "11:23 - 11:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 600px;
-  height: 400px;
-}
-
-.multi-repeating-linear {
-  background:
-    repeating-linear-gradient(
-      190deg,
-      rgb(255 0 0 / 50%) 40px,
-      rgb(255 153 0 / 50%) 80px,
-      rgb(255 255 0 / 50%) 120px,
-      rgb(0 255 0 / 50%) 160px,
-      rgb(0 0 255 / 50%) 200px,
-      rgb(75 0 130 / 50%) 240px,
-      rgb(238 130 238 / 50%) 280px,
-      rgb(255 0 0 / 50%) 300px
-    ),
-    repeating-linear-gradient(
-      -190deg,
-      rgb(255 0 0 / 50%) 30px,
-      rgb(255 153 0 / 50%) 60px,
-      rgb(255 255 0 / 50%) 90px,
-      rgb(0 255 0 / 50%) 120px,
-      rgb(0 0 255 / 50%) 150px,
-      rgb(75 0 130 / 50%) 180px,
-      rgb(238 130 238 / 50%) 210px,
-      rgb(255 0 0 / 50%) 230px
-    ),
-    repeating-linear-gradient(
-      23deg,
-      red 50px,
-      orange 100px,
-      yellow 150px,
-      green 200px,
-      blue 250px,
-      indigo 300px,
-      violet 350px,
-      red 370px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "      rgb(255 255 0 / 50%) 120px,",
-                            "12:23 - 12:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 600px;
-  height: 400px;
-}
-
-.multi-repeating-linear {
-  background:
-    repeating-linear-gradient(
-      190deg,
-      rgb(255 0 0 / 50%) 40px,
-      rgb(255 153 0 / 50%) 80px,
-      rgb(255 255 0 / 50%) 120px,
-      rgb(0 255 0 / 50%) 160px,
-      rgb(0 0 255 / 50%) 200px,
-      rgb(75 0 130 / 50%) 240px,
-      rgb(238 130 238 / 50%) 280px,
-      rgb(255 0 0 / 50%) 300px
-    ),
-    repeating-linear-gradient(
-      -190deg,
-      rgb(255 0 0 / 50%) 30px,
-      rgb(255 153 0 / 50%) 60px,
-      rgb(255 255 0 / 50%) 90px,
-      rgb(0 255 0 / 50%) 120px,
-      rgb(0 0 255 / 50%) 150px,
-      rgb(75 0 130 / 50%) 180px,
-      rgb(238 130 238 / 50%) 210px,
-      rgb(255 0 0 / 50%) 230px
-    ),
-    repeating-linear-gradient(
-      23deg,
-      red 50px,
-      orange 100px,
-      yellow 150px,
-      green 200px,
-      blue 250px,
-      indigo 300px,
-      violet 350px,
-      red 370px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "      rgb(0 255 0 / 50%) 160px,",
-                            "13:21 - 13:24",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 600px;
-  height: 400px;
-}
-
-.multi-repeating-linear {
-  background:
-    repeating-linear-gradient(
-      190deg,
-      rgb(255 0 0 / 50%) 40px,
-      rgb(255 153 0 / 50%) 80px,
-      rgb(255 255 0 / 50%) 120px,
-      rgb(0 255 0 / 50%) 160px,
-      rgb(0 0 255 / 50%) 200px,
-      rgb(75 0 130 / 50%) 240px,
-      rgb(238 130 238 / 50%) 280px,
-      rgb(255 0 0 / 50%) 300px
-    ),
-    repeating-linear-gradient(
-      -190deg,
-      rgb(255 0 0 / 50%) 30px,
-      rgb(255 153 0 / 50%) 60px,
-      rgb(255 255 0 / 50%) 90px,
-      rgb(0 255 0 / 50%) 120px,
-      rgb(0 0 255 / 50%) 150px,
-      rgb(75 0 130 / 50%) 180px,
-      rgb(238 130 238 / 50%) 210px,
-      rgb(255 0 0 / 50%) 230px
-    ),
-    repeating-linear-gradient(
-      23deg,
-      red 50px,
-      orange 100px,
-      yellow 150px,
-      green 200px,
-      blue 250px,
-      indigo 300px,
-      violet 350px,
-      red 370px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "      rgb(0 0 255 / 50%) 200px,",
-                            "14:21 - 14:24",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 600px;
-  height: 400px;
-}
-
-.multi-repeating-linear {
-  background:
-    repeating-linear-gradient(
-      190deg,
-      rgb(255 0 0 / 50%) 40px,
-      rgb(255 153 0 / 50%) 80px,
-      rgb(255 255 0 / 50%) 120px,
-      rgb(0 255 0 / 50%) 160px,
-      rgb(0 0 255 / 50%) 200px,
-      rgb(75 0 130 / 50%) 240px,
-      rgb(238 130 238 / 50%) 280px,
-      rgb(255 0 0 / 50%) 300px
-    ),
-    repeating-linear-gradient(
-      -190deg,
-      rgb(255 0 0 / 50%) 30px,
-      rgb(255 153 0 / 50%) 60px,
-      rgb(255 255 0 / 50%) 90px,
-      rgb(0 255 0 / 50%) 120px,
-      rgb(0 0 255 / 50%) 150px,
-      rgb(75 0 130 / 50%) 180px,
-      rgb(238 130 238 / 50%) 210px,
-      rgb(255 0 0 / 50%) 230px
-    ),
-    repeating-linear-gradient(
-      23deg,
-      red 50px,
-      orange 100px,
-      yellow 150px,
-      green 200px,
-      blue 250px,
-      indigo 300px,
-      violet 350px,
-      red 370px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "      rgb(75 0 130 / 50%) 240px,",
-                            "15:22 - 15:25",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 600px;
-  height: 400px;
-}
-
-.multi-repeating-linear {
-  background:
-    repeating-linear-gradient(
-      190deg,
-      rgb(255 0 0 / 50%) 40px,
-      rgb(255 153 0 / 50%) 80px,
-      rgb(255 255 0 / 50%) 120px,
-      rgb(0 255 0 / 50%) 160px,
-      rgb(0 0 255 / 50%) 200px,
-      rgb(75 0 130 / 50%) 240px,
-      rgb(238 130 238 / 50%) 280px,
-      rgb(255 0 0 / 50%) 300px
-    ),
-    repeating-linear-gradient(
-      -190deg,
-      rgb(255 0 0 / 50%) 30px,
-      rgb(255 153 0 / 50%) 60px,
-      rgb(255 255 0 / 50%) 90px,
-      rgb(0 255 0 / 50%) 120px,
-      rgb(0 0 255 / 50%) 150px,
-      rgb(75 0 130 / 50%) 180px,
-      rgb(238 130 238 / 50%) 210px,
-      rgb(255 0 0 / 50%) 230px
-    ),
-    repeating-linear-gradient(
-      23deg,
-      red 50px,
-      orange 100px,
-      yellow 150px,
-      green 200px,
-      blue 250px,
-      indigo 300px,
-      violet 350px,
-      red 370px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "      rgb(238 130 238 / 50%) 280px,",
-                            "16:25 - 16:28",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 600px;
-  height: 400px;
-}
-
-.multi-repeating-linear {
-  background:
-    repeating-linear-gradient(
-      190deg,
-      rgb(255 0 0 / 50%) 40px,
-      rgb(255 153 0 / 50%) 80px,
-      rgb(255 255 0 / 50%) 120px,
-      rgb(0 255 0 / 50%) 160px,
-      rgb(0 0 255 / 50%) 200px,
-      rgb(75 0 130 / 50%) 240px,
-      rgb(238 130 238 / 50%) 280px,
-      rgb(255 0 0 / 50%) 300px
-    ),
-    repeating-linear-gradient(
-      -190deg,
-      rgb(255 0 0 / 50%) 30px,
-      rgb(255 153 0 / 50%) 60px,
-      rgb(255 255 0 / 50%) 90px,
-      rgb(0 255 0 / 50%) 120px,
-      rgb(0 0 255 / 50%) 150px,
-      rgb(75 0 130 / 50%) 180px,
-      rgb(238 130 238 / 50%) 210px,
-      rgb(255 0 0 / 50%) 230px
-    ),
-    repeating-linear-gradient(
-      23deg,
-      red 50px,
-      orange 100px,
-      yellow 150px,
-      green 200px,
-      blue 250px,
-      indigo 300px,
-      violet 350px,
-      red 370px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "      rgb(255 0 0 / 50%) 300px",
-                            "17:21 - 17:24",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 600px;
-  height: 400px;
-}
-
-.multi-repeating-linear {
-  background:
-    repeating-linear-gradient(
-      190deg,
-      rgb(255 0 0 / 50%) 40px,
-      rgb(255 153 0 / 50%) 80px,
-      rgb(255 255 0 / 50%) 120px,
-      rgb(0 255 0 / 50%) 160px,
-      rgb(0 0 255 / 50%) 200px,
-      rgb(75 0 130 / 50%) 240px,
-      rgb(238 130 238 / 50%) 280px,
-      rgb(255 0 0 / 50%) 300px
-    ),
-    repeating-linear-gradient(
-      -190deg,
-      rgb(255 0 0 / 50%) 30px,
-      rgb(255 153 0 / 50%) 60px,
-      rgb(255 255 0 / 50%) 90px,
-      rgb(0 255 0 / 50%) 120px,
-      rgb(0 0 255 / 50%) 150px,
-      rgb(75 0 130 / 50%) 180px,
-      rgb(238 130 238 / 50%) 210px,
-      rgb(255 0 0 / 50%) 230px
-    ),
-    repeating-linear-gradient(
-      23deg,
-      red 50px,
-      orange 100px,
-      yellow 150px,
-      green 200px,
-      blue 250px,
-      indigo 300px,
-      violet 350px,
-      red 370px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "      rgb(255 0 0 / 50%) 30px,",
-                            "21:21 - 21:24",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 600px;
-  height: 400px;
-}
-
-.multi-repeating-linear {
-  background:
-    repeating-linear-gradient(
-      190deg,
-      rgb(255 0 0 / 50%) 40px,
-      rgb(255 153 0 / 50%) 80px,
-      rgb(255 255 0 / 50%) 120px,
-      rgb(0 255 0 / 50%) 160px,
-      rgb(0 0 255 / 50%) 200px,
-      rgb(75 0 130 / 50%) 240px,
-      rgb(238 130 238 / 50%) 280px,
-      rgb(255 0 0 / 50%) 300px
-    ),
-    repeating-linear-gradient(
-      -190deg,
-      rgb(255 0 0 / 50%) 30px,
-      rgb(255 153 0 / 50%) 60px,
-      rgb(255 255 0 / 50%) 90px,
-      rgb(0 255 0 / 50%) 120px,
-      rgb(0 0 255 / 50%) 150px,
-      rgb(75 0 130 / 50%) 180px,
-      rgb(238 130 238 / 50%) 210px,
-      rgb(255 0 0 / 50%) 230px
-    ),
-    repeating-linear-gradient(
-      23deg,
-      red 50px,
-      orange 100px,
-      yellow 150px,
-      green 200px,
-      blue 250px,
-      indigo 300px,
-      violet 350px,
-      red 370px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "      rgb(255 153 0 / 50%) 60px,",
-                            "22:23 - 22:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 600px;
-  height: 400px;
-}
-
-.multi-repeating-linear {
-  background:
-    repeating-linear-gradient(
-      190deg,
-      rgb(255 0 0 / 50%) 40px,
-      rgb(255 153 0 / 50%) 80px,
-      rgb(255 255 0 / 50%) 120px,
-      rgb(0 255 0 / 50%) 160px,
-      rgb(0 0 255 / 50%) 200px,
-      rgb(75 0 130 / 50%) 240px,
-      rgb(238 130 238 / 50%) 280px,
-      rgb(255 0 0 / 50%) 300px
-    ),
-    repeating-linear-gradient(
-      -190deg,
-      rgb(255 0 0 / 50%) 30px,
-      rgb(255 153 0 / 50%) 60px,
-      rgb(255 255 0 / 50%) 90px,
-      rgb(0 255 0 / 50%) 120px,
-      rgb(0 0 255 / 50%) 150px,
-      rgb(75 0 130 / 50%) 180px,
-      rgb(238 130 238 / 50%) 210px,
-      rgb(255 0 0 / 50%) 230px
-    ),
-    repeating-linear-gradient(
-      23deg,
-      red 50px,
-      orange 100px,
-      yellow 150px,
-      green 200px,
-      blue 250px,
-      indigo 300px,
-      violet 350px,
-      red 370px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "      rgb(255 255 0 / 50%) 90px,",
-                            "23:23 - 23:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 600px;
-  height: 400px;
-}
-
-.multi-repeating-linear {
-  background:
-    repeating-linear-gradient(
-      190deg,
-      rgb(255 0 0 / 50%) 40px,
-      rgb(255 153 0 / 50%) 80px,
-      rgb(255 255 0 / 50%) 120px,
-      rgb(0 255 0 / 50%) 160px,
-      rgb(0 0 255 / 50%) 200px,
-      rgb(75 0 130 / 50%) 240px,
-      rgb(238 130 238 / 50%) 280px,
-      rgb(255 0 0 / 50%) 300px
-    ),
-    repeating-linear-gradient(
-      -190deg,
-      rgb(255 0 0 / 50%) 30px,
-      rgb(255 153 0 / 50%) 60px,
-      rgb(255 255 0 / 50%) 90px,
-      rgb(0 255 0 / 50%) 120px,
-      rgb(0 0 255 / 50%) 150px,
-      rgb(75 0 130 / 50%) 180px,
-      rgb(238 130 238 / 50%) 210px,
-      rgb(255 0 0 / 50%) 230px
-    ),
-    repeating-linear-gradient(
-      23deg,
-      red 50px,
-      orange 100px,
-      yellow 150px,
-      green 200px,
-      blue 250px,
-      indigo 300px,
-      violet 350px,
-      red 370px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "      rgb(0 255 0 / 50%) 120px,",
-                            "24:21 - 24:24",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 600px;
-  height: 400px;
-}
-
-.multi-repeating-linear {
-  background:
-    repeating-linear-gradient(
-      190deg,
-      rgb(255 0 0 / 50%) 40px,
-      rgb(255 153 0 / 50%) 80px,
-      rgb(255 255 0 / 50%) 120px,
-      rgb(0 255 0 / 50%) 160px,
-      rgb(0 0 255 / 50%) 200px,
-      rgb(75 0 130 / 50%) 240px,
-      rgb(238 130 238 / 50%) 280px,
-      rgb(255 0 0 / 50%) 300px
-    ),
-    repeating-linear-gradient(
-      -190deg,
-      rgb(255 0 0 / 50%) 30px,
-      rgb(255 153 0 / 50%) 60px,
-      rgb(255 255 0 / 50%) 90px,
-      rgb(0 255 0 / 50%) 120px,
-      rgb(0 0 255 / 50%) 150px,
-      rgb(75 0 130 / 50%) 180px,
-      rgb(238 130 238 / 50%) 210px,
-      rgb(255 0 0 / 50%) 230px
-    ),
-    repeating-linear-gradient(
-      23deg,
-      red 50px,
-      orange 100px,
-      yellow 150px,
-      green 200px,
-      blue 250px,
-      indigo 300px,
-      violet 350px,
-      red 370px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "      rgb(0 0 255 / 50%) 150px,",
-                            "25:21 - 25:24",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 600px;
-  height: 400px;
-}
-
-.multi-repeating-linear {
-  background:
-    repeating-linear-gradient(
-      190deg,
-      rgb(255 0 0 / 50%) 40px,
-      rgb(255 153 0 / 50%) 80px,
-      rgb(255 255 0 / 50%) 120px,
-      rgb(0 255 0 / 50%) 160px,
-      rgb(0 0 255 / 50%) 200px,
-      rgb(75 0 130 / 50%) 240px,
-      rgb(238 130 238 / 50%) 280px,
-      rgb(255 0 0 / 50%) 300px
-    ),
-    repeating-linear-gradient(
-      -190deg,
-      rgb(255 0 0 / 50%) 30px,
-      rgb(255 153 0 / 50%) 60px,
-      rgb(255 255 0 / 50%) 90px,
-      rgb(0 255 0 / 50%) 120px,
-      rgb(0 0 255 / 50%) 150px,
-      rgb(75 0 130 / 50%) 180px,
-      rgb(238 130 238 / 50%) 210px,
-      rgb(255 0 0 / 50%) 230px
-    ),
-    repeating-linear-gradient(
-      23deg,
-      red 50px,
-      orange 100px,
-      yellow 150px,
-      green 200px,
-      blue 250px,
-      indigo 300px,
-      violet 350px,
-      red 370px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "      rgb(75 0 130 / 50%) 180px,",
-                            "26:22 - 26:25",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 600px;
-  height: 400px;
-}
-
-.multi-repeating-linear {
-  background:
-    repeating-linear-gradient(
-      190deg,
-      rgb(255 0 0 / 50%) 40px,
-      rgb(255 153 0 / 50%) 80px,
-      rgb(255 255 0 / 50%) 120px,
-      rgb(0 255 0 / 50%) 160px,
-      rgb(0 0 255 / 50%) 200px,
-      rgb(75 0 130 / 50%) 240px,
-      rgb(238 130 238 / 50%) 280px,
-      rgb(255 0 0 / 50%) 300px
-    ),
-    repeating-linear-gradient(
-      -190deg,
-      rgb(255 0 0 / 50%) 30px,
-      rgb(255 153 0 / 50%) 60px,
-      rgb(255 255 0 / 50%) 90px,
-      rgb(0 255 0 / 50%) 120px,
-      rgb(0 0 255 / 50%) 150px,
-      rgb(75 0 130 / 50%) 180px,
-      rgb(238 130 238 / 50%) 210px,
-      rgb(255 0 0 / 50%) 230px
-    ),
-    repeating-linear-gradient(
-      23deg,
-      red 50px,
-      orange 100px,
-      yellow 150px,
-      green 200px,
-      blue 250px,
-      indigo 300px,
-      violet 350px,
-      red 370px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "      rgb(238 130 238 / 50%) 210px,",
-                            "27:25 - 27:28",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 600px;
-  height: 400px;
-}
-
-.multi-repeating-linear {
-  background:
-    repeating-linear-gradient(
-      190deg,
-      rgb(255 0 0 / 50%) 40px,
-      rgb(255 153 0 / 50%) 80px,
-      rgb(255 255 0 / 50%) 120px,
-      rgb(0 255 0 / 50%) 160px,
-      rgb(0 0 255 / 50%) 200px,
-      rgb(75 0 130 / 50%) 240px,
-      rgb(238 130 238 / 50%) 280px,
-      rgb(255 0 0 / 50%) 300px
-    ),
-    repeating-linear-gradient(
-      -190deg,
-      rgb(255 0 0 / 50%) 30px,
-      rgb(255 153 0 / 50%) 60px,
-      rgb(255 255 0 / 50%) 90px,
-      rgb(0 255 0 / 50%) 120px,
-      rgb(0 0 255 / 50%) 150px,
-      rgb(75 0 130 / 50%) 180px,
-      rgb(238 130 238 / 50%) 210px,
-      rgb(255 0 0 / 50%) 230px
-    ),
-    repeating-linear-gradient(
-      23deg,
-      red 50px,
-      orange 100px,
-      yellow 150px,
-      green 200px,
-      blue 250px,
-      indigo 300px,
-      violet 350px,
-      red 370px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "      rgb(255 0 0 / 50%) 230px",
-                            "28:21 - 28:24",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 600px;
-  height: 400px;
-}
-
-.multi-repeating-linear {
-  background:
-    repeating-linear-gradient(
-      190deg,
-      rgb(255 0 0 / 50%) 40px,
-      rgb(255 153 0 / 50%) 80px,
-      rgb(255 255 0 / 50%) 120px,
-      rgb(0 255 0 / 50%) 160px,
-      rgb(0 0 255 / 50%) 200px,
-      rgb(75 0 130 / 50%) 240px,
-      rgb(238 130 238 / 50%) 280px,
-      rgb(255 0 0 / 50%) 300px
-    ),
-    repeating-linear-gradient(
-      -190deg,
-      rgb(255 0 0 / 50%) 30px,
-      rgb(255 153 0 / 50%) 60px,
-      rgb(255 255 0 / 50%) 90px,
-      rgb(0 255 0 / 50%) 120px,
-      rgb(0 0 255 / 50%) 150px,
-      rgb(75 0 130 / 50%) 180px,
-      rgb(238 130 238 / 50%) 210px,
-      rgb(255 0 0 / 50%) 230px
-    ),
-    repeating-linear-gradient(
-      23deg,
-      red 50px,
-      orange 100px,
-      yellow 150px,
-      green 200px,
-      blue 250px,
-      indigo 300px,
-      violet 350px,
-      red 370px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(255 127 0 / 25%) 50px,",
-                            "12:23 - 12:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(255 127 0 / 25%) 56px,",
-                            "13:23 - 13:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(255 127 0 / 25%) 63px,",
-                            "16:23 - 16:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(255 127 0 / 25%) 69px,",
-                            "17:23 - 17:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(255 206 0 / 25%) 116px,",
-                            "20:23 - 20:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(255 206 0 / 25%) 166px",
-                            "21:23 - 21:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(255 127 0 / 25%) 50px,",
-                            "27:23 - 27:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(255 127 0 / 25%) 56px,",
-                            "28:23 - 28:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(255 127 0 / 25%) 63px,",
-                            "31:23 - 31:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(255 127 0 / 25%) 69px,",
-                            "32:23 - 32:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(255 206 0 / 25%) 116px,",
-                            "35:23 - 35:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(255 206 0 / 25%) 166px",
-                            "36:23 - 36:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(143 77 63 / 25%) 5px,",
-                            "42:23 - 42:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(143 77 63 / 25%) 10px",
-                            "43:23 - 43:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(143 77 63 / 25%) 5px,",
-                            "49:23 - 49:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(143 77 63 / 25%) 10px",
-                            "50:23 - 50:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(255 127 0 / 25%) 50px 56px,",
-                            "57:23 - 57:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(255 127 0 / 25%) 63px 69px,",
-                            "59:23 - 59:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(255 206 0 / 25%) 116px 166px",
-                            "61:23 - 61:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(255 127 0 / 25%) 50px 56px,",
-                            "66:23 - 66:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(255 127 0 / 25%) 63px 69px,",
-                            "68:23 - 68:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(255 206 0 / 25%) 116px 166px",
-                            "70:23 - 70:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(143 77 63 / 25%) 5px 10px",
-                            "75:23 - 75:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "25%" to be "0.25" (alpha-value-notation)',
-                            "      rgb(143 77 63 / 25%) 5px 10px",
-                            "80:23 - 80:26",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
-~~~
-div {
-  width: 200px;
-  height: 200px;
-}
-
-.plaid-gradient {
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 50px,
-      rgb(255 127 0 / 25%) 50px,
-      rgb(255 127 0 / 25%) 56px,
-      transparent 56px,
-      transparent 63px,
-      rgb(255 127 0 / 25%) 63px,
-      rgb(255 127 0 / 25%) 69px,
-      transparent 69px,
-      transparent 116px,
-      rgb(255 206 0 / 25%) 116px,
-      rgb(255 206 0 / 25%) 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgb(143 77 63 / 25%) 5px,
-      rgb(143 77 63 / 25%) 10px
-    );
-
-  background:
-    repeating-linear-gradient(
-      90deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      0deg,
-      transparent 0 50px,
-      rgb(255 127 0 / 25%) 50px 56px,
-      transparent 56px 63px,
-      rgb(255 127 0 / 25%) 63px 69px,
-      transparent 69px 116px,
-      rgb(255 206 0 / 25%) 116px 166px
-    ),
-    repeating-linear-gradient(
-      -45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    ),
-    repeating-linear-gradient(
-      45deg,
-      transparent 0 5px,
-      rgb(143 77 63 / 25%) 5px 10px
-    );
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "        rgb(0 0 0 / 50%),",
-                            "10:21 - 10:24",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 250px;
-  height: 150px;
-}
-
-.multi-target {
-  background:
-    repeating-radial-gradient(
-        ellipse at 80% 50%,
-        rgb(0 0 0 / 50%),
-        rgb(0 0 0 / 50%) 15px,
-        rgb(255 255 255 / 50%) 15px,
-        rgb(255 255 255 / 50%) 30px
-      )
-      top left no-repeat,
-    repeating-radial-gradient(
-        ellipse at 20% 50%,
-        rgb(0 0 0 / 50%),
-        rgb(0 0 0 / 50%) 10px,
-        rgb(255 255 255 / 50%) 10px,
-        rgb(255 255 255 / 50%) 20px
-      )
-      top left no-repeat yellow;
-  background-size:
-    200px 200px,
-    150px 150px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "        rgb(0 0 0 / 50%) 15px,",
-                            "11:21 - 11:24",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 250px;
-  height: 150px;
-}
-
-.multi-target {
-  background:
-    repeating-radial-gradient(
-        ellipse at 80% 50%,
-        rgb(0 0 0 / 50%),
-        rgb(0 0 0 / 50%) 15px,
-        rgb(255 255 255 / 50%) 15px,
-        rgb(255 255 255 / 50%) 30px
-      )
-      top left no-repeat,
-    repeating-radial-gradient(
-        ellipse at 20% 50%,
-        rgb(0 0 0 / 50%),
-        rgb(0 0 0 / 50%) 10px,
-        rgb(255 255 255 / 50%) 10px,
-        rgb(255 255 255 / 50%) 20px
-      )
-      top left no-repeat yellow;
-  background-size:
-    200px 200px,
-    150px 150px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "        rgb(255 255 255 / 50%) 15px,",
-                            "12:27 - 12:30",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 250px;
-  height: 150px;
-}
-
-.multi-target {
-  background:
-    repeating-radial-gradient(
-        ellipse at 80% 50%,
-        rgb(0 0 0 / 50%),
-        rgb(0 0 0 / 50%) 15px,
-        rgb(255 255 255 / 50%) 15px,
-        rgb(255 255 255 / 50%) 30px
-      )
-      top left no-repeat,
-    repeating-radial-gradient(
-        ellipse at 20% 50%,
-        rgb(0 0 0 / 50%),
-        rgb(0 0 0 / 50%) 10px,
-        rgb(255 255 255 / 50%) 10px,
-        rgb(255 255 255 / 50%) 20px
-      )
-      top left no-repeat yellow;
-  background-size:
-    200px 200px,
-    150px 150px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "        rgb(255 255 255 / 50%) 30px",
-                            "13:27 - 13:30",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 250px;
-  height: 150px;
-}
-
-.multi-target {
-  background:
-    repeating-radial-gradient(
-        ellipse at 80% 50%,
-        rgb(0 0 0 / 50%),
-        rgb(0 0 0 / 50%) 15px,
-        rgb(255 255 255 / 50%) 15px,
-        rgb(255 255 255 / 50%) 30px
-      )
-      top left no-repeat,
-    repeating-radial-gradient(
-        ellipse at 20% 50%,
-        rgb(0 0 0 / 50%),
-        rgb(0 0 0 / 50%) 10px,
-        rgb(255 255 255 / 50%) 10px,
-        rgb(255 255 255 / 50%) 20px
-      )
-      top left no-repeat yellow;
-  background-size:
-    200px 200px,
-    150px 150px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "        rgb(0 0 0 / 50%),",
-                            "18:21 - 18:24",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 250px;
-  height: 150px;
-}
-
-.multi-target {
-  background:
-    repeating-radial-gradient(
-        ellipse at 80% 50%,
-        rgb(0 0 0 / 50%),
-        rgb(0 0 0 / 50%) 15px,
-        rgb(255 255 255 / 50%) 15px,
-        rgb(255 255 255 / 50%) 30px
-      )
-      top left no-repeat,
-    repeating-radial-gradient(
-        ellipse at 20% 50%,
-        rgb(0 0 0 / 50%),
-        rgb(0 0 0 / 50%) 10px,
-        rgb(255 255 255 / 50%) 10px,
-        rgb(255 255 255 / 50%) 20px
-      )
-      top left no-repeat yellow;
-  background-size:
-    200px 200px,
-    150px 150px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "        rgb(0 0 0 / 50%) 10px,",
-                            "19:21 - 19:24",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 250px;
-  height: 150px;
-}
-
-.multi-target {
-  background:
-    repeating-radial-gradient(
-        ellipse at 80% 50%,
-        rgb(0 0 0 / 50%),
-        rgb(0 0 0 / 50%) 15px,
-        rgb(255 255 255 / 50%) 15px,
-        rgb(255 255 255 / 50%) 30px
-      )
-      top left no-repeat,
-    repeating-radial-gradient(
-        ellipse at 20% 50%,
-        rgb(0 0 0 / 50%),
-        rgb(0 0 0 / 50%) 10px,
-        rgb(255 255 255 / 50%) 10px,
-        rgb(255 255 255 / 50%) 20px
-      )
-      top left no-repeat yellow;
-  background-size:
-    200px 200px,
-    150px 150px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "        rgb(255 255 255 / 50%) 10px,",
-                            "20:27 - 20:30",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 250px;
-  height: 150px;
-}
-
-.multi-target {
-  background:
-    repeating-radial-gradient(
-        ellipse at 80% 50%,
-        rgb(0 0 0 / 50%),
-        rgb(0 0 0 / 50%) 15px,
-        rgb(255 255 255 / 50%) 15px,
-        rgb(255 255 255 / 50%) 30px
-      )
-      top left no-repeat,
-    repeating-radial-gradient(
-        ellipse at 20% 50%,
-        rgb(0 0 0 / 50%),
-        rgb(0 0 0 / 50%) 10px,
-        rgb(255 255 255 / 50%) 10px,
-        rgb(255 255 255 / 50%) 20px
-      )
-      top left no-repeat yellow;
-  background-size:
-    200px 200px,
-    150px 150px;
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "50%" to be "0.5" (alpha-value-notation)',
-                            "        rgb(255 255 255 / 50%) 20px",
-                            "21:27 - 21:30",
-                            `/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients
-[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
-~~~
-div {
-  width: 250px;
-  height: 150px;
-}
-
-.multi-target {
-  background:
-    repeating-radial-gradient(
-        ellipse at 80% 50%,
-        rgb(0 0 0 / 50%),
-        rgb(0 0 0 / 50%) 15px,
-        rgb(255 255 255 / 50%) 15px,
-        rgb(255 255 255 / 50%) 30px
-      )
-      top left no-repeat,
-    repeating-radial-gradient(
-        ellipse at 20% 50%,
-        rgb(0 0 0 / 50%),
-        rgb(0 0 0 / 50%) 10px,
-        rgb(255 255 255 / 50%) 10px,
-        rgb(255 255 255 / 50%) 20px
-      )
-      top left no-repeat yellow;
-  background-size:
-    200px 200px,
-    150px 150px;
-}
-~~~
-`
                           ]
                         }
                       ]
                     },
-                    "using_object-view-box": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_images/Using_object-view-box",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
+                    images: {
+                      children: {
+                        using_gradients: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Images/Using_gradients",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "background" (declaration-block-no-duplicate-properties)',
+                                "  background: linear-gradient(",
+                                "10:3 - 10:13",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background" (declaration-block-no-duplicate-properties)
+~~~
+div {
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.multiposition-stops {
+  background: linear-gradient(
+    to left,
+    lime 20%,
+    red 30%,
+    red 45%,
+    cyan 55%,
+    cyan 70%,
+    yellow 80%
+  );
+  background: linear-gradient(
+    to left,
+    lime 20%,
+    red 30% 45%,
+    cyan 55% 70%,
+    yellow 80%
+  );
+}
+.multiposition-stop2 {
+  background: linear-gradient(
+    to left,
+    lime 25%,
+    red 25%,
+    red 50%,
+    cyan 50%,
+    cyan 75%,
+    yellow 75%
+  );
+  background: linear-gradient(
+    to left,
+    lime 25%,
+    red 25% 50%,
+    cyan 50% 75%,
+    yellow 75%
+  );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "background" (declaration-block-no-duplicate-properties)',
+                                "  background: linear-gradient(",
+                                "28:3 - 28:13",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background" (declaration-block-no-duplicate-properties)
+~~~
+div {
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.multiposition-stops {
+  background: linear-gradient(
+    to left,
+    lime 20%,
+    red 30%,
+    red 45%,
+    cyan 55%,
+    cyan 70%,
+    yellow 80%
+  );
+  background: linear-gradient(
+    to left,
+    lime 20%,
+    red 30% 45%,
+    cyan 55% 70%,
+    yellow 80%
+  );
+}
+.multiposition-stop2 {
+  background: linear-gradient(
+    to left,
+    lime 25%,
+    red 25%,
+    red 50%,
+    cyan 50%,
+    cyan 75%,
+    yellow 75%
+  );
+  background: linear-gradient(
+    to left,
+    lime 25%,
+    red 25% 50%,
+    cyan 50% 75%,
+    yellow 75%
+  );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "80%" to be "0.8" (alpha-value-notation)',
+                                "    linear-gradient(217deg, rgb(255 0 0 / 80%), transparent 70.71%),",
+                                "8:43 - 8:46",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "80%" to be "0.8" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.stacked-linear {
+  background:
+    linear-gradient(217deg, rgb(255 0 0 / 80%), transparent 70.71%),
+    linear-gradient(127deg, rgb(0 255 0 / 80%), transparent 70.71%),
+    linear-gradient(336deg, rgb(0 0 255 / 80%), transparent 70.71%);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "80%" to be "0.8" (alpha-value-notation)',
+                                "    linear-gradient(127deg, rgb(0 255 0 / 80%), transparent 70.71%),",
+                                "9:43 - 9:46",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "80%" to be "0.8" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.stacked-linear {
+  background:
+    linear-gradient(217deg, rgb(255 0 0 / 80%), transparent 70.71%),
+    linear-gradient(127deg, rgb(0 255 0 / 80%), transparent 70.71%),
+    linear-gradient(336deg, rgb(0 0 255 / 80%), transparent 70.71%);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "80%" to be "0.8" (alpha-value-notation)',
+                                "    linear-gradient(336deg, rgb(0 0 255 / 80%), transparent 70.71%);",
+                                "10:43 - 10:46",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "80%" to be "0.8" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.stacked-linear {
+  background:
+    linear-gradient(217deg, rgb(255 0 0 / 80%), transparent 70.71%),
+    linear-gradient(127deg, rgb(0 255 0 / 80%), transparent 70.71%),
+    linear-gradient(336deg, rgb(0 0 255 / 80%), transparent 70.71%);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "    radial-gradient(circle at 50% 0, rgb(255 0 0 / 50%), transparent 70.71%),",
+                                "8:52 - 8:55",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.stacked-radial {
+  background:
+    radial-gradient(circle at 50% 0, rgb(255 0 0 / 50%), transparent 70.71%),
+    radial-gradient(circle at 6.7% 75%, rgb(0 0 255 / 50%), transparent 70.71%),
+    radial-gradient(circle at 93.3% 75%, rgb(0 255 0 / 50%), transparent 70.71%)
+      beige;
+  border-radius: 50%;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "    radial-gradient(circle at 6.7% 75%, rgb(0 0 255 / 50%), transparent 70.71%),",
+                                "9:55 - 9:58",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.stacked-radial {
+  background:
+    radial-gradient(circle at 50% 0, rgb(255 0 0 / 50%), transparent 70.71%),
+    radial-gradient(circle at 6.7% 75%, rgb(0 0 255 / 50%), transparent 70.71%),
+    radial-gradient(circle at 93.3% 75%, rgb(0 255 0 / 50%), transparent 70.71%)
+      beige;
+  border-radius: 50%;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "    radial-gradient(circle at 93.3% 75%, rgb(0 255 0 / 50%), transparent 70.71%)",
+                                "10:56 - 10:59",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.stacked-radial {
+  background:
+    radial-gradient(circle at 50% 0, rgb(255 0 0 / 50%), transparent 70.71%),
+    radial-gradient(circle at 6.7% 75%, rgb(0 0 255 / 50%), transparent 70.71%),
+    radial-gradient(circle at 93.3% 75%, rgb(0 255 0 / 50%), transparent 70.71%)
+      beige;
+  border-radius: 50%;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "      rgb(255 0 0 / 50%) 40px,",
+                                "10:21 - 10:24",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 600px;
+  height: 400px;
+}
+
+.multi-repeating-linear {
+  background:
+    repeating-linear-gradient(
+      190deg,
+      rgb(255 0 0 / 50%) 40px,
+      rgb(255 153 0 / 50%) 80px,
+      rgb(255 255 0 / 50%) 120px,
+      rgb(0 255 0 / 50%) 160px,
+      rgb(0 0 255 / 50%) 200px,
+      rgb(75 0 130 / 50%) 240px,
+      rgb(238 130 238 / 50%) 280px,
+      rgb(255 0 0 / 50%) 300px
+    ),
+    repeating-linear-gradient(
+      -190deg,
+      rgb(255 0 0 / 50%) 30px,
+      rgb(255 153 0 / 50%) 60px,
+      rgb(255 255 0 / 50%) 90px,
+      rgb(0 255 0 / 50%) 120px,
+      rgb(0 0 255 / 50%) 150px,
+      rgb(75 0 130 / 50%) 180px,
+      rgb(238 130 238 / 50%) 210px,
+      rgb(255 0 0 / 50%) 230px
+    ),
+    repeating-linear-gradient(
+      23deg,
+      red 50px,
+      orange 100px,
+      yellow 150px,
+      green 200px,
+      blue 250px,
+      indigo 300px,
+      violet 350px,
+      red 370px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "      rgb(255 153 0 / 50%) 80px,",
+                                "11:23 - 11:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 600px;
+  height: 400px;
+}
+
+.multi-repeating-linear {
+  background:
+    repeating-linear-gradient(
+      190deg,
+      rgb(255 0 0 / 50%) 40px,
+      rgb(255 153 0 / 50%) 80px,
+      rgb(255 255 0 / 50%) 120px,
+      rgb(0 255 0 / 50%) 160px,
+      rgb(0 0 255 / 50%) 200px,
+      rgb(75 0 130 / 50%) 240px,
+      rgb(238 130 238 / 50%) 280px,
+      rgb(255 0 0 / 50%) 300px
+    ),
+    repeating-linear-gradient(
+      -190deg,
+      rgb(255 0 0 / 50%) 30px,
+      rgb(255 153 0 / 50%) 60px,
+      rgb(255 255 0 / 50%) 90px,
+      rgb(0 255 0 / 50%) 120px,
+      rgb(0 0 255 / 50%) 150px,
+      rgb(75 0 130 / 50%) 180px,
+      rgb(238 130 238 / 50%) 210px,
+      rgb(255 0 0 / 50%) 230px
+    ),
+    repeating-linear-gradient(
+      23deg,
+      red 50px,
+      orange 100px,
+      yellow 150px,
+      green 200px,
+      blue 250px,
+      indigo 300px,
+      violet 350px,
+      red 370px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "      rgb(255 255 0 / 50%) 120px,",
+                                "12:23 - 12:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 600px;
+  height: 400px;
+}
+
+.multi-repeating-linear {
+  background:
+    repeating-linear-gradient(
+      190deg,
+      rgb(255 0 0 / 50%) 40px,
+      rgb(255 153 0 / 50%) 80px,
+      rgb(255 255 0 / 50%) 120px,
+      rgb(0 255 0 / 50%) 160px,
+      rgb(0 0 255 / 50%) 200px,
+      rgb(75 0 130 / 50%) 240px,
+      rgb(238 130 238 / 50%) 280px,
+      rgb(255 0 0 / 50%) 300px
+    ),
+    repeating-linear-gradient(
+      -190deg,
+      rgb(255 0 0 / 50%) 30px,
+      rgb(255 153 0 / 50%) 60px,
+      rgb(255 255 0 / 50%) 90px,
+      rgb(0 255 0 / 50%) 120px,
+      rgb(0 0 255 / 50%) 150px,
+      rgb(75 0 130 / 50%) 180px,
+      rgb(238 130 238 / 50%) 210px,
+      rgb(255 0 0 / 50%) 230px
+    ),
+    repeating-linear-gradient(
+      23deg,
+      red 50px,
+      orange 100px,
+      yellow 150px,
+      green 200px,
+      blue 250px,
+      indigo 300px,
+      violet 350px,
+      red 370px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "      rgb(0 255 0 / 50%) 160px,",
+                                "13:21 - 13:24",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 600px;
+  height: 400px;
+}
+
+.multi-repeating-linear {
+  background:
+    repeating-linear-gradient(
+      190deg,
+      rgb(255 0 0 / 50%) 40px,
+      rgb(255 153 0 / 50%) 80px,
+      rgb(255 255 0 / 50%) 120px,
+      rgb(0 255 0 / 50%) 160px,
+      rgb(0 0 255 / 50%) 200px,
+      rgb(75 0 130 / 50%) 240px,
+      rgb(238 130 238 / 50%) 280px,
+      rgb(255 0 0 / 50%) 300px
+    ),
+    repeating-linear-gradient(
+      -190deg,
+      rgb(255 0 0 / 50%) 30px,
+      rgb(255 153 0 / 50%) 60px,
+      rgb(255 255 0 / 50%) 90px,
+      rgb(0 255 0 / 50%) 120px,
+      rgb(0 0 255 / 50%) 150px,
+      rgb(75 0 130 / 50%) 180px,
+      rgb(238 130 238 / 50%) 210px,
+      rgb(255 0 0 / 50%) 230px
+    ),
+    repeating-linear-gradient(
+      23deg,
+      red 50px,
+      orange 100px,
+      yellow 150px,
+      green 200px,
+      blue 250px,
+      indigo 300px,
+      violet 350px,
+      red 370px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "      rgb(0 0 255 / 50%) 200px,",
+                                "14:21 - 14:24",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 600px;
+  height: 400px;
+}
+
+.multi-repeating-linear {
+  background:
+    repeating-linear-gradient(
+      190deg,
+      rgb(255 0 0 / 50%) 40px,
+      rgb(255 153 0 / 50%) 80px,
+      rgb(255 255 0 / 50%) 120px,
+      rgb(0 255 0 / 50%) 160px,
+      rgb(0 0 255 / 50%) 200px,
+      rgb(75 0 130 / 50%) 240px,
+      rgb(238 130 238 / 50%) 280px,
+      rgb(255 0 0 / 50%) 300px
+    ),
+    repeating-linear-gradient(
+      -190deg,
+      rgb(255 0 0 / 50%) 30px,
+      rgb(255 153 0 / 50%) 60px,
+      rgb(255 255 0 / 50%) 90px,
+      rgb(0 255 0 / 50%) 120px,
+      rgb(0 0 255 / 50%) 150px,
+      rgb(75 0 130 / 50%) 180px,
+      rgb(238 130 238 / 50%) 210px,
+      rgb(255 0 0 / 50%) 230px
+    ),
+    repeating-linear-gradient(
+      23deg,
+      red 50px,
+      orange 100px,
+      yellow 150px,
+      green 200px,
+      blue 250px,
+      indigo 300px,
+      violet 350px,
+      red 370px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "      rgb(75 0 130 / 50%) 240px,",
+                                "15:22 - 15:25",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 600px;
+  height: 400px;
+}
+
+.multi-repeating-linear {
+  background:
+    repeating-linear-gradient(
+      190deg,
+      rgb(255 0 0 / 50%) 40px,
+      rgb(255 153 0 / 50%) 80px,
+      rgb(255 255 0 / 50%) 120px,
+      rgb(0 255 0 / 50%) 160px,
+      rgb(0 0 255 / 50%) 200px,
+      rgb(75 0 130 / 50%) 240px,
+      rgb(238 130 238 / 50%) 280px,
+      rgb(255 0 0 / 50%) 300px
+    ),
+    repeating-linear-gradient(
+      -190deg,
+      rgb(255 0 0 / 50%) 30px,
+      rgb(255 153 0 / 50%) 60px,
+      rgb(255 255 0 / 50%) 90px,
+      rgb(0 255 0 / 50%) 120px,
+      rgb(0 0 255 / 50%) 150px,
+      rgb(75 0 130 / 50%) 180px,
+      rgb(238 130 238 / 50%) 210px,
+      rgb(255 0 0 / 50%) 230px
+    ),
+    repeating-linear-gradient(
+      23deg,
+      red 50px,
+      orange 100px,
+      yellow 150px,
+      green 200px,
+      blue 250px,
+      indigo 300px,
+      violet 350px,
+      red 370px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "      rgb(238 130 238 / 50%) 280px,",
+                                "16:25 - 16:28",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 600px;
+  height: 400px;
+}
+
+.multi-repeating-linear {
+  background:
+    repeating-linear-gradient(
+      190deg,
+      rgb(255 0 0 / 50%) 40px,
+      rgb(255 153 0 / 50%) 80px,
+      rgb(255 255 0 / 50%) 120px,
+      rgb(0 255 0 / 50%) 160px,
+      rgb(0 0 255 / 50%) 200px,
+      rgb(75 0 130 / 50%) 240px,
+      rgb(238 130 238 / 50%) 280px,
+      rgb(255 0 0 / 50%) 300px
+    ),
+    repeating-linear-gradient(
+      -190deg,
+      rgb(255 0 0 / 50%) 30px,
+      rgb(255 153 0 / 50%) 60px,
+      rgb(255 255 0 / 50%) 90px,
+      rgb(0 255 0 / 50%) 120px,
+      rgb(0 0 255 / 50%) 150px,
+      rgb(75 0 130 / 50%) 180px,
+      rgb(238 130 238 / 50%) 210px,
+      rgb(255 0 0 / 50%) 230px
+    ),
+    repeating-linear-gradient(
+      23deg,
+      red 50px,
+      orange 100px,
+      yellow 150px,
+      green 200px,
+      blue 250px,
+      indigo 300px,
+      violet 350px,
+      red 370px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "      rgb(255 0 0 / 50%) 300px",
+                                "17:21 - 17:24",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 600px;
+  height: 400px;
+}
+
+.multi-repeating-linear {
+  background:
+    repeating-linear-gradient(
+      190deg,
+      rgb(255 0 0 / 50%) 40px,
+      rgb(255 153 0 / 50%) 80px,
+      rgb(255 255 0 / 50%) 120px,
+      rgb(0 255 0 / 50%) 160px,
+      rgb(0 0 255 / 50%) 200px,
+      rgb(75 0 130 / 50%) 240px,
+      rgb(238 130 238 / 50%) 280px,
+      rgb(255 0 0 / 50%) 300px
+    ),
+    repeating-linear-gradient(
+      -190deg,
+      rgb(255 0 0 / 50%) 30px,
+      rgb(255 153 0 / 50%) 60px,
+      rgb(255 255 0 / 50%) 90px,
+      rgb(0 255 0 / 50%) 120px,
+      rgb(0 0 255 / 50%) 150px,
+      rgb(75 0 130 / 50%) 180px,
+      rgb(238 130 238 / 50%) 210px,
+      rgb(255 0 0 / 50%) 230px
+    ),
+    repeating-linear-gradient(
+      23deg,
+      red 50px,
+      orange 100px,
+      yellow 150px,
+      green 200px,
+      blue 250px,
+      indigo 300px,
+      violet 350px,
+      red 370px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "      rgb(255 0 0 / 50%) 30px,",
+                                "21:21 - 21:24",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 600px;
+  height: 400px;
+}
+
+.multi-repeating-linear {
+  background:
+    repeating-linear-gradient(
+      190deg,
+      rgb(255 0 0 / 50%) 40px,
+      rgb(255 153 0 / 50%) 80px,
+      rgb(255 255 0 / 50%) 120px,
+      rgb(0 255 0 / 50%) 160px,
+      rgb(0 0 255 / 50%) 200px,
+      rgb(75 0 130 / 50%) 240px,
+      rgb(238 130 238 / 50%) 280px,
+      rgb(255 0 0 / 50%) 300px
+    ),
+    repeating-linear-gradient(
+      -190deg,
+      rgb(255 0 0 / 50%) 30px,
+      rgb(255 153 0 / 50%) 60px,
+      rgb(255 255 0 / 50%) 90px,
+      rgb(0 255 0 / 50%) 120px,
+      rgb(0 0 255 / 50%) 150px,
+      rgb(75 0 130 / 50%) 180px,
+      rgb(238 130 238 / 50%) 210px,
+      rgb(255 0 0 / 50%) 230px
+    ),
+    repeating-linear-gradient(
+      23deg,
+      red 50px,
+      orange 100px,
+      yellow 150px,
+      green 200px,
+      blue 250px,
+      indigo 300px,
+      violet 350px,
+      red 370px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "      rgb(255 153 0 / 50%) 60px,",
+                                "22:23 - 22:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 600px;
+  height: 400px;
+}
+
+.multi-repeating-linear {
+  background:
+    repeating-linear-gradient(
+      190deg,
+      rgb(255 0 0 / 50%) 40px,
+      rgb(255 153 0 / 50%) 80px,
+      rgb(255 255 0 / 50%) 120px,
+      rgb(0 255 0 / 50%) 160px,
+      rgb(0 0 255 / 50%) 200px,
+      rgb(75 0 130 / 50%) 240px,
+      rgb(238 130 238 / 50%) 280px,
+      rgb(255 0 0 / 50%) 300px
+    ),
+    repeating-linear-gradient(
+      -190deg,
+      rgb(255 0 0 / 50%) 30px,
+      rgb(255 153 0 / 50%) 60px,
+      rgb(255 255 0 / 50%) 90px,
+      rgb(0 255 0 / 50%) 120px,
+      rgb(0 0 255 / 50%) 150px,
+      rgb(75 0 130 / 50%) 180px,
+      rgb(238 130 238 / 50%) 210px,
+      rgb(255 0 0 / 50%) 230px
+    ),
+    repeating-linear-gradient(
+      23deg,
+      red 50px,
+      orange 100px,
+      yellow 150px,
+      green 200px,
+      blue 250px,
+      indigo 300px,
+      violet 350px,
+      red 370px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "      rgb(255 255 0 / 50%) 90px,",
+                                "23:23 - 23:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 600px;
+  height: 400px;
+}
+
+.multi-repeating-linear {
+  background:
+    repeating-linear-gradient(
+      190deg,
+      rgb(255 0 0 / 50%) 40px,
+      rgb(255 153 0 / 50%) 80px,
+      rgb(255 255 0 / 50%) 120px,
+      rgb(0 255 0 / 50%) 160px,
+      rgb(0 0 255 / 50%) 200px,
+      rgb(75 0 130 / 50%) 240px,
+      rgb(238 130 238 / 50%) 280px,
+      rgb(255 0 0 / 50%) 300px
+    ),
+    repeating-linear-gradient(
+      -190deg,
+      rgb(255 0 0 / 50%) 30px,
+      rgb(255 153 0 / 50%) 60px,
+      rgb(255 255 0 / 50%) 90px,
+      rgb(0 255 0 / 50%) 120px,
+      rgb(0 0 255 / 50%) 150px,
+      rgb(75 0 130 / 50%) 180px,
+      rgb(238 130 238 / 50%) 210px,
+      rgb(255 0 0 / 50%) 230px
+    ),
+    repeating-linear-gradient(
+      23deg,
+      red 50px,
+      orange 100px,
+      yellow 150px,
+      green 200px,
+      blue 250px,
+      indigo 300px,
+      violet 350px,
+      red 370px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "      rgb(0 255 0 / 50%) 120px,",
+                                "24:21 - 24:24",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 600px;
+  height: 400px;
+}
+
+.multi-repeating-linear {
+  background:
+    repeating-linear-gradient(
+      190deg,
+      rgb(255 0 0 / 50%) 40px,
+      rgb(255 153 0 / 50%) 80px,
+      rgb(255 255 0 / 50%) 120px,
+      rgb(0 255 0 / 50%) 160px,
+      rgb(0 0 255 / 50%) 200px,
+      rgb(75 0 130 / 50%) 240px,
+      rgb(238 130 238 / 50%) 280px,
+      rgb(255 0 0 / 50%) 300px
+    ),
+    repeating-linear-gradient(
+      -190deg,
+      rgb(255 0 0 / 50%) 30px,
+      rgb(255 153 0 / 50%) 60px,
+      rgb(255 255 0 / 50%) 90px,
+      rgb(0 255 0 / 50%) 120px,
+      rgb(0 0 255 / 50%) 150px,
+      rgb(75 0 130 / 50%) 180px,
+      rgb(238 130 238 / 50%) 210px,
+      rgb(255 0 0 / 50%) 230px
+    ),
+    repeating-linear-gradient(
+      23deg,
+      red 50px,
+      orange 100px,
+      yellow 150px,
+      green 200px,
+      blue 250px,
+      indigo 300px,
+      violet 350px,
+      red 370px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "      rgb(0 0 255 / 50%) 150px,",
+                                "25:21 - 25:24",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 600px;
+  height: 400px;
+}
+
+.multi-repeating-linear {
+  background:
+    repeating-linear-gradient(
+      190deg,
+      rgb(255 0 0 / 50%) 40px,
+      rgb(255 153 0 / 50%) 80px,
+      rgb(255 255 0 / 50%) 120px,
+      rgb(0 255 0 / 50%) 160px,
+      rgb(0 0 255 / 50%) 200px,
+      rgb(75 0 130 / 50%) 240px,
+      rgb(238 130 238 / 50%) 280px,
+      rgb(255 0 0 / 50%) 300px
+    ),
+    repeating-linear-gradient(
+      -190deg,
+      rgb(255 0 0 / 50%) 30px,
+      rgb(255 153 0 / 50%) 60px,
+      rgb(255 255 0 / 50%) 90px,
+      rgb(0 255 0 / 50%) 120px,
+      rgb(0 0 255 / 50%) 150px,
+      rgb(75 0 130 / 50%) 180px,
+      rgb(238 130 238 / 50%) 210px,
+      rgb(255 0 0 / 50%) 230px
+    ),
+    repeating-linear-gradient(
+      23deg,
+      red 50px,
+      orange 100px,
+      yellow 150px,
+      green 200px,
+      blue 250px,
+      indigo 300px,
+      violet 350px,
+      red 370px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "      rgb(75 0 130 / 50%) 180px,",
+                                "26:22 - 26:25",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 600px;
+  height: 400px;
+}
+
+.multi-repeating-linear {
+  background:
+    repeating-linear-gradient(
+      190deg,
+      rgb(255 0 0 / 50%) 40px,
+      rgb(255 153 0 / 50%) 80px,
+      rgb(255 255 0 / 50%) 120px,
+      rgb(0 255 0 / 50%) 160px,
+      rgb(0 0 255 / 50%) 200px,
+      rgb(75 0 130 / 50%) 240px,
+      rgb(238 130 238 / 50%) 280px,
+      rgb(255 0 0 / 50%) 300px
+    ),
+    repeating-linear-gradient(
+      -190deg,
+      rgb(255 0 0 / 50%) 30px,
+      rgb(255 153 0 / 50%) 60px,
+      rgb(255 255 0 / 50%) 90px,
+      rgb(0 255 0 / 50%) 120px,
+      rgb(0 0 255 / 50%) 150px,
+      rgb(75 0 130 / 50%) 180px,
+      rgb(238 130 238 / 50%) 210px,
+      rgb(255 0 0 / 50%) 230px
+    ),
+    repeating-linear-gradient(
+      23deg,
+      red 50px,
+      orange 100px,
+      yellow 150px,
+      green 200px,
+      blue 250px,
+      indigo 300px,
+      violet 350px,
+      red 370px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "      rgb(238 130 238 / 50%) 210px,",
+                                "27:25 - 27:28",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 600px;
+  height: 400px;
+}
+
+.multi-repeating-linear {
+  background:
+    repeating-linear-gradient(
+      190deg,
+      rgb(255 0 0 / 50%) 40px,
+      rgb(255 153 0 / 50%) 80px,
+      rgb(255 255 0 / 50%) 120px,
+      rgb(0 255 0 / 50%) 160px,
+      rgb(0 0 255 / 50%) 200px,
+      rgb(75 0 130 / 50%) 240px,
+      rgb(238 130 238 / 50%) 280px,
+      rgb(255 0 0 / 50%) 300px
+    ),
+    repeating-linear-gradient(
+      -190deg,
+      rgb(255 0 0 / 50%) 30px,
+      rgb(255 153 0 / 50%) 60px,
+      rgb(255 255 0 / 50%) 90px,
+      rgb(0 255 0 / 50%) 120px,
+      rgb(0 0 255 / 50%) 150px,
+      rgb(75 0 130 / 50%) 180px,
+      rgb(238 130 238 / 50%) 210px,
+      rgb(255 0 0 / 50%) 230px
+    ),
+    repeating-linear-gradient(
+      23deg,
+      red 50px,
+      orange 100px,
+      yellow 150px,
+      green 200px,
+      blue 250px,
+      indigo 300px,
+      violet 350px,
+      red 370px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "      rgb(255 0 0 / 50%) 230px",
+                                "28:21 - 28:24",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 600px;
+  height: 400px;
+}
+
+.multi-repeating-linear {
+  background:
+    repeating-linear-gradient(
+      190deg,
+      rgb(255 0 0 / 50%) 40px,
+      rgb(255 153 0 / 50%) 80px,
+      rgb(255 255 0 / 50%) 120px,
+      rgb(0 255 0 / 50%) 160px,
+      rgb(0 0 255 / 50%) 200px,
+      rgb(75 0 130 / 50%) 240px,
+      rgb(238 130 238 / 50%) 280px,
+      rgb(255 0 0 / 50%) 300px
+    ),
+    repeating-linear-gradient(
+      -190deg,
+      rgb(255 0 0 / 50%) 30px,
+      rgb(255 153 0 / 50%) 60px,
+      rgb(255 255 0 / 50%) 90px,
+      rgb(0 255 0 / 50%) 120px,
+      rgb(0 0 255 / 50%) 150px,
+      rgb(75 0 130 / 50%) 180px,
+      rgb(238 130 238 / 50%) 210px,
+      rgb(255 0 0 / 50%) 230px
+    ),
+    repeating-linear-gradient(
+      23deg,
+      red 50px,
+      orange 100px,
+      yellow 150px,
+      green 200px,
+      blue 250px,
+      indigo 300px,
+      violet 350px,
+      red 370px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(255 127 0 / 25%) 50px,",
+                                "12:23 - 12:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(255 127 0 / 25%) 56px,",
+                                "13:23 - 13:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(255 127 0 / 25%) 63px,",
+                                "16:23 - 16:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(255 127 0 / 25%) 69px,",
+                                "17:23 - 17:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(255 206 0 / 25%) 116px,",
+                                "20:23 - 20:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(255 206 0 / 25%) 166px",
+                                "21:23 - 21:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(255 127 0 / 25%) 50px,",
+                                "27:23 - 27:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(255 127 0 / 25%) 56px,",
+                                "28:23 - 28:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(255 127 0 / 25%) 63px,",
+                                "31:23 - 31:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(255 127 0 / 25%) 69px,",
+                                "32:23 - 32:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(255 206 0 / 25%) 116px,",
+                                "35:23 - 35:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(255 206 0 / 25%) 166px",
+                                "36:23 - 36:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(143 77 63 / 25%) 5px,",
+                                "42:23 - 42:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(143 77 63 / 25%) 10px",
+                                "43:23 - 43:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(143 77 63 / 25%) 5px,",
+                                "49:23 - 49:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(143 77 63 / 25%) 10px",
+                                "50:23 - 50:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(255 127 0 / 25%) 50px 56px,",
+                                "57:23 - 57:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(255 127 0 / 25%) 63px 69px,",
+                                "59:23 - 59:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(255 206 0 / 25%) 116px 166px",
+                                "61:23 - 61:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(255 127 0 / 25%) 50px 56px,",
+                                "66:23 - 66:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(255 127 0 / 25%) 63px 69px,",
+                                "68:23 - 68:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(255 206 0 / 25%) 116px 166px",
+                                "70:23 - 70:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(143 77 63 / 25%) 5px 10px",
+                                "75:23 - 75:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "25%" to be "0.25" (alpha-value-notation)',
+                                "      rgb(143 77 63 / 25%) 5px 10px",
+                                "80:23 - 80:26",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "25%" to be "0.25" (alpha-value-notation)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-block-no-duplicate-properties",
+                                'Unexpected duplicate "background" (declaration-block-no-duplicate-properties)',
+                                "  background:",
+                                "7:3 - 7:13",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[declaration-block-no-duplicate-properties] Unexpected duplicate "background" (declaration-block-no-duplicate-properties)
+~~~
+div {
+  width: 200px;
+  height: 200px;
+}
+
+.plaid-gradient {
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 50px,
+      rgb(255 127 0 / 25%) 50px,
+      rgb(255 127 0 / 25%) 56px,
+      transparent 56px,
+      transparent 63px,
+      rgb(255 127 0 / 25%) 63px,
+      rgb(255 127 0 / 25%) 69px,
+      transparent 69px,
+      transparent 116px,
+      rgb(255 206 0 / 25%) 116px,
+      rgb(255 206 0 / 25%) 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgb(143 77 63 / 25%) 5px,
+      rgb(143 77 63 / 25%) 10px
+    );
+
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent 0 50px,
+      rgb(255 127 0 / 25%) 50px 56px,
+      transparent 56px 63px,
+      rgb(255 127 0 / 25%) 63px 69px,
+      transparent 69px 116px,
+      rgb(255 206 0 / 25%) 116px 166px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 5px,
+      rgb(143 77 63 / 25%) 5px 10px
+    );
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "        rgb(0 0 0 / 50%),",
+                                "10:21 - 10:24",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 250px;
+  height: 150px;
+}
+
+.multi-target {
+  background:
+    repeating-radial-gradient(
+        ellipse at 80% 50%,
+        rgb(0 0 0 / 50%),
+        rgb(0 0 0 / 50%) 15px,
+        rgb(255 255 255 / 50%) 15px,
+        rgb(255 255 255 / 50%) 30px
+      )
+      top left no-repeat,
+    repeating-radial-gradient(
+        ellipse at 20% 50%,
+        rgb(0 0 0 / 50%),
+        rgb(0 0 0 / 50%) 10px,
+        rgb(255 255 255 / 50%) 10px,
+        rgb(255 255 255 / 50%) 20px
+      )
+      top left no-repeat yellow;
+  background-size:
+    200px 200px,
+    150px 150px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "        rgb(0 0 0 / 50%) 15px,",
+                                "11:21 - 11:24",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 250px;
+  height: 150px;
+}
+
+.multi-target {
+  background:
+    repeating-radial-gradient(
+        ellipse at 80% 50%,
+        rgb(0 0 0 / 50%),
+        rgb(0 0 0 / 50%) 15px,
+        rgb(255 255 255 / 50%) 15px,
+        rgb(255 255 255 / 50%) 30px
+      )
+      top left no-repeat,
+    repeating-radial-gradient(
+        ellipse at 20% 50%,
+        rgb(0 0 0 / 50%),
+        rgb(0 0 0 / 50%) 10px,
+        rgb(255 255 255 / 50%) 10px,
+        rgb(255 255 255 / 50%) 20px
+      )
+      top left no-repeat yellow;
+  background-size:
+    200px 200px,
+    150px 150px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "        rgb(255 255 255 / 50%) 15px,",
+                                "12:27 - 12:30",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 250px;
+  height: 150px;
+}
+
+.multi-target {
+  background:
+    repeating-radial-gradient(
+        ellipse at 80% 50%,
+        rgb(0 0 0 / 50%),
+        rgb(0 0 0 / 50%) 15px,
+        rgb(255 255 255 / 50%) 15px,
+        rgb(255 255 255 / 50%) 30px
+      )
+      top left no-repeat,
+    repeating-radial-gradient(
+        ellipse at 20% 50%,
+        rgb(0 0 0 / 50%),
+        rgb(0 0 0 / 50%) 10px,
+        rgb(255 255 255 / 50%) 10px,
+        rgb(255 255 255 / 50%) 20px
+      )
+      top left no-repeat yellow;
+  background-size:
+    200px 200px,
+    150px 150px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "        rgb(255 255 255 / 50%) 30px",
+                                "13:27 - 13:30",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 250px;
+  height: 150px;
+}
+
+.multi-target {
+  background:
+    repeating-radial-gradient(
+        ellipse at 80% 50%,
+        rgb(0 0 0 / 50%),
+        rgb(0 0 0 / 50%) 15px,
+        rgb(255 255 255 / 50%) 15px,
+        rgb(255 255 255 / 50%) 30px
+      )
+      top left no-repeat,
+    repeating-radial-gradient(
+        ellipse at 20% 50%,
+        rgb(0 0 0 / 50%),
+        rgb(0 0 0 / 50%) 10px,
+        rgb(255 255 255 / 50%) 10px,
+        rgb(255 255 255 / 50%) 20px
+      )
+      top left no-repeat yellow;
+  background-size:
+    200px 200px,
+    150px 150px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "        rgb(0 0 0 / 50%),",
+                                "18:21 - 18:24",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 250px;
+  height: 150px;
+}
+
+.multi-target {
+  background:
+    repeating-radial-gradient(
+        ellipse at 80% 50%,
+        rgb(0 0 0 / 50%),
+        rgb(0 0 0 / 50%) 15px,
+        rgb(255 255 255 / 50%) 15px,
+        rgb(255 255 255 / 50%) 30px
+      )
+      top left no-repeat,
+    repeating-radial-gradient(
+        ellipse at 20% 50%,
+        rgb(0 0 0 / 50%),
+        rgb(0 0 0 / 50%) 10px,
+        rgb(255 255 255 / 50%) 10px,
+        rgb(255 255 255 / 50%) 20px
+      )
+      top left no-repeat yellow;
+  background-size:
+    200px 200px,
+    150px 150px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "        rgb(0 0 0 / 50%) 10px,",
+                                "19:21 - 19:24",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 250px;
+  height: 150px;
+}
+
+.multi-target {
+  background:
+    repeating-radial-gradient(
+        ellipse at 80% 50%,
+        rgb(0 0 0 / 50%),
+        rgb(0 0 0 / 50%) 15px,
+        rgb(255 255 255 / 50%) 15px,
+        rgb(255 255 255 / 50%) 30px
+      )
+      top left no-repeat,
+    repeating-radial-gradient(
+        ellipse at 20% 50%,
+        rgb(0 0 0 / 50%),
+        rgb(0 0 0 / 50%) 10px,
+        rgb(255 255 255 / 50%) 10px,
+        rgb(255 255 255 / 50%) 20px
+      )
+      top left no-repeat yellow;
+  background-size:
+    200px 200px,
+    150px 150px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "        rgb(255 255 255 / 50%) 10px,",
+                                "20:27 - 20:30",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 250px;
+  height: 150px;
+}
+
+.multi-target {
+  background:
+    repeating-radial-gradient(
+        ellipse at 80% 50%,
+        rgb(0 0 0 / 50%),
+        rgb(0 0 0 / 50%) 15px,
+        rgb(255 255 255 / 50%) 15px,
+        rgb(255 255 255 / 50%) 30px
+      )
+      top left no-repeat,
+    repeating-radial-gradient(
+        ellipse at 20% 50%,
+        rgb(0 0 0 / 50%),
+        rgb(0 0 0 / 50%) 10px,
+        rgb(255 255 255 / 50%) 10px,
+        rgb(255 255 255 / 50%) 20px
+      )
+      top left no-repeat yellow;
+  background-size:
+    200px 200px,
+    150px 150px;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "50%" to be "0.5" (alpha-value-notation)',
+                                "        rgb(255 255 255 / 50%) 20px",
+                                "21:27 - 21:30",
+                                `/en-US/docs/Web/CSS/Guides/Images/Using_gradients
+[alpha-value-notation] Expected "50%" to be "0.5" (alpha-value-notation)
+~~~
+div {
+  width: 250px;
+  height: 150px;
+}
+
+.multi-target {
+  background:
+    repeating-radial-gradient(
+        ellipse at 80% 50%,
+        rgb(0 0 0 / 50%),
+        rgb(0 0 0 / 50%) 15px,
+        rgb(255 255 255 / 50%) 15px,
+        rgb(255 255 255 / 50%) 30px
+      )
+      top left no-repeat,
+    repeating-radial-gradient(
+        ellipse at 20% 50%,
+        rgb(0 0 0 / 50%),
+        rgb(0 0 0 / 50%) 10px,
+        rgb(255 255 255 / 50%) 10px,
+        rgb(255 255 255 / 50%) 20px
+      )
+      top left no-repeat yellow;
+  background-size:
+    200px 200px,
+    150px 150px;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
                         }
-                      ]
-                    }
-                  }
-                },
-                css_inline_layout: {
-                  children: {
-                    inline_formatting_context: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_inline_layout/Inline_formatting_context",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "padding-inline" (declaration-block-no-redundant-longhand-properties)',
-                            "  padding-inline-end: 40px;",
-                            "13:3 - 13:21",
-                            `/en-US/docs/Web/CSS/CSS_inline_layout/Inline_formatting_context
+                      }
+                    },
+                    inline_layout: {
+                      children: {
+                        inline_formatting_context: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Inline_layout/Inline_formatting_context",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "padding-inline" (declaration-block-no-redundant-longhand-properties)',
+                                "  padding-inline-end: 40px;",
+                                "13:3 - 13:21",
+                                `/en-US/docs/Web/CSS/Guides/Inline_layout/Inline_formatting_context
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "padding-inline" (declaration-block-no-redundant-longhand-properties)
 ~~~
 body {
@@ -28394,16 +28557,16 @@ span {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "margin-inline" (declaration-block-no-redundant-longhand-properties)',
-                            "  margin-inline-end: 10px;",
-                            "15:3 - 15:20",
-                            `/en-US/docs/Web/CSS/CSS_inline_layout/Inline_formatting_context
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "margin-inline" (declaration-block-no-redundant-longhand-properties)',
+                                "  margin-inline-end: 10px;",
+                                "15:3 - 15:20",
+                                `/en-US/docs/Web/CSS/Guides/Inline_layout/Inline_formatting_context
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "margin-inline" (declaration-block-no-redundant-longhand-properties)
 ~~~
 body {
@@ -28431,26 +28594,26 @@ span {
 }
 ~~~
 `
+                              ]
+                            }
                           ]
                         }
-                      ]
-                    }
-                  }
-                },
-                css_lists: {
-                  children: {
-                    consistent_list_indentation: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_lists/Consistent_list_indentation",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "margin-block" (declaration-block-no-redundant-longhand-properties)',
-                            "  margin-block-end: 1em;",
-                            "7:3 - 7:19",
-                            `/en-US/docs/Web/CSS/CSS_lists/Consistent_list_indentation
+                      }
+                    },
+                    lists: {
+                      children: {
+                        indenting: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Lists/Indenting",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "margin-block" (declaration-block-no-redundant-longhand-properties)',
+                                "  margin-block-end: 1em;",
+                                "7:3 - 7:19",
+                                `/en-US/docs/Web/CSS/Guides/Lists/Indenting
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "margin-block" (declaration-block-no-redundant-longhand-properties)
 ~~~
 ul,
@@ -28476,16 +28639,16 @@ li {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "margin-block" (declaration-block-no-redundant-longhand-properties)',
-                            "  margin-block-end: 1em;",
-                            "18:3 - 18:19",
-                            `/en-US/docs/Web/CSS/CSS_lists/Consistent_list_indentation
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "margin-block" (declaration-block-no-redundant-longhand-properties)',
+                                "  margin-block-end: 1em;",
+                                "18:3 - 18:19",
+                                `/en-US/docs/Web/CSS/Guides/Lists/Indenting
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "margin-block" (declaration-block-no-redundant-longhand-properties)
 ~~~
 ul {
@@ -28510,26 +28673,26 @@ ul {
 }
 ~~~
 `
+                              ]
+                            }
                           ]
                         }
-                      ]
-                    }
-                  }
-                },
-                css_logical_properties_and_values: {
-                  children: {
-                    margins_borders_padding: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_logical_properties_and_values/Margins_borders_padding",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "border-inline" (declaration-block-no-redundant-longhand-properties)',
-                            "  border-inline-color: rebeccapurple;",
-                            "5:3 - 5:22",
-                            `/en-US/docs/Web/CSS/CSS_logical_properties_and_values/Margins_borders_padding
+                      }
+                    },
+                    logical_properties_and_values: {
+                      children: {
+                        margins_borders_padding: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Margins_borders_padding",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "border-inline" (declaration-block-no-redundant-longhand-properties)',
+                                "  border-inline-color: rebeccapurple;",
+                                "5:3 - 5:22",
+                                `/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Margins_borders_padding
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "border-inline" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .box {
@@ -28540,16 +28703,16 @@ ul {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "margin" (declaration-block-no-redundant-longhand-properties)',
-                            "  margin-left: 50px;",
-                            "28:3 - 28:14",
-                            `/en-US/docs/Web/CSS/CSS_logical_properties_and_values/Margins_borders_padding
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "margin" (declaration-block-no-redundant-longhand-properties)',
+                                "  margin-left: 50px;",
+                                "28:3 - 28:14",
+                                `/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Margins_borders_padding
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "margin" (declaration-block-no-redundant-longhand-properties)
 ~~~
 body {
@@ -28590,16 +28753,16 @@ body {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "margin-block" (declaration-block-no-redundant-longhand-properties)',
-                            "  margin-block-end: 2em;",
-                            "34:3 - 34:19",
-                            `/en-US/docs/Web/CSS/CSS_logical_properties_and_values/Margins_borders_padding
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "margin-block" (declaration-block-no-redundant-longhand-properties)',
+                                "  margin-block-end: 2em;",
+                                "34:3 - 34:19",
+                                `/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Margins_borders_padding
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "margin-block" (declaration-block-no-redundant-longhand-properties)
 ~~~
 body {
@@ -28640,16 +28803,16 @@ body {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "margin-inline" (declaration-block-no-redundant-longhand-properties)',
-                            "  margin-inline-start: 50px;",
-                            "35:3 - 35:22",
-                            `/en-US/docs/Web/CSS/CSS_logical_properties_and_values/Margins_borders_padding
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "margin-inline" (declaration-block-no-redundant-longhand-properties)',
+                                "  margin-inline-start: 50px;",
+                                "35:3 - 35:22",
+                                `/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Margins_borders_padding
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "margin-inline" (declaration-block-no-redundant-longhand-properties)
 ~~~
 body {
@@ -28690,16 +28853,16 @@ body {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "padding" (declaration-block-no-redundant-longhand-properties)',
-                            "  padding-left: 50px;",
-                            "26:3 - 26:15",
-                            `/en-US/docs/Web/CSS/CSS_logical_properties_and_values/Margins_borders_padding
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "padding" (declaration-block-no-redundant-longhand-properties)',
+                                "  padding-left: 50px;",
+                                "26:3 - 26:15",
+                                `/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Margins_borders_padding
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "padding" (declaration-block-no-redundant-longhand-properties)
 ~~~
 body {
@@ -28738,16 +28901,16 @@ body {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "padding-block" (declaration-block-no-redundant-longhand-properties)',
-                            "  padding-block-end: 2em;",
-                            "32:3 - 32:20",
-                            `/en-US/docs/Web/CSS/CSS_logical_properties_and_values/Margins_borders_padding
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "padding-block" (declaration-block-no-redundant-longhand-properties)',
+                                "  padding-block-end: 2em;",
+                                "32:3 - 32:20",
+                                `/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Margins_borders_padding
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "padding-block" (declaration-block-no-redundant-longhand-properties)
 ~~~
 body {
@@ -28786,16 +28949,16 @@ body {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "padding-inline" (declaration-block-no-redundant-longhand-properties)',
-                            "  padding-inline-start: 50px;",
-                            "33:3 - 33:23",
-                            `/en-US/docs/Web/CSS/CSS_logical_properties_and_values/Margins_borders_padding
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "padding-inline" (declaration-block-no-redundant-longhand-properties)',
+                                "  padding-inline-start: 50px;",
+                                "33:3 - 33:23",
+                                `/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Margins_borders_padding
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "padding-inline" (declaration-block-no-redundant-longhand-properties)
 ~~~
 body {
@@ -28834,16 +28997,16 @@ body {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "border-right" (declaration-block-no-redundant-longhand-properties)',
-                            "  border-right-width: 5px;",
-                            "25:3 - 25:21",
-                            `/en-US/docs/Web/CSS/CSS_logical_properties_and_values/Margins_borders_padding
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "border-right" (declaration-block-no-redundant-longhand-properties)',
+                                "  border-right-width: 5px;",
+                                "25:3 - 25:21",
+                                `/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Margins_borders_padding
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "border-right" (declaration-block-no-redundant-longhand-properties)
 ~~~
 body {
@@ -28885,16 +29048,16 @@ body {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "border-inline-end" (declaration-block-no-redundant-longhand-properties)',
-                            "  border-inline-end-width: 5px;",
-                            "34:3 - 34:26",
-                            `/en-US/docs/Web/CSS/CSS_logical_properties_and_values/Margins_borders_padding
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "border-inline-end" (declaration-block-no-redundant-longhand-properties)',
+                                "  border-inline-end-width: 5px;",
+                                "34:3 - 34:26",
+                                `/en-US/docs/Web/CSS/Guides/Logical_properties_and_values/Margins_borders_padding
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "border-inline-end" (declaration-block-no-redundant-longhand-properties)
 ~~~
 body {
@@ -28936,40 +29099,26 @@ body {
 }
 ~~~
 `
+                              ]
+                            }
                           ]
                         }
-                      ]
-                    }
-                  }
-                },
-                css_masking: {
-                  children: {
-                    clipping: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_masking/Clipping",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
+                      }
                     },
-                    mask_properties: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_masking/Mask_properties",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "mask" (declaration-block-no-redundant-longhand-properties)',
-                            "  mask-composite: add;",
-                            "11:3 - 11:17",
-                            `/en-US/docs/Web/CSS/CSS_masking/Mask_properties
+                    masking: {
+                      children: {
+                        mask_properties: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Masking/Mask_properties",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "mask" (declaration-block-no-redundant-longhand-properties)',
+                                "  mask-composite: add;",
+                                "11:3 - 11:17",
+                                `/en-US/docs/Web/CSS/Guides/Masking/Mask_properties
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "mask" (declaration-block-no-redundant-longhand-properties)
 ~~~
 .masked-element {
@@ -28986,65 +29135,45 @@ body {
 }
 ~~~
 `
+                              ]
+                            }
                           ]
                         }
-                      ]
+                      }
                     },
-                    masking: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_masking/Masking",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    },
-                    multiple_masks: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_masking/Multiple_masks",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                css_media_queries: {
-                  children: {
-                    testing_media_queries: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_media_queries/Testing_media_queries",
-                      messages: [
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "api.MediaQueryList",
-                            "Expected:",
-                            "[None]"
+                    media_queries: {
+                      children: {
+                        testing: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Media_queries/Testing",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "api.MediaQueryList",
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
                           ]
                         }
-                      ]
-                    }
-                  }
-                },
-                css_multicol_layout: {
-                  children: {
-                    basic_concepts: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_multicol_layout/Basic_concepts",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "columns" (declaration-block-no-redundant-longhand-properties)',
-                            "  column-width: 200px;",
-                            "7:3 - 7:15",
-                            `/en-US/docs/Web/CSS/CSS_multicol_layout/Basic_concepts
+                      }
+                    },
+                    multicol_layout: {
+                      children: {
+                        basic_concepts: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Multicol_layout/Basic_concepts",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "columns" (declaration-block-no-redundant-longhand-properties)',
+                                "  column-width: 200px;",
+                                "7:3 - 7:15",
+                                `/en-US/docs/Web/CSS/Guides/Multicol_layout/Basic_concepts
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "columns" (declaration-block-no-redundant-longhand-properties)
 ~~~
 body {
@@ -29057,22 +29186,22 @@ body {
 }
 ~~~
 `
+                              ]
+                            }
                           ]
-                        }
-                      ]
-                    },
-                    styling_columns: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_multicol_layout/Styling_columns",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "declaration-block-no-redundant-longhand-properties",
-                            'Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)',
-                            "  column-rule-color: rebeccapurple;",
-                            "9:3 - 9:20",
-                            `/en-US/docs/Web/CSS/CSS_multicol_layout/Styling_columns
+                        },
+                        styling_columns: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Multicol_layout/Styling_columns",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "declaration-block-no-redundant-longhand-properties",
+                                'Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)',
+                                "  column-rule-color: rebeccapurple;",
+                                "9:3 - 9:20",
+                                `/en-US/docs/Web/CSS/Guides/Multicol_layout/Styling_columns
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "column-rule" (declaration-block-no-redundant-longhand-properties)
 ~~~
 body {
@@ -29087,21 +29216,21 @@ body {
 }
 ~~~
 `
+                              ]
+                            }
                           ]
                         }
-                      ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/CSS/CSS_multicol_layout",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "declaration-block-no-redundant-longhand-properties",
-                        'Expected shorthand property "columns" (declaration-block-no-redundant-longhand-properties)',
-                        "  column-width: 8em;",
-                        "3:3 - 3:15",
-                        `/en-US/docs/Web/CSS/CSS_multicol_layout
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Multicol_layout",
+                      messages: [
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "declaration-block-no-redundant-longhand-properties",
+                            'Expected shorthand property "columns" (declaration-block-no-redundant-longhand-properties)',
+                            "  column-width: 8em;",
+                            "3:3 - 3:15",
+                            `/en-US/docs/Web/CSS/Guides/Multicol_layout
 [declaration-block-no-redundant-longhand-properties] Expected shorthand property "columns" (declaration-block-no-redundant-longhand-properties)
 ~~~
 article {
@@ -29176,22 +29305,1553 @@ blockquote p::after {
 }
 ~~~
 `
+                          ]
+                        }
                       ]
-                    }
-                  ]
-                },
-                css_overflow: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/CSS_overflow",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "20%" to be "0.2" (alpha-value-notation)',
-                        "  opacity: 20%;",
-                        "81:12 - 81:15",
-                        `/en-US/docs/Web/CSS/CSS_overflow
+                    },
+                    overflow: {
+                      children: {
+                        carousels: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Overflow/Carousels",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "left" (selector-type-no-unknown)',
+                                "ul::scroll-button(left) {",
+                                "68:19 - 68:23",
+                                `/en-US/docs/Web/CSS/Guides/Overflow/Carousels
+[selector-type-no-unknown] Unexpected unknown type selector "left" (selector-type-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+ul {
+  width: 100vw;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  gap: 4vw;
+}
+
+li {
+  list-style-type: none;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  padding: 20px;
+
+  flex: 0 0 100%;
+}
+
+li:nth-child(even) {
+  background-color: cyan;
+}
+
+ul {
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  scroll-snap-align: center;
+}
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+ul {
+  anchor-name: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "right" (selector-type-no-unknown)',
+                                "ul::scroll-button(right) {",
+                                "72:19 - 72:24",
+                                `/en-US/docs/Web/CSS/Guides/Overflow/Carousels
+[selector-type-no-unknown] Unexpected unknown type selector "right" (selector-type-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+ul {
+  width: 100vw;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  gap: 4vw;
+}
+
+li {
+  list-style-type: none;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  padding: 20px;
+
+  flex: 0 0 100%;
+}
+
+li:nth-child(even) {
+  background-color: cyan;
+}
+
+ul {
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  scroll-snap-align: center;
+}
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+ul {
+  anchor-name: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "left" (selector-type-no-unknown)',
+                                "ul::scroll-button(left) {",
+                                "85:19 - 85:23",
+                                `/en-US/docs/Web/CSS/Guides/Overflow/Carousels
+[selector-type-no-unknown] Unexpected unknown type selector "left" (selector-type-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+ul {
+  width: 100vw;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  gap: 4vw;
+}
+
+li {
+  list-style-type: none;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  padding: 20px;
+
+  flex: 0 0 100%;
+}
+
+li:nth-child(even) {
+  background-color: cyan;
+}
+
+ul {
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  scroll-snap-align: center;
+}
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+ul {
+  anchor-name: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "right" (selector-type-no-unknown)',
+                                "ul::scroll-button(right) {",
+                                "90:19 - 90:24",
+                                `/en-US/docs/Web/CSS/Guides/Overflow/Carousels
+[selector-type-no-unknown] Unexpected unknown type selector "right" (selector-type-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+ul {
+  width: 100vw;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  gap: 4vw;
+}
+
+li {
+  list-style-type: none;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  padding: 20px;
+
+  flex: 0 0 100%;
+}
+
+li:nth-child(even) {
+  background-color: cyan;
+}
+
+ul {
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  scroll-snap-align: center;
+}
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+ul {
+  anchor-name: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "left" (selector-type-no-unknown)',
+                                "ul::scroll-button(left) {",
+                                "68:19 - 68:23",
+                                `/en-US/docs/Web/CSS/Guides/Overflow/Carousels
+[selector-type-no-unknown] Unexpected unknown type selector "left" (selector-type-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+ul {
+  width: 100vw;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  gap: 4vw;
+}
+
+li {
+  list-style-type: none;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  padding: 20px;
+
+  flex: 0 0 100%;
+}
+
+li:nth-child(even) {
+  background-color: cyan;
+}
+
+ul {
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  scroll-snap-align: center;
+}
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+ul {
+  anchor-name: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+
+ul {
+  scroll-marker-group: after;
+}
+
+ul::scroll-marker-group {
+  position: absolute;
+  position-anchor: --my-carousel;
+  top: calc(anchor(bottom) - 70px);
+  justify-self: anchor-center;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+li::scroll-marker {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+li::scroll-marker:target-current {
+  background-color: black;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "right" (selector-type-no-unknown)',
+                                "ul::scroll-button(right) {",
+                                "72:19 - 72:24",
+                                `/en-US/docs/Web/CSS/Guides/Overflow/Carousels
+[selector-type-no-unknown] Unexpected unknown type selector "right" (selector-type-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+ul {
+  width: 100vw;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  gap: 4vw;
+}
+
+li {
+  list-style-type: none;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  padding: 20px;
+
+  flex: 0 0 100%;
+}
+
+li:nth-child(even) {
+  background-color: cyan;
+}
+
+ul {
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  scroll-snap-align: center;
+}
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+ul {
+  anchor-name: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+
+ul {
+  scroll-marker-group: after;
+}
+
+ul::scroll-marker-group {
+  position: absolute;
+  position-anchor: --my-carousel;
+  top: calc(anchor(bottom) - 70px);
+  justify-self: anchor-center;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+li::scroll-marker {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+li::scroll-marker:target-current {
+  background-color: black;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "left" (selector-type-no-unknown)',
+                                "ul::scroll-button(left) {",
+                                "85:19 - 85:23",
+                                `/en-US/docs/Web/CSS/Guides/Overflow/Carousels
+[selector-type-no-unknown] Unexpected unknown type selector "left" (selector-type-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+ul {
+  width: 100vw;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  gap: 4vw;
+}
+
+li {
+  list-style-type: none;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  padding: 20px;
+
+  flex: 0 0 100%;
+}
+
+li:nth-child(even) {
+  background-color: cyan;
+}
+
+ul {
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  scroll-snap-align: center;
+}
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+ul {
+  anchor-name: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+
+ul {
+  scroll-marker-group: after;
+}
+
+ul::scroll-marker-group {
+  position: absolute;
+  position-anchor: --my-carousel;
+  top: calc(anchor(bottom) - 70px);
+  justify-self: anchor-center;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+li::scroll-marker {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+li::scroll-marker:target-current {
+  background-color: black;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "right" (selector-type-no-unknown)',
+                                "ul::scroll-button(right) {",
+                                "90:19 - 90:24",
+                                `/en-US/docs/Web/CSS/Guides/Overflow/Carousels
+[selector-type-no-unknown] Unexpected unknown type selector "right" (selector-type-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+ul {
+  width: 100vw;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  gap: 4vw;
+}
+
+li {
+  list-style-type: none;
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  padding: 20px;
+
+  flex: 0 0 100%;
+}
+
+li:nth-child(even) {
+  background-color: cyan;
+}
+
+ul {
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  scroll-snap-align: center;
+}
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+ul {
+  anchor-name: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+
+ul {
+  scroll-marker-group: after;
+}
+
+ul::scroll-marker-group {
+  position: absolute;
+  position-anchor: --my-carousel;
+  top: calc(anchor(bottom) - 70px);
+  justify-self: anchor-center;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+li::scroll-marker {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+li::scroll-marker:target-current {
+  background-color: black;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "left" (selector-type-no-unknown)',
+                                "ul::scroll-button(left) {",
+                                "73:19 - 73:23",
+                                `/en-US/docs/Web/CSS/Guides/Overflow/Carousels
+[selector-type-no-unknown] Unexpected unknown type selector "left" (selector-type-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+ul {
+  width: 100vw;
+  height: 300px;
+  padding: 10px;
+
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+
+  columns: 1;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+
+  display: inline-block;
+  height: 100%;
+  width: 200px;
+
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  margin: 0 10px;
+
+  text-align: left;
+}
+
+li:nth-child(even) {
+  background-color: cyan;
+}
+
+ul::column {
+  scroll-snap-align: center;
+}
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+ul {
+  anchor-name: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+
+ul {
+  scroll-marker-group: after;
+}
+
+ul::scroll-marker-group {
+  position: absolute;
+  position-anchor: --my-carousel;
+  top: calc(anchor(bottom) - 70px);
+  justify-self: anchor-center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+ul::column::scroll-marker {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+ul::column::scroll-marker:target-current {
+  background-color: black;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "right" (selector-type-no-unknown)',
+                                "ul::scroll-button(right) {",
+                                "77:19 - 77:24",
+                                `/en-US/docs/Web/CSS/Guides/Overflow/Carousels
+[selector-type-no-unknown] Unexpected unknown type selector "right" (selector-type-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+ul {
+  width: 100vw;
+  height: 300px;
+  padding: 10px;
+
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+
+  columns: 1;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+
+  display: inline-block;
+  height: 100%;
+  width: 200px;
+
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  margin: 0 10px;
+
+  text-align: left;
+}
+
+li:nth-child(even) {
+  background-color: cyan;
+}
+
+ul::column {
+  scroll-snap-align: center;
+}
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+ul {
+  anchor-name: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+
+ul {
+  scroll-marker-group: after;
+}
+
+ul::scroll-marker-group {
+  position: absolute;
+  position-anchor: --my-carousel;
+  top: calc(anchor(bottom) - 70px);
+  justify-self: anchor-center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+ul::column::scroll-marker {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+ul::column::scroll-marker:target-current {
+  background-color: black;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "left" (selector-type-no-unknown)',
+                                "ul::scroll-button(left) {",
+                                "90:19 - 90:23",
+                                `/en-US/docs/Web/CSS/Guides/Overflow/Carousels
+[selector-type-no-unknown] Unexpected unknown type selector "left" (selector-type-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+ul {
+  width: 100vw;
+  height: 300px;
+  padding: 10px;
+
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+
+  columns: 1;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+
+  display: inline-block;
+  height: 100%;
+  width: 200px;
+
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  margin: 0 10px;
+
+  text-align: left;
+}
+
+li:nth-child(even) {
+  background-color: cyan;
+}
+
+ul::column {
+  scroll-snap-align: center;
+}
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+ul {
+  anchor-name: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+
+ul {
+  scroll-marker-group: after;
+}
+
+ul::scroll-marker-group {
+  position: absolute;
+  position-anchor: --my-carousel;
+  top: calc(anchor(bottom) - 70px);
+  justify-self: anchor-center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+ul::column::scroll-marker {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+ul::column::scroll-marker:target-current {
+  background-color: black;
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "selector-type-no-unknown",
+                                'Unexpected unknown type selector "right" (selector-type-no-unknown)',
+                                "ul::scroll-button(right) {",
+                                "95:19 - 95:24",
+                                `/en-US/docs/Web/CSS/Guides/Overflow/Carousels
+[selector-type-no-unknown] Unexpected unknown type selector "right" (selector-type-no-unknown)
+~~~
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+ul {
+  width: 100vw;
+  height: 300px;
+  padding: 10px;
+
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+
+  columns: 1;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+
+  display: inline-block;
+  height: 100%;
+  width: 200px;
+
+  background-color: #eeeeee;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  margin: 0 10px;
+
+  text-align: left;
+}
+
+li:nth-child(even) {
+  background-color: cyan;
+}
+
+ul::column {
+  scroll-snap-align: center;
+}
+
+ul::scroll-button(*) {
+  border: 0;
+  font-size: 2rem;
+  background: none;
+  color: black;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+ul::scroll-button(*):hover,
+ul::scroll-button(*):focus {
+  opacity: 1;
+}
+
+ul::scroll-button(*):active {
+  translate: 1px 1px;
+}
+
+ul::scroll-button(*):disabled {
+  opacity: 0.2;
+  cursor: unset;
+}
+
+ul::scroll-button(left) {
+  content: "◄";
+}
+
+ul::scroll-button(right) {
+  content: "►";
+}
+
+ul {
+  anchor-name: --my-carousel;
+}
+
+ul::scroll-button(*) {
+  position: absolute;
+  position-anchor: --my-carousel;
+}
+
+ul::scroll-button(left) {
+  right: calc(anchor(left) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+
+ul::scroll-button(right) {
+  left: calc(anchor(right) - 70px);
+  bottom: calc(anchor(top) + 13px);
+}
+
+ul {
+  scroll-marker-group: after;
+}
+
+ul::scroll-marker-group {
+  position: absolute;
+  position-anchor: --my-carousel;
+  top: calc(anchor(bottom) - 70px);
+  justify-self: anchor-center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+ul::column::scroll-marker {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+ul::column::scroll-marker:target-current {
+  background-color: black;
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Overflow",
+                      messages: [
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "alpha-value-notation",
+                            'Expected "20%" to be "0.2" (alpha-value-notation)',
+                            "  opacity: 20%;",
+                            "81:12 - 81:15",
+                            `/en-US/docs/Web/CSS/Guides/Overflow
 [alpha-value-notation] Expected "20%" to be "0.2" (alpha-value-notation)
 ~~~
 article {
@@ -29279,55 +30939,55 @@ article:not(:has(pre.hidden, pre.scroll, pre.auto, pre.overlay))
 }
 ~~~
 `
-                      ]
-                    }
-                  ]
-                },
-                css_properties_and_values_api: {
-                  children: {
-                    houdini: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_properties_and_values_API/Houdini",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
-                      ]
-                    }
-                  }
-                },
-                css_scroll_anchoring: {
-                  children: {
-                    scroll_anchoring: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_scroll_anchoring/Scroll_anchoring",
-                      messages: [
-                        {
-                          message: "Unexpected BCD keys",
-                          data: [
-                            "Actual:",
-                            "css.properties.overflow-anchor",
-                            "Expected:",
-                            "[None]"
                           ]
                         }
                       ]
-                    }
-                  }
-                },
-                css_scroll_snap: {
-                  children: {},
-                  slug: "/en-US/docs/Web/CSS/CSS_scroll_snap",
-                  messages: [
-                    {
-                      message: "Stylelint backlog",
-                      data: [
-                        "alpha-value-notation",
-                        'Expected "20%" to be "0.2" (alpha-value-notation)',
-                        "  opacity: 20%;",
-                        "19:12 - 19:15",
-                        `/en-US/docs/Web/CSS/CSS_scroll_snap
+                    },
+                    properties_and_values_api: {
+                      children: {
+                        houdini: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Properties_and_values_API/Houdini",
+                          messages: [
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    scroll_anchoring: {
+                      children: {
+                        overview: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Scroll_anchoring/Overview",
+                          messages: [
+                            {
+                              message: "Unexpected BCD keys",
+                              data: [
+                                "Actual:",
+                                "css.properties.overflow-anchor",
+                                "Expected:",
+                                "[None]"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    scroll_snap: {
+                      children: {},
+                      slug: "/en-US/docs/Web/CSS/Guides/Scroll_snap",
+                      messages: [
+                        {
+                          message: "Stylelint backlog",
+                          data: [
+                            "alpha-value-notation",
+                            'Expected "20%" to be "0.2" (alpha-value-notation)',
+                            "  opacity: 20%;",
+                            "19:12 - 19:15",
+                            `/en-US/docs/Web/CSS/Guides/Scroll_snap
 [alpha-value-notation] Expected "20%" to be "0.2" (alpha-value-notation)
 ~~~
 li {
@@ -29410,323 +31070,341 @@ article.snapDisabled ul {
 }
 ~~~
 `
-                      ]
-                    }
-                  ]
-                },
-                "css_scroll-driven_animations": {
-                  children: {
-                    timelines: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_scroll-driven_animations/Timelines",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "keyframe-selector-notation",
-                            'Expected "from" to be "0%" (keyframe-selector-notation)',
-                            "  from,",
-                            "9:3 - 9:7",
-                            `/en-US/docs/Web/CSS/CSS_scroll-driven_animations/Timelines
-[keyframe-selector-notation] Expected "from" to be "0%" (keyframe-selector-notation)
-~~~
-.item {
-  animation: action 1ms linear;
-
-  view-timeline-name: --aName;
-  animation-timeline: --aName;
-}
-
-@keyframes action {
-  from,
-  20% {
-    rotate: 45deg;
-  }
-  80%,
-  to {
-    rotate: 720deg;
-  }
-}
-
-.scroller {
-  width: 400px;
-  height: 200px;
-  line-height: 2;
-  overflow: scroll;
-  border: 1px solid;
-  background-color: palegoldenrod;
-}
-.item {
-  --size: 50px;
-  height: var(--size);
-  width: var(--size);
-  background-color: magenta;
-  border: 1px solid;
-  left: calc(50% - (var(--size) / 2));
-  top: calc(50% - (var(--size) / 2));
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "keyframe-selector-notation",
-                            'Expected "to" to be "100%" (keyframe-selector-notation)',
-                            "  to {",
-                            "14:3 - 14:5",
-                            `/en-US/docs/Web/CSS/CSS_scroll-driven_animations/Timelines
-[keyframe-selector-notation] Expected "to" to be "100%" (keyframe-selector-notation)
-~~~
-.item {
-  animation: action 1ms linear;
-
-  view-timeline-name: --aName;
-  animation-timeline: --aName;
-}
-
-@keyframes action {
-  from,
-  20% {
-    rotate: 45deg;
-  }
-  80%,
-  to {
-    rotate: 720deg;
-  }
-}
-
-.scroller {
-  width: 400px;
-  height: 200px;
-  line-height: 2;
-  overflow: scroll;
-  border: 1px solid;
-  background-color: palegoldenrod;
-}
-.item {
-  --size: 50px;
-  height: var(--size);
-  width: var(--size);
-  background-color: magenta;
-  border: 1px solid;
-  left: calc(50% - (var(--size) / 2));
-  top: calc(50% - (var(--size) / 2));
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "value-keyword-case",
-                            'Expected "--aName" to be "--aname" (value-keyword-case)',
-                            "  view-timeline-name: --aName;",
-                            "4:23 - 4:30",
-                            `/en-US/docs/Web/CSS/CSS_scroll-driven_animations/Timelines
-[value-keyword-case] Expected "--aName" to be "--aname" (value-keyword-case)
-~~~
-.item {
-  animation: action 1ms linear;
-
-  view-timeline-name: --aName;
-  animation-timeline: --aName;
-}
-
-@keyframes action {
-  from,
-  20% {
-    rotate: 45deg;
-  }
-  80%,
-  to {
-    rotate: 720deg;
-  }
-}
-
-.scroller {
-  width: 400px;
-  height: 200px;
-  line-height: 2;
-  overflow: scroll;
-  border: 1px solid;
-  background-color: palegoldenrod;
-}
-.item {
-  --size: 50px;
-  height: var(--size);
-  width: var(--size);
-  background-color: magenta;
-  border: 1px solid;
-  left: calc(50% - (var(--size) / 2));
-  top: calc(50% - (var(--size) / 2));
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "value-keyword-case",
-                            'Expected "--aName" to be "--aname" (value-keyword-case)',
-                            "  animation-timeline: --aName;",
-                            "5:23 - 5:30",
-                            `/en-US/docs/Web/CSS/CSS_scroll-driven_animations/Timelines
-[value-keyword-case] Expected "--aName" to be "--aname" (value-keyword-case)
-~~~
-.item {
-  animation: action 1ms linear;
-
-  view-timeline-name: --aName;
-  animation-timeline: --aName;
-}
-
-@keyframes action {
-  from,
-  20% {
-    rotate: 45deg;
-  }
-  80%,
-  to {
-    rotate: 720deg;
-  }
-}
-
-.scroller {
-  width: 400px;
-  height: 200px;
-  line-height: 2;
-  overflow: scroll;
-  border: 1px solid;
-  background-color: palegoldenrod;
-}
-.item {
-  --size: 50px;
-  height: var(--size);
-  width: var(--size);
-  background-color: magenta;
-  border: 1px solid;
-  left: calc(50% - (var(--size) / 2));
-  top: calc(50% - (var(--size) / 2));
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "keyframe-selector-notation",
-                            'Expected "from" to be "0%" (keyframe-selector-notation)',
-                            "  from,",
-                            "2:3 - 2:7",
-                            `/en-US/docs/Web/CSS/CSS_scroll-driven_animations/Timelines
-[keyframe-selector-notation] Expected "from" to be "0%" (keyframe-selector-notation)
-~~~
-@keyframes action {
-  from,
-  20% {
-    rotate: 45deg;
-  }
-  80%,
-  to {
-    rotate: 720deg;
-  }
-}
-
-.scroller {
-  width: 400px;
-  height: 200px;
-  line-height: 2;
-  overflow: scroll;
-  border: 1px solid;
-  background-color: palegoldenrod;
-}
-.item {
-  --size: 50px;
-  height: var(--size);
-  width: var(--size);
-  background-color: magenta;
-  border: 1px solid;
-  left: calc(50% - (var(--size) / 2));
-  top: calc(50% - (var(--size) / 2));
-}
-
-.item {
-  animation: action 1ms linear;
-  animation-timeline: view();
-}
-~~~
-`
-                          ]
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "keyframe-selector-notation",
-                            'Expected "to" to be "100%" (keyframe-selector-notation)',
-                            "  to {",
-                            "7:3 - 7:5",
-                            `/en-US/docs/Web/CSS/CSS_scroll-driven_animations/Timelines
-[keyframe-selector-notation] Expected "to" to be "100%" (keyframe-selector-notation)
-~~~
-@keyframes action {
-  from,
-  20% {
-    rotate: 45deg;
-  }
-  80%,
-  to {
-    rotate: 720deg;
-  }
-}
-
-.scroller {
-  width: 400px;
-  height: 200px;
-  line-height: 2;
-  overflow: scroll;
-  border: 1px solid;
-  background-color: palegoldenrod;
-}
-.item {
-  --size: 50px;
-  height: var(--size);
-  width: var(--size);
-  background-color: magenta;
-  border: 1px solid;
-  left: calc(50% - (var(--size) / 2));
-  top: calc(50% - (var(--size) / 2));
-}
-
-.item {
-  animation: action 1ms linear;
-  animation-timeline: view();
-}
-~~~
-`
                           ]
                         }
                       ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/CSS/CSS_scroll-driven_animations",
-                  messages: [
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "declaration-property-value-no-unknown",
-                        'Unexpected unknown value "superellipse(-4)" for property "corner-shape" (declaration-property-value-no-unknown)',
-                        "    corner-shape: superellipse(-4);",
-                        "65:19 - 65:35",
-                        `/en-US/docs/Web/CSS/CSS_scroll-driven_animations
+                    },
+                    "scroll-driven_animations": {
+                      children: {
+                        timelines: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines",
+                          messages: [
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "#named_timelines"
+                              ]
+                            },
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "#scroll-progress_timelines"
+                              ]
+                            },
+                            {
+                              message: "Broken anchor",
+                              data: [
+                                "#view-progress_timelines"
+                              ]
+                            },
+                            {
+                              message: "Unreachable via sidebar",
+                              data: []
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "keyframe-selector-notation",
+                                'Expected "from" to be "0%" (keyframe-selector-notation)',
+                                "  from,",
+                                "9:3 - 9:7",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines
+[keyframe-selector-notation] Expected "from" to be "0%" (keyframe-selector-notation)
+~~~
+.item {
+  animation: action 1ms linear;
+
+  view-timeline-name: --aName;
+  animation-timeline: --aName;
+}
+
+@keyframes action {
+  from,
+  20% {
+    rotate: 45deg;
+  }
+  80%,
+  to {
+    rotate: 720deg;
+  }
+}
+
+.scroller {
+  width: 400px;
+  height: 200px;
+  line-height: 2;
+  overflow: scroll;
+  border: 1px solid;
+  background-color: palegoldenrod;
+}
+.item {
+  --size: 50px;
+  height: var(--size);
+  width: var(--size);
+  background-color: magenta;
+  border: 1px solid;
+  left: calc(50% - (var(--size) / 2));
+  top: calc(50% - (var(--size) / 2));
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "keyframe-selector-notation",
+                                'Expected "to" to be "100%" (keyframe-selector-notation)',
+                                "  to {",
+                                "14:3 - 14:5",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines
+[keyframe-selector-notation] Expected "to" to be "100%" (keyframe-selector-notation)
+~~~
+.item {
+  animation: action 1ms linear;
+
+  view-timeline-name: --aName;
+  animation-timeline: --aName;
+}
+
+@keyframes action {
+  from,
+  20% {
+    rotate: 45deg;
+  }
+  80%,
+  to {
+    rotate: 720deg;
+  }
+}
+
+.scroller {
+  width: 400px;
+  height: 200px;
+  line-height: 2;
+  overflow: scroll;
+  border: 1px solid;
+  background-color: palegoldenrod;
+}
+.item {
+  --size: 50px;
+  height: var(--size);
+  width: var(--size);
+  background-color: magenta;
+  border: 1px solid;
+  left: calc(50% - (var(--size) / 2));
+  top: calc(50% - (var(--size) / 2));
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "value-keyword-case",
+                                'Expected "--aName" to be "--aname" (value-keyword-case)',
+                                "  view-timeline-name: --aName;",
+                                "4:23 - 4:30",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines
+[value-keyword-case] Expected "--aName" to be "--aname" (value-keyword-case)
+~~~
+.item {
+  animation: action 1ms linear;
+
+  view-timeline-name: --aName;
+  animation-timeline: --aName;
+}
+
+@keyframes action {
+  from,
+  20% {
+    rotate: 45deg;
+  }
+  80%,
+  to {
+    rotate: 720deg;
+  }
+}
+
+.scroller {
+  width: 400px;
+  height: 200px;
+  line-height: 2;
+  overflow: scroll;
+  border: 1px solid;
+  background-color: palegoldenrod;
+}
+.item {
+  --size: 50px;
+  height: var(--size);
+  width: var(--size);
+  background-color: magenta;
+  border: 1px solid;
+  left: calc(50% - (var(--size) / 2));
+  top: calc(50% - (var(--size) / 2));
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "value-keyword-case",
+                                'Expected "--aName" to be "--aname" (value-keyword-case)',
+                                "  animation-timeline: --aName;",
+                                "5:23 - 5:30",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines
+[value-keyword-case] Expected "--aName" to be "--aname" (value-keyword-case)
+~~~
+.item {
+  animation: action 1ms linear;
+
+  view-timeline-name: --aName;
+  animation-timeline: --aName;
+}
+
+@keyframes action {
+  from,
+  20% {
+    rotate: 45deg;
+  }
+  80%,
+  to {
+    rotate: 720deg;
+  }
+}
+
+.scroller {
+  width: 400px;
+  height: 200px;
+  line-height: 2;
+  overflow: scroll;
+  border: 1px solid;
+  background-color: palegoldenrod;
+}
+.item {
+  --size: 50px;
+  height: var(--size);
+  width: var(--size);
+  background-color: magenta;
+  border: 1px solid;
+  left: calc(50% - (var(--size) / 2));
+  top: calc(50% - (var(--size) / 2));
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "keyframe-selector-notation",
+                                'Expected "from" to be "0%" (keyframe-selector-notation)',
+                                "  from,",
+                                "2:3 - 2:7",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines
+[keyframe-selector-notation] Expected "from" to be "0%" (keyframe-selector-notation)
+~~~
+@keyframes action {
+  from,
+  20% {
+    rotate: 45deg;
+  }
+  80%,
+  to {
+    rotate: 720deg;
+  }
+}
+
+.scroller {
+  width: 400px;
+  height: 200px;
+  line-height: 2;
+  overflow: scroll;
+  border: 1px solid;
+  background-color: palegoldenrod;
+}
+.item {
+  --size: 50px;
+  height: var(--size);
+  width: var(--size);
+  background-color: magenta;
+  border: 1px solid;
+  left: calc(50% - (var(--size) / 2));
+  top: calc(50% - (var(--size) / 2));
+}
+
+.item {
+  animation: action 1ms linear;
+  animation-timeline: view();
+}
+~~~
+`
+                              ]
+                            },
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "keyframe-selector-notation",
+                                'Expected "to" to be "100%" (keyframe-selector-notation)',
+                                "  to {",
+                                "7:3 - 7:5",
+                                `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations/Timelines
+[keyframe-selector-notation] Expected "to" to be "100%" (keyframe-selector-notation)
+~~~
+@keyframes action {
+  from,
+  20% {
+    rotate: 45deg;
+  }
+  80%,
+  to {
+    rotate: 720deg;
+  }
+}
+
+.scroller {
+  width: 400px;
+  height: 200px;
+  line-height: 2;
+  overflow: scroll;
+  border: 1px solid;
+  background-color: palegoldenrod;
+}
+.item {
+  --size: 50px;
+  height: var(--size);
+  width: var(--size);
+  background-color: magenta;
+  border: 1px solid;
+  left: calc(50% - (var(--size) / 2));
+  top: calc(50% - (var(--size) / 2));
+}
+
+.item {
+  animation: action 1ms linear;
+  animation-timeline: view();
+}
+~~~
+`
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      slug: "/en-US/docs/Web/CSS/Guides/Scroll-driven_animations",
+                      messages: [
+                        {
+                          message: "CSS code issue",
+                          data: [
+                            "declaration-property-value-no-unknown",
+                            'Unexpected unknown value "superellipse(-4)" for property "corner-shape" (declaration-property-value-no-unknown)',
+                            "    corner-shape: superellipse(-4);",
+                            "65:19 - 65:35",
+                            `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations
 [declaration-property-value-no-unknown] Unexpected unknown value "superellipse(-4)" for property "corner-shape" (declaration-property-value-no-unknown)
 ~~~
 main {
@@ -29813,223 +31491,100 @@ div::after {
 }
 ~~~
 `
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "value-keyword-case",
-                        'Expected "--mainTimeline" to be "--maintimeline" (value-keyword-case)',
-                        "  scroll-timeline: --mainTimeline;",
-                        "2:20 - 2:34",
-                        `/en-US/docs/Web/CSS/CSS_scroll-driven_animations
-[value-keyword-case] Expected "--mainTimeline" to be "--maintimeline" (value-keyword-case)
-~~~
-main {
-  scroll-timeline: --mainTimeline;
-}
-
-div {
-  animation: backgroundAnimation linear;
-  animation-timeline: scroll(nearest inline);
-}
-
-div::after {
-  animation: shapeAnimation linear;
-  animation-timeline: --mainTimeline;
-}
-
-@layer animations {
-  @keyframes backgroundAnimation {
-    0% {
-      background-color: palegoldenrod;
-    }
-    100% {
-      background-color: magenta;
-    }
-  }
-  @keyframes shapeAnimation {
-    0% {
-      left: 0;
-      top: 0;
-      background-color: black;
-    }
-    50% {
-      top: calc(100% - var(--elSize));
-      left: calc(50% - var(--elSize));
-      background-color: red;
-    }
-    100% {
-      left: calc(100vw - var(--elSize));
-      top: 0;
-      rotate: 1800deg;
-      background-color: white;
-    }
-  }
-}
-
-@layer pageSetup {
-  :root {
-    --elSize: 50px;
-  }
-  main {
-    height: 90vh;
-    overflow: scroll;
-    border: 1px solid;
-    margin: 5vh auto;
-  }
-  div {
-    height: 400vh;
-    width: 400vw;
-  }
-  div::after {
-    content: "";
-    border: 1px solid red;
-    height: var(--elSize);
-    width: var(--elSize);
-    position: absolute;
-    border-radius: 20px;
-    corner-shape: superellipse(-4);
-  }
-}
-
-@layer noSupport {
-  @supports not (scroll-timeline: --mainTimeline) {
-    body::before {
-      content: "Your browser doesn't support scroll-driven animations.";
-      background-color: wheat;
-      display: block;
-      width: 100%;
-      text-align: center;
-    }
-    body > * {
-      display: none;
-    }
-  }
-}
-~~~
-`
-                      ]
-                    },
-                    {
-                      message: "CSS code issue",
-                      data: [
-                        "value-keyword-case",
-                        'Expected "--mainTimeline" to be "--maintimeline" (value-keyword-case)',
-                        "  animation-timeline: --mainTimeline;",
-                        "12:23 - 12:37",
-                        `/en-US/docs/Web/CSS/CSS_scroll-driven_animations
-[value-keyword-case] Expected "--mainTimeline" to be "--maintimeline" (value-keyword-case)
-~~~
-main {
-  scroll-timeline: --mainTimeline;
-}
-
-div {
-  animation: backgroundAnimation linear;
-  animation-timeline: scroll(nearest inline);
-}
-
-div::after {
-  animation: shapeAnimation linear;
-  animation-timeline: --mainTimeline;
-}
-
-@layer animations {
-  @keyframes backgroundAnimation {
-    0% {
-      background-color: palegoldenrod;
-    }
-    100% {
-      background-color: magenta;
-    }
-  }
-  @keyframes shapeAnimation {
-    0% {
-      left: 0;
-      top: 0;
-      background-color: black;
-    }
-    50% {
-      top: calc(100% - var(--elSize));
-      left: calc(50% - var(--elSize));
-      background-color: red;
-    }
-    100% {
-      left: calc(100vw - var(--elSize));
-      top: 0;
-      rotate: 1800deg;
-      background-color: white;
-    }
-  }
-}
-
-@layer pageSetup {
-  :root {
-    --elSize: 50px;
-  }
-  main {
-    height: 90vh;
-    overflow: scroll;
-    border: 1px solid;
-    margin: 5vh auto;
-  }
-  div {
-    height: 400vh;
-    width: 400vw;
-  }
-  div::after {
-    content: "";
-    border: 1px solid red;
-    height: var(--elSize);
-    width: var(--elSize);
-    position: absolute;
-    border-radius: 20px;
-    corner-shape: superellipse(-4);
-  }
-}
-
-@layer noSupport {
-  @supports not (scroll-timeline: --mainTimeline) {
-    body::before {
-      content: "Your browser doesn't support scroll-driven animations.";
-      background-color: wheat;
-      display: block;
-      width: 100%;
-      text-align: center;
-    }
-    body > * {
-      display: none;
-    }
-  }
-}
-~~~
-`
-                      ]
-                    }
-                  ]
-                },
-                css_syntax: {
-                  children: {
-                    "at-rules": {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_syntax/At-rules",
-                      messages: [
+                          ]
+                        },
                         {
                           message: "CSS code issue",
                           data: [
-                            "at-rule-no-unknown",
-                            'Unexpected unknown at-rule "@identifier" (at-rule-no-unknown)',
-                            "@identifier (RULE);",
-                            "2:1 - 2:12",
-                            `/en-US/docs/Web/CSS/CSS_syntax/At-rules
-[at-rule-no-unknown] Unexpected unknown at-rule "@identifier" (at-rule-no-unknown)
+                            "value-keyword-case",
+                            'Expected "--mainTimeline" to be "--maintimeline" (value-keyword-case)',
+                            "  scroll-timeline: --mainTimeline;",
+                            "2:20 - 2:34",
+                            `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations
+[value-keyword-case] Expected "--mainTimeline" to be "--maintimeline" (value-keyword-case)
 ~~~
-/* General structure */
-@identifier (RULE);
+main {
+  scroll-timeline: --mainTimeline;
+}
 
-/* Example: tells browser to use UTF-8 character set */
-@charset "utf-8";
+div {
+  animation: backgroundAnimation linear;
+  animation-timeline: scroll(nearest inline);
+}
+
+div::after {
+  animation: shapeAnimation linear;
+  animation-timeline: --mainTimeline;
+}
+
+@layer animations {
+  @keyframes backgroundAnimation {
+    0% {
+      background-color: palegoldenrod;
+    }
+    100% {
+      background-color: magenta;
+    }
+  }
+  @keyframes shapeAnimation {
+    0% {
+      left: 0;
+      top: 0;
+      background-color: black;
+    }
+    50% {
+      top: calc(100% - var(--elSize));
+      left: calc(50% - var(--elSize));
+      background-color: red;
+    }
+    100% {
+      left: calc(100vw - var(--elSize));
+      top: 0;
+      rotate: 1800deg;
+      background-color: white;
+    }
+  }
+}
+
+@layer pageSetup {
+  :root {
+    --elSize: 50px;
+  }
+  main {
+    height: 90vh;
+    overflow: scroll;
+    border: 1px solid;
+    margin: 5vh auto;
+  }
+  div {
+    height: 400vh;
+    width: 400vw;
+  }
+  div::after {
+    content: "";
+    border: 1px solid red;
+    height: var(--elSize);
+    width: var(--elSize);
+    position: absolute;
+    border-radius: 20px;
+    corner-shape: superellipse(-4);
+  }
+}
+
+@layer noSupport {
+  @supports not (scroll-timeline: --mainTimeline) {
+    body::before {
+      content: "Your browser doesn't support scroll-driven animations.";
+      background-color: wheat;
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    body > * {
+      display: none;
+    }
+  }
+}
 ~~~
 `
                           ]
@@ -30037,63 +31592,127 @@ div::after {
                         {
                           message: "CSS code issue",
                           data: [
-                            "at-rule-no-unknown",
-                            'Unexpected unknown at-rule "@identifier" (at-rule-no-unknown)',
-                            "@identifier (RULE) {",
-                            "1:1 - 1:12",
-                            `/en-US/docs/Web/CSS/CSS_syntax/At-rules
-[at-rule-no-unknown] Unexpected unknown at-rule "@identifier" (at-rule-no-unknown)
+                            "value-keyword-case",
+                            'Expected "--mainTimeline" to be "--maintimeline" (value-keyword-case)',
+                            "  animation-timeline: --mainTimeline;",
+                            "12:23 - 12:37",
+                            `/en-US/docs/Web/CSS/Guides/Scroll-driven_animations
+[value-keyword-case] Expected "--mainTimeline" to be "--maintimeline" (value-keyword-case)
 ~~~
-@identifier (RULE) {
+main {
+  scroll-timeline: --mainTimeline;
+}
+
+div {
+  animation: backgroundAnimation linear;
+  animation-timeline: scroll(nearest inline);
+}
+
+div::after {
+  animation: shapeAnimation linear;
+  animation-timeline: --mainTimeline;
+}
+
+@layer animations {
+  @keyframes backgroundAnimation {
+    0% {
+      background-color: palegoldenrod;
+    }
+    100% {
+      background-color: magenta;
+    }
+  }
+  @keyframes shapeAnimation {
+    0% {
+      left: 0;
+      top: 0;
+      background-color: black;
+    }
+    50% {
+      top: calc(100% - var(--elSize));
+      left: calc(50% - var(--elSize));
+      background-color: red;
+    }
+    100% {
+      left: calc(100vw - var(--elSize));
+      top: 0;
+      rotate: 1800deg;
+      background-color: white;
+    }
+  }
+}
+
+@layer pageSetup {
+  :root {
+    --elSize: 50px;
+  }
+  main {
+    height: 90vh;
+    overflow: scroll;
+    border: 1px solid;
+    margin: 5vh auto;
+  }
+  div {
+    height: 400vh;
+    width: 400vw;
+  }
+  div::after {
+    content: "";
+    border: 1px solid red;
+    height: var(--elSize);
+    width: var(--elSize);
+    position: absolute;
+    border-radius: 20px;
+    corner-shape: superellipse(-4);
+  }
+}
+
+@layer noSupport {
+  @supports not (scroll-timeline: --mainTimeline) {
+    body::before {
+      content: "Your browser doesn't support scroll-driven animations.";
+      background-color: wheat;
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    body > * {
+      display: none;
+    }
+  }
 }
 ~~~
 `
                           ]
                         }
                       ]
-                    }
-                  }
-                },
-                css_text: {
-                  children: {
-                    wrapping_breaking_text: {
+                    },
+                    text: {
                       children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_text/Wrapping_breaking_text",
+                      slug: "/en-US/docs/Web/CSS/Guides/Text",
                       messages: [
                         {
-                          message: "Broken external link",
+                          message: "No link to child page",
                           data: [
-                            "https://www.smashingmagazine.com/2019/09/overflow-data-loss-css/",
-                            "The operation timed out."
+                            "/en-US/docs/Web/CSS/Guides/Text/Whitespace"
                           ]
                         }
                       ]
-                    }
-                  },
-                  slug: "/en-US/docs/Web/CSS/CSS_text",
-                  messages: [
-                    {
-                      message: "No link to child page",
-                      data: [
-                        "/en-US/docs/Web/CSS/CSS_text/Whitespace"
-                      ]
-                    }
-                  ]
-                },
-                css_transforms: {
-                  children: {
-                    using_css_transforms: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_transforms/Using_CSS_transforms",
-                      messages: [
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "30%" to be "0.3" (alpha-value-notation)',
-                            "  background: rgb(0 0 0 / 30%);",
-                            "49:27 - 49:30",
-                            `/en-US/docs/Web/CSS/CSS_transforms/Using_CSS_transforms
+                    },
+                    transforms: {
+                      children: {
+                        using: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Transforms/Using",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "30%" to be "0.3" (alpha-value-notation)',
+                                "  background: rgb(0 0 0 / 30%);",
+                                "49:27 - 49:30",
+                                `/en-US/docs/Web/CSS/Guides/Transforms/Using
 [alpha-value-notation] Expected "30%" to be "0.3" (alpha-value-notation)
 ~~~
 /* Shorthand classes for different perspective values */
@@ -30185,16 +31804,16 @@ td {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "70%" to be "0.7" (alpha-value-notation)',
-                            "  background: rgb(196 0 0 / 70%);",
-                            "60:29 - 60:32",
-                            `/en-US/docs/Web/CSS/CSS_transforms/Using_CSS_transforms
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "  background: rgb(196 0 0 / 70%);",
+                                "60:29 - 60:32",
+                                `/en-US/docs/Web/CSS/Guides/Transforms/Using
 [alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
 ~~~
 /* Shorthand classes for different perspective values */
@@ -30286,16 +31905,16 @@ td {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "70%" to be "0.7" (alpha-value-notation)',
-                            "  background: rgb(0 0 196 / 70%);",
-                            "65:29 - 65:32",
-                            `/en-US/docs/Web/CSS/CSS_transforms/Using_CSS_transforms
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "  background: rgb(0 0 196 / 70%);",
+                                "65:29 - 65:32",
+                                `/en-US/docs/Web/CSS/Guides/Transforms/Using
 [alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
 ~~~
 /* Shorthand classes for different perspective values */
@@ -30387,16 +32006,16 @@ td {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "70%" to be "0.7" (alpha-value-notation)',
-                            "  background: rgb(196 196 0 / 70%);",
-                            "70:31 - 70:34",
-                            `/en-US/docs/Web/CSS/CSS_transforms/Using_CSS_transforms
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "  background: rgb(196 196 0 / 70%);",
+                                "70:31 - 70:34",
+                                `/en-US/docs/Web/CSS/Guides/Transforms/Using
 [alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
 ~~~
 /* Shorthand classes for different perspective values */
@@ -30488,16 +32107,16 @@ td {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "70%" to be "0.7" (alpha-value-notation)',
-                            "  background: rgb(196 0 196 / 70%);",
-                            "75:31 - 75:34",
-                            `/en-US/docs/Web/CSS/CSS_transforms/Using_CSS_transforms
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "  background: rgb(196 0 196 / 70%);",
+                                "75:31 - 75:34",
+                                `/en-US/docs/Web/CSS/Guides/Transforms/Using
 [alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
 ~~~
 /* Shorthand classes for different perspective values */
@@ -30589,16 +32208,16 @@ td {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "30%" to be "0.3" (alpha-value-notation)',
-                            "  background: rgb(0 0 0 / 30%);",
-                            "70:27 - 70:30",
-                            `/en-US/docs/Web/CSS/CSS_transforms/Using_CSS_transforms
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "30%" to be "0.3" (alpha-value-notation)',
+                                "  background: rgb(0 0 0 / 30%);",
+                                "70:27 - 70:30",
+                                `/en-US/docs/Web/CSS/Guides/Transforms/Using
 [alpha-value-notation] Expected "30%" to be "0.3" (alpha-value-notation)
 ~~~
 /* perspective-origin values (unique per example) */
@@ -30706,16 +32325,16 @@ section {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "70%" to be "0.7" (alpha-value-notation)',
-                            "  background: rgb(196 0 0 / 70%);",
-                            "79:29 - 79:32",
-                            `/en-US/docs/Web/CSS/CSS_transforms/Using_CSS_transforms
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "  background: rgb(196 0 0 / 70%);",
+                                "79:29 - 79:32",
+                                `/en-US/docs/Web/CSS/Guides/Transforms/Using
 [alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
 ~~~
 /* perspective-origin values (unique per example) */
@@ -30823,16 +32442,16 @@ section {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "70%" to be "0.7" (alpha-value-notation)',
-                            "  background: rgb(0 0 196 / 70%);",
-                            "83:29 - 83:32",
-                            `/en-US/docs/Web/CSS/CSS_transforms/Using_CSS_transforms
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "  background: rgb(0 0 196 / 70%);",
+                                "83:29 - 83:32",
+                                `/en-US/docs/Web/CSS/Guides/Transforms/Using
 [alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
 ~~~
 /* perspective-origin values (unique per example) */
@@ -30940,16 +32559,16 @@ section {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "70%" to be "0.7" (alpha-value-notation)',
-                            "  background: rgb(196 196 0 / 70%);",
-                            "87:31 - 87:34",
-                            `/en-US/docs/Web/CSS/CSS_transforms/Using_CSS_transforms
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "  background: rgb(196 196 0 / 70%);",
+                                "87:31 - 87:34",
+                                `/en-US/docs/Web/CSS/Guides/Transforms/Using
 [alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
 ~~~
 /* perspective-origin values (unique per example) */
@@ -31057,16 +32676,16 @@ section {
 }
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "alpha-value-notation",
-                            'Expected "70%" to be "0.7" (alpha-value-notation)',
-                            "  background: rgb(196 0 196 / 70%);",
-                            "91:31 - 91:34",
-                            `/en-US/docs/Web/CSS/CSS_transforms/Using_CSS_transforms
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "alpha-value-notation",
+                                'Expected "70%" to be "0.7" (alpha-value-notation)',
+                                "  background: rgb(196 0 196 / 70%);",
+                                "91:31 - 91:34",
+                                `/en-US/docs/Web/CSS/Guides/Transforms/Using
 [alpha-value-notation] Expected "70%" to be "0.7" (alpha-value-notation)
 ~~~
 /* perspective-origin values (unique per example) */
@@ -31174,30 +32793,26 @@ section {
 }
 ~~~
 `
+                              ]
+                            }
                           ]
                         }
-                      ]
-                    }
-                  }
-                },
-                css_values_and_units: {
-                  children: {
-                    using_css_typed_arithmetic: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_values_and_units/Using_CSS_typed_arithmetic",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word calc (CssSyntaxError)",
-                            "calc(250px - 150px)",
-                            "2:1 - 2:5",
-                            `/en-US/docs/Web/CSS/CSS_values_and_units/Using_CSS_typed_arithmetic
+                      }
+                    },
+                    values_and_units: {
+                      children: {
+                        using_typed_arithmetic: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Values_and_units/Using_typed_arithmetic",
+                          messages: [
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "CssSyntaxError",
+                                "Unknown word calc (CssSyntaxError)",
+                                "calc(250px - 150px)",
+                                "2:1 - 2:5",
+                                `/en-US/docs/Web/CSS/Guides/Values_and_units/Using_typed_arithmetic
 [CssSyntaxError] Unknown word calc (CssSyntaxError)
 ~~~
 /* <length-percentage> units */
@@ -31211,124 +32826,124 @@ calc(40deg + 2rad)
 calc(420deg - 1turn)
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word calc (CssSyntaxError)",
-                            "calc(200px + 100ms)",
-                            "1:1 - 1:5",
-                            `/en-US/docs/Web/CSS/CSS_values_and_units/Using_CSS_typed_arithmetic
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "CssSyntaxError",
+                                "Unknown word calc (CssSyntaxError)",
+                                "calc(200px + 100ms)",
+                                "1:1 - 1:5",
+                                `/en-US/docs/Web/CSS/Guides/Values_and_units/Using_typed_arithmetic
 [CssSyntaxError] Unknown word calc (CssSyntaxError)
 ~~~
 calc(200px + 100ms)
 calc(50% + 90deg)
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word calc (CssSyntaxError)",
-                            "calc(200px * 4) /* 800px */",
-                            "1:1 - 1:5",
-                            `/en-US/docs/Web/CSS/CSS_values_and_units/Using_CSS_typed_arithmetic
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "CssSyntaxError",
+                                "Unknown word calc (CssSyntaxError)",
+                                "calc(200px * 4) /* 800px */",
+                                "1:1 - 1:5",
+                                `/en-US/docs/Web/CSS/Guides/Values_and_units/Using_typed_arithmetic
 [CssSyntaxError] Unknown word calc (CssSyntaxError)
 ~~~
 calc(200px * 4) /* 800px */
 calc(60deg * 3) /* 180deg */
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word calc (CssSyntaxError)",
-                            "calc(200px * 4px)",
-                            "1:1 - 1:5",
-                            `/en-US/docs/Web/CSS/CSS_values_and_units/Using_CSS_typed_arithmetic
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "CssSyntaxError",
+                                "Unknown word calc (CssSyntaxError)",
+                                "calc(200px * 4px)",
+                                "1:1 - 1:5",
+                                `/en-US/docs/Web/CSS/Guides/Values_and_units/Using_typed_arithmetic
 [CssSyntaxError] Unknown word calc (CssSyntaxError)
 ~~~
 calc(200px * 4px)
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word calc (CssSyntaxError)",
-                            "calc(1000px / 2) /* 500px */",
-                            "1:1 - 1:5",
-                            `/en-US/docs/Web/CSS/CSS_values_and_units/Using_CSS_typed_arithmetic
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "CssSyntaxError",
+                                "Unknown word calc (CssSyntaxError)",
+                                "calc(1000px / 2) /* 500px */",
+                                "1:1 - 1:5",
+                                `/en-US/docs/Web/CSS/Guides/Values_and_units/Using_typed_arithmetic
 [CssSyntaxError] Unknown word calc (CssSyntaxError)
 ~~~
 calc(1000px / 2) /* 500px */
 calc(360deg / 4) /* 90deg */
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word calc (CssSyntaxError)",
-                            "calc(1000 / 2px) /* ?!? */",
-                            "1:1 - 1:5",
-                            `/en-US/docs/Web/CSS/CSS_values_and_units/Using_CSS_typed_arithmetic
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "CssSyntaxError",
+                                "Unknown word calc (CssSyntaxError)",
+                                "calc(1000 / 2px) /* ?!? */",
+                                "1:1 - 1:5",
+                                `/en-US/docs/Web/CSS/Guides/Values_and_units/Using_typed_arithmetic
 [CssSyntaxError] Unknown word calc (CssSyntaxError)
 ~~~
 calc(1000 / 2px) /* ?!? */
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word calc (CssSyntaxError)",
-                            "calc(100vw / 1px)",
-                            "1:1 - 1:5",
-                            `/en-US/docs/Web/CSS/CSS_values_and_units/Using_CSS_typed_arithmetic
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "CssSyntaxError",
+                                "Unknown word calc (CssSyntaxError)",
+                                "calc(100vw / 1px)",
+                                "1:1 - 1:5",
+                                `/en-US/docs/Web/CSS/Guides/Values_and_units/Using_typed_arithmetic
 [CssSyntaxError] Unknown word calc (CssSyntaxError)
 ~~~
 calc(100vw / 1px)
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "CssSyntaxError",
-                            "Unknown word calc (CssSyntaxError)",
-                            "calc(100vw / 1em)",
-                            "1:1 - 1:5",
-                            `/en-US/docs/Web/CSS/CSS_values_and_units/Using_CSS_typed_arithmetic
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "CssSyntaxError",
+                                "Unknown word calc (CssSyntaxError)",
+                                "calc(100vw / 1em)",
+                                "1:1 - 1:5",
+                                `/en-US/docs/Web/CSS/Guides/Values_and_units/Using_typed_arithmetic
 [CssSyntaxError] Unknown word calc (CssSyntaxError)
 ~~~
 calc(100vw / 1em)
 ~~~
 `
-                          ]
-                        },
-                        {
-                          message: "Stylelint backlog",
-                          data: [
-                            "lightness-notation",
-                            'Expected "75%" to be "75" (lightness-notation)',
-                            "    75% 50% calc((100 + (var(--viewport-in-pixels) / 10)) * 1deg)",
-                            "6:5 - 6:8",
-                            `/en-US/docs/Web/CSS/CSS_values_and_units/Using_CSS_typed_arithmetic
+                              ]
+                            },
+                            {
+                              message: "Stylelint backlog",
+                              data: [
+                                "lightness-notation",
+                                'Expected "75%" to be "75" (lightness-notation)',
+                                "    75% 50% calc((100 + (var(--viewport-in-pixels) / 10)) * 1deg)",
+                                "6:5 - 6:8",
+                                `/en-US/docs/Web/CSS/Guides/Values_and_units/Using_typed_arithmetic
 [lightness-notation] Expected "75%" to be "75" (lightness-notation)
 ~~~
 p {
@@ -31341,30 +32956,26 @@ p {
 }
 ~~~
 `
+                              ]
+                            }
                           ]
                         }
-                      ]
-                    }
-                  }
-                },
-                css_writing_modes: {
-                  children: {
-                    vertical_controls: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_writing_modes/Vertical_controls",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        },
-                        {
-                          message: "CSS code issue",
-                          data: [
-                            "declaration-property-value-no-unknown",
-                            'Unexpected unknown value "slider-vertical" for property "appearance" (declaration-property-value-no-unknown)',
-                            "  appearance: slider-vertical;",
-                            "3:15 - 3:30",
-                            `/en-US/docs/Web/CSS/CSS_writing_modes/Vertical_controls
+                      }
+                    },
+                    writing_modes: {
+                      children: {
+                        vertical_controls: {
+                          children: {},
+                          slug: "/en-US/docs/Web/CSS/Guides/Writing_modes/Vertical_controls",
+                          messages: [
+                            {
+                              message: "CSS code issue",
+                              data: [
+                                "declaration-property-value-no-unknown",
+                                'Unexpected unknown value "slider-vertical" for property "appearance" (declaration-property-value-no-unknown)',
+                                "  appearance: slider-vertical;",
+                                "3:15 - 3:30",
+                                `/en-US/docs/Web/CSS/Guides/Writing_modes/Vertical_controls
 [declaration-property-value-no-unknown] Unexpected unknown value "slider-vertical" for property "appearance" (declaration-property-value-no-unknown)
 ~~~
 input[type="range"] {
@@ -31373,37 +32984,22 @@ input[type="range"] {
 }
 ~~~
 `
+                              ]
+                            }
                           ]
                         }
-                      ]
-                    },
-                    writing_mode_systems: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSS_writing_modes/Writing_mode_systems",
-                      messages: [
-                        {
-                          message: "Unreachable via sidebar",
-                          data: []
-                        }
+                      }
+                    }
+                  },
+                  slug: "/en-US/docs/Web/CSS/Guides",
+                  messages: [
+                    {
+                      message: "Broken anchor",
+                      data: [
+                        "#related_concepts"
                       ]
                     }
-                  }
-                },
-                cssom_view: {
-                  children: {
-                    viewport_concepts: {
-                      children: {},
-                      slug: "/en-US/docs/Web/CSS/CSSOM_view/Viewport_concepts",
-                      messages: [
-                        {
-                          message: "Broken link",
-                          data: [
-                            "/en-US/docs/Web/API/Viewport_API"
-                          ]
-                        }
-                      ]
-                    }
-                  }
+                  ]
                 },
                 how_to: {
                   children: {
@@ -59809,6 +61405,26 @@ html.elements.textarea.disabled`
                             }
                           ]
                         },
+                        fetchpriority: {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTML/Reference/Attributes/fetchpriority",
+                          messages: [
+                            {
+                              message: "Missing specifications macro",
+                              data: []
+                            },
+                            {
+                              message: "Page status inconsistent with BCD",
+                              data: [
+                                [
+                                  "experimental",
+                                  "non-standard"
+                                ],
+                                []
+                              ]
+                            }
+                          ]
+                        },
                         rel: {
                           children: {
                             preload: {
@@ -60097,6 +61713,12 @@ html.elements.select.size`
                           message: "Broken link",
                           data: [
                             "/en-US/docs/Web/HTML/Reference/Attributes/width"
+                          ]
+                        },
+                        {
+                          message: "No link to child page",
+                          data: [
+                            "/en-US/docs/Web/HTML/Reference/Attributes/fetchpriority"
                           ]
                         }
                       ]
@@ -60793,6 +62415,18 @@ http.headers.Use-As-Dictionary`,
                   children: {
                     headers: {
                       children: {
+                        "activate-storage-access": {
+                          children: {},
+                          slug: "/en-US/docs/Web/HTTP/Reference/Headers/Activate-Storage-Access",
+                          messages: [
+                            {
+                              message: "Bad href",
+                              data: [
+                                "/docs/Web/API/Storage_Access_API#unpartitioned_versus_partitioned_cookies"
+                              ]
+                            }
+                          ]
+                        },
                         "permissions-policy": {
                           children: {
                             gamepad: {
@@ -61032,7 +62666,17 @@ http.headers.Use-As-Dictionary`,
                             }
                           ]
                         }
-                      }
+                      },
+                      slug: "/en-US/docs/Web/Media/Guides/Audio_and_video_delivery",
+                      messages: [
+                        {
+                          message: "Broken external link",
+                          data: [
+                            "https://videojs.org/",
+                            "The operation timed out."
+                          ]
+                        }
+                      ]
                     },
                     formats: {
                       children: {
